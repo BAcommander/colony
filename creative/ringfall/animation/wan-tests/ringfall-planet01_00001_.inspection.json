@@ -1,0 +1,16 @@
+{
+  "frames": 81,
+  "fps": 24.0,
+  "duration_seconds": 3.375,
+  "width": 768,
+  "height": 480,
+  "bytes": 250442,
+  "inspected_frames": [
+    0,
+    16,
+    32,
+    48,
+    64,
+    80
+  ]
+}

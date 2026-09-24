@@ -40,8 +40,8 @@ def graph(args):
         '2': node('CLIPLoader', clip_name='umt5_xxl_fp8_e4m3fn_scaled.safetensors', type='wan', device='cpu'),
         '3': node('VAELoader', vae_name='wan2.2_vae.safetensors'),
         '4': node('CLIPTextEncode', clip=['2', 0], text=Path(args.positive_file).read_text(encoding='utf8') if args.positive_file else POSITIVE),
-        '5': node('CLIPTextEncode', clip=['2', 0], text=NEGATIVE + ', searchlight beams, spotlight cones, light shafts, giant smoke plume'),
-        '6': node('LoadImage', image='ringfall-reference.png'),
+        '5': node('CLIPTextEncode', clip=['2', 0], text=Path(args.negative_file).read_text(encoding='utf8') if args.negative_file else NEGATIVE + ', searchlight beams, spotlight cones, light shafts, giant smoke plume'),
+        '6': node('LoadImage', image=args.name + '-reference.png'),
         '7': node('Wan22ImageToVideoLatent', vae=['3', 0], width=args.width, height=args.height,
                   length=args.frames, batch_size=1, start_image=['6', 0]),
         '8': node('ModelSamplingSD3', model=['1', 0], shift=8.0),
@@ -64,11 +64,13 @@ def main():
     p.add_argument('--steps', type=int, default=20)
     p.add_argument('--seed', type=int, default=24092026)
     p.add_argument('--positive-file')
+    p.add_argument('--negative-file')
+    p.add_argument('--input', default='creative/ringfall/04-laptop-refined.png')
     p.add_argument('--prepare-only', action='store_true')
     args = p.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(ROOT / 'creative/ringfall/04-laptop-refined.png',
-                 ROOT / '.local/ComfyUI/input/ringfall-reference.png')
+    shutil.copy2(ROOT / args.input,
+                 ROOT / '.local/ComfyUI/input' / (args.name + '-reference.png'))
     workflow = graph(args)
     (OUT / f'{args.name}-api.json').write_text(json.dumps(workflow, indent=2), encoding='utf8')
     if args.prepare_only:

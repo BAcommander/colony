@@ -50,8 +50,14 @@ Model prompt: A stationary close view of a ringed gas giant. Broad cream and och
 
 Negative prompt: Camera motion, zoom, pan, wobble, rotating planet silhouette, shifting rings, bending rings, expanding planet, texture boiling, melting, smeared clouds, flat sliding decal, sudden storms, lightning, glowing effects, exposure pulsing, light beams, added moons, added objects, text, watermark, cuts, fades.
 
-Full execution prompt and next-phase loop criteria: creative/ringfall/animation/next-planet-pass-prompt.md. The compositor and masks enforce boundaries; prompt wording alone does not. This experiment is planned, not yet built or validated.
+Full execution prompt and next-phase loop criteria: creative/ringfall/animation/next-planet-pass-prompt.md. The compositor and masks enforce boundaries; prompt wording alone does not. This experiment was executed and failed artistic review; see the completed findings below.
 
 ## Repository storage
 
 Commit source 2D art, refinements, prompts, scripts, masks, configurations and learning/validation reports. Keep .local/ runtimes/model weights, caches and experimental MP4/MOV/WebM outputs out of Git; they remain on disk. Reports may reference local-only video filenames. Decide large final video/music storage separately before adding large binaries. No music has been produced in this session. Preserve remote history and do not force-push.
+
+## Regional planet experiment — completed 2026-09-24
+
+Implemented scripts/planet_pass.py and input/negative-prompt options in scripts/run_wan_test.py. Crop, source hash, mask, prompts and review report are saved in creative/ringfall/animation/planet-pass/. Ran the authorized two candidates (196.20s and 200.846s). Both failed sampled-frame artistic review: candidate01 developed a dark blotch and drift; candidate02 had drift, scanline-like artifacts and bright-limb contamination inside the mask. Re-decoding candidate02's cached latent without tiling did not resolve the defects; no third generation was run.
+
+Masking/compositing works technically: zero source-pixel difference outside the atmosphere mask before encoding. A 720p full-scene preview and original/animated comparison were saved locally, 81frames/24fps/3.375seconds. This is a diagnostic deliverable, not accepted motion, a seamless loop or a 4K final. No continuous playback review was performed. Current next direction is to test cloud texture generation independent of the planet silhouette, then fixed-geometry mapping/shading or a controllable atmospheric simulation. That alternative is proposed, not yet implemented. Do not rerun the old planet-crop prompt assuming it passed.

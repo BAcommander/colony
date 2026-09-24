@@ -1,6 +1,6 @@
 # Next experiment: isolated planetary atmosphere
 
-Status: planned, not implemented or validated. This is the next local production task, not a request to generate another full-frame video. The user has requested documentation and Git publication first.
+Status: executed on 2026-09-24. Two candidates failed artistic review; masking passed preservation checks. See planet-pass/README.md. The following preserves the executed brief, not a successful recipe.
 
 ## Execution prompt for Codex
 
