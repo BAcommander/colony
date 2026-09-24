@@ -1,6 +1,10 @@
 # Ringfall Observatory — local animation
 
-## Current direction: regional AI motion
+## Latest review export: original ambience v7b
+
+The user rejected spacecraft. Current review exports are ringfall-ambient-v7b-preview.mp4 and ringfall-ambient-v7b-final.mp4: ten seconds,30fps,silent,4K final from upscaled source. Independent steam, laptop scan, moving colony ground-lights/windows and subtle procedural planetary clouds preserve the original scene. Numeric seam/static geometry checks pass; sampled-frame review completed, user artistic review pending. Prompt: [ambient-v7-prompt.md](ambient-v7-prompt.md). Renderer: scripts/render_ringfall_v7.py. Videos remain local.
+
+## Historical direction: regional AI motion
 
 No animation is approved as a final. v6 was rejected as too subtle. Two free local Wan tests produced more motion but distorted the scene; see [findings](wan-tests/README.md). The next task is the [isolated planet pass](next-planet-pass-prompt.md), not yet implemented. Experimental video files remain local and are excluded from Git; their settings and reports are tracked.
 

@@ -1,0 +1,22 @@
+{
+  "steam": {
+    "endpoint_identical": true,
+    "mean_rgb_change_0_to_2s": 3.699237215298668,
+    "seam_mean_rgb_change": 0.1609368285345939
+  },
+  "laptop": {
+    "endpoint_identical": true,
+    "mean_rgb_change_0_to_2s": 1.0574080391153562,
+    "seam_mean_rgb_change": 0.02854056512593098
+  },
+  "planet": {
+    "endpoint_identical": true,
+    "mean_rgb_change_0_to_2s": 0.7622193381427308,
+    "seam_mean_rgb_change": 0.017928061703711497
+  },
+  "colony": {
+    "endpoint_identical": true,
+    "mean_rgb_change_0_to_2s": 6.1874510324260115,
+    "seam_mean_rgb_change": 0.16858745924634164
+  }
+}
