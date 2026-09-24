@@ -1,0 +1,94 @@
+{
+  "version": "v6",
+  "status": "artistically_rejected_insufficient_visible_motion",
+  "source": "creative/ringfall/04-laptop-refined.png",
+  "brief": "creative/ringfall/animation/motion-brief-v6.md",
+  "duration_seconds": 10,
+  "fps": 30,
+  "preview_size": [
+    1280,
+    720
+  ],
+  "final_size": [
+    3840,
+    2160
+  ],
+  "camera": "locked",
+  "source_is_native_4k": false,
+  "network_generation_allowed": false,
+  "layers": [
+    {
+      "id": "planet_atmosphere",
+      "depth": "background",
+      "priority": 1,
+      "status": "implemented",
+      "required_masks": [
+        "planet_interior",
+        "foreground_rings",
+        "horizon_occlusion"
+      ],
+      "motion": "periodic constrained cloud-band flow; stable silhouette, rings and terminator"
+    },
+    {
+      "id": "colony_work_lights",
+      "depth": "background",
+      "priority": 2,
+      "status": "implemented",
+      "required_masks": [
+        "terrain_receivers",
+        "building_and_rock_occlusion"
+      ],
+      "motion": "two soft ground-light sweeps on ten-second patrol cycles"
+    },
+    {
+      "id": "window_reflections",
+      "depth": "midground",
+      "priority": 3,
+      "status": "implemented",
+      "required_masks": [
+        "window_glass",
+        "interior_occluders"
+      ],
+      "motion": "faint broad reflections driven by the work-light phases"
+    },
+    {
+      "id": "coffee_steam",
+      "depth": "foreground",
+      "priority": 4,
+      "status": "implemented",
+      "motion": "rising translucent volume with breakup and dissipation"
+    },
+    {
+      "id": "laptop_scan",
+      "depth": "foreground",
+      "priority": 5,
+      "status": "implemented",
+      "motion": "perspective-clipped scan and telemetry"
+    },
+    {
+      "id": "mast_beacon",
+      "depth": "background",
+      "priority": 6,
+      "status": "implemented",
+      "motion": "restrained amber cycle, independent phase"
+    }
+  ],
+  "visual_acceptance": [
+    "Planet and colony motion each visible in a full-scene 720p preview",
+    "Foreground, midground and background contribute without synchronized pulsing",
+    "No moving mask edges, bent rings, image-wide warp or exposure pumping",
+    "Crops and seam metrics are not substitutes for full-scene visual review"
+  ],
+  "technical_acceptance": [
+    "300 frames at 30 fps and ten-second duration",
+    "Per-layer and combined boundary continuity",
+    "No duplicated terminal frame",
+    "Static geometry preserved outside intended motion masks"
+  ],
+  "renderer": "scripts/render_ringfall_v6.py",
+  "configuration": "creative/ringfall/animation/scene-v6.json",
+  "masks": "creative/ringfall/animation/masks-v6",
+  "preview": "creative/ringfall/animation/ringfall-v6-b-preview.mp4",
+  "final": "creative/ringfall/animation/ringfall-v6-b-final.mp4",
+  "validation": "creative/ringfall/animation/ringfall-v6-b-final-validation.json"
+}

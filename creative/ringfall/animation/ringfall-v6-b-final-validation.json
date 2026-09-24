@@ -1,0 +1,37 @@
+{
+  "source": "creative\\ringfall\\04-laptop-refined.png",
+  "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+  "output": "creative\\ringfall\\animation\\ringfall-v6-b-final.mp4",
+  "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "output_dimensions": [
+    3840,
+    2160
+  ],
+  "resolution_note": "3840x2160 export resampled from 1672x941 source; no claim of native 4K image detail",
+  "fps": 30.0,
+  "frames": 300,
+  "duration_seconds": 10.0,
+  "audio": false,
+  "periodic_endpoint_pixels_identical": true,
+  "uncompressed_static_plate_unchanged": true,
+  "analytic_active_pixel_mean_abs_step": 0.09740701746382442,
+  "analytic_active_pixel_max_mean_abs_step": 0.11614897847175598,
+  "analytic_active_pixel_seam_mean_abs_step": 0.0949617251753807,
+  "encoded_active_pixel_mean_abs_step": 0.15009876961094082,
+  "encoded_active_pixel_max_mean_abs_step": 0.16839629411697388,
+  "encoded_active_pixel_seam_mean_abs_step": 0.14936761558055878,
+  "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+  "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+  "effects": {
+    "planet_atmosphere": "Masked periodic cloud-detail advection with fixed shading, rings and silhouette",
+    "colony_work_lights": "Two textured warm pools sweeping over terrain with occlusion masks",
+    "window_reflections": "Broad faint glass reflections driven by the work-light phases",
+    "coffee_steam": "Overlapping advected vapor volumes with continuous birth and dissipation",
+    "laptop_scan": "Perspective-confined scan and telemetry",
+    "mast_beacon": "Independent slow amber cycle"
+  }
+}

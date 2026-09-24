@@ -1,0 +1,37 @@
+{
+  "source": "creative\\ringfall\\04-laptop-refined.png",
+  "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+  "output": "creative\\ringfall\\animation\\ringfall-loop-v1.mp4",
+  "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "output_dimensions": [
+    1920,
+    1080
+  ],
+  "resolution_note": "Source gently resampled to 1920x1080; not native 4K",
+  "fps": 30.0,
+  "frames": 300,
+  "duration_seconds": 10.0,
+  "audio": false,
+  "periodic_endpoint_pixels_identical": true,
+  "uncompressed_static_plate_unchanged": true,
+  "analytic_active_pixel_mean_abs_step": 0.009125501618262716,
+  "analytic_active_pixel_max_mean_abs_step": 0.011336413212120533,
+  "analytic_active_pixel_seam_mean_abs_step": 0.00855578389018774,
+  "encoded_active_pixel_mean_abs_step": 0.02156144685624323,
+  "encoded_active_pixel_max_mean_abs_step": 0.6634436249732971,
+  "encoded_active_pixel_seam_mean_abs_step": 0.700940728187561,
+  "loop_boundaries_checked_in_three_repetitions": [
+    300,
+    600
+  ],
+  "note": "Repeated playback uses the same verified last-to-first transition. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+  "effects": {
+    "steam": "Three soft periodically advected ribbons above mug",
+    "laptop": "Small dim amber telemetry waveform",
+    "background": "Existing mast lamp modulated by a ten-second sine"
+  }
+}

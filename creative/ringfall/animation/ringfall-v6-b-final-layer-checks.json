@@ -1,0 +1,44 @@
+{
+  "planet_atmosphere": {
+    "mean_0_to_2s_change_in_mask": 4.358457088470459,
+    "pixels_changing_by_over_3_levels": 13733,
+    "seam_mean_rgb_change": 0.27549684047698975,
+    "periodic_endpoint_identical": true,
+    "no_change_outside_layer_mask": true
+  },
+  "colony_work_lights": {
+    "mean_0_to_2s_change_in_mask": 37.15730285644531,
+    "pixels_changing_by_over_3_levels": 22411,
+    "seam_mean_rgb_change": 0.4786371886730194,
+    "periodic_endpoint_identical": true,
+    "no_change_outside_layer_mask": true
+  },
+  "window_reflections": {
+    "mean_0_to_2s_change_in_mask": 0.236698180437088,
+    "pixels_changing_by_over_3_levels": 954,
+    "seam_mean_rgb_change": 0.004416622221469879,
+    "periodic_endpoint_identical": true,
+    "no_change_outside_layer_mask": true
+  },
+  "coffee_steam": {
+    "mean_0_to_2s_change_in_mask": 1.0182312726974487,
+    "pixels_changing_by_over_3_levels": 1303,
+    "seam_mean_rgb_change": 0.11566893756389618,
+    "periodic_endpoint_identical": true,
+    "no_change_outside_layer_mask": true
+  },
+  "laptop_scan": {
+    "mean_0_to_2s_change_in_mask": 1.0010234117507935,
+    "pixels_changing_by_over_3_levels": 1240,
+    "seam_mean_rgb_change": 0.005585877690464258,
+    "periodic_endpoint_identical": true,
+    "no_change_outside_layer_mask": true
+  },
+  "mast_beacon": {
+    "mean_0_to_2s_change_in_mask": 4.603316307067871,
+    "pixels_changing_by_over_3_levels": 130,
+    "seam_mean_rgb_change": 0.08205782622098923,
+    "periodic_endpoint_identical": true,
+    "no_change_outside_layer_mask": true
+  }
+}

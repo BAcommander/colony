@@ -1,0 +1,16 @@
+{
+  "config": "creative\\ringfall\\animation\\scene-v6.json",
+  "config_sha256": "ca17ce706bc083ec1db4200661cd632905f1d17c3f5585e6abbde89a43df750f",
+  "renderer_sha256": "054636dd7dbb83529b1bb65d7982ed460f9fd7c4911f21f001a6720818b1e0f7",
+  "enabled_layers": [
+    "coffee_steam",
+    "colony_work_lights",
+    "laptop_scan",
+    "mast_beacon",
+    "planet_atmosphere",
+    "window_reflections"
+  ],
+  "output": "creative\\ringfall\\animation\\ringfall-v6-b-preview.mp4",
+  "source_is_native_4k": false,
+  "stage": "preview"
+}

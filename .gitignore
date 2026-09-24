@@ -1,0 +1,8 @@
+.local/
+__pycache__/
+*.pyc
+
+# Local render outputs; prompts, masks, reports and original 2D art are tracked.
+*.mp4
+*.mov
+*.webm

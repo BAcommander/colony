@@ -1,0 +1,144 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "wan2.2_ti2v_5B_fp16.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "type": "wan",
+      "device": "cpu"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "wan2.2_vae.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "text": "A stationary tripod shot through the window of a lunar observatory. The giant planet's striped atmosphere is visibly alive: broad ivory and tan cloud bands stream horizontally, slowly rolling and curling into one another across its surface. The planetary disc stays in exactly the same position and its rings hold their shape. On the far left desk, a small ribbon of transparent steam curls upward from the black coffee mug, dissipating before reaching the lamp. The laptop display updates gently. The distant colony's small amber windows glow steadily. All furniture, architecture, terrain and the camera remain perfectly still. Restrained cinematic realism, warm dim room, crisp rocky landscape, soft natural atmospheric movement on the planet. Continuous single shot.\n"
+    }
+  },
+  "5": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "text": "camera movement, zoom, pan, shake, cuts, static video, frozen motion, timelapse, flicker, exposure changes, melting furniture, warped window, changing architecture, distorted planetary rings, extra mug handles, people, text overlays, watermark, smoke filling room, dust outside, oversaturation, cartoon, searchlight beams, spotlight cones, light shafts, giant smoke plume"
+    }
+  },
+  "6": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "ringfall-reference.png"
+    }
+  },
+  "7": {
+    "class_type": "Wan22ImageToVideoLatent",
+    "inputs": {
+      "vae": [
+        "3",
+        0
+      ],
+      "width": 832,
+      "height": 480,
+      "length": 81,
+      "batch_size": 1,
+      "start_image": [
+        "6",
+        0
+      ]
+    }
+  },
+  "8": {
+    "class_type": "ModelSamplingSD3",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "shift": 8.0
+    }
+  },
+  "9": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "8",
+        0
+      ],
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "latent_image": [
+        "7",
+        0
+      ],
+      "seed": 24092026,
+      "steps": 20,
+      "cfg": 5.0,
+      "sampler_name": "uni_pc",
+      "scheduler": "simple",
+      "denoise": 1.0
+    }
+  },
+  "10": {
+    "class_type": "VAEDecodeTiled",
+    "inputs": {
+      "samples": [
+        "9",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ],
+      "tile_size": 256,
+      "overlap": 64,
+      "temporal_size": 16,
+      "temporal_overlap": 4
+    }
+  },
+  "11": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "fps": 24.0
+    }
+  },
+  "12": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "11",
+        0
+      ],
+      "filename_prefix": "ringfall-wan-test02",
+      "format": "mp4",
+      "codec": {
+        "codec": "h264"
+      }
+    }
+  }
+}
