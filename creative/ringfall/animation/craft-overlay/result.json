@@ -1,0 +1,241 @@
+{
+  "prompt": [
+    5,
+    "60e1027d-7dd6-41ce-bbc4-a89a7f0a38f4",
+    {
+      "1": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "craft-test-background.png"
+        }
+      },
+      "2": {
+        "class_type": "RepeatImageBatch",
+        "inputs": {
+          "image": [
+            "1",
+            0
+          ],
+          "amount": 120
+        }
+      },
+      "3": {
+        "class_type": "LoadVideo",
+        "inputs": {
+          "file": "craft-test-rgb.mkv"
+        }
+      },
+      "4": {
+        "class_type": "GetVideoComponents",
+        "inputs": {
+          "video": [
+            "3",
+            0
+          ]
+        }
+      },
+      "5": {
+        "class_type": "LoadVideo",
+        "inputs": {
+          "file": "craft-test-matte.mkv"
+        }
+      },
+      "6": {
+        "class_type": "GetVideoComponents",
+        "inputs": {
+          "video": [
+            "5",
+            0
+          ]
+        }
+      },
+      "7": {
+        "class_type": "ImageToMask",
+        "inputs": {
+          "image": [
+            "6",
+            0
+          ],
+          "channel": "red"
+        }
+      },
+      "8": {
+        "class_type": "ImageCompositeMasked",
+        "inputs": {
+          "destination": [
+            "2",
+            0
+          ],
+          "source": [
+            "4",
+            0
+          ],
+          "mask": [
+            "7",
+            0
+          ],
+          "x": 0,
+          "y": 0,
+          "resize_source": false
+        }
+      },
+      "9": {
+        "class_type": "CreateVideo",
+        "inputs": {
+          "images": [
+            "8",
+            0
+          ],
+          "fps": 24.0
+        }
+      },
+      "10": {
+        "class_type": "SaveVideo",
+        "inputs": {
+          "video": [
+            "9",
+            0
+          ],
+          "filename_prefix": "craft-overlay-test",
+          "format": "mp4",
+          "codec": {
+            "codec": "h264",
+            "encoding": {
+              "encoding": "re-encode",
+              "crf": 17
+            }
+          }
+        }
+      },
+      "11": {
+        "class_type": "ImageFromBatch",
+        "inputs": {
+          "image": [
+            "8",
+            0
+          ],
+          "batch_index": 60,
+          "length": 1
+        }
+      },
+      "12": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "11",
+            0
+          ],
+          "filename_prefix": "craft-overlay-midpoint"
+        }
+      }
+    },
+    {
+      "create_time": 1790254418928
+    },
+    [
+      "12",
+      "10"
+    ]
+  ],
+  "outputs": {
+    "5": {
+      "images": [
+        {
+          "filename": "craft-test-matte.mkv",
+          "subfolder": "",
+          "type": "input"
+        }
+      ],
+      "animated": [
+        true
+      ]
+    },
+    "3": {
+      "images": [
+        {
+          "filename": "craft-test-rgb.mkv",
+          "subfolder": "",
+          "type": "input"
+        }
+      ],
+      "animated": [
+        true
+      ]
+    },
+    "12": {
+      "images": [
+        {
+          "filename": "craft-overlay-midpoint_00001_.png",
+          "subfolder": "",
+          "type": "output"
+        }
+      ]
+    },
+    "10": {
+      "images": [
+        {
+          "filename": "craft-overlay-test_00001_.mp4",
+          "subfolder": "",
+          "type": "output"
+        }
+      ],
+      "animated": [
+        true
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "60e1027d-7dd6-41ce-bbc4-a89a7f0a38f4",
+          "timestamp": 1790254418929
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "60e1027d-7dd6-41ce-bbc4-a89a7f0a38f4",
+          "timestamp": 1790254418936
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "60e1027d-7dd6-41ce-bbc4-a89a7f0a38f4",
+          "timestamp": 1790254425636
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "5": {
+      "node_id": "5",
+      "display_node": "5",
+      "parent_node": null,
+      "real_node_id": "5"
+    },
+    "3": {
+      "node_id": "3",
+      "display_node": "3",
+      "parent_node": null,
+      "real_node_id": "3"
+    },
+    "12": {
+      "node_id": "12",
+      "display_node": "12",
+      "parent_node": null,
+      "real_node_id": "12"
+    },
+    "10": {
+      "node_id": "10",
+      "display_node": "10",
+      "parent_node": null,
+      "real_node_id": "10"
+    }
+  }
+}

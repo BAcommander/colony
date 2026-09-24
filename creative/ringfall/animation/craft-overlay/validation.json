@@ -1,0 +1,15 @@
+{
+  "frames": 120,
+  "fps": 24.0,
+  "size": [
+    1280,
+    720
+  ],
+  "duration_seconds": 5.0,
+  "lossless_comfy_midpoint_max_change_outside_matte": 0,
+  "source_unchanged": true,
+  "silent": true,
+  "loop": false,
+  "review": "Six path samples, actual lossless Comfy midpoint and decoded MP4 midpoint; no continuous playback review.",
+  "limits": "Rigid 2D cutout; no changing perspective, cast shadow or glass reflection. User artistic review pending."
+}
