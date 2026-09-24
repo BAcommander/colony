@@ -1,0 +1,49 @@
+{
+  "status": "planned",
+  "scene_name": "REPLACE",
+  "source": {
+    "path": "REPLACE",
+    "sha256": "REPLACE",
+    "dimensions": []
+  },
+  "output": {
+    "duration_seconds": 20,
+    "fps": 30,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "audio": false,
+    "version": "v1"
+  },
+  "protected_geometry": [],
+  "principal_motion": [],
+  "layers": [
+    {
+      "name": "REPLACE",
+      "method": "local procedural overlay",
+      "source_anchor_xy": [],
+      "roi_xyxy": [],
+      "mask_path": "REPLACE",
+      "occluders": [],
+      "parameters": {},
+      "loop_method": "REPLACE",
+      "visual_acceptance": "Readable at normal full-scene size; attached and geometrically stable"
+    }
+  ],
+  "review": {
+    "inspection_performed": [],
+    "technical_report": "",
+    "user_feedback": "",
+    "approved": false
+  },
+  "delivery": {
+    "final_path": "",
+    "final_sha256": "",
+    "tracked_in_git": false
+  }
+}

@@ -1,5 +1,9 @@
 # Ringfall Observatory — local animation
 
+## Approved final
+
+User-approved on 2026-09-24: [4K v9b MP4](ringfall-ambient-v9b-20s-final.mp4). Twenty seconds, 30 fps, silent; upscaled source artwork. This final video is tracked in Git at the user's request. See [acceptance and hash](approved-v9b.json). V9b is the accepted reference for future scenes. Earlier sections below describe historical review states; draft videos remain local.
+
 ## Latest review export: v9b colony exhaust and ring material
 
 Twenty seconds, 600 frames, 30 fps, silent. Local exports: ringfall-ambient-v9b-20s-preview.mp4 and ringfall-ambient-v9b-20s-final.mp4 (3840x2160, upscaled source art). Original still left/candidate right: ringfall-v9b-original-comparison.mp4. Adds two directed roof exhaust plumes, four independently scheduled window on/off states and angular ring-material texture transport through a fixed mask. Preserves previous ambient layers and exports.

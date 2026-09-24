@@ -1,0 +1,27 @@
+{
+  "status": "user-approved",
+  "approval_date": "2026-09-24",
+  "user_feedback": "ok i think this is finally good",
+  "file": "creative/ringfall/animation/ringfall-ambient-v9b-20s-final.mp4",
+  "bytes": 34921944,
+  "sha256": "eb723ce79517a8a5659e92709e69d70339a8e318cb68214111c259e15c05f8d2",
+  "duration_seconds": 20,
+  "fps": 30,
+  "frames": 600,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "audio": false,
+  "source": "creative/ringfall/04-laptop-refined.png",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "resolution_note": "Upscaled artwork; not native 4K source detail",
+  "renderer": "scripts/render_ringfall_v9.py",
+  "brief": "creative/ringfall/animation/ambient-v9-final-brief.md",
+  "validation": "creative/ringfall/animation/ringfall-ambient-v9b-20s-final-validation.json",
+  "agent_inspection": "Temporal samples and decoded final frame; no continuous playback review claimed",
+  "storage": "Tracked in ordinary Git by explicit user request"
+}

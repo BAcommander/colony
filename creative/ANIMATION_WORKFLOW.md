@@ -1,45 +1,48 @@
-# Local animation workflow
+# Reusable local animation workflow
 
-## Current direction: regional AI plus local compositing
+## Approved baseline
 
-Use AGENTS.md as the current authority and apply its workflow to each new selected image. This hybrid approach is planned; its first regional AI experiment has not yet been validated. The hand-composited v6 and both full-frame Wan tests failed artistic review.
+Ringfall v9b was approved by the user on 2026-09-24. Use local masked procedural overlays as the default, not whole-scene or cropped video diffusion. The accepted export is ringfall/animation/ringfall-ambient-v9b-20s-final.mp4. Its source, brief, renderer, masks, settings, checks and approved-v9b.json are the reference package. Prior AI-video experiments are historical failures for this scene, not pending next steps.
 
-Keep an immutable master plate. Define one principal motion region and protected geometry. Crop and generate complex organic motion locally, then composite only the accepted area through inspected masks. Preserve foreground occluders from the source. Use procedural methods where placement and repeatability matter, such as mug steam and screen activity. Full-frame Wan generation is not the default: both initial tests changed objects and geometry.
+## Start a new scene efficiently
 
-For each scene, record crop coordinates, aspect-preserving padding, registration transforms if any, source hashes, masks, prompt/negative prompt, seed/model/settings, runtime, raw generation and composite command. Inspect the generated region before compositing: masks cannot repair boiling or deformed texture inside the accepted area. Prototype the principal motion alone before adding supporting effects.
+Copy scene-plan-template.json into the new scene's animation directory and fill it out. Preserve the original still and calculate its SHA-256. Choose plausible principal motion before touching code. Identify static architecture, furniture, silhouettes, foreground occluders and areas that must not change. Map coordinates at source resolution, not preview resolution. Do not reuse Ringfall's positions or masks on another image.
 
-Start with a short generation benchmark and a full-scene preview. After visual success, construct a ten-second loop. Generated footage needs a checked region-only transition with no ghosting or speed jump; prompting for a loop is insufficient. Procedural layers use periodic timing. Only then finish at 4K. The next concrete task is [Ringfall's planet pass](ringfall/animation/next-planet-pass-prompt.md).
+Reuse the effect logic and encoder. Current Ringfall code is source-specific; adapting a new scene still requires remapping and configuring effects. Move new tunable values into its scene configuration rather than repeatedly forking renderers. Share one duration, phase convention and layer stack between preview and final.
 
-For future concepts, include plausible, readable motion sources and clear separation from protected objects. Source quality, temporal quality and spatial resolution are separate concerns. Record failures and do not call a method proven until its output passes inspection.
+| Effect | Successful technique | Avoid |
+| --- | --- | --- |
+| Steam/exhaust | Anchored evolving density, forward transport, expanding width, smooth birth/dissipation | Static translucent stamp, visible reset, plume detached from source |
+| Window lighting | Whole-aperture mask, staggered off/on holds, coupled small spill | Only dimming warm pixels, leaving white cores lit, synchronized pulsing |
+| Ring material | Coherent angular texture transport through fixed band mask | Invisible brightness shimmer, shifting outlines, moving sky/gaps |
+| Planet | Low-contrast independent texture under protected geometry/shading | Whole-disc deformation, terminator drift, ring contamination |
+| Screen | Perspective-confined telemetry/scan on original display | Replacing screen layout, moving bezel, global brightness changes |
 
-## Defaults
+Not every scene needs every effect. Preserve quiet areas and make the main motion readable at normal viewing size. Respect scene physics; directed vent exhaust is the artistic interpretation for this airless scene.
 
-Local generation, compositing and MP4 rendering are the default. Free local models are authorized; no paid plugins, paid external generation or separate credits. Use existing source art and installed local tools. Update AGENTS.md with the active brief and durable user feedback. Keep proposals, implemented features, technically verified results and user-approved results distinct.
+## Preview, refine, export
 
-## Scene package
+1. Prototype the principal layer first and inspect its mask at full composition and close range. Retain working secondary effects.
+2. Render a 1280x720, twenty-second, 30 fps preview using the actual effect timeline. Save settings and temporal samples. Compare with the original still when helpful.
+3. Review readable motion, realism, attachment, occlusion, lamp spill, stable exposure and geometry. Use playback when available; otherwise state that only temporal samples were inspected. Fix the largest concrete defect, not all amplitudes at once.
+4. Verify 600 decoded frames, exactly twenty seconds, correct dimensions/fps, no audio, a distinct full-length cycle, unchanged source pixels outside active masks before encoding, and periodic endpoints. Check both individual layers and the encoded seam against ordinary adjacent-frame changes. Endpoint equality alone does not establish continuous motion. Inspect three repetitions in playback when possible. No duplicate endpoint, ping-pong or full-frame fade.
+5. Export 3840x2160 only after available visual checks pass. Use the same source, timings, masks and effect strengths as preview. Inspect a decoded final frame and validate again. Disclose source upscaling. Do not rerender an approved export just for documentation.
+6. Deliver the actual MP4, record the user's verdict, and make the accepted version the next baseline. User approval and technical checks are separate facts.
 
-Each scene should contain a source image, an animation brief, a versioned motion plan, reusable masks, previews, finals, and a short render report. Record source hash, dimensions, frame rate, duration, render command, renderer version, parameter values and output paths. Keep coordinate data and tunable motion parameters in the scene configuration as the layered implementation develops; avoid copying a whole renderer merely to change an amplitude or output resolution.
+## Reproduce Ringfall
 
-## Work in this order
+From repository root, with Python plus NumPy, Pillow, OpenCV and imageio-ffmpeg installed:
 
-1. **Read feedback and identify the visual failure.** Write a concrete correction, such as "the colony needs visible activity across the ground", not "make it 500% better".
-2. **Map the scene into depth and motion layers.** Identify a principal motion region, secondary activity and quiet regions. For Ringfall, the atmosphere and colony are the background priorities. Keep a motion-freeze list for geometry that must remain fixed.
-3. **Build the largest missing effect first.** Reuse validated steam and screen work, but do not spend the revision only on those when the user has criticized the background.
-4. **Render a lightweight full-scene preview.** Default 1280x720, ten seconds, 30 fps. Render at the draft size, not 4K followed by downsampling. Cache the static plate and prepared masks. Use the same effect logic and time base for preview and final.
-5. **Review visual quality before resolution.** Inspect the complete scene at its intended viewing scale and temporal samples across the loop. Use playback when available. Detail crops and change heatmaps diagnose defects; they do not prove that the full shot feels alive. State exactly what was inspected; do not claim playback review from a contact sheet alone.
-6. **Check technical continuity separately.** Validate duration, dimensions, decoded frame count, last-to-first position/brightness/motion continuity, and masking invariants. Measure individual layers as well as aggregate changes so one moving region cannot hide a static background. Do not weaken a failing test to label a render seamless.
-7. **Iterate on the most important defect.** Change the appropriate layer and render a new preview. Reuse existing checked assets and do not repeat unrelated checks. Ordinary reversible revisions do not require another permission request.
-8. **Export once the draft works.** Render 3840x2160 only after the visual draft meets its brief. Keep the same duration, phase, layer order and amplitudes. Validate the encoded final and inspect a decoded full-scene frame. Tell the user if the source was upscaled.
-9. **Deliver and capture feedback.** Show the actual MP4. Summarize visible changes and remaining limitations. A technically valid render is not automatically artistically successful; record user criticism as the latest authoritative feedback.
+```powershell
+python scripts/render_ringfall_v9.py --qa-only
+python scripts/render_ringfall_v9.py --stage preview
+python scripts/render_ringfall_v9.py --stage final
+```
 
-## Two separate quality gates
+The approved final is already in Git; play it directly. Rendering refuses to overwrite existing video destinations. For a deliberate new revision, select a new output stem in a working copy of the renderer before rendering; preserve the approved export and renderer. The current CLI is not a generic new-scene interface. It depends on render_ringfall_v8.py, render_ringfall_v7.py, render_ringfall_v6.py, render_ringfall.py and scene-v6.json. Current source coordinates require the 1672x941 Ringfall master.
 
-**Visual gate:** the intended foreground/background activity reads at normal size; hierarchy is calm and convincing; masks and lighting are coherent; the revision addresses the user's actual criticism.
+## Save once, reuse next time
 
-**Technical gate:** duration, frame count, resolution, encoding and seam continuity pass. Static geometry remains fixed and files are reproducible.
+Each accepted scene package needs source/hash, creative brief, scene configuration, masks/source anchors, renderer and dependencies, preview/final settings, validation, user feedback and an approved manifest with final file hash. Keep the latest decision at the top of AGENTS.md/scene README; archive old chronology rather than leaving contradictory next steps active.
 
-Both gates matter. More effects, a larger file, a 4K label, or larger numerical opacity values are not evidence of better art.
-
-## Tooling currently available
-
-`scripts/render_ringfall_v6.py` implements the layered scene: atmosphere detail advection, masked colony work-lights, linked glass reflections, volumetric steam, laptop activity and beacon. Use `--stage preview` or `--stage final`, `--version`, `--qa-only`, and `--only` with one or more layer names. It reuses the prior renderer's foreground and encoding functions. `creative/ringfall/animation/scene-v6.json` contains parameters and mask geometry; `motion-plan-v6.json` records implementation status. Saved reports contain per-layer mask/phase checks and aggregate decoded loop checks. Source image and earlier exports remain intact.
+Commit source art, supporting assets, scripts, prompts, configuration, masks, reports and approved final video. Ringfall's approximately 35 MB approved MP4 is tracked in ordinary Git through an explicit ignore exception. Draft videos, weights, runtimes and caches stay local. For larger future finals, check storage limits and choose a suitable strategy before pushing. Do not assume an approved final is backed up merely because its settings were pushed.

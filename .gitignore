@@ -6,3 +6,6 @@ __pycache__/
 *.mp4
 *.mov
 *.webm
+
+# User-approved final delivery, explicitly stored in Git.
+!creative/ringfall/animation/ringfall-ambient-v9b-20s-final.mp4

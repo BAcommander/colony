@@ -2,6 +2,12 @@
 
 Last updated: 2026-09-24.
 
+## Current approved state
+
+The user approved Ringfall v9b as finally good and requested that the final 4K video be pushed too. Approved file: creative/ringfall/animation/ringfall-ambient-v9b-20s-final.mp4 (20 seconds, 30 fps, 3840x2160, silent, upscaled source art). It is tracked in Git, with hash and acceptance in approved-v9b.json beside it. Local procedural compositing is the accepted default. AGENTS.md and creative/ANIMATION_WORKFLOW.md now provide the concise reusable process; creative/scene-plan-template.json captures new scene parameters. Current renderers still require scene-specific coordinates; this is not yet a generic one-command renderer.
+
+The sections below retain historical chronology. Earlier pending-review, no-final, regional-AI-next-step and local-only-final statements are superseded by this approval and storage decision.
+
 ## Confirmed by the user
 
 - Channel: https://www.youtube.com/@ambientcolony
