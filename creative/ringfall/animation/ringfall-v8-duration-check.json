@@ -1,0 +1,6 @@
+{
+  "baseline_10s_periodicity_preserved": true,
+  "v8_20s_endpoint_identical": true,
+  "v8_not_duplicate_of_two_10s_clips": true,
+  "pixels_different_0_vs_10s": 68036
+}

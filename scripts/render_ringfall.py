@@ -173,10 +173,10 @@ def render(anim, destination):
 
 def validate(anim, destination):
     a = anim.frame(0, False)
-    b = anim.frame(10, False)
+    b = anim.frame(DURATION, False)
     outside = ~anim.active
     assert np.array_equal(a, b), "Analytic loop endpoint mismatch"
-    for t in [0, 1.37, 4.2, 8.8, 10]:
+    for t in [0, DURATION*.137, DURATION*.42, DURATION*.88, DURATION]:
         assert np.array_equal(anim.frame(t, False)[outside], anim.base[outside]), "Static plate changed"
     # Measure differences on active pixels, not diluted by the static image.
     def diff(x, y):

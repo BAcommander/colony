@@ -1,0 +1,41 @@
+{
+  "duration": 20,
+  "fps": 30,
+  "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+  "ring_box": [
+    1348,
+    90,
+    1655,
+    292
+  ],
+  "ring_drift_amplitudes": [
+    0.065,
+    0.025
+  ],
+  "colony_sequence": [
+    [
+      1225,
+      444
+    ],
+    [
+      1271,
+      446
+    ],
+    [
+      1368,
+      449
+    ],
+    [
+      1473,
+      449
+    ],
+    [
+      1526,
+      458
+    ]
+  ],
+  "baseline": "v7b",
+  "method": "v7 inherited layers plus ring material drift and colony service-light sequence",
+  "steam": "10-second upward transport with20-second density envelope",
+  "artistic_status": "pending user review"
+}

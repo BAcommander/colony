@@ -1,8 +1,14 @@
 # Ringfall Observatory — local animation
 
-## Latest review export: original ambience v7b
+## Latest review export: twenty-second ambience v8
 
-The user rejected spacecraft. Current review exports are ringfall-ambient-v7b-preview.mp4 and ringfall-ambient-v7b-final.mp4: ten seconds,30fps,silent,4K final from upscaled source. Independent steam, laptop scan, moving colony ground-lights/windows and subtle procedural planetary clouds preserve the original scene. Numeric seam/static geometry checks pass; sampled-frame review completed, user artistic review pending. Prompt: [ambient-v7-prompt.md](ambient-v7-prompt.md). Renderer: scripts/render_ringfall_v7.py. Videos remain local.
+Exports: ringfall-ambient-v8-20s-preview.mp4 and ringfall-ambient-v8-20s-final.mp4. Twenty seconds, 600 frames, 30 fps, silent; 3840x2160 final upscaled from the original artwork. Adds slow material variation within the lit ring bands and five phased distant colony lights. Retains steam, laptop telemetry, planetary cloud detail and colony ground lighting. Ring geometry stays fixed. This is a genuine twenty-second cycle, not two repeated ten-second clips.
+
+Numeric endpoint, static-region and encoded seam checks passed. Sampled frames, including a decoded final frame, were inspected; continuous playback and user artistic review remain pending. Prompt: [ambient-v8-20s-prompt.md](ambient-v8-20s-prompt.md). Renderer: ../../../scripts/render_ringfall_v8.py. Videos remain local; reusable code, settings and reports are versioned.
+
+## Preferred baseline: original ambience v7b
+
+The user rejected spacecraft, then described v7b as much improved, subtle and without broken or janky motion. Preserved baseline exports are ringfall-ambient-v7b-preview.mp4 and ringfall-ambient-v7b-final.mp4: ten seconds,30fps,silent,4K final from upscaled source. Independent steam, laptop scan, moving colony ground-lights/windows and subtle procedural planetary clouds preserve the original scene. Numeric seam/static geometry checks pass. Prompt: [ambient-v7-prompt.md](ambient-v7-prompt.md). Renderer: scripts/render_ringfall_v7.py. Videos remain local.
 
 ## Historical direction: regional AI motion
 
