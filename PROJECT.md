@@ -85,3 +85,7 @@ User accepted v7b as a much-improved, subtle, unbroken direction, then requested
 ## Latest creative decision: v9 brief (2026-09-24)
 
 User rates v8 about 6/10 and finds ring motion invisible. Saved creative/ringfall/animation/ambient-v9-final-brief.md: visible vent exhaust, individual colony lights turning on/off and readable ring-material transport. Updated AGENTS.md. Proposed only; no new render this turn. Retain twenty-second free/local workflow, compare at normal viewing size before 4K, preserve prior exports.
+
+## Ringfall v9b implementation — 2026-09-24
+
+Implemented the final revised brief with local overlays: two colony exhaust plumes, four individually scheduled existing-window states, and stronger angular ring texture transport. Initial v9 window-core defect corrected in v9b. Current renderer: scripts/render_ringfall_v9.py. Exports: ringfall-ambient-v9b-20s-preview.mp4 and ringfall-ambient-v9b-20s-final.mp4; comparison: ringfall-v9b-original-comparison.mp4. Prior versions retained. Preview numeric checks passed; temporal samples inspected, no continuous playback review. User artistic approval remains pending, and 4K uses upscaled source artwork.

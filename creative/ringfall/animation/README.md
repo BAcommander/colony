@@ -1,5 +1,11 @@
 # Ringfall Observatory — local animation
 
+## Latest review export: v9b colony exhaust and ring material
+
+Twenty seconds, 600 frames, 30 fps, silent. Local exports: ringfall-ambient-v9b-20s-preview.mp4 and ringfall-ambient-v9b-20s-final.mp4 (3840x2160, upscaled source art). Original still left/candidate right: ringfall-v9b-original-comparison.mp4. Adds two directed roof exhaust plumes, four independently scheduled window on/off states and angular ring-material texture transport through a fixed mask. Preserves previous ambient layers and exports.
+
+Renderer: ../../../scripts/render_ringfall_v9.py. Brief: [v9](ambient-v9-final-brief.md). Preview and final numeric checks passed: duration, frame count, periodic endpoint, static pixels before encoding and seam within ordinary motion. Full-scene and enlarged temporal samples inspected; no continuous playback review or user artistic approval yet. Initial v9 left white window cores lit; v9b corrects that aperture mask. Initial v9 artifacts are historical drafts, not current exports. Videos stay local; code, masks, settings and reports are tracked.
+
 ## Latest review export: twenty-second ambience v8
 
 Exports: ringfall-ambient-v8-20s-preview.mp4 and ringfall-ambient-v8-20s-final.mp4. Twenty seconds, 600 frames, 30 fps, silent; 3840x2160 final upscaled from the original artwork. Adds slow material variation within the lit ring bands and five phased distant colony lights. Retains steam, laptop telemetry, planetary cloud detail and colony ground lighting. Ring geometry stays fixed. This is a genuine twenty-second cycle, not two repeated ten-second clips.

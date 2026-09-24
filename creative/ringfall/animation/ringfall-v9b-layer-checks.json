@@ -1,0 +1,28 @@
+{
+  "rings": {
+    "endpoint_equal": true,
+    "two_second_mean_change": 2.0397920899581816,
+    "first_step": 0.05135937046473377,
+    "seam_step": 0.05095086055836854
+  },
+  "exhaust_main": {
+    "endpoint_equal": true,
+    "two_second_mean_change": 3.0148033836305443,
+    "first_step": 0.08510516689529035,
+    "seam_step": 0.08659122085048011
+  },
+  "exhaust_secondary": {
+    "endpoint_equal": true,
+    "two_second_mean_change": 2.7777777777777777,
+    "first_step": 0.0788349077822762,
+    "seam_step": 0.07703553756185336
+  },
+  "windows": {
+    "endpoint_equal": true,
+    "two_second_mean_change": 3.2019583333333332,
+    "first_step": 0.000625,
+    "seam_step": 0.00075
+  },
+  "inspection": "Full-scene and enlarged temporal samples; no continuous playback review. Numeric changes are not artistic approval.",
+  "correction": "Initial v9 left saturated white window cores lit. V9b masks the full aperture; initial v9 is a discarded draft."
+}

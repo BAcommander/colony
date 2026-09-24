@@ -1,0 +1,64 @@
+{
+  "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+  "duration": 20,
+  "fps": 30,
+  "vents": [
+    [
+      1336,
+      433,
+      68,
+      20,
+      0.0
+    ],
+    [
+      1508,
+      433,
+      48,
+      14,
+      2.1
+    ]
+  ],
+  "windows": [
+    [
+      1276,
+      452,
+      4,
+      6,
+      1,
+      6
+    ],
+    [
+      1327,
+      448,
+      3,
+      7,
+      7,
+      6
+    ],
+    [
+      1376,
+      449,
+      7,
+      7,
+      11,
+      5
+    ],
+    [
+      1497,
+      455,
+      3,
+      7,
+      16,
+      6
+    ]
+  ],
+  "ring_box": [
+    1348,
+    90,
+    1655,
+    292
+  ],
+  "method": "local procedural independent layers",
+  "prompt": "ambient-v9-final-brief.md",
+  "artistic_status": "awaiting user review"
+}

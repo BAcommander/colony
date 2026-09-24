@@ -1,0 +1,38 @@
+{
+  "source": "creative\\ringfall\\04-laptop-refined.png",
+  "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+  "output": "creative\\ringfall\\animation\\ringfall-ambient-v9b-20s-preview.mp4",
+  "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "output_dimensions": [
+    1280,
+    720
+  ],
+  "resolution_note": "1280x720 export resampled from 1672x941 source; no claim of native 4K image detail",
+  "fps": 30.0,
+  "frames": 600,
+  "duration_seconds": 20.0,
+  "audio": false,
+  "periodic_endpoint_pixels_identical": true,
+  "uncompressed_static_plate_unchanged": true,
+  "analytic_active_pixel_mean_abs_step": 0.12825789500357512,
+  "analytic_active_pixel_max_mean_abs_step": 0.16868658363819122,
+  "analytic_active_pixel_seam_mean_abs_step": 0.1262744814157486,
+  "encoded_active_pixel_mean_abs_step": 0.15277473894701976,
+  "encoded_active_pixel_max_mean_abs_step": 0.19070374965667725,
+  "encoded_active_pixel_seam_mean_abs_step": 0.15222705900669098,
+  "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+  "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+  "effects": {
+    "steam": "Layered rising wisps with advected density and widening turbulent path",
+    "planet": "Independent procedural cloud bands, fixed master lighting and protected rings",
+    "colony": "Two surface light pools, scheduled windows and mast beacon",
+    "laptop": "Original display retained with scan sector and telemetry",
+    "rings": "Coherent angular material field transported through fixed band mask; artistic speed",
+    "exhaust": "Two directed expanding vapor plumes at existing roof vents",
+    "windows": "Four existing windows with staggered off holds and local spill reduction"
+  }
+}

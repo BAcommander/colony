@@ -1,6 +1,6 @@
 # Ringfall v9 — final revised motion prompt
 
-Status: proposed, not rendered. Supersedes v8. User rates current result approximately 6/10 and cannot see ring motion. 10/10 is the artistic goal, not a promised score.
+Status: implemented as v9b by scripts/render_ringfall_v9.py; user review pending. Supersedes v8. User rated v8 approximately 6/10 and could not see ring motion. 10/10 is the artistic goal, not a promised score. Initial v9 had incomplete window-core darkening; v9b fixes it. Visual inspection covers full-scene and enlarged temporal samples, not continuous playback.
 
 Create a premium cinematic living photograph from creative/ringfall/04-laptop-refined.png. Deliver a local, silent, twenty-second seamless loop at 30 fps. Preserve the warm observatory, laptop, single-handled mug, chair, large rug, coffee table, terrain and distant colony. Lock the camera, exposure, architecture, planet silhouette and ring geometry. Composite separately controlled layers over the immutable source.
 
