@@ -60,14 +60,18 @@ class Basalt:
             shade=cv2.GaussianBlur(lum,(0,0),15)
             # Concentrate detail within darker existing cloud material, not clear sky.
             material=np.clip((shade-lum+3)/14,0,1)
-            m*=cv2.GaussianBlur(material,(0,0),2)
+            floor=c.get('material_floor',0)
+            m*=floor+(1-floor)*cv2.GaussianBlur(material,(0,0),2)
+            if c.get('mode')=='source_detail_advection':
+                self.cloud_detail=(patch-cv2.GaussianBlur(patch,(0,0),55, sigmaY=14)).astype(np.float32)
+                self.cloud_local_y,self.cloud_local_x=np.mgrid[0:y1-y0,0:x1-x0].astype(np.float32)
             self.clouds=(c,xx,yy,m)
             full=np.zeros(self.base.shape[:2],bool);full[y0:y1,x0:x1]=m>0
             self.layer_masks['sky_clouds']=full
         self.active=np.logical_or.reduce(list(self.layer_masks.values()))
         self.effect_descriptions={'roof_exhaust':'Two source-anchored rising, right-drifting plumes','valley_haze':'Two depth bands of rightward material motion, rock-occluded','interior_lights':'Two smaller rooms with offset holds; main room steady'}
-        if self.clouds:self.effect_descriptions['sky_clouds']='Rightward evolving texture inside existing cloud bands; moon and terrain fixed'
-        if 'wind' in self.config['effects']:self.effect_descriptions['plain_wind']='Nine independent low drifting dust sheets behind protected rocks'
+        if self.clouds:self.effect_descriptions['sky_clouds']=self.config['effects']['clouds'].get('mode','procedural material field')+'; moon and terrain fixed'
+        if 'wind' in self.config['effects']:self.effect_descriptions['plain_wind']=str(self.config['effects']['wind']['count'])+' independent low drifting dust sheets behind protected rocks'
     def frame(self,t,output_size=True):
         p=TAU*(float(t)%self.duration)/self.duration
         f=self.base.copy()
@@ -77,7 +81,17 @@ class Basalt:
             bend=2.3*np.sin(q+y*.07)+.9*np.cos(2*q-y*.11)
             field=.65*np.sin(q+(y+bend)*.19)+.25*np.sin(2*q-y*.31)+.10*np.cos(4*q+y*.41)
             patch=self.base[y0:y1,x0:x1].astype(float)
-            f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch+(m*field*c['amplitude'])[...,None]*np.array([1,.86,.76]),0,255)))
+            if c.get('mode')=='source_detail_advection':
+                progress=((float(t)%self.duration)/self.duration*c['cycles'])%1
+                travel=c['travel_pixels']
+                a=cv2.remap(self.cloud_detail,self.cloud_local_x-travel*progress,self.cloud_local_y,cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT_101)
+                b=cv2.remap(self.cloud_detail,self.cloud_local_x-travel*(progress-1),self.cloud_local_y,cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT_101)
+                weight=smoothstep(progress)
+                moving=a*(1-weight)+b*weight
+                patch=patch+m[...,None]*(moving-self.cloud_detail)*c['detail_gain']
+                f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch,0,255)))
+            else:
+                f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch+(m*field*c['amplitude'])[...,None]*np.array([1,.86,.76]),0,255)))
         c=self.config['effects']['haze'];alpha=np.zeros_like(self.hx)
         for band in c['bands']:
             # Persistent low-frequency shapes with fine density traveling right.
@@ -94,11 +108,11 @@ class Basalt:
                 age=((float(t)%self.duration)/self.duration+offset)%1
                 envelope=np.sin(np.pi*age)**2
                 cx=sx+c['travel']*age;cy=sy+3*np.sin(2*np.pi*age+i)
-                u=(self.hx-cx)/width;v=(self.hy-cy-1.8*np.sin((self.hx-cx)*.033+i))/(height*(.8+age))
+                u=(self.hx-cx)/(width*c.get('width_scale',1));v=(self.hy-cy-1.8*np.sin((self.hx-cx)*.033+i))/(height*(.8+age)*c.get('height_scale',1))
                 body=np.exp(-.5*(u*u+v*v))
                 detail=.65+.25*np.sin((self.hx-cx)*.11+self.hy*.18+i)+.10*np.cos((self.hx-cx)*.23-self.hy*.4)
                 a+=body*detail*envelope*c['opacity']
-            blend(f,self.haze_roi,c['color'],np.clip(a,0,.45)*self.haze_mask)
+            blend(f,self.haze_roi,c['color'],np.clip(a,0,c.get('max_opacity',.45))*self.haze_mask)
         for c,roi,x,y in self.vents:
             blend(f,roi,c['color'],vent_density(x,y,c,p))
         for c,roi,mask in self.windows:
@@ -139,7 +153,7 @@ class Basalt:
         (OUT/(stem+'-settings.json')).write_text(json.dumps(manifest,indent=2))
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--stage',choices=['preview','final'],default='preview');ap.add_argument('--qa-only',action='store_true');ap.add_argument('--version',choices=['v1','v2'],default='v1');args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--stage',choices=['preview','final'],default='preview');ap.add_argument('--qa-only',action='store_true');ap.add_argument('--version',choices=['v1','v2','v3'],default='v1');args=ap.parse_args()
     anim=Basalt(OUT/('scene-plan-'+args.version+'.json'));core.SOURCE=anim.source;core.OUTPUT=OUT;core.DURATION=anim.duration;core.FPS=30
     core.SIZE=(1280,720) if args.stage=='preview' else (3840,2160)
     core.STEM='baseline-'+args.version+('-preview' if args.stage=='preview' else '-loop-4k-master')

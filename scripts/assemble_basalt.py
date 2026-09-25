@@ -85,7 +85,7 @@ def validate():
     print(json.dumps(report,indent=2),flush=True)
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('stage',choices=['encode','compare','assemble','validate']);p.add_argument('--version',choices=['v1b','v2'],default='v1b');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('stage',choices=['encode','compare','assemble','validate']);p.add_argument('--version',choices=['v1b','v2','v3'],default='v1b');a=p.parse_args()
     PREFIX='baseline-'+a.version
     MASTER=OUT/('baseline-'+('v1' if a.version=='v1b' else a.version)+'-loop-4k-master.mp4')
     LOOP=OUT/(PREFIX+'-loop-4k.mp4');LONG=OUT/(PREFIX+'-20min-4k.mp4')

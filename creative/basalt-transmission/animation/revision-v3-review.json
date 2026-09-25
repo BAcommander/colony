@@ -1,0 +1,21 @@
+{
+  "revision": "v3",
+  "user_feedback": "Background movement remains hard to see in v2",
+  "change_of_method": "Source cloud-detail advection replaces the procedural cloud field. Two forward-moving detail samples blend locally to preserve continuous looping.",
+  "wind_change": {
+    "travel_source_pixels_v2": 190,
+    "travel_source_pixels_v3": 480,
+    "width_multiplier": 1.5,
+    "height_multiplier": 1.6,
+    "gust_count": 8
+  },
+  "inspection": [
+    "full-scene temporal samples",
+    "decoded4K delivery frame",
+    "existing masks reused with broader cloud-material coverage inside protected polygon"
+  ],
+  "continuous_playback_review": false,
+  "user_approved": false,
+  "comparison": "baseline-v2-v3-comparison.mp4; v2 left, v3 right",
+  "limits": "Procedural/composited artistic motion, not a physical atmospheric simulation. Larger movement increases QP0 video size."
+}

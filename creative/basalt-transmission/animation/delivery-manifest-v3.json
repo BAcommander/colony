@@ -1,0 +1,45 @@
+{
+  "status": "technical verification passed; user review pending",
+  "config": "scene-plan-v3.json",
+  "prompt": "production-prompt-v3.md",
+  "validation": "baseline-v3-20min-validation.json",
+  "review": "revision-v3-review.json",
+  "outputs": {
+    "baseline-v3-preview.mp4": {
+      "bytes": 6831534,
+      "sha256": "cf3c39d188899bfaf04e54c31014f1f28b700df7b1b8ce1e55b6a3305ec4f1b8",
+      "tracked_in_git": false
+    },
+    "baseline-v3-loop-4k-master.mp4": {
+      "bytes": 52762749,
+      "sha256": "4605720961d8925589b99e9f00931c1dfb47b5e955aa3a638d51d507365a3b79",
+      "tracked_in_git": false
+    },
+    "baseline-v3-loop-4k.mp4": {
+      "bytes": 52762749,
+      "sha256": "4605720961d8925589b99e9f00931c1dfb47b5e955aa3a638d51d507365a3b79",
+      "tracked_in_git": false
+    },
+    "baseline-v3-20min-4k.mp4": {
+      "bytes": 3165710896,
+      "sha256": "ae6a04f81fcd09bdd229dd5c15da529201929b41428d418ec4381fff10eb07af",
+      "tracked_in_git": false
+    },
+    "baseline-v2-v3-comparison.mp4": {
+      "bytes": 788151,
+      "sha256": "69395c7e3a0bf6b39b70c51dbdbd90e3352359c4ab2acd145e3987f0207d64b0",
+      "tracked_in_git": false
+    }
+  },
+  "duration_seconds": 1200,
+  "loop_seconds": 20,
+  "repetitions": 60,
+  "source_upscaled": true,
+  "audio": false,
+  "code_hashes": {
+    "scripts\\render_basalt.py": "b3776a96bda644952bc73d4ffa0a4adc327de91def640ec696b213b57a441cc9",
+    "scripts\\ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+    "scripts\\assemble_basalt.py": "707421a4b959d93dcd862ce0afd39ee438fc9d5522ebee69b40b1ae119d128ac",
+    "scripts\\render_ringfall.py": "fe1198eddb332268358f16cd67ff44d89e850ac0015a9ab0e9f69d15f6530b65"
+  }
+}

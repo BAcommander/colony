@@ -1,5 +1,11 @@
 # Basalt Transmission — local animation
 
+## Latest: v3 visibility revision
+
+User still struggled to see v2 background motion. V3 now transports detail extracted from the source clouds, with continuous local blending and fixed broad sky lighting. Eight larger, denser dust gusts travel480sourcepixels per20seconds versus190 in v2. Existing geometry, moon and habitat motion are preserved. Preview: baseline-v3-preview.mp4; master/delivery loop: baseline-v3-loop-4k-master.mp4 / baseline-v3-loop-4k.mp4; long delivery: baseline-v3-20min-4k.mp4. Comparison: baseline-v2-v3-comparison.mp4 (v2 left,v3 right).
+
+Use the same commands below with `--version v3`. Configuration: scene-plan-v3.json; brief: production-prompt-v3.md; masks: masks-v3/. Temporal samples were inspected; no continuous playback review or artistic approval claimed. Exact results are in versioned reports. V3 cloud transport blends only its detail layer to close the cycle; it is not a full-frame dissolve or a physical cloud simulation.
+
 ## Current revision: v2 background motion
 
 User feedback on v1b: good start, insufficient activity in the plains/sky/haze. V2 adds nine independently drifting low dust sheets, stronger broader valley haze and protected moving cloud texture. Buildings, mesa silhouettes, moon, foreground rocks and the established habitat effects remain fixed. No user approval yet. Preview: baseline-v2-preview.mp4;4K loop: baseline-v2-loop-4k.mp4;20-minute delivery: baseline-v2-20min-4k.mp4. Compare baseline-v1-v2-comparison.mp4 (v1 left,v2 right).
@@ -66,3 +72,7 @@ scene-config-rendered-v1.json freezes the exact configuration used for the recor
 V2 visual inspection covers full-scene temporal samples, mask overlay and a decoded4K frame; no continuous playback review is claimed. Cloud detail is a procedural traveling material field inside existing bands, not bulk movement of the whole sky. Wind uses independently phased soft dust sheets behind the rock masks. The current20-minute file is approximately1.38GB; the20-second4K loop is approximately23MB. Extra moving detail increases the lossless bitrate. Both stay local for artistic review; code, configurations, masks and verification evidence are pushed.
 
 V2 completed verification:36,000 decoded frames,1200seconds,30fps,3840x2160,silent. All PTS/DTS increments sequential; every repeated frame hash matches its600-frame cycle phase. Full-resolution join samples at the beginning, middle and end match the reference loop. Final bytes1,381,581,376. Hashes and provenance are in delivery-manifest-v2.json. Master static-region and seam checks passed; delivery remux preserved the encoded video stream.
+
+V3 sizes:20-second4K loop approximately52.8MB;20-minute delivery approximately3.17GB. Both are local review files. The larger file retains master-quality motion and avoids the failed lossy-encoding seam from v1. Source artwork remains upscaled. Supporting code, masks and reports are versioned; artistic review is pending.
+
+V3 completed verification:all36,000frames decoded,1200seconds,30fps,3840x2160,no audio. Sequential PTS/DTS, all repeated-frame hashes match the600-frame cycle, and selected full-resolution joins match the reference. Master static-region/endpoint/encoded-seam checks pass. Delivery stream remux preserves master payload. Manifest: delivery-manifest-v3.json.
