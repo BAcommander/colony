@@ -1,0 +1,47 @@
+{
+  "status": "pending",
+  "duration_seconds": 8,
+  "fps": 30,
+  "seamless": false,
+  "source": {
+    "path": "creative/concepts/02-glacier-sanctuary.png",
+    "sha256": "78a886ca0bea47e47a4e7536e7ca08eb9e0e0143785d9bd0ec48673aacba66a9",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "config_sha256": "2afc0bc2a248a527861386610c150817ad6a5132f05a25220c8e81b994684794",
+  "renderer_sha256": "15bfe5f4353c3ef09fa25a24f1db778cb5e28f28c055b5599c2628cf01e0644b",
+  "clips": [
+    {
+      "layer": "mist",
+      "path": "creative/glacier-sanctuary/animation/review-v2/mist.mp4",
+      "sha256": "7ef94ceebda2e341dd6088ba79097acbb1c07eeeef445a92b3e507a3ec892418",
+      "decoded_frames": 240,
+      "outside_mask_static": true
+    },
+    {
+      "layer": "water",
+      "path": "creative/glacier-sanctuary/animation/review-v2/water.mp4",
+      "sha256": "e9632a7630ce5c2f50191bcbb614f98ae625ea6413b14ee775fc31548b7f1711",
+      "decoded_frames": 240,
+      "outside_mask_static": true
+    },
+    {
+      "layer": "roof_lights",
+      "path": "creative/glacier-sanctuary/animation/review-v2/roof_lights.mp4",
+      "sha256": "6b6d3094af26a369555aa5430f2e0d39a73ef07597c1f74445e265c8a2fb44b4",
+      "decoded_frames": 240,
+      "outside_mask_static": true
+    },
+    {
+      "layer": "combined",
+      "path": "creative/glacier-sanctuary/animation/review-v2/combined.mp4",
+      "sha256": "0503d47909d313fbe89f05f90854d492a8892f04df461c6edf7e5f6a472221f5",
+      "decoded_frames": 240,
+      "outside_mask_static": true
+    }
+  ],
+  "inspection": "Sampled stills and decoded-frame checks; user playback review pending"
+}

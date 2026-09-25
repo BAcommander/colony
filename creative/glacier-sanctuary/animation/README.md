@@ -1,3 +1,7 @@
+# Current candidate — v2
+
+Snow unchanged following user approval. Stronger coherent mist banks, readable water ripples/reflection highlights, larger roof plume and controlled right-annex lighting. Eight-second motion test: review-v2/combined.mp4; isolated mist.mp4, water.mp4 and roof_lights.mp4. Review pending; not seamless. See production-prompt-v2.md. Historical v1 status below is superseded.
+
 # Glacier Sanctuary
 
 Current: v1 eight-second motion study, 1280x720, 30fps, silent. Visual review pending. Source artwork is 1672x941. This study is not a seamless loop.

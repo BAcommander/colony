@@ -1,3 +1,7 @@
+## Glacier Sanctuary v2
+
+User approved snow; other effects needed visibility and lights requested. Eight-second v2 study preserves snow, revises mist/water/exhaust and adds a localized slow window dim/return. Review pending. See creative/glacier-sanctuary/animation/production-prompt-v2.md.
+
 ## Active scene — Glacier Sanctuary
 
 User selected creative/concepts/02-glacier-sanctuary.png. First local eight-second motion study uses snowfall beyond the arch, drifting mountain mist, masked water ripples and roof exhaust. Source art and warm room lighting preserved. Review pending; no seamless or 4K claim. See creative/glacier-sanctuary/animation/README.md.
