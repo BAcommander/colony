@@ -1,3 +1,7 @@
+## Glacier Sanctuary v7
+
+Added requested foreground snow and broader/brighter moving water reflections. Existing approved effects preserved. Eight-second study pending user review; see creative/glacier-sanctuary/animation/README.md.
+
 ## Glacier v6 and pipeline controls
 
 Heavier snow and exterior flicker; rejected water distortion replaced with intact-water glints for comparison. Added presets, targeted layer renders and full-size configuration comparisons to reduce repeated implementation work. Current review pending.

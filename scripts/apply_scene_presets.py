@@ -7,7 +7,8 @@ def apply(config,names):
  for name in names:
   v=presets[name]
   if name=='snow_heavier':c['effects']['snow']['count']=round(c['effects']['snow']['count']*v['count_multiplier'])
-  elif name=='water_still_glints':c['effects']['water'].update(v)
+  elif name in ('water_still_glints','water_readable_glints'):c['effects']['water'].update(v)
+  elif name=='foreground_snow_sparse':c['effects']['foreground_snow']=v.copy()
   elif name=='exterior_irregular_flicker':
    for lamp in c['effects'].get('exterior_lights',[])+c['effects'].get('light_spill',[]):lamp.update(v)
  c['applied_presets']=names;return c

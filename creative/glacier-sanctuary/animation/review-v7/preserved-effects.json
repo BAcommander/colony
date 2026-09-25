@@ -1,0 +1,11 @@
+{
+  "matching_v6": [
+    "distant snow",
+    "mist",
+    "roof smoke and annex lights",
+    "dome lantern",
+    "exterior lights"
+  ],
+  "foreground_snow_added": 28,
+  "water_geometry_displacement": 0
+}

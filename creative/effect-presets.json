@@ -14,5 +14,30 @@
   "exterior_irregular_flicker": {
     "flicker": true,
     "flicker_depth": 0.82
+  },
+  "foreground_snow_sparse": {
+    "seed": 719,
+    "count": 28,
+    "top_y": 540
+  },
+  "water_readable_glints": {
+    "mode": "still_glints",
+    "glint_count": 18,
+    "glint_opacity": 0.22,
+    "glint_cap": 0.26,
+    "glint_speed": 8,
+    "glint_width": [
+      22,
+      55
+    ],
+    "glint_height": [
+      1.1,
+      2.4
+    ],
+    "glint_color": [
+      207,
+      220,
+      234
+    ]
   }
 }

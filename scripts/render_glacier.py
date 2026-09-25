@@ -19,7 +19,7 @@ class Glacier:
   clear=cv2.distanceTransform(np.uint8(blockers==0),cv2.DIST_L2,5);self.wmask*=np.clip((clear-5)/8,0,1)
   self.wbase=self.base[y0:y1,x0:x1].copy()
   rng_water=np.random.default_rng(613)
-  self.glints=[(rng_water.uniform(0,x1-x0),rng_water.uniform(0,y1-y0),rng_water.uniform(9,28),rng_water.uniform(.6,1.4),rng_water.uniform(0,1)) for _ in range(self.water.get('glint_count',0))]
+  self.glints=[(rng_water.uniform(0,x1-x0),rng_water.uniform(0,y1-y0),rng_water.uniform(*self.water.get('glint_width',[9,28])),rng_water.uniform(*self.water.get('glint_height',[.6,1.4])),rng_water.uniform(0,1)) for _ in range(self.water.get('glint_count',0))]
   self.vent=e['vent'];sx,sy=self.vent['anchor'];self.vroi=[sx-2*self.vent['width'],sy-self.vent['height']-3,sx+2*self.vent['width']+self.vent['drift'],sy+1];x0,y0,x1,y1=self.vroi;self.vy,self.vx=np.mgrid[y0:y1,x0:x1].astype(float)
   rng=np.random.default_rng(e['snow']['seed']);s=e['snow'];n=s['count']
   self.flakes=np.column_stack([rng.uniform(660,1672,n),rng.uniform(160,780,n),rng.uniform(*s['speed_x'],n),rng.uniform(*s['speed_y'],n),rng.uniform(*s['opacity'],n),rng.uniform(*s['radius'],n)])
@@ -33,6 +33,12 @@ class Glacier:
   self.masks['combined']|=self.masks['roof_lights']
   self.masks['mist']=np.zeros((self.h,self.w),bool);x0,y0,x1,y1=self.mist['roi'];self.masks['mist'][y0:y1,x0:x1]=self.mmask>0
   self.masks['snow']=self.opening>0
+  self.front_snow=c['effects'].get('foreground_snow');self.masks['foreground_snow']=np.zeros((self.h,self.w),bool)
+  if self.front_snow:
+   snow_rng=np.random.default_rng(self.front_snow['seed']);n=self.front_snow['count'];bottom=self.front_snow['top_y']
+   self.front_flakes=np.column_stack([snow_rng.uniform(-80,self.w,n),snow_rng.uniform(bottom,self.h,n),snow_rng.uniform(7,16,n),snow_rng.uniform(25,44,n),snow_rng.uniform(.3,.65,n),snow_rng.uniform(2,4,n)])
+   yy=np.arange(self.h)[:,None];self.front_mask=np.broadcast_to(np.minimum(np.clip((yy-bottom)/30,0,1),np.clip((self.h-yy)/20,0,1)),(self.h,self.w))
+   self.masks['foreground_snow']=self.front_mask>0;self.masks['combined']|=self.masks['foreground_snow']
   self.halos=[];self.masks['exterior_lights']=np.zeros((self.h,self.w),bool)
   for lamp in e.get('exterior_lights',[])+e.get('light_spill',[]):
    sx,sy=lamp['anchor'];radius=lamp['radius'];rx,ry=radius if isinstance(radius,list) else (radius,radius);roi=[sx-rx*3,sy-ry*3,sx+rx*3+1,sy+ry*3+1]
@@ -89,8 +95,8 @@ class Glacier:
     for sx,sy,width,height,offset in self.glints:
      age=(t/10+offset)%1;cx=sx+self.water['glint_speed']*(age-.5)*10
      density+=np.exp(-.5*(((x-cx)/width)**2+((y-sy)/height)**2))*np.sin(np.pi*age)**2
-    alpha=np.clip(density*self.water['glint_opacity'],0,.12)*self.wmask
-    surface=self.wbase*(1-alpha[...,None])+np.array([158,181,205])*alpha[...,None]
+    alpha=np.clip(density*self.water['glint_opacity'],0,self.water.get('glint_cap',.12))*self.wmask
+    surface=self.wbase*(1-alpha[...,None])+np.array(self.water.get('glint_color',[158,181,205]))*alpha[...,None]
    f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(surface,0,255)))
   if layer in ('mist','atmosphere','combined'):
    density=np.zeros_like(self.mx)
@@ -133,6 +139,13 @@ class Glacier:
    f=np.uint8(np.rint(np.clip(f*(1-a)+(f*.12+np.array([8,10,13]))*a,0,255)))
    glow=(self.tglow*self.tower['strength']+self.tmask*24)*(1-off)
    f=np.uint8(np.rint(np.clip(f.astype(float)+glow[...,None]*np.array([1,.68,.30]),0,255)))
+  if self.front_snow and layer in ('foreground_snow','combined'):
+   snow=np.zeros((self.h,self.w),np.float32);top=self.front_snow['top_y']
+   for sx,sy,vx,vy,opacity,radius in self.front_flakes:
+    x=int((sx+vx*t+80)%(self.w+160)-80);y=int(top+(sy-top+vy*t)%(self.h-top))
+    cv2.line(snow,(x,y),(x+1,y+3),float(opacity),max(2,round(radius)),lineType=cv2.LINE_AA)
+   snow=cv2.GaussianBlur(snow,(0,0),1.1)*self.front_mask
+   blend(f,[0,0,self.w,self.h],[224,235,246],snow)
   return f
 
 def main():
