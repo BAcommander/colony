@@ -1,0 +1,47 @@
+{
+  "title": "Ringfall Observatory",
+  "caption": "LUNAR NIGHT WATCH",
+  "series_number": "01",
+  "status": "user-approved video and thumbnail package",
+  "thumbnail_approval": "man they look awesome, lets save how you made this stype and push it all into the repo in a final folder with the final exports",
+  "date": "2026-09-25",
+  "video": {
+    "file": "video-4k.mp4",
+    "sha256": "eb723ce79517a8a5659e92709e69d70339a8e318cb68214111c259e15c05f8d2",
+    "bytes": 34921944,
+    "duration_seconds": 20,
+    "fps": 30,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "audio": false,
+    "source_export": "creative/ringfall/animation/ringfall-ambient-v9b-20s-final.mp4",
+    "validation": "creative/ringfall/animation/approved-v9b.json",
+    "note": "Byte-identical copy of approved loop, not a long music video; upscaled artwork"
+  },
+  "thumbnail": {
+    "master": "thumbnail-v1.png",
+    "master_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+    "master_dimensions": [
+      1672,
+      941
+    ],
+    "upload": "thumbnail-v1.jpg",
+    "upload_sha256": "acfaf324cb0f5bf3224bc8906030659264e44091d57abfa8b6de002fa0cec4f2",
+    "upload_dimensions": [
+      1280,
+      720
+    ],
+    "upload_bytes": 320756,
+    "method": "Built-in image_gen compositing, followed by FFmpeg JPEG format/size export",
+    "source_art": "creative/ringfall/04-laptop-refined.png",
+    "prompt": "thumbnail-prompt-v1.md",
+    "style_reference": null,
+    "note": "Generated marketing adaptation; source video geometry remains untouched",
+    "source_art_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+    "reference_roles": [
+      "Source artwork as edit target; first design establishing series identity"
+    ]
+  }
+}

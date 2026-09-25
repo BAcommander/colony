@@ -1,0 +1,48 @@
+{
+  "title": "Basalt Transmission",
+  "caption": "SIGNAL FROM THE EDGE",
+  "series_number": "02",
+  "status": "user-approved video and thumbnail package",
+  "thumbnail_approval": "man they look awesome, lets save how you made this stype and push it all into the repo in a final folder with the final exports",
+  "date": "2026-09-25",
+  "video": {
+    "file": "video-4k.mp4",
+    "sha256": "6275bbce0504903fceeaa4b00a7e3b13bc3b07b6fe18f8515877097e8cfbee0c",
+    "bytes": 113659615,
+    "duration_seconds": 20,
+    "fps": 30,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "audio": false,
+    "source_export": "creative/basalt-transmission/animation/baseline-v6-loop-4k-master.mp4",
+    "validation": "creative/basalt-transmission/animation/delivery-v6.json",
+    "note": "Byte-identical copy of approved loop, not a long music video; upscaled artwork"
+  },
+  "thumbnail": {
+    "master": "thumbnail-v1.png",
+    "master_sha256": "52b6ed5f850b6b97d027676848eb076167cde29e0d7580b7f221f4f77c6540f6",
+    "master_dimensions": [
+      1672,
+      941
+    ],
+    "upload": "thumbnail-v1.jpg",
+    "upload_sha256": "15c5f0e46ec0c45a0b57e990dec6c1e04d34efedb4e15f19880360b2e4720640",
+    "upload_dimensions": [
+      1280,
+      720
+    ],
+    "upload_bytes": 327805,
+    "method": "Built-in image_gen compositing, followed by FFmpeg JPEG format/size export",
+    "source_art": "creative/concepts/09-basalt-transmission.png",
+    "prompt": "thumbnail-prompt-v1.md",
+    "style_reference": "../01-ringfall-observatory/thumbnail-v1.png",
+    "note": "Generated marketing adaptation; source video geometry remains untouched",
+    "source_art_sha256": "741306aca34a3f3ce16add13b34e15a589b017c006e95426373e4273394ef99a",
+    "reference_roles": [
+      "Source artwork as edit target",
+      "Approved Ringfall thumbnail as style reference only"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "folder": "01-ringfall-observatory",
+    "title": "Ringfall Observatory",
+    "duration_seconds": 20,
+    "video": "video-4k.mp4",
+    "thumbnail": "thumbnail-v1.jpg"
+  },
+  {
+    "folder": "02-basalt-transmission",
+    "title": "Basalt Transmission",
+    "duration_seconds": 20,
+    "video": "video-4k.mp4",
+    "thumbnail": "thumbnail-v1.jpg"
+  },
+  {
+    "folder": "03-glacier-sanctuary",
+    "title": "Glacier Sanctuary",
+    "duration_seconds": 60,
+    "video": "video-4k.mp4",
+    "thumbnail": "thumbnail-v1.jpg"
+  }
+]

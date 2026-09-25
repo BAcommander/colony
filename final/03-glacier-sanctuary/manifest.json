@@ -1,0 +1,48 @@
+{
+  "title": "Glacier Sanctuary",
+  "caption": "SHELTER FROM THE STORM",
+  "series_number": "03",
+  "status": "user-approved video and thumbnail package",
+  "thumbnail_approval": "man they look awesome, lets save how you made this stype and push it all into the repo in a final folder with the final exports",
+  "date": "2026-09-25",
+  "video": {
+    "file": "video-4k.mp4",
+    "sha256": "b2743ceabd8a75f2117dc41282800d394db2733c58ddc69ca473fb0039840022",
+    "bytes": 276988548,
+    "duration_seconds": 60,
+    "fps": 30,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "audio": false,
+    "source_export": "creative/glacier-sanctuary/animation/final-v11/glacier-sanctuary-v11-60s-4k.mp4",
+    "validation": "creative/glacier-sanctuary/animation/final-v11/delivery-validation.json",
+    "note": "Byte-identical copy of approved loop, not a long music video; upscaled artwork"
+  },
+  "thumbnail": {
+    "master": "thumbnail-v1.png",
+    "master_sha256": "1845b7c27af62cd6fdcf159df447937e1753f44e64fc00a04a8fab9a11aea383",
+    "master_dimensions": [
+      1672,
+      941
+    ],
+    "upload": "thumbnail-v1.jpg",
+    "upload_sha256": "c262e5acd74f933e915e8ea7dd453ad1ab7823ec5538022f418c6747698a385d",
+    "upload_dimensions": [
+      1280,
+      720
+    ],
+    "upload_bytes": 479020,
+    "method": "Built-in image_gen compositing, followed by FFmpeg JPEG format/size export",
+    "source_art": "creative/concepts/02-glacier-sanctuary.png",
+    "prompt": "thumbnail-prompt-v1.md",
+    "style_reference": "../01-ringfall-observatory/thumbnail-v1.png",
+    "note": "Generated marketing adaptation; source video geometry remains untouched",
+    "source_art_sha256": "78a886ca0bea47e47a4e7536e7ca08eb9e0e0143785d9bd0ec48673aacba66a9",
+    "reference_roles": [
+      "Source artwork as edit target",
+      "Approved Ringfall thumbnail as style reference only"
+    ]
+  }
+}

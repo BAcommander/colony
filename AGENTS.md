@@ -54,6 +54,8 @@ For each new still, remap coordinates, masks, light sources and occlusion to tha
 
 ## Repository and tooling
 
+Approved release collection (2026-09-25): final/ contains Ringfall, Basalt and Glacier video/thumbnail packages. User approved the thumbnail set: "man they look awesome". Read final/THUMBNAIL_STYLE.md and reuse the Ringfall PNG as the visual identity reference for future thumbnails. Exact built-in image-generation prompts and provenance hashes are saved per package. Keep clean condensed ivory titles, orbital mark, amber rules, short captions and catalog numbers; adapt title placement to preserve each scene's focal subject. Preserve approved v1 files and version revisions. Final videos are byte-identical copies of existing approved masters, tracked through exact Git LFS rules; original production paths remain valid. These are silent loops, not completed long-form music uploads.
+
 Approved v9b MP4 is explicitly tracked by a narrow .gitignore exception at the user's request. Draft videos, .local/ runtimes/weights and caches remain ignored. For future approved finals, check size and repository limits before choosing ordinary Git or a large-file strategy; do not silently omit requested media. Never force-push. Music has not yet been produced.
 
 Python has NumPy, Pillow, OpenCV and imageio-ffmpeg. The Ringfall renderer imports v8, v7, v6 and the core renderer plus scene-v6.json; retain those dependencies. Free ComfyUI/Wan is installed under .local/ for optional future experiments, not the accepted production path. Hardware: RTX 4060 8GB VRAM, approximately 64GB RAM. Keep services on localhost and paid/API nodes disabled.

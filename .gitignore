@@ -15,3 +15,8 @@ __pycache__/
 
 # Approved Glacier look, requested sixty-second final; Git LFS master only.
 !creative/glacier-sanctuary/animation/final-v11/glacier-sanctuary-v11-60s-4k.mp4
+
+# Approved final release collection, exact LFS video paths.
+!final/01-ringfall-observatory/video-4k.mp4
+!final/02-basalt-transmission/video-4k.mp4
+!final/03-glacier-sanctuary/video-4k.mp4

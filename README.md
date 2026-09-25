@@ -10,6 +10,9 @@ Ringfall v9b and Basalt v6 remain approved references. Older pending-review entr
 
 ## Working files
 
+- [Final exports](final/README.md): three approved 4K video-and-thumbnail packages.
+- [Approved thumbnail style](final/THUMBNAIL_STYLE.md): design rules, reusable prompt and exact generation history.
+
 - [AGENTS.md](AGENTS.md): current authority and working instructions.
 - [Project context](PROJECT.md): creative decisions and history.
 - [Next-scene runbook](creative/NEXT_SCENE_RUNBOOK.md): reusable production sequence.
