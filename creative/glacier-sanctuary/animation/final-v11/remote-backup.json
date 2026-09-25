@@ -1,0 +1,10 @@
+{
+  "remote": "origin",
+  "ref": "main",
+  "delivery_commit": "c78abe9c3fcf76cb03ec5ad24a69de6fb72c52c0",
+  "method": "Git LFS fetch of exact master path into independent storage, then SHA-256 and size comparison",
+  "path": "creative/glacier-sanctuary/animation/final-v11/glacier-sanctuary-v11-60s-4k.mp4",
+  "sha256": "b2743ceabd8a75f2117dc41282800d394db2733c58ddc69ca473fb0039840022",
+  "bytes": 276988548,
+  "remote_object_restored_and_verified": true
+}
