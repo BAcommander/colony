@@ -1,0 +1,14 @@
+{
+  "layers_matching_v3": [
+    "snow",
+    "mist",
+    "roof_lights"
+  ],
+  "sample_times_seconds": [
+    0,
+    2,
+    4,
+    7.9667
+  ],
+  "water_highlight_strength_and_speed_halved": true
+}

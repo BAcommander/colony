@@ -1,3 +1,7 @@
+# Current candidate — v4
+
+Approved fog, smoke and snow preserved. Calmer water: half-strength/speed reflections and reduced displacement. Exterior lights gain broader halos and synchronized snow pools. Eight-second preview review-v4/combined.mp4 with water.mp4 and exterior_lights.mp4. User review pending; not seamless. See production-prompt-v4.md.
+
 # Current candidate — v3
 
 Snow and smoke preserved from user-approved v2 effects. Wider distant fog, slow outdoor amber halos and broader traveling water reflections. Eight-second study in review-v3/combined.mp4; isolated mist, water and exterior_lights clips. Not seamless; visual acceptance pending. Review water for artificial stripes and halo strength. See production-prompt-v3.md. Older status below is historical.

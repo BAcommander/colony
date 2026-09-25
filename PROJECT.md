@@ -1,3 +1,7 @@
+## Glacier Sanctuary v4
+
+Fog accepted along with smoke/snow. V3 water too strong and lights unreadable; v4 calms water and makes local lamp spill visible. Eight-second study pending review.
+
 ## Glacier Sanctuary v3
 
 User approved smoke and snow, requested stronger distant fog, exterior halos/pulses and readable water. V3 preserves accepted effects and targets those three changes. Eight-second motion study pending review; no final loop/export.
