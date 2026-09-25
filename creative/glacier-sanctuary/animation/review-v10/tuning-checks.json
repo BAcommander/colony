@@ -1,0 +1,14 @@
+{
+  "all_24_wave_phase_velocities_halved": true,
+  "wave_shapes_and_directions_preserved": true,
+  "non_water_layers_unchanged_at_seconds": [
+    0,
+    2,
+    4,
+    7.9667
+  ],
+  "foreground_snow_absent": true,
+  "sampling_filter": "Analytic phase-gradient Gaussian attenuation, footprint0.75 source pixels",
+  "edge_damping": "14-source-pixel mask-distance falloff; artistic proxy, not measured depth",
+  "inspection": "Sampled full-frame stills and numeric checks; user playback judgment pending"
+}

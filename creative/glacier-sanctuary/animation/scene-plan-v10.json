@@ -1,0 +1,707 @@
+{
+  "scene_name": "Glacier Sanctuary",
+  "status": "v10 half-speed water with gentle sampling and edge filtering; pending review",
+  "source": {
+    "path": "creative/concepts/02-glacier-sanctuary.png",
+    "sha256": "78a886ca0bea47e47a4e7536e7ca08eb9e0e0143785d9bd0ec48673aacba66a9",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "preview": {
+    "seconds": 8,
+    "fps": 30,
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  "target": {
+    "loop_seconds": 20,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "audio": false
+  },
+  "protected_geometry": [
+    "rock arch",
+    "sanctuary dome and glass frames",
+    "walkways and stairs",
+    "mountain silhouettes",
+    "ice floes",
+    "foreground snow and rocks"
+  ],
+  "opening": [
+    [
+      689,
+      310
+    ],
+    [
+      734,
+      257
+    ],
+    [
+      815,
+      199
+    ],
+    [
+      885,
+      202
+    ],
+    [
+      926,
+      220
+    ],
+    [
+      1008,
+      216
+    ],
+    [
+      1063,
+      191
+    ],
+    [
+      1180,
+      200
+    ],
+    [
+      1290,
+      232
+    ],
+    [
+      1370,
+      275
+    ],
+    [
+      1450,
+      322
+    ],
+    [
+      1504,
+      389
+    ],
+    [
+      1537,
+      453
+    ],
+    [
+      1594,
+      508
+    ],
+    [
+      1628,
+      567
+    ],
+    [
+      1617,
+      667
+    ],
+    [
+      1618,
+      737
+    ],
+    [
+      1530,
+      776
+    ],
+    [
+      1380,
+      723
+    ],
+    [
+      1240,
+      697
+    ],
+    [
+      1100,
+      651
+    ],
+    [
+      1012,
+      627
+    ],
+    [
+      995,
+      541
+    ],
+    [
+      970,
+      533
+    ],
+    [
+      969,
+      467
+    ],
+    [
+      933,
+      450
+    ],
+    [
+      860,
+      448
+    ],
+    [
+      802,
+      431
+    ],
+    [
+      750,
+      393
+    ]
+  ],
+  "effects": {
+    "mist": {
+      "roi": [
+        700,
+        275,
+        1595,
+        557
+      ],
+      "opacity": 0.64,
+      "color": [
+        194,
+        210,
+        229
+      ],
+      "sheets": [
+        {
+          "x": 825,
+          "y": 367,
+          "width": 109.24999999999999,
+          "height": 34.8,
+          "speed": 14,
+          "slope": 0.18
+        },
+        {
+          "x": 1120,
+          "y": 427,
+          "width": 138.0,
+          "height": 37.699999999999996,
+          "speed": 16,
+          "slope": 0.12
+        },
+        {
+          "x": 1390,
+          "y": 481,
+          "width": 126.49999999999999,
+          "height": 29.0,
+          "speed": 17,
+          "slope": 0.05
+        }
+      ],
+      "max_opacity": 0.56
+    },
+    "snow": {
+      "seed": 2026,
+      "count": 326,
+      "speed_y": [
+        10,
+        25
+      ],
+      "speed_x": [
+        2,
+        6
+      ],
+      "opacity": [
+        0.22,
+        0.65
+      ],
+      "radius": [
+        0.6,
+        1.4
+      ]
+    },
+    "water": {
+      "roi": [
+        1000,
+        568,
+        1630,
+        777
+      ],
+      "polygon": [
+        [
+          1004,
+          596
+        ],
+        [
+          1126,
+          581
+        ],
+        [
+          1310,
+          572
+        ],
+        [
+          1460,
+          574
+        ],
+        [
+          1609,
+          577
+        ],
+        [
+          1610,
+          743
+        ],
+        [
+          1530,
+          768
+        ],
+        [
+          1470,
+          740
+        ],
+        [
+          1400,
+          724
+        ],
+        [
+          1340,
+          712
+        ],
+        [
+          1234,
+          688
+        ],
+        [
+          1142,
+          665
+        ],
+        [
+          1060,
+          641
+        ]
+      ],
+      "ice_blockers": [
+        [
+          [
+            1189,
+            589
+          ],
+          [
+            1286,
+            579
+          ],
+          [
+            1360,
+            601
+          ],
+          [
+            1296,
+            612
+          ],
+          [
+            1190,
+            604
+          ]
+        ],
+        [
+          [
+            1384,
+            673
+          ],
+          [
+            1437,
+            667
+          ],
+          [
+            1494,
+            680
+          ],
+          [
+            1514,
+            697
+          ],
+          [
+            1384,
+            704
+          ]
+        ],
+        [
+          [
+            1522,
+            679
+          ],
+          [
+            1563,
+            676
+          ],
+          [
+            1602,
+            689
+          ],
+          [
+            1603,
+            700
+          ],
+          [
+            1522,
+            704
+          ]
+        ],
+        [
+          [
+            1045,
+            614
+          ],
+          [
+            1092,
+            613
+          ],
+          [
+            1131,
+            625
+          ],
+          [
+            1045,
+            630
+          ]
+        ]
+      ],
+      "amplitude": 0,
+      "vertical_amplitude": 0,
+      "reflection_strength": 0,
+      "broad_reflections": true,
+      "reflection_speed": 6,
+      "mode": "reconstructed_surface",
+      "waves": [
+        [
+          0.9,
+          85,
+          0.9,
+          2,
+          0.2
+        ],
+        [
+          1.8,
+          57,
+          0.65,
+          3,
+          1.4
+        ],
+        [
+          1.25,
+          36,
+          0.5,
+          4,
+          3.1
+        ],
+        [
+          2.3,
+          24,
+          0.3,
+          5,
+          0.8
+        ],
+        [
+          0.45,
+          18,
+          0.18,
+          6,
+          2.5
+        ]
+      ],
+      "glint_count": 0,
+      "glint_opacity": 0.22,
+      "glint_speed": 8,
+      "glint_cap": 0.26,
+      "glint_width": [
+        22,
+        55
+      ],
+      "glint_height": [
+        1.1,
+        2.4
+      ],
+      "glint_color": [
+        207,
+        220,
+        234
+      ],
+      "surface": {
+        "seed": 814,
+        "components": 24,
+        "time_scale": 0.09,
+        "specular_strength": 20,
+        "wavelength_range": [
+          0.65,
+          5
+        ],
+        "reflection_sigma_x": 3,
+        "reflection_sigma_y": 1.5,
+        "displacement_scale": 0.65,
+        "reflection_contrast": 0.1,
+        "highlight_roughness": 0.32,
+        "sampling_filter_pixels": 0.75,
+        "edge_damping_pixels": 14
+      }
+    },
+    "vent": {
+      "anchor": [
+        730,
+        451
+      ],
+      "height": 105,
+      "width": 23,
+      "drift": 29,
+      "phase": 0.5,
+      "opacity": 0.56,
+      "color": [
+        221,
+        229,
+        237
+      ]
+    },
+    "lights": [
+      {
+        "name": "annex_right_bay",
+        "polygons": [
+          [
+            [
+              884,
+              489
+            ],
+            [
+              903,
+              489
+            ],
+            [
+              903,
+              537
+            ],
+            [
+              884,
+              537
+            ]
+          ],
+          [
+            [
+              912,
+              489
+            ],
+            [
+              931,
+              489
+            ],
+            [
+              931,
+              537
+            ],
+            [
+              912,
+              537
+            ]
+          ]
+        ],
+        "start": 1.8,
+        "hold": 4.7,
+        "transition": 1.1,
+        "strength": 0.7
+      }
+    ],
+    "exterior_lights": [
+      {
+        "anchor": [
+          277,
+          588
+        ],
+        "radius": 25,
+        "strength": 85,
+        "period": 10,
+        "phase": -1.57,
+        "floor": 0.12,
+        "flicker": true,
+        "flicker_depth": 0.82
+      },
+      {
+        "anchor": [
+          634,
+          578
+        ],
+        "radius": 20,
+        "strength": 68,
+        "period": 10,
+        "phase": -0.37,
+        "floor": 0.12,
+        "flicker": true,
+        "flicker_depth": 0.82
+      },
+      {
+        "anchor": [
+          776,
+          586
+        ],
+        "radius": 20,
+        "strength": 64,
+        "period": 10,
+        "phase": 1.1,
+        "floor": 0.12,
+        "flicker": true,
+        "flicker_depth": 0.82
+      },
+      {
+        "anchor": [
+          125,
+          404
+        ],
+        "radius": 17,
+        "strength": 45,
+        "period": 10,
+        "phase": 2.5,
+        "floor": 0.12,
+        "flicker": true,
+        "flicker_depth": 0.82
+      }
+    ],
+    "light_spill": [
+      {
+        "anchor": [
+          278,
+          643
+        ],
+        "radius": [
+          52,
+          18
+        ],
+        "strength": 47,
+        "floor": 0.12,
+        "period": 10,
+        "phase": -1.57,
+        "polygon": [
+          [
+            211,
+            622
+          ],
+          [
+            284,
+            612
+          ],
+          [
+            355,
+            639
+          ],
+          [
+            372,
+            675
+          ],
+          [
+            268,
+            685
+          ],
+          [
+            210,
+            665
+          ]
+        ],
+        "flicker": true,
+        "flicker_depth": 0.82
+      },
+      {
+        "anchor": [
+          650,
+          637
+        ],
+        "radius": [
+          38,
+          14
+        ],
+        "strength": 35,
+        "floor": 0.12,
+        "period": 10,
+        "phase": -0.37,
+        "polygon": [
+          [
+            600,
+            620
+          ],
+          [
+            650,
+            614
+          ],
+          [
+            699,
+            631
+          ],
+          [
+            703,
+            656
+          ],
+          [
+            624,
+            666
+          ],
+          [
+            598,
+            647
+          ]
+        ],
+        "flicker": true,
+        "flicker_depth": 0.82
+      }
+    ],
+    "dome_lantern": {
+      "anchor": [
+        342,
+        219
+      ],
+      "radius": 24,
+      "strength": 72,
+      "polygons": [
+        [
+          [
+            300,
+            202
+          ],
+          [
+            320,
+            202
+          ],
+          [
+            320,
+            229
+          ],
+          [
+            300,
+            229
+          ]
+        ],
+        [
+          [
+            340,
+            205
+          ],
+          [
+            367,
+            209
+          ],
+          [
+            367,
+            239
+          ],
+          [
+            340,
+            237
+          ]
+        ]
+      ],
+      "start": 1,
+      "hold": 3.5,
+      "transition": 0.8
+    }
+  },
+  "review": {
+    "approved": false,
+    "feedback": "Make water even slower and research further improvements."
+  },
+  "review_layers": [
+    "water",
+    "combined"
+  ],
+  "applied_presets": [
+    "snow_heavier",
+    "water_still_glints",
+    "exterior_irregular_flicker"
+  ]
+}

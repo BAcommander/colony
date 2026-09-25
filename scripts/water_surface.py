@@ -14,7 +14,7 @@ class ReflectionSurface:
   distance=2600/(self.y+65)
   self.world_x=(self.x-w*.5)*distance/330
   self.world_z=distance
-  rng=np.random.default_rng(settings['seed']);self.waves=[]
+  rng=np.random.default_rng(settings['seed']);self.waves=[];self.wave_filters=[]
   for i in range(settings['components']):
    theta=rng.normal(1.10,.55);length=rng.uniform(*settings.get('wavelength_range',[5,35]));k=2*np.pi/length
    direction=np.array([np.cos(theta),np.sin(theta)])
@@ -23,15 +23,25 @@ class ReflectionSurface:
    omega=np.sqrt(9.81*k)*settings['time_scale']
    amplitude=(length/settings.get('wavelength_range',[5,35])[1])**.4
    self.waves.append((phase,omega,amplitude,direction))
+   footprint=settings.get('sampling_filter_pixels',0)
+   if footprint:
+    py,px=np.gradient(phase)
+    self.wave_filters.append(np.exp(-.5*footprint**2*(px*px+py*py)).astype(np.float32))
+   else:self.wave_filters.append(1)
   self.norm=sum(v[2]**2 for v in self.waves)**.5
+  edge=settings.get('edge_damping_pixels',0)
+  if edge:
+   distance=cv2.distanceTransform(np.uint8(mask>.05),cv2.DIST_L2,5)
+   self.edge_damping=.4+.6*np.clip(distance/edge,0,1)
+  else:self.edge_damping=1
  def frame(self,t):
   nx=np.zeros_like(self.x);nz=np.zeros_like(self.x)
-  for phase,omega,amp,d in self.waves:
-   slope=np.cos(phase-omega*t)*amp
+  for (phase,omega,amp,d),wave_filter in zip(self.waves,self.wave_filters):
+   slope=np.cos(phase-omega*t)*amp*wave_filter
    nx+=slope*d[0];nz+=slope*d[1]
   nx/=self.norm;nz/=self.norm
   depth=np.clip(self.y/self.y.max(),0,1)
-  displacement=self.c.get('displacement_scale',1)
+  displacement=self.c.get('displacement_scale',1)*self.edge_damping
   mx=self.x+nx*(9+9*depth)*displacement;my=self.y+nz*(6+9*depth)*displacement
   reflected=cv2.remap(self.reflection,mx.astype(np.float32),my.astype(np.float32),cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT_101)
   # Broad sky reflection response plus localized crest glints from changing normals.

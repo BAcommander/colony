@@ -1,3 +1,7 @@
+## Glacier v10 water refinement
+
+Halved water speed only. Researched and added sampling-aware fine-ripple filtering and artistic edge damping; all other effects preserved. Eight-second study pending review. See production-prompt-v10.md for sources and limitations.
+
 ## Glacier v9 water tuning
 
 User finally confirmed visible water in v8b but found it too strong/artificial. Same reflection-surface method retained and calmed; other effects unchanged. Review pending.

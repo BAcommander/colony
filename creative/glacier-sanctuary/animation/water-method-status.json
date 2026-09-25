@@ -1,7 +1,7 @@
 {
   "scene": "Glacier Sanctuary",
-  "current_candidate": "v9 calmer reconstructed reflection surface",
-  "current_status": "v8b visibility acknowledged by user; naturalness/intensity not accepted. V9 tuning pending review.",
+  "current_candidate": "v10 half-speed reconstructed surface with ripple filtering and boundary damping",
+  "current_status": "pending review; same visible v8b method retained and calmed",
   "rejected": [
     {
       "versions": "v1-v5",
@@ -20,5 +20,5 @@
     }
   ],
   "instructions": "Do not return to a rejected method with another small amplitude change unless a concrete new reason is recorded. Preserve accepted non-water layers. Foreground snow explicitly removed.",
-  "latest_feedback": "FINALLY i can see the water movement, but it looks a bit fake / too much"
+  "latest_feedback": "Make water even slower; research further improvements"
 }
