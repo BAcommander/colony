@@ -18,6 +18,10 @@ class Glacier:
   blockers=polygon_mask(self.wx.shape,self.water['ice_blockers'],(x0,y0),1)
   clear=cv2.distanceTransform(np.uint8(blockers==0),cv2.DIST_L2,5);self.wmask*=np.clip((clear-5)/8,0,1)
   self.wbase=self.base[y0:y1,x0:x1].copy()
+  self.reflection_surface=None
+  if self.water.get('mode')=='reconstructed_surface':
+   from water_surface import ReflectionSurface
+   self.reflection_surface=ReflectionSurface(self.wbase,self.wmask,self.water['surface'])
   rng_water=np.random.default_rng(613)
   self.glints=[(rng_water.uniform(0,x1-x0),rng_water.uniform(0,y1-y0),rng_water.uniform(*self.water.get('glint_width',[9,28])),rng_water.uniform(*self.water.get('glint_height',[.6,1.4])),rng_water.uniform(0,1)) for _ in range(self.water.get('glint_count',0))]
   self.vent=e['vent'];sx,sy=self.vent['anchor'];self.vroi=[sx-2*self.vent['width'],sy-self.vent['height']-3,sx+2*self.vent['width']+self.vent['drift'],sy+1];x0,y0,x1,y1=self.vroi;self.vy,self.vx=np.mgrid[y0:y1,x0:x1].astype(float)
@@ -97,6 +101,7 @@ class Glacier:
      density+=np.exp(-.5*(((x-cx)/width)**2+((y-sy)/height)**2))*np.sin(np.pi*age)**2
     alpha=np.clip(density*self.water['glint_opacity'],0,self.water.get('glint_cap',.12))*self.wmask
     surface=self.wbase*(1-alpha[...,None])+np.array(self.water.get('glint_color',[158,181,205]))*alpha[...,None]
+   if self.reflection_surface is not None:surface=self.reflection_surface.frame(t)
    f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(surface,0,255)))
   if layer in ('mist','atmosphere','combined'):
    density=np.zeros_like(self.mx)
@@ -150,7 +155,7 @@ class Glacier:
 
 def main():
  p=argparse.ArgumentParser();p.add_argument('--config',default='creative/glacier-sanctuary/animation/scene-plan-v1.json');p.add_argument('--output',default='creative/glacier-sanctuary/animation/review-v1');p.add_argument('--layers',nargs='+');p.add_argument('--compare-config');a=p.parse_args()
- out=ROOT/a.output;out.mkdir(parents=True,exist_ok=True);b=Glacier(ROOT/a.config);report={'status':'pending','duration_seconds':8,'fps':30,'seamless':False,'source':b.config['source'],'config_sha256':hashlib.sha256((ROOT/a.config).read_bytes()).hexdigest(),'renderer_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'clips':[],'inspection':'Sampled stills and decoded-frame checks; user playback review pending'}
+ out=ROOT/a.output;out.mkdir(parents=True,exist_ok=True);b=Glacier(ROOT/a.config);report={'status':'pending','duration_seconds':8,'fps':30,'seamless':False,'source':b.config['source'],'config_sha256':hashlib.sha256((ROOT/a.config).read_bytes()).hexdigest(),'renderer_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'water_surface_sha256':hashlib.sha256((ROOT/'scripts/water_surface.py').read_bytes()).hexdigest() if (ROOT/'scripts/water_surface.py').exists() else None,'clips':[],'inspection':'Sampled stills and decoded-frame checks; user playback review pending'}
  overlay=b.base.copy();overlay[b.masks['atmosphere']]=np.uint8(overlay[b.masks['atmosphere']]*.65+np.array([65,120,190])*.35);Image.fromarray(overlay).save(out/'atmosphere-mask.jpg')
  Image.fromarray(np.uint8(b.masks['water'])*255).save(out/'water-mask.png')
  for layer in (a.layers or b.config.get('review_layers',['atmosphere','water','combined'])):

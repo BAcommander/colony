@@ -1,3 +1,7 @@
+## Glacier water reconstruction v8b
+
+Foreground snow explicitly removed. User rejected repeated small water tweaks. Replaced overlay approach with a continuous perspective reflection surface; internal coarse variant rejected before refined v8b. Accepted non-water layers unchanged. See water-method-status.json in scene folder. Review pending.
+
 ## Glacier Sanctuary v7
 
 Added requested foreground snow and broader/brighter moving water reflections. Existing approved effects preserved. Eight-second study pending user review; see creative/glacier-sanctuary/animation/README.md.

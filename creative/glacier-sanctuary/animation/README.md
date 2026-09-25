@@ -1,5 +1,7 @@
 # Glacier Sanctuary — current review
 
-V7 eight-second720p30fps study: review-v7/combined.mp4, water.mp4 and foreground_snow.mp4. New larger soft foreground snowfall and broader moving water reflections; all other effects preserved. Visual review pending; not seamless/final.
+V8b eight-second720p30fps test: review-v8b/combined.mp4 and water.mp4. Foreground snow removed. Reconstructed water reflection surface replaces sparse overlays; remaining effects preserved.
 
-Read production-prompt-v7.md and scene-plan-v7.json. Prior numbered configs retain historical trials. Presets in creative/effect-presets.json; apply with scripts/apply_scene_presets.py. Render selected layers with --layers and compare against another config using --compare-config. Original art and reports are tracked; draft MP4s remain local.
+Visual acceptance pending. Read production-prompt-v8b.md, scene-plan-v8b.json and water-method-status.json. Internal v8 was rejected as too blurred before presenting v8b. Do not treat older pending versions or rejected glint methods as current guidance.
+
+Renderer: scripts/render_glacier.py plus scripts/water_surface.py and ambient_effects.py. Scripts/settings/reports are tracked, draft MP4s local. No seamless/final4K claim for this study.

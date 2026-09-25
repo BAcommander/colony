@@ -1,0 +1,14 @@
+{
+  "foreground_snow_removed": true,
+  "preserved_v7_layers": [
+    "distant snow",
+    "mist",
+    "roof smoke and annex event",
+    "dome lantern",
+    "exterior lights"
+  ],
+  "water_geometry_protected_outside_mask": true,
+  "two_second_mean_water_change": 9.977927063339731,
+  "water_fraction_changed_over_3_rgb_levels": 0.7101895814392026,
+  "inspection": "Source-size and full-frame still samples inspected. Metrics do not establish natural motion; user playback review pending."
+}

@@ -1,0 +1,23 @@
+{
+  "scene": "Glacier Sanctuary",
+  "current_candidate": "v8b reconstructed reflection surface",
+  "current_status": "pending user review",
+  "rejected": [
+    {
+      "versions": "v1-v5",
+      "methods": "small image displacement and moving brightness bands",
+      "reason": "not visible enough, too strong/artificial, or still not looking good"
+    },
+    {
+      "versions": "v6-v7",
+      "methods": "sparse glints over static photographed water",
+      "reason": "user repeatedly could not see convincing movement"
+    },
+    {
+      "versions": "v8 internal",
+      "methods": "coarse reconstructed reflection waves",
+      "reason": "assistant still inspection found blurred broad patches"
+    }
+  ],
+  "instructions": "Do not return to a rejected method with another small amplitude change unless a concrete new reason is recorded. Preserve accepted non-water layers. Foreground snow explicitly removed."
+}
