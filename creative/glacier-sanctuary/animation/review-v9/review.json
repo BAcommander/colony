@@ -1,0 +1,34 @@
+{
+  "status": "pending",
+  "duration_seconds": 8,
+  "fps": 30,
+  "seamless": false,
+  "source": {
+    "path": "creative/concepts/02-glacier-sanctuary.png",
+    "sha256": "78a886ca0bea47e47a4e7536e7ca08eb9e0e0143785d9bd0ec48673aacba66a9",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "config_sha256": "2bc8ff5a1d797087e78546ee640da983a6f9387e8acd0632f9992e4adef38ccc",
+  "renderer_sha256": "60949385752557f056609df8f2a82a9964b7022ed0001785e48edf46413580a0",
+  "water_surface_sha256": "742e449bafccf6c70f1d38a5d9c722d3465ecdb9da2164716c329146bba7a28a",
+  "clips": [
+    {
+      "layer": "water",
+      "path": "creative/glacier-sanctuary/animation/review-v9/water.mp4",
+      "sha256": "69c29607853be548777a9408f81b0a4c1c1e55e3654190df5d8a7673d2793862",
+      "decoded_frames": 240,
+      "outside_mask_static": true
+    },
+    {
+      "layer": "combined",
+      "path": "creative/glacier-sanctuary/animation/review-v9/combined.mp4",
+      "sha256": "2d7272d10befef54db6308cc03e88f326db350a5bd689361e3c176e84023ff69",
+      "decoded_frames": 240,
+      "outside_mask_static": true
+    }
+  ],
+  "inspection": "Sampled stills and decoded-frame checks; user playback review pending"
+}

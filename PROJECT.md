@@ -1,3 +1,7 @@
+## Glacier v9 water tuning
+
+User finally confirmed visible water in v8b but found it too strong/artificial. Same reflection-surface method retained and calmed; other effects unchanged. Review pending.
+
 ## Glacier water reconstruction v8b
 
 Foreground snow explicitly removed. User rejected repeated small water tweaks. Replaced overlay approach with a continuous perspective reflection surface; internal coarse variant rejected before refined v8b. Accepted non-water layers unchanged. See water-method-status.json in scene folder. Review pending.

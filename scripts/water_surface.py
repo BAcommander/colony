@@ -31,12 +31,13 @@ class ReflectionSurface:
    nx+=slope*d[0];nz+=slope*d[1]
   nx/=self.norm;nz/=self.norm
   depth=np.clip(self.y/self.y.max(),0,1)
-  mx=self.x+nx*(9+9*depth);my=self.y+nz*(6+9*depth)
+  displacement=self.c.get('displacement_scale',1)
+  mx=self.x+nx*(9+9*depth)*displacement;my=self.y+nz*(6+9*depth)*displacement
   reflected=cv2.remap(self.reflection,mx.astype(np.float32),my.astype(np.float32),cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT_101)
   # Broad sky reflection response plus localized crest glints from changing normals.
   orientation=np.tanh(nz*.85+nx*.25)
-  glint=np.exp(-((nx-.18)**2+(nz+.48)**2)/.19)
-  surface=reflected*(1+orientation[...,None]*.16)
+  glint=np.exp(-((nx-.18)**2+(nz+.48)**2)/self.c.get('highlight_roughness',.19))
+  surface=reflected*(1+orientation[...,None]*self.c.get('reflection_contrast',.16))
   surface+=(glint-.16)[...,None]*self.c['specular_strength']*np.array([.82,.93,1.0],np.float32)
   alpha=self.mask[...,None]
   return np.clip(self.plate*(1-alpha)+surface*alpha,0,255)

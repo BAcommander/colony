@@ -1,7 +1,7 @@
 {
   "scene": "Glacier Sanctuary",
-  "current_candidate": "v8b reconstructed reflection surface",
-  "current_status": "pending user review",
+  "current_candidate": "v9 calmer reconstructed reflection surface",
+  "current_status": "v8b visibility acknowledged by user; naturalness/intensity not accepted. V9 tuning pending review.",
   "rejected": [
     {
       "versions": "v1-v5",
@@ -19,5 +19,6 @@
       "reason": "assistant still inspection found blurred broad patches"
     }
   ],
-  "instructions": "Do not return to a rejected method with another small amplitude change unless a concrete new reason is recorded. Preserve accepted non-water layers. Foreground snow explicitly removed."
+  "instructions": "Do not return to a rejected method with another small amplitude change unless a concrete new reason is recorded. Preserve accepted non-water layers. Foreground snow explicitly removed.",
+  "latest_feedback": "FINALLY i can see the water movement, but it looks a bit fake / too much"
 }

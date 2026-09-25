@@ -1,0 +1,8 @@
+{
+  "foreground_snow_absent": true,
+  "non_water_layers_match_v8b": true,
+  "wave_seed_and_structure_preserved": true,
+  "two_second_water_mae_v8b": 9.977927063339731,
+  "two_second_water_mae_v9": 6.431401600610612,
+  "inspection": "Sampled stills and numeric checks; no continuous playback judgment claimed"
+}
