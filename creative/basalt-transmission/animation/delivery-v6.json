@@ -2,7 +2,8 @@
   "status": "v6 motion accepted as decent; seamless 4K export technically validated",
   "user_feedback": [
     "this seems decent now",
-    "make it seemless"
+    "make it seemless",
+    "save this and push everything we learned back into the repo"
   ],
   "file": "creative/basalt-transmission/animation/baseline-v6-loop-4k-master.mp4",
   "sha256": "6275bbce0504903fceeaa4b00a7e3b13bc3b07b6fe18f8515877097e8cfbee0c",
@@ -18,8 +19,8 @@
     941
   ],
   "upscaled": true,
-  "tracked_in_git": false,
-  "storage": "Local master; 113.7 MB, not committed to ordinary Git. Supporting configuration and verification are tracked.",
+  "tracked_in_git": true,
+  "storage": "Git LFS: exact approved 113659615-byte master; run git lfs pull after cloning. See .gitattributes.",
   "three_repeat_preview": "basalt-v6-three-loop-check-720p.mp4",
   "join_times_seconds": [
     20,

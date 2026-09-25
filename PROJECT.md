@@ -1,3 +1,7 @@
+## Saved baseline and reusable workflow
+
+Basalt v6 approved master is tracked through Git LFS, with restore hash in delivery-v6.json. Read creative/NEXT_SCENE_RUNBOOK.md for the consolidated pipeline and lessons. Supporting scripts, source art, masks, configuration and reports remain in ordinary Git. Draft/repeated MP4s stay local.
+
 ## Basalt v6 seamless delivery
 
 User accepted the motion as decent and requested seamless completion. Exported twenty-second 4K loop and a three-repeat 720p join preview. See creative/basalt-transmission/animation/delivery-v6.json for verification and local media storage status. Existing twenty-minute historical drafts are not this delivery.

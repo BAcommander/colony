@@ -8,7 +8,7 @@ Approved master: creative/ringfall/04-laptop-refined.png. Approved animation: cr
 
 ## Defaults and authorization
 
-Current scene (2026-09-25): User called Basalt v6 "decent" and requested seamless completion. Preserve v6 motion as the accepted visual baseline. Twenty-second 4K master: creative/basalt-transmission/animation/baseline-v6-loop-4k-master.mp4. Three-repeat 720p review: basalt-v6-three-loop-check-720p.mp4 in the same folder (60 seconds of exact repeated twenty-second motion, not a longer unique loop). Read final validation and delivery-v6.json for completed checks/storage status. Original source is 1672x941; 4K is upscaled. Do not infer that the large local master is backed up in Git. Ringfall v9b remains the other accepted reference. Preserve actual feedback: user approved the motion as decent, not a claimed perfect score.
+Current scene (2026-09-25): User called Basalt v6 "decent" and requested seamless completion. Preserve v6 motion as the accepted visual baseline. Twenty-second 4K master: creative/basalt-transmission/animation/baseline-v6-loop-4k-master.mp4. Three-repeat 720p review: basalt-v6-three-loop-check-720p.mp4 in the same folder (60 seconds of exact repeated twenty-second motion, not a longer unique loop). Read final validation and delivery-v6.json for completed checks/storage status. Original source is 1672x941; 4K is upscaled. The approved Basalt master is now tracked with Git LFS; run git lfs pull after cloning and verify the SHA-256 in delivery-v6.json. Draft/repeat-preview videos remain local. Ringfall v9b remains the other accepted reference. Preserve actual feedback: user approved the motion as decent, not a claimed perfect score.
 
 - Produce local MP4s from this chat. No paid plugins, cloud video services, API fees or separately purchased credits. Built-in image generation and free local tools/models are authorized; do not install another model merely because it exists.
 - Requests to build animation mean execute locally. Requests only for a prompt/document mean save and deliver that document without silently rendering.
@@ -55,3 +55,10 @@ For each new still, remap coordinates, masks, light sources and occlusion to tha
 Approved v9b MP4 is explicitly tracked by a narrow .gitignore exception at the user's request. Draft videos, .local/ runtimes/weights and caches remain ignored. For future approved finals, check size and repository limits before choosing ordinary Git or a large-file strategy; do not silently omit requested media. Never force-push. Music has not yet been produced.
 
 Python has NumPy, Pillow, OpenCV and imageio-ffmpeg. The Ringfall renderer imports v8, v7, v6 and the core renderer plus scene-v6.json; retain those dependencies. Free ComfyUI/Wan is installed under .local/ for optional future experiments, not the accepted production path. Hardware: RTX 4060 8GB VRAM, approximately 64GB RAM. Keep services on localhost and paid/API nodes disabled.
+
+
+## Next scene: carry these decisions forward
+
+Read creative/NEXT_SCENE_RUNBOOK.md before producing another scene. Basalt v6 is now the accepted landscape-motion reference alongside Ringfall v9b. Start with isolated short full-frame transport tests; recognizable motion before loop design, source-coordinate masks before strength tuning. User-visible acceptance is separate from numeric validation. Preserve explicit feedback and current authority rather than treating older pending statuses as active.
+
+Approved media policy: Basalt's exact 113.7 MB master uses a single-path Git LFS rule; do not add blanket video tracking, generated twenty-minute repeats, failed trials, caches or model weights. Git push must upload LFS content as well as the pointer; verify the LFS object remotely before claiming backup complete. No paid capacity purchases. Store source/config/code hashes and restore instructions with each approved delivery.

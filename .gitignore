@@ -9,3 +9,6 @@ __pycache__/
 
 # User-approved final delivery, explicitly stored in Git.
 !creative/ringfall/animation/ringfall-ambient-v9b-20s-final.mp4
+
+# Approved Basalt master; binary stored with Git LFS.
+!creative/basalt-transmission/animation/baseline-v6-loop-4k-master.mp4
