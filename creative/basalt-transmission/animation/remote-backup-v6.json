@@ -1,0 +1,8 @@
+{
+  "remote": "origin",
+  "ref": "main",
+  "method": "Git LFS fetch into independent empty storage, then SHA-256 comparison",
+  "sha256": "6275bbce0504903fceeaa4b00a7e3b13bc3b07b6fe18f8515877097e8cfbee0c",
+  "bytes": 113659615,
+  "remote_object_restored_and_verified": true
+}
