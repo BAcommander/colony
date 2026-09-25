@@ -43,5 +43,18 @@
     "reference_roles": [
       "Source artwork as edit target; first design establishing series identity"
     ]
+  },
+  "youtube_metadata": {
+    "description_file": "description.txt",
+    "description_sha256": "55b9eb6f1d1dd71260f6d114862fc1c58da70e7e4819b46d34530d2c44ba05a1",
+    "tags_file": "youtube-tags.txt",
+    "tags_sha256": "d01c3fb02c13b6f26cf216aac49342cd43929e00542c082306f8d5755034c11a",
+    "tags_count": 18,
+    "tags_characters_including_separators": 324,
+    "tags_characters_including_file_newline": 325,
+    "tag_limit_exclusive": 500,
+    "sign_off": "Welcome to Ambient Colony. Stay a while and listen.",
+    "status": "User-requested descriptions saved; relevance-based search tags prepared",
+    "audio_note": "Silent video masters; update audio-specific metadata once the soundtrack is selected"
   }
 }

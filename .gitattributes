@@ -3,3 +3,5 @@ creative/glacier-sanctuary/animation/final-v11/glacier-sanctuary-v11-60s-4k.mp4 
 final/01-ringfall-observatory/video-4k.mp4 filter=lfs diff=lfs merge=lfs -text
 final/02-basalt-transmission/video-4k.mp4 filter=lfs diff=lfs merge=lfs -text
 final/03-glacier-sanctuary/video-4k.mp4 filter=lfs diff=lfs merge=lfs -text
+final/**/description.txt text eol=lf
+final/**/youtube-tags.txt text eol=lf

@@ -44,5 +44,18 @@
       "Source artwork as edit target",
       "Approved Ringfall thumbnail as style reference only"
     ]
+  },
+  "youtube_metadata": {
+    "description_file": "description.txt",
+    "description_sha256": "c6024756b170a3bb2149b78f7b10c327ebde42fe17f15463ea2e840154377288",
+    "tags_file": "youtube-tags.txt",
+    "tags_sha256": "70014e84f9d78a5f4e2026d11b4f83bfb85ebde01854a96acd89174de1568e26",
+    "tags_count": 19,
+    "tags_characters_including_separators": 346,
+    "tags_characters_including_file_newline": 347,
+    "tag_limit_exclusive": 500,
+    "sign_off": "Welcome to Ambient Colony. Stay a while and listen.",
+    "status": "User-requested descriptions saved; relevance-based search tags prepared",
+    "audio_note": "Silent video masters; update audio-specific metadata once the soundtrack is selected"
   }
 }
