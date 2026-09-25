@@ -4,6 +4,8 @@ Last updated: 2026-09-24.
 
 ## Current approved state
 
+Next scene selected on 2026-09-25: concept09 Basalt Transmission. User requested a detailed first-pass production prompt for a twenty-minute video. Saved creative/basalt-transmission/animation/production-prompt-v1.md and source-hashed scene-plan-v1.json. Planned delivery is sixty repetitions of a twenty-second local loop (4K,30fps,silent); this duration interpretation is stated to the user. No animation rendered in this prompt-writing turn. The plan emphasizes roof exhaust, low valley haze and independent room-light changes, with optional masked sky detail.
+
 The user approved Ringfall v9b as finally good and requested that the final 4K video be pushed too. Approved file: creative/ringfall/animation/ringfall-ambient-v9b-20s-final.mp4 (20 seconds, 30 fps, 3840x2160, silent, upscaled source art). It is tracked in Git, with hash and acceptance in approved-v9b.json beside it. Local procedural compositing is the accepted default. AGENTS.md and creative/ANIMATION_WORKFLOW.md now provide the concise reusable process; creative/scene-plan-template.json captures new scene parameters. Current renderers still require scene-specific coordinates; this is not yet a generic one-command renderer.
 
 The sections below retain historical chronology. Earlier pending-review, no-final, regional-AI-next-step and local-only-final statements are superseded by this approval and storage decision.

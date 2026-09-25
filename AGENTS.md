@@ -8,6 +8,8 @@ Approved master: creative/ringfall/04-laptop-refined.png. Approved animation: cr
 
 ## Defaults and authorization
 
+Current next scene (2026-09-25): Basalt Transmission, source creative/concepts/09-basalt-transmission.png. Detailed execution brief: creative/basalt-transmission/animation/production-prompt-v1.md; source hash and provisional plan: scene-plan-v1.json beside it. User requested a detailed prompt for a twenty-minute video. Current interpretation: a twenty-second loop repeated sixty times, 1200 seconds/36000 frames at30fps, silent until music is supplied. Brief only prepared; no Basalt render exists yet. Map this scene's anchors/masks before implementation. Priorities: roof exhaust, terrain-occluded valley haze, restrained independent room-light states. Source suggests an atmosphere, unlike Ringfall. Keep Ringfall as the approved quality reference. Check long-delivery file size before choosing Git storage.
+
 - Produce local MP4s from this chat. No paid plugins, cloud video services, API fees or separately purchased credits. Built-in image generation and free local tools/models are authorized; do not install another model merely because it exists.
 - Requests to build animation mean execute locally. Requests only for a prompt/document mean save and deliver that document without silently rendering.
 - Default to a genuine twenty-second loop, 30 fps/600 frames, silent, 1280x720 preview then 3840x2160 final. Follow explicit scene-specific changes. Disclose upscaled source detail.

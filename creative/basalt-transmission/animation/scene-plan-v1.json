@@ -1,0 +1,101 @@
+{
+  "status": "brief prepared; not implemented",
+  "scene_name": "Basalt Transmission",
+  "source": {
+    "path": "creative/concepts/09-basalt-transmission.png",
+    "sha256": "741306aca34a3f3ce16add13b34e15a589b017c006e95426373e4273394ef99a",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "output": {
+    "duration_seconds": 1200,
+    "fps": 30,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "audio": false,
+    "version": "v1",
+    "loop_duration_seconds": 20,
+    "loop_repetitions": 60,
+    "expected_loop_frames": 600,
+    "expected_delivery_frames": 36000
+  },
+  "protected_geometry": [
+    "foreground cave and rocks",
+    "habitat shells and window frames",
+    "antenna and dish",
+    "stairs and bridge",
+    "mesa silhouettes",
+    "moon",
+    "horizon"
+  ],
+  "principal_motion": [
+    "two roof exhaust plumes",
+    "distant ground-hugging haze"
+  ],
+  "layers": [
+    {
+      "name": "roof_exhaust",
+      "method": "local advected density",
+      "source_anchor_xy": [],
+      "roi_xyxy": [],
+      "mask_path": "to be mapped on actual source before rendering",
+      "parameters": {},
+      "loop_method": "periodic forward transport or circular event schedule"
+    },
+    {
+      "name": "valley_haze",
+      "method": "local terrain-occluded density transport",
+      "source_anchor_xy": [],
+      "roi_xyxy": [],
+      "mask_path": "to be mapped on actual source before rendering",
+      "parameters": {},
+      "loop_method": "periodic forward transport or circular event schedule"
+    },
+    {
+      "name": "sky_cloud_detail",
+      "method": "masked residual texture transport; optional if clean separation fails",
+      "source_anchor_xy": [],
+      "roi_xyxy": [],
+      "mask_path": "to be mapped on actual source before rendering",
+      "parameters": {},
+      "loop_method": "periodic forward transport or circular event schedule"
+    },
+    {
+      "name": "interior_lights",
+      "method": "whole-aperture scheduled dim/off states",
+      "source_anchor_xy": [],
+      "roi_xyxy": [],
+      "mask_path": "to be mapped on actual source before rendering",
+      "parameters": {},
+      "loop_method": "periodic forward transport or circular event schedule"
+    },
+    {
+      "name": "mast_indicator",
+      "method": "restrained existing-lamp event",
+      "source_anchor_xy": [],
+      "roi_xyxy": [],
+      "mask_path": "to be mapped on actual source before rendering",
+      "parameters": {},
+      "loop_method": "periodic forward transport or circular event schedule"
+    }
+  ],
+  "review": {
+    "inspection_performed": [],
+    "technical_report": "",
+    "user_feedback": "Selected concept 09; requested detailed first-pass prompt for a twenty-minute video.",
+    "approved": false
+  },
+  "delivery": {
+    "final_path": "",
+    "final_sha256": "",
+    "tracked_in_git": false
+  }
+}
