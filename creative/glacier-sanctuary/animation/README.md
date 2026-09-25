@@ -1,3 +1,7 @@
+# Current candidate — v3
+
+Snow and smoke preserved from user-approved v2 effects. Wider distant fog, slow outdoor amber halos and broader traveling water reflections. Eight-second study in review-v3/combined.mp4; isolated mist, water and exterior_lights clips. Not seamless; visual acceptance pending. Review water for artificial stripes and halo strength. See production-prompt-v3.md. Older status below is historical.
+
 # Current candidate — v2
 
 Snow unchanged following user approval. Stronger coherent mist banks, readable water ripples/reflection highlights, larger roof plume and controlled right-annex lighting. Eight-second motion test: review-v2/combined.mp4; isolated mist.mp4, water.mp4 and roof_lights.mp4. Review pending; not seamless. See production-prompt-v2.md. Historical v1 status below is superseded.

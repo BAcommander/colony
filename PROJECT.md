@@ -1,3 +1,7 @@
+## Glacier Sanctuary v3
+
+User approved smoke and snow, requested stronger distant fog, exterior halos/pulses and readable water. V3 preserves accepted effects and targets those three changes. Eight-second motion study pending review; no final loop/export.
+
 ## Glacier Sanctuary v2
 
 User approved snow; other effects needed visibility and lights requested. Eight-second v2 study preserves snow, revises mist/water/exhaust and adds a localized slow window dim/return. Review pending. See creative/glacier-sanctuary/animation/production-prompt-v2.md.

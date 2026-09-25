@@ -31,6 +31,14 @@ class Glacier:
   self.masks['combined']|=self.masks['roof_lights']
   self.masks['mist']=np.zeros((self.h,self.w),bool);x0,y0,x1,y1=self.mist['roi'];self.masks['mist'][y0:y1,x0:x1]=self.mmask>0
   self.masks['snow']=self.opening>0
+  self.halos=[];self.masks['exterior_lights']=np.zeros((self.h,self.w),bool)
+  for lamp in e.get('exterior_lights',[]):
+   sx,sy=lamp['anchor'];radius=lamp['radius'];roi=[sx-radius*3,sy-radius*3,sx+radius*3+1,sy+radius*3+1]
+   x0,y0,x1,y1=roi;yy,xx=np.mgrid[y0:y1,x0:x1].astype(float)
+   d=((xx-sx)/radius)**2+((yy-sy)/radius)**2
+   halo=np.exp(-d*.5)*np.clip((9-d)/2,0,1)
+   self.halos.append((lamp,roi,halo));self.masks['exterior_lights'][y0:y1,x0:x1]|=halo>0
+  self.masks['combined']|=self.masks['exterior_lights']
  def frame(self,t,layer='combined'):
   f=self.base.copy()
   if layer in ('water','combined'):
@@ -42,8 +50,13 @@ class Glacier:
    surface=self.wbase*(1-a)+moved*a
    if self.water.get('reflection_strength'):
     # Broken, traveling glints distributed over open water, never over ice.
-    waves=np.sin(y*.37-phase*4+.7*np.sin(x*.014))+ .45*np.sin(y*.61-phase*6+x*.008)
-    breakup=.35+.65*(.5+.5*np.sin(x*.048+y*.017))
+    if self.water.get('broad_reflections'):
+     q=y*.19-phase*12+.7*np.sin(x*.012)
+     waves=1.8*(.5+.5*np.sin(q))**5-.32
+     breakup=(.4+.6*(.5+.5*np.sin(x*.036+y*.02-phase)))
+    else:
+     waves=np.sin(y*.37-phase*4+.7*np.sin(x*.014))+ .45*np.sin(y*.61-phase*6+x*.008)
+     breakup=.35+.65*(.5+.5*np.sin(x*.048+y*.017))
     surface+=waves[...,None]*breakup[...,None]*a*self.water['reflection_strength']*np.array([.8,.93,1.0])
    f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(surface,0,255)))
   if layer in ('mist','atmosphere','combined'):
@@ -67,6 +80,11 @@ class Glacier:
     amount=event_amount(t,20,light['start'],light['hold'],light['transition'])*light['strength']
     a=mask[...,None]*amount
     f=np.uint8(np.rint(np.clip(f*(1-a)+(f*.18+np.array([10,10,12]))*a,0,255)))
+  if layer in ('exterior_lights','combined'):
+   for lamp,roi,halo in self.halos:
+    brightness=lamp['strength']*(.45+.55*(.5+.5*np.sin(TAU*t/lamp['period']+lamp['phase'])))
+    x0,y0,x1,y1=roi;patch=f[y0:y1,x0:x1].astype(float)
+    f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch+halo[...,None]*brightness*np.array([1,.66,.30]),0,255)))
   return f
 
 def main():
