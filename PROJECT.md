@@ -4,6 +4,8 @@ Last updated: 2026-09-24.
 
 ## Current approved state
 
+Latest Basalt v4 review pass: user found middle-right smoke too strong and far/upper regions still static. Reduced near dust/haze, added far-valley density transport, expanded sky detail motion upward with moon protection. Producing short720p/4K review loops and comparison; no new20-minute assembly until the distribution is reviewed. V3 long video remains preserved.
+
 Latest Basalt feedback: v2 background still too hard to see. V3 moves actual source cloud detail with local blending, increases wind travel from190 to480sourcepixels and increases gust scale/density. Earlier versions preserved; user review pending. See production-prompt-v3.md, scene-plan-v3.json and baseline-v3 reports.
 
 Basalt revision v2: user liked the start but requested more background motion. Added wind-driven dust sheets, broader valley haze and cloud-band texture movement; source geometry and foreground effects remain fixed. New versioned renderer/assembly CLI preserves v1b. See creative/basalt-transmission/animation/production-prompt-v2.md. User review pending.

@@ -1,0 +1,37 @@
+{
+  "source": "creative\\concepts\\09-basalt-transmission.png",
+  "source_sha256": "741306aca34a3f3ce16add13b34e15a589b017c006e95426373e4273394ef99a",
+  "output": "creative\\basalt-transmission\\animation\\baseline-v4-loop-4k-master.mp4",
+  "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "output_dimensions": [
+    3840,
+    2160
+  ],
+  "resolution_note": "3840x2160 export resampled from 1672x941 source; no claim of native 4K image detail",
+  "fps": 30.0,
+  "frames": 600,
+  "duration_seconds": 20.0,
+  "audio": false,
+  "periodic_endpoint_pixels_identical": true,
+  "uncompressed_static_plate_unchanged": true,
+  "analytic_active_pixel_mean_abs_step": 0.23520901134993277,
+  "analytic_active_pixel_max_mean_abs_step": 0.3845234215259552,
+  "analytic_active_pixel_seam_mean_abs_step": 0.3843134939670563,
+  "encoded_active_pixel_mean_abs_step": 0.40949207337849924,
+  "encoded_active_pixel_max_mean_abs_step": 0.5095595121383667,
+  "encoded_active_pixel_seam_mean_abs_step": 0.5082706212997437,
+  "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+  "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+  "effects": {
+    "roof_exhaust": "Two source-anchored rising, right-drifting plumes",
+    "valley_haze": "Two depth bands of rightward material motion, rock-occluded",
+    "interior_lights": "Two smaller rooms with offset holds; main room steady",
+    "sky_clouds": "source_detail_advection; moon and terrain fixed",
+    "plain_wind": "8 independent low drifting dust sheets behind protected rocks",
+    "far_haze": "Slow moving density in distant valleys and mesa foothills with rock occlusion"
+  }
+}

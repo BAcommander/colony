@@ -1,0 +1,20 @@
+{
+  "version": "v4",
+  "status": "short review candidate; user approval pending",
+  "feedback": "Middle-right smoke too strong, far distance/top still static",
+  "changes": [
+    "near gust opacity0.48 to0.18 and height scale1.6 to0.85",
+    "near haze reduced35percent",
+    "independent distant valley and mesa-foot haze",
+    "cloud source-detail motion extended to upper sky",
+    "moon protected in both texture source and output mask"
+  ],
+  "inspection": [
+    "full-scene temporal samples",
+    "mask overlay including moon exclusion and distant rock blockers"
+  ],
+  "continuous_playback_review": false,
+  "delivery_scope": "20-second720p and4K review loops; no new20-minute file",
+  "preserved_long_delivery": "baseline-v3-20min-4k.mp4",
+  "comparison": "baseline-v3-v4-comparison.mp4; v3 left,v4 right"
+}

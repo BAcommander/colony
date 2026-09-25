@@ -1,0 +1,29 @@
+{
+  "status": "short review candidate; technical checks passed; user approval pending",
+  "config": "scene-plan-v4.json",
+  "prompt": "production-prompt-v4.md",
+  "source_upscaled": true,
+  "duration_seconds": 20,
+  "fps": 30,
+  "audio": false,
+  "full_length_rebuilt": false,
+  "outputs": {
+    "baseline-v4-preview.mp4": {
+      "bytes": 15674310,
+      "sha256": "a7b483f2bdfa443d4912e301134e32cb17d41db690cd56c23eda7ca01df5bb0e",
+      "tracked_in_git": false
+    },
+    "baseline-v4-loop-4k-master.mp4": {
+      "bytes": 122021648,
+      "sha256": "cfa80a9d45285db5fdd22ff531fd8763b0901d26b6e5fe6dba5161efe29fc788",
+      "tracked_in_git": false
+    },
+    "baseline-v3-v4-comparison.mp4": {
+      "bytes": 891442,
+      "sha256": "d979a6727f504e373ed16784d4972e39c02d85bbbf24237f41f25d125abfcd8c",
+      "tracked_in_git": false
+    }
+  },
+  "validation": "baseline-v4-loop-4k-master-validation.json",
+  "review": "revision-v4-review.json"
+}

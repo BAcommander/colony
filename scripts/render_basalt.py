@@ -56,6 +56,9 @@ class Basalt:
             yy,xx=np.mgrid[y0:y1,x0:x1].astype(float)
             m=polygon_mask(xx.shape,[c['polygon']],(x0,y0),c['feather'])
             patch=self.base[y0:y1,x0:x1].astype(float)
+            for sx,sy,radius in c.get('protected_discs',[]):
+                distance=np.sqrt((xx-sx)**2+(yy-sy)**2)
+                m*=smoothstep((distance-radius)/8)
             lum=patch.mean(axis=2).astype(np.float32)
             shade=cv2.GaussianBlur(lum,(0,0),15)
             # Concentrate detail within darker existing cloud material, not clear sky.
@@ -63,15 +66,33 @@ class Basalt:
             floor=c.get('material_floor',0)
             m*=floor+(1-floor)*cv2.GaussianBlur(material,(0,0),2)
             if c.get('mode')=='source_detail_advection':
-                self.cloud_detail=(patch-cv2.GaussianBlur(patch,(0,0),55, sigmaY=14)).astype(np.float32)
+                texture_patch=patch
+                if c.get('inpaint_discs'):
+                    disc=np.zeros(xx.shape,np.uint8)
+                    for sx,sy,radius in c['inpaint_discs']:
+                        cv2.circle(disc,(sx-x0,sy-y0),radius,255,-1)
+                    texture_patch=cv2.inpaint(np.uint8(patch),disc,9,cv2.INPAINT_TELEA).astype(float)
+                self.cloud_detail=(texture_patch-cv2.GaussianBlur(texture_patch,(0,0),55, sigmaY=14)).astype(np.float32)
                 self.cloud_local_y,self.cloud_local_x=np.mgrid[0:y1-y0,0:x1-x0].astype(np.float32)
             self.clouds=(c,xx,yy,m)
             full=np.zeros(self.base.shape[:2],bool);full[y0:y1,x0:x1]=m>0
             self.layer_masks['sky_clouds']=full
+        self.far_haze=None
+        if 'far_haze' in self.config['effects']:
+            c=self.config['effects']['far_haze'];x0,y0,x1,y1=c['roi']
+            yy,xx=np.mgrid[y0:y1,x0:x1].astype(float)
+            m=polygon_mask(xx.shape,c['polygons'],(x0,y0),c['feather'])
+            blockers=polygon_mask(xx.shape,c['blockers'],(x0,y0),1)
+            distance=cv2.distanceTransform(np.uint8(blockers==0),cv2.DIST_L2,5)
+            m*=smoothstep((distance-1)/4)
+            self.far_haze=(c,xx,yy,m)
+            full=np.zeros(self.base.shape[:2],bool);full[y0:y1,x0:x1]=m>0
+            self.layer_masks['far_haze']=full
         self.active=np.logical_or.reduce(list(self.layer_masks.values()))
         self.effect_descriptions={'roof_exhaust':'Two source-anchored rising, right-drifting plumes','valley_haze':'Two depth bands of rightward material motion, rock-occluded','interior_lights':'Two smaller rooms with offset holds; main room steady'}
         if self.clouds:self.effect_descriptions['sky_clouds']=self.config['effects']['clouds'].get('mode','procedural material field')+'; moon and terrain fixed'
         if 'wind' in self.config['effects']:self.effect_descriptions['plain_wind']=str(self.config['effects']['wind']['count'])+' independent low drifting dust sheets behind protected rocks'
+        if self.far_haze:self.effect_descriptions['far_haze']='Slow moving density in distant valleys and mesa foothills with rock occlusion'
     def frame(self,t,output_size=True):
         p=TAU*(float(t)%self.duration)/self.duration
         f=self.base.copy()
@@ -92,6 +113,12 @@ class Basalt:
                 f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch,0,255)))
             else:
                 f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch+(m*field*c['amplitude'])[...,None]*np.array([1,.86,.76]),0,255)))
+        if self.far_haze:
+            c,x,y,m=self.far_haze
+            q=TAU*x/c['wavelength']-p
+            field=np.clip(.48+.32*np.sin(q+y*.10)+.20*np.sin(2*q-y*.16),0,1)
+            alpha=m*field*c['opacity']
+            blend(f,c['roi'],c['color'],alpha)
         c=self.config['effects']['haze'];alpha=np.zeros_like(self.hx)
         for band in c['bands']:
             # Persistent low-frequency shapes with fine density traveling right.
@@ -126,7 +153,7 @@ class Basalt:
     def qa(self,stem):
         folder=OUT/('masks-'+self.config['output']['version']);folder.mkdir(exist_ok=True)
         overlay=self.base.copy().astype(float)
-        for (name,m),color in zip(self.layer_masks.items(),[(100,200,255),(100,255,150),(255,100,70),(240,180,70),(180,120,255)]):
+        for (name,m),color in zip(self.layer_masks.items(),[(100,200,255),(100,255,150),(255,100,70),(240,180,70),(180,120,255),(60,190,210)]):
             Image.fromarray(np.uint8(m)*255).save(folder/(name+'.png'))
             overlay[m]=overlay[m]*.6+np.array(color)*.4
         im=Image.fromarray(np.uint8(overlay));d=ImageDraw.Draw(im)
@@ -153,7 +180,7 @@ class Basalt:
         (OUT/(stem+'-settings.json')).write_text(json.dumps(manifest,indent=2))
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--stage',choices=['preview','final'],default='preview');ap.add_argument('--qa-only',action='store_true');ap.add_argument('--version',choices=['v1','v2','v3'],default='v1');args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--stage',choices=['preview','final'],default='preview');ap.add_argument('--qa-only',action='store_true');ap.add_argument('--version',choices=['v1','v2','v3','v4'],default='v1');args=ap.parse_args()
     anim=Basalt(OUT/('scene-plan-'+args.version+'.json'));core.SOURCE=anim.source;core.OUTPUT=OUT;core.DURATION=anim.duration;core.FPS=30
     core.SIZE=(1280,720) if args.stage=='preview' else (3840,2160)
     core.STEM='baseline-'+args.version+('-preview' if args.stage=='preview' else '-loop-4k-master')

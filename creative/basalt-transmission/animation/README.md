@@ -1,5 +1,11 @@
 # Basalt Transmission — local animation
 
+## Current: v4 depth-balance review
+
+Middle-right smoke was too strong in v3; far distance/top still appeared still. V4 reduces near dust/haze, adds independent far-valley and foothill haze, and extends source-cloud detail transport into the upper sky. The moon is protected in the composite and removed from the moving texture-only source to avoid ghosts.
+
+Review files: baseline-v4-preview.mp4 and baseline-v4-loop-4k-master.mp4. Comparison: baseline-v3-v4-comparison.mp4 (v3 left,v4 right). This is a20-second review iteration; no v4 twenty-minute file has been built. Previous deliveries remain intact. Use `python scripts/render_basalt.py --version v4 --stage preview` or `--stage final`; configuration scene-plan-v4.json, brief production-prompt-v4.md, masks masks-v4/. User review pending.
+
 ## Latest: v3 visibility revision
 
 User still struggled to see v2 background motion. V3 now transports detail extracted from the source clouds, with continuous local blending and fixed broad sky lighting. Eight larger, denser dust gusts travel480sourcepixels per20seconds versus190 in v2. Existing geometry, moon and habitat motion are preserved. Preview: baseline-v3-preview.mp4; master/delivery loop: baseline-v3-loop-4k-master.mp4 / baseline-v3-loop-4k.mp4; long delivery: baseline-v3-20min-4k.mp4. Comparison: baseline-v2-v3-comparison.mp4 (v2 left,v3 right).
@@ -76,3 +82,5 @@ V2 completed verification:36,000 decoded frames,1200seconds,30fps,3840x2160,sile
 V3 sizes:20-second4K loop approximately52.8MB;20-minute delivery approximately3.17GB. Both are local review files. The larger file retains master-quality motion and avoids the failed lossy-encoding seam from v1. Source artwork remains upscaled. Supporting code, masks and reports are versioned; artistic review is pending.
 
 V3 completed verification:all36,000frames decoded,1200seconds,30fps,3840x2160,no audio. Sequential PTS/DTS, all repeated-frame hashes match the600-frame cycle, and selected full-resolution joins match the reference. Master static-region/endpoint/encoded-seam checks pass. Delivery stream remux preserves master payload. Manifest: delivery-manifest-v3.json.
+
+V4 verification completed:preview and4K master each decode to600frames at30fps,20seconds. Source pixels outside active masks unchanged before encoding, endpoints identical and encoded seam within ordinary-step range. Inspected full-scene temporal samples, mask overlay and a decoded4K frame. No continuous playback review claimed. See delivery-manifest-v4.json.
