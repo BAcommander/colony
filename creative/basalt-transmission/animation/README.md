@@ -1,3 +1,7 @@
+# Latest verdict — 2026-09-25
+
+V4 rejected: right-side smoke again too subtle and no readable rear-ground movement. See ../../pipeline-audit-2026-09-25/AUDIT.md. Pause long exports; independent full-frame motion review now required. Older pending-review statements below are superseded.
+
 # Basalt Transmission â€” local animation
 
 ## Current: v4 depth-balance review

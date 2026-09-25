@@ -89,4 +89,7 @@ if __name__=='__main__':
     PREFIX='baseline-'+a.version
     MASTER=OUT/('baseline-'+('v1' if a.version=='v1b' else a.version)+'-loop-4k-master.mp4')
     LOOP=OUT/(PREFIX+'-loop-4k.mp4');LONG=OUT/(PREFIX+'-20min-4k.mp4')
+    if a.stage=='assemble':
+        from motion_review import require_accepted
+        require_accepted(OUT/('scene-plan-'+('v1' if a.version=='v1b' else a.version)+'.json'))
     globals()[a.stage]()

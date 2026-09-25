@@ -1,0 +1,50 @@
+{
+  "status": "rejected",
+  "user_feedback": "Too subtle on the right; no rear-ground movement (2026-09-25).",
+  "reviewed_at_normal_speed": false,
+  "fingerprint": {
+    "config": "09199054cf804175b77e583b6e24869ba0801ad6533d80dd79a3c71a8bb5afe2",
+    "source": "741306aca34a3f3ce16add13b34e15a589b017c006e95426373e4273394ef99a",
+    "code": {
+      "scripts/render_basalt.py": "cf742c61d40572d7848b7ea20b5ca8aadbd9b02f9081b92a49ccf23b8b3e99e9",
+      "scripts/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+      "scripts/render_ringfall.py": "fe1198eddb332268358f16cd67ff44d89e850ac0015a9ab0e9f69d15f6530b65",
+      "scripts/motion_review.py": "b9b92dd56f617f5eda32c7b65fe52d6c71817e89f993f1d17bb67cfc113e81b8"
+    }
+  },
+  "clips": [
+    {
+      "path": "creative/pipeline-audit-2026-09-25/review-v4/sky_clouds.mp4",
+      "sha256": "12d706e0b53a726639b2713e0217744ddd8e03a7d9233c0bfc5bf34925b61a4f",
+      "layer": "sky_clouds",
+      "frames": 240,
+      "peak_temporal_mae": 33.33333206176758,
+      "fraction_full_frame_changed_above_3_levels": 0.053427734375
+    },
+    {
+      "path": "creative/pipeline-audit-2026-09-25/review-v4/far_haze.mp4",
+      "sha256": "76487aa658100506fb9725cfaea03d30588484021df46b3b2f99500d59e456eb",
+      "layer": "far_haze",
+      "frames": 240,
+      "peak_temporal_mae": 23.33333396911621,
+      "fraction_full_frame_changed_above_3_levels": 0.011369357638888888
+    },
+    {
+      "path": "creative/pipeline-audit-2026-09-25/review-v4/plain_wind.mp4",
+      "sha256": "bea1dd9d6a6fe3689d6e19d51470e1061e517552456145c51279e05cbc6d88a5",
+      "layer": "plain_wind",
+      "frames": 240,
+      "peak_temporal_mae": 20.66666603088379,
+      "fraction_full_frame_changed_above_3_levels": 0.005660807291666667
+    },
+    {
+      "path": "creative/pipeline-audit-2026-09-25/review-v4/combined.mp4",
+      "sha256": "2f76bb29806d5228fcdd36e084d3ba491114af8d54bb0d95a6b551e2b6d7f52b",
+      "layer": "combined",
+      "frames": 240,
+      "peak_temporal_mae": 109.66666412353516,
+      "fraction_full_frame_changed_above_3_levels": 0.08049370659722223
+    }
+  ],
+  "note": "Eight-second excerpts preserve original twenty-second timing; not seamless loops. Metrics describe changes, not perceived quality."
+}

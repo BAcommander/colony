@@ -93,10 +93,10 @@ class Basalt:
         if self.clouds:self.effect_descriptions['sky_clouds']=self.config['effects']['clouds'].get('mode','procedural material field')+'; moon and terrain fixed'
         if 'wind' in self.config['effects']:self.effect_descriptions['plain_wind']=str(self.config['effects']['wind']['count'])+' independent low drifting dust sheets behind protected rocks'
         if self.far_haze:self.effect_descriptions['far_haze']='Slow moving density in distant valleys and mesa foothills with rock occlusion'
-    def frame(self,t,output_size=True):
+    def frame(self,t,output_size=True,only=None):
         p=TAU*(float(t)%self.duration)/self.duration
         f=self.base.copy()
-        if self.clouds:
+        if self.clouds and only in (None,"sky_clouds"):
             c,x,y,m=self.clouds;x0,y0,x1,y1=c['roi']
             q=TAU*x/c['wavelength']-p
             bend=2.3*np.sin(q+y*.07)+.9*np.cos(2*q-y*.11)
@@ -113,7 +113,7 @@ class Basalt:
                 f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch,0,255)))
             else:
                 f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch+(m*field*c['amplitude'])[...,None]*np.array([1,.86,.76]),0,255)))
-        if self.far_haze:
+        if self.far_haze and only in (None,"far_haze"):
             c,x,y,m=self.far_haze
             q=TAU*x/c['wavelength']-p
             field=np.clip(.48+.32*np.sin(q+y*.10)+.20*np.sin(2*q-y*.16),0,1)
@@ -128,8 +128,9 @@ class Basalt:
             coarse=.50+.25*np.sin(self.hx*.015+band['phase'])+.15*np.cos(self.hx*.031)
             moving=.55+.28*np.sin(q+(self.hy-band['center_y'])*.23)+.17*np.sin(2*q+self.hy*.37)
             alpha+=ribbon*np.clip(coarse,0,1)*np.clip(moving,0,1)*band['opacity']
-        blend(f,self.haze_roi,c['color'],alpha*self.haze_mask)
-        if 'wind' in self.config['effects']:
+        if only in (None,'valley_haze'):
+            blend(f,self.haze_roi,c['color'],alpha*self.haze_mask)
+        if 'wind' in self.config['effects'] and only in (None,'plain_wind'):
             c=self.config['effects']['wind'];a=np.zeros_like(self.hx)
             for i,(sx,sy,width,height,offset) in enumerate(self.wind_seeds):
                 age=((float(t)%self.duration)/self.duration+offset)%1
@@ -140,9 +141,9 @@ class Basalt:
                 detail=.65+.25*np.sin((self.hx-cx)*.11+self.hy*.18+i)+.10*np.cos((self.hx-cx)*.23-self.hy*.4)
                 a+=body*detail*envelope*c['opacity']
             blend(f,self.haze_roi,c['color'],np.clip(a,0,c.get('max_opacity',.45))*self.haze_mask)
-        for c,roi,x,y in self.vents:
+        for c,roi,x,y in (self.vents if only in (None,"roof_exhaust") else []):
             blend(f,roi,c['color'],vent_density(x,y,c,p))
-        for c,roi,mask in self.windows:
+        for c,roi,mask in (self.windows if only in (None,"interior_lights") else []):
             amount=event_amount(t,self.duration,c['start'],c['hold'],c['transition'])*c['strength']
             x0,y0,x1,y1=roi;patch=f[y0:y1,x0:x1].astype(float)
             # Retain texture in the dark aperture rather than a solid rectangle.
@@ -181,6 +182,9 @@ class Basalt:
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--stage',choices=['preview','final'],default='preview');ap.add_argument('--qa-only',action='store_true');ap.add_argument('--version',choices=['v1','v2','v3','v4'],default='v1');args=ap.parse_args()
+    if args.stage=='final' and not args.qa_only:
+        from motion_review import require_accepted
+        require_accepted(OUT/('scene-plan-'+args.version+'.json'))
     anim=Basalt(OUT/('scene-plan-'+args.version+'.json'));core.SOURCE=anim.source;core.OUTPUT=OUT;core.DURATION=anim.duration;core.FPS=30
     core.SIZE=(1280,720) if args.stage=='preview' else (3840,2160)
     core.STEM='baseline-'+args.version+('-preview' if args.stage=='preview' else '-loop-4k-master')

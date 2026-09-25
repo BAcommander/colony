@@ -1,3 +1,7 @@
+## Latest pipeline decision — 2026-09-25
+
+Basalt v4 rejected for unreadable distant motion. Audited 89 Ringfall/history/current pipeline files; see creative/pipeline-audit-2026-09-25/AUDIT.md and source-inventory.json. Added independent full-composition motion excerpts and hash-bound visual-review checks before final/long exports. Four diagnostic clips reproduce existing v4, not a new artistic revision. Next: coherent broad cloud transport and separately readable distant wind before tuning near-smoke opacity. Ringfall v9b remains approved.
+
 # Ambient Colony â€” project context
 
 Last updated: 2026-09-24.

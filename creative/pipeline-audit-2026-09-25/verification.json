@@ -1,0 +1,17 @@
+{
+  "combined_frames_identical_to_previous_renderer": 6,
+  "isolated_layers_checked": [
+    "roof_exhaust",
+    "valley_haze",
+    "interior_lights",
+    "plain_wind",
+    "sky_clouds",
+    "far_haze"
+  ],
+  "protected_pixels_unchanged": true,
+  "isolated_periodic_endpoints_equal": true,
+  "rejected_review_blocked": true,
+  "diagnostic_clips_fully_decoded": 4,
+  "frames_per_clip": 240,
+  "artistic_acceptance": false
+}

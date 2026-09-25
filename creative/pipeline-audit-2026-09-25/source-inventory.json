@@ -1,0 +1,2404 @@
+{
+  "files": [
+    {
+      "path": "creative/ringfall/04-laptop-refined-prompt.md",
+      "bytes": 3307,
+      "sha256": "d919f7192320e8b0d9d9c8b31a3bbda5b803c4a04286dc727eee9ebc498c139f"
+    },
+    {
+      "path": "creative/ringfall/prompts.md",
+      "bytes": 4915,
+      "sha256": "bec50a44e361fca31b92ef5d67666abf36f187a78496c43200527a13d300cefc"
+    },
+    {
+      "path": "creative/ringfall/animation/ambient-v7-prompt.md",
+      "bytes": 3260,
+      "sha256": "541d16140a4df9f213cf5be9f5a3b86af145c938806c3d6b3cc4b9ca872e537f"
+    },
+    {
+      "path": "creative/ringfall/animation/ambient-v8-20s-prompt.md",
+      "bytes": 2084,
+      "sha256": "0a06cbb69c0a4629aac8e229e8c2bb0f3e9eb7336af507cb30d9198ff29c37f6"
+    },
+    {
+      "path": "creative/ringfall/animation/ambient-v9-final-brief.md",
+      "bytes": 4916,
+      "sha256": "81ea609e54bba1e2b775bf0e52c96dfe4b80851bc5e2c20a216bc2369f26539f"
+    },
+    {
+      "path": "creative/ringfall/animation/motion-brief-v6.md",
+      "bytes": 6158,
+      "sha256": "fed2155c5b4806f178e104e2fe4d912c31fc9f2e8efdab32b4bd5b871be8b62c"
+    },
+    {
+      "path": "creative/ringfall/animation/next-planet-pass-prompt.md",
+      "bytes": 4830,
+      "sha256": "e22e219af5bea7a3d9761713b9f4aaf269211d7afbe1ddcb625df23d99875adc"
+    },
+    {
+      "path": "creative/ringfall/animation/README.md",
+      "bytes": 6394,
+      "sha256": "50b753d0f664fa4915e9f97697da8fe0712fb90fa35ff34fd3edffabe9a462d5"
+    },
+    {
+      "path": "creative/ringfall/animation/craft-overlay/asset-prompt.md",
+      "bytes": 1219,
+      "sha256": "871a6ae4ef3728a673daf87cc4d2f5058041d0bb7fba2b2a82c241344f1b1d7d"
+    },
+    {
+      "path": "creative/ringfall/animation/craft-overlay/README.md",
+      "bytes": 3058,
+      "sha256": "3f8687498186dd6898f39e25a0987ad124dcf675071033189bef33d7917cecc1"
+    },
+    {
+      "path": "creative/ringfall/animation/planet-pass/README.md",
+      "bytes": 4450,
+      "sha256": "31636603caa92b1ebc0f7109a8698a59cb751dfc53933d142a895f4553a332d9"
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/README.md",
+      "bytes": 3377,
+      "sha256": "c68dd7532723a7bf78104ea2c0ba2b9331ae8a7d9749ff320a45c9a9a9dd72cf"
+    },
+    {
+      "path": "creative/ringfall/animation/approved-v9b.json",
+      "bytes": 991,
+      "sha256": "68761e456be00e15df138359a4b6f46c16a86c9155c97688a1482479dc35e03f",
+      "keys": [
+        "status",
+        "approval_date",
+        "user_feedback",
+        "file",
+        "bytes",
+        "sha256",
+        "duration_seconds",
+        "fps",
+        "frames",
+        "dimensions",
+        "audio",
+        "source",
+        "source_dimensions",
+        "resolution_note",
+        "renderer",
+        "brief",
+        "validation",
+        "agent_inspection",
+        "storage"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/motion-plan-v6.json",
+      "bytes": 2978,
+      "sha256": "dfb4b49ea13aa04284abeefac4c3fd6ecb0cf7ca00bae3d12b3f9ace72c25e3a",
+      "keys": [
+        "version",
+        "status",
+        "source",
+        "brief",
+        "duration_seconds",
+        "fps",
+        "preview_size",
+        "final_size",
+        "camera",
+        "source_is_native_4k",
+        "network_generation_allowed",
+        "layers",
+        "visual_acceptance",
+        "technical_acceptance",
+        "renderer",
+        "configuration",
+        "masks",
+        "preview",
+        "final",
+        "validation"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v7-preview-settings.json",
+      "bytes": 6897,
+      "sha256": "c9a3465ac706aae75be0322b2a3e81137f48cf3027b448dbdbfb25652c4577d9",
+      "keys": [
+        "config",
+        "source_sha256",
+        "renderer_sha256",
+        "prompt",
+        "procedural_seed"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v7-preview-validation.json",
+      "bytes": 1778,
+      "sha256": "717594135765624dadd7559486c0d96e06404a0ab11eb69de544d0a5e6d5b946",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-ambient-v7-preview.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          1280,
+          720
+        ],
+        "resolution_note": "1280x720 export resampled from 1672x941 source; no claim of native 4K image detail",
+        "fps": 30.0,
+        "frames": 300,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.21256609669696527,
+        "analytic_active_pixel_max_mean_abs_step": 0.2516013979911804,
+        "analytic_active_pixel_seam_mean_abs_step": 0.20924755930900574,
+        "encoded_active_pixel_mean_abs_step": 0.2279816038134106,
+        "encoded_active_pixel_max_mean_abs_step": 0.2635723054409027,
+        "encoded_active_pixel_seam_mean_abs_step": 0.22288884222507477,
+        "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Layered rising wisps with advected density and widening turbulent path",
+          "planet": "Independent procedural cloud bands, fixed master lighting and protected rings",
+          "colony": "Two moving textured surface light pools, four phased windows and mast beacon",
+          "laptop": "Original display retained with scan sector and telemetry"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v7b-final-settings.json",
+      "bytes": 6897,
+      "sha256": "57fc21cfce45382426a536d90bb7088cc4e2909cb22b1804f4c9c4cd2a367b2b",
+      "keys": [
+        "config",
+        "source_sha256",
+        "renderer_sha256",
+        "prompt",
+        "procedural_seed"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v7b-final-validation.json",
+      "bytes": 1779,
+      "sha256": "4e7ae6683c212b94f89b8f5f0dea3c0c474a0c1ae06e855c5014fe9898aafeab",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-ambient-v7b-final.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          3840,
+          2160
+        ],
+        "resolution_note": "3840x2160 export resampled from 1672x941 source; no claim of native 4K image detail",
+        "fps": 30.0,
+        "frames": 300,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.2126411500084759,
+        "analytic_active_pixel_max_mean_abs_step": 0.25165891647338867,
+        "analytic_active_pixel_seam_mean_abs_step": 0.2093413919210434,
+        "encoded_active_pixel_mean_abs_step": 0.26628918013843805,
+        "encoded_active_pixel_max_mean_abs_step": 0.30501559376716614,
+        "encoded_active_pixel_seam_mean_abs_step": 0.2629222571849823,
+        "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Layered rising wisps with advected density and widening turbulent path",
+          "planet": "Independent procedural cloud bands, fixed master lighting and protected rings",
+          "colony": "Two moving textured surface light pools, four phased windows and mast beacon",
+          "laptop": "Original display retained with scan sector and telemetry"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v7b-layer-checks.json",
+      "bytes": 621,
+      "sha256": "8bde6f279bafa8ef09dd8543d1311f9c035aa0b584089ebe7e31a6cff0873424",
+      "keys": [
+        "steam",
+        "laptop",
+        "planet",
+        "colony"
+      ],
+      "parse_ok": true,
+      "data": {
+        "steam": {
+          "endpoint_identical": true,
+          "mean_rgb_change_0_to_2s": 3.699237215298668,
+          "seam_mean_rgb_change": 0.1609368285345939
+        },
+        "laptop": {
+          "endpoint_identical": true,
+          "mean_rgb_change_0_to_2s": 1.0574080391153562,
+          "seam_mean_rgb_change": 0.02854056512593098
+        },
+        "planet": {
+          "endpoint_identical": true,
+          "mean_rgb_change_0_to_2s": 0.7622193381427308,
+          "seam_mean_rgb_change": 0.017928061703711497
+        },
+        "colony": {
+          "endpoint_identical": true,
+          "mean_rgb_change_0_to_2s": 6.1874510324260115,
+          "seam_mean_rgb_change": 0.16858745924634164
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v7b-preview-settings.json",
+      "bytes": 6897,
+      "sha256": "57fc21cfce45382426a536d90bb7088cc4e2909cb22b1804f4c9c4cd2a367b2b",
+      "keys": [
+        "config",
+        "source_sha256",
+        "renderer_sha256",
+        "prompt",
+        "procedural_seed"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v7b-preview-validation.json",
+      "bytes": 1780,
+      "sha256": "9950e60dab694190a4e7b3ec33fa6e09eac42aaa2ecfcbf57c8dba9526e180b0",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-ambient-v7b-preview.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          1280,
+          720
+        ],
+        "resolution_note": "1280x720 export resampled from 1672x941 source; no claim of native 4K image detail",
+        "fps": 30.0,
+        "frames": 300,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.2126411500084759,
+        "analytic_active_pixel_max_mean_abs_step": 0.25165891647338867,
+        "analytic_active_pixel_seam_mean_abs_step": 0.2093413919210434,
+        "encoded_active_pixel_mean_abs_step": 0.22807643151402873,
+        "encoded_active_pixel_max_mean_abs_step": 0.26362669467926025,
+        "encoded_active_pixel_seam_mean_abs_step": 0.22304365038871765,
+        "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Layered rising wisps with advected density and widening turbulent path",
+          "planet": "Independent procedural cloud bands, fixed master lighting and protected rings",
+          "colony": "Two moving textured surface light pools, four phased windows and mast beacon",
+          "laptop": "Original display retained with scan sector and telemetry"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v8-20s-final-settings.json",
+      "bytes": 705,
+      "sha256": "e59fe6e657d4de33fb8290964eb83e0956feb27be60c3c81ce45cd0114c0eb05",
+      "keys": [
+        "duration",
+        "fps",
+        "source_sha256",
+        "ring_box",
+        "ring_drift_amplitudes",
+        "colony_sequence",
+        "baseline",
+        "method",
+        "steam",
+        "artistic_status"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v8-20s-final-validation.json",
+      "bytes": 1996,
+      "sha256": "d983eabc40d0b7ce902006af27ce2640f69b15b3ff6b4b95ba6a6f1ec6a39726",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-ambient-v8-20s-final.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          3840,
+          2160
+        ],
+        "resolution_note": "3840x2160 export resampled from 1672x941 source; no claim of native 4K image detail",
+        "fps": 30.0,
+        "frames": 600,
+        "duration_seconds": 20.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.10864546368884324,
+        "analytic_active_pixel_max_mean_abs_step": 0.12690716981887817,
+        "analytic_active_pixel_seam_mean_abs_step": 0.10748803615570068,
+        "encoded_active_pixel_mean_abs_step": 0.15676833190434364,
+        "encoded_active_pixel_max_mean_abs_step": 0.17874975502490997,
+        "encoded_active_pixel_seam_mean_abs_step": 0.15622098743915558,
+        "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Layered rising wisps with advected density and widening turbulent path",
+          "planet": "Independent procedural cloud bands, fixed master lighting and protected rings",
+          "colony": "Two moving textured surface light pools, four phased windows and mast beacon",
+          "laptop": "Original display retained with scan sector and telemetry",
+          "rings": "Fine existing ring brightness/texture drift in a protected right-arc mask; fixed geometry",
+          "distance": "Five phased points of service-light activity at the colony; no added moving objects"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v8-20s-preview-settings.json",
+      "bytes": 705,
+      "sha256": "e59fe6e657d4de33fb8290964eb83e0956feb27be60c3c81ce45cd0114c0eb05",
+      "keys": [
+        "duration",
+        "fps",
+        "source_sha256",
+        "ring_box",
+        "ring_drift_amplitudes",
+        "colony_sequence",
+        "baseline",
+        "method",
+        "steam",
+        "artistic_status"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v8-20s-preview-validation.json",
+      "bytes": 1995,
+      "sha256": "794816d0b80a5161335c2e05122f63d9ed53f57e96fbae1c8399d6f1f8fef2dd",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-ambient-v8-20s-preview.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          1280,
+          720
+        ],
+        "resolution_note": "1280x720 export resampled from 1672x941 source; no claim of native 4K image detail",
+        "fps": 30.0,
+        "frames": 600,
+        "duration_seconds": 20.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.10864546368884324,
+        "analytic_active_pixel_max_mean_abs_step": 0.12690716981887817,
+        "analytic_active_pixel_seam_mean_abs_step": 0.10748803615570068,
+        "encoded_active_pixel_mean_abs_step": 0.13020671665270458,
+        "encoded_active_pixel_max_mean_abs_step": 0.1505769044160843,
+        "encoded_active_pixel_seam_mean_abs_step": 0.12970204651355743,
+        "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Layered rising wisps with advected density and widening turbulent path",
+          "planet": "Independent procedural cloud bands, fixed master lighting and protected rings",
+          "colony": "Two moving textured surface light pools, four phased windows and mast beacon",
+          "laptop": "Original display retained with scan sector and telemetry",
+          "rings": "Fine existing ring brightness/texture drift in a protected right-arc mask; fixed geometry",
+          "distance": "Five phased points of service-light activity at the colony; no added moving objects"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v9-20s-preview-settings.json",
+      "bytes": 831,
+      "sha256": "99941723766f1bb951ffaadf8e50d628d1c8334ffb1303ed91067f640a81f461",
+      "keys": [
+        "source_sha256",
+        "duration",
+        "fps",
+        "vents",
+        "windows",
+        "ring_box",
+        "method",
+        "prompt",
+        "artistic_status"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v9-20s-preview-validation.json",
+      "bytes": 2158,
+      "sha256": "b7f0e53f266ed41d44506bf258e3abae3678a2feba4251fdfdeb3f8b983aed91",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-ambient-v9-20s-preview.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          1280,
+          720
+        ],
+        "resolution_note": "1280x720 export resampled from 1672x941 source; no claim of native 4K image detail",
+        "fps": 30.0,
+        "frames": 600,
+        "duration_seconds": 20.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.12790548890978345,
+        "analytic_active_pixel_max_mean_abs_step": 0.1597849428653717,
+        "analytic_active_pixel_seam_mean_abs_step": 0.1262744814157486,
+        "encoded_active_pixel_mean_abs_step": 0.15250304801535725,
+        "encoded_active_pixel_max_mean_abs_step": 0.18362753093242645,
+        "encoded_active_pixel_seam_mean_abs_step": 0.15222705900669098,
+        "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Layered rising wisps with advected density and widening turbulent path",
+          "planet": "Independent procedural cloud bands, fixed master lighting and protected rings",
+          "colony": "Two moving textured surface light pools, four phased windows and mast beacon",
+          "laptop": "Original display retained with scan sector and telemetry",
+          "rings": "Coherent angular material field transported through fixed band mask; artistic speed",
+          "distance": "Five phased points of service-light activity at the colony; no added moving objects",
+          "exhaust": "Two directed expanding vapor plumes at existing roof vents",
+          "windows": "Four existing windows with staggered off holds and local spill reduction"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v9b-20s-final-settings.json",
+      "bytes": 831,
+      "sha256": "99941723766f1bb951ffaadf8e50d628d1c8334ffb1303ed91067f640a81f461",
+      "keys": [
+        "source_sha256",
+        "duration",
+        "fps",
+        "vents",
+        "windows",
+        "ring_box",
+        "method",
+        "prompt",
+        "artistic_status"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v9b-20s-final-validation.json",
+      "bytes": 2037,
+      "sha256": "ca8d1f3bfd042ead626ca1857d9f1f764660ba9644107220a614b4978d419d9b",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-ambient-v9b-20s-final.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          3840,
+          2160
+        ],
+        "resolution_note": "3840x2160 export resampled from 1672x941 source; no claim of native 4K image detail",
+        "fps": 30.0,
+        "frames": 600,
+        "duration_seconds": 20.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.12825789500357512,
+        "analytic_active_pixel_max_mean_abs_step": 0.16868658363819122,
+        "analytic_active_pixel_seam_mean_abs_step": 0.1262744814157486,
+        "encoded_active_pixel_mean_abs_step": 0.18571257446962525,
+        "encoded_active_pixel_max_mean_abs_step": 0.22840261459350586,
+        "encoded_active_pixel_seam_mean_abs_step": 0.1853121817111969,
+        "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Layered rising wisps with advected density and widening turbulent path",
+          "planet": "Independent procedural cloud bands, fixed master lighting and protected rings",
+          "colony": "Two surface light pools, scheduled windows and mast beacon",
+          "laptop": "Original display retained with scan sector and telemetry",
+          "rings": "Coherent angular material field transported through fixed band mask; artistic speed",
+          "exhaust": "Two directed expanding vapor plumes at existing roof vents",
+          "windows": "Four existing windows with staggered off holds and local spill reduction"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v9b-20s-preview-settings.json",
+      "bytes": 831,
+      "sha256": "99941723766f1bb951ffaadf8e50d628d1c8334ffb1303ed91067f640a81f461",
+      "keys": [
+        "source_sha256",
+        "duration",
+        "fps",
+        "vents",
+        "windows",
+        "ring_box",
+        "method",
+        "prompt",
+        "artistic_status"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-ambient-v9b-20s-preview-validation.json",
+      "bytes": 2038,
+      "sha256": "1304e11a6cc74c99dec1a4049945fc75b5140a8e4f2f754e1949d8db0a5cebba",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-ambient-v9b-20s-preview.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          1280,
+          720
+        ],
+        "resolution_note": "1280x720 export resampled from 1672x941 source; no claim of native 4K image detail",
+        "fps": 30.0,
+        "frames": 600,
+        "duration_seconds": 20.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.12825789500357512,
+        "analytic_active_pixel_max_mean_abs_step": 0.16868658363819122,
+        "analytic_active_pixel_seam_mean_abs_step": 0.1262744814157486,
+        "encoded_active_pixel_mean_abs_step": 0.15277473894701976,
+        "encoded_active_pixel_max_mean_abs_step": 0.19070374965667725,
+        "encoded_active_pixel_seam_mean_abs_step": 0.15222705900669098,
+        "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Layered rising wisps with advected density and widening turbulent path",
+          "planet": "Independent procedural cloud bands, fixed master lighting and protected rings",
+          "colony": "Two surface light pools, scheduled windows and mast beacon",
+          "laptop": "Original display retained with scan sector and telemetry",
+          "rings": "Coherent angular material field transported through fixed band mask; artistic speed",
+          "exhaust": "Two directed expanding vapor plumes at existing roof vents",
+          "windows": "Four existing windows with staggered off holds and local spill reduction"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-loop-v4-validation.json",
+      "bytes": 1583,
+      "sha256": "02ee763c7f3ce92ef281c2b9cadabeec0ed9ece1af14670ae5ff00e155499273",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-loop-v4.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          1920,
+          1080
+        ],
+        "resolution_note": "Source gently resampled to 1920x1080; not native 4K",
+        "fps": 30.0,
+        "frames": 300,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.009125501618262716,
+        "analytic_active_pixel_max_mean_abs_step": 0.011336413212120533,
+        "analytic_active_pixel_seam_mean_abs_step": 0.00855578389018774,
+        "encoded_active_pixel_mean_abs_step": 0.021435337589686132,
+        "encoded_active_pixel_max_mean_abs_step": 0.02837827242910862,
+        "encoded_active_pixel_seam_mean_abs_step": 0.019364304840564728,
+        "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Three soft periodically advected ribbons above mug",
+          "laptop": "Small dim amber telemetry waveform",
+          "background": "Existing mast lamp modulated by a ten-second sine"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-loop-v5-4k-validation.json",
+      "bytes": 1674,
+      "sha256": "929a9bc4d0161805f77fda3097ea4ffdd8893529ef99e5c5fb77daa44890553a",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-loop-v5-4k.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          3840,
+          2160
+        ],
+        "resolution_note": "3840x2160 4K export upscaled from 1672x941 source; no claim of native 4K image detail",
+        "fps": 30.0,
+        "frames": 300,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.2030243895025955,
+        "analytic_active_pixel_max_mean_abs_step": 0.32917267084121704,
+        "analytic_active_pixel_seam_mean_abs_step": 0.042043354362249374,
+        "encoded_active_pixel_mean_abs_step": 0.22465933885512543,
+        "encoded_active_pixel_max_mean_abs_step": 0.3466641306877136,
+        "encoded_active_pixel_seam_mean_abs_step": 0.05952148512005806,
+        "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Taller, broader visible curling vapor; 5x ribbon opacity vs v4",
+          "laptop": "Perspective-clipped scan plus stronger telemetry, two cycles per loop",
+          "background": "Clearly visible smooth amber mast beacon, two cycles per loop"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-v5-pipeline-check-preview-validation.json",
+      "bytes": 1687,
+      "sha256": "e2a3bdee8d9f7b8d0045a8238e02dcd52beeed2bd4938c95d360bd0817872887",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-v5-pipeline-check-preview.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          1280,
+          720
+        ],
+        "resolution_note": "1280x720 export resampled from 1672x941 source; no claim of native 4K image detail",
+        "fps": 30.0,
+        "frames": 300,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.2030243895025955,
+        "analytic_active_pixel_max_mean_abs_step": 0.32917267084121704,
+        "analytic_active_pixel_seam_mean_abs_step": 0.042043354362249374,
+        "encoded_active_pixel_mean_abs_step": 0.20340199528081362,
+        "encoded_active_pixel_max_mean_abs_step": 0.31806790828704834,
+        "encoded_active_pixel_seam_mean_abs_step": 0.051991503685712814,
+        "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Taller, broader visible curling vapor; 5x ribbon opacity vs v4",
+          "laptop": "Perspective-clipped scan plus stronger telemetry, two cycles per loop",
+          "background": "Clearly visible smooth amber mast beacon, two cycles per loop"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-v6-a-preview-layer-checks.json",
+      "bytes": 1598,
+      "sha256": "ea38c8d7bfa98e1e0cb72a377bfcf69ef748fb50f214826ed36ff59c2b4f46e5",
+      "keys": [
+        "planet_atmosphere",
+        "colony_work_lights",
+        "window_reflections",
+        "coffee_steam",
+        "laptop_scan",
+        "mast_beacon"
+      ],
+      "parse_ok": true,
+      "data": {
+        "planet_atmosphere": {
+          "mean_0_to_2s_change_in_mask": 8.85026741027832,
+          "pixels_changing_by_over_3_levels": 20788,
+          "seam_mean_rgb_change": 0.35432592034339905,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "colony_work_lights": {
+          "mean_0_to_2s_change_in_mask": 37.15730285644531,
+          "pixels_changing_by_over_3_levels": 22411,
+          "seam_mean_rgb_change": 0.4786371886730194,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "window_reflections": {
+          "mean_0_to_2s_change_in_mask": 0.236698180437088,
+          "pixels_changing_by_over_3_levels": 954,
+          "seam_mean_rgb_change": 0.004416622221469879,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "coffee_steam": {
+          "mean_0_to_2s_change_in_mask": 1.0182312726974487,
+          "pixels_changing_by_over_3_levels": 1303,
+          "seam_mean_rgb_change": 0.11566893756389618,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "laptop_scan": {
+          "mean_0_to_2s_change_in_mask": 1.0010234117507935,
+          "pixels_changing_by_over_3_levels": 1240,
+          "seam_mean_rgb_change": 0.005585877690464258,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "mast_beacon": {
+          "mean_0_to_2s_change_in_mask": 4.603316307067871,
+          "pixels_changing_by_over_3_levels": 130,
+          "seam_mean_rgb_change": 0.08205782622098923,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-v6-b-final-layer-checks.json",
+      "bytes": 1599,
+      "sha256": "26e1bb893259282af2566211fd0084197ab2abc1525702f931deb4072cb6a790",
+      "keys": [
+        "planet_atmosphere",
+        "colony_work_lights",
+        "window_reflections",
+        "coffee_steam",
+        "laptop_scan",
+        "mast_beacon"
+      ],
+      "parse_ok": true,
+      "data": {
+        "planet_atmosphere": {
+          "mean_0_to_2s_change_in_mask": 4.358457088470459,
+          "pixels_changing_by_over_3_levels": 13733,
+          "seam_mean_rgb_change": 0.27549684047698975,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "colony_work_lights": {
+          "mean_0_to_2s_change_in_mask": 37.15730285644531,
+          "pixels_changing_by_over_3_levels": 22411,
+          "seam_mean_rgb_change": 0.4786371886730194,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "window_reflections": {
+          "mean_0_to_2s_change_in_mask": 0.236698180437088,
+          "pixels_changing_by_over_3_levels": 954,
+          "seam_mean_rgb_change": 0.004416622221469879,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "coffee_steam": {
+          "mean_0_to_2s_change_in_mask": 1.0182312726974487,
+          "pixels_changing_by_over_3_levels": 1303,
+          "seam_mean_rgb_change": 0.11566893756389618,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "laptop_scan": {
+          "mean_0_to_2s_change_in_mask": 1.0010234117507935,
+          "pixels_changing_by_over_3_levels": 1240,
+          "seam_mean_rgb_change": 0.005585877690464258,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "mast_beacon": {
+          "mean_0_to_2s_change_in_mask": 4.603316307067871,
+          "pixels_changing_by_over_3_levels": 130,
+          "seam_mean_rgb_change": 0.08205782622098923,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-v6-b-final-manifest.json",
+      "bytes": 7245,
+      "sha256": "5ee6178c291c54b2005f4a271b7f7f2ba2f9590f64d338283e2425566fb044e3",
+      "keys": [
+        "config",
+        "config_sha256",
+        "renderer_sha256",
+        "enabled_layers",
+        "output",
+        "source_is_native_4k",
+        "stage",
+        "config_values",
+        "shared_renderer_sha256"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-v6-b-final-validation.json",
+      "bytes": 1930,
+      "sha256": "0c6bb38c62efa6781adee77f1e6db896403b90b67ce88e92ea1764742dfc0d9a",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-v6-b-final.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          3840,
+          2160
+        ],
+        "resolution_note": "3840x2160 export resampled from 1672x941 source; no claim of native 4K image detail",
+        "fps": 30.0,
+        "frames": 300,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.09740701746382442,
+        "analytic_active_pixel_max_mean_abs_step": 0.11614897847175598,
+        "analytic_active_pixel_seam_mean_abs_step": 0.0949617251753807,
+        "encoded_active_pixel_mean_abs_step": 0.15009876961094082,
+        "encoded_active_pixel_max_mean_abs_step": 0.16839629411697388,
+        "encoded_active_pixel_seam_mean_abs_step": 0.14936761558055878,
+        "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "planet_atmosphere": "Masked periodic cloud-detail advection with fixed shading, rings and silhouette",
+          "colony_work_lights": "Two textured warm pools sweeping over terrain with occlusion masks",
+          "window_reflections": "Broad faint glass reflections driven by the work-light phases",
+          "coffee_steam": "Overlapping advected vapor volumes with continuous birth and dissipation",
+          "laptop_scan": "Perspective-confined scan and telemetry",
+          "mast_beacon": "Independent slow amber cycle"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-v6-b-preview-layer-checks.json",
+      "bytes": 1599,
+      "sha256": "26e1bb893259282af2566211fd0084197ab2abc1525702f931deb4072cb6a790",
+      "keys": [
+        "planet_atmosphere",
+        "colony_work_lights",
+        "window_reflections",
+        "coffee_steam",
+        "laptop_scan",
+        "mast_beacon"
+      ],
+      "parse_ok": true,
+      "data": {
+        "planet_atmosphere": {
+          "mean_0_to_2s_change_in_mask": 4.358457088470459,
+          "pixels_changing_by_over_3_levels": 13733,
+          "seam_mean_rgb_change": 0.27549684047698975,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "colony_work_lights": {
+          "mean_0_to_2s_change_in_mask": 37.15730285644531,
+          "pixels_changing_by_over_3_levels": 22411,
+          "seam_mean_rgb_change": 0.4786371886730194,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "window_reflections": {
+          "mean_0_to_2s_change_in_mask": 0.236698180437088,
+          "pixels_changing_by_over_3_levels": 954,
+          "seam_mean_rgb_change": 0.004416622221469879,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "coffee_steam": {
+          "mean_0_to_2s_change_in_mask": 1.0182312726974487,
+          "pixels_changing_by_over_3_levels": 1303,
+          "seam_mean_rgb_change": 0.11566893756389618,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "laptop_scan": {
+          "mean_0_to_2s_change_in_mask": 1.0010234117507935,
+          "pixels_changing_by_over_3_levels": 1240,
+          "seam_mean_rgb_change": 0.005585877690464258,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        },
+        "mast_beacon": {
+          "mean_0_to_2s_change_in_mask": 4.603316307067871,
+          "pixels_changing_by_over_3_levels": 130,
+          "seam_mean_rgb_change": 0.08205782622098923,
+          "periodic_endpoint_identical": true,
+          "no_change_outside_layer_mask": true
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-v6-b-preview-manifest.json",
+      "bytes": 540,
+      "sha256": "e249626cc64b69e672f4aaf78f7b3f3d7c36932a535b4c6da59fa0c9836be220",
+      "keys": [
+        "config",
+        "config_sha256",
+        "renderer_sha256",
+        "enabled_layers",
+        "output",
+        "source_is_native_4k",
+        "stage"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-v6-b-preview-validation.json",
+      "bytes": 1928,
+      "sha256": "097dee15f5920baa4ee7596d3a766e73e6b570e81a2b1c5f93294638d37f891d",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-v6-b-preview.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          1280,
+          720
+        ],
+        "resolution_note": "1280x720 export resampled from 1672x941 source; no claim of native 4K image detail",
+        "fps": 30.0,
+        "frames": 300,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.09740701746382442,
+        "analytic_active_pixel_max_mean_abs_step": 0.11614897847175598,
+        "analytic_active_pixel_seam_mean_abs_step": 0.0949617251753807,
+        "encoded_active_pixel_mean_abs_step": 0.13329283499398759,
+        "encoded_active_pixel_max_mean_abs_step": 0.15163357555866241,
+        "encoded_active_pixel_seam_mean_abs_step": 0.130396768450737,
+        "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "planet_atmosphere": "Masked periodic cloud-detail advection with fixed shading, rings and silhouette",
+          "colony_work_lights": "Two textured warm pools sweeping over terrain with occlusion masks",
+          "window_reflections": "Broad faint glass reflections driven by the work-light phases",
+          "coffee_steam": "Overlapping advected vapor volumes with continuous birth and dissipation",
+          "laptop_scan": "Perspective-confined scan and telemetry",
+          "mast_beacon": "Independent slow amber cycle"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-v8-duration-check.json",
+      "bytes": 173,
+      "sha256": "f711fa5e7d198910d2555eedeff7a82c23e697e169807c0b35782109422c424c",
+      "keys": [
+        "baseline_10s_periodicity_preserved",
+        "v8_20s_endpoint_identical",
+        "v8_not_duplicate_of_two_10s_clips",
+        "pixels_different_0_vs_10s"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/ringfall-v9b-layer-checks.json",
+      "bytes": 980,
+      "sha256": "4e7698b383e2b8da6718e6f1a45c6d7e3a6a946f9479967b3b29892048e49d52",
+      "keys": [
+        "rings",
+        "exhaust_main",
+        "exhaust_secondary",
+        "windows",
+        "inspection",
+        "correction"
+      ],
+      "parse_ok": true,
+      "data": {
+        "rings": {
+          "endpoint_equal": true,
+          "two_second_mean_change": 2.0397920899581816,
+          "first_step": 0.05135937046473377,
+          "seam_step": 0.05095086055836854
+        },
+        "exhaust_main": {
+          "endpoint_equal": true,
+          "two_second_mean_change": 3.0148033836305443,
+          "first_step": 0.08510516689529035,
+          "seam_step": 0.08659122085048011
+        },
+        "exhaust_secondary": {
+          "endpoint_equal": true,
+          "two_second_mean_change": 2.7777777777777777,
+          "first_step": 0.0788349077822762,
+          "seam_step": 0.07703553756185336
+        },
+        "windows": {
+          "endpoint_equal": true,
+          "two_second_mean_change": 3.2019583333333332,
+          "first_step": 0.000625,
+          "seam_step": 0.00075
+        },
+        "inspection": "Full-scene and enlarged temporal samples; no continuous playback review. Numeric changes are not artistic approval.",
+        "correction": "Initial v9 left saturated white window cores lit. V9b masks the full aperture; initial v9 is a discarded draft."
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/scene-v6.json",
+      "bytes": 2058,
+      "sha256": "df1b1635444a7b754ada60991f65ebc129054bcd56791a059d2f556478617bb7",
+      "keys": [
+        "source",
+        "duration",
+        "fps",
+        "planet",
+        "colony",
+        "window",
+        "steam"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/craft-overlay/comfy-api.json",
+      "bytes": 2059,
+      "sha256": "24f24df2c3e742b9f4e110eb2fab103c3ffdc7bc5de05bc3e12842c7f365bba8",
+      "keys": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/craft-overlay/config.json",
+      "bytes": 22442,
+      "sha256": "acb651f454c60041cc2746fce472a3dda40e70fdec0c8040d0b2ffa5321ebbe0",
+      "keys": [
+        "source_sha256",
+        "asset_sha256",
+        "source",
+        "asset_crop",
+        "fps",
+        "frames",
+        "size",
+        "duration",
+        "loop",
+        "asset_rgb_gain",
+        "window_polygon_preview",
+        "trajectory",
+        "method"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/craft-overlay/queue.json",
+      "bytes": 97,
+      "sha256": "1a56b3c4e7d9b57df141ebb6352cb59ce0ac8193e6850ac611a14fd1fbb49457",
+      "keys": [
+        "prompt_id",
+        "number",
+        "node_errors"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/craft-overlay/result.json",
+      "bytes": 4775,
+      "sha256": "ea36c0176de661f6a28da3e9ae38889a58774815d0f8ae2b4fe6c5f51ba68d5b",
+      "keys": [
+        "prompt",
+        "outputs",
+        "status",
+        "meta"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/craft-overlay/validation.json",
+      "bytes": 471,
+      "sha256": "90819854285a2f215fe2c7c2925968d20364c635bb6de97ed6d08a89c1f0957b",
+      "keys": [
+        "frames",
+        "fps",
+        "size",
+        "duration_seconds",
+        "lossless_comfy_midpoint_max_change_outside_matte",
+        "source_unchanged",
+        "silent",
+        "loop",
+        "review",
+        "limits"
+      ],
+      "parse_ok": true,
+      "data": {
+        "frames": 120,
+        "fps": 24.0,
+        "size": [
+          1280,
+          720
+        ],
+        "duration_seconds": 5.0,
+        "lossless_comfy_midpoint_max_change_outside_matte": 0,
+        "source_unchanged": true,
+        "silent": true,
+        "loop": false,
+        "review": "Six path samples, actual lossless Comfy midpoint and decoded MP4 midpoint; no continuous playback review.",
+        "limits": "Rigid 2D cutout; no changing perspective, cast shadow or glass reflection. User artistic review pending."
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/drafts/ringfall-loop-v1-validation.json",
+      "bytes": 1535,
+      "sha256": "8fdb31ca528c5253193aadb7a829483aa0b7784f4e500ac5b64ccb02915ec751",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "loop_boundaries_checked_in_three_repetitions",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-loop-v1.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          1920,
+          1080
+        ],
+        "resolution_note": "Source gently resampled to 1920x1080; not native 4K",
+        "fps": 30.0,
+        "frames": 300,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.009125501618262716,
+        "analytic_active_pixel_max_mean_abs_step": 0.011336413212120533,
+        "analytic_active_pixel_seam_mean_abs_step": 0.00855578389018774,
+        "encoded_active_pixel_mean_abs_step": 0.02156144685624323,
+        "encoded_active_pixel_max_mean_abs_step": 0.6634436249732971,
+        "encoded_active_pixel_seam_mean_abs_step": 0.700940728187561,
+        "loop_boundaries_checked_in_three_repetitions": [
+          300,
+          600
+        ],
+        "note": "Repeated playback uses the same verified last-to-first transition. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Three soft periodically advected ribbons above mug",
+          "laptop": "Small dim amber telemetry waveform",
+          "background": "Existing mast lamp modulated by a ten-second sine"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/drafts/ringfall-loop-v2-validation.json",
+      "bytes": 1534,
+      "sha256": "4de97eb118016b4ab2fe3052e7c81300c1b6b08cdb739a9ef724051dc5dc5ed7",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-loop-v2.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          1920,
+          1080
+        ],
+        "resolution_note": "Source gently resampled to 1920x1080; not native 4K",
+        "fps": 30.0,
+        "frames": 300,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.009125501618262716,
+        "analytic_active_pixel_max_mean_abs_step": 0.011336413212120533,
+        "analytic_active_pixel_seam_mean_abs_step": 0.00855578389018774,
+        "encoded_active_pixel_mean_abs_step": 0.8566517678391574,
+        "encoded_active_pixel_max_mean_abs_step": 1.3767261505126953,
+        "encoded_active_pixel_seam_mean_abs_step": 1.3659303188323975,
+        "encoding": "H.264 CRF16 all-intra to avoid temporal codec drift at the loop boundary",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Three soft periodically advected ribbons above mug",
+          "laptop": "Small dim amber telemetry waveform",
+          "background": "Existing mast lamp modulated by a ten-second sine"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/drafts/ringfall-loop-v3-validation.json",
+      "bytes": 1553,
+      "sha256": "9cc25af204075707cf0ce1d2d9fecea9150e616a237eba99853aa330447df447",
+      "keys": [
+        "source",
+        "source_sha256",
+        "output",
+        "method",
+        "source_dimensions",
+        "output_dimensions",
+        "resolution_note",
+        "fps",
+        "frames",
+        "duration_seconds",
+        "audio",
+        "periodic_endpoint_pixels_identical",
+        "uncompressed_static_plate_unchanged",
+        "analytic_active_pixel_mean_abs_step",
+        "analytic_active_pixel_max_mean_abs_step",
+        "analytic_active_pixel_seam_mean_abs_step",
+        "encoded_active_pixel_mean_abs_step",
+        "encoded_active_pixel_max_mean_abs_step",
+        "encoded_active_pixel_seam_mean_abs_step",
+        "encoding",
+        "note",
+        "effects"
+      ],
+      "parse_ok": true,
+      "data": {
+        "source": "creative\\ringfall\\04-laptop-refined.png",
+        "source_sha256": "a3887f6f142890f6df5771631368e3d93c449d1abf4c0ea3ce486059200892a0",
+        "output": "creative\\ringfall\\animation\\ringfall-loop-v3.mp4",
+        "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+        "source_dimensions": [
+          1672,
+          941
+        ],
+        "output_dimensions": [
+          1920,
+          1080
+        ],
+        "resolution_note": "Source gently resampled to 1920x1080; not native 4K",
+        "fps": 30.0,
+        "frames": 300,
+        "duration_seconds": 10.0,
+        "audio": false,
+        "periodic_endpoint_pixels_identical": true,
+        "uncompressed_static_plate_unchanged": true,
+        "analytic_active_pixel_mean_abs_step": 0.009125501618262716,
+        "analytic_active_pixel_max_mean_abs_step": 0.011336413212120533,
+        "analytic_active_pixel_seam_mean_abs_step": 0.00855578389018774,
+        "encoded_active_pixel_mean_abs_step": 0.3822764481190455,
+        "encoded_active_pixel_max_mean_abs_step": 0.4881167709827423,
+        "encoded_active_pixel_seam_mean_abs_step": 0.4761680066585541,
+        "encoding": "H.264 constant QP16 all-intra, adaptive quantization disabled to keep static regions stable",
+        "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+        "effects": {
+          "steam": "Three soft periodically advected ribbons above mug",
+          "laptop": "Small dim amber telemetry waveform",
+          "background": "Existing mast lamp modulated by a ten-second sine"
+        }
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/planet-pass/config.json",
+      "bytes": 469,
+      "sha256": "412643823c2da4d242a4e8e7a3f0b262de236d5fa9ebe008c36da59760b6ba18",
+      "keys": [
+        "source",
+        "source_sha256",
+        "crop_xyxy",
+        "generation_size",
+        "scale",
+        "padding",
+        "mask_method",
+        "active_pixels",
+        "registration"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/planet-pass/ringfall-planet01_00001_-report.json",
+      "bytes": 2472,
+      "sha256": "decb0797b505b6b17c3c9a56aec5aa746bc44d425caaa3387633b152fc9786ce",
+      "keys": [
+        "frames",
+        "fps",
+        "duration_seconds",
+        "outside_mask_max_difference_pre_encode",
+        "masked_mean_absolute_source_difference",
+        "loop_claim",
+        "artistic_review",
+        "raw_video",
+        "preview",
+        "comparison",
+        "continuous_playback_review"
+      ],
+      "parse_ok": true,
+      "data": {
+        "frames": 81,
+        "fps": 24,
+        "duration_seconds": 3.375,
+        "outside_mask_max_difference_pre_encode": 0,
+        "masked_mean_absolute_source_difference": [
+          1.7870682169557575,
+          1.7363449605015142,
+          1.5047758222674037,
+          1.5660778956731685,
+          1.6275705783933754,
+          1.3591503060338437,
+          1.3365948704915602,
+          1.3879534913272762,
+          1.3377173475654955,
+          1.290170913018616,
+          1.3574877692356566,
+          1.3292564118855497,
+          8.971906304932546,
+          12.528231357350107,
+          7.995944257364932,
+          5.828197471249762,
+          4.365313340534129,
+          2.893587055509668,
+          1.7378804244234067,
+          1.4762373721329183,
+          1.2035389796048033,
+          1.231103204354364,
+          1.236546159222314,
+          1.2761823072198573,
+          8.804276002287311,
+          11.992629773174915,
+          7.0154817120952195,
+          5.511478916491941,
+          4.433773852637821,
+          2.7660270665226507,
+          1.8690937586038927,
+          1.373986064341233,
+          1.1954380837410254,
+          1.3280280407480356,
+          1.271099392168075,
+          1.326503166232501,
+          9.216860452803015,
+          13.397250990109494,
+          7.710189126797552,
+          6.074994175826503,
+          5.01917741491412,
+          3.3552957621195754,
+          2.3500328271597093,
+          1.7586780185102824,
+          1.3014168625706843,
+          1.3052714064849524,
+          1.2677425503526272,
+          1.3653027511277718,
+          9.461507507889108,
+          14.157432704322595,
+          8.432439587436729,
+          6.269966325687782,
+          4.762776118770781,
+          3.271427663765169,
+          2.1392506936061166,
+          1.764692801321558,
+          1.413113920833598,
+          1.4385920325306563,
+          1.3213567147425715,
+          1.5070631340407057,
+          8.897049791388694,
+          11.673168562170405,
+          7.767244848253807,
+          6.292871211639875,
+          5.158714022491899,
+          2.9624287862422434,
+          2.0540377406442594,
+          1.6804646631509839,
+          1.429389838405659,
+          1.4175297032848337,
+          1.393174068661711,
+          1.3946883537708876,
+          11.724728381726921,
+          20.900237202702417,
+          18.80238049854925,
+          13.689084439926297,
+          9.782874812038036,
+          6.711152762776119,
+          4.77486922083148,
+          2.7374356693563757,
+          2.698053667111422
+        ],
+        "loop_claim": false,
+        "artistic_review": "failed_sampled_frame_review",
+        "raw_video": "creative\\ringfall\\animation\\wan-tests\\ringfall-planet01_00001_.mp4",
+        "preview": "ringfall-planet01_00001_-preview.mp4",
+        "comparison": "ringfall-planet01_00001_-comparison.mp4",
+        "continuous_playback_review": false
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/planet-pass/ringfall-planet02-full-decode_00001_-preview.inspection.json",
+      "bytes": 205,
+      "sha256": "a4fdb7d66f9990be5c9f6ecfd3c1a6f643b4f94187d23f6dbed9bd21ecf027fb",
+      "keys": [
+        "frames",
+        "fps",
+        "duration_seconds",
+        "width",
+        "height",
+        "bytes",
+        "inspected_frames"
+      ],
+      "parse_ok": true,
+      "data": {
+        "frames": 81,
+        "fps": 24.0,
+        "duration_seconds": 3.375,
+        "width": 1280,
+        "height": 720,
+        "bytes": 301045,
+        "inspected_frames": [
+          0,
+          16,
+          32,
+          48,
+          64,
+          80
+        ]
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/planet-pass/ringfall-planet02-full-decode_00001_-report.json",
+      "bytes": 2509,
+      "sha256": "1d5aab736c5d0680ed9fe3f2d9a3371c2ec5b5982fb197e4cfb74ff78b995a26",
+      "keys": [
+        "frames",
+        "fps",
+        "duration_seconds",
+        "outside_mask_max_difference_pre_encode",
+        "masked_mean_absolute_source_difference",
+        "loop_claim",
+        "artistic_review",
+        "raw_video",
+        "preview",
+        "comparison",
+        "continuous_playback_review"
+      ],
+      "parse_ok": true,
+      "data": {
+        "frames": 81,
+        "fps": 24,
+        "duration_seconds": 3.375,
+        "outside_mask_max_difference_pre_encode": 0,
+        "masked_mean_absolute_source_difference": [
+          1.8169621111040515,
+          5.0772073617553,
+          5.007476120888663,
+          5.281582904462375,
+          5.394762479615393,
+          5.169261071224347,
+          4.53460617997755,
+          4.537867717135778,
+          4.491168435097529,
+          4.228794713768346,
+          3.7804286591693668,
+          3.7746574327043225,
+          3.3810174301628653,
+          3.0755765931761867,
+          2.9368977275133954,
+          4.303630048499481,
+          5.144047694686236,
+          5.012643751191308,
+          4.302359319736536,
+          4.359457398818222,
+          4.327943325497173,
+          9.015185208717199,
+          9.087309655420718,
+          11.514719274837452,
+          11.493794607874282,
+          12.885359086769595,
+          12.727248660440095,
+          13.604549208971346,
+          13.581993773429062,
+          13.544316665607726,
+          12.120052099879281,
+          12.181142385157887,
+          12.098057902873965,
+          11.913039794989093,
+          12.278840248215685,
+          12.331437829595274,
+          12.2572908062774,
+          12.306489188216108,
+          12.06882055191986,
+          12.205879238409894,
+          11.481182624902049,
+          11.386608636719826,
+          12.089671093038524,
+          11.746309591884279,
+          9.017408984052354,
+          9.471588622741809,
+          8.998443357265392,
+          9.455132685261665,
+          9.448980240167737,
+          9.664548785395091,
+          9.598640320223648,
+          12.058517059533642,
+          12.032615371582269,
+          12.132537009975222,
+          12.025308681195332,
+          12.034849736323782,
+          11.089554609568587,
+          11.654308829447022,
+          10.85856788868416,
+          10.577165004129869,
+          10.445686934790436,
+          11.057500476523286,
+          11.027564224749561,
+          12.439132092254908,
+          12.233581125442107,
+          13.3527754834064,
+          13.276775313975898,
+          14.29349598661499,
+          14.190429294533748,
+          13.490554249528772,
+          13.581316051422156,
+          12.175710019696297,
+          12.15147086854311,
+          12.302581697270051,
+          12.26059470106106,
+          12.292733549357223,
+          11.918705127390558,
+          11.960565050723256,
+          10.932651375563886,
+          10.960808607069488,
+          10.88333651015524
+        ],
+        "loop_claim": false,
+        "artistic_review": "failed_sampled_frame_review",
+        "raw_video": "creative\\ringfall\\animation\\wan-tests\\ringfall-planet02-full-decode_00001_.mp4",
+        "preview": "ringfall-planet02-full-decode_00001_-preview.mp4",
+        "comparison": "ringfall-planet02-full-decode_00001_-comparison.mp4",
+        "continuous_playback_review": false
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/model-manifest.json",
+      "bytes": 847,
+      "sha256": "e47903460d4a8cce57dadf78c4e1980d02dc18033ea414fbbe8ea5b3ec53ec75",
+      "keys": [
+        "array"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-planet01-api.json",
+      "bytes": 3263,
+      "sha256": "bc37ee1262c9a75e19dd60bda2167e287a11b44cf65ab98892175322496d7f7f",
+      "keys": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-planet01-queue.json",
+      "bytes": 97,
+      "sha256": "f82a8947e3521edbd0b15fc8b7079c3ae2cfa082653610dc033c728806cedf70",
+      "keys": [
+        "prompt_id",
+        "number",
+        "node_errors"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-planet01-result.json",
+      "bytes": 5107,
+      "sha256": "6780a84605d0f168be0f2962e6802c7dc2165c7b9d496564bcaa477a6bb1d2d4",
+      "keys": [
+        "prompt",
+        "outputs",
+        "status",
+        "meta",
+        "wall_seconds"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-planet01_00001_.inspection.json",
+      "bytes": 204,
+      "sha256": "ce3c7a5928feb9c38c1280c886c59a97d141436abd2d64d115623843ba0c1396",
+      "keys": [
+        "frames",
+        "fps",
+        "duration_seconds",
+        "width",
+        "height",
+        "bytes",
+        "inspected_frames"
+      ],
+      "parse_ok": true,
+      "data": {
+        "frames": 81,
+        "fps": 24.0,
+        "duration_seconds": 3.375,
+        "width": 768,
+        "height": 480,
+        "bytes": 250442,
+        "inspected_frames": [
+          0,
+          16,
+          32,
+          48,
+          64,
+          80
+        ]
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-planet02-api.json",
+      "bytes": 3234,
+      "sha256": "0d7e2f0705abedf5ca7bb781e6a3f95d070a1bd84a1d968ba0d96b539d1d6850",
+      "keys": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-planet02-full-decode-api.json",
+      "bytes": 3136,
+      "sha256": "85767b9c2791fe04bf9a730efc0718f6285beb0188a772e8e42ae29de23f617d",
+      "keys": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-planet02-full-decode-result.json",
+      "bytes": 5544,
+      "sha256": "7f9fd71be8ffb6eda2bbb85cf98458648b8085e0ac2babad5f955d2de1bf72ed",
+      "keys": [
+        "b2510bf1-da60-44e6-8f01-9fb0be63757a"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-planet02-full-decode_00001_.inspection.json",
+      "bytes": 204,
+      "sha256": "5177136ce4a5010c2c167b801b25e64526ab82500508e7dab9cd69b280b315ee",
+      "keys": [
+        "frames",
+        "fps",
+        "duration_seconds",
+        "width",
+        "height",
+        "bytes",
+        "inspected_frames"
+      ],
+      "parse_ok": true,
+      "data": {
+        "frames": 81,
+        "fps": 24.0,
+        "duration_seconds": 3.375,
+        "width": 768,
+        "height": 480,
+        "bytes": 303269,
+        "inspected_frames": [
+          0,
+          16,
+          32,
+          48,
+          64,
+          80
+        ]
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-planet02-queue.json",
+      "bytes": 97,
+      "sha256": "c007e836354d89ef5ad445d8462c52f759c1e8f9ff982e8610083e42a328e088",
+      "keys": [
+        "prompt_id",
+        "number",
+        "node_errors"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-planet02-result.json",
+      "bytes": 5160,
+      "sha256": "8660f49c8a031cc8ec1808e60848dbf1ec43d808dab7da84dc0b086ef34a1186",
+      "keys": [
+        "prompt",
+        "outputs",
+        "status",
+        "meta",
+        "wall_seconds"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-planet02_00001_.inspection.json",
+      "bytes": 204,
+      "sha256": "b75b86ddfbc0ece17a88512bb01dfb8bf4b76cae8f4d21820c95b8a2e85977fb",
+      "keys": [
+        "frames",
+        "fps",
+        "duration_seconds",
+        "width",
+        "height",
+        "bytes",
+        "inspected_frames"
+      ],
+      "parse_ok": true,
+      "data": {
+        "frames": 81,
+        "fps": 24.0,
+        "duration_seconds": 3.375,
+        "width": 768,
+        "height": 480,
+        "bytes": 453131,
+        "inspected_frames": [
+          0,
+          16,
+          32,
+          48,
+          64,
+          80
+        ]
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-wan-test01-api.json",
+      "bytes": 3411,
+      "sha256": "32592ed72f0cf5cfd6eae9e3b948daf19c4394d374d88545d77b0345f17c9830",
+      "keys": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-wan-test01-queue.json",
+      "bytes": 97,
+      "sha256": "9f7202159bda42a3de17cf8c8221bab6421f7e0bcf52756ef0650044a4e24997",
+      "keys": [
+        "prompt_id",
+        "number",
+        "node_errors"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-wan-test01-result.json",
+      "bytes": 5257,
+      "sha256": "8ffdfe997081e2daca259e3481bdc0351383f763b1d05458d23ff702863fa0fa",
+      "keys": [
+        "prompt",
+        "outputs",
+        "status",
+        "meta",
+        "wall_seconds"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-wan-test02-api.json",
+      "bytes": 3579,
+      "sha256": "334c7705de32069b5adf605af05cd63b5dc5f92099814583eb6f111b8f52ddc1",
+      "keys": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-wan-test02-queue.json",
+      "bytes": 97,
+      "sha256": "b137492fbec3277be75050b17ecf82a0f691f3dbd8141158ca7dcae574581a12",
+      "keys": [
+        "prompt_id",
+        "number",
+        "node_errors"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-wan-test02-result.json",
+      "bytes": 5526,
+      "sha256": "debbd86caaa2bde20a4ed4aa61ecc94c58f123ed8dbf9a8a3bb43c10d1fc22ab",
+      "keys": [
+        "prompt",
+        "outputs",
+        "status",
+        "meta",
+        "wall_seconds"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-wan-test02_00001_.inspection.json",
+      "bytes": 204,
+      "sha256": "3a0a4aabcecd07996be5ac7274176124d1ebab9d6439f7eae5cbb19364e1fc63",
+      "keys": [
+        "frames",
+        "fps",
+        "duration_seconds",
+        "width",
+        "height",
+        "bytes",
+        "inspected_frames"
+      ],
+      "parse_ok": true,
+      "data": {
+        "frames": 81,
+        "fps": 24.0,
+        "duration_seconds": 3.375,
+        "width": 832,
+        "height": 480,
+        "bytes": 819029,
+        "inspected_frames": [
+          0,
+          16,
+          32,
+          48,
+          64,
+          80
+        ]
+      }
+    },
+    {
+      "path": "creative/ringfall/animation/wan-tests/ringfall-wan-ui-workflow.json",
+      "bytes": 15478,
+      "sha256": "db4976c42b26b8af12db5119a18b00783d5a4bd23e199951ec39251175da669f",
+      "keys": [
+        "id",
+        "revision",
+        "last_node_id",
+        "last_link_id",
+        "nodes",
+        "links",
+        "groups",
+        "config",
+        "extra",
+        "version"
+      ],
+      "parse_ok": true
+    },
+    {
+      "path": "creative/history/animation-learning-log-2026-09-24.md",
+      "bytes": 18800,
+      "sha256": "109561b91a8bd9e060faa2c72c624822df58a368999bd3ea466b4425a32d87c1"
+    },
+    {
+      "path": "creative/history/animation-learning-log-through-v9b-2026-09-24.md",
+      "bytes": 18452,
+      "sha256": "74f4c9f89dd4fbc52bd9f2ac1e1e39b91122049291d73e778517e48451270edd"
+    },
+    {
+      "path": "scripts/render_ringfall.py",
+      "bytes": 13440,
+      "sha256": "fe1198eddb332268358f16cd67ff44d89e850ac0015a9ab0e9f69d15f6530b65"
+    },
+    {
+      "path": "scripts/render_ringfall_v4.py",
+      "bytes": 10989,
+      "sha256": "f1d0e6cfc5ef8c10fea4b3932ba193112f261d06edfdd0f8768ec5a8be40e879"
+    },
+    {
+      "path": "scripts/render_ringfall_v6.py",
+      "bytes": 13630,
+      "sha256": "16cbbec70b58f030868585ac9e40e4bd46a14562e85953609ea45c012e61a9d1"
+    },
+    {
+      "path": "scripts/render_ringfall_v7.py",
+      "bytes": 5700,
+      "sha256": "38f52956f20a42158c2b37cbfd616daa83d495105417d6591a4a22e953c65d66"
+    },
+    {
+      "path": "scripts/render_ringfall_v8.py",
+      "bytes": 4491,
+      "sha256": "1311309a9d65457205718915ecc0e70845e7f5e33a91e350111421762bf2d33c"
+    },
+    {
+      "path": "scripts/render_ringfall_v9.py",
+      "bytes": 5352,
+      "sha256": "503b82ed096afdfd4fefee9e169d812f2a22c37354ff2e2de6302984af337a72"
+    },
+    {
+      "path": "scripts/render_basalt.py",
+      "bytes": 12935,
+      "sha256": "e036a7e5c8ee3920e342a0aba53a2e018f0b45499157d3089469eb838c7a4511"
+    },
+    {
+      "path": "scripts/ambient_effects.py",
+      "bytes": 1603,
+      "sha256": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a"
+    },
+    {
+      "path": "scripts/assemble_basalt.py",
+      "bytes": 5927,
+      "sha256": "707421a4b959d93dcd862ce0afd39ee438fc9d5522ebee69b40b1ae119d128ac"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 9176,
+      "sha256": "247918331a516ed2f7aa694c45b7af2073ca72ac13cd24202bc3412798f24922"
+    },
+    {
+      "path": "creative/ANIMATION_WORKFLOW.md",
+      "bytes": 5475,
+      "sha256": "1208e07909f81324c432b9360374f5c99e75ce83e937cb99df6580290a1c6331"
+    }
+  ],
+  "parse_failures": []
+}
