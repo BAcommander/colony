@@ -1,3 +1,7 @@
+# Current candidate — v5
+
+Reflection-based water approximation replaces brightness bands; upper-dome lantern has an obvious warm lit/dim/return event. Other effects unchanged. Eight-second study: review-v5/combined.mp4; isolated water.mp4 and dome_light.mp4. Research and limitations in production-prompt-v5.md. Review pending; not a finished seamless loop.
+
 # Current candidate — v4
 
 Approved fog, smoke and snow preserved. Calmer water: half-strength/speed reflections and reduced displacement. Exterior lights gain broader halos and synchronized snow pools. Eight-second preview review-v4/combined.mp4 with water.mp4 and exterior_lights.mp4. User review pending; not seamless. See production-prompt-v4.md.

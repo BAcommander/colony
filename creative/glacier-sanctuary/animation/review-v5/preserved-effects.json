@@ -1,0 +1,14 @@
+{
+  "matching_v4_layers": [
+    "snow",
+    "mist",
+    "roof_lights",
+    "exterior_lights"
+  ],
+  "sample_times_seconds": [
+    0,
+    2,
+    4,
+    7.9667
+  ]
+}

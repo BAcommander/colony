@@ -1,3 +1,7 @@
+## Glacier Sanctuary v5
+
+Investigated directional wave/reflection methods using NVIDIA GPU Gems. Implemented a local2D adaptation for water and clear pulsing upper-lantern light. Other scene effects preserved. Motion study pending visual review.
+
 ## Glacier Sanctuary v4
 
 Fog accepted along with smoke/snow. V3 water too strong and lights unreadable; v4 calms water and makes local lamp spill visible. Eight-second study pending review.

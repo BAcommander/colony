@@ -40,15 +40,37 @@ class Glacier:
    if lamp.get('polygon'):halo*=polygon_mask(halo.shape,[lamp['polygon']],(x0,y0),6)
    self.halos.append((lamp,roi,halo));self.masks['exterior_lights'][y0:y1,x0:x1]|=halo>0
   self.masks['combined']|=self.masks['exterior_lights']
+  self.tower=c['effects'].get('dome_lantern');self.masks['dome_light']=np.zeros((self.h,self.w),bool)
+  if self.tower:
+   self.tmask=polygon_mask((self.h,self.w),self.tower['polygons'],feather=1.2)
+   sx,sy=self.tower['anchor'];yy,xx=np.mgrid[0:self.h,0:self.w];d=((xx-sx)/self.tower['radius'])**2+((yy-sy)/self.tower['radius'])**2
+   self.tglow=np.exp(-d*.5)*np.clip((9-d)/2,0,1)
+   self.masks['dome_light']=(self.tmask>0)|(self.tglow>0);self.masks['combined']|=self.masks['dome_light']
  def frame(self,t,layer='combined'):
   f=self.base.copy()
   if layer in ('water','combined'):
    phase=TAU*t/20;x=self.wx;y=self.wy
    mx=x+self.water['amplitude']*np.sin(y*.22-phase*2)*self.wmask
    my=y+self.water.get('vertical_amplitude',.45)*np.sin(x*.04+y*.13-phase)*self.wmask
+   if self.water.get('mode')=='directional_reflection':
+    # Perspective-compressed wave field; slopes disturb existing photographed reflections.
+    depth=np.clip(y/190,0,1);u=x;v=100*np.log1p(y/55)
+    nx=np.zeros_like(x);ny=np.zeros_like(y)
+    for wave in self.water['waves']:
+     angle,wavelength,weight,cycles,offset=wave
+     k=TAU/wavelength;dx=np.cos(angle);dy=np.sin(angle)
+     q=k*(dx*u+dy*v)-phase*cycles+offset
+     nx+=weight*dx*np.cos(q);ny+=weight*dy*np.cos(q)
+    mx=x+(1+depth)*nx*self.wmask
+    my=y+(.45+.7*depth)*ny*self.wmask
    moved=cv2.remap(self.wbase,mx.astype(np.float32),my.astype(np.float32),cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT_101)
    x0,y0,x1,y1=self.water['roi'];a=self.wmask[...,None]
    surface=self.wbase*(1-a)+moved*a
+   if self.water.get('mode')=='directional_reflection':
+    # Small slope-dependent response, biased toward existing reflected light.
+    luminance=self.wbase.astype(float).mean(axis=2)/255
+    response=np.clip((luminance-.20)*3,0,1)
+    surface+=np.tanh(nx*.6+ny*.4)[...,None]*a*response[...,None]*4*np.array([.85,.94,1])
    if self.water.get('reflection_strength'):
     # Broken, traveling glints distributed over open water, never over ice.
     if self.water.get('broad_reflections'):
@@ -87,6 +109,12 @@ class Glacier:
     brightness=lamp['strength']*(floor+(1-floor)*(.5+.5*np.sin(TAU*t/lamp['period']+lamp['phase'])))
     x0,y0,x1,y1=roi;patch=f[y0:y1,x0:x1].astype(float)
     f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch+halo[...,None]*brightness*np.array([1,.66,.30]),0,255)))
+  if self.tower and layer in ('dome_light','combined'):
+   off=event_amount(t,20,self.tower['start'],self.tower['hold'],self.tower['transition'])
+   a=self.tmask[...,None]*off*.97
+   f=np.uint8(np.rint(np.clip(f*(1-a)+(f*.12+np.array([8,10,13]))*a,0,255)))
+   glow=(self.tglow*self.tower['strength']+self.tmask*24)*(1-off)
+   f=np.uint8(np.rint(np.clip(f.astype(float)+glow[...,None]*np.array([1,.68,.30]),0,255)))
   return f
 
 def main():
