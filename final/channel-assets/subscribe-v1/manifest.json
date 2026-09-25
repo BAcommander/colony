@@ -1,0 +1,93 @@
+{
+  "status": "v1 rendered and technically checked; user visual review pending",
+  "outputs": [
+    {
+      "file": "subscribe-v1-10s-4k-alpha.mov",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "frames": 300,
+      "seconds": 10,
+      "audio_stream": false,
+      "bytes": 91625788,
+      "sha256": "eb56aedd3c3578ffd59f1e74c26c4bd51c26efdd9dab961d445770c3c715b90b"
+    },
+    {
+      "file": "subscribe-v1-10s-4k-green.mp4",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "frames": 300,
+      "seconds": 10,
+      "audio_stream": false,
+      "bytes": 390055,
+      "sha256": "0ef99a4348198a1fd89950ed9f2794e7f487a5a6c5f881f330344b69ce483949"
+    },
+    {
+      "file": "subscribe-v1-preview.mp4",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "frames": 300,
+      "seconds": 10,
+      "audio_stream": false,
+      "bytes": 840539,
+      "sha256": "99c5d007cec951fa8929c0b1e2ab29b6063ebc67ed570820d1e8393b5871defe"
+    }
+  ],
+  "alpha_checks": [
+    {
+      "time": 0,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "time": 4,
+      "min": 0,
+      "max": 255
+    },
+    {
+      "time": 9.966666666666667,
+      "min": 0,
+      "max": 0
+    }
+  ],
+  "timing": {
+    "blank_start": [
+      0,
+      0.4
+    ],
+    "entrance": [
+      0.4,
+      1.4
+    ],
+    "hold": [
+      1.4,
+      8.8
+    ],
+    "exit": [
+      8.8,
+      9.8
+    ],
+    "blank_end": [
+      9.8,
+      10
+    ]
+  },
+  "green_rgb": [
+    0,
+    255,
+    0
+  ],
+  "alpha": "straight alpha, ProRes 4444",
+  "renderer": "scripts/render_subscribe_banner.py",
+  "renderer_sha256": "558d40555890d819346ce31f40c8ee54ed97ec5c2bf61ae7e3c3ced2d43e1106",
+  "inspection": "Full decode/count/no-audio/alpha checks and sampled stills; no continuous assistant playback claim",
+  "font": "Barlow Condensed, SIL OFL, bundled under creative/brand/fonts"
+}
