@@ -21,6 +21,8 @@ class ReflectionSurface:
    phase=k*(direction[0]*self.world_x+direction[1]*self.world_z)+rng.uniform(0,2*np.pi)
    # Dispersion yields different velocities rather than synchronized pulsation.
    omega=np.sqrt(9.81*k)*settings['time_scale']
+   if settings.get('loop_seconds'):
+    period=settings['loop_seconds'];omega=2*np.pi*max(1,round(omega*period/(2*np.pi)))/period
    amplitude=(length/settings.get('wavelength_range',[5,35])[1])**.4
    self.waves.append((phase,omega,amplitude,direction))
    footprint=settings.get('sampling_filter_pixels',0)

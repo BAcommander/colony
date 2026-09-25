@@ -1,7 +1,7 @@
 {
   "scene": "Glacier Sanctuary",
-  "current_candidate": "v10 half-speed reconstructed surface with ripple filtering and boundary damping",
-  "current_status": "pending review; same visible v8b method retained and calmed",
+  "current_candidate": "v11 sixty-second loop based on accepted v10 water",
+  "current_status": "v10 look accepted; requested v11 sixty-second 4K delivery rendered and technically verified",
   "rejected": [
     {
       "versions": "v1-v5",
@@ -20,5 +20,5 @@
     }
   ],
   "instructions": "Do not return to a rejected method with another small amplitude change unless a concrete new reason is recorded. Preserve accepted non-water layers. Foreground snow explicitly removed.",
-  "latest_feedback": "Make water even slower; research further improvements"
+  "latest_feedback": "ok i think we can go with this, extend it out into the 60 second loop ij 4k?"
 }

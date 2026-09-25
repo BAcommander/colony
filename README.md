@@ -1,25 +1,21 @@
 # Ambient Colony
 
-Sci-fi soundscapes for sleep, focus and study. Creative media project for [Ambient Colony on YouTube](https://www.youtube.com/@ambientcolony).
+Sci-fi soundscapes for sleep, focus and study. [YouTube channel](https://www.youtube.com/@ambientcolony).
 
-## Start here
+## Current production
 
-- [AGENTS.md](AGENTS.md): current working instructions and reusable animation workflow.
-- [PROJECT.md](PROJECT.md): creative decisions and project context.
-- [Concept gallery](creative/concepts/README.md): nine saved initial concepts.
-- [Animation workflow](creative/ANIMATION_WORKFLOW.md): production stages and review gates.
-- [Next experiment prompt](creative/ringfall/animation/next-planet-pass-prompt.md): isolated planetary atmosphere generation and compositing.
-- [Local AI test findings](creative/ringfall/animation/wan-tests/README.md): timings, failures and reproducible settings.
-- [Historical learning log](creative/history/animation-learning-log-2026-09-24.md): earlier prompts and experiments, superseded by AGENTS.md where they conflict.
+Glacier Sanctuary: the user accepted v10's slow water and supporting effects on 2026-09-25 and requested a sixty-second 4K loop. V11 preserves that look with periodic water, snowfall and fog. Foreground snow remains absent. See the [scene delivery notes](creative/glacier-sanctuary/animation/README.md) for media, checks and restore instructions.
 
-## Current selected image
+Ringfall v9b and Basalt v6 remain approved references. Older pending-review entries are archived in [project history](creative/history/readme-through-glacier-v10.md); they are not current instructions.
 
-![Ringfall Observatory](creative/ringfall/04-laptop-refined.png)
+## Working files
 
-Ringfall is the selected scene. No animation is approved as a final. Hand-composited versions were too subtle; two local Wan tests produced more movement but distorted the scene. The next experiment isolates atmospheric motion and composites it into the original.
+- [AGENTS.md](AGENTS.md): current authority and working instructions.
+- [Project context](PROJECT.md): creative decisions and history.
+- [Next-scene runbook](creative/NEXT_SCENE_RUNBOOK.md): reusable production sequence.
+- [Animation workflow](creative/ANIMATION_WORKFLOW.md): motion and delivery checks.
+- [Concept gallery](creative/concepts/README.md): source artwork.
 
-## Storage
+## Storage and tools
 
-Track source 2D concepts, refinements, prompts, scripts, masks, settings and review reports. `.local/` contains the local ComfyUI runtime and approximately 18 GB of model weights and is excluded from Git. Experimental MP4/MOV/WebM outputs remain local; reports retain their filenames. Video links in historical reports may therefore only work in the local workspace. Music and final large-media storage still need a separate decision; no music has been produced here yet.
-
-Local tools are the default. No paid video services, API calls or separate generation credits.
+Produce local MP4s using Python, NumPy, OpenCV and FFmpeg. No paid video services or separate generation credits. Source artwork, code, masks, settings and reports are versioned. Approved large masters use exact-path Git LFS rules; restore them with `git lfs pull`. Drafts, repeated previews, caches and local model weights stay out of Git. No music has been produced here yet.

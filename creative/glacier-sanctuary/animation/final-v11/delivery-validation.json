@@ -1,0 +1,57 @@
+{
+  "status": "accepted v10 look; sixty-second v11 delivery verified",
+  "source": {
+    "path": "creative/concepts/02-glacier-sanctuary.png",
+    "sha256": "78a886ca0bea47e47a4e7536e7ca08eb9e0e0143785d9bd0ec48673aacba66a9",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "config_sha256": "c4e63fd30c8f9e8679d2bbccb40cc1c8bc8e62169f026f2bc9c3fbf7af8a7af1",
+  "code_sha256": {
+    "render_glacier.py": "f6a5a5c5e5da652ae9644e6490b1bf32af8341a107a12ad23c2631042943240b",
+    "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+    "ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+    "render_glacier_delivery.py": "e0278c35aa72f44c8c7cfa3a689e5d0731d2eed7727f0b444ad239d8d2bc164e"
+  },
+  "outputs": [
+    {
+      "path": "creative/glacier-sanctuary/animation/final-v11/glacier-sanctuary-v11-60s-720p.mp4",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "decoded_frames": 1800,
+      "fps": 30.0,
+      "duration_seconds": 60.0,
+      "encoded_seam_mae": 0.2146005928516388,
+      "ordinary_max_mae": 0.4436943829059601,
+      "ordinary_mean_mae": 0.18212545678441958,
+      "sha256": "0a9811a8cbbb5aa1fd894884af4e3b4894e75f3968bbb49feaca55b54b5699f6",
+      "bytes": 34483930
+    },
+    {
+      "path": "creative/glacier-sanctuary/animation/final-v11/glacier-sanctuary-v11-60s-4k.mp4",
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "decoded_frames": 1800,
+      "fps": 30.0,
+      "duration_seconds": 60.0,
+      "encoded_seam_mae": 0.22966666519641876,
+      "ordinary_max_mae": 0.46681126952171326,
+      "ordinary_mean_mae": 0.19644644622043347,
+      "sha256": "b2743ceabd8a75f2117dc41282800d394db2733c58ddc69ca473fb0039840022",
+      "bytes": 276988548
+    }
+  ],
+  "audio": false,
+  "unique_timeline_seconds": 60,
+  "not_a_repeated_20_second_export": true,
+  "endpoint_pixels_equal": true,
+  "inspection": "Analytic/encoded checks and sampled decoded frames; no assistant continuous playback review claimed",
+  "resolution_note": "4K output upscaled from 1672x941 source",
+  "user_acceptance": "ok i think we can go with this, extend it out into the 60 second loop ij 4k?"
+}

@@ -38,3 +38,12 @@ Existing destinations are protected from overwrite. Pull the approved master ins
 Do not merely reread historical notes and hand-edit another renderer for each adjustment. `creative/effect-presets.json` and `scripts/apply_scene_presets.py` provide reusable tuning controls; use a stable input config and a fresh output. `render_glacier.py --layers water` renders only a changed layer. `--compare-config OLD_CONFIG` stacks old/new full-size frames for direct comparison. These controls currently target the Glacier effect schema; new scenes still need explicit masks and anchors. Do not promise automatic one-shot scene adaptation.
 
 When repeated deformation attempts look wrong, preserve the photographed surface and test a constrained overlay against the rejected version. Freeze accepted layers with sampled pixel comparisons. Present one useful comparison instead of repeatedly claiming a new effect is more realistic. User artistic judgment remains the acceptance criterion.
+
+
+## Glacier accepted-water and sixty-second lessons
+
+The user accepted v10 after the v8b 24-wave reconstructed reflection surface was made calmer in v9 and slower in v10. Sparse glints and small image warps had repeatedly failed. Preserve the successful method; tune speed separately from visibility and contrast. V10's gentle sampling filter and boundary damping reduce fine ripple instability and shoreline distortion. This is a source-based 2D approximation, not a physical water simulation.
+
+For the requested sixty-second v11 loop, keep supporting effect rates and quantize each water frequency to the nearest positive integer cycle over sixty seconds. Mean speed deviation from v10 is 5.15%, maximum 12.11%. Quantize snow lifetimes to divisors of sixty and hide trajectory resets with local opacity fades. Use paired fading twenty-second fog lifetimes; existing ten/twenty-second lamp/smoke periods divide sixty. No full-frame fade or reversed motion. The overall scene differs at twenty/thirty seconds.
+
+Render both resolutions from one source-frame pass after the look is accepted. Verify 1,800 frames per sixty-second loop, source pixels outside motion masks, each analytic layer seam, encoded seam against ordinary steps, and repeated-payload identity. Store exact user acceptance separately from full-export validation. Do not claim continuous playback from still samples. Use the delivery manifest to restore the approved master instead of rendering again.

@@ -12,3 +12,6 @@ __pycache__/
 
 # Approved Basalt master; binary stored with Git LFS.
 !creative/basalt-transmission/animation/baseline-v6-loop-4k-master.mp4
+
+# Approved Glacier look, requested sixty-second final; Git LFS master only.
+!creative/glacier-sanctuary/animation/final-v11/glacier-sanctuary-v11-60s-4k.mp4

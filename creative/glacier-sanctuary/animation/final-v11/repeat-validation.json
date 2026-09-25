@@ -1,0 +1,11 @@
+{
+  "path": "creative/glacier-sanctuary/animation/final-v11/glacier-sanctuary-v11-two-loop-check-720p.mp4",
+  "decoded_frames": 3600,
+  "duration_seconds": 120,
+  "unique_timeline_seconds": 60,
+  "join_at_seconds": 60,
+  "decoded_repetitions_identical": true,
+  "sha256": "3d3962a8ebcddceab15c349afd72ee2f79c20e864b730b001847770fd6020b7d",
+  "bytes": 68966966,
+  "inspection": "All decoded frame hashes compared; no continuous visual playback claimed"
+}

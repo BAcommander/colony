@@ -59,6 +59,7 @@ class Glacier:
    self.tglow=np.exp(-d*.5)*np.clip((9-d)/2,0,1)
    self.masks['dome_light']=(self.tmask>0)|(self.tglow>0);self.masks['combined']|=self.masks['dome_light']
  def frame(self,t,layer='combined'):
+  if self.config.get('loop_seconds'):t=float(t)%self.config['loop_seconds']
   f=self.base.copy()
   if layer in ('water','combined'):
    phase=TAU*t/20;x=self.wx;y=self.wy
@@ -105,16 +106,26 @@ class Glacier:
    f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(surface,0,255)))
   if layer in ('mist','atmosphere','combined'):
    density=np.zeros_like(self.mx)
-   for s in self.mist['sheets']:
-    dx=self.mx-s['x']-s['speed']*t;dy=self.my-s['y']-s['slope']*dx
-    shape=np.exp(-.5*((dx/s['width'])**2+(dy/s['height'])**2))
-    texture=np.clip(.72+.18*np.sin(dx*.035+dy*.12)+.10*np.cos(dx*.065-dy*.17),0,1)
-    density+=shape*texture
+   for index,s in enumerate(self.mist['sheets']):
+    offsets=(0,.5) if self.config.get('loop_seconds') else (None,)
+    for offset in offsets:
+     if offset is None:elapsed=t;envelope=1
+     else:
+      age=(t/20+.5+index*.17+offset)%1;elapsed=(age-.5)*20;envelope=np.sin(np.pi*age)**2
+     dx=self.mx-s['x']-s['speed']*elapsed;dy=self.my-s['y']-s['slope']*dx
+     shape=np.exp(-.5*((dx/s['width'])**2+(dy/s['height'])**2))
+     texture=np.clip(.72+.18*np.sin(dx*.035+dy*.12)+.10*np.cos(dx*.065-dy*.17),0,1)
+     density+=shape*texture*envelope
    blend(f,self.mist['roi'],self.mist['color'],np.clip(density*self.mist['opacity'],0,self.mist.get('max_opacity',.36))*self.mmask)
   if layer in ('snow','atmosphere','combined'):
    snow=np.zeros((self.h,self.w),np.float32)
    for sx,sy,vx,vy,opacity,radius in self.flakes:
-    x=int(sx+vx*t);y=int(160+(sy-160+vy*t)%620)
+    if self.config.get('loop_seconds'):
+     duration=self.config['loop_seconds'];cycles=max(1,round(vy*duration/620));life=duration/cycles
+     age=(t+(sy-160)/620*life)%life
+     x=int(sx+vx*(age-life*.5));yf=160+620*age/life;y=int(yf)
+     opacity*=min(1,(yf-160)/35,(780-yf)/35)
+    else:x=int(sx+vx*t);y=int(160+(sy-160+vy*t)%620)
     if 0<=x<self.w and 0<=y<self.h:cv2.circle(snow,(x,y),max(1,round(radius)),float(opacity),-1,lineType=cv2.LINE_AA)
    snow=cv2.GaussianBlur(snow,(0,0),.55)*self.opening
    blend(f,[0,0,self.w,self.h],[222,233,244],snow)

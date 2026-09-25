@@ -1,0 +1,42 @@
+{
+  "water": {
+    "endpoint_identical": true,
+    "seam_mae": 0.08272440538325981,
+    "first_step_mae": 0.0822249160970244
+  },
+  "snow": {
+    "endpoint_identical": true,
+    "seam_mae": 0.08272724570203144,
+    "first_step_mae": 0.07298166411930469
+  },
+  "mist": {
+    "endpoint_identical": true,
+    "seam_mae": 0.0456750195107348,
+    "first_step_mae": 0.04532893108860383
+  },
+  "roof_lights": {
+    "endpoint_identical": true,
+    "seam_mae": 0.08220564613725878,
+    "first_step_mae": 0.0816775584747068
+  },
+  "dome_light": {
+    "endpoint_identical": true,
+    "seam_mae": 0.0,
+    "first_step_mae": 0.0
+  },
+  "exterior_lights": {
+    "endpoint_identical": true,
+    "seam_mae": 0.44960240704921556,
+    "first_step_mae": 0.039663777252429734
+  },
+  "combined": {
+    "endpoint_identical": true,
+    "seam_mae": 0.15718844511379998,
+    "first_step_mae": 0.09443145796591683
+  },
+  "water_speed_quantization": {
+    "maximum_relative_change": 0.12107025400257987,
+    "mean_relative_change": 0.05146868801068216
+  },
+  "distinct_from_20_and_30_second_repetitions": true
+}
