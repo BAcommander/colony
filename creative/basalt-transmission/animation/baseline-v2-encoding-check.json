@@ -1,0 +1,38 @@
+{
+  "0": {
+    "overall_mae": 0.0,
+    "exhaust_mae": 0.0,
+    "haze_mae": 0.0,
+    "sky_mae": 0.0
+  },
+  "60": {
+    "overall_mae": 0.0,
+    "exhaust_mae": 0.0,
+    "haze_mae": 0.0,
+    "sky_mae": 0.0
+  },
+  "150": {
+    "overall_mae": 0.0,
+    "exhaust_mae": 0.0,
+    "haze_mae": 0.0,
+    "sky_mae": 0.0
+  },
+  "300": {
+    "overall_mae": 0.0,
+    "exhaust_mae": 0.0,
+    "haze_mae": 0.0,
+    "sky_mae": 0.0
+  },
+  "450": {
+    "overall_mae": 0.0,
+    "exhaust_mae": 0.0,
+    "haze_mae": 0.0,
+    "sky_mae": 0.0
+  },
+  "599": {
+    "overall_mae": 0.0,
+    "exhaust_mae": 0.0,
+    "haze_mae": 0.0,
+    "sky_mae": 0.0
+  }
+}

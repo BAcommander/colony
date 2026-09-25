@@ -1,0 +1,24 @@
+{
+  "revision": "v2",
+  "feedback": "Good start; needs more background wind, sky and haze movement",
+  "changes": [
+    "Nine separately phased low dust sheets traveling right behind rocks",
+    "Broader haze bands with faster material travel",
+    "Evolving rightward cloud detail under a protected cloud-material mask"
+  ],
+  "preserved": [
+    "source geometry and camera",
+    "moon and mesa silhouettes",
+    "roof exhaust and room-light schedules",
+    "v1b exports"
+  ],
+  "visual_inspection": [
+    "720p full-scene temporal samples",
+    "v2 mask overlay",
+    "decoded4K delivery frame resized for inspection"
+  ],
+  "continuous_playback_review": false,
+  "artistic_approval": false,
+  "comparison": "baseline-v1-v2-comparison.mp4 (first version left, v2 right)",
+  "implementation_note": "Source-specific effect parameters are configured; the same renderer now accepts --version v1 or v2. No scene diffusion or paid service."
+}

@@ -11,8 +11,9 @@ OUT=ROOT/'creative/basalt-transmission/animation'
 CONFIG=OUT/'scene-plan-v1.json'
 
 class Basalt:
-    def __init__(self):
-        self.config=json.loads(CONFIG.read_text())
+    def __init__(self,config_path=CONFIG):
+        self.config_path=Path(config_path)
+        self.config=json.loads(self.config_path.read_text())
         self.source=ROOT/self.config['source']['path']
         assert hashlib.sha256(self.source.read_bytes()).hexdigest()==self.config['source']['sha256']
         self.base=np.array(Image.open(self.source).convert('RGB'))
@@ -45,21 +46,59 @@ class Basalt:
             mask=np.clip(aperture+spill,0,1)
             self.windows.append((c,roi,mask))
             self.layer_masks['interior_lights'][y0:y1,x0:x1]|=mask>0
+        self.clouds=None
+        if 'wind' in self.config['effects']:
+            self.layer_masks['plain_wind']=self.layer_masks['valley_haze'].copy()
+            rng=np.random.default_rng(self.config['effects']['wind']['seed'])
+            self.wind_seeds=[(float(rng.uniform(970,1570)),float(rng.uniform(494,545)),float(rng.uniform(28,65)),float(rng.uniform(2,5)),float(rng.uniform(0,1))) for _ in range(self.config['effects']['wind']['count'])]
+        if 'clouds' in self.config['effects']:
+            c=self.config['effects']['clouds'];x0,y0,x1,y1=c['roi']
+            yy,xx=np.mgrid[y0:y1,x0:x1].astype(float)
+            m=polygon_mask(xx.shape,[c['polygon']],(x0,y0),c['feather'])
+            patch=self.base[y0:y1,x0:x1].astype(float)
+            lum=patch.mean(axis=2).astype(np.float32)
+            shade=cv2.GaussianBlur(lum,(0,0),15)
+            # Concentrate detail within darker existing cloud material, not clear sky.
+            material=np.clip((shade-lum+3)/14,0,1)
+            m*=cv2.GaussianBlur(material,(0,0),2)
+            self.clouds=(c,xx,yy,m)
+            full=np.zeros(self.base.shape[:2],bool);full[y0:y1,x0:x1]=m>0
+            self.layer_masks['sky_clouds']=full
         self.active=np.logical_or.reduce(list(self.layer_masks.values()))
         self.effect_descriptions={'roof_exhaust':'Two source-anchored rising, right-drifting plumes','valley_haze':'Two depth bands of rightward material motion, rock-occluded','interior_lights':'Two smaller rooms with offset holds; main room steady'}
+        if self.clouds:self.effect_descriptions['sky_clouds']='Rightward evolving texture inside existing cloud bands; moon and terrain fixed'
+        if 'wind' in self.config['effects']:self.effect_descriptions['plain_wind']='Nine independent low drifting dust sheets behind protected rocks'
     def frame(self,t,output_size=True):
         p=TAU*(float(t)%self.duration)/self.duration
         f=self.base.copy()
+        if self.clouds:
+            c,x,y,m=self.clouds;x0,y0,x1,y1=c['roi']
+            q=TAU*x/c['wavelength']-p
+            bend=2.3*np.sin(q+y*.07)+.9*np.cos(2*q-y*.11)
+            field=.65*np.sin(q+(y+bend)*.19)+.25*np.sin(2*q-y*.31)+.10*np.cos(4*q+y*.41)
+            patch=self.base[y0:y1,x0:x1].astype(float)
+            f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch+(m*field*c['amplitude'])[...,None]*np.array([1,.86,.76]),0,255)))
         c=self.config['effects']['haze'];alpha=np.zeros_like(self.hx)
         for band in c['bands']:
             # Persistent low-frequency shapes with fine density traveling right.
             q=TAU*self.hx/band['wavelength']-p+band['phase']
-            center=band['center_y']+2*np.sin(self.hx*.019)+1.4*np.sin(q*.0+self.hx*.034)
+            center=band['center_y']+2*np.sin(self.hx*.019)+1.4*np.sin(self.hx*.034)
             ribbon=np.exp(-.5*((self.hy-center)/band['width'])**2)
             coarse=.50+.25*np.sin(self.hx*.015+band['phase'])+.15*np.cos(self.hx*.031)
             moving=.55+.28*np.sin(q+(self.hy-band['center_y'])*.23)+.17*np.sin(2*q+self.hy*.37)
             alpha+=ribbon*np.clip(coarse,0,1)*np.clip(moving,0,1)*band['opacity']
         blend(f,self.haze_roi,c['color'],alpha*self.haze_mask)
+        if 'wind' in self.config['effects']:
+            c=self.config['effects']['wind'];a=np.zeros_like(self.hx)
+            for i,(sx,sy,width,height,offset) in enumerate(self.wind_seeds):
+                age=((float(t)%self.duration)/self.duration+offset)%1
+                envelope=np.sin(np.pi*age)**2
+                cx=sx+c['travel']*age;cy=sy+3*np.sin(2*np.pi*age+i)
+                u=(self.hx-cx)/width;v=(self.hy-cy-1.8*np.sin((self.hx-cx)*.033+i))/(height*(.8+age))
+                body=np.exp(-.5*(u*u+v*v))
+                detail=.65+.25*np.sin((self.hx-cx)*.11+self.hy*.18+i)+.10*np.cos((self.hx-cx)*.23-self.hy*.4)
+                a+=body*detail*envelope*c['opacity']
+            blend(f,self.haze_roi,c['color'],np.clip(a,0,.45)*self.haze_mask)
         for c,roi,x,y in self.vents:
             blend(f,roi,c['color'],vent_density(x,y,c,p))
         for c,roi,mask in self.windows:
@@ -71,9 +110,9 @@ class Basalt:
             f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch*(1-a[...,None])+dark*a[...,None],0,255)))
         return cv2.resize(f,core.SIZE,interpolation=cv2.INTER_LANCZOS4) if output_size else f
     def qa(self,stem):
-        folder=OUT/'masks-v1';folder.mkdir(exist_ok=True)
+        folder=OUT/('masks-'+self.config['output']['version']);folder.mkdir(exist_ok=True)
         overlay=self.base.copy().astype(float)
-        for (name,m),color in zip(self.layer_masks.items(),[(100,200,255),(100,255,150),(255,100,70)]):
+        for (name,m),color in zip(self.layer_masks.items(),[(100,200,255),(100,255,150),(255,100,70),(240,180,70),(180,120,255)]):
             Image.fromarray(np.uint8(m)*255).save(folder/(name+'.png'))
             overlay[m]=overlay[m]*.6+np.array(color)*.4
         im=Image.fromarray(np.uint8(overlay));d=ImageDraw.Draw(im)
@@ -96,14 +135,14 @@ class Basalt:
             checks[name]={'endpoint_identical':bool(np.array_equal(a[m],b[m])),'sample_step_changes':steps,'mask_pixels':int(m.sum())}
         assert not np.array_equal(a,self.frame(10,False))
         (OUT/(stem+'-layer-checks.json')).write_text(json.dumps(checks,indent=2))
-        manifest={'config_sha256':hashlib.sha256(CONFIG.read_bytes()).hexdigest(),'renderer_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'effects_sha256':hashlib.sha256((ROOT/'scripts/ambient_effects.py').read_bytes()).hexdigest(),'source_sha256':self.config['source']['sha256'],'duration':self.duration,'effects':self.effect_descriptions,'inspection':'temporal samples; user review pending'}
+        manifest={'config_sha256':hashlib.sha256(self.config_path.read_bytes()).hexdigest(),'renderer_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'effects_sha256':hashlib.sha256((ROOT/'scripts/ambient_effects.py').read_bytes()).hexdigest(),'source_sha256':self.config['source']['sha256'],'duration':self.duration,'effects':self.effect_descriptions,'inspection':'temporal samples; user review pending'}
         (OUT/(stem+'-settings.json')).write_text(json.dumps(manifest,indent=2))
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--stage',choices=['preview','final'],default='preview');ap.add_argument('--qa-only',action='store_true');args=ap.parse_args()
-    anim=Basalt();core.SOURCE=anim.source;core.OUTPUT=OUT;core.DURATION=anim.duration;core.FPS=30
+    ap=argparse.ArgumentParser();ap.add_argument('--stage',choices=['preview','final'],default='preview');ap.add_argument('--qa-only',action='store_true');ap.add_argument('--version',choices=['v1','v2'],default='v1');args=ap.parse_args()
+    anim=Basalt(OUT/('scene-plan-'+args.version+'.json'));core.SOURCE=anim.source;core.OUTPUT=OUT;core.DURATION=anim.duration;core.FPS=30
     core.SIZE=(1280,720) if args.stage=='preview' else (3840,2160)
-    core.STEM='baseline-v1-preview' if args.stage=='preview' else 'baseline-v1-loop-4k-master'
+    core.STEM='baseline-'+args.version+('-preview' if args.stage=='preview' else '-loop-4k-master')
     anim.qa(core.STEM)
     if not args.qa_only:
         path=OUT/(core.STEM+'.mp4')

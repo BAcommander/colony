@@ -1,0 +1,36 @@
+{
+  "source": "creative\\concepts\\09-basalt-transmission.png",
+  "source_sha256": "741306aca34a3f3ce16add13b34e15a589b017c006e95426373e4273394ef99a",
+  "output": "creative\\basalt-transmission\\animation\\baseline-v2-preview.mp4",
+  "method": "Local Python/OpenCV compositing, FFmpeg H.264; no network or paid service",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "output_dimensions": [
+    1280,
+    720
+  ],
+  "resolution_note": "1280x720 export resampled from 1672x941 source; no claim of native 4K image detail",
+  "fps": 30.0,
+  "frames": 600,
+  "duration_seconds": 20.0,
+  "audio": false,
+  "periodic_endpoint_pixels_identical": true,
+  "uncompressed_static_plate_unchanged": true,
+  "analytic_active_pixel_mean_abs_step": 0.02669365213677063,
+  "analytic_active_pixel_max_mean_abs_step": 0.04585826396942139,
+  "analytic_active_pixel_seam_mean_abs_step": 0.025071678683161736,
+  "encoded_active_pixel_mean_abs_step": 0.06807415988389558,
+  "encoded_active_pixel_max_mean_abs_step": 0.08784505724906921,
+  "encoded_active_pixel_seam_mean_abs_step": 0.06622526049613953,
+  "encoding": "H.264 QP0 lossless coding after RGB to YUV420 conversion; preserves tiny effects without temporal quantization drift",
+  "note": "The last-to-first transition is checked numerically. Player buffering is separate from media continuity. H.264 quantization can introduce small differences.",
+  "effects": {
+    "roof_exhaust": "Two source-anchored rising, right-drifting plumes",
+    "valley_haze": "Two depth bands of rightward material motion, rock-occluded",
+    "interior_lights": "Two smaller rooms with offset holds; main room steady",
+    "sky_clouds": "Rightward evolving texture inside existing cloud bands; moon and terrain fixed",
+    "plain_wind": "Nine independent low drifting dust sheets behind protected rocks"
+  }
+}

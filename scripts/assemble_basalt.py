@@ -7,9 +7,10 @@ import numpy as np
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'creative/basalt-transmission/animation'
 FF=imageio_ffmpeg.get_ffmpeg_exe()
+PREFIX='baseline-v1b'
 MASTER=OUT/'baseline-v1-loop-4k-master.mp4'
-LOOP=OUT/'baseline-v1b-loop-4k.mp4'
-LONG=OUT/'baseline-v1b-20min-4k.mp4'
+LOOP=OUT/f'{PREFIX}-loop-4k.mp4'
+LONG=OUT/f'{PREFIX}-20min-4k.mp4'
 
 def run(args):
     subprocess.run([FF,'-hide_banner','-loglevel','error','-n',*map(str,args)],check=True)
@@ -36,9 +37,9 @@ def compare():
             x0,x1=round(x0*3840/1672),round(x1*3840/1672);y0,y1=round(y0*2160/941),round(y1*2160/941)
             values[name+'_mae']=float(np.abs(x[y0:y1,x0:x1].astype(float)-y[y0:y1,x0:x1].astype(float)).mean())
         report[str(i)]=values
-        if i==150:cv2.imwrite(str(OUT/'baseline-v1b-delivery-decoded.jpg'),cv2.resize(y,(1280,720)))
+        if i==150:cv2.imwrite(str(OUT/f'{PREFIX}-delivery-decoded.jpg'),cv2.resize(y,(1280,720)))
     a.release();b.release()
-    (OUT/'baseline-v1b-encoding-check.json').write_text(json.dumps(report,indent=2))
+    (OUT/f'{PREFIX}-encoding-check.json').write_text(json.dumps(report,indent=2))
     print('Encoding comparison',json.dumps(report),flush=True)
 
 def assemble():
@@ -64,10 +65,10 @@ def validate():
     assert metadata=={'width':3840,'height':2160,'fps':30.0,'container_frames':36000},metadata
     probe=subprocess.run([FF,'-hide_banner','-i',str(LONG)],capture_output=True,text=True)
     assert 'Audio:' not in probe.stderr
-    loop_records=decode_hashes(LOOP,OUT/'baseline-v1b-loop-decoded.framemd5')
+    loop_records=decode_hashes(LOOP,OUT/f'{PREFIX}-loop-decoded.framemd5')
     assert len(loop_records)==600
     print('Decoding all 36,000 delivery frames for timestamp and repeated-frame checks...',flush=True)
-    records=decode_hashes(LONG,OUT/'baseline-v1b-20min-decoded.framemd5')
+    records=decode_hashes(LONG,OUT/f'{PREFIX}-20min-decoded.framemd5')
     assert len(records)==36000,len(records)
     for i,(dts,pts,duration,h) in enumerate(records):
         assert dts==i and pts==i and duration==1,(i,dts,pts,duration)
@@ -80,9 +81,12 @@ def validate():
         joins[str(index)]='full-resolution pixels equal to loop reference'
     cap.release();ref.release()
     report={'metadata':metadata,'decoded_frames':len(records),'duration_seconds':len(records)/30,'audio':False,'all_pts_dts_sequential':True,'all_repeated_frame_hashes_match':True,'full_resolution_join_checks':joins,'sha256':hashlib.sha256(LONG.read_bytes()).hexdigest(),'bytes':LONG.stat().st_size,'method':'Validated QP0 master loop repeated sixty times with stream copy; every delivery frame decoded and hashed after reduction','visual_review':'Temporal samples and decoded frames; no continuous playback review claimed','artistic_status':'awaiting user review','source_resolution_note':'4K export upscaled from 1672x941 artwork'}
-    (OUT/'baseline-v1b-20min-validation.json').write_text(json.dumps(report,indent=2))
+    (OUT/f'{PREFIX}-20min-validation.json').write_text(json.dumps(report,indent=2))
     print(json.dumps(report,indent=2),flush=True)
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('stage',choices=['encode','compare','assemble','validate']);a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('stage',choices=['encode','compare','assemble','validate']);p.add_argument('--version',choices=['v1b','v2'],default='v1b');a=p.parse_args()
+    PREFIX='baseline-'+a.version
+    MASTER=OUT/('baseline-'+('v1' if a.version=='v1b' else a.version)+'-loop-4k-master.mp4')
+    LOOP=OUT/(PREFIX+'-loop-4k.mp4');LONG=OUT/(PREFIX+'-20min-4k.mp4')
     globals()[a.stage]()

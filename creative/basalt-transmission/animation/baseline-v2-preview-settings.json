@@ -1,0 +1,15 @@
+{
+  "config_sha256": "60298966b24f88f4ae36d5e9475b9b3a5195a95037999b69e3f2879b08e91bca",
+  "renderer_sha256": "7c7af0645e55ae714c169f2d164d1877c3e3199db65588081bf1fbcf7de99b12",
+  "effects_sha256": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+  "source_sha256": "741306aca34a3f3ce16add13b34e15a589b017c006e95426373e4273394ef99a",
+  "duration": 20,
+  "effects": {
+    "roof_exhaust": "Two source-anchored rising, right-drifting plumes",
+    "valley_haze": "Two depth bands of rightward material motion, rock-occluded",
+    "interior_lights": "Two smaller rooms with offset holds; main room steady",
+    "sky_clouds": "Rightward evolving texture inside existing cloud bands; moon and terrain fixed",
+    "plain_wind": "Nine independent low drifting dust sheets behind protected rocks"
+  },
+  "inspection": "temporal samples; user review pending"
+}

@@ -1,0 +1,47 @@
+{
+  "status": "technical checks passed; user artistic review pending",
+  "source": "creative/concepts/09-basalt-transmission.png",
+  "config": "scene-plan-v2.json",
+  "prompt": "production-prompt-v2.md",
+  "outputs": {
+    "baseline-v2-preview.mp4": {
+      "bytes": 3101056,
+      "sha256": "7246e4dcc65c28d306e0f95080feebad086bbddce0bb948a8690c60e9a73ff2f",
+      "tracked_in_git": false
+    },
+    "baseline-v2-loop-4k-master.mp4": {
+      "bytes": 23027257,
+      "sha256": "2e3653ae80f61a36aca5e9a19e2fb3f7ba580552677a80185ea30f9bb2012f5d",
+      "tracked_in_git": false
+    },
+    "baseline-v2-loop-4k.mp4": {
+      "bytes": 23027257,
+      "sha256": "2e3653ae80f61a36aca5e9a19e2fb3f7ba580552677a80185ea30f9bb2012f5d",
+      "tracked_in_git": false
+    },
+    "baseline-v2-20min-4k.mp4": {
+      "bytes": 1381581376,
+      "sha256": "5a3d16ed4232fd62826dfef4da53ba9ed6a85ec7f604d270980ec2913be9edcb",
+      "tracked_in_git": false
+    },
+    "baseline-v1-v2-comparison.mp4": {
+      "bytes": 718994,
+      "sha256": "d138ec6db00cab53e1916bd0815f2230d67872a4d88188f5ad5f9366233370fa",
+      "tracked_in_git": false
+    }
+  },
+  "validation": "baseline-v2-20min-validation.json",
+  "review": "revision-v2-review.json",
+  "duration_seconds": 1200,
+  "fps": 30,
+  "loop_seconds": 20,
+  "repeats": 60,
+  "audio": false,
+  "source_upscaled": true,
+  "code_hashes": {
+    "scripts\\render_basalt.py": "7c7af0645e55ae714c169f2d164d1877c3e3199db65588081bf1fbcf7de99b12",
+    "scripts\\ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+    "scripts\\assemble_basalt.py": "b61d18d8367b06eebb79a766f941783cf07f34c9309f07b3ae8873a7432d8d1b",
+    "scripts\\render_ringfall.py": "fe1198eddb332268358f16cd67ff44d89e850ac0015a9ab0e9f69d15f6530b65"
+  }
+}

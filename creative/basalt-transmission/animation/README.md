@@ -1,4 +1,12 @@
-# Basalt Transmission — local animation v1
+# Basalt Transmission — local animation
+
+## Current revision: v2 background motion
+
+User feedback on v1b: good start, insufficient activity in the plains/sky/haze. V2 adds nine independently drifting low dust sheets, stronger broader valley haze and protected moving cloud texture. Buildings, mesa silhouettes, moon, foreground rocks and the established habitat effects remain fixed. No user approval yet. Preview: baseline-v2-preview.mp4;4K loop: baseline-v2-loop-4k.mp4;20-minute delivery: baseline-v2-20min-4k.mp4. Compare baseline-v1-v2-comparison.mp4 (v1 left,v2 right).
+
+Use `python scripts/render_basalt.py --version v2 --stage preview` or `--stage final`, then `python scripts/assemble_basalt.py encode --version v2`, `compare --version v2`, `assemble --version v2`, and `validate --version v2`. Parameters and masks: scene-plan-v2.json and masks-v2/. Prompt: production-prompt-v2.md. Existing v1b files are preserved. Long videos remain local; supporting files are tracked. Exact verification is recorded beside each version.
+
+## Historical first version
 
 Status: implemented first candidate; user artistic review pending. Source: ../../concepts/09-basalt-transmission.png (1672x941). No paid services or model inference used.
 
@@ -52,3 +60,9 @@ Initial CRF16 delivery (v1) passed duration/timestamp checks but failed the enco
 V1b fully decoded to36,000 frames, 3840x2160 at30fps,1200seconds, no audio. Every PTS/DTS is sequential; all reduced decoded frame hashes equal the corresponding600-frame loop phase. Seven selected frames around early/middle/late joins match the reference loop at full resolution. Master loop seam/static-region checks passed and delivery-loop encoded payload is identical to that master. Size664,036,456bytes; SHA256 is in delivery-manifest-v1b.json. No continuous playback review is claimed.
 
 scene-config-rendered-v1.json freezes the exact configuration used for the recorded render hash; scene-plan-v1.json additionally records completed status and delivery. Both share the same effect parameters.
+
+## V2 review limits and storage
+
+V2 visual inspection covers full-scene temporal samples, mask overlay and a decoded4K frame; no continuous playback review is claimed. Cloud detail is a procedural traveling material field inside existing bands, not bulk movement of the whole sky. Wind uses independently phased soft dust sheets behind the rock masks. The current20-minute file is approximately1.38GB; the20-second4K loop is approximately23MB. Extra moving detail increases the lossless bitrate. Both stay local for artistic review; code, configurations, masks and verification evidence are pushed.
+
+V2 completed verification:36,000 decoded frames,1200seconds,30fps,3840x2160,silent. All PTS/DTS increments sequential; every repeated frame hash matches its600-frame cycle phase. Full-resolution join samples at the beginning, middle and end match the reference loop. Final bytes1,381,581,376. Hashes and provenance are in delivery-manifest-v2.json. Master static-region and seam checks passed; delivery remux preserved the encoded video stream.
