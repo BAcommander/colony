@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-25",
+  "remote": "origin",
+  "ref": "main",
+  "package_commit": "33913efe40db4e6c6f5e6e5d57f9a645d73b314a",
+  "method": "Git LFS download into verified previously absent independent storage, followed by SHA-256 and size comparisons",
+  "videos": [
+    {
+      "path": "final/01-ringfall-observatory/video-4k.mp4",
+      "sha256": "eb723ce79517a8a5659e92709e69d70339a8e318cb68214111c259e15c05f8d2",
+      "bytes": 34921944,
+      "remote_object_restored_and_verified": true
+    },
+    {
+      "path": "final/02-basalt-transmission/video-4k.mp4",
+      "sha256": "6275bbce0504903fceeaa4b00a7e3b13bc3b07b6fe18f8515877097e8cfbee0c",
+      "bytes": 113659615,
+      "remote_object_restored_and_verified": true
+    },
+    {
+      "path": "final/03-glacier-sanctuary/video-4k.mp4",
+      "sha256": "b2743ceabd8a75f2117dc41282800d394db2733c58ddc69ca473fb0039840022",
+      "bytes": 276988548,
+      "remote_object_restored_and_verified": true
+    }
+  ]
+}
