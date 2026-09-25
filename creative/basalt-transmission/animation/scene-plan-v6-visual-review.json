@@ -1,0 +1,53 @@
+{
+  "status": "pending",
+  "user_feedback": "",
+  "reviewed_at_normal_speed": false,
+  "fingerprint": {
+    "config": "3fe3950a63aa5c4a6eb325841f0548835515b1f74905ee2eb519047decd24d41",
+    "source": "741306aca34a3f3ce16add13b34e15a589b017c006e95426373e4273394ef99a",
+    "code": {
+      "scripts/render_basalt.py": "9724b3dbbcd1d4598e80be170fc21270c58f48cffbe5687c0edcc3f839914d1a",
+      "scripts/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+      "scripts/render_ringfall.py": "fe1198eddb332268358f16cd67ff44d89e850ac0015a9ab0e9f69d15f6530b65",
+      "scripts/motion_review.py": "2ac409ba068671d57ecbea30a8d4c447a29ffa238e1ed044c1bccfe9062a28a2"
+    }
+  },
+  "clips": [
+    {
+      "path": "creative/basalt-transmission/animation/review-v6/sky_clouds.mp4",
+      "sha256": "5af39c8ef864b50d92b8eb5245e8b2c71bb81dad03774f415714d111c81fbc89",
+      "layer": "sky_clouds",
+      "frames": 600,
+      "peak_temporal_mae": 24.66666603088379,
+      "fraction_full_frame_changed_above_3_levels": 0.030999348958333332
+    },
+    {
+      "path": "creative/basalt-transmission/animation/review-v6/far_haze.mp4",
+      "sha256": "6e8230330554e470f5e9243e23e215f2db0ef7c043f094a9f3617d0a861df710",
+      "layer": "far_haze",
+      "frames": 600,
+      "peak_temporal_mae": 19.66666603088379,
+      "fraction_full_frame_changed_above_3_levels": 0.014360894097222222
+    },
+    {
+      "path": "creative/basalt-transmission/animation/review-v6/plain_wind.mp4",
+      "sha256": "a95f2ca28a0230ffa24f1ea0a24707ce9b99d83989c15788261cc05cccc2e699",
+      "layer": "plain_wind",
+      "frames": 600,
+      "peak_temporal_mae": 43.0,
+      "fraction_full_frame_changed_above_3_levels": 0.014380425347222222
+    },
+    {
+      "path": "creative/basalt-transmission/animation/review-v6/combined.mp4",
+      "sha256": "7c09e3f711b7ee0f073fc96b0f1e99c1830fb7b49abd6975dfdf11329bd146fa",
+      "layer": "combined",
+      "frames": 600,
+      "peak_temporal_mae": 156.0,
+      "fraction_full_frame_changed_above_3_levels": 0.06541666666666666
+    }
+  ],
+  "duration_seconds": 20,
+  "fps": 30,
+  "motion_prototype_only": false,
+  "note": "Short motion review at actual speed; not a seamless loop delivery. Metrics describe changes, not perceived quality."
+}

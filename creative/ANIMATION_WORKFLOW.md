@@ -57,3 +57,10 @@ Inspect each at normal size and 1x speed. Name a visible feature, its direction 
 The generated `scene-plan-VERSION-visual-review.json` starts pending. Keep user rejection explicit. After genuine user acceptance, record their feedback and normal-speed review, mark accepted, and retain clip/config/source/code hashes. Do not manufacture approval or mark accepted from sampled stills. `render_basalt.py --stage final` and `assemble_basalt.py assemble` reject missing, pending, rejected or stale reviews. These are workflow checks, not tamper-proof security controls. Code/config changes require fresh review. Ringfall's approved historical render is unaffected.
 
 After the short motion test passes, review the complete twenty-second composite and its seam before final export. Include that full-loop preview and hash in the accepted review's clips. Numeric protected-pixel, duration, decode and seam checks remain separate requirements. Lossless QP0 master avoids previously observed CRF-induced seam changes; verify the encoded seam even with correct analytic endpoints. Repeat the verified loop for twenty minutes only after visual acceptance.
+
+
+## Basalt v6 loop lessons
+
+When a forward-transport prototype reads well, reduce its speed independently from visibility before adding periodicity. Overlapping locally staggered cloud lifetimes can hide resets, but can also soften or double source features: explicitly review this tradeoff in playback. Never claim analytic periodicity proves natural motion. For plains particles, center trajectories on the intended region; merely increasing opacity while most particles travel offscreen wastes effort. V6 restores this coverage and retains separate near/far previews.
+
+For twenty-second review exports run `python scripts/validate_motion_review.py --config creative/basalt-transmission/animation/scene-plan-v6.json --review creative/basalt-transmission/animation/review-v6/review.json`. It decodes every clip and compares encoded last-to-first change against ordinary adjacent-frame changes, separately per isolated layer. Keep visual acceptance separate.

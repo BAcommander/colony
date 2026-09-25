@@ -1,3 +1,7 @@
+# Current candidate — v6 loop test
+
+Twenty-second preview: review-v6/combined.mp4. Half-speed cloud travel, locally staggered cloud blending, restored centered plains smoke and periodic far wind. Visual review pending, especially cloud ghosting/softness. See production-prompt-v6.md. Historical versions below are superseded.
+
 # Current candidate — v5 transport test
 
 Eight-second non-looping 720p motion prototype in review-v5/combined.mp4; isolated sky_clouds.mp4 and far_haze.mp4 alongside it. Whole-cloud transport plus coherent distant dust tongues, reduced near dust. User review pending. See production-prompt-v5.md. Previous rejection history follows.

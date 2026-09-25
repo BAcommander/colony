@@ -1,3 +1,7 @@
+## Current candidate — Basalt v6
+
+Twenty-second 720p loop test implements slower clouds and restored plains smoke following user feedback on v5. See creative/basalt-transmission/animation/production-prompt-v6.md. Review pending; no new long export.
+
 ## Current candidate — Basalt v5, 2026-09-25
 
 Implemented eight-second non-looping cloud/wind transport prototype. Main preview: creative/basalt-transmission/animation/review-v5/combined.mp4. Isolated layer clips, source-feature tracking and protected-geometry checks saved alongside. User visual review pending; no new 4K or twenty-minute export. See production-prompt-v5.md.

@@ -65,7 +65,7 @@ class Basalt:
             material=np.clip((shade-lum+3)/14,0,1)
             floor=c.get('material_floor',0)
             m*=floor+(1-floor)*cv2.GaussianBlur(material,(0,0),2)
-            if c.get('mode') in ('source_detail_advection','whole_cloud_transport'):
+            if c.get('mode') in ('source_detail_advection','whole_cloud_transport','looped_cloud_transport'):
                 texture_patch=patch
                 if c.get('inpaint_discs'):
                     disc=np.zeros(xx.shape,np.uint8)
@@ -103,7 +103,20 @@ class Basalt:
             bend=2.3*np.sin(q+y*.07)+.9*np.cos(2*q-y*.11)
             field=.65*np.sin(q+(y+bend)*.19)+.25*np.sin(2*q-y*.31)+.10*np.cos(4*q+y*.41)
             patch=self.base[y0:y1,x0:x1].astype(float)
-            if c.get('mode')=='whole_cloud_transport':
+            if c.get('mode')=='looped_cloud_transport':
+                # Two locally staggered lifetimes; each copy travels forward and resets at zero weight.
+                phase=float(t)%self.duration/self.duration
+                offset=self.cloud_local_y/500+self.cloud_local_x/2200
+                moving=np.zeros_like(self.cloud_material)
+                for shift in (0,.5):
+                    age=(phase+offset+shift)%1
+                    weight=np.sin(np.pi*age)**2
+                    mx=self.cloud_local_x-c['speed_pixels_per_second']*self.duration*(age-.5)
+                    layer=cv2.remap(self.cloud_material,mx.astype(np.float32),self.cloud_local_y,cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT_101)
+                    moving+=layer*weight[...,None]
+                patch=patch+m[...,None]*(moving-self.cloud_material)
+                f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch,0,255)))
+            elif c.get('mode')=='whole_cloud_transport':
                 # Motion prototype: transport complete source structures, no cyclic dissolve.
                 moving=cv2.remap(self.cloud_material,self.cloud_local_x-c['speed_pixels_per_second']*float(t),self.cloud_local_y,cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT_101)
                 patch=patch+m[...,None]*(moving-self.cloud_material)
@@ -127,12 +140,15 @@ class Basalt:
                 # Each whole tongue and its internal structure move together in world space.
                 field=np.zeros_like(x)
                 for sheet in c['sheets']:
-                    dx=x-(sheet['x']+sheet['speed']*float(t))
+                    age=((float(t)%self.duration)/self.duration+sheet.get('phase',0))%1
+                    elapsed=(age-.5)*self.duration if c.get('periodic') else float(t)
+                    envelope=np.sin(np.pi*age)**2 if c.get('periodic') else 1
+                    dx=x-(sheet['x']+sheet['speed']*elapsed)
                     center=sheet['y']+sheet.get('slope',0)*dx
                     dy=y-center
                     body=np.exp(-.5*((dx/sheet['width'])**2+(dy/sheet['height'])**2))
                     structure=np.clip(.72+.18*np.sin(dx*.045+dy*.17)+.10*np.cos(dx*.09-dy*.3),0,1)
-                    field+=body*structure*sheet.get('strength',1)
+                    field+=body*structure*sheet.get('strength',1)*envelope
                 alpha=m*np.clip(field*c['opacity'],0,c['max_opacity'])
             else:
                 alpha=m*field*c['opacity']
@@ -153,7 +169,7 @@ class Basalt:
             for i,(sx,sy,width,height,offset) in enumerate(self.wind_seeds):
                 age=((float(t)%self.duration)/self.duration+offset)%1
                 envelope=np.sin(np.pi*age)**2
-                cx=sx+c['travel']*age;cy=sy+3*np.sin(2*np.pi*age+i)
+                cx=sx+c['travel']*(age-(.5 if c.get('centered_travel') else 0));cy=sy+3*np.sin(2*np.pi*age+i)
                 u=(self.hx-cx)/(width*c.get('width_scale',1));v=(self.hy-cy-1.8*np.sin((self.hx-cx)*.033+i))/(height*(.8+age)*c.get('height_scale',1))
                 body=np.exp(-.5*(u*u+v*v))
                 detail=.65+.25*np.sin((self.hx-cx)*.11+self.hy*.18+i)+.10*np.cos((self.hx-cx)*.23-self.hy*.4)
@@ -199,7 +215,7 @@ class Basalt:
         (OUT/(stem+'-settings.json')).write_text(json.dumps(manifest,indent=2))
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--stage',choices=['preview','final'],default='preview');ap.add_argument('--qa-only',action='store_true');ap.add_argument('--version',choices=['v1','v2','v3','v4'],default='v1');args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--stage',choices=['preview','final'],default='preview');ap.add_argument('--qa-only',action='store_true');ap.add_argument('--version',choices=['v1','v2','v3','v4','v5','v6'],default='v1');args=ap.parse_args()
     if args.stage=='final' and not args.qa_only:
         from motion_review import require_accepted
         require_accepted(OUT/('scene-plan-'+args.version+'.json'))

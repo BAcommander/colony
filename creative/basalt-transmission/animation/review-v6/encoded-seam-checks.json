@@ -1,0 +1,35 @@
+{
+  "sky_clouds": {
+    "decoded_frames": 600,
+    "fps": 30.0,
+    "seam_mae": 0.1607324331998825,
+    "ordinary_max_mae": 0.16450156271457672,
+    "ordinary_median_mae": 0.1582074910402298,
+    "seam_within_ordinary_range_tolerance": true
+  },
+  "far_haze": {
+    "decoded_frames": 600,
+    "fps": 30.0,
+    "seam_mae": 0.08353150635957718,
+    "ordinary_max_mae": 0.0965266302227974,
+    "ordinary_median_mae": 0.08687035739421844,
+    "seam_within_ordinary_range_tolerance": true
+  },
+  "plain_wind": {
+    "decoded_frames": 600,
+    "fps": 30.0,
+    "seam_mae": 0.10363084822893143,
+    "ordinary_max_mae": 0.12017669528722763,
+    "ordinary_median_mae": 0.10138369351625443,
+    "seam_within_ordinary_range_tolerance": true
+  },
+  "combined": {
+    "decoded_frames": 600,
+    "fps": 30.0,
+    "seam_mae": 0.1477789729833603,
+    "ordinary_max_mae": 0.15689900517463684,
+    "ordinary_median_mae": 0.14543959498405457,
+    "seam_within_ordinary_range_tolerance": true
+  },
+  "inspection": "Decoded-frame and analytic checks plus sampled still inspection; user playback judgment pending. No continuous playback review claimed."
+}

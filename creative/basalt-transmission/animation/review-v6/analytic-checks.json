@@ -1,0 +1,37 @@
+{
+  "roof_exhaust": {
+    "endpoint_equal": true,
+    "seam_mae": 0.045747072962704506,
+    "first_step_mae": 0.0458246103745057
+  },
+  "valley_haze": {
+    "endpoint_equal": true,
+    "seam_mae": 0.02338786602595252,
+    "first_step_mae": 0.0225329805806022
+  },
+  "interior_lights": {
+    "endpoint_equal": true,
+    "seam_mae": 0.0,
+    "first_step_mae": 0.0
+  },
+  "plain_wind": {
+    "endpoint_equal": true,
+    "seam_mae": 0.05646743336392923,
+    "first_step_mae": 0.05709734895524
+  },
+  "sky_clouds": {
+    "endpoint_equal": true,
+    "seam_mae": 0.08273826798661894,
+    "first_step_mae": 0.08214350121759983
+  },
+  "far_haze": {
+    "endpoint_equal": true,
+    "seam_mae": 0.04138586669483469,
+    "first_step_mae": 0.0407943382275272
+  },
+  "combined": {
+    "endpoint_equal": true,
+    "seam_mae": 0.07611876417917382,
+    "first_step_mae": 0.0755790732147979
+  }
+}
