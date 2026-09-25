@@ -1,3 +1,7 @@
+# Current delivery — v6 seamless loop
+
+User accepted v6 motion as decent and requested seamless completion. 4K master: baseline-v6-loop-4k-master.mp4 (local). Three-repeat preview: basalt-v6-three-loop-check-720p.mp4, joins at 20 and 40 seconds. This is three copies of one twenty-second loop, not sixty seconds of unique animation. See delivery-v6.json and baseline-v6-loop-4k-master-validation.json. No new twenty-minute file assembled in this step. Historical status follows.
+
 # Current candidate — v6 loop test
 
 Twenty-second preview: review-v6/combined.mp4. Half-speed cloud travel, locally staggered cloud blending, restored centered plains smoke and periodic far wind. Visual review pending, especially cloud ghosting/softness. See production-prompt-v6.md. Historical versions below are superseded.

@@ -1,0 +1,11 @@
+{
+  "duration_seconds": 60,
+  "decoded_frames": 1800,
+  "method": "Three exact stream-copy repetitions of the twenty-second preview; not a new sixty-second animation",
+  "all_decoded_frame_hashes_match": true,
+  "joins_seconds": [
+    20,
+    40
+  ],
+  "sha256": "b85f893fc3cbfa259587239a8bd7ddb480778db03d2d3bef0864b62f4e5c4322"
+}

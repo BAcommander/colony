@@ -1,7 +1,7 @@
 {
-  "status": "pending",
-  "user_feedback": "",
-  "reviewed_at_normal_speed": false,
+  "status": "accepted",
+  "user_feedback": "this seems decent now; followed by request: make it seemless",
+  "reviewed_at_normal_speed": true,
   "fingerprint": {
     "config": "3fe3950a63aa5c4a6eb325841f0548835515b1f74905ee2eb519047decd24d41",
     "source": "741306aca34a3f3ce16add13b34e15a589b017c006e95426373e4273394ef99a",
@@ -49,5 +49,6 @@
   "duration_seconds": 20,
   "fps": 30,
   "motion_prototype_only": false,
-  "note": "Short motion review at actual speed; not a seamless loop delivery. Metrics describe changes, not perceived quality."
+  "note": "Short motion review at actual speed; not a seamless loop delivery. Metrics describe changes, not perceived quality.",
+  "acceptance_scope": "User accepted visible v6 motion as decent and requested seamless completion. Final encode still requires validation. Normal-speed review inferred from feedback on provided unmodified playback."
 }

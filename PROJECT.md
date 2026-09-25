@@ -1,3 +1,7 @@
+## Basalt v6 seamless delivery
+
+User accepted the motion as decent and requested seamless completion. Exported twenty-second 4K loop and a three-repeat 720p join preview. See creative/basalt-transmission/animation/delivery-v6.json for verification and local media storage status. Existing twenty-minute historical drafts are not this delivery.
+
 ## Current candidate — Basalt v6
 
 Twenty-second 720p loop test implements slower clouds and restored plains smoke following user feedback on v5. See creative/basalt-transmission/animation/production-prompt-v6.md. Review pending; no new long export.
