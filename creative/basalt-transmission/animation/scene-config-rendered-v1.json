@@ -1,5 +1,5 @@
 {
-  "status": "implemented; technical validation passed; user artistic review pending",
+  "status": "implementation in progress",
   "scene_name": "Basalt Transmission",
   "source": {
     "path": "creative/concepts/09-basalt-transmission.png",
@@ -61,23 +61,15 @@
     }
   ],
   "review": {
-    "inspection_performed": [
-      "full-scene temporal samples",
-      "enlarged vent/window/haze samples",
-      "source anchor/mask overlay",
-      "decoded delivery frame",
-      "numeric loop and full twenty-minute decode verification"
-    ],
-    "technical_report": "baseline-v1b-20min-validation.json",
+    "inspection_performed": [],
+    "technical_report": "",
     "user_feedback": "Selected concept 09; requested detailed first-pass prompt for a twenty-minute video.",
     "approved": false
   },
   "delivery": {
-    "final_path": "creative/basalt-transmission/animation/baseline-v1b-20min-4k.mp4",
-    "final_sha256": "90d4460bf021911a09116f561fc5538b521a0761871f44792bb7ffa34f154d15",
-    "bytes": 664036456,
-    "tracked_in_git": false,
-    "storage_note": "Local review export, approximately664MB; exceeds ordinary GitHub per-file limit"
+    "final_path": "",
+    "final_sha256": "",
+    "tracked_in_git": false
   },
   "effects": {
     "vents": [

@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 30.0,
+    "container_frames": 36000
+  },
+  "decoded_frames": 36000,
+  "duration_seconds": 1200.0,
+  "audio": false,
+  "all_pts_dts_sequential": true,
+  "all_repeated_frame_hashes_match": true,
+  "full_resolution_join_checks": {
+    "599": "full-resolution pixels equal to loop reference",
+    "600": "full-resolution pixels equal to loop reference",
+    "17999": "full-resolution pixels equal to loop reference",
+    "18000": "full-resolution pixels equal to loop reference",
+    "35399": "full-resolution pixels equal to loop reference",
+    "35400": "full-resolution pixels equal to loop reference",
+    "35999": "full-resolution pixels equal to loop reference"
+  },
+  "sha256": "1c66f6b9b6fc31ae9b2b48da6f90e7924e8ae6f3447f58a411664a5643b5fde0",
+  "bytes": 204551356,
+  "method": "Twenty-second loop repeated sixty times with stream copy; every delivery frame decoded and hashed after reduction",
+  "visual_review": "Temporal samples and decoded frames; no continuous playback review claimed",
+  "artistic_status": "awaiting user review",
+  "source_resolution_note": "4K export upscaled from 1672x941 artwork"
+}

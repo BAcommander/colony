@@ -1,0 +1,13 @@
+{
+  "config_sha256": "55b4f224df3ee3ecf707b4367432b6aef4d0ba8ceb0e9df85b97fd0bfdc4a5ad",
+  "renderer_sha256": "98d82aed44da062d5796483b1f80512fd600ffa3bdce2ee471db4f4d883fe44d",
+  "effects_sha256": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+  "source_sha256": "741306aca34a3f3ce16add13b34e15a589b017c006e95426373e4273394ef99a",
+  "duration": 20,
+  "effects": {
+    "roof_exhaust": "Two source-anchored rising, right-drifting plumes",
+    "valley_haze": "Two depth bands of rightward material motion, rock-occluded",
+    "interior_lights": "Two smaller rooms with offset holds; main room steady"
+  },
+  "inspection": "temporal samples; user review pending"
+}

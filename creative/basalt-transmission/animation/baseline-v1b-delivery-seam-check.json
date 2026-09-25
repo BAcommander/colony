@@ -1,0 +1,14 @@
+{
+  "compressed_v1_rejected": {
+    "seam_active_mae_720p": 0.7530835518092014,
+    "max_ordinary_step_mae_720p": 0.14429363156672087,
+    "reason": "Compression seam is an outlier; temporal quality failed despite correct assembly"
+  },
+  "v1b_packet_stream_identical_to_validated_master": true,
+  "stream_hashes": {
+    "baseline-v1-loop-4k-master.mp4": "0,v,SHA256=7fea36a3685225a42629c61d48b4dacb8e7ee9ecffd153e7be7e3dd819252563",
+    "baseline-v1b-loop-4k.mp4": "0,v,SHA256=7fea36a3685225a42629c61d48b4dacb8e7ee9ecffd153e7be7e3dd819252563"
+  },
+  "master_seam_report": "baseline-v1-loop-4k-master-validation.json",
+  "resolution_note": "Lossless H264 coding after RGB-to-YUV420 conversion; same profile as accepted Ringfall. Some players may need a compatible alternate."
+}

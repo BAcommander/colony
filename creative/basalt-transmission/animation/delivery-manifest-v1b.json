@@ -1,0 +1,46 @@
+{
+  "status": "technically verified; user review pending",
+  "outputs": {
+    "baseline-v1-preview.mp4": {
+      "bytes": 1701883,
+      "sha256": "f76887ea090071d974d7808ebaf312057ce00193811fb14f247ccfdafe250457",
+      "tracked_in_git": false
+    },
+    "baseline-v1-loop-4k-master.mp4": {
+      "bytes": 11068175,
+      "sha256": "af56b33c9667c388422b8418e2c6c3f3e6ea6f32f97a6f3c9450a66e5e34d16f",
+      "tracked_in_git": false
+    },
+    "baseline-v1b-loop-4k.mp4": {
+      "bytes": 11068175,
+      "sha256": "af56b33c9667c388422b8418e2c6c3f3e6ea6f32f97a6f3c9450a66e5e34d16f",
+      "tracked_in_git": false
+    },
+    "baseline-v1b-20min-4k.mp4": {
+      "bytes": 664036456,
+      "sha256": "90d4460bf021911a09116f561fc5538b521a0761871f44792bb7ffa34f154d15",
+      "tracked_in_git": false
+    }
+  },
+  "validation": "baseline-v1b-20min-validation.json",
+  "rejected_delivery": "baseline-v1-20min-4k.mp4 (CRF16 seam outlier)",
+  "actual_render_config": "scene-config-rendered-v1.json",
+  "current_plan": "scene-plan-v1.json",
+  "omitted_optional_effects": {
+    "sky_cloud_detail": "Keep the original cloud silhouettes and sunset intact; prioritize exhaust/haze",
+    "mast_indicator": "No prominent new lamp added; existing outdoor lights remain steady"
+  },
+  "source_sha256": "741306aca34a3f3ce16add13b34e15a589b017c006e95426373e4273394ef99a",
+  "source_upscaled": true,
+  "duration_seconds": 1200,
+  "loop_duration_seconds": 20,
+  "repetitions": 60,
+  "audio": false,
+  "tools": "Local Python/NumPy/OpenCV/FFmpeg; no paid tools",
+  "code_hashes": {
+    "scripts\\ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+    "scripts\\render_basalt.py": "98d82aed44da062d5796483b1f80512fd600ffa3bdce2ee471db4f4d883fe44d",
+    "scripts\\assemble_basalt.py": "f641af1030d6f0d64e16477df0e3df41dbb31f285a7ec33d254b1a5747606628",
+    "scripts\\render_ringfall.py": "fe1198eddb332268358f16cd67ff44d89e850ac0015a9ab0e9f69d15f6530b65"
+  }
+}

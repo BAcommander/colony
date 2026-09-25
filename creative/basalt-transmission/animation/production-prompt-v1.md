@@ -1,6 +1,6 @@
 # Basalt Transmission — complete local production prompt
 
-Status: prepared 2026-09-25; not rendered or approved. Source: creative/concepts/09-basalt-transmission.png, 1672x941. Source hash and delivery settings are in scene-plan-v1.json.
+Status: executed 2026-09-25; current deliverable is baseline-v1b-20min-4k.mp4, user artistic review pending. See README.md for actual implementation, omitted optional effects and encoding correction. The following is the original requested brief, not a claim that every optional effect was implemented. Source: creative/concepts/09-basalt-transmission.png, 1672x941. Source hash and delivery settings are in scene-plan-v1.json.
 
 ## Assignment and exact deliverables
 
