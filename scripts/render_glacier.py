@@ -18,6 +18,8 @@ class Glacier:
   blockers=polygon_mask(self.wx.shape,self.water['ice_blockers'],(x0,y0),1)
   clear=cv2.distanceTransform(np.uint8(blockers==0),cv2.DIST_L2,5);self.wmask*=np.clip((clear-5)/8,0,1)
   self.wbase=self.base[y0:y1,x0:x1].copy()
+  rng_water=np.random.default_rng(613)
+  self.glints=[(rng_water.uniform(0,x1-x0),rng_water.uniform(0,y1-y0),rng_water.uniform(9,28),rng_water.uniform(.6,1.4),rng_water.uniform(0,1)) for _ in range(self.water.get('glint_count',0))]
   self.vent=e['vent'];sx,sy=self.vent['anchor'];self.vroi=[sx-2*self.vent['width'],sy-self.vent['height']-3,sx+2*self.vent['width']+self.vent['drift'],sy+1];x0,y0,x1,y1=self.vroi;self.vy,self.vx=np.mgrid[y0:y1,x0:x1].astype(float)
   rng=np.random.default_rng(e['snow']['seed']);s=e['snow'];n=s['count']
   self.flakes=np.column_stack([rng.uniform(660,1672,n),rng.uniform(160,780,n),rng.uniform(*s['speed_x'],n),rng.uniform(*s['speed_y'],n),rng.uniform(*s['opacity'],n),rng.uniform(*s['radius'],n)])
@@ -81,6 +83,14 @@ class Glacier:
      waves=np.sin(y*.37-phase*4+.7*np.sin(x*.014))+ .45*np.sin(y*.61-phase*6+x*.008)
      breakup=.35+.65*(.5+.5*np.sin(x*.048+y*.017))
     surface+=waves[...,None]*breakup[...,None]*a*self.water['reflection_strength']*np.array([.8,.93,1.0])
+   if self.water.get('mode')=='still_glints':
+    # Keep the photographed water intact: only sparse small surface glints move.
+    density=np.zeros_like(x)
+    for sx,sy,width,height,offset in self.glints:
+     age=(t/10+offset)%1;cx=sx+self.water['glint_speed']*(age-.5)*10
+     density+=np.exp(-.5*(((x-cx)/width)**2+((y-sy)/height)**2))*np.sin(np.pi*age)**2
+    alpha=np.clip(density*self.water['glint_opacity'],0,.12)*self.wmask
+    surface=self.wbase*(1-alpha[...,None])+np.array([158,181,205])*alpha[...,None]
    f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(surface,0,255)))
   if layer in ('mist','atmosphere','combined'):
    density=np.zeros_like(self.mx)
@@ -107,7 +117,15 @@ class Glacier:
    for lamp,roi,halo in self.halos:
     floor=lamp.get('floor',.45)
     brightness=lamp['strength']*(floor+(1-floor)*(.5+.5*np.sin(TAU*t/lamp['period']+lamp['phase'])))
+    dip=0
+    if lamp.get('flicker'):
+     local=t+lamp['phase']*.6
+     dip=max(event_amount(local,20,start,hold,transition) for start,hold,transition in [(1.3,.20,.06),(1.68,.28,.08),(3.8,.65,.14),(6.2,.24,.07)])*lamp.get('flicker_depth',.82)
+     brightness*=1-dip
     x0,y0,x1,y1=roi;patch=f[y0:y1,x0:x1].astype(float)
+    if lamp.get('flicker') and not isinstance(lamp['radius'],list):
+     sx,sy=lamp['anchor'];yy,xx=np.mgrid[y0:y1,x0:x1];core=np.exp(-((xx-sx)**2+(yy-sy)**2)/18)
+     patch*=1-core[...,None]*dip*.8
     f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch+halo[...,None]*brightness*np.array([1,.66,.30]),0,255)))
   if self.tower and layer in ('dome_light','combined'):
    off=event_amount(t,20,self.tower['start'],self.tower['hold'],self.tower['transition'])
@@ -118,25 +136,31 @@ class Glacier:
   return f
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--config',default='creative/glacier-sanctuary/animation/scene-plan-v1.json');p.add_argument('--output',default='creative/glacier-sanctuary/animation/review-v1');a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--config',default='creative/glacier-sanctuary/animation/scene-plan-v1.json');p.add_argument('--output',default='creative/glacier-sanctuary/animation/review-v1');p.add_argument('--layers',nargs='+');p.add_argument('--compare-config');a=p.parse_args()
  out=ROOT/a.output;out.mkdir(parents=True,exist_ok=True);b=Glacier(ROOT/a.config);report={'status':'pending','duration_seconds':8,'fps':30,'seamless':False,'source':b.config['source'],'config_sha256':hashlib.sha256((ROOT/a.config).read_bytes()).hexdigest(),'renderer_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'clips':[],'inspection':'Sampled stills and decoded-frame checks; user playback review pending'}
  overlay=b.base.copy();overlay[b.masks['atmosphere']]=np.uint8(overlay[b.masks['atmosphere']]*.65+np.array([65,120,190])*.35);Image.fromarray(overlay).save(out/'atmosphere-mask.jpg')
  Image.fromarray(np.uint8(b.masks['water'])*255).save(out/'water-mask.png')
- for layer in b.config.get('review_layers',['atmosphere','water','combined']):
+ for layer in (a.layers or b.config.get('review_layers',['atmosphere','water','combined'])):
   dst=out/(layer+'.mp4');assert not dst.exists(),dst
-  cmd=[imageio_ffmpeg.get_ffmpeg_exe(),'-hide_banner','-loglevel','error','-n','-f','rawvideo','-pix_fmt','rgb24','-s','1280x720','-r','30','-i','-','-an','-c:v','libx264','-preset','veryfast','-qp','0','-pix_fmt','yuv420p','-movflags','+faststart',str(dst)]
+  compare=Glacier(ROOT/a.compare_config) if a.compare_config else None
+  size='1280x1440' if compare else '1280x720'
+  cmd=[imageio_ffmpeg.get_ffmpeg_exe(),'-hide_banner','-loglevel','error','-n','-f','rawvideo','-pix_fmt','rgb24','-s',size,'-r','30','-i','-','-an','-c:v','libx264','-preset','veryfast','-qp','0','-pix_fmt','yuv420p','-movflags','+faststart',str(dst)]
   proc=subprocess.Popen(cmd,stdin=subprocess.PIPE)
   try:
    for i in range(240):
     f=b.frame(i/30,layer);assert np.array_equal(f[~b.masks[layer]],b.base[~b.masks[layer]])
-    proc.stdin.write(cv2.resize(f,(1280,720),interpolation=cv2.INTER_AREA).tobytes())
+    frame=cv2.resize(f,(1280,720),interpolation=cv2.INTER_AREA)
+    if compare:
+     old=cv2.resize(compare.frame(i/30,layer),(1280,720),interpolation=cv2.INTER_AREA)
+     frame=np.vstack([old,frame])
+    proc.stdin.write(frame.tobytes())
   finally:proc.stdin.close()
   assert proc.wait()==0
   cap=cv2.VideoCapture(str(dst));count=0
   while True:
    ok,f=cap.read()
    if not ok:break
-   assert f.shape[:2]==(720,1280);count+=1
+   assert f.shape[:2]==((1440,1280) if compare else (720,1280));count+=1
   cap.release();assert count==240
   report['clips'].append({'layer':layer,'path':dst.relative_to(ROOT).as_posix(),'sha256':hashlib.sha256(dst.read_bytes()).hexdigest(),'decoded_frames':count,'outside_mask_static':True});print('Finished '+layer,flush=True)
  sheet=Image.new('RGB',(1280,720))

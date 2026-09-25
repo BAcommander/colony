@@ -31,3 +31,10 @@ Clone the repo with Git LFS installed, then run `git lfs pull`. The Basalt maste
 `python scripts/render_basalt.py --version v6 --stage final`
 
 Existing destinations are protected from overwrite. Pull the approved master instead of unnecessarily rerendering it. A fresh rerender requires recreating local review clips and retaining honest user acceptance; changes to code/config invalidate hash-bound review records. The renderer remains Basalt-specific, not a universal image animator.
+
+
+## Executable controls added after Glacier review
+
+Do not merely reread historical notes and hand-edit another renderer for each adjustment. `creative/effect-presets.json` and `scripts/apply_scene_presets.py` provide reusable tuning controls; use a stable input config and a fresh output. `render_glacier.py --layers water` renders only a changed layer. `--compare-config OLD_CONFIG` stacks old/new full-size frames for direct comparison. These controls currently target the Glacier effect schema; new scenes still need explicit masks and anchors. Do not promise automatic one-shot scene adaptation.
+
+When repeated deformation attempts look wrong, preserve the photographed surface and test a constrained overlay against the rejected version. Freeze accepted layers with sampled pixel comparisons. Present one useful comparison instead of repeatedly claiming a new effect is more realistic. User artistic judgment remains the acceptance criterion.

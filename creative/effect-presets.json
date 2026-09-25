@@ -1,0 +1,18 @@
+{
+  "snow_heavier": {
+    "count_multiplier": 1.55
+  },
+  "water_still_glints": {
+    "mode": "still_glints",
+    "amplitude": 0,
+    "vertical_amplitude": 0,
+    "reflection_strength": 0,
+    "glint_count": 32,
+    "glint_opacity": 0.085,
+    "glint_speed": 6
+  },
+  "exterior_irregular_flicker": {
+    "flicker": true,
+    "flicker_depth": 0.82
+  }
+}

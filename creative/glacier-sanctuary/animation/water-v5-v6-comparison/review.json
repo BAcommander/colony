@@ -1,0 +1,39 @@
+{
+  "status": "pending",
+  "duration_seconds": 8,
+  "fps": 30,
+  "seamless": false,
+  "source": {
+    "path": "creative/concepts/02-glacier-sanctuary.png",
+    "sha256": "78a886ca0bea47e47a4e7536e7ca08eb9e0e0143785d9bd0ec48673aacba66a9",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "config_sha256": "d28d7f6a544846eca5e2d7f12d3e4c766499b079d9b9177b4376e55dfe32d672",
+  "renderer_sha256": "2c952c5281252a1580d8afec5744baae83d3fabf0d85310ffd947fed8b6d98cd",
+  "clips": [
+    {
+      "layer": "water",
+      "path": "creative/glacier-sanctuary/animation/water-v5-v6-comparison/water.mp4",
+      "sha256": "5d97f4fe1082d147a57f6aca0481daa7fd6ffdea53d55a29ea999108ac1d69a0",
+      "decoded_frames": 240,
+      "outside_mask_static": true
+    }
+  ],
+  "inspection": "Sampled stills and decoded-frame checks; user playback review pending",
+  "comparison": {
+    "top": "scene-plan-v5.json",
+    "bottom": "scene-plan-v6.json",
+    "dimensions": [
+      1280,
+      1440
+    ],
+    "each_panel_dimensions": [
+      1280,
+      720
+    ],
+    "top_config_sha256": "c275211ba79cdd78651c3cd72280ff57608253660007cfa463816e501337a4c3"
+  }
+}

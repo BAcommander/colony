@@ -1,0 +1,10 @@
+{
+  "layers_matching_v5": [
+    "mist",
+    "roof_lights",
+    "dome_light"
+  ],
+  "snow_count_before": 210,
+  "snow_count_after": 326,
+  "water_geometry_displacement": 0
+}

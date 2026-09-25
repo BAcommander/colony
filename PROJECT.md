@@ -1,3 +1,7 @@
+## Glacier v6 and pipeline controls
+
+Heavier snow and exterior flicker; rejected water distortion replaced with intact-water glints for comparison. Added presets, targeted layer renders and full-size configuration comparisons to reduce repeated implementation work. Current review pending.
+
 ## Glacier Sanctuary v5
 
 Investigated directional wave/reflection methods using NVIDIA GPU Gems. Implemented a local2D adaptation for water and clear pulsing upper-lantern light. Other scene effects preserved. Motion study pending visual review.
