@@ -1,3 +1,7 @@
+## Active scene — Glacier Sanctuary
+
+User selected creative/concepts/02-glacier-sanctuary.png. First local eight-second motion study uses snowfall beyond the arch, drifting mountain mist, masked water ripples and roof exhaust. Source art and warm room lighting preserved. Review pending; no seamless or 4K claim. See creative/glacier-sanctuary/animation/README.md.
+
 ## Saved baseline and reusable workflow
 
 Basalt v6 approved master is tracked through Git LFS, with restore hash in delivery-v6.json. Read creative/NEXT_SCENE_RUNBOOK.md for the consolidated pipeline and lessons. Supporting scripts, source art, masks, configuration and reports remain in ordinary Git. Draft/repeated MP4s stay local.
