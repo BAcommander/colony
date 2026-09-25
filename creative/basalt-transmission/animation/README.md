@@ -1,3 +1,7 @@
+# Current candidate — v5 transport test
+
+Eight-second non-looping 720p motion prototype in review-v5/combined.mp4; isolated sky_clouds.mp4 and far_haze.mp4 alongside it. Whole-cloud transport plus coherent distant dust tongues, reduced near dust. User review pending. See production-prompt-v5.md. Previous rejection history follows.
+
 # Latest verdict — 2026-09-25
 
 V4 rejected: right-side smoke again too subtle and no readable rear-ground movement. See ../../pipeline-audit-2026-09-25/AUDIT.md. Pause long exports; independent full-frame motion review now required. Older pending-review statements below are superseded.

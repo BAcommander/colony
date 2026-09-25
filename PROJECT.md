@@ -1,3 +1,7 @@
+## Current candidate — Basalt v5, 2026-09-25
+
+Implemented eight-second non-looping cloud/wind transport prototype. Main preview: creative/basalt-transmission/animation/review-v5/combined.mp4. Isolated layer clips, source-feature tracking and protected-geometry checks saved alongside. User visual review pending; no new 4K or twenty-minute export. See production-prompt-v5.md.
+
 ## Latest pipeline decision — 2026-09-25
 
 Basalt v4 rejected for unreadable distant motion. Audited 89 Ringfall/history/current pipeline files; see creative/pipeline-audit-2026-09-25/AUDIT.md and source-inventory.json. Added independent full-composition motion excerpts and hash-bound visual-review checks before final/long exports. Four diagnostic clips reproduce existing v4, not a new artistic revision. Next: coherent broad cloud transport and separately readable distant wind before tuning near-smoke opacity. Ringfall v9b remains approved.

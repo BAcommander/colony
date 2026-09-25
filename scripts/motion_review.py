@@ -12,7 +12,10 @@ def fingerprint(config):
     return {'config':digest(config),'source':digest(ROOT/data['source']['path']),
             'code':{p:digest(ROOT/p) for p in DEPENDENCIES}}
 def require_accepted(config):
-    config=Path(config); path=config.with_name(config.stem+'-visual-review.json')
+    config=Path(config)
+    if json.loads(config.read_text()).get('motion_prototype_only'):
+        raise RuntimeError('Non-looping motion prototype: solve and validate periodic motion before final export.')
+    path=config.with_name(config.stem+'-visual-review.json')
     if not path.exists(): raise RuntimeError('Visual review missing. Run motion_review.py, then record the actual user verdict before final export.')
     review=json.loads(path.read_text())
     if review.get('status')!='accepted' or not review.get('user_feedback') or not review.get('reviewed_at_normal_speed'):
@@ -33,7 +36,8 @@ def main():
     from render_basalt import Basalt
     config=Path(a.config).resolve();out=Path(a.output).resolve();out.mkdir(parents=True,exist_ok=True)
     anim=Basalt(config);report={'status':'pending','user_feedback':'','reviewed_at_normal_speed':False,'fingerprint':fingerprint(config),'clips':[],
-      'note':'Eight-second excerpts preserve original twenty-second timing; not seamless loops. Metrics describe changes, not perceived quality.'}
+      'duration_seconds':a.seconds,'fps':a.fps,'motion_prototype_only':anim.config.get('motion_prototype_only',False),
+      'note':'Short motion review at actual speed; not a seamless loop delivery. Metrics describe changes, not perceived quality.'}
     for layer in ['sky_clouds','far_haze','plain_wind',None]:
         name=layer or 'combined';dest=out/(name+'.mp4')
         if dest.exists(): raise FileExistsError(dest)

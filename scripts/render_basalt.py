@@ -65,13 +65,14 @@ class Basalt:
             material=np.clip((shade-lum+3)/14,0,1)
             floor=c.get('material_floor',0)
             m*=floor+(1-floor)*cv2.GaussianBlur(material,(0,0),2)
-            if c.get('mode')=='source_detail_advection':
+            if c.get('mode') in ('source_detail_advection','whole_cloud_transport'):
                 texture_patch=patch
                 if c.get('inpaint_discs'):
                     disc=np.zeros(xx.shape,np.uint8)
                     for sx,sy,radius in c['inpaint_discs']:
                         cv2.circle(disc,(sx-x0,sy-y0),radius,255,-1)
                     texture_patch=cv2.inpaint(np.uint8(patch),disc,9,cv2.INPAINT_TELEA).astype(float)
+                self.cloud_material=texture_patch.astype(np.float32)
                 self.cloud_detail=(texture_patch-cv2.GaussianBlur(texture_patch,(0,0),55, sigmaY=14)).astype(np.float32)
                 self.cloud_local_y,self.cloud_local_x=np.mgrid[0:y1-y0,0:x1-x0].astype(np.float32)
             self.clouds=(c,xx,yy,m)
@@ -102,7 +103,12 @@ class Basalt:
             bend=2.3*np.sin(q+y*.07)+.9*np.cos(2*q-y*.11)
             field=.65*np.sin(q+(y+bend)*.19)+.25*np.sin(2*q-y*.31)+.10*np.cos(4*q+y*.41)
             patch=self.base[y0:y1,x0:x1].astype(float)
-            if c.get('mode')=='source_detail_advection':
+            if c.get('mode')=='whole_cloud_transport':
+                # Motion prototype: transport complete source structures, no cyclic dissolve.
+                moving=cv2.remap(self.cloud_material,self.cloud_local_x-c['speed_pixels_per_second']*float(t),self.cloud_local_y,cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT_101)
+                patch=patch+m[...,None]*(moving-self.cloud_material)
+                f[y0:y1,x0:x1]=np.uint8(np.rint(np.clip(patch,0,255)))
+            elif c.get('mode')=='source_detail_advection':
                 progress=((float(t)%self.duration)/self.duration*c['cycles'])%1
                 travel=c['travel_pixels']
                 a=cv2.remap(self.cloud_detail,self.cloud_local_x-travel*progress,self.cloud_local_y,cv2.INTER_LINEAR,borderMode=cv2.BORDER_REFLECT_101)
@@ -117,7 +123,19 @@ class Basalt:
             c,x,y,m=self.far_haze
             q=TAU*x/c['wavelength']-p
             field=np.clip(.48+.32*np.sin(q+y*.10)+.20*np.sin(2*q-y*.16),0,1)
-            alpha=m*field*c['opacity']
+            if c.get('mode')=='coherent_sheets':
+                # Each whole tongue and its internal structure move together in world space.
+                field=np.zeros_like(x)
+                for sheet in c['sheets']:
+                    dx=x-(sheet['x']+sheet['speed']*float(t))
+                    center=sheet['y']+sheet.get('slope',0)*dx
+                    dy=y-center
+                    body=np.exp(-.5*((dx/sheet['width'])**2+(dy/sheet['height'])**2))
+                    structure=np.clip(.72+.18*np.sin(dx*.045+dy*.17)+.10*np.cos(dx*.09-dy*.3),0,1)
+                    field+=body*structure*sheet.get('strength',1)
+                alpha=m*np.clip(field*c['opacity'],0,c['max_opacity'])
+            else:
+                alpha=m*field*c['opacity']
             blend(f,c['roi'],c['color'],alpha)
         c=self.config['effects']['haze'];alpha=np.zeros_like(self.hx)
         for band in c['bands']:

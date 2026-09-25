@@ -1,0 +1,775 @@
+{
+  "status": "v5 coherent transport prototype; visual review pending",
+  "scene_name": "Basalt Transmission",
+  "source": {
+    "path": "creative/concepts/09-basalt-transmission.png",
+    "sha256": "741306aca34a3f3ce16add13b34e15a589b017c006e95426373e4273394ef99a",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "output": {
+    "duration_seconds": 1200,
+    "fps": 30,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "audio": false,
+    "version": "v5",
+    "loop_duration_seconds": 20,
+    "loop_repetitions": 60,
+    "expected_loop_frames": 600,
+    "expected_delivery_frames": 36000
+  },
+  "protected_geometry": [
+    "foreground cave and rocks",
+    "habitat shells and window frames",
+    "antenna and dish",
+    "stairs and bridge",
+    "mesa silhouettes",
+    "moon",
+    "horizon"
+  ],
+  "principal_motion": [
+    "whole cloud structures moving right",
+    "broad distant wind sheets moving right"
+  ],
+  "layers": [
+    {
+      "name": "roof_exhaust",
+      "method": "advected filament density",
+      "parameters_key": "effects.vents",
+      "mask_path": "masks-v5/roof_exhaust.png"
+    },
+    {
+      "name": "valley_haze",
+      "method": "periodic horizontal density transport with terrain blockers",
+      "parameters_key": "effects.haze",
+      "mask_path": "masks-v5/valley_haze.png"
+    },
+    {
+      "name": "interior_lights",
+      "method": "circular event schedule over whole apertures",
+      "parameters_key": "effects.windows",
+      "mask_path": "masks-v5/interior_lights.png"
+    },
+    {
+      "name": "plain_wind",
+      "method": "nine irregular rightward dust sheets with smooth birth/dissipation and terrain occlusion",
+      "parameters_key": "effects.wind",
+      "mask_path": "masks-v5/plain_wind.png"
+    },
+    {
+      "name": "sky_clouds",
+      "method": "whole source cloud transport; non-looping motion prototype",
+      "parameters_key": "effects.clouds",
+      "mask_path": "masks-v5/sky_clouds.png"
+    },
+    {
+      "name": "far_haze",
+      "method": "coherent broad translating density tongues behind terrain blockers",
+      "parameters_key": "effects.far_haze",
+      "mask_path": "masks-v5/far_haze.png"
+    }
+  ],
+  "review": {
+    "inspection_performed": [],
+    "technical_report": "",
+    "user_feedback": "Requested execution of new motion approach after v4 rejection",
+    "approved": false
+  },
+  "delivery": {
+    "final_path": "",
+    "final_sha256": "",
+    "tracked_in_git": false
+  },
+  "effects": {
+    "vents": [
+      {
+        "name": "main_roof",
+        "anchor": [
+          322,
+          340
+        ],
+        "height": 85,
+        "width": 18,
+        "drift": 20,
+        "phase": 0,
+        "opacity": 0.43,
+        "color": [
+          236,
+          209,
+          177
+        ]
+      },
+      {
+        "name": "shoulder_vent",
+        "anchor": [
+          543,
+          361
+        ],
+        "height": 62,
+        "width": 13,
+        "drift": 17,
+        "phase": 1.9,
+        "opacity": 0.34,
+        "color": [
+          220,
+          191,
+          160
+        ]
+      }
+    ],
+    "haze": {
+      "roi": [
+        1035,
+        470,
+        1672,
+        567
+      ],
+      "polygon": [
+        [
+          1040,
+          495
+        ],
+        [
+          1120,
+          484
+        ],
+        [
+          1290,
+          487
+        ],
+        [
+          1430,
+          477
+        ],
+        [
+          1530,
+          482
+        ],
+        [
+          1671,
+          477
+        ],
+        [
+          1671,
+          557
+        ],
+        [
+          1520,
+          550
+        ],
+        [
+          1420,
+          548
+        ],
+        [
+          1290,
+          560
+        ],
+        [
+          1150,
+          546
+        ],
+        [
+          1040,
+          544
+        ]
+      ],
+      "blockers": [
+        [
+          [
+            1250,
+            533
+          ],
+          [
+            1261,
+            519
+          ],
+          [
+            1281,
+            516
+          ],
+          [
+            1292,
+            502
+          ],
+          [
+            1310,
+            505
+          ],
+          [
+            1325,
+            500
+          ],
+          [
+            1343,
+            507
+          ],
+          [
+            1366,
+            521
+          ],
+          [
+            1383,
+            540
+          ],
+          [
+            1385,
+            560
+          ],
+          [
+            1250,
+            565
+          ]
+        ],
+        [
+          [
+            1520,
+            482
+          ],
+          [
+            1529,
+            458
+          ],
+          [
+            1541,
+            448
+          ],
+          [
+            1545,
+            422
+          ],
+          [
+            1558,
+            415
+          ],
+          [
+            1573,
+            429
+          ],
+          [
+            1578,
+            448
+          ],
+          [
+            1590,
+            461
+          ],
+          [
+            1610,
+            473
+          ],
+          [
+            1610,
+            490
+          ]
+        ]
+      ],
+      "feather": 8,
+      "bands": [
+        {
+          "center_y": 500,
+          "width": 11,
+          "wavelength": 280,
+          "opacity": 0.182,
+          "phase": 0.7
+        },
+        {
+          "center_y": 535,
+          "width": 14,
+          "wavelength": 360,
+          "opacity": 0.16379999999999997,
+          "phase": 2.1
+        }
+      ],
+      "color": [
+        184,
+        151,
+        128
+      ]
+    },
+    "windows": [
+      {
+        "name": "side_room",
+        "polygons": [
+          [
+            [
+              605,
+              456
+            ],
+            [
+              616,
+              455
+            ],
+            [
+              616,
+              477
+            ],
+            [
+              605,
+              477
+            ]
+          ],
+          [
+            [
+              605,
+              482
+            ],
+            [
+              616,
+              482
+            ],
+            [
+              616,
+              505
+            ],
+            [
+              605,
+              504
+            ]
+          ]
+        ],
+        "start": 3,
+        "hold": 5,
+        "transition": 0.65,
+        "strength": 0.78
+      },
+      {
+        "name": "right_room",
+        "polygons": [
+          [
+            [
+              945,
+              480
+            ],
+            [
+              954,
+              480
+            ],
+            [
+              954,
+              501
+            ],
+            [
+              945,
+              501
+            ]
+          ]
+        ],
+        "start": 11,
+        "hold": 5.5,
+        "transition": 0.55,
+        "strength": 0.93
+      }
+    ],
+    "wind": {
+      "count": 8,
+      "travel": 480,
+      "opacity": 0.12,
+      "color": [
+        205,
+        169,
+        139
+      ],
+      "seed": 24,
+      "width_scale": 1.1,
+      "height_scale": 0.85,
+      "max_opacity": 0.28
+    },
+    "clouds": {
+      "roi": [
+        520,
+        0,
+        1672,
+        310
+      ],
+      "polygon": [
+        [
+          526,
+          -20
+        ],
+        [
+          1685,
+          -20
+        ],
+        [
+          1685,
+          228
+        ],
+        [
+          1570,
+          217
+        ],
+        [
+          1512,
+          211
+        ],
+        [
+          1490,
+          202
+        ],
+        [
+          1230,
+          203
+        ],
+        [
+          1080,
+          212
+        ],
+        [
+          1032,
+          221
+        ],
+        [
+          1020,
+          287
+        ],
+        [
+          815,
+          292
+        ],
+        [
+          780,
+          286
+        ],
+        [
+          641,
+          293
+        ],
+        [
+          525,
+          299
+        ]
+      ],
+      "feather": 12,
+      "wavelength": 110,
+      "amplitude": 10,
+      "mode": "whole_cloud_transport",
+      "travel_pixels": 160,
+      "cycles": 2,
+      "material_floor": 1,
+      "detail_gain": 1.4,
+      "protected_discs": [
+        [
+          1395,
+          79,
+          30
+        ]
+      ],
+      "inpaint_discs": [
+        [
+          1395,
+          79,
+          23
+        ]
+      ],
+      "speed_pixels_per_second": 9
+    },
+    "far_haze": {
+      "roi": [
+        670,
+        350,
+        1672,
+        505
+      ],
+      "polygons": [
+        [
+          [
+            676,
+            375
+          ],
+          [
+            742,
+            372
+          ],
+          [
+            800,
+            382
+          ],
+          [
+            845,
+            395
+          ],
+          [
+            915,
+            403
+          ],
+          [
+            987,
+            413
+          ],
+          [
+            987,
+            430
+          ],
+          [
+            915,
+            434
+          ],
+          [
+            850,
+            423
+          ],
+          [
+            779,
+            410
+          ],
+          [
+            680,
+            405
+          ]
+        ],
+        [
+          [
+            1005,
+            428
+          ],
+          [
+            1160,
+            420
+          ],
+          [
+            1320,
+            424
+          ],
+          [
+            1500,
+            418
+          ],
+          [
+            1669,
+            409
+          ],
+          [
+            1669,
+            499
+          ],
+          [
+            1500,
+            492
+          ],
+          [
+            1310,
+            491
+          ],
+          [
+            1150,
+            478
+          ],
+          [
+            1005,
+            457
+          ]
+        ]
+      ],
+      "blockers": [
+        [
+          [
+            770,
+            426
+          ],
+          [
+            798,
+            401
+          ],
+          [
+            807,
+            378
+          ],
+          [
+            825,
+            371
+          ],
+          [
+            840,
+            398
+          ],
+          [
+            852,
+            413
+          ],
+          [
+            880,
+            427
+          ],
+          [
+            886,
+            441
+          ],
+          [
+            768,
+            440
+          ]
+        ],
+        [
+          [
+            1519,
+            446
+          ],
+          [
+            1541,
+            428
+          ],
+          [
+            1548,
+            416
+          ],
+          [
+            1564,
+            415
+          ],
+          [
+            1581,
+            438
+          ],
+          [
+            1602,
+            451
+          ]
+        ],
+        [
+          [
+            1250,
+            533
+          ],
+          [
+            1261,
+            519
+          ],
+          [
+            1281,
+            516
+          ],
+          [
+            1292,
+            502
+          ],
+          [
+            1310,
+            505
+          ],
+          [
+            1325,
+            500
+          ],
+          [
+            1343,
+            507
+          ],
+          [
+            1366,
+            521
+          ],
+          [
+            1383,
+            540
+          ],
+          [
+            1385,
+            560
+          ],
+          [
+            1250,
+            565
+          ]
+        ],
+        [
+          [
+            1520,
+            482
+          ],
+          [
+            1529,
+            458
+          ],
+          [
+            1541,
+            448
+          ],
+          [
+            1545,
+            422
+          ],
+          [
+            1558,
+            415
+          ],
+          [
+            1573,
+            429
+          ],
+          [
+            1578,
+            448
+          ],
+          [
+            1590,
+            461
+          ],
+          [
+            1610,
+            473
+          ],
+          [
+            1610,
+            490
+          ]
+        ]
+      ],
+      "feather": 7,
+      "color": [
+        192,
+        161,
+        140
+      ],
+      "opacity": 0.38,
+      "wavelength": 190,
+      "mode": "coherent_sheets",
+      "max_opacity": 0.33,
+      "sheets": [
+        {
+          "x": 688,
+          "y": 397,
+          "speed": 11,
+          "width": 76,
+          "height": 9,
+          "slope": 0.1
+        },
+        {
+          "x": 1020,
+          "y": 431,
+          "speed": 17,
+          "width": 95,
+          "height": 8
+        },
+        {
+          "x": 1320,
+          "y": 466,
+          "speed": 21,
+          "width": 115,
+          "height": 11,
+          "slope": -0.02
+        },
+        {
+          "x": 1610,
+          "y": 486,
+          "speed": 21,
+          "width": 100,
+          "height": 8
+        }
+      ]
+    }
+  },
+  "omitted_optional_effects": {
+    "mast_indicator": "Keep lamps and equipment fixed; background wind/cloud activity is the priority"
+  },
+  "motion_prototype_only": true
+}

@@ -1,0 +1,26 @@
+{
+  "tracked_cloud_feature": {
+    "source_box": [
+      850,
+      145,
+      950,
+      180
+    ],
+    "elapsed_seconds": 8,
+    "expected_dx": 72,
+    "measured_dx": 72,
+    "measured_dy": 0,
+    "correlation": 1.0
+  },
+  "protected_pixels_unchanged_at": [
+    0,
+    2,
+    4,
+    6,
+    8
+  ],
+  "moon_patch_unchanged": true,
+  "non_looping_prototype_export_blocked": true,
+  "visual_inspection": "First/last full-composition frames inspected; no continuous playback claimed",
+  "user_approval": false
+}
