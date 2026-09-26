@@ -1,0 +1,56 @@
+{
+  "Night Watch": {
+    "decoded_seconds": 120.0,
+    "stereo_energy_percent": {
+      "0-80 Hz": 80.36,
+      "80-250 Hz": 8.22,
+      "250-1000 Hz": 11.41,
+      "1000-4000 Hz": 0.01,
+      "4000-11025 Hz": 0.0
+    },
+    "rms_dbfs_p10_median_p90": [
+      -16.13,
+      -15.55,
+      -15.22
+    ],
+    "stereo_correlation": 0.717,
+    "energy_centroid_hz": 98.7,
+    "spectral_change_10seconds_L1": 0.578
+  },
+  "Dusk": {
+    "decoded_seconds": 120.0,
+    "stereo_energy_percent": {
+      "0-80 Hz": 1.15,
+      "80-250 Hz": 90.94,
+      "250-1000 Hz": 7.91,
+      "1000-4000 Hz": 0.0,
+      "4000-11025 Hz": 0.0
+    },
+    "rms_dbfs_p10_median_p90": [
+      -15.5,
+      -15.28,
+      -14.75
+    ],
+    "stereo_correlation": 0.961,
+    "energy_centroid_hz": 113.0,
+    "spectral_change_10seconds_L1": 0.445
+  },
+  "Reference": {
+    "decoded_seconds": 120.0,
+    "stereo_energy_percent": {
+      "0-80 Hz": 2.48,
+      "80-250 Hz": 52.45,
+      "250-1000 Hz": 44.11,
+      "1000-4000 Hz": 0.88,
+      "4000-11025 Hz": 0.07
+    },
+    "rms_dbfs_p10_median_p90": [
+      -14.89,
+      -12.3,
+      -9.54
+    ],
+    "stereo_correlation": 0.005,
+    "energy_centroid_hz": 275.7,
+    "spectral_change_10seconds_L1": 0.932
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "duration_seconds": 3600,
+  "sample_rate": 48000,
+  "channels": 2,
+  "mp3_bitrate_kbps": 192,
+  "source_excerpt_seconds": [
+    20,
+    330
+  ],
+  "overlap_seconds": 15,
+  "crossfade": "equal-power sine/cosine",
+  "gain": 0.7,
+  "fade_in_seconds": 10,
+  "fade_out_seconds": 20,
+  "preencode_peak_dbfs": -4.306695734201047,
+  "output_bytes": 86401350,
+  "verified_decoded_seconds": 3600.0,
+  "decoded_sample_peak_dbfs": -4.563028029335802,
+  "full_decode_verified": true
+}

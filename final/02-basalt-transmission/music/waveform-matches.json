@@ -1,0 +1,62 @@
+[
+  {
+    "start": 60,
+    "offset_seconds": 7144.9991455078125,
+    "waveform_correlation": 0.40769602729114196
+  },
+  {
+    "start": 300,
+    "offset_seconds": 7144.906982421875,
+    "waveform_correlation": 0.396199860029321
+  },
+  {
+    "start": 900,
+    "offset_seconds": 7145.060302734375,
+    "waveform_correlation": 0.41945667018800137
+  },
+  {
+    "start": 1800,
+    "offset_seconds": 7145.2130126953125,
+    "waveform_correlation": 0.41485237232268013
+  },
+  {
+    "start": 60,
+    "offset_seconds": 3573.1688232421875,
+    "waveform_correlation": 0.40728948928747327
+  },
+  {
+    "start": 300,
+    "offset_seconds": 3573.0767822265625,
+    "waveform_correlation": 0.3959363126782042
+  },
+  {
+    "start": 900,
+    "offset_seconds": 3573.22998046875,
+    "waveform_correlation": 0.4192175849813117
+  },
+  {
+    "start": 1800,
+    "offset_seconds": 3573.3826904296875,
+    "waveform_correlation": 0.4153613046072823
+  },
+  {
+    "start": 60,
+    "offset_seconds": 3568.864501953125,
+    "waveform_correlation": 0.9813714005654285
+  },
+  {
+    "start": 300,
+    "offset_seconds": 3568.864501953125,
+    "waveform_correlation": 0.9887706068044131
+  },
+  {
+    "start": 900,
+    "offset_seconds": 3568.864501953125,
+    "waveform_correlation": 0.983369133810122
+  },
+  {
+    "start": 1800,
+    "offset_seconds": 3568.864501953125,
+    "waveform_correlation": 0.9894484396229533
+  }
+]

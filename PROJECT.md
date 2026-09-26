@@ -1,6 +1,6 @@
 # Ambient Colony - project context
 
-Last updated: 2026-09-25.
+Last updated: 2026-09-26.
 
 ## Current authority
 
@@ -14,7 +14,7 @@ Ringfall v9b and Basalt v6 remain approved references. AGENTS.md holds working i
 - Repository: https://github.com/BAcommander/colony
 - Workspace: C:/Colony
 - Tagline: Sci-fi soundscapes for sleep, focus and study.
-- Store original artwork, music and animations with their production notes. No music has been produced yet.
+- Store original artwork, music and animations with their production notes. Ringfall has a generated one-hour listening master (long-form evaluation pending); Basalt has a reference analysis and test prompt. See creative/MUSIC_WORKFLOW.md.
 - Quiet remote environments, detailed retro-industrial equipment, warm inhabited shelters against vast landscapes, photorealistic framing and visible but calm movement.
 - Prioritize free local MP4 production from this chat. No paid plugins, cloud video services, API fees or purchased credits.
 
