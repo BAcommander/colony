@@ -49,13 +49,13 @@
     "description_file": "description.txt",
     "description_sha256": "c6024756b170a3bb2149b78f7b10c327ebde42fe17f15463ea2e840154377288",
     "tags_file": "youtube-tags.txt",
-    "tags_sha256": "70014e84f9d78a5f4e2026d11b4f83bfb85ebde01854a96acd89174de1568e26",
-    "tags_count": 19,
-    "tags_characters_including_separators": 346,
-    "tags_characters_including_file_newline": 347,
+    "tags_sha256": "6a84131c13cf38eb77db56c07ea71cfd57fdb511f772e4a454b51e12ad0ff65e",
+    "tags_count": 24,
+    "tags_characters_including_separators": 435,
+    "tags_characters_including_file_newline": 436,
     "tag_limit_exclusive": 500,
     "sign_off": "Welcome to Ambient Colony. Stay a while and listen.",
-    "status": "User-requested descriptions saved; relevance-based search tags prepared",
+    "status": "User-requested descriptions saved; search tags revised 2026-09-26 to carry the listening-intent and genre searches (sleep, focus, study, ambient music) alongside the winter scene tags, matching the Ringfall and Basalt uploads",
     "audio_note": "Silent video masters; update audio-specific metadata once the soundtrack is selected"
   }
 }
