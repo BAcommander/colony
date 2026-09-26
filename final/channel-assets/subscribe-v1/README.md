@@ -32,3 +32,7 @@ python scripts/render_subscribe_banner.py --output final/channel-assets/subscrib
 Rendering protects existing video destinations. `--still-only` exports design samples without a video render. Both delivery formats and the preview share one graphic/timeline. The renderer constructs native text and shapes; no image-generation service or paid API is used.
 
 Encoder reference: [FFmpeg ProRes documentation](https://ffmpeg.org/ffmpeg-codecs.html). Alpha export uses `prores_ks`, profile 4 (4444), `yuva444p10le`, and 16-bit alpha storage. Actual alpha is decoded and tested in the render script; compatibility still depends on the target editor.
+
+## Restoration and backup, 2026-09-26
+
+The missing green MP4 was recreated from the saved renderer and is now explicitly tracked in Git at the user's request to back up the work. See restoration-validation.json for its current checksum; the historical manifest describes the original render. Alpha MOV and composited preview are not currently restored.

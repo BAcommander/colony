@@ -73,3 +73,6 @@ Approved media policy: Basalt's exact 113.7 MB master uses a single-path Git LFS
 
 
 Music workflow (2026-09-26): read creative/MUSIC_WORKFLOW.md before soundtrack work. Ringfall crossfade audition accepted; extended listening pending. Basalt reference analysis and exact prompts are in final/02-basalt-transmission/music/. The user runs ElevenLabs generations with existing credits; do not spend credits automatically. Distinguish signal analysis from listening, and saved files from committed/remote backup.
+
+
+Media storage update (2026-09-26): long finished video/audio exports belong in the Git-ignored exports/ directory. See EXPORTS.md and final/local-export-inventory.json. Keep current exact-path short-master LFS rules. Never claim ignored exports are backed up by a Git push.

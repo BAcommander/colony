@@ -1,0 +1,22 @@
+{
+  "generated": {
+    "frames": 121,
+    "fps": 24,
+    "duration": 5.041666666666667,
+    "adjacent_mae_median": 0.17217302322387695,
+    "adjacent_mae_p95": 0.3160543739795685,
+    "seam_mae": 1.335011601448059,
+    "first_last_exact": false,
+    "max_departure_from_first_mae": 1.877228021621704
+  },
+  "approved": {
+    "frames": 600,
+    "fps": 30,
+    "duration": 20.0,
+    "adjacent_mae_median": 0.017951389774680138,
+    "adjacent_mae_p95": 0.019358793273568153,
+    "seam_mae": 0.017818287014961243,
+    "first_last_exact": false,
+    "max_departure_from_first_mae": 0.47838541865348816
+  }
+}

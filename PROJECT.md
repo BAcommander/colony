@@ -31,3 +31,6 @@ Nine source concepts are saved under creative/concepts, indexed by its README: D
 ## Storage
 
 Source art, code, masks, prompts, configuration, feedback and checks belong in Git. Approved large masters use exact-path LFS tracking with independent remote verification; restore with git lfs pull and compare manifest hashes. Draft/repeated MP4s, .local runtimes and model weights remain local. Preserve approved exports and never overwrite them during experiments.
+
+
+Media storage update (2026-09-26): long finished video/audio exports belong in the Git-ignored exports/ directory. See EXPORTS.md and final/local-export-inventory.json. Keep current exact-path short-master LFS rules. Never claim ignored exports are backed up by a Git push.

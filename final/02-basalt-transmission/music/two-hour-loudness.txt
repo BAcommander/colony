@@ -1,0 +1,36 @@
+Input #0, mp3, from 'G:\AI\youtube\basalt-audio-analysis\Basalt-Transmission-2-Hours.mp3':
+  Metadata:
+    title           : Lunar Observatory Night Watch — One Hour
+    comment         : Listening version: 15-second equal-power crossfades; opening and closing fades.
+    encoder         : Lavf62.12.102
+  Duration: 02:00:00.00, start: 0.023021, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 48000 Hz, stereo, fltp, 192 kb/s, start 0.023021
+    Metadata:
+      encoder         : Lavc62.28
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_f32le (native))
+Press [q] to stop, [?] for help
+Output #0, f32le, to 'pipe:1':
+  Metadata:
+    title           : Lunar Observatory Night Watch — One Hour
+    comment         : Listening version: 15-second equal-power crossfades; opening and closing fades.
+    encoder         : Lavf62.12.102
+  Stream #0:0: Audio: pcm_f32le, 48000 Hz, stereo, flt, 3072 kb/s
+    Metadata:
+      encoder         : Lavc62.28.101 pcm_f32le
+[Parsed_ebur128_0 @ 000001e22c19dac0] Summary:
+
+  Integrated loudness:
+    I:         -17.7 LUFS
+    Threshold: -27.7 LUFS
+
+  Loudness range:
+    LRA:         5.5 LU
+    Threshold: -37.7 LUFS
+    LRA low:   -20.6 LUFS
+    LRA high:  -15.1 LUFS
+
+  True peak:
+    Peak:       -3.9 dBFS
+[out#0/f32le @ 000001e22c19ccc0] video:0KiB audio:2700000KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000000%
+size= 2700000KiB time=02:00:00.00 bitrate=3072.0kbits/s speed= 338x elapsed=0:00:21.28

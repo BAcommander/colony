@@ -1,0 +1,27 @@
+{
+  "duration_seconds": 7200,
+  "sample_rate": 48000,
+  "channels": 2,
+  "mp3_bitrate_kbps": 192,
+  "source_excerpt_seconds": [
+    39,
+    596
+  ],
+  "overlap_seconds": 15,
+  "crossfade": "equal-power sine/cosine",
+  "gain": 1.0473649592661034,
+  "gain_vs_accepted_preview_db": 3.5,
+  "level_adjustment": "0 dB until source 5:45, ramp to -6 dB at 6:15, held afterward",
+  "target_lufs": -17.7,
+  "fade_in_seconds": 10,
+  "fade_out_seconds": 20,
+  "preencode_peak_dbfs": -3.6210358730054986,
+  "output_bytes": 172801350,
+  "verified_decoded_seconds": 7200.0,
+  "decoded_sample_peak_dbfs": -3.880851005249598,
+  "full_decode_verified": true,
+  "integrated_lufs": -17.7,
+  "true_peak_dbtp": -3.9,
+  "sha256": "3337396df49fd4149b910f2a728324f55aebd916e9e647ec56fb26c497c0c97d",
+  "delivery_path": "G:\\AI\\colony\\exports\\02-basalt-transmission\\Basalt-Transmission-2-Hours.mp3"
+}

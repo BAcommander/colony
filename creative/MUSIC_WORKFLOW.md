@@ -6,7 +6,7 @@ Updated 2026-09-26. Current authority for music work; complements the visual ani
 
 Ringfall: user generated music manually in ElevenLabs, selected a direction after short tests, supplied a longer export, and accepted the short crossfade audition with "yeah i couldn't relaly hear any transitions". A one-hour MP3 was made and fully decode-verified. Longer listening evaluation remains pending; do not claim final musical approval or that it is a completed video.
 
-Basalt: first two one-minute Music v2.5 tests received and measured. Basalt Transmission Outpost is midrange-dominant; Copper Dusk Transmission is sub-bass-dominant. User listening preference and approval are pending. See final/02-basalt-transmission/music/test-01/README.md. Do not infer a winner from signal measurements alone.
+Basalt: user slightly preferred Basalt Transmission Outpost, then supplied a ten-minute export titled Copper Dusk Transmission. User could not hear the prepared join and requested two hours for playlist duration variety. Two-hour audio delivered and decode/loudness verified. User listened for eight minutes and reported it was totally fine; short crossfade also accepted. Full two-hour audition has not been claimed. See final/02-basalt-transmission/music/two-hour-delivery.md. Do not infer reference selection from the generated filename.
 
 User uses existing ElevenLabs credits. Quoted rate: 900 credits/minute; verify the UI price before each generation. This workflow does not authorize the assistant to spend credits or upload reference audio automatically. User runs paid generations manually; local analysis and assembly incur no ElevenLabs credits.
 

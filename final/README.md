@@ -23,3 +23,5 @@ After cloning with Git LFS installed, run `git lfs pull`. Video paths use exact 
 ![Basalt Transmission](02-basalt-transmission/thumbnail-v1.jpg)
 
 ![Glacier Sanctuary](03-glacier-sanctuary/thumbnail-v1.jpg)
+
+Long upload videos and soundtrack repeats now live in the ignored `../exports/` folder. See [storage policy](../EXPORTS.md) and [local inventory](local-export-inventory.json). The short tracked masters listed above stay here.

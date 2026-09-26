@@ -1,0 +1,14 @@
+{
+  "file": "G:\\AI\\youtube\\ringfall-audio-analysis\\restored-subscribe\\subscribe-v1-10s-4k-green.mp4",
+  "frames": 300,
+  "seconds": 10,
+  "resolution": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "silent": true,
+  "sha256": "c3b221a52acf159b4e8ec117dc142cd7430d7dde0b30390a776c2f4081f04b75",
+  "bytes": 389422,
+  "renderer": "G:\\AI\\colony\\scripts\\render_subscribe_banner.py"
+}

@@ -1,0 +1,73 @@
+{
+  "inspection": "Selected decoded frames, sampled boundary checks, sampled audio alignment, full packet traversal and full audio loudness; not a full video decode or playback review",
+  "visual_samples_seconds": [
+    4,
+    124,
+    904,
+    1804,
+    3604,
+    7199
+  ],
+  "boundary_checks": [
+    {
+      "time": 20,
+      "decoded_frames": 60,
+      "seam_mae": 0.27763310185185186,
+      "median_adjacent_mae": 0.040225694444444446,
+      "max_adjacent_mae": 0.27763310185185186
+    },
+    {
+      "time": 40,
+      "decoded_frames": 60,
+      "seam_mae": 0.27763310185185186,
+      "median_adjacent_mae": 0.040225694444444446,
+      "max_adjacent_mae": 0.27763310185185186
+    },
+    {
+      "time": 900,
+      "decoded_frames": 60,
+      "seam_mae": 1.7963888888888888,
+      "median_adjacent_mae": 0.05120949074074074,
+      "max_adjacent_mae": 1.7963888888888888
+    },
+    {
+      "time": 1800,
+      "decoded_frames": 60,
+      "seam_mae": 1.7963888888888888,
+      "median_adjacent_mae": 0.05120949074074074,
+      "max_adjacent_mae": 1.7963888888888888
+    },
+    {
+      "time": 3600,
+      "decoded_frames": 60,
+      "seam_mae": 1.7963888888888888,
+      "median_adjacent_mae": 0.05120949074074074,
+      "max_adjacent_mae": 1.7963888888888888
+    },
+    {
+      "time": 7180,
+      "decoded_frames": 60,
+      "seam_mae": 0.27763310185185186,
+      "median_adjacent_mae": 0.040225694444444446,
+      "max_adjacent_mae": 0.27763310185185186
+    }
+  ],
+  "audio_checks": [
+    {
+      "time": 60,
+      "correlation": 0.999452427059838,
+      "level_difference_db": 1.6945824024931109
+    },
+    {
+      "time": 3590,
+      "correlation": 0.998519743080634,
+      "level_difference_db": 1.7039338440739407
+    },
+    {
+      "time": 7190,
+      "correlation": 0.9961379975943361,
+      "level_difference_db": 1.7205066778762856
+    }
+  ],
+  "full_packet_traversal_exit_code": 0
+}

@@ -20,3 +20,12 @@ __pycache__/
 !final/01-ringfall-observatory/video-4k.mp4
 !final/02-basalt-transmission/video-4k.mp4
 !final/03-glacier-sanctuary/video-4k.mp4
+
+# Long deliveries and source-audio backup copies are local, not Git assets.
+/exports/
+# Machine-local files and downloaded external inspiration.
+/.claude/scheduled_tasks.lock
+*.lnk
+/inspiration/
+# Small restored channel overlay: reproducible draft, backed up by request.
+!final/channel-assets/subscribe-v1/subscribe-v1-10s-4k-green.mp4

@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-26",
+  "policy": "Ignored files are not backed up by Git. Paths relative to repository root.",
+  "files": [
+    {
+      "path": "exports/01-ringfall-observatory/ringfall.mp4",
+      "previous_path": "final/01-ringfall-observatory/ringfall.mp4",
+      "bytes": 1084968746,
+      "sha256": "ca2bbfbeab6782e8ff3ec8d1e089f02c6e04e1246868a794d71d3f04b55f27ab",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/01-ringfall-observatory/Lunar-Observatory-Night-Watch-1-Hour.mp3",
+      "previous_path": "final/01-ringfall-observatory/Lunar-Observatory-Night-Watch-1-Hour.mp3",
+      "bytes": 86401350,
+      "sha256": "b7ad2c48f0f58782b12cb4f0e97f5e5a161b68ed413f55fdb87d8d19011d7be5",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/02-basalt-transmission/basalt.mp4",
+      "previous_path": "final/02-basalt-transmission/basalt.mp4",
+      "bytes": 2668815183,
+      "sha256": "8d2fae60e759df2c98077fee65b2f09c1e6badc6ca7fa27b74322a85f1352162",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/02-basalt-transmission/Basalt-Transmission-2-Hours.mp3",
+      "previous_path": "final/02-basalt-transmission/Basalt-Transmission-2-Hours.mp3",
+      "bytes": 172801350,
+      "sha256": "3337396df49fd4149b910f2a728324f55aebd916e9e647ec56fb26c497c0c97d",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/previews/basalt-overlay-transition-check.mp4",
+      "previous_path": "final/02-basalt-transmission/export-review/overlay-transition-check.mp4",
+      "bytes": 1444167,
+      "sha256": "589675ea23beb3b115dcc31c0b059b3bd5f670029e21790035846e092d63d29f",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/previews/Basalt-join-check-75s.mp3",
+      "previous_path": "final/02-basalt-transmission/music/long-test/Basalt-join-check-75s.mp3",
+      "bytes": 1801300,
+      "sha256": "8433d00ce22205403274c76a64e9b63d7cc6144560d43d13f4b338a749f0ecd0",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/01-ringfall-observatory/source/Lunar_Observatory_Night_Watch_2026-09-25T230455.mp4",
+      "source_path": "C:\\Users\\jazzs\\Downloads\\Lunar_Observatory_Night_Watch_2026-09-25T230455.mp4",
+      "bytes": 9007941,
+      "sha256": "053c5998b8a1649d8b7394f216af68387d254e69b08ebd364c766eee8f516824",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/02-basalt-transmission/source/Copper_Dusk_Transmission_2026-09-26T155535.mp4",
+      "source_path": "C:\\Users\\jazzs\\Downloads\\Copper_Dusk_Transmission_2026-09-26T155535.mp4",
+      "bytes": 15241848,
+      "sha256": "6148d95c4fcd44e9ede409ab12f6f4f4e095fb70383b85cc91ac4c63e0d1db9d",
+      "storage": "local ignored; separate backup required"
+    }
+  ]
+}

@@ -9,3 +9,7 @@
 - `manifest.json`: provenance, dimensions and SHA-256 hashes.
 
 Caption: **SIGNAL FROM THE EDGE**. Shared design rules: [THUMBNAIL_STYLE.md](../THUMBNAIL_STYLE.md). Original production history and scripts remain under `creative/` and `scripts/`.
+
+## Long local deliveries
+
+Basalt finished video and long audio now live in `../../exports/02-basalt-transmission/` (Git-ignored). See `../../EXPORTS.md` and `../local-export-inventory.json` for storage and verification. Short `video-4k.mp4` remains the tracked visual loop.

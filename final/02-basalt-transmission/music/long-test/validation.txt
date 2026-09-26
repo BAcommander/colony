@@ -1,0 +1,34 @@
+Input #0, mp3, from 'G:/AI/youtube/basalt-audio-analysis/long-test-balanced/Basalt-three-cycle-preview.mp3':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.102
+  Duration: 00:27:21.00, start: 0.023021, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 48000 Hz, stereo, fltp, 192 kb/s, start 0.023021
+    Metadata:
+      encoder         : Lavc62.28
+[Parsed_volumedetect_0 @ 0000018e7099ce40] n_samples: 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.102
+  Stream #0:0: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      encoder         : Lavc62.28.101 pcm_s16le
+[Parsed_volumedetect_0 @ 0000018e70a1ebc0] n_samples: 157536000
+[Parsed_volumedetect_0 @ 0000018e70a1ebc0] mean_volume: -22.7 dB
+[Parsed_volumedetect_0 @ 0000018e70a1ebc0] max_volume: -7.4 dB
+[Parsed_volumedetect_0 @ 0000018e70a1ebc0] histogram_7db: 155
+[Parsed_volumedetect_0 @ 0000018e70a1ebc0] histogram_8db: 1271
+[Parsed_volumedetect_0 @ 0000018e70a1ebc0] histogram_9db: 6428
+[Parsed_volumedetect_0 @ 0000018e70a1ebc0] histogram_10db: 28735
+[Parsed_volumedetect_0 @ 0000018e70a1ebc0] histogram_11db: 103169
+[Parsed_volumedetect_0 @ 0000018e70a1ebc0] histogram_12db: 278828
+[out#0/null @ 0000018e7099e380] video:0KiB audio:307688KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:27:21.00 bitrate=N/A speed=1.36e+03x elapsed=0:00:01.20
