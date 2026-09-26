@@ -1,0 +1,38 @@
+Input #0, mp3, from 'C:\Users\jazzs\Downloads\YTDown.com_YouTube_Media_G0-ZTBd6jyI_THE-GREAT-PYRAMID-OUTPOST-Dark-Ambient-Music-at-the-Edge-of-Civilization_009_128k.mp3':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6mp41
+    encoder         : Lavf62.3.100
+  Duration: 04:00:00.04, start: 0.025057, bitrate: 164 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 164 kb/s, start 0.025057
+    Metadata:
+      encoder         : Lavc62.11
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6mp41
+    encoder         : Lavf62.12.102
+  Stream #0:0: Audio: pcm_s16le, 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc62.28.101 pcm_s16le
+[Parsed_ebur128_0 @ 0000018c78dce040] Summary:
+
+  Integrated loudness:
+    I:         -18.8 LUFS
+    Threshold: -30.7 LUFS
+
+  Loudness range:
+    LRA:        21.1 LU
+    Threshold: -40.9 LUFS
+    LRA low:   -38.6 LUFS
+    LRA high:  -17.5 LUFS
+
+  True peak:
+    Peak:       -5.4 dBFS
+[out#0/null @ 0000018c78dcd900] video:0KiB audio:10336KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:01:00.00 bitrate=N/A speed= 355x elapsed=0:00:00.16    

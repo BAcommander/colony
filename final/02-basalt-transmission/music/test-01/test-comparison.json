@@ -1,0 +1,56 @@
+{
+  "Basalt Transmission Outpost": {
+    "decoded_seconds": 60.0,
+    "stereo_energy_percent": {
+      "0-80 Hz": 0.0,
+      "80-250 Hz": 12.71,
+      "250-1000 Hz": 86.96,
+      "1000-4000 Hz": 0.32,
+      "4000-11025 Hz": 0.0
+    },
+    "rms_dbfs_p10_median_p90": [
+      -23.39,
+      -19.42,
+      -16.6
+    ],
+    "stereo_correlation": -0.052,
+    "energy_centroid_hz": 332.6,
+    "spectral_change_10seconds_L1": 0.609
+  },
+  "Copper Dusk Transmission": {
+    "decoded_seconds": 60.0,
+    "stereo_energy_percent": {
+      "0-80 Hz": 78.92,
+      "80-250 Hz": 7.17,
+      "250-1000 Hz": 13.46,
+      "1000-4000 Hz": 0.46,
+      "4000-11025 Hz": 0.0
+    },
+    "rms_dbfs_p10_median_p90": [
+      -14.79,
+      -11.89,
+      -10.27
+    ],
+    "stereo_correlation": 0.764,
+    "energy_centroid_hz": 146.7,
+    "spectral_change_10seconds_L1": 1.164
+  },
+  "Reference": {
+    "decoded_seconds": 60.0,
+    "stereo_energy_percent": {
+      "0-80 Hz": 19.12,
+      "80-250 Hz": 37.91,
+      "250-1000 Hz": 40.99,
+      "1000-4000 Hz": 1.98,
+      "4000-11025 Hz": 0.01
+    },
+    "rms_dbfs_p10_median_p90": [
+      -19.91,
+      -18.07,
+      -16.83
+    ],
+    "stereo_correlation": -0.163,
+    "energy_centroid_hz": 273.2,
+    "spectral_change_10seconds_L1": 0.844
+  }
+}

@@ -1,0 +1,31 @@
+[in#0/mp3 @ 00000210e9153fc0] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from 'C:\Users\jazzs\Downloads\Copper_Dusk_Transmission_2026-09-26T152953.mp3':
+  Metadata:
+    encoder         : Lavf60.16.101
+  Duration: 00:01:00.03, start: 0.000000, bitrate: 194 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Stream #0:0: Audio: pcm_s16le, 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc62.28.101 pcm_s16le
+[Parsed_ebur128_0 @ 00000210e910dc80] Summary:
+
+  Integrated loudness:
+    I:         -11.6 LUFS
+    Threshold: -21.9 LUFS
+
+  Loudness range:
+    LRA:         4.3 LU
+    Threshold: -31.8 LUFS
+    LRA low:   -14.2 LUFS
+    LRA high:   -9.9 LUFS
+
+  True peak:
+    Peak:       -0.7 dBFS
+[out#0/null @ 00000210e910d640] video:0KiB audio:10336KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:01:00.00 bitrate=N/A speed= 370x elapsed=0:00:00.16    

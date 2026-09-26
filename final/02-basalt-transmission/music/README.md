@@ -1,6 +1,6 @@
 # Basalt Transmission: soundtrack brief and reference analysis
 
-Prepared 2026-09-26. Status: first prompt ready for user-run ElevenLabs tests; no Basalt soundtrack generated or approved.
+Prepared 2026-09-26. Status: two one-minute tests received; comparison in test-01/README.md. User preference and approval pending; no final Basalt soundtrack yet.
 
 ## Reference and limits
 
