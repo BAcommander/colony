@@ -1,6 +1,6 @@
 # Ambient Colony - photographic location concepts, round 02
 
-Prepared 2026-09-28. The Floodplain Keeper was subsequently generated on this date; see the current 11-floodplain-keeper/concept-v4-offworld.png and its generation record. The earlier v3 room is preserved. Visual review is pending; the remaining nine concepts are ungenerated. The user prefers the clean, realistic appearance of four supplied reference screenshots. The observations below describe their visible qualities; they do not establish whether the originals were photographed, rendered or AI-generated.
+Prepared 2026-09-28. The Floodplain Keeper was subsequently generated on this date; see the current 11-floodplain-keeper/concept-v4-offworld.png and its generation record. The earlier v3 room is preserved. Saltline Receiver is also generated at 12-saltline-receiver/concept-v1.png. Both concepts await visual review; the remaining eight are ungenerated. The user prefers the clean, realistic appearance of four supplied reference screenshots. The observations below describe their visible qualities; they do not establish whether the originals were photographed, rendered or AI-generated.
 
 ## Visual diagnosis
 

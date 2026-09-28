@@ -1,8 +1,10 @@
-# Saltline Receiver - off-world concept prompt
+# Saltline Receiver - generation v1
 
-Prepared 2026-09-28. Executed as concept-v1.png on 2026-09-28; user visual review pending. Reference numbers follow ../photographic-locations-brief.md. Use references 2 as visual references only.
+Generated 2026-09-28 using the built-in image_gen tool. Input reference: chrome_yQu1p9aa4k.png, the user's exterior lookout screenshot, used only for visual scale, construction and atmosphere. Saved output: concept-v1.png. User visual review pending; no animation generated.
 
-## Complete generation prompt
+Visual inspection: three radio dishes, a practical receiver hut, raised utility connections to four distant colony modules, pale salt basin and a broad dawn sky. The output includes a warmer horizon than the cool-dawn emphasis in the prompt; no further edit was made before user review.
+
+## Exact executed prompt
 
 Create one original landscape 16:9 location photograph for Ambient Colony. This is human-built infrastructure serving a small colony on a distant planet. Use the supplied reference images for believable construction, practical equipment and photographic lighting, not their Earth setting or exact layout. Ignore screenshot controls, logos, cursors and borders.
 
@@ -15,7 +17,3 @@ The facility is maintained and quietly occupied, with nobody visible. Design sup
 Preserve natural shadow depth, restrained highlights, subdued screens and distinct matte material responses. Put wear at contact points and weather-exposed edges, leaving broad surfaces quiet. Let distance lose contrast and detail naturally. Keep planetary atmosphere, clouds, water, vegetation and any celestial feature internally consistent. Where a moon is specified, its visibility must agree with cloud cover and exposure.
 
 Mood: solitude, shelter and an ordinary working shift far from Earth. Avoid plastic gloss, exaggerated HDR, excessive sharpening, uniformly etched textures, decorative machinery, tangled wiring, duplicated props, warped furniture, impossible stairs and miniature scale. No spacecraft, holograms, glowing vegetation, giant celestial spectacle, people, titles, branding, watermarks or interface graphics. Output one complete photograph, not a collage.
-
-## Later animation planning (not part of the still prompt)
-
-Distant dust crossing the salt basin; one modest status beacon. Dishes and terrain stay fixed. Approve the still before planning animation.

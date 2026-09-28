@@ -1,0 +1,16 @@
+{
+  "title": "Saltline Receiver",
+  "version": 1,
+  "date": "2026-09-28",
+  "status": "generated concept; user visual review pending",
+  "file": "concept-v1.png",
+  "sha256": "890a434504891db9dfdfe3f0daae84572d1d6a9eb1628e6bb46f046cf3d60d0b",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "method": "Built-in image_gen generation with visual reference",
+  "reference": "chrome_yQu1p9aa4k.png - user exterior lookout screenshot; original stored outside repo",
+  "prompt": "generation-v1.md",
+  "animation_created": false
+}
