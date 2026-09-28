@@ -110,6 +110,12 @@ Natural 50 mm full-frame-equivalent photograph from a neighbouring ridge at a cr
 
 [Complete generation prompt](20-crater-rim-survey/concept-prompt.md). Future motion: Independent far-caldera haze and one localized station exhaust. Preserve the moon, terrain silhouette and all structures.
 
+## Added concept 21 - Nightward Station (planned catalog 10)
+
+Added 2026-09-28 as a prompt-only request, not a replacement for existing concepts. A quiet maintenance/observation alcove in a station serving an off-world colony, looking through a reinforced window across a curved night-side planetary limb and sparse starfield. A small attached station section links the view to inhabited orbital infrastructure. Restrained warm task light and cool planet-reflected light preserve intimate shelter. No people, film props, nebula spectacle or unsupported exterior objects.
+
+[Complete current prompt](21-nightward-station/concept-prompt.md) includes the user's spacecraft screenshot reference role, composition, exposure, colony clues and later motion constraints. No image generated. Native planet-cloud detail and supporting instrument lights are possible later motion; stars and solid geometry stay stable in the proposed short-loop treatment.
+
 ## Review before expanding the batch
 
 The Floodplain interior now exists as off-world v4, with review pending. Test an exterior next when generation is authorized. Inspect their actual construction and foreground at full size before expanding the remaining six. If they look synthetic, fix the concrete cause: shiny floor, malformed desk, excessive edge contrast, implausible supports or uniform weathering. Do not respond by adding more superlatives.

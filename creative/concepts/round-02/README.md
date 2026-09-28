@@ -11,6 +11,7 @@ Read [the shared brief](photographic-locations-brief.md) for reference roles, vi
 | 14 - Icebound Weather Post | [Open](14-icebound-weather-post/concept-prompt.md) |
 | 15 - Rainline Relay (planned catalog 08) | [Open](15-rainline-relay/concept-prompt.md) |
 | 16 - Offshore Night Office (planned catalog 09) | [Open](16-offshore-night-office/concept-prompt.md) |
+| 21 - Nightward Station (planned catalog 10; new orbital concept) | [Open](21-nightward-station/concept-prompt.md) |
 | 17 - The Empty Junction | [Open](17-empty-junction/concept-prompt.md) |
 | 18 - Deepwell Station | [Open](18-deepwell-station/concept-prompt.md) |
 | 19 - Below the Snowline | [Open](19-below-the-snowline/concept-prompt.md) |

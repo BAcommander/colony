@@ -1,0 +1,39 @@
+# 10 - Nightward Station: orbital colony window
+
+Prepared 2026-09-28. Proposed title: Nightward Station. Catalog 10; creative concept 21, a new addition to round 02. This does not overwrite historical creative concept 10 or the existing proposals 17-20. Prompt only: no image, thumbnail or animation generated.
+
+## Reference role
+
+User attachment: C:/Users/john/AppData/Local/Temp/codex-clipboard-41139a5c-5b72-4db9-850f-18f2b6351469.png. Use its intimate enclosed spacecraft framing, cool illumination, practical sidewall hardware and sense of depth beyond a window as mood/construction references only. The reference remains outside the repo and may not survive cleanup of the user's temp directory; the written prompt stands alone. Do not copy the person, helmet, recognizable film props, logo, letterboxing, exact set layout or heavy cyan grading. No reference image is embedded in this document.
+
+## Complete generation prompt
+
+Create one original landscape 16:9 cinematic location photograph for Ambient Colony: Nightward Station, a quiet observation and maintenance alcove aboard the orbital station supporting a human colony on the planet below. The viewer is inside a protected, inhabited structure looking into space. The composition is intimate in the foreground and immense beyond the glass. No people, text or promotional graphics.
+
+Use a stationary camera at a credible seated eye height, with a natural 35-40 mm full-frame-equivalent perspective. A large reinforced observation window dominates the centre and right two-thirds of the image. Its shape is a broad rounded rectangle with a substantial metal surround, recessed seals and a few logical structural ribs. Frame the view with a shallow instrument shelf at lower left and a narrow wall of flush service panels along one side. Keep the exterior substantially unobstructed; this is a small working alcove rather than a huge panoramic bridge or luxury lounge.
+
+The foreground contains one simple bolted observer's seat, a compact dim telemetry display, a secured maintenance notebook and a small closed tool pouch attached to its bracket. Every object has a plausible support or restraint. Protected wiring follows short service channels, access panels have usable latches, and the window frame joins the pressure hull coherently. Leave broad surfaces quiet. Equipment is maintained but used, with slight wear at handles and contact edges, not uniform rust, exposed machinery everywhere or decorative science-fiction greebles. No loose floating items, plants, elaborate furniture, mugs or piles of props.
+
+Beyond the glass, show the sweeping curved limb of an unfamiliar habitable planet across the lower-right part of the view. The globe continues out of frame below and to the right rather than appearing as a small complete ball in the window. Its visible surface occupies approximately the lower third to two-fifths of the exterior view, leaving a broad dark starfield above and left. Show predominantly the night side, with a narrow softly illuminated twilight region and a thin restrained blue atmospheric rim. In that twilight, a few broad cloud formations and indistinct slate-coloured coastlines are visible; no recognizable Earth continents. One or two small irregular clusters of muted amber lights on the dark surface suggest the young colony, sparse and localized rather than an entire planet covered in urban circuitry. Do not let lights shine through opaque clouds. The planet is the world this station serves, not an unrelated decorative backdrop.
+
+Keep space dark with a sparse field of small stars of varied faintness. Most stars should be barely visible at the chosen exposure, especially beside the brighter limb. No bright nebula, glitter field, rainbow galaxy, hyperspace streaks, multiple giant planets or blazing sun. Planet shading, terminator and atmospheric rim must agree with one off-frame light direction. The night side is dark but not a flat featureless cutout.
+
+At the far-left edge of the window, allow a small portion of the station's own exterior to enter the view: a rigid service truss leading to a compact docked habitation module or an attached enclosed transfer corridor, with a few recessed warm windows. Its attachment continues logically beyond the edge of the viewing alcove. Keep this structure secondary and partly cropped, occupying less than one sixth of the exterior view. It establishes that we are within a connected orbital colony, without blocking the planetary curve. No flying spacecraft, fleet, unrelated satellite, rotating wheel filling the frame or impossible unsupported structures.
+
+Light the alcove with restrained cool planet-reflected light and one small warm under-shelf work lamp. The light is modest, not enough to turn the room electric blue. Preserve natural shadow depth, readable foreground forms and gentle highlight roll-off. Screens remain subdued. Brushed metal, matte painted panels, fabric restraints and optical glass have distinct credible responses. Keep window reflections faint and tied to real interior objects, not a second planet or duplicated stars. No condensation, rain streaks, cracks or ornamental scratches across the glass.
+
+Finish this clean scene with its full photographic lighting and depth before any thumbnail lettering: the warm work corner and dark pressure-frame foreground lead to the inhabited station edge, then the vast softly lit planetary limb. The mood is a quiet overnight watch above a distant home, sheltered and a little lonely, with ordinary work continuing in orbit. Preserve the physical credibility of real hardware while making the location unmistakably beyond Earth. Avoid plastic gloss, extreme HDR, excessive sharpening, heavy lens flares, crushed unreadable interiors, uniformly etched materials, tangled wiring, warped supports or miniature scale. No people, identifiable characters, helmets, weapons, holograms, titles, logos, watermark, interface overlays, letterboxing or borders. Output one complete clean landscape photograph, not a collage or movie poster.
+
+## Review before selecting the still
+
+- Does it read immediately as a view from inside an orbital station, with a clearly curved planetary limb and logically attached station structure?
+- Is the alcove intimate and usable, with secured objects and convincing pressure-window geometry?
+- Is the planet dark enough for a few stars to read, without bright stars competing beside a luminous rim? Is the light direction coherent?
+- Are colony surface lights sparse and atmospheric, rather than a circuit pattern? Are land shapes distinct from Earth?
+- Are the small practical lights and restrained cool spill enough to reveal materials without a cyan wash?
+
+## Later motion possibilities - not part of the still generation
+
+Potential principal layer: slow cloud-material movement confined to the planet, preserving the globe silhouette, atmospheric rim and terminator. Supporting layers: a quiet screen trace and a small independent window/light event on the attached station section. Keep stars stable rather than adding atmospheric twinkling in vacuum. Keep camera, planet outline, room, truss and exterior module fixed for a calm short-loop interpretation; this would not claim a physically simulated orbit. No exterior wind, buoyant smoke, drifting dust, spacecraft flybys or moving starfield by default.
+
+If the cloud detail proves too small to animate readably, resolve that in the still or trial a suitable longer cycle; do not compensate with bright flickering lights or camera movement. Do not add a new object just to create motion. After the still is selected, freeze its source hash, remap masks and use the existing local animation workflow. The user requested a prompt before generation, so no media is authorized by this document alone.
