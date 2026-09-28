@@ -54,3 +54,7 @@ Official prompting guidance checked 2026-09-26: https://elevenlabs.io/docs/overv
 ## Prepared scenes 04-07, 2026-09-28
 
 Each final package now has `music/elevenlabs-prompt-v1.txt`, `elevenlabs-long-version.txt`, `README.md` and `generation-record.json`. No tests generated or credits spent. Floodplain uses flowing warm midrange layers; Saltline uses sparse distant musical replies; Cable Station uses suspended airy voices; Icebound balances warm lower mids with soft cold upper textures. These are proposed musical palettes, not analyzed or approved recordings. Preserve independent harmonic movement and avoid the overly fixed, sub-heavy drone of early Ringfall trials. Official Music best-practices checked again on 2026-09-28; follow the actual UI for available settings and cost.
+
+## Prepared scenes 08-10, 2026-09-28
+
+Final packages contain one-minute and longer ElevenLabs prompts, listening criteria and blank generation records. Rainline: warm interweaving voices and gentle musical replies, no radio or rain effects. Offshore: broad unequal harmonic swells and open depth, no periodic pumping or literal surf. Nightward: close warmth and distant suspended voices with soft metallic colour, no telemetry beeps. These are proposals; no audio generated or credits spent. Use the same short-test, selected-reference and local join-review sequence.

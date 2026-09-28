@@ -2,7 +2,7 @@
   "catalog_number": "08",
   "title": "Rainline Relay",
   "date": "2026-09-28",
-  "status": "concept-generated-awaiting-user-review",
+  "status": "artwork selected for packaging; thumbnail pending user review; metadata and music prompts prepared",
   "user_approved": false,
   "generator": "built-in image_gen",
   "source": {
@@ -63,8 +63,76 @@
     "notes": "Corrected the initial double-handle mug to a handleless metal beaker. Alien segmented trees, raised habitat walkway, rain and mist are visible. Some extra shelf objects and ordinary understory remain compared with the brief."
   },
   "video": null,
-  "thumbnail": null,
+  "thumbnail": {
+    "master": "thumbnail-v1.png",
+    "master_sha256": "a9fc87ac7846153d69ee46fecda08a1b53fc62946c8e20425bda2148595fe004",
+    "master_dimensions": [
+      1672,
+      941
+    ],
+    "upload": "thumbnail-v1.jpg",
+    "upload_sha256": "2d00a72ef93eb300e89a8f5ed00bc816d10e707f209c5c2dadb3bbc3f212a609",
+    "upload_dimensions": [
+      1280,
+      720
+    ],
+    "upload_bytes": 331636,
+    "source_art": "artwork-v1.png",
+    "source_art_sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+    "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
+    "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+    "prompt": "thumbnail-prompt-v1.md",
+    "prompt_sha256": "e26dac22a159c188cdc8bc39b36826726c22272e2df132d4312cb66a06878b6a",
+    "method": "Built-in image_gen; FFmpeg Lanczos JPEG export quality 2",
+    "review": "Title and caption spelling, 08 number, series identity and habitats inspected. Forest and desk remain recognizable; generated marketing adaptation. User review pending.",
+    "user_approved": false
+  },
   "audio": null,
   "resolution_note": "Native generated 1672x941; not a 4K master.",
-  "version_note": "Package artwork-v1 is the first packaged concept; its creative source version is identified above."
+  "version_note": "Package artwork-v1 is the first packaged concept; its creative source version is identified above.",
+  "selection": {
+    "date": "2026-09-28",
+    "scope": "User requested thumbnails and publication/music preparation for current 08-10 artworks. Does not approve new thumbnails or audio.",
+    "feedback": "cool lets make thumbnail, tags, descriptions and promots for 08-10 ?"
+  },
+  "caption": "A SIGNAL THROUGH THE RAIN",
+  "youtube_metadata": {
+    "status": "publication drafts; no unverified soundtrack or duration claims",
+    "title_file": "youtube-title.txt",
+    "title_sha256": "28308ffd6ff18b7543d4cbe26d79ee22eb45158ad44ab63ded655b9639abfa8a",
+    "description_file": "description.txt",
+    "description_sha256": "81141b7924b17afe203eb5edfb59fe8b301d9f8551ffa40c9d13ee59ec7105ca",
+    "tags_file": "youtube-tags.txt",
+    "tags_sha256": "a37cb3ab5fb1c44304a5f4f10528fb2e959a07a7d65e9618c02097a1f3c04f93",
+    "tags_characters_including_separators": 288,
+    "tags_characters_including_file_newline": 289,
+    "tags_count": 16,
+    "hashtags_count": 3,
+    "keyword_note": "Scene-relevant phrases, not measured search volume or ranking guarantees"
+  },
+  "music_preparation": {
+    "status": "prompts prepared; no audio generated",
+    "files": [
+      {
+        "path": "music/elevenlabs-long-version.txt",
+        "sha256": "85c239963a07cb2e62fafc483ef04a67ad93a156478816c97080ea56e15033c2"
+      },
+      {
+        "path": "music/elevenlabs-prompt-v1.txt",
+        "sha256": "002e9abeb3cae9a6fe96dde854703353a58560a4e63b09a0c42f4a90c974d683"
+      },
+      {
+        "path": "music/generation-record.json",
+        "sha256": "e432d65a0bb33822ffe0adcd32f59438d2102591fa04498acf8a482210c40c3a"
+      },
+      {
+        "path": "music/README.md",
+        "sha256": "19c860b2afc83646f66d9cc4ca21730b997014688e5954f44d92c2e71784d60d"
+      }
+    ],
+    "planned_test": "60 seconds, two variants; user runs manually after checking actual displayed cost",
+    "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
+    "credits_spent_by_assistant": 0,
+    "workflow": "creative/MUSIC_WORKFLOW.md"
+  }
 }

@@ -1,7 +1,11 @@
 # 10 - Nightward Station
 
-Current candidate: [artwork v3](artwork-v3-close-world-leds.png), awaiting user review. Built-in image generation, native 1672x941. No thumbnail, animation, soundtrack or publication metadata yet.
+Current clean artwork: [artwork-v3-close-world-leds.png](artwork-v3-close-world-leds.png). Selected for packaging by the user. Earlier artwork versions remain preserved. No animation or soundtrack produced yet.
 
-V3 responds to clarified feedback: retain the alien copper/chalk world but bring its horizon closer; keep only the exterior habitat white; restore darker cabin panels and add visible blue indicators and pink undershelf LEDs. The warm work lamp remains. Exact prompt: artwork-edit-v3.md. Source copy: creative/concepts/round-02/21-nightward-station/concept-v3-close-world-leds.png.
+Thumbnail: [upload JPEG](thumbnail-v1.jpg), 1280x720 and below 2 MB; [PNG master](thumbnail-v1.png). Generated with the approved Ringfall identity; thumbnail review pending. Exact prompt: thumbnail-prompt-v1.md. Title and caption spelling, 10 number, close alien horizon, dark cabin and coloured LEDs inspected. Exterior white module repositioned by generation to sit below title; marketing adaptation only.
 
-V1 and V2 images, prompts and manifests remain preserved for comparison. Current source/reference hashes and still-inspection notes are in manifest.json. Generated edits are not pixel-preserved modifications. Freeze the selected source hash and remap masks before animation.
+Publication drafts: [description](description.txt), [comma-separated search tags](youtube-tags.txt), [suggested title](youtube-title.txt). Tag count: 288 characters including commas and spaces. Each description has three relevant hashtags and the shared sign-off. Add actual soundtrack and duration details only when known.
+
+Music: [one-minute test prompt](music/elevenlabs-prompt-v1.txt), [longer-piece prompt](music/elevenlabs-long-version.txt), [manual workflow and listening checks](music/README.md). No audio generated or credits spent here. User runs short tests first, selects one, then a longer piece; local join review follows.
+
+Hashes, reference roles, artwork history and status are recorded in manifest.json. Clean art remains separate from the generated thumbnail composition.

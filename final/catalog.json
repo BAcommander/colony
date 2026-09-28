@@ -79,28 +79,40 @@
   {
     "folder": "08-rainline-relay",
     "title": "Rainline Relay",
-    "status": "concept generated; awaiting user review",
+    "status": "artwork selected for packaging; thumbnail pending review; metadata and music prompts prepared",
     "artwork": "artwork-v1.png",
     "duration_seconds": null,
     "video": null,
-    "thumbnail": null
+    "thumbnail": "thumbnail-v1.jpg",
+    "description": "description.txt",
+    "search_tags": "youtube-tags.txt",
+    "suggested_title": "youtube-title.txt",
+    "music_prompt": "music/elevenlabs-prompt-v1.txt"
   },
   {
     "folder": "09-offshore-night-office",
     "title": "Offshore Night Office",
-    "status": "concept generated; awaiting user review",
+    "status": "artwork selected for packaging; thumbnail pending review; metadata and music prompts prepared",
     "artwork": "artwork-v1.png",
     "duration_seconds": null,
     "video": null,
-    "thumbnail": null
+    "thumbnail": "thumbnail-v1.jpg",
+    "description": "description.txt",
+    "search_tags": "youtube-tags.txt",
+    "suggested_title": "youtube-title.txt",
+    "music_prompt": "music/elevenlabs-prompt-v1.txt"
   },
   {
     "folder": "10-nightward-station",
     "title": "Nightward Station",
-    "status": "v3 corrected concept; awaiting user review",
+    "status": "artwork selected for packaging; thumbnail pending review; metadata and music prompts prepared",
     "artwork": "artwork-v3-close-world-leds.png",
     "duration_seconds": null,
     "video": null,
-    "thumbnail": null
+    "thumbnail": "thumbnail-v1.jpg",
+    "description": "description.txt",
+    "search_tags": "youtube-tags.txt",
+    "suggested_title": "youtube-title.txt",
+    "music_prompt": "music/elevenlabs-prompt-v1.txt"
   }
 ]

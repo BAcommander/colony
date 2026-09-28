@@ -2,7 +2,7 @@
   "catalog_number": "10",
   "title": "Nightward Station",
   "date": "2026-09-28",
-  "status": "v3 corrected concept awaiting user review",
+  "status": "artwork selected for packaging; thumbnail pending user review; metadata and music prompts prepared",
   "user_approved": false,
   "generator": "built-in image_gen",
   "source": {
@@ -76,7 +76,30 @@
     "notes": "Still inspected in chat: closer ochre/chalk planetary horizon crops against right and bottom window edges; dark cabin panels restored; external habitat remains white. Blue upper-frame and panel indicators plus pink undershelf lights are visible. Warm lamp and practical room composition retained. No animation or user acceptance claimed."
   },
   "video": null,
-  "thumbnail": null,
+  "thumbnail": {
+    "master": "thumbnail-v1.png",
+    "master_sha256": "84b4e2fedb09fd967f7d0299069d085311bf621e2536c292f2d8e73ac823249a",
+    "master_dimensions": [
+      1672,
+      941
+    ],
+    "upload": "thumbnail-v1.jpg",
+    "upload_sha256": "c7941bfcd8dd4eb5600940cb39f18339f257d1481a7b3be1e1c85b5dc5bfb70a",
+    "upload_dimensions": [
+      1280,
+      720
+    ],
+    "upload_bytes": 250245,
+    "source_art": "artwork-v3-close-world-leds.png",
+    "source_art_sha256": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+    "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
+    "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+    "prompt": "thumbnail-prompt-v1.md",
+    "prompt_sha256": "8390472f5307add2479550809d86633356e0adc24fda4fc95de2db3f488febca",
+    "method": "Built-in image_gen; FFmpeg Lanczos JPEG export quality 2",
+    "review": "Title and caption spelling, 10 number, close alien horizon, dark cabin and coloured LEDs inspected. Exterior white module repositioned by generation to sit below title; marketing adaptation only. User review pending.",
+    "user_approved": false
+  },
   "audio": null,
   "resolution_note": "Native generated 1672x941; not a 4K master.",
   "version_note": "V1/v2 and their manifests preserved. V3 brings the alien world closer, restores darker interior, retains white exterior and adds LED accents.",
@@ -89,5 +112,50 @@
       941
     ]
   },
-  "user_feedback": "V2 world looks better but is too far away; white applies only to external station. Restore dark interior and add blue or pink LEDs."
+  "user_feedback": "V2 world looks better but is too far away; white applies only to external station. Restore dark interior and add blue or pink LEDs.",
+  "selection": {
+    "date": "2026-09-28",
+    "scope": "User requested thumbnails and publication/music preparation for current 08-10 artworks. Does not approve new thumbnails or audio.",
+    "feedback": "cool lets make thumbnail, tags, descriptions and promots for 08-10 ?"
+  },
+  "caption": "A QUIET WATCH ABOVE HOME",
+  "youtube_metadata": {
+    "status": "publication drafts; no unverified soundtrack or duration claims",
+    "title_file": "youtube-title.txt",
+    "title_sha256": "93365a80e46da1b8ad826d61fd8f01bebdb1a886ec6acd3ce0501bf774457352",
+    "description_file": "description.txt",
+    "description_sha256": "4820af8f17287a6c96cf16e6acc5b05d65944d7a77bdf4dc1c14604cebf08c30",
+    "tags_file": "youtube-tags.txt",
+    "tags_sha256": "aba43fdf81e2e6f684cd95a69a38247e5496ad602dc4b97469571123b9bd0f89",
+    "tags_characters_including_separators": 288,
+    "tags_characters_including_file_newline": 289,
+    "tags_count": 17,
+    "hashtags_count": 3,
+    "keyword_note": "Scene-relevant phrases, not measured search volume or ranking guarantees"
+  },
+  "music_preparation": {
+    "status": "prompts prepared; no audio generated",
+    "files": [
+      {
+        "path": "music/elevenlabs-long-version.txt",
+        "sha256": "1f9a9592cf55d7999576fcd6cde2c1639b6f66331e1afad7b5914ba5741cfae9"
+      },
+      {
+        "path": "music/elevenlabs-prompt-v1.txt",
+        "sha256": "64f41660f35d766adee9024d1cb0c862b2dc1efc74b8fcc4df846613532f5689"
+      },
+      {
+        "path": "music/generation-record.json",
+        "sha256": "e432d65a0bb33822ffe0adcd32f59438d2102591fa04498acf8a482210c40c3a"
+      },
+      {
+        "path": "music/README.md",
+        "sha256": "61315cac0027c3cf254e074a9204450320a8de7ef51e86e4c7e7c521230ef6a6"
+      }
+    ],
+    "planned_test": "60 seconds, two variants; user runs manually after checking actual displayed cost",
+    "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
+    "credits_spent_by_assistant": 0,
+    "workflow": "creative/MUSIC_WORKFLOW.md"
+  }
 }

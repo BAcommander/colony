@@ -1,9 +1,11 @@
 # 08 - Rainline Relay
 
-Generated 2026-09-28; awaiting user review. Clean concept artwork only. No thumbnail, animation, soundtrack or publication metadata prepared for this package yet.
+Current clean artwork: [artwork-v1.png](artwork-v1.png). Selected for packaging by the user. Earlier artwork versions remain preserved. No animation or soundtrack produced yet.
 
-[Artwork](artwork-v1.png) is a byte-identical copy of `creative/concepts/round-02/15-rainline-relay/concept-v2.png`. Native size: 1672x941, approximately 16:9, not 4K. Exact prompts, reference roles and hashes are recorded alongside it.
+Thumbnail: [upload JPEG](thumbnail-v1.jpg), 1280x720 and below 2 MB; [PNG master](thumbnail-v1.png). Generated with the approved Ringfall identity; thumbnail review pending. Exact prompt: thumbnail-prompt-v1.md. Title and caption spelling, 08 number, series identity and habitats inspected. Forest and desk remain recognizable; generated marketing adaptation.
 
-Still inspection: Corrected the initial double-handle mug to a handleless metal beaker. Alien segmented trees, raised habitat walkway, rain and mist are visible. Some extra shelf objects and ordinary understory remain compared with the brief.
+Publication drafts: [description](description.txt), [comma-separated search tags](youtube-tags.txt), [suggested title](youtube-title.txt). Tag count: 288 characters including commas and spaces. Each description has three relevant hashtags and the shared sign-off. Add actual soundtrack and duration details only when known.
 
-Select the composition before animation: freeze the accepted source hash and map scene-specific masks. No animation masks or renderer are supplied by this concept generation.
+Music: [one-minute test prompt](music/elevenlabs-prompt-v1.txt), [longer-piece prompt](music/elevenlabs-long-version.txt), [manual workflow and listening checks](music/README.md). No audio generated or credits spent here. User runs short tests first, selects one, then a longer piece; local join review follows.
+
+Hashes, reference roles, artwork history and status are recorded in manifest.json. Clean art remains separate from the generated thumbnail composition.

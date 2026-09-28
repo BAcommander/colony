@@ -48,3 +48,7 @@ Each scene package contains `video-4k.mp4`, `thumbnail-v1.png`, `thumbnail-v1.jp
 ## Series continuation 06-07, 2026-09-28
 
 User accepted both clean v3 artworks. Thumbnails generated from those plates with Ringfall as direct style reference; new thumbnails pending review. 06: LAST CABLE / STATION, THE WAY HOME, upper-left block with 06 top-right. 07: ICEBOUND / WEATHER POST, KEEPING THE LIGHTS ON, upper-right block with 07 top-left, preserving the small ringed moon beside the title. PNG masters and 1280x720 FFmpeg JPEG exports are saved with prompts and hashes.
+
+## Series continuation 08-10, 2026-09-28
+
+08 RAINLINE / RELAY, A SIGNAL THROUGH THE RAIN; 09 OFFSHORE / NIGHT OFFICE, HOME BEYOND THE SHORE; 10 NIGHTWARD / STATION, A QUIET WATCH ABOVE HOME. All use upper-left title blocks, opposite top-right catalog numbers and Ringfall as direct identity reference. Current clean art supplies the scene; Nightward uses v3 with close alien horizon, dark cabin, white exterior and blue/pink LEDs. Thumbnail review pending. Offshore generation strengthened dusk colour and shifted layout; Nightward shifted the external module below the type. Preserve clean plates separately; these are marketing adaptations.

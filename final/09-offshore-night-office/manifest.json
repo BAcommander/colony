@@ -2,7 +2,7 @@
   "catalog_number": "09",
   "title": "Offshore Night Office",
   "date": "2026-09-28",
-  "status": "concept-generated-awaiting-user-review",
+  "status": "artwork selected for packaging; thumbnail pending user review; metadata and music prompts prepared",
   "user_approved": false,
   "generator": "built-in image_gen",
   "source": {
@@ -57,8 +57,76 @@
     "notes": "Connected platforms, turbines, stepped atolls and twin moons are visible. The sea is choppier than the requested low swells; review the still before selecting a water treatment."
   },
   "video": null,
-  "thumbnail": null,
+  "thumbnail": {
+    "master": "thumbnail-v1.png",
+    "master_sha256": "18879e5779d33bdd5efe57b022ca108914dfbbe00a2a2e14325c3cc399f9ce98",
+    "master_dimensions": [
+      1672,
+      941
+    ],
+    "upload": "thumbnail-v1.jpg",
+    "upload_sha256": "bb445a8501d0a6267db137959b2e87d812cc80e628b0e70cd83b4186e78a3a5c",
+    "upload_dimensions": [
+      1280,
+      720
+    ],
+    "upload_bytes": 293442,
+    "source_art": "artwork-v1.png",
+    "source_art_sha256": "f042d109358089f0e89b11c99a84505fba9a825dca3428ed7109055d29253f69",
+    "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
+    "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+    "prompt": "thumbnail-prompt-v1.md",
+    "prompt_sha256": "d3091a31767ddfc91c73818c2771531ff644718b9de38a6f75848ab04dd8b4a2",
+    "method": "Built-in image_gen; FFmpeg Lanczos JPEG export quality 2",
+    "review": "Title and caption spelling, 09 number, moons and platform connections inspected. Generation strengthened sunset colour and shifted exterior layout; this is a marketing adaptation, not an exact video frame. User review pending.",
+    "user_approved": false
+  },
   "audio": null,
   "resolution_note": "Native generated 1672x941; not a 4K master.",
-  "version_note": "Package artwork-v1 is the first packaged concept; its creative source version is identified above."
+  "version_note": "Package artwork-v1 is the first packaged concept; its creative source version is identified above.",
+  "selection": {
+    "date": "2026-09-28",
+    "scope": "User requested thumbnails and publication/music preparation for current 08-10 artworks. Does not approve new thumbnails or audio.",
+    "feedback": "cool lets make thumbnail, tags, descriptions and promots for 08-10 ?"
+  },
+  "caption": "HOME BEYOND THE SHORE",
+  "youtube_metadata": {
+    "status": "publication drafts; no unverified soundtrack or duration claims",
+    "title_file": "youtube-title.txt",
+    "title_sha256": "8574c5190df09903eb50f8cd981f64264523359b8ce88ddd6d3b2b4843385dad",
+    "description_file": "description.txt",
+    "description_sha256": "f741715004906c7cc5395cf27a544831eb4923ec49f071d825ab5113b7325e8e",
+    "tags_file": "youtube-tags.txt",
+    "tags_sha256": "17e529f9d6cb62cc6162d59f82e67b7af3bdcba3652f7c803fb62679722bc0cd",
+    "tags_characters_including_separators": 289,
+    "tags_characters_including_file_newline": 290,
+    "tags_count": 17,
+    "hashtags_count": 3,
+    "keyword_note": "Scene-relevant phrases, not measured search volume or ranking guarantees"
+  },
+  "music_preparation": {
+    "status": "prompts prepared; no audio generated",
+    "files": [
+      {
+        "path": "music/elevenlabs-long-version.txt",
+        "sha256": "f8995a37458603a1fe11f11f5a4f05614aff82789982123031d60015c43172a4"
+      },
+      {
+        "path": "music/elevenlabs-prompt-v1.txt",
+        "sha256": "658372f907ec7f14f92071f09091a6e567f262b3559c109b6a700ec453aa95d7"
+      },
+      {
+        "path": "music/generation-record.json",
+        "sha256": "e432d65a0bb33822ffe0adcd32f59438d2102591fa04498acf8a482210c40c3a"
+      },
+      {
+        "path": "music/README.md",
+        "sha256": "40f5acd353fc7562ac6756eb7feda83564321b2fb4126aacb2457be5a673e609"
+      }
+    ],
+    "planned_test": "60 seconds, two variants; user runs manually after checking actual displayed cost",
+    "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
+    "credits_spent_by_assistant": 0,
+    "workflow": "creative/MUSIC_WORKFLOW.md"
+  }
 }
