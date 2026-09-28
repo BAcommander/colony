@@ -1,0 +1,64 @@
+{
+  "catalog_number": "09",
+  "title": "Offshore Night Office",
+  "date": "2026-09-28",
+  "status": "concept-generated-awaiting-user-review",
+  "user_approved": false,
+  "generator": "built-in image_gen",
+  "source": {
+    "path": "creative/concepts/round-02/16-offshore-night-office/concept-v1.png",
+    "sha256": "f042d109358089f0e89b11c99a84505fba9a825dca3428ed7109055d29253f69",
+    "bytes": 2037499,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "artwork": {
+    "path": "final/09-offshore-night-office/artwork-v1.png",
+    "sha256": "f042d109358089f0e89b11c99a84505fba9a825dca3428ed7109055d29253f69",
+    "bytes": 2037499,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "prompts": [
+    {
+      "path": "final/09-offshore-night-office/artwork-generation-v1.md",
+      "sha256": "72d4e22170dd0a5019853c4b50dd0e01b2d77d1ef238f458595533174191b253",
+      "bytes": 4878
+    }
+  ],
+  "references": [
+    {
+      "path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-09\\chrome_BjB6OUDipV.png",
+      "sha256": "dbc05775a765972139375f4f43a8160064cc33b5b63d486d9b6bcb771e218bcf",
+      "bytes": 2022176,
+      "dimensions": [
+        1410,
+        807
+      ]
+    },
+    {
+      "path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-09\\chrome_B2h9FZU1sj.png",
+      "sha256": "37bac6f91b2c36c1f38d32969c9f83d2ee950810806f9c8300fe4a07d1137693",
+      "bytes": 1542382,
+      "dimensions": [
+        1402,
+        769
+      ]
+    }
+  ],
+  "reference_role": "External style, mood and credible construction references only; screenshots not included in repository. Written prompts remain portable.",
+  "historical_artwork": [],
+  "visual_inspection": {
+    "method": "generated images inspected as stills in chat",
+    "notes": "Connected platforms, turbines, stepped atolls and twin moons are visible. The sea is choppier than the requested low swells; review the still before selecting a water treatment."
+  },
+  "video": null,
+  "thumbnail": null,
+  "audio": null,
+  "resolution_note": "Native generated 1672x941; not a 4K master.",
+  "version_note": "Package artwork-v1 is the first packaged concept; its creative source version is identified above."
+}

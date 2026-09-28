@@ -1,0 +1,70 @@
+{
+  "catalog_number": "08",
+  "title": "Rainline Relay",
+  "date": "2026-09-28",
+  "status": "concept-generated-awaiting-user-review",
+  "user_approved": false,
+  "generator": "built-in image_gen",
+  "source": {
+    "path": "creative/concepts/round-02/15-rainline-relay/concept-v2.png",
+    "sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+    "bytes": 2430678,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "artwork": {
+    "path": "final/08-rainline-relay/artwork-v1.png",
+    "sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+    "bytes": 2430678,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "prompts": [
+    {
+      "path": "final/08-rainline-relay/artwork-beaker-correction.md",
+      "sha256": "14b14277c7e362ec55959018553ab444f7f73e4385af78fdafa0f4ae943b3900",
+      "bytes": 722
+    },
+    {
+      "path": "final/08-rainline-relay/artwork-generation-v1.md",
+      "sha256": "cc110d8dd4203fa1c16eeff43ca57aa81b3b0850f38c589f5aefa7cac8d44298",
+      "bytes": 4183
+    }
+  ],
+  "references": [
+    {
+      "path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-09\\chrome_B2h9FZU1sj.png",
+      "sha256": "37bac6f91b2c36c1f38d32969c9f83d2ee950810806f9c8300fe4a07d1137693",
+      "bytes": 1542382,
+      "dimensions": [
+        1402,
+        769
+      ]
+    }
+  ],
+  "reference_role": "External style, mood and credible construction references only; screenshots not included in repository. Written prompts remain portable.",
+  "historical_artwork": [
+    {
+      "path": "creative/concepts/round-02/15-rainline-relay/concept-v1.png",
+      "sha256": "9ae78da296d0ea57480051f8164bd581f5ab6b80567a067a1e74e8a184eb5f26",
+      "bytes": 2601432,
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "visual_inspection": {
+    "method": "generated images inspected as stills in chat",
+    "notes": "Corrected the initial double-handle mug to a handleless metal beaker. Alien segmented trees, raised habitat walkway, rain and mist are visible. Some extra shelf objects and ordinary understory remain compared with the brief."
+  },
+  "video": null,
+  "thumbnail": null,
+  "audio": null,
+  "resolution_note": "Native generated 1672x941; not a 4K master.",
+  "version_note": "Package artwork-v1 is the first packaged concept; its creative source version is identified above."
+}

@@ -1,0 +1,55 @@
+{
+  "catalog_number": "10",
+  "title": "Nightward Station",
+  "date": "2026-09-28",
+  "status": "concept-generated-awaiting-user-review",
+  "user_approved": false,
+  "generator": "built-in image_gen",
+  "source": {
+    "path": "creative/concepts/round-02/21-nightward-station/concept-v1.png",
+    "sha256": "d0113c74265ea6c347ca7f57739dd82e24a7f85feae967297d7f0da4229b8a08",
+    "bytes": 1866967,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "artwork": {
+    "path": "final/10-nightward-station/artwork-v1.png",
+    "sha256": "d0113c74265ea6c347ca7f57739dd82e24a7f85feae967297d7f0da4229b8a08",
+    "bytes": 1866967,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "prompts": [
+    {
+      "path": "final/10-nightward-station/artwork-generation-v1.md",
+      "sha256": "0eb5d0d3944cca77db0da75ddcbab00576347cec98127cb3ff45b78728b978b6",
+      "bytes": 5560
+    }
+  ],
+  "references": [
+    {
+      "path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-41139a5c-5b72-4db9-850f-18f2b6351469.png",
+      "sha256": "49b1db5a8aaf446891f4d70c802f2bcb99cf7c260dc08389817dcee992007c97",
+      "bytes": 372420,
+      "dimensions": [
+        640,
+        480
+      ]
+    }
+  ],
+  "reference_role": "External style, mood and credible construction references only; screenshots not included in repository. Written prompts remain portable.",
+  "historical_artwork": [],
+  "visual_inspection": {
+    "method": "generated images inspected as stills in chat",
+    "notes": "Orbital alcove, attached station structure and curved planetary horizon are visible. Stars are more numerous and surface detail more visible than the restrained brief. No person or reference branding is present."
+  },
+  "video": null,
+  "thumbnail": null,
+  "audio": null,
+  "resolution_note": "Native generated 1672x941; not a 4K master.",
+  "version_note": "Package artwork-v1 is the first packaged concept; its creative source version is identified above."
+}

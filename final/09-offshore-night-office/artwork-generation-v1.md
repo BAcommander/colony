@@ -1,12 +1,6 @@
-# 09 - Offshore Night Office: ocean-world colony
+# Exact executed image-generation prompt
 
-Revised 2026-09-28, prompt v2. Catalog 09; creative concept 16. Generated 2026-09-28; current concept: concept-v1.png, awaiting user review. Previous wording is preserved in concept-prompt-v1.md. This file supersedes the earlier Offshore block in the shared brief.
-
-## Reference roles
-
-Use the panoramic control-room and sunset communications-desk screenshots (references 1 and 4 in ../photographic-locations-brief.md) for practical construction, recognizable equipment and photographic light only. Do not copy their mountains, exact layout, clutter or Earth setting. Ignore screenshot UI, cursors and logos. This prompt also works without those references.
-
-## Complete generation prompt
+Reference images 1 and 2 are visual references for credible room construction, ordinary equipment, photographic materials and restrained light ONLY. Do not copy their mountains, layouts, sunset or Earth setting. Ignore screenshot UI, cursor, logos and borders. Invent a new original scene following the saved prompt below.
 
 Create one original landscape 16:9 location photograph for Ambient Colony: Offshore Night Office, the maintenance room of an inhabited marine-energy district on a distant ocean planet. This world has a substantial atmosphere, cool liquid seas and a mostly drowned volcanic shelf. Show useful infrastructure visibly connected to human homes adapted to that world. No text or graphics.
 
@@ -23,9 +17,3 @@ Cloudy dusk has a restrained ash-violet upper sky and a thin pale silver-green c
 Finish the clean artwork with inviting photographic depth: a warm dry bench in the foreground, readable connected habitats over cool water, quieter turbines and atolls farther away. Diffuse skylight and one warm work light explain the exposure. Preserve natural shadows, bounded window highlights, matte weatherproof coatings, faint glass reflections and restrained metal sheen. Sea-weather staining belongs at splash zones and exposed seams, not uniformly on every panel. Maintain coherent exterior geography and water level across the panes, plus clear structure boundaries and open water/sky regions for later animation.
 
 The mood is the quiet night shift keeping an ocean colony supplied with power: far from Earth but connected to neighbours. No people, creatures, spacecraft, holograms, glowing oceans, neon colour, oversized celestial spectacle, excessive clutter, warped supports, miniature scale, plastic gloss, extreme HDR, sharpening halos, lettering, branding, watermark, UI or border. Output one complete clean cinematic photograph, not a collage or poster.
-
-## Still review and later motion
-
-The ocean, low atolls, atmosphere and small moons must feel coherent rather than a generic Earth oil rig with a planet added. Trace bridges between doors and check platform foundations and waterline. Habitats remain the exterior focal point. Confirm plausible moon illumination and restrained water reflections.
-
-Future motion candidates: slow broad water reflections and independent far-horizon haze, with one screen trace and separate habitat-light transitions. Rotor motion is optional and needs correct hub/blade masks if later requested. Freeze structures, atolls, horizon and moons; remove celestial bodies from sampled moving textures as well as output masks. No camera drift or giant waves. Approve the still and freeze its hash before motion mapping. A still was subsequently generated on user request; see generation-manifest.json. No thumbnail or animation generated.

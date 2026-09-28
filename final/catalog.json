@@ -75,5 +75,32 @@
     "search_tags": "youtube-tags.txt",
     "suggested_title": "youtube-title.txt",
     "music_prompt": "music/elevenlabs-prompt-v1.txt"
+  },
+  {
+    "folder": "08-rainline-relay",
+    "title": "Rainline Relay",
+    "status": "concept generated; awaiting user review",
+    "artwork": "artwork-v1.png",
+    "duration_seconds": null,
+    "video": null,
+    "thumbnail": null
+  },
+  {
+    "folder": "09-offshore-night-office",
+    "title": "Offshore Night Office",
+    "status": "concept generated; awaiting user review",
+    "artwork": "artwork-v1.png",
+    "duration_seconds": null,
+    "video": null,
+    "thumbnail": null
+  },
+  {
+    "folder": "10-nightward-station",
+    "title": "Nightward Station",
+    "status": "concept generated; awaiting user review",
+    "artwork": "artwork-v1.png",
+    "duration_seconds": null,
+    "video": null,
+    "thumbnail": null
   }
 ]

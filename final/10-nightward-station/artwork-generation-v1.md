@@ -1,12 +1,6 @@
-# 10 - Nightward Station: orbital colony window
+# Exact executed image-generation prompt
 
-Prepared 2026-09-28. Proposed title: Nightward Station. Catalog 10; creative concept 21, a new addition to round 02. This does not overwrite historical creative concept 10 or the existing proposals 17-20. Generated 2026-09-28; current concept: concept-v1.png, awaiting user review. No thumbnail or animation generated.
-
-## Reference role
-
-User attachment: C:/Users/john/AppData/Local/Temp/codex-clipboard-41139a5c-5b72-4db9-850f-18f2b6351469.png. Use its intimate enclosed spacecraft framing, cool illumination, practical sidewall hardware and sense of depth beyond a window as mood/construction references only. The reference remains outside the repo and may not survive cleanup of the user's temp directory; the written prompt stands alone. Do not copy the person, helmet, recognizable film props, logo, letterboxing, exact set layout or heavy cyan grading. No reference image is embedded in this document.
-
-## Complete generation prompt
+The supplied reference image is a MOOD AND ENCLOSURE REFERENCE ONLY: intimate practical spacecraft framing, cool illumination, believable sidewall hardware and depth beyond a window. Create a different original location. Do not include or reproduce the person, helmet, identifiable film props, exact set, logo, black letterboxing or heavy cyan grade. Follow the saved clean-scene prompt below.
 
 Create one original landscape 16:9 cinematic location photograph for Ambient Colony: Nightward Station, a quiet observation and maintenance alcove aboard the orbital station supporting a human colony on the planet below. The viewer is inside a protected, inhabited structure looking into space. The composition is intimate in the foreground and immense beyond the glass. No people, text or promotional graphics.
 
@@ -23,17 +17,3 @@ At the far-left edge of the window, allow a small portion of the station's own e
 Light the alcove with restrained cool planet-reflected light and one small warm under-shelf work lamp. The light is modest, not enough to turn the room electric blue. Preserve natural shadow depth, readable foreground forms and gentle highlight roll-off. Screens remain subdued. Brushed metal, matte painted panels, fabric restraints and optical glass have distinct credible responses. Keep window reflections faint and tied to real interior objects, not a second planet or duplicated stars. No condensation, rain streaks, cracks or ornamental scratches across the glass.
 
 Finish this clean scene with its full photographic lighting and depth before any thumbnail lettering: the warm work corner and dark pressure-frame foreground lead to the inhabited station edge, then the vast softly lit planetary limb. The mood is a quiet overnight watch above a distant home, sheltered and a little lonely, with ordinary work continuing in orbit. Preserve the physical credibility of real hardware while making the location unmistakably beyond Earth. Avoid plastic gloss, extreme HDR, excessive sharpening, heavy lens flares, crushed unreadable interiors, uniformly etched materials, tangled wiring, warped supports or miniature scale. No people, identifiable characters, helmets, weapons, holograms, titles, logos, watermark, interface overlays, letterboxing or borders. Output one complete clean landscape photograph, not a collage or movie poster.
-
-## Review before selecting the still
-
-- Does it read immediately as a view from inside an orbital station, with a clearly curved planetary limb and logically attached station structure?
-- Is the alcove intimate and usable, with secured objects and convincing pressure-window geometry?
-- Is the planet dark enough for a few stars to read, without bright stars competing beside a luminous rim? Is the light direction coherent?
-- Are colony surface lights sparse and atmospheric, rather than a circuit pattern? Are land shapes distinct from Earth?
-- Are the small practical lights and restrained cool spill enough to reveal materials without a cyan wash?
-
-## Later motion possibilities - not part of the still generation
-
-Potential principal layer: slow cloud-material movement confined to the planet, preserving the globe silhouette, atmospheric rim and terminator. Supporting layers: a quiet screen trace and a small independent window/light event on the attached station section. Keep stars stable rather than adding atmospheric twinkling in vacuum. Keep camera, planet outline, room, truss and exterior module fixed for a calm short-loop interpretation; this would not claim a physically simulated orbit. No exterior wind, buoyant smoke, drifting dust, spacecraft flybys or moving starfield by default.
-
-If the cloud detail proves too small to animate readably, resolve that in the still or trial a suitable longer cycle; do not compensate with bright flickering lights or camera movement. Do not add a new object just to create motion. After the still is selected, freeze its source hash, remap masks and use the existing local animation workflow. The user requested a prompt before generation, so no media is authorized by this document alone.

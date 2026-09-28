@@ -1,6 +1,6 @@
 # Ambient Colony - photographic location concepts, round 02
 
-Prepared 2026-09-28. The Floodplain Keeper was subsequently generated on this date; see the current 11-floodplain-keeper/concept-v4-offworld.png and its generation record. The earlier v3 room is preserved. Saltline Receiver current candidate is 12-saltline-receiver/concept-v3-martian-structures.png: red-world geology plus insulated colony architecture, following feedback that v1 resembled Basalt and the buildings needed more off-world character. Current delivery status is recorded in round-02/README.md and final/catalog.json. Floodplain and Saltline have packages 04/05 with newer clean animation-art candidates. The Last Cable Station and Icebound Weather Post have final v3 mineral-refinement edits as catalog 06/07, with subsequent user review not yet recorded; concepts 15-20 remain ungenerated. The user prefers the clean, realistic appearance of four supplied reference screenshots. The observations below describe their visible qualities; they do not establish whether the originals were photographed, rendered or AI-generated.
+Prepared 2026-09-28. The Floodplain Keeper was subsequently generated on this date; see the current 11-floodplain-keeper/concept-v4-offworld.png and its generation record. The earlier v3 room is preserved. Saltline Receiver current candidate is 12-saltline-receiver/concept-v3-martian-structures.png: red-world geology plus insulated colony architecture, following feedback that v1 resembled Basalt and the buildings needed more off-world character. Current delivery status is recorded in round-02/README.md and final/catalog.json. Floodplain and Saltline have packages 04/05 with newer clean animation-art candidates. The Last Cable Station and Icebound Weather Post have final v3 mineral-refinement edits as catalog 06/07, accepted by the user; concepts 15/16/21 are now generated pending review and concepts 17-20 remain ungenerated. The user prefers the clean, realistic appearance of four supplied reference screenshots. The observations below describe their visible qualities; they do not establish whether the originals were photographed, rendered or AI-generated.
 
 ## Visual diagnosis
 
@@ -70,15 +70,15 @@ Natural 50 mm full-frame-equivalent view from a nearby service platform. Dominan
 
 [Complete generation prompt](14-icebound-weather-post/concept-prompt.md). Future motion: Snow beyond the foreground, distant low haze and localized heater exhaust. No shifting ice geometry.
 
-### 15 - Rainline Relay (planned catalog 08)
+### 15 - Rainline Relay (catalog 08)
 
-Prompt v2, revised 2026-09-28; not generated. A raised radio hut in a flooded native woodland whose fluted, jointed stems support opposing fans of thick muted blue-green ribbon leaves, with smoky-plum undersides and buttress roots. The same botanical form repeats naturally through separate mist layers. A supported walkway and protected utilities link two sealed research habitats above the flood level. Warm human shelter contrasts with cool rain; no visible moon is needed to establish the off-world identity.
+Prompt v2, revised and subsequently generated 2026-09-28; awaiting user review. A raised radio hut in a flooded native woodland whose fluted, jointed stems support opposing fans of thick muted blue-green ribbon leaves, with smoky-plum undersides and buttress roots. The same botanical form repeats naturally through separate mist layers. A supported walkway and protected utilities link two sealed research habitats above the flood level. Warm human shelter contrasts with cool rain; no visible moon is needed to establish the off-world identity.
 
 The [complete current prompt](15-rainline-relay/concept-prompt.md) is authoritative, including reference roles, lighting, construction checks and future motion options. The old prompt is archived beside it. Future motion candidates: exterior rain and independently drifting woodland mist, with rigid structural and primary botanical silhouettes.
 
-### 16 - Offshore Night Office (planned catalog 09)
+### 16 - Offshore Night Office (catalog 09)
 
-Prompt v2, revised 2026-09-28; not generated. A practical maintenance office looks over exactly three connected inhabited modules on fixed caisson-supported platforms along a shallow submerged shelf. Two modest offshore wind turbines sit beyond the homes. Petrol-blue/mineral-green water, low eroded ash-grey volcanic atolls and an ash-violet dusk with a thin silver-green clearing distinguish the ocean planet. Two small low-contrast moons have coherent illumination; they remain secondary. Bridges join real doorways and protected service lines explain the colony's functioning infrastructure.
+Prompt v2, revised and subsequently generated 2026-09-28; awaiting user review. A practical maintenance office looks over exactly three connected inhabited modules on fixed caisson-supported platforms along a shallow submerged shelf. Two modest offshore wind turbines sit beyond the homes. Petrol-blue/mineral-green water, low eroded ash-grey volcanic atolls and an ash-violet dusk with a thin silver-green clearing distinguish the ocean planet. Two small low-contrast moons have coherent illumination; they remain secondary. Bridges join real doorways and protected service lines explain the colony's functioning infrastructure.
 
 The [complete current prompt](16-offshore-night-office/concept-prompt.md) is authoritative, including support/bridge logic, reference roles, light and future motion options. The old prompt is archived beside it. Future motion candidates: restrained water reflections and independent far-horizon haze. Keep moon silhouettes fixed and out of moving source textures.
 
@@ -110,11 +110,11 @@ Natural 50 mm full-frame-equivalent photograph from a neighbouring ridge at a cr
 
 [Complete generation prompt](20-crater-rim-survey/concept-prompt.md). Future motion: Independent far-caldera haze and one localized station exhaust. Preserve the moon, terrain silhouette and all structures.
 
-## Added concept 21 - Nightward Station (planned catalog 10)
+## Added concept 21 - Nightward Station (catalog 10)
 
 Added 2026-09-28 as a prompt-only request, not a replacement for existing concepts. A quiet maintenance/observation alcove in a station serving an off-world colony, looking through a reinforced window across a curved night-side planetary limb and sparse starfield. A small attached station section links the view to inhabited orbital infrastructure. Restrained warm task light and cool planet-reflected light preserve intimate shelter. No people, film props, nebula spectacle or unsupported exterior objects.
 
-[Complete current prompt](21-nightward-station/concept-prompt.md) includes the user's spacecraft screenshot reference role, composition, exposure, colony clues and later motion constraints. No image generated. Native planet-cloud detail and supporting instrument lights are possible later motion; stars and solid geometry stay stable in the proposed short-loop treatment.
+[Complete current prompt](21-nightward-station/concept-prompt.md) includes the user's spacecraft screenshot reference role, composition, exposure, colony clues and later motion constraints. Concept v1 generated on subsequent user request; awaiting review. Native planet-cloud detail and supporting instrument lights are possible later motion; stars and solid geometry stay stable in the proposed short-loop treatment.
 
 ## Review before expanding the batch
 

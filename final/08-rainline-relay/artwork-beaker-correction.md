@@ -1,0 +1,3 @@
+# Exact executed image-generation prompt
+
+Make one precise object correction to this Rainline Relay image. The small metal mug on the desk beside the display appears to have two handles. Replace ONLY this mug with a simple handleless matte brushed-metal cylindrical beaker of the same size, position and lighting, with a clean elliptical rim. Absolutely no handles on either side. Preserve all other scene content: camera framing, desk, radio, chair, notebook, warm lamp, windows, rain, alien trees and roots, raised walkway, two colony habitats, water and mist. Do not add objects or change lighting or geometry elsewhere. Keep landscape 16:9. No text, logos, borders or watermark. Output the corrected clean photograph.
