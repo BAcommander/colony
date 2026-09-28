@@ -2,22 +2,22 @@
   "catalog_number": "10",
   "title": "Nightward Station",
   "date": "2026-09-28",
-  "status": "v2 revised concept awaiting user review",
+  "status": "v3 corrected concept awaiting user review",
   "user_approved": false,
   "generator": "built-in image_gen",
   "source": {
-    "path": "creative/concepts/round-02/21-nightward-station/concept-v2-distant-world.png",
-    "sha256": "4c621703c1207819fd7763f57456c07ab8f9c2f80690fe87927bddaac8379549",
-    "bytes": 1909846,
+    "path": "creative/concepts/round-02/21-nightward-station/concept-v3-close-world-leds.png",
+    "sha256": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+    "bytes": 1948580,
     "dimensions": [
       1672,
       941
     ]
   },
   "artwork": {
-    "path": "final/10-nightward-station/artwork-v2-distant-world.png",
-    "sha256": "4c621703c1207819fd7763f57456c07ab8f9c2f80690fe87927bddaac8379549",
-    "bytes": 1909846,
+    "path": "final/10-nightward-station/artwork-v3-close-world-leds.png",
+    "sha256": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+    "bytes": 1948580,
     "dimensions": [
       1672,
       941
@@ -25,12 +25,21 @@
   },
   "prompts": [
     {
-      "path": "final/10-nightward-station/artwork-edit-v2.md",
-      "sha256": "da265b20afc40370363617e1f6014a11b03864149be9307f50f69e0076d60bbe",
-      "bytes": 3126
+      "path": "final/10-nightward-station/artwork-edit-v3.md",
+      "sha256": "f071956664a0b81823bc66b33bd9761ccb842fe55608a5ea3aab5665a4c2804b",
+      "bytes": 3318
     }
   ],
   "references": [
+    {
+      "path": "final/10-nightward-station/artwork-v2-distant-world.png",
+      "sha256": "4c621703c1207819fd7763f57456c07ab8f9c2f80690fe87927bddaac8379549",
+      "bytes": 1909846,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
     {
       "path": "final/10-nightward-station/artwork-v1.png",
       "sha256": "d0113c74265ea6c347ca7f57739dd82e24a7f85feae967297d7f0da4229b8a08",
@@ -41,7 +50,7 @@
       ]
     }
   ],
-  "reference_role": "V1 artwork is the sole edit target; original generation provenance retained in manifest-v1.json.",
+  "reference_role": "V2 is primary edit target and alien planet reference; v1 guides darker interior materials only.",
   "historical_artwork": [
     {
       "path": "final/10-nightward-station/artwork-v1.png",
@@ -51,25 +60,34 @@
         1672,
         941
       ]
+    },
+    {
+      "path": "final/10-nightward-station/artwork-v2-distant-world.png",
+      "sha256": "4c621703c1207819fd7763f57456c07ab8f9c2f80690fe87927bddaac8379549",
+      "bytes": 1909846,
+      "dimensions": [
+        1672,
+        941
+      ]
     }
   ],
   "visual_inspection": {
     "method": "generated images inspected as stills in chat",
-    "notes": "Full smaller ochre/chalk planet is visible with black space below its silhouette. Station wall panels and exterior module are visibly off-white. Workstation, charcoal seat and warm practical light remain recognizable. Stars remain fairly numerous. Still visually inspected, no animation or user acceptance claimed."
+    "notes": "Still inspected in chat: closer ochre/chalk planetary horizon crops against right and bottom window edges; dark cabin panels restored; external habitat remains white. Blue upper-frame and panel indicators plus pink undershelf lights are visible. Warm lamp and practical room composition retained. No animation or user acceptance claimed."
   },
   "video": null,
   "thumbnail": null,
   "audio": null,
   "resolution_note": "Native generated 1672x941; not a 4K master.",
-  "version_note": "V1 preserved; v2 implements user feedback for a less Earth-like, more distant planet and whiter station.",
+  "version_note": "V1/v2 and their manifests preserved. V3 brings the alien world closer, restores darker interior, retains white exterior and adds LED accents.",
   "edit_target": {
-    "path": "final/10-nightward-station/artwork-v1.png",
-    "sha256": "d0113c74265ea6c347ca7f57739dd82e24a7f85feae967297d7f0da4229b8a08",
-    "bytes": 1866967,
+    "path": "final/10-nightward-station/artwork-v2-distant-world.png",
+    "sha256": "4c621703c1207819fd7763f57456c07ab8f9c2f80690fe87927bddaac8379549",
+    "bytes": 1909846,
     "dimensions": [
       1672,
       941
     ]
   },
-  "user_feedback": "could the planet in 10 maybe look less earth like, and could we be further away from it. could the space station be more white?"
+  "user_feedback": "V2 world looks better but is too far away; white applies only to external station. Restore dark interior and add blue or pink LEDs."
 }

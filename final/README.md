@@ -19,7 +19,7 @@ Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subs
 | [07 - Icebound Weather Post](07-icebound-weather-post/) | [Final edit v3](07-icebound-weather-post/artwork-v3-final.png); no video yet | [JPEG](07-icebound-weather-post/thumbnail-v1.jpg) |
 | [08 - Rainline Relay](08-rainline-relay/) | [Concept pending review](08-rainline-relay/artwork-v1.png); no video yet | Not generated |
 | [09 - Offshore Night Office](09-offshore-night-office/) | [Concept pending review](09-offshore-night-office/artwork-v1.png); no video yet | Not generated |
-| [10 - Nightward Station](10-nightward-station/) | [Concept pending review](10-nightward-station/artwork-v2-distant-world.png); no video yet | Not generated |
+| [10 - Nightward Station](10-nightward-station/) | [Concept pending review](10-nightward-station/artwork-v3-close-world-leds.png); no video yet | Not generated |
 
 All videos are 3840x2160, 30 fps, silent, with upscaled source artwork. These are approved loop masters, not completed long-form music uploads. The video files are byte-identical copies of their original approved production exports; original paths remain available.
 

@@ -124,4 +124,4 @@ At thumbnail size the image should have one recognizable subject and calm depth.
 
 For later animation, select two or three geographically separated, plausible motion regions with clear masks. Do not include artificial motion streaks or a giant plume just to make animation easier. First approve the still; then use the established local compositing workflow. A detailed prompt cannot guarantee a one-shot result or prove that an image is realistic.
 
-Nightward Station current revision: v2 supersedes the close planetary limb described above following user feedback. See 21-nightward-station/generation-v2-distant-world.md: smaller complete ochre/chalk planet, more surrounding space, off-white station panels. Generated candidate awaiting review; v1 preserved.
+Nightward Station current revision: v3 brings the alien copper/chalk planet closer again, restores dark interior panels, keeps only the exterior station white, and adds blue/pink interior LEDs. See 21-nightward-station/generation-v3-close-world-leds.md and concept-v3-close-world-leds.png. User clarified v2 was too distant and the white cabin was unintended; v1/v2 remain historical. V3 awaits review.

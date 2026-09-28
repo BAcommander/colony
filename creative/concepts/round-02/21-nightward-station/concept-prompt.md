@@ -1,8 +1,8 @@
 # 10 - Nightward Station: orbital colony window
 
-Prepared 2026-09-28. Proposed title: Nightward Station. Catalog 10; creative concept 21, a new addition to round 02. This does not overwrite historical creative concept 10 or the existing proposals 17-20. Generated 2026-09-28; current concept: concept-v2-distant-world.png, awaiting user review. No thumbnail or animation generated.
+Prepared 2026-09-28. Proposed title: Nightward Station. Catalog 10; creative concept 21, a new addition to round 02. This does not overwrite historical creative concept 10 or the existing proposals 17-20. Generated 2026-09-28; current concept: concept-v3-close-world-leds.png, awaiting user review. No thumbnail or animation generated.
 
-Current direction: user requested a less Earth-like, more distant planet and whiter station. Use generation-v2-distant-world.md with concept-v1.png as its edit target. V2 is a complete smaller ochre/chalk world surrounded by dark space; white station panels retain warm practical lighting. Original v1 prompt below is preserved as history and must not override this revision.
+Current direction (v3, supersedes v2): user likes the alien ochre/chalk planet but wants it closer. White applies ONLY to the external habitat. Restore the darker interior and add blue/pink LED accents. Use generation-v3-close-world-leds.md with v2 as the primary edit target and v1 as the darker interior reference. Original v1 prompt below remains history.
 
 ## Reference role
 
