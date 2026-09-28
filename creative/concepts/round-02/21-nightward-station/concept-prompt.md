@@ -1,12 +1,14 @@
 # 10 - Nightward Station: orbital colony window
 
-Prepared 2026-09-28. Proposed title: Nightward Station. Catalog 10; creative concept 21, a new addition to round 02. This does not overwrite historical creative concept 10 or the existing proposals 17-20. Generated 2026-09-28; current concept: concept-v1.png, awaiting user review. No thumbnail or animation generated.
+Prepared 2026-09-28. Proposed title: Nightward Station. Catalog 10; creative concept 21, a new addition to round 02. This does not overwrite historical creative concept 10 or the existing proposals 17-20. Generated 2026-09-28; current concept: concept-v2-distant-world.png, awaiting user review. No thumbnail or animation generated.
+
+Current direction: user requested a less Earth-like, more distant planet and whiter station. Use generation-v2-distant-world.md with concept-v1.png as its edit target. V2 is a complete smaller ochre/chalk world surrounded by dark space; white station panels retain warm practical lighting. Original v1 prompt below is preserved as history and must not override this revision.
 
 ## Reference role
 
 User attachment: C:/Users/john/AppData/Local/Temp/codex-clipboard-41139a5c-5b72-4db9-850f-18f2b6351469.png. Use its intimate enclosed spacecraft framing, cool illumination, practical sidewall hardware and sense of depth beyond a window as mood/construction references only. The reference remains outside the repo and may not survive cleanup of the user's temp directory; the written prompt stands alone. Do not copy the person, helmet, recognizable film props, logo, letterboxing, exact set layout or heavy cyan grading. No reference image is embedded in this document.
 
-## Complete generation prompt
+## Original v1 generation prompt (historical; superseded by v2 edit)
 
 Create one original landscape 16:9 cinematic location photograph for Ambient Colony: Nightward Station, a quiet observation and maintenance alcove aboard the orbital station supporting a human colony on the planet below. The viewer is inside a protected, inhabited structure looking into space. The composition is intimate in the foreground and immense beyond the glass. No people, text or promotional graphics.
 

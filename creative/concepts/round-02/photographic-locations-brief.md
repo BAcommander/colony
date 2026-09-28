@@ -123,3 +123,5 @@ The Floodplain interior now exists as off-world v4, with review pending. Test an
 At thumbnail size the image should have one recognizable subject and calm depth. At full size verify object silhouettes, feet/supports, handles, railings, stairs, repeated panels, shadows and cable endpoints. One light direction should explain most shadows. Distant ridges should not be as sharp and contrasty as nearby equipment.
 
 For later animation, select two or three geographically separated, plausible motion regions with clear masks. Do not include artificial motion streaks or a giant plume just to make animation easier. First approve the still; then use the established local compositing workflow. A detailed prompt cannot guarantee a one-shot result or prove that an image is realistic.
+
+Nightward Station current revision: v2 supersedes the close planetary limb described above following user feedback. See 21-nightward-station/generation-v2-distant-world.md: smaller complete ochre/chalk planet, more surrounding space, off-white station panels. Generated candidate awaiting review; v1 preserved.

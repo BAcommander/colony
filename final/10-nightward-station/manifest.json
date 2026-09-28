@@ -2,19 +2,67 @@
   "catalog_number": "10",
   "title": "Nightward Station",
   "date": "2026-09-28",
-  "status": "concept-generated-awaiting-user-review",
+  "status": "v2 revised concept awaiting user review",
   "user_approved": false,
   "generator": "built-in image_gen",
   "source": {
-    "path": "creative/concepts/round-02/21-nightward-station/concept-v1.png",
-    "sha256": "d0113c74265ea6c347ca7f57739dd82e24a7f85feae967297d7f0da4229b8a08",
-    "bytes": 1866967,
+    "path": "creative/concepts/round-02/21-nightward-station/concept-v2-distant-world.png",
+    "sha256": "4c621703c1207819fd7763f57456c07ab8f9c2f80690fe87927bddaac8379549",
+    "bytes": 1909846,
     "dimensions": [
       1672,
       941
     ]
   },
   "artwork": {
+    "path": "final/10-nightward-station/artwork-v2-distant-world.png",
+    "sha256": "4c621703c1207819fd7763f57456c07ab8f9c2f80690fe87927bddaac8379549",
+    "bytes": 1909846,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "prompts": [
+    {
+      "path": "final/10-nightward-station/artwork-edit-v2.md",
+      "sha256": "da265b20afc40370363617e1f6014a11b03864149be9307f50f69e0076d60bbe",
+      "bytes": 3126
+    }
+  ],
+  "references": [
+    {
+      "path": "final/10-nightward-station/artwork-v1.png",
+      "sha256": "d0113c74265ea6c347ca7f57739dd82e24a7f85feae967297d7f0da4229b8a08",
+      "bytes": 1866967,
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "reference_role": "V1 artwork is the sole edit target; original generation provenance retained in manifest-v1.json.",
+  "historical_artwork": [
+    {
+      "path": "final/10-nightward-station/artwork-v1.png",
+      "sha256": "d0113c74265ea6c347ca7f57739dd82e24a7f85feae967297d7f0da4229b8a08",
+      "bytes": 1866967,
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "visual_inspection": {
+    "method": "generated images inspected as stills in chat",
+    "notes": "Full smaller ochre/chalk planet is visible with black space below its silhouette. Station wall panels and exterior module are visibly off-white. Workstation, charcoal seat and warm practical light remain recognizable. Stars remain fairly numerous. Still visually inspected, no animation or user acceptance claimed."
+  },
+  "video": null,
+  "thumbnail": null,
+  "audio": null,
+  "resolution_note": "Native generated 1672x941; not a 4K master.",
+  "version_note": "V1 preserved; v2 implements user feedback for a less Earth-like, more distant planet and whiter station.",
+  "edit_target": {
     "path": "final/10-nightward-station/artwork-v1.png",
     "sha256": "d0113c74265ea6c347ca7f57739dd82e24a7f85feae967297d7f0da4229b8a08",
     "bytes": 1866967,
@@ -23,33 +71,5 @@
       941
     ]
   },
-  "prompts": [
-    {
-      "path": "final/10-nightward-station/artwork-generation-v1.md",
-      "sha256": "0eb5d0d3944cca77db0da75ddcbab00576347cec98127cb3ff45b78728b978b6",
-      "bytes": 5560
-    }
-  ],
-  "references": [
-    {
-      "path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-41139a5c-5b72-4db9-850f-18f2b6351469.png",
-      "sha256": "49b1db5a8aaf446891f4d70c802f2bcb99cf7c260dc08389817dcee992007c97",
-      "bytes": 372420,
-      "dimensions": [
-        640,
-        480
-      ]
-    }
-  ],
-  "reference_role": "External style, mood and credible construction references only; screenshots not included in repository. Written prompts remain portable.",
-  "historical_artwork": [],
-  "visual_inspection": {
-    "method": "generated images inspected as stills in chat",
-    "notes": "Orbital alcove, attached station structure and curved planetary horizon are visible. Stars are more numerous and surface detail more visible than the restrained brief. No person or reference branding is present."
-  },
-  "video": null,
-  "thumbnail": null,
-  "audio": null,
-  "resolution_note": "Native generated 1672x941; not a 4K master.",
-  "version_note": "Package artwork-v1 is the first packaged concept; its creative source version is identified above."
+  "user_feedback": "could the planet in 10 maybe look less earth like, and could we be further away from it. could the space station be more white?"
 }
