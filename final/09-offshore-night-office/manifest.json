@@ -1,6 +1,6 @@
 {
   "catalog_number": "09",
-  "title": "Offshore Night Office",
+  "title": "The Shoreless Colony",
   "date": "2026-09-28",
   "status": "artwork selected for packaging; thumbnail pending user review; metadata and music prompts prepared",
   "user_approved": false,
@@ -58,28 +58,30 @@
   },
   "video": null,
   "thumbnail": {
-    "master": "thumbnail-v1.png",
-    "master_sha256": "18879e5779d33bdd5efe57b022ca108914dfbbe00a2a2e14325c3cc399f9ce98",
+    "master": "thumbnail-v2.png",
+    "master_sha256": "6ff64dcf7d064c5138b902393483b02952d26c457160740ff36e5abe67d03564",
     "master_dimensions": [
       1672,
       941
     ],
-    "upload": "thumbnail-v1.jpg",
-    "upload_sha256": "bb445a8501d0a6267db137959b2e87d812cc80e628b0e70cd83b4186e78a3a5c",
+    "upload": "thumbnail-v2.jpg",
+    "upload_sha256": "c9ed095767ea469248fdf260656ab90c21f6973de6fccedf7d3f250fc6ff8367",
     "upload_dimensions": [
       1280,
       720
     ],
-    "upload_bytes": 293442,
+    "upload_bytes": 292263,
     "source_art": "artwork-v1.png",
     "source_art_sha256": "f042d109358089f0e89b11c99a84505fba9a825dca3428ed7109055d29253f69",
     "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
     "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
-    "prompt": "thumbnail-prompt-v1.md",
-    "prompt_sha256": "d3091a31767ddfc91c73818c2771531ff644718b9de38a6f75848ab04dd8b4a2",
-    "method": "Built-in image_gen; FFmpeg Lanczos JPEG export quality 2",
-    "review": "Title and caption spelling, 09 number, moons and platform connections inspected. Generation strengthened sunset colour and shifted exterior layout; this is a marketing adaptation, not an exact video frame. User review pending.",
-    "user_approved": false
+    "prompt": "thumbnail-prompt-v2.md",
+    "prompt_sha256": "b291f49e8a1fa409a16ba72be0f0e59e0d3c4fe834c4470b630695fe08b986c1",
+    "method": "Built-in image_gen title edit on v1 thumbnail; FFmpeg Lanczos JPEG quality 2",
+    "review": "Generated still inspected: new title, caption, catalog number and brand spelling correct; scene identity retained. User review pending. Not a pixel-identical background edit.",
+    "user_approved": false,
+    "edit_target": "thumbnail-v1.png",
+    "edit_target_sha256": "18879e5779d33bdd5efe57b022ca108914dfbbe00a2a2e14325c3cc399f9ce98"
   },
   "audio": null,
   "resolution_note": "Native generated 1672x941; not a 4K master.",
@@ -93,13 +95,13 @@
   "youtube_metadata": {
     "status": "publication drafts; no unverified soundtrack or duration claims",
     "title_file": "youtube-title.txt",
-    "title_sha256": "ca26b6d4449a99238efed657394e062cfcd8abad188be49a6cfcf78a4d4df038",
+    "title_sha256": "f03df1fd44c5395e958ce8b0b6018a8bf4b066f314114cba504051220d628d15",
     "description_file": "description.txt",
-    "description_sha256": "1ef70da8e530ca45fe438eb0846ede53e009902e8349197f281e704fbbedf494",
+    "description_sha256": "54a505a77feb1ef332b10c0c9263a07fdee299f6df261af9f2fad460bb5f93b3",
     "tags_file": "youtube-tags.txt",
-    "tags_sha256": "ca44bde2b62838a16de0616eece8086daf28ad334db2c93d4c466ba09e805c9e",
-    "tags_characters_including_separators": 289,
-    "tags_characters_including_file_newline": 290,
+    "tags_sha256": "d3e9168e40119577e78470655aa3d0d84b4794a7c680d97765e3800123ea78f1",
+    "tags_characters_including_separators": 288,
+    "tags_characters_including_file_newline": 289,
     "tags_count": 17,
     "hashtags_count": 3,
     "keyword_note": "Scene-relevant phrases, not measured search volume or ranking guarantees"
@@ -109,11 +111,11 @@
     "files": [
       {
         "path": "music/elevenlabs-long-version.txt",
-        "sha256": "82c748669d585b9e50b881c701563e2f5e2e6c0c5d734c86257683fb4a1b7207"
+        "sha256": "d3fb4ff5c1d457cfa3dc63bfaa501ca7e530577cb45a9ebd450d488258e8be54"
       },
       {
         "path": "music/elevenlabs-prompt-v1.txt",
-        "sha256": "ea00010c2d4ef59bee370e9c06fce552fe99da46f1c5d3871dee45b47aec609e"
+        "sha256": "d86f5b4fd868cacc0f4a723d5d053ffd080c6e7079708cb67249fcfe19f40e42"
       },
       {
         "path": "music/generation-record.json",
@@ -128,5 +130,39 @@
     "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
     "credits_spent_by_assistant": 0,
     "workflow": "creative/MUSIC_WORKFLOW.md"
-  }
+  },
+  "previous_titles": [
+    "Offshore Night Office"
+  ],
+  "naming_approval": {
+    "date": "2026-09-28",
+    "feedback": "I like 10 = Farpoint Station and The Shoreless Colony = 9",
+    "scope": "Names approved; new thumbnail v2 awaits visual review."
+  },
+  "historical_thumbnails": [
+    {
+      "master": "thumbnail-v1.png",
+      "master_sha256": "18879e5779d33bdd5efe57b022ca108914dfbbe00a2a2e14325c3cc399f9ce98",
+      "master_dimensions": [
+        1672,
+        941
+      ],
+      "upload": "thumbnail-v1.jpg",
+      "upload_sha256": "bb445a8501d0a6267db137959b2e87d812cc80e628b0e70cd83b4186e78a3a5c",
+      "upload_dimensions": [
+        1280,
+        720
+      ],
+      "upload_bytes": 293442,
+      "source_art": "artwork-v1.png",
+      "source_art_sha256": "f042d109358089f0e89b11c99a84505fba9a825dca3428ed7109055d29253f69",
+      "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
+      "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+      "prompt": "thumbnail-prompt-v1.md",
+      "prompt_sha256": "d3091a31767ddfc91c73818c2771531ff644718b9de38a6f75848ab04dd8b4a2",
+      "method": "Built-in image_gen; FFmpeg Lanczos JPEG export quality 2",
+      "review": "Title and caption spelling, 09 number, moons and platform connections inspected. Generation strengthened sunset colour and shifted exterior layout; this is a marketing adaptation, not an exact video frame. User review pending.",
+      "user_approved": false
+    }
+  ]
 }

@@ -1,5 +1,7 @@
 # 09 - Offshore Night Office: ocean-world colony
 
+Current publication name: **The Shoreless Colony**, selected by the user 2026-09-28. Offshore Night Office is the historical working title retained in original generation prompts and stable directory paths. Exact executed prompt records are unchanged.
+
 Revised 2026-09-28, prompt v2. Catalog 09; creative concept 16. Generated 2026-09-28; current concept: concept-v1.png, awaiting user review. Previous wording is preserved in concept-prompt-v1.md. This file supersedes the earlier Offshore block in the shared brief.
 
 ## Reference roles

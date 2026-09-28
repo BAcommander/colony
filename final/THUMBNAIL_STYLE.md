@@ -52,3 +52,7 @@ User accepted both clean v3 artworks. Thumbnails generated from those plates wit
 ## Series continuation 08-10, 2026-09-28
 
 08 RAINLINE / RELAY, A SIGNAL THROUGH THE RAIN; 09 OFFSHORE / NIGHT OFFICE, HOME BEYOND THE SHORE; 10 NIGHTWARD / STATION, A QUIET WATCH ABOVE HOME. All use upper-left title blocks, opposite top-right catalog numbers and Ringfall as direct identity reference. Current clean art supplies the scene; Nightward uses v3 with close alien horizon, dark cabin, white exterior and blue/pink LEDs. Thumbnail review pending. Offshore generation strengthened dusk colour and shifted layout; Nightward shifted the external module below the type. Preserve clean plates separately; these are marketing adaptations.
+
+## Names selected 2026-09-28
+
+09 is now THE SHORELESS / COLONY; 10 is FARPOINT / STATION. User approved these names. Thumbnail v2 title edits use each existing v1 thumbnail as sole edit target, retain captions and catalog numbers, and await visual review. Earlier title prompts and v1 masters remain historical. Directory slugs remain stable.

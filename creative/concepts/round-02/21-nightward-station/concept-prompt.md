@@ -1,5 +1,7 @@
 # 10 - Nightward Station: orbital colony window
 
+Current publication name: **Farpoint Station**, selected by the user 2026-09-28. Nightward Station is the historical working title retained in original generation prompts and stable directory paths. Exact executed prompt records are unchanged.
+
 Prepared 2026-09-28. Proposed title: Nightward Station. Catalog 10; creative concept 21, a new addition to round 02. This does not overwrite historical creative concept 10 or the existing proposals 17-20. Generated 2026-09-28; current concept: concept-v3-close-world-leds.png, awaiting user review. No thumbnail or animation generated.
 
 Current direction (v3, supersedes v2): user likes the alien ochre/chalk planet but wants it closer. White applies ONLY to the external habitat. Restore the darker interior and add blue/pink LED accents. Use generation-v3-close-world-leds.md with v2 as the primary edit target and v1 as the darker interior reference. Original v1 prompt below remains history.

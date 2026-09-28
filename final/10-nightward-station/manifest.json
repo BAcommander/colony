@@ -1,6 +1,6 @@
 {
   "catalog_number": "10",
-  "title": "Nightward Station",
+  "title": "Farpoint Station",
   "date": "2026-09-28",
   "status": "artwork selected for packaging; thumbnail pending user review; metadata and music prompts prepared",
   "user_approved": false,
@@ -77,28 +77,30 @@
   },
   "video": null,
   "thumbnail": {
-    "master": "thumbnail-v1.png",
-    "master_sha256": "84b4e2fedb09fd967f7d0299069d085311bf621e2536c292f2d8e73ac823249a",
+    "master": "thumbnail-v2.png",
+    "master_sha256": "7e73762504217367d9d2ff4d751ec03f2561ea8990f500096d755ce63e597dff",
     "master_dimensions": [
       1672,
       941
     ],
-    "upload": "thumbnail-v1.jpg",
-    "upload_sha256": "c7941bfcd8dd4eb5600940cb39f18339f257d1481a7b3be1e1c85b5dc5bfb70a",
+    "upload": "thumbnail-v2.jpg",
+    "upload_sha256": "26eae78ce7d23c09b00ba9826f52f3811be4b5ff1849ce2d0aa9cd233beab35a",
     "upload_dimensions": [
       1280,
       720
     ],
-    "upload_bytes": 250245,
+    "upload_bytes": 237019,
     "source_art": "artwork-v3-close-world-leds.png",
     "source_art_sha256": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
     "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
     "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
-    "prompt": "thumbnail-prompt-v1.md",
-    "prompt_sha256": "8390472f5307add2479550809d86633356e0adc24fda4fc95de2db3f488febca",
-    "method": "Built-in image_gen; FFmpeg Lanczos JPEG export quality 2",
-    "review": "Title and caption spelling, 10 number, close alien horizon, dark cabin and coloured LEDs inspected. Exterior white module repositioned by generation to sit below title; marketing adaptation only. User review pending.",
-    "user_approved": false
+    "prompt": "thumbnail-prompt-v2.md",
+    "prompt_sha256": "7e190f3a6d2e073bdc228366ce050b8940a3cb47679254aa7b744e7775d2f3d6",
+    "method": "Built-in image_gen title edit on v1 thumbnail; FFmpeg Lanczos JPEG quality 2",
+    "review": "Generated still inspected: new title, caption, catalog number and brand spelling correct; scene identity retained. User review pending. Not a pixel-identical background edit.",
+    "user_approved": false,
+    "edit_target": "thumbnail-v1.png",
+    "edit_target_sha256": "84b4e2fedb09fd967f7d0299069d085311bf621e2536c292f2d8e73ac823249a"
   },
   "audio": null,
   "resolution_note": "Native generated 1672x941; not a 4K master.",
@@ -122,13 +124,13 @@
   "youtube_metadata": {
     "status": "publication drafts; no unverified soundtrack or duration claims",
     "title_file": "youtube-title.txt",
-    "title_sha256": "3f568f1dcc90c1000d2c3031e58d13b10dc9b37dbc5eaa48ea3b1a33da260630",
+    "title_sha256": "3d3d30e9fd2f8dec078d99658890225334e99bc369f9111f1d93bf7b935db675",
     "description_file": "description.txt",
-    "description_sha256": "ccea860ce96e2acb5000369a0fc3ffab7e734fefad1dfb355ffd4f91a19e30e8",
+    "description_sha256": "8839ac488335bd648e1257ab376799050bff311a4e4b86212b9ffaa67e22a12e",
     "tags_file": "youtube-tags.txt",
-    "tags_sha256": "32b2fff6aaf588c9c1e4c3da3e125539ed596bb7c1874e0ee051d189124a3592",
-    "tags_characters_including_separators": 288,
-    "tags_characters_including_file_newline": 289,
+    "tags_sha256": "9239b6baed110fb423577316a3ea61d6df223e9c99251cb541f1ec04954b9c40",
+    "tags_characters_including_separators": 287,
+    "tags_characters_including_file_newline": 288,
     "tags_count": 17,
     "hashtags_count": 3,
     "keyword_note": "Scene-relevant phrases, not measured search volume or ranking guarantees"
@@ -138,11 +140,11 @@
     "files": [
       {
         "path": "music/elevenlabs-long-version.txt",
-        "sha256": "bc5df6a22bbd227a2265b33640a8f5fa45d1b7b5eec77b0703abe90782937d8e"
+        "sha256": "6dfc3a6338ce79eba626537f503c0dfd1d12886d8ceeb955d1f79a1fe056cb26"
       },
       {
         "path": "music/elevenlabs-prompt-v1.txt",
-        "sha256": "fcac2467a3f9e9d726eee70b9d697d555b35bec977de072f6b0a2933f70e7ffe"
+        "sha256": "3726b14629a4553605a7a439ed34fd30a22082b617e8271663b5a788629dcabf"
       },
       {
         "path": "music/generation-record.json",
@@ -157,5 +159,39 @@
     "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
     "credits_spent_by_assistant": 0,
     "workflow": "creative/MUSIC_WORKFLOW.md"
-  }
+  },
+  "previous_titles": [
+    "Nightward Station"
+  ],
+  "naming_approval": {
+    "date": "2026-09-28",
+    "feedback": "I like 10 = Farpoint Station and The Shoreless Colony = 9",
+    "scope": "Names approved; new thumbnail v2 awaits visual review."
+  },
+  "historical_thumbnails": [
+    {
+      "master": "thumbnail-v1.png",
+      "master_sha256": "84b4e2fedb09fd967f7d0299069d085311bf621e2536c292f2d8e73ac823249a",
+      "master_dimensions": [
+        1672,
+        941
+      ],
+      "upload": "thumbnail-v1.jpg",
+      "upload_sha256": "c7941bfcd8dd4eb5600940cb39f18339f257d1481a7b3be1e1c85b5dc5bfb70a",
+      "upload_dimensions": [
+        1280,
+        720
+      ],
+      "upload_bytes": 250245,
+      "source_art": "artwork-v3-close-world-leds.png",
+      "source_art_sha256": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+      "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
+      "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+      "prompt": "thumbnail-prompt-v1.md",
+      "prompt_sha256": "8390472f5307add2479550809d86633356e0adc24fda4fc95de2db3f488febca",
+      "method": "Built-in image_gen; FFmpeg Lanczos JPEG export quality 2",
+      "review": "Title and caption spelling, 10 number, close alien horizon, dark cabin and coloured LEDs inspected. Exterior white module repositioned by generation to sit below title; marketing adaptation only. User review pending.",
+      "user_approved": false
+    }
+  ]
 }

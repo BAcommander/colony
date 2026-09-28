@@ -18,8 +18,8 @@ Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subs
 | [06 - The Last Cable Station](06-last-cable-station/) | [Final edit v3](06-last-cable-station/artwork-v3-final.png); no video yet | [JPEG](06-last-cable-station/thumbnail-v1.jpg) |
 | [07 - Icebound Weather Post](07-icebound-weather-post/) | [Final edit v3](07-icebound-weather-post/artwork-v3-final.png); no video yet | [JPEG](07-icebound-weather-post/thumbnail-v1.jpg) |
 | [08 - Rainline Relay](08-rainline-relay/) | [Selected artwork](08-rainline-relay/artwork-v1.png); no video yet | [JPEG](08-rainline-relay/thumbnail-v1.jpg) |
-| [09 - Offshore Night Office](09-offshore-night-office/) | [Selected artwork](09-offshore-night-office/artwork-v1.png); no video yet | [JPEG](09-offshore-night-office/thumbnail-v1.jpg) |
-| [10 - Nightward Station](10-nightward-station/) | [Selected artwork](10-nightward-station/artwork-v3-close-world-leds.png); no video yet | [JPEG](10-nightward-station/thumbnail-v1.jpg) |
+| [09 - The Shoreless Colony](09-offshore-night-office/) | [Selected artwork](09-offshore-night-office/artwork-v1.png); no video yet | [JPEG](09-offshore-night-office/thumbnail-v2.jpg) |
+| [10 - Farpoint Station](10-nightward-station/) | [Selected artwork](10-nightward-station/artwork-v3-close-world-leds.png); no video yet | [JPEG](10-nightward-station/thumbnail-v2.jpg) |
 
 All videos are 3840x2160, 30 fps, silent, with upscaled source artwork. These are approved loop masters, not completed long-form music uploads. The video files are byte-identical copies of their original approved production exports; original paths remain available.
 
