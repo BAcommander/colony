@@ -11,3 +11,7 @@ Low weather station, three linked habitats, matte frozen sea, warm windows and s
 Snow/haze and any vent anchors require mapping after art selection; do not shift ice or moon.
 
 No thumbnail, animation or soundtrack produced yet. Preserve this version; finish art selection before mapping animation masks.
+
+## Current candidate: off-world v2
+
+[View artwork-v2-offworld.png](artwork-v2-offworld.png). Layered blue ice escarpments with lavender sediment bands; Subdued green-grey twilight horizon and clearer ringed moon; Rounded insulated pressure-shell station and entrance; Protected thermal links beneath enclosed habitat passages. Exact edit prompt: [artwork-prompt-v2.md](artwork-prompt-v2.md). User review pending; v1 preserved. No animation or thumbnail produced.

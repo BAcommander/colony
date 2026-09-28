@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "date": "2026-09-28",
+  "series_number": "06",
+  "status": "generated off-world revision; user visual review pending",
+  "file": "concept-v2-offworld.png",
+  "sha256": "bc2b3264a9047257453f5aeb30e9080f9e69582a743bc34eeb9885581312c665",
+  "bytes": 2144629,
+  "dimensions": [
+    1672,
+    941
+  ],
+  "source": "final/06-last-cable-station/artwork-v1.png",
+  "source_sha256": "c13472cd7f86eb253a289893cf08ea1b8943467910ec2282257cec1b89211d17",
+  "method": "Built-in image_gen environment and architecture edit",
+  "prompt": "generation-v2-offworld.md",
+  "prompt_sha256": "73327277905d591b494763f76ddc0a34e22b70b02737c6b83f250caff6ce8b28",
+  "user_feedback": "a good start, but how can we make 6 and 7 both feel more other-worldly like they are colonies on other planets?",
+  "observed_changes": [
+    "Violet-grey columnar geology with mineral seams",
+    "Sparse blue-grey rosette ground-cover",
+    "Cloud-veiled banded planet",
+    "Insulated ledge habitats"
+  ],
+  "inspection": "Generated still visually inspected; clean artwork, familiar composition retained with environment/architecture changes. Not pixel-identical and not user-approved.",
+  "animation_created": false,
+  "thumbnail_created": false
+}

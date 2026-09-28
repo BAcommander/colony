@@ -1,6 +1,6 @@
 # Icebound Weather Post - off-world concept prompt
 
-Prepared 2026-09-28. V1 generated; user review pending. See generation-v1.md for the exact executed prompt and manifest-v1.json for provenance. Reference numbers follow ../photographic-locations-brief.md. Use references 2, 3 as visual references only.
+Prepared 2026-09-28. V1 is preserved. Current off-world revision is concept-v2-offworld.png, pending user review. See generation-v2-offworld.md and manifest-v2.json; their environment/architecture changes supersede the corresponding original directions below. Reference numbers follow ../photographic-locations-brief.md. Use references 2, 3 as visual references only.
 
 ## Complete generation prompt
 

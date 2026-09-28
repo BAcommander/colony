@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "date": "2026-09-28",
+  "series_number": "07",
+  "status": "generated off-world revision; user visual review pending",
+  "file": "concept-v2-offworld.png",
+  "sha256": "a31878e25a7fdc77edde81512341c05272c5af79ece23a631036a96b48d6d705",
+  "bytes": 2532865,
+  "dimensions": [
+    1672,
+    941
+  ],
+  "source": "final/07-icebound-weather-post/artwork-v1.png",
+  "source_sha256": "c3a383078a94af14196abb34a9d0285a24be64b1d8ec5aeddc54464ff02f614a",
+  "method": "Built-in image_gen environment and architecture edit",
+  "prompt": "generation-v2-offworld.md",
+  "prompt_sha256": "493f047e388e78c12ce3d4d382dd3e60dcdf752cac7f26f4c4180fd8dbf31646",
+  "user_feedback": "a good start, but how can we make 6 and 7 both feel more other-worldly like they are colonies on other planets?",
+  "observed_changes": [
+    "Layered blue ice escarpments with lavender sediment bands",
+    "Subdued green-grey twilight horizon and clearer ringed moon",
+    "Rounded insulated pressure-shell station and entrance",
+    "Protected thermal links beneath enclosed habitat passages"
+  ],
+  "inspection": "Generated still visually inspected; clean artwork, familiar composition retained with environment/architecture changes. Not pixel-identical and not user-approved.",
+  "animation_created": false,
+  "thumbnail_created": false
+}

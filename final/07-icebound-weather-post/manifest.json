@@ -19,5 +19,20 @@
   "provenance": "creative/concepts/round-02/14-icebound-weather-post/manifest-v1.json",
   "thumbnail": null,
   "video": null,
-  "audio": null
+  "audio": null,
+  "current_artwork_candidate": {
+    "file": "artwork-v2-offworld.png",
+    "sha256": "a31878e25a7fdc77edde81512341c05272c5af79ece23a631036a96b48d6d705",
+    "source": "creative/concepts/round-02/14-icebound-weather-post/concept-v2-offworld.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 2532865,
+    "copy_verified": true,
+    "prompt": "artwork-prompt-v2.md",
+    "prompt_sha256": "493f047e388e78c12ce3d4d382dd3e60dcdf752cac7f26f4c4180fd8dbf31646",
+    "status": "generated off-world revision; user visual review pending",
+    "provenance": "creative/concepts/round-02/14-icebound-weather-post/manifest-v2.json"
+  }
 }

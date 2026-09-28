@@ -19,5 +19,20 @@
   "provenance": "creative/concepts/round-02/13-last-cable-station/manifest-v1.json",
   "thumbnail": null,
   "video": null,
-  "audio": null
+  "audio": null,
+  "current_artwork_candidate": {
+    "file": "artwork-v2-offworld.png",
+    "sha256": "bc2b3264a9047257453f5aeb30e9080f9e69582a743bc34eeb9885581312c665",
+    "source": "creative/concepts/round-02/13-last-cable-station/concept-v2-offworld.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "bytes": 2144629,
+    "copy_verified": true,
+    "prompt": "artwork-prompt-v2.md",
+    "prompt_sha256": "73327277905d591b494763f76ddc0a34e22b70b02737c6b83f250caff6ce8b28",
+    "status": "generated off-world revision; user visual review pending",
+    "provenance": "creative/concepts/round-02/13-last-cable-station/manifest-v2.json"
+  }
 }
