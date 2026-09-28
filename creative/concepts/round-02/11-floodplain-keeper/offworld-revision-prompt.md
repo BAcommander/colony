@@ -1,6 +1,6 @@
 # The Floodplain Keeper - off-world revision brief
 
-Status: proposed prompt, 2026-09-28. No revised image generated yet.
+Status: executed 2026-09-28 following the user's pasted revision request. See concept-v4-offworld.png, offworld-generation-v4.md and manifest-v4.json. User visual review pending.
 
 User feedback: "it's cool but remeber we want to make the vibe of the channel a colony, so we should be on a distant planet or something."
 

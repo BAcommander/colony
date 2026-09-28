@@ -1,0 +1,24 @@
+{
+  "title": "The Floodplain Keeper",
+  "version": 4,
+  "date": "2026-09-28",
+  "status": "off-world concept generated; user visual review pending",
+  "file": "concept-v4-offworld.png",
+  "sha256": "42b70fe6bba85e561e312ef95620a137770996429010e410ca4afb18c662c89d",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "source": "concept-v3.png",
+  "source_sha256": "0a379858890049ddfed52c360373b8aa04a9eadc873fcc20fadfa4bf4bc749c8",
+  "method": "Built-in image_gen environmental revision",
+  "prompt": "offworld-generation-v4.md",
+  "changes": [
+    "Connected colony habitation modules and causeway",
+    "Dark mineral escarpments instead of tree-lined horizon",
+    "Muted blue-grey marsh growth",
+    "One pale moon through the clouds"
+  ],
+  "inspection": "Viewed generated still; overall room layout and major objects retained. No pixel-perfect preservation claim.",
+  "animation_created": false
+}
