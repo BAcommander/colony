@@ -93,11 +93,11 @@
   "youtube_metadata": {
     "status": "publication drafts; no unverified soundtrack or duration claims",
     "title_file": "youtube-title.txt",
-    "title_sha256": "8574c5190df09903eb50f8cd981f64264523359b8ce88ddd6d3b2b4843385dad",
+    "title_sha256": "ca26b6d4449a99238efed657394e062cfcd8abad188be49a6cfcf78a4d4df038",
     "description_file": "description.txt",
-    "description_sha256": "f741715004906c7cc5395cf27a544831eb4923ec49f071d825ab5113b7325e8e",
+    "description_sha256": "1ef70da8e530ca45fe438eb0846ede53e009902e8349197f281e704fbbedf494",
     "tags_file": "youtube-tags.txt",
-    "tags_sha256": "17e529f9d6cb62cc6162d59f82e67b7af3bdcba3652f7c803fb62679722bc0cd",
+    "tags_sha256": "ca44bde2b62838a16de0616eece8086daf28ad334db2c93d4c466ba09e805c9e",
     "tags_characters_including_separators": 289,
     "tags_characters_including_file_newline": 290,
     "tags_count": 17,
@@ -109,19 +109,19 @@
     "files": [
       {
         "path": "music/elevenlabs-long-version.txt",
-        "sha256": "f8995a37458603a1fe11f11f5a4f05614aff82789982123031d60015c43172a4"
+        "sha256": "82c748669d585b9e50b881c701563e2f5e2e6c0c5d734c86257683fb4a1b7207"
       },
       {
         "path": "music/elevenlabs-prompt-v1.txt",
-        "sha256": "658372f907ec7f14f92071f09091a6e567f262b3559c109b6a700ec453aa95d7"
+        "sha256": "ea00010c2d4ef59bee370e9c06fce552fe99da46f1c5d3871dee45b47aec609e"
       },
       {
         "path": "music/generation-record.json",
-        "sha256": "e432d65a0bb33822ffe0adcd32f59438d2102591fa04498acf8a482210c40c3a"
+        "sha256": "0e109e4698c856d2fa014833d2571051d47d438399383a8bbcc9a3e4fc07aa21"
       },
       {
         "path": "music/README.md",
-        "sha256": "40f5acd353fc7562ac6756eb7feda83564321b2fb4126aacb2457be5a673e609"
+        "sha256": "83995fc85b5c9f6ecf99eb863b9293ac1d0da7b69a6970027b5b060132794954"
       }
     ],
     "planned_test": "60 seconds, two variants; user runs manually after checking actual displayed cost",

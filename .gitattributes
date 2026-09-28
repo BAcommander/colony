@@ -5,3 +5,12 @@ final/02-basalt-transmission/video-4k.mp4 filter=lfs diff=lfs merge=lfs -text
 final/03-glacier-sanctuary/video-4k.mp4 filter=lfs diff=lfs merge=lfs -text
 final/**/description.txt text eol=lf
 final/**/youtube-tags.txt text eol=lf
+final/08-rainline-relay/thumbnail-prompt-v1.md text eol=lf
+final/08-rainline-relay/youtube-title.txt text eol=lf
+final/08-rainline-relay/music/* text eol=lf
+final/09-offshore-night-office/thumbnail-prompt-v1.md text eol=lf
+final/09-offshore-night-office/youtube-title.txt text eol=lf
+final/09-offshore-night-office/music/* text eol=lf
+final/10-nightward-station/thumbnail-prompt-v1.md text eol=lf
+final/10-nightward-station/youtube-title.txt text eol=lf
+final/10-nightward-station/music/* text eol=lf
