@@ -2,7 +2,7 @@
   "title": "The Last Cable Station",
   "series_number": "06",
   "date": "2026-09-28",
-  "status": "requested final refinement delivered; user has not yet reviewed v3",
+  "status": "User accepted final v3 art; thumbnail generated pending review; publication metadata and music prompts prepared",
   "artwork": {
     "file": "artwork-v1.png",
     "source": "creative/concepts/round-02/13-last-cable-station/concept-v1.png",
@@ -17,7 +17,30 @@
   "prompt": "artwork-prompt-v1.md",
   "prompt_sha256": "51731bfd09b7a4d2ebce16e423e66d543d3c70d0363c14019533e3151be98a0a",
   "provenance": "creative/concepts/round-02/13-last-cable-station/manifest-v1.json",
-  "thumbnail": null,
+  "thumbnail": {
+    "master": "thumbnail-v1.png",
+    "master_sha256": "cefd92ee7e2dbb93eab1241abf262c68d28ecdb9a451defb57c6e2cc268b7fef",
+    "master_dimensions": [
+      1672,
+      941
+    ],
+    "upload": "thumbnail-v1.jpg",
+    "upload_sha256": "e893c6befc0e05628f7a6353354a254d26eba607c7b7b4f62e0f4fc08bf10cb2",
+    "upload_dimensions": [
+      1280,
+      720
+    ],
+    "upload_bytes": 295610,
+    "source_art": "artwork-v3-final.png",
+    "source_art_sha256": "72fe97b682c4ff5de7ef577e2464163941c90a48fbf1268e4f8271e3afd97c37",
+    "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
+    "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+    "prompt": "thumbnail-prompt-v1.md",
+    "prompt_sha256": "f157f9f591d6ea443e5d5891fd3107b8abb4448847e1d4df7b507270c7a9a840",
+    "method": "Built-in image_gen compositing; FFmpeg Lanczos JPEG export quality 2",
+    "review": "Generated full image inspected: spelling, catalog number, series identity and focal subject readable; user review pending",
+    "note": "Generated marketing adaptation; clean artwork not modified"
+  },
   "video": null,
   "audio": null,
   "current_artwork_candidate": {
@@ -32,7 +55,58 @@
     "copy_verified": true,
     "prompt": "artwork-prompt-v3.md",
     "prompt_sha256": "3c39dacce5e971aaf95504940bb3eab1722b7042f5e89ffe8d790566fe7e620e",
-    "status": "requested final refinement delivered; user has not yet reviewed v3",
+    "status": "user accepted v3: i think it is solid (2026-09-28)",
     "provenance": "creative/concepts/round-02/13-last-cable-station/manifest-v3.json"
+  },
+  "artwork_approval": {
+    "version": 3,
+    "date": "2026-09-28",
+    "feedback": "i think it's solid",
+    "scope": "Clean v3 images 06/07; does not approve newly generated thumbnails or audio"
+  },
+  "caption": "THE WAY HOME",
+  "youtube_metadata": {
+    "status": "publication drafts; audio and duration claims deliberately absent until produced",
+    "title_file": "youtube-title.txt",
+    "title_sha256": "858ad8f11f6c04d88c560e5b7f1a311ef9b399d036010ea79f183078d7a6df79",
+    "description_file": "description.txt",
+    "description_sha256": "ca9522ab49ca443afb8ec3aae5e6c8d8fe7d8c717fe791d4502f447233ec49cd",
+    "tags_file": "youtube-tags.txt",
+    "tags_sha256": "d54a66fa31a26ab3bdf84c9e2518f0821a378aefe1ba24c0d8cb48a71041f478",
+    "tags_characters_including_separators": 293,
+    "tags_characters_including_file_newline": 294,
+    "tags_count": 14,
+    "tag_limit_exclusive": 500,
+    "hashtags_count": 3,
+    "sign_off": "Welcome to Ambient Colony. Stay a while and listen.",
+    "keyword_note": "Scene-relevant phrases; not measured search volume or ranking guarantees"
+  },
+  "music_preparation": {
+    "status": "prompts prepared; no audio generated",
+    "files": [
+      {
+        "path": "music/README.md",
+        "sha256": "d29a6501ba8d2a42147eb647c5410ed0dbe88494f33e93f8ffe5ef422deea97c"
+      },
+      {
+        "path": "music/elevenlabs-prompt-v1.txt",
+        "sha256": "dec0d87d0bbf051d992ed7c1ed8024cebc097aa3dad501bf3a8f39e2b2f5dbe7"
+      },
+      {
+        "path": "music/elevenlabs-long-version.txt",
+        "sha256": "b09ddc61f2511b3879e1a2a8d4af65922bd6ea4c64eea58b2a7518c8a2a52761"
+      },
+      {
+        "path": "music/generation-record.json",
+        "sha256": "0e109e4698c856d2fa014833d2571051d47d438399383a8bbcc9a3e4fc07aa21"
+      }
+    ],
+    "planned_test": "60 seconds, two variants; user runs manually after checking actual cost",
+    "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
+    "delivery_duration_seconds": null,
+    "credits_spent_by_assistant": 0,
+    "workflow": "creative/MUSIC_WORKFLOW.md",
+    "official_guidance": "https://elevenlabs.io/docs/overview/capabilities/music/best-practices",
+    "guidance_checked": "2026-09-28"
   }
 }

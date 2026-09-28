@@ -29,7 +29,11 @@
     "video": null,
     "thumbnail": "thumbnail-v1.jpg",
     "animation_artwork_candidate": "artwork-v2-animation.png",
-    "animation_preparation": "animation-prep-v1/scene-plan.json"
+    "animation_preparation": "animation-prep-v1/scene-plan.json",
+    "description": "description.txt",
+    "search_tags": "youtube-tags.txt",
+    "suggested_title": "youtube-title.txt",
+    "music_prompt": "music/elevenlabs-prompt-v1.txt"
   },
   {
     "folder": "05-saltline-receiver",
@@ -40,24 +44,36 @@
     "video": null,
     "thumbnail": "thumbnail-v1.jpg",
     "animation_artwork_candidate": "artwork-v2-animation.png",
-    "animation_preparation": "animation-prep-v1/scene-plan.json"
+    "animation_preparation": "animation-prep-v1/scene-plan.json",
+    "description": "description.txt",
+    "search_tags": "youtube-tags.txt",
+    "suggested_title": "youtube-title.txt",
+    "music_prompt": "music/elevenlabs-prompt-v1.txt"
   },
   {
     "folder": "06-last-cable-station",
     "title": "The Last Cable Station",
-    "status": "requested final artwork v3 delivered; user review not yet recorded",
+    "status": "accepted v3 artwork; new thumbnail pending review; metadata and music prompts prepared",
     "artwork": "artwork-v3-final.png",
     "duration_seconds": null,
     "video": null,
-    "thumbnail": null
+    "thumbnail": "thumbnail-v1.jpg",
+    "description": "description.txt",
+    "search_tags": "youtube-tags.txt",
+    "suggested_title": "youtube-title.txt",
+    "music_prompt": "music/elevenlabs-prompt-v1.txt"
   },
   {
     "folder": "07-icebound-weather-post",
     "title": "Icebound Weather Post",
-    "status": "requested final artwork v3 delivered; user review not yet recorded",
+    "status": "accepted v3 artwork; new thumbnail pending review; metadata and music prompts prepared",
     "artwork": "artwork-v3-final.png",
     "duration_seconds": null,
     "video": null,
-    "thumbnail": null
+    "thumbnail": "thumbnail-v1.jpg",
+    "description": "description.txt",
+    "search_tags": "youtube-tags.txt",
+    "suggested_title": "youtube-title.txt",
+    "music_prompt": "music/elevenlabs-prompt-v1.txt"
   }
 ]

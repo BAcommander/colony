@@ -2,7 +2,7 @@
   "title": "Icebound Weather Post",
   "series_number": "07",
   "date": "2026-09-28",
-  "status": "requested final refinement delivered; user has not yet reviewed v3",
+  "status": "User accepted final v3 art; thumbnail generated pending review; publication metadata and music prompts prepared",
   "artwork": {
     "file": "artwork-v1.png",
     "source": "creative/concepts/round-02/14-icebound-weather-post/concept-v1.png",
@@ -17,7 +17,30 @@
   "prompt": "artwork-prompt-v1.md",
   "prompt_sha256": "aeeeac1ad2b7dbe22e13f5ccf5d47ed51552fb36c626975d97308fb652d56744",
   "provenance": "creative/concepts/round-02/14-icebound-weather-post/manifest-v1.json",
-  "thumbnail": null,
+  "thumbnail": {
+    "master": "thumbnail-v1.png",
+    "master_sha256": "6452351dd5790ac5e48c4ba17f590c80dac408835566b21c415b353fe689cd09",
+    "master_dimensions": [
+      1672,
+      941
+    ],
+    "upload": "thumbnail-v1.jpg",
+    "upload_sha256": "7b2c6c6a4150e43abe2f5e113bee957d88ddfc8dbb14f2eb3e1a887e714578c3",
+    "upload_dimensions": [
+      1280,
+      720
+    ],
+    "upload_bytes": 393157,
+    "source_art": "artwork-v3-final.png",
+    "source_art_sha256": "5b49468b673b762a63909defa6b202f0bff19755cd829f84c1390d63702d499d",
+    "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
+    "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+    "prompt": "thumbnail-prompt-v1.md",
+    "prompt_sha256": "92def6d18bbb11dda2496a35843add7174689e9ef84fa143df0d7fc7baec3af1",
+    "method": "Built-in image_gen compositing; FFmpeg Lanczos JPEG export quality 2",
+    "review": "Generated full image inspected: spelling, catalog number, series identity and focal subject readable; user review pending",
+    "note": "Generated marketing adaptation; clean artwork not modified"
+  },
   "video": null,
   "audio": null,
   "current_artwork_candidate": {
@@ -32,7 +55,58 @@
     "copy_verified": true,
     "prompt": "artwork-prompt-v3.md",
     "prompt_sha256": "d6c7bb72d894921b32dbb964020b52ac32fb19e248bc7d1bddf4289f2f0af790",
-    "status": "requested final refinement delivered; user has not yet reviewed v3",
+    "status": "user accepted v3: i think it is solid (2026-09-28)",
     "provenance": "creative/concepts/round-02/14-icebound-weather-post/manifest-v3.json"
+  },
+  "artwork_approval": {
+    "version": 3,
+    "date": "2026-09-28",
+    "feedback": "i think it's solid",
+    "scope": "Clean v3 images 06/07; does not approve newly generated thumbnails or audio"
+  },
+  "caption": "KEEPING THE LIGHTS ON",
+  "youtube_metadata": {
+    "status": "publication drafts; audio and duration claims deliberately absent until produced",
+    "title_file": "youtube-title.txt",
+    "title_sha256": "6c47ce98407e2f094692aa67e828d3f4b1c88d32e945c1c82484e2a64615f118",
+    "description_file": "description.txt",
+    "description_sha256": "7b35a76c3b5cf304b383b965f173bdf2a046d1f869c266636860a5b12342a4b1",
+    "tags_file": "youtube-tags.txt",
+    "tags_sha256": "788401a8b4582a479ad20f500347ddef2ceafbdef75cb4b107c3659a30898aa6",
+    "tags_characters_including_separators": 293,
+    "tags_characters_including_file_newline": 294,
+    "tags_count": 15,
+    "tag_limit_exclusive": 500,
+    "hashtags_count": 3,
+    "sign_off": "Welcome to Ambient Colony. Stay a while and listen.",
+    "keyword_note": "Scene-relevant phrases; not measured search volume or ranking guarantees"
+  },
+  "music_preparation": {
+    "status": "prompts prepared; no audio generated",
+    "files": [
+      {
+        "path": "music/README.md",
+        "sha256": "31299257119cd63ef09a8e526d87b1ef8cd49ebb4cc51861e374777a8d50e8d9"
+      },
+      {
+        "path": "music/elevenlabs-prompt-v1.txt",
+        "sha256": "511a349d52d8749cc51f310191ca81b823ed841e87832d8d00e3bcc079c44e75"
+      },
+      {
+        "path": "music/elevenlabs-long-version.txt",
+        "sha256": "d604b4b5f880e78d99fab145438fde24444ad5be2c9d5a19b37ebf50719b0db6"
+      },
+      {
+        "path": "music/generation-record.json",
+        "sha256": "0e109e4698c856d2fa014833d2571051d47d438399383a8bbcc9a3e4fc07aa21"
+      }
+    ],
+    "planned_test": "60 seconds, two variants; user runs manually after checking actual cost",
+    "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
+    "delivery_duration_seconds": null,
+    "credits_spent_by_assistant": 0,
+    "workflow": "creative/MUSIC_WORKFLOW.md",
+    "official_guidance": "https://elevenlabs.io/docs/overview/capabilities/music/best-practices",
+    "guidance_checked": "2026-09-28"
   }
 }

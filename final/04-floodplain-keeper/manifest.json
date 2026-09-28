@@ -77,5 +77,49 @@
     "mask_status": "draft source-coordinate masks; refine occlusion before rendering",
     "renderer_status": "scene adapter not implemented",
     "animation_rendered": false
+  },
+  "youtube_metadata": {
+    "status": "publication drafts; audio and duration claims deliberately absent until produced",
+    "title_file": "youtube-title.txt",
+    "title_sha256": "2e7e0d9159c74349ba02316c92c5e2c11c1df640e9d996d3ee97898072252f02",
+    "description_file": "description.txt",
+    "description_sha256": "ccc08e1ea3c9986c87c96014bdcac878426cd93023eeb5a282999af7bd17a7a4",
+    "tags_file": "youtube-tags.txt",
+    "tags_sha256": "2235788ae65e689eb67091916e2240b258ec775a76cd7eaaf7e5a42a1116ccaa",
+    "tags_characters_including_separators": 291,
+    "tags_characters_including_file_newline": 292,
+    "tags_count": 14,
+    "tag_limit_exclusive": 500,
+    "hashtags_count": 3,
+    "sign_off": "Welcome to Ambient Colony. Stay a while and listen.",
+    "keyword_note": "Scene-relevant phrases; not measured search volume or ranking guarantees"
+  },
+  "music_preparation": {
+    "status": "prompts prepared; no audio generated",
+    "files": [
+      {
+        "path": "music/README.md",
+        "sha256": "3f5e0e51c512eb0682871535713ee4817d1534c37f501b08d6fcaba5933dfc4c"
+      },
+      {
+        "path": "music/elevenlabs-prompt-v1.txt",
+        "sha256": "86e0af75493c4355bf821a3b85b6e3eaf20c2b0ebc70f238870850101eafb6be"
+      },
+      {
+        "path": "music/elevenlabs-long-version.txt",
+        "sha256": "702511dd806ce33f9bf1d0d80ba17e7b543df7967c61bf32709ed7abab2b3435"
+      },
+      {
+        "path": "music/generation-record.json",
+        "sha256": "0e109e4698c856d2fa014833d2571051d47d438399383a8bbcc9a3e4fc07aa21"
+      }
+    ],
+    "planned_test": "60 seconds, two variants; user runs manually after checking actual cost",
+    "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
+    "delivery_duration_seconds": null,
+    "credits_spent_by_assistant": 0,
+    "workflow": "creative/MUSIC_WORKFLOW.md",
+    "official_guidance": "https://elevenlabs.io/docs/overview/capabilities/music/best-practices",
+    "guidance_checked": "2026-09-28"
   }
 }
