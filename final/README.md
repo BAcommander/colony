@@ -15,8 +15,8 @@ Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subs
 | [03 - Glacier Sanctuary](03-glacier-sanctuary/) | [60 seconds, 4K](03-glacier-sanctuary/video-4k.mp4) | [JPEG](03-glacier-sanctuary/thumbnail-v1.jpg) |
 | [04 - Floodplain Keeper](04-floodplain-keeper/) | [Selected artwork](04-floodplain-keeper/artwork-v1.png); no video yet | [JPEG](04-floodplain-keeper/thumbnail-v1.jpg) |
 | [05 - Saltline Receiver](05-saltline-receiver/) | [Selected artwork](05-saltline-receiver/artwork-v1.png); no video yet | [JPEG](05-saltline-receiver/thumbnail-v1.jpg) |
-| [06 - The Last Cable Station](06-last-cable-station/) | [Concept v2](06-last-cable-station/artwork-v2-offworld.png); no video yet | Not produced |
-| [07 - Icebound Weather Post](07-icebound-weather-post/) | [Concept v2](07-icebound-weather-post/artwork-v2-offworld.png); no video yet | Not produced |
+| [06 - The Last Cable Station](06-last-cable-station/) | [Final edit v3](06-last-cable-station/artwork-v3-final.png); no video yet | Not produced |
+| [07 - Icebound Weather Post](07-icebound-weather-post/) | [Final edit v3](07-icebound-weather-post/artwork-v3-final.png); no video yet | Not produced |
 
 All videos are 3840x2160, 30 fps, silent, with upscaled source artwork. These are approved loop masters, not completed long-form music uploads. The video files are byte-identical copies of their original approved production exports; original paths remain available.
 

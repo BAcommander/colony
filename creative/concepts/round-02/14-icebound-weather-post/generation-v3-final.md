@@ -1,0 +1,11 @@
+# Final mineral refinement v3 — exact prompt
+
+Built-in image_gen, 2026-09-28. Edit target: catalog 07 artwork-v2-offworld.png. User requested final versions with more convincing, toned-down mineral bands. The output is the requested final edit; subsequent user visual review remains separate.
+
+Make a narrowly targeted final refinement of the supplied Icebound Weather Post image. Preserve the composition, low insulated weather station, mast, exactly three connected habitats, warm windows and entrance lights, stair and windbreaks, solid frozen sea, stepped ice coast, sky, ringed moon and photographic blue-hour lighting. Clean landscape 16:9, no graphics or text.
+
+Change ONLY the conspicuous pink/lavender horizontal stripes inside the background ice cliffs. Make these look like natural low-contrast dusty inclusions and irregular sediment trapped in old glacial ice, not painted lines. Reduce their saturation and contrast substantially, to roughly half the present prominence or less. Shift their pink hue toward subdued cool grey, faint grey-lilac and desaturated mineral brown mixed with the surrounding pale blue ice.
+
+Break the repetitive uniform spacing and broad continuous ribbons. Preserve a few thin intermittent strata with uneven thickness, gentle local deformation, fading edges and short discontinuous pockets. Interrupt them naturally with fractures, eroded ice faces, snow-covered ledges, occlusion and atmospheric haze. On the distant cliffs they should almost disappear. Broad pale blue compressed ice should dominate; retain depth and believable translucent/matte ice response without turning the cliff into smooth plastic. No candy-coloured stripes, ruler-straight markings, giant exposed crystals or glowing layers.
+
+All other established elements must stay in the same locations with the same scale, lighting and overall colour balance. Keep the distinctive alien ice geology and quiet other-worldly horizon, not a return to ordinary grey mountains. Do not add objects, change buildings, move the moon, add mist or snow particles, or alter camera framing. No HDR halos, excessive sharpening, people, spacecraft, lettering, watermark, border or UI. Return one finished clean photographic still suitable as the final source artwork.

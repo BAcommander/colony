@@ -1,6 +1,6 @@
 # The Last Cable Station - off-world concept prompt
 
-Prepared 2026-09-28. V1 is preserved. Current off-world revision is concept-v2-offworld.png, pending user review. See generation-v2-offworld.md and manifest-v2.json; their environment/architecture changes supersede the corresponding original directions below. Reference numbers follow ../photographic-locations-brief.md. Use references 1, 4 as visual references only.
+Prepared 2026-09-28. V1 is preserved. Current requested final refinement is concept-v3-final.png. See generation-v3-final.md and manifest-v3.json; it tones down the mineral bands in v2. Off-world environment/architecture directions in generation-v2-offworld.md supersede the original directions below. User review of the new v3 is not yet recorded. Reference numbers follow ../photographic-locations-brief.md. Use references 1, 4 as visual references only.
 
 ## Complete generation prompt
 

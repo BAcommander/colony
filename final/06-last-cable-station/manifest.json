@@ -2,7 +2,7 @@
   "title": "The Last Cable Station",
   "series_number": "06",
   "date": "2026-09-28",
-  "status": "concept candidate; user review pending",
+  "status": "requested final refinement delivered; user has not yet reviewed v3",
   "artwork": {
     "file": "artwork-v1.png",
     "source": "creative/concepts/round-02/13-last-cable-station/concept-v1.png",
@@ -21,18 +21,18 @@
   "video": null,
   "audio": null,
   "current_artwork_candidate": {
-    "file": "artwork-v2-offworld.png",
-    "sha256": "bc2b3264a9047257453f5aeb30e9080f9e69582a743bc34eeb9885581312c665",
-    "source": "creative/concepts/round-02/13-last-cable-station/concept-v2-offworld.png",
+    "file": "artwork-v3-final.png",
+    "sha256": "72fe97b682c4ff5de7ef577e2464163941c90a48fbf1268e4f8271e3afd97c37",
+    "source": "creative/concepts/round-02/13-last-cable-station/concept-v3-final.png",
     "dimensions": [
       1672,
       941
     ],
-    "bytes": 2144629,
+    "bytes": 2083439,
     "copy_verified": true,
-    "prompt": "artwork-prompt-v2.md",
-    "prompt_sha256": "73327277905d591b494763f76ddc0a34e22b70b02737c6b83f250caff6ce8b28",
-    "status": "generated off-world revision; user visual review pending",
-    "provenance": "creative/concepts/round-02/13-last-cable-station/manifest-v2.json"
+    "prompt": "artwork-prompt-v3.md",
+    "prompt_sha256": "3c39dacce5e971aaf95504940bb3eab1722b7042f5e89ffe8d790566fe7e620e",
+    "status": "requested final refinement delivered; user has not yet reviewed v3",
+    "provenance": "creative/concepts/round-02/13-last-cable-station/manifest-v3.json"
   }
 }

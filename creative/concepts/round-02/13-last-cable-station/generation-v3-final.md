@@ -1,0 +1,9 @@
+# Final mineral refinement v3 — exact prompt
+
+Built-in image_gen, 2026-09-28. Edit target: catalog 06 artwork-v2-offworld.png. User requested final versions with more convincing, toned-down mineral bands. The output is the requested final edit; subsequent user visual review remains separate.
+
+Make a narrowly targeted final refinement of the supplied Last Cable Station image. Preserve the exact composition, room, chair and jacket, equipment, cable route and pylon, ledge settlement, native rosettes, cloud banks, pale banded planet and photographic warm/cool lighting. Landscape 16:9, clean artwork with no text.
+
+Change ONLY the pink/red horizontal mineral stripes across the exterior cliff faces. They currently look too continuous, evenly spaced and painted on. Reduce their colour saturation and contrast substantially (roughly half the present prominence). Shift candy pink toward muted dusty iron-brown, grey-rose and the surrounding violet-grey stone. Replace continuous clean ribbons with sparse, irregular natural mineral-bearing layers: seams of varying thickness which taper, split into short lenses and disappear behind erosion, fractures, protruding columns, scree and weathered surfaces. Keep a few quiet traces of geological layering, but remove the repetitive decorative striped pattern. On distant cliffs let the seams largely disappear into atmospheric haze. Preserve rock depth, vertical column structure and natural illumination; do not smooth away the cliff material or recolour the entire landscape.
+
+The result must remain recognizably off-world through the existing geology, native plants, colony construction and planet, with more convincing restrained rock textures. No new objects or changes to celestial body size, furniture, architecture, clouds, vegetation, camera, framing or exposure. No additional detail everywhere, neon, HDR, sharpening halos, titles, watermark or border. Output one clean finished photographic still.

@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "date": "2026-09-28",
+  "series_number": "06",
+  "status": "requested final refinement delivered; user has not yet reviewed v3",
+  "file": "concept-v3-final.png",
+  "sha256": "72fe97b682c4ff5de7ef577e2464163941c90a48fbf1268e4f8271e3afd97c37",
+  "bytes": 2083439,
+  "dimensions": [
+    1672,
+    941
+  ],
+  "source": "final/06-last-cable-station/artwork-v2-offworld.png",
+  "source_sha256": "bc2b3264a9047257453f5aeb30e9080f9e69582a743bc34eeb9885581312c665",
+  "method": "Built-in image_gen targeted mineral-band edit",
+  "prompt": "generation-v3-final.md",
+  "prompt_sha256": "3c39dacce5e971aaf95504940bb3eab1722b7042f5e89ffe8d790566fe7e620e",
+  "user_feedback": "yeah make them more convincing, tone them down a little too, make the final 2 versions of these images",
+  "observed_change": "Muted, broken iron-brown/grey-rose seams blend into the columnar rock.",
+  "inspection": "Generated still visually inspected: bands visibly subdued and less continuous, recognizable composition and lighting retained. No pixel-identity claim.",
+  "animation_created": false,
+  "thumbnail_created": false
+}

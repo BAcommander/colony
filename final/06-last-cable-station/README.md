@@ -12,6 +12,10 @@ Cables, pylon contacts and distant access details need closer scene-specific rev
 
 No thumbnail, animation or soundtrack produced yet. Preserve this version; finish art selection before mapping animation masks.
 
-## Current candidate: off-world v2
+## Previous revision: off-world v2
 
 [View artwork-v2-offworld.png](artwork-v2-offworld.png). Violet-grey columnar geology with mineral seams; Sparse blue-grey rosette ground-cover; Cloud-veiled banded planet; Insulated ledge habitats. Exact edit prompt: [artwork-prompt-v2.md](artwork-prompt-v2.md). User review pending; v1 preserved. No animation or thumbnail produced.
+
+## Current final edit: v3
+
+[artwork-v3-final.png](artwork-v3-final.png) is the requested final refinement. Muted, broken iron-brown/grey-rose seams blend into the columnar rock. Exact prompt: [artwork-prompt-v3.md](artwork-prompt-v3.md). Earlier versions remain preserved. The user requested this final edit; subsequent review of v3 is not yet recorded. No animation or thumbnail produced.

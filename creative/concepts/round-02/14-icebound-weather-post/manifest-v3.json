@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "date": "2026-09-28",
+  "series_number": "07",
+  "status": "requested final refinement delivered; user has not yet reviewed v3",
+  "file": "concept-v3-final.png",
+  "sha256": "5b49468b673b762a63909defa6b202f0bff19755cd829f84c1390d63702d499d",
+  "bytes": 2412148,
+  "dimensions": [
+    1672,
+    941
+  ],
+  "source": "final/07-icebound-weather-post/artwork-v2-offworld.png",
+  "source_sha256": "a31878e25a7fdc77edde81512341c05272c5af79ece23a631036a96b48d6d705",
+  "method": "Built-in image_gen targeted mineral-band edit",
+  "prompt": "generation-v3-final.md",
+  "prompt_sha256": "d6c7bb72d894921b32dbb964020b52ac32fb19e248bc7d1bddf4289f2f0af790",
+  "user_feedback": "yeah make them more convincing, tone them down a little too, make the final 2 versions of these images",
+  "observed_change": "Faint grey mineral inclusions replace conspicuous lavender stripes in the ice cliffs.",
+  "inspection": "Generated still visually inspected: bands visibly subdued and less continuous, recognizable composition and lighting retained. No pixel-identity claim.",
+  "animation_created": false,
+  "thumbnail_created": false
+}

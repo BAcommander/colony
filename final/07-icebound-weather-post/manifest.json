@@ -2,7 +2,7 @@
   "title": "Icebound Weather Post",
   "series_number": "07",
   "date": "2026-09-28",
-  "status": "concept candidate; user review pending",
+  "status": "requested final refinement delivered; user has not yet reviewed v3",
   "artwork": {
     "file": "artwork-v1.png",
     "source": "creative/concepts/round-02/14-icebound-weather-post/concept-v1.png",
@@ -21,18 +21,18 @@
   "video": null,
   "audio": null,
   "current_artwork_candidate": {
-    "file": "artwork-v2-offworld.png",
-    "sha256": "a31878e25a7fdc77edde81512341c05272c5af79ece23a631036a96b48d6d705",
-    "source": "creative/concepts/round-02/14-icebound-weather-post/concept-v2-offworld.png",
+    "file": "artwork-v3-final.png",
+    "sha256": "5b49468b673b762a63909defa6b202f0bff19755cd829f84c1390d63702d499d",
+    "source": "creative/concepts/round-02/14-icebound-weather-post/concept-v3-final.png",
     "dimensions": [
       1672,
       941
     ],
-    "bytes": 2532865,
+    "bytes": 2412148,
     "copy_verified": true,
-    "prompt": "artwork-prompt-v2.md",
-    "prompt_sha256": "493f047e388e78c12ce3d4d382dd3e60dcdf752cac7f26f4c4180fd8dbf31646",
-    "status": "generated off-world revision; user visual review pending",
-    "provenance": "creative/concepts/round-02/14-icebound-weather-post/manifest-v2.json"
+    "prompt": "artwork-prompt-v3.md",
+    "prompt_sha256": "d6c7bb72d894921b32dbb964020b52ac32fb19e248bc7d1bddf4289f2f0af790",
+    "status": "requested final refinement delivered; user has not yet reviewed v3",
+    "provenance": "creative/concepts/round-02/14-icebound-weather-post/manifest-v3.json"
   }
 }
