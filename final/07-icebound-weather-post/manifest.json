@@ -1,0 +1,23 @@
+{
+  "title": "Icebound Weather Post",
+  "series_number": "07",
+  "date": "2026-09-28",
+  "status": "concept candidate; user review pending",
+  "artwork": {
+    "file": "artwork-v1.png",
+    "source": "creative/concepts/round-02/14-icebound-weather-post/concept-v1.png",
+    "sha256": "c3a383078a94af14196abb34a9d0285a24be64b1d8ec5aeddc54464ff02f614a",
+    "bytes": 2318590,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "copy_verified": true
+  },
+  "prompt": "artwork-prompt-v1.md",
+  "prompt_sha256": "aeeeac1ad2b7dbe22e13f5ccf5d47ed51552fb36c626975d97308fb652d56744",
+  "provenance": "creative/concepts/round-02/14-icebound-weather-post/manifest-v1.json",
+  "thumbnail": null,
+  "video": null,
+  "audio": null
+}

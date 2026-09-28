@@ -1,0 +1,37 @@
+{
+  "title": "The Last Cable Station",
+  "series_number": "06",
+  "creative_concept_number": "13",
+  "version": 1,
+  "date": "2026-09-28",
+  "status": "generated concept; user visual review pending",
+  "file": "concept-v1.png",
+  "sha256": "c13472cd7f86eb253a289893cf08ea1b8943467910ec2282257cec1b89211d17",
+  "bytes": 2186716,
+  "dimensions": [
+    1672,
+    941
+  ],
+  "method": "Built-in image_gen",
+  "prompt": "generation-v1.md",
+  "prompt_sha256": "51731bfd09b7a4d2ebce16e423e66d543d3c70d0363c14019533e3151be98a0a",
+  "references": [
+    {
+      "file": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-09\\chrome_BjB6OUDipV.png",
+      "sha256": "dbc05775a765972139375f4f43a8160064cc33b5b63d486d9b6bcb771e218bcf",
+      "role": "visual construction/material/lighting reference only; screenshot UI excluded",
+      "included_in_repo": false
+    },
+    {
+      "file": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-09\\chrome_B2h9FZU1sj.png",
+      "sha256": "37bac6f91b2c36c1f38d32969c9f83d2ee950810806f9c8300fe4a07d1137693",
+      "role": "visual construction/material/lighting reference only; screenshot UI excluded",
+      "included_in_repo": false
+    }
+  ],
+  "visual_inspection": "Warm operator booth, supported cable route, receiving terminal and colony on a distant ledge; layered valley clouds.",
+  "review_limitations": "Cables, pylon contacts and distant access details need closer scene-specific review before animation; generated concept is not engineering verification.",
+  "animation_created": false,
+  "thumbnail_created": false,
+  "package": "final/06-last-cable-station"
+}

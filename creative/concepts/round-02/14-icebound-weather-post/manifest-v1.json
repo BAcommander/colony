@@ -1,0 +1,37 @@
+{
+  "title": "Icebound Weather Post",
+  "series_number": "07",
+  "creative_concept_number": "14",
+  "version": 1,
+  "date": "2026-09-28",
+  "status": "generated concept; user visual review pending",
+  "file": "concept-v1.png",
+  "sha256": "c3a383078a94af14196abb34a9d0285a24be64b1d8ec5aeddc54464ff02f614a",
+  "bytes": 2318590,
+  "dimensions": [
+    1672,
+    941
+  ],
+  "method": "Built-in image_gen",
+  "prompt": "generation-v1.md",
+  "prompt_sha256": "aeeeac1ad2b7dbe22e13f5ccf5d47ed51552fb36c626975d97308fb652d56744",
+  "references": [
+    {
+      "file": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-09\\chrome_yQu1p9aa4k.png",
+      "sha256": "d1bb0196e276b9d8bec3cf24e7de1374ff5e50879424bd798a9df46131114b61",
+      "role": "visual construction/material/lighting reference only; screenshot UI excluded",
+      "included_in_repo": false
+    },
+    {
+      "file": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-09\\chrome_uDMM1Uc2p3.png",
+      "sha256": "d0dd23bd24ad2a717de3d52418c70cd45b352201b2e32d3a5166de1e36901c7e",
+      "role": "visual construction/material/lighting reference only; screenshot UI excluded",
+      "included_in_repo": false
+    }
+  ],
+  "visual_inspection": "Low weather station, three linked habitats, matte frozen sea, warm windows and small ringed moon.",
+  "review_limitations": "Snow/haze and any vent anchors require mapping after art selection; do not shift ice or moon.",
+  "animation_created": false,
+  "thumbnail_created": false,
+  "package": "final/07-icebound-weather-post"
+}

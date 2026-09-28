@@ -41,5 +41,23 @@
     "thumbnail": "thumbnail-v1.jpg",
     "animation_artwork_candidate": "artwork-v2-animation.png",
     "animation_preparation": "animation-prep-v1/scene-plan.json"
+  },
+  {
+    "folder": "06-last-cable-station",
+    "title": "The Last Cable Station",
+    "status": "concept candidate; user review pending",
+    "artwork": "artwork-v1.png",
+    "duration_seconds": null,
+    "video": null,
+    "thumbnail": null
+  },
+  {
+    "folder": "07-icebound-weather-post",
+    "title": "Icebound Weather Post",
+    "status": "concept candidate; user review pending",
+    "artwork": "artwork-v1.png",
+    "duration_seconds": null,
+    "video": null,
+    "thumbnail": null
   }
 ]

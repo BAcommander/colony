@@ -1,6 +1,6 @@
 # Ambient Colony - final exports
 
-Three approved video packages (01-03) and two selected artwork packages (04-05). Each includes thumbnail masters, exact image-generation prompts and provenance. New thumbnails 04-05 await user review; animations for those scenes have not been produced.
+Three approved video packages (01-03), two selected artwork/thumbnail packages (04-05), and two new concept candidates (06-07). Exact image-generation prompts and provenance are saved. New thumbnails 04-05 await user review; animations for scenes 04-07 have not been produced. Concepts 06-07 await art review and have no thumbnails yet.
 
 Packages 04-05 also contain revised text-free `artwork-v2-animation.png` candidates with the stronger thumbnail lighting. Their `animation-prep-v1/` folders contain source-coordinate draft masks, scene plans and production briefs; this is preparation, not a rendered animation. Original selected artwork and thumbnails remain unchanged.
 
@@ -15,6 +15,8 @@ Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subs
 | [03 - Glacier Sanctuary](03-glacier-sanctuary/) | [60 seconds, 4K](03-glacier-sanctuary/video-4k.mp4) | [JPEG](03-glacier-sanctuary/thumbnail-v1.jpg) |
 | [04 - Floodplain Keeper](04-floodplain-keeper/) | [Selected artwork](04-floodplain-keeper/artwork-v1.png); no video yet | [JPEG](04-floodplain-keeper/thumbnail-v1.jpg) |
 | [05 - Saltline Receiver](05-saltline-receiver/) | [Selected artwork](05-saltline-receiver/artwork-v1.png); no video yet | [JPEG](05-saltline-receiver/thumbnail-v1.jpg) |
+| [06 - The Last Cable Station](06-last-cable-station/) | [Concept v1](06-last-cable-station/artwork-v1.png); no video yet | Not produced |
+| [07 - Icebound Weather Post](07-icebound-weather-post/) | [Concept v1](07-icebound-weather-post/artwork-v1.png); no video yet | Not produced |
 
 All videos are 3840x2160, 30 fps, silent, with upscaled source artwork. These are approved loop masters, not completed long-form music uploads. The video files are byte-identical copies of their original approved production exports; original paths remain available.
 

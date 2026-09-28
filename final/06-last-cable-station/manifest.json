@@ -1,0 +1,23 @@
+{
+  "title": "The Last Cable Station",
+  "series_number": "06",
+  "date": "2026-09-28",
+  "status": "concept candidate; user review pending",
+  "artwork": {
+    "file": "artwork-v1.png",
+    "source": "creative/concepts/round-02/13-last-cable-station/concept-v1.png",
+    "sha256": "c13472cd7f86eb253a289893cf08ea1b8943467910ec2282257cec1b89211d17",
+    "bytes": 2186716,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "copy_verified": true
+  },
+  "prompt": "artwork-prompt-v1.md",
+  "prompt_sha256": "51731bfd09b7a4d2ebce16e423e66d543d3c70d0363c14019533e3151be98a0a",
+  "provenance": "creative/concepts/round-02/13-last-cable-station/manifest-v1.json",
+  "thumbnail": null,
+  "video": null,
+  "audio": null
+}

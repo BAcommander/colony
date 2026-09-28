@@ -1,6 +1,6 @@
 # Ambient Colony - photographic location concepts, round 02
 
-Prepared 2026-09-28. The Floodplain Keeper was subsequently generated on this date; see the current 11-floodplain-keeper/concept-v4-offworld.png and its generation record. The earlier v3 room is preserved. Saltline Receiver current candidate is 12-saltline-receiver/concept-v3-martian-structures.png: red-world geology plus insulated colony architecture, following feedback that v1 resembled Basalt and the buildings needed more off-world character. Both concepts await visual review; the remaining eight are ungenerated. The user prefers the clean, realistic appearance of four supplied reference screenshots. The observations below describe their visible qualities; they do not establish whether the originals were photographed, rendered or AI-generated.
+Prepared 2026-09-28. The Floodplain Keeper was subsequently generated on this date; see the current 11-floodplain-keeper/concept-v4-offworld.png and its generation record. The earlier v3 room is preserved. Saltline Receiver current candidate is 12-saltline-receiver/concept-v3-martian-structures.png: red-world geology plus insulated colony architecture, following feedback that v1 resembled Basalt and the buildings needed more off-world character. Current delivery status is recorded in round-02/README.md and final/catalog.json. Floodplain and Saltline have packages 04/05 with newer clean animation-art candidates. The Last Cable Station and Icebound Weather Post v1 are now generated as catalog 06/07, pending art review; concepts 15-20 remain ungenerated. The user prefers the clean, realistic appearance of four supplied reference screenshots. The observations below describe their visible qualities; they do not establish whether the originals were photographed, rendered or AI-generated.
 
 ## Visual diagnosis
 
@@ -114,7 +114,7 @@ Natural 50 mm full-frame-equivalent photograph from a neighbouring ridge at a cr
 
 ## Review before expanding the batch
 
-The Floodplain interior now exists as off-world v4, with review pending. Test an exterior next when generation is authorized. Inspect their actual construction and foreground at full size before committing to the other eight. If they look synthetic, fix the concrete cause: shiny floor, malformed desk, excessive edge contrast, implausible supports or uniform weathering. Do not respond by adding more superlatives.
+The Floodplain interior now exists as off-world v4, with review pending. Test an exterior next when generation is authorized. Inspect their actual construction and foreground at full size before expanding the remaining six. If they look synthetic, fix the concrete cause: shiny floor, malformed desk, excessive edge contrast, implausible supports or uniform weathering. Do not respond by adding more superlatives.
 
 At thumbnail size the image should have one recognizable subject and calm depth. At full size verify object silhouettes, feet/supports, handles, railings, stairs, repeated panels, shadows and cable endpoints. One light direction should explain most shadows. Distant ridges should not be as sharp and contrasty as nearby equipment.
 
