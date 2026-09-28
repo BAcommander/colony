@@ -26,6 +26,8 @@ Make the scene feel like an inviting place to spend time. Use the actual video a
 
 ## Repeat the workflow
 
+Learning from 04-05 (2026-09-28): generated thumbnails improved lighting and depth enough that the user preferred their look to the original concepts. Finish that cinematic treatment on a clean source plate before animation and typography in future. If deriving a clean plate from a thumbnail, remove all brand/title graphics with built-in image generation and use the original art only as hidden-geometry reference. Save as a new version, inspect scene drift, and remap animation masks. Never imply text removal is pixel-preserving or silently replace already approved artwork.
+
 1. Read this guide and inspect `01-ringfall-observatory/thumbnail-v1.png` as the established identity. Inspect the new video's actual source artwork too.
 2. Use the built-in image-generation tool; no API key, paid plugin or external video service. Supply the new scene as image 1 (edit target), and the approved Ringfall thumbnail as image 2 (style only). One call per thumbnail.
 3. Reuse the exact prompts saved beside each thumbnail. Specify every word verbatim, the scene's protected focal point, left/right title placement and the next catalog number. Do not import the reference scene's planet, furniture or landscape.

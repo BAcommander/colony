@@ -27,7 +27,9 @@
     "artwork": "artwork-v1.png",
     "duration_seconds": null,
     "video": null,
-    "thumbnail": "thumbnail-v1.jpg"
+    "thumbnail": "thumbnail-v1.jpg",
+    "animation_artwork_candidate": "artwork-v2-animation.png",
+    "animation_preparation": "animation-prep-v1/scene-plan.json"
   },
   {
     "folder": "05-saltline-receiver",
@@ -36,6 +38,8 @@
     "artwork": "artwork-v1.png",
     "duration_seconds": null,
     "video": null,
-    "thumbnail": "thumbnail-v1.jpg"
+    "thumbnail": "thumbnail-v1.jpg",
+    "animation_artwork_candidate": "artwork-v2-animation.png",
+    "animation_preparation": "animation-prep-v1/scene-plan.json"
   }
 ]

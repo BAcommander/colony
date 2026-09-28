@@ -1,5 +1,9 @@
 # Ambient Colony — working instructions
 
+Animation artwork preparation (2026-09-28): packages 04/05 now also contain `artwork-v2-animation.png`, derived from their stronger thumbnail lighting with all title graphics removed. These are new candidates pending user visual review, not approved replacements for v1. Each `animation-prep-v1/` contains a production brief, source-hash-bound scene plan and five draft effect masks, reproducible with `scripts/build_preparation_masks.py`. This is preparation only: scene renderer adapters and mask-edge refinement are still required; no animations have been rendered. Floodplain prioritizes channel reflections and clouds; Saltline prioritizes cloud transport plus independent near/far dust. Do not start with tiny screen/beacon edits while the background is still static.
+
+Art direction lesson: image-generated thumbnails can alter lighting, contrast, scenery and composition as well as add lettering. Carry useful depth separation, warm practical lights and readable atmospheric forms into a clean source plate before motion mapping. A thumbnail is not a pixel-preserved source. Freeze/hash the revised plate and remap coordinates; never reuse masks from the older composition. Prefer finishing the clean cinematic art first, then adding typography for future packages.
+
 Current artwork packages (2026-09-28): user selected Floodplain Keeper v4 off-world and Saltline Receiver v3 Martian structures for catalog 04 and 05. Clean byte-identical artwork copies, generated thumbnail PNGs, 1280x720 JPEGs, exact prompts and provenance are in `final/04-floodplain-keeper/` and `final/05-saltline-receiver/`. Continue the approved Ringfall thumbnail identity; new thumbnails await user review. These two packages contain artwork only, with no animation or soundtrack yet. Catalog numbering is distinct from creative concept numbers 11/12. Preserve original concept versions.
 
 ## Current authority and approved result

@@ -2,6 +2,8 @@
 
 Three approved video packages (01-03) and two selected artwork packages (04-05). Each includes thumbnail masters, exact image-generation prompts and provenance. New thumbnails 04-05 await user review; animations for those scenes have not been produced.
 
+Packages 04-05 also contain revised text-free `artwork-v2-animation.png` candidates with the stronger thumbnail lighting. Their `animation-prep-v1/` folders contain source-coordinate draft masks, scene plans and production briefs; this is preparation, not a rendered animation. Original selected artwork and thumbnails remain unchanged.
+
 Video packages 01-03 also include `description.txt` and `youtube-tags.txt` for copying into YouTube Studio. The search-tag list is comma-separated and below 500 characters per video. Read [DESCRIPTION_STYLE.md](DESCRIPTION_STYLE.md) for the shared voice, approved sign-off and metadata conventions.
 
 Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subscribe-v1/README.md). Green-screen and transparent exports are local review files until accepted; the source renderer, fonts and production notes are portable.

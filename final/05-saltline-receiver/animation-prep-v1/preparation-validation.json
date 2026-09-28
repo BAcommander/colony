@@ -1,0 +1,42 @@
+{
+  "status": "draft mask rasterization verified; visual edge review pending",
+  "source_sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
+  "plan_sha256": "6eb7f22f183c30b60c18edcc6f199ee19451e9726e48eef61c68b6c8ed8de7d7",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "animation_rendered": false,
+  "masks": [
+    {
+      "name": "sky",
+      "path": "masks/sky.png",
+      "sha256": "bcf916726a25362f3806131de41726ae3c0e5a2ea29341e03d82acc6d74396d2",
+      "active_pixels": 526053
+    },
+    {
+      "name": "far_dust",
+      "path": "masks/far_dust.png",
+      "sha256": "18810890910370e828ad725f25c60997fd31192029505848a24ce3893c2ea551",
+      "active_pixels": 18568
+    },
+    {
+      "name": "near_dust",
+      "path": "masks/near_dust.png",
+      "sha256": "fc718ac43c7fc130896d884f2dad0a0dd9baefd108580247a9b6af8ff50989ed",
+      "active_pixels": 17954
+    },
+    {
+      "name": "habitat_windows",
+      "path": "masks/habitat_windows.png",
+      "sha256": "b0da7c768fe5844b377d0c941d49602a49f6f15a83f61dfe837609dd777b5bfc",
+      "active_pixels": 1974
+    },
+    {
+      "name": "service_lamp",
+      "path": "masks/service_lamp.png",
+      "sha256": "e9851df91fe6700461b37350f57016ea66271aaebbb9480f5f466933c85c4441",
+      "active_pixels": 106
+    }
+  ]
+}

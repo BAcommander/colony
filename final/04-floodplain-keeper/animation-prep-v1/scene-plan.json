@@ -1,0 +1,434 @@
+{
+  "status": "preparation only; artwork candidate awaiting user review; no animation renderer connected",
+  "coordinate_system": "source pixels, origin top left; inclusive polygon coordinates",
+  "output": {
+    "duration_seconds": 20,
+    "fps": 30,
+    "frames": 600,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "audio": false,
+    "version": "v1",
+    "note": "Native plate 1672x941; 4K delivery would be resampled, not native 4K detail."
+  },
+  "loop_rules": [
+    "One configured duration, no duplicate endpoint",
+    "Forward transport with invisible local particle resets; no ping-pong or full-frame dissolve",
+    "Match state and velocity through encoded seam; verify every layer and full encoded composite",
+    "Test unquantized natural speed first; quantify speed changes if cycle quantization alters slow effects"
+  ],
+  "review": {
+    "approved": false,
+    "inspection_performed": [
+      "Generated still inspected for text removal, composition and photographic lighting"
+    ],
+    "technical_report": "preparation-validation.json",
+    "user_feedback": null,
+    "motion_review": "not rendered"
+  },
+  "delivery": {
+    "final_path": null,
+    "final_sha256": null,
+    "tracked_in_git": false
+  },
+  "scene_name": "Floodplain Keeper",
+  "source": {
+    "path": "final/04-floodplain-keeper/artwork-v2-animation.png",
+    "sha256": "1e9c4da5a9c01393c9e2f8105ed7023b5bbbaa58f83d613b70a32184fa676c26",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "protected_geometry": [
+    "All room surfaces, furniture, beaker silhouette, window/door frames and glass marks",
+    "Sluice gate, railings, service pipes, fixed waterline and marsh vegetation",
+    "Colony architecture and mast; moon removed from moving texture source as well as output exclusion",
+    "Steady desk lamp and global exposure"
+  ],
+  "principal_motion": [
+    "Broad water reflection bands visibly travel across the open right-hand channel",
+    "Cloud formations drift horizontally above the colony without shifting moon or ridge"
+  ],
+  "layers": [
+    {
+      "name": "sky",
+      "role": "principal",
+      "mask_path": "masks/sky.png",
+      "mask_status": "draft source-coordinate mask; edge/occlusion review required before animation",
+      "include": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              465,
+              35
+            ],
+            [
+              1290,
+              39
+            ],
+            [
+              1290,
+              180
+            ],
+            [
+              1190,
+              191
+            ],
+            [
+              1080,
+              206
+            ],
+            [
+              984,
+              243
+            ],
+            [
+              900,
+              244
+            ],
+            [
+              782,
+              223
+            ],
+            [
+              693,
+              217
+            ],
+            [
+              590,
+              215
+            ],
+            [
+              465,
+              211
+            ]
+          ]
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              28,
+              4
+            ],
+            [
+              184,
+              4
+            ],
+            [
+              184,
+              188
+            ],
+            [
+              28,
+              188
+            ]
+          ]
+        }
+      ],
+      "exclude": [
+        {
+          "type": "ellipse",
+          "center": [
+            1080,
+            111
+          ],
+          "radii": [
+            38,
+            40
+          ]
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              667,
+              137
+            ],
+            [
+              691,
+              137
+            ],
+            [
+              691,
+              240
+            ],
+            [
+              667,
+              240
+            ]
+          ]
+        }
+      ],
+      "method": "Adapt Basalt source-cloud transport; shared world-space sampling through separate window apertures",
+      "parameters": {
+        "trial_speed_source_px_per_second": 2,
+        "direction": "right",
+        "feather_inward_px": 8,
+        "remove_moon_from_texture": true
+      },
+      "visual_acceptance": "A recognizable cloud edge travels 12-20 source pixels in 8 seconds; no doubling, sliding frame texture or replicated moon."
+    },
+    {
+      "name": "water",
+      "role": "principal",
+      "mask_path": "masks/water.png",
+      "mask_status": "draft source-coordinate mask; edge/occlusion review required before animation",
+      "include": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              912,
+              417
+            ],
+            [
+              993,
+              421
+            ],
+            [
+              1045,
+              437
+            ],
+            [
+              1178,
+              449
+            ],
+            [
+              1204,
+              468
+            ],
+            [
+              1002,
+              477
+            ],
+            [
+              929,
+              465
+            ]
+          ]
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              780,
+              432
+            ],
+            [
+              836,
+              426
+            ],
+            [
+              889,
+              435
+            ],
+            [
+              913,
+              451
+            ],
+            [
+              877,
+              458
+            ],
+            [
+              823,
+              447
+            ]
+          ]
+        }
+      ],
+      "exclude": [],
+      "method": "Adapt Glacier 24-wave reflection method with channel perspective calibrated to this camera",
+      "parameters": {
+        "components": 24,
+        "time_scale_initial": 0.09,
+        "sampling_filter_required": true,
+        "boundary_damping_required": true,
+        "feather_inward_px": 5,
+        "preserve_fixed_waterline": true
+      },
+      "visual_acceptance": "Broad restrained reflection deformation visible at 720p; never liquid concrete, drifting reeds, fast glints or glowing stripes. Draft open-water polygons need shoreline/reed refinement."
+    },
+    {
+      "name": "screen",
+      "role": "support",
+      "mask_path": "masks/screen.png",
+      "mask_status": "draft source-coordinate mask; edge/occlusion review required before animation",
+      "include": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              932,
+              511
+            ],
+            [
+              994,
+              506
+            ],
+            [
+              998,
+              567
+            ],
+            [
+              939,
+              571
+            ]
+          ]
+        }
+      ],
+      "exclude": [],
+      "method": "Perspective-confined telemetry mark on existing screen",
+      "parameters": {
+        "period_seconds": 20,
+        "keep_layout": true,
+        "keep_screen_luminance": true
+      },
+      "visual_acceptance": "Small slow chart marker readable without replacing the screen, moving bezel or flickering."
+    },
+    {
+      "name": "colony_windows",
+      "role": "support",
+      "mask_path": "masks/colony_windows.png",
+      "mask_status": "draft source-coordinate mask; edge/occlusion review required before animation",
+      "include": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              581,
+              288
+            ],
+            [
+              594,
+              288
+            ],
+            [
+              594,
+              303
+            ],
+            [
+              581,
+              303
+            ]
+          ]
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              739,
+              292
+            ],
+            [
+              748,
+              292
+            ],
+            [
+              748,
+              305
+            ],
+            [
+              739,
+              305
+            ]
+          ]
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              632,
+              290
+            ],
+            [
+              640,
+              290
+            ],
+            [
+              640,
+              303
+            ],
+            [
+              632,
+              303
+            ]
+          ]
+        }
+      ],
+      "exclude": [],
+      "method": "Independent full-aperture light schedules with limited coupled spill",
+      "parameters": {
+        "schedules_seconds": [
+          {
+            "start": 3,
+            "off_hold": 3,
+            "fade": 1
+          },
+          {
+            "start": 11,
+            "off_hold": 4,
+            "fade": 1
+          },
+          {
+            "start": 16,
+            "off_hold": 2,
+            "fade": 0.8
+          }
+        ],
+        "minimum_brightness": 0.18,
+        "keep_other_windows_steady": true
+      },
+      "visual_acceptance": "Two or three distinct window changes; no synchronized blinking and no unmasked white cores."
+    },
+    {
+      "name": "mast",
+      "role": "support",
+      "mask_path": "masks/mast.png",
+      "mask_status": "draft source-coordinate mask; edge/occlusion review required before animation",
+      "include": [
+        {
+          "type": "ellipse",
+          "center": [
+            679,
+            167
+          ],
+          "radii": [
+            4,
+            4
+          ]
+        }
+      ],
+      "exclude": [],
+      "method": "Small local beacon envelope",
+      "parameters": {
+        "period_seconds": 10,
+        "minimum_brightness": 0.3,
+        "maximum_gain": 1.25
+      },
+      "visual_acceptance": "Quiet, visible local beacon pulse; no lighting of sky or station."
+    }
+  ],
+  "build_order": [
+    "sky isolated 8s actual-speed full-scene preview",
+    "water isolated 8s actual-speed full-scene preview",
+    "refine water geometry/masks before adding supports",
+    "support effects and 20s composite",
+    "encoded seam and 3-repeat checks; then 4K"
+  ],
+  "implementation_notes": [
+    "These mask regions are deliberately conservative draft calibration, not final segmentation.",
+    "Do not apply water_surface.py unchanged: its perspective mapping and sampled reflection repair need this channel's coordinates.",
+    "Skip beaker steam in the first build; principal scene motion must work first.",
+    "Left and main windows must sample one coherent external atmosphere."
+  ]
+}

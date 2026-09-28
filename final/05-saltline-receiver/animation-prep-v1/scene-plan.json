@@ -1,0 +1,453 @@
+{
+  "status": "preparation only; artwork candidate awaiting user review; no animation renderer connected",
+  "coordinate_system": "source pixels, origin top left; inclusive polygon coordinates",
+  "output": {
+    "duration_seconds": 20,
+    "fps": 30,
+    "frames": 600,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "audio": false,
+    "version": "v1",
+    "note": "Native plate 1672x941; 4K delivery would be resampled, not native 4K detail."
+  },
+  "loop_rules": [
+    "One configured duration, no duplicate endpoint",
+    "Forward transport with invisible local particle resets; no ping-pong or full-frame dissolve",
+    "Match state and velocity through encoded seam; verify every layer and full encoded composite",
+    "Test unquantized natural speed first; quantify speed changes if cycle quantization alters slow effects"
+  ],
+  "review": {
+    "approved": false,
+    "inspection_performed": [
+      "Generated still inspected for text removal, composition and photographic lighting"
+    ],
+    "technical_report": "preparation-validation.json",
+    "user_feedback": null,
+    "motion_review": "not rendered"
+  },
+  "delivery": {
+    "final_path": null,
+    "final_sha256": null,
+    "tracked_in_git": false
+  },
+  "scene_name": "Saltline Receiver",
+  "source": {
+    "path": "final/05-saltline-receiver/artwork-v2-animation.png",
+    "sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "protected_geometry": [
+    "Three dishes and all supports; no rotation, wobble or texture deformation",
+    "Habitat pressure shells, windows except light masks, conduit, tracks and terrain silhouettes",
+    "Sun disc and halo removed from moving sampled texture",
+    "Dry salt crust remains solid, no water simulation"
+  ],
+  "principal_motion": [
+    "Forward travel in upper cloud bands",
+    "Independent thin dust veils across middle and far dry salt basin"
+  ],
+  "layers": [
+    {
+      "name": "sky",
+      "role": "principal",
+      "mask_path": "masks/sky.png",
+      "mask_status": "draft source-coordinate mask; edge/occlusion review required before animation",
+      "include": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              1671,
+              0
+            ],
+            [
+              1671,
+              304
+            ],
+            [
+              1540,
+              314
+            ],
+            [
+              1432,
+              327
+            ],
+            [
+              1350,
+              314
+            ],
+            [
+              1220,
+              305
+            ],
+            [
+              1080,
+              316
+            ],
+            [
+              993,
+              334
+            ],
+            [
+              820,
+              337
+            ],
+            [
+              752,
+              325
+            ],
+            [
+              620,
+              338
+            ],
+            [
+              504,
+              321
+            ],
+            [
+              436,
+              333
+            ],
+            [
+              393,
+              310
+            ],
+            [
+              260,
+              270
+            ],
+            [
+              130,
+              273
+            ],
+            [
+              130,
+              324
+            ],
+            [
+              0,
+              326
+            ]
+          ]
+        }
+      ],
+      "exclude": [
+        {
+          "type": "ellipse",
+          "center": [
+            62,
+            316
+          ],
+          "radii": [
+            44,
+            45
+          ]
+        }
+      ],
+      "method": "Adapt Basalt coherent cloud texture transport, not high-pass shimmer",
+      "parameters": {
+        "trial_speed_source_px_per_second": 2.5,
+        "direction": "right",
+        "feather_inward_px": 10,
+        "remove_sun_from_texture": true
+      },
+      "visual_acceptance": "Upper clouds visibly shift ~20 source pixels in 8 seconds while sun, dish outlines and terrain stay still."
+    },
+    {
+      "name": "far_dust",
+      "role": "principal",
+      "mask_path": "masks/far_dust.png",
+      "mask_status": "draft source-coordinate mask; edge/occlusion review required before animation",
+      "include": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              736,
+              411
+            ],
+            [
+              1090,
+              408
+            ],
+            [
+              1190,
+              421
+            ],
+            [
+              1155,
+              454
+            ],
+            [
+              926,
+              457
+            ],
+            [
+              762,
+              443
+            ]
+          ]
+        }
+      ],
+      "exclude": [],
+      "method": "Two broad sparse advected density veils with independent phases",
+      "parameters": {
+        "direction": "right",
+        "trial_speed_source_px_per_second": 8,
+        "trial_opacity": 0.035,
+        "particle_lifetime_seconds": 10,
+        "feather_inward_px": 12
+      },
+      "visual_acceptance": "A broad distant veil moves across the basin without turning into an opaque smoke stripe."
+    },
+    {
+      "name": "near_dust",
+      "role": "principal",
+      "mask_path": "masks/near_dust.png",
+      "mask_status": "draft source-coordinate mask; edge/occlusion review required before animation",
+      "include": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              736,
+              489
+            ],
+            [
+              910,
+              478
+            ],
+            [
+              976,
+              491
+            ],
+            [
+              947,
+              537
+            ],
+            [
+              906,
+              539
+            ],
+            [
+              863,
+              581
+            ],
+            [
+              737,
+              574
+            ]
+          ]
+        }
+      ],
+      "exclude": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              890,
+              522
+            ],
+            [
+              913,
+              522
+            ],
+            [
+              913,
+              584
+            ],
+            [
+              890,
+              584
+            ]
+          ]
+        }
+      ],
+      "method": "Closer low dust tongues; fixed foreground occlusion",
+      "parameters": {
+        "direction": "right",
+        "trial_speed_source_px_per_second": 14,
+        "trial_opacity": 0.05,
+        "particle_lifetime_seconds": 10,
+        "feather_inward_px": 10
+      },
+      "visual_acceptance": "Distinct middle-depth travel at 1x, thinner than a smoke plume; no coverage of building, vent, dish or conduit."
+    },
+    {
+      "name": "habitat_windows",
+      "role": "support",
+      "mask_path": "masks/habitat_windows.png",
+      "mask_status": "draft source-coordinate mask; edge/occlusion review required before animation",
+      "include": [
+        {
+          "type": "polygon",
+          "points": [
+            [
+              721,
+              652
+            ],
+            [
+              750,
+              652
+            ],
+            [
+              750,
+              679
+            ],
+            [
+              721,
+              679
+            ]
+          ]
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              812,
+              654
+            ],
+            [
+              839,
+              654
+            ],
+            [
+              839,
+              681
+            ],
+            [
+              812,
+              681
+            ]
+          ]
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              1356,
+              387
+            ],
+            [
+              1369,
+              387
+            ],
+            [
+              1369,
+              399
+            ],
+            [
+              1356,
+              399
+            ]
+          ]
+        },
+        {
+          "type": "polygon",
+          "points": [
+            [
+              1465,
+              387
+            ],
+            [
+              1476,
+              387
+            ],
+            [
+              1476,
+              400
+            ],
+            [
+              1465,
+              400
+            ]
+          ]
+        }
+      ],
+      "exclude": [],
+      "method": "Staggered whole-window events with local spill",
+      "parameters": {
+        "schedules_seconds": [
+          {
+            "start": 3,
+            "off_hold": 3,
+            "fade": 1
+          },
+          {
+            "start": 12,
+            "off_hold": 3,
+            "fade": 1
+          },
+          {
+            "start": 7,
+            "off_hold": 4,
+            "fade": 1
+          },
+          {
+            "start": 16,
+            "off_hold": 2,
+            "fade": 1
+          }
+        ],
+        "minimum_brightness": 0.2,
+        "keep_remaining_lights_steady": true
+      },
+      "visual_acceptance": "Warm inhabited structures with independent changes; never whole-building exposure pulsation."
+    },
+    {
+      "name": "service_lamp",
+      "role": "support",
+      "mask_path": "masks/service_lamp.png",
+      "mask_status": "draft source-coordinate mask; edge/occlusion review required before animation",
+      "include": [
+        {
+          "type": "ellipse",
+          "center": [
+            1134,
+            708
+          ],
+          "radii": [
+            5,
+            6
+          ]
+        }
+      ],
+      "exclude": [],
+      "method": "Modest independent lamp dimming",
+      "parameters": {
+        "period_seconds": 20,
+        "minimum_brightness": 0.65,
+        "maximum_gain": 1.1,
+        "spill_radius_source_px": 12
+      },
+      "visual_acceptance": "One restrained change in a real lamp; preserve larger steady light pool."
+    }
+  ],
+  "build_order": [
+    "sky isolated 8s actual-speed full-scene preview",
+    "far_dust and near_dust separately at full composition",
+    "cloud+dust composite before supporting lights",
+    "20s complete cycle with forward seam travel",
+    "encoded seam and 3-repeat checks; then 4K"
+  ],
+  "implementation_notes": [
+    "Mars-inspired invented colony with an atmosphere; dust is plausible. Do not invent rain, greenery or Earth-like chimney smoke.",
+    "Do not rotate dishes to make more motion; keep recognizable engineered geometry rigid.",
+    "Draft masks isolate clear areas. Wider dust coverage requires refined occlusion of dishes, vent, conduit and ridge.",
+    "The plate retains a bright grazing sun streak on the salt pan. Animate airborne dust only; keep crust dry and static."
+  ]
+}

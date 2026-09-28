@@ -1,0 +1,42 @@
+{
+  "status": "draft mask rasterization verified; visual edge review pending",
+  "source_sha256": "1e9c4da5a9c01393c9e2f8105ed7023b5bbbaa58f83d613b70a32184fa676c26",
+  "plan_sha256": "424b99c8052ff797532e036c56b0b5938bdd7caa7a85ab65ac6ec38feb5abf7b",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "animation_rendered": false,
+  "masks": [
+    {
+      "name": "sky",
+      "path": "masks/sky.png",
+      "sha256": "e8d14bf004728f7c159e30bc186ee4538575bef68b55ddc8c50814d9f7412125",
+      "active_pixels": 170988
+    },
+    {
+      "name": "water",
+      "path": "masks/water.png",
+      "sha256": "38cb33ce2f19e20d27e9b247a9f3c910c803689422b4540add4832fce4bdaa5e",
+      "active_pixels": 12904
+    },
+    {
+      "name": "screen",
+      "path": "masks/screen.png",
+      "sha256": "d8822b37d2a55ba41bac74d0e2662e8a804055e7420f1986a035146342a1e718",
+      "active_pixels": 3807
+    },
+    {
+      "name": "colony_windows",
+      "path": "masks/colony_windows.png",
+      "sha256": "59ca6682084360b2385e36b493e121eecd63dd65ab46fa584448787932121dea",
+      "active_pixels": 490
+    },
+    {
+      "name": "mast",
+      "path": "masks/mast.png",
+      "sha256": "2c1ab3c09c6fd802d69db26a32ea50d19254b831ff294f178a7476b3316079b1",
+      "active_pixels": 57
+    }
+  ]
+}

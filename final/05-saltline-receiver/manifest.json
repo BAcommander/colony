@@ -44,5 +44,38 @@
   },
   "video": null,
   "audio": null,
-  "delivery_note": "Artwork and thumbnail only; animation and soundtrack not produced for this scene."
+  "delivery_note": "Artwork and thumbnail only; animation and soundtrack not produced for this scene.",
+  "animation_artwork_candidate": {
+    "file": "artwork-v2-animation.png",
+    "sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
+    "bytes": 2349647,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "prompt": "artwork-prompt-v2.md",
+    "prompt_sha256": "c1833887fe2f1da3c18e408d59548e491b55b13e58b4f3f02326f713ef24a296",
+    "method": "Built-in image_gen edit of thumbnail-v1.png with artwork-v1.png as structural reference",
+    "references": [
+      {
+        "file": "thumbnail-v1.png",
+        "sha256": "9a2a9de11b486855ce12d7a9775f6f78ef6e8f938f461f1ad0bd7ad3095ec314"
+      },
+      {
+        "file": "artwork-v1.png",
+        "sha256": "7d87c10b025b05f1e1ee4990239e5254c499501a2e3c8b8963b24dd3e7e130ad"
+      }
+    ],
+    "status": "generated; user visual approval pending",
+    "inspection": "Still inspected: clean text-free scene, stronger lighting/depth, recognizable architecture; not pixel-identical to thumbnail or original."
+  },
+  "animation_preparation": {
+    "plan": "animation-prep-v1/scene-plan.json",
+    "brief": "animation-prep-v1/production-brief.md",
+    "validation": "animation-prep-v1/preparation-validation.json",
+    "mask_count": 5,
+    "mask_status": "draft source-coordinate masks; refine occlusion before rendering",
+    "renderer_status": "scene adapter not implemented",
+    "animation_rendered": false
+  }
 }
