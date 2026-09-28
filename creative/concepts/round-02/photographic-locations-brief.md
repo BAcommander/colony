@@ -28,7 +28,7 @@ For each image use one or two relevant references, explicitly labeled visual sty
 Use case: photorealistic-natural.
 Asset: one landscape 16:9 still for an Ambient Colony location, with no title or graphics.
 
-Create a convincing location photograph of [LOCATION BLOCK]. Use the supplied images as references for believable construction, restrained lighting, ordinary equipment and photographic atmosphere. Invent an original location with the same sense of physical credibility.
+Create a convincing location photograph of [LOCATION BLOCK], human-built infrastructure serving a small colony on a distant planet. Establish a coherent off-world landscape and visible connections to an inhabited settlement. Terrestrial references guide material and photographic credibility, not the setting. Use the supplied images as references for believable construction, restrained lighting, ordinary equipment and photographic atmosphere. Invent an original location with the same sense of physical credibility.
 
 The place is remote, maintained and quietly occupied, although nobody is visible. It has a clear practical purpose. Design doors, windows, stairs, railings, furniture, cables and equipment as objects that could actually be built and used. Keep scale and perspective consistent. Give equipment clear supports, plausible joins and enough room for a person to work. Select a few recognizable, task-specific props. Leave some surfaces empty.
 
@@ -36,7 +36,7 @@ Photograph from a plausible stationary camera position using a natural 35-50 mm 
 
 Light the scene with [DOMINANT LIGHT SOURCE] and, where appropriate, one or two modest practical lamps. Preserve natural shadow depth and gentle highlight roll-off. Screens are subdued. Distinguish matte painted metal, worn plastic, glass, fabric and concrete through their actual surface response. Place wear at believable contact and weather-exposure points; allow broad materials to remain visually quiet. Let distant detail soften naturally through atmosphere.
 
-The mood is solitude, shelter and the quiet continuity of work. Any science-fiction element should be restrained and structurally plausible. Preserve the feel of a real place caught during an ordinary quiet moment.
+The mood is solitude, shelter and the quiet continuity of colony life far from Earth. Use a few compatible off-world cues and state atmospheric/water/vegetation conditions. Keep science-fiction elements restrained and structurally plausible. Preserve the feel of a real place caught during an ordinary quiet moment.
 
 Avoid plastic gloss, exaggerated HDR, halos, excessive sharpening, uniformly etched textures, decorative exposed machinery, nonsensical wiring, duplicated props, warped furniture, impossible stairs, miniature scale and oversized celestial spectacle. No people, text overlays, branding, watermarks, screenshot UI or artificial border.
 
@@ -45,38 +45,74 @@ Avoid plastic gloss, exaggerated HDR, halos, excessive sharpening, uniformly etc
 Generate separately using the shared prompt plus exactly one block. These are proposals, not approved scenes. Numbers 11-20 identify this new round; original concept 10 remains ungenerated.
 
 ### 11 - The Floodplain Keeper
-Interior of a small concrete pumping-station control room above a broad winter floodplain. Three old instruments, one radio, a chair, a folded maintenance sheet and a mug beside a deep rectangular window. A modest sluice gate and flooded reeds outside. Dominant light: soft grey daylight; one shaded desk lamp. Level eye-height view from the doorway, 40 mm. References 1 and 4. Future motion candidates: distant low mist, a screen indicator, gentle rain outside.
+Current off-world candidate: [concept-v4-offworld.png](11-floodplain-keeper/concept-v4-offworld.png). Grounded water-reclamation control room overlooking mineral escarpments, sparse native marsh growth, connected colony habitats and one pale moon. The Earth-like v3 is preserved as history. Visual review pending.
 
 ### 12 - Saltline Receiver
-Exterior of a low prefabricated receiver hut beside three modest radio dishes on an immense salt flat. A gravel service road and one fenced equipment enclosure explain access and scale. Broad blank sky and flat ground. Dominant light: cool light before sunrise; one warm occupied window. Ground-level 50 mm view. Reference 2. Future motion: distant dust drift and one equipment beacon.
+A ground-level exterior view of the communications uplink serving a small colony on an arid planet with an atmosphere. A low prefabricated receiver hut and three modest, realistically mounted radio dishes stand on dark gravel beside an immense pale salt basin. The mineral crust has restrained grey-lilac bands and scattered dark fissures; low flat-topped escarpments fade into dusty distance. A raised utility route carries a protected cable conduit from the hut toward four small inhabited colony modules on higher ground. Enclosed links, a water tank and a few warm windows make the distant settlement legible without crowding the image. Keep a broad quiet sky; no visible moon is needed. The uplink looks like useful infrastructure at the edge of a functioning settlement.
+
+Photograph from a level service track with a natural 50 mm full-frame-equivalent perspective. Cool light before sunrise is the dominant illumination, supported by one modest warm hut window. Preserve human-sized doors, real dish supports and a readable access road.
+
+[Complete generation prompt](12-saltline-receiver/concept-prompt.md). Future motion: Distant dust crossing the salt basin; one modest status beacon. Dishes and terrain stay fixed.
 
 ### 13 - The Last Cable Station
-Interior of a mountain cableway operator booth overlooking a steep valley and empty suspended cables. Painted steel consoles, two monitors, a work jacket on one chair, large plain windows. Dominant light: late-afternoon side light with most of the room naturally shaded. 35 mm at standing height. References 1 and 4. Future motion: valley cloud banks and a small screen change; cables remain fixed.
+Inside the operator booth of a mountain cableway linking two districts of a human colony on a planet with a cool, cloudy atmosphere. A painted steel console, two subdued screens, a radio and a work jacket on one ordinary chair face broad windows. Outside, supported cable spans descend through a deep valley of dark columnar rock and muted mineral terraces. Across the valley, a compact group of habitation modules is anchored to a broad ledge beside the receiving terminal, with enclosed walkways and a practical access stair. Sparse low native growth clings to sheltered rock; no Earth-like conifer forest. The visible terminal, pylons and settlement should explain where the cableway goes and why it exists. Keep the cable sag and pylon foundations credible.
+
+Standing-height 35 mm full-frame-equivalent view from the back of the booth. Low late-afternoon light enters from one side; the room remains naturally shaded, with one small task lamp. Show the same coherent terrain and cable route through every pane.
+
+[Complete generation prompt](13-last-cable-station/concept-prompt.md). Future motion: Separate valley cloud banks; a small screen indicator. Cables, cabins and supports stay fixed for the initial animation.
 
 ### 14 - Icebound Weather Post
-Exterior of a squat meteorological building on a rocky shore above sea ice. Plain insulated panels, a sheltered entry, standard mast sensors, one enclosed service passage. Snow collects behind windbreaks rather than coating every surface equally. Dominant light: overcast blue-hour sky with restrained warm windows. 50 mm from a nearby service platform. References 2 and 3. Future motion: distant snowfall and a localized heater exhaust.
+A squat meteorological station overlooking a frozen inland sea on a cold, atmosphere-bearing planet. Its insulated panels, sheltered entry, airlock vestibule, sensor mast and snow-deflecting windbreak are practical and modest. An enclosed service passage links it to three low colony habitats partly sheltered behind a basalt rise. Windows glow gently; service access is visibly cleared. Across the sea ice, dark stepped coastal formations recede into blue-grey haze. In a thin clear strip above the horizon, one small pale ringed moon is visible, its entire ring system occupying at most one twelfth of the image width. The moon is a quiet distant cue, not the focal point. Snow accumulates according to wind shelter and roof geometry rather than coating everything uniformly.
+
+Natural 50 mm full-frame-equivalent view from a nearby service platform. Dominant illumination is diffuse blue-hour skylight, with restrained warm habitat windows. Avoid dramatic spotlights or glossy ice.
+
+[Complete generation prompt](14-icebound-weather-post/concept-prompt.md). Future motion: Snow beyond the foreground, distant low haze and localized heater exhaust. No shifting ice geometry.
 
 ### 15 - Rainline Relay
-Interior of an elevated forest radio hut in steady rain. One broad window, ordinary radio equipment, waterproof field notebook and a worn swivel chair. Tall conifers recede into grey mist; sparse interior clutter relates to the job. Dominant light: diffuse rainy daylight; one small task lamp. 40 mm from the back corner. Reference 4. Future motion: exterior rain and forest mist; exclude water running across the whole image.
+Inside an elevated radio hut supporting a small research colony in the wet lowlands of a habitable alien planet. A practical radio desk, one subdued display, a waterproof field notebook and a worn swivel chair sit beside a broad window. Beyond it, rain falls through a coherent native woodland: tall dark segmented trunks carrying sparse tiers of long muted blue-green leaves, repeated consistently as one botanical family. Avoid recognisable Earth conifers, giant mushrooms or bioluminescence. A raised grated walkway on real supports connects the hut to two small research habitats visible between the trunks. Warm windows and a utility line establish an inhabited settlement. Leave enough separation between vegetation and buildings to read their structure; distant woodland dissolves into grey mist.
+
+Level 40 mm full-frame-equivalent view from the hut's back corner. Soft rainy daylight dominates, with one modest warm desk lamp. Keep glass reflections faint enough to preserve the exterior view and maintain the same weather across all panes.
+
+[Complete generation prompt](15-rainline-relay/concept-prompt.md). Future motion: Exterior rain and separately drifting forest mist. Keep room objects and primary tree silhouettes stable.
 
 ### 16 - Offshore Night Office
-Interior of a compact maintenance office at an offshore wind substation. A sturdy desk, locker, two dim displays and large windows looking across calm grey water toward distant turbines. Dominant light: cloudy dusk outside and one utilitarian ceiling fixture. 40 mm, level view. References 1 and 4. Future motion: distant sea haze and a small status light; avoid depending on complex close-up water simulation.
+Inside the maintenance office of a small marine-energy outpost serving a human colony on an ocean planet with a dense cloud deck and liquid surface water. A sturdy desk, ordinary locker, two dim instrumentation displays and plain large windows overlook calm dark water. Outside, a few realistically engineered turbines rise beyond three inhabited platform modules connected by enclosed bridges. Show structural legs, bridge bearings and a believable maintenance route. The planet has no familiar coastline; distant dark volcanic stacks are low on the horizon. Through one narrow break in thinning cloud, a small pale crescent moon sits above the horizon. Keep both the crescent and turbines secondary to the warm office and neighbouring habitation platforms.
+
+Level 40 mm full-frame-equivalent interior view. Cool cloudy dusk provides the exterior illumination; one utilitarian warm ceiling fixture lights the desk without flooding every surface. Use subdued water reflections and a stable straight horizon.
+
+[Complete generation prompt](16-offshore-night-office/concept-prompt.md). Future motion: Broad distant sea haze, restrained water surface movement and one small equipment indicator. Avoid making spinning turbines mandatory in the first pass.
 
 ### 17 - The Empty Junction
-Exterior of a small railway signal cabin beside an unused mountain freight junction. Normal rails, sleepers, cable ducts and a short stair establish useful engineering. A few warm windows give evidence of an operator inside. Dominant light: pale early-morning sky, with thin mist in the cutting. 50 mm from a safe nearby path. Reference 2. Future motion: low mist between tracks and one steady-to-dim practical light; no moving trains needed.
+A small freight-rail signal cabin at a quiet junction between the quarry and habitation districts of an off-world colony. The planet has an atmosphere and a cold dry climate. Conventional rails, sleepers, ballast, switch hardware, protected cable ducts and a short supported stair establish understandable engineering. The line curves through low violet-grey mineral cuttings toward a compact colony cargo terminal and several linked habitation modules in the middle distance. A pipe rack follows the service route with regular supports; it should not cross the track impossibly. Broad dark mineral ridges replace familiar mountain forests. The junction is maintained and operational during a lull, not abandoned or ruined. A few warm cabin windows suggest the night operator remains on duty.
+
+Natural 50 mm full-frame-equivalent view from a safe raised service path. Pale early-morning light dominates, with low thin mist in the cutting and small practical lamps. Keep track gauge, perspective and rail connections coherent.
+
+[Complete generation prompt](17-empty-junction/concept-prompt.md). Future motion: Low mist between tracks and independent cabin-light changes. No train movement or track deformation needed.
 
 ### 18 - Deepwell Station
-Exterior of a desert groundwater monitoring facility at the foot of a low escarpment. Concrete pump house, one pipe manifold, a shaded maintenance entrance and a small fenced solar supply. Quiet geology, readable scale, sparse equipment. Dominant light: low sun from one side with long coherent shadows. 50 mm, slightly elevated from an access bank. Reference 2. Future motion: broad distant dust and one vent; keep foreground equipment still.
+The groundwater extraction and treatment station supplying a small colony on a dry but habitable planet with an atmosphere and subsurface liquid water. A compact concrete-and-metal pump house sits beneath a low dark escarpment, with one orderly pipe manifold, a sheltered service entrance, a modest solar array and a functional borehole enclosure. A single main supply pipe follows a raised supported route toward three connected habitation modules and a small water-storage tank in the distance. Pale mineral deposits trace an ancient basin across the plain; sparse grey native scrub occupies sheltered hollows. A small faint moon is visible through the dusty upper sky. The infrastructure should clearly explain how colonists obtain and distribute water.
+
+Natural 50 mm full-frame-equivalent view from a slightly raised access bank. Low sunlight from one direction creates coherent long shadows, with a restrained warm light at the service entrance. Keep most equipment matte and the foreground simple.
+
+[Complete generation prompt](18-deepwell-station/concept-prompt.md). Future motion: Broad distant dust crossing the plain; localized equipment vent discharge. Keep the pipework and terrain fixed.
 
 ### 19 - Below the Snowline
-Interior of a compact glaciology instrument room embedded into rock. A thick observation window overlooks a sheltered crevasse; industrial insulation panels, a normal workbench and two well-supported instrument racks. Dominant light: cold diffuse light through ice, supported by plain warm work lights. 35 mm, level tripod position. References 1 and 3. Future motion: small instrument traces and distant vapour beyond the glass; ice and room structure stay fixed.
+Inside the glacier-monitoring room of a human colony embedded in the rock of a cold alien planet. The planet has an atmosphere; its exposed ice is frozen water. Industrial insulation panels, a conventional workbench and two properly supported instrument racks surround a thick rectangular observation window. Outside, a deep sheltered crevasse exposes pale blue ice crossed by restrained dark mineral bands. An enclosed maintenance bridge spans a narrow, structurally plausible part of the gap to a small heated colony service module on the opposite rock wall. Farther back, two additional habitation windows and a protected utility run suggest the larger settlement continues into the mountain. No cavern city, enormous unsupported bridge or glowing crystals. The inhabited infrastructure gives this close view its colony identity; no celestial object is needed.
+
+Level stationary 35 mm full-frame-equivalent view. Cold diffuse daylight entering the open crevasse supplies the exterior light; plain warm work fixtures illuminate the room. Keep the window frame robust and reflections restrained. Show real bridge anchors and safe access on both sides.
+
+[Complete generation prompt](19-below-the-snowline/concept-prompt.md). Future motion: Small instrument traces and faint exterior drifting ice dust or vapour where physically plausible. Ice, bridges and structural edges stay fixed.
 
 ### 20 - Crater Rim Survey
-Exterior of a modest geological survey station on the rim of an old terrestrial volcanic caldera. Low masonry building, ordinary observation deck, one antenna and a narrow switchback access track. Layered crater slopes fade into haze; no giant planet or lava spectacle. Dominant light: hazy morning sun with one dim doorway lamp. 50 mm from a nearby ridge at a believable standing position. References 2 and 3. Future motion: separate far haze and localized station exhaust.
+A modest geological survey station serving a human colony on an atmosphere-bearing volcanic planet. A low masonry-and-insulated-panel building stands on a broad stable bench above an old caldera. Its observation deck, simple antenna and supported railings are ordinary useful construction. A clear switchback service road descends toward a compact settlement of low habitation modules and one greenhouse on a safe inner terrace. Dark layered crater walls and pale mineral fans fade into atmospheric haze. One small, irregularly shaped moon appears above the distant rim, separated from the rock silhouette and occupying less than one fifteenth of the frame width. The caldera is quiet and dormant: no lava spectacle, erupting volcano or impossible structures balanced on a cliff edge.
+
+Natural 50 mm full-frame-equivalent photograph from a neighbouring ridge at a credible standing position. Hazy morning sun provides one coherent light direction, supported by a dim doorway lamp. Preserve a clear scale hierarchy between the station, distant settlement and immense geology.
+
+[Complete generation prompt](20-crater-rim-survey/concept-prompt.md). Future motion: Independent far-caldera haze and one localized station exhaust. Preserve the moon, terrain silhouette and all structures.
 
 ## Review before expanding the batch
 
-Start with one interior and one exterior when generation is authorized. Inspect their actual construction and foreground at full size before committing to the other eight. If they look synthetic, fix the concrete cause: shiny floor, malformed desk, excessive edge contrast, implausible supports or uniform weathering. Do not respond by adding more superlatives.
+The Floodplain interior now exists as off-world v4, with review pending. Test an exterior next when generation is authorized. Inspect their actual construction and foreground at full size before committing to the other eight. If they look synthetic, fix the concrete cause: shiny floor, malformed desk, excessive edge contrast, implausible supports or uniform weathering. Do not respond by adding more superlatives.
 
 At thumbnail size the image should have one recognizable subject and calm depth. At full size verify object silhouettes, feet/supports, handles, railings, stairs, repeated panels, shadows and cable endpoints. One light direction should explain most shadows. Distant ridges should not be as sharp and contrasty as nearby equipment.
 
