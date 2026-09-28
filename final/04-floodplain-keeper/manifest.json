@@ -1,0 +1,48 @@
+{
+  "title": "Floodplain Keeper",
+  "caption": "KEEPING THE COLONY ALIVE",
+  "series_number": "04",
+  "date": "2026-09-28",
+  "status": "User selected current scene for repository packaging; new thumbnail pending user review",
+  "artwork": {
+    "file": "artwork-v1.png",
+    "sha256": "42b70fe6bba85e561e312ef95620a137770996429010e410ca4afb18c662c89d",
+    "bytes": 1916402,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "source": "creative/concepts/round-02/11-floodplain-keeper/concept-v4-offworld.png",
+    "copy_verified": true
+  },
+  "thumbnail": {
+    "master": {
+      "file": "thumbnail-v1.png",
+      "sha256": "2a3c016a328c9bad456d9b0a67b60bacb4230e1ae979d484113c62f13d750f56",
+      "bytes": 1950762,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "upload": {
+      "file": "thumbnail-v1.jpg",
+      "sha256": "25785c24e58049654ba842642b5b584ace0fa015267cb185263a750311f7e9c3",
+      "bytes": 236246,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "prompt": "thumbnail-prompt-v1.md",
+    "prompt_sha256": "e0e97e7b62db885d2ca85778cafad24d903b9eabd35b41cbfff788d2b27feb67",
+    "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
+    "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+    "method": "Built-in image_gen compositing; FFmpeg Lanczos JPEG export, quality 2",
+    "visual_review": "Inspected generated full image: title, brand, caption and catalog number correct; focal scene readable; matches established series direction. User approval pending.",
+    "note": "Marketing adaptation with tonal/compositional changes; clean source remains unchanged."
+  },
+  "video": null,
+  "audio": null,
+  "delivery_note": "Artwork and thumbnail only; animation and soundtrack not produced for this scene."
+}

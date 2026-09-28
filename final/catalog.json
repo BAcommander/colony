@@ -19,5 +19,23 @@
     "duration_seconds": 60,
     "video": "video-4k.mp4",
     "thumbnail": "thumbnail-v1.jpg"
+  },
+  {
+    "folder": "04-floodplain-keeper",
+    "title": "Floodplain Keeper",
+    "status": "artwork-and-thumbnail; animation not produced",
+    "artwork": "artwork-v1.png",
+    "duration_seconds": null,
+    "video": null,
+    "thumbnail": "thumbnail-v1.jpg"
+  },
+  {
+    "folder": "05-saltline-receiver",
+    "title": "Saltline Receiver",
+    "status": "artwork-and-thumbnail; animation not produced",
+    "artwork": "artwork-v1.png",
+    "duration_seconds": null,
+    "video": null,
+    "thumbnail": "thumbnail-v1.jpg"
   }
 ]

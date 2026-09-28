@@ -1,5 +1,7 @@
 # Ambient Colony — working instructions
 
+Current artwork packages (2026-09-28): user selected Floodplain Keeper v4 off-world and Saltline Receiver v3 Martian structures for catalog 04 and 05. Clean byte-identical artwork copies, generated thumbnail PNGs, 1280x720 JPEGs, exact prompts and provenance are in `final/04-floodplain-keeper/` and `final/05-saltline-receiver/`. Continue the approved Ringfall thumbnail identity; new thumbnails await user review. These two packages contain artwork only, with no animation or soundtrack yet. Catalog numbering is distinct from creative concept numbers 11/12. Preserve original concept versions.
+
 ## Current authority and approved result
 
 On 2026-09-24 the user approved Ringfall v9b: "finally good". Use it as the quality and workflow baseline for future scenes. This supersedes all historical pending-review and failed-experiment directions. Read creative/ANIMATION_WORKFLOW.md before starting an animation; PROJECT.md contains project context. Full prior instructions are archived in creative/history/animation-learning-log-through-v9b-2026-09-24.md.

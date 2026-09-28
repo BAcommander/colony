@@ -39,4 +39,6 @@ Prompt scaffold:
 
 ## Storage
 
+Series continuation, 2026-09-28: 04 FLOODPLAIN / KEEPER, caption KEEPING THE COLONY ALIVE, upper-left title; 05 SALTLINE / RECEIVER, caption LISTENING FROM THE RED WORLD, upper-right title. Both use the original Ringfall thumbnail as their direct style reference. These new thumbnails await user review. Packages 04-05 currently contain selected `artwork-v1.png` instead of a video; do not create placeholder video files or imply an animation exists. The master PNG is retained and the upload JPEG uses the same FFmpeg export recipe as 01-03.
+
 Each scene package contains `video-4k.mp4`, `thumbnail-v1.png`, `thumbnail-v1.jpg`, `thumbnail-prompt-v1.md`, `manifest.json` and a short README. Final video copies must match their original approved master hashes. Historical render paths stay valid; these folders are a convenient release collection. Video masters are silent loops; music and long-form publishing assembly are separate work.

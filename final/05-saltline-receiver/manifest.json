@@ -1,0 +1,48 @@
+{
+  "title": "Saltline Receiver",
+  "caption": "LISTENING FROM THE RED WORLD",
+  "series_number": "05",
+  "date": "2026-09-28",
+  "status": "User selected current scene for repository packaging; new thumbnail pending user review",
+  "artwork": {
+    "file": "artwork-v1.png",
+    "sha256": "7d87c10b025b05f1e1ee4990239e5254c499501a2e3c8b8963b24dd3e7e130ad",
+    "bytes": 2223362,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "source": "creative/concepts/round-02/12-saltline-receiver/concept-v3-martian-structures.png",
+    "copy_verified": true
+  },
+  "thumbnail": {
+    "master": {
+      "file": "thumbnail-v1.png",
+      "sha256": "9a2a9de11b486855ce12d7a9775f6f78ef6e8f938f461f1ad0bd7ad3095ec314",
+      "bytes": 2284124,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "upload": {
+      "file": "thumbnail-v1.jpg",
+      "sha256": "2973db0671c7cf08af8ecb5baedcbdd69847217a8cb2e50a0c9cd6fbcf640289",
+      "bytes": 381666,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "prompt": "thumbnail-prompt-v1.md",
+    "prompt_sha256": "4a8001c19af5e8cb926729bdcd9b374b0f19eb0410991e4e5ad4bc1713fa4de4",
+    "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
+    "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+    "method": "Built-in image_gen compositing; FFmpeg Lanczos JPEG export, quality 2",
+    "visual_review": "Inspected generated full image: title, brand, caption and catalog number correct; focal scene readable; matches established series direction. User approval pending.",
+    "note": "Marketing adaptation with tonal/compositional changes; clean source remains unchanged."
+  },
+  "video": null,
+  "audio": null,
+  "delivery_note": "Artwork and thumbnail only; animation and soundtrack not produced for this scene."
+}

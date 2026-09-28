@@ -16,4 +16,4 @@ Read [the shared brief](photographic-locations-brief.md) for reference roles, vi
 | 19 - Below the Snowline | [Open](19-below-the-snowline/concept-prompt.md) |
 | 20 - Crater Rim Survey | [Open](20-crater-rim-survey/concept-prompt.md) |
 
-Current generated candidates: [Floodplain Keeper v4](11-floodplain-keeper/concept-v4-offworld.png) and [Saltline Receiver v3 - Martian structures](12-saltline-receiver/concept-v3-martian-structures.png), both awaiting user review. Other location prompts remain ungenerated.
+Selected for artwork packaging on 2026-09-28: [Floodplain Keeper v4](11-floodplain-keeper/concept-v4-offworld.png) as [catalog 04](../../../final/04-floodplain-keeper/) and [Saltline Receiver v3 - Martian structures](12-saltline-receiver/concept-v3-martian-structures.png) as [catalog 05](../../../final/05-saltline-receiver/). Both have new thumbnails pending user review; neither has an animation yet. Other location prompts remain ungenerated.
