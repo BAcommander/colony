@@ -1,0 +1,25 @@
+{
+  "title": "Saltline Receiver",
+  "version": 3,
+  "date": "2026-09-28",
+  "status": "Martian-style architecture revision generated; user visual review pending",
+  "file": "concept-v3-martian-structures.png",
+  "sha256": "7d87c10b025b05f1e1ee4990239e5254c499501a2e3c8b8963b24dd3e7e130ad",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "method": "Built-in image_gen architecture revision",
+  "source": "concept-v2-red-world.png",
+  "source_sha256": "504ce8250886170cbd4120efe2f248ae0dcc17f727aeb42adee811bec736a2fc",
+  "prompt": "generation-v3-martian-structures.md",
+  "user_feedback": "should we make the structures look a bit more... like martain?",
+  "changes": [
+    "Rounded insulated communications module with airlock-style entry",
+    "Recessed warm windows and integrated service unit",
+    "Linked rounded colony habitats",
+    "Low horizontal storage vessel replacing elevated tank",
+    "Protected continuous utility enclosure"
+  ],
+  "animation_created": false
+}
