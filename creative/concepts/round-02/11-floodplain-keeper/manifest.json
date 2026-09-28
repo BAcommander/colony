@@ -1,0 +1,17 @@
+{
+  "title": "The Floodplain Keeper",
+  "date": "2026-09-28",
+  "status": "generated concept; user visual review pending",
+  "file": "concept-v3.png",
+  "sha256": "0a379858890049ddfed52c360373b8aa04a9eadc873fcc20fadfa4bf4bc749c8",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "method": "Built-in image_gen, one generation followed by two targeted edits",
+  "lighting": "Grey overcast daylight plus one modest warm desk lamp",
+  "prompts": "generation-prompts.md",
+  "selected_iteration": 3,
+  "correction": "Two-handled mug replaced with handleless ceramic beaker",
+  "animation_created": false
+}

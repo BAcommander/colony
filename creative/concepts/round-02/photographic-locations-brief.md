@@ -1,6 +1,6 @@
 # Ambient Colony - photographic location concepts, round 02
 
-Prepared 2026-09-28. Prompt/plan only: no new images generated. The user prefers the clean, realistic appearance of four supplied reference screenshots. The observations below describe their visible qualities; they do not establish whether the originals were photographed, rendered or AI-generated.
+Prepared 2026-09-28. The Floodplain Keeper was subsequently generated on this date; see 11-floodplain-keeper/concept-v3.png and its generation record. Visual review is pending; the remaining nine concepts are ungenerated. The user prefers the clean, realistic appearance of four supplied reference screenshots. The observations below describe their visible qualities; they do not establish whether the originals were photographed, rendered or AI-generated.
 
 ## Visual diagnosis
 
