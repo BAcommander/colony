@@ -1,6 +1,6 @@
 # Ambient Colony - photographic location concepts, round 02
 
-Prepared 2026-09-28. The Floodplain Keeper was subsequently generated on this date; see the current 11-floodplain-keeper/concept-v4-offworld.png and its generation record. The earlier v3 room is preserved. Saltline Receiver is also generated at 12-saltline-receiver/concept-v1.png. Both concepts await visual review; the remaining eight are ungenerated. The user prefers the clean, realistic appearance of four supplied reference screenshots. The observations below describe their visible qualities; they do not establish whether the originals were photographed, rendered or AI-generated.
+Prepared 2026-09-28. The Floodplain Keeper was subsequently generated on this date; see the current 11-floodplain-keeper/concept-v4-offworld.png and its generation record. The earlier v3 room is preserved. Saltline Receiver current candidate is 12-saltline-receiver/concept-v2-red-world.png, revised toward a Martian-style red world after v1 felt too similar to Basalt. Both concepts await visual review; the remaining eight are ungenerated. The user prefers the clean, realistic appearance of four supplied reference screenshots. The observations below describe their visible qualities; they do not establish whether the originals were photographed, rendered or AI-generated.
 
 ## Visual diagnosis
 
@@ -48,6 +48,8 @@ Generate separately using the shared prompt plus exactly one block. These are pr
 Current off-world candidate: [concept-v4-offworld.png](11-floodplain-keeper/concept-v4-offworld.png). Grounded water-reclamation control room overlooking mineral escarpments, sparse native marsh growth, connected colony habitats and one pale moon. The Earth-like v3 is preserved as history. Visual review pending.
 
 ### 12 - Saltline Receiver
+Current direction: rust-red regolith, eroded ochre ridges and pale dry mineral crust. [V2 edit prompt](12-saltline-receiver/generation-v2-red-world.md) supersedes the original dark-gravel terrain choice below; [current image](12-saltline-receiver/concept-v2-red-world.png), review pending.
+
 A ground-level exterior view of the communications uplink serving a small colony on an arid planet with an atmosphere. A low prefabricated receiver hut and three modest, realistically mounted radio dishes stand on dark gravel beside an immense pale salt basin. The mineral crust has restrained grey-lilac bands and scattered dark fissures; low flat-topped escarpments fade into dusty distance. A raised utility route carries a protected cable conduit from the hut toward four small inhabited colony modules on higher ground. Enclosed links, a water tank and a few warm windows make the distant settlement legible without crowding the image. Keep a broad quiet sky; no visible moon is needed. The uplink looks like useful infrastructure at the edge of a functioning settlement.
 
 Photograph from a level service track with a natural 50 mm full-frame-equivalent perspective. Cool light before sunrise is the dominant illumination, supported by one modest warm hut window. Preserve human-sized doors, real dish supports and a readable access road.

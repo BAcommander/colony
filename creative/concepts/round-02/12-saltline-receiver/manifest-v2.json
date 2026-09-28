@@ -1,0 +1,24 @@
+{
+  "title": "Saltline Receiver",
+  "version": 2,
+  "date": "2026-09-28",
+  "status": "red-world revision generated; user visual review pending",
+  "file": "concept-v2-red-world.png",
+  "sha256": "504ce8250886170cbd4120efe2f248ae0dcc17f727aeb42adee811bec736a2fc",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "method": "Built-in image_gen environmental revision",
+  "source": "concept-v1.png",
+  "source_sha256": "890a434504891db9dfdfe3f0daae84572d1d6a9eb1628e6bb46f046cf3d60d0b",
+  "prompt": "generation-v2-red-world.md",
+  "user_feedback": "Original terrain felt too similar to Basalt; requested a Martian-style red world",
+  "changes": [
+    "Rust-red dust and regolith",
+    "Smoother sediment and scattered ochre rocks",
+    "Eroded red ridges",
+    "Pale dry salt crust and dusty rose sky"
+  ],
+  "animation_created": false
+}
