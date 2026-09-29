@@ -1,12 +1,6 @@
-# Crater Rim Survey — redesigned concept prompt v2
+# Concept v2 — exact executed generation prompt
 
-Prepared 2026-09-29 after user feedback that v1 did not feel otherworldly. V2 generated on user request; awaiting user direction. See concept-v2.png and manifest-v2.json. Preserve concept-v1.png and its exact generation record. This is a new composition proposal, not an instruction to preserve the v1 layout. Creative ID 20; release number unassigned.
-
-**Direction:** A geological survey room faces a pale terraced caldera, an inhabited inner bench and a faint ring arc overhead.
-
-Reference roles: R4, R5, R9. Use the analysis in [ALIEN_COLONY_ART_DIRECTION.md](../../ALIEN_COLONY_ART_DIRECTION.md); reference imagery is optional and guides composition/light only.
-
-## Complete generation prompt
+Create a fresh composition from this redesigned brief. Supplied images are photographic framing, construction and lighting references only. Do not reproduce their Earth geography, exact buildings, titles, logos or screenshot graphics. This is a clean scene still, not a thumbnail.
 
 A working geological survey room above an ancient dormant caldera on a habitable atmosphere-bearing planet with a thin natural ring system. The camera is inside an occupied rim station looking across the basin; this is not another exterior cabin surrounded by black rubble. A broad three-pane observation window frames the environment. Below it, a shallow desk holds one terrain display, a small optical survey instrument in a proper cradle and three labelled-by-shape sample trays with no readable text. One worn fabric chair and one warm task lamp are enough.
 
@@ -21,11 +15,3 @@ Use a seated 45 mm photographic view slightly off the desk centreline. Warm task
 Render one original landscape 16:9 photographic location still for Ambient Colony, without lettering. This is an inhabited human colony on an unfamiliar world, maintained and working, with nobody visible. Use the described camera position and consistent human scale. Let supports, doorways, seals, maintenance access and service routes explain how the place works. Place only the few props specified; leave other surfaces quiet.
 
 Keep painted metal, rubber, concrete, fabric and glass visually distinct, with modest wear at contact or weather-exposed areas. Preserve natural shadows, soft highlight roll-off and atmospheric loss of distant detail. The unusual environment should look observed through a real lens, with irregular natural structure rather than uniformly sharp procedural texture. No plastic gloss, exaggerated HDR, sharpening halos, duplicated props, warped furniture, decorative machinery or arbitrary extra cables. No people, spacecraft flybys, holograms, lettering, branding, fictional insignia, watermark, screenshot controls or borders. If reference images are supplied, use only their lighting, human scale and framing principles; do not copy their scene, Earth geography, titles or logos.
-
-## Review before selection
-
-Check road continuity, inhabited bench scale and ring/cloud occlusion. The subtle ring must not become a giant planet or a neon ribbon; the landscape needs its own identity. Keep the room function legible.
-
-## Later motion proposal — not a render request
-
-Later: independent far-caldera haze and broad cloud transport with ring protection in source and output masks. Small instrument activity; no rotating ring or unstable terrain.

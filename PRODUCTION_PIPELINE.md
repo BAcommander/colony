@@ -25,12 +25,12 @@ All ten have artwork, thumbnails, descriptions and search tags in [final/](final
 
 ## Exploration beyond the first ten
 
-Updated 2026-09-29: user found the four rough v1s insufficiently otherworldly. A nine-reference analysis and new art direction are saved in [ALIEN_COLONY_ART_DIRECTION.md](creative/concepts/ALIEN_COLONY_ART_DIRECTION.md). Four standalone v2 briefs are ready; no revised images generated. V1 images and original prompts remain history, not selected production plates.
+Updated 2026-09-29: user found the four rough v1s insufficiently otherworldly. A nine-reference analysis and new art direction are saved in [ALIEN_COLONY_ART_DIRECTION.md](creative/concepts/ALIEN_COLONY_ART_DIRECTION.md). All four v2 images have now been generated on request; user review is pending. V1 images and original prompts remain history, not selected production plates.
 
-- [ ] Review/generate revised [The Empty Junction](creative/concepts/round-02/17-empty-junction/concept-prompt.md): pale mineral fins and a sheltered freight pass.
-- [ ] Review/generate revised [Deepwell Station](creative/concepts/round-02/18-deepwell-station/concept-prompt.md): a dry gallery overlooking chalk terraces and brine.
-- [ ] Review/generate revised [Below the Snowline](creative/concepts/round-02/19-below-the-snowline/concept-prompt.md): occupied rock ribs inside a translucent ice vault.
-- [ ] Review/generate revised [Crater Rim Survey](creative/concepts/round-02/20-crater-rim-survey/concept-prompt.md): a survey room facing an inhabited terraced caldera and faint ring arc.
+- [ ] Review generated v2 [The Empty Junction](creative/concepts/round-02/17-empty-junction/concept-prompt.md): pale mineral fins and a sheltered freight pass.
+- [ ] Review generated v2 [Deepwell Station](creative/concepts/round-02/18-deepwell-station/concept-prompt.md): a dry gallery overlooking chalk terraces and brine.
+- [ ] Review generated v2 [Below the Snowline](creative/concepts/round-02/19-below-the-snowline/concept-prompt.md): occupied rock ribs inside a translucent ice vault.
+- [ ] Review generated v2 [Crater Rim Survey](creative/concepts/round-02/20-crater-rim-survey/concept-prompt.md): a survey room facing an inhabited terraced caldera and faint ring arc.
 
 Ten additional prompts are queued below. All are ungenerated, unassigned to public release numbers, and awaiting selection. Each link contains a complete standalone prompt and later motion ideas; no additional paid service is required for planning.
 

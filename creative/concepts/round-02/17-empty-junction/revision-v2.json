@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
   "creative_id": 17,
-  "status": "prompt redesigned; not generated",
+  "status": "image generated; user review pending",
   "prior_image": "concept-v1.png",
   "current_prompt": "concept-prompt-v2.md",
   "reference_ids": [
@@ -10,5 +10,10 @@
   ],
   "direction": "A freight junction cut between pale mineral fins, with sheltered colony rail infrastructure in a permanent twilight belt.",
   "user_feedback": "these are cool enough, but none of them scream otherworldly to me",
-  "artwork_approved": false
+  "artwork_approved": false,
+  "current_image": "concept-v2.png",
+  "generation_manifest": "manifest-v2.json",
+  "actual_supplied_reference_ids": [
+    "R2"
+  ]
 }

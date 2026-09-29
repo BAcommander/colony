@@ -1,0 +1,65 @@
+{
+  "title": "Crater Rim Survey",
+  "creative_concept_id": 20,
+  "release_number": null,
+  "date": "2026-09-29",
+  "status": "redesigned concept v2 generated; awaiting user direction",
+  "user_approved": false,
+  "generator": "built-in image_gen",
+  "artwork": {
+    "path": "creative/concepts/round-02/20-crater-rim-survey/concept-v2.png",
+    "sha256": "ffb509afd49853590d7b01a521288b3d5cca47f7758feaa50136feabc4241734",
+    "bytes": 2303231,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "executed_prompt": {
+    "path": "creative/concepts/round-02/20-crater-rim-survey/generation-v2.md",
+    "sha256": "575d688e2b030868e8c4a9130d5fcadded72c36d39271b076a2577f1185900dd",
+    "bytes": 3939
+  },
+  "original_generated_path": "C:\\Users\\john\\.codex\\generated_images\\01a0d2ad-4529-7693-9273-207397aec49d\\exec-3d5207e2-d583-4262-b87c-9f1ed57cb7eb.png",
+  "prior_artwork": {
+    "path": "creative/concepts/round-02/20-crater-rim-survey/concept-v1.png",
+    "sha256": "95303a7476c101136819600669adf8424d76ae59a2a3f22802b7e093f4ba3c49",
+    "bytes": 2038159,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "references": [
+    {
+      "id": "R5",
+      "description": "Blue-hour equipment room",
+      "visual_role": "Local warm side light and cool landscape depth",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-80a4d51a-3733-4446-b202-30bebc694b84.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "5d9a2e696df45cc20fc2051b2b0142c018feb57f4e95391650a67c57fd1793fc",
+      "bytes": 208709
+    },
+    {
+      "id": "R4",
+      "description": "Desert operational desk",
+      "visual_role": "Purposeful props, useful empty landscape and a route to a distant facility",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-4b7162ab-df4b-48f7-bf86-34081e859b46.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "e81bf7fdd49e989e52f47247007cc4abb2107a5e890c320f905ec7e6ae16a9ee",
+      "bytes": 209476
+    }
+  ],
+  "reference_role": "Actual supplied references, used for framing, construction and lighting only; external originals are not stored in repo.",
+  "visual_review": {
+    "method": "generated still inspected in chat",
+    "notes": "Survey room faces pale fluted caldera walls, dark sills, nested crater and inhabited terrace with greenhouse and switchback road. Rings are more prominent than the faint band requested; extra desk props and terrestrial-looking planted vegetation appeared. User direction pending."
+  },
+  "thumbnail": null,
+  "animation": null,
+  "audio": null
+}

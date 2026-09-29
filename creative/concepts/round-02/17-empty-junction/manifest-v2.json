@@ -1,0 +1,54 @@
+{
+  "title": "The Empty Junction",
+  "creative_concept_id": 17,
+  "release_number": null,
+  "date": "2026-09-29",
+  "status": "redesigned concept v2 generated; awaiting user direction",
+  "user_approved": false,
+  "generator": "built-in image_gen",
+  "artwork": {
+    "path": "creative/concepts/round-02/17-empty-junction/concept-v2.png",
+    "sha256": "ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be",
+    "bytes": 2629928,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "executed_prompt": {
+    "path": "creative/concepts/round-02/17-empty-junction/generation-v2.md",
+    "sha256": "e7688d4576d0ad5ac427c095f3907d4c35b973b19d0cc85567bf878a2f15166f",
+    "bytes": 3888
+  },
+  "original_generated_path": "C:\\Users\\john\\.codex\\generated_images\\01a0d2ad-4529-7693-9273-207397aec49d\\exec-6f991deb-0fd9-4a9a-b1fe-e82fc087c18b.png",
+  "prior_artwork": {
+    "path": "creative/concepts/round-02/17-empty-junction/concept-v1.png",
+    "sha256": "b23a4bbe2cfc44ef40001be0de045a462a870479a4a876878e47714f48594cda",
+    "bytes": 2249886,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "references": [
+    {
+      "id": "R2",
+      "description": "Forest utility station",
+      "visual_role": "Simple facility framed by layered tall growth and practical entrance lights",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-ecbab584-7f80-4f28-aa2e-259d94823bde.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "9e031465f67bac1fad96abddde159f5a2439a58d13940b870d2e65aac71e0792",
+      "bytes": 204279
+    }
+  ],
+  "reference_role": "Actual supplied references, used for framing, construction and lighting only; external originals are not stored in repo.",
+  "visual_review": {
+    "method": "generated still inspected in chat",
+    "notes": "Pale eroded fins, sheltered signal cabin and inhabited freight gallery establish a distinct setting. Foreground turnout/crossing rail geometry needs closer review before production; parked freight wagons are present."
+  },
+  "thumbnail": null,
+  "animation": null,
+  "audio": null
+}

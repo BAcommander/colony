@@ -1,6 +1,6 @@
 # Deepwell Station — redesigned concept prompt v2
 
-Prepared 2026-09-29 after user feedback that v1 did not feel otherworldly. Prompt only; v2 not generated. Preserve concept-v1.png and its exact generation record. This is a new composition proposal, not an instruction to preserve the v1 layout. Creative ID 18; release number unassigned.
+Prepared 2026-09-29 after user feedback that v1 did not feel otherworldly. V2 generated on user request; awaiting user direction. See concept-v2.png and manifest-v2.json. Preserve concept-v1.png and its exact generation record. This is a new composition proposal, not an instruction to preserve the v1 layout. Creative ID 18; release number unassigned.
 
 **Direction:** A dry pump gallery under a mineral overhang looks across a vast chalk basin that feeds the colony water system.
 

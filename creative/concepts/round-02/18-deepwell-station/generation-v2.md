@@ -1,12 +1,6 @@
-# Deepwell Station — redesigned concept prompt v2
+# Concept v2 — exact executed generation prompt
 
-Prepared 2026-09-29 after user feedback that v1 did not feel otherworldly. V2 generated on user request; awaiting user direction. See concept-v2.png and manifest-v2.json. Preserve concept-v1.png and its exact generation record. This is a new composition proposal, not an instruction to preserve the v1 layout. Creative ID 18; release number unassigned.
-
-**Direction:** A dry pump gallery under a mineral overhang looks across a vast chalk basin that feeds the colony water system.
-
-Reference roles: R3, R4, R8. Use the analysis in [ALIEN_COLONY_ART_DIRECTION.md](../../ALIEN_COLONY_ART_DIRECTION.md); reference imagery is optional and guides composition/light only.
-
-## Complete generation prompt
+Create a fresh composition from this redesigned brief. Supplied images are photographic framing, construction and lighting references only. Do not reproduce their Earth geography, exact buildings, titles, logos or screenshot graphics. This is a clean scene still, not a thumbnail.
 
 View from the dry maintenance gallery of a groundwater-recovery station recessed beneath a broad pale mineral overhang on an arid atmosphere-bearing planet. The colony taps a deep aquifer; its buildings occupy stable bedrock above an immense ancient evaporite basin. A thick rectangular sealed observation pane spans the centre and right, with a low opaque sill. The station is a useful working room, not an underground palace.
 
@@ -19,11 +13,3 @@ Use a seated-eye-height 40 mm view beside a small maintenance desk at lower left
 Render one original landscape 16:9 photographic location still for Ambient Colony, without lettering. This is an inhabited human colony on an unfamiliar world, maintained and working, with nobody visible. Use the described camera position and consistent human scale. Let supports, doorways, seals, maintenance access and service routes explain how the place works. Place only the few props specified; leave other surfaces quiet.
 
 Keep painted metal, rubber, concrete, fabric and glass visually distinct, with modest wear at contact or weather-exposed areas. Preserve natural shadows, soft highlight roll-off and atmospheric loss of distant detail. The unusual environment should look observed through a real lens, with irregular natural structure rather than uniformly sharp procedural texture. No plastic gloss, exaggerated HDR, sharpening halos, duplicated props, warped furniture, decorative machinery or arbitrary extra cables. No people, spacecraft flybys, holograms, lettering, branding, fictional insignia, watermark, screenshot controls or borders. If reference images are supplied, use only their lighting, human scale and framing principles; do not copy their scene, Earth geography, titles or logos.
-
-## Review before selection
-
-Check dry/wet separation, pipe endpoints and cliff foundations. Maintain the chalk/brine identity without fluorescent colour. Avoid turning the gallery into the reference reactor chamber or circular flooded room.
-
-## Later motion proposal — not a render request
-
-Later: broad brine reflection travel and far-basin dust on separate masks; small telemetry movement. Keep salt terrace rims and all hardware fixed.

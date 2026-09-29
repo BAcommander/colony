@@ -1,12 +1,6 @@
-# Below the Snowline — redesigned concept prompt v2
+# Concept v2 — exact executed generation prompt
 
-Prepared 2026-09-29 after user feedback that v1 did not feel otherworldly. V2 generated on user request; awaiting user direction. See concept-v2.png and manifest-v2.json. Preserve concept-v1.png and its exact generation record. This is a new composition proposal, not an instruction to preserve the v1 layout. Creative ID 19; release number unassigned.
-
-**Direction:** A warm observation room faces a colony service bridge inside a vast translucent glacial vault.
-
-Reference roles: R6, R7, R8. Use the analysis in [ALIEN_COLONY_ART_DIRECTION.md](../../ALIEN_COLONY_ART_DIRECTION.md); reference imagery is optional and guides composition/light only.
-
-## Complete generation prompt
+Create a fresh composition from this redesigned brief. Supplied images are photographic framing, construction and lighting references only. Do not reproduce their Earth geography, exact buildings, titles, logos or screenshot graphics. This is a clean scene still, not a thumbnail.
 
 Inside a compact heated glacier-monitoring room in a colony established within the rock ribs beneath an alien ice sheet. The outside view is an immense ice vault, not an open Alpine mountain valley. A thick rectangular pressure window looks across a sheltered chasm to occupied modules recessed into the opposite dark rock rib. The world has an atmosphere; the vault connects to distant surface openings, while its ice walls remain cold. No stars, sky dome or moon are needed in this enclosed view.
 
@@ -19,11 +13,3 @@ Camera: a level 35 mm view from one step behind the room's simple workbench. For
 Render one original landscape 16:9 photographic location still for Ambient Colony, without lettering. This is an inhabited human colony on an unfamiliar world, maintained and working, with nobody visible. Use the described camera position and consistent human scale. Let supports, doorways, seals, maintenance access and service routes explain how the place works. Place only the few props specified; leave other surfaces quiet.
 
 Keep painted metal, rubber, concrete, fabric and glass visually distinct, with modest wear at contact or weather-exposed areas. Preserve natural shadows, soft highlight roll-off and atmospheric loss of distant detail. The unusual environment should look observed through a real lens, with irregular natural structure rather than uniformly sharp procedural texture. No plastic gloss, exaggerated HDR, sharpening halos, duplicated props, warped furniture, decorative machinery or arbitrary extra cables. No people, spacecraft flybys, holograms, lettering, branding, fictional insignia, watermark, screenshot controls or borders. If reference images are supplied, use only their lighting, human scale and framing principles; do not copy their scene, Earth geography, titles or logos.
-
-## Review before selection
-
-Check bridge span/anchors, roof thickness, ice transmission and dry interior. The beaker must have no handles. This should read as a sub-ice colony, not a terrestrial polar lab facing snowy mountains.
-
-## Later motion proposal — not a render request
-
-Later: fine distant ice dust at surface-connected fissures and restrained channel reflections below the bridge, with small instrument traces. No shifting or melting ice geometry.

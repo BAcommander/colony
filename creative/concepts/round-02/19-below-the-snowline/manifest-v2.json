@@ -1,0 +1,65 @@
+{
+  "title": "Below the Snowline",
+  "creative_concept_id": 19,
+  "release_number": null,
+  "date": "2026-09-29",
+  "status": "redesigned concept v2 generated; awaiting user direction",
+  "user_approved": false,
+  "generator": "built-in image_gen",
+  "artwork": {
+    "path": "creative/concepts/round-02/19-below-the-snowline/concept-v2.png",
+    "sha256": "bac9e6b150994ad53aad35b22faabb9077236eb9a97f1b34705ec7fbf364e702",
+    "bytes": 2367478,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "executed_prompt": {
+    "path": "creative/concepts/round-02/19-below-the-snowline/generation-v2.md",
+    "sha256": "5d2da7e7338e78c340f01900c4c862716624c1402cf02824f77d89c1f3aa9d0d",
+    "bytes": 3929
+  },
+  "original_generated_path": "C:\\Users\\john\\.codex\\generated_images\\01a0d2ad-4529-7693-9273-207397aec49d\\exec-7eb8b141-dcd9-4a08-a37a-e5e806222e5f.png",
+  "prior_artwork": {
+    "path": "creative/concepts/round-02/19-below-the-snowline/concept-v1.png",
+    "sha256": "e5f1f2ebce8e47af1528e6e6104ad308cb40deac0a2b83f50e974ce3a0b9a43b",
+    "bytes": 2273463,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "references": [
+    {
+      "id": "R6",
+      "description": "Frosted service galleries",
+      "visual_role": "Connected passage levels, stairs and threshold light",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-5ac398a3-5036-4542-93a0-03a74ca2a1ab.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "02b1e0e18d57d155d1ef900319392935de1b7ad17edbe72544ed56079b10a067",
+      "bytes": 312984
+    },
+    {
+      "id": "R8",
+      "description": "Circular opening to flooded gorge",
+      "visual_role": "Enclosure, portal framing and warm inhabited interior",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-d60a5c74-46cc-4ad7-a2ec-f0d27d00c742.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "29afed038a28aaf1a48f6603789e74c0cc7438fb27479f7d848fe38d80c71e72",
+      "bytes": 172147
+    }
+  ],
+  "reference_role": "Actual supplied references, used for framing, construction and lighting only; external originals are not stored in repo.",
+  "visual_review": {
+    "method": "generated still inspected in chat",
+    "notes": "Warm monitoring room faces a broad blue ice vault with a daylight shaft, enclosed bridge and habitation. Generated mug has one visible handle rather than the requested handleless beaker. Check bridge anchors and ice structure before production."
+  },
+  "thumbnail": null,
+  "animation": null,
+  "audio": null
+}

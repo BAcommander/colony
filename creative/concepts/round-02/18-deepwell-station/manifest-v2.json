@@ -1,0 +1,65 @@
+{
+  "title": "Deepwell Station",
+  "creative_concept_id": 18,
+  "release_number": null,
+  "date": "2026-09-29",
+  "status": "redesigned concept v2 generated; awaiting user direction",
+  "user_approved": false,
+  "generator": "built-in image_gen",
+  "artwork": {
+    "path": "creative/concepts/round-02/18-deepwell-station/concept-v2.png",
+    "sha256": "46013ffabbddfdf983b16de74fa65972780e0a84288cf24e8ed11bfd08e90e84",
+    "bytes": 2380932,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "executed_prompt": {
+    "path": "creative/concepts/round-02/18-deepwell-station/generation-v2.md",
+    "sha256": "43aac1b1c6123f7321196697f94208cf9611f01d54307c7f053926713a1ca1fc",
+    "bytes": 3792
+  },
+  "original_generated_path": "C:\\Users\\john\\.codex\\generated_images\\01a0d2ad-4529-7693-9273-207397aec49d\\exec-0e774bd4-3597-4bc3-badc-7ef221800767.png",
+  "prior_artwork": {
+    "path": "creative/concepts/round-02/18-deepwell-station/concept-v1.png",
+    "sha256": "d5afb261f510955f9ef1dfc23886818365ad40367eab822f06263b287668f730",
+    "bytes": 2276296,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "references": [
+    {
+      "id": "R8",
+      "description": "Circular opening to flooded gorge",
+      "visual_role": "Enclosure, portal framing and warm inhabited interior",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-d60a5c74-46cc-4ad7-a2ec-f0d27d00c742.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "29afed038a28aaf1a48f6603789e74c0cc7438fb27479f7d848fe38d80c71e72",
+      "bytes": 172147
+    },
+    {
+      "id": "R4",
+      "description": "Desert operational desk",
+      "visual_role": "Purposeful props, useful empty landscape and a route to a distant facility",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-4b7162ab-df4b-48f7-bf86-34081e859b46.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "e81bf7fdd49e989e52f47247007cc4abb2107a5e890c320f905ec7e6ae16a9ee",
+      "bytes": 209476
+    }
+  ],
+  "reference_role": "Actual supplied references, used for framing, construction and lighting only; external originals are not stored in repo.",
+  "visual_review": {
+    "method": "generated still inspected in chat",
+    "notes": "Dry pump gallery, pale terraces, brine channels and cliff housing are visible. Similar repeated arches and long pipe routing need detail review. Small stencil-like pump markings appeared despite the no-lettering direction."
+  },
+  "thumbnail": null,
+  "animation": null,
+  "audio": null
+}

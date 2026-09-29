@@ -1,6 +1,6 @@
 # Ambient Colony — believable life on unfamiliar worlds
 
-Prepared 2026-09-29 from nine user-supplied reference images and feedback on rough concepts 17–20. This is a prompt redesign, not a new image-generation run. Current v1 images remain history; revised prompts have not been tested. Photographic credibility is the target, not a guarantee of a particular model output or a claim that the references are photographs.
+Prepared 2026-09-29 from nine user-supplied reference images and feedback on rough concepts 17–20. The subsequent user-authorized generation run produced four v2 candidates, saved with exact prompts and manifests. V1 images remain history; v2 user review is pending. Photographic credibility is the target, not a guarantee of a particular model output or a claim that the references are photographs.
 
 ## The central change
 
@@ -77,4 +77,4 @@ Record an honest result: the concrete success, largest defect, next targeted rev
 
 - Revised, standalone v2 prompts for creative concepts 17–20; original v1 prompts and images retained.
 - Ten additional standalone prompts, creative IDs 22–31, indexed with TODOs in [round-03/README.md](round-03/README.md).
-- Updated [production pipeline](../../PRODUCTION_PIPELINE.md) and current instructions. Creative IDs are not release numbers; none of these fourteen revisions/new ideas has a generated image from this prompt pass.
+- Updated [production pipeline](../../PRODUCTION_PIPELINE.md) and current instructions. Creative IDs are not release numbers; the four revisions now have generated v2 candidates; the ten new ideas remain ungenerated.
