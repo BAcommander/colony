@@ -1,0 +1,83 @@
+{
+  "fingerprint": {
+    "config_sha256": "f645394cfc127d1f2375e5e376bae60446fd08dcaee1d1537e67cb6196ea713d",
+    "files": {
+      "final/04-floodplain-keeper/artwork-v2-animation.png": "1e9c4da5a9c01393c9e2f8105ed7023b5bbbaa58f83d613b70a32184fa676c26",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+    },
+    "masks": {
+      "sky": "514a2a7b7c807051d3eae3cb6da81467e2b587aac984d18f60ab0c6cdb36c964",
+      "water": "726e0fcf0028fc3109a6a40694dba23a245d0f5dc8042eb20bf046017353b6ec",
+      "screen": "217b6781cb9fafd90b2008aa8e867f9294c9993feba7d70db983fa4d66784157",
+      "lights": "82a1bf082c19d4ff3ac641fe38001ed764cc63cee273f324b109198f1dad236c",
+      "beacon": "b4969b818d3dd2a624fa6b542bf48f2e46af883e9e20f921f1d7537de9df1d22",
+      "active": "250cd306a69a10edbe2466d1d23bbb1ada461d331b0c9a763571db65e6e2382c",
+      "lamp": "664475cd5373ae258c892882c7f22e2f85e97cc844dc1f840010510d40b79f0d"
+    }
+  },
+  "layer_periodicity": {
+    "sky": {
+      "periodic_endpoint_exact": true,
+      "left_step_mae": 0.03476761625251141,
+      "right_step_mae": 0.03431485501534133
+    },
+    "water": {
+      "periodic_endpoint_exact": true,
+      "left_step_mae": 0.18547509103878065,
+      "right_step_mae": 0.181270413334835
+    },
+    "screen": {
+      "periodic_endpoint_exact": true,
+      "left_step_mae": 0.0,
+      "right_step_mae": 0.0
+    },
+    "lights": {
+      "periodic_endpoint_exact": true,
+      "left_step_mae": 0.0,
+      "right_step_mae": 0.0
+    },
+    "beacon": {
+      "periodic_endpoint_exact": true,
+      "left_step_mae": 0.0,
+      "right_step_mae": 0.0
+    },
+    "lamp": {
+      "periodic_endpoint_exact": true,
+      "left_step_mae": 0.0,
+      "right_step_mae": 0.0
+    }
+  },
+  "water_speed_deviation_mean_absolute_percent": 14.257256134890813,
+  "water_speed_deviation_max_absolute_percent": 31.40038386926909,
+  "water_speed_deviations_percent": [
+    -6.384354153149019,
+    1.6854296295202742,
+    25.398662777537197,
+    -3.337571405616435,
+    10.55899284896109,
+    -8.237662506642174,
+    -30.01088751761237,
+    -23.240348468444548,
+    -1.4736225158070826,
+    1.2245121509360857,
+    -8.318001091554239,
+    -5.681172905170606,
+    -6.138565244329397,
+    -13.052232893805016,
+    29.13293227330587,
+    -31.40038386926909,
+    18.061898599303362,
+    -8.916687228664433,
+    -12.107025400257987,
+    -22.038457046405956,
+    7.916888144874701,
+    -30.746622091687215,
+    16.353128337948842,
+    -20.758108136576592
+  ],
+  "water_active_source_pixels": 17758,
+  "protected_pixels": "Exact for every generated source frame; encoding/resizing may alter pixels.",
+  "visual_approval": false
+}

@@ -165,6 +165,18 @@
       "bytes": 766758,
       "sha256": "1656f12a1877f71ae6b8277d6b904c17276e402c1425bf0f45fb5829c7f5aecf",
       "storage": "local ignored draft; separate backup required"
+    },
+    {
+      "path": "exports/04-floodplain-keeper/animation-v2/floodplain-keeper-v2-preview-20s.mp4",
+      "bytes": 4697668,
+      "sha256": "30379ccc11f9d1b5504eee3680a8477b16972ae94a15d2da15da6a672164c53c",
+      "storage": "local ignored draft; separate backup required"
+    },
+    {
+      "path": "exports/04-floodplain-keeper/animation-v2/floodplain-keeper-v2-three-loops-60s.mp4",
+      "bytes": 14091364,
+      "sha256": "9efa76d2a6ab40ac0276cc9a3650b0736f7b8fb8ad163efa1cf4a9fdb600f241",
+      "storage": "local ignored draft; separate backup required"
     }
   ]
 }

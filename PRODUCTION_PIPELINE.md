@@ -11,7 +11,7 @@ All fourteen have artwork, thumbnails, descriptions and search tags in [final/](
 | 01 | [Ringfall Observatory](final/01-ringfall-observatory/README.md) | Approved 20-second 4K loop | One-hour audio produced; join accepted | Review existing assembled export before any new production; confirm publication status |
 | 02 | [Basalt Transmission](final/02-basalt-transmission/README.md) | Accepted 20-second 4K loop | Original two-hour audio accepted in part; v2 removes reported claimed section and is technically checked | Review v2 cut/join auditions and revised upload checks; see music/revision-v2/ |
 | 03 | [Glacier Sanctuary](final/03-glacier-sanctuary/README.md) | 60-second 4K v11 delivered from accepted v10 look | Four-hour Amber Refuge replacement MP3/MP4 delivered; join approved | Check full replacement upload and extended listening; see music/replacement-amber-refuge/delivery-v2.md |
-| 04 | [Floodplain Keeper](final/04-floodplain-keeper/README.md) | 20-second 720p v1 rendered; technical gates passed; user review pending | One-hour Shelter Recovery MP3 delivered; short join approved; full decode passed | Review motion preview, then 4K and assembly; extended listening/upload checks |
+| 04 | [Floodplain Keeper](final/04-floodplain-keeper/README.md) | 20-second 720p v2 lighting revision verified; v1 water/clouds liked; new flickers pending review | One-hour Shelter Recovery MP3 delivered; short join approved; full decode passed | Review new light flickers, then 4K and assembly; extended listening/upload checks |
 | 05 | [Saltline Receiver](final/05-saltline-receiver/README.md) | Draft masks and plan only; no renderer adapter or loop | Short/long prompts ready; no audio | Select clean source; prototype cloud and depth-separated dust transport |
 | 06 | [The Last Cable Station](final/06-last-cable-station/README.md) | No motion implementation; v3 art accepted | Short/long prompts ready; no audio | Map valley cloud/fog and protected cable/structure masks |
 | 07 | [Icebound Weather Post](final/07-icebound-weather-post/README.md) | No motion implementation; v3 art accepted | Short/long prompts ready; no audio | Map distant snow transport, low ice haze and practical lights |
@@ -48,14 +48,16 @@ Use [the round-03 backlog](creative/concepts/round-03/README.md) for the detaile
 
 ## Next work session: finish 04 as the next complete production
 
-Current evidence: [animation-v1](final/04-floodplain-keeper/animation-v1/README.md). Keep user artistic acceptance separate from technical verification.
+Current evidence: [animation-v2](final/04-floodplain-keeper/animation-v2/README.md). Keep user artistic acceptance separate from technical verification.
 
 - [x] Select prepared v2 for the first animation trial and freeze its hash/dimensions. Separate artwork approval remains pending.
 - [x] Refine water/reed/sluice boundaries, cloud source exclusions and supporting masks against that plate.
 - [x] Implement the scene adapter and render separate eight-second full-composition water/cloud tests.
 - [x] Render a complete 20-second 720p loop and three-repeat review clip; verify decoding, timestamps, protected pixels and seam gates.
 - [x] Record Reclamation Stillness selection, longer Shelter Recovery source and approved crossfade; deliver the requested one-hour MP3.
-- [ ] Review the motion at normal speed with the user. Assistant inspection covered still samples, not continuous playback; cloud visibility remains a review point.
+- [x] User found v1 clouds and water fine; preserve both.
+- [x] Add requested exterior window and desk-lamp flickers; render and technically verify v2.
+- [ ] User reviews v2 light flickers. Assistant inspected steady/dimmed still samples, not continuous playback.
 - [ ] After the preview look is accepted, export and validate the 4K short master (upscaled from 1672x941).
 - [ ] Assemble the one-hour video, complete listening/upload checks and review the combined release.
 

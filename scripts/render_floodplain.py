@@ -70,6 +70,11 @@ class Floodplain:
     x0,y0,x1,y1=light['roi'];m=self.masks['lights'][y0:y1,x0:x1]
     amount=event_amount(t,self.duration,light['start'],light['hold'],light['transition'])
     f[y0:y1,x0:x1]*=1-m[...,None]*amount*(1-light['floor'])
+    flicker=max((event_amount(t,self.duration,e['start'],e['hold'],e['transition'])*e['depth'] for e in light.get('flickers',[])),default=0)
+    f[y0:y1,x0:x1]*=1-m[...,None]*flicker
+  if only in (None,'lamp') and 'lamp' in self.config:
+   flicker=max((event_amount(t,self.duration,e['start'],e['hold'],e['transition'])*e['depth'] for e in self.config['lamp']['flickers']),default=0)
+   f*=1-self.masks['lamp'][...,None]*flicker
   if only in (None,'screen'):
    c=self.config['screen'];x0,y0,x1,y1=c['roi'];y,x=np.mgrid[y0:y1,x0:x1]
    # A small chart marker traveling right and fading locally at the wrap.
@@ -149,9 +154,10 @@ def main():
    item['validation']=verify(scene,ROOT/item['path'],240);clips.append(item)
   (reportdir/'isolated-review.json').write_text(json.dumps({'fingerprint':scene.fingerprint(),'clips':clips,'status':'awaiting normal-speed user review; samples only inspected by assistant'},indent=2)+'\n')
  else:
-  item=encode(scene,out/'floodplain-keeper-v1-preview-20s.mp4',20)
+  version=scene.config['version']
+  item=encode(scene,out/f'floodplain-keeper-{version}-preview-20s.mp4',20)
   item['validation']=verify(scene,ROOT/item['path'],600,True)
-  repeat=out/'floodplain-keeper-v1-three-loops-60s.mp4';assert not repeat.exists()
+  repeat=out/f'floodplain-keeper-{version}-three-loops-60s.mp4';assert not repeat.exists()
   subprocess.run([scene.config['ffmpeg'],'-v','error','-n','-stream_loop','2','-i',str(ROOT/item['path']),'-map','0:v:0','-c','copy','-an','-movflags','+faststart',str(repeat)],check=True)
   repeat_validation=verify(scene,repeat,1800,True)
   # Verify each repeated decoded pixel payload, not only metadata duration.

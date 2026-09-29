@@ -1,0 +1,39 @@
+{
+  "unchanged_layers": [
+    "water",
+    "sky",
+    "screen",
+    "beacon"
+  ],
+  "sampled_times": [
+    0,
+    1.3,
+    5.25,
+    6.35,
+    8,
+    10.5,
+    12,
+    15.45,
+    18.45,
+    19.9666667
+  ],
+  "full_frame_exact_outside_lighting_masks": true,
+  "fingerprint": {
+    "config_sha256": "f645394cfc127d1f2375e5e376bae60446fd08dcaee1d1537e67cb6196ea713d",
+    "files": {
+      "final/04-floodplain-keeper/artwork-v2-animation.png": "1e9c4da5a9c01393c9e2f8105ed7023b5bbbaa58f83d613b70a32184fa676c26",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+    },
+    "masks": {
+      "sky": "514a2a7b7c807051d3eae3cb6da81467e2b587aac984d18f60ab0c6cdb36c964",
+      "water": "726e0fcf0028fc3109a6a40694dba23a245d0f5dc8042eb20bf046017353b6ec",
+      "screen": "217b6781cb9fafd90b2008aa8e867f9294c9993feba7d70db983fa4d66784157",
+      "lights": "82a1bf082c19d4ff3ac641fe38001ed764cc63cee273f324b109198f1dad236c",
+      "beacon": "b4969b818d3dd2a624fa6b542bf48f2e46af883e9e20f921f1d7537de9df1d22",
+      "active": "250cd306a69a10edbe2466d1d23bbb1ada461d331b0c9a763571db65e6e2382c",
+      "lamp": "664475cd5373ae258c892882c7f22e2f85e97cc844dc1f840010510d40b79f0d"
+    }
+  }
+}

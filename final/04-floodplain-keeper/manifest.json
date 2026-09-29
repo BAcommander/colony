@@ -49,7 +49,7 @@
     "record": "music/long-source-v1/one-hour-delivery-v1.json",
     "approval_scope": "Short join approved; full-hour listening pending; decode verified."
   },
-  "delivery_note": "First silent 20-second 720p animation candidate and one-hour audio delivered separately; motion user review and 4K/combined assembly pending.",
+  "delivery_note": "V2 silent 720p lighting preview technically verified; v1 water/clouds liked. One-hour soundtrack delivered separately. 4K and combined assembly pending.",
   "animation_artwork_candidate": {
     "file": "artwork-v2-animation.png",
     "sha256": "1e9c4da5a9c01393c9e2f8105ed7023b5bbbaa58f83d613b70a32184fa676c26",
@@ -137,11 +137,11 @@
     "guidance_checked": "2026-09-28"
   },
   "animation_candidate": {
-    "package": "animation-v1/README.md",
-    "plan": "animation-v1/scene-plan-v1.json",
-    "validation": "animation-v1/delivery-validation.json",
-    "preview": "exports/04-floodplain-keeper/animation-v1/floodplain-keeper-v1-preview-20s.mp4",
-    "sha256": "cc2582c2f7f4a15cfff59924fa7a4fce5552aa4f2ca948b91c20fab8ffd1200d",
+    "package": "animation-v2/README.md",
+    "plan": "animation-v2/scene-plan-v2.json",
+    "validation": "animation-v2/delivery-validation.json",
+    "preview": "exports/04-floodplain-keeper/animation-v2/floodplain-keeper-v2-preview-20s.mp4",
+    "sha256": "30379ccc11f9d1b5504eee3680a8477b16972ae94a15d2da15da6a672164c53c",
     "user_approved": false,
     "source_dimensions": [
       1672,
@@ -151,6 +151,26 @@
       1280,
       720
     ],
-    "seconds": 20
-  }
+    "seconds": 20,
+    "inherited_feedback": "V1 water/clouds liked; retained. New lighting flickers pending review."
+  },
+  "animation_candidate_history": [
+    {
+      "package": "animation-v1/README.md",
+      "plan": "animation-v1/scene-plan-v1.json",
+      "validation": "animation-v1/delivery-validation.json",
+      "preview": "exports/04-floodplain-keeper/animation-v1/floodplain-keeper-v1-preview-20s.mp4",
+      "sha256": "cc2582c2f7f4a15cfff59924fa7a4fce5552aa4f2ca948b91c20fab8ffd1200d",
+      "user_approved": false,
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "delivery_dimensions": [
+        1280,
+        720
+      ],
+      "seconds": 20
+    }
+  ]
 }

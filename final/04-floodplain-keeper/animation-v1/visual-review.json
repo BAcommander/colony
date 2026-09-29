@@ -23,5 +23,9 @@
     "Native 1672x941 artwork; 4K not yet rendered."
   ],
   "user_approved": false,
-  "next_gate": "User playback feedback on first 720p candidate"
+  "next_gate": "User playback feedback on first 720p candidate",
+  "feedback_2026_09_29": {
+    "verbatim": "clouds and water look kinda fine, can we add some flickering to any of the lights outside or inside?",
+    "scope": "Water/cloud motion liked; retain while revising lights. This is not approval of v2 lighting or 4K."
+  }
 }
