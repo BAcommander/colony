@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-29",
+  "creative_id": 20,
+  "status": "prompt redesigned; not generated",
+  "prior_image": "concept-v1.png",
+  "current_prompt": "concept-prompt-v2.md",
+  "reference_ids": [
+    4,
+    5,
+    9
+  ],
+  "direction": "A geological survey room faces a pale terraced caldera, an inhabited inner bench and a faint ring arc overhead.",
+  "user_feedback": "these are cool enough, but none of them scream otherworldly to me",
+  "artwork_approved": false
+}

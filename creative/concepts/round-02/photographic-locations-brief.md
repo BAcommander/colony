@@ -1,5 +1,7 @@
 # Ambient Colony - photographic location concepts, round 02
 
+Supersession for concepts 17-20, 2026-09-29: the older descriptions below are historical. User said the v1s were cool enough but did not feel sufficiently otherworldly. Current per-scene concept-prompt.md files contain standalone v2 redesigns; consult [the revised art direction](../ALIEN_COLONY_ART_DIRECTION.md). Rough v1 images remain preserved; no v2 generated.
+
 Prepared 2026-09-28. The Floodplain Keeper was subsequently generated on this date; see the current 11-floodplain-keeper/concept-v4-offworld.png and its generation record. The earlier v3 room is preserved. Saltline Receiver current candidate is 12-saltline-receiver/concept-v3-martian-structures.png: red-world geology plus insulated colony architecture, following feedback that v1 resembled Basalt and the buildings needed more off-world character. Current delivery status is recorded in round-02/README.md and final/catalog.json. Floodplain and Saltline have packages 04/05 with newer clean animation-art candidates. The Last Cable Station and Icebound Weather Post have final v3 mineral-refinement edits as catalog 06/07, accepted by the user; concepts 15/16/21 are now generated pending review and concepts 17-20 have rough v1 images generated 2026-09-29, awaiting user direction. The user prefers the clean, realistic appearance of four supplied reference screenshots. The observations below describe their visible qualities; they do not establish whether the originals were photographed, rendered or AI-generated.
 
 ## Visual diagnosis

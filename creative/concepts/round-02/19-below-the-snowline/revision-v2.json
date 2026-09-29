@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-29",
+  "creative_id": 19,
+  "status": "prompt redesigned; not generated",
+  "prior_image": "concept-v1.png",
+  "current_prompt": "concept-prompt-v2.md",
+  "reference_ids": [
+    6,
+    7,
+    8
+  ],
+  "direction": "A warm observation room faces a colony service bridge inside a vast translucent glacial vault.",
+  "user_feedback": "these are cool enough, but none of them scream otherworldly to me",
+  "artwork_approved": false
+}

@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-29",
+  "purpose": "Visual inspiration analysis only; do not copy lettering, logos, exact scene layouts or fictional branding.",
+  "references": [
+    {
+      "id": "R1",
+      "description": "Warm communications room",
+      "visual_role": "Human-scale workstation, warm task light, cool inhabited distance",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-43cc0656-1cf8-44bf-ad22-9ddf948b5047.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "8501a60b531b11611c77bf31042ead819756b15e2452a9a719d020421312fe03",
+      "bytes": 215381
+    },
+    {
+      "id": "R2",
+      "description": "Forest utility station",
+      "visual_role": "Simple facility framed by layered tall growth and practical entrance lights",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-ecbab584-7f80-4f28-aa2e-259d94823bde.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "9e031465f67bac1fad96abddde159f5a2439a58d13940b870d2e65aac71e0792",
+      "bytes": 204279
+    },
+    {
+      "id": "R3",
+      "description": "Circular industrial chamber",
+      "visual_role": "Sectional infrastructure, circular daylight aperture and separated work levels",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-aa05a40d-d0ea-41dc-b7c7-f2648705a79a.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "d470142f49638fecf92077968fb095cd98d95ef2faaaa11268dbc306a07c8735",
+      "bytes": 298879
+    },
+    {
+      "id": "R4",
+      "description": "Desert operational desk",
+      "visual_role": "Purposeful props, useful empty landscape and a route to a distant facility",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-4b7162ab-df4b-48f7-bf86-34081e859b46.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "e81bf7fdd49e989e52f47247007cc4abb2107a5e890c320f905ec7e6ae16a9ee",
+      "bytes": 209476
+    },
+    {
+      "id": "R5",
+      "description": "Blue-hour equipment room",
+      "visual_role": "Local warm side light and cool landscape depth",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-80a4d51a-3733-4446-b202-30bebc694b84.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "5d9a2e696df45cc20fc2051b2b0142c018feb57f4e95391650a67c57fd1793fc",
+      "bytes": 208709
+    },
+    {
+      "id": "R6",
+      "description": "Frosted service galleries",
+      "visual_role": "Connected passage levels, stairs and threshold light",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-5ac398a3-5036-4542-93a0-03a74ca2a1ab.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "02b1e0e18d57d155d1ef900319392935de1b7ad17edbe72544ed56079b10a067",
+      "bytes": 312984
+    },
+    {
+      "id": "R7",
+      "description": "Polar outpost in weather",
+      "visual_role": "Quiet large shapes and modest illuminated shelter",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-83836914-9958-4ad6-bee0-3ddf299c8705.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "f791248256aa9cab9f012e16507a327988ecd07439e331dbab5a348e0451734f",
+      "bytes": 62647
+    },
+    {
+      "id": "R8",
+      "description": "Circular opening to flooded gorge",
+      "visual_role": "Enclosure, portal framing and warm inhabited interior",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-d60a5c74-46cc-4ad7-a2ec-f0d27d00c742.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "29afed038a28aaf1a48f6603789e74c0cc7438fb27479f7d848fe38d80c71e72",
+      "bytes": 172147
+    },
+    {
+      "id": "R9",
+      "description": "Control room above a city",
+      "visual_role": "Human foreground scale against deep urban settlement",
+      "external_path": "C:\\Users\\john\\AppData\\Local\\Temp\\codex-clipboard-2fa91537-8153-4e5c-a1fc-89f7fa64522f.jpg",
+      "source": "user attachment; image content observed in conversation",
+      "repo_copy": false,
+      "availability_note": "Temporary path may disappear; written analysis and standalone prompts preserve direction.",
+      "sha256": "bc71bf231f33b84306eef885a282192b62284d892a23e65697498fa06dd839d0",
+      "bytes": 274636
+    }
+  ]
+}

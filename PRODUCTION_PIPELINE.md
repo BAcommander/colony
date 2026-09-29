@@ -25,7 +25,27 @@ All ten have artwork, thumbnails, descriptions and search tags in [final/](final
 
 ## Exploration beyond the first ten
 
-On 2026-09-29 the user requested rough concepts for The Empty Junction, Deepwell Station, Below the Snowline and Crater Rim Survey (creative IDs 17-20). All four v1 images are now saved in [the round-02 index](creative/concepts/round-02/README.md), with prompts, reference hashes and review notes. Awaiting user direction; no release numbers assigned. This exploration does not mark any first-ten motion/music work complete.
+Updated 2026-09-29: user found the four rough v1s insufficiently otherworldly. A nine-reference analysis and new art direction are saved in [ALIEN_COLONY_ART_DIRECTION.md](creative/concepts/ALIEN_COLONY_ART_DIRECTION.md). Four standalone v2 briefs are ready; no revised images generated. V1 images and original prompts remain history, not selected production plates.
+
+- [ ] Review/generate revised [The Empty Junction](creative/concepts/round-02/17-empty-junction/concept-prompt.md): pale mineral fins and a sheltered freight pass.
+- [ ] Review/generate revised [Deepwell Station](creative/concepts/round-02/18-deepwell-station/concept-prompt.md): a dry gallery overlooking chalk terraces and brine.
+- [ ] Review/generate revised [Below the Snowline](creative/concepts/round-02/19-below-the-snowline/concept-prompt.md): occupied rock ribs inside a translucent ice vault.
+- [ ] Review/generate revised [Crater Rim Survey](creative/concepts/round-02/20-crater-rim-survey/concept-prompt.md): a survey room facing an inhabited terraced caldera and faint ring arc.
+
+Ten additional prompts are queued below. All are ungenerated, unassigned to public release numbers, and awaiting selection. Each link contains a complete standalone prompt and later motion ideas; no additional paid service is required for planning.
+
+- [ ] [Terminator Commons](creative/concepts/round-03/22-terminator-commons/concept-prompt.md) — Communal dining room at the boundary between a frozen plain and a habitable twilight district.
+- [ ] [Crownroot Relay](creative/concepts/round-03/23-crownroot-relay/concept-prompt.md) — A forest communications clearing where the colony works around a coherent unfamiliar canopy.
+- [ ] [Tideglass Lock](creative/concepts/round-03/24-tideglass-lock/concept-prompt.md) — A dry tidal-lock control gallery connecting a marine colony to a sheltered alien inlet.
+- [ ] [Stillcore Exchange](creative/concepts/round-03/25-stillcore-exchange/concept-prompt.md) — A compact geothermal heat-exchange hall beneath a native upland, with a protected daylight oculus.
+- [ ] [Meridian Archive](creative/concepts/round-03/26-meridian-archive/concept-prompt.md) — An inhabited civic records room overlooking a mature terraced colony city.
+- [ ] [Nightside Threshold](creative/concepts/round-03/27-nightside-threshold/concept-prompt.md) — A warm colony service passage ends at a sealed observation vestibule facing a frozen nightside plain.
+- [ ] [Cloudsea Mooring](creative/concepts/round-03/28-cloudsea-mooring/concept-prompt.md) — A maintenance room in an inhabited aerostat colony above a layered cloud sea.
+- [ ] [Amber Canopy Nursery](creative/concepts/round-03/29-amber-canopy-nursery/concept-prompt.md) — A propagation room where human food production meets an unfamiliar native canopy.
+- [ ] [Glassplain Tram Shelter](creative/concepts/round-03/30-glassplain-tram-shelter/concept-prompt.md) — A quiet enclosed tram stop crossing an immense naturally vitrified plain.
+- [ ] [Hollowmoon Reservoir](creative/concepts/round-03/31-hollowmoon-reservoir/concept-prompt.md) — A water-storage gallery inside a sealed lunar excavation beneath a large pressure-rated viewing aperture.
+
+Use [the round-03 backlog](creative/concepts/round-03/README.md) for the detailed concept queue. Prompt-only preparation does not mark artwork, motion or music complete; the first-ten production queue below is unchanged.
 
 ## Next work session: finish 04 as the next complete production
 

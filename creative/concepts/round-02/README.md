@@ -1,5 +1,7 @@
 # Round 02 - off-world colony locations
 
+Current direction 2026-09-29: user finds rough 17-20 too terrestrial. Their current concept-prompt.md files now contain redesigned v2 briefs, with original prompts archived as concept-prompt-v1.md. V1 art is retained, but no v2 art has been generated. Read [the nine-reference analysis](../ALIEN_COLONY_ART_DIRECTION.md). [Ten new proposals](../round-03/README.md) extend the backlog beyond this round.
+
 Prompts rewritten 2026-09-28 to apply the user's off-world colony direction to all nine remaining proposals. No images were generated in this rewrite.
 
 Read [the shared brief](photographic-locations-brief.md) for reference roles, visual constraints and review criteria. Each linked file contains a complete prompt with its own location, lighting and camera choices; there are no unresolved placeholders.
