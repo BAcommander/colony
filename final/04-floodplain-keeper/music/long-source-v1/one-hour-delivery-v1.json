@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-29",
+  "file": "exports/04-floodplain-keeper/Floodplain-Keeper-Shelter-Recovery-1-Hour-v1.mp3",
+  "sha256": "611a755059906d3bd5cc598c693dc35840664d76d900ff9cf028ab6350aaa109",
+  "bytes": 86401350,
+  "source": "exports/04-floodplain-keeper/source/Shelter_Recovery_2026-09-29T165637.mp4",
+  "source_sha256": "58306a7d75ecfc3c0fc829f7ed7c611c69421790e06940f4e0f50c6260aa3d78",
+  "script_sha256": "5842883bd69dc446d3e0afa5f19386b2ef882bd362d51ae09f17698f8f41f9a2",
+  "source_start_seconds": 11,
+  "source_end_seconds": 410,
+  "overlap_seconds": 8,
+  "repeat_interval_seconds": 391,
+  "curve": "equal-power sine/cosine",
+  "gain_db": -4.7,
+  "opening_fade_seconds": 10,
+  "closing_fade_seconds": 20,
+  "encoded_format": "MP3 192 kb/s, stereo 48 kHz",
+  "decoded_samples_per_channel": 172800000,
+  "decoded_seconds": 3600.0,
+  "full_decode": "passed; every sample finite; exact one-hour sample count",
+  "integrated_lufs": -18.3,
+  "true_peak_dbtp": -5.6,
+  "decoded_sample_peak_dbfs": -5.599215890144796,
+  "preencode_peak_dbfs": -5.340155176165817,
+  "join_windows_seconds": [
+    [
+      391.0,
+      399.0
+    ],
+    [
+      782.0,
+      790.0
+    ],
+    [
+      1173.0,
+      1181.0
+    ],
+    [
+      1564.0,
+      1572.0
+    ],
+    [
+      1955.0,
+      1963.0
+    ],
+    [
+      2346.0,
+      2354.0
+    ],
+    [
+      2737.0,
+      2745.0
+    ],
+    [
+      3128.0,
+      3136.0
+    ],
+    [
+      3519.0,
+      3527.0
+    ]
+  ],
+  "user_feedback": "transition sounds totally fine, make the hour long version?",
+  "approval_scope": "Short join approved and one-hour assembly requested. No full-hour listening review claimed.",
+  "assistant_listening": false,
+  "storage": "Local ignored export; not backed up by Git."
+}

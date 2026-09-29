@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-29",
+  "fingerprint": {
+    "config_sha256": "aa518c745f05f0d09a4c1f6af68607c10f0ac495726ed7c6c48251d91bc5698b",
+    "files": {
+      "final/04-floodplain-keeper/artwork-v2-animation.png": "1e9c4da5a9c01393c9e2f8105ed7023b5bbbaa58f83d613b70a32184fa676c26",
+      "scripts/render_floodplain.py": "01c3d7b4ea316fca836bdd6df034682f18c85e7220bd9d0066d6c5d5dfb33f08",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+    },
+    "masks": {
+      "sky": "514a2a7b7c807051d3eae3cb6da81467e2b587aac984d18f60ab0c6cdb36c964",
+      "water": "726e0fcf0028fc3109a6a40694dba23a245d0f5dc8042eb20bf046017353b6ec",
+      "screen": "217b6781cb9fafd90b2008aa8e867f9294c9993feba7d70db983fa4d66784157",
+      "lights": "82a1bf082c19d4ff3ac641fe38001ed764cc63cee273f324b109198f1dad236c",
+      "beacon": "b4969b818d3dd2a624fa6b542bf48f2e46af883e9e20f921f1d7537de9df1d22",
+      "active": "ae2798017a6baff08bd17fc0930a9d289aa83c51956610c3be131509e482f4d0"
+    }
+  },
+  "inspection": "Source, coordinate crops, mask overlay, temporal stills and actual decoded frame inspected. Isolated and combined videos decoded; continuous playback not reviewed by assistant.",
+  "limitations": [
+    "Cloud direction/readability requires normal-speed user review.",
+    "Native 1672x941 artwork; 4K not yet rendered."
+  ],
+  "user_approved": false,
+  "next_gate": "User playback feedback on first 720p candidate"
+}

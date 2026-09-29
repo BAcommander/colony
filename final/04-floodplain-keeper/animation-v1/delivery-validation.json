@@ -1,0 +1,121 @@
+{
+  "fingerprint": {
+    "config_sha256": "aa518c745f05f0d09a4c1f6af68607c10f0ac495726ed7c6c48251d91bc5698b",
+    "files": {
+      "final/04-floodplain-keeper/artwork-v2-animation.png": "1e9c4da5a9c01393c9e2f8105ed7023b5bbbaa58f83d613b70a32184fa676c26",
+      "scripts/render_floodplain.py": "01c3d7b4ea316fca836bdd6df034682f18c85e7220bd9d0066d6c5d5dfb33f08",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+    },
+    "masks": {
+      "sky": "514a2a7b7c807051d3eae3cb6da81467e2b587aac984d18f60ab0c6cdb36c964",
+      "water": "726e0fcf0028fc3109a6a40694dba23a245d0f5dc8042eb20bf046017353b6ec",
+      "screen": "217b6781cb9fafd90b2008aa8e867f9294c9993feba7d70db983fa4d66784157",
+      "lights": "82a1bf082c19d4ff3ac641fe38001ed764cc63cee273f324b109198f1dad236c",
+      "beacon": "b4969b818d3dd2a624fa6b542bf48f2e46af883e9e20f921f1d7537de9df1d22",
+      "active": "ae2798017a6baff08bd17fc0930a9d289aa83c51956610c3be131509e482f4d0"
+    }
+  },
+  "preview": {
+    "path": "exports/04-floodplain-keeper/animation-v1/floodplain-keeper-v1-preview-20s.mp4",
+    "sha256": "cc2582c2f7f4a15cfff59924fa7a4fce5552aa4f2ca948b91c20fab8ffd1200d",
+    "frames": 600,
+    "seconds": 20,
+    "layer": "combined",
+    "prototype": false,
+    "validation": {
+      "decoded_frames": 600,
+      "fps": 30.0,
+      "sequential_timestamps": true,
+      "seam_checks": {
+        "sky": {
+          "seam_mae": 0.0737377405166626,
+          "ordinary_max_mae": 0.0777231901884079,
+          "ordinary_median_mae": 0.0736205205321312,
+          "pass": true
+        },
+        "water": {
+          "seam_mae": 0.2559032440185547,
+          "ordinary_max_mae": 0.2755807340145111,
+          "ordinary_median_mae": 0.24243296682834625,
+          "pass": true
+        },
+        "screen": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 0.015591397881507874,
+          "ordinary_median_mae": 0.000806451600510627,
+          "pass": true
+        },
+        "lights": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 4.260073184967041,
+          "ordinary_median_mae": 0.0,
+          "pass": true
+        },
+        "beacon": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 1.0833333730697632,
+          "ordinary_median_mae": 0.0,
+          "pass": true
+        },
+        "combined": {
+          "seam_mae": 0.09029454737901688,
+          "ordinary_max_mae": 0.09514328092336655,
+          "ordinary_median_mae": 0.08921295404434204,
+          "pass": true
+        }
+      }
+    }
+  },
+  "repeated_preview": {
+    "path": "exports/04-floodplain-keeper/animation-v1/floodplain-keeper-v1-three-loops-60s.mp4",
+    "sha256": "63d3f01b978558159d29069f7f43555440afe286f580d96b770b5707789f2186",
+    "validation": {
+      "decoded_frames": 1800,
+      "fps": 30.0,
+      "sequential_timestamps": true,
+      "seam_checks": {
+        "sky": {
+          "seam_mae": 0.0737377405166626,
+          "ordinary_max_mae": 0.0777231901884079,
+          "ordinary_median_mae": 0.0736205205321312,
+          "pass": true
+        },
+        "water": {
+          "seam_mae": 0.2559032440185547,
+          "ordinary_max_mae": 0.2755807340145111,
+          "ordinary_median_mae": 0.24243296682834625,
+          "pass": true
+        },
+        "screen": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 0.015591397881507874,
+          "ordinary_median_mae": 0.000806451600510627,
+          "pass": true
+        },
+        "lights": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 4.260073184967041,
+          "ordinary_median_mae": 0.0,
+          "pass": true
+        },
+        "beacon": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 1.0833333730697632,
+          "ordinary_median_mae": 0.0,
+          "pass": true
+        },
+        "combined": {
+          "seam_mae": 0.09029454737901688,
+          "ordinary_max_mae": 0.09514328092336655,
+          "ordinary_median_mae": 0.08921295404434204,
+          "pass": true
+        }
+      }
+    },
+    "three_decoded_payloads_identical": true
+  },
+  "user_approval": false,
+  "inspection": "Source/mask and temporal still samples inspected; no continuous playback claim.",
+  "source_detail": "1672x941 native; 720p review. No 4K export during first-version review."
+}

@@ -1,6 +1,6 @@
 # 04 - Floodplain Keeper
 
-Selected artwork and thumbnail package, 2026-09-28. No animation or soundtrack has been produced for this scene.
+Current production status, 2026-09-29: first 20-second 720p motion preview delivered for user review; one-hour Shelter Recovery soundtrack delivered with the short join approved. No 4K motion master or combined upload yet.
 
 - `artwork-v1.png`: byte-identical copy of `creative/concepts/round-02/11-floodplain-keeper/concept-v4-offworld.png`.
 - `thumbnail-v1.png`: built-in image-generation master, new design pending user review.
@@ -14,7 +14,7 @@ Uses the approved Ambient Colony series identity: ivory condensed title, orbital
 
 [artwork-v2-animation.png](artwork-v2-animation.png) carries the thumbnail lighting and composition into a clean text-free source candidate. User review pending; v1 remains preserved. Exact built-in generation prompt: [artwork-prompt-v2.md](artwork-prompt-v2.md).
 
-[Production brief](animation-prep-v1/production-brief.md), [scene plan](animation-prep-v1/scene-plan.json) and five draft source-coordinate masks prepare the main and supporting effects. The source hash and mask dimensions were verified; edge refinement and a scene-specific renderer adapter are still needed. No video has been rendered. Native source is 1672x941; future 4K delivery will be resampled.
+[Production brief](animation-prep-v1/production-brief.md), [scene plan](animation-prep-v1/scene-plan.json) and five draft source-coordinate masks prepare the main and supporting effects. This earlier preparation is preserved as history. The new [animation-v1 package](animation-v1/README.md) uses v2 with refined masks and a scene-specific adapter. The 20-second 720p preview and three-loop review clip passed technical gates; user playback approval remains pending. Native source is 1672x941; future 4K delivery will be resampled.
 
 ## Publication and soundtrack preparation, 2026-09-28
 
@@ -22,7 +22,7 @@ Uses the approved Ambient Colony series identity: ivory condensed title, orbital
 - [Description with three hashtags](description.txt)
 - [Studio search tags](youtube-tags.txt): 291 characters including separators, under 500.
 - [ElevenLabs music workflow and listening criteria](music/README.md)
-- [One-minute music test prompt](music/elevenlabs-prompt-v1.txt)
-- [Longer music prompt](music/elevenlabs-long-version.txt)
+- [One-minute music test prompt](music/elevenlabs-prompt-v2.txt)
+- [Longer music prompt](music/elevenlabs-long-version-v2.txt)
 
-No soundtrack has been generated. Metadata contains no unverified music-production or duration claims; update it after the final audio is chosen. These are relevant search phrases, not measured keyword rankings.
+The user selected Reclamation Stillness, supplied the longer Shelter Recovery export and approved its short crossfade audition. The requested [one-hour soundtrack](music/long-source-v1/one-hour-delivery-v1.md) passed full decode checks; extended listening remains pending. Publication metadata still awaits the actual assembled upload. These are relevant search phrases, not measured keyword rankings.

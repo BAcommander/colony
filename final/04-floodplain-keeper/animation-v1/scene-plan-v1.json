@@ -1,0 +1,155 @@
+{
+  "scene_name": "Floodplain Keeper",
+  "version": "v1",
+  "status": "first motion candidate; user approval pending",
+  "source": {
+    "path": "final/04-floodplain-keeper/artwork-v2-animation.png",
+    "sha256": "1e9c4da5a9c01393c9e2f8105ed7023b5bbbaa58f83d613b70a32184fa676c26",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "selection": "Prepared v2 chosen for first animation trial under user instruction to try v1; no standalone art approval inferred."
+  },
+  "duration": 20,
+  "fps": 30,
+  "preview_size": [
+    1280,
+    720
+  ],
+  "final_size": [
+    3840,
+    2160
+  ],
+  "output_dir": "exports/04-floodplain-keeper/animation-v1",
+  "ffmpeg": "C:/Program Files/ShareX/ffmpeg.exe",
+  "sky": {
+    "speed": 2.0,
+    "regions": [
+      [
+        28,
+        0,
+        185,
+        215
+      ],
+      [
+        465,
+        18,
+        1295,
+        250
+      ]
+    ],
+    "feather": 7,
+    "source_clean_sigma": 1.2,
+    "exclusions": [
+      {
+        "ellipse": [
+          1081,
+          111,
+          40,
+          40
+        ]
+      },
+      {
+        "rectangle": [
+          663,
+          136,
+          696,
+          249
+        ]
+      },
+      {
+        "rectangle": [
+          1117,
+          178,
+          1125,
+          249
+        ]
+      }
+    ]
+  },
+  "water": {
+    "roi": [
+      28,
+      345,
+      1220,
+      478
+    ],
+    "seed": 814,
+    "components": 24,
+    "time_scale": 0.09,
+    "specular_strength": 9,
+    "wavelength_range": [
+      0.65,
+      5.0
+    ],
+    "reflection_sigma_x": 1.2,
+    "reflection_sigma_y": 0.6,
+    "displacement_scale": 0.23,
+    "reflection_contrast": 0.08,
+    "highlight_roughness": 0.32,
+    "sampling_filter_pixels": 0.85,
+    "edge_damping_pixels": 9,
+    "loop_seconds": 20,
+    "perspective_horizon_y": 305,
+    "perspective_distance_scale": 1500,
+    "perspective_center_x": 840,
+    "perspective_lateral_scale": 400
+  },
+  "lights": [
+    {
+      "roi": [
+        581,
+        288,
+        596,
+        304
+      ],
+      "start": 3,
+      "hold": 5,
+      "transition": 1,
+      "floor": 0.2
+    },
+    {
+      "roi": [
+        764,
+        292,
+        775,
+        306
+      ],
+      "start": 12,
+      "hold": 5,
+      "transition": 1.2,
+      "floor": 0.25
+    }
+  ],
+  "screen": {
+    "roi": [
+      939,
+      513,
+      995,
+      568
+    ],
+    "period": 20,
+    "strength": 13
+  },
+  "beacon": {
+    "roi": [
+      674,
+      143,
+      684,
+      151
+    ],
+    "period": 10
+  },
+  "masks": {
+    "sky": "masks/sky.png",
+    "water": "masks/water.png",
+    "screen": "masks/screen.png",
+    "lights": "masks/lights.png",
+    "beacon": "masks/beacon.png",
+    "active": "masks/active.png"
+  },
+  "protection": "Camera, furniture, glass residual detail, geometry, reeds, waterline, moon and fixed terrain. No foreground rain, steam or added objects.",
+  "inspection": "Source still and coordinate-grid crops inspected; masks revised against this exact plate; motion pending.",
+  "method": "Shared ReflectionSurface with scene-specific perspective and recalculated wave phases; Basalt-style overlapping local source-cloud lifetimes. No full-frame dissolve or reversed motion."
+}

@@ -1,14 +1,62 @@
 {
-  "status": "not generated",
+  "status": "one-hour audio delivered and fully decoded; short join user-approved",
   "date_prepared": "2026-09-28",
   "provider": "ElevenLabs Music",
   "settings_observed": null,
   "price_observed": null,
-  "short_test_files": [],
-  "selected_test": null,
-  "long_export": null,
-  "user_feedback": null,
-  "audio_approval": false,
-  "local_join_review": null,
-  "delivery_duration_seconds": null
+  "short_test_files": [
+    {
+      "filename": "Reclamation_Stillness_2026-09-29T165055.mp4",
+      "source_path": "C:\\Users\\jazzs\\Downloads\\Reclamation_Stillness_2026-09-29T165055.mp4",
+      "preserved_path": "exports/04-floodplain-keeper/source/Reclamation_Stillness_2026-09-29T165055.mp4",
+      "sha256": "aef81aaed506f2b8221e19e77d61fbdf161e524df19920154d47b480347b5b5f",
+      "bytes": 1502952,
+      "decoded_audio_seconds": 60.010666666666665,
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "container_duration_seconds": 64.4,
+      "audio_decode": "passed"
+    }
+  ],
+  "selected_test": "Reclamation Stillness",
+  "long_export": {
+    "source": "exports/04-floodplain-keeper/source/Shelter_Recovery_2026-09-29T165637.mp4",
+    "original_path": "C:\\Users\\jazzs\\Downloads\\Shelter_Recovery_2026-09-29T165637.mp4",
+    "sha256": "58306a7d75ecfc3c0fc829f7ed7c611c69421790e06940f4e0f50c6260aa3d78",
+    "bytes": 10534778,
+    "audio_seconds": 420.0106666666667,
+    "container_seconds": 424.4,
+    "title": "Shelter Recovery",
+    "audio_decode": "passed",
+    "relation_to_selected_test": "Supplied after reference-guided long generation instructions; actual settings/reference use not observed."
+  },
+  "user_feedback": "ok i think i want to go with stillness",
+  "audio_approval": true,
+  "local_join_review": {
+    "status": "user-approved",
+    "report": "long-source-v1/audition-v1.json",
+    "audition": "exports/04-floodplain-keeper/Floodplain-Keeper-Shelter-Recovery-join-v1.mp3",
+    "crossfade_seconds": [
+      25,
+      33
+    ],
+    "three_repeat_preview": "exports/04-floodplain-keeper/Floodplain-Keeper-Shelter-Recovery-three-repeats-v1.mp3",
+    "user_feedback": "transition sounds totally fine, make the hour long version?",
+    "date": "2026-09-29"
+  },
+  "delivery_duration_seconds": 3600,
+  "date_updated": "2026-09-29",
+  "approval_scope": "Reclamation Stillness short test selected; Shelter Recovery join approved; one-hour assembly requested and delivered. Full-hour listening review not claimed.",
+  "prompt_context": "elevenlabs-prompt-v2.txt was supplied in chat; actual generation settings and prompt used were not observed.",
+  "assistant_listening": false,
+  "storage": "Preserved source is Git-ignored and requires separate backup.",
+  "delivery": {
+    "path": "exports/04-floodplain-keeper/Floodplain-Keeper-Shelter-Recovery-1-Hour-v1.mp3",
+    "sha256": "611a755059906d3bd5cc598c693dc35840664d76d900ff9cf028ab6350aaa109",
+    "bytes": 86401350,
+    "report": "long-source-v1/one-hour-delivery-v1.json",
+    "full_decode": "passed",
+    "integrated_lufs": -18.3,
+    "true_peak_dbtp": -5.6
+  }
 }

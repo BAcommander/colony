@@ -2,7 +2,7 @@
   "title": "Floodplain Keeper",
   "caption": "KEEPING THE COLONY ALIVE",
   "series_number": "04",
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "status": "User selected current scene for repository packaging; new thumbnail pending user review",
   "artwork": {
     "file": "artwork-v1.png",
@@ -43,8 +43,13 @@
     "note": "Marketing adaptation with tonal/compositional changes; clean source remains unchanged."
   },
   "video": null,
-  "audio": null,
-  "delivery_note": "Artwork and thumbnail only; animation and soundtrack not produced for this scene.",
+  "audio": {
+    "delivery": "exports/04-floodplain-keeper/Floodplain-Keeper-Shelter-Recovery-1-Hour-v1.mp3",
+    "seconds": 3600,
+    "record": "music/long-source-v1/one-hour-delivery-v1.json",
+    "approval_scope": "Short join approved; full-hour listening pending; decode verified."
+  },
+  "delivery_note": "First silent 20-second 720p animation candidate and one-hour audio delivered separately; motion user review and 4K/combined assembly pending.",
   "animation_artwork_candidate": {
     "file": "artwork-v2-animation.png",
     "sha256": "1e9c4da5a9c01393c9e2f8105ed7023b5bbbaa58f83d613b70a32184fa676c26",
@@ -76,7 +81,8 @@
     "mask_count": 5,
     "mask_status": "draft source-coordinate masks; refine occlusion before rendering",
     "renderer_status": "scene adapter not implemented",
-    "animation_rendered": false
+    "animation_rendered": false,
+    "status": "Historical preparation; current implementation is animation-v1."
   },
   "youtube_metadata": {
     "status": "publication drafts; audio and duration claims deliberately absent until produced",
@@ -95,31 +101,56 @@
     "keyword_note": "Scene-relevant phrases; not measured search volume or ranking guarantees"
   },
   "music_preparation": {
-    "status": "prompts prepared; no audio generated",
+    "status": "Selected short test and longer source supplied; join approved; one-hour audio delivered.",
     "files": [
       {
         "path": "music/README.md",
-        "sha256": "3f5e0e51c512eb0682871535713ee4817d1534c37f501b08d6fcaba5933dfc4c"
+        "sha256": "16ff7cab0f60469247fddc594855b1240d6c80c68895d8f2b668dca49f027689"
       },
       {
         "path": "music/elevenlabs-prompt-v1.txt",
-        "sha256": "86e0af75493c4355bf821a3b85b6e3eaf20c2b0ebc70f238870850101eafb6be"
+        "sha256": "6836932e9c3582764c9413c725e461ae306818c39326d6c28d18813c9389adaa"
       },
       {
         "path": "music/elevenlabs-long-version.txt",
-        "sha256": "702511dd806ce33f9bf1d0d80ba17e7b543df7967c61bf32709ed7abab2b3435"
+        "sha256": "279bdca464e1091adff8a6d33a28248a0f497f7a263085fd2eb45818962a3474"
       },
       {
         "path": "music/generation-record.json",
-        "sha256": "0e109e4698c856d2fa014833d2571051d47d438399383a8bbcc9a3e4fc07aa21"
+        "sha256": "f7a196ed61ae5c0a36e8b90e873d165db6fca83e2f89e8843063d381b6e89100"
+      },
+      {
+        "path": "music/elevenlabs-prompt-v2.txt",
+        "sha256": "a4ee83eb86914da973ee818d84d4f5aa883065aff1a19f06d595b6ead0ec9dda"
+      },
+      {
+        "path": "music/elevenlabs-long-version-v2.txt",
+        "sha256": "c116eaa72af03d66e816a57368900153522e2c976c6ebb600b0b42fdb5b1dc50"
       }
     ],
     "planned_test": "60 seconds, two variants; user runs manually after checking actual cost",
     "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
-    "delivery_duration_seconds": null,
+    "delivery_duration_seconds": 3600,
     "credits_spent_by_assistant": 0,
     "workflow": "creative/MUSIC_WORKFLOW.md",
     "official_guidance": "https://elevenlabs.io/docs/overview/capabilities/music/best-practices",
     "guidance_checked": "2026-09-28"
+  },
+  "animation_candidate": {
+    "package": "animation-v1/README.md",
+    "plan": "animation-v1/scene-plan-v1.json",
+    "validation": "animation-v1/delivery-validation.json",
+    "preview": "exports/04-floodplain-keeper/animation-v1/floodplain-keeper-v1-preview-20s.mp4",
+    "sha256": "cc2582c2f7f4a15cfff59924fa7a4fce5552aa4f2ca948b91c20fab8ffd1200d",
+    "user_approved": false,
+    "source_dimensions": [
+      1672,
+      941
+    ],
+    "delivery_dimensions": [
+      1280,
+      720
+    ],
+    "seconds": 20
   }
 }

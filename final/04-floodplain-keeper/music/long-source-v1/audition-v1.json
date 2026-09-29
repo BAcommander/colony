@@ -1,0 +1,47 @@
+{
+  "status": "short transition approved by user on 2026-09-29",
+  "source": "exports/04-floodplain-keeper/source/Shelter_Recovery_2026-09-29T165637.mp4",
+  "start_seconds": 11,
+  "end_seconds": 410,
+  "overlap_seconds": 8,
+  "repeat_interval_seconds": 391,
+  "curve": "equal-power sine/cosine",
+  "gain_db": -4.7,
+  "selection_reason": "Near-full-length candidate with 0.073 dB overlap mean-level difference and 0.765 dB coarse normalized spectral distance. Retains 399 seconds; stronger numerical 16-second candidate retains 340 seconds. No harmonic compatibility or listening claim.",
+  "short_audition_crossfade_seconds": [
+    25,
+    33
+  ],
+  "three_repeat_crossfades_seconds": [
+    [
+      391,
+      399
+    ],
+    [
+      782,
+      790
+    ]
+  ],
+  "assistant_listening": false,
+  "files": [
+    {
+      "path": "exports/04-floodplain-keeper/Floodplain-Keeper-Shelter-Recovery-join-v1.mp3",
+      "seconds": 58.0,
+      "sha256": "421db9952993a3339d242a26233234ab7dded0c21d04c5c51f81b6f588ac2621",
+      "bytes": 1393389,
+      "full_decode": "passed; exact sample count",
+      "preencode_peak_dbfs": -5.758303261549429,
+      "loudness_summary": "Integrated loudness:\r\n    I:         -17.8 LUFS\r\n    Threshold: -27.8 LUFS\r\n\r\n  Loudness range:\r\n    LRA:         3.1 LU\r\n    Threshold: -37.9 LUFS\r\n    LRA low:   -19.7 LUFS\r\n    LRA high:  -16.6 LUFS\r\n\r\n  True peak:\r\n    Peak:       -6.0 dBFS\r\n[out#0/null @ 0000018bb89df640] video:0KiB audio:10875KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\r\nsize=N/A time=00:00:58.00 bitrate=N/A speed= 412x elapsed=0:00:00.14"
+    },
+    {
+      "path": "exports/04-floodplain-keeper/Floodplain-Keeper-Shelter-Recovery-three-repeats-v1.mp3",
+      "seconds": 1181.0,
+      "sha256": "fa8c83b17f66dc67bf6ea10cf8dfe661a687b77e239062778bd78e65ef129a1d",
+      "bytes": 28345581,
+      "full_decode": "passed; exact sample count",
+      "preencode_peak_dbfs": -5.340155176165817,
+      "loudness_summary": "Integrated loudness:\r\n    I:         -18.3 LUFS\r\n    Threshold: -28.3 LUFS\r\n\r\n  Loudness range:\r\n    LRA:         3.8 LU\r\n    Threshold: -38.3 LUFS\r\n    LRA low:   -20.4 LUFS\r\n    LRA high:  -16.5 LUFS\r\n\r\n  True peak:\r\n    Peak:       -5.6 dBFS\r\n[out#0/null @ 00000174a53e3080] video:0KiB audio:221438KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\r\nsize=N/A time=00:19:41.00 bitrate=N/A speed= 429x elapsed=0:00:02.74"
+    }
+  ],
+  "user_feedback": "transition sounds totally fine, make the hour long version?"
+}
