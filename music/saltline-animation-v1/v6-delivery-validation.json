@@ -1,0 +1,123 @@
+{
+  "fingerprint": {
+    "source_sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
+    "config_sha256": "2dd49f73d6e7d97ffb23219e4426cd74111d138cbd105b0292801eb56ecb3060",
+    "code_sha256": {
+      "render_saltline_loop.py": "50822ecdc3995c83731a0ec5485a7f0e3f5a11da6b5bf948a606e5531e39b6ce",
+      "periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "render_saltline.py": "e7c7fbe473822b7c6e725710a61a014a06a94dacca0f67cca2735eac4f3a5eb4",
+      "dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832"
+    },
+    "root_dependencies_sha256": {
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "effective_masks_sha256": {
+      "sky": "fc4a6cf1fd00236980a2c234af1eaa4416b3e926d634a6ec76393c5bb5146da2",
+      "far_dust": "5caa2848f36f027762f09ca2c4458e19fbb50822d99ec26a7861a9950978a19c",
+      "lights": "4f77e53d99ea2f4834c13c3ca14d69fce47d673476bf02342d8c459713829193",
+      "sunlight": "17d157ea0ab8cafe0ff9fdc6d43926685ce0060c8173d111f7599743ffa98fcf"
+    }
+  },
+  "preview": {
+    "path": "music/saltline-animation-v1/saltline-v6-loop-20s.mp4",
+    "sha256": "384b9d5634793c6db234f5ed2c199b02520e5b94e01c4ccd0041bd2c6cb954d3",
+    "frames": 600,
+    "seconds": 20,
+    "layer": "combined",
+    "prototype": false,
+    "validation": {
+      "decoded_frames": 600,
+      "fps": 30.0,
+      "sequential_timestamps": true,
+      "seam_checks": {
+        "sky": {
+          "seam_mae": 0.14624358713626862,
+          "ordinary_max_mae": 0.1491839736700058,
+          "ordinary_median_mae": 0.1460690200328827,
+          "pass": true
+        },
+        "far_dust": {
+          "seam_mae": 0.13888125121593475,
+          "ordinary_max_mae": 0.16383248567581177,
+          "ordinary_median_mae": 0.11076202243566513,
+          "pass": true
+        },
+        "lights": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 2.097161293029785,
+          "ordinary_median_mae": 0.0,
+          "pass": true
+        },
+        "sunlight": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 0.3124239146709442,
+          "ordinary_median_mae": 0.14349859952926636,
+          "pass": true
+        },
+        "combined": {
+          "seam_mae": 0.1377657651901245,
+          "ordinary_max_mae": 0.1753121018409729,
+          "ordinary_median_mae": 0.1403888612985611,
+          "pass": true
+        }
+      }
+    }
+  },
+  "repeated_preview": {
+    "path": "music/saltline-animation-v1/saltline-v6-three-loops-60s.mp4",
+    "sha256": "62929c76150701251b651896d217f8448672de89c798bb429ce7f083f9c50d72",
+    "validation": {
+      "decoded_frames": 1800,
+      "fps": 30.0,
+      "sequential_timestamps": true,
+      "seam_checks": {
+        "sky": {
+          "seam_mae": 0.14624358713626862,
+          "ordinary_max_mae": 0.1491839736700058,
+          "ordinary_median_mae": 0.1460690200328827,
+          "pass": true
+        },
+        "far_dust": {
+          "seam_mae": 0.13888125121593475,
+          "ordinary_max_mae": 0.16383248567581177,
+          "ordinary_median_mae": 0.11076202243566513,
+          "pass": true
+        },
+        "lights": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 2.097161293029785,
+          "ordinary_median_mae": 0.0,
+          "pass": true
+        },
+        "sunlight": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 0.3124239146709442,
+          "ordinary_median_mae": 0.14349859952926636,
+          "pass": true
+        },
+        "combined": {
+          "seam_mae": 0.1377657651901245,
+          "ordinary_max_mae": 0.1753121018409729,
+          "ordinary_median_mae": 0.1403888612985611,
+          "pass": true
+        }
+      }
+    },
+    "three_decoded_payloads_identical": true
+  },
+  "analytic_report": "v6-analytic-validation.json",
+  "duration_seconds": 20,
+  "fps": 30,
+  "frames": 600,
+  "size": [
+    1280,
+    720
+  ],
+  "silent": true,
+  "source_detail": "1672x941 native; 720p preview, not 4K final",
+  "user_approval": false,
+  "prior_acceptance": "V5 twelve-second look accepted; new periodic timeline awaits visual review",
+  "inspection": "Full-composition temporal samples and decoded frame; no continuous-playback claim"
+}

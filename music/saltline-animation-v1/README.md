@@ -1,5 +1,7 @@
 # Saltline Receiver — accepted v5 preview
 
+Current production: [twenty-second loop v6](LOOP_V6.md) implements the requested complete cycle from this accepted look. New loop/repeated-join previews await user review; v5 remains the accepted baseline below.
+
 User accepted the current look on 2026-09-29: “perfect, commit and push everything”.
 
 Accepted review video: [saltline-v5-combined-12s.mp4](saltline-v5-combined-12s.mp4). Twelve seconds, 1280×720/30 fps, silent. This is a forward-motion preview, **not a seamless loop or 4K master**. Native artwork is 1672×941; future 4K will be upscaled. No soundtrack has been generated.

@@ -1,0 +1,79 @@
+{
+  "layer_checks": {
+    "sky": {
+      "endpoint_identical": true,
+      "last_to_first_source_mae": 0.07526459638589005,
+      "ordinary_source_step_mae_max_sampled": 0.07500363662413095,
+      "seam_pass": true
+    },
+    "far_dust": {
+      "endpoint_identical": true,
+      "last_to_first_source_mae": 0.07571091499662928,
+      "ordinary_source_step_mae_max_sampled": 0.09454863026291598,
+      "seam_pass": true
+    },
+    "lights": {
+      "endpoint_identical": true,
+      "last_to_first_source_mae": 0.0,
+      "ordinary_source_step_mae_max_sampled": 0.33468559837728196,
+      "seam_pass": true
+    },
+    "sunlight": {
+      "endpoint_identical": true,
+      "last_to_first_source_mae": 0.0,
+      "ordinary_source_step_mae_max_sampled": 0.17744586464965612,
+      "seam_pass": true
+    }
+  },
+  "far_dust_source_delta_by_second": [
+    7.989979775694062,
+    8.197899430042288,
+    8.01672335600907,
+    7.287468591040019,
+    6.377604645461789,
+    6.41279034136177,
+    6.212378194521052,
+    5.932080039222896,
+    6.249816142673286,
+    6.308681130109702,
+    6.1852975424403995,
+    6.045474045474045,
+    5.609142305570877,
+    4.997433658147944,
+    4.775724704296133,
+    5.682401789544647,
+    6.350041367898511,
+    6.723823313109027,
+    7.114504810933382,
+    7.569183979898265
+  ],
+  "note": "Coverage and seam diagnostics, not artistic visibility or user approval",
+  "effect_speed_deviations_percent": {
+    "clouds": 0,
+    "far_dust": 0,
+    "sunlight": 0
+  },
+  "supporting_light_schedules": "Same twenty-second events as accepted v5; no duration scaling",
+  "fingerprint": {
+    "source_sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
+    "config_sha256": "2dd49f73d6e7d97ffb23219e4426cd74111d138cbd105b0292801eb56ecb3060",
+    "code_sha256": {
+      "render_saltline_loop.py": "50822ecdc3995c83731a0ec5485a7f0e3f5a11da6b5bf948a606e5531e39b6ce",
+      "periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "render_saltline.py": "e7c7fbe473822b7c6e725710a61a014a06a94dacca0f67cca2735eac4f3a5eb4",
+      "dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832"
+    },
+    "root_dependencies_sha256": {
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "effective_masks_sha256": {
+      "sky": "fc4a6cf1fd00236980a2c234af1eaa4416b3e926d634a6ec76393c5bb5146da2",
+      "far_dust": "5caa2848f36f027762f09ca2c4458e19fbb50822d99ec26a7861a9950978a19c",
+      "lights": "4f77e53d99ea2f4834c13c3ca14d69fce47d673476bf02342d8c459713829193",
+      "sunlight": "17d157ea0ab8cafe0ff9fdc6d43926685ce0060c8173d111f7599743ffa98fcf"
+    }
+  },
+  "user_approval": false
+}
