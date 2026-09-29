@@ -1,0 +1,16 @@
+{
+  "output": "G:\\AI\\colony\\exports\\03-glacier-sanctuary\\glacier-v2-amber-refuge.mp4",
+  "source_video": "G:\\AI\\colony\\exports\\03-glacier-sanctuary\\glacier.mp4",
+  "replacement_audio": "G:\\AI\\colony\\exports\\03-glacier-sanctuary\\Glacier-Sanctuary-4-Hours-v2-Amber-Refuge.mp3",
+  "video_stream_copy_verified": true,
+  "video_stream_sha256": "0,v,SHA256=5ae9c82e028a4390061e9f47e476f69c723e4e2719a6902089be3d763d1e37d3",
+  "decoded_audio_seconds": 14400.0,
+  "audio_full_decode_verified": true,
+  "audio_peak_dbfs": -6.313169582435584,
+  "video_decode": "Original encoded video stream preserved and hash-verified; no new full picture decode performed.",
+  "duration_target_seconds": 14400,
+  "original_video_and_audio_preserved": true,
+  "user_join_feedback": "loop sounds fine",
+  "youtube_status": "User screenshot showed no notices on private nine-minute source; full replacement upload checks pending.",
+  "bytes": 6682229741
+}

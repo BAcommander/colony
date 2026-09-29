@@ -1,0 +1,38 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'G:\AI\colony\exports\03-glacier-sanctuary\glacier.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Duration: 04:00:00.00, start: 0.000000, bitrate: 3716 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 3840x2160, 3510 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc61.19.100 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 197 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Input #1, mp3, from 'G:\AI\colony\exports\03-glacier-sanctuary\Glacier-Sanctuary-4-Hours-v2-Amber-Refuge.mp3':
+  Metadata:
+    title           : Glacier Sanctuary - Four Hours
+    encoder         : Lavf62.12.102
+  Duration: 04:00:00.00, start: 0.023021, bitrate: 192 kb/s
+  Stream #1:0: Audio: mp3 (mp3float), 48000 Hz, stereo, fltp, 192 kb/s, start 0.023021
+    Metadata:
+      encoder         : Lavc62.28
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (mp3 (mp3float) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, mp4, to 'G:\AI\colony\exports\03-glacier-sanctuary\glacier-v2-amber-refuge.mp4':
+  Metadata:
+    title           : Glacier Sanctuary - Amber Refuge - Four Hours
+    encoder         : Lavf62.12.102
+  Stream #0:0: Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 3840x2160, q=2-31, 3510 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc62.28.101 aac
+[mp4 @ 0000024e124f84c0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0000024e12498a40] video:6170368KiB audio:339734KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.238289%
+frame=432000 fps=2208 q=-1.0 Lsize= 6525615KiB time=04:00:00.00 bitrate=3712.3kbits/s speed=73.6x elapsed=0:03:15.64
+[aac @ 0000024e1250e300] Qavg: 556.982

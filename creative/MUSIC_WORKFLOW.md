@@ -98,3 +98,15 @@ Release folders have scene-specific short and long music prompts, listening chec
 ## v2 prompts for scenes 04-14, 2026-09-29
 
 Each package music folder now holds elevenlabs-prompt-v2.txt and elevenlabs-long-version-v2.txt as the current prompts, written to the rules above. The v1 files are preserved unchanged as history. READMEs point to v2 and hold the workflow notes removed from the prompt text. No audio generated, no credits spent, no user listening feedback on v2; generation records remain blank.
+
+## Local soundtrack deliveries, reconciled 2026-09-29
+
+Basalt revision v2 (2026-09-26): YouTube displayed an audio Content ID claim at 30:54–31:05. Local waveform tracing mapped it to generated source 4:27–4:38. At user request, source 4:17–4:48 was removed before repetition and a retained-audio 12-second crossfade added. Versioned two-hour MP3, original-picture-stream MP4, and two short auditions are saved in exports/02-basalt-transmission. See final/02-basalt-transmission/music/revision-v2/. New-cut listening feedback and revised YouTube checks pending. Originals preserved; no claim-resolution guarantee and no YouTube action taken.
+
+
+Glacier update (2026-09-27): both one-minute tests described as usable; user preferred Sanctuary Under Blue Dusk direction and supplied Amber Arch Sanctuary ten-minute export. At user request, four-hour MP3 completed with source 0:32-9:52, 15-second equal-power joins, -5 dB gain and single opening/closing fades. Full decode verified. See final/03-glacier-sanctuary/music/long-source-v1/four-hour-delivery.md. Audio ready for video assembly; no explicit join verdict or full-length listening approval claimed.
+
+Glacier Content ID update (2026-09-27): user reports two SME claims, on behalf of MT Recordings and Filtr, blocking some territories. First claim covers long ranges exceeding a full repeat cycle; small-cut remedy is not supported. See final/03-glacier-sanctuary/music/content-id-2026-09-27/. Support draft prepared, not sent; claim validity unknown. Check complete candidate generations privately/unlisted before long assembly going forward, while recognizing later claims remain possible. Technical audio validation is not rights clearance.
+
+
+Glacier replacement delivered: user approved Amber Refuge join with "loop sounds fine" after private source upload showed No notices. Versioned four-hour MP3 and original-picture-stream MP4 completed. Source 0:29-8:31, 15-second equal-power overlap, -4.7 dB gain. See final/03-glacier-sanctuary/music/replacement-amber-refuge/delivery-v2.md. Full replacement YouTube checks pending; original claimed files preserved.

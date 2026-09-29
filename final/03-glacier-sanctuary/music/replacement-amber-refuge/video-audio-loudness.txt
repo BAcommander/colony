@@ -1,0 +1,44 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'G:\AI\colony\exports\03-glacier-sanctuary\glacier-v2-amber-refuge.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    title           : Glacier Sanctuary - Amber Refuge - Four Hours
+    encoder         : Lavf62.12.102
+  Duration: 04:00:00.00, start: 0.000000, bitrate: 3712 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 3840x2160, 3510 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 193 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_f32le (native))
+Press [q] to stop, [?] for help
+Output #0, f32le, to 'pipe:1':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    title           : Glacier Sanctuary - Amber Refuge - Four Hours
+    encoder         : Lavf62.12.102
+  Stream #0:0(und): Audio: pcm_f32le, 48000 Hz, stereo, flt, 3072 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.101 pcm_f32le
+      handler_name    : SoundHandler
+[Parsed_ebur128_0 @ 000002d265d55540] Summary:
+
+  Integrated loudness:
+    I:         -18.3 LUFS
+    Threshold: -28.3 LUFS
+
+  Loudness range:
+    LRA:         2.2 LU
+    Threshold: -38.3 LUFS
+    LRA low:   -19.3 LUFS
+    LRA high:  -17.1 LUFS
+
+  True peak:
+    Peak:       -6.3 dBFS
+[out#0/f32le @ 000002d265d09e40] video:0KiB audio:5400000KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000000%
+size= 5400000KiB time=04:00:00.00 bitrate=3072.0kbits/s speed= 329x elapsed=0:00:43.80

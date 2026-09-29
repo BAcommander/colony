@@ -1,0 +1,19 @@
+Subject: Two YouTube Content ID claims blocking an ElevenLabs Music generation
+
+Hello ElevenLabs Support,
+
+I generated an ambient music track using ElevenLabs Music on 27 September 2026 and used it in a four-hour YouTube video by looping and crossfading the generated audio. The original downloaded export is Amber_Arch_Sanctuary_2026-09-27T160221.mp4.
+
+YouTube has applied two Content ID claims, both blocking the video in some territories:
+1. 528 Hz Whole Body Regeneration - Miracle Tones, Solfeggio Healing Frequencies MT; SME on behalf of MT Recordings. Matches include 2:04-19:11 and 1:39:13-3:05:01, plus other ranges.
+2. 18 Hz Cognitive Thinking (Binaural Beats) - Miracle Tones, Binaural Beats MT; SME on behalf of Filtr. Matches include 37:37-38:00 and several later repetitions.
+
+Please investigate whether these matches are erroneous or whether the generation resembles the claimed recordings. Please confirm the applicable usage rights for my generation and advise what evidence and wording you can provide for a valid YouTube dispute, or what replacement/remedy is available.
+
+Generation/project ID: [add from ElevenLabs]
+YouTube video URL: [add]
+Account plan at generation: [confirm]
+Prompt and selected reference: [attach generation history]
+Attachments: original ten-minute export and claim screenshots.
+
+Thank you.

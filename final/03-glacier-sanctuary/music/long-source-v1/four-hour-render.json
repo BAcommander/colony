@@ -1,0 +1,23 @@
+{
+  "output": "G:\\AI\\colony\\exports\\03-glacier-sanctuary\\Glacier-Sanctuary-4-Hours.mp3",
+  "source": "G:\\AI\\colony\\exports\\03-glacier-sanctuary\\source\\Amber_Arch_Sanctuary_2026-09-27T160221.mp4",
+  "duration_seconds": 14400,
+  "verified_decoded_seconds": 14400.0,
+  "full_decode_verified": true,
+  "source_excerpt_seconds": [
+    32,
+    592
+  ],
+  "repeat_interval_seconds": 545,
+  "crossfade_seconds": 15,
+  "crossfade": "equal-power sine/cosine",
+  "gain_db": -5,
+  "opening_fade_seconds": 10,
+  "closing_fade_seconds": 20,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bitrate_kbps": 192,
+  "decoded_sample_peak_dbfs": -6.255725198228735,
+  "output_bytes": 345601239,
+  "listening_status": "User authorized four-hour build. No explicit join audition verdict or full-length listening approval recorded."
+}

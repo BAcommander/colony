@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "policy": "Ignored files are not backed up by Git. Paths relative to repository root.",
   "files": [
     {
@@ -56,6 +56,60 @@
       "source_path": "C:\\Users\\jazzs\\Downloads\\Copper_Dusk_Transmission_2026-09-26T155535.mp4",
       "bytes": 15241848,
       "sha256": "6148d95c4fcd44e9ede409ab12f6f4f4e095fb70383b85cc91ac4c63e0d1db9d",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/02-basalt-transmission/Basalt-Transmission-2-Hours-v2-section-removed.mp3",
+      "bytes": 172801357,
+      "sha256": "7d7b672e38e1da34d08fe6a3920920b004bf6bde8c891ec022828560179208fa",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/02-basalt-transmission/Basalt-v2-new-edit-audition.mp3",
+      "bytes": 1489581,
+      "sha256": "e040dfb08d67fd0f5670593693b279a4e63814a8df76376039bb6b87605317ce",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/02-basalt-transmission/Basalt-v2-loop-join-audition.mp3",
+      "bytes": 1561581,
+      "sha256": "b0be5dbdd29cfbb649478dfd2ef7df6010bf2ee335496e212ef3e0e6ddc429a6",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/02-basalt-transmission/basalt-v2-section-removed.mp4",
+      "bytes": 2665255323,
+      "sha256": "fd2c66b3dfd5b80e9b52a0aed8e07e86364189c2e7deb5569b2add93264de663",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/03-glacier-sanctuary/Glacier-loop-join-v1.mp3",
+      "bytes": 1561684,
+      "sha256": "c18487c65acd6522dc157ece3ae313aa11458a30c6ec6347fce30bc067a097fb",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/03-glacier-sanctuary/Glacier-Sanctuary-4-Hours.mp3",
+      "bytes": 345601239,
+      "sha256": "8bad87b5aa3bb49935088f7f45e80a5f746b98d4d26333d34af2a9af582fd56d",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/03-glacier-sanctuary/source/Amber_Arch_Sanctuary_2026-09-27T160221.mp4",
+      "bytes": 15286646,
+      "sha256": "6f4742bd3838dcabf15bbc4de63307c1827764ff5dd5d49f85c6388d1ebeff8a",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/03-glacier-sanctuary/Glacier-Sanctuary-4-Hours-v2-Amber-Refuge.mp3",
+      "bytes": 345601239,
+      "sha256": "fd45a9b9fa59646f39cfd12246e6b73679f432de7d7cb9b6415ccd152ed9c385",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/03-glacier-sanctuary/glacier-v2-amber-refuge.mp4",
+      "bytes": 6682229741,
+      "sha256": "3d86cd651ba89d631b7d6470c901702dbac7c23ba8d64307306ea8e2421a89b9",
       "storage": "local ignored; separate backup required"
     }
   ]

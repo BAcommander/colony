@@ -9,8 +9,8 @@ All fourteen have artwork, thumbnails, descriptions and search tags in [final/](
 | No. | Release / package | Motion | Music | Next action |
 | --- | --- | --- | --- | --- |
 | 01 | [Ringfall Observatory](final/01-ringfall-observatory/README.md) | Approved 20-second 4K loop | One-hour audio produced; join accepted | Review existing assembled export before any new production; confirm publication status |
-| 02 | [Basalt Transmission](final/02-basalt-transmission/README.md) | Accepted 20-second 4K loop | Two-hour audio produced; join and eight-minute listening check accepted | Review existing assembled export; confirm publication status |
-| 03 | [Glacier Sanctuary](final/03-glacier-sanctuary/README.md) | 60-second 4K v11 delivered from accepted v10 look | No soundtrack recorded as produced | Prepare a scene-specific music brief/test; confirm full v11 delivery review |
+| 02 | [Basalt Transmission](final/02-basalt-transmission/README.md) | Accepted 20-second 4K loop | Original two-hour audio accepted in part; v2 removes reported claimed section and is technically checked | Review v2 cut/join auditions and revised upload checks; see music/revision-v2/ |
+| 03 | [Glacier Sanctuary](final/03-glacier-sanctuary/README.md) | 60-second 4K v11 delivered from accepted v10 look | Four-hour Amber Refuge replacement MP3/MP4 delivered; join approved | Check full replacement upload and extended listening; see music/replacement-amber-refuge/delivery-v2.md |
 | 04 | [Floodplain Keeper](final/04-floodplain-keeper/README.md) | Draft masks and plan only; no renderer adapter or loop | Short/long prompts ready; no audio | Select clean source, validate masks, prototype channel reflections and clouds |
 | 05 | [Saltline Receiver](final/05-saltline-receiver/README.md) | Draft masks and plan only; no renderer adapter or loop | Short/long prompts ready; no audio | Select clean source; prototype cloud and depth-separated dust transport |
 | 06 | [The Last Cable Station](final/06-last-cable-station/README.md) | No motion implementation; v3 art accepted | Short/long prompts ready; no audio | Map valley cloud/fog and protected cable/structure masks |
@@ -23,7 +23,7 @@ All fourteen have artwork, thumbnails, descriptions and search tags in [final/](
 | 13 | [Below the Snowline](final/13-below-the-snowline/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Thumbnail approved; use motion-brief.md to plan principal effects |
 | 14 | [Crater Rim Survey](final/14-crater-rim-survey/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Thumbnail approved; use motion-brief.md to plan principal effects |
 
-01/02 long exports are listed in [the local inventory](final/local-export-inventory.json); their existence does not establish full-video review or publication. Nothing in this tracker claims any video has been uploaded. Glacier's accepted look, technical delivery and full-export user review are separate facts.
+01–03 long exports are listed in [the local inventory](final/local-export-inventory.json); their existence does not establish full-video review or publication. Basalt and Glacier claim reports and replacement checks are recorded in their music folders; complete replacement upload checks remain pending. Glacier's accepted look, technical delivery and full-export user review are separate facts. Ignored exports require separate media backup.
 
 09/10 retain their historical folder names to preserve links and provenance. Public names are **The Shoreless Colony** and **Farpoint Station**. Their current thumbnails are `thumbnail-v2.jpg`; other packages currently use v1. Use [catalog.json](final/catalog.json) to resolve current artwork and thumbnail paths.
 
