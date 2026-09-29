@@ -10,6 +10,8 @@ Basalt: user slightly preferred Basalt Transmission Outpost, then supplied a ten
 
 User uses existing ElevenLabs credits. Quoted rate: 900 credits/minute; verify the UI price before each generation. This workflow does not authorize the assistant to spend credits or upload reference audio automatically. User runs paid generations manually; local analysis and assembly incur no ElevenLabs credits.
 
+Channel benchmark (2026-09-29): the user wants Ambient Colony to compete with the YouTube channel Ambient Outpost, which the user puts at about 160k subscribers. Treat it as a quality and long-form listening-comfort benchmark, not a copying target; prompts, art and titles stay original.
+
 ## Lessons established by the Ringfall session
 
 1. First prompt overconstrained movement: persistent E drone, subdued treble, no prominent melody and numerous exclusions. User preferred Night Watch over Dusk, describing Dusk as more droney, and rated the overall direction only about halfway to the reference.
@@ -37,13 +39,40 @@ User uses existing ElevenLabs credits. Quoted rate: 900 credits/minute; verify t
 
 1. Read scene description and last accepted feedback.
 2. Analyse reference duration, spectrum, dynamics and recurrence; label limits.
-3. Write a scene-specific one-minute prompt emphasizing positive musical behavior before a short exclusion list.
+3. Write a scene-specific one-minute prompt following the prompt writing rules below: length and mode first, a distinct genre and production anchor, sequential positive musical description, one short generic exclusion sentence last.
 4. User generates two short variants, chooses one, and reports what works or distracts.
 5. Revise only the unresolved characteristics. Avoid continuing to spend credits once the direction works.
 6. User selects Use as reference on their chosen test, requests about five minutes/one variant, and supplies the export.
 7. Inspect actual duration, fades, levels and candidate loop points. Create a join audition and three-repeat preview.
 8. After a successful listening check, make the requested one-hour audio with only one opening/closing fade. Decode-check duration and peak headroom. Preserve source exports and version revisions.
 9. Record prompt, model/settings shown, filenames, checks, exact feedback, and approval scope. Keep recording status distinct from committed/pushed status.
+
+## Prompt writing rules (v2, 2026-09-29)
+
+Established by a full review of the 04-14 v1 prompts against the official ElevenLabs Music best-practices page and the compose API reference (both checked 2026-09-29), the Ringfall v1-to-v2 prompt experience and the Basalt long prompt that produced the accepted ten-minute export. The v2 prompts are untested: no generation has compared v1 with v2. These rules are documented reasoning until a listening test confirms them.
+
+Structure, in this order:
+
+1. Length and mode first: "Instrumental only, 60 seconds." or "Instrumental only, about five minutes." The docs recommend stating length plainly. The API accepts 3 seconds to 10 minutes per prompt generation; the UI decides what it offers.
+2. One sentence of genre and production anchor in studio vocabulary: pad type, reverb type, tape or analog character, noise bed. The docs say anything left open gets the most average answer, so each scene names a distinct anchor instead of "cinematic electronic ambient" for all eleven.
+3. One sentence of scene mood. Further scene narrative is weak steering; keep it short.
+4. Positive musical description as sequential narration: "start with ... already in place", "around 1:00 bring in", "between 1:30 and 3:30", "after 3:30 hold". Timing cues are supported by the docs. Name pauses and rests explicitly.
+5. One short mix-and-ending paragraph: midrange clear at low volume, bass centred and modest, treble smooth, level even, end open with no cadence.
+6. One generic exclusion sentence last, about eight items: vocals, drums, percussion, arpeggios, sound effects, risers, climaxes, plus at most one scene-specific risk such as bells or a sub-heavy drone. Never list literal effect nouns (horns, rail clatter, sonar pings, ice cracks, dripping). "Sound effects" covers them and keeps negative nouns from leaking into the output or the style chips.
+
+Rules:
+
+- Short prompts about 1000-1250 characters, long prompts about 900-1100. The v1 short prompts were 1750-2080 and the v1 long prompts 2090-2600. The accepted Ringfall prompt was about 1500 and the working Basalt long prompt 879. The docs state that length and detail do not correlate with quality.
+- The long prompt does not repeat the short prompt. The attached reference carries the palette. The long prompt names the anchor, the mood, a scene-specific arc with timings and the exclusions.
+- No workflow notes inside the prompt. "If the interface supports it", "use my selected test", "local editing will determine loop points", "seamlessness will be checked after export" and "do not force a mathematically seamless loop" are instructions for people and belong in the package README.
+- No explanatory sentences aimed at a reader, such as "the railway informs the feeling, not literal sound effects". They add nothing the model can play and reintroduce effect nouns.
+- Do not ask for a timbre and then forbid its family. The v1 Empty Junction prompt asked for a brass-like tone and forbade horns. Do not write ambiguous exclusions such as "instrument sound effects".
+- Differentiate scenes deliberately: register, harmonic leaning (major-leaning for daylight scenes such as Deepwell and Crater Rim, suspended and open for night scenes), reverb character, rate of change and one accent timbre per scene. Eleven near-identical templates produce eleven near-identical tracks.
+- Keep the Ringfall lessons: independent voices, audible midrange, restrained centred bass, no compulsory drone note. A named key is supported by the docs and is not the same as a fixed drone; test it on one scene before adopting it.
+- Keep "Instrumental only" in the text even when the UI has an instrumental switch.
+- The long-piece duration is the user's choice. Five minutes is the written default; Basalt used ten. Edit the number in the prompt to match the UI setting.
+
+To confirm with the first v2 generation: whether timing cues are followed in free-time material, whether "sound effects" alone keeps out literal effects, and whether the shorter prompt reduces the two-variant tonal extremes seen in the Basalt tests.
 
 ## Saved evidence
 
@@ -65,3 +94,7 @@ Naming update: catalog 09 is The Shoreless Colony (formerly Offshore Night Offic
 ## Prepared scenes 11-14, 2026-09-29
 
 Release folders have scene-specific short and long music prompts, listening checks and blank generation records. Empty Junction: patient irregular replies between warm close and distant soft voices; no train rhythms. Deepwell: overlapping independent voices and reflective soft upper texture; no water effects. Below the Snowline: intimate warmth against cool sustained distance; no shrill crystalline notes. Crater Rim: open suspended harmony and sparse musical questions; no heroic build. No audio generated or credits spent.
+
+## v2 prompts for scenes 04-14, 2026-09-29
+
+Each package music folder now holds elevenlabs-prompt-v2.txt and elevenlabs-long-version-v2.txt as the current prompts, written to the rules above. The v1 files are preserved unchanged as history. READMEs point to v2 and hold the workflow notes removed from the prompt text. No audio generated, no credits spent, no user listening feedback on v2; generation records remain blank.
