@@ -1,6 +1,6 @@
 # Saltline Receiver — accepted v5 preview
 
-Current production: [twenty-second loop v6](LOOP_V6.md) implements the requested complete cycle from this accepted look. New loop/repeated-join previews await user review; v5 remains the accepted baseline below.
+Current production: [one-minute 4K loop v7](LOOP_V7.md) implements the requested longer, irregular hut off periods from this accepted look. The new minute-long delivery awaits user review; v5 remains the accepted baseline below. [Twenty-second v6](LOOP_V6.md) is preserved.
 
 User accepted the current look on 2026-09-29: “perfect, commit and push everything”.
 
@@ -24,7 +24,7 @@ Exact imported code bytes are preserved in `dependency-snapshot/`, including the
 
 ## Next production step
 
-Preserve this accepted look while making a genuine twenty-second cycle. The current cyclic branch is unreviewed and does not yet implement the accepted replenishment through a seamless timeline. Convert dust supply and sunlight transport to hidden local resets, keep established motion speeds, check each layer and encoded seam, and provide a three-repeat preview. Export 4K only after the complete loop passes the available checks and visual review.
+Review the requested v7 one-minute 4K delivery and its longer independent hut light events. The atmosphere preserves v6's local periodic cloud, dust and sunlight transport at unchanged speeds. The user explicitly requested commit/push on 2026-09-30; the exact short master uses a narrow Git LFS rule, with independent remote restore/hash evidence in `remote-backup-v7.json`. This backup request does not imply artistic acceptance of the new timing. No soundtrack has been generated.
 
 ## History and backup
 

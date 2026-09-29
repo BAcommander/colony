@@ -1,0 +1,148 @@
+{
+  "fingerprint": {
+    "source_sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
+    "config_sha256": "4fc5f33f819a9a1c2379b7f3eb035dac43c2a1319e4f192cec35a9ccf0e3df0f",
+    "code_sha256": {
+      "render_saltline_loop.py": "50822ecdc3995c83731a0ec5485a7f0e3f5a11da6b5bf948a606e5531e39b6ce",
+      "periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "render_saltline.py": "e7c7fbe473822b7c6e725710a61a014a06a94dacca0f67cca2735eac4f3a5eb4",
+      "dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "render_saltline_minute.py": "796b1ebfbc7d0e50d190a933f65d2734c68c104e0431cfdac118aa4b4a083188"
+    },
+    "root_dependencies_sha256": {
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "effective_masks_sha256": {
+      "sky": "fc4a6cf1fd00236980a2c234af1eaa4416b3e926d634a6ec76393c5bb5146da2",
+      "far_dust": "5caa2848f36f027762f09ca2c4458e19fbb50822d99ec26a7861a9950978a19c",
+      "lights": "4f77e53d99ea2f4834c13c3ca14d69fce47d673476bf02342d8c459713829193",
+      "sunlight": "17d157ea0ab8cafe0ff9fdc6d43926685ce0060c8173d111f7599743ffa98fcf"
+    }
+  },
+  "layer_checks": {
+    "sky": {
+      "endpoint_identical": true,
+      "last_to_first_source_mae": 0.07526459638589005,
+      "ordinary_source_step_mae_max_sampled": 0.07500363662413095,
+      "seam_pass": true
+    },
+    "far_dust": {
+      "endpoint_identical": true,
+      "last_to_first_source_mae": 0.07571091499662928,
+      "ordinary_source_step_mae_max_sampled": 0.09454863026291598,
+      "seam_pass": true
+    },
+    "lights": {
+      "endpoint_identical": true,
+      "last_to_first_source_mae": 0.0,
+      "ordinary_source_step_mae_max_sampled": 1.4929907595221996,
+      "seam_pass": true
+    },
+    "sunlight": {
+      "endpoint_identical": true,
+      "last_to_first_source_mae": 0.0,
+      "ordinary_source_step_mae_max_sampled": 0.17744586464965612,
+      "seam_pass": true
+    }
+  },
+  "atmosphere_identical_to_v6_at_sampled_times": true,
+  "distinct_from_frame_zero_at_seconds": {
+    "20": true,
+    "40": true
+  },
+  "far_dust_source_delta_by_second_of_local_period": [
+    7.989979775694062,
+    8.197899430042288,
+    8.01672335600907,
+    7.287468591040019,
+    6.377604645461789,
+    6.41279034136177,
+    6.212378194521052,
+    5.932080039222896,
+    6.249816142673286,
+    6.308681130109702,
+    6.1852975424403995,
+    6.045474045474045,
+    5.609142305570877,
+    4.997433658147944,
+    4.775724704296133,
+    5.682401789544647,
+    6.350041367898511,
+    6.723823313109027,
+    7.114504810933382,
+    7.569183979898265
+  ],
+  "effect_speed_deviations_percent": {
+    "clouds": 0,
+    "far_dust": 0,
+    "sunlight": 0
+  },
+  "lights": {
+    "foreground-left-room": [
+      {
+        "start": 2.7,
+        "hold": 13.339,
+        "transition": 0.45
+      },
+      {
+        "start": 31.338,
+        "hold": 12.424,
+        "transition": 0.55
+      }
+    ],
+    "foreground-middle-room": [
+      {
+        "start": 20.1,
+        "hold": 12.637,
+        "transition": 0.45
+      },
+      {
+        "start": 46.152,
+        "hold": 13.1,
+        "transition": 0.55
+      }
+    ],
+    "ridge-middle-habitat": [
+      {
+        "start": 11.4,
+        "hold": 15.536,
+        "transition": 0.45
+      },
+      {
+        "start": 45.664,
+        "hold": 16.505,
+        "transition": 0.55
+      }
+    ],
+    "ridge-left-habitat": [
+      {
+        "start": 51.7,
+        "hold": 14.744,
+        "transition": 0.45
+      },
+      {
+        "start": 20.704,
+        "hold": 17.688,
+        "transition": 0.55
+      }
+    ],
+    "service-lamp": [
+      {
+        "start": 15.2,
+        "hold": 0.22,
+        "transition": 0.035,
+        "depth": 0.55
+      },
+      {
+        "start": 41.6,
+        "hold": 0.14,
+        "transition": 0.025,
+        "depth": 0.4
+      }
+    ]
+  },
+  "user_review": false,
+  "inspection": "Source seam, coverage and protection diagnostics; not continuous playback or user approval"
+}

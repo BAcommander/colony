@@ -40,17 +40,19 @@
   {
     "folder": "05-saltline-receiver",
     "title": "Saltline Receiver",
-    "status": "artwork-and-thumbnail; animation not produced",
+    "status": "V5 look accepted; requested 60-second 4K v7 technically verified, visual review pending",
     "artwork": "artwork-v1.png",
-    "duration_seconds": null,
-    "video": null,
+    "duration_seconds": 60,
+    "video": "video-4k-v7-60s.mp4",
     "thumbnail": "thumbnail-v1.jpg",
     "animation_artwork_candidate": "artwork-v2-animation.png",
     "animation_preparation": "animation-prep-v1/scene-plan.json",
     "description": "description.txt",
     "search_tags": "youtube-tags.txt",
     "suggested_title": "youtube-title.txt",
-    "music_prompt": "music/elevenlabs-prompt-v1.txt"
+    "music_prompt": "music/elevenlabs-prompt-v1.txt",
+    "animation_source": "artwork-v2-animation.png",
+    "animation_delivery": "../../music/saltline-animation-v1/LOOP_V7.md"
   },
   {
     "folder": "06-last-cable-station",

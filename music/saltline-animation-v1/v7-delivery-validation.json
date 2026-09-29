@@ -1,0 +1,165 @@
+{
+  "date": "2026-09-30",
+  "fingerprint": {
+    "source_sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
+    "config_sha256": "4fc5f33f819a9a1c2379b7f3eb035dac43c2a1319e4f192cec35a9ccf0e3df0f",
+    "code_sha256": {
+      "render_saltline_loop.py": "50822ecdc3995c83731a0ec5485a7f0e3f5a11da6b5bf948a606e5531e39b6ce",
+      "periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "render_saltline.py": "e7c7fbe473822b7c6e725710a61a014a06a94dacca0f67cca2735eac4f3a5eb4",
+      "dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "render_saltline_minute.py": "796b1ebfbc7d0e50d190a933f65d2734c68c104e0431cfdac118aa4b4a083188"
+    },
+    "root_dependencies_sha256": {
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "effective_masks_sha256": {
+      "sky": "fc4a6cf1fd00236980a2c234af1eaa4416b3e926d634a6ec76393c5bb5146da2",
+      "far_dust": "5caa2848f36f027762f09ca2c4458e19fbb50822d99ec26a7861a9950978a19c",
+      "lights": "4f77e53d99ea2f4834c13c3ca14d69fce47d673476bf02342d8c459713829193",
+      "sunlight": "17d157ea0ab8cafe0ff9fdc6d43926685ce0060c8173d111f7599743ffa98fcf"
+    }
+  },
+  "master": {
+    "path": "final/05-saltline-receiver/video-4k-v7-60s.mp4",
+    "sha256": "1d5acba548220427b77cbf19c84b191a50d947984a7b6e583896b82d85acbfdd",
+    "bytes": 455599919,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "frames": 1800,
+    "fps": 30,
+    "seconds": 60.0,
+    "silent": true,
+    "full_decode": true,
+    "sequential_timestamps": true,
+    "no_duplicate_endpoint": true,
+    "encoded_seam": {
+      "sky": {
+        "seam_mae": 0.2016071746800908,
+        "ordinary_max_mae": 0.20243696670826714,
+        "pass": true
+      },
+      "far_dust": {
+        "seam_mae": 0.1746659803049075,
+        "ordinary_max_mae": 0.2039061545709948,
+        "pass": true
+      },
+      "lights": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 1.5113208190544387,
+        "pass": true
+      },
+      "sunlight": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 0.3641238634165216,
+        "pass": true
+      },
+      "combined": {
+        "seam_mae": 0.18857188970593167,
+        "ordinary_max_mae": 0.22138470549583386,
+        "pass": true
+      }
+    },
+    "repeated_decoded_payloads_identical": false
+  },
+  "preview": {
+    "path": "music/saltline-animation-v1/saltline-v7-loop-60s-720p.mp4",
+    "sha256": "0d76fefd885af068be1e9c2ca5602f2d0a9f4094441c94ebe5c6502feb9cd5cf",
+    "bytes": 50767435,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "frames": 1800,
+    "fps": 30,
+    "seconds": 60.0,
+    "silent": true,
+    "full_decode": true,
+    "sequential_timestamps": true,
+    "no_duplicate_endpoint": true,
+    "encoded_seam": {
+      "sky": {
+        "seam_mae": 0.18028994832505338,
+        "ordinary_max_mae": 0.18139228068075258,
+        "pass": true
+      },
+      "far_dust": {
+        "seam_mae": 0.15684195368443102,
+        "ordinary_max_mae": 0.18176700833889697,
+        "pass": true
+      },
+      "lights": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 1.5340410800830833,
+        "pass": true
+      },
+      "sunlight": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 0.3391760664340393,
+        "pass": true
+      },
+      "combined": {
+        "seam_mae": 0.16865580156265317,
+        "ordinary_max_mae": 0.1997655912519,
+        "pass": true
+      }
+    },
+    "repeated_decoded_payloads_identical": false
+  },
+  "repeat": {
+    "path": "music/saltline-animation-v1/saltline-v7-three-loops-180s-720p.mp4",
+    "sha256": "da011ebe7a80b6810a155db02bbed7b961a48c1a7e08122116f985ccb442a420",
+    "bytes": 152300665,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "frames": 5400,
+    "fps": 30,
+    "seconds": 180.0,
+    "silent": true,
+    "full_decode": true,
+    "sequential_timestamps": true,
+    "no_duplicate_endpoint": true,
+    "encoded_seam": {
+      "sky": {
+        "seam_mae": 0.18028994832505338,
+        "ordinary_max_mae": 0.18139228068075258,
+        "pass": true
+      },
+      "far_dust": {
+        "seam_mae": 0.15684195368443102,
+        "ordinary_max_mae": 0.18176700833889697,
+        "pass": true
+      },
+      "lights": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 1.5340410800830833,
+        "pass": true
+      },
+      "sunlight": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 0.3391760664340393,
+        "pass": true
+      },
+      "combined": {
+        "seam_mae": 0.16865580156265317,
+        "ordinary_max_mae": 0.1997655912519,
+        "pass": true
+      }
+    },
+    "repeated_decoded_payloads_identical": true
+  },
+  "source_detail": "1672x941 artwork upscaled to 3840x2160 with Lanczos; no added native detail",
+  "encoder": "H.264 lossless QP0 yuv420p",
+  "source_protection": "Asserted for every generated source frame",
+  "timeline": "Genuine sixty-second hut schedule, with unchanged twenty-second local atmosphere cycles",
+  "prior_acceptance": "V5 look accepted. New longer light schedule and sixty-second delivery await user visual review.",
+  "inspection": "Temporal full-composition samples and decoded frame inspection; no continuous-playback claim",
+  "user_approval": false,
+  "media_backup": "User explicitly requested commit/push on 2026-09-30. Master uses exact-path Git LFS; remote upload/restore verification pending. Review previews remain local ignored files."
+}

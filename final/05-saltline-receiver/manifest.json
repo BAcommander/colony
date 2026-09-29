@@ -42,9 +42,56 @@
     "visual_review": "Inspected generated full image: title, brand, caption and catalog number correct; focal scene readable; matches established series direction. User approval pending.",
     "note": "Marketing adaptation with tonal/compositional changes; clean source remains unchanged."
   },
-  "video": null,
+  "video": {
+    "path": "final/05-saltline-receiver/video-4k-v7-60s.mp4",
+    "sha256": "1d5acba548220427b77cbf19c84b191a50d947984a7b6e583896b82d85acbfdd",
+    "bytes": 455599919,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "frames": 1800,
+    "fps": 30,
+    "seconds": 60.0,
+    "silent": true,
+    "full_decode": true,
+    "sequential_timestamps": true,
+    "no_duplicate_endpoint": true,
+    "encoded_seam": {
+      "sky": {
+        "seam_mae": 0.2016071746800908,
+        "ordinary_max_mae": 0.20243696670826714,
+        "pass": true
+      },
+      "far_dust": {
+        "seam_mae": 0.1746659803049075,
+        "ordinary_max_mae": 0.2039061545709948,
+        "pass": true
+      },
+      "lights": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 1.5113208190544387,
+        "pass": true
+      },
+      "sunlight": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 0.3641238634165216,
+        "pass": true
+      },
+      "combined": {
+        "seam_mae": 0.18857188970593167,
+        "ordinary_max_mae": 0.22138470549583386,
+        "pass": true
+      }
+    },
+    "repeated_decoded_payloads_identical": false,
+    "file": "video-4k-v7-60s.mp4",
+    "status": "Requested 60-second 4K delivery technically verified; v7 visual review pending",
+    "backup": "Exact-path Git LFS by explicit commit/push request; remote verification pending",
+    "validation": "../../music/saltline-animation-v1/v7-delivery-validation.json"
+  },
   "audio": null,
-  "delivery_note": "Artwork and thumbnail only; animation and soundtrack not produced for this scene.",
+  "delivery_note": "V5 look accepted; requested one-minute silent 4K v7 rendered with longer irregular hut off intervals. New timing/export visual review pending; no soundtrack.",
   "animation_artwork_candidate": {
     "file": "artwork-v2-animation.png",
     "sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
@@ -66,7 +113,7 @@
         "sha256": "7d87c10b025b05f1e1ee4990239e5254c499501a2e3c8b8963b24dd3e7e130ad"
       }
     ],
-    "status": "generated; user visual approval pending",
+    "status": "User selected for animation; immutable v5-v7 source. Separate clean-art review not inferred.",
     "inspection": "Still inspected: clean text-free scene, stronger lighting/depth, recognizable architecture; not pixel-identical to thumbnail or original."
   },
   "animation_preparation": {
@@ -74,9 +121,9 @@
     "brief": "animation-prep-v1/production-brief.md",
     "validation": "animation-prep-v1/preparation-validation.json",
     "mask_count": 5,
-    "mask_status": "draft source-coordinate masks; refine occlusion before rendering",
-    "renderer_status": "scene adapter not implemented",
-    "animation_rendered": false
+    "mask_status": "Draft masks refined by source-bound scene config and adapter",
+    "renderer_status": "v5 accepted; v6 periodic transport preserved; v7 minute delivery implemented",
+    "animation_rendered": true
   },
   "youtube_metadata": {
     "status": "publication drafts; audio and duration claims deliberately absent until produced",

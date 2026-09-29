@@ -2,9 +2,9 @@
 
 Planning and next actions: [production pipeline and release tracker](../PRODUCTION_PIPELINE.md). This separates completed assets from remaining motion, music, assembly, review and backup work.
 
-Three original approved video packages (01-03), Floodplain (04) with an accepted animation look and verified one-hour 4K Colony export, an artwork/preparation package (05), and accepted clean artwork for 06-07 with new thumbnails pending review. Packages 08-10 have selected artwork, thumbnails pending review, metadata and music prompts. Packages 11-14 have user-approved artwork/thumbnail packages (2026-09-29), metadata and music/motion briefs. Animations for 05-14 have not been produced. Exact image prompts, provenance and current approval scope are recorded per package.
+Three original approved video packages (01-03), Floodplain (04) with an accepted animation look and verified one-hour 4K Colony export, Saltline (05) with an accepted v5 look and requested one-minute 4K v7 delivery awaiting visual review, and accepted clean artwork for 06-07 with new thumbnails pending review. Packages 08-10 have selected artwork, thumbnails pending review, metadata and music prompts. Packages 11-14 have user-approved artwork/thumbnail packages (2026-09-29), metadata and music/motion briefs. Animations for 06-14 have not been produced. Exact image prompts, provenance and current approval scope are recorded per package.
 
-Packages 04-05 also contain revised text-free `artwork-v2-animation.png` candidates with the stronger thumbnail lighting. Their `animation-prep-v1/` folders contain source-coordinate draft masks, scene plans and production briefs; the 04 preparation is now historical (see its current assembly-v1 package); 05 remains preparation only. Original selected artwork and thumbnails remain unchanged.
+Packages 04-05 also contain revised text-free `artwork-v2-animation.png` candidates with the stronger thumbnail lighting. Their `animation-prep-v1/` folders contain source-coordinate draft masks, scene plans and production briefs; the 04 preparation is now historical (see its current assembly-v1 package); 05 has the current v7 minute-long delivery in music/saltline-animation-v1. Original selected artwork and thumbnails remain unchanged.
 
 All packages 01-14 include `description.txt` and `youtube-tags.txt` for copying into YouTube Studio. The search-tag list is comma-separated and below 500 characters per video. Read [DESCRIPTION_STYLE.md](DESCRIPTION_STYLE.md) for the shared voice, approved sign-off and metadata conventions.
 
@@ -16,7 +16,7 @@ Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subs
 | [02 - Basalt Transmission](02-basalt-transmission/) | [20 seconds, 4K](02-basalt-transmission/video-4k.mp4) | [JPEG](02-basalt-transmission/thumbnail-v1.jpg) |
 | [03 - Glacier Sanctuary](03-glacier-sanctuary/) | [60 seconds, 4K](03-glacier-sanctuary/video-4k.mp4) | [JPEG](03-glacier-sanctuary/thumbnail-v1.jpg) |
 | [04 - Floodplain Keeper](04-floodplain-keeper/) | [20 seconds, 4K](04-floodplain-keeper/video-4k-v2.mp4); [one-hour export](04-floodplain-keeper/assembly-v1/README.md) | [JPEG](04-floodplain-keeper/thumbnail-v1.jpg) |
-| [05 - Saltline Receiver](05-saltline-receiver/) | [Selected artwork](05-saltline-receiver/artwork-v1.png); no video yet | [JPEG](05-saltline-receiver/thumbnail-v1.jpg) |
+| [05 - Saltline Receiver](05-saltline-receiver/) | [60 seconds, 4K v7](05-saltline-receiver/video-4k-v7-60s.mp4), new visual review pending | [JPEG](05-saltline-receiver/thumbnail-v1.jpg) |
 | [06 - The Last Cable Station](06-last-cable-station/) | [Final edit v3](06-last-cable-station/artwork-v3-final.png); no video yet | [JPEG](06-last-cable-station/thumbnail-v1.jpg) |
 | [07 - Icebound Weather Post](07-icebound-weather-post/) | [Final edit v3](07-icebound-weather-post/artwork-v3-final.png); no video yet | [JPEG](07-icebound-weather-post/thumbnail-v1.jpg) |
 | [08 - Rainline Relay](08-rainline-relay/) | [Selected artwork](08-rainline-relay/artwork-v1.png); no video yet | [JPEG](08-rainline-relay/thumbnail-v1.jpg) |
@@ -27,11 +27,11 @@ Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subs
 | [13 - Below the Snowline](13-below-the-snowline/) | [Selected v2 artwork](13-below-the-snowline/artwork-v2.png); no video yet | [JPEG](13-below-the-snowline/thumbnail-v1.jpg) |
 | [14 - Crater Rim Survey](14-crater-rim-survey/) | [Selected v2 artwork](14-crater-rim-survey/artwork-v2.png); no video yet | [JPEG](14-crater-rim-survey/thumbnail-v1.jpg) |
 
-The short masters listed here are 3840x2160, 30 fps and silent, with upscaled source artwork. Long music-video exports are tracked separately through each assembly package and the local inventory. The video files are byte-identical copies of their original approved production exports; original paths remain available.
+The short masters listed here are 3840x2160, 30 fps and silent, with upscaled source artwork. Long music-video exports are tracked separately through each assembly package and the local inventory. Approved copied media retain their original production paths. Saltline v7 is a new requested delivery with a separate pending visual-review status.
 
 Read [THUMBNAIL_STYLE.md](THUMBNAIL_STYLE.md) before producing the next thumbnail. The user approved this set on 2026-09-25: "man they look awesome". PNGs are the generated masters; JPEGs are 1280x720 exports. `catalog.json` indexes the packages.
 
-After cloning with Git LFS installed, run `git lfs pull`. Video paths use exact LFS rules. Compare hashes in each package's `manifest.json`; `remote-backup.json` records independent remote download verification once completed. Drafts, caches and long repeated videos are excluded.
+After cloning with Git LFS installed, run `git lfs pull`. Video paths use exact LFS rules. Saltline v7 is included by explicit commit/push request, with its visual review still pending; review previews remain local ignored files. Compare hashes in each package's `manifest.json`; `remote-backup.json` records independent remote download verification once completed. Drafts, caches and long repeated videos are excluded.
 
 ![Ringfall Observatory](01-ringfall-observatory/thumbnail-v1.jpg)
 
