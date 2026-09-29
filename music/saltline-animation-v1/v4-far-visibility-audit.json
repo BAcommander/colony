@@ -1,0 +1,44 @@
+{
+  "settings_unchanged": true,
+  "mask_unchanged": true,
+  "samples": [
+    {
+      "time_seconds": 0,
+      "source_far_dust_mean_absolute_delta": 6.2167907703621985,
+      "source_far_dust_unchanged_from_v3": true
+    },
+    {
+      "time_seconds": 2,
+      "source_far_dust_mean_absolute_delta": 6.276958080529509,
+      "source_far_dust_unchanged_from_v3": true
+    },
+    {
+      "time_seconds": 4,
+      "source_far_dust_mean_absolute_delta": 6.104001961144818,
+      "source_far_dust_unchanged_from_v3": true
+    },
+    {
+      "time_seconds": 6,
+      "source_far_dust_mean_absolute_delta": 5.561316418459276,
+      "source_far_dust_unchanged_from_v3": true
+    },
+    {
+      "time_seconds": 8,
+      "source_far_dust_mean_absolute_delta": 4.593054789483361,
+      "source_far_dust_unchanged_from_v3": true
+    },
+    {
+      "time_seconds": 10,
+      "source_far_dust_mean_absolute_delta": 3.5782619354047926,
+      "source_far_dust_unchanged_from_v3": true
+    },
+    {
+      "time_seconds": 11.9666666667,
+      "source_far_dust_mean_absolute_delta": 2.663196359624931,
+      "source_far_dust_unchanged_from_v3": true
+    }
+  ],
+  "encoded_first_eight_seconds_far_region_mae_max": 0.0,
+  "encoded_first_eight_seconds_far_region_mae_mean": 0.0,
+  "inspection_scope": "Numeric region comparisons; not artistic visibility proof"
+}

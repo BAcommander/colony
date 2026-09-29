@@ -1,0 +1,58 @@
+{
+  "source_sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
+  "config_sha256": "1b4bb94e3179e022833439fa5c969e3b953f248e7f23fa3994e0043c8369bc54",
+  "renderer_sha256": "9a32676ef98632b8102275e6a6e25730211c3797708bde3c110f3efad542ccd1",
+  "draft_mask_sha256": {
+    "sky": "bcf916726a25362f3806131de41726ae3c0e5a2ea29341e03d82acc6d74396d2",
+    "far_dust": "18810890910370e828ad725f25c60997fd31192029505848a24ce3893c2ea551",
+    "near_dust": "fc718ac43c7fc130896d884f2dad0a0dd9baefd108580247a9b6af8ff50989ed"
+  },
+  "clips": [
+    {
+      "path": "music/saltline-animation-v1/sky-transport-8s.mp4",
+      "sha256": "29a161a936d2e6981d20aac1d2504da7e6de3b21dd67a1c34269b648961d5e0c",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "sky",
+      "prototype": true,
+      "validation": {
+        "decoded_frames": 240,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {}
+      }
+    },
+    {
+      "path": "music/saltline-animation-v1/far_dust-transport-8s.mp4",
+      "sha256": "97f9a6227cf44ce2f256d1dedbc22b4c0ac779cd399c99d24eb40e699a74273d",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "far_dust",
+      "prototype": true,
+      "validation": {
+        "decoded_frames": 240,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {}
+      }
+    },
+    {
+      "path": "music/saltline-animation-v1/near_dust-transport-8s.mp4",
+      "sha256": "abe4aa8c2754c8f18dfd63163679a8d6adb404ffde6b7191ee4ef0b7ba66fdc6",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "near_dust",
+      "prototype": true,
+      "validation": {
+        "decoded_frames": 240,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {}
+      }
+    }
+  ],
+  "user_motion_approval": false,
+  "inspection": "Full decode and per-source-frame protected-pixel assertions; normal-speed visual review pending",
+  "prototype_not_loop": true,
+  "supporting_lights": "not implemented in principal-layer trial"
+}

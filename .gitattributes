@@ -37,3 +37,10 @@ final/14-crater-rim-survey/*.md text eol=lf
 final/14-crater-rim-survey/*.txt text eol=lf
 final/14-crater-rim-survey/music/* text eol=lf
 final/04-floodplain-keeper/video-4k-v2.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Preserve Saltline hash-bound config/code bytes across platform checkouts.
+music/saltline-animation-v1/*.py -text
+music/saltline-animation-v1/*.json -text
+music/saltline-animation-v1/dependency-snapshot/*.py -text
+music/saltline-animation-v1/*.md text eol=lf
+music/saltline-animation-v1/history/*.md text eol=lf

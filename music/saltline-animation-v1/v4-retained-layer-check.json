@@ -1,0 +1,18 @@
+{
+  "far_dust_pixels_unchanged_at_sample_times": [
+    0,
+    2,
+    4,
+    6,
+    7.9666666667
+  ],
+  "cloud_pixels_unchanged_at_sample_times": [
+    0,
+    2,
+    4,
+    6,
+    7.9666666667
+  ],
+  "foreground_dust_disabled": true,
+  "user_acceptance": "far-dust v3 look only"
+}

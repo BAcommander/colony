@@ -1,0 +1,26 @@
+{
+  "samples": [
+    {
+      "time": 0,
+      "far_delta": 6.2167907703621985
+    },
+    {
+      "time": 4,
+      "far_delta": 6.104001961144818
+    },
+    {
+      "time": 8,
+      "far_delta": 6.885970153827297
+    },
+    {
+      "time": 10,
+      "far_delta": 7.458279708279708
+    },
+    {
+      "time": 11.9666666667,
+      "far_delta": 7.207429368143654
+    }
+  ],
+  "original_far_dust_exact_through_six_seconds": true,
+  "lighting_and_sunlight_unchanged_at_samples": true
+}

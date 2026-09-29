@@ -1,0 +1,735 @@
+{
+  "scene_name": "Saltline Receiver",
+  "version": "v5",
+  "source": {
+    "path": "final/05-saltline-receiver/artwork-v2-animation.png",
+    "sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "duration": 20,
+  "fps": 30,
+  "preview_size": [
+    1280,
+    720
+  ],
+  "final_size": [
+    3840,
+    2160
+  ],
+  "output_dir": "music/saltline-animation-v1",
+  "ffmpeg": "C:/Program Files/ShareX/ffmpeg.exe",
+  "sky_speed": 2.5,
+  "feather": {
+    "sky": 10,
+    "far_dust": 10,
+    "near_dust": 16
+  },
+  "source_selection": {
+    "feedback": "yes lets animate, whats the plan?",
+    "date": "2026-09-29",
+    "scope": "v2 source selected for animation; motion not reviewed"
+  },
+  "status": "Distant dust resupplied as earlier gusts leave view; v4 lighting/sunlight retained",
+  "far_dust": {
+    "method": "textured_gusts",
+    "speed": 20,
+    "lifetime": 10,
+    "optical_depth": 1.15,
+    "max_opacity": 0.56,
+    "seed": 317,
+    "color": [
+      173,
+      112,
+      74
+    ],
+    "gusts": [
+      {
+        "x": 786,
+        "y": 437,
+        "width": 77,
+        "height": 15,
+        "route_slope": -0.015,
+        "phase": 0,
+        "strength": 1
+      },
+      {
+        "x": 950,
+        "y": 456,
+        "width": 86,
+        "height": 18,
+        "route_slope": -0.01,
+        "phase": 0.5,
+        "strength": 0.85
+      },
+      {
+        "x": 4,
+        "y": 451,
+        "width": 66,
+        "height": 14,
+        "route_slope": 0,
+        "phase": 0.2,
+        "strength": 0.65
+      }
+    ],
+    "incoming_gusts": [
+      {
+        "start": 6,
+        "fade_in": 1.5,
+        "texture_index": 0,
+        "gust": {
+          "x": 665,
+          "y": 437,
+          "width": 77,
+          "height": 15,
+          "route_slope": -0.015,
+          "phase": 0,
+          "strength": 1
+        }
+      },
+      {
+        "start": 7.5,
+        "fade_in": 1.5,
+        "texture_index": 1,
+        "gust": {
+          "x": 735,
+          "y": 456,
+          "width": 86,
+          "height": 18,
+          "route_slope": -0.01,
+          "phase": 0.5,
+          "strength": 0.85
+        }
+      }
+    ],
+    "replenishment_note": "New arrivals from left side of basin replace outgoing gusts; original colour, optical depth, maximum opacity, speed, mask and gust shape retained. Incoming births fade locally, not a full-frame transition."
+  },
+  "near_dust": {
+    "method": "textured_gusts",
+    "speed": 38,
+    "lifetime": 10,
+    "optical_depth": 1.0,
+    "max_opacity": 0.6,
+    "seed": 971,
+    "color": [
+      245,
+      188,
+      120
+    ],
+    "gusts": [
+      {
+        "x": 979,
+        "y": 835,
+        "width": 130,
+        "height": 30,
+        "route_slope": -0.19,
+        "phase": 0,
+        "strength": 1
+      },
+      {
+        "x": 1321,
+        "y": 752,
+        "width": 106,
+        "height": 24,
+        "route_slope": -0.09,
+        "phase": 0.5,
+        "strength": 0.8
+      },
+      {
+        "x": 695,
+        "y": 907,
+        "width": 87,
+        "height": 25,
+        "route_slope": -0.32,
+        "phase": 0.2,
+        "strength": 0.7
+      }
+    ]
+  },
+  "trial_version": "v5",
+  "previous_feedback": {
+    "date": "2026-09-29",
+    "verbatim": "did you tone down the distant fog? i struggle to see it now,",
+    "scope": "Distant dust visibility in longer v4 preview questioned"
+  },
+  "mask_geometry": {
+    "far_dust": {
+      "include": [
+        [
+          [
+            0,
+            413
+          ],
+          [
+            1092,
+            408
+          ],
+          [
+            1169,
+            424
+          ],
+          [
+            1122,
+            463
+          ],
+          [
+            1020,
+            487
+          ],
+          [
+            929,
+            487
+          ],
+          [
+            0,
+            485
+          ]
+        ]
+      ],
+      "exclude": [
+        [
+          [
+            119,
+            278
+          ],
+          [
+            272,
+            278
+          ],
+          [
+            410,
+            308
+          ],
+          [
+            489,
+            473
+          ],
+          [
+            491,
+            550
+          ],
+          [
+            450,
+            605
+          ],
+          [
+            451,
+            748
+          ],
+          [
+            120,
+            769
+          ]
+        ],
+        [
+          [
+            518,
+            405
+          ],
+          [
+            634,
+            404
+          ],
+          [
+            727,
+            514
+          ],
+          [
+            727,
+            586
+          ],
+          [
+            676,
+            616
+          ],
+          [
+            665,
+            692
+          ],
+          [
+            520,
+            702
+          ]
+        ],
+        [
+          [
+            995,
+            478
+          ],
+          [
+            1088,
+            477
+          ],
+          [
+            1128,
+            550
+          ],
+          [
+            1112,
+            625
+          ],
+          [
+            993,
+            625
+          ]
+        ],
+        [
+          [
+            881,
+            522
+          ],
+          [
+            918,
+            522
+          ],
+          [
+            924,
+            601
+          ],
+          [
+            881,
+            601
+          ]
+        ]
+      ]
+    },
+    "near_dust": {
+      "include": [
+        [
+          [
+            570,
+            940
+          ],
+          [
+            648,
+            880
+          ],
+          [
+            857,
+            799
+          ],
+          [
+            1087,
+            748
+          ],
+          [
+            1349,
+            697
+          ],
+          [
+            1489,
+            659
+          ],
+          [
+            1596,
+            648
+          ],
+          [
+            1671,
+            704
+          ],
+          [
+            1671,
+            777
+          ],
+          [
+            1540,
+            821
+          ],
+          [
+            1270,
+            815
+          ],
+          [
+            1085,
+            851
+          ],
+          [
+            914,
+            915
+          ],
+          [
+            868,
+            940
+          ]
+        ]
+      ],
+      "exclude": [
+        [
+          [
+            665,
+            590
+          ],
+          [
+            969,
+            589
+          ],
+          [
+            1081,
+            623
+          ],
+          [
+            1083,
+            749
+          ],
+          [
+            999,
+            771
+          ],
+          [
+            664,
+            761
+          ]
+        ],
+        [
+          [
+            1125,
+            695
+          ],
+          [
+            1145,
+            695
+          ],
+          [
+            1150,
+            751
+          ],
+          [
+            1120,
+            751
+          ]
+        ],
+        [
+          [
+            1130,
+            706
+          ],
+          [
+            1360,
+            612
+          ],
+          [
+            1400,
+            651
+          ],
+          [
+            1197,
+            727
+          ]
+        ],
+        [
+          [
+            1320,
+            830
+          ],
+          [
+            1460,
+            810
+          ],
+          [
+            1535,
+            856
+          ],
+          [
+            1574,
+            905
+          ],
+          [
+            1410,
+            940
+          ],
+          [
+            1300,
+            940
+          ]
+        ]
+      ]
+    }
+  },
+  "trial_seconds": 12,
+  "approved_layers": {
+    "far_dust": {
+      "version": "v3",
+      "scope": "look in eight-second forward-motion prototype; not periodic loop",
+      "feedback": "far dust is good"
+    }
+  },
+  "enabled_motion": [
+    "sky",
+    "far_dust"
+  ],
+  "lights": [
+    {
+      "name": "foreground-left-room",
+      "polygons": [
+        [
+          [
+            727,
+            651
+          ],
+          [
+            744,
+            652
+          ],
+          [
+            750,
+            656
+          ],
+          [
+            751,
+            675
+          ],
+          [
+            746,
+            680
+          ],
+          [
+            725,
+            679
+          ],
+          [
+            719,
+            674
+          ],
+          [
+            719,
+            658
+          ]
+        ]
+      ],
+      "floor": 0.12,
+      "events": [
+        {
+          "start": 1,
+          "hold": 3.5,
+          "transition": 0.35
+        }
+      ],
+      "spill_pad": 8,
+      "spill_sigma": 2,
+      "spill_strength": 0.1
+    },
+    {
+      "name": "foreground-middle-room",
+      "polygons": [
+        [
+          [
+            817,
+            653
+          ],
+          [
+            835,
+            654
+          ],
+          [
+            841,
+            659
+          ],
+          [
+            841,
+            679
+          ],
+          [
+            834,
+            683
+          ],
+          [
+            815,
+            681
+          ],
+          [
+            810,
+            675
+          ],
+          [
+            810,
+            661
+          ]
+        ]
+      ],
+      "floor": 0.12,
+      "events": [
+        {
+          "start": 7,
+          "hold": 3.5,
+          "transition": 0.5
+        }
+      ],
+      "spill_pad": 8,
+      "spill_sigma": 2,
+      "spill_strength": 0.1
+    },
+    {
+      "name": "ridge-middle-habitat",
+      "polygons": [
+        [
+          [
+            1358,
+            389
+          ],
+          [
+            1362,
+            389
+          ],
+          [
+            1362,
+            399
+          ],
+          [
+            1358,
+            399
+          ]
+        ],
+        [
+          [
+            1365,
+            389
+          ],
+          [
+            1369,
+            389
+          ],
+          [
+            1369,
+            399
+          ],
+          [
+            1365,
+            399
+          ]
+        ]
+      ],
+      "floor": 0.12,
+      "events": [
+        {
+          "start": 4.2,
+          "hold": 3.2,
+          "transition": 0.4
+        }
+      ],
+      "spill_pad": 8,
+      "spill_sigma": 2,
+      "spill_strength": 0.1
+    },
+    {
+      "name": "ridge-left-habitat",
+      "polygons": [
+        [
+          [
+            1254,
+            391
+          ],
+          [
+            1258,
+            391
+          ],
+          [
+            1258,
+            402
+          ],
+          [
+            1254,
+            402
+          ]
+        ],
+        [
+          [
+            1261,
+            391
+          ],
+          [
+            1265,
+            391
+          ],
+          [
+            1265,
+            402
+          ],
+          [
+            1261,
+            402
+          ]
+        ]
+      ],
+      "floor": 0.12,
+      "events": [
+        {
+          "start": 9,
+          "hold": 2.7,
+          "transition": 0.35
+        }
+      ],
+      "spill_pad": 8,
+      "spill_sigma": 2,
+      "spill_strength": 0.1
+    },
+    {
+      "name": "service-lamp",
+      "ellipse": [
+        1134,
+        708,
+        4,
+        5
+      ],
+      "floor": 0.3,
+      "spill_pad": 15,
+      "spill_sigma": 4,
+      "spill_strength": 0.09,
+      "dark_offset": [
+        0,
+        0,
+        0
+      ],
+      "events": [
+        {
+          "start": 5.2,
+          "hold": 0.22,
+          "transition": 0.035,
+          "depth": 0.55
+        },
+        {
+          "start": 5.6,
+          "hold": 0.14,
+          "transition": 0.025,
+          "depth": 0.4
+        }
+      ]
+    }
+  ],
+  "sunlight": {
+    "polygons": [
+      [
+        [
+          0,
+          495
+        ],
+        [
+          107,
+          495
+        ],
+        [
+          113,
+          650
+        ],
+        [
+          101,
+          677
+        ],
+        [
+          0,
+          690
+        ]
+      ]
+    ],
+    "feather": 24,
+    "start_x": -100,
+    "speed": 28,
+    "center_y": 574,
+    "width": 65,
+    "height": 100,
+    "attenuation": 0.18,
+    "scope": "passing cloud shadow confined to existing bright dry-crust sunlight; fixed sun and steady whole-scene exposure"
+  }
+}

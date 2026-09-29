@@ -1,0 +1,343 @@
+{
+  "source_sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
+  "config_sha256": "c8042f0cfae9c32b719df963638947d27beebb3041ac76f9dff1d92856741bb5",
+  "renderer_sha256": "e7c7fbe473822b7c6e725710a61a014a06a94dacca0f67cca2735eac4f3a5eb4",
+  "dependencies_sha256": {
+    "dust_transport.py": "4329e8d45cad078dc112005077363030c3cca2b89925d30c6818c5b2600545d7",
+    "encoder": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+    "ambient_effects": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+  },
+  "draft_mask_sha256": {
+    "sky": "bcf916726a25362f3806131de41726ae3c0e5a2ea29341e03d82acc6d74396d2",
+    "far_dust": "18810890910370e828ad725f25c60997fd31192029505848a24ce3893c2ea551"
+  },
+  "clips": [
+    {
+      "path": "music/saltline-animation-v1/saltline-v4-combined-12s.mp4",
+      "sha256": "33d8d47f6862f9c766f9e0f01eb77015ba8e65be3a9b820d19b7ffc04e05eb5f",
+      "frames": 360,
+      "seconds": 12,
+      "layer": "combined",
+      "prototype": true,
+      "validation": {
+        "decoded_frames": 360,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {}
+      }
+    }
+  ],
+  "user_motion_approval": false,
+  "inspection": "Full decode and per-source-frame protected-pixel assertions; normal-speed visual review pending",
+  "prototype_not_loop": true,
+  "supporting_lights": "implemented; visual review pending",
+  "sunlight": "localized passing cloud shadow; visual review pending",
+  "mask_geometry": {
+    "far_dust": {
+      "include": [
+        [
+          [
+            0,
+            413
+          ],
+          [
+            1092,
+            408
+          ],
+          [
+            1169,
+            424
+          ],
+          [
+            1122,
+            463
+          ],
+          [
+            1020,
+            487
+          ],
+          [
+            929,
+            487
+          ],
+          [
+            0,
+            485
+          ]
+        ]
+      ],
+      "exclude": [
+        [
+          [
+            119,
+            278
+          ],
+          [
+            272,
+            278
+          ],
+          [
+            410,
+            308
+          ],
+          [
+            489,
+            473
+          ],
+          [
+            491,
+            550
+          ],
+          [
+            450,
+            605
+          ],
+          [
+            451,
+            748
+          ],
+          [
+            120,
+            769
+          ]
+        ],
+        [
+          [
+            518,
+            405
+          ],
+          [
+            634,
+            404
+          ],
+          [
+            727,
+            514
+          ],
+          [
+            727,
+            586
+          ],
+          [
+            676,
+            616
+          ],
+          [
+            665,
+            692
+          ],
+          [
+            520,
+            702
+          ]
+        ],
+        [
+          [
+            995,
+            478
+          ],
+          [
+            1088,
+            477
+          ],
+          [
+            1128,
+            550
+          ],
+          [
+            1112,
+            625
+          ],
+          [
+            993,
+            625
+          ]
+        ],
+        [
+          [
+            881,
+            522
+          ],
+          [
+            918,
+            522
+          ],
+          [
+            924,
+            601
+          ],
+          [
+            881,
+            601
+          ]
+        ]
+      ]
+    },
+    "near_dust": {
+      "include": [
+        [
+          [
+            570,
+            940
+          ],
+          [
+            648,
+            880
+          ],
+          [
+            857,
+            799
+          ],
+          [
+            1087,
+            748
+          ],
+          [
+            1349,
+            697
+          ],
+          [
+            1489,
+            659
+          ],
+          [
+            1596,
+            648
+          ],
+          [
+            1671,
+            704
+          ],
+          [
+            1671,
+            777
+          ],
+          [
+            1540,
+            821
+          ],
+          [
+            1270,
+            815
+          ],
+          [
+            1085,
+            851
+          ],
+          [
+            914,
+            915
+          ],
+          [
+            868,
+            940
+          ]
+        ]
+      ],
+      "exclude": [
+        [
+          [
+            665,
+            590
+          ],
+          [
+            969,
+            589
+          ],
+          [
+            1081,
+            623
+          ],
+          [
+            1083,
+            749
+          ],
+          [
+            999,
+            771
+          ],
+          [
+            664,
+            761
+          ]
+        ],
+        [
+          [
+            1125,
+            695
+          ],
+          [
+            1145,
+            695
+          ],
+          [
+            1150,
+            751
+          ],
+          [
+            1120,
+            751
+          ]
+        ],
+        [
+          [
+            1130,
+            706
+          ],
+          [
+            1360,
+            612
+          ],
+          [
+            1400,
+            651
+          ],
+          [
+            1197,
+            727
+          ]
+        ],
+        [
+          [
+            1320,
+            830
+          ],
+          [
+            1460,
+            810
+          ],
+          [
+            1535,
+            856
+          ],
+          [
+            1574,
+            905
+          ],
+          [
+            1410,
+            940
+          ],
+          [
+            1300,
+            940
+          ]
+        ]
+      ]
+    }
+  },
+  "previous_feedback": {
+    "date": "2026-09-29",
+    "verbatim": "far dust is good, foreground looks too much as is fake, did we do anything with the lights on the buildings or the sunlight? can we try?",
+    "scope": "Far dust v3 accepted; foreground v3 rejected; try building lights and sunlight"
+  },
+  "effective_masks_sha256": {
+    "sky": "0af293cf769145707177322ec04cf431b272bb2ef0f1c2be91c4ff4d024a88da",
+    "far_dust": "305890bd121381d8d9b04b24fe2c40ce13550bc00127bd223c7e23b25f9e99d6",
+    "lights": "6cd118270fc7dc9adb842db1d4553f49d776474ff5aeb23b3ea9460fca62a188",
+    "sunlight": "1b5d5706bd468ba5fa4d126fd49ad165da6bedbd44300ba911e5594f4595b49a"
+  },
+  "user_feedback": "did you tone down the distant fog? i struggle to see it now,",
+  "visual_status": "visibility concern: finite far-dust gusts leave view late in extended prototype",
+  "audit": "v4-far-visibility-audit.json"
+}

@@ -1,0 +1,350 @@
+{
+  "source_sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
+  "config_sha256": "27878b7982e4a624269fc143b2199875ea61265a485e725ed04b4f55551a4101",
+  "renderer_sha256": "3c274d1f22194bdc53d711c158abbe52b12380551f75f6ce42eb187042408a00",
+  "draft_mask_sha256": {
+    "sky": "bcf916726a25362f3806131de41726ae3c0e5a2ea29341e03d82acc6d74396d2",
+    "far_dust": "18810890910370e828ad725f25c60997fd31192029505848a24ce3893c2ea551",
+    "near_dust": "fc718ac43c7fc130896d884f2dad0a0dd9baefd108580247a9b6af8ff50989ed"
+  },
+  "clips": [
+    {
+      "path": "music/saltline-animation-v1/far_dust-transport-v2-8s.mp4",
+      "sha256": "317181506873e495e4e54f087c3b2cda0325d95f91423f9ff685c4d0d8eca8f3",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "far_dust",
+      "prototype": true,
+      "validation": {
+        "decoded_frames": 240,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {}
+      }
+    },
+    {
+      "path": "music/saltline-animation-v1/near_dust-transport-v2-8s.mp4",
+      "sha256": "eab4f98080fc853af36775a3ed0e2443ecbaac0ba1691f0afead0893239f6ddd",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "near_dust",
+      "prototype": true,
+      "validation": {
+        "decoded_frames": 240,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {}
+      }
+    }
+  ],
+  "user_motion_approval": false,
+  "inspection": "Full decode and per-source-frame protected-pixel assertions; normal-speed visual review pending",
+  "prototype_not_loop": true,
+  "supporting_lights": "not implemented in principal-layer trial",
+  "mask_geometry": {
+    "far_dust": {
+      "include": [
+        [
+          [
+            0,
+            413
+          ],
+          [
+            1092,
+            408
+          ],
+          [
+            1169,
+            424
+          ],
+          [
+            1122,
+            463
+          ],
+          [
+            1020,
+            487
+          ],
+          [
+            929,
+            487
+          ],
+          [
+            0,
+            485
+          ]
+        ]
+      ],
+      "exclude": [
+        [
+          [
+            119,
+            278
+          ],
+          [
+            272,
+            278
+          ],
+          [
+            410,
+            308
+          ],
+          [
+            489,
+            473
+          ],
+          [
+            491,
+            550
+          ],
+          [
+            450,
+            605
+          ],
+          [
+            451,
+            748
+          ],
+          [
+            120,
+            769
+          ]
+        ],
+        [
+          [
+            518,
+            405
+          ],
+          [
+            634,
+            404
+          ],
+          [
+            727,
+            514
+          ],
+          [
+            727,
+            586
+          ],
+          [
+            676,
+            616
+          ],
+          [
+            665,
+            692
+          ],
+          [
+            520,
+            702
+          ]
+        ],
+        [
+          [
+            995,
+            478
+          ],
+          [
+            1088,
+            477
+          ],
+          [
+            1128,
+            550
+          ],
+          [
+            1112,
+            625
+          ],
+          [
+            993,
+            625
+          ]
+        ],
+        [
+          [
+            881,
+            522
+          ],
+          [
+            918,
+            522
+          ],
+          [
+            924,
+            601
+          ],
+          [
+            881,
+            601
+          ]
+        ]
+      ]
+    },
+    "near_dust": {
+      "include": [
+        [
+          [
+            0,
+            477
+          ],
+          [
+            991,
+            477
+          ],
+          [
+            984,
+            502
+          ],
+          [
+            931,
+            538
+          ],
+          [
+            881,
+            571
+          ],
+          [
+            860,
+            590
+          ],
+          [
+            738,
+            592
+          ],
+          [
+            515,
+            628
+          ],
+          [
+            370,
+            667
+          ],
+          [
+            0,
+            691
+          ]
+        ]
+      ],
+      "exclude": [
+        [
+          [
+            119,
+            278
+          ],
+          [
+            272,
+            278
+          ],
+          [
+            410,
+            308
+          ],
+          [
+            489,
+            473
+          ],
+          [
+            491,
+            550
+          ],
+          [
+            450,
+            605
+          ],
+          [
+            451,
+            748
+          ],
+          [
+            120,
+            769
+          ]
+        ],
+        [
+          [
+            518,
+            405
+          ],
+          [
+            634,
+            404
+          ],
+          [
+            727,
+            514
+          ],
+          [
+            727,
+            586
+          ],
+          [
+            676,
+            616
+          ],
+          [
+            665,
+            692
+          ],
+          [
+            520,
+            702
+          ]
+        ],
+        [
+          [
+            995,
+            478
+          ],
+          [
+            1088,
+            477
+          ],
+          [
+            1128,
+            550
+          ],
+          [
+            1112,
+            625
+          ],
+          [
+            993,
+            625
+          ]
+        ],
+        [
+          [
+            881,
+            522
+          ],
+          [
+            918,
+            522
+          ],
+          [
+            924,
+            601
+          ],
+          [
+            881,
+            601
+          ]
+        ]
+      ]
+    }
+  },
+  "previous_feedback": {
+    "date": "2026-09-29",
+    "verbatim": "i cant see any dust movement. near or far",
+    "scope": "Both v1b dust tests rejected as unreadable; no cloud approval inferred"
+  },
+  "effective_masks_sha256": {
+    "sky": "0af293cf769145707177322ec04cf431b272bb2ef0f1c2be91c4ff4d024a88da",
+    "far_dust": "305890bd121381d8d9b04b24fe2c40ce13550bc00127bd223c7e23b25f9e99d6",
+    "near_dust": "d6785ce81023bbc279e1be5880068820469645c4d413a9cc46197d78e2dd70a6"
+  },
+  "visual_status": "both dust layers rejected by user as invisible",
+  "user_feedback": "right i can't see any dust man on either, ive increase your effort level to high, please stop wasting my time"
+}

@@ -1,0 +1,50 @@
+{
+  "scene": "Saltline Receiver",
+  "version": "v5",
+  "date": "2026-09-29",
+  "feedback": "perfect, commit and push everything",
+  "scope": "V5 twelve-second preview look, including current far-dust replenishment and lighting; not a seamless loop, 4K master, soundtrack or assembled upload",
+  "preview_path": "music/saltline-animation-v1/saltline-v5-combined-12s.mp4",
+  "preview_sha256": "76d273673ffd0b4927342f10cbfb08330bc3cdcd428fff192825d611d63897c4",
+  "preview_size": [
+    1280,
+    720
+  ],
+  "duration_seconds": 12,
+  "frames": 360,
+  "fps": 30,
+  "silent": true,
+  "seamless_loop": false,
+  "source_path": "final/05-saltline-receiver/artwork-v2-animation.png",
+  "source_sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
+  "config_sha256": "fcdba9d6b9866a5c340fd1925d8019f2b6f9b15c8761210aa716f553899f1436",
+  "renderer_sha256": "e7c7fbe473822b7c6e725710a61a014a06a94dacca0f67cca2735eac4f3a5eb4",
+  "dependencies_sha256": {
+    "dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+    "encoder": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+    "ambient_effects": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+  },
+  "effective_masks_sha256": {
+    "sky": "0af293cf769145707177322ec04cf431b272bb2ef0f1c2be91c4ff4d024a88da",
+    "far_dust": "305890bd121381d8d9b04b24fe2c40ce13550bc00127bd223c7e23b25f9e99d6",
+    "lights": "6cd118270fc7dc9adb842db1d4553f49d776474ff5aeb23b3ea9460fca62a188",
+    "sunlight": "1b5d5706bd468ba5fa4d126fd49ad165da6bedbd44300ba911e5594f4595b49a"
+  },
+  "technical_report": "combined-v5-validation.json",
+  "backup_policy": "Accepted 8.3 MB preview tracked in ordinary Git by a single-path ignore exception; rejected draft videos remain local ignored outputs",
+  "next_step": "Make a genuine twenty-second cycle with the accepted look; verify per-layer and encoded seams before the 4K delivery",
+  "exact_dependency_snapshots": {
+    "scripts/render_floodplain.py": {
+      "snapshot_path": "music/saltline-animation-v1/dependency-snapshot/render_floodplain.py",
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "scripts/ambient_effects.py": {
+      "snapshot_path": "music/saltline-animation-v1/dependency-snapshot/ambient_effects.py",
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+    },
+    "scripts/water_surface.py": {
+      "snapshot_path": "music/saltline-animation-v1/dependency-snapshot/water_surface.py",
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    }
+  }
+}

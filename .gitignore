@@ -30,3 +30,6 @@ __pycache__/
 # Small restored channel overlay: reproducible draft, backed up by request.
 !final/channel-assets/subscribe-v1/subscribe-v1-10s-4k-green.mp4
 !final/04-floodplain-keeper/video-4k-v2.mp4
+
+# User-accepted Saltline v5 look; short preview, ordinary Git.
+!music/saltline-animation-v1/saltline-v5-combined-12s.mp4
