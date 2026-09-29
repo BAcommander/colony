@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
   "creative_id": 20,
-  "status": "image generated; user review pending",
+  "status": "v2 artwork selected for release packaging; see release manifest for review scope",
   "prior_image": "concept-v1.png",
   "current_prompt": "concept-prompt-v2.md",
   "reference_ids": [
@@ -17,5 +17,7 @@
   "actual_supplied_reference_ids": [
     "R5",
     "R4"
-  ]
+  ],
+  "release_number": "14",
+  "release_package": "final/14-crater-rim-survey"
 }

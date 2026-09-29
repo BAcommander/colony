@@ -1,7 +1,7 @@
 {
   "date": "2026-09-29",
   "creative_id": 17,
-  "status": "image generated; user review pending",
+  "status": "v2 artwork selected for release packaging; see release manifest for review scope",
   "prior_image": "concept-v1.png",
   "current_prompt": "concept-prompt-v2.md",
   "reference_ids": [
@@ -15,5 +15,7 @@
   "generation_manifest": "manifest-v2.json",
   "actual_supplied_reference_ids": [
     "R2"
-  ]
+  ],
+  "release_number": "11",
+  "release_package": "final/11-empty-junction"
 }

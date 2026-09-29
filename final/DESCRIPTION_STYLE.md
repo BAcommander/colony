@@ -29,3 +29,8 @@ The current exported masters are silent loops. These descriptions establish the 
 - [YouTube search-tag guidance](https://support.google.com/youtube/answer/146402?hl=en): titles, thumbnails and descriptions matter more for discovery; search tags generally play a small role and can help with misspellings. Keep effort focused on the actual content and presentation.
 
 The 500-character requirement here is the user's requested per-video limit. Counts in manifests exclude the trailing file newline; the saved lists also pass with that newline included.
+
+
+## Packages 11-14, checked 2026-09-29
+
+Each has a unique scene-led title/description, three relevant hashtags and a separate Studio tag list below the user's 500-character limit. YouTube's linked description and tag guidance above was checked again: prioritize a clear title, thumbnail and description; tags are supporting metadata. These phrases were selected for relevance, not measured search volume. Music, runtime and resolution wording await the actual upload.

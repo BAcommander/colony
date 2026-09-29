@@ -60,3 +60,8 @@ Each final package now has `music/elevenlabs-prompt-v1.txt`, `elevenlabs-long-ve
 Final packages contain one-minute and longer ElevenLabs prompts, listening criteria and blank generation records. Rainline: warm interweaving voices and gentle musical replies, no radio or rain effects. Offshore: broad unequal harmonic swells and open depth, no periodic pumping or literal surf. Nightward: close warmth and distant suspended voices with soft metallic colour, no telemetry beeps. These are proposals; no audio generated or credits spent. Use the same short-test, selected-reference and local join-review sequence.
 
 Naming update: catalog 09 is The Shoreless Colony (formerly Offshore Night Office); 10 is Farpoint Station (formerly Nightward Station). Current music prompts use the selected names; palettes and manual testing workflow are unchanged. Existing directory slugs remain stable.
+
+
+## Prepared scenes 11-14, 2026-09-29
+
+Release folders have scene-specific short and long music prompts, listening checks and blank generation records. Empty Junction: patient irregular replies between warm close and distant soft voices; no train rhythms. Deepwell: overlapping independent voices and reflective soft upper texture; no water effects. Below the Snowline: intimate warmth against cool sustained distance; no shrill crystalline notes. Crater Rim: open suspended harmony and sparse musical questions; no heroic build. No audio generated or credits spent.

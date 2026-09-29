@@ -1,6 +1,6 @@
 # Ambient Colony - project context
 
-Live production status and TODOs: [PRODUCTION_PIPELINE.md](PRODUCTION_PIPELINE.md). Use its first-ten tracker and next-session checklist; detailed scene evidence remains in manifests and specialist workflows.
+Live production status and TODOs: [PRODUCTION_PIPELINE.md](PRODUCTION_PIPELINE.md). Use its release tracker and next-session checklist; detailed scene evidence remains in manifests and specialist workflows.
 
 Last updated: 2026-09-26.
 

@@ -56,3 +56,13 @@ User accepted both clean v3 artworks. Thumbnails generated from those plates wit
 ## Names selected 2026-09-28
 
 09 is now THE SHORELESS / COLONY; 10 is FARPOINT / STATION. User approved these names. Thumbnail v2 title edits use each existing v1 thumbnail as sole edit target, retain captions and catalog numbers, and await visual review. Earlier title prompts and v1 masters remain historical. Directory slugs remain stable.
+
+
+## Series continuation 11-14, 2026-09-29
+
+- 11: THE EMPTY / JUNCTION; BETWEEN DISTANT HOMES.
+- 12: DEEPWELL / STATION; WATER FOR A NEW WORLD.
+- 13: BELOW THE / SNOWLINE; LIFE BENEATH THE ICE.
+- 14: CRATER RIM / SURVEY; HOME ON THE INNER RIM.
+
+All use the selected clean v2 source and Ringfall as direct style reference, upper-left title blocks and opposite upper-right catalog numbers. New thumbnails are pending user review. They strengthen colour/contrast and can alter geometry; clean artwork-v2.png remains the animation source. PNG masters and 1280x720 JPEGs are saved with exact prompts and hashes.

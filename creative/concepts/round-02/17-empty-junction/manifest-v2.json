@@ -1,9 +1,9 @@
 {
   "title": "The Empty Junction",
   "creative_concept_id": 17,
-  "release_number": null,
+  "release_number": "11",
   "date": "2026-09-29",
-  "status": "redesigned concept v2 generated; awaiting user direction",
+  "status": "v2 artwork selected for release packaging; see release manifest for review scope",
   "user_approved": false,
   "generator": "built-in image_gen",
   "artwork": {
@@ -50,5 +50,6 @@
   },
   "thumbnail": null,
   "animation": null,
-  "audio": null
+  "audio": null,
+  "release_package": "final/11-empty-junction"
 }

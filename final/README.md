@@ -1,12 +1,12 @@
 # Ambient Colony - final exports
 
-Planning and next actions: [production pipeline and first-ten tracker](../PRODUCTION_PIPELINE.md). This separates completed assets from remaining motion, music, assembly, review and backup work.
+Planning and next actions: [production pipeline and release tracker](../PRODUCTION_PIPELINE.md). This separates completed assets from remaining motion, music, assembly, review and backup work.
 
-Three approved video packages (01-03), two artwork/preparation packages (04-05), and accepted clean artwork for 06-07 with new thumbnails pending review. Packages 08-10 now have selected artwork, new thumbnails pending review, metadata and music prompts. Animations for 04-10 have not been produced. Exact image prompts, provenance and current approval scope are recorded per package.
+Three approved video packages (01-03), two artwork/preparation packages (04-05), and accepted clean artwork for 06-07 with new thumbnails pending review. Packages 08-14 now have selected artwork, new thumbnails pending review, metadata and music prompts. Animations for 04-14 have not been produced. Exact image prompts, provenance and current approval scope are recorded per package.
 
 Packages 04-05 also contain revised text-free `artwork-v2-animation.png` candidates with the stronger thumbnail lighting. Their `animation-prep-v1/` folders contain source-coordinate draft masks, scene plans and production briefs; this is preparation, not a rendered animation. Original selected artwork and thumbnails remain unchanged.
 
-All packages 01-10 include `description.txt` and `youtube-tags.txt` for copying into YouTube Studio. The search-tag list is comma-separated and below 500 characters per video. Read [DESCRIPTION_STYLE.md](DESCRIPTION_STYLE.md) for the shared voice, approved sign-off and metadata conventions.
+All packages 01-14 include `description.txt` and `youtube-tags.txt` for copying into YouTube Studio. The search-tag list is comma-separated and below 500 characters per video. Read [DESCRIPTION_STYLE.md](DESCRIPTION_STYLE.md) for the shared voice, approved sign-off and metadata conventions.
 
 Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subscribe-v1/README.md). Green-screen and transparent exports are local review files until accepted; the source renderer, fonts and production notes are portable.
 
@@ -22,6 +22,10 @@ Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subs
 | [08 - Rainline Relay](08-rainline-relay/) | [Selected artwork](08-rainline-relay/artwork-v1.png); no video yet | [JPEG](08-rainline-relay/thumbnail-v1.jpg) |
 | [09 - The Shoreless Colony](09-offshore-night-office/) | [Selected artwork](09-offshore-night-office/artwork-v1.png); no video yet | [JPEG](09-offshore-night-office/thumbnail-v2.jpg) |
 | [10 - Farpoint Station](10-nightward-station/) | [Selected artwork](10-nightward-station/artwork-v3-close-world-leds.png); no video yet | [JPEG](10-nightward-station/thumbnail-v2.jpg) |
+| [11 - The Empty Junction](11-empty-junction/) | [Selected v2 artwork](11-empty-junction/artwork-v2.png); no video yet | [JPEG](11-empty-junction/thumbnail-v1.jpg) |
+| [12 - Deepwell Station](12-deepwell-station/) | [Selected v2 artwork](12-deepwell-station/artwork-v2.png); no video yet | [JPEG](12-deepwell-station/thumbnail-v1.jpg) |
+| [13 - Below the Snowline](13-below-the-snowline/) | [Selected v2 artwork](13-below-the-snowline/artwork-v2.png); no video yet | [JPEG](13-below-the-snowline/thumbnail-v1.jpg) |
+| [14 - Crater Rim Survey](14-crater-rim-survey/) | [Selected v2 artwork](14-crater-rim-survey/artwork-v2.png); no video yet | [JPEG](14-crater-rim-survey/thumbnail-v1.jpg) |
 
 All videos are 3840x2160, 30 fps, silent, with upscaled source artwork. These are approved loop masters, not completed long-form music uploads. The video files are byte-identical copies of their original approved production exports; original paths remain available.
 
@@ -37,4 +41,7 @@ After cloning with Git LFS installed, run `git lfs pull`. Video paths use exact 
 
 Long upload videos and soundtrack repeats now live in the ignored `../exports/` folder. See [storage policy](../EXPORTS.md) and [local inventory](local-export-inventory.json). The short tracked masters listed above stay here.
 
-Packages 04-10 also contain suggested `youtube-title.txt` and `music/` with one-minute test prompts, longer-piece prompts and manual generation/listening instructions. No soundtracks have been generated for those scenes.
+Packages 04-14 also contain suggested `youtube-title.txt` and `music/` with one-minute test prompts, longer-piece prompts and manual generation/listening instructions. No soundtracks have been generated for those scenes.
+
+
+Release numbering 11-14 maps to creative concepts 17-20 respectively: The Empty Junction, Deepwell Station, Below the Snowline and Crater Rim Survey. Creative IDs are permanent provenance paths, not public catalog numbers. Each new package also includes a proposed motion brief; no masks or renderer adapters have been built.

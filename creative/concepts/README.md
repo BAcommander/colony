@@ -1,6 +1,6 @@
 # Initial concept gallery
 
-Current concept planning: [alien colony art direction and reference analysis](ALIEN_COLONY_ART_DIRECTION.md), [revised round-02 concepts](round-02/README.md), and [ten new round-03 TODOs](round-03/README.md). The four redesigned round-02 v2 images are generated and await user review; the ten round-03 prompts remain ungenerated. current generated and approval state is recorded in those indexes.
+Current concept planning: [alien colony art direction and reference analysis](ALIEN_COLONY_ART_DIRECTION.md), [revised round-02 concepts](round-02/README.md), and [ten new round-03 TODOs](round-03/README.md). The four redesigned round-02 v2 images are generated and selected for release packaging as 11-14; the ten round-03 prompts remain ungenerated. current generated and approval state is recorded in those indexes.
 
 Nine source images are saved. The planned tenth concept, Night Shift Greenhouse, has no saved image in this folder and is not marked complete. Ringfall Observatory was selected for development.
 

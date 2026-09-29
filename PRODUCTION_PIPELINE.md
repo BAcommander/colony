@@ -1,10 +1,10 @@
 # Ambient Colony — production pipeline and tracker
 
-Last updated: 2026-09-29. This is the live work queue for the first ten releases. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
+Last updated: 2026-09-29. This is the live work queue for the first fourteen releases. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
 
 ## Where we are
 
-All ten have artwork, thumbnails, descriptions and search tags in [final/](final/README.md). Packages 04–10 also have suggested upload titles and scene-specific ElevenLabs music prompts. New thumbnail revisions still need user review. These assets do not mean ten finished uploads exist.
+All fourteen have artwork, thumbnails, descriptions and search tags in [final/](final/README.md). Packages 04–14 also have suggested upload titles and scene-specific ElevenLabs music prompts. New thumbnail revisions still need user review. These assets do not mean fourteen finished uploads exist.
 
 | No. | Release / package | Motion | Music | Next action |
 | --- | --- | --- | --- | --- |
@@ -18,19 +18,18 @@ All ten have artwork, thumbnails, descriptions and search tags in [final/](final
 | 08 | [Rainline Relay](final/08-rainline-relay/README.md) | No motion implementation; current art selected for packaging | Short/long prompts ready; no audio | Map rain, separate mist depths, canopy/walkway occlusion |
 | 09 | [The Shoreless Colony](final/09-offshore-night-office/README.md) | No motion implementation; current art selected for packaging | Short/long prompts ready; no audio | Prototype convincing slow sea movement around fixed caissons |
 | 10 | [Farpoint Station](final/10-nightward-station/README.md) | No motion implementation; current v3 art selected for packaging | Short/long prompts ready; no audio | Prototype cloud detail on the planet under a fixed horizon |
+| 11 | [The Empty Junction](final/11-empty-junction/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Review thumbnail; use motion-brief.md to plan principal effects |
+| 12 | [Deepwell Station](final/12-deepwell-station/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Review thumbnail; use motion-brief.md to plan principal effects |
+| 13 | [Below the Snowline](final/13-below-the-snowline/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Review thumbnail; use motion-brief.md to plan principal effects |
+| 14 | [Crater Rim Survey](final/14-crater-rim-survey/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Review thumbnail; use motion-brief.md to plan principal effects |
 
 01/02 long exports are listed in [the local inventory](final/local-export-inventory.json); their existence does not establish full-video review or publication. Nothing in this tracker claims any video has been uploaded. Glacier's accepted look, technical delivery and full-export user review are separate facts.
 
 09/10 retain their historical folder names to preserve links and provenance. Public names are **The Shoreless Colony** and **Farpoint Station**. Their current thumbnails are `thumbnail-v2.jpg`; other packages currently use v1. Use [catalog.json](final/catalog.json) to resolve current artwork and thumbnail paths.
 
-## Exploration beyond the first ten
+## Next concept exploration
 
-Updated 2026-09-29: user found the four rough v1s insufficiently otherworldly. A nine-reference analysis and new art direction are saved in [ALIEN_COLONY_ART_DIRECTION.md](creative/concepts/ALIEN_COLONY_ART_DIRECTION.md). All four v2 images have now been generated on request; user review is pending. V1 images and original prompts remain history, not selected production plates.
-
-- [ ] Review generated v2 [The Empty Junction](creative/concepts/round-02/17-empty-junction/concept-prompt.md): pale mineral fins and a sheltered freight pass.
-- [ ] Review generated v2 [Deepwell Station](creative/concepts/round-02/18-deepwell-station/concept-prompt.md): a dry gallery overlooking chalk terraces and brine.
-- [ ] Review generated v2 [Below the Snowline](creative/concepts/round-02/19-below-the-snowline/concept-prompt.md): occupied rock ribs inside a translucent ice vault.
-- [ ] Review generated v2 [Crater Rim Survey](creative/concepts/round-02/20-crater-rim-survey/concept-prompt.md): a survey room facing an inhabited terraced caldera and faint ring arc.
+The redesigned concepts 17–20 were selected for packaging as releases 11–14 on 2026-09-29. Their v1 history remains intact; final folders contain the selected clean v2 plates and newly generated thumbnails. Review notes on fine geometry remain in the source manifests. Read [the art-direction analysis](creative/concepts/ALIEN_COLONY_ART_DIRECTION.md) before another concept.
 
 Ten additional prompts are queued below. All are ungenerated, unassigned to public release numbers, and awaiting selection. Each link contains a complete standalone prompt and later motion ideas; no additional paid service is required for planning.
 
@@ -45,11 +44,11 @@ Ten additional prompts are queued below. All are ungenerated, unassigned to publ
 - [ ] [Glassplain Tram Shelter](creative/concepts/round-03/30-glassplain-tram-shelter/concept-prompt.md) — A quiet enclosed tram stop crossing an immense naturally vitrified plain.
 - [ ] [Hollowmoon Reservoir](creative/concepts/round-03/31-hollowmoon-reservoir/concept-prompt.md) — A water-storage gallery inside a sealed lunar excavation beneath a large pressure-rated viewing aperture.
 
-Use [the round-03 backlog](creative/concepts/round-03/README.md) for the detailed concept queue. Prompt-only preparation does not mark artwork, motion or music complete; the first-ten production queue below is unchanged.
+Use [the round-03 backlog](creative/concepts/round-03/README.md) for the detailed concept queue. Prompt-only preparation does not mark artwork, motion or music complete; the existing next-production priority below is unchanged.
 
 ## Next work session: finish 04 as the next complete production
 
-This is the proposed starting order, not a claim that rendering has started. Motion can progress locally while the user runs music tests. Keep one scene in visual look-development at a time to avoid seven simultaneous revision chains.
+This is the proposed starting order, not a claim that rendering has started. Motion can progress locally while the user runs music tests. Keep one scene in visual look-development at a time to avoid many simultaneous revision chains.
 
 - [ ] Review Floodplain's clean `artwork-v2-animation.png` against the selected v1; record which plate will drive motion. The v2 candidate is not automatically approved because its preparation exists.
 - [ ] Freeze the selected plate hash/dimensions. Confirm the existing [draft scene plan](final/04-floodplain-keeper/animation-prep-v1/scene-plan.json) targets that exact image; remap if it does not.

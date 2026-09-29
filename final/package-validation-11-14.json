@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-29",
+  "scope": "Release packages 11-14; file and metadata verification plus actual thumbnail still inspection. No animation/audio/user approval claimed.",
+  "packages": [
+    {
+      "catalog_number": "11",
+      "folder": "final/11-empty-junction",
+      "hashes_verified": true,
+      "markdown_links_resolve": true,
+      "clean_source_identical": true,
+      "thumbnail_jpeg_dimensions": [
+        1280,
+        720
+      ],
+      "thumbnail_jpeg_bytes": 340096,
+      "tags_characters": 298,
+      "thumbnail_visual_review": "PNG and 1280x720 JPEG inspected: title, caption, brand and catalog number correct; user review pending."
+    },
+    {
+      "catalog_number": "12",
+      "folder": "final/12-deepwell-station",
+      "hashes_verified": true,
+      "markdown_links_resolve": true,
+      "clean_source_identical": true,
+      "thumbnail_jpeg_dimensions": [
+        1280,
+        720
+      ],
+      "thumbnail_jpeg_bytes": 325951,
+      "tags_characters": 295,
+      "thumbnail_visual_review": "PNG and 1280x720 JPEG inspected: title, caption, brand and catalog number correct; user review pending."
+    },
+    {
+      "catalog_number": "13",
+      "folder": "final/13-below-the-snowline",
+      "hashes_verified": true,
+      "markdown_links_resolve": true,
+      "clean_source_identical": true,
+      "thumbnail_jpeg_dimensions": [
+        1280,
+        720
+      ],
+      "thumbnail_jpeg_bytes": 324187,
+      "tags_characters": 295,
+      "thumbnail_visual_review": "PNG and 1280x720 JPEG inspected: title, caption, brand and catalog number correct; user review pending."
+    },
+    {
+      "catalog_number": "14",
+      "folder": "final/14-crater-rim-survey",
+      "hashes_verified": true,
+      "markdown_links_resolve": true,
+      "clean_source_identical": true,
+      "thumbnail_jpeg_dimensions": [
+        1280,
+        720
+      ],
+      "thumbnail_jpeg_bytes": 333065,
+      "tags_characters": 301,
+      "thumbnail_visual_review": "PNG and 1280x720 JPEG inspected: title, caption, brand and catalog number correct; user review pending."
+    }
+  ],
+  "catalog_sequence": "01-14, unique and ordered; all catalog file references resolve"
+}

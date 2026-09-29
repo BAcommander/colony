@@ -1,0 +1,129 @@
+{
+  "catalog_number": "13",
+  "creative_concept_id": 19,
+  "title": "Below the Snowline",
+  "date": "2026-09-29",
+  "status": "current v2 artwork selected for packaging; thumbnail and publication drafts pending review; music and motion briefs prepared",
+  "user_approved": false,
+  "generator": "built-in image_gen",
+  "selection": {
+    "date": "2026-09-29",
+    "scope": "User requested release numbering, thumbnails, SEO, descriptions and associated preparation for these four v2 concepts. This selects art for packaging, not new thumbnails, motion or audio approval.",
+    "feedback": "can we do the thumbnails, seo, descriptions etc etc for these 4, and get them ordered with the correct number etc?"
+  },
+  "source": {
+    "path": "creative/concepts/round-02/19-below-the-snowline/concept-v2.png",
+    "sha256": "bac9e6b150994ad53aad35b22faabb9077236eb9a97f1b34705ec7fbf364e702",
+    "bytes": 2367478,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "artwork": {
+    "path": "final/13-below-the-snowline/artwork-v2.png",
+    "sha256": "bac9e6b150994ad53aad35b22faabb9077236eb9a97f1b34705ec7fbf364e702",
+    "bytes": 2367478,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "prompts": [
+    {
+      "path": "final/13-below-the-snowline/artwork-generation-v2.md",
+      "sha256": "5d2da7e7338e78c340f01900c4c862716624c1402cf02824f77d89c1f3aa9d0d",
+      "bytes": 3929
+    }
+  ],
+  "source_generation_manifest": "creative/concepts/round-02/19-below-the-snowline/manifest-v2.json",
+  "source_visual_review": {
+    "method": "generated still inspected in chat",
+    "notes": "Warm monitoring room faces a broad blue ice vault with a daylight shaft, enclosed bridge and habitation. Generated mug has one visible handle rather than the requested handleless beaker. Check bridge anchors and ice structure before production."
+  },
+  "thumbnail": {
+    "master": "thumbnail-v1.png",
+    "master_sha256": "7683af8832bb77250aff335b88b3590787d1e19ac42a50693f0816eaf971a538",
+    "master_dimensions": [
+      1672,
+      941
+    ],
+    "upload": "thumbnail-v1.jpg",
+    "upload_sha256": "89599aa5afa8b6ed7d190b6f47fa1e013a31cf3dd01e00d13798f0090629ee2d",
+    "upload_dimensions": [
+      1280,
+      720
+    ],
+    "upload_bytes": 324187,
+    "source_art": "artwork-v2.png",
+    "source_art_sha256": "bac9e6b150994ad53aad35b22faabb9077236eb9a97f1b34705ec7fbf364e702",
+    "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
+    "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+    "prompt": "thumbnail-prompt-v1.md",
+    "prompt_sha256": "87c8350598f420c5ef5d643f4f3489cc7c330c0c7880a260775a0b5df4e34dc0",
+    "method": "built-in image_gen using source concept v2 + Ringfall identity reference; FFmpeg Lanczos 1280x720 JPEG quality 2",
+    "review": "Title, caption, brand and number 13 correctly rendered. Ice vault, bridge and warm room remain visible. Stronger blue/amber contrast and altered crop/geometry; use clean art for motion. User review pending.",
+    "user_approved": false
+  },
+  "caption": "LIFE BENEATH THE ICE",
+  "youtube_metadata": {
+    "status": "publication drafts; no unsupported soundtrack, runtime or resolution claims",
+    "title_file": "youtube-title.txt",
+    "title_sha256": "92284e56442afb5a60f851b7b8aff08fd4aad474b7153feaace76b2fdee4790d",
+    "description_file": "description.txt",
+    "description_sha256": "4b61096c07664e54584675a6b0c3f4f9c354cb2b520e09466dc88b3bde1d1c18",
+    "tags_file": "youtube-tags.txt",
+    "tags_sha256": "2d1e8c8e78eec9358e83d2d823ddafd9e981bcb20893d694f0354a53477d1fe4",
+    "tags_characters_including_separators": 295,
+    "tags_characters_including_file_newline": 296,
+    "tags_count": 17,
+    "hashtags_count": 3,
+    "description_words_before_hashtags": 77,
+    "keyword_note": "Scene-relevant suggestions, not measured search-volume data or ranking guarantees",
+    "guidance_checked": "2026-09-29",
+    "sources": [
+      "https://support.google.com/youtube/answer/146402?hl=en",
+      "https://support.google.com/youtube/answer/12948449?hl=en"
+    ]
+  },
+  "music_preparation": {
+    "status": "prompts prepared; no audio generated",
+    "files": [
+      {
+        "path": "final/13-below-the-snowline/music/elevenlabs-long-version.txt",
+        "sha256": "f7b72656b72ff215273a11ca7bf3388288402db3ecb9a741a339915c60a5f35a",
+        "bytes": 2087
+      },
+      {
+        "path": "final/13-below-the-snowline/music/elevenlabs-prompt-v1.txt",
+        "sha256": "8b33d912e38f7b7506c53b959422d22ab76329bff7aa42f26754882521d7336d",
+        "bytes": 1758
+      },
+      {
+        "path": "final/13-below-the-snowline/music/generation-record.json",
+        "sha256": "a933eb3efc92b43f9f72390e0a6b3369a878891603ec60fda6f2144e6b3152f6",
+        "bytes": 346
+      },
+      {
+        "path": "final/13-below-the-snowline/music/README.md",
+        "sha256": "41ede2e23a57e72ac2309acaed3d924a5d5638d5769d79c136a4d2af90d4d15b",
+        "bytes": 2017
+      }
+    ],
+    "planned_test": "approximately 60 seconds, two variants; user manual generation if supported",
+    "planned_long_piece": "approximately five minutes using chosen own test as reference if supported",
+    "credits_spent_by_assistant": 0,
+    "workflow": "creative/MUSIC_WORKFLOW.md"
+  },
+  "motion_preparation": {
+    "status": "written proposal only; no masks or implementation",
+    "brief": {
+      "path": "final/13-below-the-snowline/motion-brief.md",
+      "sha256": "9816bc9cefc15a99f31d1f9c7a9847446722917ada65795b55f548c16ec78e64",
+      "bytes": 1334
+    }
+  },
+  "video": null,
+  "audio": null,
+  "resolution_note": "Native clean source and generated thumbnail are 1672x941; no 4K video produced."
+}
