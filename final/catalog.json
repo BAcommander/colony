@@ -23,17 +23,19 @@
   {
     "folder": "04-floodplain-keeper",
     "title": "Floodplain Keeper",
-    "status": "artwork-and-thumbnail; animation not produced",
+    "status": "V2 animation look accepted; 4K short master and one-hour Colony assembly verified; combined user review pending",
     "artwork": "artwork-v1.png",
-    "duration_seconds": null,
-    "video": null,
+    "duration_seconds": 20,
+    "video": "video-4k-v2.mp4",
     "thumbnail": "thumbnail-v1.jpg",
     "animation_artwork_candidate": "artwork-v2-animation.png",
     "animation_preparation": "animation-prep-v1/scene-plan.json",
     "description": "description.txt",
     "search_tags": "youtube-tags.txt",
     "suggested_title": "youtube-title.txt",
-    "music_prompt": "music/elevenlabs-prompt-v1.txt"
+    "music_prompt": "music/elevenlabs-prompt-v2.txt",
+    "animation_source": "artwork-v2-animation.png",
+    "assembly": "assembly-v1/README.md"
   },
   {
     "folder": "05-saltline-receiver",

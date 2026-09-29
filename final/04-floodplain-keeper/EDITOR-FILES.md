@@ -1,4 +1,8 @@
-# Files for the next video
+# Floodplain Keeper video files
+
+Finished one-hour video: `G:\AI\colony\exports\04-floodplain-keeper\Floodplain-Keeper-1-Hour-4K-v1.mp4`
+
+The files below are retained as source ingredients; the combined video is now made.
 
 Video: `G:\AI\colony\final\04-floodplain-keeper\video-4k-v2.mp4`
 

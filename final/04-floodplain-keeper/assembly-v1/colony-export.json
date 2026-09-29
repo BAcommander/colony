@@ -1,0 +1,81 @@
+{
+  "tool": "Colony",
+  "started": "2026-09-29T20:31:10",
+  "finished": "2026-09-29T20:35:50",
+  "output": {
+    "path": "G:\\AI\\colony\\exports\\04-floodplain-keeper\\Floodplain-Keeper-1-Hour-4K-v1.mp4",
+    "duration_s": 3600.0,
+    "width": 3840,
+    "height": 2160,
+    "fps": 30.0,
+    "color": {
+      "space": null,
+      "primaries": null,
+      "trc": null,
+      "range": null
+    }
+  },
+  "video": {
+    "path": "G:\\AI\\colony\\final\\04-floodplain-keeper\\video-4k-v2.mp4",
+    "width": 3840,
+    "height": 2160,
+    "fps": 30.0,
+    "duration_s": 20.0,
+    "loop_duration_s": 20.0,
+    "loops": 181,
+    "source_color": {
+      "space": null,
+      "primaries": null,
+      "trc": null,
+      "range": null
+    }
+  },
+  "overlay": null,
+  "audio": {
+    "tracks": [
+      {
+        "path": "G:\\AI\\colony\\exports\\04-floodplain-keeper\\Floodplain-Keeper-Shelter-Recovery-1-Hour-v1.mp3",
+        "duration_s": 3600.0,
+        "loudness_lufs": -18.3,
+        "gain_db": 0.0
+      }
+    ],
+    "crossfade_s": 0.0,
+    "match_loudness": false,
+    "target_lufs": null,
+    "limiter_dbfs": -1.5,
+    "codec": "aac 192k 48000 Hz stereo"
+  },
+  "verification": {
+    "full_decode": true,
+    "passed": true,
+    "checks": [
+      {
+        "name": "Video stream",
+        "ok": true,
+        "detail": "3840x2160 (expected 3840x2160)"
+      },
+      {
+        "name": "Frame rate",
+        "ok": true,
+        "detail": "30 fps (expected 30)"
+      },
+      {
+        "name": "Audio stream",
+        "ok": true,
+        "detail": "aac, 48000 Hz, stereo"
+      },
+      {
+        "name": "Duration",
+        "ok": true,
+        "detail": "1:00:00 (expected 1:00:00, +0.00 s)"
+      },
+      {
+        "name": "Full decode",
+        "ok": true,
+        "detail": "every frame and sample decoded without errors"
+      }
+    ],
+    "note": "Technical checks only. Whether the loop and the overlay look and sound right is a human check."
+  }
+}

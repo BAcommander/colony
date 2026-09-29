@@ -1,6 +1,6 @@
 # 04 - Floodplain Keeper
 
-Current production status, 2026-09-29: v2 animation look accepted; verified 20-second 4K master and one-hour soundtrack ready for the user's editor. See [EDITOR-FILES.md](EDITOR-FILES.md) for paths and [delivery-v2](delivery-v2/README.md) for validation. No combined upload or publication claimed.
+Current production status, 2026-09-29: one-hour 4K video assembled with Colony and fully decode-verified. See [assembly-v1](assembly-v1/README.md) for the finished file, inputs and checks. The accepted short loop and source soundtrack remain preserved; combined playback/listening and publication are pending.
 
 - `artwork-v1.png`: byte-identical copy of `creative/concepts/round-02/11-floodplain-keeper/concept-v4-offworld.png`.
 - `thumbnail-v1.png`: built-in image-generation master, new design pending user review.

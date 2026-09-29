@@ -11,7 +11,7 @@ All fourteen have artwork, thumbnails, descriptions and search tags in [final/](
 | 01 | [Ringfall Observatory](final/01-ringfall-observatory/README.md) | Approved 20-second 4K loop | One-hour audio produced; join accepted | Review existing assembled export before any new production; confirm publication status |
 | 02 | [Basalt Transmission](final/02-basalt-transmission/README.md) | Accepted 20-second 4K loop | Original two-hour audio accepted in part; v2 removes reported claimed section and is technically checked | Review v2 cut/join auditions and revised upload checks; see music/revision-v2/ |
 | 03 | [Glacier Sanctuary](final/03-glacier-sanctuary/README.md) | 60-second 4K v11 delivered from accepted v10 look | Four-hour Amber Refuge replacement MP3/MP4 delivered; join approved | Check full replacement upload and extended listening; see music/replacement-amber-refuge/delivery-v2.md |
-| 04 | [Floodplain Keeper](final/04-floodplain-keeper/README.md) | V2 look accepted; 20-second 4K master delivered and verified | One-hour Shelter Recovery MP3 delivered; short join approved; full decode passed | Files handed off for user assembly; combined-video/listening/upload checks pending |
+| 04 | [Floodplain Keeper](final/04-floodplain-keeper/README.md) | V2 look accepted; 20-second 4K master delivered and verified | One-hour Shelter Recovery MP3 delivered; short join approved; full decode passed | One-hour 4K Colony export verified; review combined video and upload checks |
 | 05 | [Saltline Receiver](final/05-saltline-receiver/README.md) | Draft masks and plan only; no renderer adapter or loop | Short/long prompts ready; no audio | Select clean source; prototype cloud and depth-separated dust transport |
 | 06 | [The Last Cable Station](final/06-last-cable-station/README.md) | No motion implementation; v3 art accepted | Short/long prompts ready; no audio | Map valley cloud/fog and protected cable/structure masks |
 | 07 | [Icebound Weather Post](final/07-icebound-weather-post/README.md) | No motion implementation; v3 art accepted | Short/long prompts ready; no audio | Map distant snow transport, low ice haze and practical lights |
@@ -59,7 +59,8 @@ Current evidence: [animation-v2](final/04-floodplain-keeper/animation-v2/README.
 - [x] Add requested exterior window and desk-lamp flickers; render and technically verify v2.
 - [x] User accepted v2 with "then i think we're good"; assistant inspected still samples, not continuous playback.
 - [x] Export and fully validate the 4K short master (upscaled from 1672x941), including repeated-frame and timestamp checks.
-- [ ] User assembles the handed-off files in their tool; complete listening/upload checks and review the combined release.
+- [x] Assemble the one-hour video using the existing Colony app engine; full video/audio decode and all repeated packet/timestamp checks passed.
+- [ ] User reviews the combined video, extended listening and upload checks.
 
 ## Repeatable production gates
 

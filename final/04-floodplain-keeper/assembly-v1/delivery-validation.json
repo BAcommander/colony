@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-29",
+  "tool": "Colony application export engine",
+  "tool_path": "C:\\dev\\SpeedySlideShow\\colony\\render.py",
+  "tool_sha256": "de93079719b2e82347b6a867919eeb10a04be8f37b6da024bb21f2dcccec4621",
+  "exporter_sha256": "9557dfda9cf92007dc391f518b86c106f9ab0592456751da61a37b000098af8b",
+  "runner_sha256": "9a7fef6c468aa752b577879948d8cf1abd43f3dd79f69feba5ec3295c419cdc3",
+  "output": "G:\\AI\\colony\\exports\\04-floodplain-keeper\\Floodplain-Keeper-1-Hour-4K-v1.mp4",
+  "bytes": 7921083352,
+  "sha256": "0ede474c2a65c127ed86173437d73a9928a11b55ddb2e25b9464d936a4d7e8b3",
+  "duration_seconds": 3600,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "audio": "AAC 192k stereo 48000 Hz",
+  "settings": {
+    "crossfade": 0,
+    "match_loudness": false,
+    "gain_db": 0,
+    "overlay": "off",
+    "full_decode": true,
+    "loop_preparation": "Verified short master reused through Colony prepared-loop cache; no re-encode"
+  },
+  "source_video_sha256": "742a838037d641a1a251a3baf4973e4457ebfa2763b9283e494443c4b6a48309",
+  "source_audio_sha256": "611a755059906d3bd5cc598c693dc35840664d76d900ff9cf028ab6350aaa109",
+  "colony_loop": {
+    "path": "G:\\AI\\colony\\exports\\04-floodplain-keeper\\assembly-v1\\colony-loop-preserved-4k.mp4",
+    "sha256": "742a838037d641a1a251a3baf4973e4457ebfa2763b9283e494443c4b6a48309",
+    "decoded_yuv_frames_exactly_match_accepted_master": true
+  },
+  "validation": {
+    "full_video_audio_decode": true,
+    "video_packet_count": 108000,
+    "sequential_pts_dts": true,
+    "all_180_encoded_loop_payloads_identical": true,
+    "seam": "Exact decoded YUV frames retained from approved, seam-verified short master; every repeated payload identical."
+  },
+  "review": "Technical validation and decoded still checks only; no full-hour artistic playback/listening or upload check claimed.",
+  "storage": "Finished one-hour video/audio and cached loop remain local ignored exports."
+}

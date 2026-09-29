@@ -65,7 +65,7 @@
     "record": "music/long-source-v1/one-hour-delivery-v1.json",
     "approval_scope": "Short join approved; full-hour listening pending; decode verified."
   },
-  "delivery_note": "Accepted v2 look exported as a verified 20-second 4K silent loop. One-hour soundtrack ready separately. User will assemble in their tool; no combined upload or publication claimed.",
+  "delivery_note": "One-hour 4K video assembled with Colony and technically verified. Accepted short look/music join preserved. Full combined review and publication pending.",
   "animation_artwork_candidate": {
     "file": "artwork-v2-animation.png",
     "sha256": "1e9c4da5a9c01393c9e2f8105ed7023b5bbbaa58f83d613b70a32184fa676c26",
@@ -188,5 +188,20 @@
       ],
       "seconds": 20
     }
-  ]
+  ],
+  "assembled_video": {
+    "path": "exports/04-floodplain-keeper/Floodplain-Keeper-1-Hour-4K-v1.mp4",
+    "bytes": 7921083352,
+    "sha256": "0ede474c2a65c127ed86173437d73a9928a11b55ddb2e25b9464d936a4d7e8b3",
+    "duration_seconds": 3600,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "tool": "Colony",
+    "validation": "assembly-v1/delivery-validation.json",
+    "full_decode_verified": true,
+    "review_status": "Combined playback/listening and upload checks pending"
+  }
 }
