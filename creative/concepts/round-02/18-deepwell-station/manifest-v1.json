@@ -1,0 +1,42 @@
+{
+  "title": "Deepwell Station",
+  "creative_concept_id": 18,
+  "release_number": null,
+  "date": "2026-09-29",
+  "status": "rough concept generated; awaiting user direction",
+  "user_approved": false,
+  "generator": "built-in image_gen",
+  "artwork": {
+    "path": "creative/concepts/round-02/18-deepwell-station/concept-v1.png",
+    "sha256": "d5afb261f510955f9ef1dfc23886818365ad40367eab822f06263b287668f730",
+    "bytes": 2276296,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "executed_prompt": {
+    "path": "creative/concepts/round-02/18-deepwell-station/generation-v1.md",
+    "sha256": "292d1e7d96da844af53d82681302ec52150110dd448a5267bd8dafeafb7b2d66",
+    "bytes": 3018
+  },
+  "references": [
+    {
+      "path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-09\\chrome_yQu1p9aa4k.png",
+      "sha256": "d1bb0196e276b9d8bec3cf24e7de1374ff5e50879424bd798a9df46131114b61",
+      "bytes": 1221003,
+      "dimensions": [
+        1412,
+        747
+      ]
+    }
+  ],
+  "reference_role": "Construction, lighting and photographic atmosphere only; external screenshots are not stored in repo. Written prompt remains portable.",
+  "visual_review": {
+    "method": "generated still inspected in chat",
+    "notes": "Water supply infrastructure and supported pipeline read clearly. Desert terrain and utility architecture remain fairly terrestrial; habitat count/connectivity and planetary distinction need review."
+  },
+  "thumbnail": null,
+  "animation": null,
+  "audio": null
+}

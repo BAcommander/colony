@@ -1,0 +1,42 @@
+{
+  "title": "The Empty Junction",
+  "creative_concept_id": 17,
+  "release_number": null,
+  "date": "2026-09-29",
+  "status": "rough concept generated; awaiting user direction",
+  "user_approved": false,
+  "generator": "built-in image_gen",
+  "artwork": {
+    "path": "creative/concepts/round-02/17-empty-junction/concept-v1.png",
+    "sha256": "b23a4bbe2cfc44ef40001be0de045a462a870479a4a876878e47714f48594cda",
+    "bytes": 2249886,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "executed_prompt": {
+    "path": "creative/concepts/round-02/17-empty-junction/generation-v1.md",
+    "sha256": "6b584c73ef62f40f10147c80cf2644409a5677912c030b813ad909988481f50c",
+    "bytes": 3039
+  },
+  "references": [
+    {
+      "path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-09\\chrome_yQu1p9aa4k.png",
+      "sha256": "d1bb0196e276b9d8bec3cf24e7de1374ff5e50879424bd798a9df46131114b61",
+      "bytes": 1221003,
+      "dimensions": [
+        1412,
+        747
+      ]
+    }
+  ],
+  "reference_role": "Construction, lighting and photographic atmosphere only; external screenshots are not stored in repo. Written prompt remains portable.",
+  "visual_review": {
+    "method": "generated still inspected in chat",
+    "notes": "Rail cabin, junction, utility rack and distant settlement are readable. Early light is warmer than the pale brief; rail switch geometry and stronger off-world identity need review before final selection."
+  },
+  "thumbnail": null,
+  "animation": null,
+  "audio": null
+}

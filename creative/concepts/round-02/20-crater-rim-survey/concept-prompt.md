@@ -1,6 +1,6 @@
 # Crater Rim Survey - off-world concept prompt
 
-Prepared 2026-09-28. Proposed still; not generated or user-approved. Reference numbers follow ../photographic-locations-brief.md. Use references 2, 3 as visual references only.
+Prepared 2026-09-28. Rough v1 generated 2026-09-29 at concept-v1.png; awaiting user direction, not approved. Exact executed prompt and inspection notes are in generation-v1.md and manifest-v1.json. Reference numbers follow ../photographic-locations-brief.md. Use references 2, 3 as visual references only.
 
 ## Complete generation prompt
 

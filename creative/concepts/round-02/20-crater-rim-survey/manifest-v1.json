@@ -1,0 +1,51 @@
+{
+  "title": "Crater Rim Survey",
+  "creative_concept_id": 20,
+  "release_number": null,
+  "date": "2026-09-29",
+  "status": "rough concept generated; awaiting user direction",
+  "user_approved": false,
+  "generator": "built-in image_gen",
+  "artwork": {
+    "path": "creative/concepts/round-02/20-crater-rim-survey/concept-v1.png",
+    "sha256": "95303a7476c101136819600669adf8424d76ae59a2a3f22802b7e093f4ba3c49",
+    "bytes": 2038159,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "executed_prompt": {
+    "path": "creative/concepts/round-02/20-crater-rim-survey/generation-v1.md",
+    "sha256": "8ba76f64e304f623e1ab0757c96146713bceb7afc83eae0e8f76a21922686a56",
+    "bytes": 3088
+  },
+  "references": [
+    {
+      "path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-09\\chrome_yQu1p9aa4k.png",
+      "sha256": "d1bb0196e276b9d8bec3cf24e7de1374ff5e50879424bd798a9df46131114b61",
+      "bytes": 1221003,
+      "dimensions": [
+        1412,
+        747
+      ]
+    },
+    {
+      "path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-09\\chrome_uDMM1Uc2p3.png",
+      "sha256": "d0dd23bd24ad2a717de3d52418c70cd45b352201b2e32d3a5166de1e36901c7e",
+      "bytes": 1802009,
+      "dimensions": [
+        1401,
+        773
+      ]
+    }
+  ],
+  "reference_role": "Construction, lighting and photographic atmosphere only; external screenshots are not stored in repo. Written prompt remains portable.",
+  "visual_review": {
+    "method": "generated still inspected in chat",
+    "notes": "Station, switchback road, settlement and greenhouse are visible. Moon is round rather than requested irregular shape; dark rubble and warm light overlap earlier concepts. Review distinct geology and degree of alien character."
+  },
+  "thumbnail": null,
+  "animation": null,
+  "audio": null
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Below the Snowline",
+  "creative_concept_id": 19,
+  "release_number": null,
+  "date": "2026-09-29",
+  "status": "rough concept generated; awaiting user direction",
+  "user_approved": false,
+  "generator": "built-in image_gen",
+  "artwork": {
+    "path": "creative/concepts/round-02/19-below-the-snowline/concept-v1.png",
+    "sha256": "e5f1f2ebce8e47af1528e6e6104ad308cb40deac0a2b83f50e974ce3a0b9a43b",
+    "bytes": 2273463,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "executed_prompt": {
+    "path": "creative/concepts/round-02/19-below-the-snowline/generation-v1.md",
+    "sha256": "f970639269f18cbd95761c373052ba24dfde647166982cedab635dbdd4910f99",
+    "bytes": 3166
+  },
+  "references": [
+    {
+      "path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-09\\chrome_BjB6OUDipV.png",
+      "sha256": "dbc05775a765972139375f4f43a8160064cc33b5b63d486d9b6bcb771e218bcf",
+      "bytes": 2022176,
+      "dimensions": [
+        1410,
+        807
+      ]
+    },
+    {
+      "path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-09\\chrome_uDMM1Uc2p3.png",
+      "sha256": "d0dd23bd24ad2a717de3d52418c70cd45b352201b2e32d3a5166de1e36901c7e",
+      "bytes": 1802009,
+      "dimensions": [
+        1401,
+        773
+      ]
+    }
+  ],
+  "reference_role": "Construction, lighting and photographic atmosphere only; external screenshots are not stored in repo. Written prompt remains portable.",
+  "visual_review": {
+    "method": "generated still inspected in chat",
+    "notes": "Warm interior, enclosed bridge and layered ice are readable. View is more open than a sheltered deep crevasse. The left desk cup appears to have handles on both sides and needs correction if selected; stronger alien identity remains a direction question."
+  },
+  "thumbnail": null,
+  "animation": null,
+  "audio": null
+}

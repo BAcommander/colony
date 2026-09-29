@@ -1,6 +1,6 @@
 # Ambient Colony — production pipeline and tracker
 
-Last updated: 2026-09-28. This is the live work queue for the first ten releases. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
+Last updated: 2026-09-29. This is the live work queue for the first ten releases. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
 
 ## Where we are
 
@@ -22,6 +22,10 @@ All ten have artwork, thumbnails, descriptions and search tags in [final/](final
 01/02 long exports are listed in [the local inventory](final/local-export-inventory.json); their existence does not establish full-video review or publication. Nothing in this tracker claims any video has been uploaded. Glacier's accepted look, technical delivery and full-export user review are separate facts.
 
 09/10 retain their historical folder names to preserve links and provenance. Public names are **The Shoreless Colony** and **Farpoint Station**. Their current thumbnails are `thumbnail-v2.jpg`; other packages currently use v1. Use [catalog.json](final/catalog.json) to resolve current artwork and thumbnail paths.
+
+## Exploration beyond the first ten
+
+On 2026-09-29 the user requested rough concepts for The Empty Junction, Deepwell Station, Below the Snowline and Crater Rim Survey (creative IDs 17-20). All four v1 images are now saved in [the round-02 index](creative/concepts/round-02/README.md), with prompts, reference hashes and review notes. Awaiting user direction; no release numbers assigned. This exploration does not mark any first-ten motion/music work complete.
 
 ## Next work session: finish 04 as the next complete production
 
