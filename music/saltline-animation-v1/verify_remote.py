@@ -1,6 +1,6 @@
 """Independent partial clone, exact remote Git-object verification, no media checkout."""
 from pathlib import Path
-import hashlib,json,subprocess,tempfile,shutil
+import hashlib,json,subprocess,tempfile,shutil,os,stat
 R=Path(__file__).resolve().parents[2];H=Path(__file__).resolve().parent
 def git(*args,cwd=R):return subprocess.check_output(['git',*args],cwd=cwd,stderr=subprocess.PIPE)
 url=git('remote','get-url','origin').decode().strip();expected=git('rev-parse','HEAD').decode().strip()
@@ -17,4 +17,8 @@ try:
  print(json.dumps({'remote_head':head,'independent_remote_clone':True,'verified_hash_objects':len(files),'accepted_preview_sha256':approval['preview_sha256'],'preview_bytes':len(git('show','HEAD:'+approval['preview_path'],cwd=repo)),'source_config_renderer_dependencies_and_preview_verified':True},indent=2))
 finally:
  assert temp.is_relative_to(temp_base) and temp.name.startswith('saltline-remote-verify-')
- shutil.rmtree(temp)
+ def remove_readonly(function,path,error):
+  assert Path(path).resolve().is_relative_to(temp)
+  os.chmod(path,stat.S_IWRITE|stat.S_IREAD)
+  function(path)
+ shutil.rmtree(temp,onexc=remove_readonly)
