@@ -1,0 +1,8 @@
+{
+  "date": "2026-09-29",
+  "path": "final/04-floodplain-keeper/video-4k-v2.mp4",
+  "sha256": "742a838037d641a1a251a3baf4973e4457ebfa2763b9283e494443c4b6a48309",
+  "bytes": 43503967,
+  "method": "Fetched exact Git LFS object from origin/main into previously absent independent storage and verified SHA-256 and size",
+  "remote_verified": true
+}
