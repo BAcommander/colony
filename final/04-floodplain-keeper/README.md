@@ -1,6 +1,6 @@
 # 04 - Floodplain Keeper
 
-Current production status, 2026-09-29: v2 20-second 720p motion preview adds exterior and desk-lamp flickers; v1 water/clouds liked; one-hour Shelter Recovery soundtrack delivered with the short join approved. No 4K motion master or combined upload yet.
+Current production status, 2026-09-29: v2 animation look accepted; verified 20-second 4K master and one-hour soundtrack ready for the user's editor. See [EDITOR-FILES.md](EDITOR-FILES.md) for paths and [delivery-v2](delivery-v2/README.md) for validation. No combined upload or publication claimed.
 
 - `artwork-v1.png`: byte-identical copy of `creative/concepts/round-02/11-floodplain-keeper/concept-v4-offworld.png`.
 - `thumbnail-v1.png`: built-in image-generation master, new design pending user review.
@@ -14,7 +14,7 @@ Uses the approved Ambient Colony series identity: ivory condensed title, orbital
 
 [artwork-v2-animation.png](artwork-v2-animation.png) carries the thumbnail lighting and composition into a clean text-free source candidate. User review pending; v1 remains preserved. Exact built-in generation prompt: [artwork-prompt-v2.md](artwork-prompt-v2.md).
 
-[Production brief](animation-prep-v1/production-brief.md), [scene plan](animation-prep-v1/scene-plan.json) and five draft source-coordinate masks prepare the main and supporting effects. This earlier preparation is preserved as history. The [animation-v1 package](animation-v1/README.md) introduced motion using the v2 plate with refined masks and a scene-specific adapter. The current [animation-v2 package](animation-v2/README.md) retains its water/clouds and adds requested lighting flickers. The 20-second 720p preview and three-loop review clip passed technical gates; user playback approval remains pending. Native source is 1672x941; future 4K delivery will be resampled.
+[Production brief](animation-prep-v1/production-brief.md), [scene plan](animation-prep-v1/scene-plan.json) and five draft source-coordinate masks prepare the main and supporting effects. This earlier preparation is preserved as history. The [animation-v1 package](animation-v1/README.md) introduced motion using the v2 plate with refined masks and a scene-specific adapter. The current [animation-v2 package](animation-v2/README.md) retains its water/clouds and adds requested lighting flickers. The user accepted the v2 preview look. The 20-second 4K master and repeated review passed technical gates. Native source is 1672x941; the 4K delivery is upscaled.
 
 ## Publication and soundtrack preparation, 2026-09-28
 

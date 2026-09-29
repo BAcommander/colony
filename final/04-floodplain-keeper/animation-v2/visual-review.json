@@ -1,9 +1,9 @@
 {
   "date": "2026-09-29",
   "inherited_feedback": "clouds and water look kinda fine, can we add some flickering to any of the lights outside or inside?",
-  "user_approved": false,
+  "user_approved": true,
   "inspection": "Lamp source/mask and steady/dimmed still pair inspected; continuous playback not reviewed by assistant.",
-  "next_gate": "User review of added light flickers",
+  "next_gate": "User assembles video in their tool",
   "fingerprint": {
     "config_sha256": "f645394cfc127d1f2375e5e376bae60446fd08dcaee1d1537e67cb6196ea713d",
     "files": {
@@ -21,5 +21,7 @@
       "active": "250cd306a69a10edbe2466d1d23bbb1ada461d331b0c9a763571db65e6e2382c",
       "lamp": "664475cd5373ae258c892882c7f22e2f85e97cc844dc1f840010510d40b79f0d"
     }
-  }
+  },
+  "user_feedback": "then i think we're good where are the files so i can put them into the tool and make the next video?",
+  "approval_scope": "V2 preview look accepted; 4K delivery separately technically verified, not user playback reviewed."
 }

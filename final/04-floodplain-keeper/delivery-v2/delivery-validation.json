@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-29",
+  "accepted_preview_fingerprint": {
+    "config_sha256": "f645394cfc127d1f2375e5e376bae60446fd08dcaee1d1537e67cb6196ea713d",
+    "files": {
+      "final/04-floodplain-keeper/artwork-v2-animation.png": "1e9c4da5a9c01393c9e2f8105ed7023b5bbbaa58f83d613b70a32184fa676c26",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+    },
+    "masks": {
+      "sky": "514a2a7b7c807051d3eae3cb6da81467e2b587aac984d18f60ab0c6cdb36c964",
+      "water": "726e0fcf0028fc3109a6a40694dba23a245d0f5dc8042eb20bf046017353b6ec",
+      "screen": "217b6781cb9fafd90b2008aa8e867f9294c9993feba7d70db983fa4d66784157",
+      "lights": "82a1bf082c19d4ff3ac641fe38001ed764cc63cee273f324b109198f1dad236c",
+      "beacon": "b4969b818d3dd2a624fa6b542bf48f2e46af883e9e20f921f1d7537de9df1d22",
+      "active": "250cd306a69a10edbe2466d1d23bbb1ada461d331b0c9a763571db65e6e2382c",
+      "lamp": "664475cd5373ae258c892882c7f22e2f85e97cc844dc1f840010510d40b79f0d"
+    }
+  },
+  "delivery_script_sha256": "07cab38a6f9573cb3651091f7c8191789ec02830aadcfb780018418d3ac90aaf",
+  "master": {
+    "path": "final/04-floodplain-keeper/video-4k-v2.mp4",
+    "bytes": 43503967,
+    "sha256": "742a838037d641a1a251a3baf4973e4457ebfa2763b9283e494443c4b6a48309",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "frames": 600,
+    "seconds": 20,
+    "audio": false,
+    "codec": "H.264 lossless QP0 yuv420p",
+    "source_detail": "1672x941 native source frames upscaled with Lanczos; no added native detail"
+  },
+  "validation": {
+    "full_decode": true,
+    "sequential_timestamps": true,
+    "no_duplicate_endpoint": true,
+    "source_protection": "Every generated source frame checked by unchanged renderer",
+    "encoded_seam": {
+      "sky": {
+        "seam_mae": 0.10672776613503689,
+        "ordinary_max_mae": 0.1089032077987705,
+        "pass": true
+      },
+      "water": {
+        "seam_mae": 0.3376788847485737,
+        "ordinary_max_mae": 0.3416578581165006,
+        "pass": true
+      },
+      "screen": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 0.008812020192968307,
+        "pass": true
+      },
+      "lights": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 30.82536066818527,
+        "pass": true
+      },
+      "beacon": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 0.8137254901960784,
+        "pass": true
+      },
+      "lamp": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 4.581200176260866,
+        "pass": true
+      },
+      "combined": {
+        "seam_mae": 0.11221831773542973,
+        "ordinary_max_mae": 0.6606445770526818,
+        "pass": true
+      }
+    }
+  },
+  "repeat": {
+    "path": "exports/04-floodplain-keeper/animation-v2/floodplain-keeper-v2-three-loops-4k-60s.mp4",
+    "sha256": "ef70d049a53adda4a086c1b3c3e736f10ec81231f692b41ee5be52d187c81dba",
+    "bytes": 130510257,
+    "decoded_frames": 1800,
+    "three_payloads_identical": true,
+    "sequential_timestamps": true
+  },
+  "user_approval": {
+    "quote": "then i think we're good where are the files so i can put them into the tool and make the next video?",
+    "scope": "V2 preview look accepted; requested editor handoff. New 4K export not separately playback reviewed."
+  }
+}

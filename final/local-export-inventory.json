@@ -177,6 +177,12 @@
       "bytes": 14091364,
       "sha256": "9efa76d2a6ab40ac0276cc9a3650b0736f7b8fb8ad163efa1cf4a9fdb600f241",
       "storage": "local ignored draft; separate backup required"
+    },
+    {
+      "path": "exports/04-floodplain-keeper/animation-v2/floodplain-keeper-v2-three-loops-4k-60s.mp4",
+      "bytes": 130510257,
+      "sha256": "ef70d049a53adda4a086c1b3c3e736f10ec81231f692b41ee5be52d187c81dba",
+      "storage": "local ignored repeated review; separate backup required"
     }
   ]
 }

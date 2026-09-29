@@ -42,14 +42,30 @@
     "visual_review": "Inspected generated full image: title, brand, caption and catalog number correct; focal scene readable; matches established series direction. User approval pending.",
     "note": "Marketing adaptation with tonal/compositional changes; clean source remains unchanged."
   },
-  "video": null,
+  "video": {
+    "path": "final/04-floodplain-keeper/video-4k-v2.mp4",
+    "bytes": 43503967,
+    "sha256": "742a838037d641a1a251a3baf4973e4457ebfa2763b9283e494443c4b6a48309",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "frames": 600,
+    "seconds": 20,
+    "audio": false,
+    "codec": "H.264 lossless QP0 yuv420p",
+    "source_detail": "1672x941 native source frames upscaled with Lanczos; no added native detail",
+    "validation": "delivery-v2/delivery-validation.json",
+    "approval_scope": "V2 preview look accepted; 4K delivery separately technically verified, not user playback reviewed."
+  },
   "audio": {
     "delivery": "exports/04-floodplain-keeper/Floodplain-Keeper-Shelter-Recovery-1-Hour-v1.mp3",
     "seconds": 3600,
     "record": "music/long-source-v1/one-hour-delivery-v1.json",
     "approval_scope": "Short join approved; full-hour listening pending; decode verified."
   },
-  "delivery_note": "V2 silent 720p lighting preview technically verified; v1 water/clouds liked. One-hour soundtrack delivered separately. 4K and combined assembly pending.",
+  "delivery_note": "Accepted v2 look exported as a verified 20-second 4K silent loop. One-hour soundtrack ready separately. User will assemble in their tool; no combined upload or publication claimed.",
   "animation_artwork_candidate": {
     "file": "artwork-v2-animation.png",
     "sha256": "1e9c4da5a9c01393c9e2f8105ed7023b5bbbaa58f83d613b70a32184fa676c26",
@@ -142,7 +158,7 @@
     "validation": "animation-v2/delivery-validation.json",
     "preview": "exports/04-floodplain-keeper/animation-v2/floodplain-keeper-v2-preview-20s.mp4",
     "sha256": "30379ccc11f9d1b5504eee3680a8477b16972ae94a15d2da15da6a672164c53c",
-    "user_approved": false,
+    "user_approved": true,
     "source_dimensions": [
       1672,
       941
