@@ -3,8 +3,8 @@
   "creative_concept_id": 19,
   "title": "Below the Snowline",
   "date": "2026-09-29",
-  "status": "current v2 artwork selected for packaging; thumbnail and publication drafts pending review; music and motion briefs prepared",
-  "user_approved": false,
+  "status": "release artwork/thumbnail package accepted; publication and music briefs prepared; animation and audio not produced",
+  "user_approved": true,
   "generator": "built-in image_gen",
   "selection": {
     "date": "2026-09-29",
@@ -62,8 +62,8 @@
     "prompt": "thumbnail-prompt-v1.md",
     "prompt_sha256": "87c8350598f420c5ef5d643f4f3489cc7c330c0c7880a260775a0b5df4e34dc0",
     "method": "built-in image_gen using source concept v2 + Ringfall identity reference; FFmpeg Lanczos 1280x720 JPEG quality 2",
-    "review": "Title, caption, brand and number 13 correctly rendered. Ice vault, bridge and warm room remain visible. Stronger blue/amber contrast and altered crop/geometry; use clean art for motion. User review pending.",
-    "user_approved": false
+    "review": "Title, caption, brand and number 13 correctly rendered. Ice vault, bridge and warm room remain visible. Stronger blue/amber contrast and altered crop/geometry; use clean art for motion. User approved 2026-09-29.",
+    "user_approved": true
   },
   "caption": "LIFE BENEATH THE ICE",
   "youtube_metadata": {
@@ -125,5 +125,10 @@
   },
   "video": null,
   "audio": null,
-  "resolution_note": "Native clean source and generated thumbnail are 1672x941; no 4K video produced."
+  "resolution_note": "Native clean source and generated thumbnail are 1672x941; no 4K video produced.",
+  "approval": {
+    "date": "2026-09-29",
+    "feedback": "love it, commit and push everyting",
+    "scope": "Current release artwork/thumbnail package 11-14 accepted. Music and motion remain unproduced proposals; no audio, animation or upload approval implied."
+  }
 }

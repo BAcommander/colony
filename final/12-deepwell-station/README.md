@@ -1,6 +1,6 @@
 # 12 — Deepwell Station
 
-Prepared 2026-09-29. The user selected the current v2 concept for release packaging. New thumbnail and metadata await review. No animation or audio exists for this package.
+Prepared 2026-09-29. The user selected the current v2 concept for release packaging. User approved the presented package on 2026-09-29: "love it, commit and push everyting". Preserve the approved thumbnail v1. Publication copy remains ready for soundtrack/runtime details once produced. No animation or audio exists for this package.
 
 - Clean source: [artwork-v2.png](artwork-v2.png), a byte-identical copy of creative concept 18-deepwell-station/concept-v2.png.
 - Thumbnail: [upload JPEG](thumbnail-v1.jpg) and [PNG master](thumbnail-v1.png), built-in image generation using the Ringfall style reference. Generated composition/lighting may vary; do not use thumbnail pixels as the animation plate.

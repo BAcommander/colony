@@ -2,7 +2,7 @@
 
 Planning and next actions: [production pipeline and release tracker](../PRODUCTION_PIPELINE.md). This separates completed assets from remaining motion, music, assembly, review and backup work.
 
-Three approved video packages (01-03), two artwork/preparation packages (04-05), and accepted clean artwork for 06-07 with new thumbnails pending review. Packages 08-14 now have selected artwork, new thumbnails pending review, metadata and music prompts. Animations for 04-14 have not been produced. Exact image prompts, provenance and current approval scope are recorded per package.
+Three approved video packages (01-03), two artwork/preparation packages (04-05), and accepted clean artwork for 06-07 with new thumbnails pending review. Packages 08-10 have selected artwork, thumbnails pending review, metadata and music prompts. Packages 11-14 have user-approved artwork/thumbnail packages (2026-09-29), metadata and music/motion briefs. Animations for 04-14 have not been produced. Exact image prompts, provenance and current approval scope are recorded per package.
 
 Packages 04-05 also contain revised text-free `artwork-v2-animation.png` candidates with the stronger thumbnail lighting. Their `animation-prep-v1/` folders contain source-coordinate draft masks, scene plans and production briefs; this is preparation, not a rendered animation. Original selected artwork and thumbnails remain unchanged.
 

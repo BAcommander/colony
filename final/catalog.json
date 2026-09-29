@@ -120,7 +120,7 @@
     "title": "The Empty Junction",
     "catalog_number": "11",
     "creative_concept_id": 17,
-    "status": "current v2 artwork selected for packaging; thumbnail and publication drafts pending review; music and motion briefs prepared",
+    "status": "release artwork/thumbnail package accepted; publication and music briefs prepared; animation and audio not produced",
     "artwork": "artwork-v2.png",
     "duration_seconds": null,
     "video": null,
@@ -129,14 +129,15 @@
     "search_tags": "youtube-tags.txt",
     "suggested_title": "youtube-title.txt",
     "music_prompt": "music/elevenlabs-prompt-v1.txt",
-    "motion_brief": "motion-brief.md"
+    "motion_brief": "motion-brief.md",
+    "thumbnail_user_approved": true
   },
   {
     "folder": "12-deepwell-station",
     "title": "Deepwell Station",
     "catalog_number": "12",
     "creative_concept_id": 18,
-    "status": "current v2 artwork selected for packaging; thumbnail and publication drafts pending review; music and motion briefs prepared",
+    "status": "release artwork/thumbnail package accepted; publication and music briefs prepared; animation and audio not produced",
     "artwork": "artwork-v2.png",
     "duration_seconds": null,
     "video": null,
@@ -145,14 +146,15 @@
     "search_tags": "youtube-tags.txt",
     "suggested_title": "youtube-title.txt",
     "music_prompt": "music/elevenlabs-prompt-v1.txt",
-    "motion_brief": "motion-brief.md"
+    "motion_brief": "motion-brief.md",
+    "thumbnail_user_approved": true
   },
   {
     "folder": "13-below-the-snowline",
     "title": "Below the Snowline",
     "catalog_number": "13",
     "creative_concept_id": 19,
-    "status": "current v2 artwork selected for packaging; thumbnail and publication drafts pending review; music and motion briefs prepared",
+    "status": "release artwork/thumbnail package accepted; publication and music briefs prepared; animation and audio not produced",
     "artwork": "artwork-v2.png",
     "duration_seconds": null,
     "video": null,
@@ -161,14 +163,15 @@
     "search_tags": "youtube-tags.txt",
     "suggested_title": "youtube-title.txt",
     "music_prompt": "music/elevenlabs-prompt-v1.txt",
-    "motion_brief": "motion-brief.md"
+    "motion_brief": "motion-brief.md",
+    "thumbnail_user_approved": true
   },
   {
     "folder": "14-crater-rim-survey",
     "title": "Crater Rim Survey",
     "catalog_number": "14",
     "creative_concept_id": 20,
-    "status": "current v2 artwork selected for packaging; thumbnail and publication drafts pending review; music and motion briefs prepared",
+    "status": "release artwork/thumbnail package accepted; publication and music briefs prepared; animation and audio not produced",
     "artwork": "artwork-v2.png",
     "duration_seconds": null,
     "video": null,
@@ -177,6 +180,7 @@
     "search_tags": "youtube-tags.txt",
     "suggested_title": "youtube-title.txt",
     "music_prompt": "music/elevenlabs-prompt-v1.txt",
-    "motion_brief": "motion-brief.md"
+    "motion_brief": "motion-brief.md",
+    "thumbnail_user_approved": true
   }
 ]

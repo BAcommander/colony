@@ -4,7 +4,7 @@ Last updated: 2026-09-29. This is the live work queue for the first fourteen rel
 
 ## Where we are
 
-All fourteen have artwork, thumbnails, descriptions and search tags in [final/](final/README.md). Packages 04–14 also have suggested upload titles and scene-specific ElevenLabs music prompts. New thumbnail revisions still need user review. These assets do not mean fourteen finished uploads exist.
+All fourteen have artwork, thumbnails, descriptions and search tags in [final/](final/README.md). Packages 04–14 also have suggested upload titles and scene-specific ElevenLabs music prompts. Thumbnails 11-14 are user-approved as of 2026-09-29; earlier pending thumbnail revisions retain their own review status. These assets do not mean fourteen finished uploads exist.
 
 | No. | Release / package | Motion | Music | Next action |
 | --- | --- | --- | --- | --- |
@@ -18,10 +18,10 @@ All fourteen have artwork, thumbnails, descriptions and search tags in [final/](
 | 08 | [Rainline Relay](final/08-rainline-relay/README.md) | No motion implementation; current art selected for packaging | Short/long prompts ready; no audio | Map rain, separate mist depths, canopy/walkway occlusion |
 | 09 | [The Shoreless Colony](final/09-offshore-night-office/README.md) | No motion implementation; current art selected for packaging | Short/long prompts ready; no audio | Prototype convincing slow sea movement around fixed caissons |
 | 10 | [Farpoint Station](final/10-nightward-station/README.md) | No motion implementation; current v3 art selected for packaging | Short/long prompts ready; no audio | Prototype cloud detail on the planet under a fixed horizon |
-| 11 | [The Empty Junction](final/11-empty-junction/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Review thumbnail; use motion-brief.md to plan principal effects |
-| 12 | [Deepwell Station](final/12-deepwell-station/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Review thumbnail; use motion-brief.md to plan principal effects |
-| 13 | [Below the Snowline](final/13-below-the-snowline/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Review thumbnail; use motion-brief.md to plan principal effects |
-| 14 | [Crater Rim Survey](final/14-crater-rim-survey/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Review thumbnail; use motion-brief.md to plan principal effects |
+| 11 | [The Empty Junction](final/11-empty-junction/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Thumbnail approved; use motion-brief.md to plan principal effects |
+| 12 | [Deepwell Station](final/12-deepwell-station/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Thumbnail approved; use motion-brief.md to plan principal effects |
+| 13 | [Below the Snowline](final/13-below-the-snowline/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Thumbnail approved; use motion-brief.md to plan principal effects |
+| 14 | [Crater Rim Survey](final/14-crater-rim-survey/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Thumbnail approved; use motion-brief.md to plan principal effects |
 
 01/02 long exports are listed in [the local inventory](final/local-export-inventory.json); their existence does not establish full-video review or publication. Nothing in this tracker claims any video has been uploaded. Glacier's accepted look, technical delivery and full-export user review are separate facts.
 

@@ -65,4 +65,4 @@ User accepted both clean v3 artworks. Thumbnails generated from those plates wit
 - 13: BELOW THE / SNOWLINE; LIFE BENEATH THE ICE.
 - 14: CRATER RIM / SURVEY; HOME ON THE INNER RIM.
 
-All use the selected clean v2 source and Ringfall as direct style reference, upper-left title blocks and opposite upper-right catalog numbers. New thumbnails are pending user review. They strengthen colour/contrast and can alter geometry; clean artwork-v2.png remains the animation source. PNG masters and 1280x720 JPEGs are saved with exact prompts and hashes.
+All use the selected clean v2 source and Ringfall as direct style reference, upper-left title blocks and opposite upper-right catalog numbers. User approved the 11-14 thumbnail set on 2026-09-29: "love it, commit and push everyting". Preserve these v1 files and version future changes. They strengthen colour/contrast and can alter geometry; clean artwork-v2.png remains the animation source. PNG masters and 1280x720 JPEGs are saved with exact prompts and hashes.

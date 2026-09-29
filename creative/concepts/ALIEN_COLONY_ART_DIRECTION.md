@@ -1,6 +1,6 @@
 # Ambient Colony — believable life on unfamiliar worlds
 
-Prepared 2026-09-29 from nine user-supplied reference images and feedback on rough concepts 17–20. The subsequent user-authorized generation run produced four v2 candidates, saved with exact prompts and manifests. V1 images remain history; v2 artworks are selected for release packaging as 11-14; new thumbnails await review. Photographic credibility is the target, not a guarantee of a particular model output or a claim that the references are photographs.
+Prepared 2026-09-29 from nine user-supplied reference images and feedback on rough concepts 17–20. The subsequent user-authorized generation run produced four v2 candidates, saved with exact prompts and manifests. V1 images remain history; v2 artworks are selected for release packaging as 11-14; release thumbnails 11-14 were approved on 2026-09-29. Photographic credibility is the target, not a guarantee of a particular model output or a claim that the references are photographs.
 
 ## The central change
 
