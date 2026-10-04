@@ -83,7 +83,7 @@
   {
     "folder": "08-rainline-relay",
     "title": "Rainline Relay",
-    "status": "artwork selected for packaging; thumbnail pending review; metadata and music prompts prepared",
+    "status": "V5 preview: brief lamp blinks and sliding glass rain; v4 water and background retained; user review pending",
     "artwork": "artwork-v1.png",
     "duration_seconds": null,
     "video": null,
@@ -91,7 +91,8 @@
     "description": "description.txt",
     "search_tags": "youtube-tags.txt",
     "suggested_title": "youtube-title.txt",
-    "music_prompt": "music/elevenlabs-prompt-v1.txt"
+    "music_prompt": "music/elevenlabs-prompt-v1.txt",
+    "animation_preview": "../../music/rainline-animation-v5/README.md"
   },
   {
     "folder": "09-offshore-night-office",

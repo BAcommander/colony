@@ -1,6 +1,6 @@
 # Ambient Colony — production pipeline and tracker
 
-Last updated: 2026-09-30. This is the live work queue for the first fourteen releases. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
+Last updated: 2026-10-05. This is the live work queue for the first fourteen releases. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
 
 ## Where we are
 
@@ -15,7 +15,7 @@ All fourteen have artwork, thumbnails, descriptions and search tags in [final/](
 | 05 | [Saltline Receiver](final/05-saltline-receiver/README.md) | V5 look accepted; requested 60-second 4K v7 delivered and technically verified, longer light schedule review pending | Short/long prompts ready; no audio | Review [v7 minute-long light schedule and 4K/join](music/saltline-animation-v1/LOOP_V7.md); user requested exact-master Git LFS backup, see remote-backup-v7.json for verification |
 | 06 | [The Last Cable Station](final/06-last-cable-station/README.md) | No motion implementation; v3 art accepted | Short/long prompts ready; no audio | Map valley cloud/fog and protected cable/structure masks |
 | 07 | [Icebound Weather Post](final/07-icebound-weather-post/README.md) | No motion implementation; v3 art accepted | Short/long prompts ready; no audio | Map distant snow transport, low ice haze and practical lights |
-| 08 | [Rainline Relay](final/08-rainline-relay/README.md) | No motion implementation; current art selected for packaging | Short/long prompts ready; no audio | Map rain, separate mist depths, canopy/walkway occlusion |
+| 08 | [Rainline Relay](final/08-rainline-relay/README.md) | V5 twenty-second 720p draft: foreground lamp blinks and sliding window rain; v4 background retained; review pending | Short/long prompts ready; no audio | Review v5 lamp timing and glass rain before 4K; music remains separate |
 | 09 | [The Shoreless Colony](final/09-offshore-night-office/README.md) | No motion implementation; current art selected for packaging | Short/long prompts ready; no audio | Prototype convincing slow sea movement around fixed caissons |
 | 10 | [Farpoint Station](final/10-nightward-station/README.md) | No motion implementation; current v3 art selected for packaging | Short/long prompts ready; no audio | Prototype cloud detail on the planet under a fixed horizon |
 | 11 | [The Empty Junction](final/11-empty-junction/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Thumbnail approved; use motion-brief.md to plan principal effects |

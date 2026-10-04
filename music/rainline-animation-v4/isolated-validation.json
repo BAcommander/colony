@@ -1,0 +1,92 @@
+{
+  "fingerprint": {
+    "source_sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+    "config_sha256": "8c59ad6a206646cafdcd70c338eb93267e9bc890c977ab312e3d505381e991b8",
+    "renderer_sha256": "18317503b2c91c84ef030990a8988243274c76b0993dfbe98cc2882057477101",
+    "dependencies": {
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "music/saltline-animation-v1/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music/saltline-animation-v1/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832"
+    },
+    "masks": {
+      "rain_near": "1f679acf19c2fe627dcdc3e539f039351c8b2579693df4b83b0ce181d160fcaf",
+      "rain_far": "8bb4e313b58eb0274203b141e136877c91c79d366d8245b0edf4effc5a2fbd04",
+      "water": "8e3d6a2eeb2702849d157a497f779e1d38dfb39e98a62b1417c67962a2a67c64",
+      "mist_far": "a6f4b1f414fbb4b69b585d1d27634f2b96af2accc7a7e94941354b69ce845bbe",
+      "mist_near": "4871a415bc3e08e0ac91699b2980641b7407a3bbe7ff15b89668a5afeecd27f6",
+      "lights": "a53cedf3a58b483568592d8d27ea7825a27fe4317be3c5ff182fe8eb0c9a5137",
+      "beacons": "95d62e9cfc887dcf078f7bbd0d6190424b085b64df6949655baa67d9b365e104",
+      "screen": "6242b3a3e99839afce4645894bce61b1955137c5864067c7bcb41c894b44e4e4",
+      "radio": "7b66f159178cfe6fc20cb4b9b84cdfa52a9f01487cba04dc37c2768a32af43b7",
+      "room": "5ae8c5dd56d7dd338b821bf5b7f04cd60202aa74b6495f639633a2d3aaa4e1b2",
+      "rain": "1f679acf19c2fe627dcdc3e539f039351c8b2579693df4b83b0ce181d160fcaf"
+    }
+  },
+  "clips": [
+    {
+      "path": "music/rainline-animation-v4/water-isolated-v4-8s.mp4",
+      "sha256": "574083e9c43caf5617f9828ef1de5e325b64de92279b0564d856b1b5c7a65118",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "water",
+      "prototype": false,
+      "validation": {
+        "frames": 240,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    },
+    {
+      "path": "music/rainline-animation-v4/lights-isolated-v4-8s.mp4",
+      "sha256": "aa4e67269f9bca33dffc53df53ad5c714302833abda9f2a22bf554932b7c9718",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "lights",
+      "prototype": false,
+      "validation": {
+        "frames": 240,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    },
+    {
+      "path": "music/rainline-animation-v4/room-isolated-v4-8s.mp4",
+      "sha256": "a259b1b91fac912ba1255584a13b0d950b65ab669fc9c4157a00331a5b09e5f1",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "room",
+      "prototype": false,
+      "validation": {
+        "frames": 240,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    },
+    {
+      "path": "music/rainline-animation-v4/beacons-isolated-v4-8s.mp4",
+      "sha256": "b0bb29c4257f5478cdd728d8bf271cf9a2c79583a22e20f5a1dfbfdf4e0ace9a",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "beacons",
+      "prototype": false,
+      "validation": {
+        "frames": 240,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    }
+  ],
+  "silent": true,
+  "user_motion_approved": false,
+  "inspection": "Source/mask and temporal stills; no continuous playback claim"
+}

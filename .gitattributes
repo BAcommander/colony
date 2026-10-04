@@ -45,3 +45,11 @@ music/saltline-animation-v1/dependency-snapshot/*.py -text
 music/saltline-animation-v1/*.md text eol=lf
 music/saltline-animation-v1/history/*.md text eol=lf
 final/05-saltline-receiver/video-4k-v7-60s.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Preserve Rainline hash-bound renderer/config/snapshot bytes.
+music/rainline-animation-v*/*.py -text
+music/rainline-animation-v*/*.json -text
+music/rainline-animation-v5/dependency-snapshot/*.py -text
+music/rainline-animation-v1/initial-mask-review/*.json -text
+music/rainline-renderer/*.py -text
+music/rainline-animation-v5/rainline-relay-v5-preview-20s.mp4 -text

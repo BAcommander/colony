@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-05",
+  "authorization": "User explicitly requested commit and push.",
+  "scope": "Rainline versions 1-5 code/config/masks/records, current package status and v5 twenty-second preview.",
+  "preview": {
+    "path": "music/rainline-animation-v5/rainline-relay-v5-preview-20s.mp4",
+    "sha256": "be81dc87de98c5e8147659df747dd3f9981411afa8bc3c6ac541c586bb63ec38",
+    "bytes": 42277671,
+    "storage": "ordinary Git, exact-path exception; below 100 MiB"
+  },
+  "dependencies": {
+    "scripts/render_floodplain.py": {
+      "snapshot": "music/rainline-animation-v5/dependency-snapshot/render_floodplain.py",
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "scripts/water_surface.py": {
+      "snapshot": "music/rainline-animation-v5/dependency-snapshot/water_surface.py",
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "scripts/ambient_effects.py": {
+      "snapshot": "music/rainline-animation-v5/dependency-snapshot/ambient_effects.py",
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+    },
+    "music/saltline-animation-v1/periodic_transport.py": {
+      "snapshot": "music/rainline-animation-v5/dependency-snapshot/periodic_transport.py",
+      "sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379"
+    },
+    "music/saltline-animation-v1/dust_transport.py": {
+      "snapshot": "music/rainline-animation-v5/dependency-snapshot/dust_transport.py",
+      "sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832"
+    }
+  },
+  "not_included": "Three-repeat review, isolated videos and previous draft videos remain local/reproducible. Other scenes remain unstaged.",
+  "approval": "Backup authorization does not establish v5 artistic approval.",
+  "remote_verification": "See remote-backup-verification.json when available; preparation alone does not confirm push."
+}

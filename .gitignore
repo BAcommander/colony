@@ -36,3 +36,6 @@ __pycache__/
 
 # Saltline one-minute 4K master, explicit commit/push request 2026-09-30.
 !final/05-saltline-receiver/video-4k-v7-60s.mp4
+
+# Rainline v5 preview backup explicitly requested 2026-10-05.
+!music/rainline-animation-v5/rainline-relay-v5-preview-20s.mp4

@@ -134,5 +134,104 @@
     "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
     "credits_spent_by_assistant": 0,
     "workflow": "creative/MUSIC_WORKFLOW.md"
-  }
+  },
+  "animation_planning": {
+    "date": "2026-10-04",
+    "status": "Proposal executed as first 20-second draft; prompt preserved",
+    "prompt": "animation-proposal-prompt-v1.txt",
+    "sha256": "2d0df13ba0178916209c805935ae67156da97fcb0e657527be33a7a6118c0ff9",
+    "source_sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+    "user_request": "make a prompt to propose the animation etc etc",
+    "user_motion_approved": false
+  },
+  "animation_current": {
+    "status": "V5 twenty-second silent 720p draft delivered: brief foreground lamp blinks and sliding rain beads on window glass; review pending",
+    "package": "../../music/rainline-animation-v5/README.md",
+    "delivery": "../../music/rainline-animation-v5/delivery-v5.json",
+    "preview": "music/rainline-animation-v5/rainline-relay-v5-preview-20s.mp4",
+    "preview_sha256": "be81dc87de98c5e8147659df747dd3f9981411afa8bc3c6ac541c586bb63ec38",
+    "source_sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+    "preview_seconds": 20,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "four_k_export_produced": false,
+    "user_motion_approved": false,
+    "feedback_on_v4": "2026-10-05. User: i think we're about there, can we have the light in the foreground room blink? is there anything more we can do like raid on the windows at all? can we push one last time?\nRain on windows interpreted from context. 'Push one last time' is treated as a final creative refinement, not a Git push. Positive v4 feedback with requested refinement; v5 motion review pending.\n"
+  },
+  "animation_history": [
+    {
+      "status": "First Rainline motion draft delivered; user review pending",
+      "package": "../../music/rainline-animation-v1/README.md",
+      "delivery": "../../music/rainline-animation-v1/delivery-v1.json",
+      "preview": "music/rainline-animation-v1/rainline-relay-v1-preview-20s.mp4",
+      "preview_sha256": "8b729029d10402d8654b12a0be01c7514acc6242b292c8670b84eb5300f1d575",
+      "source_sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+      "preview_seconds": 20,
+      "preview_dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "masks_created": true,
+      "renderer_implemented": true,
+      "four_k_export_produced": false,
+      "user_motion_approved": false
+    },
+    {
+      "status": "Revised twenty-second 720p draft delivered; user review pending",
+      "package": "../../music/rainline-animation-v2/README.md",
+      "delivery": "../../music/rainline-animation-v2/delivery-v2.json",
+      "preview": "music/rainline-animation-v2/rainline-relay-v2-preview-20s.mp4",
+      "preview_sha256": "b8fdd20d46c8a9f3f662623652bea43940eb8b2ca44844fe2a5b383c178afa8d",
+      "source_sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+      "preview_seconds": 20,
+      "preview_dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "masks_created": true,
+      "renderer_implemented": true,
+      "four_k_export_produced": false,
+      "user_motion_approved": false,
+      "feedback_on_v1": "Poor window masks; improve rain and water visibility; add flicker and antenna lights."
+    },
+    {
+      "status": "V3 twenty-second silent 720p draft delivered; red/green beacons, refined middle-building panes, foreground activity and intermediate water; user review pending",
+      "package": "../../music/rainline-animation-v3/README.md",
+      "delivery": "../../music/rainline-animation-v3/delivery-v3.json",
+      "preview": "music/rainline-animation-v3/rainline-relay-v3-preview-20s.mp4",
+      "preview_sha256": "bee8f2fab9927c403a7e7257facd3cb220a552492fbeb2ec0fd4667a3941858b",
+      "source_sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+      "preview_seconds": 20,
+      "preview_dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "four_k_export_produced": false,
+      "user_motion_approved": false,
+      "feedback_on_v2": "User: could the anetenna cycle between red and green, the mask in the middle building still needs work. can we do anything with the room scene in the forground/ the water is also too much now can we find a middle ground\nV2 needs revision. V3 remains pending user review.\n"
+    },
+    {
+      "status": "V4 twenty-second silent 720p draft delivered; readable room/radio activity, refined rear panes, water strength reduced 25%; review pending",
+      "package": "../../music/rainline-animation-v4/README.md",
+      "delivery": "../../music/rainline-animation-v4/delivery-v4.json",
+      "preview": "music/rainline-animation-v4/rainline-relay-v4-preview-20s.mp4",
+      "preview_sha256": "3068717f244b182a384f33a181693773480706adf273b3f9f57dc37a1a696df2",
+      "source_sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+      "preview_seconds": 20,
+      "preview_dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "four_k_export_produced": false,
+      "user_motion_approved": false,
+      "feedback_on_v3": "User: can't see anything in the room or with the raid, can rear building mask be made better too, water still seems a bit too strong, maybe tone down another 25%\nUser explicitly confirmed \u201cRadio\u201d in the clarification reply. V3 needs revision; v4 remains pending review.\n"
+    }
+  ]
 }

@@ -1,0 +1,172 @@
+{
+  "fingerprint": {
+    "source_sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+    "config_sha256": "47528e529662e72ca78b9fedd0049ad729411efe80d01bc1ed57af9ed3fb6944",
+    "renderer_sha256": "7744f3daaf181daf09daa93987409f22f9679e4c691b4aa9558e7dfd88c9e2a5",
+    "dependencies": {
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "music/saltline-animation-v1/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music/saltline-animation-v1/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832"
+    },
+    "masks": {
+      "rain_near": "1f679acf19c2fe627dcdc3e539f039351c8b2579693df4b83b0ce181d160fcaf",
+      "rain_far": "8bb4e313b58eb0274203b141e136877c91c79d366d8245b0edf4effc5a2fbd04",
+      "water": "8e3d6a2eeb2702849d157a497f779e1d38dfb39e98a62b1417c67962a2a67c64",
+      "mist_far": "a6f4b1f414fbb4b69b585d1d27634f2b96af2accc7a7e94941354b69ce845bbe",
+      "mist_near": "4871a415bc3e08e0ac91699b2980641b7407a3bbe7ff15b89668a5afeecd27f6",
+      "lights": "a53cedf3a58b483568592d8d27ea7825a27fe4317be3c5ff182fe8eb0c9a5137",
+      "beacons": "95d62e9cfc887dcf078f7bbd0d6190424b085b64df6949655baa67d9b365e104",
+      "screen": "6242b3a3e99839afce4645894bce61b1955137c5864067c7bcb41c894b44e4e4",
+      "radio": "7b66f159178cfe6fc20cb4b9b84cdfa52a9f01487cba04dc37c2768a32af43b7",
+      "room": "eecaef361af8300f70f4f32d084d4884f36fc778cbb51e4a2c0c75c706febe2b",
+      "rain": "1f679acf19c2fe627dcdc3e539f039351c8b2579693df4b83b0ce181d160fcaf",
+      "glass": "1f679acf19c2fe627dcdc3e539f039351c8b2579693df4b83b0ce181d160fcaf"
+    }
+  },
+  "clips": [
+    {
+      "path": "music/rainline-animation-v5/rainline-relay-v5-preview-20s.mp4",
+      "sha256": "be81dc87de98c5e8147659df747dd3f9981411afa8bc3c6ac541c586bb63ec38",
+      "frames": 600,
+      "seconds": 20,
+      "layer": "combined",
+      "prototype": false,
+      "validation": {
+        "frames": 600,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {
+          "water": {
+            "seam_mae": 0.9231130236659743,
+            "ordinary_max_mae": 1.1116687293495169,
+            "pass": true
+          },
+          "mist_far": {
+            "seam_mae": 0.6097652698937245,
+            "ordinary_max_mae": 0.6892335663755859,
+            "pass": true
+          },
+          "mist_near": {
+            "seam_mae": 0.9080671027262736,
+            "ordinary_max_mae": 1.178550191902265,
+            "pass": true
+          },
+          "lights": {
+            "seam_mae": 0.45309958431230796,
+            "ordinary_max_mae": 13.159286704018314,
+            "pass": true
+          },
+          "beacons": {
+            "seam_mae": 0.3972719522591645,
+            "ordinary_max_mae": 1.8829212844558114,
+            "pass": true
+          },
+          "screen": {
+            "seam_mae": 0.27935382190701336,
+            "ordinary_max_mae": 0.41706067769897553,
+            "pass": true
+          },
+          "radio": {
+            "seam_mae": 0.38888888888888884,
+            "ordinary_max_mae": 0.9828605200945626,
+            "pass": true
+          },
+          "room": {
+            "seam_mae": 0.22145956363561406,
+            "ordinary_max_mae": 12.18621236949778,
+            "pass": true
+          },
+          "rain": {
+            "seam_mae": 0.6500270962040303,
+            "ordinary_max_mae": 0.7569745629173857,
+            "pass": true
+          },
+          "glass": {
+            "seam_mae": 0.6500270962040303,
+            "ordinary_max_mae": 0.7569745629173857,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.6226138594080597,
+            "ordinary_max_mae": 1.24037387607106,
+            "pass": true
+          }
+        }
+      }
+    },
+    {
+      "path": "music/rainline-animation-v5/rainline-relay-v5-three-loops-60s.mp4",
+      "sha256": "b3334ad36a6ab1cee8c48b2ae5f1090f38a2fb493ef482944351c76d50b64046",
+      "validation": {
+        "frames": 1800,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {
+          "water": {
+            "seam_mae": 0.9231130236659743,
+            "ordinary_max_mae": 1.1116687293495169,
+            "pass": true
+          },
+          "mist_far": {
+            "seam_mae": 0.6097652698937245,
+            "ordinary_max_mae": 0.6892335663755859,
+            "pass": true
+          },
+          "mist_near": {
+            "seam_mae": 0.9080671027262736,
+            "ordinary_max_mae": 1.178550191902265,
+            "pass": true
+          },
+          "lights": {
+            "seam_mae": 0.45309958431230796,
+            "ordinary_max_mae": 13.159286704018314,
+            "pass": true
+          },
+          "beacons": {
+            "seam_mae": 0.3972719522591645,
+            "ordinary_max_mae": 1.8829212844558114,
+            "pass": true
+          },
+          "screen": {
+            "seam_mae": 0.27935382190701336,
+            "ordinary_max_mae": 0.41706067769897553,
+            "pass": true
+          },
+          "radio": {
+            "seam_mae": 0.38888888888888884,
+            "ordinary_max_mae": 0.9828605200945626,
+            "pass": true
+          },
+          "room": {
+            "seam_mae": 0.22145956363561406,
+            "ordinary_max_mae": 12.18621236949778,
+            "pass": true
+          },
+          "rain": {
+            "seam_mae": 0.6500270962040303,
+            "ordinary_max_mae": 0.7569745629173857,
+            "pass": true
+          },
+          "glass": {
+            "seam_mae": 0.6500270962040303,
+            "ordinary_max_mae": 0.7569745629173857,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.6226138594080597,
+            "ordinary_max_mae": 1.24037387607106,
+            "pass": true
+          }
+        }
+      },
+      "three_repeated_decoded_payloads_identical": true
+    }
+  ],
+  "silent": true,
+  "user_motion_approved": false,
+  "inspection": "Source/mask and temporal stills; no continuous playback claim"
+}

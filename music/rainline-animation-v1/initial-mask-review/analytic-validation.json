@@ -1,0 +1,71 @@
+{
+  "fingerprint": {
+    "source_sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+    "config_sha256": "8a4313489bde0e6173ffd80c3a5c0ed6ab59adba3bb3fe8d4b7d4b66bbafe9d6",
+    "renderer_sha256": "ef1dfb617e141564f44afc4d0a50931da2d8c8cb73ca85e54c286ccee9792061",
+    "dependencies": {
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "music/saltline-animation-v1/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music/saltline-animation-v1/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832"
+    },
+    "masks": {
+      "rain_near": "238a8b3f9e2d35045f568288991e5db2189c6f49bca54814b40f853b6d5d53d5",
+      "rain_far": "b8a83a4db633287b3e6b36be1f73eab96eb06d1c04a3e328f7f733f57cca4f83",
+      "water": "f700a868a828cb95cd3a4065435d0a21781104cb83b63f1e53d2ece4a92b062b",
+      "mist_far": "8fd62c1de3c3482e2c23ffc0dd36a8d27f5915d2eccb9709e4ff1f88dc5629f9",
+      "mist_near": "2ac8a4f18af2e8bd2573d9792d9740748c04d3e51c993372f1a03836e0750501",
+      "lights": "c724c1f7cf2cf189f0fbc9dfc9f07b35781e24cb87d53bc99d42e07f256197eb",
+      "screen": "6242b3a3e99839afce4645894bce61b1955137c5864067c7bcb41c894b44e4e4",
+      "radio": "3f9785fc9b1694c8e7915aab55fda4ffb0f86f476906f65bc24be6e92fd47f48",
+      "rain": "238a8b3f9e2d35045f568288991e5db2189c6f49bca54814b40f853b6d5d53d5"
+    }
+  },
+  "layers": {
+    "water": {
+      "endpoint_exact": true,
+      "seam_mae": 0.06216062663574469,
+      "ordinary_max_sampled": 0.06219167279828377,
+      "pass": true
+    },
+    "mist_far": {
+      "endpoint_exact": true,
+      "seam_mae": 0.009667976084351316,
+      "ordinary_max_sampled": 0.009530013747252998,
+      "pass": true
+    },
+    "mist_near": {
+      "endpoint_exact": true,
+      "seam_mae": 0.013873232473054484,
+      "ordinary_max_sampled": 0.023267081973697222,
+      "pass": true
+    },
+    "lights": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 0.0,
+      "pass": true
+    },
+    "screen": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 0.03432228039557882,
+      "pass": true
+    },
+    "radio": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 0.22058823529411764,
+      "pass": true
+    },
+    "rain": {
+      "endpoint_exact": true,
+      "seam_mae": 0.26192736315907167,
+      "ordinary_max_sampled": 0.2665521505760926,
+      "pass": true
+    }
+  },
+  "source_protection": "Asserted on every generated source frame",
+  "user_motion_approved": false
+}

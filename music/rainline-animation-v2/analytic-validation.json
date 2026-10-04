@@ -1,0 +1,78 @@
+{
+  "fingerprint": {
+    "source_sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+    "config_sha256": "a9149e3ded9880742dcf98da76061c1cfe18ba85f946d94b0cd9d090a93dab1f",
+    "renderer_sha256": "cb76b984e3d6cfdcff1b58e2a9cffa3f8fb0926e030d2e652d7a3d6505174aa1",
+    "dependencies": {
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "music/saltline-animation-v1/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music/saltline-animation-v1/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832"
+    },
+    "masks": {
+      "rain_near": "1f679acf19c2fe627dcdc3e539f039351c8b2579693df4b83b0ce181d160fcaf",
+      "rain_far": "8bb4e313b58eb0274203b141e136877c91c79d366d8245b0edf4effc5a2fbd04",
+      "water": "8e3d6a2eeb2702849d157a497f779e1d38dfb39e98a62b1417c67962a2a67c64",
+      "mist_far": "a6f4b1f414fbb4b69b585d1d27634f2b96af2accc7a7e94941354b69ce845bbe",
+      "mist_near": "4871a415bc3e08e0ac91699b2980641b7407a3bbe7ff15b89668a5afeecd27f6",
+      "lights": "d765d8ac80a840628557c80ccddb2ee6d64e8633e355a2110f227e69e90410ff",
+      "beacons": "95d62e9cfc887dcf078f7bbd0d6190424b085b64df6949655baa67d9b365e104",
+      "screen": "6242b3a3e99839afce4645894bce61b1955137c5864067c7bcb41c894b44e4e4",
+      "radio": "3f9785fc9b1694c8e7915aab55fda4ffb0f86f476906f65bc24be6e92fd47f48",
+      "rain": "1f679acf19c2fe627dcdc3e539f039351c8b2579693df4b83b0ce181d160fcaf"
+    }
+  },
+  "layers": {
+    "water": {
+      "endpoint_exact": true,
+      "seam_mae": 0.40990347314993897,
+      "ordinary_max_sampled": 0.4798981782412484,
+      "pass": true
+    },
+    "mist_far": {
+      "endpoint_exact": true,
+      "seam_mae": 0.009705171094688885,
+      "ordinary_max_sampled": 0.00954054449813582,
+      "pass": true
+    },
+    "mist_near": {
+      "endpoint_exact": true,
+      "seam_mae": 0.012843668472807546,
+      "ordinary_max_sampled": 0.022835535557738415,
+      "pass": true
+    },
+    "lights": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 0.0,
+      "pass": true
+    },
+    "beacons": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 0.0,
+      "pass": true
+    },
+    "screen": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 0.03432228039557882,
+      "pass": true
+    },
+    "radio": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 0.22058823529411764,
+      "pass": true
+    },
+    "rain": {
+      "endpoint_exact": true,
+      "seam_mae": 0.6057012137349553,
+      "ordinary_max_sampled": 0.6255921670824452,
+      "pass": true
+    }
+  },
+  "source_protection": "Asserted on every generated source frame",
+  "user_motion_approved": false
+}

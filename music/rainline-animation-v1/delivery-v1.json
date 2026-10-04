@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-04",
+  "status": "First Rainline motion draft delivered; user review pending",
+  "user_request": "execute the plan then",
+  "fingerprint": {
+    "source_sha256": "2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8",
+    "config_sha256": "ba0326aecfa0f9f42d4ad2a52811d89938c45e52326c6bd648bb8b197a22edb5",
+    "renderer_sha256": "ab6858f756043d355754b8b53c5826e0fa089b67300bf062df3eb912bb7b956f",
+    "dependencies": {
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "music/saltline-animation-v1/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music/saltline-animation-v1/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832"
+    },
+    "masks": {
+      "rain_near": "79167dfd21ea59630506f28c18bfe07590974acb02d9ca170ad67e3e1ae7c42d",
+      "rain_far": "297ebf0994b34b954bdc5eb2d94f65044d7c671f0f09f390ef6f5c8ebe388bb9",
+      "water": "f700a868a828cb95cd3a4065435d0a21781104cb83b63f1e53d2ece4a92b062b",
+      "mist_far": "5ec18afbc0d73106210c5c6b4a7bb915697aab8234eb1eaaec1a8a0264dc7ef1",
+      "mist_near": "2ac8a4f18af2e8bd2573d9792d9740748c04d3e51c993372f1a03836e0750501",
+      "lights": "c724c1f7cf2cf189f0fbc9dfc9f07b35781e24cb87d53bc99d42e07f256197eb",
+      "screen": "6242b3a3e99839afce4645894bce61b1955137c5864067c7bcb41c894b44e4e4",
+      "radio": "3f9785fc9b1694c8e7915aab55fda4ffb0f86f476906f65bc24be6e92fd47f48",
+      "rain": "79167dfd21ea59630506f28c18bfe07590974acb02d9ca170ad67e3e1ae7c42d"
+    }
+  },
+  "preview": {
+    "path": "music/rainline-animation-v1/rainline-relay-v1-preview-20s.mp4",
+    "sha256": "8b729029d10402d8654b12a0be01c7514acc6242b292c8670b84eb5300f1d575",
+    "frames": 600,
+    "seconds": 20,
+    "layer": "combined",
+    "prototype": false,
+    "validation": {
+      "frames": 600,
+      "fps": 30,
+      "full_decode": true,
+      "sequential_timestamps": true,
+      "encoded_seam": {
+        "water": {
+          "seam_mae": 0.4406120510820719,
+          "ordinary_max_mae": 0.5133567839729203,
+          "pass": true
+        },
+        "mist_far": {
+          "seam_mae": 0.27309651810401286,
+          "ordinary_max_mae": 0.32870897456749204,
+          "pass": true
+        },
+        "mist_near": {
+          "seam_mae": 0.4141158613711105,
+          "ordinary_max_mae": 0.589594400876971,
+          "pass": true
+        },
+        "lights": {
+          "seam_mae": 0.41889843355229917,
+          "ordinary_max_mae": 0.8842288473415306,
+          "pass": true
+        },
+        "screen": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 0.0764381402679275,
+          "pass": true
+        },
+        "radio": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 0.7094017094017095,
+          "pass": true
+        },
+        "rain": {
+          "seam_mae": 0.2788161785588987,
+          "ordinary_max_mae": 0.3028824253359395,
+          "pass": true
+        },
+        "combined": {
+          "seam_mae": 0.2778136600469429,
+          "ordinary_max_mae": 0.302030862450685,
+          "pass": true
+        }
+      }
+    }
+  },
+  "three_loop_review": {
+    "path": "music/rainline-animation-v1/rainline-relay-v1-three-loops-60s.mp4",
+    "sha256": "f79a3cbf11583497d1a3ccdfbcda4b7d9307fc2ce3a7ce7d8b4c6933458009a4",
+    "validation": {
+      "frames": 1800,
+      "fps": 30,
+      "full_decode": true,
+      "sequential_timestamps": true,
+      "encoded_seam": {
+        "water": {
+          "seam_mae": 0.4406120510820719,
+          "ordinary_max_mae": 0.5133567839729203,
+          "pass": true
+        },
+        "mist_far": {
+          "seam_mae": 0.27309651810401286,
+          "ordinary_max_mae": 0.32870897456749204,
+          "pass": true
+        },
+        "mist_near": {
+          "seam_mae": 0.4141158613711105,
+          "ordinary_max_mae": 0.589594400876971,
+          "pass": true
+        },
+        "lights": {
+          "seam_mae": 0.41889843355229917,
+          "ordinary_max_mae": 0.8842288473415306,
+          "pass": true
+        },
+        "screen": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 0.0764381402679275,
+          "pass": true
+        },
+        "radio": {
+          "seam_mae": 0.0,
+          "ordinary_max_mae": 0.7094017094017095,
+          "pass": true
+        },
+        "rain": {
+          "seam_mae": 0.2788161785588987,
+          "ordinary_max_mae": 0.3028824253359395,
+          "pass": true
+        },
+        "combined": {
+          "seam_mae": 0.2778136600469429,
+          "ordinary_max_mae": 0.302030862450685,
+          "pass": true
+        }
+      }
+    },
+    "three_repeated_decoded_payloads_identical": true
+  },
+  "isolated_tests": [
+    {
+      "path": "music/rainline-animation-v1/rain-isolated-v1-8s.mp4",
+      "sha256": "b7bd81fe67c0f11179ab9955801c38156ab607a55372a5a348696ce4aae7afd0",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "rain",
+      "prototype": false,
+      "validation": {
+        "frames": 240,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    },
+    {
+      "path": "music/rainline-animation-v1/water-isolated-v1-8s.mp4",
+      "sha256": "68ddf80ccb098b3f1729ef7ee09761592de464f3de43fc629899b76ad73c34b0",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "water",
+      "prototype": false,
+      "validation": {
+        "frames": 240,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    },
+    {
+      "path": "music/rainline-animation-v1/mist_far-isolated-v1-8s.mp4",
+      "sha256": "93e70e1f552274c9eb4817a84587c6ebb53d814f8bef47ff0a4db672d799929a",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "mist_far",
+      "prototype": false,
+      "validation": {
+        "frames": 240,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    },
+    {
+      "path": "music/rainline-animation-v1/mist_near-isolated-v1-8s.mp4",
+      "sha256": "0b78e3a0ee45550731c31ad70e2aedffad84b09a159c0b9d08c0704b6e01a719",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "mist_near",
+      "prototype": false,
+      "validation": {
+        "frames": 240,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    }
+  ],
+  "native_source_dimensions": [
+    1672,
+    941
+  ],
+  "preview_dimensions": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "seconds": 20,
+  "silent": true,
+  "four_k_produced": false,
+  "user_motion_approved": false,
+  "inspection": "Source, masks and temporal/decoded stills inspected. No continuous assistant playback claim.",
+  "credits_spent": 0,
+  "storage": "Local source/config/reports and ignored preview media; no commit/push or remote backup."
+}
