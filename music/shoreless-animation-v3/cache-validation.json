@@ -1,0 +1,33 @@
+{
+  "fingerprint": {
+    "source_sha256": "f042d109358089f0e89b11c99a84505fba9a825dca3428ed7109055d29253f69",
+    "config_sha256": "019c1545f160841b2a9c904fc35b3634bdfa4403491a31079e7d9b50ce871e84",
+    "renderer_sha256": "d8c9bb8ed610971fee77cc525d6c9e8f926a36fc4bd7eb7debb0337a29241540",
+    "dependencies": {
+      "music/shoreless-animation-v2/render_shoreless_v2.py": "e271bd5db01d5ba9fbbe73b4abd51427d63679510f445287999d660e954e0d10",
+      "music/shoreless-animation-v1/render_shoreless.py": "12e5b1050d75e229b67e44208a203a7bd46dd11b63dd234d0702dfc6511c04ff",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+    },
+    "masks": {
+      "water": "985cf17e70ac0774df0c8d49283ac2b4398b26ef13c63316125f9852650e02e9",
+      "sky": "1940529b52d2be21ce2092e72617dc161fd5e8b5b61c16b60e14728d029533f8",
+      "lights": "ba40371722744baface351e8646a42662b9cc245aa891d894a94b16185e754f3",
+      "lamp": "48c88a04030e1b413ade63f26d2d3a9f1950e158d4d8cca830d7da7976983bec",
+      "computers": "54ca1537e108dc68a69a8263b83dfd30d3bd6788efca63b8b9e7082780999ca3",
+      "room": "72cc2efcc0bcec46aca01860ab61b59f2715c8b6697b3d2b9461cd12588bea58",
+      "turbines": "e1a8c279f1d2bded92948961d951753a713a41c093c680eb13fbcc0fcd2066ed",
+      "beacons": "c4c6db956902ad0d493bd83d7d0497f18dc448cbe1f4f2ab4977f8f9c3488f7d",
+      "antennas": "6fc75c7247a49f865b21951b9c9f80a3ce2bcd60178643ab32cc9e5bfe50fd94",
+      "foam": "985cf17e70ac0774df0c8d49283ac2b4398b26ef13c63316125f9852650e02e9",
+      "sunlight": "39df54f2cfbd36ced2a5769a5147e5b67151fa0daedb544b6903f6f79c05491e",
+      "walkway": "5ca74e261fb8e5bac209ba7a0e072a13590d7c368ba2bddbacfce4af8cf6e7df"
+    }
+  },
+  "cached_vs_uncached_source_frames_exact": {
+    "20": true,
+    "27": true,
+    "47": true
+  }
+}

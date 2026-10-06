@@ -1,0 +1,146 @@
+{
+  "fingerprint": {
+    "source_sha256": "f042d109358089f0e89b11c99a84505fba9a825dca3428ed7109055d29253f69",
+    "config_sha256": "5d906cb807f1914cc1a5c4b153ae65ed678f3e422ccd34531dcfc1917510e43b",
+    "renderer_sha256": "12e5b1050d75e229b67e44208a203a7bd46dd11b63dd234d0702dfc6511c04ff",
+    "dependencies": {
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "masks": {
+      "water": "985cf17e70ac0774df0c8d49283ac2b4398b26ef13c63316125f9852650e02e9",
+      "sky": "1940529b52d2be21ce2092e72617dc161fd5e8b5b61c16b60e14728d029533f8",
+      "lights": "57797345a1fb507e64ca18b6764ead00d6ebb022054a37c9fab04d112cded6b4",
+      "lamp": "48c88a04030e1b413ade63f26d2d3a9f1950e158d4d8cca830d7da7976983bec",
+      "computers": "54ca1537e108dc68a69a8263b83dfd30d3bd6788efca63b8b9e7082780999ca3",
+      "room": "72cc2efcc0bcec46aca01860ab61b59f2715c8b6697b3d2b9461cd12588bea58",
+      "turbines": "e1a8c279f1d2bded92948961d951753a713a41c093c680eb13fbcc0fcd2066ed",
+      "beacons": "c4c6db956902ad0d493bd83d7d0497f18dc448cbe1f4f2ab4977f8f9c3488f7d"
+    }
+  },
+  "clips": [
+    {
+      "path": "music/shoreless-animation-v1/shoreless-colony-v1-preview-20s.mp4",
+      "sha256": "467da92b5d9abe2668b17c1c624a49e846c98000076fd8a2716bc06886e22967",
+      "frames": 600,
+      "seconds": 20,
+      "layer": "combined",
+      "prototype": false,
+      "validation": {
+        "frames": 600,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {
+          "water": {
+            "seam_mae": 0.32864593435486306,
+            "ordinary_max_mae": 0.3342779968822511,
+            "pass": true
+          },
+          "sky": {
+            "seam_mae": 0.0766528036713036,
+            "ordinary_max_mae": 0.07993530602163902,
+            "pass": true
+          },
+          "lights": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 6.015700483091788,
+            "pass": true
+          },
+          "lamp": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 8.889969253993096,
+            "pass": true
+          },
+          "computers": {
+            "seam_mae": 0.06404953680187699,
+            "ordinary_max_mae": 0.0887937498488257,
+            "pass": true
+          },
+          "room": {
+            "seam_mae": 0.020146687361149152,
+            "ordinary_max_mae": 6.116193432545117,
+            "pass": true
+          },
+          "turbines": {
+            "seam_mae": 0.23995337995337995,
+            "ordinary_max_mae": 0.253053613053613,
+            "pass": true
+          },
+          "beacons": {
+            "seam_mae": 0.5220125786163522,
+            "ordinary_max_mae": 1.1839622641509433,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.1583157296569445,
+            "ordinary_max_mae": 1.1428936737946114,
+            "pass": true
+          }
+        }
+      }
+    },
+    {
+      "path": "music/shoreless-animation-v1/shoreless-colony-v1-three-loops-60s.mp4",
+      "sha256": "8a00dbda2d12a092db946cdea9dd7ad67362490a3376fd50bb1621129478f2b5",
+      "validation": {
+        "frames": 1800,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {
+          "water": {
+            "seam_mae": 0.32864593435486306,
+            "ordinary_max_mae": 0.3342779968822511,
+            "pass": true
+          },
+          "sky": {
+            "seam_mae": 0.0766528036713036,
+            "ordinary_max_mae": 0.07993530602163902,
+            "pass": true
+          },
+          "lights": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 6.015700483091788,
+            "pass": true
+          },
+          "lamp": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 8.889969253993096,
+            "pass": true
+          },
+          "computers": {
+            "seam_mae": 0.06404953680187699,
+            "ordinary_max_mae": 0.0887937498488257,
+            "pass": true
+          },
+          "room": {
+            "seam_mae": 0.020146687361149152,
+            "ordinary_max_mae": 6.116193432545117,
+            "pass": true
+          },
+          "turbines": {
+            "seam_mae": 0.23995337995337995,
+            "ordinary_max_mae": 0.253053613053613,
+            "pass": true
+          },
+          "beacons": {
+            "seam_mae": 0.5220125786163522,
+            "ordinary_max_mae": 1.1839622641509433,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.1583157296569445,
+            "ordinary_max_mae": 1.1428936737946114,
+            "pass": true
+          }
+        }
+      },
+      "three_repeated_decoded_payloads_identical": true
+    }
+  ],
+  "silent": true,
+  "user_motion_approved": false,
+  "inspection": "Source/mask/temporal/decoded stills; no continuous playback claim"
+}

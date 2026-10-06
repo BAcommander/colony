@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-06",
+  "authorization": "User explicitly requested commit and push.",
+  "scope": "Shoreless versions 1-3 source/config/masks/records, the v3 sixty-second preview, scene 09 status and reusable animation knowledge bank.",
+  "preview": {
+    "path": "music/shoreless-animation-v3/shoreless-colony-v3-preview-60s.mp4",
+    "sha256": "a780568738c483e8a3b87f84566c1e76b20a40c94e71d449af7c86e3d6f9f65b",
+    "bytes": 42304903,
+    "storage": "ordinary Git with exact-path exception; below 100 MiB"
+  },
+  "dependencies": {
+    "scripts/render_floodplain.py": {
+      "snapshot": "music/shoreless-animation-v3/dependency-snapshot/render_floodplain.py",
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "scripts/water_surface.py": {
+      "snapshot": "music/shoreless-animation-v3/dependency-snapshot/water_surface.py",
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "scripts/ambient_effects.py": {
+      "snapshot": "music/shoreless-animation-v3/dependency-snapshot/ambient_effects.py",
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+    }
+  },
+  "not_included": "Three-minute review, isolated/older draft videos and regenerated environment cache remain local. Other scenes remain unstaged.",
+  "approval": "Backup request does not establish visual acceptance of v3.",
+  "remote_verification": "See local remote-backup-verification.json after independent remote fetch/hash checks."
+}

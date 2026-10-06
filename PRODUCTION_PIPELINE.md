@@ -1,6 +1,8 @@
 # Ambient Colony — production pipeline and tracker
 
-Last updated: 2026-10-05. This is the live work queue for the first fourteen releases. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
+Last updated: 2026-10-06. This is the live work queue for the first fourteen releases. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
+
+Before any animation plan or revision, consult the [animation knowledge bank](creative/ANIMATION_KNOWLEDGE_BANK.md). It links lessons from videos 01–09 to the source implementations, separates accepted results from candidates, and records what to reuse or avoid. Capture the selected examples in the scene plan and update the bank after meaningful feedback.
 
 ## Where we are
 
@@ -16,7 +18,7 @@ All fourteen have artwork, thumbnails, descriptions and search tags in [final/](
 | 06 | [The Last Cable Station](final/06-last-cable-station/README.md) | No motion implementation; v3 art accepted | Short/long prompts ready; no audio | Map valley cloud/fog and protected cable/structure masks |
 | 07 | [Icebound Weather Post](final/07-icebound-weather-post/README.md) | No motion implementation; v3 art accepted | Short/long prompts ready; no audio | Map distant snow transport, low ice haze and practical lights |
 | 08 | [Rainline Relay](final/08-rainline-relay/README.md) | V5 twenty-second 720p draft: foreground lamp blinks and sliding window rain; v4 background retained; review pending | Short/long prompts ready; no audio | Review v5 lamp timing and glass rain before 4K; music remains separate |
-| 09 | [The Shoreless Colony](final/09-offshore-night-office/README.md) | No motion implementation; current art selected for packaging | Short/long prompts ready; no audio | Prototype convincing slow sea movement around fixed caissons |
+| 09 | [The Shoreless Colony](final/09-offshore-night-office/README.md) | V3 genuine sixty-second 720p loop: calmer far-right sea, restrained right monitor, walkway flickers and unique minute lighting; review pending | Short/long prompts ready; no audio | Review v3 local water, monitors and minute timing before 4K |
 | 10 | [Farpoint Station](final/10-nightward-station/README.md) | No motion implementation; current v3 art selected for packaging | Short/long prompts ready; no audio | Prototype cloud detail on the planet under a fixed horizon |
 | 11 | [The Empty Junction](final/11-empty-junction/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Thumbnail approved; use motion-brief.md to plan principal effects |
 | 12 | [Deepwell Station](final/12-deepwell-station/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Thumbnail approved; use motion-brief.md to plan principal effects |

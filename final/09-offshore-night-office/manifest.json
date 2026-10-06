@@ -164,5 +164,55 @@
       "review": "Title and caption spelling, 09 number, moons and platform connections inspected. Generation strengthened sunset colour and shifted exterior layout; this is a marketing adaptation, not an exact video frame. User review pending.",
       "user_approved": false
     }
+  ],
+  "animation_current": {
+    "status": "V3 genuine sixty-second silent 720p loop: calmer far-right sea, restrained right screen, retained left monitor, walkway flickers and unique minute lighting; review pending",
+    "package": "../../music/shoreless-animation-v3/README.md",
+    "delivery": "../../music/shoreless-animation-v3/delivery-v3.json",
+    "preview": "music/shoreless-animation-v3/shoreless-colony-v3-preview-60s.mp4",
+    "preview_sha256": "a780568738c483e8a3b87f84566c1e76b20a40c94e71d449af7c86e3d6f9f65b",
+    "source_sha256": "f042d109358089f0e89b11c99a84505fba9a825dca3428ed7109055d29253f69",
+    "preview_seconds": 60,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "user_motion_approved": false,
+    "four_k_export_produced": false
+  },
+  "animation_history": [
+    {
+      "status": "V1 silent twenty-second 720p draft delivered: moving sea/clouds, rotating existing turbines, independent cabin lights and room/monitor activity; review pending",
+      "package": "../../music/shoreless-animation-v1/README.md",
+      "delivery": "../../music/shoreless-animation-v1/delivery-v1.json",
+      "preview": "music/shoreless-animation-v1/shoreless-colony-v1-preview-20s.mp4",
+      "preview_sha256": "467da92b5d9abe2668b17c1c624a49e846c98000076fd8a2716bc06886e22967",
+      "source_sha256": "f042d109358089f0e89b11c99a84505fba9a825dca3428ed7109055d29253f69",
+      "preview_seconds": 20,
+      "preview_dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "user_motion_approved": false,
+      "four_k_export_produced": false
+    },
+    {
+      "status": "V2 silent twenty-second 720p draft: corrected window masks, sea foam, red/green antennas, readable monitor telemetry, extra local flickers and sunlight; review pending",
+      "package": "../../music/shoreless-animation-v2/README.md",
+      "delivery": "../../music/shoreless-animation-v2/delivery-v2.json",
+      "preview": "music/shoreless-animation-v2/shoreless-colony-v2-preview-20s.mp4",
+      "preview_sha256": "cce9cac0cc13c46449f5092e207e3f2c4e2b8c841b3c025be1e8168cbcf6cb17",
+      "source_sha256": "f042d109358089f0e89b11c99a84505fba9a825dca3428ed7109055d29253f69",
+      "preview_seconds": 20,
+      "preview_dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "user_motion_approved": false,
+      "four_k_export_produced": false
+    }
   ]
 }

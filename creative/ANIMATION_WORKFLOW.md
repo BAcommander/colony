@@ -1,5 +1,9 @@
 # Reusable local animation workflow
 
+## Use the accumulated scene lessons
+
+Read [ANIMATION_KNOWLEDGE_BANK.md](ANIMATION_KNOWLEDGE_BANK.md) before every new scene or substantial revision. Choose the relevant accepted examples and candidate methods explicitly; record the choice, required remapping and known failure to avoid in the scene plan. The bank covers videos 01–09 and supplements the technical gates below. Update its existing effect/video entries after user feedback instead of keeping improvements only in the latest chat.
+
 ## Approved baseline
 
 Ringfall v9b was approved by the user on 2026-09-24. Use local masked procedural overlays as the default, not whole-scene or cropped video diffusion. The accepted export is ringfall/animation/ringfall-ambient-v9b-20s-final.mp4. Its source, brief, renderer, masks, settings, checks and approved-v9b.json are the reference package. Prior AI-video experiments are historical failures for this scene, not pending next steps.

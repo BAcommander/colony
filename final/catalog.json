@@ -97,7 +97,7 @@
   {
     "folder": "09-offshore-night-office",
     "title": "The Shoreless Colony",
-    "status": "artwork selected for packaging; thumbnail pending review; metadata and music prompts prepared",
+    "status": "V3 genuine sixty-second silent 720p loop: calmer far-right sea, restrained right screen, retained left monitor, walkway flickers and unique minute lighting; review pending",
     "artwork": "artwork-v1.png",
     "duration_seconds": null,
     "video": null,
@@ -105,7 +105,8 @@
     "description": "description.txt",
     "search_tags": "youtube-tags.txt",
     "suggested_title": "youtube-title.txt",
-    "music_prompt": "music/elevenlabs-prompt-v1.txt"
+    "music_prompt": "music/elevenlabs-prompt-v1.txt",
+    "animation_preview": "../../music/shoreless-animation-v3/README.md"
   },
   {
     "folder": "10-nightward-station",

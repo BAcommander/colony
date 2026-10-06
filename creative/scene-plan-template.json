@@ -45,5 +45,21 @@
     "final_path": "",
     "final_sha256": "",
     "tracked_in_git": false
+  },
+  "knowledge_reuse": {
+    "bank": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+    "selected_examples": [],
+    "example_fields": [
+      "scene_and_version",
+      "evidence_path",
+      "acceptance_scope",
+      "method_to_reuse",
+      "required_remapping",
+      "known_failure_to_avoid"
+    ],
+    "preserve_existing_layers": [],
+    "scene_specific_exclusions": [],
+    "full_scene_readability_checks": [],
+    "lesson_update_after_review": ""
   }
 }

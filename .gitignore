@@ -39,3 +39,6 @@ __pycache__/
 
 # Rainline v5 preview backup explicitly requested 2026-10-05.
 !music/rainline-animation-v5/rainline-relay-v5-preview-20s.mp4
+
+# Shoreless v3 minute preview backup explicitly requested 2026-10-06.
+!music/shoreless-animation-v3/shoreless-colony-v3-preview-60s.mp4

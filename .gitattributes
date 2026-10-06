@@ -53,3 +53,10 @@ music/rainline-animation-v5/dependency-snapshot/*.py -text
 music/rainline-animation-v1/initial-mask-review/*.json -text
 music/rainline-renderer/*.py -text
 music/rainline-animation-v5/rainline-relay-v5-preview-20s.mp4 -text
+
+# Preserve Shoreless hash-bound code/config and dependency snapshot bytes.
+music/shoreless-animation-v*/*.py -text
+music/shoreless-animation-v*/*.json -text
+music/shoreless-animation-v*/**/*.py -text
+music/shoreless-animation-v*/**/*.json -text
+music/shoreless-animation-v3/shoreless-colony-v3-preview-60s.mp4 -text

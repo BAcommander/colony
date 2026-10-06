@@ -1,9 +1,21 @@
 # Ambient Colony: next-scene runbook
 
+## Start with the knowledge bank
+
+Read [ANIMATION_KNOWLEDGE_BANK.md](ANIMATION_KNOWLEDGE_BANK.md) before choosing effects. Its per-video entries include recent Floodplain, Saltline, Cable Station, Icebound and Rainline feedback, source links, reusable methods and failed approaches. Record relevant examples in the planning template. The detailed Basalt commands below remain scene-specific.
+
 ## Accepted references
 
 - Ringfall v9b: cozy observatory, recognizable exhaust/window/ground-light actions. Approved 2026-09-24. Preserve its renderer and art.
 - Basalt v6: exterior landscape with slower cloud transport, near-plains smoke and independent far-valley wind. User called it decent, requested seamless completion, then asked to save it. Twenty seconds, 600 frames, 30fps, silent, 3840x2160 resampled from 1672x941 art. Details: basalt-transmission/animation/delivery-v6.json.
+
+- Glacier v10: accepted calm reflection treatment; v11 supplies the requested sixty-second delivery.
+- Floodplain v2: accepted environmental motion with independent habitat/lamp flickers and coupled spill.
+- Saltline v5: accepted sustained distant dust and quiet foreground; v7 longer hut-light scheduling has its own pending review.
+- Cable Station v3: accepted broader distant weather, local light variation and perspective-mapped screen activity.
+- Icebound v2: accepted snowfall and antenna-beacon look; v3 minute-long timing remains a separate review scope.
+
+Rainline v4 received positive near-final feedback; v5 lamp/glass-rain additions are implemented candidates awaiting artistic review. Use the bank and scene manifests for exact acceptance boundaries.
 
 ## Restore
 
@@ -35,7 +47,7 @@ Existing destinations are protected from overwrite. Pull the approved master ins
 
 ## Executable controls added after Glacier review
 
-Do not merely reread historical notes and hand-edit another renderer for each adjustment. `creative/effect-presets.json` and `scripts/apply_scene_presets.py` provide reusable tuning controls; use a stable input config and a fresh output. `render_glacier.py --layers water` renders only a changed layer. `--compare-config OLD_CONFIG` stacks old/new full-size frames for direct comparison. These controls currently target the Glacier effect schema; new scenes still need explicit masks and anchors. Do not promise automatic one-shot scene adaptation.
+Do not merely reread historical notes and hand-edit another renderer for each adjustment. `creative/effect-presets.json` and `scripts/apply_scene_presets.py` provide historical tuning controls; first check the knowledge bank and scene verdict. Some glint and foreground-snow options were unsuccessful or excluded from the accepted look. Availability is not approval. Use a stable input config and a fresh output. `render_glacier.py --layers water` renders only a changed layer. `--compare-config OLD_CONFIG` stacks old/new full-size frames for direct comparison. These controls currently target the Glacier effect schema; new scenes still need explicit masks and anchors. Do not promise automatic one-shot scene adaptation.
 
 When repeated deformation attempts look wrong, preserve the photographed surface and test a constrained overlay against the rejected version. Freeze accepted layers with sampled pixel comparisons. Present one useful comparison instead of repeatedly claiming a new effect is more realistic. User artistic judgment remains the acceptance criterion.
 
