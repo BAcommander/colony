@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-07",
+  "authorization": "User explicitly requested: can this one be commited and pushed",
+  "scope": "Farpoint v1-v6 source/config/masks/records and visual diagnostics, v6 exact minute preview, corrected source art, scene 10 status and animation knowledge bank",
+  "preview": {
+    "path": "music/farpoint-animation-v6/farpoint-station-v6-preview-60s.mp4",
+    "sha256": "4844bfd1a5e64d6c33b1438741182af073721eb4b1488e500f0d4b68d3eb5a7d",
+    "bytes": 38045407,
+    "storage": "ordinary Git with exact-path exception; below 100 MiB"
+  },
+  "dependencies": {
+    "scripts/render_floodplain.py": {
+      "snapshot": "music/farpoint-animation-v6/dependency-snapshot/render_floodplain.py",
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "scripts/water_surface.py": {
+      "snapshot": "music/farpoint-animation-v6/dependency-snapshot/water_surface.py",
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "scripts/ambient_effects.py": {
+      "snapshot": "music/farpoint-animation-v6/dependency-snapshot/ambient_effects.py",
+      "sha256": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a"
+    }
+  },
+  "not_included": "Three-minute repeat, isolated/older draft videos and Python caches remain local. Original and earlier source plates stay preserved.",
+  "approval": "Backup request is separate from explicit artistic acceptance; 4K remains pending preview acceptance.",
+  "remote_verification": "See local remote-backup-verification.json after independent remote fetch and hash verification."
+}

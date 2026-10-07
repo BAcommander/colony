@@ -1,0 +1,69 @@
+{
+  "fingerprint": {
+    "config_sha256": "36585d56676dbedafe1b314074f0d150e2b95df5f7cfc9f79b997b722408a2e6",
+    "files": {
+      "final/10-nightward-station/artwork-v3-close-world-leds.png": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+      "music/farpoint-animation-v1/render_farpoint.py": "632e66aa4d040fde5ccb157f08e127cb68f4093fc93bc18a77a7d1a9dfd93952",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a"
+    },
+    "masks": {
+      "clouds": "376baf7ccc4d81a249ca636c90b7c910961133a91a8231c3926e159413d16d48",
+      "veil": "376baf7ccc4d81a249ca636c90b7c910961133a91a8231c3926e159413d16d48",
+      "windows": "193ce038818decfdb3b0e9af56d0f6e7642ee35a1e52c24826c48898fe5a2d34",
+      "screen": "dae1d378fe8f92da4ed0bd14a24d8dee43cc6fd8600475d2fc2279a371d6adf1",
+      "lamp": "f056f06965b22eaec0b59e3ed01aaa6b7bce41dd460504ee4e30c640b234230d"
+    },
+    "versions": {
+      "numpy": "2.4.3",
+      "opencv": "5.0.0"
+    }
+  },
+  "layers": {
+    "clouds": {
+      "endpoint_exact": true,
+      "seam_mae": 0.03668736879887752,
+      "ordinary_max_sampled": 0.038191989616303566,
+      "velocity_boundary_difference_mae": 0.05356520041823387,
+      "pass": true
+    },
+    "veil": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 0.0,
+      "velocity_boundary_difference_mae": 0.0026353418361395597,
+      "pass": true
+    },
+    "windows": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 2.821914389117684,
+      "velocity_boundary_difference_mae": 0.0,
+      "pass": true
+    },
+    "screen": {
+      "endpoint_exact": true,
+      "seam_mae": 0.02345714150182629,
+      "ordinary_max_sampled": 0.04359375741188748,
+      "velocity_boundary_difference_mae": 1.2190418243408203,
+      "pass": true
+    },
+    "lamp": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 0.0,
+      "velocity_boundary_difference_mae": 0.0,
+      "pass": true
+    },
+    "habitation": {
+      "endpoint_exact": true,
+      "seam_mae": 0.009754606067779224,
+      "ordinary_max_sampled": 0.24039334043476546,
+      "velocity_boundary_difference_mae": 0.5069361329078674,
+      "pass": true
+    }
+  },
+  "protected_pixels": "Exact outside active source masks, asserted for every rendered frame; reconstruction only inside mapped cloud areas.",
+  "user_approved": false
+}

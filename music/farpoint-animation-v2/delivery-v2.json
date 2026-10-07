@@ -1,0 +1,67 @@
+{
+  "fingerprint": {
+    "config_sha256": "ecedba31ce7bc8dd6d9f02ecb4ac1d919d61f4afe83b0b13871853fbb2cafdc2",
+    "files": {
+      "final/10-nightward-station/artwork-v3-close-world-leds.png": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+      "music/farpoint-animation-v1/render_farpoint.py": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+      "music/farpoint-animation-v2/render_farpoint_v2.py": "39a49c6de47b4c798d451f1cc4095d73ac2af845cf15b703881dde8e17028ba7"
+    },
+    "masks": {
+      "clouds": "4d3c610cbd8ea5932470e62d6e6462b075396556dd7b980273c194ad0abf6e4a",
+      "veil": "376baf7ccc4d81a249ca636c90b7c910961133a91a8231c3926e159413d16d48",
+      "windows": "193ce038818decfdb3b0e9af56d0f6e7642ee35a1e52c24826c48898fe5a2d34",
+      "screen": "dae1d378fe8f92da4ed0bd14a24d8dee43cc6fd8600475d2fc2279a371d6adf1",
+      "lamp": "f056f06965b22eaec0b59e3ed01aaa6b7bce41dd460504ee4e30c640b234230d"
+    },
+    "versions": {
+      "numpy": "2.4.3",
+      "opencv": "5.0.0"
+    },
+    "prototype": {
+      "duration_seconds": 8,
+      "seamless": false,
+      "loop_boundary_checked": false
+    }
+  },
+  "clips": [
+    {
+      "path": "music/farpoint-animation-v2/farpoint-v2-planet-motion-test-8s.mp4",
+      "sha256": "0a15b0fd91f39cab0862165b460c6c5f001d896597501d4208498746ff9cf68f",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "clouds",
+      "prototype": true,
+      "validation": {
+        "frames": 240,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      },
+      "seamless": false
+    },
+    {
+      "path": "music/farpoint-animation-v2/farpoint-v2-full-scene-motion-test-8s.mp4",
+      "sha256": "b44937a3be9c491009c96a76295aca4a351b53f0a2234944a6423577d3e926e5",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "combined",
+      "prototype": true,
+      "validation": {
+        "frames": 240,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      },
+      "seamless": false
+    }
+  ],
+  "user_approved": false,
+  "stage": "forward motion proof; NOT a loop delivery",
+  "inspection": "Source, temporal and decoded stills; no continuous playback claim",
+  "v1_feedback": "ok i just watched it, basically i can see no movement on the planet at all"
+}

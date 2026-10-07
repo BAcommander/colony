@@ -1,0 +1,73 @@
+{
+  "fingerprint": {
+    "config_sha256": "84a467c9ec01a9aae0ebd218eee4856fc1552259a49299f11c066f450ea74cfc",
+    "files": {
+      "final/10-nightward-station/artwork-v3-close-world-leds.png": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+      "music/farpoint-animation-v1/render_farpoint.py": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a"
+    },
+    "masks": {
+      "clouds": "376baf7ccc4d81a249ca636c90b7c910961133a91a8231c3926e159413d16d48",
+      "veil": "376baf7ccc4d81a249ca636c90b7c910961133a91a8231c3926e159413d16d48",
+      "windows": "193ce038818decfdb3b0e9af56d0f6e7642ee35a1e52c24826c48898fe5a2d34",
+      "screen": "dae1d378fe8f92da4ed0bd14a24d8dee43cc6fd8600475d2fc2279a371d6adf1",
+      "lamp": "f056f06965b22eaec0b59e3ed01aaa6b7bce41dd460504ee4e30c640b234230d"
+    },
+    "versions": {
+      "numpy": "2.4.3",
+      "opencv": "5.0.0"
+    }
+  },
+  "clips": [
+    {
+      "path": "music/farpoint-animation-v1/clouds-isolated-v1-8s.mp4",
+      "sha256": "d6f40db335a001b4a6243e3dcfc4afe9e3419513fd9ef92ca1afaf0029b0a810",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "clouds",
+      "prototype": false,
+      "validation": {
+        "frames": 240,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    },
+    {
+      "path": "music/farpoint-animation-v1/veil-isolated-v1-8s.mp4",
+      "sha256": "b8a5f197bc250149d8ae2961dbc6199360583dcac4bfc4b43942300d0d5a3966",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "veil",
+      "prototype": false,
+      "validation": {
+        "frames": 240,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    },
+    {
+      "path": "music/farpoint-animation-v1/habitation-isolated-v1-8s.mp4",
+      "sha256": "e074e3d7525468d1fcfe237bafbbd67034ce410eb98a95a4a39f96aef49ff1d4",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "habitation",
+      "prototype": false,
+      "validation": {
+        "frames": 240,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    }
+  ],
+  "silent": true,
+  "user_approved": false,
+  "inspection": "Source, masks, reconstruction, temporal and decoded stills; continuous playback not claimed."
+}

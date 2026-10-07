@@ -1,0 +1,40 @@
+FARPOINT STATION — CATALOG 10
+Animation production prompt, 2026-10-07
+Status: proposed direction only; no motion rendered or approved.
+
+Create Ambient Colony's most visually compelling animation so far: a quiet inhabited observation cabin overlooking an immense, living alien world. The spectacle comes from the scale and readable atmospheric movement of the planet, with precise, restrained station activity giving the viewer a place to belong. Keep it comfortable for sustained ambient viewing.
+
+SOURCE AND COMPOSITION
+Use final/10-nightward-station/artwork-v3-close-world-leds.png, native 1672x941. Expected SHA-256: 9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b; verify before mapping. Preserve the close planet, dark cabin, white exterior habitat, warm desk light and blue/pink LEDs. Use the clean artwork, not the thumbnail. Lock the camera, planet silhouette, terrain/craters, atmospheric limb, stars, truss, exterior module, window frames, chair, desk, bags and equipment. All masks and coordinates must be mapped to this source.
+
+PRINCIPAL MOTION: A LIVING PLANET
+Animate identifiable pale cloud formations across the visible planetary surface. A broad cloud edge in the upper-right region should advance gently along the planet's curvature, while a separate mid-distance formation travels across the central visible hemisphere. Give different cloud groups slightly different rates and internal evolution, with slower apparent travel toward the limb. Keep recognizable shapes and enough contrast that their movement reads at full-scene 720p and normal speed. Maintain broad activity throughout the loop, including the far/upper view; do not spend the entire motion budget on one small patch.
+
+Separate atmospheric texture from fixed geology before transporting it. Reconstruct only the necessary underlying terrain within cloud regions and test that reconstruction explicitly. Do not drag craters or mineral features, clone clouds onto black space, smear the horizon, double recognizable formations or make the entire planet wobble. Preserve the original lighting gradient and depth. Use curvature-aware source mapping and independent masked fields, not an unrestricted whole-disc warp. If cloud separation produces artifacts, simplify the moving region and prove one convincing broad layer before expanding coverage.
+
+SECONDARY PLANET DETAIL
+Add a slower, thinner atmospheric veil only within existing cloudy planetary areas. It should provide depth behind the principal cloud fronts, with broken, uneven coverage and soft dissipation. Keep the bright atmospheric rim steady. This is an optical approximation of weather over fixed terrain, not a simulation of planetary rotation. No aurora, lightning, city lights, dust storms or other new environmental phenomena in the first candidate.
+
+HABITATION: THE STATION KEEPS WATCH
+Map the existing exterior habitat's real window apertures separately. Give selected windows independent off/on holds, with another remaining steady. Dim the entire aperture, including saturated white cores, and couple only physically plausible nearby warm spill to its state. Preserve frames and the white metal shell. Inspect forced-dark states for bright strips and mask leakage.
+
+Animate the existing monitor within its perspective: a small tracking marker follows the original station diagram, selected nodes acknowledge sequentially, and a narrow status/log area scrolls forward. Keep the original image and layout legible. The display should reward attention without competing with the planet. Do not add a large waveform or replace the screen with a bright invented graphic.
+
+Retain the blue and pink cabin accents mostly steady. Allow a small existing indicator to change state independently if its emitter is identifiable. Include at most one brief warm desk-light dip with its attached desk spill and halo; avoid regular rhythmic flickering or synchronized breathing. Do not animate every light. Keep overall exposure stable.
+
+VACUUM AND GEOMETRY
+The exterior is space: no terrestrial fog, rain, drifting dust, buoyant chimney smoke or wind-blown objects around the station. Do not add spacecraft, moving focal objects or a camera move. Add directed exhaust only if inspection identifies an actual vent and a credible unobstructed trajectory; otherwise omit it. Keep stars fixed and quiet.
+
+BUILD AND REVIEW
+Read PRODUCTION_PIPELINE.md, creative/ANIMATION_KNOWLEDGE_BANK.md, creative/ANIMATION_WORKFLOW.md and creative/NEXT_SCENE_RUNBOOK.md. Reuse Basalt/Cable's coherent texture-transport principles, Ringfall/Floodplain's complete window-and-spill masking, and Cable's perspective-confined screen activity. Carry Shoreless's explicit rejection of the prominent waveform into the screen design; its newer techniques remain candidates. Reuse methods, never source coordinates or unreviewed presets.
+
+Use local Python/NumPy/OpenCV/FFmpeg with immutable source art and independent procedural layers. Record source, configuration, masks, timing, seeds, depth order and reuse decisions. Build the planet first. Render eight-second isolated full-composition tests of the principal cloud layer, secondary veil and habitation. Test at actual strength and speed. Name a recognizable moving edge and its direction. Amplified differences or crop-only visibility do not pass the visual gate. Tune shape/coverage first, travel second and opacity last.
+
+Produce a genuine twenty-second silent 1280x720 preview at 30 fps, followed by a clearly labelled sixty-second three-repeat review. Use forward motion through the join, matched states and velocities, local invisible renewals, independent deterministic light holds and no duplicate endpoint. Do not reverse motion, dissolve the whole picture or let weather disappear for most of the clip. If hiding the twenty-second reset compromises natural planetary motion, propose a genuine sixty-second cycle before extending; retain established effect speeds and give lighting distinct minute-wide events rather than copying the finished twenty-second video.
+
+Validate source protection, every isolated layer's analytical seam, encoded regional/composite seams, all decoded frames and timestamps, and exact repetitions. Inspect motion in continuous playback when available; otherwise disclose that only samples were inspected. Technical success is separate from user acceptance. Preserve working layers with sampled regression checks during revisions and preserve all earlier versions.
+
+Deliver the preview, repeated review, concise effect notes and validation record for user review. Export the 3840x2160 master after preview acceptance using the same source/config/timing; disclose upscaling from 1672x941. Music and long assembly remain separate production stages. No paid services, credits or new model installations.
+
+SUCCESS CRITERION
+At normal viewing size, the alien world visibly lives across the window while the station remains solid and believable. The eye goes first to the enormous moving weather, then discovers the inhabited windows and quiet instruments. No single effect needs to shout. The intended result is awe, depth and habitation, with motion that stays convincing through repeated viewing.

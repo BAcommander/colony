@@ -193,5 +193,141 @@
       "review": "Title and caption spelling, 10 number, close alien horizon, dark cabin and coloured LEDs inspected. Exterior white module repositioned by generation to sit below title; marketing adaptation only. User review pending.",
       "user_approved": false
     }
-  ]
+  ],
+  "animation": {
+    "version": "v6",
+    "date": "2026-10-07",
+    "status": "Revised minute candidate; user playback review pending",
+    "record": "music/farpoint-animation-v6/delivery-v6.json",
+    "preview": "music/farpoint-animation-v6/farpoint-station-v6-preview-60s.mp4",
+    "preview_sha256": "4844bfd1a5e64d6c33b1438741182af073721eb4b1488e500f0d4b68d3eb5a7d",
+    "repeat_review": "music/farpoint-animation-v6/farpoint-station-v6-three-loops-180s.mp4",
+    "repeat_review_sha256": "a9aa4eeab575b0f8966db6377e3ac818c11239ff8b5bca46622cd9a5ac0bc752",
+    "duration_seconds": 60,
+    "fps": 30,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "silent": true,
+    "seam_checks_passed": true,
+    "user_approved": false,
+    "master_4k": null,
+    "backup": {
+      "authorization_date": "2026-10-07",
+      "manifest": "music/farpoint-animation-v6/backup-manifest.json",
+      "remote_evidence": "music/farpoint-animation-v6/remote-backup-verification.json (local, written after verification)",
+      "scope": "Exact v6 minute preview plus source, dependencies and records"
+    }
+  },
+  "animation_history": [
+    {
+      "version": "v1",
+      "date": "2026-10-07",
+      "status": "User rejected planet motion as effectively invisible",
+      "record": "music/farpoint-animation-v1/delivery-v1.json",
+      "preview": "music/farpoint-animation-v1/farpoint-station-v1-preview-20s.mp4",
+      "preview_sha256": "cf7ad3b93813926c6f27ecf3933f4c1e4256cd08d41e02aec8695d666f1409bd",
+      "repeat_review": "music/farpoint-animation-v1/farpoint-station-v1-three-loops-60s.mp4",
+      "duration_seconds": 20,
+      "fps": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "silent": true,
+      "user_approved": false,
+      "master_4k": null
+    },
+    {
+      "version": "v2",
+      "date": "2026-10-07",
+      "status": "User confirmed cloud motion visible; asked for more planetary and instrument detail",
+      "record": "music/farpoint-animation-v2/delivery-v2.json",
+      "preview": "music/farpoint-animation-v2/farpoint-v2-full-scene-motion-test-8s.mp4",
+      "preview_sha256": "b44937a3be9c491009c96a76295aca4a351b53f0a2234944a6423577d3e926e5",
+      "duration_seconds": 8,
+      "fps": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "silent": true,
+      "seamless": false,
+      "user_approved": false,
+      "master_4k": null,
+      "cloud_visibility_confirmed": true
+    },
+    {
+      "version": "v3",
+      "date": "2026-10-07",
+      "status": "Twelve-second forward detail preview; new additions await review",
+      "record": "music/farpoint-animation-v3/delivery-v3.json",
+      "preview": "music/farpoint-animation-v3/farpoint-v3-detail-preview-12s.mp4",
+      "preview_sha256": "84792899d4126f39447c514429bb2bc65b7cf6e2f3d87aa9cd8f68c183929b5c",
+      "duration_seconds": 12,
+      "fps": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "silent": true,
+      "seamless": false,
+      "user_approved": false,
+      "master_4k": null
+    },
+    {
+      "version": "v4",
+      "date": "2026-10-07",
+      "status": "User requested changes: sparse coverage, implausible blue glow, imperceptible star variation",
+      "record": "music/farpoint-animation-v4/delivery-v4.json",
+      "preview": "music/farpoint-animation-v4/farpoint-station-v4-preview-60s.mp4",
+      "preview_sha256": "31cd810a6845c66e4975ad880146e205061a683814a8314ed9f5ab66616d38a3",
+      "repeat_review": "music/farpoint-animation-v4/farpoint-station-v4-three-loops-180s.mp4",
+      "repeat_review_sha256": "8743c6f2b84ff59ac245387d2cd7fe0841d07a165857280b76ba3874b098cfef",
+      "duration_seconds": 60,
+      "fps": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "silent": true,
+      "seam_checks_passed": true,
+      "user_approved": false,
+      "master_4k": null,
+      "feedback_record": "music/farpoint-animation-v4/user-feedback-coverage-2026-10-07.json"
+    },
+    {
+      "version": "v5",
+      "date": "2026-10-07",
+      "status": "User requested positional star activity, bar cleanup and cabinet LEDs",
+      "record": "music/farpoint-animation-v5/delivery-v5.json",
+      "preview": "music/farpoint-animation-v5/farpoint-station-v5-preview-60s.mp4",
+      "preview_sha256": "28ddf4d0b191ecc92031f6cd27eeebda6a33c8579246c0bf457f4be2baf2a722",
+      "repeat_review": "music/farpoint-animation-v5/farpoint-station-v5-three-loops-180s.mp4",
+      "repeat_review_sha256": "439dd6bb976d0f0df9200a6828103594e86c79e3bd94d1ebc92c1ea053e0ea37",
+      "duration_seconds": 60,
+      "fps": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "silent": true,
+      "seam_checks_passed": true,
+      "user_approved": false,
+      "master_4k": null,
+      "feedback_record": "music/farpoint-animation-v5/user-feedback-stars-bars-leds-2026-10-07.json"
+    }
+  ],
+  "animation_source": {
+    "path": "final/10-nightward-station/artwork-v4b-reflection-cleanup.png",
+    "sha256": "8eeffb7e02a09c61604b8ed36309eda86585f707b83e94dedab3db45c5f83247",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "provenance": "music/farpoint-animation-v6/asset-provenance.json",
+    "scope": "User-authorized narrow bar cleanup; original packaging artwork remains unchanged",
+    "user_approved": false
+  }
 }

@@ -1,0 +1,1 @@
+Initial veil gain 0.12 and speed 0.52 produced no 8-bit difference at sampled times 0/8 seconds. Replaced with gain 0.35 and speed 0.8. Principal cloud and habitation methods retained. This is a failed technical visibility test, not user feedback.

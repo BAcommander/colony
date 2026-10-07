@@ -1,0 +1,17 @@
+{
+  "status": "pending_user_playback",
+  "preview_sha256": "4844bfd1a5e64d6c33b1438741182af073721eb4b1488e500f0d4b68d3eb5a7d",
+  "inspection": "Source/mask and normal-size temporal/decoded stills inspected, including cleanup and cabinet details. Continuous playback unavailable. User artistic verdict pending.",
+  "observations": [
+    "Queried bright bars absent; lamp, desk spill and window structure remain",
+    "Star positions change together right/up in temporal frames",
+    "Cabinet status strip stays attached, with localized glow and independent lights",
+    "No aurora; v5 clouds and existing station effects retained"
+  ],
+  "limitations": [
+    "Local zero-opacity star renewals are a cinematic loop approximation",
+    "Tracking and seam statistics are technical evidence, not proof of readable or natural movement",
+    "New cleanup, LEDs and full minute remain unapproved"
+  ],
+  "trial_correction": "Initial direct patch blend created dark ovals; Poisson colour/gradient matching fixed the local mismatch before encoding"
+}

@@ -1,0 +1,23 @@
+{
+  "method": "Built-in image_gen edit, then the user-authorized local procedural pipeline composites only the generated repair through a source-coordinate mask",
+  "prompt": "reflection-cleanup-prompt.txt",
+  "generated_patch": "reflection-cleanup-generated.png",
+  "generated_patch_sha256": "c1de10661fc5b220e76c132090465400cce5f295e3f81fb61935b76dd032d3b0",
+  "crop_source_rectangle": [
+    397,
+    471,
+    466,
+    581
+  ],
+  "original_source": "final/10-nightward-station/artwork-v3-close-world-leds.png",
+  "original_sha256": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+  "clean_source": "final/10-nightward-station/artwork-v4-reflection-cleanup.png",
+  "clean_sha256": "458482138682a24fdfd78f76b2c49457d1d8e4932e39e2d5b01aa7479e4d24fb",
+  "source_size": [
+    1672,
+    941
+  ],
+  "outside_cleanup_mask_byte_identical": true,
+  "scope": "Floating bars and their nearby haze only; lamp and desk spill unchanged",
+  "approval": "User authorized removal; new composite preview still needs review"
+}

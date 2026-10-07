@@ -1,6 +1,6 @@
 # Ambient Colony — production pipeline and tracker
 
-Last updated: 2026-10-06. This is the live work queue for the first fourteen releases. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
+Last updated: 2026-10-07. This is the live work queue for the first fourteen releases. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
 
 Before any animation plan or revision, consult the [animation knowledge bank](creative/ANIMATION_KNOWLEDGE_BANK.md). It links lessons from videos 01–09 to the source implementations, separates accepted results from candidates, and records what to reuse or avoid. Capture the selected examples in the scene plan and update the bank after meaningful feedback.
 
@@ -19,7 +19,7 @@ All fourteen have artwork, thumbnails, descriptions and search tags in [final/](
 | 07 | [Icebound Weather Post](final/07-icebound-weather-post/README.md) | No motion implementation; v3 art accepted | Short/long prompts ready; no audio | Map distant snow transport, low ice haze and practical lights |
 | 08 | [Rainline Relay](final/08-rainline-relay/README.md) | V5 twenty-second 720p draft: foreground lamp blinks and sliding window rain; v4 background retained; review pending | Short/long prompts ready; no audio | Review v5 lamp timing and glass rain before 4K; music remains separate |
 | 09 | [The Shoreless Colony](final/09-offshore-night-office/README.md) | V3 genuine sixty-second 720p loop: calmer far-right sea, restrained right monitor, walkway flickers and unique minute lighting; review pending | Short/long prompts ready; no audio | Review v3 local water, monitors and minute timing before 4K |
-| 10 | [Farpoint Station](final/10-nightward-station/README.md) | No motion implementation; current v3 art selected for packaging | Short/long prompts ready; no audio | Prototype cloud detail on the planet under a fixed horizon |
+| 10 | [Farpoint Station](final/10-nightward-station/README.md) | V6 minute and 180-second review delivered: drifting stars, bar cleanup, lower-right cabinet LEDs; v5 planet retained; technical checks passed | Short/long prompts ready; no audio | Review [v6 complete preview](music/farpoint-animation-v6/README.md); 4K after acceptance. Exact-preview Git backup requested; see v6 backup-manifest.json and local remote verification |
 | 11 | [The Empty Junction](final/11-empty-junction/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Thumbnail approved; use motion-brief.md to plan principal effects |
 | 12 | [Deepwell Station](final/12-deepwell-station/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Thumbnail approved; use motion-brief.md to plan principal effects |
 | 13 | [Below the Snowline](final/13-below-the-snowline/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Thumbnail approved; use motion-brief.md to plan principal effects |
@@ -162,7 +162,7 @@ These are starting briefs, not implemented or approved effects. Validate each ag
 | 07 Icebound | Distant wind-driven snow and low haze crossing the ice | Vent exhaust only from identifiable vents, practical lights; no foreground snow by default; freeze habitats and celestial body |
 | 08 Rainline | Rain outside the window plus independent near/far forest mist | Water/reflection detail only if needed; protect canopy, roots and walkways; room stays dry |
 | 09 Shoreless | Coherent slow ocean surface/reflection motion; horizon haze | Staggered habitat lights; fixed caissons, bridges and moons. Evaluate turbine rotation only after sea motion works, with correct blade occlusion |
-| 10 Farpoint | Slow cloud-material travel confined to the alien world | Screen telemetry and restrained local lights; freeze planet silhouette, geology, stars, station and camera; no vacuum smoke or wind |
+| 10 Farpoint | V5 cloud fronts and original weather retained; no aurora | Stars now travel right/up; floating amber bars removed; new cabinet LEDs. Existing monitor/lamp/station activity retained. V6 full minute awaits playback review. |
 
 ## Maintain this document
 

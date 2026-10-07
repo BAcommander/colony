@@ -1,0 +1,316 @@
+{
+  "fingerprint": {
+    "config_sha256": "8002790b9b69665ddac7589cd117b7b31c567526f8ac843e09507ab9164813ec",
+    "files": {
+      "final/10-nightward-station/artwork-v3-close-world-leds.png": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+      "music/farpoint-animation-v1/render_farpoint.py": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+      "music/farpoint-animation-v2/render_farpoint_v2.py": "39a49c6de47b4c798d451f1cc4095d73ac2af845cf15b703881dde8e17028ba7",
+      "music/farpoint-animation-v3/render_farpoint_v3.py": "88711e6f2a47e14bad3a84ea17f8fe252e6a23fc78982604d6d20d23f3a1bd1a",
+      "music/farpoint-animation-v4/render_farpoint_v4.py": "f33aabb7e917e935dae3abde81a0337f696b0a2e99987dee2f0cfb04c89081b1",
+      "music/farpoint-animation-v1/scene-plan-v1.json": "84a467c9ec01a9aae0ebd218eee4856fc1552259a49299f11c066f450ea74cfc",
+      "music/farpoint-animation-v2/scene-plan-v2.json": "ecedba31ce7bc8dd6d9f02ecb4ac1d919d61f4afe83b0b13871853fbb2cafdc2",
+      "music/farpoint-animation-v3/scene-plan-v3.json": "ab2fe23b15e81738df92b82f35c2c612098919f2d22fe13de14d349a1ac66149"
+    },
+    "masks": {
+      "clouds": "4284345dd6848f1f24e3ab68cd8af096c4a691f08642f865bbcfdd009b6ccd54",
+      "veil": "4284345dd6848f1f24e3ab68cd8af096c4a691f08642f865bbcfdd009b6ccd54",
+      "windows": "193ce038818decfdb3b0e9af56d0f6e7642ee35a1e52c24826c48898fe5a2d34",
+      "screen": "dae1d378fe8f92da4ed0bd14a24d8dee43cc6fd8600475d2fc2279a371d6adf1",
+      "lamp": "f056f06965b22eaec0b59e3ed01aaa6b7bce41dd460504ee4e30c640b234230d",
+      "lower_cloud": "d5ef82ab56c48eae0f10dfbe4c316b1a4bc884a760c4cc030ddd0082454d77dd",
+      "cloud_shadows": "4284345dd6848f1f24e3ab68cd8af096c4a691f08642f865bbcfdd009b6ccd54",
+      "instrument_lights": "787e225c28ab06f5e8ed082c930437de7df245d5aca0c1d60c90401f08ccead3",
+      "aurora": "28540cf94bc1117bcc1bcff6eedbf3cb11809ec0f1f9422cac4ed7a25bb9e143",
+      "stars": "e4ed5ae934e5f9c5aae46567cdcf3bf882e25bf816c888648c31676204b49905",
+      "reflections": "58dd90b91884d3fd8c12f4f70a5013ca55ba6f923a0639d64c2de3b040923d68",
+      "lightning": "4284345dd6848f1f24e3ab68cd8af096c4a691f08642f865bbcfdd009b6ccd54"
+    },
+    "versions": {
+      "numpy": "2.4.3",
+      "opencv": "5.0.0"
+    },
+    "duration": 60
+  },
+  "streams": {
+    "farpoint-station-v4-preview-60s.mp4": {
+      "video_only": true,
+      "bytes": 15437564,
+      "sha256": "31cd810a6845c66e4975ad880146e205061a683814a8314ed9f5ab66616d38a3"
+    },
+    "farpoint-station-v4-three-loops-180s.mp4": {
+      "video_only": true,
+      "bytes": 46311022,
+      "sha256": "8743c6f2b84ff59ac245387d2cd7fe0841d07a165857280b76ba3874b098cfef"
+    }
+  },
+  "minute_coverage": {
+    "clouds": [
+      {
+        "time": 0,
+        "mae": 1.0626096713893705
+      },
+      {
+        "time": 8,
+        "mae": 0.906622459659153
+      },
+      {
+        "time": 20,
+        "mae": 0.6803231954012215
+      },
+      {
+        "time": 30,
+        "mae": 0.5597601678720756
+      },
+      {
+        "time": 40,
+        "mae": 0.9284825384923796
+      },
+      {
+        "time": 50,
+        "mae": 1.0683880844150773
+      },
+      {
+        "time": 58,
+        "mae": 1.0779402346251776
+      }
+    ],
+    "lower_cloud": [
+      {
+        "time": 0,
+        "mae": 1.2558272968514668
+      },
+      {
+        "time": 8,
+        "mae": 1.2464558081713644
+      },
+      {
+        "time": 20,
+        "mae": 1.4519352602261588
+      },
+      {
+        "time": 30,
+        "mae": 1.2558272968514668
+      },
+      {
+        "time": 40,
+        "mae": 1.003944631714839
+      },
+      {
+        "time": 50,
+        "mae": 1.4519352602261588
+      },
+      {
+        "time": 58,
+        "mae": 1.1536254751488202
+      }
+    ],
+    "aurora": [
+      {
+        "time": 0,
+        "mae": 2.6286520206129644
+      },
+      {
+        "time": 8,
+        "mae": 3.050122050447518
+      },
+      {
+        "time": 20,
+        "mae": 3.886455112557635
+      },
+      {
+        "time": 30,
+        "mae": 3.8824084621643613
+      },
+      {
+        "time": 40,
+        "mae": 3.4634553837808517
+      },
+      {
+        "time": 50,
+        "mae": 3.0598318416056416
+      },
+      {
+        "time": 58,
+        "mae": 2.690707892595606
+      }
+    ],
+    "stars": [
+      {
+        "time": 0,
+        "mae": 0.8148148148148148
+      },
+      {
+        "time": 8,
+        "mae": 1.1037037037037036
+      },
+      {
+        "time": 20,
+        "mae": 1.0962962962962963
+      },
+      {
+        "time": 30,
+        "mae": 0.8333333333333334
+      },
+      {
+        "time": 40,
+        "mae": 0.32222222222222224
+      },
+      {
+        "time": 50,
+        "mae": 1.151851851851852
+      },
+      {
+        "time": 58,
+        "mae": 1.037037037037037
+      }
+    ],
+    "reflections": [
+      {
+        "time": 0,
+        "mae": 0.0
+      },
+      {
+        "time": 8,
+        "mae": 0.0
+      },
+      {
+        "time": 20,
+        "mae": 0.0
+      },
+      {
+        "time": 30,
+        "mae": 0.0
+      },
+      {
+        "time": 40,
+        "mae": 0.0
+      },
+      {
+        "time": 50,
+        "mae": 0.0
+      },
+      {
+        "time": 58,
+        "mae": 0.0
+      }
+    ],
+    "screen": [
+      {
+        "time": 0,
+        "mae": 1.205089891371377
+      },
+      {
+        "time": 8,
+        "mae": 1.0558797021014183
+      },
+      {
+        "time": 20,
+        "mae": 1.0865945638252454
+      },
+      {
+        "time": 30,
+        "mae": 1.2708837341682084
+      },
+      {
+        "time": 40,
+        "mae": 0.7879844409657986
+      },
+      {
+        "time": 50,
+        "mae": 1.1351453915848395
+      },
+      {
+        "time": 58,
+        "mae": 0.8620558797021014
+      }
+    ],
+    "instrument_lights": [
+      {
+        "time": 0,
+        "mae": 0.9926185590515276
+      },
+      {
+        "time": 8,
+        "mae": 0.0
+      },
+      {
+        "time": 20,
+        "mae": 0.0
+      },
+      {
+        "time": 30,
+        "mae": 0.0
+      },
+      {
+        "time": 40,
+        "mae": 0.0
+      },
+      {
+        "time": 50,
+        "mae": 0.0
+      },
+      {
+        "time": 58,
+        "mae": 0.0
+      }
+    ]
+  },
+  "retained_masks_exact": {
+    "windows": true,
+    "screen": true,
+    "lamp": true,
+    "instrument_lights": true,
+    "lower_cloud": true
+  },
+  "join_motion_diagnostics": {
+    "clouds": {
+      "adjacent_join_step_mae": [
+        0.04876178875565529,
+        0.04854049161076546,
+        0.04911195486783981,
+        0.0487058125436306
+      ],
+      "join_step_alignment": 0.3961731493473053
+    },
+    "lower_cloud": {
+      "adjacent_join_step_mae": [
+        0.05890649929642677,
+        0.058763060718774796,
+        0.058428362011909485,
+        0.057209111750125885
+      ],
+      "join_step_alignment": 0.8380758762359619
+    },
+    "aurora": {
+      "adjacent_join_step_mae": [
+        0.1915595382452011,
+        0.1920802891254425,
+        0.19179821014404297,
+        0.19310007989406586
+      ],
+      "join_step_alignment": 0.8772687911987305
+    },
+    "stars": {
+      "adjacent_join_step_mae": [
+        0.029629629105329514,
+        0.025925925001502037,
+        0.03703703731298447,
+        0.02222222276031971
+      ],
+      "join_step_alignment": 0.0
+    },
+    "screen": {
+      "adjacent_join_step_mae": [
+        0.04352260380983353,
+        0.04034438729286194,
+        0.04032066836953163,
+        0.0495469868183136
+      ],
+      "join_step_alignment": 0.6291192770004272
+    }
+  },
+  "inspection": "Normal-size source/temporal/decoded stills, masks and forced-dark states. No continuous playback capability; user playback verdict pending."
+}

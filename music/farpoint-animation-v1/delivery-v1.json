@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-07",
+  "scene": "10 Farpoint Station",
+  "status": "preview delivered; user visual review pending",
+  "fingerprint": {
+    "config_sha256": "84a467c9ec01a9aae0ebd218eee4856fc1552259a49299f11c066f450ea74cfc",
+    "files": {
+      "final/10-nightward-station/artwork-v3-close-world-leds.png": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+      "music/farpoint-animation-v1/render_farpoint.py": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a"
+    },
+    "masks": {
+      "clouds": "376baf7ccc4d81a249ca636c90b7c910961133a91a8231c3926e159413d16d48",
+      "veil": "376baf7ccc4d81a249ca636c90b7c910961133a91a8231c3926e159413d16d48",
+      "windows": "193ce038818decfdb3b0e9af56d0f6e7642ee35a1e52c24826c48898fe5a2d34",
+      "screen": "dae1d378fe8f92da4ed0bd14a24d8dee43cc6fd8600475d2fc2279a371d6adf1",
+      "lamp": "f056f06965b22eaec0b59e3ed01aaa6b7bce41dd460504ee4e30c640b234230d"
+    },
+    "versions": {
+      "numpy": "2.4.3",
+      "opencv": "5.0.0"
+    }
+  },
+  "clips": [
+    {
+      "path": "music/farpoint-animation-v1/farpoint-station-v1-preview-20s.mp4",
+      "sha256": "cf7ad3b93813926c6f27ecf3933f4c1e4256cd08d41e02aec8695d666f1409bd",
+      "frames": 600,
+      "seconds": 20,
+      "layer": "combined",
+      "prototype": false,
+      "validation": {
+        "frames": 600,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {
+          "clouds": {
+            "seam_mae": 0.06610144336017217,
+            "ordinary_max_mae": 0.07169183580077425,
+            "pass": true
+          },
+          "veil": {
+            "seam_mae": 0.06610144336017217,
+            "ordinary_max_mae": 0.07169183580077425,
+            "pass": true
+          },
+          "windows": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 6.3343855218855225,
+            "pass": true
+          },
+          "screen": {
+            "seam_mae": 0.019872652796366144,
+            "ordinary_max_mae": 0.0487082775682362,
+            "pass": true
+          },
+          "lamp": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 6.315026010404162,
+            "pass": true
+          },
+          "habitation": {
+            "seam_mae": 0.008249574894354933,
+            "ordinary_max_mae": 3.20632355169453,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.050560146176216514,
+            "ordinary_max_mae": 0.9093092359669476,
+            "pass": true
+          }
+        }
+      },
+      "bytes": 2638581,
+      "container_video_only_confirmed": true
+    },
+    {
+      "path": "music/farpoint-animation-v1/farpoint-station-v1-three-loops-60s.mp4",
+      "sha256": "f9468bc81ed12fd41ea2b2d81f8aef3b280728ece92a6429d79ac5df4f1681ce",
+      "validation": {
+        "frames": 1800,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {
+          "clouds": {
+            "seam_mae": 0.06610144336017217,
+            "ordinary_max_mae": 0.07169183580077425,
+            "pass": true
+          },
+          "veil": {
+            "seam_mae": 0.06610144336017217,
+            "ordinary_max_mae": 0.07169183580077425,
+            "pass": true
+          },
+          "windows": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 6.3343855218855225,
+            "pass": true
+          },
+          "screen": {
+            "seam_mae": 0.019872652796366144,
+            "ordinary_max_mae": 0.0487082775682362,
+            "pass": true
+          },
+          "lamp": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 6.315026010404162,
+            "pass": true
+          },
+          "habitation": {
+            "seam_mae": 0.008249574894354933,
+            "ordinary_max_mae": 3.20632355169453,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.050560146176216514,
+            "ordinary_max_mae": 0.9093092359669476,
+            "pass": true
+          }
+        }
+      },
+      "three_repeated_decoded_payloads_identical": true,
+      "bytes": 7914105,
+      "container_video_only_confirmed": true
+    }
+  ],
+  "isolated_report": "isolated-validation.json",
+  "analytic_report": "analytic-validation.json",
+  "coverage_report": "coverage-validation.json",
+  "inspection": {
+    "performed": [
+      "source/crops",
+      "cloud extraction and reconstructed terrain",
+      "source-coordinate masks",
+      "forced-dark apertures",
+      "temporal source samples",
+      "decoded full-frame samples"
+    ],
+    "continuous_playback": false,
+    "user_approved": false
+  },
+  "source_detail": "Native 1672x941; preview 1280x720. No 4K yet.",
+  "pending": [
+    "user visual review",
+    "4K after preview acceptance",
+    "soundtrack",
+    "long assembly"
+  ],
+  "credits_spent": 0,
+  "git_backup": "Not committed or pushed in this session"
+}

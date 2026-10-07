@@ -1,0 +1,23 @@
+{
+  "status": "changes_requested",
+  "preview_sha256": "31cd810a6845c66e4975ad880146e205061a683814a8314ed9f5ab66616d38a3",
+  "assistant_inspection": "Source, masks, forced-dark and actual-strength 720p temporal/decoded stills inspected. Continuous playback unavailable; user artistic review pending.",
+  "stills_findings": [
+    "Irregular teal folds remain on the dark planetary arc; limb/cabin geometry fixed",
+    "Cloud texture changes position across samples including final third; terrain reconstruction approximate",
+    "Amber reflection cores and lamp dim together; source-brightness gating avoids rectangular glass darkening",
+    "Small monitor actions retain source schematic/perspective; light schedules include quiet holds"
+  ],
+  "initial_fixes": [
+    "Regular aurora comb replaced by seeded irregular spacing, widths/heights, gentle curvature and softened detail",
+    "Middle storm moved from thin cloud to the optical formation present at that time",
+    "Reflection mask excludes dark glass but includes white cores"
+  ],
+  "not_claimed": [
+    "continuous playback inspection",
+    "user approval",
+    "4K export",
+    "remote backup"
+  ],
+  "user_feedback_record": "user-feedback-coverage-2026-10-07.json"
+}

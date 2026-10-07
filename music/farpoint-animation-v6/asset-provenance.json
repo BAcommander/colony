@@ -1,0 +1,24 @@
+{
+  "method": "Built-in image_gen edit; Poisson colour/gradient matching into surrounding glass, then source-coordinate feathered compositing in the user-authorized local pipeline",
+  "prompt": "reflection-cleanup-prompt.txt",
+  "generated_patch": "reflection-cleanup-generated.png",
+  "generated_patch_sha256": "c1de10661fc5b220e76c132090465400cce5f295e3f81fb61935b76dd032d3b0",
+  "crop_source_rectangle": [
+    397,
+    471,
+    466,
+    581
+  ],
+  "original_source": "final/10-nightward-station/artwork-v3-close-world-leds.png",
+  "original_sha256": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+  "clean_source": "final/10-nightward-station/artwork-v4b-reflection-cleanup.png",
+  "clean_sha256": "8eeffb7e02a09c61604b8ed36309eda86585f707b83e94dedab3db45c5f83247",
+  "source_size": [
+    1672,
+    941
+  ],
+  "outside_cleanup_mask_byte_identical": true,
+  "scope": "Floating bars and their nearby haze only; lamp and desk spill unchanged",
+  "approval": "User authorized removal; new composite preview still needs review",
+  "initial_fix": "Direct blending produced dark oval patches. Gradient matching corrects that local mismatch; initial candidate preserved."
+}

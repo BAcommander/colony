@@ -1,0 +1,1305 @@
+{
+  "status": "Complete minute candidate; user playback review pending",
+  "scene_name": "Farpoint Station",
+  "version": "v4",
+  "duration": 60,
+  "fps": 30,
+  "preview_size": [
+    1280,
+    720
+  ],
+  "ffmpeg": "C:/Program Files/ShareX/ffmpeg.exe",
+  "source": {
+    "path": "final/10-nightward-station/artwork-v3-close-world-leds.png",
+    "sha256": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "protected_geometry": [
+    "camera",
+    "planet limb",
+    "fixed terrain positions",
+    "stars",
+    "window frame",
+    "habitat metal and mullions",
+    "truss",
+    "furniture",
+    "monitor bezel"
+  ],
+  "principal_motion": [
+    "Pale upper-right cloud edge travels right along planetary curvature",
+    "Independent central cloud wisps travel up/right across fixed terrain"
+  ],
+  "planet": {
+    "roi": [
+      720,
+      180,
+      1620,
+      570
+    ],
+    "center": [
+      1512.086,
+      1343.412
+    ],
+    "radius": 1173.345,
+    "limb_protection_pixels": 22,
+    "window_polygon": [
+      [
+        610,
+        560
+      ],
+      [
+        680,
+        425
+      ],
+      [
+        800,
+        315
+      ],
+      [
+        960,
+        250
+      ],
+      [
+        1160,
+        188
+      ],
+      [
+        1370,
+        180
+      ],
+      [
+        1611,
+        184
+      ],
+      [
+        1609,
+        584
+      ],
+      [
+        1551,
+        645
+      ],
+      [
+        720,
+        586
+      ]
+    ],
+    "cloud_polygons": [
+      [
+        [
+          955,
+          317
+        ],
+        [
+          1080,
+          254
+        ],
+        [
+          1240,
+          204
+        ],
+        [
+          1475,
+          192
+        ],
+        [
+          1607,
+          207
+        ],
+        [
+          1607,
+          292
+        ],
+        [
+          1535,
+          296
+        ],
+        [
+          1434,
+          261
+        ],
+        [
+          1280,
+          277
+        ],
+        [
+          1160,
+          309
+        ],
+        [
+          1050,
+          340
+        ]
+      ],
+      [
+        [
+          760,
+          460
+        ],
+        [
+          823,
+          393
+        ],
+        [
+          927,
+          347
+        ],
+        [
+          1005,
+          322
+        ],
+        [
+          1094,
+          307
+        ],
+        [
+          1161,
+          308
+        ],
+        [
+          1120,
+          348
+        ],
+        [
+          1022,
+          392
+        ],
+        [
+          941,
+          430
+        ],
+        [
+          867,
+          472
+        ],
+        [
+          769,
+          504
+        ]
+      ],
+      [
+        [
+          1435,
+          269
+        ],
+        [
+          1522,
+          282
+        ],
+        [
+          1581,
+          306
+        ],
+        [
+          1608,
+          321
+        ],
+        [
+          1608,
+          439
+        ],
+        [
+          1555,
+          421
+        ],
+        [
+          1511,
+          372
+        ],
+        [
+          1470,
+          338
+        ]
+      ]
+    ],
+    "extraction": {
+      "blue_red_ratio": 0.64,
+      "blue_offset": 3,
+      "blue_range": 28,
+      "red_floor": 85,
+      "red_range": 80,
+      "inpaint_radius": 9,
+      "blur_sigma": 0.7
+    },
+    "transport": {
+      "upper_pixels_per_second": 4.2,
+      "central_pixels_per_second": 5.4,
+      "local_phase_spread": 0.26,
+      "gain": 0.95
+    },
+    "veil": {
+      "speed_pixels_per_second": 0.8,
+      "gain": 0.35,
+      "sigma": 7.5
+    }
+  },
+  "habitat_windows": [
+    {
+      "name": "left",
+      "panes": [
+        [
+          [
+            384.4,
+            225.7
+          ],
+          [
+            401.7,
+            229.2
+          ],
+          [
+            401.7,
+            262.4
+          ],
+          [
+            384.1,
+            260.2
+          ]
+        ],
+        [
+          [
+            403.6,
+            229.7
+          ],
+          [
+            414.7,
+            232.2
+          ],
+          [
+            417,
+            235
+          ],
+          [
+            417,
+            264.3
+          ],
+          [
+            403.6,
+            262.5
+          ]
+        ]
+      ],
+      "spill_center": [
+        401,
+        248
+      ],
+      "spill_radius": [
+        24,
+        28
+      ],
+      "events": [
+        {
+          "start": 3.4,
+          "hold": 5.8,
+          "depth": 0.81,
+          "transition": 0.45
+        },
+        {
+          "start": 31.2,
+          "hold": 8.7,
+          "depth": 0.81,
+          "transition": 0.65
+        }
+      ],
+      "inner_aperture": [
+        [
+          384.4,
+          225.7
+        ],
+        [
+          414.7,
+          232.2
+        ],
+        [
+          417,
+          235
+        ],
+        [
+          417,
+          264.3
+        ],
+        [
+          384.1,
+          260.2
+        ]
+      ]
+    },
+    {
+      "name": "middle",
+      "panes": [
+        [
+          [
+            469.7,
+            242.4
+          ],
+          [
+            483.2,
+            245.1
+          ],
+          [
+            483.2,
+            274.6
+          ],
+          [
+            469.5,
+            272.4
+          ]
+        ],
+        [
+          [
+            485.2,
+            245.5
+          ],
+          [
+            494.7,
+            247.4
+          ],
+          [
+            496,
+            249.6
+          ],
+          [
+            495.6,
+            276.2
+          ],
+          [
+            485.2,
+            274.8
+          ]
+        ]
+      ],
+      "spill_center": [
+        482,
+        260
+      ],
+      "spill_radius": [
+        21,
+        27
+      ],
+      "events": [
+        {
+          "start": 17.6,
+          "hold": 4.8,
+          "depth": 0.77,
+          "transition": 0.55
+        },
+        {
+          "start": 56.9,
+          "hold": 5.2,
+          "depth": 0.77,
+          "transition": 0.55
+        }
+      ],
+      "inner_aperture": [
+        [
+          469.7,
+          242.4
+        ],
+        [
+          494.7,
+          247.4
+        ],
+        [
+          496,
+          249.6
+        ],
+        [
+          495.6,
+          276.2
+        ],
+        [
+          469.5,
+          272.4
+        ]
+      ]
+    }
+  ],
+  "steady_window": "right narrow habitat window",
+  "screen": {
+    "quad": [
+      [
+        242,
+        477
+      ],
+      [
+        383,
+        475
+      ],
+      [
+        381,
+        583
+      ],
+      [
+        252,
+        586
+      ]
+    ],
+    "size": [
+      280,
+      220
+    ],
+    "route": [
+      [
+        30,
+        104
+      ],
+      [
+        98,
+        103
+      ],
+      [
+        157,
+        104
+      ],
+      [
+        155,
+        167
+      ],
+      [
+        100,
+        167
+      ],
+      [
+        99,
+        46
+      ]
+    ],
+    "log_rect": [
+      211,
+      31,
+      266,
+      91
+    ],
+    "color": [
+      74,
+      160,
+      173
+    ],
+    "period": 20
+  },
+  "lamp": {
+    "core_polygon": [
+      [
+        366.5,
+        613.5
+      ],
+      [
+        387,
+        613
+      ],
+      [
+        389.5,
+        609.5
+      ],
+      [
+        401,
+        612.1
+      ],
+      [
+        437.9,
+        613.6
+      ],
+      [
+        440,
+        625.5
+      ],
+      [
+        427,
+        625.8
+      ],
+      [
+        388,
+        622.3
+      ],
+      [
+        367,
+        621.5
+      ]
+    ],
+    "spill_polygon": [
+      [
+        316,
+        625
+      ],
+      [
+        454,
+        626
+      ],
+      [
+        513,
+        652
+      ],
+      [
+        537,
+        688
+      ],
+      [
+        497,
+        732
+      ],
+      [
+        391,
+        731
+      ],
+      [
+        322,
+        706
+      ],
+      [
+        303,
+        672
+      ]
+    ],
+    "spill_center": [
+      399,
+      653
+    ],
+    "spill_radius": [
+      108,
+      64
+    ],
+    "events": [
+      {
+        "start": 12.7,
+        "hold": 0.58,
+        "depth": 0.48,
+        "transition": 0.12
+      },
+      {
+        "start": 44.2,
+        "hold": 1.15,
+        "depth": 0.38,
+        "transition": 0.24
+      }
+    ]
+  },
+  "layer_order": [
+    "clouds",
+    "veil",
+    "cloud_shadows",
+    "lower_cloud",
+    "windows",
+    "screen",
+    "lamp",
+    "instrument_lights"
+  ],
+  "isolated_layers": [
+    "new_atmosphere",
+    "habitation"
+  ],
+  "loop_method": "Staggered local cloud renewal at zero opacity; periodic forward auroral fields; integer-cycle screen/star motion; independent wrapped held light schedules. One genuine minute, no duplicate endpoint.",
+  "knowledge_reuse": {
+    "bank": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+    "selected_examples": [
+      {
+        "scene_and_version": "Basalt v6 / Cable v3",
+        "acceptance_scope": "accepted environmental motion",
+        "evidence_path": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+        "method_to_reuse": "coherent independent source-texture transport",
+        "required_remapping": "planet curvature, cloud-only extraction and fixed limb",
+        "known_failure_to_avoid": "moving terrain; invisible modulation; cloned source objects; doubled cloud edges"
+      },
+      {
+        "scene_and_version": "Ringfall v9b / Floodplain v2",
+        "acceptance_scope": "accepted windows and practical lights",
+        "evidence_path": "creative/ANIMATION_WORKFLOW.md",
+        "method_to_reuse": "whole aperture dimming with attached local spill",
+        "required_remapping": "Farpoint pane interiors and lamp",
+        "known_failure_to_avoid": "bright core remnants, metal dimming and global exposure pumping"
+      },
+      {
+        "scene_and_version": "Cable v3 / Shoreless v2 left display",
+        "acceptance_scope": "Cable accepted; Shoreless left treatment preferred; large right waveform rejected",
+        "evidence_path": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+        "method_to_reuse": "route nodes and confined log scrolling",
+        "required_remapping": "Farpoint monitor homography",
+        "known_failure_to_avoid": "new dominant graph or moving bezel"
+      },
+      {
+        "scene_and_version": "Farpoint v1 rejected",
+        "acceptance_scope": "User could see essentially no planet motion",
+        "evidence_path": "music/farpoint-animation-v1/user-feedback-2026-10-07.json",
+        "method_to_reuse": "Keep source separation and habitat masks, replace principal timing blend",
+        "required_remapping": "Expand cloud travel support inside protected planet",
+        "known_failure_to_avoid": "Small nearby advected copies blend away apparent transport; numeric pixel activity is not visual success"
+      }
+    ],
+    "scene_specific_exclusions": [
+      "no exhaust without a mapped vent",
+      "no exterior weather in vacuum",
+      "no spacecraft",
+      "no whole-planet rotation",
+      "star brightness variation is cinematic, not atmospheric scintillation"
+    ],
+    "full_scene_readability_checks": [
+      "upper cloud edge",
+      "central diagonal wisps",
+      "independent window holds",
+      "small screen marker"
+    ]
+  },
+  "review": {
+    "approved": false,
+    "v2_cloud_visibility_confirmed": true,
+    "v3_additions_not_accepted": true,
+    "inspection": "To be recorded after rendering"
+  },
+  "prototype": {
+    "duration": 12,
+    "method": "Reviewed direct cloud travel plus added atmosphere/instrumentation; forward excerpt, not a seamless loop",
+    "start_seconds": 0,
+    "seamless": false,
+    "cloud_compositing": "Extracted source cloud converted to premultiplied optical colour/alpha over stationary reconstructed terrain; avoids additive hot spots on bright ground."
+  },
+  "parent_renderer_sha256": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04",
+  "parent_v2_renderer_sha256": "39a49c6de47b4c798d451f1cc4095d73ac2af845cf15b703881dde8e17028ba7",
+  "new_atmosphere": {
+    "lower_cloud": {
+      "roi": [
+        1290,
+        465,
+        1480,
+        591
+      ],
+      "polygon": [
+        [
+          1322,
+          507
+        ],
+        [
+          1344,
+          491
+        ],
+        [
+          1379,
+          494
+        ],
+        [
+          1410,
+          513
+        ],
+        [
+          1440,
+          548
+        ],
+        [
+          1446,
+          567
+        ],
+        [
+          1418,
+          580
+        ],
+        [
+          1384,
+          566
+        ],
+        [
+          1354,
+          543
+        ]
+      ],
+      "protected_crater": [
+        1339,
+        563,
+        23
+      ],
+      "speed_pixels_per_second": 2.8,
+      "gain": 0.82,
+      "blue_red_ratio": 0.63,
+      "blue_offset": 3,
+      "red_floor": 85,
+      "red_range": 80
+    },
+    "cloud_shadows": {
+      "offset": [
+        -14,
+        18
+      ],
+      "blur_sigma": 4.5,
+      "strength": 0.26,
+      "method": "Difference from original cloud-shadow state, attenuated by moving cloud opacity; local terrain light only"
+    }
+  },
+  "screen_additions": {
+    "radar_center": [
+      238,
+      117
+    ],
+    "radar_radius": 17,
+    "radar_period": 7.5,
+    "route_color": [
+      42,
+      115,
+      136
+    ],
+    "route_width": 2,
+    "meter_origins": [
+      [
+        39,
+        194
+      ],
+      [
+        91,
+        193
+      ],
+      [
+        139,
+        192
+      ],
+      [
+        181,
+        191
+      ]
+    ],
+    "meter_color": [
+      35,
+      98,
+      103
+    ],
+    "meter_segments": 5,
+    "method": "Perspective-confined moving sweep on existing small dial, sequential original-diagram links and bottom-panel status segments",
+    "route_period": 15,
+    "meter_cycles": [
+      10,
+      20
+    ]
+  },
+  "instrument_lights": [
+    {
+      "name": "blue_left_indicator",
+      "core_polygons": [
+        [
+          [
+            43.1,
+            68.7
+          ],
+          [
+            46.5,
+            68.7
+          ],
+          [
+            46.5,
+            88.7
+          ],
+          [
+            42.9,
+            88.7
+          ]
+        ],
+        [
+          [
+            40.5,
+            83.9
+          ],
+          [
+            44,
+            83.9
+          ],
+          [
+            44,
+            88.2
+          ],
+          [
+            40.5,
+            88.2
+          ]
+        ]
+      ],
+      "halo_center": [
+        44.4,
+        80
+      ],
+      "halo_radius": [
+        7,
+        16
+      ],
+      "color": "blue",
+      "events": [
+        {
+          "start": 0.9,
+          "hold": 0.26,
+          "depth": 0.88,
+          "transition": 0.06
+        },
+        {
+          "start": 1.35,
+          "hold": 0.22,
+          "depth": 0.82,
+          "transition": 0.06
+        },
+        {
+          "start": 7.4,
+          "hold": 0.55,
+          "depth": 0.72,
+          "transition": 0.06
+        },
+        {
+          "start": 24.6,
+          "hold": 0.3,
+          "depth": 0.82,
+          "transition": 0.06
+        },
+        {
+          "start": 25.12,
+          "hold": 0.23,
+          "depth": 0.8,
+          "transition": 0.06
+        },
+        {
+          "start": 49.3,
+          "hold": 0.65,
+          "depth": 0.75,
+          "transition": 0.12
+        }
+      ]
+    },
+    {
+      "name": "amber_status",
+      "core_polygons": [
+        [
+          [
+            214.5,
+            54.5
+          ],
+          [
+            220.9,
+            55.3
+          ],
+          [
+            221.5,
+            65.7
+          ],
+          [
+            214.6,
+            65.9
+          ]
+        ]
+      ],
+      "halo_center": [
+        217.8,
+        60.2
+      ],
+      "halo_radius": [
+        13,
+        19
+      ],
+      "color": "amber",
+      "events": [
+        {
+          "start": 5.5,
+          "hold": 1.45,
+          "depth": 0.78,
+          "transition": 0.18
+        },
+        {
+          "start": 33.1,
+          "hold": 3.2,
+          "depth": 0.72,
+          "transition": 0.3
+        }
+      ]
+    },
+    {
+      "name": "blue_column_indicator",
+      "core_polygons": [
+        [
+          [
+            219.6,
+            239
+          ],
+          [
+            223.9,
+            239
+          ],
+          [
+            223.9,
+            253.5
+          ],
+          [
+            219.6,
+            253.5
+          ]
+        ]
+      ],
+      "halo_center": [
+        221.8,
+        246
+      ],
+      "halo_radius": [
+        9,
+        19
+      ],
+      "color": "blue",
+      "events": [
+        {
+          "start": 2.1,
+          "hold": 0.22,
+          "depth": 0.84,
+          "transition": 0.06
+        },
+        {
+          "start": 2.5,
+          "hold": 0.25,
+          "depth": 0.84,
+          "transition": 0.06
+        },
+        {
+          "start": 9.1,
+          "hold": 0.62,
+          "depth": 0.8,
+          "transition": 0.06
+        },
+        {
+          "start": 29.6,
+          "hold": 0.25,
+          "depth": 0.85,
+          "transition": 0.06
+        },
+        {
+          "start": 30.04,
+          "hold": 0.26,
+          "depth": 0.85,
+          "transition": 0.06
+        },
+        {
+          "start": 54.2,
+          "hold": 0.8,
+          "depth": 0.72,
+          "transition": 0.12
+        }
+      ]
+    },
+    {
+      "name": "blue_upper_strip",
+      "core_polygons": [
+        [
+          [
+            441,
+            26.4
+          ],
+          [
+            486.1,
+            23.9
+          ],
+          [
+            486.4,
+            28
+          ],
+          [
+            441.1,
+            30.5
+          ]
+        ]
+      ],
+      "halo_center": [
+        463.5,
+        27.3
+      ],
+      "halo_radius": [
+        32,
+        10
+      ],
+      "color": "blue",
+      "events": [
+        {
+          "start": 27.8,
+          "hold": 0.75,
+          "depth": 0.3,
+          "transition": 0.3
+        }
+      ]
+    },
+    {
+      "name": "pink_left_desk_strip",
+      "core_polygons": [
+        [
+          [
+            356.8,
+            775.7
+          ],
+          [
+            439.8,
+            784.3
+          ],
+          [
+            439.9,
+            789.2
+          ],
+          [
+            356.4,
+            780.6
+          ]
+        ]
+      ],
+      "halo_center": [
+        396,
+        790
+      ],
+      "halo_radius": [
+        56,
+        25
+      ],
+      "color": "pink",
+      "events": [
+        {
+          "start": 41.2,
+          "hold": 1.1,
+          "depth": 0.25,
+          "transition": 0.3
+        }
+      ]
+    },
+    {
+      "name": "pink_right_desk_strip",
+      "core_polygons": [
+        [
+          [
+            668.1,
+            772
+          ],
+          [
+            704.3,
+            759.1
+          ],
+          [
+            705.9,
+            763.8
+          ],
+          [
+            670,
+            776.8
+          ]
+        ]
+      ],
+      "halo_center": [
+        687,
+        774
+      ],
+      "halo_radius": [
+        29,
+        22
+      ],
+      "color": "pink",
+      "events": [
+        {
+          "start": 18.5,
+          "hold": 0.8,
+          "depth": 0.28,
+          "transition": 0.3
+        }
+      ]
+    }
+  ],
+  "steady_lights": [
+    "lower blue column indicator",
+    "right exterior habitat window",
+    "unchanged unrelated source practicals"
+  ],
+  "parent_v3_renderer_sha256": "88711e6f2a47e14bad3a84ea17f8fe252e6a23fc78982604d6d20d23f3a1bd1a",
+  "completion_prompt": "final/10-nightward-station/animation-completion-prompt-v2.txt",
+  "cloud_lifetimes": {
+    "seconds": 60,
+    "fade_seconds": 5,
+    "centers_x": [
+      780,
+      960,
+      1130,
+      1300,
+      1460,
+      1600
+    ],
+    "width": 112,
+    "phase_seconds": [
+      0,
+      11,
+      23,
+      35,
+      46,
+      55
+    ],
+    "method": "Partition the extracted source into distinct feathered formations. Direct forward curved travel at v2 speeds. Each formation renews only at zero opacity; phases are staggered over the minute. No blend of nearby full weather-field copies."
+  },
+  "lower_lifetimes": {
+    "seconds": 30,
+    "fade_seconds": 3,
+    "phase_seconds": [
+      5,
+      20
+    ]
+  },
+  "aurora": {
+    "roi": [
+      620,
+      285,
+      1020,
+      586
+    ],
+    "angle_range": [
+      -2.39,
+      -2.055
+    ],
+    "inner_limit": 92,
+    "color": [
+      34,
+      100,
+      93
+    ],
+    "filament_color": [
+      53,
+      87,
+      90
+    ]
+  },
+  "lightning": [
+    {
+      "time": 11.2,
+      "center": [
+        1040,
+        350
+      ],
+      "radius": [
+        64,
+        24
+      ],
+      "strength": 36
+    },
+    {
+      "time": 36.5,
+      "center": [
+        1570,
+        318
+      ],
+      "radius": [
+        40,
+        26
+      ],
+      "strength": 42
+    },
+    {
+      "time": 52.8,
+      "center": [
+        1240,
+        267
+      ],
+      "radius": [
+        57,
+        23
+      ],
+      "strength": 34
+    }
+  ],
+  "stars": {
+    "centers": [
+      [
+        788,
+        69
+      ],
+      [
+        802,
+        92
+      ],
+      [
+        808,
+        257
+      ],
+      [
+        699,
+        424
+      ],
+      [
+        1490,
+        109
+      ],
+      [
+        1507,
+        100
+      ]
+    ],
+    "cycles": [
+      1,
+      2,
+      1,
+      3,
+      2,
+      1
+    ],
+    "phases": [
+      0.3,
+      2.1,
+      4.2,
+      1.4,
+      5.6,
+      3.3
+    ],
+    "depth": 0.19
+  },
+  "reflections": {
+    "polygons": [
+      [
+        [
+          422,
+          494
+        ],
+        [
+          444,
+          491.5
+        ],
+        [
+          445,
+          500
+        ],
+        [
+          422,
+          502
+        ]
+      ],
+      [
+        [
+          425,
+          547
+        ],
+        [
+          442,
+          544.8
+        ],
+        [
+          443,
+          553.5
+        ],
+        [
+          425,
+          556
+        ]
+      ],
+      [
+        [
+          425,
+          557
+        ],
+        [
+          443,
+          553.8
+        ],
+        [
+          444,
+          562.5
+        ],
+        [
+          425,
+          565
+        ]
+      ]
+    ],
+    "interpretation": "Existing source bars interpreted as warm practical-light reflections; original emitter uncertain. Linked to desk lamp state."
+  },
+  "loop_speed_changes": {
+    "principal_clouds": "v2 velocities unchanged",
+    "lower_cloud": "v3 velocity unchanged",
+    "radar": "8 to 7.5 seconds, +6.667% to close over minute",
+    "meter": "1.05/2.1 to 2*pi*10/60 and 2*pi*20/60, -0.267%",
+    "route_highlights": "13.5 to 15 seconds; main marker/log retain 20 seconds"
+  }
+}

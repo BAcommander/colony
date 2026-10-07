@@ -1,0 +1,339 @@
+{
+  "fingerprint": {
+    "config_sha256": "aa0732396ecee60c6c87f376ff3a8b2ed2c4cb4202ae68aca776a46497ac2ade",
+    "files": {
+      "final/10-nightward-station/artwork-v3-close-world-leds.png": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+      "music/farpoint-animation-v1/render_farpoint.py": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "scripts/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+      "music/farpoint-animation-v2/render_farpoint_v2.py": "39a49c6de47b4c798d451f1cc4095d73ac2af845cf15b703881dde8e17028ba7",
+      "music/farpoint-animation-v3/render_farpoint_v3.py": "88711e6f2a47e14bad3a84ea17f8fe252e6a23fc78982604d6d20d23f3a1bd1a",
+      "music/farpoint-animation-v4/render_farpoint_v4.py": "f33aabb7e917e935dae3abde81a0337f696b0a2e99987dee2f0cfb04c89081b1",
+      "music/farpoint-animation-v1/scene-plan-v1.json": "84a467c9ec01a9aae0ebd218eee4856fc1552259a49299f11c066f450ea74cfc",
+      "music/farpoint-animation-v2/scene-plan-v2.json": "ecedba31ce7bc8dd6d9f02ecb4ac1d919d61f4afe83b0b13871853fbb2cafdc2",
+      "music/farpoint-animation-v3/scene-plan-v3.json": "ab2fe23b15e81738df92b82f35c2c612098919f2d22fe13de14d349a1ac66149",
+      "music/farpoint-animation-v5/render_farpoint_v5.py": "dc0f3522c5712b57d53bc1431a6908a458c43b74a217ab5336176620499a333a",
+      "music/farpoint-animation-v4/scene-plan-v4.json": "8002790b9b69665ddac7589cd117b7b31c567526f8ac843e09507ab9164813ec"
+    },
+    "masks": {
+      "clouds": "4284345dd6848f1f24e3ab68cd8af096c4a691f08642f865bbcfdd009b6ccd54",
+      "veil": "4284345dd6848f1f24e3ab68cd8af096c4a691f08642f865bbcfdd009b6ccd54",
+      "windows": "193ce038818decfdb3b0e9af56d0f6e7642ee35a1e52c24826c48898fe5a2d34",
+      "screen": "dae1d378fe8f92da4ed0bd14a24d8dee43cc6fd8600475d2fc2279a371d6adf1",
+      "lamp": "f056f06965b22eaec0b59e3ed01aaa6b7bce41dd460504ee4e30c640b234230d",
+      "lower_cloud": "d5ef82ab56c48eae0f10dfbe4c316b1a4bc884a760c4cc030ddd0082454d77dd",
+      "cloud_shadows": "4284345dd6848f1f24e3ab68cd8af096c4a691f08642f865bbcfdd009b6ccd54",
+      "instrument_lights": "787e225c28ab06f5e8ed082c930437de7df245d5aca0c1d60c90401f08ccead3",
+      "stars": "e4ed5ae934e5f9c5aae46567cdcf3bf882e25bf816c888648c31676204b49905",
+      "reflections": "58dd90b91884d3fd8c12f4f70a5013ca55ba6f923a0639d64c2de3b040923d68",
+      "lightning": "4284345dd6848f1f24e3ab68cd8af096c4a691f08642f865bbcfdd009b6ccd54",
+      "expanded_weather": "bd78e4a48e465995f9ec5d739ee4e83ad1cab2e37ef695a518946fe567e3824a"
+    },
+    "versions": {
+      "numpy": "2.4.3",
+      "opencv": "5.0.0"
+    },
+    "duration": 60
+  },
+  "aurora_removed_from_active_layers": true,
+  "regional_weather_changes": {
+    "central_plain": [
+      {
+        "time": 0,
+        "mean_change_over_four_seconds": 9.949295043945312,
+        "fraction_over_two_levels": 0.5155555555555555
+      },
+      {
+        "time": 8,
+        "mean_change_over_four_seconds": 12.192708015441895,
+        "fraction_over_two_levels": 0.49864583333333334
+      },
+      {
+        "time": 20,
+        "mean_change_over_four_seconds": 16.90158462524414,
+        "fraction_over_two_levels": 0.6836111111111111
+      },
+      {
+        "time": 30,
+        "mean_change_over_four_seconds": 14.296944618225098,
+        "fraction_over_two_levels": 0.6417013888888888
+      },
+      {
+        "time": 40,
+        "mean_change_over_four_seconds": 12.008009910583496,
+        "fraction_over_two_levels": 0.6379166666666667
+      },
+      {
+        "time": 50,
+        "mean_change_over_four_seconds": 11.071850776672363,
+        "fraction_over_two_levels": 0.5501041666666666
+      },
+      {
+        "time": 56,
+        "mean_change_over_four_seconds": 10.199989318847656,
+        "fraction_over_two_levels": 0.5278472222222222
+      }
+    ],
+    "lower_left": [
+      {
+        "time": 0,
+        "mean_change_over_four_seconds": 9.556059837341309,
+        "fraction_over_two_levels": 0.5794791666666667
+      },
+      {
+        "time": 8,
+        "mean_change_over_four_seconds": 10.932621955871582,
+        "fraction_over_two_levels": 0.5134375
+      },
+      {
+        "time": 20,
+        "mean_change_over_four_seconds": 10.280468940734863,
+        "fraction_over_two_levels": 0.47442708333333333
+      },
+      {
+        "time": 30,
+        "mean_change_over_four_seconds": 11.085103988647461,
+        "fraction_over_two_levels": 0.45619791666666665
+      },
+      {
+        "time": 40,
+        "mean_change_over_four_seconds": 14.500781059265137,
+        "fraction_over_two_levels": 0.52609375
+      },
+      {
+        "time": 50,
+        "mean_change_over_four_seconds": 14.794306755065918,
+        "fraction_over_two_levels": 0.5508333333333333
+      },
+      {
+        "time": 56,
+        "mean_change_over_four_seconds": 12.466960906982422,
+        "fraction_over_two_levels": 0.5911979166666667
+      }
+    ],
+    "lower_middle": [
+      {
+        "time": 0,
+        "mean_change_over_four_seconds": 8.84366226196289,
+        "fraction_over_two_levels": 0.5894122731201383
+      },
+      {
+        "time": 8,
+        "mean_change_over_four_seconds": 9.255575180053711,
+        "fraction_over_two_levels": 0.5437770095073465
+      },
+      {
+        "time": 20,
+        "mean_change_over_four_seconds": 9.24585247039795,
+        "fraction_over_two_levels": 0.5492653414001729
+      },
+      {
+        "time": 30,
+        "mean_change_over_four_seconds": 10.780754089355469,
+        "fraction_over_two_levels": 0.44697493517718234
+      },
+      {
+        "time": 40,
+        "mean_change_over_four_seconds": 11.908513069152832,
+        "fraction_over_two_levels": 0.5229472774416595
+      },
+      {
+        "time": 50,
+        "mean_change_over_four_seconds": 13.424660682678223,
+        "fraction_over_two_levels": 0.6190579083837511
+      },
+      {
+        "time": 56,
+        "mean_change_over_four_seconds": 8.999120712280273,
+        "fraction_over_two_levels": 0.6024632670700086
+      }
+    ],
+    "lower_right": [
+      {
+        "time": 0,
+        "mean_change_over_four_seconds": 15.302058219909668,
+        "fraction_over_two_levels": 0.6103703703703703
+      },
+      {
+        "time": 8,
+        "mean_change_over_four_seconds": 9.325407028198242,
+        "fraction_over_two_levels": 0.5307122507122507
+      },
+      {
+        "time": 20,
+        "mean_change_over_four_seconds": 13.280861854553223,
+        "fraction_over_two_levels": 0.5892117758784425
+      },
+      {
+        "time": 30,
+        "mean_change_over_four_seconds": 16.036441802978516,
+        "fraction_over_two_levels": 0.6535232668566002
+      },
+      {
+        "time": 40,
+        "mean_change_over_four_seconds": 18.45675277709961,
+        "fraction_over_two_levels": 0.760721747388414
+      },
+      {
+        "time": 50,
+        "mean_change_over_four_seconds": 18.401975631713867,
+        "fraction_over_two_levels": 0.6922697056030389
+      },
+      {
+        "time": 56,
+        "mean_change_over_four_seconds": 17.248180389404297,
+        "fraction_over_two_levels": 0.6287559354226021
+      }
+    ],
+    "upper_middle": [
+      {
+        "time": 0,
+        "mean_change_over_four_seconds": 2.6814517974853516,
+        "fraction_over_two_levels": 0.20842105263157895
+      },
+      {
+        "time": 8,
+        "mean_change_over_four_seconds": 1.1826859712600708,
+        "fraction_over_two_levels": 0.14664246823956442
+      },
+      {
+        "time": 20,
+        "mean_change_over_four_seconds": 2.374603748321533,
+        "fraction_over_two_levels": 0.24660617059891107
+      },
+      {
+        "time": 30,
+        "mean_change_over_four_seconds": 4.05470085144043,
+        "fraction_over_two_levels": 0.2867876588021779
+      },
+      {
+        "time": 40,
+        "mean_change_over_four_seconds": 4.253151893615723,
+        "fraction_over_two_levels": 0.2570961887477314
+      },
+      {
+        "time": 50,
+        "mean_change_over_four_seconds": 3.5064125061035156,
+        "fraction_over_two_levels": 0.23745916515426496
+      },
+      {
+        "time": 56,
+        "mean_change_over_four_seconds": 3.445565700531006,
+        "fraction_over_two_levels": 0.23157894736842105
+      }
+    ],
+    "right_atmosphere": [
+      {
+        "time": 0,
+        "mean_change_over_four_seconds": 3.8313214778900146,
+        "fraction_over_two_levels": 0.30757894736842106
+      },
+      {
+        "time": 8,
+        "mean_change_over_four_seconds": 5.418572902679443,
+        "fraction_over_two_levels": 0.36747368421052634
+      },
+      {
+        "time": 20,
+        "mean_change_over_four_seconds": 8.211800575256348,
+        "fraction_over_two_levels": 0.4975438596491228
+      },
+      {
+        "time": 30,
+        "mean_change_over_four_seconds": 10.939298629760742,
+        "fraction_over_two_levels": 0.5869122807017544
+      },
+      {
+        "time": 40,
+        "mean_change_over_four_seconds": 10.307182312011719,
+        "fraction_over_two_levels": 0.5492982456140351
+      },
+      {
+        "time": 50,
+        "mean_change_over_four_seconds": 8.290970802307129,
+        "fraction_over_two_levels": 0.5310175438596492
+      },
+      {
+        "time": 56,
+        "mean_change_over_four_seconds": 4.635672569274902,
+        "fraction_over_two_levels": 0.3888421052631579
+      }
+    ]
+  },
+  "encoded_star_ranges": [
+    {
+      "source_center": [
+        788,
+        69
+      ],
+      "decoded_peak_min": 82.0,
+      "decoded_peak_max": 245.0,
+      "range": 163.0,
+      "position_fixed": true
+    },
+    {
+      "source_center": [
+        802,
+        92
+      ],
+      "decoded_peak_min": 52.0,
+      "decoded_peak_max": 160.33333333333334,
+      "range": 108.33333333333334,
+      "position_fixed": true
+    },
+    {
+      "source_center": [
+        808,
+        257
+      ],
+      "decoded_peak_min": 95.0,
+      "decoded_peak_max": 255.0,
+      "range": 160.0,
+      "position_fixed": true
+    },
+    {
+      "source_center": [
+        699,
+        424
+      ],
+      "decoded_peak_min": 80.0,
+      "decoded_peak_max": 238.33333333333334,
+      "range": 158.33333333333334,
+      "position_fixed": true
+    },
+    {
+      "source_center": [
+        1490,
+        109
+      ],
+      "decoded_peak_min": 66.0,
+      "decoded_peak_max": 216.0,
+      "range": 150.0,
+      "position_fixed": true
+    },
+    {
+      "source_center": [
+        1507,
+        100
+      ],
+      "decoded_peak_min": 66.0,
+      "decoded_peak_max": 218.0,
+      "range": 152.0,
+      "position_fixed": true
+    }
+  ],
+  "streams": {
+    "farpoint-station-v5-preview-60s.mp4": {
+      "video_only": true,
+      "bytes": 35929892,
+      "sha256": "28ddf4d0b191ecc92031f6cd27eeebda6a33c8579246c0bf457f4be2baf2a722"
+    },
+    "farpoint-station-v5-three-loops-180s.mp4": {
+      "video_only": true,
+      "bytes": 107787934,
+      "sha256": "439dd6bb976d0f0df9200a6828103594e86c79e3bd94d1ebc92c1ea053e0ea37"
+    }
+  },
+  "scope": "Coverage, quantization and stream checks, not artistic acceptance. Full-size temporal/decoded stills inspected; continuous playback unavailable."
+}

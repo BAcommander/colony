@@ -1,0 +1,18 @@
+{
+  "status": "changes_requested",
+  "preview_sha256": "28ddf4d0b191ecc92031f6cd27eeebda6a33c8579246c0bf457f4be2baf2a722",
+  "inspection": "Source/mask, normal-size temporal and decoded stills inspected. Continuous playback unavailable. User artistic verdict pending.",
+  "observations": [
+    "No blue auroral strokes remain",
+    "Additional cloud patches cross central/lower regions in temporal samples, with clear gaps and stationary terrain",
+    "Encoded original-star peak brightness changes survive 720p downsampling",
+    "Cabin, monitor and light schedules retained"
+  ],
+  "limitations": [
+    "Procedural weather is an optical approximation",
+    "Numerical regional coverage and brightness range do not prove natural-looking motion or perceptual success"
+  ],
+  "trial_correction": "First wide-field trial read as diffuse haze; narrowed density transition and made distinct cloud patches before video rendering",
+  "feedback_record": "music/farpoint-animation-v5/user-feedback-stars-bars-leds-2026-10-07.json",
+  "acceptance_scope": "Star motion still imperceptible; remove bars and add cabinet LEDs. No new planet verdict."
+}

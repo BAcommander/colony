@@ -1,0 +1,72 @@
+FARPOINT STATION — FINISH THE SCENE
+Catalog 10 / completion prompt v2 / 2026-10-07
+Status: proposed next production direction. This file does not mean the new effects, seamless minute or 4K master have been produced or approved.
+
+Create the finished visual animation for Farpoint Station: a quiet, credible observation cabin above a vast, visibly living alien planet. Give it a memorable planetary phenomenon, convincing depth and purposeful instrument activity. The finished image should inspire awe immediately and remain comfortable to watch for a long ambient session. Make each selected effect readable at full-scene 720p and normal speed, while preserving the photographic character of the source.
+
+CURRENT AUTHORITY — CONTINUE THE WORK
+Read AGENTS.md, PRODUCTION_PIPELINE.md, creative/ANIMATION_KNOWLEDGE_BANK.md, creative/ANIMATION_WORKFLOW.md, creative/NEXT_SCENE_RUNBOOK.md and music/farpoint-animation-v3/README.md.
+
+Use final/10-nightward-station/artwork-v3-close-world-leds.png, native 1672x941, SHA-256 9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b. Preserve the original, earlier previews and their renderers. The clean art is authoritative; the thumbnail has a different composition.
+
+V1 failed: the user could see essentially no planet movement despite successful numeric tests. V2 replaced blended nearby cloud copies with direct curved transport and optical cloud compositing; the user confirmed, “yeah i can see them moving now”. Retain that readable motion, its character and apparent speed. V3 adds lower clouds, cloud shadows, monitor detail and LED events, but the user still reports seeing nothing else on the planet beyond clouds. Do not call those additions a successful visual answer merely because their pixels change. V2/v3 are forward excerpts, not completed seamless loops.
+
+Use the existing v3 adapter and its hash-verified dependencies as the starting point. Preserve useful work, extract reusable functions where needed, and keep scene-specific controls in one configuration. Do not rebuild the whole scene or overwrite the historical implementations.
+
+1. PLANET — GIVE THIS WORLD A DISTINCTIVE LIVING FEATURE
+Keep the principal cloud fronts visibly advancing along the curved surface. Retain independent lower cloud travel and local cloud shadows only where they remain coherent and legible. Preserve the planet's size, silhouette, craters, terrain positions and original broad lighting. Reconstructed ground underneath moving clouds is an approximation; inspect exposed patches for smearing and repeated texture.
+
+Add one restrained but clearly identifiable auroral curtain along a short section of the darker left planetary limb. Follow the atmospheric arc and keep its glow attached to the upper atmosphere. Use a desaturated blue-green outer edge with faint pale inner filaments that travel along the arc and gently change height. Its silhouette should remain a thin, irregular atmospheric curtain with gaps and varying intensity. Give the internal detail sustained motion and the broad glow slow local evolution. At 720p it must read as a separate planetary phenomenon rather than another white cloud or an unchanging colour stripe.
+
+This is a deliberate fictional world-building addition; the still supplies no evidence of a magnetic field or polar latitude. Use visual plausibility rather than claiming a physical simulation. Restrict the effect to the darker arc where it can read without overpowering the sunlit rim. Keep the original limb sharp and fixed. Avoid a complete neon ring, laser-like outlines, global colour washes, uniform ribbons or glow spread across the window frame, cabin or black space.
+
+Add a few widely separated, diffuse intracloud lightning events inside existing cloud formations. Show soft, brief illumination from within a cloud, with a small irregular double pulse when appropriate. Clouds occlude the light; do not draw visible branching bolts across the planet or space. Limit this to two or three local events across a full minute, separated by long quiet intervals. They must not flash the entire planet, room or camera exposure. This supports the aurora and cloud travel without becoming the dominant rhythm.
+
+The aurora and sparse storm illumination intentionally expand the first-candidate brief, which originally excluded them. They are new candidates requiring visual review. Do not add city grids, lava, moving mountains, a rotating whole disc, spacecraft or unrelated spectacle to fill the frame.
+
+2. STARS — ADD A SMALL AMOUNT OF LIFE TO THE DISTANCE
+Keep every star's position fixed. Select a handful of existing brighter stars and give them slow, independent, shallow brightness changes with soft peaks. Leave the large majority completely steady. Keep their original sizes and colours; no new giant stars, starburst spikes, on/off blinking, travelling particles, meteor streaks or star-field rotation.
+
+Treat this as a restrained cinematic choice, not physically realistic atmospheric twinkling in vacuum. A fixed observer in space does not provide a reason to make the whole sky scintillate. The strongest selected glints may be noticeable on a second look; they must not compete with the planet. If the result reads as Christmas lights, simplify it. Do not dim the entire star field together or move the camera to manufacture activity.
+
+3. THE AMBER BARS IN THE WINDOW — MAKE THEIR ROLE COHERENT
+The user's screenshot, C:/Users/john/Documents/ShareX/Screenshots/2026-10/ChatGPT_KrnFQdj0fO.png, identifies the small warm horizontal streaks just right of the monitor and left of the exterior truss. Inspection confirms these marks already exist in the clean source artwork; they were not added by the animation. Their most plausible visual reading is interior light reflected in the glass, but the original generated image does not establish their emitter unambiguously.
+
+Adopt one consistent interpretation: restrained reflections of the warm cabin practical lighting. Keep their photographed positions fixed and couple their intensity and nearby haze to the warm-light state. Include their white cores so a lamp dip does not leave apparently self-lit floating bars. Preserve the exterior truss and window frame. Do not turn them into independent navigation lights or add more unexplained glowing streaks. This is a coherent artistic interpretation, not a claim that the original image contains a physically ray-traced reflection.
+
+Inspect the matched bright/dim states at full composition. If the marks still look like floating objects, report that specific visual problem and prepare a narrowly corrected, separately versioned clean plate before remapping affected masks; never silently alter the authoritative source.
+
+4. MONITOR — AN OPERATING STATION, WITH A CLEAR VISUAL HIERARCHY
+Retain the original station schematic, panel layout, screen perspective, bezel and chair occlusion. Improve the readable sequence already started in v3: a tracking marker travels between actual schematic nodes, a link acknowledges, then another status panel updates. Keep the rotating sweep confined to the existing small right-hand dial. Let the narrow log area scroll forward and the existing lower-panel meters change independently.
+
+Match colour, stroke weight and brightness to the source interface. Keep the important actions visible at full composition without turning the small display into the focal point. Avoid an oversized waveform, replacement dashboard, rapid random flashing or an arbitrary bright line unrelated to the original diagram. The Shoreless rejection of the large right-monitor graph still applies as a restraint lesson.
+
+5. INSTRUMENTS AND LEDS — INDEPENDENT, ATTACHED ACTIVITY
+Use the real blue wall indicators, amber status light, upper blue strip and pink desk strips mapped in v3. Give small indicators short activity acknowledgements and occasional longer status holds. Decorative strips should be mostly steady, with rare soft dips. Keep the exterior habitat windows on independent schedules, including one steady window.
+
+Every light state must include the emitting core and the appropriate local spill/reflection. Include saturated white cores; preserve dark housings and structural edges. Inspect forced-dark states for lit remnants, box-shaped masks and disconnected halos. Avoid synchronizing all the LEDs, repeating the same blink every few seconds or making the room breathe as a whole. Retain the warm desk-lamp dip only when its emitter, desk spill and window reflections agree.
+
+6. FINISH THE TIMING — A REAL MINUTE, WITH THE REVIEWED MOTION RETAINED
+Proposed delivery target for this completion pass: a genuine sixty-second, 30 fps silent loop. The longer target is an intentional change from the original twenty-second default, to allow separated planetary events and less repetitive instrument timing. When this prompt is explicitly invoked for production, use that minute target. Do not treat saving this prompt as authorization to render it now.
+
+Do not make a minute by repeating the twelve-second prototype, stretching time or slowing all the accepted effects. Preserve the visible cloud travel established in v2. Build continuous incoming cloud formations and locally hidden renewals while retaining optical compositing, stable ground and coherent cloud shapes. The original eight-second forward function cannot simply run for a minute: its travel bounds, source coverage and renewal logic must be redesigned and reviewed.
+
+Specifically avoid the v1 failure in which nearby shifted copies were blended until the principal motion looked almost static. Do not use a whole-frame crossfade, reverse motion, ping-pong or a reset of the entire weather field. Preserve forward travel through the end/start boundary. Match layer states and apparent velocities, including events that wrap across the join. Use one configured duration and deterministic schedules. Do not add a duplicate endpoint frame.
+
+Give the aurora, star variations, window holds, LED events and lightning distinct minute-wide timing. Leave quiet intervals. The composition must be continuously alive throughout the minute, not active only during the opening eight seconds. Check full states at 0, 20 and 40 seconds and throughout the final third. Unique timing is not automatically a natural-looking loop; review the actual join.
+
+7. EXECUTE THROUGH A COMPLETE REVIEWABLE DELIVERY
+Use local Python/NumPy/OpenCV/FFmpeg and the existing pipeline. No paid video generation, credits, cloud animation service or additional model installation. Build masks at source resolution and bind them to the source hash. Keep the camera and all solid geometry fixed. Source textures must exclude protected structures and stars as well as respecting the final masks.
+
+First render brief full-composition isolated tests of the aurora/storms, stars/reflections and revised instrumentation at actual strength and speed. Inspect masks and normal-size temporal samples; review continuous playback when available. Be explicit about any inspection limitation. Name a visible feature and its action. Do not use amplified differences, enlarged crops, template tracking or nonzero pixel counts as a substitute for a readable effect.
+
+Then render the complete sixty-second 1280x720 preview and a clearly labelled 180-second review containing three exact repetitions. Deliver these complete clips with concise effect notes. Temporary isolated tests are intermediate diagnostics, not the finished result of this production request. Fix concrete defects before delivery; preserve the working principal motion while revising additions.
+
+Run separate technical checks: finite pixels; exact source protection outside active masks before encoding; sampled retained-layer comparisons; individual analytical states and motion through the join; encoded region/composite seam comparisons without weakened thresholds; full 1,800/5,400-frame decoding and sequential timestamps; no duplicate endpoint; exact three-cycle decoded repetition. Confirm dimensions, fps, duration, silence, hashes and the source/config/code/dependency/mask fingerprints. Technical checks do not establish artistic acceptance.
+
+After the user accepts the complete preview, export the sixty-second 3840x2160/30 fps silent master using identical motion settings. Disclose upscaling from the native 1672x941 artwork. Validate and inspect the encoded master again. Keep the existing approved media and prior Farpoint versions intact. Use explicit final paths and save concise reproduction instructions.
+
+Update the current scene record, production tracker, knowledge bank and AGENTS.md in place with actual feedback and acceptance scope. Keep proposed, implemented, technically checked and user-approved states separate. Do not claim a remote backup without a requested push and verification. Music and long-form assembly are separate gates: finishing this prompt means finishing the visual loop and its approved 4K master, not inventing a soundtrack, uploading or declaring a finished channel release.
+
+FINAL VISUAL TARGET
+From a dark, reassuring cabin, the viewer sees moving weather, a restrained living aurora and occasional deep-cloud illumination across an immense alien world. A few distant stars vary gently. The station's quiet instruments carry out understandable work; practical lights and their reflections behave as connected physical sources. The minute sustains this atmosphere without obvious repetition or a visible join. The user's playback verdict decides whether the result earns that description.
