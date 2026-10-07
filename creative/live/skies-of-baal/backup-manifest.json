@@ -160,7 +160,7 @@
     {
       "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/final-pass-plan-v1.json",
       "bytes": 2320,
-      "sha256": "0bda3bc2956da63cb2ff10b69bfe9d1f51356e5e51010a7b3e8290025923e774"
+      "sha256": "ee93c4e9b882860c3ec524aee69286409e02bd4a7f0b6142bb9a98ffa561de43"
     },
     {
       "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/final-pass-prompt-a-v1.txt",
@@ -179,8 +179,8 @@
     },
     {
       "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/final-pass-review-v1.txt",
-      "bytes": 6386,
-      "sha256": "4c5ee56a7a90c9f20980ed8e1394ad88479c183dcf264c952f71582b8a9187a2"
+      "bytes": 6385,
+      "sha256": "186611b5130665163bb0f06702d2eabb34ae8b21f5306da9013e7bcd6a1b4aaa"
     },
     {
       "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v1.txt",
@@ -383,7 +383,7 @@
       "sha256": "f2331b3f8e4920f434d542c1339eb0bf8071990b3f0a9443f690bcd94e11a1a3"
     }
   ],
-  "payload_bytes": 44363971,
+  "payload_bytes": 44363970,
   "png_count": 21,
   "support_files": [
     "AGENTS.md",

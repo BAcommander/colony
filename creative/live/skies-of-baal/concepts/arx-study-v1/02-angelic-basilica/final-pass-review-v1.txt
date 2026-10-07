@@ -56,4 +56,3 @@ This is a still-quality review, not an executable motion plan. No masks or rende
 - Keep camera, cliffs, masonry and globe surface fixed unless a later specific brief says otherwise. Local clouds pass in front of the distant disc.
 Relevant project records: creative/ANIMATION_KNOWLEDGE_BANK.md, creative/ANIMATION_WORKFLOW.md and creative/concepts/ALIEN_COLONY_ART_DIRECTION.md.
 No loop duration, animation implementation or artistic approval is selected by these notes.
-
