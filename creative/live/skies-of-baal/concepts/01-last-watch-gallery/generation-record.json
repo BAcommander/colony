@@ -1,0 +1,26 @@
+{
+  "variant_id": "01-last-watch-gallery",
+  "title": "Last Watch Gallery",
+  "generated_date": "2026-10-07",
+  "tool": "built_in_imagegen",
+  "intent": "new_image_generation",
+  "use_case": "stylized-concept",
+  "input_images": [],
+  "transparent_background": false,
+  "prompt_file": "generation-prompt-v1.txt",
+  "prompt_sha256": "f885959cde00ef2d1e1d3f211f3b14f6ba1f415d3ff726f333985b33bb6b940a",
+  "artwork_file": "concept-v1.png",
+  "artwork_sha256": "679a233d39df306226e7b12455e9d50e678f4b6392da9a4dafc77327070add76",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "original_generated_path": "C:\\Users\\john\\.codex\\generated_images\\01a11698-1faa-79c2-aa95-cb9e63786f46\\exec-47f65287-64fc-42fb-90f5-2039f836929c.png",
+  "copied_byte_identically": true,
+  "post_generation_image_edits": false,
+  "inspection": "Assistant inspected the generated full-composition still. See ../README.md for specific review notes.",
+  "status": "generated_candidate_user_selection_pending",
+  "user_selected": false,
+  "user_accepted": false,
+  "credits_spent": 0
+}

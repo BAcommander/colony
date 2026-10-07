@@ -1,0 +1,59 @@
+SKIES OF BAAL — FINAL STILL REVIEW AND OPTIONS
+Prepared 2026-10-07. Prompt-only preparation requested. No new image, animation or audio generated.
+Current edit target: concept-v4-ancient-precinct.png
+SHA-256: 0a8c386b12e68aad981d4a569b4b8e18cea331744c31d37fde6e169ac787c457
+Native dimensions: 1672 x 941. V4 is the current candidate, not a frozen/approved animation plate.
+
+RECOMMENDATION
+Use Option A first: a restrained material-and-construction pass. The composition has enough spectacle already. The strongest visible defect is the swirled/embossed texture spread across the foreground stone; further additions would not fix it. Keep the skyline, enlarged world, single eagle, quiet terrace and one ruined precinct.
+
+OBSERVED PRIORITIES
+1. Foreground stone: unnatural labyrinth-like relief covers many unrelated block faces and floor slabs. Replace it with broad matte faces, subtle mineral grain, believable joints and wear concentrated at edges. Preserve lamp spill and the shapes of the blocks.
+2. Main cliffs: larger fractures now read better than the earlier melted/knotted texture, but some fine noise and masonry/rock transitions remain ambiguous. Resolve load paths, bridge footings and distinct material edges. Do not make everything equally sharp.
+3. Ruin: the gateway adds a useful middle-distance focal point. Improve uneven sand burial, foundation contact and the partly erased route; keep it unlit and modest.
+4. Depth: separate near grit, middle sand and distant atmospheric forms through detail and contrast, retaining open space. The ruin must remain subordinate to the living fortress and sky.
+5. Sky: retain v4's clearer disc and small cloud overlap. All local clouds lie in front of the distant body. No transparent cloud passing through the solid disc and no halo cutout around it.
+6. Celestial illumination: v4 does not establish a physically verified phase/orbit. Preserve the selected cinematic depiction for A; a deliberately astronomy-led revision would need an explicit inferred sun direction and chosen phase. Do not claim the disc is a verified portrait of a named moon.
+7. Foreground habitation already works: bench, blanket and warm lantern communicate a place to rest. Extra machinery or a visible Marine would shift the contemplative mood.
+
+THREE OPTIONS
+A — Material and construction polish (recommended)
+File: final-pass-prompt-a-v1.txt
+Scope: quieter natural stone, credible structural junctions, better buried ruin integration, retained composition.
+Tradeoff: least visual change; strongest immediate improvement to credibility.
+
+B — Stronger written-lore architecture
+File: final-pass-prompt-b-v1.txt
+Scope: A plus a partial twin-peak volcanic setting, visibly curved perimeter and broader protective canopy.
+Tradeoff: closer to the described architectural hierarchy, but changes the favourite cathedral/sky balance. Generate as a separate sibling variant if chosen. It still cannot certify an exact canonical map.
+
+C — Stronger epic landscape scale
+File: final-pass-prompt-c-v1.txt
+Scope: A plus clearer fragments of the old route/foundations and stronger foreground-to-horizon depth.
+Tradeoff: more history and scale without larger objects; an overly obvious road, extra wall maze or heavy dust would weaken the quiet plain.
+
+SOURCE APPLICATION AND LIMITS
+- Arx Angelicum: the Arx is in/around an extinct two-peaked volcano; the caldera wall Arx Murus surrounds the Dome of Angels; the Archangelian is a needle-like perimeter tower; Basilica Sanguinarum is a named feature. The small conventional dome in this image is not enough to claim the full protective Dome of Angels is accurately portrayed.
+  Source: https://wh40k.lexicanum.com/wiki/Arx_Angelicum
+  Encyclopedia cites The Devastation of Baal and First Founding; complete books not independently consulted.
+- Unused outlying Arx areas became buried by dust storms and were excavated before the invasion. This supports ancient outer-precinct remains as inspiration. Our separate gateway's design/location and survival state are invented. No precise historical era is fixed; do not call this gate the postwar Maxillary Gate.
+  Source: https://wh40k.lexicanum.com/wiki/Arx_Angelicum
+- Baal itself is a rust-red desert world. Use oxide-toned grit, sand and volcanic structure consistently, rather than making every surface the same dark noisy rubble.
+  Source: https://wh40k.lexicanum.com/wiki/Baal
+- Angel's Fall belongs to Baal Secundus. Do not transplant it, or the Baal Primus skull symbol, into this plain beside the Arx.
+  Sources: https://wh40k.lexicanum.com/wiki/Angel%27s_Fall and https://wh40k.lexicanum.com/wiki/Baal
+- The legacy fortress drawing informed Gothic tapering towers/lancets/buttresses. The First Founding preview informed landscape-scale massing only; its 300x69 resolution does not substantiate fine material detail. The single eagle crest is a user art-direction choice, not a verified canon placement.
+  Reference records: ../research-notes.md
+
+BEFORE CONSIDERING ANIMATION
+This is a still-quality review, not an executable motion plan. No masks or renderer are authorized by it.
+- Choose/generate the desired final-pass still; inspect full composition and stone/support detail. User acceptance remains separate from generation and numerical checks.
+- Freeze the selected output's hash/dimensions after acceptance. Remap every region to that exact plate.
+- Existing sky and far dust already provide broad later motion regions. Do not add smoke vents, gadgets or particles solely to manufacture animation.
+- Carry forward Basalt's source AND output exclusions for the celestial body and fortress silhouettes. Cloud motion must not drag copies of them into the sky.
+- Carry forward Saltline's restrained distant dust and absence of foreground gusts. Preserve the ruined gateway with separate depth/occlusion.
+- Existing windows provide later independent light holds; use complete emitter masks and coupled local spill. Leave some lights steady and the ruins unlit.
+- Keep camera, cliffs, masonry and globe surface fixed unless a later specific brief says otherwise. Local clouds pass in front of the distant disc.
+Relevant project records: creative/ANIMATION_KNOWLEDGE_BANK.md, creative/ANIMATION_WORKFLOW.md and creative/concepts/ALIEN_COLONY_ART_DIRECTION.md.
+No loop duration, animation implementation or artistic approval is selected by these notes.
+

@@ -29,6 +29,12 @@ All fourteen have artwork, thumbnails, descriptions and search tags in [final/](
 
 09/10 retain their historical folder names to preserve links and provenance. Public names are **The Shoreless Colony** and **Farpoint Station**. Their current thumbnails are `thumbnail-v2.jpg`; other packages currently use v1. Use [catalog.json](final/catalog.json) to resolve current artwork and thumbnail paths.
 
+## First live special — Skies of Baal
+
+Release remains after catalog 10 Farpoint Station. V7 non-sky scene is user-accepted. User rejected v10's dark-red opening because it reads as cloud: clear air should be lighter red-orange. [Current v11](creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v11-luminous-clear-sky.png) uses v7 alone, with luminous red-orange sky around the larger world and distinctly darker cloud bodies. The previous dark-crimson clear-sky advice is superseded. V7 architecture/ground/terrace visually retained; exact outside-sky pixels not claimed. Full-composition still inspected; new sky brightness/composition awaits user review. Exact prompt/feedback/hash records saved, all earlier art preserved. No audio, masks, renderer, video or stream, no credits spent. User requested commit/push of the complete scene package; see its backup-manifest.json and subsequent local remote-backup-verification receipt. This does not imply visual acceptance.
+
+Separate unnumbered live special; catalog 11 unchanged. #10 publication unverified; date/runtime/24/7 unset. Next: user reviews v11 sky and retention of selected v7 scene before freezing source. Do not revise non-sky materials/architecture. Manual music tests remain separate. See [package](creative/live/skies-of-baal/README.md) and [production gates](creative/live/skies-of-baal/loop-plan-v1.md). Existing tracker priorities remain above.
+
 ## Next concept exploration
 
 The redesigned concepts 17–20 were selected for packaging as releases 11–14 on 2026-09-29. Their v1 history remains intact; final folders contain the selected clean v2 plates and newly generated thumbnails. Review notes on fine geometry remain in the source manifests. Read [the art-direction analysis](creative/concepts/ALIEN_COLONY_ART_DIRECTION.md) before another concept.

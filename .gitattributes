@@ -75,3 +75,6 @@ music/empty-junction-animation-v*/**/*.py -text
 music/empty-junction-animation-v*/**/*.json -text
 music/empty-junction-animation-v3/empty-junction-v3-preview-60s.mp4 -text
 final/11-empty-junction/animation-production-prompt-v1.txt -text
+
+# Preserve Skies of Baal artwork, exact prompts and hash-bound records byte-for-byte.
+creative/live/skies-of-baal/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

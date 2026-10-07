@@ -1,0 +1,46 @@
+{
+  "title": "Angelic Basilica - world against clear red sky",
+  "version": 7,
+  "date": "2026-10-07",
+  "tool": "built_in_imagegen",
+  "intent": "local_image_edit",
+  "user_feedback": "whgat about the cloud behind it? surely it should just be read sky behind it?",
+  "interpretation": "User wants plain clear red sky around the disc. Remove surrounding cloud band and the remaining lower cloud overlap, rather than another occlusion treatment.",
+  "input_images": [
+    {
+      "role": "edit_target",
+      "file": "concept-v6-world-occlusion.png",
+      "sha256": "03b42c29381b90758d67e157bbf78bfe23ea6175559d82e0b5748c62e43b76b3"
+    }
+  ],
+  "prompt_file": "generation-prompt-v7-clear-red-sky.txt",
+  "prompt_sha256": "ed8ce181d8a53f0e2e25f68bb6d1d0fd7fb9024fbf6225d551daa24d29e074b8",
+  "artwork_file": "concept-v7-clear-red-sky.png",
+  "artwork_sha256": "245aad9c7c6dd9c6733203f4330a503a08cbc39f5bb43388d53391039a89c7fa",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "original_generated_path": "C:/Users/john/.codex/generated_images/01a11698-1faa-79c2-aa95-cb9e63786f46/exec-896a3bd7-a0c3-468f-91b8-03c582cf4890.png",
+  "copied_byte_identically": true,
+  "post_generation_image_edits": false,
+  "inspection": {
+    "method": "Assistant inspected generated full-composition still, no animation/playback.",
+    "sky": "Disc now fully visible against a broad uninterrupted red-sky opening; no local cloud touches/overlaps its circumference. Opening broader than the approximate prompt region; sky composition changed visibly in this area.",
+    "world": "Approximate centre/diameter and rocky appearance retained; exact orbital phase and surface identity not verified.",
+    "preservation": "Fortress, single eagle, cliff, ruins, foreground shelter and red twilight visually retained. Exact outside-edit pixel preservation not claimed.",
+    "scope": "Generated candidate, user review pending. Remaining fine foreground stone patterning from v5 remains visible."
+  },
+  "status": "selected_base_non_sky_scene_accepted_sky_revision_required",
+  "user_accepted": false,
+  "animation_render_invoked": false,
+  "credits_spent": 0,
+  "subsequent_user_feedback": "it feels like you've just smudged the whole sky area, can you go back to when you first generated the sky/ planet and do it with a new improvement prompt so we can 1 shot this?",
+  "superseded_by": "generation-record-v8-originals-one-pass.json",
+  "later_partial_approval": {
+    "user_feedback": "so can we fix this and make version 10, i think version 7 was perfect except the planet / sky part",
+    "accepted_scope": "Scene excluding planet/sky",
+    "complete_artwork_accepted": false,
+    "selected_as_base_for": "generation-record-v10-crimson-sky.json"
+  }
+}

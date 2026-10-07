@@ -1,0 +1,77 @@
+{
+  "title": "Angelic Basilica - final material polish",
+  "version": 5,
+  "date": "2026-10-07",
+  "user_instruction": "exectue it",
+  "interpreted_scope": "Execute recommended Option A final still polish. Alternatives B/C not selected; no animation requested.",
+  "tool": "built_in_imagegen",
+  "method": "Original A edit, two focused surface edits, then a fresh reference-guided material reconstruction from v4 after the surface edits retained the unwanted pattern.",
+  "input_images": [
+    {
+      "file": "concept-v4-ancient-precinct.png",
+      "sha256": "0a8c386b12e68aad981d4a569b4b8e18cea331744c31d37fde6e169ac787c457",
+      "role": "composition_and_subject_reference_for_delivered_fresh_render"
+    }
+  ],
+  "initial_selected_prompt_file": "final-pass-prompt-a-v1.txt",
+  "initial_selected_prompt_sha256": "52cf7212dd5d12c8c43caaa8675970a5c12a26fb637c07691cfb2366263485f7",
+  "delivered_prompt_file": "generation-prompt-v5d-material-reconstruction.txt",
+  "delivered_prompt_sha256": "a83d6ae7bc67829f5af29c24408e5c3704cdebbe9a39c235bd1fa69372fc6dc5",
+  "artwork_file": "concept-v5-material-polish.png",
+  "artwork_sha256": "776e8195a68e0cbd0643847958b2a0732c6626d0af06e541b355abf1538f7fd8",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "original_generated_path": "C:/Users/john/.codex/generated_images/01a11698-1faa-79c2-aa95-cb9e63786f46/exec-1a607256-f409-4c49-88ec-b1af65bfc81e.png",
+  "copied_byte_identically": true,
+  "post_generation_image_edits": false,
+  "inspection": {
+    "method": "Assistant inspected generated full-composition stills. No animation/playback.",
+    "foreground": "Quieter block faces and cleaner floor slab joints/wear compared with v4. Some fine irregular/patterned surface texture remains; complete removal of all swirling detail is not claimed.",
+    "composition": "Terrace framing, lamp/bench/blanket/barrel, cathedral silhouette, single eagle, ruined gate, red plain, sky and enlarged world visually retained. Fresh rendering can change details, atmosphere, masonry and light; exact outside-edit pixel retention not claimed.",
+    "construction": "Readable masonry joints and bridge/fortress support forms; fine structural geometry and photographic material credibility still need user review.",
+    "lore": "Architecture/ruin remain artistic interpretations based on saved research, not verified canonical map or exact named moon portrayal."
+  },
+  "status": "superseded_by_requested_v6_cloud_depth_correction",
+  "user_accepted": false,
+  "credits_spent": 0,
+  "animation_render_invoked": false,
+  "internal_attempts": [
+    {
+      "attempt": "a",
+      "artwork_file": "concept-v5a-polish-internal.png",
+      "sha256": "cdc05eb7467730d1fad31ab6ea9994d6238645d55c827e51478792ee846e68be",
+      "prompt_file": "generation-prompt-v5a-option-a.txt",
+      "prompt_sha256": "52cf7212dd5d12c8c43caaa8675970a5c12a26fb637c07691cfb2366263485f7",
+      "input_file": "concept-v4-ancient-precinct.png",
+      "input_sha256": "0a8c386b12e68aad981d4a569b4b8e18cea331744c31d37fde6e169ac787c457",
+      "status": "internal_candidate_not_selected",
+      "reason": "Original A prompt retained too much foreground swirling material; rejected as the final polish result."
+    },
+    {
+      "attempt": "b",
+      "artwork_file": "concept-v5b-stone-internal.png",
+      "sha256": "a5204a2af3a22f59e900bcbba4f69b7646310d439f95072c06671aa30134b66c",
+      "prompt_file": "generation-prompt-v5b-plain-stone.txt",
+      "prompt_sha256": "2fb30f7dfd0245f9f64a39681408969a46839c93db7f9f831a8ed7962076b19e",
+      "input_file": "concept-v5a-polish-internal.png",
+      "input_sha256": "cdc05eb7467730d1fad31ab6ea9994d6238645d55c827e51478792ee846e68be",
+      "status": "internal_candidate_not_selected",
+      "reason": "Tighter surface correction still retained the decorative texture; not selected for delivery."
+    },
+    {
+      "attempt": "c",
+      "artwork_file": "concept-v5c-stone-internal.png",
+      "sha256": "97e7cf53a3381cf6892a77d79d4872178d622e40a802fa6482ca49a9f144db00",
+      "prompt_file": "generation-prompt-v5c-stone-rebuild.txt",
+      "prompt_sha256": "6b6c7974159ed5e24eec27df782305210542f171a97ad06c5c7bed726ed99edb",
+      "input_file": "concept-v5b-stone-internal.png",
+      "input_sha256": "a5204a2af3a22f59e900bcbba4f69b7646310d439f95072c06671aa30134b66c",
+      "status": "internal_candidate_not_selected",
+      "reason": "Explicit foreground rebuild reduced some relief but kept patterning; changed strategy to a fresh material reconstruction from v4."
+    }
+  ],
+  "subsequent_user_feedback": "i dont understand how there are still clouds BEHIND the planet",
+  "superseded_by": "generation-record-v6-world-occlusion.json"
+}

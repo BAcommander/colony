@@ -1,0 +1,58 @@
+{
+  "title": "Angelic Basilica - single fresh pass from original references",
+  "version": 8,
+  "date": "2026-10-07",
+  "tool": "built_in_imagegen",
+  "user_feedback": "it feels like you've just smudged the whole sky area, can you go back to when you first generated the sky/ planet and do it with a new improvement prompt so we can 1 shot this?",
+  "generation_calls_this_revision": 1,
+  "strategy": "Restart directly from original Angelic Basilica and original Homeward Terrace; no v2-v7 images supplied. Comprehensive improvement prompt includes sky detail, enlarged world, one eagle, cliff/stone material and small ruins.",
+  "input_images": [
+    {
+      "role": "selected_cathedral_and_composition",
+      "path": "concepts/arx-study-v1/02-angelic-basilica/concept-v1.png",
+      "sha256": "a1f8b908fe6d415bcfb012c313f85e61fb8a904a5d9d63566a9c49882d59a424"
+    },
+    {
+      "role": "original_sky_and_material_reference_not_fortress",
+      "path": "concepts/02-homeward-terrace/concept-v1.png",
+      "sha256": "43815a22b4f40e1cd581e822e1dc01d59b7e9db2a8b3bfce7fbafdd8919d4bab"
+    },
+    {
+      "role": "single_crest_shape_only",
+      "path": "concepts/arx-study-v1/02-angelic-basilica/feedback-v3/eagle-shape-reference.png",
+      "sha256": "15515db2948d5da5e047d94975e82d5d45a815e8c3cbfb9e90d54382d53f206d"
+    }
+  ],
+  "prompt_file": "generation-prompt-v8-originals-one-pass.txt",
+  "prompt_sha256": "dbf8efff43a0571a2d9dd85e51f3f78e0ad4ca73c43380450f41b541406b0b8b",
+  "artwork_file": "concept-v8-originals-one-pass.png",
+  "artwork_sha256": "4703298350877e4d9a282e44c526375f197353bb69011a267262b83c6eb8dcb0",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "original_generated_path": "C:/Users/john/.codex/generated_images/01a11698-1faa-79c2-aa95-cb9e63786f46/exec-003018c6-103b-4eb4-89b5-4377c5cda093.png",
+  "copied_byte_identically": true,
+  "post_generation_image_edits": false,
+  "inspection": {
+    "method": "Assistant inspected full-composition generated still, no playback.",
+    "sky": "Cloud texture and structured banks restored; no broad smooth v7 clearing. Small opening around disc retains local detail. User judgement of this composition still pending.",
+    "world": "Disc reads closer to original small size than requested 1.5x enlargement, and somewhat higher than original centre. Size/position not numerically measured. This is an unresolved prompt miss.",
+    "ornaments": "Several small spire finials resembling winged ornaments remain in addition to the main eagle; requested single-crest rule not fully met.",
+    "materials": "Fine patterned stone and knotted cliff details remain; photographic material cleanup not established.",
+    "ruin": "Single small dark gateway and low ruins present, partly buried in right middle-distance.",
+    "preservation": "Original composition and selected cathedral visually recognizable; exact pixel preservation not claimed."
+  },
+  "unresolved_requirements": [
+    "Requested enlarged world size/centre not retained reliably",
+    "Small extra spire ornaments remain",
+    "Material realism remains imperfect"
+  ],
+  "status": "user_rejected_scope_error_use_v7_remake_only_sky",
+  "user_accepted": false,
+  "ready_to_freeze_for_animation": false,
+  "animation_render_invoked": false,
+  "credits_spent": 0,
+  "subsequent_user_feedback": "i only wanted you to redo the sky man.... like v7 but with a remade from scratch sky? can you not manage that",
+  "superseded_by": "generation-record-v9-sky-only.json"
+}

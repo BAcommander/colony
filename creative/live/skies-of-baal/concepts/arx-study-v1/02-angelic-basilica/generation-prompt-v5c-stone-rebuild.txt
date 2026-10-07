@@ -1,0 +1,8 @@
+Material replacement edit of Image 1.
+The necessary visible change is to REBUILD ALL FOREGROUND STONE using an entirely new plain material. The current ornate swirling masonry texture is wrong. Do not preserve or trace it.
+
+Replace the left column, stone terrace floor and bottom parapet with clean, heavy, plain ashlar blocks of matte grey-brown sandstone, warmed only by the existing sunset and lantern. Their large faces are flat, quiet and essentially unpatterned. Simple straight block joints, fine natural pores almost invisible at this viewing distance, occasional chipped corners. The new flat stone should read like real architectural photography. No decorative engravings, swirls, whorls, wiggly ridges, fossil patterns, raised tracery or densely cracked texture. Substantial material simplification is required, not a slight softening of the existing texture. You may redraw these foreground surfaces fully to achieve that change.
+
+Retain the size and placement of the column and parapet and the floor perspective. Retain the lantern, wood roof, bench, reddish blanket and barrel. Reproduce their existing warm light and shadow placement over the new plain stone.
+
+Preserve the distant scene closely: the Gothic cathedral and cliff at left, one eagle above the tallest spire, small sand-buried gateway at right, vast red plain, red clouded dusk and current enlarged world. No new objects. No text. Fixed original framing. The final image should visibly demonstrate plain foreground stone rather than the reference's artificial ornamental texture.

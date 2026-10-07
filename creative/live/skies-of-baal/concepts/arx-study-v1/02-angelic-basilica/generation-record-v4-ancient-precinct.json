@@ -1,0 +1,44 @@
+{
+  "title": "Angelic Basilica - clearer world and ancient outer precinct",
+  "version": 4,
+  "date": "2026-10-07",
+  "tool": "built_in_imagegen",
+  "intent": "image_edit",
+  "user_feedback": "could the planet be a little less obsucred? logic should say there are no clouds behind the planet right? are there any known features we can put on the plains to make them a tiny bit less boring? some ruins or something? how can we make it a bit more epic",
+  "input_images": [
+    {
+      "role": "edit_target",
+      "file": "concept-v3-cloud-rock-eagle.png",
+      "sha256": "7659f512fd699ecfc9d928eb96f9b2c10095981f28418759b3a0902bc953c159"
+    }
+  ],
+  "prompt_file": "generation-prompt-v4-ancient-precinct.txt",
+  "prompt_sha256": "8afd7fcaa98dfb3926308f5d3e59c8160129450f750d1fe946212353e4da6d48",
+  "artwork_file": "concept-v4-ancient-precinct.png",
+  "artwork_sha256": "0a8c386b12e68aad981d4a569b4b8e18cea331744c31d37fde6e169ac787c457",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "original_generated_path": "C:/Users/john/.codex/generated_images/01a11698-1faa-79c2-aa95-cb9e63786f46/exec-acee5589-1374-4bbd-8681-522c4d87fa4e.png",
+  "copied_byte_identically": true,
+  "post_generation_image_edits": false,
+  "research": {
+    "source": "https://wh40k.lexicanum.com/wiki/Arx_Angelicum",
+    "lore_anchor": "Unused outlying portions of the Arx became buried by Baal dust storms before Dante ordered them unearthed ahead of the Tyranid invasion.",
+    "source_scope": "Encyclopedia cites The Devastation of Baal, Chapter 2; complete book not independently consulted.",
+    "interpretation": "The ruined gateway, wall fragments, buried route and their exact placement/design are invented visual interpretation of that history, not a named or mapped canonical landmark. No precise historical date set.",
+    "other_locations_considered": "Chalice Mountains are calderas on Baal; Angel's Fall is on Baal Secundus and was not transplanted beside the Arx.",
+    "celestial_identity": "Distant celestial body not specifically identified as Baal or one named moon. Camera is on Baal. All local clouds lie in front of it."
+  },
+  "inspection": {
+    "method": "Assistant inspected the generated full-composition still, not motion/playback.",
+    "world": "Most of the disc is visible at the prior approximate position/size, with a small soft cloud remnant near its lower-left edge; no numerical occlusion fraction measured.",
+    "plain": "One dark ruined arched gate and low wall remains, sand-buried, subordinate in the middle distance. Faint ground route ties it toward fortress foothills.",
+    "preservation": "Covered terrace, warm lamp, bench, parapet, main cathedral, one tallest-spire eagle, rust-red sky and horizon visually retained. Exact outside-edit pixel retention not claimed.",
+    "quality_scope": "Fine material credibility, cloud interaction and the new ruin scale remain for user visual review."
+  },
+  "status": "generated_revision_user_review_pending",
+  "user_accepted": false,
+  "credits_spent": 0
+}

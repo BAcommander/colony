@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-10-07",
+  "user_request": "commit and poush",
+  "storage": "ordinary_git",
+  "branch": "main",
+  "remote": "origin",
+  "scope": "All files in creative/live/skies-of-baal plus listed project support files. This inventory excludes itself to avoid a self-hash.",
+  "files": [
+    {
+      "path": "creative/live/skies-of-baal/artwork-prompt-v1.txt",
+      "bytes": 2075,
+      "sha256": "ac733460c131681fce1126f3ea88e8a0ab2a50fc866474a84d2ba2abcbd985d0"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concept-brief-v1.md",
+      "bytes": 3751,
+      "sha256": "6a2e7282343c534958488b1009df92e239764e106cc6be6b98510aae4b21097c"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/01-last-watch-gallery/concept-v1.png",
+      "bytes": 2213099,
+      "sha256": "679a233d39df306226e7b12455e9d50e678f4b6392da9a4dafc77327070add76"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/01-last-watch-gallery/generation-prompt-v1.txt",
+      "bytes": 2625,
+      "sha256": "f885959cde00ef2d1e1d3f211f3b14f6ba1f415d3ff726f333985b33bb6b940a"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/01-last-watch-gallery/generation-record.json",
+      "bytes": 1086,
+      "sha256": "a756d9f0e770ecfe3b6d76f0b41ebc12bd96189938e9bef26697f5c675582138"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/02-homeward-terrace/concept-v1.png",
+      "bytes": 2274827,
+      "sha256": "43815a22b4f40e1cd581e822e1dc01d59b7e9db2a8b3bfce7fbafdd8919d4bab"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/02-homeward-terrace/generation-prompt-v1.txt",
+      "bytes": 2817,
+      "sha256": "590c4a486d5da88d8c98d02001e2786e19169b30d4981637bba4fefb3069f1b4"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/02-homeward-terrace/generation-record.json",
+      "bytes": 1082,
+      "sha256": "4707308a26cdfd2c9033f049338c48a6e0d556e40a2e08c553c819656f50b5c7"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/03-first-light/concept-v1.png",
+      "bytes": 2235262,
+      "sha256": "8446622eb18c64f2382544081967a3868e9d566cb6c797563ea0bd3a9d0ec885"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/03-first-light/generation-prompt-v1.txt",
+      "bytes": 2826,
+      "sha256": "2a16741fe10062b77c363b9ca6b8c773493780ae1cbfe4fe6deae6de930f640f"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/03-first-light/generation-record.json",
+      "bytes": 1072,
+      "sha256": "6921d45aef1af85aa561f8c514ab6289b9403f1845a82751d7533da92a4c7bf0"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/01-caldera-citadel/concept-v1.png",
+      "bytes": 2141545,
+      "sha256": "ac7e95b534a2af926d98893341ddd19f77286eaffa39633cc3d333fa7b193033"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/01-caldera-citadel/generation-prompt-v1.txt",
+      "bytes": 3110,
+      "sha256": "84e2bfcc53b8c4510b258e6a3e8d96c80e53826bc692f448110c0439a0ba619b"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/01-caldera-citadel/generation-record.json",
+      "bytes": 2402,
+      "sha256": "aa3036544a959cb8f95eba84c30987abc6707abf2725f41e9c96f439adc711f5"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v1.png",
+      "bytes": 2183249,
+      "sha256": "a1f8b908fe6d415bcfb012c313f85e61fb8a904a5d9d63566a9c49882d59a424"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v10-crimson-sky.png",
+      "bytes": 2179412,
+      "sha256": "489d02b10449ef0b7d7919795515780a283a365afe83e5aa6fd1de4396190450"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v11-luminous-clear-sky.png",
+      "bytes": 2200800,
+      "sha256": "30f0d2d0261875556fd7a96b6b9c1f02788d41e4254b23348a0859b2be376a5f"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v2-larger-world.png",
+      "bytes": 2075003,
+      "sha256": "434af1621260568f8a0be21c782217ec5d32f0a3c7fc55e3681425c7f100c6c4"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v3-cloud-rock-eagle.png",
+      "bytes": 2085156,
+      "sha256": "7659f512fd699ecfc9d928eb96f9b2c10095981f28418759b3a0902bc953c159"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v3a-cloud-rock-eagle-internal.png",
+      "bytes": 2154862,
+      "sha256": "bc1ecd371d05a13b8be958dfdf2ce82633c531d6a797b52e97b756c313f26437"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v4-ancient-precinct.png",
+      "bytes": 2073754,
+      "sha256": "0a8c386b12e68aad981d4a569b4b8e18cea331744c31d37fde6e169ac787c457"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v5-material-polish.png",
+      "bytes": 2339621,
+      "sha256": "776e8195a68e0cbd0643847958b2a0732c6626d0af06e541b355abf1538f7fd8"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v5a-polish-internal.png",
+      "bytes": 2359655,
+      "sha256": "cdc05eb7467730d1fad31ab6ea9994d6238645d55c827e51478792ee846e68be"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v5b-stone-internal.png",
+      "bytes": 2341888,
+      "sha256": "a5204a2af3a22f59e900bcbba4f69b7646310d439f95072c06671aa30134b66c"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v5c-stone-internal.png",
+      "bytes": 2367663,
+      "sha256": "97e7cf53a3381cf6892a77d79d4872178d622e40a802fa6482ca49a9f144db00"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v6-world-occlusion.png",
+      "bytes": 2244722,
+      "sha256": "03b42c29381b90758d67e157bbf78bfe23ea6175559d82e0b5748c62e43b76b3"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v7-clear-red-sky.png",
+      "bytes": 2147946,
+      "sha256": "245aad9c7c6dd9c6733203f4330a503a08cbc39f5bb43388d53391039a89c7fa"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v8-originals-one-pass.png",
+      "bytes": 2175774,
+      "sha256": "4703298350877e4d9a282e44c526375f197353bb69011a267262b83c6eb8dcb0"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v9-sky-only.png",
+      "bytes": 2180889,
+      "sha256": "92302aae4c91baf99e3972166647863e6c9b36f5539d4c4607b0dd9e06a5ea59"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/feedback-v3/eagle-shape-reference.png",
+      "bytes": 46068,
+      "sha256": "15515db2948d5da5e047d94975e82d5d45a815e8c3cbfb9e90d54382d53f206d"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/final-pass-plan-v1.json",
+      "bytes": 2320,
+      "sha256": "0bda3bc2956da63cb2ff10b69bfe9d1f51356e5e51010a7b3e8290025923e774"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/final-pass-prompt-a-v1.txt",
+      "bytes": 3911,
+      "sha256": "52cf7212dd5d12c8c43caaa8675970a5c12a26fb637c07691cfb2366263485f7"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/final-pass-prompt-b-v1.txt",
+      "bytes": 5028,
+      "sha256": "99d57ceb0257793e4f780157e95877e723978352ee49aa81356aefa4e7fa15e3"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/final-pass-prompt-c-v1.txt",
+      "bytes": 4885,
+      "sha256": "1c57df1d7ff035e2d0294269e179c87ca28bdc4462f5348ac20bc7e95c3497db"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/final-pass-review-v1.txt",
+      "bytes": 6386,
+      "sha256": "4c5ee56a7a90c9f20980ed8e1394ad88479c183dcf264c952f71582b8a9187a2"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v1.txt",
+      "bytes": 3087,
+      "sha256": "a125a1edff96a0ab951381e4a2b7491fb3b6b4faefa25f66f52c0e42204c22aa"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v10-crimson-sky.txt",
+      "bytes": 2090,
+      "sha256": "b45dcb95e8cd707eafecf08d6003b87e0d40e9f886fbf0346359ac0f6330f3c2"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v11-luminous-clear-sky.txt",
+      "bytes": 2480,
+      "sha256": "0457a8b6ea36832ff8ff55be1b838587f45ece32ff41e5a5c30f1876f4c0b8ae"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v2-larger-world.txt",
+      "bytes": 1161,
+      "sha256": "3a0ae81bf4436dc5f52f6380fea79db7baa3ae04e16c0d633a37db2865c94826"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v3-cloud-rock-eagle.txt",
+      "bytes": 3285,
+      "sha256": "2808ca5d821fb8c175621ef5e90be0d0ba1aecd14b621e3136fad3931fac8423"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v3b-cloud-rock-eagle.txt",
+      "bytes": 2381,
+      "sha256": "ea8a02a6c622772d1acd5a1af2081ac731e071cc1e5c9adc368d2b4dabe3cde5"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v4-ancient-precinct.txt",
+      "bytes": 3361,
+      "sha256": "8afd7fcaa98dfb3926308f5d3e59c8160129450f750d1fe946212353e4da6d48"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v5a-option-a.txt",
+      "bytes": 3911,
+      "sha256": "52cf7212dd5d12c8c43caaa8675970a5c12a26fb637c07691cfb2366263485f7"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v5b-plain-stone.txt",
+      "bytes": 1459,
+      "sha256": "2fb30f7dfd0245f9f64a39681408969a46839c93db7f9f831a8ed7962076b19e"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v5c-stone-rebuild.txt",
+      "bytes": 1558,
+      "sha256": "6b6c7974159ed5e24eec27df782305210542f171a97ad06c5c7bed726ed99edb"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v5d-material-reconstruction.txt",
+      "bytes": 2672,
+      "sha256": "a83d6ae7bc67829f5af29c24408e5c3704cdebbe9a39c235bd1fa69372fc6dc5"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v6-world-occlusion.txt",
+      "bytes": 2025,
+      "sha256": "2ed0e0643acaca74bc88dcd91a644f51fcd727dce0e36beed918057e0dfbc0de"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v7-clear-red-sky.txt",
+      "bytes": 1595,
+      "sha256": "ed8ce181d8a53f0e2e25f68bb6d1d0fd7fb9024fbf6225d551daa24d29e074b8"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v8-originals-one-pass.txt",
+      "bytes": 3687,
+      "sha256": "dbf8efff43a0571a2d9dd85e51f3f78e0ad4ca73c43380450f41b541406b0b8b"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v9-sky-only.txt",
+      "bytes": 1936,
+      "sha256": "a8436b1d21ad91d6f4705edac84ce9adce9d3143343ccf52b95e1d02886e69e4"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v10-crimson-sky.json",
+      "bytes": 2790,
+      "sha256": "57bb687d74c52981f4e8cb61396d16f8f0aba039c60d8c67787d836681828c2b"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v11-luminous-clear-sky.json",
+      "bytes": 2441,
+      "sha256": "6c1f20bd79229009ca9527be8fc8b7cfa7964ad29db36436f54d9c1ade02e6eb"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v2-larger-world.json",
+      "bytes": 1731,
+      "sha256": "dc40cf216744b3c120ed80f8308aa29af8aa2d405734d3229b0ad2887840a55d"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v3-cloud-rock-eagle.json",
+      "bytes": 3495,
+      "sha256": "cbee3c7cb93f595648b8ed7454ddc86a023ec90217f3ea53a62564a04f562fe5"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v4-ancient-precinct.json",
+      "bytes": 3068,
+      "sha256": "5a04ae01c39b928ffaf73a95e0e263164e5e1b7eb63601406a33d1004815b564"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v5-material-polish.json",
+      "bytes": 4768,
+      "sha256": "e55b71b05060b2e2a0f6509a48b61330a170e78958491b1f79b683523be18aa7"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v6-world-occlusion.json",
+      "bytes": 2450,
+      "sha256": "40a1eb5dbfd99e64902bea63ca8723b21a3604486a7a32e06c4cf7c6848136cd"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v7-clear-red-sky.json",
+      "bytes": 2778,
+      "sha256": "efbe19d7d9b3a62147f0491f1b22c0a35b6d309122b3a632367e1f266bebb57e"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v8-originals-one-pass.json",
+      "bytes": 3546,
+      "sha256": "ccf4c3f75af0b2a7dc2d73541ac2c345833b337f410b55418d717d8d13ce7642"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v9-sky-only.json",
+      "bytes": 2579,
+      "sha256": "3ee55bee983e66f09962bd1e5bd7e2b7a1e4bd3088ea8310ea29e2d40320c69b"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record.json",
+      "bytes": 2564,
+      "sha256": "6a562e32c1a90a01c12808ddf2016d289725fa4b42ac038a8a3669c1b181e5d7"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/03-dome-of-angels/concept-v1.png",
+      "bytes": 2173799,
+      "sha256": "4edc099c96544a534e3e630563e45936db7ddcf0dac019d2031121ff96c02964"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/03-dome-of-angels/generation-prompt-v1.txt",
+      "bytes": 3125,
+      "sha256": "ed40a9c8d20075f73a513b5147b401dd59cf64bc00a2b67afa61c8b3cbc7d35f"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/03-dome-of-angels/generation-record.json",
+      "bytes": 2400,
+      "sha256": "d7c28ae1715f3d93784ae42e255c7d2f3ea99d4d204a9018873712a97ef46b1b"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/README.md",
+      "bytes": 5594,
+      "sha256": "5c19754c7a9a05bcc0267b9f9f197888f9d2d34a983a21dc78ad921c9d5619d4"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/research-notes.md",
+      "bytes": 8056,
+      "sha256": "10904deaf2ff20dc0e363075f3cdb92c98ed9870d4b7b3d886d872c314bc98d6"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/README.md",
+      "bytes": 4145,
+      "sha256": "572ad5c91f5f9c4dd89dc6e667c96f99d8f9da3f0399de4264882a0746e9a9a0"
+    },
+    {
+      "path": "creative/live/skies-of-baal/loop-plan-v1.md",
+      "bytes": 3991,
+      "sha256": "a99bdfa4d15d52d4864455dd402212d5017fdd746ecfc7da22fbadfc168eca86"
+    },
+    {
+      "path": "creative/live/skies-of-baal/manifest.json",
+      "bytes": 13664,
+      "sha256": "ab6319b42a50d9c56801699bc8b68a2779b7da3b1a42eb7502625567fc1e1852"
+    },
+    {
+      "path": "creative/live/skies-of-baal/music/elevenlabs-long-version-v1.txt",
+      "bytes": 1013,
+      "sha256": "ace30ef626ea0399cb4ed2624df0ed753970fcf0f44b053cd15db87a6e2f3aed"
+    },
+    {
+      "path": "creative/live/skies-of-baal/music/elevenlabs-prompt-v1.txt",
+      "bytes": 1082,
+      "sha256": "659e2d2c2e3e4519d50d1a9aecafb5be48e5c5971419ae0aaf491845fa6e2504"
+    },
+    {
+      "path": "creative/live/skies-of-baal/music/generation-record.json",
+      "bytes": 568,
+      "sha256": "2af7a91588207007d7b9470fc53a6cc00340ef85363b46ccc8636d7c2f0b229f"
+    },
+    {
+      "path": "creative/live/skies-of-baal/music/README.md",
+      "bytes": 2065,
+      "sha256": "85a772e601de7c04e27020898607466055b1121b6e10a63cc2dc7fcd943e062d"
+    },
+    {
+      "path": "creative/live/skies-of-baal/README.md",
+      "bytes": 6721,
+      "sha256": "4a2f1f942566e6a8daf9cf761ffa1019d595c30e7bdd0caa1dfbd96406a47866"
+    },
+    {
+      "path": "creative/live/skies-of-baal/source-notes.md",
+      "bytes": 2279,
+      "sha256": "f2331b3f8e4920f434d542c1339eb0bf8071990b3f0a9443f690bcd94e11a1a3"
+    }
+  ],
+  "payload_bytes": 44363971,
+  "png_count": 21,
+  "support_files": [
+    "AGENTS.md",
+    "PRODUCTION_PIPELINE.md",
+    ".gitattributes"
+  ],
+  "reference_downloads": "Raw external research references in .local/ remain local; source URLs/hashes and the user eagle reference are retained in the package.",
+  "verification_receipt": ".local/skies-of-baal-remote-backup-verification.json",
+  "verification_plan": "After push, create an independent sparse checkout from origin and compare SHA-256 for every package file. Record actual commit and results in the ignored local receipt.",
+  "visual_acceptance": "Commit/push request is backup authorization; v11 remains pending explicit visual review."
+}

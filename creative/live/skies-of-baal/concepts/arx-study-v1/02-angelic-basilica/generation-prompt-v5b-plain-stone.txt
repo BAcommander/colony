@@ -1,0 +1,7 @@
+Use case: precise-object-edit.
+Image 1 is the edit target, the first material-polish attempt for Skies of Baal.
+Make ONE essential correction: completely replace the surface texture on the FOREGROUND STONE MASONRY with plain natural stone.
+
+The left pillar, all floor slabs and the entire foreground parapet currently have embossed worm-like swirls, maze patterns and fossil-like circles. ERASE those patterns entirely. These are simple quarried stone blocks, not engraved ornament. Give them broad mostly smooth matte sandstone faces with sparse very fine random pores, a few natural colour variations and modest edge chips. Large quiet unpatterned surfaces are essential. The floor slabs have smooth worn centres and real straight joint gaps. Preserve the existing block outlines, joints, dimensions, perspective and shadow boundaries. Rebuild the stone material rather than making the existing swirls softer. NO visible curls, spirals, filigree, veins, embossed ridges, ornament, fossil rings or all-over cracked noise anywhere on these foreground stones.
+
+Keep the warm lantern and its wall/floor spill, timber roof, bench, blanket and barrel in place. Everything beyond the terrace is visually unchanged: cathedral and cliff, one eagle crest, distant ruins, red desert, crimson clouds, enlarged world at the same location and size. Preserve framing, sunset exposure and depth. Do not add objects, text or effects. A restrained clean still, no animation.

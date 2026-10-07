@@ -1,0 +1,15 @@
+SKY-ONLY CORRECTION. Image 1 is the user's selected VERSION 7 base. Preserve the planet's current size and position and preserve every element of the fortress, ground, cliffs, ruined gateway, terrace, lantern, wood, furniture and framing.
+
+The previous edits made a fundamental tonal mistake: they painted the supposed clear sky dark burgundy, which visually reads as a cloud. FIX THIS.
+
+Rebuild the sky with the following unambiguous relationship:
+CLEAR SKY = LIGHTER, LUMINOUS RED-ORANGE atmospheric sunset colour.
+CLOUDS = DARKER charcoal, plum and deep-red solid volumes, with narrow warm illuminated edges.
+
+The rocky planet must appear in a LIGHT RED-ORANGE OPENING of unobstructed sky. The atmosphere immediately above, below and beside its full circumference is luminous vermilion/orange-red, visibly LIGHTER than the nearby cloud bodies. Match the clear air's colour family to the existing bright red-orange sunset openings lower in the image, with a natural gradual deepening upward. This is clear atmospheric sky, not a dark cloud, not a halo emitted by the planet. Do not paint any maroon/burgundy/charcoal patch behind the planet.
+
+Build a coherent, asymmetric, broken cloud field around that open sky. Dark cloud masses have real internal volume and naturally ragged boundaries; the red-orange clear air runs as an irregular connected gap between them. Let this gap connect visually toward other luminous sunset openings rather than becoming a circular spotlight or isolated oval. Keep the brighter sky area large enough to clearly surround the disc, while retaining varied cloud detail across the full scene. No blurred patch, airbrushed clearing, ring, donut, glow halo or vague smear.
+
+The planet remains the same approximately 60–65-pixel rocky disc near x1160,y300 in the 1672x941 reference. It is fully opaque and fully visible, with the same size, centre and crater geometry. No clouds touch, cross or continue behind its apparent outline. Its warm rocky surface remains legible against the luminous clear sky without artificial outlining or glow.
+
+Keep v7's sky palette warm red/orange overall, with dark cloud bodies clearly distinguished from LIGHT CLEAR AIR. Preserve the golden horizon, all scene lighting and all non-sky content. Do not redesign, retexture, recolour or add anything in the foreground or landscape. No text. The single essential result is unmistakable: PLANET IN A LIGHT RED-ORANGE PATCH OF CLEAR SKY, DARK CLOUDS AROUND THAT OPENING.

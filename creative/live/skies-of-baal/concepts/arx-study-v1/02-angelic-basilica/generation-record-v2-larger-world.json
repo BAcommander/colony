@@ -1,0 +1,32 @@
+{
+  "title": "Angelic Basilica \u2014 larger sky world",
+  "version": 2,
+  "date": "2026-10-07",
+  "tool": "built_in_imagegen",
+  "intent": "localized_image_edit",
+  "user_feedback": "i actually think 2 is good, could the world in the sky be like 50% larger?",
+  "chosen_direction": "arx-study-v1/02-angelic-basilica",
+  "input_image": {
+    "file": "concept-v1.png",
+    "sha256": "a1f8b908fe6d415bcfb012c313f85e61fb8a904a5d9d63566a9c49882d59a424",
+    "role": "edit_target"
+  },
+  "prompt_file": "generation-prompt-v2-larger-world.txt",
+  "prompt_sha256": "3a0ae81bf4436dc5f52f6380fea79db7baa3ae04e16c0d633a37db2865c94826",
+  "artwork_file": "concept-v2-larger-world.png",
+  "artwork_sha256": "434af1621260568f8a0be21c782217ec5d32f0a3c7fc55e3681425c7f100c6c4",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "original_generated_path": "C:\\Users\\john\\.codex\\generated_images\\01a11698-1faa-79c2-aa95-cb9e63786f46\\exec-cb7c823b-b3b0-49c4-a663-c75852624a0a.png",
+  "copied_byte_identically": true,
+  "post_generation_image_edits": false,
+  "requested_diameter_scale": 1.5,
+  "requested_centre": "same position",
+  "inspection": "Assistant inspected full-composition generated still. Sky body visibly enlarged at the same approximate centre; terrace, architecture and sky visually retained. Exact scale and outside-edit pixel identity not asserted.",
+  "status": "user_requested_cloud_rock_ornament_corrections",
+  "user_accepted_revised_artwork": false,
+  "credits_spent": 0,
+  "subsequent_feedback": "i think it's wierdly too easy to see through the clouds also can the texture on the cliffs be better? looks fake, dont have these on every spire, maybe jst one and have it look more like"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Skies of Baal",
+  "status": "prompts_prepared_no_audio",
+  "prepared_date": "2026-10-07",
+  "generation_operator": "user_manual",
+  "provider": null,
+  "model_or_version": null,
+  "actual_ui_settings": null,
+  "credits_spent": 0,
+  "variants": [],
+  "selected_test": null,
+  "long_source_file": null,
+  "long_source_sha256": null,
+  "decoded_duration_seconds": null,
+  "loop_cut_points": null,
+  "crossfade_seconds": null,
+  "gain": null,
+  "join_audition": null,
+  "user_feedback": [],
+  "join_accepted": false,
+  "extended_listening_accepted": false
+}

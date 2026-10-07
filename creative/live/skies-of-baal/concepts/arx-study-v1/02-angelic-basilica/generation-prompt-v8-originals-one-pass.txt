@@ -1,0 +1,19 @@
+Create ONE improved Skies of Baal still directly from these original references, rebuilding the scene coherently in a single pass.
+
+REFERENCE ROLES
+Image 1: original Angelic Basilica v1. This controls the selected cathedral architecture, overall camera/framing, cliff location, terrace and object layout.
+Image 2: the first Homeward Terrace image. Use its original naturally structured red sky, photographic foreground stone and realistic surface restraint. Do not use its simpler fortress design.
+Image 3: shape reference for one small bronze double-headed eagle crest only.
+
+FIRST PRIORITY: SKY AND WORLD
+Recover the original dramatic layered crimson sky: defined irregular cloud banks, illuminated ragged undersides, dark volumes, fine internal structure and deep gaps. It must look like a complete natural cloud field, with the original level of detail and contrast.
+At the original world centre, approximately x1164,y300 in the 1672x941 scene, make the rocky world about 50% larger in DIAMETER than in images 1/2: approximately 60 pixels. Place its fully visible opaque disc in a SMALL, naturally irregular opening of clear deep-red twilight sky. The opening should be only modestly larger than the disc, roughly two disc-widths, with uneven nonconcentric edges. Clear red sky immediately surrounds the entire circumference. No local clouds touch or overlap the world, no cloud ribbon runs behind its apparent silhouette, no cloud texture appears through its rocky surface. The shading and crater relief belong to solid rock. The local atmosphere lies between viewer and world; the line of sight here is cloud-free.
+Crucially, keep the surrounding sky richly structured right up to the natural cloud boundaries. NO broad smooth oval, smudged patch, blurred area, circular halo, ring of clouds, uniform colour wash or cloud-erasing gradient. The opening is a small incidental break in weather, not a hole centred dramatically on the world. Retain the layered horizon clouds and distant dust bank.
+
+INTEGRATE THE EARLIER REQUESTED IMPROVEMENTS
+Keep the chosen Angelic Basilica's magnificent nave, tall lit window, dome, clustered spires and cliffside bridge. Remove repeated winged figures from the spires. Exactly ONE small bronze crest based on image 3 remains on the tallest spire; other spires end in plain points.
+Ground the architecture on broad angular, naturally fractured volcanic rock with irregular major joints, talus and quieter faces. Bridge piers and buttresses end in credible foundations. Avoid melted, knotted or uniformly cracked cliff texture.
+Retain the warm covered terrace, lamp and its localized spill, timber roof, bench, rust blanket, barrel and parapet. Follow image 2's plain matte quarried stone: realistic seams, broad quiet faces and modest edge wear. No invented engraved curls, embossed swirls or all-over microtexture.
+Add one small, dark, sand-buried ruined arched gateway with a few low broken walls in the right middle-distance plain, approximately x1200,y590. Only about 35–45 pixels high at this composition, subordinate to the fortress. Uneven sand burial, heavy masonry, faint partly erased route back toward fortress foothills and appropriate loss of contrast with distance. Preserve generous empty desert. This is an artistic interpretation of abandoned outlying Arx precincts, not a specifically named canonical gate.
+
+Finish with the original photographic material restraint, warm human shelter and epic quiet distance. Preserve the selected camera and skyline balance. No new characters, spacecraft, settlements, statues, skulls, machinery, lava, vegetation, text, logo or watermark. No animation. Output one coherent widescreen still.

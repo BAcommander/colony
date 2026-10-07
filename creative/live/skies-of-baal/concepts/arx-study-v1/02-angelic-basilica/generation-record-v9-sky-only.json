@@ -1,0 +1,42 @@
+{
+  "title": "Angelic Basilica - v7 with a freshly remade sky",
+  "version": 9,
+  "date": "2026-10-07",
+  "tool": "built_in_imagegen",
+  "intent": "sky_only_edit",
+  "user_feedback": "i only wanted you to redo the sky man.... like v7 but with a remade from scratch sky? can you not manage that",
+  "scope_correction": "Previous v8 incorrectly reapplied broader scene refinements. User explicitly selects v7 as base and requests only a freshly remade sky. Preserve v7 world size and all scene/ground structures.",
+  "generation_calls_this_revision": 1,
+  "input_images": [
+    {
+      "role": "sole_edit_target",
+      "file": "concept-v7-clear-red-sky.png",
+      "sha256": "245aad9c7c6dd9c6733203f4330a503a08cbc39f5bb43388d53391039a89c7fa"
+    }
+  ],
+  "prompt_file": "generation-prompt-v9-sky-only.txt",
+  "prompt_sha256": "a8436b1d21ad91d6f4705edac84ce9adce9d3143343ccf52b95e1d02886e69e4",
+  "artwork_file": "concept-v9-sky-only.png",
+  "artwork_sha256": "92302aae4c91baf99e3972166647863e6c9b36f5539d4c4607b0dd9e06a5ea59",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "original_generated_path": "C:/Users/john/.codex/generated_images/01a11698-1faa-79c2-aa95-cb9e63786f46/exec-cdbd7e67-0297-44d1-8ce8-85ee48b0c09f.png",
+  "copied_byte_identically": true,
+  "post_generation_image_edits": false,
+  "inspection": {
+    "method": "Assistant inspected full-composition generated still. No animation or playback.",
+    "sky": "New coherent cloud field with distinct volumes, ragged lit edges and internal detail; smaller irregular clear-red opening around the world replaces the broad smudged v7 opening.",
+    "world": "V7 larger disc size and location visually retained, complete circumference against clear red sky.",
+    "other_scene": "V7 fortress/tower arrangement, main crest, cliff/ruin placement, foreground shelter and framing visually retained; no requested geometry/material revision outside sky. Image generation can resynthesize fine pixels, so exact outside-sky preservation is not claimed.",
+    "quality_scope": "Cloud appearance and scene retention remain for user visual review; no orbital/canon or artistic acceptance claim."
+  },
+  "status": "superseded_by_v10_crimson_sky_requested_from_v7",
+  "user_accepted": false,
+  "ready_to_freeze_for_animation": false,
+  "animation_render_invoked": false,
+  "credits_spent": 0,
+  "subsequent_user_feedback": "so can we fix this and make version 10, i think version 7 was perfect except the planet / sky part",
+  "superseded_by": "generation-record-v10-crimson-sky.json"
+}

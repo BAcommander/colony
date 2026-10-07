@@ -1,0 +1,40 @@
+{
+  "title": "Angelic Basilica - world and foreground-cloud occlusion",
+  "version": 6,
+  "date": "2026-10-07",
+  "tool": "built_in_imagegen",
+  "intent": "local_image_edit",
+  "user_feedback": "i dont understand how there are still clouds BEHIND the planet",
+  "input_images": [
+    {
+      "role": "edit_target",
+      "file": "concept-v5-material-polish.png",
+      "sha256": "776e8195a68e0cbd0643847958b2a0732c6626d0af06e541b355abf1538f7fd8"
+    }
+  ],
+  "prompt_file": "generation-prompt-v6-world-occlusion.txt",
+  "prompt_sha256": "2ed0e0643acaca74bc88dcd91a644f51fcd727dce0e36beed918057e0dfbc0de",
+  "artwork_file": "concept-v6-world-occlusion.png",
+  "artwork_sha256": "03b42c29381b90758d67e157bbf78bfe23ea6175559d82e0b5748c62e43b76b3",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "original_generated_path": "C:/Users/john/.codex/generated_images/01a11698-1faa-79c2-aa95-cb9e63786f46/exec-a003dcaa-f886-4488-96e9-9861f8499078.png",
+  "copied_byte_identically": true,
+  "post_generation_image_edits": false,
+  "requested_correction": "Opaque rocky body beyond the entire local atmosphere. No local cloud pattern inside the disc, no cloud ribbon terminating at the limb as if passing behind it. Clear irregular sky gap around sides/top; small opaque foreground cloud hides only the lower edge. Same approximate centre and size.",
+  "inspection": {
+    "method": "Assistant inspected generated full-composition still. No animation/playback.",
+    "disc": "Shaded left portion now visibly contains rocky crater texture rather than a continuous local cloud-like stripe; solid surface more clearly legible.",
+    "occlusion": "Small dark cloud edge meets/cuts the lower rim; clearer sky separation around top and sides. Exact overlap fraction not measured.",
+    "preservation": "Fortress, terrace, single eagle, ruins, sky and framing visually retained. Outside-edit exact pixel retention not claimed; imagegen resynthesis can alter fine texture.",
+    "scope": "Correction is a generated candidate, not proven user acceptance or verified orbital illumination/named moon surface."
+  },
+  "status": "superseded_by_requested_v7_clear_red_sky",
+  "user_accepted": false,
+  "animation_render_invoked": false,
+  "credits_spent": 0,
+  "subsequent_user_feedback": "whgat about the cloud behind it? surely it should just be read sky behind it?",
+  "superseded_by": "generation-record-v7-clear-red-sky.json"
+}

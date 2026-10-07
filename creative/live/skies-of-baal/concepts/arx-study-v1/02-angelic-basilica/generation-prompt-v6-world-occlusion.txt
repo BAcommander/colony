@@ -1,0 +1,10 @@
+Precise local image edit. Image 1 is the current Skies of Baal artwork.
+Fix ONLY the depth relationship between the distant rocky celestial body and the local clouds. Current image looks as if a cloud ribbon continues BEHIND or THROUGH the globe. That is the defect to remove.
+
+At the existing globe position, around x1164 y300 in the 1672x941 reference, reconstruct the same approximately 60-pixel rocky disc as a completely OPAQUE solid surface. Quiet crater relief and coherent right-side illumination; no horizontal cloud-shaped stripes or sky-cloud texture inside any part of its surface, including the shaded left half. Preserve its size and centre.
+
+The entire globe is BEYOND the local atmosphere. Establish a modest irregular clear-sky gap around its upper and side edges, with plain dark rust twilight sky, so surrounding cloud ribbons do not terminate at its circular silhouette and imply they pass behind it. The gap is part of a natural broken cloud field, not a circular halo or a cloud ring.
+
+At the bottom edge, ONE small existing dark local cloud ribbon travels horizontally across the line of sight, IN FRONT OF the globe. Its irregular opaque upper edge hides only the lowest 10–15% of the disc. Continue this same cloud shape naturally to either side. The hidden rocky surface is absent there: no craters or bright limb visible through the cloud, no bright crescent painted over the dark cloud. Most of the disc stays clearly visible. Any other local cloud whose projected position overlaps the disc must also hide that part of the disc. There are ZERO local clouds behind the globe. Cloud silhouettes never disappear behind its edge.
+
+Preserve all scene elements outside this small sky area: crimson cloud composition elsewhere, sunset horizon, fortress/towers/dome, exactly one eagle crest, cliffs, ruined gateway, desert, terrace/pillar/parapet/floor, lantern and its warm spill, bench/blanket/barrel, roof and camera. No new objects, stars, second moon, text or global relighting. Still image only.

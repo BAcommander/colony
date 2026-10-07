@@ -1,0 +1,11 @@
+Create VERSION 10 as a precise SKY-AREA EDIT of the supplied VERSION 7 image.
+
+The user considers VERSION 7 perfect except for the planet/sky area. Preserve its entire landscape, fortress, spires, single crest, cliffs, ruined gateway, terrace, pillar, parapet, floor, lantern and its spill, roof, bench, blanket, barrel, camera and framing. Do not redesign or polish anything on the ground or in the foreground. Match those existing pixels as closely as possible.
+
+Rework only the sky surrounding the planet:
+- The clear sky must read distinctly as RICH DEEP CRIMSON RED. Replace the muddy brown/mauve cast around the planet with warm red atmospheric colour. Keep the clear red darker than the fiery illuminated cloud edges. A subtle natural vertical progression toward the amber horizon is appropriate; no grey-brown haze, purple wash, neon scarlet or global red filter.
+- Replace the broad airbrushed/smudged appearance of this area with a believable break in a coherent cloud field. Shape its boundaries asymmetrically with naturally torn, layered cloud edges and visible internal cloud texture. Preserve the dramatic original cloud detail elsewhere. No broad blurry oval, circular hole, donut of clouds, glow halo or smearing.
+- Around the planet itself there is plain CLEAR CRIMSON SKY. The full disc is visible with no clouds touching, crossing, appearing behind its outline or showing through its surface. Let the irregular opening extend unevenly into the surrounding cloud field, avoiding a gap shaped to the planet.
+- Keep the VERSION 7 planet: identical apparent size and centre, approximately 60–65 pixels across near x1160,y300 in this 1672x941 composition. Retain its opaque rocky cratered surface and soft right-side illumination. Do not shrink, move, enlarge, blur or duplicate it.
+
+Maintain the original golden horizon and all existing scene illumination. No atmospheric mist added over the fortress or terrain. This is a localized improvement to the planet/sky area of v7, with v7's larger world and all other scene content retained. Still only; no text or new objects.

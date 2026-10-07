@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "title": "Skies of Baal",
+  "package_type": "first_ambient_colony_live_special_concept",
+  "prepared_date": "2026-10-07",
+  "status": "angelic_basilica_v11_luminous_clear_sky_review_pending",
+  "catalog_number": null,
+  "release_constraint": {
+    "relationship": "strictly_after_publication",
+    "catalog_number": 10,
+    "public_name": "Farpoint Station",
+    "package_directory": "final/10-nightward-station",
+    "publication_verified": false,
+    "publication_evidence": null,
+    "special_release_date": null
+  },
+  "user_authority": {
+    "request": "Concept out a new folder for a loopable Skies of Baal track as our first Colony livestream; release sometime after number 10.",
+    "concept_preparation_authorized": true,
+    "working_title_user_supplied": true,
+    "specific_creative_direction_accepted": false,
+    "generation_or_render_invoked": true,
+    "broadcast_invoked": false,
+    "commit_push_requested_for_this_package": true,
+    "artwork_generation_request": "can you create the concept, maybe make 3 versions of it? so we can choose the best",
+    "artwork_generation_authorized": true,
+    "animation_render_invoked": false,
+    "artwork_refinement_request": "i feel this is the best idea, can we research the arx angelicum and have the structure in the distance use more styles and refrence for it? again do 3 versions",
+    "preferred_artwork_direction": "arx-study-v1/02-angelic-basilica",
+    "preferred_direction_feedback": "i feel this is the best idea",
+    "latest_artwork_feedback": "surely these dark reds are clouds and the lighter red / orange is clear sky, i'm confused as to why you keep failing to build this",
+    "latest_request_scope": "Correct tonal interpretation: clear sky around world must be light red-orange; dark masses are clouds. Retain v7 non-sky scene and larger world.",
+    "commit_push_request": "commit and poush"
+  },
+  "proposals": {
+    "emotional_premise": "The homecoming he never had",
+    "instrumental_only": true,
+    "audio_source_development_minutes": [
+      5,
+      10
+    ],
+    "audio_loop_seconds": null,
+    "visual_loop_seconds": 60,
+    "visual_duration_user_selected": false,
+    "production_default_if_proposal_not_selected_seconds": 20,
+    "fps": 30,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "stream_runtime_seconds": null,
+    "continuous_24_7_selected": false
+  },
+  "production": {
+    "artwork_file": null,
+    "source_sha256": null,
+    "source_dimensions": null,
+    "audio_source_file": null,
+    "masks_created": false,
+    "renderer_created": false,
+    "video_file": null,
+    "technical_validation": null,
+    "user_visual_acceptance": null,
+    "user_music_acceptance": null,
+    "credits_spent": 0,
+    "stream_scheduled": false,
+    "published": false,
+    "artwork_candidates": [
+      {
+        "variant_id": "01-last-watch-gallery",
+        "title": "Last Watch Gallery",
+        "artwork_file": "concepts/01-last-watch-gallery/concept-v1.png",
+        "artwork_sha256": "679a233d39df306226e7b12455e9d50e678f4b6392da9a4dafc77327070add76",
+        "native_dimensions": [
+          1672,
+          941
+        ],
+        "generation_record": "concepts/01-last-watch-gallery/generation-record.json",
+        "status": "generated_candidate_user_selection_pending"
+      },
+      {
+        "variant_id": "02-homeward-terrace",
+        "title": "Homeward Terrace",
+        "artwork_file": "concepts/02-homeward-terrace/concept-v1.png",
+        "artwork_sha256": "43815a22b4f40e1cd581e822e1dc01d59b7e9db2a8b3bfce7fbafdd8919d4bab",
+        "native_dimensions": [
+          1672,
+          941
+        ],
+        "generation_record": "concepts/02-homeward-terrace/generation-record.json",
+        "status": "generated_candidate_user_selection_pending"
+      },
+      {
+        "variant_id": "03-first-light",
+        "title": "First Light",
+        "artwork_file": "concepts/03-first-light/concept-v1.png",
+        "artwork_sha256": "8446622eb18c64f2382544081967a3868e9d566cb6c797563ea0bd3a9d0ec885",
+        "native_dimensions": [
+          1672,
+          941
+        ],
+        "generation_record": "concepts/03-first-light/generation-record.json",
+        "status": "generated_candidate_user_selection_pending"
+      }
+    ],
+    "selected_artwork_variant": "arx-study-v1/02-angelic-basilica",
+    "preferred_base_artwork_variant": "02-homeward-terrace",
+    "arx_refinement_candidates": [
+      {
+        "variant_id": "01-caldera-citadel",
+        "title": "Caldera Citadel",
+        "artwork_file": "concepts/arx-study-v1/01-caldera-citadel/concept-v1.png",
+        "artwork_sha256": "ac7e95b534a2af926d98893341ddd19f77286eaffa39633cc3d333fa7b193033",
+        "native_dimensions": [
+          1672,
+          941
+        ],
+        "generation_record": "concepts/arx-study-v1/01-caldera-citadel/generation-record.json",
+        "status": "generated_refinement_user_selection_pending",
+        "user_selected": false
+      },
+      {
+        "variant_id": "02-angelic-basilica",
+        "title": "Angelic Basilica",
+        "artwork_file": "concepts/arx-study-v1/02-angelic-basilica/concept-v1.png",
+        "artwork_sha256": "a1f8b908fe6d415bcfb012c313f85e61fb8a904a5d9d63566a9c49882d59a424",
+        "native_dimensions": [
+          1672,
+          941
+        ],
+        "generation_record": "concepts/arx-study-v1/02-angelic-basilica/generation-record.json",
+        "status": "chosen_direction_larger_world_revision_requested",
+        "user_selected": true
+      },
+      {
+        "variant_id": "03-dome-of-angels",
+        "title": "Dome of Angels",
+        "artwork_file": "concepts/arx-study-v1/03-dome-of-angels/concept-v1.png",
+        "artwork_sha256": "4edc099c96544a534e3e630563e45936db7ddcf0dac019d2031121ff96c02964",
+        "native_dimensions": [
+          1672,
+          941
+        ],
+        "generation_record": "concepts/arx-study-v1/03-dome-of-angels/generation-record.json",
+        "status": "generated_refinement_user_selection_pending",
+        "user_selected": false
+      }
+    ],
+    "canonical_comparison": {
+      "user_question": "which is the most canonical one?",
+      "assistant_recommendation": "01-caldera-citadel",
+      "scope": "Closest of these three to the written wall/volcanic-setting/tower/dome hierarchy; no complete twin-peak/caldera layout verified. This is not user selection.",
+      "source": "https://wh40k.lexicanum.com/wiki/Arx_Angelicum"
+    },
+    "current_artwork_candidate_file": "concepts/arx-study-v1/02-angelic-basilica/concept-v11-luminous-clear-sky.png",
+    "current_artwork_candidate_sha256": "30f0d2d0261875556fd7a96b6b9c1f02788d41e4254b23348a0859b2be376a5f",
+    "current_artwork_candidate_dimensions": [
+      1672,
+      941
+    ],
+    "current_artwork_candidate_user_accepted": false,
+    "latest_artwork_record": "concepts/arx-study-v1/02-angelic-basilica/generation-record-v11-luminous-clear-sky.json",
+    "final_pass_plan": "concepts/arx-study-v1/02-angelic-basilica/final-pass-plan-v1.json",
+    "final_pass_recommended_option": "A",
+    "final_pass_selected_option": "A_recommended_option_interpreted_from_context",
+    "current_artwork_known_misses": [],
+    "ready_to_freeze_for_animation": false,
+    "current_artwork_inspection_limit": "Visual preservation only; exact outside-sky pixel retention not claimed. User review pending.",
+    "partial_source_approval": {
+      "artwork_file": "concepts/arx-study-v1/02-angelic-basilica/concept-v7-clear-red-sky.png",
+      "scope": "All except planet/sky",
+      "quote": "so can we fix this and make version 10, i think version 7 was perfect except the planet / sky part"
+    },
+    "remote_backup_verification_record": ".local/skies-of-baal-remote-backup-verification.json (repository-relative; written after remote restore verification)",
+    "backup_scope": "Entire Skies of Baal package, including all 21 PNGs and historical/internal versions, exact prompts, research, feedback and planning records; plus project tracker/instructions and scoped byte-preservation attributes."
+  },
+  "files": [
+    "README.md",
+    "concept-brief-v1.md",
+    "artwork-prompt-v1.txt",
+    "source-notes.md",
+    "loop-plan-v1.md",
+    "music/README.md",
+    "music/elevenlabs-prompt-v1.txt",
+    "music/elevenlabs-long-version-v1.txt",
+    "music/generation-record.json",
+    "concepts/01-last-watch-gallery/concept-v1.png",
+    "concepts/01-last-watch-gallery/generation-prompt-v1.txt",
+    "concepts/01-last-watch-gallery/generation-record.json",
+    "concepts/02-homeward-terrace/concept-v1.png",
+    "concepts/02-homeward-terrace/generation-prompt-v1.txt",
+    "concepts/02-homeward-terrace/generation-record.json",
+    "concepts/03-first-light/concept-v1.png",
+    "concepts/03-first-light/generation-prompt-v1.txt",
+    "concepts/03-first-light/generation-record.json",
+    "concepts/README.md",
+    "concepts/arx-study-v1/README.md",
+    "concepts/arx-study-v1/research-notes.md",
+    "concepts/arx-study-v1/01-caldera-citadel/concept-v1.png",
+    "concepts/arx-study-v1/01-caldera-citadel/generation-prompt-v1.txt",
+    "concepts/arx-study-v1/01-caldera-citadel/generation-record.json",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v1.png",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v1.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-record.json",
+    "concepts/arx-study-v1/03-dome-of-angels/concept-v1.png",
+    "concepts/arx-study-v1/03-dome-of-angels/generation-prompt-v1.txt",
+    "concepts/arx-study-v1/03-dome-of-angels/generation-record.json",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v2-larger-world.png",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v2-larger-world.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-record-v2-larger-world.json",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v3-cloud-rock-eagle.png",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v3a-cloud-rock-eagle-internal.png",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v3-cloud-rock-eagle.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v3b-cloud-rock-eagle.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-record-v3-cloud-rock-eagle.json",
+    "concepts/arx-study-v1/02-angelic-basilica/feedback-v3/eagle-shape-reference.png",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v4-ancient-precinct.png",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v4-ancient-precinct.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-record-v4-ancient-precinct.json",
+    "concepts/arx-study-v1/02-angelic-basilica/final-pass-prompt-a-v1.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/final-pass-prompt-b-v1.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/final-pass-prompt-c-v1.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/final-pass-review-v1.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/final-pass-plan-v1.json",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v5-material-polish.png",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-record-v5-material-polish.json",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v5a-polish-internal.png",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v5b-stone-internal.png",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v5c-stone-internal.png",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v5a-option-a.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v5b-plain-stone.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v5c-stone-rebuild.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v5d-material-reconstruction.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v6-world-occlusion.png",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v6-world-occlusion.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-record-v6-world-occlusion.json",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v7-clear-red-sky.png",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v7-clear-red-sky.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-record-v7-clear-red-sky.json",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v8-originals-one-pass.png",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v8-originals-one-pass.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-record-v8-originals-one-pass.json",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v9-sky-only.png",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v9-sky-only.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-record-v9-sky-only.json",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v10-crimson-sky.png",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v10-crimson-sky.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-record-v10-crimson-sky.json",
+    "concepts/arx-study-v1/02-angelic-basilica/concept-v11-luminous-clear-sky.png",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v11-luminous-clear-sky.txt",
+    "concepts/arx-study-v1/02-angelic-basilica/generation-record-v11-luminous-clear-sky.json",
+    "backup-manifest.json"
+  ]
+}

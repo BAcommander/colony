@@ -1,0 +1,47 @@
+{
+  "title": "Angelic Basilica - v10 crimson sky from v7",
+  "version": 10,
+  "date": "2026-10-07",
+  "tool": "built_in_imagegen",
+  "intent": "planet_sky_area_edit",
+  "user_feedback": "so can we fix this and make version 10, i think version 7 was perfect except the planet / sky part",
+  "scope": "Use v7 as sole base. User explicitly likes all of v7 except planet/sky. Richer crimson clear sky and natural detailed cloud boundaries; retain larger world and all scene content.",
+  "generation_calls_this_revision": 1,
+  "input_images": [
+    {
+      "role": "sole_edit_target",
+      "file": "concept-v7-clear-red-sky.png",
+      "sha256": "245aad9c7c6dd9c6733203f4330a503a08cbc39f5bb43388d53391039a89c7fa"
+    }
+  ],
+  "prompt_file": "generation-prompt-v10-crimson-sky.txt",
+  "prompt_sha256": "b45dcb95e8cd707eafecf08d6003b87e0d40e9f886fbf0346359ac0f6330f3c2",
+  "artwork_file": "concept-v10-crimson-sky.png",
+  "artwork_sha256": "489d02b10449ef0b7d7919795515780a283a365afe83e5aa6fd1de4396190450",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "original_generated_path": "C:/Users/john/.codex/generated_images/01a11698-1faa-79c2-aa95-cb9e63786f46/exec-78093a3a-80f5-4335-a541-8910cb9e554b.png",
+  "copied_byte_identically": true,
+  "post_generation_image_edits": false,
+  "inspection": {
+    "method": "Assistant inspected generated full-composition still; no animation or playback.",
+    "sky": "Clear area around world now deep crimson rather than muted brown/mauve. New irregular defined cloud boundaries and internal detail surround the opening; stronger red colour also affects the wider cloud field.",
+    "planet": "V7 larger rocky disc size and centre visually retained and fully clear of local clouds.",
+    "scene": "V7 fortress, cliffs, gate ruins, terrace framing, lantern, bench, blanket, barrel and parapet visually retained. Fine pixels may be resynthesized; exact outside-sky pixel preservation not claimed.",
+    "scope": "Colour strength, sky composition and retention await user review. No physical orbit/canonical surface or artistic approval asserted."
+  },
+  "partial_source_approval": {
+    "file": "concept-v7-clear-red-sky.png",
+    "scope": "Scene excluding planet/sky",
+    "quote": "so can we fix this and make version 10, i think version 7 was perfect except the planet / sky part"
+  },
+  "status": "user_rejected_dark_clear_sky_reads_as_cloud",
+  "user_accepted": false,
+  "ready_to_freeze_for_animation": false,
+  "animation_render_invoked": false,
+  "credits_spent": 0,
+  "subsequent_user_feedback": "surely these dark reds are clouds and the lighter red / orange is clear sky, i'm confused as to why you keep failing to build this",
+  "superseded_by": "generation-record-v11-luminous-clear-sky.json"
+}

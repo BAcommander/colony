@@ -1,0 +1,40 @@
+{
+  "title": "Angelic Basilica - luminous clear sky with darker cloud bodies",
+  "version": 11,
+  "date": "2026-10-07",
+  "tool": "built_in_imagegen",
+  "intent": "sky_only_correction",
+  "user_feedback": "surely these dark reds are clouds and the lighter red / orange is clear sky, i'm confused as to why you keep failing to build this",
+  "diagnosis": "Previous assistant prompts assigned dark burgundy/cloud-shadow values to clear sky. In this scene that made the world appear in front of a dark cloud. The intended clear-air value is lighter luminous red-orange; clouds are darker volumes.",
+  "input_images": [
+    {
+      "role": "sole_edit_target",
+      "file": "concept-v7-clear-red-sky.png",
+      "sha256": "245aad9c7c6dd9c6733203f4330a503a08cbc39f5bb43388d53391039a89c7fa"
+    }
+  ],
+  "generation_calls_this_revision": 1,
+  "prompt_file": "generation-prompt-v11-luminous-clear-sky.txt",
+  "prompt_sha256": "0457a8b6ea36832ff8ff55be1b838587f45ece32ff41e5a5c30f1876f4c0b8ae",
+  "artwork_file": "concept-v11-luminous-clear-sky.png",
+  "artwork_sha256": "30f0d2d0261875556fd7a96b6b9c1f02788d41e4254b23348a0859b2be376a5f",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "original_generated_path": "C:/Users/john/.codex/generated_images/01a11698-1faa-79c2-aa95-cb9e63786f46/exec-57a4dff8-2b64-46dd-be7f-6b52883641e0.png",
+  "copied_byte_identically": true,
+  "post_generation_image_edits": false,
+  "inspection": {
+    "method": "Assistant inspected full-composition generated still; no playback.",
+    "sky": "Light red-orange clear opening visibly surrounds planet; cloud bodies above and beside it are markedly darker with narrow warm illuminated edges. Opening relates to lower sunset openings, not a dark central patch. Overall sky is brighter than v10.",
+    "world": "V7 larger rocky disc visually retains centre/size and complete visible circumference without cloud crossing.",
+    "scene": "V7 fortress, ground, cliffs, ruined gate, terrace, lamp/furniture and camera visually retained. Exact outside-sky pixels not claimed; imagegen can resynthesize detail.",
+    "scope": "New sky brightness/composition awaits user review; v7 non-sky acceptance does not imply v11 acceptance."
+  },
+  "status": "generated_luminous_clear_sky_candidate_review_pending",
+  "user_accepted": false,
+  "ready_to_freeze_for_animation": false,
+  "animation_render_invoked": false,
+  "credits_spent": 0
+}

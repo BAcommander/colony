@@ -1,0 +1,56 @@
+{
+  "variant_id": "03-dome-of-angels",
+  "title": "Dome of Angels",
+  "generated_date": "2026-10-07",
+  "tool": "built_in_imagegen",
+  "intent": "image_edit",
+  "use_case": "precise-object-edit",
+  "input_images": [
+    {
+      "role": "edit_target",
+      "path": "C:\\Colony\\creative\\live\\skies-of-baal\\concepts\\02-homeward-terrace\\concept-v1.png",
+      "sha256": "43815a22b4f40e1cd581e822e1dc01d59b7e9db2a8b3bfce7fbafdd8919d4bab"
+    },
+    {
+      "role": "architecture_only",
+      "path": "C:\\Colony\\.local\\skies-of-baal-references\\baal-fortress.jpg",
+      "sha256": "9cbad981dfa7392a6d645854ef71a7fdf363524f8bbd809d417ebaa9492bdb5b",
+      "dimensions": [
+        617,
+        1196
+      ],
+      "source_url": "https://wh40k.lexicanum.com/mediawiki/images/d/df/BaalFortressMonestary.jpg",
+      "storage": "local_ignored_reference_not_release_asset"
+    },
+    {
+      "role": "landscape_scale_only_low_resolution",
+      "path": "C:\\Colony\\.local\\skies-of-baal-references\\first-founding-preview.jpg",
+      "sha256": "6e47b340b5b87d93666bf91dfaa2a4d66076c219757b0cf7e552886a75be7ec4",
+      "dimensions": [
+        300,
+        69
+      ],
+      "source_url": "https://artwork.40k.gallery/wp-content/uploads/2023/03/First-Founding-Baal-Environment-300x69.jpg",
+      "storage": "local_ignored_reference_not_release_asset"
+    }
+  ],
+  "transparent_background": false,
+  "prompt_file": "generation-prompt-v1.txt",
+  "prompt_sha256": "ed40a9c8d20075f73a513b5147b401dd59cf64bc00a2b67afa61c8b3cbc7d35f",
+  "artwork_file": "concept-v1.png",
+  "artwork_sha256": "4edc099c96544a534e3e630563e45936db7ddcf0dac019d2031121ff96c02964",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "original_generated_path": "C:\\Users\\john\\.codex\\generated_images\\01a11698-1faa-79c2-aa95-cb9e63786f46\\exec-5ed1bd6f-6878-47a1-b55b-a512df18e72c.png",
+  "copied_byte_identically": true,
+  "post_generation_image_edits": false,
+  "outside_edit_exact_pixel_preservation_verified": false,
+  "inspection": "Assistant inspected the generated full-composition still; visual retention only. See ../README.md.",
+  "canon_scope": "Research-led architectural interpretation, not an exact canonical reconstruction.",
+  "status": "generated_refinement_user_selection_pending",
+  "user_selected": false,
+  "user_accepted": false,
+  "credits_spent": 0
+}
