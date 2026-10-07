@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-07",
+  "authorization": "commit and push this version, it still needs work.",
+  "scope": "Empty Junction v1-v3 code/config/masks/reports and diagnostics, current scene records, exact v3 minute preview and dependency snapshots",
+  "approval": "Work in progress; still needs work. No visual acceptance or 4K authorization inferred.",
+  "preview": {
+    "path": "music/empty-junction-animation-v3/empty-junction-v3-preview-60s.mp4",
+    "sha256": "16c547cb62e41440e35f06b82ff68afb79bf85a42ce0cc30f7161163783778ef",
+    "bytes": 14195903,
+    "storage": "ordinary Git with exact-path exception"
+  },
+  "dependencies": {
+    "scripts/ambient_effects.py": {
+      "snapshot": "music/empty-junction-animation-v3/dependency-snapshot/scripts/ambient_effects.py",
+      "sha256": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a"
+    },
+    "scripts/render_floodplain.py": {
+      "snapshot": "music/empty-junction-animation-v3/dependency-snapshot/scripts/render_floodplain.py",
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "scripts/water_surface.py": {
+      "snapshot": "music/empty-junction-animation-v3/dependency-snapshot/scripts/water_surface.py",
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "music/saltline-animation-v1/dust_transport.py": {
+      "snapshot": "music/empty-junction-animation-v3/dependency-snapshot/music/saltline-animation-v1/dust_transport.py",
+      "sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832"
+    },
+    "music/saltline-animation-v1/periodic_transport.py": {
+      "snapshot": "music/empty-junction-animation-v3/dependency-snapshot/music/saltline-animation-v1/periodic_transport.py",
+      "sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379"
+    },
+    "music/farpoint-animation-v1/render_farpoint.py": {
+      "snapshot": "music/empty-junction-animation-v3/dependency-snapshot/music/farpoint-animation-v1/render_farpoint.py",
+      "sha256": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04"
+    }
+  },
+  "not_included": "Three-minute repeat, isolated and older draft videos, Python caches, and unrelated live-scene work remain local.",
+  "remote_verification": "Local remote-backup-verification.json will record independent fetch and byte/hash checks after push."
+}

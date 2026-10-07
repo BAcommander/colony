@@ -116,19 +116,49 @@
     "workflow": "creative/MUSIC_WORKFLOW.md"
   },
   "motion_preparation": {
-    "status": "written proposal only; no masks or implementation",
+    "status": "V3 implemented and technically checked; further visual work required",
     "brief": {
       "path": "final/11-empty-junction/motion-brief.md",
       "sha256": "adbe4beb364e2a80fd664a80044521a2c689bb53d9fd45329c5f7f948596d281",
       "bytes": 1292
+    },
+    "production_prompt": {
+      "path": "final/11-empty-junction/animation-production-prompt-v1.txt",
+      "sha256": "c33509e37b4c06debc27c88e8cf1289e12273e228a4bd5b672a08b85721d04b9",
+      "bytes": 15040,
+      "date": "2026-10-07",
+      "proposed_duration_seconds": 60,
+      "supersedes": "Twenty-second target in original motion-brief.md when this full production prompt is explicitly invoked",
+      "scope": "Prompt only; no production or new acceptance inferred"
     }
   },
   "video": null,
   "audio": null,
-  "resolution_note": "Native clean source and generated thumbnail are 1672x941; no 4K video produced.",
+  "resolution_note": "Native artwork 1672x941; v3 preview 1280x720; 4K awaits complete-preview acceptance.",
   "approval": {
     "date": "2026-09-29",
     "feedback": "love it, commit and push everyting",
     "scope": "Current release artwork/thumbnail package 11-14 accepted. Music and motion remain unproduced proposals; no audio, animation or upload approval implied."
+  },
+  "animation": {
+    "version": "v3",
+    "date": "2026-10-07",
+    "status": "V3 work in progress; user says it still needs work; Git backup requested",
+    "record": "music/empty-junction-animation-v3/delivery-v3.json",
+    "preview": "music/empty-junction-animation-v3/empty-junction-v3-preview-60s.mp4",
+    "preview_sha256": "16c547cb62e41440e35f06b82ff68afb79bf85a42ce0cc30f7161163783778ef",
+    "repeat_review": "music/empty-junction-animation-v3/empty-junction-v3-three-loops-180s.mp4",
+    "repeat_review_sha256": "6fd70d1f5f53e03849d616d3a7d035a1364fe676dd9e59fda592427bbbdd54c9",
+    "duration_seconds": 60,
+    "fps": 30,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "silent": true,
+    "seam_checks_passed": true,
+    "user_approved": false,
+    "master_4k": null,
+    "backup_record": "music/empty-junction-animation-v3/backup-manifest.json"
   }
 }

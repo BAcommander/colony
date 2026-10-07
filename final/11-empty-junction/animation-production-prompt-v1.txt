@@ -1,0 +1,105 @@
+THE EMPTY JUNCTION — BUILD THE COMPLETE ANIMATION
+Catalog 11 / creative concept 17 / production prompt v1 / 2026-10-07
+Status: proposed production direction. Saving this prompt does not authorize rendering or establish implemented effects, technical verification or visual approval.
+
+Create a finished ambient animation of a working freight junction beneath immense eroded mineral towers on an alien world. The railway is quiet between movements, but the landscape and inhabited infrastructure are visibly alive. Cold weather travels through the monumental pass; warm occupied buildings and purposeful practical lights hold their ground against it. Make the scale arresting immediately and the motion comfortable for long viewing.
+
+The ambition is a convincing place with depth, sustained movement and a clear reason for each effect. Preserve the photographic materials, twilight palette, calm framing and empty railway. A viewer at normal-size 720p should be able to identify what is moving within several seconds.
+
+AUTHORITY, SOURCE AND SCOPE
+Read C:/Colony/AGENTS.md, PRODUCTION_PIPELINE.md, creative/ANIMATION_KNOWLEDGE_BANK.md, creative/ANIMATION_WORKFLOW.md, creative/NEXT_SCENE_RUNBOOK.md and final/11-empty-junction/README.md, manifest.json and motion-brief.md.
+
+Use only final/11-empty-junction/artwork-v2.png as the animation plate:
+Native dimensions: 1672x941.
+SHA-256: ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be.
+Verify these against the actual file before mapping. The artwork/thumbnail package is approved; no animation is approved. Preserve the original, historical concept v1 and approved thumbnail. Thumbnail pixels have different provenance and must not replace the clean plate.
+
+This full-production proposal uses a genuine sixty-second loop at 30 fps, intentionally extending the old motion brief's twenty-second default. When explicitly invoked to build the animation, use this minute target. Render locally with Python/NumPy/OpenCV/Pillow/FFmpeg and the existing pipeline. No paid generation, cloud video service, credits or additional model installation. A prompt-only request means save this document and stop before production.
+
+1. INSPECT THE ACTUAL PLACE BEFORE ANIMATING
+The clean image contains a large foreground signal cabin on the left, a warm narrow door window, a hooded doorway lamp, a roof-mounted amber light, railings, steps and a maintenance case. Tracks meet in the foreground and lead toward parked wagons and a recessed freight hall. Warm clerestory panes, an enclosed gallery and an upper-right occupied building establish the wider settlement. Low cabinets, work lamps, retaining walls and pipes occupy the service routes. Pale perforated mineral fins dominate the skyline.
+
+Inspect the turnout and rail pairing at native resolution. Preserve the source geometry; do not claim animation repairs a mechanically ambiguous still. Record any material defect before implementation. If a narrow artwork correction is necessary, prepare it separately for review, hash the revised plate and remap affected masks. Do not silently repaint the approved scene.
+
+Fix the camera, rails, sleepers, points, wagons, doors, pipework, cables, supports, buildings and mineral silhouettes. Preserve frost and surface texture. No train departure, moving points, opening doors, people, vehicles, camera drift or invented focal object.
+
+2. PRINCIPAL MOTION — A LIVING SKY ABOVE THE MINERAL FINS
+Transport coherent existing cloud formations slowly across the open upper sky and the apricot horizon band. Choose one prevailing screen direction, initially left-to-right, and keep the cloud travel continuous. A recognizable cloud edge must change position; brightness pulsing and tiny image warps do not satisfy this requirement.
+
+Give the upper cloud bank and distant horizon clouds separate scales and apparent speeds. The distant layer should feel farther away, without becoming imperceptible. Preserve the broad twilight gradient, horizon light and overall exposure. Do not translate the entire sky photograph or manufacture a moving sunset.
+
+Treat every tower, antenna, cable and rooftop as an occluder. Sky motion can be visible through genuine openings in the mineral crests, but the rock edges remain perfectly fixed. Exclude protected geometry from the sampled cloud texture as well as the final output mask: copied rock tips or antenna fragments must never drift into another part of the sky.
+
+Use coherent optical cloud compositing with softly reconstructed background only where required. Inspect newly exposed sky for smearing, repeated patches and ghosted edges. If the source does not contain enough usable texture, build restrained matching atmospheric formations and record their synthetic origin. Do not solve coverage by repeatedly stamping one recognizable cloud.
+
+3. PRINCIPAL MOTION — WEATHER TRAVELLING THROUGH THE PASS
+Build distinct far and middle-distance cold-air haze formations, shaped by the visible valley and mineral bases.
+
+Far pass: broad, thin, broken mist banks slide across the central opening behind the freight hall and between the receding mineral formations. Their edges cross recognizable gaps so movement is legible at full composition. Distant ridges lose and regain a little contrast as the mist passes; they do not warp or move.
+
+Middle distance: a lower, somewhat faster layer threads through sheltered cuttings behind the freight district. Let it disappear behind nearer ridges, retaining walls and buildings. It must have identifiable lobes, clear gaps and evolving internal wisps, with different timing from the far layer.
+
+Maintain one coherent prevailing wind with local deflection by the terrain. Layer independence must not look like unrelated textures sliding in opposite directions. Atmospheric depth comes from scale, contrast, speed and correct occlusion.
+
+Keep the foreground service platform, steps, tracks and maintenance case predominantly clear. Do not cover the whole picture with fog, sweep thick dust across the lens, add falling snow everywhere or animate the frost itself. Cold pale mist is the main treatment; sparse low spindrift may support a sheltered middle-distance patch only if it remains readable and materially improves the isolated test.
+
+Sustain incoming formations through the entire minute. Review the central pass, both visible sides of the cutting and the final third of the clip. A convincing opening gust followed by forty seconds of inactivity is a failed design. Stronger opacity in one patch does not compensate for static upper or far regions.
+
+4. THE HUMAN COUNTERPOINT — AN OCCUPIED FREIGHT STATION
+Map individual existing window apertures and visible work lights at source resolution.
+
+Keep the foreground cabin warmly occupied. Its door window should remain mostly steady; a restrained local interior-light change may affect its actual illuminated glazing, without revealing an invented occupant or moving the door.
+
+Select a few small groups of real freight-hall clerestory panes for independent held dim/off periods and soft recoveries. Use complete emitting apertures, including saturated white cores. Preserve mullions, frames and wall texture. Do not black out the entire long strip together.
+
+Give one or two existing gallery or upper-right building window groups their own slower holds. Leave several windows fully steady throughout. The windows should suggest rooms with separate activity rather than a coordinated light show. Avoid marching chases or a repeated left-to-right sequence.
+
+The hooded cabin doorway lamp may have one or two brief, irregular dips across the minute. Its emitter, hood underside, door illumination and nearby step spill must agree. Keep a distinct working level so the doorway never becomes a flashing focal point.
+
+Choose two or three real yard/service lamps for infrequent, separate acknowledgements or longer mild dips. Couple each core to its own wall/ground spill. Preserve the unlit structure and rails beneath the changing illumination. If a plausible reflection or spill cannot be isolated, simplify that lamp's event rather than painting a floating glow.
+
+The prominent amber roof lamp can have a restrained, infrequent double acknowledgement with long steady intervals, provided the source lens and local halo remain attached. Keep the existing trackside amber indication stable by default. Do not introduce arbitrary red/green signalling, synchronized beacons or imply an operational railway safety sequence from fictional light choreography.
+
+5. SMALL DETAILS MUST HAVE A SOURCE
+There is no readable foreground monitor in this plate. Do not paste in a dashboard, waveform, hologram, moving text or new status panel just to reuse another scene's screen effect. This scene's operational detail belongs in its existing lamps, windows and clearly identifiable equipment.
+
+Inspect the existing upper-right roof pipe/vent. If it has a credible visible outlet, test one thin, anchored condensation plume bending with the same wind and dissipating quickly in the cold air. Restore the roof and pipe over the plume where required. Omit it if the emitter cannot be located confidently or the result looks like a chimney pasted onto a wall. No plume should emerge from a sealed cabinet or unrelated rock.
+
+Do not import Farpoint's aurora, star treatment or new cabinet LEDs as automatic upgrades. This is a bright twilight sky with no clear star field, and the user has not asked for additional hardware here. No neon mineral edges, sweeping light beams, electrical arcs or unexplained coloured haze.
+
+6. TIMING — BUILD A TRUE MINUTE WITHOUT LOSING MOTION
+Use one configured sixty-second duration, deterministic seeds and stored event schedules. Preserve successful principal travel speeds when solving periodicity. Do not stretch an eight-second test or repeat a twenty-second MP4 three times and label it a unique minute.
+
+Use continuous forward cloud/mist travel, fresh incoming coverage and locally hidden renewals. If staggered lifetimes or overlapping formations hide a reset, inspect for fading stamps, softened double edges and recognizable repetition. Avoid the Farpoint v1 failure of blending nearby shifted copies until movement appears static.
+
+Different layer cycles may divide the minute, but the full composition and habitation schedule must evolve across it. Check distinct states at 0, 20 and 40 seconds and sustained activity around 45–60 seconds. Spread light events across the full duration and leave quiet intervals.
+
+Match state and apparent velocity through the end/start boundary, including events that wrap across it. No duplicate endpoint frame, ping-pong, reverse weather, whole-frame dissolve, global exposure pulse or simultaneous reset of the atmosphere.
+
+7. REUSE THE LESSONS, REMAP THE SCENE
+Use Basalt v6 and Cable Station v3 for readable broad cloud transport and separate distant weather; Saltline's accepted distant dust for sustained coverage and restraint near the foreground; Ringfall's complete-aperture light masks for independent habitation; and Shoreless/Rainline's light revisions for checking emitter/spill agreement.
+
+Record each selected method, source implementation, acceptance scope and required remapping in the scene plan. Historical settings are not automatically suitable or approved for this scene. Farpoint's later changes teach two explicit restraints: numeric activity cannot establish perceptual success, and extra glowing phenomena can make a scene less coherent.
+
+Reuse proven helpers, compositing, encoding and validation. Keep Empty Junction coordinates, timings and strengths in one configuration. Preserve approved renderers for other scenes. Work in a new versioned music/empty-junction-animation-v1/ package; do not overwrite older assets.
+
+8. EXECUTE TO A COMPLETE REVIEWABLE DELIVERY
+First freeze the source/hash, scene plan, native masks, occluders and layer order. Inspect mask edges and forced-dim lighting states before expensive rendering. Remove bright remnants, rectangular dim patches, light spill detached from its emitter and haze crossing protected geometry.
+
+Render brief isolated full-composition 720p/30 fps tests at actual strength and speed: sky; far/middle pass weather; habitation and any retained vent plume. Use approximately eight to twelve seconds and label excerpts clearly. Name a visible feature, its direction and the landmark it passes. Review at normal size and speed when playback is available; crops, tracking and amplified differences are diagnostics only.
+
+Fix concrete visible defects before combining. Preserve working layers while changing one unsuccessful effect. Do not spend repeated revisions polishing a tiny lamp while the pass remains static.
+
+Then render the complete sixty-second 1280x720/30 fps silent preview, plus a clearly labelled 180-second review containing three exact copies of that verified minute. The production request is not complete with a few isolated tests. If continuous playback is unavailable, disclose that limitation and deliver the full candidate for the user's verdict without calling it artistically accepted.
+
+Run separate technical checks: finite pixels; exact source protection outside active masks before encoding; source/config/code/dependency/mask fingerprints; individual states and velocities at the join; encoded regional and composite seam comparisons against ordinary adjacent steps with unchanged thresholds; complete 1,800/5,400-frame decodes; sequential timestamps; correct dimensions, fps, duration and silence; no duplicate endpoint; and exact three-cycle decoded repetition.
+
+After the user accepts the complete preview, export the sixty-second 3840x2160/30 fps silent master with identical motion settings. Disclose upscaling from native 1672x941 artwork. Validate every encoded frame, inspect decoded samples and check the master join again. Preserve the accepted preview and all prior versions.
+
+Deliver actual files with absolute local paths, concise effect notes, exact hashes and reproduction instructions. Update the scene README/manifest, production tracker, knowledge bank and AGENTS.md with actual implementation, feedback and acceptance scope. Keep proposed, implemented, technically checked, accepted and backed-up states distinct.
+
+Commit/push only when requested, with an explicit media selection and independent remote verification. Music, sound effects, long-form assembly and publication remain separate gates; do not invent a soundtrack or claim a finished channel release.
+
+FINAL VISUAL TARGET
+The eye first feels the enormous cold mineral pass, then notices a cloud sliding behind a perforated crest and a pale mist bank crossing the distant cutting. Warm rooms stay inhabited, the small signal cabin quietly holds its watch, and individual work lights carry out restrained activity. The wagons wait. The rails stay solid. Weather keeps arriving. The complete minute feels alive without an obvious reset, and the user's playback verdict decides whether it has achieved that result.
+

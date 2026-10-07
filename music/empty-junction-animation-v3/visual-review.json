@@ -1,0 +1,17 @@
+{
+  "preview_sha256": "16c547cb62e41440e35f06b82ff68afb79bf85a42ce0cc30f7161163783778ef",
+  "status": "needs_further_work",
+  "inspection": "Full-composition temporal/decoded stills, masks and isolated states inspected; continuous playback unavailable. User playback verdict pending.",
+  "observations": [
+    "Ground streaks occupy the cabin approach and right-hand service aisle",
+    "The plume remains attached to the existing grille and has visibly different concentrations across temporal samples",
+    "Valley flow bends behind a nearer ridge",
+    "Sky and warm shelter remain compositionally intact"
+  ],
+  "pre_delivery_fixes": [
+    "Varied exhaust birth intensity to break the initially steady pale streak",
+    "Excluded the small trackside post and foreground ridge from their respective weather masks"
+  ],
+  "user_approved": false,
+  "user_feedback": "commit and push this version, it still needs work."
+}

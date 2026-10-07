@@ -67,3 +67,11 @@ music/farpoint-animation-v*/*.json -text
 music/farpoint-animation-v*/**/*.py -text
 music/farpoint-animation-v*/**/*.json -text
 music/farpoint-animation-v6/farpoint-station-v6-preview-60s.mp4 -text
+
+# Preserve Empty Junction hash-bound renderer/config/dependency bytes.
+music/empty-junction-animation-v*/*.py -text
+music/empty-junction-animation-v*/*.json -text
+music/empty-junction-animation-v*/**/*.py -text
+music/empty-junction-animation-v*/**/*.json -text
+music/empty-junction-animation-v3/empty-junction-v3-preview-60s.mp4 -text
+final/11-empty-junction/animation-production-prompt-v1.txt -text

@@ -1,0 +1,23 @@
+{
+  "status": "pending_user_playback",
+  "preview_sha256": "a85e44d3908db1ccc248f58943d82c65d0d4c62edb9caa9c1eb6686468f62ef5",
+  "inspection": "Native source/crops, weather and light masks, forced-dim states, normal-size temporal samples and decoded stills inspected. Continuous playback unavailable. Full-preview user verdict pending.",
+  "observations": [
+    "Source cloud bank crosses rightward over the central pass",
+    "Pale far mist crosses the valley and broken side wisps pass behind protected structures",
+    "Selected window groups hold independent dim states while other rooms stay lit",
+    "Door/yard/roof lamps retain attached emitters and local spill; trackside amber stays steady"
+  ],
+  "pre_delivery_fixes": [
+    "Coarse sky extraction carried rock-tip fragments; restricted source/destination near the skyline",
+    "Global spectral rejection froze dark cloud cores; limited rejection to a 20-pixel skyline neighborhood",
+    "Extrapolated only atmospheric residual across sampling gaps to avoid moving occluder-shaped cutouts",
+    "Separated mist from original valley haze through paler colour and clearer optical density",
+    "Expanded lamp apertures and near-core glow after forced-dim bright-remnant review"
+  ],
+  "limitations": [
+    "Sky background and atmosphere are 2D optical approximations",
+    "Local renewals may still need adjustment after playback review",
+    "Numeric coverage, tracking and seam gates do not establish artistic acceptance"
+  ]
+}

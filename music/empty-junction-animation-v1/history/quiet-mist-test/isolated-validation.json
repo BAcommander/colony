@@ -1,0 +1,87 @@
+{
+  "fingerprint": {
+    "config_sha256": "5a86a06a67a68d27814091bd0021aff3cd0d99f38b426df84464179a93958704",
+    "files": {
+      "final/11-empty-junction/artwork-v2.png": "ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be",
+      "music/empty-junction-animation-v1/render_junction.py": "32a2145153c2be784c050463c72a876715c8be9066178a416aa408083d21910e",
+      "scripts/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "music/saltline-animation-v1/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "music/saltline-animation-v1/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music/farpoint-animation-v1/render_farpoint.py": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04"
+    },
+    "masks": {
+      "sky_clouds": "45438bf929c60659bbe0b80af82399bc5aefcd4f419406e30356dccb2041c46e",
+      "far_mist": "6680e3b2f44086a0146260b904a53bf3fdb06f49b7ed6d799976384b8abcf8f0",
+      "middle_mist": "710af391cb6bd0b37270023c68743d58527f7c61246ca3b96dcd9cf2d9146c6c",
+      "light_hall_left": "3485cae58b79132c6f3ad59adf6cd570d110ed36d27508eaf8233088a299f1e9",
+      "light_hall_middle": "f9dff0ba6da9cba142fb9956806834bb1e15c1682a1e8d7322ee897da6ffeb7e",
+      "light_hall_right": "bd297c3ecca4240e24c9e960dc6a9e968b76d76b33b22a434fff5ba286775a62",
+      "light_gallery_left": "78b0dede6052c056d3471953fdbfc789fccef85db87b4d3683fd649697b25ac6",
+      "light_gallery_right": "a21a7a4b5fb9e49aa8fb67fc73f4d3becedf5c8bc3f740e5c6ad7f0699bd7779",
+      "light_upper_room": "353f16d324e70c33c9dbc8682391a793eae8f680f69eaed6c33d89b5a9597f3e",
+      "light_cabin_window": "f4c18bd4e20a02113680c59c3effec7290397eeb69216d899c44a50de7f34286",
+      "light_door_lamp": "a00a743b2668c88574b4fca26679d2616fa63125716a3e54fd93d85da501c034",
+      "light_roof_amber": "10c9162b80989b2ab857dfcc5b320d1e1b4b6743b5543c3ff74ef457b0a7210f",
+      "light_yard_left": "232cfff1d693e1ffd7387709eb44d4f3beaac500a59d827dd01c95840390a417",
+      "light_yard_bay": "385ba84d73e87d702459086834cc36d2694aa34c873385ea0a0922d7bce9c641",
+      "light_path_lamp": "090a500d3e80d891ad91f58cb060ad9c05bc5da0673663a1a0a2a25dc08b1d02"
+    },
+    "versions": {
+      "numpy": "2.4.3",
+      "opencv": "5.0.0"
+    },
+    "duration": 60
+  },
+  "clips": [
+    {
+      "path": "music/empty-junction-animation-v1/sky_clouds-v1-isolated-10s.mp4",
+      "sha256": "3dee916feaa6737389012111e5079f5f60de3506fa84383dc2917bdda29be5dd",
+      "frames": 300,
+      "seconds": 10,
+      "layer": "sky_clouds",
+      "prototype": true,
+      "validation": {
+        "frames": 300,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    },
+    {
+      "path": "music/empty-junction-animation-v1/pass_weather-v1-isolated-10s.mp4",
+      "sha256": "2894db3d1a0132040e0dffc3a461a29151e9108d98e226af33ae1c7651d9337d",
+      "frames": 300,
+      "seconds": 10,
+      "layer": "pass_weather",
+      "prototype": true,
+      "validation": {
+        "frames": 300,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    },
+    {
+      "path": "music/empty-junction-animation-v1/habitation-v1-isolated-10s.mp4",
+      "sha256": "91db09cc3d2ffe72e057128a4f7b8a0dbaa984e524335301722bf4459951297e",
+      "frames": 300,
+      "seconds": 10,
+      "layer": "habitation",
+      "prototype": true,
+      "validation": {
+        "frames": 300,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {}
+      }
+    }
+  ],
+  "silent": true,
+  "user_approved": false,
+  "inspection": "Source/native crops, masks and temporal/decoded stills; continuous playback unavailable"
+}

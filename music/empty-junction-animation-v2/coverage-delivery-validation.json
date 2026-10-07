@@ -1,0 +1,328 @@
+{
+  "fingerprint": {
+    "config_sha256": "cd6a76cdff1d1b3e63281e77395df84bca6ac345c2c980f895c380f26d1cf894",
+    "files": {
+      "final/11-empty-junction/artwork-v2.png": "ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be",
+      "music/empty-junction-animation-v1/render_junction.py": "c641b02956bf329a5661bc4867367e4584644f614c1fa7768c91e8548b8e67e9",
+      "scripts/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "music/saltline-animation-v1/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "music/saltline-animation-v1/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music/farpoint-animation-v1/render_farpoint.py": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04",
+      "music/empty-junction-animation-v2/render_junction_v2.py": "2c1e48b2f590b89b41edfe30de3043ba563857f34ce6f7bc349599f3510dff32",
+      "music/empty-junction-animation-v2/build_plan.py": "49a15465552392430793e0902ce0b17eac19521ad3ab5cb109f208351f9dbd1d"
+    },
+    "masks": {
+      "sky_clouds": "208223bc64764ff3b039cb7c61a86425e43b447e5b0c2165c801ba4a8d798769",
+      "far_mist": "73e9154dc569d6a001faefc75b7e3e94d75ed9770b055e7e0e7df073c4ad91b5",
+      "middle_mist": "710af391cb6bd0b37270023c68743d58527f7c61246ca3b96dcd9cf2d9146c6c",
+      "light_hall_left": "3485cae58b79132c6f3ad59adf6cd570d110ed36d27508eaf8233088a299f1e9",
+      "light_hall_middle": "f9dff0ba6da9cba142fb9956806834bb1e15c1682a1e8d7322ee897da6ffeb7e",
+      "light_hall_right": "bd297c3ecca4240e24c9e960dc6a9e968b76d76b33b22a434fff5ba286775a62",
+      "light_gallery_left": "78b0dede6052c056d3471953fdbfc789fccef85db87b4d3683fd649697b25ac6",
+      "light_gallery_right": "a21a7a4b5fb9e49aa8fb67fc73f4d3becedf5c8bc3f740e5c6ad7f0699bd7779",
+      "light_upper_room": "353f16d324e70c33c9dbc8682391a793eae8f680f69eaed6c33d89b5a9597f3e",
+      "light_cabin_window": "f4c18bd4e20a02113680c59c3effec7290397eeb69216d899c44a50de7f34286",
+      "light_door_lamp": "c39c121b9a76bb1b610c9de17a9a066d42819140ebc99e838c4f3bb3f5505208",
+      "light_roof_amber": "10c9162b80989b2ab857dfcc5b320d1e1b4b6743b5543c3ff74ef457b0a7210f",
+      "light_yard_left": "232cfff1d693e1ffd7387709eb44d4f3beaac500a59d827dd01c95840390a417",
+      "light_yard_bay": "385ba84d73e87d702459086834cc36d2694aa34c873385ea0a0922d7bce9c641",
+      "light_path_lamp": "090a500d3e80d891ad91f58cb060ad9c05bc5da0673663a1a0a2a25dc08b1d02"
+    },
+    "versions": {
+      "numpy": "2.4.3",
+      "opencv": "5.0.0"
+    },
+    "duration": 60
+  },
+  "regions": {
+    "far_pass": [
+      {
+        "time": 0,
+        "four_second_mean_change": 5.048052338697548,
+        "fraction_over_one_level": 0.6950669273574974
+      },
+      {
+        "time": 8,
+        "four_second_mean_change": 5.719406427031633,
+        "fraction_over_one_level": 0.6744623251616785
+      },
+      {
+        "time": 20,
+        "four_second_mean_change": 5.700731939640047,
+        "fraction_over_one_level": 0.6031734095352684
+      },
+      {
+        "time": 30,
+        "four_second_mean_change": 6.52080513360405,
+        "fraction_over_one_level": 0.6362610918935179
+      },
+      {
+        "time": 40,
+        "four_second_mean_change": 6.989296636085627,
+        "fraction_over_one_level": 0.7164987216122726
+      },
+      {
+        "time": 48,
+        "four_second_mean_change": 7.057126384920038,
+        "fraction_over_one_level": 0.8370431643856219
+      },
+      {
+        "time": 55,
+        "four_second_mean_change": 5.770165939740311,
+        "fraction_over_one_level": 0.792600391036246
+      }
+    ],
+    "left_cutting": [
+      {
+        "time": 0,
+        "four_second_mean_change": 4.152892246642247,
+        "fraction_over_one_level": 0.6238553113553114
+      },
+      {
+        "time": 8,
+        "four_second_mean_change": 3.5264804639804637,
+        "fraction_over_one_level": 0.5442994505494505
+      },
+      {
+        "time": 20,
+        "four_second_mean_change": 3.916628510378511,
+        "fraction_over_one_level": 0.5644459706959707
+      },
+      {
+        "time": 30,
+        "four_second_mean_change": 4.39751221001221,
+        "fraction_over_one_level": 0.6069139194139194
+      },
+      {
+        "time": 40,
+        "four_second_mean_change": 6.286324786324786,
+        "fraction_over_one_level": 0.7488553113553114
+      },
+      {
+        "time": 48,
+        "four_second_mean_change": 5.64720695970696,
+        "fraction_over_one_level": 0.7279075091575091
+      },
+      {
+        "time": 55,
+        "four_second_mean_change": 4.656135531135531,
+        "fraction_over_one_level": 0.6635760073260073
+      }
+    ],
+    "right_cutting": [
+      {
+        "time": 0,
+        "four_second_mean_change": 3.6538205980066447,
+        "fraction_over_one_level": 0.4416389811738649
+      },
+      {
+        "time": 8,
+        "four_second_mean_change": 4.926738033714778,
+        "fraction_over_one_level": 0.5390919158361018
+      },
+      {
+        "time": 20,
+        "four_second_mean_change": 4.9430540174726225,
+        "fraction_over_one_level": 0.5471391657438169
+      },
+      {
+        "time": 30,
+        "four_second_mean_change": 6.333407161314138,
+        "fraction_over_one_level": 0.6203765227021041
+      },
+      {
+        "time": 40,
+        "four_second_mean_change": 6.1349575489110375,
+        "fraction_over_one_level": 0.5937984496124031
+      },
+      {
+        "time": 48,
+        "four_second_mean_change": 4.450129198966409,
+        "fraction_over_one_level": 0.499593946105574
+      },
+      {
+        "time": 55,
+        "four_second_mean_change": 3.9035068290882244,
+        "fraction_over_one_level": 0.46016980435585086
+      }
+    ],
+    "horizon_clouds": [
+      {
+        "time": 0,
+        "four_second_mean_change": 1.81762393812603,
+        "fraction_over_one_level": 0.2591860022822366
+      },
+      {
+        "time": 8,
+        "four_second_mean_change": 1.601546849245594,
+        "fraction_over_one_level": 0.28413845568657287
+      },
+      {
+        "time": 20,
+        "four_second_mean_change": 1.7244833269937871,
+        "fraction_over_one_level": 0.3182959300114112
+      },
+      {
+        "time": 30,
+        "four_second_mean_change": 1.7853429694433876,
+        "fraction_over_one_level": 0.3192848992012172
+      },
+      {
+        "time": 40,
+        "four_second_mean_change": 1.6470647901610245,
+        "fraction_over_one_level": 0.303537466717383
+      },
+      {
+        "time": 48,
+        "four_second_mean_change": 1.7060225687840749,
+        "fraction_over_one_level": 0.32537086344617727
+      },
+      {
+        "time": 55,
+        "four_second_mean_change": 2.196728794218334,
+        "fraction_over_one_level": 0.3575503993914036
+      }
+    ],
+    "upper_clouds": [
+      {
+        "time": 0,
+        "four_second_mean_change": 1.0358077480256085,
+        "fraction_over_one_level": 0.14212112715547456
+      },
+      {
+        "time": 8,
+        "four_second_mean_change": 1.2753983831020144,
+        "fraction_over_one_level": 0.1808495724099257
+      },
+      {
+        "time": 20,
+        "four_second_mean_change": 1.3332515538109255,
+        "fraction_over_one_level": 0.20475255853077245
+      },
+      {
+        "time": 30,
+        "four_second_mean_change": 1.307163886162905,
+        "fraction_over_one_level": 0.21151689331277163
+      },
+      {
+        "time": 40,
+        "four_second_mean_change": 0.9155684845086217,
+        "fraction_over_one_level": 0.15421281368288237
+      },
+      {
+        "time": 48,
+        "four_second_mean_change": 1.1101803822608531,
+        "fraction_over_one_level": 0.1804990887424646
+      },
+      {
+        "time": 55,
+        "four_second_mean_change": 1.028961633721202,
+        "fraction_over_one_level": 0.1525304920790691
+      }
+    ]
+  },
+  "protected_regions": {
+    "foreground_rails": [
+      870,
+      600,
+      1660,
+      935
+    ],
+    "left_rock": [
+      40,
+      20,
+      145,
+      230
+    ],
+    "cabin_wall": [
+      40,
+      320,
+      155,
+      510
+    ],
+    "track_signal": [
+      817,
+      603,
+      844,
+      634
+    ],
+    "parked_wagon_body": [
+      776,
+      485,
+      809,
+      524
+    ]
+  },
+  "protected_regions_sampled_exact": true,
+  "encoded_cloud_translation_8s": {
+    "dx": 12,
+    "dy": 0,
+    "match_correlation": 0.9326002597808838,
+    "scope": "Diagnostic only, not proof of visual readability"
+  },
+  "encoded_light_levels": {
+    "door_lamp": {
+      "frame_indices": [
+        0,
+        99,
+        174,
+        248,
+        264
+      ],
+      "mean_levels": [
+        249.74074074074073,
+        249.74074074074073,
+        249.74074074074073,
+        144.66666666666666,
+        162.92592592592592
+      ]
+    },
+    "yard_bay": {
+      "frame_indices": [
+        0,
+        99,
+        174,
+        248,
+        264
+      ],
+      "mean_levels": [
+        194.74074074074073,
+        73.92592592592592,
+        194.74074074074073,
+        194.74074074074073,
+        194.74074074074073
+      ]
+    },
+    "hall_left": {
+      "frame_indices": [
+        0,
+        99,
+        174,
+        248,
+        264
+      ],
+      "mean_levels": [
+        128.33333333333334,
+        128.33333333333334,
+        128.33333333333334,
+        23.74074074074074,
+        23.74074074074074
+      ]
+    }
+  },
+  "streams": {
+    "empty-junction-v2-preview-60s.mp4": {
+      "sha256": "19d50e6e204d97dc3b961720b30bac83aba3c52ccf642dff47c4d1190fd7edf1",
+      "bytes": 11225944,
+      "silent": true
+    },
+    "empty-junction-v2-three-loops-180s.mp4": {
+      "sha256": "14fbd27e8489472cae8d2021e8a8795a88221a1be123dbb4e23ca4f3abfca52e",
+      "bytes": 33676194,
+      "silent": true
+    }
+  },
+  "user_approved": false
+}

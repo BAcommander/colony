@@ -45,3 +45,6 @@ __pycache__/
 
 # Farpoint v6 minute preview backup explicitly requested 2026-10-07.
 !music/farpoint-animation-v6/farpoint-station-v6-preview-60s.mp4
+
+# Empty Junction v3 work-in-progress backup explicitly requested 2026-10-07.
+!music/empty-junction-animation-v3/empty-junction-v3-preview-60s.mp4

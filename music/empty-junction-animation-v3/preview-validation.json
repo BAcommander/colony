@@ -1,0 +1,288 @@
+{
+  "fingerprint": {
+    "config_sha256": "1e04b8b6eeb1fb25c1093f286c6e968a523b15db2acfa361dae450db06be8ea7",
+    "files": {
+      "final/11-empty-junction/artwork-v2.png": "ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be",
+      "music/empty-junction-animation-v1/render_junction.py": "c641b02956bf329a5661bc4867367e4584644f614c1fa7768c91e8548b8e67e9",
+      "scripts/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "music/saltline-animation-v1/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "music/saltline-animation-v1/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music/farpoint-animation-v1/render_farpoint.py": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04",
+      "music/empty-junction-animation-v2/render_junction_v2.py": "2c1e48b2f590b89b41edfe30de3043ba563857f34ce6f7bc349599f3510dff32",
+      "music/empty-junction-animation-v2/build_plan.py": "49a15465552392430793e0902ce0b17eac19521ad3ab5cb109f208351f9dbd1d",
+      "music/empty-junction-animation-v3/render_junction_v3.py": "bf63787ef3ee3e7d53460a12400cc4225183fa123ca5ecd7cb1621485d75563d",
+      "music/empty-junction-animation-v3/build_plan.py": "afc0ca8be7db8a11cd4ab67773719fdce1d65687192427179185d412bc9608a6"
+    },
+    "masks": {
+      "sky_clouds": "208223bc64764ff3b039cb7c61a86425e43b447e5b0c2165c801ba4a8d798769",
+      "far_mist": "73e9154dc569d6a001faefc75b7e3e94d75ed9770b055e7e0e7df073c4ad91b5",
+      "middle_mist": "710af391cb6bd0b37270023c68743d58527f7c61246ca3b96dcd9cf2d9146c6c",
+      "light_hall_left": "3485cae58b79132c6f3ad59adf6cd570d110ed36d27508eaf8233088a299f1e9",
+      "light_hall_middle": "f9dff0ba6da9cba142fb9956806834bb1e15c1682a1e8d7322ee897da6ffeb7e",
+      "light_hall_right": "bd297c3ecca4240e24c9e960dc6a9e968b76d76b33b22a434fff5ba286775a62",
+      "light_gallery_left": "78b0dede6052c056d3471953fdbfc789fccef85db87b4d3683fd649697b25ac6",
+      "light_gallery_right": "a21a7a4b5fb9e49aa8fb67fc73f4d3becedf5c8bc3f740e5c6ad7f0699bd7779",
+      "light_upper_room": "353f16d324e70c33c9dbc8682391a793eae8f680f69eaed6c33d89b5a9597f3e",
+      "light_cabin_window": "f4c18bd4e20a02113680c59c3effec7290397eeb69216d899c44a50de7f34286",
+      "light_door_lamp": "c39c121b9a76bb1b610c9de17a9a066d42819140ebc99e838c4f3bb3f5505208",
+      "light_roof_amber": "10c9162b80989b2ab857dfcc5b320d1e1b4b6743b5543c3ff74ef457b0a7210f",
+      "light_yard_left": "232cfff1d693e1ffd7387709eb44d4f3beaac500a59d827dd01c95840390a417",
+      "light_yard_bay": "385ba84d73e87d702459086834cc36d2694aa34c873385ea0a0922d7bce9c641",
+      "light_path_lamp": "090a500d3e80d891ad91f58cb060ad9c05bc5da0673663a1a0a2a25dc08b1d02",
+      "terrain_flow": "387a1aaa01b439b29e6f5f685c3a2cea0762ad09b073d5706e8e0a47c91f8cf8",
+      "yard_powder": "728fbfa918e607f22ae8e94493c7da2ee5582cc198ce46692c9c8cecc3117173",
+      "cabin_exhaust": "f0737927af6cbd77eca5a1d44e911d6c3fe3f40f60487f5934631e52450dd2c6"
+    },
+    "versions": {
+      "numpy": "2.4.3",
+      "opencv": "5.0.0"
+    },
+    "duration": 60
+  },
+  "clips": [
+    {
+      "path": "music/empty-junction-animation-v3/empty-junction-v3-preview-60s.mp4",
+      "sha256": "16c547cb62e41440e35f06b82ff68afb79bf85a42ce0cc30f7161163783778ef",
+      "frames": 1800,
+      "seconds": 60,
+      "layer": "combined",
+      "prototype": false,
+      "validation": {
+        "frames": 1800,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {
+          "sky_clouds": {
+            "seam_mae": 0.035767165366511235,
+            "ordinary_max_mae": 0.05006519192946012,
+            "pass": true
+          },
+          "far_mist": {
+            "seam_mae": 0.12301837270341205,
+            "ordinary_max_mae": 0.18191601049868766,
+            "pass": true
+          },
+          "middle_mist": {
+            "seam_mae": 0.08227543262118554,
+            "ordinary_max_mae": 0.11131179688306327,
+            "pass": true
+          },
+          "light_hall_left": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 3.5303983228511533,
+            "pass": true
+          },
+          "light_hall_middle": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 3.4726631393298057,
+            "pass": true
+          },
+          "light_hall_right": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 4.342342342342342,
+            "pass": true
+          },
+          "light_gallery_left": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.06453522794553,
+            "pass": true
+          },
+          "light_gallery_right": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.6278735632183907,
+            "pass": true
+          },
+          "light_upper_room": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 5.333333333333333,
+            "pass": true
+          },
+          "light_cabin_window": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 9.128991060025543,
+            "pass": true
+          },
+          "light_door_lamp": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.5579481290075603,
+            "pass": true
+          },
+          "light_roof_amber": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 17.485572139303482,
+            "pass": true
+          },
+          "light_yard_left": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 1.4867463876432485,
+            "pass": true
+          },
+          "light_yard_bay": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 1.5529432253570186,
+            "pass": true
+          },
+          "light_path_lamp": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 1.3312043795620438,
+            "pass": true
+          },
+          "terrain_flow": {
+            "seam_mae": 0.2024719673802243,
+            "ordinary_max_mae": 0.2909658511722732,
+            "pass": true
+          },
+          "yard_powder": {
+            "seam_mae": 0.10552307852499739,
+            "ordinary_max_mae": 0.11690243503354307,
+            "pass": true
+          },
+          "cabin_exhaust": {
+            "seam_mae": 0.21576064053940158,
+            "ordinary_max_mae": 0.3034976822587442,
+            "pass": true
+          },
+          "pass_weather": {
+            "seam_mae": 0.09804712968424974,
+            "ordinary_max_mae": 0.1312159127366057,
+            "pass": true
+          },
+          "habitation": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 1.6506916996047432,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.04751693751372105,
+            "ordinary_max_mae": 0.4598290336469815,
+            "pass": true
+          }
+        }
+      }
+    },
+    {
+      "path": "music/empty-junction-animation-v3/empty-junction-v3-three-loops-180s.mp4",
+      "sha256": "6fd70d1f5f53e03849d616d3a7d035a1364fe676dd9e59fda592427bbbdd54c9",
+      "validation": {
+        "frames": 5400,
+        "fps": 30,
+        "full_decode": true,
+        "sequential_timestamps": true,
+        "encoded_seam": {
+          "sky_clouds": {
+            "seam_mae": 0.035767165366511235,
+            "ordinary_max_mae": 0.05006519192946012,
+            "pass": true
+          },
+          "far_mist": {
+            "seam_mae": 0.12301837270341205,
+            "ordinary_max_mae": 0.18191601049868766,
+            "pass": true
+          },
+          "middle_mist": {
+            "seam_mae": 0.08227543262118554,
+            "ordinary_max_mae": 0.11131179688306327,
+            "pass": true
+          },
+          "light_hall_left": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 3.5303983228511533,
+            "pass": true
+          },
+          "light_hall_middle": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 3.4726631393298057,
+            "pass": true
+          },
+          "light_hall_right": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 4.342342342342342,
+            "pass": true
+          },
+          "light_gallery_left": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.06453522794553,
+            "pass": true
+          },
+          "light_gallery_right": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.6278735632183907,
+            "pass": true
+          },
+          "light_upper_room": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 5.333333333333333,
+            "pass": true
+          },
+          "light_cabin_window": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 9.128991060025543,
+            "pass": true
+          },
+          "light_door_lamp": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.5579481290075603,
+            "pass": true
+          },
+          "light_roof_amber": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 17.485572139303482,
+            "pass": true
+          },
+          "light_yard_left": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 1.4867463876432485,
+            "pass": true
+          },
+          "light_yard_bay": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 1.5529432253570186,
+            "pass": true
+          },
+          "light_path_lamp": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 1.3312043795620438,
+            "pass": true
+          },
+          "terrain_flow": {
+            "seam_mae": 0.2024719673802243,
+            "ordinary_max_mae": 0.2909658511722732,
+            "pass": true
+          },
+          "yard_powder": {
+            "seam_mae": 0.10552307852499739,
+            "ordinary_max_mae": 0.11690243503354307,
+            "pass": true
+          },
+          "cabin_exhaust": {
+            "seam_mae": 0.21576064053940158,
+            "ordinary_max_mae": 0.3034976822587442,
+            "pass": true
+          },
+          "pass_weather": {
+            "seam_mae": 0.09804712968424974,
+            "ordinary_max_mae": 0.1312159127366057,
+            "pass": true
+          },
+          "habitation": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 1.6506916996047432,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.04751693751372105,
+            "ordinary_max_mae": 0.4598290336469815,
+            "pass": true
+          }
+        }
+      },
+      "exact_three_decoded_repetitions": true
+    }
+  ],
+  "silent": true,
+  "user_approved": false,
+  "inspection": "Temporal/decoded stills; continuous playback unavailable"
+}

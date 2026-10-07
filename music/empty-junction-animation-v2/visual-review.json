@@ -1,0 +1,14 @@
+{
+  "status": "pending_user_playback",
+  "preview_sha256": "19d50e6e204d97dc3b961720b30bac83aba3c52ccf642dff47c4d1190fd7edf1",
+  "inspection": "Inspected full-composition temporal and decoded stills, masks, forced-dim and actual light states. Continuous playback unavailable. User full-preview review pending.",
+  "observations": [
+    "Broad dark blue-grey cloud fragments have visibly different positions and shapes across normal-size samples",
+    "Far mist alternately veils and clears the lower central spires; side cuttings remain independently active",
+    "Warm horizon and foreground railway remain open",
+    "Door lamp and illuminated door/tread samples dim together; unlit risers stay dark",
+    "Larger cloud bank is deliberately more prominent than v1; its naturalness still needs playback judgement"
+  ],
+  "excluded_study": "twilight-shading-study-maximum.png",
+  "user_approved": false
+}
