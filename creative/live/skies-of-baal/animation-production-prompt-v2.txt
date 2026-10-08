@@ -1,0 +1,99 @@
+BENEATH A CRIMSON SKY — BUILD THE 4K STILL AND COMPLETE AMBIENT ANIMATION
+Production prompt v2 | 2026-10-08 | First Ambient Colony live special, after catalog 10
+
+STATUS AND USE
+This is an execution prompt for a later explicit production request. The current name is Beneath a Crimson Sky, selected by the user on 2026-10-08. Describe the setting as an unnamed fortress-monastery on a distant desert world. Use concept-brief-v2.txt and release-v2/ for current creative language and public copy. Preserve historical generation records as internal provenance. This text revision does not produce a still export, masks, renderer, animation, music or broadcast, and does not establish a completed visual originality review. Any separately requested source-art revision must be saved under a new version/hash and remapped before animation.
+
+CREATIVE TARGET
+Create the most convincing ambient scene we have made: an immense, living red sky above an ancient inhabited fortress-monastery, viewed from a quiet sheltered terrace. Monumental weather and distance supply the spectacle. A warm lantern, occupied windows and an abandoned-looking gateway supply intimacy and history. The scene should feel like a sheltered place to pause at the end of a long day.
+
+Success means recognizable movement in the sky and plains at normal viewing size, believable depth and occlusion, stable detailed masonry, restrained independent habitation and an unobtrusive repeat. It is an ambition to judge in playback, not a quality claim established by resolution or pixel differences.
+
+SOURCE AND AUTHORITY
+Read C:/Colony/AGENTS.md, PRODUCTION_PIPELINE.md, creative/ANIMATION_WORKFLOW.md, creative/ANIMATION_KNOWLEDGE_BANK.md, creative/NEXT_SCENE_RUNBOOK.md and this scene's README.md, manifest.json and concept-brief-v2.txt.
+
+Intended plate, relative to C:/Colony:
+creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v11-luminous-clear-sky.png
+Native dimensions: 1672 x 941.
+SHA-256: 30f0d2d0261875556fd7a96b6b9c1f02788d41e4254b23348a0859b2be376a5f.
+Verify the file before mapping. The user's explicit prior art acceptance covers v7 outside the planet/sky; v11 has been inspected and backed up, with no separate artistic verdict recorded. An explicit instruction to execute this exact prompt designates v11 for the candidate preview; record that new authority without inventing an earlier approval.
+
+Preserve every original. Use the existing local Python/NumPy/OpenCV/Pillow/FFmpeg workflow. No paid services, model installation or whole-scene video generation. Keep new scene settings in one configuration; protect other scenes' accepted renderers. Work in music/beneath-a-crimson-sky-animation-v1/ and use fresh versioned destinations if it already exists.
+
+DELIVERABLES WHEN EXECUTED
+1. A clean 3840 x 2160 PNG still derived from this exact plate, labelled as an upscale.
+2. A genuine sixty-second, 1280 x 720, 30 fps silent candidate: 1,800 frames.
+3. An exact three-repeat, 180-second review: 5,400 frames.
+4. After the user's complete-preview acceptance, the matching sixty-second 3840 x 2160, 30 fps silent master, plus its delivery evidence.
+5. Source/config/mask/code/dependency fingerprints, scene plan, validation and reproduction instructions.
+
+Sixty seconds is this prompt's proposed production duration, superseding the older twenty-second fallback only when this prompt is invoked. It is not a stream runtime. Music, assembly, public upload, monetisation and broadcasting remain separate work.
+
+1. PREPARE 4K WITHOUT REPAINTING THE SCENE
+Freeze a byte-identical native source copy. Export the 4K still with high-quality deterministic resampling, preserving aspect ratio and documenting the tiny centred crop needed for exact 16:9. Keep the full original. Avoid aggressive sharpening, invented pores, crunchy halos and AI regeneration of architecture or sky. Do not claim recovered or native 4K detail.
+
+Keep all effect coordinates and protection tests bound to the native source. Composite in sufficient precision, then resample the completed frames for preview and final with consistent colour handling. Check dark-red gradients for banding, lantern highlights for clipping and narrow spires for ringing. Do not recolour the scene or change global exposure to disguise an export problem.
+
+2. LOCK THE CAMERA AND SOLID WORLD
+Fix the roof beams, left pillar, lantern housing, bench, draped blanket, barrel, paving and parapet. Fix fortress walls, buttresses, bridge, domes, windows' frames, spires and the single main winged ornament. Fix cliffs, mesas, rubble, ruined gateway and terrain silhouettes. Keep the larger sky world's centre, diameter, limb, surface and illumination constant.
+
+The world is approximately centred near native x1160/y302, with a roughly 65-pixel diameter; these are inspection guides, not ready-made masks. Trace the actual pixels. Do not reintroduce extra ornaments, sharpen the cliffs into new geology, rotate the world, move its terminator, add a second moon or animate the ruin into a building event. Leave the blanket still; cloth warping would add another failure point without helping the principal motion.
+
+3. THE SKY — READABLE CLOUD TRAVEL AND AN UNAMBIGUOUS CLEAR OPENING
+Preserve the hard-won tonal relationship: the broad opening around the world is luminous red-orange clear air. Cloud bodies are darker charcoal, plum and deep red, with narrow hot rims. Darkening or blurring the opening would repeat a rejected result.
+
+Separate broad cloud formations from stationary sky colour and lighting. Transport their recognizable edges predominantly left-to-right with modest internal evolution. Test upper/nearer banks and lower/horizon weather separately. Start with roughly 2–5 native pixels per second for the more prominent cloud edges and slower apparent travel for the horizon layer; these are tuning proposals, not verified settings. Select speed from full-scene playback, preserving calm scale and identifiable travel over an eight-to-twelve-second test.
+
+Retain several distinct volumes and negative spaces across the upper centre, far right and lower sky. Evolve their density gently without boiling, rippling, turning into smoke stamps or changing the whole sky's brightness. A fixed cloud photograph with tiny internal shimmer is insufficient. Cover the full minute, including its final third.
+
+Keep the existing irregular clear opening around the world throughout the cycle. Design actual cloud trajectories and coverage to maintain it; do not use a visible circular clipping hole, feathered halo or blurred ring around the disc. A cloud approaching the opening should remain a coherent formation, not dissolve conspicuously at a boundary.
+
+DEPTH RULE: the rocky world is beyond the local atmosphere. Any atmospheric cloud that ever overlaps its projected disc would have to obscure it from the foreground. For this selected composition, retain the user's requested complete, unobscured disc and avoid such overlaps. Clouds elsewhere in the sky can surround its apparent position without being physically behind it. Never paste the world on top of an intersecting cloud or let cloud texture show through its rock.
+
+Exclude the world, fortress, fine spires, winged ornament, roof and cliffs from BOTH cloud texture extraction and destination effects. Protecting only the destination allows duplicate world or rock fragments to drift into open sky. Reconstruct only the atmospheric backing actually needed for travel; inspect newly exposed areas for smear, repeated patches, cloud ghosts and architectural fragments. Do not regenerate the whole source to obtain a moving sky.
+
+4. THE PLAINS — TWO SEPARATE DEPTHS OF SUSTAINED DUST
+Animate the distant rust-coloured dust bank beneath the mesas as a broad, broken, slowly travelling formation. Preserve gaps, distinct lobes and a thin upper edge; avoid an opaque horizontal stripe. Stationary distant terrain may lose and regain a little contrast through dust without moving or deforming.
+
+Add a lower middle-distance flow through existing channels near the ruined gateway and wall fragments. Let one recognizable dust tongue cross a terrain marker and pass behind the appropriate nearer stones. Vary height, concentration and lateral spread along the terrain. A somewhat faster apparent rate than the far bank establishes depth; do not assign identical noise or timing to both layers.
+
+Map front/behind relationships separately at the gate, each surviving wall and intervening ridges. If dust is behind the gate it cannot paint over its silhouette; any genuinely foreground veil needs its own depth mask. Let existing ruined openings remain legible. Keep the foreground terrace and lantern clear, without lens dust or sand blowing across the bench.
+
+Sustain incoming formations at staggered times so the plains never become static after the opening gust. Inspect the far-right plain, the gateway region and the middle valley at 0, 10, 20, 30, 40, 50 and near 60 seconds. Improve shape and spatial coverage before increasing opacity. Retain the view's depth and solitude.
+
+5. HABITATION — INDEPENDENT WINDOWS AND A WARM LANTERN
+Map a small number of existing fortress rooms, for example four to six readable window groups. Keep the main tall sanctuary window and a majority of route lights steady as visual anchors. Give selected smaller rooms separate held dim/off periods and gradual recoveries across the whole minute, with varied intervals and some events wrapping across the join. No marching sequence, simultaneous blackouts or synchronized breathing.
+
+Mask complete light apertures, including bright white cores. Preserve stone mullions and dark frames. Couple real adjacent wall/bridge spill to each light where it is visible. Inspect deliberately dim states for surviving lit strips, rectangular patches and detached glow before rendering the complete scene.
+
+The foreground lantern stays predominantly steady. Use gentle irregular local intensity variation appropriate to its warm source; optionally include one restrained brief dip if the first test benefits. Animate its emitter, immediate glass glow and existing illumination on the pillar/paving together. Keep ambient sunset light independent. Do not add an exposed flame, turn the lamp into a beacon or make the full terrace pulse.
+
+Do not add monitors, spacecraft, soldiers, moving banners, exhaust without an identifiable outlet, laser beams, lightning, aurora or a star field. The sky and desert already supply the large motions. Any later requested addition gets its own specific test and approval scope.
+
+6. BUILD A COMPLETE MINUTE WITH A HIDDEN JOIN
+Store deterministic seeds, transport rates and light events. Give the overall atmosphere and habitation minute-wide evolution; this is not a repeated twenty-second video. Local effect lifetimes can divide sixty seconds, but stagger their births and phase offsets. Maintain distinct full-scene states at 0/20/40 seconds.
+
+Keep forward motion through the join. Match states and apparent velocities, and hide particle or formation renewals only where opacity is already zero. Avoid blending nearby shifted copies of the whole weather field, which made Farpoint's first attempt look static. Inspect any local overlap for double edges or transparent ghosts. Do not stretch all speeds to fill the longer duration, reverse weather, ping-pong, dissolve the whole frame or duplicate the endpoint.
+
+7. REUSE PROVEN METHODS WITH NEW MASKS
+Basalt v6: accepted recognizable cloud transport; remap every exclusion and guard against sampled moon/rock duplication.
+Cable Station v3: accepted broad weather coverage and independent layers; adapt coverage to this sky and desert, not its valley coordinates.
+Saltline v5: accepted sustained distant dust and quiet foreground. V7's minute-wide light schedule is a timing example with separate review scope, not an approved preset for this scene.
+Ringfall v9b and Floodplain v2: accepted complete emitting-aperture masks with attached spill and independent events. Trace these actual fortress windows and lantern.
+Farpoint v1/v4/v5 and Empty Junction v2/v3: failure evidence, not quality baselines. Nonzero changes can be invisible; more glow or opacity can be implausible; the full minute needs distributed environmental motion.
+
+Record the exact implementation files chosen, their status and adaptation in scene-plan.json. Use cropped calculations and fingerprinted caches where appropriate. Reuse helpers without changing accepted scene outputs. Preserve working layers through sampled regression comparisons when adjusting one effect.
+
+8. RENDER, REVIEW AND VALIDATE
+First inspect native masks and layer order at full composition and close range. Render actual-strength eight-to-twelve-second 720p excerpts of sky, dust and lights. Name a cloud edge and a dust feature, their direction and the landmark each passes. Watch at normal speed when playback is available. Diagnostic crops and difference maps cannot establish artistic success.
+
+Fix the largest visible defect before adding secondary effects. Then deliver the complete silent minute and exact three-repeat review. The production request is not complete with isolated tests. If only temporal stills can be inspected, disclose that and leave full-preview visual acceptance to the user.
+
+Technical checks: finite pixels; exact unchanged native pixels outside authorized effect masks before encoding; source exclusion and protected geometry; no planet/cloud intersection or copied disc; continued motion in each intended depth through the final third; individual-layer periodic states and velocity continuity; encoded regional and composite last-to-first change against normal adjacent-frame steps; all 1,800/5,400 frames decoded with valid timestamps; correct duration, size, fps and silence; exact repeated-cycle identity. Reuse established seam gates without weakening them. Investigate encoder seam failures independently of analytic timing.
+
+After complete-preview acceptance, export the 4K master with identical source, masks, schedules, strengths and duration. Validate its full decode and encoded seam, inspect decoded stills at normal view and detail scale, and compare against the accepted look. Label the 4K deliverable as upscaled from 1672 x 941. Preserve the accepted preview and all earlier candidates.
+
+Deliver real files with absolute local paths. Update the scene record, production tracker and knowledge bank with actual implementation and feedback. Keep proposed, rendered, numerically checked, visually accepted and remotely backed-up states separate. Commit/push new work only when requested. Verify release timing remains after Farpoint Station's actual publication; preparing animation does not schedule the livestream.
+
+FINAL VIEWING TEST
+Within several seconds a viewer can see a substantial cloud edge travelling and dust crossing the plains. The rocky world remains cleanly visible against luminous open sky. On longer viewing, separate fortress rooms change and the lantern's warmth feels local. Stone stays stone, the terrace feels sheltered, the horizon keeps its scale, and three repeated minutes reveal no obvious restart. Let the user's playback verdict decide whether this is our strongest scene.

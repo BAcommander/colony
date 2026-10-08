@@ -1,0 +1,11 @@
+2026-10-08 initial source/mask inspection
+
+V12 geometry was traced anew. The new source remains byte-identical to its artwork file. The great golden lancet and world/opening are explicitly protected.
+
+Cloud transport uses the same original-texture method as v1, but unequally spaced phases (0/26 seconds), sin^8 normalized weights and a seven-second depth-dependent phase offset give dominant crisp fields and staggered local renewal. It is still a 2D approximation with brief overlap. Unlike v1 it does not reproduce the sky at thirty seconds. Outer image boundaries were extended beyond the raster before mask inset so the rightmost sky is not accidentally frozen.
+
+The first internal red-light still used a full arch polygon and linear red emission .29, which read as a flat painted red arch. Before any video rendering, replaced it with the two actual pane interiors, retained their divider, multiplied illumination by source-derived shading and reduced emission to .21. Adjacent spill is confined to the existing wall and arch reveals. No art pixels were regenerated.
+
+Optional precipitation was omitted: luminous horizontal gaps beneath the far-right cloud bank have too little unobstructed fall distance before the mesas, so a curtain would flatten the sunset/read as a stripe. This omission is permitted by prompt v3.
+
+Inspected the full source, coordinate crops, weather and light mask overlays, a red peak crop, full-scene storm stills at 8.52/33.37 seconds and a red-event still at 21 seconds. Still inspections do not constitute playback review. The effects remain candidates awaiting the user's full-preview review.

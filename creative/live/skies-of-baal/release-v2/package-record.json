@@ -1,0 +1,78 @@
+{
+  "schema_version": 2,
+  "prepared_date": "2026-10-08",
+  "status": "generic_release_copy_current",
+  "public_title": "Beneath a Crimson Sky",
+  "user_authority": "lets do this yeah = Beneath a Crimson Sky; don't have any warhammer lore in the relase copy, make any text more generic. Call it like a generic fortress monastry",
+  "public_setting": "An unnamed fortress-monastery on a distant desert world",
+  "supersedes": "release-v1/ (historical drafts; do not use for current public copy)",
+  "active_production_prompt": "animation-production-prompt-v2.txt",
+  "active_creative_brief": "concept-brief-v2.txt",
+  "public_copy_files": [
+    "youtube-title.txt",
+    "youtube-tags.txt",
+    "description.txt",
+    "description-short.txt",
+    "title-options.txt"
+  ],
+  "character_counts": {
+    "release-v2/youtube-tags.txt": 293,
+    "release-v2/youtube-title.txt": 51
+  },
+  "validation": {
+    "franchise_names_or_lore_in_public_copy": false,
+    "titles_under_100_characters": true,
+    "tags_under_500_characters": true
+  },
+  "scope": {
+    "text_updated": true,
+    "artwork_changed": false,
+    "visual_originality_review_completed": false,
+    "legal_clearance_claimed": false,
+    "animation_or_audio_generated": false,
+    "published": false,
+    "new_work_pushed": false
+  },
+  "files": [
+    {
+      "file": "concept-brief-v2.txt",
+      "sha256": "f4f57beae32756dd49bc3d4a301cafcf607326b02f75d2d6537ef60f53645051",
+      "bytes": 2192
+    },
+    {
+      "file": "animation-production-prompt-v2.txt",
+      "sha256": "f4a3b03474f3fbd5ec84e8ca0b220b0687d19975a05c9c8704c0d39a61cbde14",
+      "bytes": 15262
+    },
+    {
+      "file": "release-v2/description-short.txt",
+      "sha256": "08f59bbe7f1085d316d77c1c4d2c7ea2fb9ff0aec26a5420dca2a955b4ef7a8f",
+      "bytes": 252
+    },
+    {
+      "file": "release-v2/description.txt",
+      "sha256": "e9be94d4af477eddfdce5d15e1b345c067a356dbc5945c5493d57c9de4d066bc",
+      "bytes": 672
+    },
+    {
+      "file": "release-v2/README.txt",
+      "sha256": "22d03a9349446bab760910098458d0af42883c77faf9be278f705c98442d98a2",
+      "bytes": 2008
+    },
+    {
+      "file": "release-v2/title-options.txt",
+      "sha256": "10ecf14c079edf5eca648805bad35c2c2fd0426b700200133dfab36147c3ca2e",
+      "bytes": 987
+    },
+    {
+      "file": "release-v2/youtube-tags.txt",
+      "sha256": "1411e522bac1feda1e81714ce57d754483dd958ed0d68acd657812df3e641e70",
+      "bytes": 294
+    },
+    {
+      "file": "release-v2/youtube-title.txt",
+      "sha256": "c9264a204226d84d3a859eaca7fd778cb5bbd7f8839d3c49368d653c682b77e4",
+      "bytes": 52
+    }
+  ]
+}

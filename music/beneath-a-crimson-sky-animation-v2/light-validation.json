@@ -1,0 +1,60 @@
+{
+  "lantern_coupled_dip_samples": {
+    "lantern_core": {
+      "native_xy": [
+        64,
+        358
+      ],
+      "at_39s": [
+        198,
+        113,
+        46
+      ],
+      "at_dip_39_25s": [
+        181,
+        103,
+        42
+      ],
+      "mask_weight": 0.8046573996543884
+    },
+    "wall_spill": {
+      "native_xy": [
+        105,
+        370
+      ],
+      "at_39s": [
+        248,
+        179,
+        92
+      ],
+      "at_dip_39_25s": [
+        238,
+        172,
+        88
+      ],
+      "mask_weight": 0.3659731447696686
+    },
+    "paving_spill": {
+      "native_xy": [
+        199,
+        865
+      ],
+      "at_39s": [
+        216,
+        148,
+        100
+      ],
+      "at_dip_39_25s": [
+        209,
+        144,
+        97
+      ],
+      "mask_weight": 0.30287986993789673
+    }
+  },
+  "red_changed_pixels_at_peak": 1311,
+  "red_changes_confined_to_traced_aperture_and_attached_stone": true,
+  "red_off_at_0_10_30_40_58": true,
+  "inspection_note": "An initial diagnostic used a dark tile and 39.4s, after most of the brief dip had recovered. Corrected to actual peak at 39.25s and an illuminated floor stone; no effect parameters changed.",
+  "limits": "Sampled local coupling and protection; full-preview visual review remains pending."
+}

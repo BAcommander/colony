@@ -1,0 +1,70 @@
+{
+  "encoded_cloud_patch": {
+    "source_preview_roi": [
+      775,
+      60,
+      80,
+      45
+    ],
+    "seconds": 8,
+    "displacement_preview_pixels": [
+      16,
+      0
+    ],
+    "correlation": 0.9744658470153809,
+    "direction": "right"
+  },
+  "edge_energy_diagnostic": [
+    {
+      "time": 0,
+      "new_edge_energy": 1.5948936939239502,
+      "same_source_v1_method_edge_energy": 1.781093716621399
+    },
+    {
+      "time": 6,
+      "new_edge_energy": 1.7058002948760986,
+      "same_source_v1_method_edge_energy": 1.1333496570587158
+    },
+    {
+      "time": 12,
+      "new_edge_energy": 1.713200330734253,
+      "same_source_v1_method_edge_energy": 1.1437710523605347
+    },
+    {
+      "time": 18,
+      "new_edge_energy": 1.2714802026748657,
+      "same_source_v1_method_edge_energy": 1.0946223735809326
+    },
+    {
+      "time": 24,
+      "new_edge_energy": 1.5318137407302856,
+      "same_source_v1_method_edge_energy": 1.0742484331130981
+    },
+    {
+      "time": 30,
+      "new_edge_energy": 1.7393337488174438,
+      "same_source_v1_method_edge_energy": 1.781093716621399
+    },
+    {
+      "time": 36,
+      "new_edge_energy": 1.64401376247406,
+      "same_source_v1_method_edge_energy": 1.133349895477295
+    },
+    {
+      "time": 42,
+      "new_edge_energy": 1.7805602550506592,
+      "same_source_v1_method_edge_energy": 1.1437710523605347
+    },
+    {
+      "time": 48,
+      "new_edge_energy": 1.1898404359817505,
+      "same_source_v1_method_edge_energy": 1.0946223735809326
+    },
+    {
+      "time": 54,
+      "new_edge_energy": 1.6811603307724,
+      "same_source_v1_method_edge_energy": 1.0742483139038086
+    }
+  ],
+  "limits": "Template and edge metrics support motion/sharpness inspection only; not artistic acceptance."
+}

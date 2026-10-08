@@ -48,3 +48,27 @@ __pycache__/
 
 # Empty Junction v3 work-in-progress backup explicitly requested 2026-10-07.
 !music/empty-junction-animation-v3/empty-junction-v3-preview-60s.mp4
+
+# Complete Crimson Sky checkpoint explicitly requested 2026-10-08.
+!music/beneath-a-crimson-sky-animation-v1/beneath-a-crimson-sky-v1-preview-60s.mp4
+!music/beneath-a-crimson-sky-animation-v1/beneath-a-crimson-sky-v1-three-loops-180s.mp4
+!music/beneath-a-crimson-sky-animation-v1/colour-check-3frames.mp4
+!music/beneath-a-crimson-sky-animation-v1/dust-v1-isolated-10s.mp4
+!music/beneath-a-crimson-sky-animation-v1/habitation-v1-isolated-10s.mp4
+!music/beneath-a-crimson-sky-animation-v1/history/initial-colour-conversion/beneath-a-crimson-sky-v1-preview-60s.mp4
+!music/beneath-a-crimson-sky-animation-v1/history/initial-colour-conversion/dust-v1-isolated-10s.mp4
+!music/beneath-a-crimson-sky-animation-v1/history/initial-colour-conversion/habitation-v1-isolated-10s.mp4
+!music/beneath-a-crimson-sky-animation-v1/history/initial-colour-conversion/sky_clouds-v1-isolated-10s.mp4
+!music/beneath-a-crimson-sky-animation-v1/sky_clouds-v1-isolated-10s.mp4
+!music/beneath-a-crimson-sky-animation-v2/baseline-v2-isolated-10s.mp4
+!music/beneath-a-crimson-sky-animation-v2/beneath-a-crimson-sky-v2-preview-60s.mp4
+!music/beneath-a-crimson-sky-animation-v2/beneath-a-crimson-sky-v2-three-loops-180s.mp4
+!music/beneath-a-crimson-sky-animation-v2/combined-v2-isolated-10s.mp4
+!music/beneath-a-crimson-sky-animation-v2/dust-v2-isolated-10s.mp4
+!music/beneath-a-crimson-sky-animation-v2/lantern-v2-isolated-10s.mp4
+!music/beneath-a-crimson-sky-animation-v2/red_embers-v2-isolated-10s.mp4
+!music/beneath-a-crimson-sky-animation-v2/sky_clouds-v2-isolated-10s.mp4
+!music/beneath-a-crimson-sky-animation-v2/storm_context-v2-isolated-10s.mp4
+
+# Post-push restore verification is machine-local evidence.
+/music/beneath-a-crimson-sky-animation-v2/remote-backup-verification.json

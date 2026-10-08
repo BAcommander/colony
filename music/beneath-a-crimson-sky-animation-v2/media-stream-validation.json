@@ -1,0 +1,23 @@
+{
+  "clips": [
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/beneath-a-crimson-sky-v2-preview-60s.mp4",
+      "probe_lines": [
+        "Duration: 00:01:00.00, start: 0.000000, bitrate: 5643 kb/s",
+        "Stream #0:0[0x1](und): Video: h264 (High 4:4:4 Predictive) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1280x720, 5642 kb/s, 30 fps, 30 tbr, 15360 tbn (default)"
+      ],
+      "silent_video_only": true,
+      "size_bytes": 42328905
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/beneath-a-crimson-sky-v2-three-loops-180s.mp4",
+      "probe_lines": [
+        "Duration: 00:03:00.00, start: 0.000000, bitrate: 5643 kb/s",
+        "Stream #0:0[0x1](und): Video: h264 (High 4:4:4 Predictive) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1280x720, 5642 kb/s, 30 fps, 30 tbr, 15360 tbn (default)"
+      ],
+      "silent_video_only": true,
+      "size_bytes": 126985043
+    }
+  ],
+  "full_decode_evidence": "preview-validation.json"
+}

@@ -1,0 +1,14 @@
+{
+  "region_preview_xyxy": [
+    775,
+    65,
+    1120,
+    137
+  ],
+  "interval_seconds": 4,
+  "tracked_features": 80,
+  "median_dx": 7.928741455078125,
+  "median_dy": 0.014438629150390625,
+  "positive_x_fraction": 1.0,
+  "scope": "Supporting positional diagnostic only; does not establish artistic quality"
+}

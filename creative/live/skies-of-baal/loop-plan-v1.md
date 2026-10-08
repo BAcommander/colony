@@ -1,12 +1,12 @@
 # Loop and live proposal v1
 
-Planning only, 2026-10-07. No approved source: dimensions, hash, coordinates, masks and renderer unset. This proposal does not invoke production.
+Historical motion proposal, 2026-10-07; execution update 2026-10-08. Current public name: Beneath a Crimson Sky; use release-v2 for generic release text. The user invoked [production prompt v2](animation-production-prompt-v2.txt). [Animation v1](../../../music/beneath-a-crimson-sky-animation-v1/README.md) now contains the complete sixty-second 720p candidate, three-repeat review and clean upscaled 4K still. Technical checks passed; full-preview visual acceptance and 4K animation remain pending. The source is frozen for candidate production without claiming new artwork approval. Historical naming research remains separate from production.
 
 ## Independent cycles
 
 **Music:** develop roughly five-to-ten minutes of original source, then select a continuous excerpt and overlap from actual harmony/reverb. Development range, not guaranteed final loop duration. Preserve originals and join revisions. Avoid fade-to-silence or recurring introductions. Inspect joins/levels, then obtain listening feedback; measurements cannot establish comfort or absence of voices.
 
-**Visuals:** propose a genuine sixty-second fixed-camera cycle, 30 fps. Duration not yet user-selected; production without acceptance of this proposal follows the twenty-second default. Use approved immutable artwork and independent masked weather/lights. Minute-wide events give distinct 0/20/40-second states while preserving natural speeds. Three copied twenty-second videos are not a unique minute.
+**Visuals:** propose a genuine sixty-second fixed-camera cycle, 30 fps. This sixty-second duration took effect when the user invoked the production prompt on 2026-10-08. Use approved immutable artwork and independent masked weather/lights. Minute-wide events give distinct 0/20/40-second states while preserving natural speeds. Three copied twenty-second videos are not a unique minute.
 
 Principal action: recognizable broad cloud edges travel slowly across the sky. Supporting action: separate distant dust crosses channels behind fixed terrain; a few existing windows have independent held events/local spill. Foreground lamp stays mainly steady. Preserve camera, geometry and exposure; no new moving focal objects. Stars, exhaust and extra telemetry unnecessary here.
 

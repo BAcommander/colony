@@ -1,0 +1,20 @@
+{
+  "silent_video_only": true,
+  "files": [
+    {
+      "file": "beneath-a-crimson-sky-v1-preview-60s.mp4",
+      "streams": [
+        "Stream #0:0[0x1](und): Video: h264 (High 4:4:4 Predictive) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1280x720, 5955 kb/s, 30 fps, 30 tbr, 15360 tbn (default)"
+      ],
+      "duration": "00:01:00.00"
+    },
+    {
+      "file": "beneath-a-crimson-sky-v1-three-loops-180s.mp4",
+      "streams": [
+        "Stream #0:0[0x1](und): Video: h264 (High 4:4:4 Predictive) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1280x720, 5955 kb/s, 30 fps, 30 tbr, 15360 tbn (default)"
+      ],
+      "duration": "00:03:00.00"
+    }
+  ],
+  "method": "FFmpeg stream headers plus complete decode/timestamp checks in preview-validation.json"
+}

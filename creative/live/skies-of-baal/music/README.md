@@ -1,6 +1,6 @@
-# Skies of Baal — soundtrack preparation
+# Beneath a Crimson Sky — soundtrack preparation
 
-Prepared 2026-10-07. Prompts only; no audio generated or heard. Follow [MUSIC_WORKFLOW.md](../../../MUSIC_WORKFLOW.md).
+Prepared 2026-10-07; public name updated 2026-10-08. Existing music prompts are generic and remain applicable to the fortress-monastery setting. Prompts only; no audio generated or heard. Follow [MUSIC_WORKFLOW.md](../../../MUSIC_WORKFLOW.md).
 
 1. User pastes [short prompt](elevenlabs-prompt-v1.txt) into Music prompt/song-description, uses instrumental mode where offered and chooses 60 seconds/two variants if available. Check actual settings/cost; no current price assumed.
 2. Compare at matched comfortable levels. Prefer changing harmonies, tenderness and spacious rests. Save selected original and feedback in [generation-record.json](generation-record.json). Revise only unresolved characteristics.

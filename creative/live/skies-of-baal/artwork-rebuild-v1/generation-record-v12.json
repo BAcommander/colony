@@ -1,0 +1,71 @@
+{
+  "title": "Beneath a Crimson Sky",
+  "version": "v12",
+  "date": "2026-10-08",
+  "status": "generated_and_inspected_candidate_not_user_approved",
+  "user_request": "so can we rebuild the original artwork, at 4k and ensure AAA levels of realism and detail?",
+  "tool": "built-in image_gen; three versioned attempts",
+  "final_prompt": "generation-prompt-v12c-fresh.txt",
+  "final_input": {
+    "role": "material_reference",
+    "repository_relative_path": "creative/live/skies-of-baal/concepts/02-homeward-terrace/concept-v1.png",
+    "sha256": "43815a22b4f40e1cd581e822e1dc01d59b7e9db2a8b3bfce7fbafdd8919d4bab",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "inspection": {
+    "full_composition_inspected": true,
+    "native_detail_crops": [
+      "inspection/pier-native-crop.png",
+      "inspection/fortress-cliff-native-crop.png",
+      "inspection/paving-native-crop.png",
+      "inspection/world-sky-native-crop.png"
+    ],
+    "successes": [
+      "Broader coherent cliff strata and natural fracture planes replace the melted lattice of v11",
+      "Foreground stone has quieter faces and more credible block/joint construction",
+      "Bridge arches and principal monastery masses read as supported construction",
+      "Original bench, blanket, barrel, lantern, roof framing and sheltered terrace remain",
+      "Rocky world is unobscured within a luminous clear red-orange opening"
+    ],
+    "limitations": [
+      "Fresh reconstruction changes the detailed fortress design, dome placement and some terrain contours; not pixel-preserved v7/v11 geometry",
+      "World appears a little higher and slightly smaller than v11, while retaining the requested larger-than-original scale",
+      "Some foreground tooling/roughness remains; AAA is an art-direction target, not a verified production certification",
+      "Generated image is 1672x941; the 3840x2160 file is upscaled and contains no extra detail from resampling"
+    ],
+    "user_approved": false
+  },
+  "export": {
+    "source_file": "beneath-a-crimson-sky-v12-native.png",
+    "source_sha256": "bbcb566dac5704b0a046c2c7769f3a73bd0f092851d723988489d627eb12e0b5",
+    "generated_dimensions": [
+      1672,
+      941
+    ],
+    "output_file": "beneath-a-crimson-sky-v12-4k.png",
+    "output_sha256": "a5b65d229489e6aaa40cad9485021a247e53b461ab4f971271a56ccedfc56c4d",
+    "output_dimensions": [
+      3840,
+      2160
+    ],
+    "method": "Pillow ImageOps.fit Lanczos, centred aspect-preserving crop, no sharpening",
+    "native_4k": false,
+    "new_detail_from_resampling": false,
+    "detail_provenance": "Source materials and geometry freshly generated from original terrace reference; 4K file is a deterministic enlargement of that rebuilt image, not the rejected v11."
+  },
+  "animation": "Existing animation-v1 uses v11; no source substitution or mask reuse. Any future animation must freeze this new source and remap geometry.",
+  "backup": "Local uncommitted production; prior art backup does not cover this rebuild.",
+  "hashes": {
+    "generation-prompt-v12.txt": "d65c22d30d63935e8ec522b66ae0f9a417f93b1aee659336d4a0ac5d2cc8b837",
+    "generation-prompt-v12b.txt": "0020676d58d4f61baa25e1c5fd48d7585f9ca5381f980c7f26fb11571e7c2a86",
+    "generation-prompt-v12c-fresh.txt": "e709b750b223da9358bb3533ebd51e8481a64e5ade6c4444683d4b8bc7aa85a3",
+    "concept-v12a-internal.png": "aa2c90e965e8f3a7acbee331a84d6923f023e6ba259d801efa38bf3396833509",
+    "concept-v12b-internal.png": "857c1e0fc1e2e42dde110309cc56f94392f48514c25e91efc98da033466ed113",
+    "beneath-a-crimson-sky-v12-native.png": "bbcb566dac5704b0a046c2c7769f3a73bd0f092851d723988489d627eb12e0b5",
+    "beneath-a-crimson-sky-v12-4k.png": "a5b65d229489e6aaa40cad9485021a247e53b461ab4f971271a56ccedfc56c4d",
+    "4k-export.json": "83e4f4aba3e67e6a86ba9ae73743829b81953aee40f4313cd8940460fda10e15"
+  }
+}

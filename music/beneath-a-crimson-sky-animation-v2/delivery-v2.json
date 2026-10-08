@@ -1,0 +1,392 @@
+{
+  "title": "Beneath a Crimson Sky",
+  "version": "animation v2 / source v12",
+  "date": "2026-10-08",
+  "status": "complete_preview_delivered_user_playback_review_pending",
+  "authority": {
+    "request": "make the animation",
+    "invoked_prompt": "creative/live/skies-of-baal/animation-production-prompt-v3-storm-and-embers.txt"
+  },
+  "source": {
+    "path": "music/beneath-a-crimson-sky-animation-v2/source-v12.png",
+    "sha256": "bbcb566dac5704b0a046c2c7769f3a73bd0f092851d723988489d627eb12e0b5",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "videos": [
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/beneath-a-crimson-sky-v2-preview-60s.mp4",
+      "sha256": "0587d9d7d81e0d23b113448de22f6b0cd913cc622e23cba7d23c192f1468c87f",
+      "frames": 1800,
+      "seconds": 60,
+      "start_time": 0,
+      "layer": "combined",
+      "silent": true,
+      "validation": {
+        "frames": 1800,
+        "fps": 30.0,
+        "full_decode": true,
+        "pixel_decoder": "FFmpeg RGB24 with stream colour metadata",
+        "timestamp_decoder": "OpenCV frame grab without RGB conversion",
+        "sequential_timestamps": true,
+        "encoded_seam": {
+          "sky_clouds": {
+            "seam_mae": 0.1372781595506445,
+            "ordinary_max_mae": 0.971542314359942,
+            "pass": true
+          },
+          "far_dust": {
+            "seam_mae": 0.06172101758579477,
+            "ordinary_max_mae": 0.07007284730521883,
+            "pass": true
+          },
+          "middle_dust": {
+            "seam_mae": 0.06011954192681901,
+            "ordinary_max_mae": 0.07428823342457888,
+            "pass": true
+          },
+          "light_west_pair": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.09552669552669553,
+            "pass": true
+          },
+          "light_west_lancet": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.2517394054395952,
+            "pass": true
+          },
+          "light_upper_chapel": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.15082159624413147,
+            "pass": true
+          },
+          "light_lower_dome_pair": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.11592836946277096,
+            "pass": true
+          },
+          "light_east_rooms": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.07176684881602914,
+            "pass": true
+          },
+          "light_east_belfry": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.07739242132305717,
+            "pass": true
+          },
+          "lantern": {
+            "seam_mae": 0.034326624142982445,
+            "ordinary_max_mae": 0.6628781094870064,
+            "pass": true
+          },
+          "storm": {
+            "seam_mae": 0.12949681433947588,
+            "ordinary_max_mae": 2.090086895515673,
+            "pass": true
+          },
+          "red_embers": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.22953388170779476,
+            "pass": true
+          },
+          "dust": {
+            "seam_mae": 0.06079023733338099,
+            "ordinary_max_mae": 0.0708365361124518,
+            "pass": true
+          },
+          "habitation": {
+            "seam_mae": 0.031790383355873676,
+            "ordinary_max_mae": 0.6139010096370581,
+            "pass": true
+          },
+          "storm_context": {
+            "seam_mae": 0.1372781595506445,
+            "ordinary_max_mae": 0.971542314359942,
+            "pass": true
+          },
+          "baseline": {
+            "seam_mae": 0.1004094541388067,
+            "ordinary_max_mae": 0.6026363099814396,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.1004094541388067,
+            "ordinary_max_mae": 0.6026363099814396,
+            "pass": true
+          }
+        }
+      },
+      "quiet_join_validation": {
+        "sky_clouds": {
+          "seam": 0.13727815955064454,
+          "quiet_adjacent_max": 0.3197111652156096,
+          "pass": true
+        },
+        "far_dust": {
+          "seam": 0.06172101758579478,
+          "quiet_adjacent_max": 0.06341414831256047,
+          "pass": true
+        },
+        "middle_dust": {
+          "seam": 0.060119541926819016,
+          "quiet_adjacent_max": 0.059473646438860356,
+          "pass": true
+        },
+        "light_west_pair": {
+          "seam": 0.0,
+          "quiet_adjacent_max": 0.0,
+          "pass": true
+        },
+        "light_west_lancet": {
+          "seam": 0.0,
+          "quiet_adjacent_max": 0.0,
+          "pass": true
+        },
+        "light_upper_chapel": {
+          "seam": 0.0,
+          "quiet_adjacent_max": 0.0,
+          "pass": true
+        },
+        "light_lower_dome_pair": {
+          "seam": 0.0,
+          "quiet_adjacent_max": 0.0,
+          "pass": true
+        },
+        "light_east_rooms": {
+          "seam": 0.0,
+          "quiet_adjacent_max": 0.0,
+          "pass": true
+        },
+        "light_east_belfry": {
+          "seam": 0.0,
+          "quiet_adjacent_max": 0.0,
+          "pass": true
+        },
+        "lantern": {
+          "seam": 0.034326624142982445,
+          "quiet_adjacent_max": 0.04965535610141394,
+          "pass": true
+        },
+        "storm": {
+          "seam": 0.12949681433947588,
+          "quiet_adjacent_max": 0.3767200851034625,
+          "pass": true
+        },
+        "red_embers": {
+          "seam": 0.0,
+          "quiet_adjacent_max": 0.0,
+          "pass": true
+        },
+        "dust": {
+          "seam": 0.060790237333381,
+          "quiet_adjacent_max": 0.060432717803876705,
+          "pass": true
+        },
+        "habitation": {
+          "seam": 0.03179038335587367,
+          "quiet_adjacent_max": 0.04598654384308522,
+          "pass": true
+        },
+        "storm_context": {
+          "seam": 0.13727815955064454,
+          "quiet_adjacent_max": 0.3197111652156096,
+          "pass": true
+        },
+        "baseline": {
+          "seam": 0.1004094541388067,
+          "quiet_adjacent_max": 0.2116745878278157,
+          "pass": true
+        },
+        "combined": {
+          "seam": 0.1004094541388067,
+          "quiet_adjacent_max": 0.2116745878278157,
+          "pass": true
+        }
+      }
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/beneath-a-crimson-sky-v2-three-loops-180s.mp4",
+      "sha256": "48ac2f45ede4cc475806ce16700fe008788aa1fe3cd2e0c00278709078467ee3",
+      "validation": {
+        "frames": 5400,
+        "fps": 30.0,
+        "full_decode": true,
+        "pixel_decoder": "FFmpeg RGB24 with stream colour metadata",
+        "timestamp_decoder": "OpenCV frame grab without RGB conversion",
+        "sequential_timestamps": true,
+        "encoded_seam": {
+          "sky_clouds": {
+            "seam_mae": 0.1372781595506445,
+            "ordinary_max_mae": 0.971542314359942,
+            "pass": true
+          },
+          "far_dust": {
+            "seam_mae": 0.06172101758579477,
+            "ordinary_max_mae": 0.07007284730521883,
+            "pass": true
+          },
+          "middle_dust": {
+            "seam_mae": 0.06011954192681901,
+            "ordinary_max_mae": 0.07428823342457888,
+            "pass": true
+          },
+          "light_west_pair": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.09552669552669553,
+            "pass": true
+          },
+          "light_west_lancet": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.2517394054395952,
+            "pass": true
+          },
+          "light_upper_chapel": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.15082159624413147,
+            "pass": true
+          },
+          "light_lower_dome_pair": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.11592836946277096,
+            "pass": true
+          },
+          "light_east_rooms": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.07176684881602914,
+            "pass": true
+          },
+          "light_east_belfry": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.07739242132305717,
+            "pass": true
+          },
+          "lantern": {
+            "seam_mae": 0.034326624142982445,
+            "ordinary_max_mae": 0.6628781094870064,
+            "pass": true
+          },
+          "storm": {
+            "seam_mae": 0.12949681433947588,
+            "ordinary_max_mae": 2.090086895515673,
+            "pass": true
+          },
+          "red_embers": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.22953388170779476,
+            "pass": true
+          },
+          "dust": {
+            "seam_mae": 0.06079023733338099,
+            "ordinary_max_mae": 0.0708365361124518,
+            "pass": true
+          },
+          "habitation": {
+            "seam_mae": 0.031790383355873676,
+            "ordinary_max_mae": 0.6139010096370581,
+            "pass": true
+          },
+          "storm_context": {
+            "seam_mae": 0.1372781595506445,
+            "ordinary_max_mae": 0.971542314359942,
+            "pass": true
+          },
+          "baseline": {
+            "seam_mae": 0.1004094541388067,
+            "ordinary_max_mae": 0.6026363099814396,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.1004094541388067,
+            "ordinary_max_mae": 0.6026363099814396,
+            "pass": true
+          }
+        }
+      },
+      "exact_three_decoded_repetitions": true
+    }
+  ],
+  "fingerprint": {
+    "files": {
+      "music/beneath-a-crimson-sky-animation-v2/scene-plan-v2.json": "d04cb99f0254515d248c32ba57e4cc7a27888dec81a37a410e91ef60a389d29d",
+      "music/beneath-a-crimson-sky-animation-v2/render_crimson.py": "67df18aa609ffcc1a96192aab77a13691b22ba2d73646edc527f79e64a86e883",
+      "music/beneath-a-crimson-sky-animation-v2/source-v12.png": "bbcb566dac5704b0a046c2c7769f3a73bd0f092851d723988489d627eb12e0b5",
+      "music/beneath-a-crimson-sky-animation-v2/production-prompt.txt": "0ef51284f5866b3e3307f5cb03485cd68b701a2923607e61e0af04d1584cf3e7",
+      "music/beneath-a-crimson-sky-animation-v2/dependencies/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+      "music/beneath-a-crimson-sky-animation-v2/dependencies/crimson_v1.py": "08d49ecd5fd074bf60fbf8bc40e3f57a1cdf8c9399ab8f2288bfa7cf8d1a226f",
+      "music/beneath-a-crimson-sky-animation-v2/dependencies/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "music/beneath-a-crimson-sky-animation-v2/dependencies/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379"
+    },
+    "masks": {
+      "sky_clouds": "d179f6a4a548fae02b89198e686f97cc8f526b82c15ea8b9726ada7e696c00df",
+      "far_dust": "0324ebe4313dec8b0c38d8aba577df7147cf9e2af376aea1c167ca1a196a3fb9",
+      "middle_dust": "ca521c3ce4a5d4e15432e01767511b789a4739cac51254996e489a7ebb426a06",
+      "light_west_pair": "7cad57bdf854f76e8a461991b25fd0984ae2d9f6b3c7b894bd99beb2d1cd6193",
+      "light_west_lancet": "0dd6e883a4033bdf7dc75ead2bae09ab0bef696fc3491a9c6123800bf6ef066a",
+      "light_upper_chapel": "5b2a153d1fdd07ed05ff58b283d782531b94f29fdcda7464e4ebc959e517c9d7",
+      "light_lower_dome_pair": "e4c4201a0bcaa0a08efd37cccb3392c16953f2f99377290984454aafda7a0dd3",
+      "light_east_rooms": "b773c904677e4539867a97bed2bb4bce5196916fc12f00e190994d0d5036cbe2",
+      "light_east_belfry": "ca1454a5dc29f2f3a24d1c81d0fadbc1a291fffcc1000dd8705d6bb2d92256d7",
+      "lantern": "53a2b315607037948082aa96e07f3b39214bb12d5003ab555d56caa97ef7b975",
+      "storm": "f81da3b8bf691cfcddbe1837dd1d1308a6ece79a1d05904aec829fadd1af861b",
+      "red_embers": "9659981447922e9201f3eef34b16e1f07e6f60efad62f3666f57f1f1b768d695"
+    },
+    "numpy": "2.4.3",
+    "opencv": "5.0.0"
+  },
+  "record_hashes": {
+    "music/beneath-a-crimson-sky-animation-v2/render_crimson.py": "67df18aa609ffcc1a96192aab77a13691b22ba2d73646edc527f79e64a86e883",
+    "music/beneath-a-crimson-sky-animation-v2/finalize_records.py": "d1061d84863dc5fd5ca55f6b37314791de94e669a300f689494ab48b3e18ec36",
+    "music/beneath-a-crimson-sky-animation-v2/scene-plan-v2.json": "d04cb99f0254515d248c32ba57e4cc7a27888dec81a37a410e91ef60a389d29d",
+    "music/beneath-a-crimson-sky-animation-v2/production-prompt.txt": "0ef51284f5866b3e3307f5cb03485cd68b701a2923607e61e0af04d1584cf3e7",
+    "music/beneath-a-crimson-sky-animation-v2/analytic-validation.json": "718dd9459e053a364af4f232a116537b8a71ffad170e3242ef411356fd472de6",
+    "music/beneath-a-crimson-sky-animation-v2/isolated-validation.json": "6cf9b32b864a5c15cc956eb339399d2016c835706db1af04406d307fdf321bf0",
+    "music/beneath-a-crimson-sky-animation-v2/preview-validation.json": "64b4dfb41568b4ff01bfbb52c9b099a0bb8ef1d0b2134aad0669e2efa4142fd8",
+    "music/beneath-a-crimson-sky-animation-v2/cloud-transport-validation.json": "38026f3832da27c42ad9860b38117b68bf60baa537508a4cd01c5df5e2ab31c0",
+    "music/beneath-a-crimson-sky-animation-v2/light-validation.json": "9a0099dfa631b563e9d1d83e4ead3dc96b6e10e64e0edec876ae48350dcc1071",
+    "music/beneath-a-crimson-sky-animation-v2/media-stream-validation.json": "4dee7d80f1f39727e5c9f75b9383ef690cefbc2d19729b2a1ac9fa8bdcee1bf7",
+    "music/beneath-a-crimson-sky-animation-v2/delivery-colour-validation.json": "57b067782844cfc14eed9d953544ea43ffaf3bc8423cd2c73e2f9edd053083e6",
+    "music/beneath-a-crimson-sky-animation-v2/inspection/implementation-notes.txt": "734ad61f385bd36f648c04cfe7a02cdf2f1a06d2b2aa901dcf0be003597dfeb0",
+    "music/beneath-a-crimson-sky-animation-v2/masks/far_dust.png": "23aa2c2fcecde11b4136184571a7426f27da672a612947179feb3c6f8a09be5a",
+    "music/beneath-a-crimson-sky-animation-v2/masks/lantern.png": "9abb46e28a8d91292fdae8fdc7871c0e9172577ac1ed7a1793e06a52722e08f1",
+    "music/beneath-a-crimson-sky-animation-v2/masks/light_east_belfry.png": "8b1cdb67b5a3eb8ab1367555d0fec891f1aa867a6927e79ec8988ab877990dfa",
+    "music/beneath-a-crimson-sky-animation-v2/masks/light_east_rooms.png": "34965005902337762b379bd5053ddeb91f66622018ec932ecc44b1a567e50005",
+    "music/beneath-a-crimson-sky-animation-v2/masks/light_lower_dome_pair.png": "6ca29cdd8b2f879c6ed52dbe9e87f0b3a6117480790c16417b3d485049abf609",
+    "music/beneath-a-crimson-sky-animation-v2/masks/light_upper_chapel.png": "488c198c6fe4d3e3e595b05c5521ac1c20fa7ac443b58a618f1ff642681590dd",
+    "music/beneath-a-crimson-sky-animation-v2/masks/light_west_lancet.png": "b07fac4aa2cecd94b5185622890a4d11931fc9fbea9f63b082180ec51e8d8d5c",
+    "music/beneath-a-crimson-sky-animation-v2/masks/light_west_pair.png": "bb4dd3d5d738720ea5f620616ac90fe7991e34d9e023791238ccddad7478edad",
+    "music/beneath-a-crimson-sky-animation-v2/masks/middle_dust.png": "2c4689920f1f35bc00d5c99c9ecb2bc0e7a9e45af19ee563a92553215668d271",
+    "music/beneath-a-crimson-sky-animation-v2/masks/red_embers.png": "a23ebaf1e764150f9766cf91127b634691562b7f0d753dee27a8fa881ef2c677",
+    "music/beneath-a-crimson-sky-animation-v2/masks/sky_clouds.png": "691a4803ece8fdafd95caf40397eb14c429d9bcf2ecd3ee81b552172f55cb02b",
+    "music/beneath-a-crimson-sky-animation-v2/masks/storm.png": "120ddeee1639e255473c3b78a1a4f230458a00b36c8ee353d9e597d13462a79d",
+    "music/beneath-a-crimson-sky-animation-v2/dependencies/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+    "music/beneath-a-crimson-sky-animation-v2/dependencies/crimson_v1.py": "08d49ecd5fd074bf60fbf8bc40e3f57a1cdf8c9399ab8f2288bfa7cf8d1a226f",
+    "music/beneath-a-crimson-sky-animation-v2/dependencies/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+    "music/beneath-a-crimson-sky-animation-v2/dependencies/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379"
+  },
+  "effects": [
+    "Source cloud texture transport with unequal phase spacing and sharper/staggered renewals",
+    "Independent sustained far/middle dust",
+    "Three cloud-gated local intracloud events",
+    "Six independent room schedules with a wrapped hold",
+    "Terrace lantern variation/dip with attached wall, paving and nearby object spill",
+    "Two textured red-pane illumination events with confined arch/wall spill"
+  ],
+  "optional_precipitation": {
+    "implemented": false,
+    "reason": "The far-right bank sits over layered luminous horizon slots with little clear fall distance before mesas. A new curtain would flatten the sunset and read as a stripe; retain intracloud events and separate dust depths."
+  },
+  "timing": "Genuine sixty-second frame-by-frame scene. Sky, dust and event schedules do not repeat as a twenty- or thirty-second full composite. Review repeats the identical encoded minute three times.",
+  "inspection": "Native/full-composition masks and temporal/decoded event stills inspected; continuous playback not claimed.",
+  "user_visual_acceptance": null,
+  "animation_4k": null,
+  "music": null,
+  "upscale_required_for_4k": true,
+  "credits_spent": 0,
+  "new_models_installed": false,
+  "originals_preserved": true,
+  "backup": "Local only; no commit/push requested for this execution.",
+  "release": "Unnumbered live special after actual publication of catalog 10 Farpoint Station; no date/runtime/broadcast set."
+}

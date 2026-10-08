@@ -1,0 +1,122 @@
+{
+  "title": "Beneath a Crimson Sky",
+  "version": "v12",
+  "date": "2026-10-08",
+  "request": "so can we rebuild the original artwork, at 4k and ensure AAA levels of realism and detail?",
+  "mode": "built-in image generation, reference-guided reconstruction",
+  "scope": "New clean still; preserve composition and scene identity while rebuilding material and construction detail. Original assets and animation stay preserved.",
+  "requested_dimensions": [
+    3840,
+    2160
+  ],
+  "actual_generated_dimensions": [
+    1672,
+    941
+  ],
+  "native_4k_claimed": false,
+  "inputs": [
+    {
+      "role": "edit_target",
+      "repository_relative_path": "music/beneath-a-crimson-sky-animation-v1/source-v11.png",
+      "sha256": "30f0d2d0261875556fd7a96b6b9c1f02788d41e4254b23348a0859b2be376a5f",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "role": "material_reference",
+      "repository_relative_path": "creative/live/skies-of-baal/concepts/02-homeward-terrace/concept-v1.png",
+      "sha256": "43815a22b4f40e1cd581e822e1dc01d59b7e9db2a8b3bfce7fbafdd8919d4bab",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "prompt_file": "generation-prompt-v12.txt",
+  "prompt_sha256": "d65c22d30d63935e8ec522b66ae0f9a417f93b1aee659336d4a0ac5d2cc8b837",
+  "inspection_checks": [
+    "Quiet stone faces with real joints, no embossed loops",
+    "Broad coherent rock strata and fractures, no melted lattice",
+    "Continuous supported architecture and clean windows",
+    "Separate wood, cloth, iron and stone responses",
+    "Chosen camera, fortress silhouette, props and ruins retained",
+    "Larger rocky world in luminous clear opening, no cloud crossing or halo",
+    "Material detail resolves at native size without sharpening artifacts"
+  ],
+  "generated": true,
+  "user_approved": false,
+  "animation_remapped": false,
+  "iterations": [
+    {
+      "version": "v12a",
+      "file": "concept-v12a-internal.png",
+      "prompt": "generation-prompt-v12.txt",
+      "sha256": "aa2c90e965e8f3a7acbee331a84d6923f023e6ba259d801efa38bf3396833509",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "inspection": "Broad cliff masses and bridge/arch construction improved; foreground stone retains conspicuous etched/embossed patterns. Internal candidate requiring focused material correction.",
+      "selected_for_delivery": false
+    },
+    {
+      "version": "v12b",
+      "file": "concept-v12b-internal.png",
+      "prompt": "generation-prompt-v12b.txt",
+      "sha256": "857c1e0fc1e2e42dde110309cc56f94392f48514c25e91efc98da033466ed113",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "inspection": "Focused correction retained the embossed terrace-stone pattern. Rejected as a material-quality fix; preserved internally.",
+      "selected_for_delivery": false
+    },
+    {
+      "version": "v12c",
+      "file": "beneath-a-crimson-sky-v12-native.png",
+      "prompt": "generation-prompt-v12c-fresh.txt",
+      "sha256": "bbcb566dac5704b0a046c2c7769f3a73bd0f092851d723988489d627eb12e0b5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "input_role": "Original clean terrace only; degraded v11/v12 pixels omitted",
+      "selected_for_delivery": true,
+      "inspection": {
+        "full_composition_inspected": true,
+        "native_detail_crops": [
+          "inspection/pier-native-crop.png",
+          "inspection/fortress-cliff-native-crop.png",
+          "inspection/paving-native-crop.png",
+          "inspection/world-sky-native-crop.png"
+        ],
+        "successes": [
+          "Broader coherent cliff strata and natural fracture planes replace the melted lattice of v11",
+          "Foreground stone has quieter faces and more credible block/joint construction",
+          "Bridge arches and principal monastery masses read as supported construction",
+          "Original bench, blanket, barrel, lantern, roof framing and sheltered terrace remain",
+          "Rocky world is unobscured within a luminous clear red-orange opening"
+        ],
+        "limitations": [
+          "Fresh reconstruction changes the detailed fortress design, dome placement and some terrain contours; not pixel-preserved v7/v11 geometry",
+          "World appears a little higher and slightly smaller than v11, while retaining the requested larger-than-original scale",
+          "Some foreground tooling/roughness remains; AAA is an art-direction target, not a verified production certification",
+          "Generated image is 1672x941; the 3840x2160 file is upscaled and contains no extra detail from resampling"
+        ],
+        "user_approved": false
+      }
+    }
+  ],
+  "current_work": "Complete for this still-generation request; new candidate requires user review. Existing animation remains bound to v11.",
+  "status": "positive_quality_feedback_final_selection_pending",
+  "selected_native_file": "beneath-a-crimson-sky-v12-native.png",
+  "selected_4k_file": "beneath-a-crimson-sky-v12-4k.png",
+  "export_record": "4k-export.json",
+  "latest_user_feedback": {
+    "date": "2026-10-08",
+    "quote": "yeah i think it looks alot better do you?",
+    "scope": "Positive comparison of v12 image quality with prior artwork; no new rendering, final-master approval or animation remapping requested."
+  }
+}

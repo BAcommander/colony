@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "title": "Beneath a Crimson Sky",
+  "status": "animation_v2_checkpoint_needs_more_work",
+  "user_request": "was there any stormy stuff we could do in the distance, the clouds seem angry, what about the light in the room? can we have any red glow come the the monastry from time to time?\n\nmake a prompt to do the old animation but the new prompt will aim to improve our composition by 251%",
+  "scope": "Plan previous animation remapped to v12, with distant storm, attached lantern illumination and occasional red monastery interior light. No rendering invoked.",
+  "quality_target": "251% is creative ambition, not a measurable claim or effect multiplier.",
+  "prompt_file": "animation-production-prompt-v3-storm-and-embers.txt",
+  "prompt_sha256": "0ef51284f5866b3e3307f5cb03485cd68b701a2923607e61e0af04d1584cf3e7",
+  "source": {
+    "file": "artwork-rebuild-v1/beneath-a-crimson-sky-v12-native.png",
+    "sha256": "bbcb566dac5704b0a046c2c7769f3a73bd0f092851d723988489d627eb12e0b5",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "user_feedback": "yeah i think it looks alot better do you?",
+    "approval_scope": "Positive comparative artwork feedback; intended source for this plan. Unrendered animation not approved."
+  },
+  "existing_4k_still": {
+    "file": "artwork-rebuild-v1/beneath-a-crimson-sky-v12-4k.png",
+    "sha256": "a5b65d229489e6aaa40cad9485021a247e53b461ab4f971271a56ccedfc56c4d",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "upscaled": true
+  },
+  "proposed_output_repository_relative": "music/beneath-a-crimson-sky-animation-v2/",
+  "previous_animation_repository_relative": "music/beneath-a-crimson-sky-animation-v1/",
+  "previous_animation_source_version": 11,
+  "requires_new_source_masks": true,
+  "proposals": [
+    "Sharper coherent rightward cloud transport with clear world opening protected",
+    "Sustained independent far and middle dust",
+    "Three muted intracloud events gated to actual moving dense clouds",
+    "Optional narrow distant precipitation curtain if credible in this source",
+    "Subtle irregular lantern intensity with coupled core and local spill",
+    "Independent small room holds; great golden lancet steady",
+    "Two slow ember-red events in one existing opening with confined attached stone spill"
+  ],
+  "proposed_cues": [
+    {
+      "kind": "intracloud_light",
+      "start_seconds": 8.4,
+      "approximate_duration_seconds": 0.7
+    },
+    {
+      "kind": "monastery_red",
+      "start_seconds": 18.1,
+      "end_seconds": 25.4
+    },
+    {
+      "kind": "intracloud_light",
+      "start_seconds": 33.2,
+      "approximate_duration_seconds": 1.0,
+      "weaker_secondary_return": true
+    },
+    {
+      "kind": "lantern_dip",
+      "start_seconds": 39.1
+    },
+    {
+      "kind": "monastery_red",
+      "start_seconds": 44.2,
+      "end_seconds": 52.1
+    },
+    {
+      "kind": "intracloud_light",
+      "start_seconds": 56.2,
+      "approximate_duration_seconds": 0.6
+    }
+  ],
+  "future_deliverables": {
+    "duration_seconds": 60,
+    "fps": 30,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "preview_frames": 1800,
+    "exact_repeat_review_seconds": 180,
+    "repeat_frames": 5400,
+    "silent": true,
+    "4k_after_complete_preview_acceptance": true,
+    "native_detail_limit_disclosed": true
+  },
+  "reuse_scope": {
+    "crimson_v1": "Behaviours and validation only; freeze original and remap all geometry.",
+    "saltline": "Sustained dust transport/renewal.",
+    "ringfall_floodplain": "Whole aperture and attached spill timing.",
+    "farpoint_v4_storm": "Candidate cloud-gating mechanism only, not approved look; no aurora, blue blob or copied coordinates."
+  },
+  "new_masks_created": true,
+  "new_renderer_created": true,
+  "new_video_rendered": true,
+  "new_artwork_generated": false,
+  "new_audio_generated": false,
+  "user_animation_approval": false,
+  "historical_v1_execution_does_not_invoke_this_prompt": true,
+  "execution_request": "make the animation",
+  "execution_date": "2026-10-08",
+  "execution_package_repository_relative": "music/beneath-a-crimson-sky-animation-v2",
+  "delivery_repository_relative": "music/beneath-a-crimson-sky-animation-v2/delivery-v2.json",
+  "implementation_omission": {
+    "implemented": false,
+    "reason": "The far-right bank sits over layered luminous horizon slots with little clear fall distance before mesas. A new curtain would flatten the sunset and read as a stripe; retain intracloud events and separate dust depths."
+  },
+  "latest_user_feedback": "ok it's decent, commit and push everything we've done, buit it'll need more work"
+}

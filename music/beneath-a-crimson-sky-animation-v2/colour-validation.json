@@ -1,0 +1,21 @@
+{
+  "decoder": "FFmpeg tagged BT.709 RGB24",
+  "samples": [
+    {
+      "layer": "storm_context",
+      "timeline_seconds": 8.53,
+      "decoded_vs_expected_rgb_mae": 1.8616304976851852
+    },
+    {
+      "layer": "lantern",
+      "timeline_seconds": 39.4,
+      "decoded_vs_expected_rgb_mae": 1.890580150462963
+    },
+    {
+      "layer": "red_embers",
+      "timeline_seconds": 21,
+      "decoded_vs_expected_rgb_mae": 1.8911975549768518
+    }
+  ],
+  "source_detail": "No 4K video generated; native 1672x941 for preview."
+}

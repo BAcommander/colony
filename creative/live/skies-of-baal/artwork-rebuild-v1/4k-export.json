@@ -1,0 +1,18 @@
+{
+  "source_file": "beneath-a-crimson-sky-v12-native.png",
+  "source_sha256": "bbcb566dac5704b0a046c2c7769f3a73bd0f092851d723988489d627eb12e0b5",
+  "generated_dimensions": [
+    1672,
+    941
+  ],
+  "output_file": "beneath-a-crimson-sky-v12-4k.png",
+  "output_sha256": "a5b65d229489e6aaa40cad9485021a247e53b461ab4f971271a56ccedfc56c4d",
+  "output_dimensions": [
+    3840,
+    2160
+  ],
+  "method": "Pillow ImageOps.fit Lanczos, centred aspect-preserving crop, no sharpening",
+  "native_4k": false,
+  "new_detail_from_resampling": false,
+  "detail_provenance": "Source materials and geometry freshly generated from original terrace reference; 4K file is a deterministic enlargement of that rebuilt image, not the rejected v11."
+}

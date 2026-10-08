@@ -1,0 +1,25 @@
+SKIES OF BAAL — NAMING AND RELEASE RIGHTS
+Checked 8 October 2026. General information and a practical project recommendation, not legal advice or a clearance opinion.
+
+RECOMMENDATION
+Keep Skies of Baal as the working name of the existing tribute. It fits the emotional idea. For a commercial Ambient Colony release, prefer a materially original setting, provisionally The Crimson Watch, or obtain specific permission covering the actual AI-assisted artwork, animation and intended monetisation. The user has not selected either release route. Do not silently rename or alter the existing art.
+
+OFFICIAL POLICY CHECK
+Games Workshop's current Intellectual Property Guidelines distinguish non-commercial human-created fan artwork from licensed fan animation. The policy excludes generative-AI fan content from its permitted categories, bars monetisation of setting-based fan content, and reserves fan films/animations to licensing. Its fan-art conditions also restrict copied official imagery and logos. Read the actual policy for its full terms:
+https://www.warhammer.com/en-GB/legal#IntellectualPropertyGuidlines
+
+The official page was read directly in the browser, including its Generative artificial intelligence, Fan-artwork, Underlying rights and Infringements sections. The text-fetching search tool returned 403; the live official page was accessible in the in-app browser. No policy revision date was displayed in the inspected section. This is an access date, not a claim about when the terms changed.
+
+APPLICATION TO THIS PROJECT
+The saved art deliberately represents Baal and the Arx Angelicum, was made with image generation, and used franchise visual references. A new musical composition and custom animation do not independently clear those visual/setting issues. Do not describe this package as officially licensed, canon-accurate, copyright-free or compliant with GW's fan-content policy.
+
+A disclaimer identifies the project honestly but does not grant a licence. Turning off ads would not resolve the AI and animation policy objections. Avoid treating donations, memberships or sponsor placement as a workaround. An original setting would need changes to recognizable symbols, distinctive design and lore as well as the title; see original-colony-option/requirements.txt.
+
+Names and branding also raise trademark/endorsement questions separate from copyright. This review did not search trademark registers or establish ownership of the words Skies of Baal by themselves. It does not decide whether a particular generated visual legally infringes. The policy is the rights holder's position, not a court ruling.
+
+UK legal exceptions are limited and context-specific. A relaxing entertainment livestream is not automatically criticism, review, parody or fair dealing because it is a tribute. For a firm decision about this exact artwork and commercial plan, consult an IP solicitor or seek written permission before public release:
+https://www.gov.uk/guidance/exceptions-to-copyright
+https://www.gov.uk/using-somebody-elses-intellectual-property/copyright
+
+RELEASE DRAFTS
+The Baal title/descriptions/tags are prepared for review, not cleared for publication. The original-colony alternatives are conditional on an independently revised source. Neither route has a produced soundtrack, animation or broadcast schedule. The release remains an unnumbered special after catalog 10, Farpoint Station.

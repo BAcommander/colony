@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-10-08",
+  "status": "prompt_and_release_drafts_only",
+  "user_request": "ok lets make the prompt to exectue the 4k version and the BEST animation we have ever done etc. and also the SEO tags, the descriptions, title, are we calling it Skies of Baal? do we need to worry about warhammer copyright?",
+  "working_title": "Skies of Baal",
+  "alternate_title_proposal": "The Crimson Watch",
+  "alternate_route_selected": false,
+  "release_rights_resolved": false,
+  "licence_contacted": false,
+  "production_prompt": "animation-production-prompt-v1.txt",
+  "intended_source": {
+    "file": "concepts/arx-study-v1/02-angelic-basilica/concept-v11-luminous-clear-sky.png",
+    "sha256": "30f0d2d0261875556fd7a96b6b9c1f02788d41e4254b23348a0859b2be376a5f",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "v11_visual_approval_recorded": false
+  },
+  "proposed_delivery": {
+    "loop_seconds": 60,
+    "fps": 30,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "master_dimensions": [
+      3840,
+      2160
+    ],
+    "master_is_upscaled": true,
+    "repeat_review_seconds": 180,
+    "audio": false,
+    "runtime_is_stream_duration": false,
+    "supersedes_twenty_second_default_only_when_invoked": true
+  },
+  "actual_production": {
+    "new_still_exported": false,
+    "masks_created": false,
+    "renderer_created": false,
+    "video_rendered": false,
+    "audio_created": false,
+    "upload_or_stream_started": false,
+    "credits_spent": 0
+  },
+  "metadata_character_counts": {
+    "release-v1/original-colony-option/youtube-tags.txt": 266,
+    "release-v1/original-colony-option/youtube-title.txt": 59,
+    "release-v1/youtube-tags.txt": 301,
+    "release-v1/youtube-title.txt": 49
+  },
+  "source_access_date": "2026-10-08",
+  "sources": [
+    {
+      "url": "https://www.warhammer.com/en-GB/legal#IntellectualPropertyGuidlines",
+      "access": "Official visible browser DOM; fan artwork, generative AI, underlying rights and infringement sections read; no revision date verified."
+    },
+    {
+      "url": "https://www.gov.uk/guidance/exceptions-to-copyright",
+      "access": "Official page read through web tool."
+    },
+    {
+      "url": "https://www.gov.uk/using-somebody-elses-intellectual-property/copyright",
+      "access": "Official guidance retrieved through web search."
+    },
+    {
+      "url": "https://support.google.com/youtube/answer/146402?hl=en",
+      "access": "Official tags guidance read."
+    },
+    {
+      "url": "https://support.google.com/youtube/answer/14328491?hl=en",
+      "access": "Official AI-disclosure guidance read."
+    }
+  ],
+  "files": [
+    {
+      "file": "animation-production-prompt-v1.txt",
+      "sha256": "c573321f94f6b4f722edc620f1e1e0e9423b06d1366ed91af52630425a6fbec4",
+      "bytes": 15162
+    },
+    {
+      "file": "release-v1/description-short.txt",
+      "sha256": "c8836fa1fe1a9334fc7e62047d976f45fc8929bce6ce9a4e24705ae9821f3c89",
+      "bytes": 265
+    },
+    {
+      "file": "release-v1/description.txt",
+      "sha256": "48c4d314013091faaca7c4bb519589eada3a81264d68292dac6bd4e7ef58f08f",
+      "bytes": 878
+    },
+    {
+      "file": "release-v1/original-colony-option/description-short.txt",
+      "sha256": "20d0baab802acec36da2a1f2a829e4dc2fdf94fe90d84c96da4fd607ea7d1913",
+      "bytes": 173
+    },
+    {
+      "file": "release-v1/original-colony-option/description.txt",
+      "sha256": "315513fc7158ac5c97c24e67532d7e5b65dc97c6c2d756541bcec7bc86edd20a",
+      "bytes": 507
+    },
+    {
+      "file": "release-v1/original-colony-option/requirements.txt",
+      "sha256": "fb9309d034ebce262bc94d660d4e988f4f611aee401b4348b664d8555accd6f8",
+      "bytes": 1981
+    },
+    {
+      "file": "release-v1/original-colony-option/youtube-tags.txt",
+      "sha256": "0ae3ef96f6c98f26086d493c98e84744a0ddf7e04326b18f1571ddf8baaddb13",
+      "bytes": 267
+    },
+    {
+      "file": "release-v1/original-colony-option/youtube-title.txt",
+      "sha256": "610513ba398f01f7f9f2763e57e9b2037186ba53d8f43d9606fbd52ebdad87d7",
+      "bytes": 60
+    },
+    {
+      "file": "release-v1/README.txt",
+      "sha256": "d48fc2ff4cccafcb8af28334c5885f80ca0801434f76feb251ad70294248b91e",
+      "bytes": 3598
+    },
+    {
+      "file": "release-v1/rights-and-naming-2026-10-08.txt",
+      "sha256": "c36bae9d528966f7de8dc5643dd8e6c9af249b950d9e246cf040d8660b836443",
+      "bytes": 3414
+    },
+    {
+      "file": "release-v1/title-options.txt",
+      "sha256": "bdaa35ad28b01dc599612581cc81f2995470ad2f23b32d8f554d09c777598ca6",
+      "bytes": 1226
+    },
+    {
+      "file": "release-v1/youtube-tags.txt",
+      "sha256": "6244337c8941dcfc2e61f8f846640a6d2dbf31adb20e39a03dd9e0f96bb070d1",
+      "bytes": 302
+    },
+    {
+      "file": "release-v1/youtube-title.txt",
+      "sha256": "2e15801fe7032b0ea1636e07470f7b028fe7092ee37bc374ecaf07249213652c",
+      "bytes": 50
+    }
+  ],
+  "backup": "New planning files remain local; 2026-10-07 backup-manifest.json and remote receipt describe the earlier commit only."
+}

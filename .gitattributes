@@ -78,3 +78,11 @@ final/11-empty-junction/animation-production-prompt-v1.txt -text
 
 # Preserve Skies of Baal artwork, exact prompts and hash-bound records byte-for-byte.
 creative/live/skies-of-baal/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve Crimson Sky source-bound renderer, plans and records.
+music/beneath-a-crimson-sky-animation-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/beneath-a-crimson-sky-animation-v2/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Exact large review files included in the user-requested complete checkpoint.
+music/beneath-a-crimson-sky-animation-v1/beneath-a-crimson-sky-v1-three-loops-180s.mp4 filter=lfs diff=lfs merge=lfs -text
+music/beneath-a-crimson-sky-animation-v2/beneath-a-crimson-sky-v2-three-loops-180s.mp4 filter=lfs diff=lfs merge=lfs -text

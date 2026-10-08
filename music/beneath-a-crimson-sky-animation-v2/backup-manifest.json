@@ -1,0 +1,1773 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "user_request": "ok it's decent, commit and push everything we've done, buit it'll need more work",
+  "branch": "main",
+  "remote": "origin",
+  "scope": "All authored content in listed scene and animation packages, including every existing MP4; excludes this inventory self-hash, regenerable Python bytecode and the later local verification receipt. Project support files verified as Git-stored bytes.",
+  "roots": [
+    "creative/live/skies-of-baal",
+    "music/beneath-a-crimson-sky-animation-v1",
+    "music/beneath-a-crimson-sky-animation-v2"
+  ],
+  "files": [
+    {
+      "path": "creative/live/skies-of-baal/animation-plan-v3.json",
+      "bytes": 4761,
+      "sha256": "ec2b000334f864fbc0bfbe0fca54e8512c7291a1060d7b740f52e05f94c9a9bc",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/animation-production-prompt-v1.txt",
+      "bytes": 15162,
+      "sha256": "c573321f94f6b4f722edc620f1e1e0e9423b06d1366ed91af52630425a6fbec4",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/animation-production-prompt-v2.txt",
+      "bytes": 15262,
+      "sha256": "f4a3b03474f3fbd5ec84e8ca0b220b0687d19975a05c9c8704c0d39a61cbde14",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/animation-production-prompt-v3-storm-and-embers.txt",
+      "bytes": 18669,
+      "sha256": "0ef51284f5866b3e3307f5cb03485cd68b701a2923607e61e0af04d1584cf3e7",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-prompt-v1.txt",
+      "bytes": 2075,
+      "sha256": "ac733460c131681fce1126f3ea88e8a0ab2a50fc866474a84d2ba2abcbd985d0",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/4k-export.json",
+      "bytes": 747,
+      "sha256": "83e4f4aba3e67e6a86ba9ae73743829b81953aee40f4313cd8940460fda10e15",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/beneath-a-crimson-sky-v12-4k.png",
+      "bytes": 8163897,
+      "sha256": "a5b65d229489e6aaa40cad9485021a247e53b461ab4f971271a56ccedfc56c4d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/beneath-a-crimson-sky-v12-native.png",
+      "bytes": 2438952,
+      "sha256": "bbcb566dac5704b0a046c2c7769f3a73bd0f092851d723988489d627eb12e0b5",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/concept-v12a-internal.png",
+      "bytes": 2573314,
+      "sha256": "aa2c90e965e8f3a7acbee331a84d6923f023e6ba259d801efa38bf3396833509",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/concept-v12b-internal.png",
+      "bytes": 2479988,
+      "sha256": "857c1e0fc1e2e42dde110309cc56f94392f48514c25e91efc98da033466ed113",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/generation-prompt-v12.txt",
+      "bytes": 5176,
+      "sha256": "d65c22d30d63935e8ec522b66ae0f9a417f93b1aee659336d4a0ac5d2cc8b837",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/generation-prompt-v12b.txt",
+      "bytes": 1937,
+      "sha256": "0020676d58d4f61baa25e1c5fd48d7585f9ca5381f980c7f26fb11571e7c2a86",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/generation-prompt-v12c-fresh.txt",
+      "bytes": 4248,
+      "sha256": "e709b750b223da9358bb3533ebd51e8481a64e5ade6c4444683d4b8bc7aa85a3",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/generation-record-v12.json",
+      "bytes": 3918,
+      "sha256": "a96fc5feafdf568be1918c28005a7093fa10beb377ff7597d145658456e9a7d0",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/inspection/fortress-cliff-native-crop.png",
+      "bytes": 537539,
+      "sha256": "4443a5734f0a4f716fd186a8880c8760b7c9c9b39441edd64c3a0cc56bed80ca",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/inspection/paving-native-crop.png",
+      "bytes": 174224,
+      "sha256": "89cea78b02106aa91b7207207d64c4325204da8558f482e56e7ae53b632cf876",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/inspection/pier-native-crop.png",
+      "bytes": 241473,
+      "sha256": "adcb24388321ed2409a99b3a65634ff401c63ce20259a5e0e0b37257cb4f8444",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/inspection/world-sky-native-crop.png",
+      "bytes": 81925,
+      "sha256": "acd5387e4d758b497049d806c3c795262e9b2ad340ad6ad1dd81201610d1113b",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/README.md",
+      "bytes": 2264,
+      "sha256": "d1f80b8ca4f6aedf5a6cfe35b4177dc77276bec982180bb84115761bd58d366e",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/artwork-rebuild-v1/rebuild-plan.json",
+      "bytes": 5410,
+      "sha256": "7647fda8d70d607edd119a2b1fb3390b6e929bb04ed14e33684abdb74f7c1df8",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/backup-manifest.json",
+      "bytes": 18373,
+      "sha256": "3f71eef80c045fec9aeca1fb77231bfdbe1757f4bbd5498efcdbc9f86d8c1bce",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concept-brief-v1.md",
+      "bytes": 3751,
+      "sha256": "6a2e7282343c534958488b1009df92e239764e106cc6be6b98510aae4b21097c",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concept-brief-v2.txt",
+      "bytes": 2192,
+      "sha256": "f4f57beae32756dd49bc3d4a301cafcf607326b02f75d2d6537ef60f53645051",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/01-last-watch-gallery/concept-v1.png",
+      "bytes": 2213099,
+      "sha256": "679a233d39df306226e7b12455e9d50e678f4b6392da9a4dafc77327070add76",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/01-last-watch-gallery/generation-prompt-v1.txt",
+      "bytes": 2625,
+      "sha256": "f885959cde00ef2d1e1d3f211f3b14f6ba1f415d3ff726f333985b33bb6b940a",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/01-last-watch-gallery/generation-record.json",
+      "bytes": 1086,
+      "sha256": "a756d9f0e770ecfe3b6d76f0b41ebc12bd96189938e9bef26697f5c675582138",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/02-homeward-terrace/concept-v1.png",
+      "bytes": 2274827,
+      "sha256": "43815a22b4f40e1cd581e822e1dc01d59b7e9db2a8b3bfce7fbafdd8919d4bab",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/02-homeward-terrace/generation-prompt-v1.txt",
+      "bytes": 2817,
+      "sha256": "590c4a486d5da88d8c98d02001e2786e19169b30d4981637bba4fefb3069f1b4",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/02-homeward-terrace/generation-record.json",
+      "bytes": 1082,
+      "sha256": "4707308a26cdfd2c9033f049338c48a6e0d556e40a2e08c553c819656f50b5c7",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/03-first-light/concept-v1.png",
+      "bytes": 2235262,
+      "sha256": "8446622eb18c64f2382544081967a3868e9d566cb6c797563ea0bd3a9d0ec885",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/03-first-light/generation-prompt-v1.txt",
+      "bytes": 2826,
+      "sha256": "2a16741fe10062b77c363b9ca6b8c773493780ae1cbfe4fe6deae6de930f640f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/03-first-light/generation-record.json",
+      "bytes": 1072,
+      "sha256": "6921d45aef1af85aa561f8c514ab6289b9403f1845a82751d7533da92a4c7bf0",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/01-caldera-citadel/concept-v1.png",
+      "bytes": 2141545,
+      "sha256": "ac7e95b534a2af926d98893341ddd19f77286eaffa39633cc3d333fa7b193033",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/01-caldera-citadel/generation-prompt-v1.txt",
+      "bytes": 3110,
+      "sha256": "84e2bfcc53b8c4510b258e6a3e8d96c80e53826bc692f448110c0439a0ba619b",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/01-caldera-citadel/generation-record.json",
+      "bytes": 2402,
+      "sha256": "aa3036544a959cb8f95eba84c30987abc6707abf2725f41e9c96f439adc711f5",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v1.png",
+      "bytes": 2183249,
+      "sha256": "a1f8b908fe6d415bcfb012c313f85e61fb8a904a5d9d63566a9c49882d59a424",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v10-crimson-sky.png",
+      "bytes": 2179412,
+      "sha256": "489d02b10449ef0b7d7919795515780a283a365afe83e5aa6fd1de4396190450",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v11-luminous-clear-sky.png",
+      "bytes": 2200800,
+      "sha256": "30f0d2d0261875556fd7a96b6b9c1f02788d41e4254b23348a0859b2be376a5f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v2-larger-world.png",
+      "bytes": 2075003,
+      "sha256": "434af1621260568f8a0be21c782217ec5d32f0a3c7fc55e3681425c7f100c6c4",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v3-cloud-rock-eagle.png",
+      "bytes": 2085156,
+      "sha256": "7659f512fd699ecfc9d928eb96f9b2c10095981f28418759b3a0902bc953c159",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v3a-cloud-rock-eagle-internal.png",
+      "bytes": 2154862,
+      "sha256": "bc1ecd371d05a13b8be958dfdf2ce82633c531d6a797b52e97b756c313f26437",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v4-ancient-precinct.png",
+      "bytes": 2073754,
+      "sha256": "0a8c386b12e68aad981d4a569b4b8e18cea331744c31d37fde6e169ac787c457",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v5-material-polish.png",
+      "bytes": 2339621,
+      "sha256": "776e8195a68e0cbd0643847958b2a0732c6626d0af06e541b355abf1538f7fd8",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v5a-polish-internal.png",
+      "bytes": 2359655,
+      "sha256": "cdc05eb7467730d1fad31ab6ea9994d6238645d55c827e51478792ee846e68be",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v5b-stone-internal.png",
+      "bytes": 2341888,
+      "sha256": "a5204a2af3a22f59e900bcbba4f69b7646310d439f95072c06671aa30134b66c",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v5c-stone-internal.png",
+      "bytes": 2367663,
+      "sha256": "97e7cf53a3381cf6892a77d79d4872178d622e40a802fa6482ca49a9f144db00",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v6-world-occlusion.png",
+      "bytes": 2244722,
+      "sha256": "03b42c29381b90758d67e157bbf78bfe23ea6175559d82e0b5748c62e43b76b3",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v7-clear-red-sky.png",
+      "bytes": 2147946,
+      "sha256": "245aad9c7c6dd9c6733203f4330a503a08cbc39f5bb43388d53391039a89c7fa",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v8-originals-one-pass.png",
+      "bytes": 2175774,
+      "sha256": "4703298350877e4d9a282e44c526375f197353bb69011a267262b83c6eb8dcb0",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/concept-v9-sky-only.png",
+      "bytes": 2180889,
+      "sha256": "92302aae4c91baf99e3972166647863e6c9b36f5539d4c4607b0dd9e06a5ea59",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/feedback-v3/eagle-shape-reference.png",
+      "bytes": 46068,
+      "sha256": "15515db2948d5da5e047d94975e82d5d45a815e8c3cbfb9e90d54382d53f206d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/final-pass-plan-v1.json",
+      "bytes": 2320,
+      "sha256": "ee93c4e9b882860c3ec524aee69286409e02bd4a7f0b6142bb9a98ffa561de43",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/final-pass-prompt-a-v1.txt",
+      "bytes": 3911,
+      "sha256": "52cf7212dd5d12c8c43caaa8675970a5c12a26fb637c07691cfb2366263485f7",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/final-pass-prompt-b-v1.txt",
+      "bytes": 5028,
+      "sha256": "99d57ceb0257793e4f780157e95877e723978352ee49aa81356aefa4e7fa15e3",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/final-pass-prompt-c-v1.txt",
+      "bytes": 4885,
+      "sha256": "1c57df1d7ff035e2d0294269e179c87ca28bdc4462f5348ac20bc7e95c3497db",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/final-pass-review-v1.txt",
+      "bytes": 6385,
+      "sha256": "186611b5130665163bb0f06702d2eabb34ae8b21f5306da9013e7bcd6a1b4aaa",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v1.txt",
+      "bytes": 3087,
+      "sha256": "a125a1edff96a0ab951381e4a2b7491fb3b6b4faefa25f66f52c0e42204c22aa",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v10-crimson-sky.txt",
+      "bytes": 2090,
+      "sha256": "b45dcb95e8cd707eafecf08d6003b87e0d40e9f886fbf0346359ac0f6330f3c2",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v11-luminous-clear-sky.txt",
+      "bytes": 2480,
+      "sha256": "0457a8b6ea36832ff8ff55be1b838587f45ece32ff41e5a5c30f1876f4c0b8ae",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v2-larger-world.txt",
+      "bytes": 1161,
+      "sha256": "3a0ae81bf4436dc5f52f6380fea79db7baa3ae04e16c0d633a37db2865c94826",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v3-cloud-rock-eagle.txt",
+      "bytes": 3285,
+      "sha256": "2808ca5d821fb8c175621ef5e90be0d0ba1aecd14b621e3136fad3931fac8423",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v3b-cloud-rock-eagle.txt",
+      "bytes": 2381,
+      "sha256": "ea8a02a6c622772d1acd5a1af2081ac731e071cc1e5c9adc368d2b4dabe3cde5",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v4-ancient-precinct.txt",
+      "bytes": 3361,
+      "sha256": "8afd7fcaa98dfb3926308f5d3e59c8160129450f750d1fe946212353e4da6d48",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v5a-option-a.txt",
+      "bytes": 3911,
+      "sha256": "52cf7212dd5d12c8c43caaa8675970a5c12a26fb637c07691cfb2366263485f7",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v5b-plain-stone.txt",
+      "bytes": 1459,
+      "sha256": "2fb30f7dfd0245f9f64a39681408969a46839c93db7f9f831a8ed7962076b19e",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v5c-stone-rebuild.txt",
+      "bytes": 1558,
+      "sha256": "6b6c7974159ed5e24eec27df782305210542f171a97ad06c5c7bed726ed99edb",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v5d-material-reconstruction.txt",
+      "bytes": 2672,
+      "sha256": "a83d6ae7bc67829f5af29c24408e5c3704cdebbe9a39c235bd1fa69372fc6dc5",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v6-world-occlusion.txt",
+      "bytes": 2025,
+      "sha256": "2ed0e0643acaca74bc88dcd91a644f51fcd727dce0e36beed918057e0dfbc0de",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v7-clear-red-sky.txt",
+      "bytes": 1595,
+      "sha256": "ed8ce181d8a53f0e2e25f68bb6d1d0fd7fb9024fbf6225d551daa24d29e074b8",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v8-originals-one-pass.txt",
+      "bytes": 3687,
+      "sha256": "dbf8efff43a0571a2d9dd85e51f3f78e0ad4ca73c43380450f41b541406b0b8b",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-prompt-v9-sky-only.txt",
+      "bytes": 1936,
+      "sha256": "a8436b1d21ad91d6f4705edac84ce9adce9d3143343ccf52b95e1d02886e69e4",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v10-crimson-sky.json",
+      "bytes": 2790,
+      "sha256": "57bb687d74c52981f4e8cb61396d16f8f0aba039c60d8c67787d836681828c2b",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v11-luminous-clear-sky.json",
+      "bytes": 2441,
+      "sha256": "6c1f20bd79229009ca9527be8fc8b7cfa7964ad29db36436f54d9c1ade02e6eb",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v2-larger-world.json",
+      "bytes": 1731,
+      "sha256": "dc40cf216744b3c120ed80f8308aa29af8aa2d405734d3229b0ad2887840a55d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v3-cloud-rock-eagle.json",
+      "bytes": 3495,
+      "sha256": "cbee3c7cb93f595648b8ed7454ddc86a023ec90217f3ea53a62564a04f562fe5",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v4-ancient-precinct.json",
+      "bytes": 3068,
+      "sha256": "5a04ae01c39b928ffaf73a95e0e263164e5e1b7eb63601406a33d1004815b564",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v5-material-polish.json",
+      "bytes": 4768,
+      "sha256": "e55b71b05060b2e2a0f6509a48b61330a170e78958491b1f79b683523be18aa7",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v6-world-occlusion.json",
+      "bytes": 2450,
+      "sha256": "40a1eb5dbfd99e64902bea63ca8723b21a3604486a7a32e06c4cf7c6848136cd",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v7-clear-red-sky.json",
+      "bytes": 2778,
+      "sha256": "efbe19d7d9b3a62147f0491f1b22c0a35b6d309122b3a632367e1f266bebb57e",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v8-originals-one-pass.json",
+      "bytes": 3546,
+      "sha256": "ccf4c3f75af0b2a7dc2d73541ac2c345833b337f410b55418d717d8d13ce7642",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record-v9-sky-only.json",
+      "bytes": 2579,
+      "sha256": "3ee55bee983e66f09962bd1e5bd7e2b7a1e4bd3088ea8310ea29e2d40320c69b",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/02-angelic-basilica/generation-record.json",
+      "bytes": 2564,
+      "sha256": "6a562e32c1a90a01c12808ddf2016d289725fa4b42ac038a8a3669c1b181e5d7",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/03-dome-of-angels/concept-v1.png",
+      "bytes": 2173799,
+      "sha256": "4edc099c96544a534e3e630563e45936db7ddcf0dac019d2031121ff96c02964",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/03-dome-of-angels/generation-prompt-v1.txt",
+      "bytes": 3125,
+      "sha256": "ed40a9c8d20075f73a513b5147b401dd59cf64bc00a2b67afa61c8b3cbc7d35f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/03-dome-of-angels/generation-record.json",
+      "bytes": 2400,
+      "sha256": "d7c28ae1715f3d93784ae42e255c7d2f3ea99d4d204a9018873712a97ef46b1b",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/README.md",
+      "bytes": 5594,
+      "sha256": "5c19754c7a9a05bcc0267b9f9f197888f9d2d34a983a21dc78ad921c9d5619d4",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/arx-study-v1/research-notes.md",
+      "bytes": 8056,
+      "sha256": "10904deaf2ff20dc0e363075f3cdb92c98ed9870d4b7b3d886d872c314bc98d6",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/concepts/README.md",
+      "bytes": 4145,
+      "sha256": "572ad5c91f5f9c4dd89dc6e667c96f99d8f9da3f0399de4264882a0746e9a9a0",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/loop-plan-v1.md",
+      "bytes": 4513,
+      "sha256": "eb51e271e1e98dcd1a407a40a8ab383f9c8e504f3e4a4fb10ab3aeacbbc8bedd",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/manifest.json",
+      "bytes": 21516,
+      "sha256": "b3e5ab976d642b1ef1c981ceb29545524b491e635b52d8b95a7023856aded5de",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/music/elevenlabs-long-version-v1.txt",
+      "bytes": 1013,
+      "sha256": "ace30ef626ea0399cb4ed2624df0ed753970fcf0f44b053cd15db87a6e2f3aed",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/music/elevenlabs-prompt-v1.txt",
+      "bytes": 1082,
+      "sha256": "659e2d2c2e3e4519d50d1a9aecafb5be48e5c5971419ae0aaf491845fa6e2504",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/music/generation-record.json",
+      "bytes": 568,
+      "sha256": "2af7a91588207007d7b9470fc53a6cc00340ef85363b46ccc8636d7c2f0b229f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/music/README.md",
+      "bytes": 2197,
+      "sha256": "7c42cf61633395aa47e732ce1e49f28543545df901ac74774b9d363dfb150fbd",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/README.md",
+      "bytes": 11995,
+      "sha256": "7d2f65473ddc2b295ff787a915d23ae1fc76e5523d7799c9699afd379a55eb29",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v1/description-short.txt",
+      "bytes": 265,
+      "sha256": "c8836fa1fe1a9334fc7e62047d976f45fc8929bce6ce9a4e24705ae9821f3c89",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v1/description.txt",
+      "bytes": 878,
+      "sha256": "48c4d314013091faaca7c4bb519589eada3a81264d68292dac6bd4e7ef58f08f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v1/original-colony-option/description-short.txt",
+      "bytes": 173,
+      "sha256": "20d0baab802acec36da2a1f2a829e4dc2fdf94fe90d84c96da4fd607ea7d1913",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v1/original-colony-option/description.txt",
+      "bytes": 507,
+      "sha256": "315513fc7158ac5c97c24e67532d7e5b65dc97c6c2d756541bcec7bc86edd20a",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v1/original-colony-option/requirements.txt",
+      "bytes": 1981,
+      "sha256": "fb9309d034ebce262bc94d660d4e988f4f611aee401b4348b664d8555accd6f8",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v1/original-colony-option/youtube-tags.txt",
+      "bytes": 267,
+      "sha256": "0ae3ef96f6c98f26086d493c98e84744a0ddf7e04326b18f1571ddf8baaddb13",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v1/original-colony-option/youtube-title.txt",
+      "bytes": 60,
+      "sha256": "610513ba398f01f7f9f2763e57e9b2037186ba53d8f43d9606fbd52ebdad87d7",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v1/package-record.json",
+      "bytes": 5175,
+      "sha256": "357efb2009774c4cb7c06a72a0c646b0d48120f3b735e640bbfd741b0930d780",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v1/README.txt",
+      "bytes": 3598,
+      "sha256": "d48fc2ff4cccafcb8af28334c5885f80ca0801434f76feb251ad70294248b91e",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v1/rights-and-naming-2026-10-08.txt",
+      "bytes": 3414,
+      "sha256": "c36bae9d528966f7de8dc5643dd8e6c9af249b950d9e246cf040d8660b836443",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v1/title-options.txt",
+      "bytes": 1226,
+      "sha256": "bdaa35ad28b01dc599612581cc81f2995470ad2f23b32d8f554d09c777598ca6",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v1/youtube-tags.txt",
+      "bytes": 302,
+      "sha256": "6244337c8941dcfc2e61f8f846640a6d2dbf31adb20e39a03dd9e0f96bb070d1",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v1/youtube-title.txt",
+      "bytes": 50,
+      "sha256": "2e15801fe7032b0ea1636e07470f7b028fe7092ee37bc374ecaf07249213652c",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v2/description-short.txt",
+      "bytes": 252,
+      "sha256": "08f59bbe7f1085d316d77c1c4d2c7ea2fb9ff0aec26a5420dca2a955b4ef7a8f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v2/description.txt",
+      "bytes": 672,
+      "sha256": "e9be94d4af477eddfdce5d15e1b345c067a356dbc5945c5493d57c9de4d066bc",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v2/package-record.json",
+      "bytes": 2600,
+      "sha256": "97c7e29c1d8de4c4240bcf6776a6ba8a26ef7713d563a407cb76802adb9e6fc5",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v2/README.txt",
+      "bytes": 2008,
+      "sha256": "22d03a9349446bab760910098458d0af42883c77faf9be278f705c98442d98a2",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v2/title-options.txt",
+      "bytes": 987,
+      "sha256": "10ecf14c079edf5eca648805bad35c2c2fd0426b700200133dfab36147c3ca2e",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v2/youtube-tags.txt",
+      "bytes": 294,
+      "sha256": "1411e522bac1feda1e81714ce57d754483dd958ed0d68acd657812df3e641e70",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/release-v2/youtube-title.txt",
+      "bytes": 52,
+      "sha256": "c9264a204226d84d3a859eaca7fd778cb5bbd7f8839d3c49368d653c682b77e4",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "creative/live/skies-of-baal/source-notes.md",
+      "bytes": 2403,
+      "sha256": "99dfe9b412a5a2e4c68242f7f7052f7f107175a1291fb778100e841e9a3a68b6",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/analytic-validation.json",
+      "bytes": 4805,
+      "sha256": "db79d9f06744ed0c379fa2a16c51883b07d78ddb0303f299bc7c6e31b636f194",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/beneath-a-crimson-sky-still-4k-v1.png",
+      "bytes": 7341929,
+      "sha256": "b38da04428704e93357a78e6d54567897cae88e1bc484526e20b6d774567ca65",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/beneath-a-crimson-sky-v1-preview-60s.mp4",
+      "bytes": 44678572,
+      "sha256": "c97a9d74b60f5c4f768f4a6d077714437722e3cc46dbf5cb6c3ffbc03e8a7a40",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/beneath-a-crimson-sky-v1-three-loops-180s.mp4",
+      "bytes": 134034068,
+      "sha256": "b5b4523411955953fdb740d31cc4f0b7ff3085ec3d89e0e37481622dda69e7ab",
+      "storage": "git_lfs"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/build_plan.py",
+      "bytes": 743,
+      "sha256": "f99de04a899b331bbef7f3f32ba51dc7c9a481fd64def8c2759bd59a730aa951",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/cloud-travel-diagnostic.json",
+      "bytes": 325,
+      "sha256": "e70092a9f7d19806fe29c29ce7d3b317ebdfbda2145b8781e83454df6127edb6",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/colour-check-3frames.mp4",
+      "bytes": 578016,
+      "sha256": "74fe0cd50799464762813da10c55d5b3b767a9ee96d0ac5f50ba24888a272b4d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/colour-validation.json",
+      "bytes": 414,
+      "sha256": "d5f21d4e0f0fe9c5381034407eaa12ee72de03cb3b921fa59a81acde1f4dc8bb",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/decoded-0000.png",
+      "bytes": 1223089,
+      "sha256": "1761789f21a244d77fed966b98fec1822d739f0c8433f385c25ea2743d2320b1",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/decoded-0240.png",
+      "bytes": 1214644,
+      "sha256": "8ab966fbcbba08b917700a56b90a1f982154959f4a06c9c1282e185e8a2fe5c8",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/decoded-0600.png",
+      "bytes": 1215943,
+      "sha256": "97fb5480f3a7945cc1781b46a33411fe68f7f75ab9d5d776c2b6751b0f00be7c",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/decoded-0900.png",
+      "bytes": 1223203,
+      "sha256": "cb65d664de80f9019936cc55791faafd19ca16c3c560bc4475a211de8b2c161e",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/decoded-1200.png",
+      "bytes": 1216940,
+      "sha256": "36eebd5543a700a4ff9d9446f5301b69fdc6968fee3ac3cad596a814d500e7e3",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/decoded-1500.png",
+      "bytes": 1216037,
+      "sha256": "69e00d37de380d82675c1c6da3c7ac4cbd5ab3b9bede9d9f51942965eed54ae7",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/decoded-1710.png",
+      "bytes": 1217249,
+      "sha256": "b852fcdfbbb7a0fd2a065b13d22495a27ed004a48bbcb36fcd72198bc3a483df",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/decoded-1799.png",
+      "bytes": 1222669,
+      "sha256": "a87c58aba7f2377de455db6d62f655fe3d95261f0a0414e26dfbb4b5711f0044",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/decoded-frame-hashes.json",
+      "bytes": 127805,
+      "sha256": "4beb579f83bf2191c698e37844fc3a83bd0745f08c86f16db61d8630b274f806",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/delivery-v1.json",
+      "bytes": 12831,
+      "sha256": "314dafb8fe64633f00dae622533c0e81b9d056591aee25ebdfcde695018096c9",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/dependencies/ambient_effects.py",
+      "bytes": 1603,
+      "sha256": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/dependencies/dust_transport.py",
+      "bytes": 3185,
+      "sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/dependencies/periodic_transport.py",
+      "bytes": 1600,
+      "sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/dust-v1-isolated-10s.mp4",
+      "bytes": 1590153,
+      "sha256": "503bf1ac1d4ff19c34ce81ad26fdbcafa357ea82a08e5912dd2a80ad7007856a",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/ffmpeg-decoded-colour-check-3frames.png",
+      "bytes": 1224632,
+      "sha256": "4251ec2de1ce70a6c0191ca58bd328604fc7feff62944cd104276d9a08fa3bec",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/ffmpeg-decoded-sky_clouds-v1-isolated-10s.png",
+      "bytes": 1224632,
+      "sha256": "4251ec2de1ce70a6c0191ca58bd328604fc7feff62944cd104276d9a08fa3bec",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/finalize_records.py",
+      "bytes": 6887,
+      "sha256": "df9440d9c5a123329525c0eb6d9b1df79943e40e5130579733f4987f73e88a2d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/forced-dim-lights.png",
+      "bytes": 2187585,
+      "sha256": "a1ec5799c231f0e6e3dd2d7f3a5d56ff26291b5532854d9a2c6e2c48023c8d45",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/fortress-detail.png",
+      "bytes": 950648,
+      "sha256": "4ccbb375accbd5346f64afbbad4e594775f2977be37403f72e27d7542b99821b",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/habitation-v1-isolated-10s.mp4",
+      "bytes": 1509685,
+      "sha256": "86dc552a6eaf04f5bbde08908c7ad468d264091d13973eb0973fa1e6b0da3a86",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-colour-conversion/analytic-validation.json",
+      "bytes": 4805,
+      "sha256": "e9afee76f15dc0eae07ed3e40b1fe17a3ec2e5fa398af6170108984891db6f26",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-colour-conversion/beneath-a-crimson-sky-v1-preview-60s.mp4",
+      "bytes": 21133974,
+      "sha256": "59a4bf8a0f67bb7abdafcef765b12c887aea668890467bb83b2932d494270a06",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-colour-conversion/dust-v1-isolated-10s.mp4",
+      "bytes": 1590153,
+      "sha256": "503bf1ac1d4ff19c34ce81ad26fdbcafa357ea82a08e5912dd2a80ad7007856a",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-colour-conversion/habitation-v1-isolated-10s.mp4",
+      "bytes": 1509685,
+      "sha256": "86dc552a6eaf04f5bbde08908c7ad468d264091d13973eb0973fa1e6b0da3a86",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-colour-conversion/isolated-validation.json",
+      "bytes": 3569,
+      "sha256": "4b3c99f494b0a37a27bab9c8598060c378bf6123b88f3e41bd0f7b28be288fac",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-colour-conversion/README.txt",
+      "bytes": 580,
+      "sha256": "62bcc232f142ad36215e040e78aa65919b011750b31464de4cbbd11287f25d69",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-colour-conversion/sky_clouds-v1-isolated-10s.mp4",
+      "bytes": 7033979,
+      "sha256": "567e8e46e0b067f8ce18a4a4c9c91d64207cf707d275326baf6c2e2dd7913174",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-signed-clouds/build_plan.py",
+      "bytes": 8055,
+      "sha256": "b596e819bddf74d4450aa7d3246ed47d2d88d6c2f70f8bf2ae3d075cd42c7b48",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-signed-clouds/README.txt",
+      "bytes": 407,
+      "sha256": "4e59f05720e7004c5d2788937ac35e5f6aba9d3f3e3cec5da6f07f0ad263ad8d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-signed-clouds/render_crimson.py",
+      "bytes": 14507,
+      "sha256": "2976ea70dc15ac1c7a1faf6a2b3633d509093be9c47d03b52f83b5a42de88719",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-signed-clouds/sample-000.00s.png",
+      "bytes": 1393082,
+      "sha256": "6433fbf830c7793ccb2426b0ca7f71cbca0b5ef125e8b53780a1e51e5f0b512e",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-signed-clouds/sample-004.00s.png",
+      "bytes": 1370183,
+      "sha256": "89473b305850edac837a15ff10a41c067f73221759393aa84c57235990258654",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-signed-clouds/sample-008.00s.png",
+      "bytes": 1338226,
+      "sha256": "9d7dda35b47f868f10c6df7996cfd821aa2e0b0fec611fd2859efcd7939a33ba",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-signed-clouds/sample-020.00s.png",
+      "bytes": 1352726,
+      "sha256": "39cef9c055f6c8c1be2c76ad60dbdd34dd9a5f8f9f2cbaa26092a7e48f8a7c1a",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-signed-clouds/sample-040.00s.png",
+      "bytes": 1353429,
+      "sha256": "44fdd4366e247c636c728061b08d5095859cfe143f394403a1c9137b0769c78b",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-signed-clouds/sample-050.00s.png",
+      "bytes": 1363933,
+      "sha256": "bb65ebdd31cbcb60d76254d5b0a0a85b399159e8f860e9b78d8da1917e3865dd",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-signed-clouds/sample-057.00s.png",
+      "bytes": 1377738,
+      "sha256": "78b6e99488310e1651da4426d2e5c2eb18ecce27524e7780347c162f9f877470",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-signed-clouds/sample-059.97s.png",
+      "bytes": 1392358,
+      "sha256": "ff28e7545a5eeb06a8a5788236504d3af24ea8411fa257fc1df9904951b43b4f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-signed-clouds/scene-plan-v1.json",
+      "bytes": 21013,
+      "sha256": "468df1a2398e95e21c167289e0985340182d34118dfc3550ea76098c3f86b0fa",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/history/initial-signed-clouds/weather-mask-overlay.png",
+      "bytes": 2020645,
+      "sha256": "2bc6192e8319e0cff64ab5e4988b3148055e478fc5061c161fb9d0278e39d700",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/inspection-notes.txt",
+      "bytes": 1354,
+      "sha256": "61188266c4cd1161cabd8d341d52407a390754d9f42db10fd1a88f223484fab5",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/isolated-clouds-0000.png",
+      "bytes": 1440476,
+      "sha256": "22ad7d4509099706e7151956d7e178ce428b00e700dd893b252141205aab5a0c",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/isolated-clouds-0120.png",
+      "bytes": 1430039,
+      "sha256": "7e20b0e768e63d39d6e812a677de493471aff2db9a237072f4f19a5b99a6a449",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/isolated-clouds-0240.png",
+      "bytes": 1429338,
+      "sha256": "45c7e332f77cff978f4f869552148eede740349ee3930eebdf7c3ac1c3996ec8",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/isolated-validation.json",
+      "bytes": 4045,
+      "sha256": "8ef9479af1efebe94eebe03a3932116626db408c70a028d4d7dba1d06bd40980",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/light-mask-overlay.png",
+      "bytes": 2195058,
+      "sha256": "dc097f2d652ba2acf06ddea8def472aed5fa6e82cd23d9fdf4015d673d6e0037",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/masks/far_dust.png",
+      "bytes": 4607,
+      "sha256": "c55b05c2559ed49d1ac793182cb749b21db697dd23c53a5ff199f67af3b51ae6",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/masks/lantern.png",
+      "bytes": 49004,
+      "sha256": "0ab0a0aee1b57d64a2395a5047b2fe1a90510d84405e12229c28ee8fa364e969",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/masks/light_east_arch.png",
+      "bytes": 2984,
+      "sha256": "57b5bcaffe26c7760ed6d02748cbbd176d9023d1f1591560070c394f64a1c364",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/masks/light_east_room.png",
+      "bytes": 2785,
+      "sha256": "94fe074134a8d78b4d5310613afeddfef12ea8c1363316db14522d6532e935fa",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/masks/light_gallery_room.png",
+      "bytes": 2827,
+      "sha256": "3db558877479157777bf629dab4aed7e365b51d1e192359d847bd454fa7a3f7f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/masks/light_high_tower.png",
+      "bytes": 3047,
+      "sha256": "205c70b52ee203d4c1f1077791c4888359e769f8d6d47f5433f4b87b51fc4082",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/masks/light_upper_dome.png",
+      "bytes": 3427,
+      "sha256": "dd442003fbcc91bedbe10120d24ea93fe9c40f4192dd9d0367d5fabe0eef013f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/masks/light_west_room.png",
+      "bytes": 2491,
+      "sha256": "5b0df427933853010119c5318819f9343146615ee677a7807a2d5c1416e654af",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/masks/middle_dust.png",
+      "bytes": 9200,
+      "sha256": "87ccd78e7f2e79495a5f34122106376c69141877872b66d92b576e1565b22b86",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/masks/sky_clouds.png",
+      "bytes": 16738,
+      "sha256": "0991b1040a38d942d8c16bc9e870ab891ab41e9d81780ce0973b22b0863572af",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/media-stream-validation.json",
+      "bytes": 830,
+      "sha256": "04ea963c1fc48d0c2dd033a364faffecb56db1123910e5c481766a3f08d96050",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/preview-validation.json",
+      "bytes": 7581,
+      "sha256": "4487049c6e7e82ab84cf2063910a48432b8240b6033714f604a36272c5a70200",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/quality-review-2026-10-08.json",
+      "bytes": 3113,
+      "sha256": "beaa19db818ebbf38baa762b3d525523ecfbe51286a8b331e91b1574e9eb828a",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/README.md",
+      "bytes": 4333,
+      "sha256": "4aa86e1d056c7f563e915c26ce228973c367e0353a1d7042e637a3e4261c52d3",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/render_crimson.py",
+      "bytes": 15041,
+      "sha256": "08d49ecd5fd074bf60fbf8bc40e3f57a1cdf8c9399ab8f2288bfa7cf8d1a226f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/sample-000.00s.png",
+      "bytes": 1395349,
+      "sha256": "43cd9d8afb6cddafefd072613f847a2a0f603a2a46c740d1b44a6271bf7bf086",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/sample-004.00s.png",
+      "bytes": 1385143,
+      "sha256": "662af05d42d789d9165f8fcc1960c9aa53a7973191e63d79255e82898830cc4d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/sample-008.00s.png",
+      "bytes": 1385723,
+      "sha256": "b73529b966a3a93bd7c898c6b38f8d95888b20ec4bc6f8860ee4a0e58e2e0930",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/sample-020.00s.png",
+      "bytes": 1387795,
+      "sha256": "20891c1ed986e1dd4419d6071ac6f354488dcbfb521fbab619fd6287dca90465",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/sample-040.00s.png",
+      "bytes": 1388616,
+      "sha256": "ed553f877848aad9d04e8dda0470b03310ed0f9f834ea7c58fcad4c9862d442d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/sample-050.00s.png",
+      "bytes": 1387644,
+      "sha256": "235d223007fcdf10d4d268c8eca829cff5886eb4b297543bfae12c836ea43d97",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/sample-057.00s.png",
+      "bytes": 1388540,
+      "sha256": "b90051b0d1add93c145b58cc6a2706db497e7790e082df886325db08b727d876",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/sample-059.97s.png",
+      "bytes": 1395061,
+      "sha256": "0ec11af75a68daa02ee6581462d9f69b458d1da0cee50a67d77abaf04868ad35",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/scene-plan-v1.json",
+      "bytes": 20835,
+      "sha256": "14553c46c9cf7ef72d9544e53bfcb1ac671701e8a02c4944aa1def8eca7c7ceb",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/sky_clouds-v1-isolated-10s.mp4",
+      "bytes": 7033979,
+      "sha256": "567e8e46e0b067f8ce18a4a4c9c91d64207cf707d275326baf6c2e2dd7913174",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/source-coordinate-guide.png",
+      "bytes": 2174956,
+      "sha256": "d2a7248005b70a224dc1f5d76a580f124ab9c03a3af31799383e4256041a02c8",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/source-v11.png",
+      "bytes": 2200800,
+      "sha256": "30f0d2d0261875556fd7a96b6b9c1f02788d41e4254b23348a0859b2be376a5f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/still-export.json",
+      "bytes": 472,
+      "sha256": "4eebd00f6e1febeae6d30b814c1c91267fa83588cc1d842481307b9ddc41b669",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/weather-mask-overlay.png",
+      "bytes": 2094408,
+      "sha256": "22c388e62c8c7a1d06874b893ecc47c88b2dac9cbd2e397574dcb9fd138f8077",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/analytic-validation.json",
+      "bytes": 6489,
+      "sha256": "718dd9459e053a364af4f232a116537b8a71ffad170e3242ef411356fd472de6",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/baseline-v2-isolated-10s.mp4",
+      "bytes": 7333624,
+      "sha256": "326b53270b387bda8c86fea209bf462cd42b5ecfb7bbbbcc60b92e622dc895cb",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/beneath-a-crimson-sky-v2-preview-60s.mp4",
+      "bytes": 42328905,
+      "sha256": "0587d9d7d81e0d23b113448de22f6b0cd913cc622e23cba7d23c192f1468c87f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/beneath-a-crimson-sky-v2-three-loops-180s.mp4",
+      "bytes": 126985043,
+      "sha256": "48ac2f45ede4cc475806ce16700fe008788aa1fe3cd2e0c00278709078467ee3",
+      "storage": "git_lfs"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/cloud-transport-validation.json",
+      "bytes": 1835,
+      "sha256": "38026f3832da27c42ad9860b38117b68bf60baa537508a4cd01c5df5e2ab31c0",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/colour-validation.json",
+      "bytes": 547,
+      "sha256": "519ea7c58e0ab36fce1091bd91eb2a5d59adf0cb280e9feac6bf3c16d5ec9692",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/combined-v2-isolated-10s.mp4",
+      "bytes": 7679150,
+      "sha256": "6e3390117eb9b222379496520029f765aeb92d08f9b3ba851e22b09f66beb7a0",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/decoded-0000.png",
+      "bytes": 1284019,
+      "sha256": "f4a88d9ad2cfae1bcb18ef18c90db0b40118290f4fb6e6673fd2d5c06df6e4b2",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/decoded-0240.png",
+      "bytes": 1283039,
+      "sha256": "24079cff6c921b3f58a045a4086a3496ab0c2cc95773e502014b98f8c27ff538",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/decoded-0600.png",
+      "bytes": 1282873,
+      "sha256": "c5c4e20ed2eee84ae2b0b04d18c823dcafb9925bb8605eb42f82f5a8b19831f5",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/decoded-0900.png",
+      "bytes": 1285970,
+      "sha256": "f9e450107983a437afa5e511d1fede4e2483610a606a381226f7ec98146e0ca0",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/decoded-1200.png",
+      "bytes": 1283579,
+      "sha256": "fcaa3d90bd81b4cf6b3d5c94e122bddfae99f89901d4a13f8c475f3f0219e3da",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/decoded-1500.png",
+      "bytes": 1283464,
+      "sha256": "5265739479ac743662c43c90a2c7170534c7bda2f5608e815d3e3409b839a4ce",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/decoded-1710.png",
+      "bytes": 1285996,
+      "sha256": "d39da11f58ff2867c6ec5bb9d5947cc4eac7501e04d016489843dc2ec5017278",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/decoded-1799.png",
+      "bytes": 1283940,
+      "sha256": "3ba8bf671ce7688b7aadc3931d69f83adc6e6c2846b3b0c02820c3cdaa9c7ede",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/decoded-frame-hashes.json",
+      "bytes": 127805,
+      "sha256": "5bf0a3a0141ce702eaf478883f42272256dc2f92f8788edd7753bc7aca91cfa0",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/delivery-colour-validation.json",
+      "bytes": 1427,
+      "sha256": "57b067782844cfc14eed9d953544ea43ffaf3bc8423cd2c73e2f9edd053083e6",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/delivery-v2.json",
+      "bytes": 17660,
+      "sha256": "32ba5fe2ad581bd78abc9e068043cab4ebab93412a93c0b1d6860b6bd30aadf2",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/dependencies/ambient_effects.py",
+      "bytes": 1603,
+      "sha256": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/dependencies/crimson_v1.py",
+      "bytes": 15041,
+      "sha256": "08d49ecd5fd074bf60fbf8bc40e3f57a1cdf8c9399ab8f2288bfa7cf8d1a226f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/dependencies/dust_transport.py",
+      "bytes": 3185,
+      "sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/dependencies/periodic_transport.py",
+      "bytes": 1600,
+      "sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/dust-v2-isolated-10s.mp4",
+      "bytes": 1654344,
+      "sha256": "2f63b00b1f321e48ecca2f7259d992db65203eaf9da849f940c1d19979500411",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/finalize_records.py",
+      "bytes": 9578,
+      "sha256": "d1061d84863dc5fd5ca55f6b37314791de94e669a300f689494ab48b3e18ec36",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/forced-dim-lights.png",
+      "bytes": 2373258,
+      "sha256": "d9caeedbb6f8c01c7cab1fcf9e656b0a35a1b5e6afb4668d0c231d53180927aa",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/cloud-decoded-0s.png",
+      "bytes": 1286366,
+      "sha256": "fe4e5a001ebb641ad583d80f90835f23916a7e10ba3b21e9e07abf3ec176f0da",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/cloud-decoded-8s.png",
+      "bytes": 1284479,
+      "sha256": "488893c4bb31b9e02799be4a8a561bc7737518b3472e5beadde4171c9256e721",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/delivery-event-0256.png",
+      "bytes": 1283235,
+      "sha256": "be1df6cfb49283bce676c6ac38872ca774f642e21b4bd511e7d0df6d3f78a656",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/delivery-event-0630.png",
+      "bytes": 1282647,
+      "sha256": "a861132e681696f3185f6dc6b0fae2d2d66e97d60b2e227872eee15d1cd42579",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/delivery-event-1001.png",
+      "bytes": 1286033,
+      "sha256": "29002c663847b4402ffa1df51a228e4d4ca9194082f83df3653af7af2e2f0468",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/delivery-event-1178.png",
+      "bytes": 1282782,
+      "sha256": "54d17b3bd807a9f4fbf424cdd95d5414ba295e41feb369fc90ad38dc24c4089d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/delivery-event-1440.png",
+      "bytes": 1278945,
+      "sha256": "8d9df37c8645c84a34bc11c835c12ee2323ca676aa41dd4d9ec266c7a80b4fd3",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/delivery-event-1690.png",
+      "bytes": 1285984,
+      "sha256": "1398476fe6c4db192b3242c42cfd11cd9f8605dd557636572fe7643e63a6d29f",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/dome-openings.png",
+      "bytes": 283761,
+      "sha256": "9395c437f0c02ca950586e67834341163f2a505ef2ee82016e864246b0d8d500",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/implementation-notes.txt",
+      "bytes": 1640,
+      "sha256": "734ad61f385bd36f648c04cfe7a02cdf2f1a06d2b2aa901dcf0be003597dfeb0",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/lantern-decoded-event.png",
+      "bytes": 1289793,
+      "sha256": "1c54caa2a5f7af272cc69e8923f08342105ea4cb48b677b5d971e2db4cf2abe7",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/red-baseline-crop.png",
+      "bytes": 86263,
+      "sha256": "02ab6c28af6eaa6aa5a23e4888c5f0d4f61eaad36781799af631fd5da20306a6",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/red-peak-crop.png",
+      "bytes": 86052,
+      "sha256": "698662e850849b9345ff82e0e748642095fde2a21c0ec6e48efc346611171fe8",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/red_embers-decoded-event.png",
+      "bytes": 1290219,
+      "sha256": "d8ac68a8f4f907efebf6eefa1e4797c30119c497b6ed24f7f03fcdc293ce25a4",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/source-fortress-grid.png",
+      "bytes": 670176,
+      "sha256": "45bcb08fd963ca7bc401482ee22e59dc7f063556c7cabe711a92347571ba208c",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/source-lantern-grid.png",
+      "bytes": 319906,
+      "sha256": "56cc1854927f5da9690b14dc26a2159f15da5cd326a75a4abcb688656e0a7b75",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/source-right_weather-grid.png",
+      "bytes": 1199335,
+      "sha256": "082a58ad71a0ac2d5fe04d0c5d1b3820754702054d4b63d82c883b669e2bce2e",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/inspection/storm_context-decoded-event.png",
+      "bytes": 1284238,
+      "sha256": "a24482fd86bb18ebdb56ff9331d7d4dded417758124c30417026d474d1f7100d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/isolated-validation.json",
+      "bytes": 6939,
+      "sha256": "6cf9b32b864a5c15cc956eb339399d2016c835706db1af04406d307fdf321bf0",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/lantern-v2-isolated-10s.mp4",
+      "bytes": 1594499,
+      "sha256": "fdc652925a978f6045d1995234a69c288ff0fe2b552582088ae852ac16d49458",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/light-mask-overlay.png",
+      "bytes": 2383393,
+      "sha256": "52377c1d4a6001116698f89ac668fb0082d8ab2afea8d64c9d7123634ea75bd7",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/light-validation.json",
+      "bytes": 1334,
+      "sha256": "9a0099dfa631b563e9d1d83e4ead3dc96b6e10e64e0edec876ae48350dcc1071",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/masks/far_dust.png",
+      "bytes": 4154,
+      "sha256": "23aa2c2fcecde11b4136184571a7426f27da672a612947179feb3c6f8a09be5a",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/masks/lantern.png",
+      "bytes": 65068,
+      "sha256": "9abb46e28a8d91292fdae8fdc7871c0e9172577ac1ed7a1793e06a52722e08f1",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/masks/light_east_belfry.png",
+      "bytes": 2520,
+      "sha256": "8b1cdb67b5a3eb8ab1367555d0fec891f1aa867a6927e79ec8988ab877990dfa",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/masks/light_east_rooms.png",
+      "bytes": 2485,
+      "sha256": "34965005902337762b379bd5053ddeb91f66622018ec932ecc44b1a567e50005",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/masks/light_lower_dome_pair.png",
+      "bytes": 2608,
+      "sha256": "6ca29cdd8b2f879c6ed52dbe9e87f0b3a6117480790c16417b3d485049abf609",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/masks/light_upper_chapel.png",
+      "bytes": 2282,
+      "sha256": "488c198c6fe4d3e3e595b05c5521ac1c20fa7ac443b58a618f1ff642681590dd",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/masks/light_west_lancet.png",
+      "bytes": 2946,
+      "sha256": "b07fac4aa2cecd94b5185622890a4d11931fc9fbea9f63b082180ec51e8d8d5c",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/masks/light_west_pair.png",
+      "bytes": 2758,
+      "sha256": "bb4dd3d5d738720ea5f620616ac90fe7991e34d9e023791238ccddad7478edad",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/masks/middle_dust.png",
+      "bytes": 6423,
+      "sha256": "2c4689920f1f35bc00d5c99c9ecb2bc0e7a9e45af19ee563a92553215668d271",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/masks/red_embers.png",
+      "bytes": 2637,
+      "sha256": "a23ebaf1e764150f9766cf91127b634691562b7f0d753dee27a8fa881ef2c677",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/masks/sky_clouds.png",
+      "bytes": 15431,
+      "sha256": "691a4803ece8fdafd95caf40397eb14c429d9bcf2ecd3ee81b552172f55cb02b",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/masks/storm.png",
+      "bytes": 29761,
+      "sha256": "120ddeee1639e255473c3b78a1a4f230458a00b36c8ee353d9e597d13462a79d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/media-stream-validation.json",
+      "bytes": 1046,
+      "sha256": "4dee7d80f1f39727e5c9f75b9383ef690cefbc2d19729b2a1ac9fa8bdcee1bf7",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/preview-validation.json",
+      "bytes": 11731,
+      "sha256": "64b4dfb41568b4ff01bfbb52c9b099a0bb8ef1d0b2134aad0669e2efa4142fd8",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/production-prompt.txt",
+      "bytes": 18669,
+      "sha256": "0ef51284f5866b3e3307f5cb03485cd68b701a2923607e61e0af04d1584cf3e7",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/README.md",
+      "bytes": 5346,
+      "sha256": "29175e84b29af82884355c8a254ca12a0cd5fb6bda4225c7d6bd511363470c9d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/red_embers-mask-overlay.png",
+      "bytes": 2385892,
+      "sha256": "5128364f6902c084bcb13687b7b79d45b6d813818853eac6f455878746daf6a0",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/red_embers-v2-isolated-10s.mp4",
+      "bytes": 1157795,
+      "sha256": "9a4a519c41dd6f704be6535886bae3d54970e6043f39a48b3ec2f83fc5577578",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/render_crimson.py",
+      "bytes": 14327,
+      "sha256": "67df18aa609ffcc1a96192aab77a13691b22ba2d73646edc527f79e64a86e883",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-000.00s.png",
+      "bytes": 1463179,
+      "sha256": "e252a7788ccac123a690fb9c7507dbeeeb0b071a4e73590f128d00483fbe5ee9",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-004.00s.png",
+      "bytes": 1464832,
+      "sha256": "1f39efd9f9397348002401e8c2544a33ddaf52987888d4a39efc8d90fb034c16",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-008.00s.png",
+      "bytes": 1461558,
+      "sha256": "4971d458bc87e96e6e4386ffd4cf8e1c39da11e0796a5a30396507f4655b53af",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-008.52s.png",
+      "bytes": 1461301,
+      "sha256": "b47da9bef0c6dc7033e32d6b8755ad9bd8fa5efc95bfca96cb4bd1a637f1c81d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-020.00s.png",
+      "bytes": 1462449,
+      "sha256": "9df9db71e9f5f08ef75b56650289a6c909f90cef2da294506c58eca3c14e5d0e",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-021.00s.png",
+      "bytes": 1461202,
+      "sha256": "0e5b312539ad0c265830b7f3c96325f76f4e314a39866deb408596455a0144f4",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-033.37s.png",
+      "bytes": 1464572,
+      "sha256": "76f8d5efa4f3ca411ba2babbbd2dc6bce2edb6d7b0556c46ecbe74fe663f1b5e",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-039.35s.png",
+      "bytes": 1460286,
+      "sha256": "12f73f844c777ef775d70fb92d587249850801dbdf358c38708cae8d26dfb39b",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-040.00s.png",
+      "bytes": 1462153,
+      "sha256": "6940056cd4c9f97db96e2cdc0744c86a5696b02d69fb9723089f36aa2f8511bf",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-048.00s.png",
+      "bytes": 1457235,
+      "sha256": "b16ba4830f66dca0bc6521c781e10ebe033bb54112f882b378eaf2a0721337d0",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-050.00s.png",
+      "bytes": 1461892,
+      "sha256": "5cbae852f29d6eb4341522c0130afe7c2bcd5b77d0f93e8275911d92c0d92e28",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-056.31s.png",
+      "bytes": 1465937,
+      "sha256": "ada139574acb39a1d15c6ca7d35a271a94e6ec91d876187dd4daab217e791a74",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-057.00s.png",
+      "bytes": 1466039,
+      "sha256": "16058348020d14a63701aa17a0c68f8e45dac6a1046899f04821e1bdafc5803a",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sample-059.97s.png",
+      "bytes": 1463204,
+      "sha256": "6c1b79b25aa8bb65f067ddb9f67c2fd539fa2201175051fdf132a5c910474b91",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/scene-plan-v2.json",
+      "bytes": 24161,
+      "sha256": "d04cb99f0254515d248c32ba57e4cc7a27888dec81a37a410e91ef60a389d29d",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/sky_clouds-v2-isolated-10s.mp4",
+      "bytes": 6228513,
+      "sha256": "5ae15507424a898d5e1e35bfe6086335da0397128a2eae5e352e0145e1f99053",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/source-v12.png",
+      "bytes": 2438952,
+      "sha256": "bbcb566dac5704b0a046c2c7769f3a73bd0f092851d723988489d627eb12e0b5",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/storm-mask-overlay.png",
+      "bytes": 2380462,
+      "sha256": "b42ee46a90c4240737ae917baf0551524a8c5c030f88c8a3439542c3d7601ae5",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/storm_context-v2-isolated-10s.mp4",
+      "bytes": 6758338,
+      "sha256": "b88c1dcfe2d7bfa6b1c792a12691f6acca8066660e844e3c1b130d03ca5fafbe",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/user-feedback-2026-10-08.json",
+      "bytes": 1006,
+      "sha256": "b1e0fa4d16d407c17938fb64ab2b5493504041e310504a6510ca6f07384a3037",
+      "storage": "ordinary_git"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v2/weather-mask-overlay.png",
+      "bytes": 2268590,
+      "sha256": "0a94385bcd47d7da2a0cd0a7f7f2a1f106b54d7a639b572fb491d91bd20391bb",
+      "storage": "ordinary_git"
+    }
+  ],
+  "support_files": [
+    {
+      "path": ".gitattributes",
+      "git_stored_bytes": 4984,
+      "git_stored_sha256": "096227a16ffc148e2ed4f2eb4b549cb5b4dcc38d99073885c29f7f122380380d",
+      "note": "Verify committed bytes; platform checkout newline conversion may differ."
+    },
+    {
+      "path": ".gitignore",
+      "git_stored_bytes": 3653,
+      "git_stored_sha256": "3bed4b6074b96b5f6ad73347af2ca4574a0b767c62579ef3c2c3fe1662130c1d",
+      "note": "Verify committed bytes; platform checkout newline conversion may differ."
+    },
+    {
+      "path": "AGENTS.md",
+      "git_stored_bytes": 41478,
+      "git_stored_sha256": "763c98c10aec1edf54d737d1eda115f2aaac36d869b6bb81300239f46ad4695f",
+      "note": "Verify committed bytes; platform checkout newline conversion may differ."
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "git_stored_bytes": 23005,
+      "git_stored_sha256": "76efe8226c7f973cb19edb42256beb872129685936a22546ba620505554b3942",
+      "note": "Verify committed bytes; platform checkout newline conversion may differ."
+    },
+    {
+      "path": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "git_stored_bytes": 40428,
+      "git_stored_sha256": "52761017ff5b46cea776719cbf728a0de71418cf2b506b90acafdd1fcd827ad3",
+      "note": "Verify committed bytes; platform checkout newline conversion may differ."
+    }
+  ],
+  "file_count": 286,
+  "payload_bytes": 605864377,
+  "media_count": 19,
+  "lfs_paths": [
+    "music/beneath-a-crimson-sky-animation-v1/beneath-a-crimson-sky-v1-three-loops-180s.mp4",
+    "music/beneath-a-crimson-sky-animation-v2/beneath-a-crimson-sky-v2-three-loops-180s.mp4"
+  ],
+  "excluded": "Python bytecode; machine-local runtimes/helpers; external reference downloads under .local/; unrelated ignored long exports. No authored file within the selected package roots is otherwise excluded.",
+  "visual_status": "checkpoint_decent_needs_more_work_not_final_approved",
+  "verification": "After push, fresh independent sparse clone from origin; restore the exact LFS paths; hash every package file and verify support Git-stored bytes. Write actual evidence to local ignored remote-backup-verification.json."
+}

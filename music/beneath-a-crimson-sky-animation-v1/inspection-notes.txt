@@ -1,0 +1,22 @@
+BENEATH A CRIMSON SKY — FIRST ANIMATION CANDIDATE
+2026-10-08
+
+Inspected original composition, coordinate guide, fortress detail, weather masks,
+forced dim lighting and full-composition temporal stills at 0, 4, 8, 20, 40, 50,
+57 and 59.967 seconds. Inspected encoded isolated cloud stills; replaced the
+incorrect OpenCV colour interpretation with FFmpeg RGB decoding.
+
+Current source texture retains cloud detail. Luminous opening, world, stonework,
+terrace and ruin geometry remain fixed. The source mask excludes a swept band
+around architecture and the opening; cloud movement tapers before those edges.
+Two forward source-texture phases overlap locally. This can soften some overlapping
+cloud texture; user playback review remains necessary. It is not weather simulation.
+
+Dust uses two separate depth regions and independently renewed gusts. The main
+existing dust-bank shape remains part of the source photograph. No foreground dust.
+Six small existing window groups have staggered dim holds; main sanctuary window
+stays steady. Lantern brightness affects its core and local wall/paving spill.
+
+No continuous playback inspection is claimed. Tracking, checksums, decoding,
+periodicity and source protection do not establish artistic acceptance. Review the
+complete minute and three-repeat file before the 4K animation export.

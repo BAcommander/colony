@@ -1,0 +1,20 @@
+{
+  "source_sha256": "30f0d2d0261875556fd7a96b6b9c1f02788d41e4254b23348a0859b2be376a5f",
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "output_dimensions": [
+    3840,
+    2160
+  ],
+  "resampling": "Pillow ImageOps.fit Lanczos, centred aspect-preserving crop",
+  "source_crop_box": [
+    0,
+    0.25,
+    1672,
+    940.75
+  ],
+  "new_detail_generated": false,
+  "output_sha256": "b38da04428704e93357a78e6d54567897cae88e1bc484526e20b6d774567ca65"
+}

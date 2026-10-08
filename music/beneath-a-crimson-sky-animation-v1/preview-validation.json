@@ -1,0 +1,194 @@
+{
+  "fingerprint": {
+    "files": {
+      "music/beneath-a-crimson-sky-animation-v1/scene-plan-v1.json": "14553c46c9cf7ef72d9544e53bfcb1ac671701e8a02c4944aa1def8eca7c7ceb",
+      "music/beneath-a-crimson-sky-animation-v1/render_crimson.py": "08d49ecd5fd074bf60fbf8bc40e3f57a1cdf8c9399ab8f2288bfa7cf8d1a226f",
+      "music/beneath-a-crimson-sky-animation-v1/build_plan.py": "f99de04a899b331bbef7f3f32ba51dc7c9a481fd64def8c2759bd59a730aa951",
+      "music/beneath-a-crimson-sky-animation-v1/source-v11.png": "30f0d2d0261875556fd7a96b6b9c1f02788d41e4254b23348a0859b2be376a5f",
+      "music/beneath-a-crimson-sky-animation-v1/dependencies/ambient_effects.py": "cdbbde1b4115128d44bb624293799988b57c42e2f8f632eb65844a5144eb0b0a",
+      "music/beneath-a-crimson-sky-animation-v1/dependencies/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "music/beneath-a-crimson-sky-animation-v1/dependencies/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379"
+    },
+    "masks": {
+      "sky_clouds": "8e41e231538541f3ac36d12ff451ae3c3a031af574178b6b2950ac9cc04d79ea",
+      "far_dust": "126f2f570dfa27889233f3741a6d44e2a9f09126e44509e3c918c5d256a16a46",
+      "middle_dust": "7a7f4fb08a0533dbce83390ec615083ef62b6c3393db23110b4838f2640ea9c9",
+      "light_upper_dome": "89984d270e7b0120420d749fec0cbb243a483e2ad17bf949d85b21e8217d2726",
+      "light_high_tower": "4a93a53f5a88782c7b161e82ec9ac28d847671b03a8cdfb1747db170dbf9e527",
+      "light_west_room": "df92bb59af0f861546a5ebb28ca2617975cfc5f5eede4614d3a08a52b87c6d96",
+      "light_east_arch": "cfa7123294d83d39495470228d56d57e3cc30ca3888efa4854d4346b7778a148",
+      "light_gallery_room": "e1079a1da5e1342ee97083dbf632506ec633400c32578e27ef272401377de5a2",
+      "light_east_room": "4f70a1cdce6e7f61c7656361f5a8b1381b13f5e39643c4c5eb8673e0018f06d7",
+      "lantern": "414c6d8e8ae42ebe0ab1f80e1091ffcf09ae71a1537363598fbcdf9cb5f2f406"
+    },
+    "numpy": "2.4.3",
+    "opencv": "5.0.0"
+  },
+  "clips": [
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/beneath-a-crimson-sky-v1-preview-60s.mp4",
+      "sha256": "c97a9d74b60f5c4f768f4a6d077714437722e3cc46dbf5cb6c3ffbc03e8a7a40",
+      "frames": 1800,
+      "seconds": 60,
+      "layer": "combined",
+      "silent": true,
+      "validation": {
+        "frames": 1800,
+        "fps": 30.0,
+        "full_decode": true,
+        "pixel_decoder": "FFmpeg RGB24 with stream colour metadata",
+        "timestamp_decoder": "OpenCV frame grab without RGB conversion",
+        "sequential_timestamps": true,
+        "encoded_seam": {
+          "sky_clouds": {
+            "seam_mae": 0.1161408819824823,
+            "ordinary_max_mae": 0.4651261556554976,
+            "pass": true
+          },
+          "far_dust": {
+            "seam_mae": 0.04357185614956025,
+            "ordinary_max_mae": 0.04901689920338905,
+            "pass": true
+          },
+          "middle_dust": {
+            "seam_mae": 0.03367273770256704,
+            "ordinary_max_mae": 0.049294899373775035,
+            "pass": true
+          },
+          "light_upper_dome": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.27552275522755226,
+            "pass": true
+          },
+          "light_high_tower": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.2275706214689266,
+            "pass": true
+          },
+          "light_west_room": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.2724525043177893,
+            "pass": true
+          },
+          "light_east_arch": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.16962087641555887,
+            "pass": true
+          },
+          "light_gallery_room": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.21349527665317136,
+            "pass": true
+          },
+          "light_east_room": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.1362117707530198,
+            "pass": true
+          },
+          "lantern": {
+            "seam_mae": 0.03449426207632773,
+            "ordinary_max_mae": 0.6249710879814963,
+            "pass": true
+          },
+          "dust": {
+            "seam_mae": 0.038998344812857064,
+            "ordinary_max_mae": 0.04834748251374873,
+            "pass": true
+          },
+          "habitation": {
+            "seam_mae": 0.03128744508054853,
+            "ordinary_max_mae": 0.56686960135236,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.08016212724575339,
+            "ordinary_max_mae": 0.2824774195118538,
+            "pass": true
+          }
+        }
+      }
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v1/beneath-a-crimson-sky-v1-three-loops-180s.mp4",
+      "sha256": "b5b4523411955953fdb740d31cc4f0b7ff3085ec3d89e0e37481622dda69e7ab",
+      "validation": {
+        "frames": 5400,
+        "fps": 30.0,
+        "full_decode": true,
+        "pixel_decoder": "FFmpeg RGB24 with stream colour metadata",
+        "timestamp_decoder": "OpenCV frame grab without RGB conversion",
+        "sequential_timestamps": true,
+        "encoded_seam": {
+          "sky_clouds": {
+            "seam_mae": 0.1161408819824823,
+            "ordinary_max_mae": 0.4651261556554976,
+            "pass": true
+          },
+          "far_dust": {
+            "seam_mae": 0.04357185614956025,
+            "ordinary_max_mae": 0.04901689920338905,
+            "pass": true
+          },
+          "middle_dust": {
+            "seam_mae": 0.03367273770256704,
+            "ordinary_max_mae": 0.049294899373775035,
+            "pass": true
+          },
+          "light_upper_dome": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.27552275522755226,
+            "pass": true
+          },
+          "light_high_tower": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.2275706214689266,
+            "pass": true
+          },
+          "light_west_room": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.2724525043177893,
+            "pass": true
+          },
+          "light_east_arch": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.16962087641555887,
+            "pass": true
+          },
+          "light_gallery_room": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.21349527665317136,
+            "pass": true
+          },
+          "light_east_room": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.1362117707530198,
+            "pass": true
+          },
+          "lantern": {
+            "seam_mae": 0.03449426207632773,
+            "ordinary_max_mae": 0.6249710879814963,
+            "pass": true
+          },
+          "dust": {
+            "seam_mae": 0.038998344812857064,
+            "ordinary_max_mae": 0.04834748251374873,
+            "pass": true
+          },
+          "habitation": {
+            "seam_mae": 0.03128744508054853,
+            "ordinary_max_mae": 0.56686960135236,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.08016212724575339,
+            "ordinary_max_mae": 0.2824774195118538,
+            "pass": true
+          }
+        }
+      },
+      "exact_three_decoded_repetitions": true
+    }
+  ],
+  "user_approved": false,
+  "inspection": "Source, masks and temporal/decoded stills; no continuous playback inspection claimed"
+}

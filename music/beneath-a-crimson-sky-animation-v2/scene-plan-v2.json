@@ -1,0 +1,1573 @@
+{
+  "scene_name": "Beneath a Crimson Sky",
+  "version": "v2",
+  "status": "implementation_in_progress",
+  "authority": {
+    "date": "2026-10-08",
+    "request": "make the animation",
+    "scope": "Execute prompt v3 on v12; full minute 720p and exact three-repeat review. 4K after preview acceptance."
+  },
+  "source": {
+    "path": "music/beneath-a-crimson-sky-animation-v2/source-v12.png",
+    "sha256": "bbcb566dac5704b0a046c2c7769f3a73bd0f092851d723988489d627eb12e0b5",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "duration": 60,
+  "fps": 30,
+  "preview_size": [
+    1280,
+    720
+  ],
+  "final_size": [
+    3840,
+    2160
+  ],
+  "ffmpeg": "C:\\Users\\john\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+  "protected_geometry": [
+    "camera",
+    "roof",
+    "pillar",
+    "bench",
+    "blanket",
+    "barrel",
+    "parapet",
+    "fortress silhouettes",
+    "rock contours",
+    "gateway masonry",
+    "world and clear opening"
+  ],
+  "sky": {
+    "polygon": [
+      [
+        244,
+        103
+      ],
+      [
+        293,
+        92
+      ],
+      [
+        302,
+        72
+      ],
+      [
+        545,
+        50
+      ],
+      [
+        553,
+        66
+      ],
+      [
+        587,
+        74
+      ],
+      [
+        603,
+        58
+      ],
+      [
+        601,
+        40
+      ],
+      [
+        870,
+        14
+      ],
+      [
+        880,
+        34
+      ],
+      [
+        914,
+        31
+      ],
+      [
+        925,
+        18
+      ],
+      [
+        923,
+        -5
+      ],
+      [
+        1700,
+        -5
+      ],
+      [
+        1700,
+        445
+      ],
+      [
+        1420,
+        444
+      ],
+      [
+        1170,
+        444
+      ],
+      [
+        1041,
+        441
+      ],
+      [
+        758,
+        438
+      ],
+      [
+        750,
+        414
+      ],
+      [
+        750,
+        359
+      ],
+      [
+        741,
+        350
+      ],
+      [
+        736,
+        328
+      ],
+      [
+        732,
+        347
+      ],
+      [
+        724,
+        353
+      ],
+      [
+        721,
+        390
+      ],
+      [
+        680,
+        380
+      ],
+      [
+        678,
+        363
+      ],
+      [
+        669,
+        378
+      ],
+      [
+        665,
+        325
+      ],
+      [
+        659,
+        317
+      ],
+      [
+        656,
+        295
+      ],
+      [
+        651,
+        315
+      ],
+      [
+        644,
+        330
+      ],
+      [
+        640,
+        369
+      ],
+      [
+        630,
+        366
+      ],
+      [
+        628,
+        342
+      ],
+      [
+        619,
+        338
+      ],
+      [
+        614,
+        300
+      ],
+      [
+        602,
+        285
+      ],
+      [
+        588,
+        278
+      ],
+      [
+        585,
+        256
+      ],
+      [
+        580,
+        278
+      ],
+      [
+        565,
+        283
+      ],
+      [
+        553,
+        301
+      ],
+      [
+        548,
+        299
+      ],
+      [
+        540,
+        248
+      ],
+      [
+        537,
+        180
+      ],
+      [
+        529,
+        172
+      ],
+      [
+        524,
+        136
+      ],
+      [
+        518,
+        127
+      ],
+      [
+        518,
+        115
+      ],
+      [
+        502,
+        111
+      ],
+      [
+        503,
+        126
+      ],
+      [
+        497,
+        141
+      ],
+      [
+        490,
+        179
+      ],
+      [
+        486,
+        195
+      ],
+      [
+        479,
+        217
+      ],
+      [
+        474,
+        240
+      ],
+      [
+        461,
+        238
+      ],
+      [
+        458,
+        217
+      ],
+      [
+        453,
+        230
+      ],
+      [
+        436,
+        229
+      ],
+      [
+        434,
+        195
+      ],
+      [
+        430,
+        181
+      ],
+      [
+        426,
+        160
+      ],
+      [
+        421,
+        180
+      ],
+      [
+        413,
+        193
+      ],
+      [
+        408,
+        270
+      ],
+      [
+        378,
+        271
+      ],
+      [
+        371,
+        247
+      ],
+      [
+        356,
+        216
+      ],
+      [
+        339,
+        211
+      ],
+      [
+        303,
+        207
+      ],
+      [
+        298,
+        170
+      ],
+      [
+        244,
+        165
+      ]
+    ],
+    "clear_opening": [
+      [
+        1050,
+        218
+      ],
+      [
+        1123,
+        199
+      ],
+      [
+        1212,
+        207
+      ],
+      [
+        1301,
+        219
+      ],
+      [
+        1380,
+        204
+      ],
+      [
+        1438,
+        218
+      ],
+      [
+        1457,
+        246
+      ],
+      [
+        1405,
+        278
+      ],
+      [
+        1385,
+        309
+      ],
+      [
+        1315,
+        332
+      ],
+      [
+        1227,
+        339
+      ],
+      [
+        1178,
+        331
+      ],
+      [
+        1120,
+        312
+      ],
+      [
+        1069,
+        301
+      ],
+      [
+        1077,
+        280
+      ],
+      [
+        1029,
+        260
+      ]
+    ],
+    "upper_speed": 2.6,
+    "horizon_speed": 0.9,
+    "depth_transition": [
+      315,
+      435
+    ],
+    "source_inset": 5,
+    "transport_feather": 26,
+    "method": "Original cloud texture transport, unequal phase spacing and compact dominant-field transitions staggered across depth; swept source/destination exclusions.",
+    "phase_offsets": [
+      0,
+      26
+    ],
+    "weight_power": 8,
+    "depth_phase_seconds": 7,
+    "period": 60,
+    "effective_texture_period_seconds": 60,
+    "source_and_destination_exclusion": true,
+    "baseline": "v1 two sin-squared fields at phases 0/30 using the same v12 source and exclusion mask"
+  },
+  "weather": [
+    {
+      "name": "far_dust",
+      "polygon": [
+        [
+          831,
+          514
+        ],
+        [
+          1030,
+          512
+        ],
+        [
+          1138,
+          511
+        ],
+        [
+          1400,
+          500
+        ],
+        [
+          1671,
+          502
+        ],
+        [
+          1671,
+          560
+        ],
+        [
+          1480,
+          556
+        ],
+        [
+          1300,
+          553
+        ],
+        [
+          1110,
+          557
+        ],
+        [
+          956,
+          550
+        ],
+        [
+          831,
+          541
+        ]
+      ],
+      "feather": 12,
+      "seed": 821,
+      "speed": 4.5,
+      "optical_depth": 0.33,
+      "max_opacity": 0.22,
+      "color": [
+        203,
+        109,
+        83
+      ],
+      "gusts": [
+        [
+          927,
+          530,
+          110,
+          10,
+          0.002,
+          12
+        ],
+        [
+          1160,
+          533,
+          145,
+          12,
+          -0.004,
+          27
+        ],
+        [
+          1420,
+          526,
+          145,
+          14,
+          -0.012,
+          44
+        ],
+        [
+          1680,
+          530,
+          125,
+          11,
+          -0.006,
+          55
+        ]
+      ]
+    },
+    {
+      "name": "middle_dust",
+      "polygon": [
+        [
+          889,
+          561
+        ],
+        [
+          1050,
+          562
+        ],
+        [
+          1200,
+          562
+        ],
+        [
+          1400,
+          558
+        ],
+        [
+          1669,
+          564
+        ],
+        [
+          1671,
+          618
+        ],
+        [
+          1590,
+          617
+        ],
+        [
+          1524,
+          625
+        ],
+        [
+          1480,
+          639
+        ],
+        [
+          1410,
+          638
+        ],
+        [
+          1350,
+          653
+        ],
+        [
+          1200,
+          644
+        ],
+        [
+          1100,
+          634
+        ],
+        [
+          1000,
+          635
+        ],
+        [
+          911,
+          610
+        ]
+      ],
+      "feather": 13,
+      "seed": 143,
+      "speed": 7.3,
+      "optical_depth": 0.27,
+      "max_opacity": 0.18,
+      "color": [
+        193,
+        103,
+        77
+      ],
+      "gusts": [
+        [
+          980,
+          581,
+          106,
+          9,
+          0.015,
+          9
+        ],
+        [
+          1160,
+          613,
+          118,
+          9,
+          0.004,
+          24
+        ],
+        [
+          1390,
+          582,
+          133,
+          10,
+          0.009,
+          40
+        ],
+        [
+          1560,
+          605,
+          112,
+          12,
+          -0.025,
+          52
+        ]
+      ]
+    }
+  ],
+  "weather_blockers": [
+    [
+      [
+        1249,
+        630
+      ],
+      [
+        1251,
+        601
+      ],
+      [
+        1257,
+        598
+      ],
+      [
+        1264,
+        600
+      ],
+      [
+        1271,
+        598
+      ],
+      [
+        1281,
+        603
+      ],
+      [
+        1282,
+        631
+      ],
+      [
+        1274,
+        630
+      ],
+      [
+        1274,
+        614
+      ],
+      [
+        1270,
+        609
+      ],
+      [
+        1265,
+        609
+      ],
+      [
+        1262,
+        615
+      ],
+      [
+        1262,
+        630
+      ]
+    ],
+    [
+      [
+        1224,
+        625
+      ],
+      [
+        1224,
+        613
+      ],
+      [
+        1230,
+        612
+      ],
+      [
+        1237,
+        616
+      ],
+      [
+        1239,
+        627
+      ]
+    ],
+    [
+      [
+        1284,
+        633
+      ],
+      [
+        1285,
+        616
+      ],
+      [
+        1291,
+        615
+      ],
+      [
+        1294,
+        619
+      ],
+      [
+        1302,
+        617
+      ],
+      [
+        1306,
+        620
+      ],
+      [
+        1307,
+        635
+      ]
+    ],
+    [
+      [
+        1198,
+        624
+      ],
+      [
+        1200,
+        614
+      ],
+      [
+        1208,
+        614
+      ],
+      [
+        1210,
+        626
+      ]
+    ]
+  ],
+  "lights": [
+    {
+      "name": "west_pair",
+      "polygons": [
+        [
+          [
+            332,
+            314
+          ],
+          [
+            339,
+            314
+          ],
+          [
+            339,
+            325
+          ],
+          [
+            332,
+            325
+          ]
+        ],
+        [
+          [
+            343,
+            312
+          ],
+          [
+            349,
+            312
+          ],
+          [
+            349,
+            323
+          ],
+          [
+            343,
+            323
+          ]
+        ]
+      ],
+      "events": [
+        [
+          55,
+          11,
+          1.4,
+          0.6
+        ],
+        [
+          29,
+          8,
+          1.2,
+          0.45
+        ]
+      ],
+      "glows": [
+        [
+          341,
+          320,
+          12,
+          11,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "west_lancet",
+      "polygons": [
+        [
+          [
+            436,
+            306
+          ],
+          [
+            438,
+            301
+          ],
+          [
+            441,
+            300
+          ],
+          [
+            444,
+            306
+          ],
+          [
+            444,
+            345
+          ],
+          [
+            436,
+            345
+          ]
+        ]
+      ],
+      "events": [
+        [
+          6.5,
+          8.2,
+          1.2,
+          0.52
+        ],
+        [
+          44,
+          10,
+          1.8,
+          0.42
+        ]
+      ],
+      "glows": [
+        [
+          440,
+          323,
+          7,
+          21,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "upper_chapel",
+      "polygons": [
+        [
+          [
+            459,
+            260
+          ],
+          [
+            462,
+            256
+          ],
+          [
+            466,
+            261
+          ],
+          [
+            466,
+            272
+          ],
+          [
+            459,
+            272
+          ]
+        ]
+      ],
+      "events": [
+        [
+          20,
+          12,
+          1.7,
+          0.62
+        ]
+      ],
+      "glows": [
+        [
+          463,
+          265,
+          7,
+          10,
+          0.11
+        ]
+      ]
+    },
+    {
+      "name": "lower_dome_pair",
+      "polygons": [
+        [
+          [
+            563,
+            365
+          ],
+          [
+            566,
+            361
+          ],
+          [
+            568,
+            367
+          ],
+          [
+            568,
+            383
+          ],
+          [
+            563,
+            383
+          ]
+        ],
+        [
+          [
+            570,
+            368
+          ],
+          [
+            573,
+            366
+          ],
+          [
+            575,
+            370
+          ],
+          [
+            575,
+            383
+          ],
+          [
+            570,
+            383
+          ]
+        ]
+      ],
+      "events": [
+        [
+          10,
+          8,
+          1.5,
+          0.56
+        ],
+        [
+          34,
+          8,
+          1.4,
+          0.44
+        ]
+      ],
+      "glows": [
+        [
+          568,
+          376,
+          9,
+          14,
+          0.12
+        ]
+      ]
+    },
+    {
+      "name": "east_rooms",
+      "polygons": [
+        [
+          [
+            633,
+            381
+          ],
+          [
+            637,
+            381
+          ],
+          [
+            637,
+            391
+          ],
+          [
+            633,
+            391
+          ]
+        ],
+        [
+          [
+            640,
+            381
+          ],
+          [
+            644,
+            381
+          ],
+          [
+            644,
+            391
+          ],
+          [
+            640,
+            391
+          ]
+        ]
+      ],
+      "events": [
+        [
+          3,
+          9,
+          1.5,
+          0.54
+        ],
+        [
+          48,
+          10,
+          1.6,
+          0.59
+        ]
+      ],
+      "glows": [
+        [
+          638,
+          386,
+          10,
+          9,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "east_belfry",
+      "polygons": [
+        [
+          [
+            730,
+            391
+          ],
+          [
+            734,
+            391
+          ],
+          [
+            734,
+            402
+          ],
+          [
+            730,
+            402
+          ]
+        ],
+        [
+          [
+            737,
+            389
+          ],
+          [
+            741,
+            389
+          ],
+          [
+            741,
+            401
+          ],
+          [
+            737,
+            401
+          ]
+        ]
+      ],
+      "events": [
+        [
+          35,
+          13,
+          1.6,
+          0.64
+        ]
+      ],
+      "glows": [
+        [
+          735,
+          396,
+          9,
+          10,
+          0.1
+        ]
+      ]
+    }
+  ],
+  "lantern": {
+    "core_polygon": [
+      [
+        43,
+        310
+      ],
+      [
+        83,
+        311
+      ],
+      [
+        83,
+        408
+      ],
+      [
+        42,
+        408
+      ]
+    ],
+    "wall_polygon": [
+      [
+        0,
+        250
+      ],
+      [
+        138,
+        242
+      ],
+      [
+        230,
+        282
+      ],
+      [
+        234,
+        549
+      ],
+      [
+        221,
+        568
+      ],
+      [
+        151,
+        612
+      ],
+      [
+        2,
+        605
+      ]
+    ],
+    "floor_polygon": [
+      [
+        60,
+        796
+      ],
+      [
+        117,
+        782
+      ],
+      [
+        165,
+        798
+      ],
+      [
+        248,
+        794
+      ],
+      [
+        357,
+        854
+      ],
+      [
+        384,
+        906
+      ],
+      [
+        319,
+        939
+      ],
+      [
+        93,
+        940
+      ],
+      [
+        4,
+        916
+      ],
+      [
+        12,
+        856
+      ]
+    ],
+    "wall_glow": [
+      62,
+      365,
+      67,
+      130
+    ],
+    "floor_glow": [
+      168,
+      858,
+      166,
+      65
+    ],
+    "modulation": [
+      0.044,
+      0.023,
+      0.016
+    ],
+    "brief_dip": [
+      39.1,
+      0.34,
+      0.14,
+      0.12
+    ],
+    "object_polygons": [
+      [
+        [
+          143,
+          697
+        ],
+        [
+          211,
+          716
+        ],
+        [
+          231,
+          747
+        ],
+        [
+          206,
+          762
+        ],
+        [
+          187,
+          750
+        ],
+        [
+          153,
+          737
+        ]
+      ],
+      [
+        [
+          225,
+          698
+        ],
+        [
+          243,
+          688
+        ],
+        [
+          276,
+          688
+        ],
+        [
+          296,
+          709
+        ],
+        [
+          291,
+          780
+        ],
+        [
+          274,
+          804
+        ],
+        [
+          233,
+          805
+        ],
+        [
+          222,
+          778
+        ]
+      ]
+    ],
+    "object_glow": [
+      168,
+      750,
+      95,
+      85
+    ]
+  },
+  "knowledge_reuse": {
+    "bank": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+    "selected_examples": [
+      {
+        "scene": "Basalt v6 / Cable v3",
+        "status": "accepted looks",
+        "reuse": "Recognizable source-cloud transport, exclusions in sampling and destination",
+        "remap": "New roof/fortress/opening silhouette and cloud parcels"
+      },
+      {
+        "scene": "Saltline v5 / v7",
+        "status": "v5 accepted; v7 minute timing separate",
+        "reuse": "PeriodicDust/DustTransport optical transport at unchanged speed",
+        "remap": "Far plain and ruin-adjacent channels, new seeds and minute schedules"
+      },
+      {
+        "scene": "Ringfall v9b / Floodplain v2",
+        "status": "accepted looks",
+        "reuse": "Whole-aperture light events with local spill",
+        "remap": "Six rooms and terrace lantern, main sanctuary window steady"
+      },
+      {
+        "scene": "Saltline source-cloud remapping",
+        "status": "method reused; no approval transfer",
+        "reuse": "Independent forward source-texture phases with hidden resets",
+        "remap": "New swept source exclusions around fortress, roof and world; continuous apparent-depth speed; sixty-second sky renewal"
+      },
+      {
+        "scene": "Farpoint v4 storm",
+        "status": "candidate mechanism, not approved look",
+        "reuse": "Gate storm light to the cloud currently present",
+        "remap": "New native v12 moving cloud-density support and irregular event footprints; no aurora or blue glow."
+      }
+    ],
+    "known_failures": [
+      "invisible cloud shimmer",
+      "planet fragments drifting from texture source",
+      "global time blending",
+      "dust disappearing late in loop",
+      "white cores and spill staying lit",
+      "Initial signed cloud residuals introduced rectangular edges and silhouette fragments; rejected before video and preserved in history"
+    ]
+  },
+  "review": {
+    "approved": false,
+    "user_feedback": null,
+    "continuous_playback_inspected": false
+  },
+  "delivery": {
+    "master_4k_video": null,
+    "preview": null,
+    "tracked_in_git": false
+  },
+  "storm": {
+    "events": [
+      {
+        "time": 8.4,
+        "rise": 0.11,
+        "decay": 0.5,
+        "strength": 0.24,
+        "centres": [
+          [
+            1480,
+            152,
+            73,
+            33,
+            1
+          ],
+          [
+            1540,
+            193,
+            68,
+            39,
+            0.7
+          ],
+          [
+            1405,
+            123,
+            58,
+            28,
+            0.55
+          ]
+        ]
+      },
+      {
+        "time": 33.2,
+        "rise": 0.14,
+        "decay": 0.62,
+        "strength": 0.2,
+        "secondary": [
+          0.39,
+          0.33
+        ],
+        "centres": [
+          [
+            1530,
+            327,
+            74,
+            24,
+            1
+          ],
+          [
+            1596,
+            306,
+            62,
+            33,
+            0.7
+          ],
+          [
+            1443,
+            346,
+            68,
+            23,
+            0.6
+          ]
+        ]
+      },
+      {
+        "time": 56.2,
+        "rise": 0.1,
+        "decay": 0.39,
+        "strength": 0.16,
+        "centres": [
+          [
+            1320,
+            93,
+            84,
+            28,
+            1
+          ],
+          [
+            1396,
+            66,
+            60,
+            27,
+            0.6
+          ],
+          [
+            1245,
+            97,
+            59,
+            22,
+            0.45
+          ]
+        ]
+      }
+    ],
+    "linear_color": [
+      1,
+      0.57,
+      0.4
+    ],
+    "note": "Local cloud-density/rim modulation, soft multi-lobed footprints. Farpoint candidate mechanism remapped, no aesthetic acceptance transferred."
+  },
+  "red": {
+    "core_polygons": [
+      [
+        [
+          601.8,
+          382
+        ],
+        [
+          601.8,
+          364.5
+        ],
+        [
+          603.8,
+          359.5
+        ],
+        [
+          605.1,
+          364.5
+        ],
+        [
+          605.1,
+          382
+        ]
+      ],
+      [
+        [
+          607,
+          382
+        ],
+        [
+          607,
+          360.5
+        ],
+        [
+          609,
+          363
+        ],
+        [
+          610.5,
+          366.5
+        ],
+        [
+          610.5,
+          382
+        ]
+      ]
+    ],
+    "spill_polygon": [
+      [
+        592,
+        343
+      ],
+      [
+        614,
+        346
+      ],
+      [
+        619,
+        358
+      ],
+      [
+        619,
+        394
+      ],
+      [
+        591,
+        394
+      ],
+      [
+        591,
+        360
+      ]
+    ],
+    "spill_glow": [
+      606,
+      370,
+      10,
+      20
+    ],
+    "events": [
+      [
+        18.1,
+        2.3,
+        1.2,
+        3.8,
+        1
+      ],
+      [
+        44.2,
+        2.8,
+        1.3,
+        3.8,
+        0.85
+      ]
+    ],
+    "linear_core": [
+      0.21,
+      0.004,
+      0.0015
+    ],
+    "linear_spill": [
+      0.025,
+      0.0014,
+      0.0005
+    ],
+    "location": "Existing recessed lancet above the lit lower doorway on the domed side wing; center about 606,369. Tracery separated by dark-pixel gate; no new aperture."
+  },
+  "optional_precipitation": {
+    "implemented": false,
+    "reason": "The far-right bank sits over layered luminous horizon slots with little clear fall distance before mesas. A new curtain would flatten the sunset and read as a stripe; retain intracloud events and separate dust depths."
+  },
+  "new_source_remapping": "All sky, world/opening, weather, ruin, window, lantern and red-source polygons traced from v12; no v11 coordinates reused as geometry.",
+  "inspection_limit": "Full-composition temporal and native still inspection; continuous playback not claimed."
+}

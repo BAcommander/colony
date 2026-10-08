@@ -1,0 +1,11 @@
+{
+  "mae": 1.879588035300926,
+  "channel_mean_error": [
+    -1.1381260850694443,
+    -1.4209429253472223,
+    -1.0688812934027778
+  ],
+  "matrix": "BT.709 limited range, FFmpeg colour-aware decode",
+  "within_rgb_mae_2.5": true,
+  "scope": "Expected 4:2:0 conversion differences, not pixel-identical RGB. OpenCV RGB conversion is incorrect for this tagged video and is not used for final inspection."
+}

@@ -1,0 +1,132 @@
+BENEATH A CRIMSON SKY
+Animation production prompt v3 — distant storm, warm shelter, monastery embers
+Prepared 2026-10-08. PROMPT ONLY: no new rendering is invoked by saving this file.
+
+CREATIVE INTENT
+Rebuild the previous animation on the cleaner v12 artwork, then give its atmosphere, light and depth a substantial cinematic improvement. The user's “251%” is the creative ambition, not a measurable quality claim or an instruction to multiply effect strengths. Judge success through recognizable cloud travel, convincing materials, legible depth and carefully separated events.
+
+The viewing experience: a warm, occupied shelter overlooking an immense unsettled world. Heavy cloud banks move above the plains. An occasional muted flash reveals their distant volume. Dust drifts below; the monastery remains inhabited. At long intervals, ember-red light emerges from within one part of the building, touches adjacent stone, then subsides. Preserve long calm intervals and the view's solitude.
+
+SCOPE AND AUTHORITY
+This is the requested new prompt, not permission to start rendering now. When the user explicitly invokes it, execute the complete local preview workflow below. The current request adds distant storm activity, more considered shelter lighting and occasional red monastery glow to the old animation concept. It supersedes the previous blanket exclusion of lightning ONLY for the restrained distant intracloud treatment described here.
+
+Use generic fortress-monastery language. Do not introduce franchise lore, named factions, dialogue, battle imagery, new technology or title graphics. Keep this an unnumbered live special after catalog 10 Farpoint Station; the actual live date/runtime remains separate.
+
+SOURCE AUTHORITY — V12, NOT THE OLD VIDEO PLATE
+Repository: C:/Colony
+Native source: creative/live/skies-of-baal/artwork-rebuild-v1/beneath-a-crimson-sky-v12-native.png
+Native dimensions: 1672 x 941
+SHA-256: bbcb566dac5704b0a046c2c7769f3a73bd0f092851d723988489d627eb12e0b5
+Existing 4K still: creative/live/skies-of-baal/artwork-rebuild-v1/beneath-a-crimson-sky-v12-4k.png
+4K still SHA-256: a5b65d229489e6aaa40cad9485021a247e53b461ab4f971271a56ccedfc56c4d
+The 3840 x 2160 still is a disclosed upscale. Animate at native source coordinates, then resample completed frames consistently. Do not process the enlarged still as if it contains native 4K detail.
+
+The user said v12 looks “alot better” and now requests this animation plan for the improved artwork. This establishes the intended source for the plan, not approval of an unrendered animation. An instruction to execute this exact prompt designates v12 for the new candidate.
+
+Read creative/ANIMATION_WORKFLOW.md, creative/ANIMATION_KNOWLEDGE_BANK.md, the v12 generation record and music/beneath-a-crimson-sky-animation-v1/README.md. Preserve the original source, earlier prompts, code and media. Work in a new music/beneath-a-crimson-sky-animation-v2/ package when execution is requested; use another unused version if that directory already contains production.
+
+DELIVERABLES WHEN EXECUTED
+- One genuine 60-second, 1280 x 720, 30 fps silent preview: 1,800 frames.
+- An exact three-repeat 180-second review: 5,400 frames.
+- After complete-preview acceptance, a matching 60-second 3840 x 2160/30 fps silent master, labelled as upscaled from 1672 x 941.
+- Source/configuration/code/dependency/mask hashes, exact event schedule, isolated tests, visual inspection notes and full delivery validation.
+Do not stop with a short excerpt. Music, thunder sound effects, long assembly, live broadcasting, upload and commit/push require their own request. Use the existing free local Python/NumPy/OpenCV/Pillow/FFmpeg workflow; no paid service, model installation or whole-scene video generation.
+
+1. PROTECT THE REBUILT ART AND COMPOSITION
+Freeze a byte-identical source copy and verify its hash. Trace new masks from v12: its fortress, dome, cliffs, ruins and world position differ from v11. Do not reuse old source coordinates or stretch the old masks to fit. The old animation is a reference for behaviour, not a pixel-aligned base.
+
+Keep camera, crop, roof beams, pier, lantern housing, bench, blanket, barrel, paving, parapet, arches, mullions, spires, cliff contours, ruins and rocky world fixed. The world is approximately near native x1160/y267, diameter about 61 pixels; these are inspection guides, not a ready-made mask. Trace the actual limb and clear opening. Do not import the old x1160/y302 mask.
+
+Preserve the new material texture and shadow detail. No additional image generation, stone sharpening, synthetic pores, moving rock texture, geometry warping, extra props or global grade. Improve the composition through attention, lighting and atmospheric depth while retaining the still's spatial arrangement.
+
+Visual hierarchy: warm shelter is the stable near anchor; inhabited monastery is the middle-distance subject; continuous clouds and dust establish scale; storm events are occasional distant accents. Avoid simultaneous peaks across all layers.
+
+2. RETAIN AND IMPROVE THE OLD CLOUD ANIMATION
+Recreate the previous rightward cloud movement, with upper banks moving more visibly than the horizon layers. Previous starting rates were 2.6 native pixels/second overhead and 0.9 near the horizon. These are remapping starting points, not approved settings for the new composition.
+
+Preserve recognizable dark cloud volumes, narrow warm rims and clear negative spaces. Separate their moving texture from stationary sky illumination. Give the upper-right bank and lower horizon formations independent depth/renewal treatment. At full-scene 720p, a viewer should be able to follow a particular edge over eight to twelve seconds.
+
+V1's paired source fields repeated every 30 seconds and could soften overlapping detail. Improve this concrete weakness: stagger local formation renewal and maintain coverage without broad double-exposure, duplicate rims, reverse motion or recurring blurred patches. Do not reuse the rejected signed-residual method that created soft backing gaps and drifting architecture fragments. Reconstruct only genuinely needed atmospheric backing and inspect every exposed region. If a method visibly damages the cleaner still, fix the transport before adding more weather.
+
+Exclude solid silhouettes and the world from BOTH sampled cloud content and effect destinations. Keep the irregular clear red-orange opening around the entire disc. No cloud may intersect it, show through it or be pasted behind it. No circular clipping hole, smudged halo or dark patch around the world. Storm light must also respect this exclusion.
+
+3. DISTANT STORM — CLOUD VOLUME, NOT A FOREGROUND LIGHT SHOW
+Place the storm in existing dense banks over the far-right plains, away from the clear opening. Begin with two mapped cloud regions: an upper-right volume and a lower, more distant right-hand bank. At each event time, illuminate the cloud actually present there after transport. A static glow coordinate is insufficient if its cloud has moved away.
+
+Default treatment: three low-intensity intracloud events over the minute. Light should reveal an irregular internal volume and briefly strengthen some surrounding cloud edges. Use subdued warm-white/desaturated lavender filtered through the existing red atmosphere, not a neon blue blob. Keep the emission cloud-shaped and partly occluded by denser foreground cloud. The effect should read as illumination inside a large distant formation, not an added glowing object.
+
+Each event lasts roughly 0.5–1.2 seconds overall with a quick but softened rise and longer decay. One event may contain a weaker secondary return; the others should differ in footprint and duration. No repeated high-frequency flashing, frame-filling white exposure change, hard graphic bolts, strikes on the monastery or moving searchlights. The planet and foreground shelter remain unchanged by these distant flashes. Do not brighten every cloud at once.
+
+Add one very restrained, broken precipitation/virga-like curtain beneath the far-right storm bank, fading into distant haze. Keep it narrow in depth, slow and slightly wind-slanted; protect the intervening mesa/ridge silhouettes. It must remain a distant atmospheric feature, not rain on the terrace, a grey screen overlay, a waterfall or vertical stripes. If the source offers insufficient space for a credible curtain, omit that secondary detail and document why rather than forcing it onto clear sky or masonry.
+
+The storm must look remote enough that the warm shelter remains comfortable. Let the strongest flash remain a secondary accent at normal screen size. Strength is tuned by visual review, not by a global brightness percentage.
+
+4. PLAINS — RETAIN TWO DEPTHS OF CONTINUOUS DUST
+Keep the previous broad far dust and somewhat faster middle-distance gusts. Previous source-scale rates were about 4.5 and 7.3 pixels/second respectively; remap to the new terrain and tune by recognizable travel. Use different structures and phases in each depth. Sustain incoming gusts throughout the entire minute, including seconds 40–60.
+
+Far formations sit beneath the mesas. Middle formations pass through open channels near the ruined gateway. Trace the actual new gate, wall fragments and ridges; each stone's front/behind relationship matters. Retain gaps and distinct lobes. Never let weather become a flat opaque stripe or smear away the rebuilt geological detail. Keep bench, lantern, terrace and camera completely free of blowing grit.
+
+5. THE LIGHT IN THE ROOM / SHELTER
+Interpret the user's room-light request as the existing visible terrace lantern and its pool of interior light. Do not invent an unseen spotlight or a second fixture.
+
+Make its warmth feel alive through small, irregular, continuous intensity changes. Start with variation of a few percent at the emitting core, plus one slightly deeper, brief dip over the minute. Avoid an obvious sine-wave breathing pattern, frantic flicker or repeated blackouts. The surrounding sunset illumination stays steady.
+
+Map the complete light: bright core, glass glow, real local halo, adjoining pier faces, the illuminated part of the paving and any clearly attributable nearby bench/barrel highlight. Preserve dark iron bars and masonry geometry. Emitter and spill share exactly the same timing; their strength differs by distance and surface orientation. Lamp dimming cannot leave its warm pool fully lit. Do not dim sunset-lit stone just because it is orange.
+
+Retain contrast between sheltered foreground and the open view. The changes should be visible in the local light pool over several seconds without making the whole room pulse. Storm and monastery-red events do not control this lamp.
+
+6. MONASTERY — INDEPENDENT ROOMS AND OCCASIONAL EMBER-RED LIGHT
+Retain four to six existing smaller window groups with independent dim/held/recovery events. Trace actual v12 apertures and bright cores; leave frames fixed and many route lights steady. Keep the great central golden lancet window as the primary steady anchor.
+
+For the new red glow, select ONE existing readable arched doorway or window group in the lower monastery/side precinct, preferably a medium opening near the domed wing. Identify it in the native mask review before coding; do not place light on a blank wall or add a new window. Its source is a low red interior light, not a beam or a supernatural aura.
+
+Twice during the minute, let deep ember/crimson illumination slowly emerge from that opening, hold briefly and fade back to its baseline. Each event should last about seven to nine seconds with a gentle rise, an unequal hold and a longer decay. The second can be somewhat weaker or longer. Preserve the stone tracery and visible depth of the opening.
+
+Couple the red aperture to a restrained red-brown spill on the immediate sill, inner reveal and nearby facing stone, with soft distance falloff and solid occlusion. A small amount may touch the adjoining walkway if the geometry supports it. No red disc hovering outside the building, fog halo floating in empty air, distant cliff-wide wash, laser shaft or whole-fortress recolour. Do not tint the main gold window, planet or terrace red in sympathy.
+
+Red needs to remain distinguishable against an already red sunset: local hue separation and the dark recess should make it legible. Raise the source/spill selectively if the first test is invisible; do not solve it by saturating the whole monastery. Window dimming and red-source schedules must not accidentally fight over the same aperture. Preserve baseline emission separately from the additive red contribution, and prevent clipping.
+
+7. A SUGGESTED MINUTE — FREEZE FINAL TIMINGS AFTER TESTING
+Continuous throughout: upper/lower cloud movement, separate far/middle dust, modest lantern variation and independent room occupancy.
+
+08.4 seconds: restrained upper-right intracloud event, approximately 0.7 seconds.
+18.1–25.4 seconds: first monastery-red event; slow rise, short hold, longer release.
+33.2 seconds: a different distant cloud volume lights internally for about 1.0 second, with one weaker return.
+39.1 seconds: one brief, modest lantern dip and attached spill response.
+44.2–52.1 seconds: second monastery-red event, unequal timing/strength to the first.
+56.2 seconds: faintest distant storm event, approximately 0.6 seconds.
+
+These are proposed cue times, not implementation evidence or an approved look. Let quiet intervals separate focal events. One ordinary room hold should cross the 60/0 boundary while other rooms remain lit. Avoid a conspicuous “everything returns to normal” reset. Record final events and seeds in a single configuration. Local cycles may divide sixty seconds, but the complete scene must have distinct states at 0/20/40 seconds and not be copied from a shorter video.
+
+8. REUSE WORKING LOGIC WITHOUT IMPORTING OLD FAILURES
+Reuse music/beneath-a-crimson-sky-animation-v1/render_crimson.py as a functional reference: source checks, separate weather depths, aperture/spill timing, encoding and validation. Freeze its exact snapshot; do not alter the delivered v1 package in place. All masks/anchors must be recreated for v12.
+
+Saltline's PeriodicDust/DustTransport supplies sustained gust renewal; Ringfall/Floodplain supply whole-aperture light events with attached spill. Reuse mechanisms, not coordinates or approval claims. For storm implementation, inspect music/farpoint-animation-v4/render_farpoint_v4.py::storm for gating light to cloud present at event time. That is candidate implementation evidence, not an accepted aesthetic preset. Do not import its aurora, fixed pale-blue colouring, simple round glow footprint or old storm coordinates.
+
+Composite local light in a suitable linear-light working representation or an explicitly tested equivalent, preserving baseline source pixels outside active masks. Keep source texture visible through lighting. Use cropped operations, deterministic timing and fingerprinted caches where beneficial. Preview and final must share source, masks, strengths, seeds, schedules and layer order.
+
+9. REVIEW IN THE RIGHT ORDER
+First inspect source, new masks, layer depth, fully dim room states and isolated bright red-spill states. Then render actual-strength 8–12-second, full-composition 720p tests of: cloud travel; dust/optional distant curtain; a storm event with its moving cloud; lantern core/spill; and one complete monastery-red rise/hold/fade.
+
+Before adding storm and red light, save a short v12 baseline with remapped old weather/lighting. Compare the upgraded candidate against that SAME v12 source and baseline at matched times; do not attribute the improved still's quality to new animation. Compare at 1x size and normal speed when playback is available. Inspect native crops for edges and full composition for hierarchy.
+
+Five visible success criteria replace the “251%” slogan:
+1. A recognizable cloud edge travels while retaining crisp volume and the clear opening.
+2. Far and middle weather both remain active and establish different depths throughout the minute.
+3. A storm flash reveals a cloud volume at the correct place and feels distant.
+4. The lantern's light pool and the monastery's red aperture/spill behave as attached sources with independent timing.
+5. The cleaner stone, stable geometry, calm hierarchy and unseen loop join survive three repetitions.
+
+If only temporal stills can be inspected, say so explicitly. Diagnostics and numerical changes cannot prove that the result feels cinematic. Then render the COMPLETE minute and its exact three-repeat review; user playback determines the look's success.
+
+10. TECHNICAL DELIVERY AND LIMITS
+Check source hash/dimensions; finite pixels; exact unchanged native pixels outside permitted effects; static world/architecture; absence of copied silhouettes; storm light confined to actual cloud; proper ruin/arch/lantern occlusion; sustained layer activity into the final third; periodic states and continuity through the join; no duplicate endpoint, reverse motion, full-frame dissolve or global exposure pulse.
+
+Fully decode all 1,800 and 5,400 frames, validate dimensions, 30 fps, silent streams and sequential timestamps, and verify the repeated minute is identical three times. Apply unchanged regional and composite last-to-first seam gates against ordinary adjacent frames. Report both the overall comparison and the quiet interval around the join: an intentional lightning event must not become an excuse for accepting a smaller but still visible boundary jump. Use local non-event neighbours as an additional seam diagnostic, not a weakened replacement gate.
+
+Specify and inspect BT.709 colour handling. Use FFmpeg's colour-aware RGB decoding for pixel/visual checks; the earlier OpenCV RGB conversion misread this footage. Preserve red gradients, warm window detail and highlight headroom. Full decode, colour and seam evidence remain separate from artistic approval.
+
+After full-preview acceptance, export and validate the matching 4K minute without changing motion. Label the native detail limit accurately. Deliver real files with absolute paths, update scene/production/knowledge-bank status in place, and keep proposed, implemented, inspected, accepted and backed-up states distinct. No soundtrack, broadcast or release date is implied.
+
+FINAL DIRECTION
+The scene should feel richer because its light has believable sources, its weather has depth and its events have restraint. Continuous motion carries the view; the distant storm and intermittent red monastery light reward longer watching. Preserve the sheltered feeling and the rebuilt artwork's realism.

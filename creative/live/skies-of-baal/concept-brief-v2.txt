@@ -1,0 +1,20 @@
+BENEATH A CRIMSON SKY
+Current creative brief | 2026-10-08 | First Ambient Colony live special
+
+An ancient fortress-monastery stands above the plains of a distant desert world. Its stone galleries and warm rooms shelter a small, enduring community. Below the cliffs, a half-buried gateway marks an older road. A quiet terrace offers a place to sit while the evening sky fills with red light.
+
+The scene is about shelter, distance and the comfort of a light kept burning. Its inhabitants and history remain open to the viewer's imagination. Describe the building by its function and appearance; no named order, faction, religious mythology, battle or borrowed character story is needed.
+
+Keep the intimate foreground: stone roof and pillar, lantern, bench, folded fabric, barrel and parapet. Beyond it, the fortress provides inhabited scale, the ruined route provides age, and the broad sky and plains provide room to breathe. Preserve luminous clear red-orange air around the rocky world and darker, well-defined cloud bodies.
+
+Animation direction remains a fixed camera with readable cloud travel, separate far and middle-distance dust, independent small window events and subtle lantern variation with attached spill. Solid architecture and terrain stay stable. The visual ambition comes from coherent depth, sustained movement and a comfortable repeat.
+
+Musical direction remains spacious, warm and reflective: independent sustained harmonies, sparse rounded piano, restrained bass and long rests. The existing short and long instrumental prompts use generic musical language. No soundtrack has been made, and these are creative intentions rather than claims about delivered audio.
+
+Public title: Beneath a Crimson Sky.
+Setting description: a distant fortress-monastery beneath a crimson sky.
+Current release copy: release-v2/.
+Production prompt: animation-production-prompt-v2.txt.
+Release position: an unnumbered live special after catalog 10, Farpoint Station.
+
+This brief updates the name and text. It does not claim a newly generated image, completed visual originality pass, animation, music, publication or legal clearance. Preserve the actual source provenance in internal records.

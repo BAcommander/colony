@@ -12,4 +12,4 @@ Home, vulnerability and the end of service are our emotional interpretation. The
 
 Contextual community leads supplied by the user: [40kmemes](https://www.reddit.com/r/40kmemes/comments/1in0bcc/i_would_have_liked_to_see_the_skies_of_baal/), [Grimdank](https://www.reddit.com/r/Grimdank/comments/13mar61/with_them_going_away_i_will_cry_evertim/) and [TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/TearJerker/AngelsOfDeath2021). TV Tropes was inaccessible in this check. Fan edits can circulate an official scene without being its origin.
 
-Creative choice: original art and instrumental music, with no episode dialogue/footage or existing score in the loop. No legal-clearance assessment performed.
+Creative choice: original art and instrumental music, with no episode dialogue/footage or existing score in the loop. The 2026-10-08 [rights/naming review](release-v1/rights-and-naming-2026-10-08.txt) checks current official guidance; it is general information, not legal clearance.

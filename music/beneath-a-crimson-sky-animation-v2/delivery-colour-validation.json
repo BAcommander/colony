@@ -1,0 +1,42 @@
+{
+  "decoder": "FFmpeg RGB24 with tagged BT.709",
+  "samples": [
+    {
+      "frame": 256,
+      "seconds": 8.533333333333333,
+      "file": "music/beneath-a-crimson-sky-animation-v2/inspection/delivery-event-0256.png",
+      "decoded_vs_compositor_rgb_mae": 1.8571802662037038
+    },
+    {
+      "frame": 630,
+      "seconds": 21.0,
+      "file": "music/beneath-a-crimson-sky-animation-v2/inspection/delivery-event-0630.png",
+      "decoded_vs_compositor_rgb_mae": 1.8766380931712963
+    },
+    {
+      "frame": 1001,
+      "seconds": 33.36666666666667,
+      "file": "music/beneath-a-crimson-sky-animation-v2/inspection/delivery-event-1001.png",
+      "decoded_vs_compositor_rgb_mae": 1.876488353587963
+    },
+    {
+      "frame": 1178,
+      "seconds": 39.266666666666666,
+      "file": "music/beneath-a-crimson-sky-animation-v2/inspection/delivery-event-1178.png",
+      "decoded_vs_compositor_rgb_mae": 1.8546665219907408
+    },
+    {
+      "frame": 1440,
+      "seconds": 48.0,
+      "file": "music/beneath-a-crimson-sky-animation-v2/inspection/delivery-event-1440.png",
+      "decoded_vs_compositor_rgb_mae": 1.8656850405092593
+    },
+    {
+      "frame": 1690,
+      "seconds": 56.333333333333336,
+      "file": "music/beneath-a-crimson-sky-animation-v2/inspection/delivery-event-1690.png",
+      "decoded_vs_compositor_rgb_mae": 1.8795724826388889
+    }
+  ],
+  "pass": true
+}

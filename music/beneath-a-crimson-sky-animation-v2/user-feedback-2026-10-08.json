@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-08",
+  "user_feedback": "ok it's decent, commit and push everything we've done, buit it'll need more work",
+  "status": "checkpoint_decent_needs_more_work",
+  "visual_approval": false,
+  "scope": "Save and back up all work so far; no new rendering, final approval, 4K export or publishing authorized by this feedback.",
+  "specific_remaining_defects": null,
+  "next_step": "Continue from v2 after identifying the requested improvements; do not infer specific defects from general feedback.",
+  "commit_push_explicitly_requested": true,
+  "backup_scope": "All authored files in the scene and both animation packages, including earlier versions, internal/test clips and both three-repeat videos. Excludes only regenerable Python bytecode and machine-local/downloaded external resources.",
+  "backup_manifest": "backup-manifest.json",
+  "remote_verification_receipt": "remote-backup-verification.json (local ignored receipt created only after remote restore verification)"
+}
