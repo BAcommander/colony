@@ -1,0 +1,137 @@
+{
+  "scene_name": "Icebound Weather Post",
+  "version": "v2",
+  "duration": 20,
+  "fps": 30,
+  "preview_size": [
+    1280,
+    720
+  ],
+  "ffmpeg": "C:/Program Files/ShareX/ffmpeg.exe",
+  "baseline": "music/icebound-animation-v1/scene-plan-v1.json",
+  "feedback": "can it be snowing at all, can we put some blinking rader style lights at the top of the antenia",
+  "snow": {
+    "seed": 7203,
+    "color": [
+      225,
+      236,
+      248
+    ],
+    "layers": [
+      {
+        "name": "fine",
+        "count": 260,
+        "life": 20,
+        "vx": [
+          6,
+          11
+        ],
+        "vy": [
+          12,
+          21
+        ],
+        "radius": [
+          0.5,
+          0.85
+        ],
+        "opacity": [
+          0.2,
+          0.36
+        ]
+      },
+      {
+        "name": "middle",
+        "count": 130,
+        "life": 20,
+        "vx": [
+          10,
+          17
+        ],
+        "vy": [
+          25,
+          37
+        ],
+        "radius": [
+          0.9,
+          1.35
+        ],
+        "opacity": [
+          0.28,
+          0.52
+        ]
+      },
+      {
+        "name": "near",
+        "count": 32,
+        "life": 10,
+        "vx": [
+          18,
+          28
+        ],
+        "vy": [
+          44,
+          60
+        ],
+        "radius": [
+          1.35,
+          1.95
+        ],
+        "opacity": [
+          0.24,
+          0.43
+        ]
+      }
+    ]
+  },
+  "beacons": [
+    {
+      "name": "upper_mast",
+      "xy": [
+        274,
+        55
+      ],
+      "period": 4,
+      "pulses": [
+        [
+          0.5,
+          0.38
+        ],
+        [
+          1.12,
+          0.28
+        ]
+      ],
+      "transition": 0.075,
+      "radius": 1.65,
+      "halo_radius": 5.4,
+      "halo_strength": 0.22
+    },
+    {
+      "name": "side_antenna",
+      "xy": [
+        240,
+        107
+      ],
+      "period": 5,
+      "pulses": [
+        [
+          2.1,
+          0.34
+        ],
+        [
+          2.68,
+          0.26
+        ]
+      ],
+      "transition": 0.075,
+      "radius": 1.4,
+      "halo_radius": 4.7,
+      "halo_strength": 0.18
+    }
+  ],
+  "source_preservation": "V1 base renderer is unchanged. Snow is an explicit sparse foreground optical overlay; two beacon cores/glows occupy only antenna-tip regions. Underlying geometry and original motion settings stay fixed.",
+  "review": {
+    "user_approved": false,
+    "continuous_assistant_playback": false
+  }
+}

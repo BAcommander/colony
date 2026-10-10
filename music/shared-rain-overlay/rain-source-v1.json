@@ -1,0 +1,10 @@
+{
+  "source": "G:\\AI\\colony\\music\\shared-rain-overlay\\Gentle_continuous_ra_#2-1791634292024.mp3",
+  "sha256": "60aea98d54ac02c6da1d0a3b22f882c7cd2071346e5f069275aded21d2f1a826",
+  "seconds": 30.0,
+  "lufs": -29.5,
+  "supplied_by_user": true,
+  "assistant_listening": false,
+  "reusable_loop": "G:\\AI\\colony\\final\\08-rainline-relay\\music\\long-source-v1\\rain-loop-28s-v1.wav",
+  "loop_crossfade_seconds": 2.0
+}

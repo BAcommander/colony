@@ -1,0 +1,136 @@
+{
+  "fingerprint": {
+    "source_sha256": "72fe97b682c4ff5de7ef577e2464163941c90a48fbf1268e4f8271e3afd97c37",
+    "config_sha256": "f4c209acb5d9e11cc8edcd3870fb29c49c8014a77bfc78e62051bfc368712a50",
+    "renderer_sha256": "12cc8ad24309b48c7641766c6b91edd092ef49f463bfb4735fc58f12dd994832",
+    "dependencies": {
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "effective_masks": {
+      "sky": "b4c397c068a9acbaac63ede067103cad97c71e9674bc00a5ebd8323cd5fe398c",
+      "valley": "9e547b0f15f1a134cadda9d05f59cae4bb84e12487ed28bde8b05a4263604643",
+      "left_fog": "b67c1efede7c7c5f6571651382047125d11c7359a3c75fb359d85b0ffa827f5f",
+      "ravine": "f3d74c1839055f50f7b2e76e4eb9bd7f28b9eb44d11420387e29c0c4af3230c1",
+      "lights": "716f0ac1c648342de970f9ecb4f7f298ebb90635bd57fbe4128f99288e9f42d6",
+      "screen": "19c4815981841166e5b48ddacf02712c90e63497675b14fd416b50ed21c55bf0"
+    }
+  },
+  "clips": [
+    {
+      "path": "music/cable-animation-v1/last-cable-station-v1-preview-20s.mp4",
+      "sha256": "c8a9c47648618f5068ffeb9b7dd11aacd929f661d96574ee1364a9c58f9c7175",
+      "frames": 600,
+      "seconds": 20,
+      "layer": "combined",
+      "prototype": false,
+      "validation": {
+        "decoded_frames": 600,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {
+          "sky": {
+            "seam_mae": 0.06211348623037338,
+            "ordinary_max_mae": 0.06796133518218994,
+            "ordinary_median_mae": 0.06353561580181122,
+            "pass": true
+          },
+          "valley": {
+            "seam_mae": 0.1950109302997589,
+            "ordinary_max_mae": 0.22196154296398163,
+            "ordinary_median_mae": 0.20094648003578186,
+            "pass": true
+          },
+          "left_fog": {
+            "seam_mae": 0.18050995469093323,
+            "ordinary_max_mae": 0.20075508952140808,
+            "ordinary_median_mae": 0.175311878323555,
+            "pass": true
+          },
+          "ravine": {
+            "seam_mae": 0.24893289804458618,
+            "ordinary_max_mae": 0.2946332097053528,
+            "ordinary_median_mae": 0.2619657516479492,
+            "pass": true
+          },
+          "lights": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.379241466522217,
+            "ordinary_median_mae": 0.0,
+            "pass": true
+          },
+          "screen": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.4869976341724396,
+            "ordinary_median_mae": 0.0,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.1086418628692627,
+            "ordinary_max_mae": 0.12235242873430252,
+            "ordinary_median_mae": 0.1115792840719223,
+            "pass": true
+          }
+        }
+      }
+    },
+    {
+      "path": "music/cable-animation-v1/last-cable-station-v1-three-loops-60s.mp4",
+      "sha256": "9fc4ade4a4aaafb294c8c2d3fa0732836d569d1d0460e8d3a49a72e4c593ab23",
+      "validation": {
+        "decoded_frames": 1800,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {
+          "sky": {
+            "seam_mae": 0.06211348623037338,
+            "ordinary_max_mae": 0.06796133518218994,
+            "ordinary_median_mae": 0.06353561580181122,
+            "pass": true
+          },
+          "valley": {
+            "seam_mae": 0.1950109302997589,
+            "ordinary_max_mae": 0.22196154296398163,
+            "ordinary_median_mae": 0.20094648003578186,
+            "pass": true
+          },
+          "left_fog": {
+            "seam_mae": 0.18050995469093323,
+            "ordinary_max_mae": 0.20075508952140808,
+            "ordinary_median_mae": 0.175311878323555,
+            "pass": true
+          },
+          "ravine": {
+            "seam_mae": 0.24893289804458618,
+            "ordinary_max_mae": 0.2946332097053528,
+            "ordinary_median_mae": 0.2619657516479492,
+            "pass": true
+          },
+          "lights": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.379241466522217,
+            "ordinary_median_mae": 0.0,
+            "pass": true
+          },
+          "screen": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.4869976341724396,
+            "ordinary_median_mae": 0.0,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.1086418628692627,
+            "ordinary_max_mae": 0.12235242873430252,
+            "ordinary_median_mae": 0.1115792840719223,
+            "pass": true
+          }
+        }
+      },
+      "three_repeated_decoded_payloads_identical": true
+    }
+  ],
+  "user_motion_approved": false,
+  "inspection": "Source masks and temporal stills inspected; continuous playback not claimed",
+  "silent": true
+}

@@ -1,0 +1,65 @@
+{
+  "fingerprint": {
+    "source_sha256": "5b49468b673b762a63909defa6b202f0bff19755cd829f84c1390d63702d499d",
+    "config_sha256": "cf9ce41b9d80fae7a97d835c1c793ca8c4685a112751b72a3dd3c48b781e0f0c",
+    "renderer_sha256": "f77d3a95c4b75c9b59149c07c8da3a43d6b8940a99c23da9bcc8b070ae1acf29",
+    "dependencies": {
+      "music\\cable-animation-v1\\render_cable.py": "12cc8ad24309b48c7641766c6b91edd092ef49f463bfb4735fc58f12dd994832",
+      "music\\saltline-animation-v1\\periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music\\saltline-animation-v1\\dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "scripts\\ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "scripts\\render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts\\water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "music/icebound-animation-v1/render_icebound.py": "526c262ada8be002c8ee9c3d3ce45f02fbc1b9e0ded767637c67050392e68788",
+      "music/icebound-animation-v1/scene-plan-v1.json": "1de517f8f2abd0cf9096412205e7c5876afbaee96d2083c36b8da38730f881df",
+      "music/icebound-animation-v2/render_icebound_v2.py": "4c5500d4f9ac0b19522fadfd915ae1968b9ef15bfa5aeb386fb3a18afafa13bf",
+      "music/icebound-animation-v2/scene-plan-v2.json": "942d84f12db944a909d5cf7db973df58b44ca2aa4ecfa2304072abedc68b8905"
+    },
+    "effective_masks": {
+      "sky": "34ccfa5ef774c6e24ed2bc3bb89f6f2b52a0aa3ece5914369aa897906a142542",
+      "lights": "c80251f30f862fceda8fa01d96810f2437983df2fa48f5aa724b2abeafea9fba",
+      "far_spindrift": "d869c313f7eaf5bb9eb9899c130a81de28139dab9ddfdd106702090f18a66d1e",
+      "basin_spindrift": "0910cfc9b82aa2a66825dfa7599777175c10e0bc6103b328f27584a2865e9dba",
+      "entrance": "7786328ae133e41410d1b8017fb95f72c6a8af1ca2b2c776eef2fc96bac4949c",
+      "room_spill": "f42dc00d52d83440e66be5123d21780688fde8483f27295e5501aad4aaee3d30",
+      "snowfall": "189a0c9d003537f4c2542f9e5546e5a8f81f748536372915da90efae7e857742",
+      "beacons": "5149ffec09e3a61f5a914bd16c13d5d00cfd267935c307ac45181a0eb35a080b"
+    }
+  },
+  "preserved_weather": {
+    "sky": "Exact v2 source frames at six sampled times; unchanged 20-second local clock",
+    "far_spindrift": "Exact v2 source frames at six sampled times; unchanged 20-second local clock",
+    "basin_spindrift": "Exact v2 source frames at six sampled times; unchanged 20-second local clock",
+    "snowfall": "Exact v2 source frames at six sampled times; unchanged 20-second local clock"
+  },
+  "new_light_schedule_seams": {
+    "lights": {
+      "exact_endpoint": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 5.857331863285557,
+      "pass": true
+    },
+    "entrance": {
+      "exact_endpoint": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 0.28661805036150584,
+      "pass": true
+    },
+    "room_spill": {
+      "exact_endpoint": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 0.4839411676422032,
+      "pass": true
+    },
+    "beacons": {
+      "exact_endpoint": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 1.821096426823299,
+      "pass": true
+    }
+  },
+  "full_composite_endpoint_exact": true,
+  "distinct_at_0_20_40_seconds": true,
+  "weather_speed_change_percent": 0,
+  "user_new_schedule_approved": false
+}

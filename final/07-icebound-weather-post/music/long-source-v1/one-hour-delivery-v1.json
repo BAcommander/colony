@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-04",
+  "file": "exports/07-icebound-weather-post/Icebound-Weather-Post-Winter-Colony-Night-1-Hour-v1.mp3",
+  "sha256": "5191576dae072201de40c20c06a63d396121001a42861691175a9fbd70dd29e6",
+  "bytes": 86401357,
+  "source": "exports/07-icebound-weather-post/source/Winter_Colony_Night_2026-10-04T155903.mp4",
+  "source_sha256": "57232ba3451862836625c88aaabf22a2d7d3d056c50417bb86fcc85d85fbb626",
+  "script_sha256": "427e31f8d721f847d4753cdd7e673650334d5a4341f5e1348933789f21856684",
+  "source_start_seconds": 83,
+  "source_end_seconds": 414,
+  "overlap_seconds": 8,
+  "repeat_interval_seconds": 323,
+  "curve": "equal-power sine/cosine",
+  "gain_db": -8.0,
+  "opening_fade_seconds": 10,
+  "closing_fade_seconds": 20,
+  "encoded_format": "MP3 192 kb/s, stereo 48 kHz",
+  "decoded_samples_per_channel": 172800000,
+  "decoded_seconds": 3600.0,
+  "full_decode": "passed; every sample finite; exact one-hour sample count",
+  "integrated_lufs": -20.2,
+  "true_peak_dbtp": -8.9,
+  "decoded_sample_peak_dbfs": -8.928282731737024,
+  "preencode_peak_dbfs": -8.684086145172218,
+  "join_windows_seconds": [
+    [
+      323.0,
+      331.0
+    ],
+    [
+      646.0,
+      654.0
+    ],
+    [
+      969.0,
+      977.0
+    ],
+    [
+      1292.0,
+      1300.0
+    ],
+    [
+      1615.0,
+      1623.0
+    ],
+    [
+      1938.0,
+      1946.0
+    ],
+    [
+      2261.0,
+      2269.0
+    ],
+    [
+      2584.0,
+      2592.0
+    ],
+    [
+      2907.0,
+      2915.0
+    ],
+    [
+      3230.0,
+      3238.0
+    ],
+    [
+      3553.0,
+      3561.0
+    ]
+  ],
+  "user_feedback": "yeah i guess it's fine, can we make the hour long loop?",
+  "approval_scope": "Short join approved and one-hour audio requested. No full one-hour listening review claimed.",
+  "assistant_listening": false,
+  "storage": "Local ignored export; not backed up by Git."
+}

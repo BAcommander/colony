@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-10",
+  "title": "Flooded Forest Radio Room",
+  "original_path": "C:\\Users\\jazzs\\Downloads\\Flooded_Forest_Radio_Room_2026-10-10T115135.mp4",
+  "preserved_path": "final/08-rainline-relay/music/selected-test-v1/Flooded_Forest_Radio_Room_2026-10-10T115135.mp4",
+  "sha256": "83301f444c2d44da7b991381759e481c307c2de00abb4f30c7ecf2b5968a416a",
+  "bytes": 1514992,
+  "container_duration_seconds": 64.4,
+  "decoded_audio_seconds": 60.010666666666665,
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "full_audio_decode_passed": true,
+  "all_decoded_samples_finite": true,
+  "user_feedback": "i like this one",
+  "selected_short_test": true,
+  "approval_scope": "User likes this supplied short test; selection for longer music development. No long-track, join or complete-video approval.",
+  "exact_generation_settings_observed": null,
+  "assistant_listening": false,
+  "vocals_independently_checked": false,
+  "rain_discussion": "User asked whether rain could be added. Assistant recommends a separate quiet SFX layer; no rain generated or mixed and no decision to include it is inferred."
+}

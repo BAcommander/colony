@@ -1,0 +1,81 @@
+{
+  "tool": "Colony",
+  "started": "2026-10-03T18:20:31",
+  "finished": "2026-10-03T18:33:24",
+  "output": {
+    "path": "G:\\AI\\colony\\exports\\06-last-cable-station\\Last-Cable-Station-2-Hours-4K-v1.mp4",
+    "duration_s": 7200.0,
+    "width": 3840,
+    "height": 2160,
+    "fps": 30.0,
+    "color": {
+      "space": null,
+      "primaries": null,
+      "trc": null,
+      "range": null
+    }
+  },
+  "video": {
+    "path": "G:\\AI\\colony\\final\\06-last-cable-station\\video-4k-v3.mp4",
+    "width": 3840,
+    "height": 2160,
+    "fps": 30.0,
+    "duration_s": 20.0,
+    "loop_duration_s": 20.0,
+    "loops": 361,
+    "source_color": {
+      "space": null,
+      "primaries": null,
+      "trc": null,
+      "range": null
+    }
+  },
+  "overlay": null,
+  "audio": {
+    "tracks": [
+      {
+        "path": "G:\\AI\\colony\\exports\\06-last-cable-station\\Last-Cable-Station-Mineral-Valley-Transit-2-Hours-v1.mp3",
+        "duration_s": 7200.0,
+        "loudness_lufs": -20.4,
+        "gain_db": 0.0
+      }
+    ],
+    "crossfade_s": 0.0,
+    "match_loudness": false,
+    "target_lufs": null,
+    "limiter_dbfs": -1.5,
+    "codec": "aac 192k 48000 Hz stereo"
+  },
+  "verification": {
+    "full_decode": true,
+    "passed": true,
+    "checks": [
+      {
+        "name": "Video stream",
+        "ok": true,
+        "detail": "3840x2160 (expected 3840x2160)"
+      },
+      {
+        "name": "Frame rate",
+        "ok": true,
+        "detail": "30 fps (expected 30)"
+      },
+      {
+        "name": "Audio stream",
+        "ok": true,
+        "detail": "aac, 48000 Hz, stereo"
+      },
+      {
+        "name": "Duration",
+        "ok": true,
+        "detail": "2:00:00 (expected 2:00:00, +0.00 s)"
+      },
+      {
+        "name": "Full decode",
+        "ok": true,
+        "detail": "every frame and sample decoded without errors"
+      }
+    ],
+    "note": "Technical checks only. Whether the loop and the overlay look and sound right is a human check."
+  }
+}

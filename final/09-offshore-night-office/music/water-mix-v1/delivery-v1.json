@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-10",
+  "user_feedback": "to mix this in we'd have to use it at much lower volume and way more sparingly",
+  "source": "final/09-offshore-night-office/music/water-mix-v1/Clear_ocean_water_re_#1-1791650516724.mp3",
+  "source_sha256": "7ad78fbee2c965c4ec6e4372d38898b89d5fd77bd4dc3d2adf2b987bf9a7b2c2",
+  "source_seconds": 30.0,
+  "source_integrated_lufs": -27.1,
+  "settings": {
+    "path": "G:\\AI\\colony\\final\\09-offshore-night-office\\music\\water-mix-v1\\Clear_ocean_water_re_#1-1791650516724.mp3",
+    "mode": "intermittent",
+    "gain_db": -18,
+    "start_s": 45,
+    "on_s": 35,
+    "off_s": 265,
+    "fade_in_s": 12,
+    "fade_out_s": 18,
+    "loop_crossfade_s": 2
+  },
+  "amplitude_fraction_of_supplied_sfx": 0.12589254117941673,
+  "music_source": "final/09-offshore-night-office/music/long-source-v1/Alien_Sea_Viewport_2026-10-10T160442.mp4",
+  "music_source_sha256": "aa207b4021f18223ad8e8f5d336b17ec672f9dc425328ece8a56964b9f20b8d9",
+  "music_gain_db": -6.9,
+  "music_excerpt_source_seconds": [
+    40,
+    444
+  ],
+  "water_events_preview_seconds": [
+    [
+      45,
+      80
+    ],
+    [
+      345,
+      380
+    ]
+  ],
+  "first_event_peak_plateau_seconds": [
+    57,
+    62
+  ],
+  "files": [
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v1/Shoreless-water-short-preview-v1.mp3",
+      "seconds": 120,
+      "sha256": "22208b667bd05db184a778ac4b6f290821cbee6b8e9b0a510c61a8ac9a733ba8",
+      "full_decode_passed": true,
+      "all_samples_finite": true,
+      "sample_peak_dbfs": -7.8809428215026855
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v1/Shoreless-water-sparse-preview-v1.mp3",
+      "seconds": 367,
+      "sha256": "5630964c0ea0c9db46f3b132f89a61c6335036edfc7960b4784ca5896f854f91",
+      "full_decode_passed": true,
+      "all_samples_finite": true,
+      "sample_peak_dbfs": -7.619182586669922
+    }
+  ],
+  "user_water_mix_approved": false,
+  "user_join_approved": false,
+  "assistant_listening": false,
+  "status": "Quiet sparse audition; level and schedule proposed from user feedback, not yet approved. No long loop or final runtime selected."
+}

@@ -1,0 +1,54 @@
+{
+  "status": "Short transition approved; two-hour soundtrack requested",
+  "source": "exports/05-saltline-receiver/source/Red_World_Basin_2026-10-03T133309.mp4",
+  "start_seconds": 15,
+  "end_seconds": 407,
+  "overlap_seconds": 12,
+  "repeat_interval_seconds": 380,
+  "curve": "equal-power sine/cosine",
+  "gain_db": 6.0,
+  "selection_reason": "Best tested combined level/coarse-spectrum match: source 0:15 to 6:47, 392 seconds retained, 12-second overlap. Mean overlap level difference 0.035 dB, coarse spectral distance 0.426 dB. Quiet source gets fixed +6 dB for the auditions. No compression, harmonic compatibility or listening claim.",
+  "short_audition_crossfade_seconds": [
+    25,
+    37
+  ],
+  "three_repeat_crossfades_seconds": [
+    [
+      380,
+      392
+    ],
+    [
+      760,
+      772
+    ]
+  ],
+  "assistant_listening": false,
+  "files": [
+    {
+      "path": "exports/05-saltline-receiver/Saltline-Receiver-Red-World-Basin-join-v1.mp3",
+      "seconds": 62.0,
+      "sha256": "bb64741894a91b7ce9a415a3c6eb3e274253cd19141e8ca05e684a81be7b848f",
+      "bytes": 1489581,
+      "full_decode": "passed; exact sample count",
+      "preencode_peak_dbfs": -6.0380900216073154,
+      "loudness_summary": "Integrated loudness:\r\n    I:         -19.8 LUFS\r\n    Threshold: -30.1 LUFS\r\n\r\n  Loudness range:\r\n    LRA:         9.8 LU\r\n    Threshold: -40.2 LUFS\r\n    LRA low:   -27.9 LUFS\r\n    LRA high:  -18.1 LUFS\r\n\r\n  True peak:\r\n    Peak:       -6.3 dBFS\r\n[out#0/null @ 0000026981c345c0] video:0KiB audio:11625KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\r\nsize=N/A time=00:01:02.00 bitrate=N/A speed= 384x elapsed=0:00:00.16"
+    },
+    {
+      "path": "exports/05-saltline-receiver/Saltline-Receiver-Red-World-Basin-three-repeats-v1.mp3",
+      "seconds": 1152.0,
+      "sha256": "323d6fd4621277343436e5df09465360139318b13c1bc59703b91bbd7cdadf7d",
+      "bytes": 27649197,
+      "full_decode": "passed; exact sample count",
+      "preencode_peak_dbfs": -6.0380900216073154,
+      "loudness_summary": "Integrated loudness:\r\n    I:         -20.4 LUFS\r\n    Threshold: -30.8 LUFS\r\n\r\n  Loudness range:\r\n    LRA:        11.3 LU\r\n    Threshold: -40.8 LUFS\r\n    LRA low:   -29.6 LUFS\r\n    LRA high:  -18.3 LUFS\r\n\r\n  True peak:\r\n    Peak:       -6.3 dBFS\r\n[out#0/null @ 0000015389fa0000] video:0KiB audio:216000KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\r\nsize=N/A time=00:19:12.00 bitrate=N/A speed= 384x elapsed=0:00:02.99"
+    }
+  ],
+  "date": "2026-10-03",
+  "target_delivery_seconds": 7200,
+  "user_join_approved": true,
+  "source_sha256": "88143466d2f9f4f72200a04619cd7ce0bcc51939b271d9160ecfbd57f94fb28b",
+  "script_sha256": "70c2eadcfa0dee80698592651dd6a9218488e5360734bbe5291cbb13ae4a21d4",
+  "note": "Fixed +6 dB gain raises the quiet source; no dynamic compression. Actual encoded true peak -6.3 dBFS for both auditions. Short audition -19.8 LUFS; three repeats -20.4 LUFS. These are measurements, not listening approval.",
+  "user_feedback": "transition is fine, make the 2 hour long  version",
+  "approval_date": "2026-10-03"
+}

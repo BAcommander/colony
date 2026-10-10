@@ -1,0 +1,82 @@
+{
+  "tool": "Colony",
+  "started": "2026-10-10T18:03:13",
+  "finished": "2026-10-10T18:27:36",
+  "output": {
+    "path": "G:\\AI\\colony\\exports\\09-offshore-night-office\\Shoreless-Colony-2-Hours-4K-v1.mp4",
+    "duration_s": 7200.0,
+    "width": 3840,
+    "height": 2160,
+    "fps": 30.0,
+    "color": {
+      "space": "bt709",
+      "primaries": null,
+      "trc": null,
+      "range": "tv"
+    }
+  },
+  "video": {
+    "path": "G:\\AI\\colony\\final\\09-offshore-night-office\\video-4k-v3-60s.mp4",
+    "width": 3840,
+    "height": 2160,
+    "fps": 30.0,
+    "duration_s": 60.0,
+    "loop_duration_s": 60.0,
+    "loops": 121,
+    "source_color": {
+      "space": "bt709",
+      "primaries": null,
+      "trc": null,
+      "range": "tv"
+    }
+  },
+  "overlay": null,
+  "audio": {
+    "tracks": [
+      {
+        "path": "G:\\AI\\colony\\exports\\09-offshore-night-office\\Shoreless-Colony-Alien-Sea-Viewport-with-Water-2-Hours-v1.mp3",
+        "duration_s": 7200.0,
+        "loudness_lufs": -20.7,
+        "gain_db": 0.0
+      }
+    ],
+    "sfx": null,
+    "crossfade_s": 0.0,
+    "match_loudness": false,
+    "target_lufs": null,
+    "limiter_dbfs": -1.5,
+    "codec": "aac 192k 48000 Hz stereo"
+  },
+  "verification": {
+    "full_decode": true,
+    "passed": true,
+    "checks": [
+      {
+        "name": "Video stream",
+        "ok": true,
+        "detail": "3840x2160 (expected 3840x2160)"
+      },
+      {
+        "name": "Frame rate",
+        "ok": true,
+        "detail": "30 fps (expected 30)"
+      },
+      {
+        "name": "Audio stream",
+        "ok": true,
+        "detail": "aac, 48000 Hz, stereo"
+      },
+      {
+        "name": "Duration",
+        "ok": true,
+        "detail": "2:00:00 (expected 2:00:00, +0.00 s)"
+      },
+      {
+        "name": "Full decode",
+        "ok": true,
+        "detail": "every frame and sample decoded without errors"
+      }
+    ],
+    "note": "Technical checks only. Whether the loop and the overlay look and sound right is a human check."
+  }
+}

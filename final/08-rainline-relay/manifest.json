@@ -103,12 +103,14 @@
     "description_file": "description.txt",
     "description_sha256": "5fc782a45a80622f161862cb5bf74d3e770a67f6d67c026a86b560977727673d",
     "tags_file": "youtube-tags.txt",
-    "tags_sha256": "f0fea702a65ba62e406b66e44a24850199322cef4d5a3ec21e80ee18d77c5379",
-    "tags_characters_including_separators": 288,
-    "tags_characters_including_file_newline": 289,
-    "tags_count": 16,
+    "tags_sha256": "50583e60d235dfb9f85cfdb69e09b5f1564e81c5709aa83bdaee2e55865c7cac",
+    "tags_characters_including_separators": 375,
+    "tags_characters_including_file_newline": 376,
+    "tags_count": 20,
     "hashtags_count": 3,
-    "keyword_note": "Scene-relevant phrases, not measured search volume or ranking guarantees"
+    "keyword_note": "Scene-relevant phrases, not measured search volume or ranking guarantees",
+    "tags_updated": "2026-10-10",
+    "tags_revision_note": "Listener-focused music/rain/search-intent wording; manual editorial selection, not measured keyword search volume. Local metadata only; no YouTube change."
   },
   "music_preparation": {
     "status": "prompts prepared; no audio generated",
@@ -232,6 +234,70 @@
       "four_k_export_produced": false,
       "user_motion_approved": false,
       "feedback_on_v3": "User: can't see anything in the room or with the raid, can rear building mask be made better too, water still seems a bit too strong, maybe tone down another 25%\nUser explicitly confirmed \u201cRadio\u201d in the clarification reply. V3 needs revision; v4 remains pending review.\n"
+    }
+  ],
+  "music_current": {
+    "status": "Music transition and v3 rain mix approved; included in final one-hour video",
+    "record": "music/generation-record.json",
+    "selection": "music/selected-test-v1/selection.json",
+    "selected_test": "final/08-rainline-relay/music/selected-test-v1/Flooded_Forest_Radio_Room_2026-10-10T115135.mp4",
+    "source_sha256": "83301f444c2d44da7b991381759e481c307c2de00abb4f30c7ecf2b5968a416a",
+    "short_test_selected": true,
+    "long_audio_approved": false,
+    "proposed_long_prompt": "music/elevenlabs-long-version-v3-seven-minutes.txt",
+    "final_duration_seconds": 3600,
+    "long_source": "final/08-rainline-relay/music/long-source-v1/Above_the_Flooded_Canopy_2026-10-10T120411.mp4",
+    "long_source_sha256": "b0f08b39d50cb21516eeb9a3c131761188d854843b38a9e835f74ee1d66fa5b7",
+    "delivery_record": "music/long-source-v1/one-hour-delivery-v1.json",
+    "exports": [
+      "exports/08-rainline-relay/Rainline-Relay-Above-the-Flooded-Canopy-1-Hour-v1.mp3",
+      "exports/08-rainline-relay/Rainline-Relay-1-Hour-with-Rain-v1.mp3"
+    ],
+    "user_join_approved": true,
+    "user_rain_mix_approved": true,
+    "assistant_listening": false,
+    "rain_delivery_record": "music/long-source-v1/rain-mix-delivery-v3.json",
+    "current_rain_export": "exports/08-rainline-relay/Rainline-Relay-1-Hour-with-Rain-v3.mp3",
+    "rain_v2_positive_feedback": true
+  },
+  "final_assembly": {
+    "status": "Delivered and technically verified; combined playback/upload review pending",
+    "record": "assembly-v1/delivery-validation.json",
+    "file": "exports/08-rainline-relay/Rainline-Relay-1-Hour-4K-v1.mp4",
+    "sha256": "f1e6a456a0518b263721f701b59d2a32ee89b7e12625efbe93f1a31aeae1896a",
+    "duration_seconds": 3600,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30
+  },
+  "four_k_current": {
+    "file": "final/08-rainline-relay/video-4k-v5-20s.mp4",
+    "sha256": "fad3fccc70a591f995ba05f3c48048a4735c373832ea95481f5b0046f1a7a438",
+    "record": "delivery-v5/delivery-validation.json",
+    "same_preview_fingerprint": true,
+    "user_authorized_for_assembly": true
+  },
+  "youtube_metadata_history": [
+    {
+      "date_archived": "2026-10-10",
+      "reason": "Replace location-heavy tags with listener-focused music/rain terms",
+      "metadata": {
+        "status": "publication drafts; no unverified soundtrack or duration claims",
+        "title_file": "youtube-title.txt",
+        "title_sha256": "4625f42f3f900d4c74c2268a78e7073fa8866c1481187cde6f241c99a22f8338",
+        "description_file": "description.txt",
+        "description_sha256": "5fc782a45a80622f161862cb5bf74d3e770a67f6d67c026a86b560977727673d",
+        "tags_file": "youtube-tags.txt",
+        "tags_sha256": "f0fea702a65ba62e406b66e44a24850199322cef4d5a3ec21e80ee18d77c5379",
+        "tags_characters_including_separators": 288,
+        "tags_characters_including_file_newline": 289,
+        "tags_count": 16,
+        "hashtags_count": 3,
+        "keyword_note": "Scene-relevant phrases, not measured search volume or ranking guarantees"
+      },
+      "previous_tags_file": "metadata-history/youtube-tags-before-listener-revision-2026-10-10.txt"
     }
   ]
 }

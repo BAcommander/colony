@@ -1,0 +1,81 @@
+{
+  "fingerprint": {
+    "source_sha256": "72fe97b682c4ff5de7ef577e2464163941c90a48fbf1268e4f8271e3afd97c37",
+    "config_sha256": "f4c209acb5d9e11cc8edcd3870fb29c49c8014a77bfc78e62051bfc368712a50",
+    "renderer_sha256": "12cc8ad24309b48c7641766c6b91edd092ef49f463bfb4735fc58f12dd994832",
+    "dependencies": {
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "effective_masks": {
+      "sky": "b4c397c068a9acbaac63ede067103cad97c71e9674bc00a5ebd8323cd5fe398c",
+      "valley": "9e547b0f15f1a134cadda9d05f59cae4bb84e12487ed28bde8b05a4263604643",
+      "left_fog": "b67c1efede7c7c5f6571651382047125d11c7359a3c75fb359d85b0ffa827f5f",
+      "ravine": "f3d74c1839055f50f7b2e76e4eb9bd7f28b9eb44d11420387e29c0c4af3230c1",
+      "lights": "716f0ac1c648342de970f9ecb4f7f298ebb90635bd57fbe4128f99288e9f42d6",
+      "screen": "19c4815981841166e5b48ddacf02712c90e63497675b14fd416b50ed21c55bf0"
+    }
+  },
+  "clips": [
+    {
+      "path": "music/cable-animation-v1/valley-isolated-v1-8s.mp4",
+      "sha256": "ceea2ccb52b84811730dc3c52ab40b4dd069ccb5b7508b5dd5a2392e21673a0f",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "valley",
+      "prototype": false,
+      "validation": {
+        "decoded_frames": 240,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {}
+      }
+    },
+    {
+      "path": "music/cable-animation-v1/sky-isolated-v1-8s.mp4",
+      "sha256": "974183e58a4bcd3bf542fba999633011d15e38dba66e66b253853931d9789742",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "sky",
+      "prototype": false,
+      "validation": {
+        "decoded_frames": 240,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {}
+      }
+    },
+    {
+      "path": "music/cable-animation-v1/ravine-isolated-v1-8s.mp4",
+      "sha256": "bd92ed2e74b2c59656fd4a29f49601fd9d283e96fe5b4f99d2753ce59dc961b5",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "ravine",
+      "prototype": false,
+      "validation": {
+        "decoded_frames": 240,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {}
+      }
+    },
+    {
+      "path": "music/cable-animation-v1/left_fog-isolated-v1-8s.mp4",
+      "sha256": "cd61bdede3e6aeb30b8997bb7643b7580181b22764d040c63de8e59db993f8e5",
+      "frames": 240,
+      "seconds": 8,
+      "layer": "left_fog",
+      "prototype": false,
+      "validation": {
+        "decoded_frames": 240,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {}
+      }
+    }
+  ],
+  "user_motion_approved": false,
+  "inspection": "Source masks and temporal stills inspected; continuous playback not claimed",
+  "silent": true
+}

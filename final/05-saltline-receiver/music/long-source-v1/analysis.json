@@ -1,0 +1,313 @@
+{
+  "source": "exports/05-saltline-receiver/source/Red_World_Basin_2026-10-03T133309.mp4",
+  "original_path": "C:\\Users\\jazzs\\Downloads\\Red_World_Basin_2026-10-03T133309.mp4",
+  "sha256": "88143466d2f9f4f72200a04619cd7ce0bcc51939b271d9160ecfbd57f94fb28b",
+  "bytes": 10636652,
+  "audio_seconds": 420.0106666666667,
+  "decoded_analysis_sample_rate": 12000,
+  "first_45_seconds_rms_dbfs": [
+    -200.0,
+    -78.80000305175781,
+    -59.83000183105469,
+    -51.79999923706055,
+    -45.529998779296875,
+    -41.97999954223633,
+    -38.59000015258789,
+    -34.90999984741211,
+    -32.52000045776367,
+    -30.65999984741211,
+    -29.860000610351562,
+    -28.549999237060547,
+    -29.610000610351562,
+    -29.420000076293945,
+    -29.0,
+    -29.1200008392334,
+    -26.989999771118164,
+    -26.329999923706055,
+    -25.799999237060547,
+    -26.1299991607666,
+    -26.559999465942383,
+    -27.350000381469727,
+    -28.530000686645508,
+    -28.719999313354492,
+    -28.459999084472656,
+    -27.280000686645508,
+    -27.770000457763672,
+    -28.15999984741211,
+    -27.559999465942383,
+    -28.200000762939453,
+    -29.8700008392334,
+    -33.88999938964844,
+    -38.59000015258789,
+    -46.06999969482422,
+    -44.939998626708984,
+    -40.02000045776367,
+    -38.349998474121094,
+    -35.97999954223633,
+    -35.290000915527344,
+    -33.77000045776367,
+    -32.65999984741211,
+    -30.81999969482422,
+    -29.770000457763672,
+    -29.1200008392334,
+    -29.59000015258789
+  ],
+  "last_50_seconds_rms_dbfs": [
+    -25.06999969482422,
+    -25.6299991607666,
+    -25.170000076293945,
+    -26.34000015258789,
+    -26.34000015258789,
+    -27.559999465942383,
+    -27.360000610351562,
+    -26.530000686645508,
+    -27.18000030517578,
+    -27.290000915527344,
+    -26.350000381469727,
+    -26.34000015258789,
+    -26.850000381469727,
+    -27.950000762939453,
+    -26.920000076293945,
+    -25.709999084472656,
+    -25.1200008392334,
+    -25.920000076293945,
+    -25.299999237060547,
+    -26.420000076293945,
+    -26.530000686645508,
+    -27.530000686645508,
+    -27.239999771118164,
+    -26.360000610351562,
+    -26.770000457763672,
+    -27.360000610351562,
+    -26.479999542236328,
+    -26.610000610351562,
+    -27.270000457763672,
+    -27.639999389648438,
+    -26.690000534057617,
+    -25.959999084472656,
+    -25.920000076293945,
+    -27.34000015258789,
+    -28.010000228881836,
+    -29.56999969482422,
+    -30.610000610351562,
+    -33.25,
+    -33.810001373291016,
+    -34.040000915527344,
+    -35.70000076293945,
+    -37.5,
+    -38.09000015258789,
+    -40.65999984741211,
+    -43.4900016784668,
+    -47.16999816894531,
+    -51.68000030517578,
+    -57.75,
+    -62.43000030517578,
+    -68.06999969482422
+  ],
+  "minute_rms_dbfs": [
+    -29.42,
+    -29.05,
+    -28.23,
+    -28.61,
+    -28.49,
+    -29.02,
+    -27.68
+  ],
+  "join_candidates": [
+    {
+      "score": 0.6011,
+      "start_seconds": 15,
+      "end_seconds": 407,
+      "overlap_seconds": 12,
+      "mean_level_difference_db": 0.035,
+      "spectrum_distance_db": 0.426
+    },
+    {
+      "score": 0.6886,
+      "start_seconds": 16,
+      "end_seconds": 407,
+      "overlap_seconds": 12,
+      "mean_level_difference_db": 0.115,
+      "spectrum_distance_db": 0.428
+    },
+    {
+      "score": 0.7061,
+      "start_seconds": 16,
+      "end_seconds": 405,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.122,
+      "spectrum_distance_db": 0.429
+    },
+    {
+      "score": 0.7291,
+      "start_seconds": 15,
+      "end_seconds": 414,
+      "overlap_seconds": 20,
+      "mean_level_difference_db": 0.149,
+      "spectrum_distance_db": 0.475
+    },
+    {
+      "score": 0.7557,
+      "start_seconds": 14,
+      "end_seconds": 407,
+      "overlap_seconds": 12,
+      "mean_level_difference_db": 0.068,
+      "spectrum_distance_db": 0.553
+    },
+    {
+      "score": 0.7794,
+      "start_seconds": 15,
+      "end_seconds": 408,
+      "overlap_seconds": 16,
+      "mean_level_difference_db": 0.016,
+      "spectrum_distance_db": 0.628
+    },
+    {
+      "score": 0.7885,
+      "start_seconds": 16,
+      "end_seconds": 406,
+      "overlap_seconds": 12,
+      "mean_level_difference_db": 0.205,
+      "spectrum_distance_db": 0.433
+    },
+    {
+      "score": 0.8503,
+      "start_seconds": 13,
+      "end_seconds": 411,
+      "overlap_seconds": 20,
+      "mean_level_difference_db": 0.021,
+      "spectrum_distance_db": 0.719
+    },
+    {
+      "score": 0.8539,
+      "start_seconds": 16,
+      "end_seconds": 409,
+      "overlap_seconds": 16,
+      "mean_level_difference_db": 0.129,
+      "spectrum_distance_db": 0.59
+    },
+    {
+      "score": 0.8591,
+      "start_seconds": 15,
+      "end_seconds": 406,
+      "overlap_seconds": 12,
+      "mean_level_difference_db": 0.285,
+      "spectrum_distance_db": 0.429
+    },
+    {
+      "score": 0.8961,
+      "start_seconds": 15,
+      "end_seconds": 405,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.172,
+      "spectrum_distance_db": 0.574
+    },
+    {
+      "score": 0.9098,
+      "start_seconds": 14,
+      "end_seconds": 413,
+      "overlap_seconds": 20,
+      "mean_level_difference_db": 0.23,
+      "spectrum_distance_db": 0.574
+    },
+    {
+      "score": 0.9164,
+      "start_seconds": 12,
+      "end_seconds": 410,
+      "overlap_seconds": 20,
+      "mean_level_difference_db": 0.012,
+      "spectrum_distance_db": 0.794
+    },
+    {
+      "score": 0.917,
+      "start_seconds": 14,
+      "end_seconds": 408,
+      "overlap_seconds": 16,
+      "mean_level_difference_db": 0.07,
+      "spectrum_distance_db": 0.717
+    },
+    {
+      "score": 0.9321,
+      "start_seconds": 16,
+      "end_seconds": 414,
+      "overlap_seconds": 20,
+      "mean_level_difference_db": 0.396,
+      "spectrum_distance_db": 0.426
+    },
+    {
+      "score": 0.9448,
+      "start_seconds": 16,
+      "end_seconds": 405,
+      "overlap_seconds": 12,
+      "mean_level_difference_db": 0.473,
+      "spectrum_distance_db": 0.317
+    },
+    {
+      "score": 0.9464,
+      "start_seconds": 12,
+      "end_seconds": 408,
+      "overlap_seconds": 16,
+      "mean_level_difference_db": 0.135,
+      "spectrum_distance_db": 0.691
+    },
+    {
+      "score": 0.9553,
+      "start_seconds": 16,
+      "end_seconds": 408,
+      "overlap_seconds": 16,
+      "mean_level_difference_db": 0.282,
+      "spectrum_distance_db": 0.533
+    },
+    {
+      "score": 0.9646,
+      "start_seconds": 16,
+      "end_seconds": 404,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.314,
+      "spectrum_distance_db": 0.491
+    },
+    {
+      "score": 0.9734,
+      "start_seconds": 13,
+      "end_seconds": 408,
+      "overlap_seconds": 16,
+      "mean_level_difference_db": 0.007,
+      "spectrum_distance_db": 0.842
+    }
+  ],
+  "best_per_overlap": {
+    "8": {
+      "score": 0.7061,
+      "start_seconds": 16,
+      "end_seconds": 405,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.122,
+      "spectrum_distance_db": 0.429
+    },
+    "12": {
+      "score": 0.6011,
+      "start_seconds": 15,
+      "end_seconds": 407,
+      "overlap_seconds": 12,
+      "mean_level_difference_db": 0.035,
+      "spectrum_distance_db": 0.426
+    },
+    "16": {
+      "score": 0.7794,
+      "start_seconds": 15,
+      "end_seconds": 408,
+      "overlap_seconds": 16,
+      "mean_level_difference_db": 0.016,
+      "spectrum_distance_db": 0.628
+    },
+    "20": {
+      "score": 0.7291,
+      "start_seconds": 15,
+      "end_seconds": 414,
+      "overlap_seconds": 20,
+      "mean_level_difference_db": 0.149,
+      "spectrum_distance_db": 0.475
+    }
+  },
+  "limits": "Spectrum and level similarity only; positions are not musically aligned by ear. Overlap duration and harmony require user audition. No assistant listening."
+}

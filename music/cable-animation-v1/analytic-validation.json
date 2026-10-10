@@ -1,0 +1,61 @@
+{
+  "fingerprint": {
+    "source_sha256": "72fe97b682c4ff5de7ef577e2464163941c90a48fbf1268e4f8271e3afd97c37",
+    "config_sha256": "f4c209acb5d9e11cc8edcd3870fb29c49c8014a77bfc78e62051bfc368712a50",
+    "renderer_sha256": "12cc8ad24309b48c7641766c6b91edd092ef49f463bfb4735fc58f12dd994832",
+    "dependencies": {
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "effective_masks": {
+      "sky": "b4c397c068a9acbaac63ede067103cad97c71e9674bc00a5ebd8323cd5fe398c",
+      "valley": "9e547b0f15f1a134cadda9d05f59cae4bb84e12487ed28bde8b05a4263604643",
+      "left_fog": "b67c1efede7c7c5f6571651382047125d11c7359a3c75fb359d85b0ffa827f5f",
+      "ravine": "f3d74c1839055f50f7b2e76e4eb9bd7f28b9eb44d11420387e29c0c4af3230c1",
+      "lights": "716f0ac1c648342de970f9ecb4f7f298ebb90635bd57fbe4128f99288e9f42d6",
+      "screen": "19c4815981841166e5b48ddacf02712c90e63497675b14fd416b50ed21c55bf0"
+    }
+  },
+  "layers": {
+    "sky": {
+      "exact_periodic_endpoint": true,
+      "seam_mae": 0.02862614551249477,
+      "ordinary_max_sampled": 0.030320000276547715,
+      "pass": true
+    },
+    "valley": {
+      "exact_periodic_endpoint": true,
+      "seam_mae": 0.11450902841537773,
+      "ordinary_max_sampled": 0.13041175224239,
+      "pass": true
+    },
+    "left_fog": {
+      "exact_periodic_endpoint": true,
+      "seam_mae": 0.09380378657487091,
+      "ordinary_max_sampled": 0.09772423025435073,
+      "pass": true
+    },
+    "ravine": {
+      "exact_periodic_endpoint": true,
+      "seam_mae": 0.16936181539894857,
+      "ordinary_max_sampled": 0.1698609170160378,
+      "pass": true
+    },
+    "lights": {
+      "exact_periodic_endpoint": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 1.2041666666666666,
+      "pass": true
+    },
+    "screen": {
+      "exact_periodic_endpoint": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sampled": 0.4476401179941003,
+      "pass": true
+    }
+  },
+  "protected_source_pixels": "asserted per generated frame",
+  "inspection": "Source mask overlay, full-composition temporal stills and decoded isolated frames inspected; no continuous-playback claim. User motion review pending.",
+  "user_motion_approved": false
+}

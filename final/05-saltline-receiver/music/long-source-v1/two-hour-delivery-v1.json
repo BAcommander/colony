@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-03",
+  "file": "exports/05-saltline-receiver/Saltline-Receiver-Red-World-Basin-2-Hours-v1.mp3",
+  "sha256": "4dd1f3eca00e073a75fc23bf04125d2a229a4164046d0a2bf04c9c0984d16ec7",
+  "bytes": 172801351,
+  "source": "exports/05-saltline-receiver/source/Red_World_Basin_2026-10-03T133309.mp4",
+  "source_sha256": "88143466d2f9f4f72200a04619cd7ce0bcc51939b271d9160ecfbd57f94fb28b",
+  "script_sha256": "81bc61da4e2cbea2a7b9765a3cd8a250a114491418d00b6efe549272aefb35eb",
+  "source_start_seconds": 15,
+  "source_end_seconds": 407,
+  "overlap_seconds": 12,
+  "repeat_interval_seconds": 380,
+  "curve": "equal-power sine/cosine",
+  "gain_db": 6.0,
+  "opening_fade_seconds": 10,
+  "closing_fade_seconds": 20,
+  "encoded_format": "MP3 192 kb/s, stereo 48 kHz",
+  "decoded_samples_per_channel": 345600000,
+  "decoded_seconds": 7200.0,
+  "full_decode": "passed; every sample finite; exact two-hour sample count",
+  "integrated_lufs": -20.4,
+  "true_peak_dbtp": -6.3,
+  "decoded_sample_peak_dbfs": -6.296253375519177,
+  "preencode_peak_dbfs": -6.0380900216073154,
+  "join_windows_seconds": [
+    [
+      380.0,
+      392.0
+    ],
+    [
+      760.0,
+      772.0
+    ],
+    [
+      1140.0,
+      1152.0
+    ],
+    [
+      1520.0,
+      1532.0
+    ],
+    [
+      1900.0,
+      1912.0
+    ],
+    [
+      2280.0,
+      2292.0
+    ],
+    [
+      2660.0,
+      2672.0
+    ],
+    [
+      3040.0,
+      3052.0
+    ],
+    [
+      3420.0,
+      3432.0
+    ],
+    [
+      3800.0,
+      3812.0
+    ],
+    [
+      4180.0,
+      4192.0
+    ],
+    [
+      4560.0,
+      4572.0
+    ],
+    [
+      4940.0,
+      4952.0
+    ],
+    [
+      5320.0,
+      5332.0
+    ],
+    [
+      5700.0,
+      5712.0
+    ],
+    [
+      6080.0,
+      6092.0
+    ],
+    [
+      6460.0,
+      6472.0
+    ],
+    [
+      6840.0,
+      6852.0
+    ]
+  ],
+  "user_feedback": "transition is fine, make the 2 hour long  version",
+  "approval_scope": "Short join approved and two-hour assembly requested. No full two-hour listening review claimed.",
+  "assistant_listening": false,
+  "storage": "Local ignored export; not backed up by Git."
+}

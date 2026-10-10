@@ -1,6 +1,6 @@
 # Ambient Colony music workflow
 
-Updated 2026-09-26. Current authority for music work; complements the visual animation workflow.
+Updated 2026-10-10. Current authority for music work; complements the visual animation workflow.
 
 ## Current state
 
@@ -24,6 +24,30 @@ Channel benchmark (2026-09-29): the user wants Ambient Colony to compete with th
 8. Prompted loopability is not an editing guarantee. The longer Ringfall file still faded in/out. A 0:20–5:30 excerpt with 15-second equal-power overlaps gave a 15-minute three-cycle preview. User could not readily hear the transitions. These cut points and fade settings are specific to that track, not universal defaults.
 9. One-hour Ringfall delivery: exact decoded 3600 seconds, stereo 48 kHz MP3 at 192 kb/s; gain 0.7, 10-second opening fade and 20-second closing fade; 15-second sine/cosine crossfades. Verified decoded sample peak about -4.56 dBFS. User approval covers the transition audition; extended listening remains pending.
 10. Match listening levels when comparing; louder can bias preference. Keep atmosphere, foreground activity, tonal weight, and long-form comfort as separate judgments. Avoid promises of a percentage improvement.
+
+## Rain and reusable ambience — learned with Rainline, 2026-10-10
+
+Keep music and environmental sound as independent sources. Approve the music crossfade separately, then judge the SFX at its maximum sustained level, not only while it fades in. A comfortable entrance can still become too loud at the plateau. Preserve a music-only long export so SFX revisions never require changing the accepted music join.
+
+User feedback: v1 rain was too loud at peak. Halving its amplitude in v2 sounded better; the user then requested another 10–15% peak reduction. V3 uses the midpoint, 12.5% below v2: 43.75% of v1 rain amplitude overall. For this exact supplied rain file, the gains are v1 -4 dB, v2 -10.0206 dB, v3 -11.1804 dB. These are amplitude changes, not claims of proportional perceived loudness. V2 received positive feedback; user then approved v3 with "yeah that's good" and requested final one-hour 4K assembly. This approves the Rainline balance, not universal reuse or full-hour listening.
+
+Reusable starting recipe: rain enters after 20 seconds; 120 seconds on including a 20-second fade-in and 30-second fade-out; 90 seconds fully off. Smooth the 30-second source's repeat with a two-second equal-power overlap (28-second prepared loop). Rain follows the same envelope after level changes; the approved music stays untouched. Quiet intervals and slow re-entry provide variation without pushing rain into the foreground. These timings were retained during volume review, not independently compared or universally approved.
+
+Use the saved preset with this rain source against music near the Rainline dry hour's -20.5 LUFS, then audition the plateau and quieter music passages. Different recordings or music levels need a fresh balance; do not apply this dB gain blindly or change the application's global default from one scene's feedback. Avoid applying rain twice: choose music-only plus the SFX input, or the premixed hour alone. Colony has separate video and audio-mix previews; the mix preview uses actual timings.
+
+Evidence: [v3 delivery and exact feedback](../final/08-rainline-relay/music/long-source-v1/rain-mix-delivery-v3.json), [reusable preset](../music/shared-rain-overlay/rain-preset-current.json), [original rain record](../music/shared-rain-overlay/rain-source-v1.json). Full sample-count, finite-sample and peak checks support delivery integrity, not a listening verdict. Source, v1 and v2 are preserved. User explicitly approved the music transition: "the transition between pieces sounds totally fine".
+
+## Water ambience — Shoreless accepted mix, 2026-10-10
+
+The sheltered-room/lightly-muffled prompt lost too much audible water detail for the user. Generate clear liquid movement first, then control its gain and frequency of appearance in the local mix. The user subsequently said the clear water must be much quieter and used far more sparingly. Initial audition: -18 dB on this specific source (about 12.6% amplitude), 35 seconds including 12/18-second fades, followed by 265 seconds fully off. First onset 45 seconds. The user then requested another 15% reduction at peak: v2 multiplies the entire water envelope by 0.85 (-1.41162149 dB), yielding -19.41162149 dB source gain while preserving timings. See [v2 audition evidence](../final/09-offshore-night-office/music/water-mix-v2/delivery-v2.json). User approved v2 and the music join on 2026-10-10 ("transition is fine , water is fine") and requested the two-hour delivery. This is an accepted Shoreless setting, not a universal default; separate per-source settings from the accepted Rainline rain preset. Check isolated splash peaks as well as average level. Source measured -27.1 LUFS with -7.5 dBTP, so average loudness alone understates its transient peaks. See [audition evidence](../final/09-offshore-night-office/music/water-mix-v1/delivery-v1.json). Both approvals are recorded in the two-hour delivery; full-length listening remains pending.
+
+## Long-form delivery and metadata lessons — 2026-10-10
+
+- Review the music join before extending, and review the SFX plateau separately. A request to lower water by 15% was implemented as an amplitude multiplier of 0.85, or -1.41162149 dB; preserve event timings while changing level. Do not describe this as a 15% change in perceived loudness.
+- Keep source recordings and accepted cut/gain/crossfade recipes. Make a long soundtrack with one opening and closing fade, then assemble from the verified short animation with no extra normalization or second SFX layer. The long soundtrack and animation have independent repeat periods.
+- Generate clear water detail first; sheltered or muffled prompt wording made the first water result too indistinct. Mix clear water quietly and sparsely afterward. Rainline rain and Shoreless water are different accepted presets, not global defaults. Use the source hashes when reusing them.
+- For tags, describe the actual listening experience and likely use: ambient music, focus/study/reading/sleep, sci-fi atmosphere and the audible environment. Retain a couple of channel/title tags. Avoid filling the field with fictional geography or scenery details. This is an editorial relevance decision, not measured search-volume evidence. Do not describe intermittent quiet waves as continuous ocean noise.
+- Keep the very large combined exports local under exports/; back up code, sources selected for Git, short masters, prompts, settings and validation records. A Git push of records does not back up a 50 GB combined video. Preserve exact byte hashes for configs/renderers used in fingerprints.
 
 ## Evidence and analysis discipline
 

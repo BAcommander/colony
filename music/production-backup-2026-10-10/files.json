@@ -1,0 +1,1837 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9550,
+      "sha256": "3651867347026461e5cfdc96b03f6c34e5293f3549194f6efc015e614ccd231c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 3996,
+      "sha256": "451b153fcf7a4eedc4028345d7af1e5a65db74cfc50e30c6a3c9b98778ae58d2"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 53132,
+      "sha256": "c9990aaf26fd6877e4f88ed2c51838c173761ff42f51c5e789dca0fa92602b00"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "bytes": 23519,
+      "sha256": "7dc5103e537f2da44af7caa8189c2fb937c37cc51dc576c868e55ae2b77829dc"
+    },
+    {
+      "path": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "bytes": 42413,
+      "sha256": "f87e60a646b62440c3d1df7ffe3e74a99a302fd3a74805583700a38a16afa6ce"
+    },
+    {
+      "path": "creative/MUSIC_WORKFLOW.md",
+      "bytes": 22414,
+      "sha256": "7b13d4d1f2ca237963dd3b65c785943e1a70e46d6cccf5560ffc7c79d0765fe6"
+    },
+    {
+      "path": "final/04-floodplain-keeper/manifest.json",
+      "bytes": 8974,
+      "sha256": "3c19654cb6ea05600aaf25d2bf05ee0818316cab111b8bf4c08d6a5415b00598"
+    },
+    {
+      "path": "final/04-floodplain-keeper/youtube-tags-before-studio-update-2026-10-04.txt",
+      "bytes": 292,
+      "sha256": "2235788ae65e689eb67091916e2240b258ec775a76cd7eaaf7e5a42a1116ccaa"
+    },
+    {
+      "path": "final/04-floodplain-keeper/youtube-tags.txt",
+      "bytes": 319,
+      "sha256": "2b08b01fb4ea38ec8ac268e0c8f10cd0315e52a658b650eb7335d357a41e450e"
+    },
+    {
+      "path": "final/05-saltline-receiver/README.md",
+      "bytes": 4636,
+      "sha256": "396098ead97e650be769961670d52afeb2271f6fc8d6017aed428da5adb20cd4"
+    },
+    {
+      "path": "final/05-saltline-receiver/YOUTUBE-FILES.md",
+      "bytes": 684,
+      "sha256": "f320727359fed1ac24f4f6c8f8e23af22fb4437bce8acb2224787c417543a590"
+    },
+    {
+      "path": "final/05-saltline-receiver/assembly-v1/README.md",
+      "bytes": 2494,
+      "sha256": "ec007c2750527fd83a3218de83b4a7d6e143df615000aef6ce68c3869ca69ed4"
+    },
+    {
+      "path": "final/05-saltline-receiver/assembly-v1/assemble-with-colony.py",
+      "bytes": 6017,
+      "sha256": "5e02f814279db28e79e0e3eb4a4704abb0c36a644593ad6bd8d5794df9c843ba"
+    },
+    {
+      "path": "final/05-saltline-receiver/assembly-v1/colony-export.json",
+      "bytes": 2033,
+      "sha256": "79586970209a941add6449ed377f5647820984a02c79ae3fb06db33119cd0977"
+    },
+    {
+      "path": "final/05-saltline-receiver/assembly-v1/delivery-validation.json",
+      "bytes": 1979,
+      "sha256": "e8aed6855afadc173af4ff04a9eb8c608bb5c4fc7285e9157ebb8d1508790527"
+    },
+    {
+      "path": "final/05-saltline-receiver/manifest.json",
+      "bytes": 10723,
+      "sha256": "66dac480ae2719750bc8d385da962ac75edeab0d5ceb91bb2f1248fff2648761"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/README.md",
+      "bytes": 5681,
+      "sha256": "deb396e62ce32cb39050cd3b160f545c64fde91fe96d3956bfde5d56dd9a0316"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/elevenlabs-long-version-v3-seven-minutes.txt",
+      "bytes": 1162,
+      "sha256": "165150ab100ae9a781c47783a12361765639fae9ad29b2ac2956878a3c5fdd25"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/generation-record.json",
+      "bytes": 3596,
+      "sha256": "f8da986449684756c474a2109c2fb2342de73b23dd00a26566b2c9caced80955"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/long-source-v1/README.md",
+      "bytes": 2323,
+      "sha256": "edd6599d3a4ce2980872f7f2da269c85f7d462417cdd76bf995d8d3872f0908c"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/long-source-v1/Saltline-Receiver-Red-World-Basin-join-v1-loudness.txt",
+      "bytes": 1157,
+      "sha256": "6e9d5226a693316f80d01fc1018843ea1cce8d7ae0d7cc16a08f200d4050bb27"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/long-source-v1/Saltline-Receiver-Red-World-Basin-three-repeats-v1-loudness.txt",
+      "bytes": 1167,
+      "sha256": "daec5c98d1f6ad4ba0ee60783c0efac4878b333c79c3e49505b66f9e261ac663"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/long-source-v1/analysis.json",
+      "bytes": 8041,
+      "sha256": "13b4447b797d3da59c1c572984651821493eed9c4691f5c89a7894d0fdd57849"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/long-source-v1/analyze.py",
+      "bytes": 3215,
+      "sha256": "09dc0232deecb6f2e9e561cbfbcd65bcb59552559f56a3c0ee1510b8fa5745e0"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/long-source-v1/audition-v1.json",
+      "bytes": 3220,
+      "sha256": "9b7c04211bb9100d2f467ba7e21ffbd07a61be92f0105092b381b668ed2eb213"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/long-source-v1/make-auditions-v1.py",
+      "bytes": 3929,
+      "sha256": "70c2eadcfa0dee80698592651dd6a9218488e5360734bbe5291cbb13ae4a21d4"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/long-source-v1/make-two-hours-v1.py",
+      "bytes": 5049,
+      "sha256": "81bc61da4e2cbea2a7b9765a3cd8a250a114491418d00b6efe549272aefb35eb"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/long-source-v1/source-loudness.txt",
+      "bytes": 1689,
+      "sha256": "e3b454ff96724ff253c69aa710c651531681da50d02be8cafc328190267a5d10"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/long-source-v1/two-hour-delivery-v1.json",
+      "bytes": 2202,
+      "sha256": "9593bc1b2d670df4521359e44edf8ba875c4b9e9b4ed8f7ed78b3e31b2c6fce9"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/long-source-v1/two-hour-delivery-v1.md",
+      "bytes": 1611,
+      "sha256": "ede28f643d6e70dffbe1e2807600feccf101bae068534f87c090b3afe2f767a0"
+    },
+    {
+      "path": "final/05-saltline-receiver/music/long-source-v1/two-hour-loudness.txt",
+      "bytes": 1534,
+      "sha256": "eba9de91cd6cb6090d7004419cd00874fafd2276f615254f76ec4f1fb32a3162"
+    },
+    {
+      "path": "final/05-saltline-receiver/youtube-tags-before-studio-update-2026-10-04.txt",
+      "bytes": 284,
+      "sha256": "944f45e11ff2bf31137b4bfaa3db72273242a76b6b934620e0aa2a1af1509ec9"
+    },
+    {
+      "path": "final/05-saltline-receiver/youtube-tags.txt",
+      "bytes": 320,
+      "sha256": "faaa3d817ce3d89e03d19c71aeafadf2978606b02face5cd33ca222f4b637044"
+    },
+    {
+      "path": "final/06-last-cable-station/README.md",
+      "bytes": 1988,
+      "sha256": "e036a58df382efadf0e76bfdf1a8f07346fa6643d3285f1211571d8d26edf4d9"
+    },
+    {
+      "path": "final/06-last-cable-station/YOUTUBE-FILES.md",
+      "bytes": 676,
+      "sha256": "04164ff53482d8cc79490f23d9039b9a2e60031cb464d22a43fc947e3f77bb62"
+    },
+    {
+      "path": "final/06-last-cable-station/animation-plan-v1/README.md",
+      "bytes": 6599,
+      "sha256": "59bc89a6b864657275de11bd8ead4c0308d15b87ef576bcb6de5f19b45be79ec"
+    },
+    {
+      "path": "final/06-last-cable-station/animation-plan-v1/scene-plan.json",
+      "bytes": 6938,
+      "sha256": "8f055142e2d575829ba68d1f997c158e7760542355c3529e58a0547d5d91660d"
+    },
+    {
+      "path": "final/06-last-cable-station/assembly-v1/README.md",
+      "bytes": 2180,
+      "sha256": "b6a4b5b553322a14d001dafca7200545de7db83f9ac3eb80608f5ea03e991bf7"
+    },
+    {
+      "path": "final/06-last-cable-station/assembly-v1/assemble-with-colony.py",
+      "bytes": 6119,
+      "sha256": "f2e32bf01987c0c5a9bbf3dac9e9d3c9c5150ace1c091f19f2f4a60bcfe03f4f"
+    },
+    {
+      "path": "final/06-last-cable-station/assembly-v1/colony-export.json",
+      "bytes": 2041,
+      "sha256": "5a37d3c96250bafbed52d839a25831434db2406426938c53a9d34480bee15bcc"
+    },
+    {
+      "path": "final/06-last-cable-station/assembly-v1/delivery-validation.json",
+      "bytes": 1982,
+      "sha256": "3440fdefddfda85f39576c2f9185d8a1c7cdb55a6cfc2a1504821b5497f967d4"
+    },
+    {
+      "path": "final/06-last-cable-station/delivery-v3/approved-v3-preview.json",
+      "bytes": 5040,
+      "sha256": "f6772eef90b7455ec5ab1fb9825b3cfe97e8c40edddacadefcf987d7c761bf6f"
+    },
+    {
+      "path": "final/06-last-cable-station/delivery-v3/decoded-frame.jpg",
+      "bytes": 1464606,
+      "sha256": "5dec009c5964091a50ef98c2a78e040675b04ec79c7ab11371b9e1e46f999253"
+    },
+    {
+      "path": "final/06-last-cable-station/delivery-v3/delivery-validation.json",
+      "bytes": 4979,
+      "sha256": "4988e3e82adfd3f4542583493b76d9a70846ebda6d80de1760a399f3dd275010"
+    },
+    {
+      "path": "final/06-last-cable-station/manifest.json",
+      "bytes": 10041,
+      "sha256": "02ae2d31971d26bf52c58cc647b58d1094bc9656982a1641457c09fa300cbd54"
+    },
+    {
+      "path": "final/06-last-cable-station/music/README.md",
+      "bytes": 5298,
+      "sha256": "cf3f8c7187b80c1a469171a1505cde9ffbbe84ccbc06ec3c816ac1bffef39c5f"
+    },
+    {
+      "path": "final/06-last-cable-station/music/elevenlabs-long-version-v3-seven-minutes.txt",
+      "bytes": 1197,
+      "sha256": "72dd80bd61a617479ca9475e526cd2a8939c590ebfb34fe8019bb8893e3ab770"
+    },
+    {
+      "path": "final/06-last-cable-station/music/generation-record.json",
+      "bytes": 2882,
+      "sha256": "a28d139f99f97e53e076b391aa497059588b92885b3c40fb0d1a705270b188c2"
+    },
+    {
+      "path": "final/06-last-cable-station/music/long-source-v1/Last-Cable-Station-Mineral-Valley-Transit-join-v1-loudness.txt",
+      "bytes": 1234,
+      "sha256": "e318d38b528704c14eb5a561c78b55e081bfb1b0465d0712d560d261eaab8b24"
+    },
+    {
+      "path": "final/06-last-cable-station/music/long-source-v1/Last-Cable-Station-Mineral-Valley-Transit-three-repeats-v1-loudness.txt",
+      "bytes": 1244,
+      "sha256": "5e12266cdca80fc28f8f6c81b6b128f8797dde10171d8118ca779fadcc0aa552"
+    },
+    {
+      "path": "final/06-last-cable-station/music/long-source-v1/README.md",
+      "bytes": 2382,
+      "sha256": "b4f1e895c47b64caedd52f459e477e1197e826c7b174f8dff4d68b57e72e9c50"
+    },
+    {
+      "path": "final/06-last-cable-station/music/long-source-v1/analysis.json",
+      "bytes": 8078,
+      "sha256": "00f73e40ccadca245b5b3534423e391e8fac5a8dc6a5a9ccdc9349f292abcd54"
+    },
+    {
+      "path": "final/06-last-cable-station/music/long-source-v1/analyze.py",
+      "bytes": 3223,
+      "sha256": "1fe4f0d6aecf0d2bddf3021f67c6489ff06584007efe9f5930103ee9dd71aecd"
+    },
+    {
+      "path": "final/06-last-cable-station/music/long-source-v1/audition-v1.json",
+      "bytes": 2806,
+      "sha256": "e5951ef190a40b3109fe391ea26fb078f88c5315bd3615237cc78f3b86ed0cf0"
+    },
+    {
+      "path": "final/06-last-cable-station/music/long-source-v1/make-auditions-v1.py",
+      "bytes": 4018,
+      "sha256": "7ef1619e8ecc0aa57c083e78418480aa4500cde7c4f1045f2d5359bf351bc399"
+    },
+    {
+      "path": "final/06-last-cable-station/music/long-source-v1/source-loudness.txt",
+      "bytes": 1787,
+      "sha256": "b46af8beac6f959c1cf4e4a3ca3b52b7ad53879f0dbd2c9a7a68a0d9fa5efc39"
+    },
+    {
+      "path": "final/06-last-cable-station/music/long-source-v1/two-hour-delivery-v1.json",
+      "bytes": 2233,
+      "sha256": "8bc9688cdff545c4458613b59e82bdecb6ec258d0d63efa4b1ad10e9b76107df"
+    },
+    {
+      "path": "final/06-last-cable-station/music/long-source-v1/two-hour-loudness.txt",
+      "bytes": 1561,
+      "sha256": "7b97dfd00736dcb87610f6cd234d516ec7c083e4c027bab1eb6c34ac2ff68625"
+    },
+    {
+      "path": "final/06-last-cable-station/video-4k-v3.mp4",
+      "bytes": 62526558,
+      "sha256": "eb59de92482cad23972e759c190a7c0cbcc7e78a4ff4f26ac62271d6e29f76f1"
+    },
+    {
+      "path": "final/06-last-cable-station/youtube-tags-before-studio-update-2026-10-04.txt",
+      "bytes": 294,
+      "sha256": "d54a66fa31a26ab3bdf84c9e2518f0821a378aefe1ba24c0d8cb48a71041f478"
+    },
+    {
+      "path": "final/06-last-cable-station/youtube-tags.txt",
+      "bytes": 324,
+      "sha256": "bf137729e1d21ffbd1d8fd567e59c334a425d331114f5544a2a0b4edb6a03522"
+    },
+    {
+      "path": "final/07-icebound-weather-post/README.md",
+      "bytes": 1609,
+      "sha256": "403309491849db55d93f3f4a877ed806d21aafa8e93593f25f402cb0578607ff"
+    },
+    {
+      "path": "final/07-icebound-weather-post/YOUTUBE-FILES.md",
+      "bytes": 637,
+      "sha256": "de6549e0383dcf5d4371b981e0496f7094ee9f97c1bd8fee8216cf3e06d3f7eb"
+    },
+    {
+      "path": "final/07-icebound-weather-post/assembly-v1/README.md",
+      "bytes": 1699,
+      "sha256": "9709526a4a6bf1cb71ce6199f0213738a08ad179295193b60de139f04e070701"
+    },
+    {
+      "path": "final/07-icebound-weather-post/assembly-v1/colony-export.json",
+      "bytes": 2054,
+      "sha256": "419afd8bbddc41c6923be923a50400e870b1d0a902a3ae93be2162712be8940a"
+    },
+    {
+      "path": "final/07-icebound-weather-post/assembly-v1/delivery-validation.json",
+      "bytes": 1989,
+      "sha256": "7fb16deda2b00feaadce2e206db5c3aadc6b14399a86a4ddb6c478e0eaab8142"
+    },
+    {
+      "path": "final/07-icebound-weather-post/delivery-v3/README.md",
+      "bytes": 1484,
+      "sha256": "d577c9ada4e44685c2d434a77e27aa081bdb7d3f24715438b189b6b0e796e419"
+    },
+    {
+      "path": "final/07-icebound-weather-post/delivery-v3/decoded-frame-28.7s.jpg",
+      "bytes": 1653710,
+      "sha256": "fdb0b29e4dce8bd2efdc55e1077c147d76184a54f079d6c866d70ab7b5743869"
+    },
+    {
+      "path": "final/07-icebound-weather-post/delivery-v3/decoded-frame.jpg",
+      "bytes": 1651572,
+      "sha256": "7d0289d948e9a092a25912fe78274e721df08c2df54a4cd422aab1cb51ba558e"
+    },
+    {
+      "path": "final/07-icebound-weather-post/delivery-v3/delivery-validation.json",
+      "bytes": 4720,
+      "sha256": "32324af149de9f7ccc4483db06f7d4e3485ca82046b1b195fe2682781410258b"
+    },
+    {
+      "path": "final/07-icebound-weather-post/manifest.json",
+      "bytes": 7951,
+      "sha256": "85874778cb0b65ceff192ce51d7fc37d854fe030b2db292e7c16b3cb7504e8af"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/README.md",
+      "bytes": 4743,
+      "sha256": "147fbab2db7a328a6695d354e4395b94b884342b7022b6b353bb7d8afc3899da"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/elevenlabs-long-version-v3.txt",
+      "bytes": 1157,
+      "sha256": "65ef3f52dc39b26ab5214288ed38dcaba75842f6f6da04d4b84db9a1fa96ba01"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/elevenlabs-prompt-v3.txt",
+      "bytes": 1229,
+      "sha256": "3b01b061967fe69776529ca70cebbed28b9e287e441115d8ec728d337895b50a"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/generation-record.json",
+      "bytes": 3338,
+      "sha256": "8564c1602b4439e93039a3c05031b61176c9d54b188263cee744615ab019c4fc"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/Icebound-Weather-Post-Winter-Colony-Night-join-v1-loudness.txt",
+      "bytes": 1237,
+      "sha256": "c398fdb66d1a0b6a50d5930ead879deabd71d834b5b4bb87b014e2c472b3279c"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/Icebound-Weather-Post-Winter-Colony-Night-three-repeats-v1-loudness.txt",
+      "bytes": 1247,
+      "sha256": "6a2efeffd849d3a0a33408610b1a7aebc36ad16a91295f1298f2c23e99ebc874"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/README.md",
+      "bytes": 1946,
+      "sha256": "ec4473b2c3cfda18c7ba5a5d498f53a18cbbff71e3c1c2de3ddf4772bb860a8a"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/analysis-initial.json",
+      "bytes": 8085,
+      "sha256": "dc0ca11dd2700aecb63a56c3c360aa1e6079614c19f2e96f6092dcd419d3fcd6"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/analysis.json",
+      "bytes": 8071,
+      "sha256": "2444b3e8a1cafc7a32656d989ff832ba7b0da8670975d4993959f3dcdc28a349"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/analyze-initial.py",
+      "bytes": 3223,
+      "sha256": "262332762439271f5553cd6b979a8ed753f1ffca335db9cbb7cc3659561f8f9d"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/analyze.py",
+      "bytes": 3222,
+      "sha256": "9885c54cb14acdc743d98d116b2444549f73d59de138f7fd99d9ec9a8f3f65c8"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/audition-v1.json",
+      "bytes": 2903,
+      "sha256": "73ed2160779a1c07caafbc9845495d8c00895c3acd16c83fee09d2195c53c654"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/make-auditions-v1.py",
+      "bytes": 4165,
+      "sha256": "92beb76218da68a59a140d815ab9d50a6a561accd3b79d79c43a5e18b344ac26"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/make-one-hour-v1.py",
+      "bytes": 5098,
+      "sha256": "427e31f8d721f847d4753cdd7e673650334d5a4341f5e1348933789f21856684"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/one-hour-delivery-v1.json",
+      "bytes": 1912,
+      "sha256": "3ca72b80a1096544a453541cd9adac375528973470fe24a82ba1aaf85cf93626"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/one-hour-delivery-v1.md",
+      "bytes": 1345,
+      "sha256": "06e2ae4d523333e588c74d0b6858acf1e109931fec695027c2d78014dd720b11"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/one-hour-loudness.txt",
+      "bytes": 1556,
+      "sha256": "40b74271e4b3d07df4788d246845fcc5f5b8cabe95bb580fe34f953de6a6aaf9"
+    },
+    {
+      "path": "final/07-icebound-weather-post/music/long-source-v1/source-loudness.txt",
+      "bytes": 1787,
+      "sha256": "0b31aa193552cdbbc71f01c9f1e71f445732c9f654f46322225388cb7db28db9"
+    },
+    {
+      "path": "final/07-icebound-weather-post/video-4k-v3-60s.mp4",
+      "bytes": 381119952,
+      "sha256": "8b02c264fc4145afd8992f42c515733a71a6f1fbe432aabed10784038a6196ae"
+    },
+    {
+      "path": "final/07-icebound-weather-post/youtube-tags-v1.txt",
+      "bytes": 294,
+      "sha256": "788401a8b4582a479ad20f500347ddef2ceafbdef75cb4b107c3659a30898aa6"
+    },
+    {
+      "path": "final/07-icebound-weather-post/youtube-tags.txt",
+      "bytes": 309,
+      "sha256": "c6217deb4ab5855de0e7afa97faf426c2ab5bf444131ccae336b5b8b6fd7624f"
+    },
+    {
+      "path": "final/08-rainline-relay/README.md",
+      "bytes": 2499,
+      "sha256": "ef51f55bf9212d6f3e6d996e98af3a37dd6e660c778a2c995f8a435d4ca8716d"
+    },
+    {
+      "path": "final/08-rainline-relay/YOUTUBE-FILES.md",
+      "bytes": 459,
+      "sha256": "befdb0da5b2e13a282018a03c1725bde462acd62b3e553cf084aaa60e24041f1"
+    },
+    {
+      "path": "final/08-rainline-relay/assembly-v1/README.md",
+      "bytes": 1731,
+      "sha256": "bb9f420e83bd0199ea2a631750dbf93234757b9cd13b76ac67ed708e853ff6b3"
+    },
+    {
+      "path": "final/08-rainline-relay/assembly-v1/assemble-with-colony.py",
+      "bytes": 6208,
+      "sha256": "86b31f8abb709df8b6908cb89d0f59daae9fdf6a4ed9b88c883707062572b085"
+    },
+    {
+      "path": "final/08-rainline-relay/assembly-v1/colony-export.json",
+      "bytes": 2034,
+      "sha256": "9dc01574b6d49cece7128d0fe4e74971843874eaf473f4f5c9e03475e3cb3595"
+    },
+    {
+      "path": "final/08-rainline-relay/assembly-v1/delivery-validation.json",
+      "bytes": 2031,
+      "sha256": "5fadae1329e7f107200f7a4ec83c8fe76085e9f0ac309dd5bdda06576b5cd1ff"
+    },
+    {
+      "path": "final/08-rainline-relay/assembly-v1/render_delivery.py",
+      "bytes": 4380,
+      "sha256": "31694e84c47e303b5050594f4296f134cd32aabc42d1b9af009f61c228e04d85"
+    },
+    {
+      "path": "final/08-rainline-relay/delivery-v5/README.md",
+      "bytes": 840,
+      "sha256": "db4195a1a860c119559cccb8fb354710c1bf96345e03cf5c4acf3647543e1a69"
+    },
+    {
+      "path": "final/08-rainline-relay/delivery-v5/decoded-frame-8s.jpg",
+      "bytes": 1690447,
+      "sha256": "9b3303a3bcb6376b222645d1d4c268d0848eb51ab8c567db109c8ec12a822435"
+    },
+    {
+      "path": "final/08-rainline-relay/delivery-v5/decoded-frame.jpg",
+      "bytes": 1687472,
+      "sha256": "89efa8dad6fbc39b0e966b315688ccca6694642aa88884fd352a8ec2af5093dc"
+    },
+    {
+      "path": "final/08-rainline-relay/delivery-v5/delivery-validation.json",
+      "bytes": 4693,
+      "sha256": "25a8e326155411893b5d31bacb0540c38c9402fd75d780d5578c464a347f31a8"
+    },
+    {
+      "path": "final/08-rainline-relay/manifest.json",
+      "bytes": 14684,
+      "sha256": "3f0cc0fd49b62d40f02d00f5b594f2434bcd3d54b79ccdd89ea5c4dc6d965fce"
+    },
+    {
+      "path": "final/08-rainline-relay/metadata-history/youtube-tags-before-listener-revision-2026-10-10.txt",
+      "bytes": 289,
+      "sha256": "f0fea702a65ba62e406b66e44a24850199322cef4d5a3ec21e80ee18d77c5379"
+    },
+    {
+      "path": "final/08-rainline-relay/music/README.md",
+      "bytes": 5174,
+      "sha256": "4bc31690ea3f67fbe1209ec13f844b46d9c4009dd0c8d1c99b261c9ed37d96dd"
+    },
+    {
+      "path": "final/08-rainline-relay/music/elevenlabs-long-version-v3-seven-minutes.txt",
+      "bytes": 1082,
+      "sha256": "c36e06a569b0c1e73c21f88b64df47581752ef5356460301c895e235b14fff58"
+    },
+    {
+      "path": "final/08-rainline-relay/music/elevenlabs-prompt-v2.txt",
+      "bytes": 1166,
+      "sha256": "085a314b063cc4d86a4ecb1aa7914458adafd7fc0633e09be4d4462bf54a7b32"
+    },
+    {
+      "path": "final/08-rainline-relay/music/generation-record.json",
+      "bytes": 3929,
+      "sha256": "c36f191672b479ed66498d4b7603ba8e7f943c9af795ae84e3b57b3d7c497fa1"
+    },
+    {
+      "path": "final/08-rainline-relay/music/long-source-v1/README.md",
+      "bytes": 2684,
+      "sha256": "4560d00dd8eec01716e5581a5fe3166d6a62a5a24af882146d1e0af135b58e93"
+    },
+    {
+      "path": "final/08-rainline-relay/music/long-source-v1/make_rainline_hour.py",
+      "bytes": 6518,
+      "sha256": "ab35212ea82e9064b3f8ab205fadc89a8fdeff7ed2ec05b93bebfddbdfe6ea3e"
+    },
+    {
+      "path": "final/08-rainline-relay/music/long-source-v1/one-hour-delivery-v1.json",
+      "bytes": 4937,
+      "sha256": "808391c9014afffde1583225025056acc7e25b5c006829ad5e7b8af246c9609d"
+    },
+    {
+      "path": "final/08-rainline-relay/music/long-source-v1/rain-mix-delivery-v2.json",
+      "bytes": 4340,
+      "sha256": "6b3a2df28aa68e5341bd50bf31545774791ea7190f6e7d9013d2a8d0e97d5af5"
+    },
+    {
+      "path": "final/08-rainline-relay/music/long-source-v1/rain-mix-delivery-v3.json",
+      "bytes": 4597,
+      "sha256": "5b4ddf7ee8d1088d68520231c10be1c56a134f5551f1335707ff9fd663ae35e8"
+    },
+    {
+      "path": "final/08-rainline-relay/music/selected-test-v1/selection.json",
+      "bytes": 1127,
+      "sha256": "09bc73b34672aab824d7a53d353db3ad5076f810572c7296f1a0bb164d2e04a2"
+    },
+    {
+      "path": "final/08-rainline-relay/video-4k-v5-20s.mp4",
+      "bytes": 329166997,
+      "sha256": "fad3fccc70a591f995ba05f3c48048a4735c373832ea95481f5b0046f1a7a438"
+    },
+    {
+      "path": "final/08-rainline-relay/youtube-tags.txt",
+      "bytes": 377,
+      "sha256": "50583e60d235dfb9f85cfdb69e09b5f1564e81c5709aa83bdaee2e55865c7cac"
+    },
+    {
+      "path": "final/09-offshore-night-office/README.md",
+      "bytes": 2489,
+      "sha256": "20c843e4002044d186a0588c78d8b0b8ee6931a314ca5f343a8066482a88a011"
+    },
+    {
+      "path": "final/09-offshore-night-office/YOUTUBE-FILES.txt",
+      "bytes": 738,
+      "sha256": "f23b555cbbea3d367f66f2f468b19b9e81fd97874997a296e1ca25b608164c8e"
+    },
+    {
+      "path": "final/09-offshore-night-office/assembly-v1/README.txt",
+      "bytes": 1567,
+      "sha256": "90e933eba69ae70b8b6ca151a7f26940df803119da67aaa5e6d5221349b1fd53"
+    },
+    {
+      "path": "final/09-offshore-night-office/assembly-v1/assemble-with-colony.py",
+      "bytes": 6259,
+      "sha256": "e6f7900db705ddc153e820e7ef8dde714be359408966146f06ac44eb54ddbe6d"
+    },
+    {
+      "path": "final/09-offshore-night-office/assembly-v1/build_audio.py",
+      "bytes": 4515,
+      "sha256": "d9561184d9ef226d2ddd274917b3c02d69bdacecb16cc3e8a5636b47ead9a615"
+    },
+    {
+      "path": "final/09-offshore-night-office/assembly-v1/colony-export.json",
+      "bytes": 2081,
+      "sha256": "cce898ae2f122529369831c5a5b41b4e89c209a47308a7b0b67a2bc23f1e4a5a"
+    },
+    {
+      "path": "final/09-offshore-night-office/assembly-v1/delivery-validation.json",
+      "bytes": 2055,
+      "sha256": "ff26ba3a2846060d1dd4ff0c892ac08b553124edb83ec065eb852348c8475762"
+    },
+    {
+      "path": "final/09-offshore-night-office/assembly-v1/record_delivery.py",
+      "bytes": 8242,
+      "sha256": "f9d79379e0c4ad817f1c9a2eb89ee70468975e8c9abbac131d36a1053b076447"
+    },
+    {
+      "path": "final/09-offshore-night-office/assembly-v1/render_delivery.py",
+      "bytes": 4553,
+      "sha256": "8e812fca24e260f81234c2c1683c42df4e176cda9295fe4482d8565a51a81ac2"
+    },
+    {
+      "path": "final/09-offshore-night-office/delivery-v3/README.txt",
+      "bytes": 592,
+      "sha256": "97ffc4c7aef4646c0765d56b4a54091507f8d0159b353ae4345b0c69000ea4f7"
+    },
+    {
+      "path": "final/09-offshore-night-office/delivery-v3/decoded-frame-8s.jpg",
+      "bytes": 1379964,
+      "sha256": "76a3b3a7d31ae8c1dfeba29d6747687309580aa01a746564090abd249195dd50"
+    },
+    {
+      "path": "final/09-offshore-night-office/delivery-v3/decoded-frame.jpg",
+      "bytes": 1373564,
+      "sha256": "6328523d6478c44ad6e0405a585e92052f73c55efdaf993d1e8906f25859034f"
+    },
+    {
+      "path": "final/09-offshore-night-office/delivery-v3/delivery-validation.json",
+      "bytes": 4947,
+      "sha256": "d3e69781f3c970e4ae8f27f89cb1a781e9aac0acbfb35122363adeeefa001c18"
+    },
+    {
+      "path": "final/09-offshore-night-office/manifest.json",
+      "bytes": 11924,
+      "sha256": "8afa42f0ab10bbc3a840ede3058463f0acec43cc26236e1ad16351657559c94b"
+    },
+    {
+      "path": "final/09-offshore-night-office/metadata-history/youtube-tags-before-listener-revision-2026-10-10.txt",
+      "bytes": 289,
+      "sha256": "d3e9168e40119577e78470655aa3d0d84b4794a7c680d97765e3800123ea78f1"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/README.md",
+      "bytes": 4929,
+      "sha256": "d7086fd8d2fe5e971b4235911681f105ffffde2df4a621e6088142c743e9ac25"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/elevenlabs-long-version-v3-open-water-seven-minutes.txt",
+      "bytes": 1140,
+      "sha256": "22de432e4bdd3f9291264e6bf94dc6fe7b86344a07334a037656d8fc5a109265"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/elevenlabs-test-v3-a-sheltered-horizon.txt",
+      "bytes": 1041,
+      "sha256": "d4a50a3ad2d52680399428b671b3f6755d52eefea9c0afca109c335dbb218646"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/elevenlabs-test-v3-b-open-water.txt",
+      "bytes": 1073,
+      "sha256": "4718bda8a6642bb637a8a0aba0558e2824642683be7dbf0cadf499a1944a17e8"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/generation-record.json",
+      "bytes": 3690,
+      "sha256": "7ae60d8000cdeb7358e6ee89f88e7ae36cffedf52777dc5012ec2b804cc84d43"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/long-source-v1/audition-v1.json",
+      "bytes": 1437,
+      "sha256": "1ecfa01dd665318ed525fee6a686b1a429970e2c1a517622bd8af1a76973a12f"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/selected-test-v1/selection.json",
+      "bytes": 964,
+      "sha256": "6ab0254c0a2a196bf7a555ac98139dc3d7a4f0a730b0a623058d5962e94aaeef"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/two-hour-v1/README.txt",
+      "bytes": 717,
+      "sha256": "a3bdae305ff8000bf5299559b37ec0505f4a18271aa1f9cc01ad87581ee041a3"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/two-hour-v1/approval.json",
+      "bytes": 355,
+      "sha256": "240dfa2a59195f3f1b2b129cf6af6b2a52201e4ba8b6440feb9fdc60104aa731"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/two-hour-v1/delivery.json",
+      "bytes": 1887,
+      "sha256": "9c6d025703f1cebca2eadf0bb7ef2871a825ed437dfb56cee3b82598917f3841"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v1/Clear_ocean_water_re_#1-1791650516724.mp3",
+      "bytes": 721197,
+      "sha256": "7ad78fbee2c965c4ec6e4372d38898b89d5fd77bd4dc3d2adf2b987bf9a7b2c2"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v1/delivery-v1.json",
+      "bytes": 2214,
+      "sha256": "d2ca6b3463e9949df7095f862264df25a261bc1e6a142bdda78c14e6ce010971"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v2/delivery-v2.json",
+      "bytes": 2949,
+      "sha256": "a57c3100ac13529bb2c76ab892829a9bc86d2b3b0f70499338b7d694808c74b1"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-sfx-prompt-v1.txt",
+      "bytes": 357,
+      "sha256": "6224443018e7f062ce437fca4ceb2c08322805fc927a61c1719e62769c5b22eb"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-sfx-prompt-v2-clear.txt",
+      "bytes": 352,
+      "sha256": "722c0981ac3093308ad1f1917521e5e75f678710642c93a29f4f483b12d7c531"
+    },
+    {
+      "path": "final/09-offshore-night-office/video-4k-v3-60s.mp4",
+      "bytes": 421036504,
+      "sha256": "139e535964c31a7e12bf782c5b637b56d9c621ec52931dfae6e358fabf24a7b1"
+    },
+    {
+      "path": "final/09-offshore-night-office/youtube-tags.txt",
+      "bytes": 359,
+      "sha256": "68915f10591b81a0b966388e8035cc65d12900feff9307df1296c2422e0c6c27"
+    },
+    {
+      "path": "final/README.md",
+      "bytes": 6706,
+      "sha256": "e447f50bd80ec36648ba38988759a0e60979fd487fdb324f8853f0effbfb78cf"
+    },
+    {
+      "path": "final/catalog.json",
+      "bytes": 7805,
+      "sha256": "b475e2741ae84cf071b5a6ed3ff7e812a7c604958422bf25cc14f2cd4fdfad0a"
+    },
+    {
+      "path": "final/local-export-inventory.json",
+      "bytes": 14164,
+      "sha256": "eb269ff72cf1e8b15fc8eabf72287ea1c713aa8d9128638133cfc79950f8aa06"
+    },
+    {
+      "path": "music/build_icebound_auditions.py",
+      "bytes": 2086,
+      "sha256": "14c0147a6050730a505b8ef9db2d5dbabc305a8169159eac706cfe2fababb987"
+    },
+    {
+      "path": "music/cable-animation-v1/README.md",
+      "bytes": 3061,
+      "sha256": "5e8f44dfa03e4ffc44ff7d98e5be91ea1ed5bc35c3a74906d3f170cb505551f7"
+    },
+    {
+      "path": "music/cable-animation-v1/analytic-validation.json",
+      "bytes": 2476,
+      "sha256": "b7ca6aa33b05f6d5f85e495130eb9940ee67ac0e4d4e6adebbd77ef278fd04c5"
+    },
+    {
+      "path": "music/cable-animation-v1/decoded-preview-frame.png",
+      "bytes": 1393887,
+      "sha256": "95b94bb533e8595429628f9b59163c6a0c920ab40d9f4a3c1ea5b9ed960a7a1c"
+    },
+    {
+      "path": "music/cable-animation-v1/delivery-v1.json",
+      "bytes": 5996,
+      "sha256": "31dfa5e3e9175ecc857cf29b22b79cad5770118bf87d99ab5af27d8b8b491807"
+    },
+    {
+      "path": "music/cable-animation-v1/exterior-detail.png",
+      "bytes": 1351561,
+      "sha256": "ed360ba53361ffc57822f789c5968b110148a8c371321fce30218c21ec48f1a3"
+    },
+    {
+      "path": "music/cable-animation-v1/isolated-decoded-review.png",
+      "bytes": 781949,
+      "sha256": "1c703efacbc80d40318335ec7a5bdd2eae96b0de837abd2c79926e57de80effb"
+    },
+    {
+      "path": "music/cable-animation-v1/isolated-validation.json",
+      "bytes": 3003,
+      "sha256": "4a50016462f7251844a6ce7e84a4609e8f005b3c3669f77aed4420cfa8a81b22"
+    },
+    {
+      "path": "music/cable-animation-v1/mask-review.png",
+      "bytes": 2081708,
+      "sha256": "7ae4fb4f928f62a089ce78e93c81c087a13b20832680906dbe972a468aa83d69"
+    },
+    {
+      "path": "music/cable-animation-v1/masks/left_fog.png",
+      "bytes": 7902,
+      "sha256": "0d8e136eb6642e9351634ae4f41beac154e07f74afa5965c93770f0cc4930faa"
+    },
+    {
+      "path": "music/cable-animation-v1/masks/lights.png",
+      "bytes": 3511,
+      "sha256": "888a10a50b76dc551a50e048517699da874b9b43378e48b21f44054520b6021a"
+    },
+    {
+      "path": "music/cable-animation-v1/masks/ravine.png",
+      "bytes": 9303,
+      "sha256": "5a98a2615be9756dcc0a6fff0ab6fde8985a5c685a6b62e2a3b67aad041d20bc"
+    },
+    {
+      "path": "music/cable-animation-v1/masks/screen.png",
+      "bytes": 3485,
+      "sha256": "22aa12edcc62d94b68e699e6face7c8632fbe659480f8b8b563ae62b5ea3e4a6"
+    },
+    {
+      "path": "music/cable-animation-v1/masks/sky.png",
+      "bytes": 26744,
+      "sha256": "14239a3445b21a968beae7f98aec54b8c415cb22e53d8392d9b7a124c78475f7"
+    },
+    {
+      "path": "music/cable-animation-v1/masks/valley.png",
+      "bytes": 15958,
+      "sha256": "5d1c56c436a884fd2383b136f20309b74307b1bdd3ea8e0590391488d41c9fd6"
+    },
+    {
+      "path": "music/cable-animation-v1/preview-validation.json",
+      "bytes": 5115,
+      "sha256": "1b8bbf393f172fb6540120a1ff27d886e8f658d3e5dfc0ace23b0225c161b6ed"
+    },
+    {
+      "path": "music/cable-animation-v1/record_delivery.py",
+      "bytes": 8954,
+      "sha256": "68cacd1d49d1acba7c61a5fdf96043084efb80b687e8c740391698636908ed04"
+    },
+    {
+      "path": "music/cable-animation-v1/render_cable.py",
+      "bytes": 8203,
+      "sha256": "12cc8ad24309b48c7641766c6b91edd092ef49f463bfb4735fc58f12dd994832"
+    },
+    {
+      "path": "music/cable-animation-v1/sample-0.000s.png",
+      "bytes": 2076267,
+      "sha256": "b48b0be20d1579801a6599162e0275d2e427fa30646f9d65cc62afaa27b57053"
+    },
+    {
+      "path": "music/cable-animation-v1/sample-12.000s.png",
+      "bytes": 2076729,
+      "sha256": "ff2a64a5412f2e54c142dcd46ba879c3657fb618e435afd5e29671b35957ddcd"
+    },
+    {
+      "path": "music/cable-animation-v1/sample-16.000s.png",
+      "bytes": 2076586,
+      "sha256": "25e808b22a12b619e52eff5dd610423703601e9bf0ef03a1bd801cc725747f0b"
+    },
+    {
+      "path": "music/cable-animation-v1/sample-19.967s.png",
+      "bytes": 2076262,
+      "sha256": "ae7b04e5946bad069b0163446d77acf7a05c7d1802d22b28a4d5bb276d213d33"
+    },
+    {
+      "path": "music/cable-animation-v1/sample-4.000s.png",
+      "bytes": 2076611,
+      "sha256": "4e6719ad0a434df6ff52a69fd019963efe566722e5062157de62ccc19941d0b8"
+    },
+    {
+      "path": "music/cable-animation-v1/sample-8.000s.png",
+      "bytes": 2076792,
+      "sha256": "1215cfe6a0764085281caf837c8216cd17cc6e19c38b11d87b92be2a592c1f6c"
+    },
+    {
+      "path": "music/cable-animation-v1/scene-plan-v1.json",
+      "bytes": 15883,
+      "sha256": "f4c209acb5d9e11cc8edcd3870fb29c49c8014a77bfc78e62051bfc368712a50"
+    },
+    {
+      "path": "music/cable-animation-v1/setup_scene.py",
+      "bytes": 3876,
+      "sha256": "c899832fa4b2f440b3d07d3e97269ad6140c2df8675db146446300f341c20199"
+    },
+    {
+      "path": "music/cable-animation-v2/README.md",
+      "bytes": 3462,
+      "sha256": "e5ed2f09c117f1e8f9831148856654866ba18e68850aeccb9d3ce6d24854d6fa"
+    },
+    {
+      "path": "music/cable-animation-v2/analytic-validation.json",
+      "bytes": 3720,
+      "sha256": "d67778db13b85fc3f369e3695bb6835dbe8dfa3976da33054fcd3b544fa36e80"
+    },
+    {
+      "path": "music/cable-animation-v2/decoded-v2-8s.png",
+      "bytes": 1393915,
+      "sha256": "e4e699bd0b9a843d7c22061ec2dd1f3a5f6bab82e3fbbcd470287a7b94fabf59"
+    },
+    {
+      "path": "music/cable-animation-v2/delivery-v2.json",
+      "bytes": 8400,
+      "sha256": "d5e45f9fb8928521a49d2e63d0f6219082b545da8006b5b24e0b2553a49ed126"
+    },
+    {
+      "path": "music/cable-animation-v2/isolated-decoded-review.png",
+      "bytes": 792761,
+      "sha256": "2a9ed2954ee7b142b03a3a0a29f978216299b6bfde8c1e6902717e155ab7a342"
+    },
+    {
+      "path": "music/cable-animation-v2/isolated-validation.json",
+      "bytes": 3840,
+      "sha256": "15f89648c8212eeb2536f554231d86505ea84cb692bc028168302aa454f60bc9"
+    },
+    {
+      "path": "music/cable-animation-v2/lamp-detail.png",
+      "bytes": 184152,
+      "sha256": "1bbfc16004c4556fbeb939b0f0055a74c95a5950c823bb24b9810848e437c547"
+    },
+    {
+      "path": "music/cable-animation-v2/masks/daylight.png",
+      "bytes": 22469,
+      "sha256": "458d9c711806abb7bffe170528d814401844b3816eadc146bff651675bf378b9"
+    },
+    {
+      "path": "music/cable-animation-v2/masks/distance_fog.png",
+      "bytes": 18527,
+      "sha256": "70d7db8e067372d6a66cb1afa66d5de3988223b41a9e3560dc40ab26e336c60a"
+    },
+    {
+      "path": "music/cable-animation-v2/masks/room_lamp.png",
+      "bytes": 10599,
+      "sha256": "5253e51275d42dc1875ed6e0edfc89f4c4d819d2a3cb58bc6b041d7081bc8681"
+    },
+    {
+      "path": "music/cable-animation-v2/new-masks-review.png",
+      "bytes": 2070042,
+      "sha256": "96da419fc01705197c704c71802033a8a46d3fb4dbc53dbb42ac9d337050e6e0"
+    },
+    {
+      "path": "music/cable-animation-v2/preview-validation.json",
+      "bytes": 7202,
+      "sha256": "d11fb45d361063c98343b2b5940488bb5c5584882bc860d90cd3da86eace62db"
+    },
+    {
+      "path": "music/cable-animation-v2/record_delivery.py",
+      "bytes": 9181,
+      "sha256": "dfeddfc148875d282f55383822b08542c74c3ee48a73a8eb9ef2a07b3f55921a"
+    },
+    {
+      "path": "music/cable-animation-v2/render_cable_v2.py",
+      "bytes": 7624,
+      "sha256": "0ccaf0b443fb7c278d63d49becf003e3d216d06ed87f9aa0a2442fc370b9f424"
+    },
+    {
+      "path": "music/cable-animation-v2/sample-0.000s.png",
+      "bytes": 2076006,
+      "sha256": "200c3454b41fc42b160d8aa094c2edaa2b3ab93212d8f527ec564acd4c035796"
+    },
+    {
+      "path": "music/cable-animation-v2/sample-12.000s.png",
+      "bytes": 2077722,
+      "sha256": "a86633d3f6a07f5f342cccc16b95351c1693379e5f460f1dd481cd8e2d0e06b8"
+    },
+    {
+      "path": "music/cable-animation-v2/sample-15.200s.png",
+      "bytes": 2077161,
+      "sha256": "f74807ce97cfe572435feab51dc4951ff1911638bb5266aefd3d32be01264d95"
+    },
+    {
+      "path": "music/cable-animation-v2/sample-19.967s.png",
+      "bytes": 2076121,
+      "sha256": "7e788fbf9d089dbd340fe4e9c0b4bb074a69c2a9413427a06e9997aaf3f3913f"
+    },
+    {
+      "path": "music/cable-animation-v2/sample-4.550s.png",
+      "bytes": 2076448,
+      "sha256": "6a762ad14d579f842c84ababa9a76c17a8be820d172bf01ab7970114c7b4f77e"
+    },
+    {
+      "path": "music/cable-animation-v2/sample-8.000s.png",
+      "bytes": 2077584,
+      "sha256": "46cf3b8063aadc1d8e5bb21a64abe4d3e3459e2c13831a4f1b664088da55d05d"
+    },
+    {
+      "path": "music/cable-animation-v2/scene-plan-v2.json",
+      "bytes": 23325,
+      "sha256": "bb16e6b4afeedcf7ecb6eae79c5f9960d03885d2270cea6cb701a99626116b18"
+    },
+    {
+      "path": "music/cable-animation-v2/setup_scene.py",
+      "bytes": 2793,
+      "sha256": "b9eb7ba575b18329f2fd334538e121b9caffa4aa77562fe016c806b9d99d4d38"
+    },
+    {
+      "path": "music/cable-animation-v3/README.md",
+      "bytes": 2710,
+      "sha256": "b28e5f81487d2807ffdf1cc1ac992ffe9be273a7aaf7cb70c3ad59fcc41c3a9e"
+    },
+    {
+      "path": "music/cable-animation-v3/analytic-validation.json",
+      "bytes": 2356,
+      "sha256": "e9209216ecd1ec4227d13e5a57b22a9fcb811dd6072724cc3678e5afb6a3ef65"
+    },
+    {
+      "path": "music/cable-animation-v3/approved-v3-preview.json",
+      "bytes": 5040,
+      "sha256": "f6772eef90b7455ec5ab1fb9825b3cfe97e8c40edddacadefcf987d7c761bf6f"
+    },
+    {
+      "path": "music/cable-animation-v3/assemble-with-colony.py",
+      "bytes": 6119,
+      "sha256": "f2e32bf01987c0c5a9bbf3dac9e9d3c9c5150ace1c091f19f2f4a60bcfe03f4f"
+    },
+    {
+      "path": "music/cable-animation-v3/combined-contact-sheet.jpg",
+      "bytes": 828809,
+      "sha256": "0914176c430730b4a2420135d7e7f8489b2e88acaf9abfe72a7a25ef2995c951"
+    },
+    {
+      "path": "music/cable-animation-v3/combined-frame-3608s.jpg",
+      "bytes": 203051,
+      "sha256": "7d3d70bb0ab20222987b0064e8ab912a4e8de9e1455fe462c6ce7c5e0d0f05e8"
+    },
+    {
+      "path": "music/cable-animation-v3/combined-frame-7196s.jpg",
+      "bytes": 202873,
+      "sha256": "1e54a827e8e85962f9f725154f43c2120106f3e1bb074c3215b01514e81eece4"
+    },
+    {
+      "path": "music/cable-animation-v3/combined-frame-8s.jpg",
+      "bytes": 203051,
+      "sha256": "7d3d70bb0ab20222987b0064e8ab912a4e8de9e1455fe462c6ce7c5e0d0f05e8"
+    },
+    {
+      "path": "music/cable-animation-v3/decoded-v3-8s.png",
+      "bytes": 1393957,
+      "sha256": "f9b39ff06b65cded0bb220a499694b63551a5adeaa4e39b36f78a3739a2e1558"
+    },
+    {
+      "path": "music/cable-animation-v3/delivery-v3.json",
+      "bytes": 8518,
+      "sha256": "0cabb0a72ec420bf3fb99aceadc76b3c200f3e518898c79ae33c87a7a42fac36"
+    },
+    {
+      "path": "music/cable-animation-v3/inspect_final.py",
+      "bytes": 762,
+      "sha256": "d1fe2ebda37eb3cd38fa8c62ef5f59f048c490eb025616ff18158c0eb5e7076d"
+    },
+    {
+      "path": "music/cable-animation-v3/isolated-validation.json",
+      "bytes": 2718,
+      "sha256": "e4f52c71c0fc3de135fa765e597fa0219a69dd9d308f2e125dabb56f30cfdf0c"
+    },
+    {
+      "path": "music/cable-animation-v3/make-two-hours-v1.py",
+      "bytes": 5141,
+      "sha256": "4e2893ad9f0262f55870b976b257f01f17e6ef6d78dcc620579ed388b639cc86"
+    },
+    {
+      "path": "music/cable-animation-v3/prepare_assembly.py",
+      "bytes": 1408,
+      "sha256": "655aa9ece8ba16a81b1e16292166a8b0d2c514a403aa2990f74463351997b515"
+    },
+    {
+      "path": "music/cable-animation-v3/prepare_audio.py",
+      "bytes": 1163,
+      "sha256": "3ad4ee63d532093946477a2deba363f656a47a31ba5c99f87d33d28002d0bd31"
+    },
+    {
+      "path": "music/cable-animation-v3/prepare_delivery.py",
+      "bytes": 1443,
+      "sha256": "cb57cf73d6470445daad92d94c336ce4117aca5b61c79b841cd2c71f26ce828b"
+    },
+    {
+      "path": "music/cable-animation-v3/preview-validation.json",
+      "bytes": 7860,
+      "sha256": "90faec2b1c61a4714e2be943846b4611892edf8c968f2c9a75a65d82a0b23b31"
+    },
+    {
+      "path": "music/cable-animation-v3/record_assembly.py",
+      "bytes": 11663,
+      "sha256": "3ad90f0723d7ad22d631d97fb7e2c97884bc9b108a67cd000b8b44949f32913b"
+    },
+    {
+      "path": "music/cable-animation-v3/record_delivery.py",
+      "bytes": 7605,
+      "sha256": "a2af2083f99885963de33f9a55695e7828bdd4b0269dc0690cc5c2b04fa8ce10"
+    },
+    {
+      "path": "music/cable-animation-v3/render_cable_v3.py",
+      "bytes": 8124,
+      "sha256": "beea222306563652d3efbfdb3267bf57f770cd8df4c6344a33aa730f09b991b2"
+    },
+    {
+      "path": "music/cable-animation-v3/render_delivery.py",
+      "bytes": 4664,
+      "sha256": "d4d1373d4352a5864ae0e03b3b716a33e7d8da205e7a8f56a64fc1450dd00560"
+    },
+    {
+      "path": "music/cable-animation-v3/sample-0.000s.png",
+      "bytes": 2076019,
+      "sha256": "29a40aebdf9a5d4dca161574b63aeddcf88b3ca4bc5e557e029d3b74f50759fd"
+    },
+    {
+      "path": "music/cable-animation-v3/sample-12.000s.png",
+      "bytes": 2077905,
+      "sha256": "1aca2cfd0d6d1d7b6ba168a12b6543894c7e17d7486991c712e3bd784f82c420"
+    },
+    {
+      "path": "music/cable-animation-v3/sample-16.000s.png",
+      "bytes": 2077871,
+      "sha256": "06bc129b1b12425deb4c30b7a2185e7a8f15e1019559f8c31e51c9ffda461ba1"
+    },
+    {
+      "path": "music/cable-animation-v3/sample-19.967s.png",
+      "bytes": 2076162,
+      "sha256": "166a3d692b1a516c6d530e922fe0a1ae0ede29b0df425a07e69ff601e7d3d8c7"
+    },
+    {
+      "path": "music/cable-animation-v3/sample-4.000s.png",
+      "bytes": 2077187,
+      "sha256": "c0f0f27121b36d721cd26d46790978b969ecf05dd3259fc2215d2830bd5b9f80"
+    },
+    {
+      "path": "music/cable-animation-v3/sample-8.000s.png",
+      "bytes": 2077742,
+      "sha256": "b4f68a01025a760b9e8d7d04ca52723df52d20bcb1a9324462db59e411bf550e"
+    },
+    {
+      "path": "music/cable-animation-v3/scene-plan-v3.json",
+      "bytes": 25666,
+      "sha256": "67bf483c1d822198dd78e7469ad4733f86e2dddc5697a072628fec708c62dcdd"
+    },
+    {
+      "path": "music/cable-animation-v3/screen-mask.png",
+      "bytes": 4863,
+      "sha256": "668cacb95c3dae5d125b635f7fa8d12745f3c916a0fbc50a37d075bfc5116a42"
+    },
+    {
+      "path": "music/cable-animation-v3/screen-sample-0.000s.png",
+      "bytes": 424028,
+      "sha256": "f6fd40b8948b349e189d36ab9ebef849c531beb435f62beb7b3eb3605c4e40fa"
+    },
+    {
+      "path": "music/cable-animation-v3/screen-sample-12.000s.png",
+      "bytes": 425298,
+      "sha256": "b5484cb19c51315aea072432aabe69380f141fa1789fd36093b48a1e708943ce"
+    },
+    {
+      "path": "music/cable-animation-v3/screen-sample-16.000s.png",
+      "bytes": 425219,
+      "sha256": "014db3299381f0187a9941eb00d0b7eda2d95e52c0321734aac6a359131e0b27"
+    },
+    {
+      "path": "music/cable-animation-v3/screen-sample-19.967s.png",
+      "bytes": 424175,
+      "sha256": "3dd1075038c12586fcebf58d938e540a8bb73bdb86cb76a0942c15060a8d87b3"
+    },
+    {
+      "path": "music/cable-animation-v3/screen-sample-4.000s.png",
+      "bytes": 424965,
+      "sha256": "a67ee9994d4218eb005384fe21b8a40d0353232412f9eaaa2b104dd65a2229f3"
+    },
+    {
+      "path": "music/cable-animation-v3/screen-sample-8.000s.png",
+      "bytes": 425233,
+      "sha256": "fd88bf4d6c93d5942c4b73361d6240cfe206226482e94b651a8c20c1bb97305d"
+    },
+    {
+      "path": "music/cable-animation-v3/screens-detail.png",
+      "bytes": 423692,
+      "sha256": "2a59994c6a012e9fc5d94edff175495254040634c0a7f68b4d66454f722ef726"
+    },
+    {
+      "path": "music/cable-animation-v3/setup_scene.py",
+      "bytes": 1436,
+      "sha256": "870191fe3b33e71a095ad4ad5ae6577bde19132b964542d11d47277014e8905a"
+    },
+    {
+      "path": "music/colony-sfx-update/backup-2026-10-10.json",
+      "bytes": 415,
+      "sha256": "10eb72bfcf53541aeb436f14a45ddba8f8edb237fde6268e042250cd6061c25d"
+    },
+    {
+      "path": "music/colony-sfx-update/make_rainline_hour.py",
+      "bytes": 6518,
+      "sha256": "ab35212ea82e9064b3f8ab205fadc89a8fdeff7ed2ec05b93bebfddbdfe6ea3e"
+    },
+    {
+      "path": "music/colony-sfx-update/record_delivery.py",
+      "bytes": 10508,
+      "sha256": "4c793b7704766873b051ea0208a9e93670775b24670de0e539c3864466fb4dd7"
+    },
+    {
+      "path": "music/colony-sfx-update/record_rain_v3.py",
+      "bytes": 7432,
+      "sha256": "5b2ae52b9d206aa0e697851ba799efc887e950e1214ed8fe84b38e522944a28c"
+    },
+    {
+      "path": "music/colony-sfx-update/reduce_rain_v2.py",
+      "bytes": 4465,
+      "sha256": "33f2226b4688624dc5b41b70ac58e3a69e88ca81b1b452fd01894eb9e02afc6c"
+    },
+    {
+      "path": "music/colony-sfx-update/reduce_rain_v3.py",
+      "bytes": 2375,
+      "sha256": "e3f03f7c1bb54a50096c9f7c281cd09a5d8e49cb491498eed63027989089be60"
+    },
+    {
+      "path": "music/colony-sfx-update/sfx.py",
+      "bytes": 4342,
+      "sha256": "77b1ef42687d6c61e623de7b33284e140f448f2d280c8285eaa5b66f9dddb025"
+    },
+    {
+      "path": "music/colony-sfx-update/test_colony_sfx.py",
+      "bytes": 4466,
+      "sha256": "ad1c58a6cde694b9d0ef7926e1b289eaa12a92be12c33759824cbc99e6e84432"
+    },
+    {
+      "path": "music/colony-sfx-update/tool-delivery-v1.json",
+      "bytes": 933,
+      "sha256": "34c9133bea2d7684dfe6b97371ff14a18253fbc089afbce35d8b05132773bef6"
+    },
+    {
+      "path": "music/colony-sfx-update/update_app.py",
+      "bytes": 11005,
+      "sha256": "724f33a4a31f0bedde4ce806864525ccd0c0aea7867e1009e4c3a0739e5a8dfd"
+    },
+    {
+      "path": "music/icebound-animation-v1/README.md",
+      "bytes": 3783,
+      "sha256": "11a54d9568f2fdd3b5fe5d29774fee3de492eb8358e557daf2aaf0da051759f6"
+    },
+    {
+      "path": "music/icebound-animation-v1/analytic-test-a-validation.json",
+      "bytes": 2731,
+      "sha256": "b479d682a6b408777d5404d6ca45ee08fb6241f5aa9c2c7c2bef04e481ae3a02"
+    },
+    {
+      "path": "music/icebound-animation-v1/analytic-validation.json",
+      "bytes": 2730,
+      "sha256": "6995ff582efbc2d24ae35b520a676e0b99b2b370803497c074e15e10bdb1e8d4"
+    },
+    {
+      "path": "music/icebound-animation-v1/basin_spindrift-b-decoded-4.6s.png",
+      "bytes": 1438088,
+      "sha256": "de6ea24ca79dabeac578b2f5e31faaffc7df84fce89a53cf2ddc5bf722aa2f19"
+    },
+    {
+      "path": "music/icebound-animation-v1/basin_spindrift-decoded-4.6s.png",
+      "bytes": 1438026,
+      "sha256": "31fe0f2d290753862808a407761a43c9de69956468e9387e3291f08179ed7488"
+    },
+    {
+      "path": "music/icebound-animation-v1/decoded-preview-8s.png",
+      "bytes": 1416712,
+      "sha256": "a8278f8554d55d98fd3ff853e664113933280f7fc34b1f44c782f803427a0287"
+    },
+    {
+      "path": "music/icebound-animation-v1/delivery-v1.json",
+      "bytes": 6474,
+      "sha256": "423857dbef3149bece14e886f271335bbdbc1c7fa1d314d085ea650e1596288b"
+    },
+    {
+      "path": "music/icebound-animation-v1/far_spindrift-b-decoded-4.6s.png",
+      "bytes": 1438766,
+      "sha256": "de899dbb354177e82f7a1b99ff613a788bf565160d1ce869ae67c5f16c914cf4"
+    },
+    {
+      "path": "music/icebound-animation-v1/far_spindrift-decoded-4.6s.png",
+      "bytes": 1438836,
+      "sha256": "22d9bfc10e3a5b5b5b343c54bf315511daae484fcfd26407dbe573c91ea54270"
+    },
+    {
+      "path": "music/icebound-animation-v1/isolated-test-a-validation.json",
+      "bytes": 3046,
+      "sha256": "dbd1ac395177ee5c494adafd6e65beac55f149cfe6616aa48fee34c61f8e4810"
+    },
+    {
+      "path": "music/icebound-animation-v1/isolated-validation.json",
+      "bytes": 3052,
+      "sha256": "b0998863ddcc6979e44f839ce6c453d2f5ed90bdaf493aba212bd51d233f3d16"
+    },
+    {
+      "path": "music/icebound-animation-v1/lights-detail.png",
+      "bytes": 1103463,
+      "sha256": "afe4fecc0be57cf88d4f354f83584d1cdf8f85c48c0562ef2c6760f9eb99e843"
+    },
+    {
+      "path": "music/icebound-animation-v1/mask-review.png",
+      "bytes": 2341408,
+      "sha256": "ee15e2b436ff3cc4b6243de407a523cd2e47b360adcd83f13354265473abd0f5"
+    },
+    {
+      "path": "music/icebound-animation-v1/masks/basin_spindrift.png",
+      "bytes": 10655,
+      "sha256": "6204d2b6b80f3194ef6b700eeaf14d922d7829e02110d7d576ac16d1676701ab"
+    },
+    {
+      "path": "music/icebound-animation-v1/masks/entrance.png",
+      "bytes": 6490,
+      "sha256": "835511fc067efc2297ef16015142be9684b79b4897786a66d09b36440e7c99f0"
+    },
+    {
+      "path": "music/icebound-animation-v1/masks/far_spindrift.png",
+      "bytes": 7643,
+      "sha256": "e69abfd1e081a427fd2cea74186c4354adb76966bfd91ecbb1761fea4aad60c0"
+    },
+    {
+      "path": "music/icebound-animation-v1/masks/lights.png",
+      "bytes": 4028,
+      "sha256": "890d28a0d2e1f3505518e67bd25e09aec0f29124273f45ba415afefd3c0378cb"
+    },
+    {
+      "path": "music/icebound-animation-v1/masks/room_spill.png",
+      "bytes": 5093,
+      "sha256": "4af8c442993e215ea5236113fb36ffd07263d500824bc70287c4615643198035"
+    },
+    {
+      "path": "music/icebound-animation-v1/masks/sky.png",
+      "bytes": 21362,
+      "sha256": "b963ea466741d7e82682807678c0e3c9de9b0bdc28a9284875154ee91e443cd4"
+    },
+    {
+      "path": "music/icebound-animation-v1/preview-validation.json",
+      "bytes": 5537,
+      "sha256": "2d0c7a34707fdf105d81b30715bc744164d176b586b2d8d9d1c6cd4d5ea5ef7e"
+    },
+    {
+      "path": "music/icebound-animation-v1/record_delivery.py",
+      "bytes": 8516,
+      "sha256": "65ea2068338b6418848808ad74a6c93f3ce50b20a26f1e20d2688567c6190569"
+    },
+    {
+      "path": "music/icebound-animation-v1/render_icebound-test-a.py",
+      "bytes": 6601,
+      "sha256": "bd6d7e20c55e31cc88886ffc1c16b92eafd6968e25ee1871bc86d840203627f8"
+    },
+    {
+      "path": "music/icebound-animation-v1/render_icebound.py",
+      "bytes": 6651,
+      "sha256": "526c262ada8be002c8ee9c3d3ce45f02fbc1b9e0ded767637c67050392e68788"
+    },
+    {
+      "path": "music/icebound-animation-v1/sample-0.000s.png",
+      "bytes": 2375436,
+      "sha256": "320dc523e7830f20f462b7631ed00837d625a57fb5665ed676eab5fb6ba1b910"
+    },
+    {
+      "path": "music/icebound-animation-v1/sample-12.000s.png",
+      "bytes": 2374298,
+      "sha256": "159ee5ceef3aa493874419b7f6a1ede978d3da67148e85eab476b30563e33e90"
+    },
+    {
+      "path": "music/icebound-animation-v1/sample-16.000s.png",
+      "bytes": 2374673,
+      "sha256": "0f3f1bef60230d79a1b114a0715a8544555b213eb0bcc088b61fbd8aa4ea668c"
+    },
+    {
+      "path": "music/icebound-animation-v1/sample-19.967s.png",
+      "bytes": 2375573,
+      "sha256": "6c32a34e24b28214ff512a6759de31b5c77de29a4033dd0f886fdd96ef97f8a6"
+    },
+    {
+      "path": "music/icebound-animation-v1/sample-4.600s.png",
+      "bytes": 2371760,
+      "sha256": "2505088df0f2a4f11095e957704b32367a7d9ff4e0580d263c0d23820f90e7ad"
+    },
+    {
+      "path": "music/icebound-animation-v1/sample-8.000s.png",
+      "bytes": 2373911,
+      "sha256": "cb6b947a873980028c8e611da2e50ca2b638cd4cc9a1f1abd69a9a6fe54454ff"
+    },
+    {
+      "path": "music/icebound-animation-v1/scene-plan-test-a.json",
+      "bytes": 12126,
+      "sha256": "09133577d9a51cc2872f6a34ac229bca39204184541a92c96e677facff79982c"
+    },
+    {
+      "path": "music/icebound-animation-v1/scene-plan-v1.json",
+      "bytes": 12338,
+      "sha256": "1de517f8f2abd0cf9096412205e7c5876afbaee96d2083c36b8da38730f881df"
+    },
+    {
+      "path": "music/icebound-animation-v1/setup_scene.py",
+      "bytes": 3995,
+      "sha256": "5cf284e758f00fd0695130ad598a5d5ef69d5ed09a170a1560277e107340cc59"
+    },
+    {
+      "path": "music/icebound-animation-v1/sky-b-decoded-4.6s.png",
+      "bytes": 1419959,
+      "sha256": "081c1fe4bf505ae63ffaa0ff8c4b66f5f76c7fc8be81792a69942ccaeead3ae6"
+    },
+    {
+      "path": "music/icebound-animation-v1/sky-decoded-4.6s.png",
+      "bytes": 1419959,
+      "sha256": "081c1fe4bf505ae63ffaa0ff8c4b66f5f76c7fc8be81792a69942ccaeead3ae6"
+    },
+    {
+      "path": "music/icebound-animation-v2/README.md",
+      "bytes": 3144,
+      "sha256": "e09ffdd17d3d01e5c2794d9a3e4c4f3eab2b2d714738f2e3cd0a630e69d76463"
+    },
+    {
+      "path": "music/icebound-animation-v2/analytic-validation.json",
+      "bytes": 2562,
+      "sha256": "e012db8460d5ac67fa4e015644dd90097ca7019d7285e9321e554cb8a5021284"
+    },
+    {
+      "path": "music/icebound-animation-v2/antenna-detail.png",
+      "bytes": 284246,
+      "sha256": "004a7fcfe230e0b875d28a05ebcbbdd0eebcd121b3ecdc81368ea815e6bf4924"
+    },
+    {
+      "path": "music/icebound-animation-v2/approved-v2-preview.json",
+      "bytes": 4684,
+      "sha256": "e68e3c218652483bf52bb4ce9169fd59161ad7168109ebac54cab3107f17b76b"
+    },
+    {
+      "path": "music/icebound-animation-v2/beacon-detail-0.7s.png",
+      "bytes": 116412,
+      "sha256": "ca42e07a4bc5f2128faadba48c544d5d1829b1ebfa4a2028279dce99632c32e9"
+    },
+    {
+      "path": "music/icebound-animation-v2/beacon-detail-2.3s.png",
+      "bytes": 116414,
+      "sha256": "00eb1e40863ad6c7dc51a6d114bdf36eb80c8d5d2f122beba528b8d63a60e15e"
+    },
+    {
+      "path": "music/icebound-animation-v2/decoded-isolated-0.7s.png",
+      "bytes": 1443778,
+      "sha256": "2960754ecec6828ac1c4c58be46b95b12a2183fb4989a5a554aa587ca2922fff"
+    },
+    {
+      "path": "music/icebound-animation-v2/decoded-preview-4.7s.png",
+      "bytes": 1422072,
+      "sha256": "f555f91f5f53e58d6dd6a55ce22f467018c65084e5c90707929e32a02ce5d846"
+    },
+    {
+      "path": "music/icebound-animation-v2/delivery-v2.json",
+      "bytes": 7397,
+      "sha256": "3a69d3390b187a8575890f0632ecc2854c98cd55a6e6d71e3cfbc4a2cf5afc16"
+    },
+    {
+      "path": "music/icebound-animation-v2/isolated-validation.json",
+      "bytes": 2605,
+      "sha256": "6a18a5733fba52f6681b904112f0c300c213633aba295cab1621e4ccfe637aa4"
+    },
+    {
+      "path": "music/icebound-animation-v2/preview-validation.json",
+      "bytes": 7033,
+      "sha256": "fc74b46b4d795cc180e6e4a0b9f0d294fc5906c28df634dadd5058aa158da073"
+    },
+    {
+      "path": "music/icebound-animation-v2/record_acceptance.py",
+      "bytes": 3286,
+      "sha256": "0ba0f2cad2fa42853cc8efd12bfc949ccfbd8859851dbdb67aaea798a465ae02"
+    },
+    {
+      "path": "music/icebound-animation-v2/record_delivery.py",
+      "bytes": 7669,
+      "sha256": "0c8c7904c36d7b9da622a463c3dabcf3d0bebe88bb3518345641bbd53bf31e21"
+    },
+    {
+      "path": "music/icebound-animation-v2/render_icebound_v2.py",
+      "bytes": 7362,
+      "sha256": "4c5500d4f9ac0b19522fadfd915ae1968b9ef15bfa5aeb386fb3a18afafa13bf"
+    },
+    {
+      "path": "music/icebound-animation-v2/sample-0.000s.png",
+      "bytes": 2381007,
+      "sha256": "4208bdea8a167b9aa41177c6fec1ca24548a8e107958f9eb7ddbf575880e7a2a"
+    },
+    {
+      "path": "music/icebound-animation-v2/sample-0.700s.png",
+      "bytes": 2380498,
+      "sha256": "b64f8a9303c6415bca88066c527996a5fd80c27a8f22e7cf5675847470af298a"
+    },
+    {
+      "path": "music/icebound-animation-v2/sample-1.300s.png",
+      "bytes": 2380367,
+      "sha256": "97a570668b9e97a414d14051e7930cf5844b02ec40d36f2489f4f269c45f5fff"
+    },
+    {
+      "path": "music/icebound-animation-v2/sample-12.000s.png",
+      "bytes": 2380031,
+      "sha256": "9ee977a01f984f40bade61a2db43691eeb4002e9dcb1f18f9b7ac5ce4ef21b7d"
+    },
+    {
+      "path": "music/icebound-animation-v2/sample-16.000s.png",
+      "bytes": 2379824,
+      "sha256": "63d70a89b52dbc1c69eb0b70936707d0394c7e95ccf90f9d3959c0cc3656bff9"
+    },
+    {
+      "path": "music/icebound-animation-v2/sample-19.967s.png",
+      "bytes": 2381294,
+      "sha256": "9bd73531ad24ee69685bf962677c6e7958b92ecbccd78044eab45309deca0c45"
+    },
+    {
+      "path": "music/icebound-animation-v2/sample-2.300s.png",
+      "bytes": 2379453,
+      "sha256": "c5534c4b37b8c1004ff61c62887ad6e9aed7ba480baf494887718dd12666e61d"
+    },
+    {
+      "path": "music/icebound-animation-v2/sample-4.700s.png",
+      "bytes": 2377783,
+      "sha256": "e41cccf9f09d0e6a56097932fc99f0d5d15cc1f9d9f74928210a74af9a7156e5"
+    },
+    {
+      "path": "music/icebound-animation-v2/sample-8.000s.png",
+      "bytes": 2378859,
+      "sha256": "83c837cefcb1fb257326810a68f278596d64556f2c5d8b47fc0367999447bc60"
+    },
+    {
+      "path": "music/icebound-animation-v2/scene-plan-v2.json",
+      "bytes": 2573,
+      "sha256": "942d84f12db944a909d5cf7db973df58b44ca2aa4ecfa2304072abedc68b8905"
+    },
+    {
+      "path": "music/icebound-animation-v2/setup_scene.py",
+      "bytes": 1516,
+      "sha256": "664c011e72fee8e80345ba9594db0170f8e09584ee3d1a780b4cbdf0b284b843"
+    },
+    {
+      "path": "music/icebound-animation-v3/README.md",
+      "bytes": 3015,
+      "sha256": "86395ba5d697696908d7b9ba4f179358381262a1aaee6648bf0d6264e8dc617f"
+    },
+    {
+      "path": "music/icebound-animation-v3/analytic-validation.json",
+      "bytes": 3499,
+      "sha256": "c4042781037c2ee97b18f78a53341c37c5246aa50ce2cd0664843a8bb7346d05"
+    },
+    {
+      "path": "music/icebound-animation-v3/assemble-with-colony.py",
+      "bytes": 6209,
+      "sha256": "8122444723ec8d073f10dee8aa03441193acd043d12768eb4157cdd12cf19522"
+    },
+    {
+      "path": "music/icebound-animation-v3/decoded-preview-28.7s.png",
+      "bytes": 1422841,
+      "sha256": "95eda1aea8a15a6835ff0f521d9cffbbc217a9d5a01c9163dc67470d2dbba903"
+    },
+    {
+      "path": "music/icebound-animation-v3/delivery-v3.json",
+      "bytes": 7680,
+      "sha256": "f62b6883aab9f239346d65f2925f36d504e127a1ed179abbbb5280283bd7ab88"
+    },
+    {
+      "path": "music/icebound-animation-v3/prepare_assembly.py",
+      "bytes": 1054,
+      "sha256": "b3c640fcbdcc2ccd23e24660d7ae9cb3ed07bda20359289fecc1c36a8281ca00"
+    },
+    {
+      "path": "music/icebound-animation-v3/preview-validation.json",
+      "bytes": 7324,
+      "sha256": "7378b671c8a9343b8fc7a0731a1e5b2f87c5df18ebf0842a6c16f1c800f19ffa"
+    },
+    {
+      "path": "music/icebound-animation-v3/record_assembly.py",
+      "bytes": 9368,
+      "sha256": "1b5a20076343f849b90c6e6688ffb79bcb417d5cd972e78e1f7430411e116aea"
+    },
+    {
+      "path": "music/icebound-animation-v3/record_delivery.py",
+      "bytes": 8162,
+      "sha256": "b8e57972233d51139b9cfc0eac86d4836cff9c56e2b0af62a0c9b1da3b4f1a1b"
+    },
+    {
+      "path": "music/icebound-animation-v3/render_delivery.py",
+      "bytes": 4166,
+      "sha256": "4556cafa04418904363666cb5feef791acf84efa734c11f613f9c397c12500ba"
+    },
+    {
+      "path": "music/icebound-animation-v3/render_icebound_minute.py",
+      "bytes": 7148,
+      "sha256": "f77d3a95c4b75c9b59149c07c8da3a43d6b8940a99c23da9bcc8b070ae1acf29"
+    },
+    {
+      "path": "music/icebound-animation-v3/sample-0.000s.png",
+      "bytes": 2378981,
+      "sha256": "d7e5a5d4a13744c091e99067494d2a7e1628cb67deb0892cdd24dcdcbdc4cea3"
+    },
+    {
+      "path": "music/icebound-animation-v3/sample-0.700s.png",
+      "bytes": 2378549,
+      "sha256": "f0b214b8f7f4e004c07d01c95194e0b5be9b1b623396c6c9c24e2b447bb83feb"
+    },
+    {
+      "path": "music/icebound-animation-v3/sample-20.000s.png",
+      "bytes": 2381007,
+      "sha256": "4208bdea8a167b9aa41177c6fec1ca24548a8e107958f9eb7ddbf575880e7a2a"
+    },
+    {
+      "path": "music/icebound-animation-v3/sample-28.000s.png",
+      "bytes": 2380890,
+      "sha256": "ab9ac56969a005669d690f8ee023891807cc7cbe65514c4a141263e19d4c275f"
+    },
+    {
+      "path": "music/icebound-animation-v3/sample-40.000s.png",
+      "bytes": 2380835,
+      "sha256": "49c6dac12092f861651202d9aedfca0eafe3a0bfba2ef639123a88ad3e773a50"
+    },
+    {
+      "path": "music/icebound-animation-v3/sample-48.000s.png",
+      "bytes": 2380886,
+      "sha256": "4902c090941a38bb8cebc150797d1ec63969a149381ea4aca5a849cdbf513fd1"
+    },
+    {
+      "path": "music/icebound-animation-v3/sample-59.967s.png",
+      "bytes": 2379317,
+      "sha256": "84b06a3e33fda199b4f993266a94ebca5108dd6feaf6d327185c5c4e862549b4"
+    },
+    {
+      "path": "music/icebound-animation-v3/sample-8.000s.png",
+      "bytes": 2380346,
+      "sha256": "6f642f55271f3cc54fb882b913869456ab201f669a9dcf31b5a2bfde253cfcff"
+    },
+    {
+      "path": "music/icebound-animation-v3/scene-plan-v3.json",
+      "bytes": 4251,
+      "sha256": "cf9ce41b9d80fae7a97d835c1c793ca8c4685a112751b72a3dd3c48b781e0f0c"
+    },
+    {
+      "path": "music/icebound-animation-v3/setup_scene.py",
+      "bytes": 1778,
+      "sha256": "696203b5128c427d243c203e18ec95613c7f609287b3c345a4afbfc453d662be"
+    },
+    {
+      "path": "music/prepare_icebound_audio.py",
+      "bytes": 515,
+      "sha256": "521b2fac5d92c5bd04f96ac00d1189324b69a63830c16771ee58ef194b041082"
+    },
+    {
+      "path": "music/prepare_icebound_hour.py",
+      "bytes": 1993,
+      "sha256": "5cc164c4db9ed833b5cedc281bcaa9db5152d957d92bcf6fb6ba0a39d7d1f79f"
+    },
+    {
+      "path": "music/prepare_shoreless_backup.py",
+      "bytes": 6684,
+      "sha256": "fddcaae10706ec031fe696949574a5667cf4d3497c7f48d5b8a316980169fce2"
+    },
+    {
+      "path": "music/production-backup-2026-10-10/scope.json",
+      "bytes": 1630,
+      "sha256": "5b9a56f900b06f5bf23d69e9574c3e6fb1dd648df4cf80f010f4bd4a36f48643"
+    },
+    {
+      "path": "music/rainline-animation-v5/remote-backup-verification.json",
+      "bytes": 2267,
+      "sha256": "ce6992158dedaf6d982357c34e240bc12be597eb8e5682c591af713d31914a5c"
+    },
+    {
+      "path": "music/rainline-final-v1/assemble-with-colony.py",
+      "bytes": 6208,
+      "sha256": "86b31f8abb709df8b6908cb89d0f59daae9fdf6a4ed9b88c883707062572b085"
+    },
+    {
+      "path": "music/rainline-final-v1/record_delivery.py",
+      "bytes": 10103,
+      "sha256": "1922e83dfd67d9ac14d9e4bddb8a2b367d87ade8a2eefdc47b187579b5f30876"
+    },
+    {
+      "path": "music/rainline-final-v1/render_delivery.py",
+      "bytes": 4380,
+      "sha256": "31694e84c47e303b5050594f4296f134cd32aabc42d1b9af009f61c228e04d85"
+    },
+    {
+      "path": "music/record_icebound_auditions.py",
+      "bytes": 5174,
+      "sha256": "52d7e8fae059405e76c5d93d6338a506b6a921260180daa6fceafa5f1c4bed27"
+    },
+    {
+      "path": "music/record_icebound_hour.py",
+      "bytes": 7028,
+      "sha256": "8d7f2a777579e7db659eefad6504955aaec8578f14a025bb95eb2292855371e6"
+    },
+    {
+      "path": "music/refine_icebound_join_search.py",
+      "bytes": 432,
+      "sha256": "d81aa6b414a7694de42ba9e82384a8c419062ce894fa94d1ad7049f3f22d8ce1"
+    },
+    {
+      "path": "music/repair_icebound_record_encoding.py",
+      "bytes": 392,
+      "sha256": "8b352ae4bec045ca2dc4d26df5022f9269695be3eda85be61181099acda13e94"
+    },
+    {
+      "path": "music/revise_icebound_music_v3.py",
+      "bytes": 6769,
+      "sha256": "659a0758048aaba6ddc4ca87e4e38d223867d07dd96d2aee793bebf70ca9e303"
+    },
+    {
+      "path": "music/revise_icebound_tags.py",
+      "bytes": 2153,
+      "sha256": "2753dc54208f1d3c62e2cbe4450888a3b948fdc6b7f7cc967ab655ba9004fb6d"
+    },
+    {
+      "path": "music/save-production-2026-10-10.py",
+      "bytes": 7520,
+      "sha256": "268042f009d34705649b056c4cfdff8489fe8df7d176f54598548b42e06c45e7"
+    },
+    {
+      "path": "music/select_icebound_music_v3.py",
+      "bytes": 6172,
+      "sha256": "3873e6db21a06012c260679858591ba54579b0902a950ccc97cc7106edda0ecf"
+    },
+    {
+      "path": "music/select_rainline_test.py",
+      "bytes": 7453,
+      "sha256": "d2ee4b05bc9dec70a592d0a865a2dfd79e1a10b47e8900d0f59cf28fc62e7a99"
+    },
+    {
+      "path": "music/shared-rain-overlay/Gentle_continuous_ra_#2-1791634292024.mp3",
+      "bytes": 721197,
+      "sha256": "60aea98d54ac02c6da1d0a3b22f882c7cd2071346e5f069275aded21d2f1a826"
+    },
+    {
+      "path": "music/shared-rain-overlay/rain-overlay-prompt-v1.txt",
+      "bytes": 641,
+      "sha256": "c48777786df4b33085fa695506ff43764a46d199ea3860172d7ae02b07eb224d"
+    },
+    {
+      "path": "music/shared-rain-overlay/rain-overlay-prompt-v2-short.txt",
+      "bytes": 338,
+      "sha256": "dd1970158ff499066ba59478fd2e8bc4bd09c192b412a4da94da737fb8f9b678"
+    },
+    {
+      "path": "music/shared-rain-overlay/rain-preset-current.json",
+      "bytes": 1549,
+      "sha256": "fcdb8bdf59308cf8731f4e008514eb61b6c2be58bc804d9d66957cec8e424c8a"
+    },
+    {
+      "path": "music/shared-rain-overlay/rain-source-v1.json",
+      "bytes": 431,
+      "sha256": "8363d3d02573f65efab62fc68558eb5dd6d517252668f17cdcd253917a6e3fb7"
+    },
+    {
+      "path": "music/shoreless-animation-v3/remote-backup-verification.json",
+      "bytes": 2829,
+      "sha256": "55452ac13b8a0064690685d4fef6604c7b43aebb04caf06cfb60c82396a89802"
+    },
+    {
+      "path": "music/shoreless-final-v1/assemble-with-colony.py",
+      "bytes": 6259,
+      "sha256": "e6f7900db705ddc153e820e7ef8dde714be359408966146f06ac44eb54ddbe6d"
+    },
+    {
+      "path": "music/shoreless-final-v1/build_audio.py",
+      "bytes": 4515,
+      "sha256": "d9561184d9ef226d2ddd274917b3c02d69bdacecb16cc3e8a5636b47ead9a615"
+    },
+    {
+      "path": "music/shoreless-final-v1/record_delivery.py",
+      "bytes": 8242,
+      "sha256": "f9d79379e0c4ad817f1c9a2eb89ee70468975e8c9abbac131d36a1053b076447"
+    },
+    {
+      "path": "music/shoreless-final-v1/render_delivery.py",
+      "bytes": 4553,
+      "sha256": "8e812fca24e260f81234c2c1683c42df4e176cda9295fe4482d8565a51a81ac2"
+    },
+    {
+      "path": "music/shoreless-music-v1/mix_water_preview.py",
+      "bytes": 6668,
+      "sha256": "2fd2c0b51088402c2e68b4ca23967baf8785f32104844a7ed8f8920b0f568f1d"
+    },
+    {
+      "path": "music/shoreless-music-v1/mix_water_v2.py",
+      "bytes": 5459,
+      "sha256": "79f18bc061c6b46195745b4118466a2e8f16dc617a28e675bc7103b093c8053f"
+    },
+    {
+      "path": "music/shoreless-music-v1/prepare_source.py",
+      "bytes": 7205,
+      "sha256": "0f28b129ca578d712689fcbfc5b7758a655d7ddf575a77afd453cd56a95f6749"
+    },
+    {
+      "path": "music/stage-production-2026-10-10.py",
+      "bytes": 3453,
+      "sha256": "681db36546f7070b873b323f72c43498ec418a58a50d4973c223cf0f95c94714"
+    },
+    {
+      "path": "music/youtube-tags-update-2026-10-04/OwzP2clTWR8-saved.png",
+      "bytes": 83002,
+      "sha256": "4a254eac4cc630e07e2c4cced215c5a2f22961de16760bd4f493c72f687de63b"
+    },
+    {
+      "path": "music/youtube-tags-update-2026-10-04/SoZ7xOtRCL8-saved.png",
+      "bytes": 80985,
+      "sha256": "ded62b641008891f0b06e3ac5501b951e3f54cbbc5cbe66a4efedf2542cb11f8"
+    },
+    {
+      "path": "music/youtube-tags-update-2026-10-04/nWrYvsZlNj4-saved.png",
+      "bytes": 129476,
+      "sha256": "380f47a222fc269edc880de4ec38f197b2964d369627d3cd9c7e814089c9b9e2"
+    },
+    {
+      "path": "music/youtube-tags-update-2026-10-04/studio-update.json",
+      "bytes": 5766,
+      "sha256": "b4b886cd97ccedc9bd4f361d0f6345b181a3295138c6895fe45f379e04f442aa"
+    },
+    {
+      "path": "music/youtube-tags-update-2026-10-04/sync_local.py",
+      "bytes": 1903,
+      "sha256": "6e4362254cda0fc5d27ed32fe90b384d727f9c44bc90f8bd1e8e0e193ee1880b"
+    }
+  ],
+  "excluded_untracked": [
+    "final/08-rainline-relay/music/long-source-v1/Rainline-music-join-review-60s-v1.mp3",
+    "final/08-rainline-relay/music/long-source-v1/Rainline-rain-mix-preview-v1.mp3",
+    "final/08-rainline-relay/music/long-source-v1/Rainline-rain-mix-preview-v2-half-volume.mp3",
+    "final/08-rainline-relay/music/long-source-v1/Rainline-rain-mix-preview-v3.mp3",
+    "final/08-rainline-relay/music/long-source-v1/rain-loop-28s-v1.wav",
+    "final/09-offshore-night-office/music/long-source-v1/Shoreless-music-join-review-60s-v1.mp3",
+    "final/09-offshore-night-office/music/two-hour-v1/music-two-hour-pre-fades.flac",
+    "final/09-offshore-night-office/music/water-mix-v1/Shoreless-water-short-preview-v1.mp3",
+    "final/09-offshore-night-office/music/water-mix-v1/Shoreless-water-sparse-preview-v1.mp3",
+    "final/09-offshore-night-office/music/water-mix-v1/music-excerpt-level-matched-v1.flac",
+    "final/09-offshore-night-office/music/water-mix-v2/Shoreless-music-loop-join-review-60s-v2.mp3",
+    "final/09-offshore-night-office/music/water-mix-v2/Shoreless-water-and-music-loop-review-7m20s-v2.mp3",
+    "final/09-offshore-night-office/music/water-mix-v2/Shoreless-water-short-preview-v2.mp3",
+    "final/09-offshore-night-office/music/water-mix-v2/music-loop-review-source-v2.flac",
+    "final/09-offshore-night-office/music/water-mix-v2/water-source-loop-v2.wav"
+  ],
+  "tool_commit": "284c6a756322f47d003ad7c6986d851870b99f4f"
+}

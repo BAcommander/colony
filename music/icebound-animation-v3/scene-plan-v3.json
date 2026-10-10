@@ -1,0 +1,281 @@
+{
+  "scene_name": "Icebound Weather Post",
+  "version": "v3-minute",
+  "duration": 60,
+  "fps": 30,
+  "preview_size": [
+    1280,
+    720
+  ],
+  "ffmpeg": "C:/Program Files/ShareX/ffmpeg.exe",
+  "user_request": "ok do your 60s suggestion",
+  "baseline": "music/icebound-animation-v2/approved-v2-preview.json",
+  "weather_cycle_seconds": 20,
+  "weather_speed_change_percent": 0,
+  "schedule_seed": 7303,
+  "windows": {
+    "main_room_right": [
+      [
+        7.8,
+        7.5
+      ],
+      [
+        31.2,
+        8.9
+      ],
+      [
+        55.4,
+        7.4
+      ]
+    ],
+    "habitat_one_window": [
+      [
+        4.9,
+        9.6
+      ],
+      [
+        28.6,
+        12.1
+      ],
+      [
+        51.2,
+        6.2
+      ]
+    ],
+    "habitat_two_window": [
+      [
+        15.4,
+        11.2
+      ],
+      [
+        40.3,
+        7.9
+      ]
+    ]
+  },
+  "entrance_events": [
+    {
+      "start": 4.3,
+      "hold": 0.65,
+      "transition": 0.16,
+      "depth": 0.58
+    },
+    {
+      "start": 5.2,
+      "hold": 0.3,
+      "transition": 0.08,
+      "depth": 0.35
+    },
+    {
+      "start": 23.6,
+      "hold": 1.7,
+      "transition": 0.45,
+      "depth": 0.25
+    },
+    {
+      "start": 38.2,
+      "hold": 0.53,
+      "transition": 0.16,
+      "depth": 0.44
+    },
+    {
+      "start": 39.04,
+      "hold": 0.28,
+      "transition": 0.075,
+      "depth": 0.28
+    },
+    {
+      "start": 52.1,
+      "hold": 1.15,
+      "transition": 0.35,
+      "depth": 0.23
+    }
+  ],
+  "beacon_events": {
+    "upper_mast": [
+      [
+        0.5,
+        0.3579
+      ],
+      [
+        1.1422,
+        0.2512
+      ],
+      [
+        5.1067,
+        0.3157
+      ],
+      [
+        5.7324,
+        0.2996
+      ],
+      [
+        9.4956,
+        0.3678
+      ],
+      [
+        10.1807,
+        0.2739
+      ],
+      [
+        13.5933,
+        0.3526
+      ],
+      [
+        14.2338,
+        0.2722
+      ],
+      [
+        17.5995,
+        0.3751
+      ],
+      [
+        18.1949,
+        0.2745
+      ],
+      [
+        22.9514,
+        0.389
+      ],
+      [
+        23.6513,
+        0.2991
+      ],
+      [
+        28.1368,
+        0.3819
+      ],
+      [
+        28.8004,
+        0.286
+      ],
+      [
+        33.2514,
+        0.347
+      ],
+      [
+        33.9627,
+        0.284
+      ],
+      [
+        38.2863,
+        0.3127
+      ],
+      [
+        38.8879,
+        0.2832
+      ],
+      [
+        43.3185,
+        0.3168
+      ],
+      [
+        43.9908,
+        0.2834
+      ],
+      [
+        48.8445,
+        0.3686
+      ],
+      [
+        49.5639,
+        0.254
+      ],
+      [
+        54.8811,
+        0.3785
+      ],
+      [
+        55.5117,
+        0.2851
+      ]
+    ],
+    "side_antenna": [
+      [
+        2.1,
+        0.3377
+      ],
+      [
+        2.746,
+        0.2757
+      ],
+      [
+        7.379,
+        0.3879
+      ],
+      [
+        8.0779,
+        0.2849
+      ],
+      [
+        14.0112,
+        0.3714
+      ],
+      [
+        14.7026,
+        0.2987
+      ],
+      [
+        19.4744,
+        0.3722
+      ],
+      [
+        20.1312,
+        0.2527
+      ],
+      [
+        24.3751,
+        0.3479
+      ],
+      [
+        25.0303,
+        0.2544
+      ],
+      [
+        30.1982,
+        0.3865
+      ],
+      [
+        30.8745,
+        0.2734
+      ],
+      [
+        36.0523,
+        0.3553
+      ],
+      [
+        36.6828,
+        0.297
+      ],
+      [
+        40.8825,
+        0.3246
+      ],
+      [
+        41.5845,
+        0.2782
+      ],
+      [
+        48.1103,
+        0.3327
+      ],
+      [
+        48.7552,
+        0.2981
+      ],
+      [
+        55.1006,
+        0.3471
+      ],
+      [
+        55.7629,
+        0.253
+      ]
+    ]
+  },
+  "review": {
+    "v2_look_accepted": true,
+    "new_schedule_approved": false
+  },
+  "note": "Genuine sixty-second lighting timeline over the accepted twenty-second weather cycles. Full frames are composited per timestamp; this is not three copies of the v2 video."
+}

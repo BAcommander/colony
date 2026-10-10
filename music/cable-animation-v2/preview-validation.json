@@ -1,0 +1,179 @@
+{
+  "fingerprint": {
+    "source_sha256": "72fe97b682c4ff5de7ef577e2464163941c90a48fbf1268e4f8271e3afd97c37",
+    "config_sha256": "bb16e6b4afeedcf7ecb6eae79c5f9960d03885d2270cea6cb701a99626116b18",
+    "renderer_sha256": "0ccaf0b443fb7c278d63d49becf003e3d216d06ed87f9aa0a2442fc370b9f424",
+    "dependencies": {
+      "music\\cable-animation-v1\\render_cable.py": "12cc8ad24309b48c7641766c6b91edd092ef49f463bfb4735fc58f12dd994832",
+      "music\\saltline-animation-v1\\periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music\\saltline-animation-v1\\dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "scripts\\ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "scripts\\render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts\\water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "effective_masks": {
+      "sky": "b4c397c068a9acbaac63ede067103cad97c71e9674bc00a5ebd8323cd5fe398c",
+      "valley": "e7bef422f49cecc32f162b854ef9f49e9b5957b8f82fe8cd967348f1179241e7",
+      "left_fog": "b67c1efede7c7c5f6571651382047125d11c7359a3c75fb359d85b0ffa827f5f",
+      "ravine": "f3d74c1839055f50f7b2e76e4eb9bd7f28b9eb44d11420387e29c0c4af3230c1",
+      "lights": "716f0ac1c648342de970f9ecb4f7f298ebb90635bd57fbe4128f99288e9f42d6",
+      "screen": "19c4815981841166e5b48ddacf02712c90e63497675b14fd416b50ed21c55bf0",
+      "distance_fog": "828d49f7716be5660d378530062fd76cd494da3c160a96af438648d5f57b35cd",
+      "room_lamp": "82f557b5b02709636a290f0fabcc7809a2345d098a0fd3a47e90e19e21e4b6c1",
+      "daylight": "d208d437bf16f32a815d752962643fd442272ee52058e9021dcc27939e2d43fd"
+    }
+  },
+  "clips": [
+    {
+      "path": "music/cable-animation-v2/last-cable-station-v2-preview-20s.mp4",
+      "sha256": "9eb89ec11ab3b5abc855157f3c26181b4fdfb65c89e22a097c44dafeea7a286f",
+      "frames": 600,
+      "seconds": 20,
+      "layer": "combined",
+      "prototype": false,
+      "validation": {
+        "decoded_frames": 600,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {
+          "sky": {
+            "seam_mae": 0.09740711748600006,
+            "ordinary_max_mae": 0.2898668646812439,
+            "ordinary_median_mae": 0.10386276990175247,
+            "pass": true
+          },
+          "valley": {
+            "seam_mae": 0.30790671706199646,
+            "ordinary_max_mae": 0.3544887602329254,
+            "ordinary_median_mae": 0.30626240372657776,
+            "pass": true
+          },
+          "left_fog": {
+            "seam_mae": 0.18050995469093323,
+            "ordinary_max_mae": 0.4210439920425415,
+            "ordinary_median_mae": 0.17777413129806519,
+            "pass": true
+          },
+          "ravine": {
+            "seam_mae": 0.24893289804458618,
+            "ordinary_max_mae": 0.2946332097053528,
+            "ordinary_median_mae": 0.2619657516479492,
+            "pass": true
+          },
+          "lights": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.379241466522217,
+            "ordinary_median_mae": 0.0,
+            "pass": true
+          },
+          "screen": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.4869976341724396,
+            "ordinary_median_mae": 0.0,
+            "pass": true
+          },
+          "distance_fog": {
+            "seam_mae": 0.12435967475175858,
+            "ordinary_max_mae": 0.15214797854423523,
+            "ordinary_median_mae": 0.12913140654563904,
+            "pass": true
+          },
+          "room_lamp": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 4.149752616882324,
+            "ordinary_median_mae": 0.0,
+            "pass": true
+          },
+          "daylight": {
+            "seam_mae": 0.07522275298833847,
+            "ordinary_max_mae": 0.4230833649635315,
+            "ordinary_median_mae": 0.07906250655651093,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.10301662236452103,
+            "ordinary_max_mae": 0.5959117412567139,
+            "ordinary_median_mae": 0.10778311640024185,
+            "pass": true
+          }
+        }
+      }
+    },
+    {
+      "path": "music/cable-animation-v2/last-cable-station-v2-three-loops-60s.mp4",
+      "sha256": "3d1990ca02de2262f457dc5933ae9d0875a129ac8d1332617c81414a411fbb4d",
+      "validation": {
+        "decoded_frames": 1800,
+        "fps": 30.0,
+        "sequential_timestamps": true,
+        "seam_checks": {
+          "sky": {
+            "seam_mae": 0.09740711748600006,
+            "ordinary_max_mae": 0.2898668646812439,
+            "ordinary_median_mae": 0.10386276990175247,
+            "pass": true
+          },
+          "valley": {
+            "seam_mae": 0.30790671706199646,
+            "ordinary_max_mae": 0.3544887602329254,
+            "ordinary_median_mae": 0.30626240372657776,
+            "pass": true
+          },
+          "left_fog": {
+            "seam_mae": 0.18050995469093323,
+            "ordinary_max_mae": 0.4210439920425415,
+            "ordinary_median_mae": 0.17777413129806519,
+            "pass": true
+          },
+          "ravine": {
+            "seam_mae": 0.24893289804458618,
+            "ordinary_max_mae": 0.2946332097053528,
+            "ordinary_median_mae": 0.2619657516479492,
+            "pass": true
+          },
+          "lights": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.379241466522217,
+            "ordinary_median_mae": 0.0,
+            "pass": true
+          },
+          "screen": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.4869976341724396,
+            "ordinary_median_mae": 0.0,
+            "pass": true
+          },
+          "distance_fog": {
+            "seam_mae": 0.12435967475175858,
+            "ordinary_max_mae": 0.15214797854423523,
+            "ordinary_median_mae": 0.12913140654563904,
+            "pass": true
+          },
+          "room_lamp": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 4.149752616882324,
+            "ordinary_median_mae": 0.0,
+            "pass": true
+          },
+          "daylight": {
+            "seam_mae": 0.07522275298833847,
+            "ordinary_max_mae": 0.4230833649635315,
+            "ordinary_median_mae": 0.07906250655651093,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.10301662236452103,
+            "ordinary_max_mae": 0.5959117412567139,
+            "ordinary_median_mae": 0.10778311640024185,
+            "pass": true
+          }
+        }
+      },
+      "three_repeated_decoded_payloads_identical": true
+    }
+  ],
+  "user_motion_approved": false,
+  "prior_feedback": "the movement seems ok, but clouds in the distance could do a lot more; room light flickering and sky light variations requested",
+  "inspection": "Temporal/decoded still inspection; continuous playback not claimed",
+  "silent": true
+}

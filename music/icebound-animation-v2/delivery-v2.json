@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-03",
+  "status": "V2 preview look accepted; possible refinements under discussion",
+  "user_request": "can it be snowing at all, can we put some blinking rader style lights at the top of the antenia",
+  "fingerprint": {
+    "source_sha256": "5b49468b673b762a63909defa6b202f0bff19755cd829f84c1390d63702d499d",
+    "config_sha256": "942d84f12db944a909d5cf7db973df58b44ca2aa4ecfa2304072abedc68b8905",
+    "renderer_sha256": "4c5500d4f9ac0b19522fadfd915ae1968b9ef15bfa5aeb386fb3a18afafa13bf",
+    "dependencies": {
+      "music\\cable-animation-v1\\render_cable.py": "12cc8ad24309b48c7641766c6b91edd092ef49f463bfb4735fc58f12dd994832",
+      "music\\saltline-animation-v1\\periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music\\saltline-animation-v1\\dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "scripts\\ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "scripts\\render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts\\water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "music/icebound-animation-v1/render_icebound.py": "526c262ada8be002c8ee9c3d3ce45f02fbc1b9e0ded767637c67050392e68788",
+      "music/icebound-animation-v1/scene-plan-v1.json": "1de517f8f2abd0cf9096412205e7c5876afbaee96d2083c36b8da38730f881df"
+    },
+    "effective_masks": {
+      "sky": "34ccfa5ef774c6e24ed2bc3bb89f6f2b52a0aa3ece5914369aa897906a142542",
+      "lights": "c80251f30f862fceda8fa01d96810f2437983df2fa48f5aa724b2abeafea9fba",
+      "far_spindrift": "d869c313f7eaf5bb9eb9899c130a81de28139dab9ddfdd106702090f18a66d1e",
+      "basin_spindrift": "0910cfc9b82aa2a66825dfa7599777175c10e0bc6103b328f27584a2865e9dba",
+      "entrance": "7786328ae133e41410d1b8017fb95f72c6a8af1ca2b2c776eef2fc96bac4949c",
+      "room_spill": "f42dc00d52d83440e66be5123d21780688fde8483f27295e5501aad4aaee3d30",
+      "snowfall": "189a0c9d003537f4c2542f9e5546e5a8f81f748536372915da90efae7e857742",
+      "beacons": "5149ffec09e3a61f5a914bd16c13d5d00cfd267935c307ac45181a0eb35a080b"
+    }
+  },
+  "preview": {
+    "path": "music/icebound-animation-v2/icebound-weather-post-v2-preview-20s.mp4",
+    "sha256": "aed6fccdda7d063048642534594f9c97688efb459fdb6d532aca05c26456b588",
+    "frames": 600,
+    "seconds": 20,
+    "layer": "combined",
+    "prototype": false,
+    "validation": {
+      "decoded_frames": 600,
+      "fps": 30.0,
+      "sequential_timestamps": true,
+      "seam_checks": {
+        "sky": {
+          "seam_mae": 0.12069062888622284,
+          "ordinary_max_mae": 0.1317899227142334,
+          "ordinary_median_mae": 0.12394686043262482,
+          "pass": true
+        },
+        "lights": {
+          "seam_mae": 0.08568882197141647,
+          "ordinary_max_mae": 5.973261833190918,
+          "ordinary_median_mae": 0.03985230624675751,
+          "pass": true
+        },
+        "far_spindrift": {
+          "seam_mae": 0.06556792557239532,
+          "ordinary_max_mae": 0.11993777006864548,
+          "ordinary_median_mae": 0.08003953844308853,
+          "pass": true
+        },
+        "basin_spindrift": {
+          "seam_mae": 0.1054384708404541,
+          "ordinary_max_mae": 0.18550793826580048,
+          "ordinary_median_mae": 0.11873076111078262,
+          "pass": true
+        },
+        "entrance": {
+          "seam_mae": 0.009117082692682743,
+          "ordinary_max_mae": 2.019087314605713,
+          "ordinary_median_mae": 0.017860950902104378,
+          "pass": true
+        },
+        "room_spill": {
+          "seam_mae": 0.008477842435240746,
+          "ordinary_max_mae": 0.6531149744987488,
+          "ordinary_median_mae": 0.030443159863352776,
+          "pass": true
+        },
+        "snowfall": {
+          "seam_mae": 0.05959852412343025,
+          "ordinary_max_mae": 0.08334960788488388,
+          "ordinary_median_mae": 0.06100224331021309,
+          "pass": true
+        },
+        "beacons": {
+          "seam_mae": 0.07874999940395355,
+          "ordinary_max_mae": 3.5637500286102295,
+          "ordinary_median_mae": 0.008750000037252903,
+          "pass": true
+        },
+        "combined": {
+          "seam_mae": 0.05959852412343025,
+          "ordinary_max_mae": 0.08334960788488388,
+          "ordinary_median_mae": 0.06100224331021309,
+          "pass": true
+        }
+      }
+    }
+  },
+  "three_loop_review": {
+    "path": "music/icebound-animation-v2/icebound-weather-post-v2-three-loops-60s.mp4",
+    "sha256": "435ec19fec236576e3c4377a9a3fd93722d36e76dbe9f6edf744583d91439a63",
+    "validation": {
+      "decoded_frames": 1800,
+      "fps": 30.0,
+      "sequential_timestamps": true,
+      "seam_checks": {
+        "sky": {
+          "seam_mae": 0.12069062888622284,
+          "ordinary_max_mae": 0.1317899227142334,
+          "ordinary_median_mae": 0.12394686043262482,
+          "pass": true
+        },
+        "lights": {
+          "seam_mae": 0.08568882197141647,
+          "ordinary_max_mae": 5.973261833190918,
+          "ordinary_median_mae": 0.03985230624675751,
+          "pass": true
+        },
+        "far_spindrift": {
+          "seam_mae": 0.06556792557239532,
+          "ordinary_max_mae": 0.11993777006864548,
+          "ordinary_median_mae": 0.08003953844308853,
+          "pass": true
+        },
+        "basin_spindrift": {
+          "seam_mae": 0.1054384708404541,
+          "ordinary_max_mae": 0.18550793826580048,
+          "ordinary_median_mae": 0.11873076111078262,
+          "pass": true
+        },
+        "entrance": {
+          "seam_mae": 0.009117082692682743,
+          "ordinary_max_mae": 2.019087314605713,
+          "ordinary_median_mae": 0.017860950902104378,
+          "pass": true
+        },
+        "room_spill": {
+          "seam_mae": 0.008477842435240746,
+          "ordinary_max_mae": 0.6531149744987488,
+          "ordinary_median_mae": 0.030443159863352776,
+          "pass": true
+        },
+        "snowfall": {
+          "seam_mae": 0.05959852412343025,
+          "ordinary_max_mae": 0.08334960788488388,
+          "ordinary_median_mae": 0.06100224331021309,
+          "pass": true
+        },
+        "beacons": {
+          "seam_mae": 0.07874999940395355,
+          "ordinary_max_mae": 3.5637500286102295,
+          "ordinary_median_mae": 0.008750000037252903,
+          "pass": true
+        },
+        "combined": {
+          "seam_mae": 0.05959852412343025,
+          "ordinary_max_mae": 0.08334960788488388,
+          "ordinary_median_mae": 0.06100224331021309,
+          "pass": true
+        }
+      }
+    },
+    "three_repeated_decoded_payloads_identical": true
+  },
+  "preserved_v1": "Exact at 0,8,16 seconds for every original layer",
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "duration_seconds": 20,
+  "silent": true,
+  "four_k_produced": false,
+  "user_motion_approved": true,
+  "inspection": "Full-composition temporal stills, antenna close-ups and decoded stills inspected. Continuous assistant playback not claimed.",
+  "storage": "Local uncommitted code/config/checks; review media ignored. No credits, commit or push.",
+  "approval_record": "approved-v2-preview.json"
+}

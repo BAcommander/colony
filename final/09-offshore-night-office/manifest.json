@@ -99,12 +99,18 @@
     "description_file": "description.txt",
     "description_sha256": "54a505a77feb1ef332b10c0c9263a07fdee299f6df261af9f2fad460bb5f93b3",
     "tags_file": "youtube-tags.txt",
-    "tags_sha256": "d3e9168e40119577e78470655aa3d0d84b4794a7c680d97765e3800123ea78f1",
-    "tags_characters_including_separators": 288,
-    "tags_characters_including_file_newline": 289,
-    "tags_count": 17,
+    "tags_sha256": "68915f10591b81a0b966388e8035cc65d12900feff9307df1296c2422e0c6c27",
+    "tags_characters_including_separators": 357,
+    "tags_characters_including_file_newline": 358,
+    "tags_count": 18,
     "hashtags_count": 3,
-    "keyword_note": "Scene-relevant phrases, not measured search volume or ranking guarantees"
+    "keyword_note": "Scene-relevant phrases, not measured search volume or ranking guarantees",
+    "tags_revision": {
+      "date": "2026-10-10",
+      "reason": "User requested more useful listener-oriented tags; music, sea ambience, listening uses and verified two-hour duration.",
+      "previous_file": "metadata-history/youtube-tags-before-listener-revision-2026-10-10.txt",
+      "search_volume_verified": false
+    }
   },
   "music_preparation": {
     "status": "prompts prepared; no audio generated",
@@ -214,5 +220,43 @@
       "user_motion_approved": false,
       "four_k_export_produced": false
     }
-  ]
+  ],
+  "music_current": {
+    "status": "Music join and water v2 approved; two-hour soundtrack and final video delivered",
+    "record": "music/generation-record.json",
+    "selection": "music/selected-test-v1/selection.json",
+    "selected_test": "final/09-offshore-night-office/music/selected-test-v1/Alien_Ocean_Vista_2026-10-10T155711.mp4",
+    "source_sha256": "c41d65d66448114ca858cff868a156dc42c25015cb51689bb8baa522aa6d73d4",
+    "selected_prompt": "elevenlabs-test-v3-b-open-water.txt",
+    "short_test_selected": true,
+    "final_duration_seconds": null,
+    "long_source": "final/09-offshore-night-office/music/long-source-v1/Alien_Sea_Viewport_2026-10-10T160442.mp4",
+    "long_source_sha256": "aa207b4021f18223ad8e8f5d336b17ec672f9dc425328ece8a56964b9f20b8d9",
+    "join_record": "music/long-source-v1/audition-v1.json",
+    "user_join_approved": true,
+    "water_sfx_status": "Supplied; quiet sparse audition rendered",
+    "water_mix_record": "music/water-mix-v2/delivery-v2.json",
+    "target_final_duration_seconds": 7200,
+    "user_water_mix_approved": true,
+    "two_hour_record": "music/two-hour-v1/delivery.json"
+  },
+  "final_assembly": {
+    "status": "Delivered and technically verified; full combined review/upload checks pending",
+    "record": "assembly-v1/delivery-validation.json",
+    "file": "exports/09-offshore-night-office/Shoreless-Colony-2-Hours-4K-v1.mp4",
+    "sha256": "7fddb9e35e7cac4cd0f19d367e542402f2733412164d60f3ae3f1f4698677325",
+    "duration_seconds": 7200,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30
+  },
+  "four_k_current": {
+    "file": "final/09-offshore-night-office/video-4k-v3-60s.mp4",
+    "sha256": "139e535964c31a7e12bf782c5b637b56d9c621ec52931dfae6e358fabf24a7b1",
+    "record": "delivery-v3/delivery-validation.json",
+    "same_preview_fingerprint": true,
+    "user_authorized_for_assembly": true
+  }
 }

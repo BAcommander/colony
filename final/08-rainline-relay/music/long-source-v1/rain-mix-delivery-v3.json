@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-10",
+  "source": "G:\\AI\\colony\\final\\08-rainline-relay\\music\\long-source-v1\\Above_the_Flooded_Canopy_2026-10-10T120411.mp4",
+  "source_sha256": "b0f08b39d50cb21516eeb9a3c131761188d854843b38a9e835f74ee1d66fa5b7",
+  "source_decoded_seconds": 420.0106666666667,
+  "rain_source": "G:\\AI\\colony\\music\\shared-rain-overlay\\Gentle_continuous_ra_#2-1791634292024.mp3",
+  "rain_sha256": "60aea98d54ac02c6da1d0a3b22f882c7cd2071346e5f069275aded21d2f1a826",
+  "rain_source_seconds": 30.0,
+  "rain_source_lufs": -29.5,
+  "start_seconds": 20,
+  "end_seconds": 408,
+  "overlap_seconds": 12,
+  "repeat_interval_seconds": 376,
+  "curve": "equal-power sine/cosine",
+  "gain_db": -6,
+  "opening_fade_seconds": 10,
+  "closing_fade_seconds": 20,
+  "rationale": "Trim generated opening/closing fades; match measured ambient listening levels near -20 LUFS. Join is a candidate, not a harmonic/listening verdict.",
+  "join_windows_seconds": [
+    [
+      376.0,
+      388.0
+    ],
+    [
+      752.0,
+      764.0
+    ],
+    [
+      1128.0,
+      1140.0
+    ],
+    [
+      1504.0,
+      1516.0
+    ],
+    [
+      1880.0,
+      1892.0
+    ],
+    [
+      2256.0,
+      2268.0
+    ],
+    [
+      2632.0,
+      2644.0
+    ],
+    [
+      3008.0,
+      3020.0
+    ],
+    [
+      3384.0,
+      3396.0
+    ]
+  ],
+  "audition_join_window_seconds": [
+    24,
+    36
+  ],
+  "sfx": {
+    "path": "G:\\AI\\colony\\music\\shared-rain-overlay\\Gentle_continuous_ra_#2-1791634292024.mp3",
+    "mode": "intermittent",
+    "gain_db": -11.18043885283336,
+    "start_s": 20,
+    "on_s": 120,
+    "off_s": 90,
+    "fade_in_s": 20,
+    "fade_out_s": 30,
+    "loop_crossfade_s": 2.0
+  },
+  "actual_rain_loop_overlap_seconds": 2.0,
+  "rain_windows_seconds": [
+    [
+      20,
+      140
+    ],
+    [
+      230,
+      350
+    ],
+    [
+      440,
+      560
+    ],
+    [
+      650,
+      770
+    ],
+    [
+      860,
+      980
+    ],
+    [
+      1070,
+      1190
+    ],
+    [
+      1280,
+      1400
+    ],
+    [
+      1490,
+      1610
+    ],
+    [
+      1700,
+      1820
+    ],
+    [
+      1910,
+      2030
+    ],
+    [
+      2120,
+      2240
+    ],
+    [
+      2330,
+      2450
+    ],
+    [
+      2540,
+      2660
+    ],
+    [
+      2750,
+      2870
+    ],
+    [
+      2960,
+      3080
+    ],
+    [
+      3170,
+      3290
+    ],
+    [
+      3380,
+      3500
+    ],
+    [
+      3590,
+      3600
+    ]
+  ],
+  "files": [
+    {
+      "path": "G:\\AI\\colony\\final\\08-rainline-relay\\music\\long-source-v1\\Rainline-rain-mix-preview-v3.mp3",
+      "sha256": "c452742048524437d592fe6e312180cc435b51ebcb83b5972ec75106a0b0ee17",
+      "bytes": 6241644,
+      "decoded_seconds": 260.0,
+      "decoded_samples_per_channel": 12480000,
+      "all_samples_finite": true,
+      "integrated_lufs": -20.6,
+      "true_peak_dbtp": -9.6,
+      "decoded_peak_dbfs": -9.631428714606262,
+      "full_decode_passed": true
+    },
+    {
+      "path": "G:\\AI\\colony\\exports\\08-rainline-relay\\Rainline-Relay-1-Hour-with-Rain-v3.mp3",
+      "sha256": "00c463c25bcde4ab4b5960f730c3cd67fa5cba8358055c0446d719d3a4559dbd",
+      "bytes": 86401260,
+      "decoded_seconds": 3600.0,
+      "decoded_samples_per_channel": 172800000,
+      "all_samples_finite": true,
+      "integrated_lufs": -20.7,
+      "true_peak_dbtp": -9.5,
+      "decoded_peak_dbfs": -9.561917858400133,
+      "full_decode_passed": true
+    }
+  ],
+  "assistant_listening": false,
+  "user_join_approved": true,
+  "user_rain_mix_approved": false,
+  "approval_scope": "Music transition approved; v2 quieter rain received positive feedback. V3 implements the requested further reduction at the 12.5% midpoint; no separate v3 listening verdict or full-hour approval inferred.",
+  "format": "MP3 192 kb/s, stereo 48 kHz",
+  "storage": "Local media; no commit, push or remote backup claimed.",
+  "version": 3,
+  "music_only_source": "G:\\AI\\colony\\exports\\08-rainline-relay\\Rainline-Relay-Above-the-Flooded-Canopy-1-Hour-v1.mp3",
+  "music_only_sha256": "84110ef9191e4a3ac233fa32042f12120a3b0768028e24c6ce352358a4a8a79a",
+  "rain_amplitude_relative_to_v1": 0.4375,
+  "user_feedback": "yeah that sounds better, can we take the maximum rain down 10-15% more? then record the finidings for future videos etc",
+  "join_feedback": "the transition between pieces sounds totally fine",
+  "rain_amplitude_relative_to_v2": 0.875,
+  "v2_feedback": "sounds better; reduce maximum another 10\u201315%"
+}

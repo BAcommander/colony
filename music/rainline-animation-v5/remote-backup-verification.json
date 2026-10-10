@@ -1,0 +1,51 @@
+{
+  "verified_at_utc": "2026-10-04T23:28:05.895687+00:00",
+  "commit": "102b0a5c782a6cb233a9462beb47867a87d05168",
+  "remote": "https://github.com/BAcommander/colony.git",
+  "branch": "main",
+  "method": "Fresh independent bare repository, shallow filtered remote fetch; exact restored blob comparisons. No local object alternates.",
+  "checks": {
+    "music/rainline-animation-v5/rainline-relay-v5-preview-20s.mp4": {
+      "sha256": "be81dc87de98c5e8147659df747dd3f9981411afa8bc3c6ac541c586bb63ec38",
+      "bytes": 42277671,
+      "matches_local": true
+    },
+    "music/rainline-animation-v5/scene-plan-v5.json": {
+      "sha256": "47528e529662e72ca78b9fedd0049ad729411efe80d01bc1ed57af9ed3fb6944",
+      "bytes": 28629,
+      "matches_local": true
+    },
+    "music/rainline-renderer/render_rainline.py": {
+      "sha256": "7744f3daaf181daf09daa93987409f22f9679e4c691b4aa9558e7dfd88c9e2a5",
+      "bytes": 21486,
+      "matches_local": true
+    },
+    "music/rainline-animation-v5/dependency-snapshot/render_floodplain.py": {
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "bytes": 12017,
+      "matches_local": true
+    },
+    "music/rainline-animation-v5/dependency-snapshot/water_surface.py": {
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "bytes": 3156,
+      "matches_local": true
+    },
+    "music/rainline-animation-v5/dependency-snapshot/ambient_effects.py": {
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "bytes": 1640,
+      "matches_local": true
+    },
+    "music/rainline-animation-v5/dependency-snapshot/periodic_transport.py": {
+      "sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "bytes": 1600,
+      "matches_local": true
+    },
+    "music/rainline-animation-v5/dependency-snapshot/dust_transport.py": {
+      "sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "bytes": 3185,
+      "matches_local": true
+    }
+  },
+  "verification_repository": "C:\\Users\\jazzs\\AppData\\Local\\Temp\\rainline-remote-verify-kvbh5exu",
+  "other_session_changes": "Left in original working tree, unstaged."
+}

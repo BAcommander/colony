@@ -1,14 +1,77 @@
 {
-  "status": "not generated",
+  "status": "Short music transition approved; requested two-hour MP3 delivered and fully decode-verified",
   "date_prepared": "2026-09-28",
   "provider": "ElevenLabs Music",
   "settings_observed": null,
   "price_observed": null,
-  "short_test_files": [],
-  "selected_test": null,
-  "long_export": null,
-  "user_feedback": null,
+  "short_test_files": [
+    {
+      "file": "exports/05-saltline-receiver/source/Red_Basin_Listening_Station_2026-10-03T131741.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Red_Basin_Listening_Station_2026-10-03T131741.mp4",
+      "sha256": "2a7d8dd809ca3db0357acc2f6a4f83f2afb5eaf1e815aee4208d8df73bd77302",
+      "bytes": 1515636,
+      "decoded_audio_seconds": 60.010666666666665,
+      "duration_method": "Full FFmpeg audio decode to 48 kHz stereo signed 16-bit PCM; sample count divided by sample rate.",
+      "selected": true,
+      "assistant_listened": false
+    }
+  ],
+  "selected_test": "exports/05-saltline-receiver/source/Red_Basin_Listening_Station_2026-10-03T131741.mp4",
+  "long_export": {
+    "file": "exports/05-saltline-receiver/source/Red_World_Basin_2026-10-03T133309.mp4",
+    "original_path": "C:\\Users\\jazzs\\Downloads\\Red_World_Basin_2026-10-03T133309.mp4",
+    "sha256": "88143466d2f9f4f72200a04619cd7ce0bcc51939b271d9160ecfbd57f94fb28b",
+    "bytes": 10636652,
+    "decoded_audio_seconds": 420.0106666666667,
+    "settings_observed": null,
+    "prompt_observed": null
+  },
+  "user_feedback": "i want to use this one, lets do like a 7 minute prompt we can loop? go for 2 hours?",
   "audio_approval": false,
-  "local_join_review": null,
-  "delivery_duration_seconds": null
+  "local_join_review": {
+    "record": "long-source-v1/audition-v1.json",
+    "short_audition": "exports/05-saltline-receiver/Saltline-Receiver-Red-World-Basin-join-v1.mp3",
+    "three_repeats": "exports/05-saltline-receiver/Saltline-Receiver-Red-World-Basin-three-repeats-v1.mp3",
+    "overlap_seconds": 12,
+    "source_start_seconds": 15,
+    "source_end_seconds": 407,
+    "gain_db": 6,
+    "user_approved": true
+  },
+  "delivery_duration_seconds": 7200,
+  "date_updated": "2026-10-03",
+  "selected_test_approved": true,
+  "approval_scope": "Short join approved; two-hour soundtrack and Colony combined video delivered. Full two-hour listening, combined visual review and upload checks remain pending.",
+  "planned_long_generation_seconds": 420,
+  "target_delivery_duration_seconds": 7200,
+  "current_long_prompt": "elevenlabs-long-version-v3-seven-minutes.txt",
+  "current_long_prompt_sha256": "165150ab100ae9a781c47783a12361765639fae9ad29b2ac2956878a3c5fdd25",
+  "credits_spent_by_assistant": 0,
+  "long_source_user_message": "ok heres' the file",
+  "source_upload_checks": "not observed",
+  "join_user_feedback": "transition is fine, make the 2 hour long  version",
+  "two_hour_delivery": {
+    "record": "long-source-v1/two-hour-delivery-v1.json",
+    "file": "exports/05-saltline-receiver/Saltline-Receiver-Red-World-Basin-2-Hours-v1.mp3",
+    "sha256": "4dd1f3eca00e073a75fc23bf04125d2a229a4164046d0a2bf04c9c0984d16ec7",
+    "seconds": 7200,
+    "full_decode_verified": true,
+    "full_listening_approved": false
+  },
+  "combined_video": {
+    "file": "exports/05-saltline-receiver/Saltline-Receiver-2-Hours-4K-v1.mp4",
+    "sha256": "434f548593721f3a62cdf94b5d00544f9a5a66c95e15e4f532826dd68bf3313f",
+    "bytes": 54852654686,
+    "seconds": 7200,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "validation": "assembly-v1/delivery-validation.json",
+    "tool": "Colony",
+    "full_decode_verified": true,
+    "user_full_playback_approved": false,
+    "storage": "local ignored export; not Git-backed"
+  }
 }

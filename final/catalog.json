@@ -40,7 +40,7 @@
   {
     "folder": "05-saltline-receiver",
     "title": "Saltline Receiver",
-    "status": "V5 look accepted; requested 60-second 4K v7 technically verified, visual review pending",
+    "status": "V5 look and music join accepted; requested two-hour 4K Colony export technically verified; combined user review pending",
     "artwork": "artwork-v1.png",
     "duration_seconds": 60,
     "video": "video-4k-v7-60s.mp4",
@@ -50,14 +50,15 @@
     "description": "description.txt",
     "search_tags": "youtube-tags.txt",
     "suggested_title": "youtube-title.txt",
-    "music_prompt": "music/elevenlabs-prompt-v1.txt",
+    "music_prompt": "music/elevenlabs-prompt-v2.txt",
     "animation_source": "artwork-v2-animation.png",
-    "animation_delivery": "../../music/saltline-animation-v1/LOOP_V7.md"
+    "animation_delivery": "../../music/saltline-animation-v1/LOOP_V7.md",
+    "assembly": "assembly-v1/README.md"
   },
   {
     "folder": "06-last-cable-station",
     "title": "The Last Cable Station",
-    "status": "accepted v3 artwork; new thumbnail pending review; metadata and music prompts prepared",
+    "status": "V3 artwork and animation look accepted; two-hour 4K Colony export delivered; combined review pending",
     "artwork": "artwork-v3-final.png",
     "duration_seconds": null,
     "video": null,
@@ -65,20 +66,24 @@
     "description": "description.txt",
     "search_tags": "youtube-tags.txt",
     "suggested_title": "youtube-title.txt",
-    "music_prompt": "music/elevenlabs-prompt-v1.txt"
+    "music_prompt": "music/elevenlabs-prompt-v1.txt",
+    "animation_preview": "../../music/cable-animation-v3/README.md",
+    "assembly": "06-last-cable-station/assembly-v1/README.md"
   },
   {
     "folder": "07-icebound-weather-post",
     "title": "Icebound Weather Post",
-    "status": "accepted v3 artwork; new thumbnail pending review; metadata and music prompts prepared",
+    "status": "One-hour 4K Colony export delivered; combined review pending",
     "artwork": "artwork-v3-final.png",
-    "duration_seconds": null,
+    "duration_seconds": 3600,
     "video": null,
     "thumbnail": "thumbnail-v1.jpg",
     "description": "description.txt",
     "search_tags": "youtube-tags.txt",
     "suggested_title": "youtube-title.txt",
-    "music_prompt": "music/elevenlabs-prompt-v1.txt"
+    "music_prompt": "music/elevenlabs-prompt-v3.txt",
+    "animation_preview": "../../music/icebound-animation-v3/README.md",
+    "assembly": "07-icebound-weather-post/assembly-v1/README.md"
   },
   {
     "folder": "08-rainline-relay",

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-10",
+  "source": "final/09-offshore-night-office/music/long-source-v1/Alien_Sea_Viewport_2026-10-10T160442.mp4",
+  "source_sha256": "aa207b4021f18223ad8e8f5d336b17ec672f9dc425328ece8a56964b9f20b8d9",
+  "decoded_audio_seconds": 480.0,
+  "source_integrated_lufs": -13.6,
+  "full_source_audio_decode_passed": true,
+  "source_start_seconds": 40,
+  "source_end_seconds": 444,
+  "overlap_seconds": 12,
+  "repeat_interval_seconds": 392,
+  "curve": "equal-power sine/cosine",
+  "gain_db": -6.9,
+  "candidate_level_difference_db": 0.021137237548828125,
+  "candidate_coarse_spectral_distance_db": 0.37906000219507974,
+  "rationale": "Measured level/coarse-spectrum candidate outside generated fades; no harmonic compatibility or listening claim.",
+  "audition": "final/09-offshore-night-office/music/long-source-v1/Shoreless-music-join-review-60s-v1.mp3",
+  "audition_sha256": "dfae1baa4ae38b876d9cad6980b160d6da27bda0a022e09d07df1fa3ffd12531",
+  "audition_seconds": 60,
+  "audition_join_window_seconds": [
+    24,
+    36
+  ],
+  "audition_full_decode_passed": true,
+  "audition_peak_dbfs": -7.757110595703125,
+  "user_join_approved": false,
+  "assistant_listening": false,
+  "user_feedback": "heres the music",
+  "final_duration_seconds": null,
+  "approval_scope": "Long source supplied for scene 9; new join audition pending. Final duration, water balance and animation review remain unset."
+}

@@ -2,7 +2,7 @@
   "title": "The Last Cable Station",
   "series_number": "06",
   "date": "2026-09-28",
-  "status": "User accepted final v3 art; thumbnail generated pending review; publication metadata and music prompts prepared",
+  "status": "V3 artwork and animation look accepted; two-hour 4K Colony video delivered; full combined review and thumbnail review pending",
   "artwork": {
     "file": "artwork-v1.png",
     "source": "creative/concepts/round-02/13-last-cable-station/concept-v1.png",
@@ -41,8 +41,27 @@
     "review": "Generated full image inspected: spelling, catalog number, series identity and focal subject readable; user review pending",
     "note": "Generated marketing adaptation; clean artwork not modified"
   },
-  "video": null,
-  "audio": null,
+  "video": {
+    "path": "final/06-last-cable-station/video-4k-v3.mp4",
+    "bytes": 62526558,
+    "sha256": "eb59de92482cad23972e759c190a7c0cbcc7e78a4ff4f26ac62271d6e29f76f1",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "frames": 600,
+    "seconds": 20,
+    "audio": false,
+    "codec": "H.264 lossless QP0 yuv420p",
+    "source_detail": "1672x941 native source frames upscaled with Lanczos; no added native detail"
+  },
+  "audio": {
+    "file": "exports/06-last-cable-station/Last-Cable-Station-Mineral-Valley-Transit-2-Hours-v1.mp3",
+    "sha256": "3fddc6ea9a1484c05def11df9cc2aa5dc5b051e0e1d66c06b5725746b4f52ac4",
+    "duration_seconds": 7200,
+    "record": "music/long-source-v1/two-hour-delivery-v1.json"
+  },
   "current_artwork_candidate": {
     "file": "artwork-v3-final.png",
     "sha256": "72fe97b682c4ff5de7ef577e2464163941c90a48fbf1268e4f8271e3afd97c37",
@@ -72,41 +91,131 @@
     "description_file": "description.txt",
     "description_sha256": "ca9522ab49ca443afb8ec3aae5e6c8d8fe7d8c717fe791d4502f447233ec49cd",
     "tags_file": "youtube-tags.txt",
-    "tags_sha256": "d54a66fa31a26ab3bdf84c9e2518f0821a378aefe1ba24c0d8cb48a71041f478",
-    "tags_characters_including_separators": 293,
-    "tags_characters_including_file_newline": 294,
-    "tags_count": 14,
+    "tags_sha256": "bf137729e1d21ffbd1d8fd567e59c334a425d331114f5544a2a0b4edb6a03522",
+    "tags_characters_including_separators": 322,
+    "tags_characters_including_file_newline": 323,
+    "tags_count": 15,
     "tag_limit_exclusive": 500,
     "hashtags_count": 3,
     "sign_off": "Welcome to Ambient Colony. Stay a while and listen.",
-    "keyword_note": "Scene-relevant phrases; not measured search volume or ranking guarantees"
+    "keyword_note": "Updated to music genre, intended listening use and verified duration; no measured search volume or ranking claim.",
+    "tags_revision": {
+      "date": "2026-10-04",
+      "previous_file": "youtube-tags-before-studio-update-2026-10-04.txt",
+      "previous_sha256": "d54a66fa31a26ab3bdf84c9e2518f0821a378aefe1ba24c0d8cb48a71041f478",
+      "studio_video_id": "OwzP2clTWR8",
+      "studio_saved": true,
+      "studio_character_count": 338,
+      "evidence": "../../music/youtube-tags-update-2026-10-04/studio-update.json"
+    }
   },
   "music_preparation": {
-    "status": "prompts prepared; no audio generated",
+    "status": "Mineral Valley Transit audio/transition accepted for proceeding; animation and long-form export pending",
     "files": [
       {
         "path": "music/README.md",
-        "sha256": "d29a6501ba8d2a42147eb647c5410ed0dbe88494f33e93f8ffe5ef422deea97c"
+        "sha256": "4bba3e604062fdad3ee548b4e3e77595b793bc2b2973d2ee20e69b3d5476e9fb"
       },
       {
         "path": "music/elevenlabs-prompt-v1.txt",
-        "sha256": "dec0d87d0bbf051d992ed7c1ed8024cebc097aa3dad501bf3a8f39e2b2f5dbe7"
+        "sha256": "dd1dae20b64a78355b6fa2ddb14233eb64affd0666d3ce87b6537d3e4fe22d1b"
       },
       {
         "path": "music/elevenlabs-long-version.txt",
-        "sha256": "b09ddc61f2511b3879e1a2a8d4af65922bd6ea4c64eea58b2a7518c8a2a52761"
+        "sha256": "354e0bf857990ce0af2ba4d6e43bac7cae8471c79a01ad4031e8c30b5137037d"
       },
       {
         "path": "music/generation-record.json",
-        "sha256": "0e109e4698c856d2fa014833d2571051d47d438399383a8bbcc9a3e4fc07aa21"
+        "sha256": "08ba21ed46a0872111aca7a57424f3e255d0ab366f2a29ff881b47193c9695bd"
       }
     ],
     "planned_test": "60 seconds, two variants; user runs manually after checking actual cost",
-    "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
+    "planned_long_piece": "Eight-minute source supplied; audio/transition accepted; final duration remains proposed",
     "delivery_duration_seconds": null,
     "credits_spent_by_assistant": 0,
     "workflow": "creative/MUSIC_WORKFLOW.md",
     "official_guidance": "https://elevenlabs.io/docs/overview/capabilities/music/best-practices",
     "guidance_checked": "2026-09-28"
+  },
+  "music_current": {
+    "status": "Mineral Valley Transit audio/transition accepted for proceeding; animation and long-form export pending",
+    "generation_record": "music/generation-record.json",
+    "selected_short_source": {
+      "file": "exports/06-last-cable-station/source/Colony_Cableway_Transit_2026-10-03T141226.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Colony_Cableway_Transit_2026-10-03T141226.mp4",
+      "sha256": "e9fe3cef2ceb8d4141555624fbacb7254a5bd5a2968a11909c7860e1e20fbb99",
+      "bytes": 1493340,
+      "decoded_audio_seconds": 60.010666666666665,
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 2880512,
+      "full_audio_decode_passed": true,
+      "sample_peak_dbfs": -3.4447898864746094,
+      "measured_loudness_lufs": -16.4,
+      "measured_true_peak_dbfs": -3.4,
+      "selected": true,
+      "assistant_listened": false
+    },
+    "current_long_prompt": "music/elevenlabs-long-version-v3-seven-minutes.txt",
+    "duration_status": "Seven-minute generation supplied (actual decoded source is eight minutes); two-hour delivery target remains proposed, not confirmed.",
+    "long_audio_generated": true,
+    "assistant_listened": false,
+    "long_source": {
+      "file": "exports/06-last-cable-station/source/Mineral_Valley_Transit_2026-10-03T144345.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Mineral_Valley_Transit_2026-10-03T144345.mp4",
+      "sha256": "7154f7e3bf623d29e2b7419aba4efa8079b0237ae5ee0551150b2482d68300d8",
+      "bytes": 12162062,
+      "decoded_audio_seconds": 480.0,
+      "settings_observed": null,
+      "prompt_observed": null
+    },
+    "join_audition": "music/long-source-v1/audition-v1.json",
+    "join_user_approved": true
+  },
+  "animation_plan": {
+    "status": "Historical planning brief; implementation and first preview now in animation_current",
+    "brief": "animation-plan-v1/README.md",
+    "configuration": "animation-plan-v1/scene-plan.json",
+    "source_sha256": "72fe97b682c4ff5de7ef577e2464163941c90a48fbf1268e4f8271e3afd97c37",
+    "masks_created": false,
+    "renderer_implemented": false,
+    "preview_seconds": 20,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30
+  },
+  "animation_current": {
+    "status": "V3 look accepted; 4K master delivered and verified",
+    "package": "../../music/cable-animation-v3/README.md",
+    "delivery": "../../music/cable-animation-v3/delivery-v3.json",
+    "preview": "music/cable-animation-v3/last-cable-station-v3-preview-20s.mp4",
+    "preview_sha256": "9d75189dbba6021b9551b7d3d38184734bc4627e9f337c49d9430fdd8e75a634",
+    "source_sha256": "72fe97b682c4ff5de7ef577e2464163941c90a48fbf1268e4f8271e3afd97c37",
+    "preview_seconds": 20,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "masks_created": true,
+    "renderer_implemented": true,
+    "four_k_export_produced": true,
+    "user_motion_approved": true,
+    "previous_version": "../../music/cable-animation-v2/README.md",
+    "feedback_on_v1": "the moviement seems ok, but it feels like the clouds in the distance could do alot more? any flickering of lights in the room, some sky lfight variants? how can we make this better?",
+    "feedback_on_v2": "its' getting there, can we do anything with the computer screens?",
+    "approval": "delivery-v3/approved-v3-preview.json",
+    "four_k_delivery": "delivery-v3/delivery-validation.json"
+  },
+  "combined_export": {
+    "file": "exports/06-last-cable-station/Last-Cable-Station-2-Hours-4K-v1.mp4",
+    "sha256": "e264b1bedc97c717476b9470f1ba281c7665d5ab6d246234b1f3350bd775834b",
+    "bytes": 22689819622,
+    "duration_seconds": 7200,
+    "record": "assembly-v1/delivery-validation.json",
+    "tool": "Colony",
+    "full_combined_review": false
   }
 }

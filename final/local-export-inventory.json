@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-10-04",
   "policy": "Ignored files are not backed up by Git. Paths relative to repository root.",
   "files": [
     {
@@ -189,6 +189,110 @@
       "bytes": 7921083352,
       "sha256": "0ede474c2a65c127ed86173437d73a9928a11b55ddb2e25b9464d936a4d7e8b3",
       "storage": "local ignored finished export; separate backup required"
+    },
+    {
+      "path": "exports/05-saltline-receiver/source/Red_Basin_Listening_Station_2026-10-03T131741.mp4",
+      "bytes": 1515636,
+      "sha256": "2a7d8dd809ca3db0357acc2f6a4f83f2afb5eaf1e815aee4208d8df73bd77302",
+      "storage": "local ignored source; separate backup required"
+    },
+    {
+      "path": "exports/05-saltline-receiver/source/Red_World_Basin_2026-10-03T133309.mp4",
+      "bytes": 10636652,
+      "sha256": "88143466d2f9f4f72200a04619cd7ce0bcc51939b271d9160ecfbd57f94fb28b",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/05-saltline-receiver/Saltline-Receiver-Red-World-Basin-join-v1.mp3",
+      "bytes": 1489581,
+      "sha256": "bb64741894a91b7ce9a415a3c6eb3e274253cd19141e8ca05e684a81be7b848f",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/05-saltline-receiver/Saltline-Receiver-Red-World-Basin-three-repeats-v1.mp3",
+      "bytes": 27649197,
+      "sha256": "323d6fd4621277343436e5df09465360139318b13c1bc59703b91bbd7cdadf7d",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/05-saltline-receiver/Saltline-Receiver-Red-World-Basin-2-Hours-v1.mp3",
+      "bytes": 172801351,
+      "sha256": "4dd1f3eca00e073a75fc23bf04125d2a229a4164046d0a2bf04c9c0984d16ec7",
+      "storage": "local ignored finished audio; separate backup required"
+    },
+    {
+      "path": "exports/05-saltline-receiver/Saltline-Receiver-2-Hours-4K-v1.mp4",
+      "bytes": 54852654686,
+      "sha256": "434f548593721f3a62cdf94b5d00544f9a5a66c95e15e4f532826dd68bf3313f",
+      "storage": "local ignored; separate backup required",
+      "validation": "final/05-saltline-receiver/assembly-v1/delivery-validation.json"
+    },
+    {
+      "path": "exports/06-last-cable-station/source/Colony_Cableway_Transit_2026-10-03T141226.mp4",
+      "bytes": 1493340,
+      "sha256": "e9fe3cef2ceb8d4141555624fbacb7254a5bd5a2968a11909c7860e1e20fbb99",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/06-last-cable-station/source/Mineral_Valley_Transit_2026-10-03T144345.mp4",
+      "bytes": 12162062,
+      "sha256": "7154f7e3bf623d29e2b7419aba4efa8079b0237ae5ee0551150b2482d68300d8",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/06-last-cable-station/Last-Cable-Station-Mineral-Valley-Transit-join-v1.mp3",
+      "bytes": 1585197,
+      "sha256": "02016fc273c981968e1979043874230abe055b257b5ff19872708fdcedc2126e",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/06-last-cable-station/Last-Cable-Station-Mineral-Valley-Transit-three-repeats-v1.mp3",
+      "bytes": 29833389,
+      "sha256": "c3450a09a7bb9a21fe9f42a0b0606434a7bbf2bff1f1b551765ddcbdfa7b7fd6",
+      "storage": "local ignored; separate backup required"
+    },
+    {
+      "path": "exports/06-last-cable-station/Last-Cable-Station-Mineral-Valley-Transit-2-Hours-v1.mp3",
+      "bytes": 172801360,
+      "sha256": "3fddc6ea9a1484c05def11df9cc2aa5dc5b051e0e1d66c06b5725746b4f52ac4",
+      "storage": "local ignored; not Git-backed"
+    },
+    {
+      "path": "exports/06-last-cable-station/Last-Cable-Station-2-Hours-4K-v1.mp4",
+      "bytes": 22689819622,
+      "sha256": "e264b1bedc97c717476b9470f1ba281c7665d5ab6d246234b1f3350bd775834b",
+      "storage": "local ignored; not Git-backed"
+    },
+    {
+      "path": "exports/07-icebound-weather-post/Icebound-Weather-Post-Winter-Colony-Night-1-Hour-v1.mp3",
+      "bytes": 86401357,
+      "sha256": "5191576dae072201de40c20c06a63d396121001a42861691175a9fbd70dd29e6",
+      "storage": "local ignored; not backed up by Git"
+    },
+    {
+      "path": "exports/07-icebound-weather-post/source/Winter_Colony_Night_2026-10-04T155903.mp4",
+      "bytes": 10545513,
+      "sha256": "57232ba3451862836625c88aaabf22a2d7d3d056c50417bb86fcc85d85fbb626",
+      "source_path": "C:\\Users\\jazzs\\Downloads\\Winter_Colony_Night_2026-10-04T155903.mp4",
+      "storage": "local ignored; not backed up by Git"
+    },
+    {
+      "path": "exports/07-icebound-weather-post/Icebound-Weather-Post-Winter-Colony-Night-join-v1.mp3",
+      "bytes": 1393389,
+      "sha256": "1987debbec5557ee74159300a9c2e575419fc1782192baef2d9cedc5e0fff756",
+      "storage": "local ignored; not backed up by Git"
+    },
+    {
+      "path": "exports/07-icebound-weather-post/Icebound-Weather-Post-Winter-Colony-Night-three-repeats-v1.mp3",
+      "bytes": 23449581,
+      "sha256": "ea1ca87fe3def544ea3595108b789dac3f527146196f44e2ff1c5dbfdbb94bbb",
+      "storage": "local ignored; not backed up by Git"
+    },
+    {
+      "path": "exports/07-icebound-weather-post/Icebound-Weather-Post-1-Hour-4K-v1.mp4",
+      "bytes": 22957323954,
+      "sha256": "dd4829e2420cb6665b87a46c997832d0d8bc7b4b56d3dff4c1ddeda0708e4713",
+      "storage": "local ignored; not backed up by Git"
     }
   ]
 }

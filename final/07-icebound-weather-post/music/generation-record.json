@@ -1,14 +1,74 @@
 {
-  "status": "not generated",
+  "status": "One-hour soundtrack and combined 4K Colony video delivered; full listening pending",
   "date_prepared": "2026-09-28",
   "provider": "ElevenLabs Music",
   "settings_observed": null,
   "price_observed": null,
-  "short_test_files": [],
-  "selected_test": null,
-  "long_export": null,
-  "user_feedback": null,
-  "audio_approval": false,
-  "local_join_review": null,
-  "delivery_duration_seconds": null
+  "short_test_files": [
+    {
+      "path": "C:/Users/jazzs/Downloads/Inhabited_Outpost_Beside_the_Frozen_Sea_2026-10-04T153447.mp4",
+      "bytes": 1501003,
+      "sha256": "1b9c45dd4a7e32aecc14e6c6fd05590df70995f6d5448494b0487da8cd58b6bf"
+    },
+    {
+      "path": "C:/Users/jazzs/Downloads/Station_Under_the_Ringed_Moon_2026-10-04T153447.mp4",
+      "bytes": 1518036,
+      "sha256": "9ed922ff376d9cc51f27fa765970d0e03bd6202f2dba3c534b4c9e7e596c7457"
+    },
+    {
+      "path": "C:/Users/jazzs/Downloads/Colony_Winter_Night_2026-10-04T154416.mp4",
+      "bytes": 1508916,
+      "sha256": "a14ae41c86743d2023fe8d6a641307bca5b99dcafc3e40a0bab08a8d81229d0c"
+    }
+  ],
+  "selected_test": {
+    "path": "C:/Users/jazzs/Downloads/Colony_Winter_Night_2026-10-04T154416.mp4",
+    "bytes": 1508916,
+    "sha256": "a14ae41c86743d2023fe8d6a641307bca5b99dcafc3e40a0bab08a8d81229d0c"
+  },
+  "long_export": {
+    "original_path": "C:\\Users\\jazzs\\Downloads\\Winter_Colony_Night_2026-10-04T155903.mp4",
+    "preserved_path": "exports/07-icebound-weather-post/source/Winter_Colony_Night_2026-10-04T155903.mp4",
+    "sha256": "57232ba3451862836625c88aaabf22a2d7d3d056c50417bb86fcc85d85fbb626",
+    "decoded_audio_seconds": 420.0106666666667
+  },
+  "user_feedback": "i like this one but it put some lyrics in it, i can turn that off and genereate the 6-7 minute version? i think i want it to be an hour",
+  "audio_approval": true,
+  "local_join_review": {
+    "record": "long-source-v1/audition-v1.json",
+    "status": "user accepted 2026-10-04"
+  },
+  "delivery_duration_seconds": 3600,
+  "current_short_prompt": "elevenlabs-prompt-v3.txt",
+  "feedback_date": "2026-10-04",
+  "assistant_listened": false,
+  "assessment_basis": "User listening feedback and review of the v2 prompt; no audio analysis or assistant listening claimed",
+  "long_prompt_status": "Long export supplied 2026-10-04; actual UI settings not observed",
+  "feedback_history": [
+    {
+      "date": "2026-10-04",
+      "prompt": "elevenlabs-prompt-v2.txt",
+      "feedback": "this prompt is not good the sfx is like the same sound for the whole minute, it's boring and doesn't work",
+      "selection": null
+    }
+  ],
+  "selected_direction_approved": true,
+  "approval_scope": "Short transition accepted and one-hour extension requested; full-hour listening not claimed",
+  "requested_source_duration_range_seconds": [
+    360,
+    420
+  ],
+  "current_long_prompt": "elevenlabs-long-version-v3.txt",
+  "vocal_free_user_confirmation": false,
+  "latest_user_feedback": "yeah i guess it's fine, can we make the hour long loop?",
+  "delivery": {
+    "record": "long-source-v1/one-hour-delivery-v1.json",
+    "path": "exports/07-icebound-weather-post/Icebound-Weather-Post-Winter-Colony-Night-1-Hour-v1.mp3",
+    "sha256": "5191576dae072201de40c20c06a63d396121001a42861691175a9fbd70dd29e6",
+    "seconds": 3600
+  },
+  "combined_video": {
+    "file": "exports/07-icebound-weather-post/Icebound-Weather-Post-1-Hour-4K-v1.mp4",
+    "record": "../assembly-v1/delivery-validation.json"
+  }
 }

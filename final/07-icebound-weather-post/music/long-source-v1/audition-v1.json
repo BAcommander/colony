@@ -1,0 +1,50 @@
+{
+  "status": "User accepted transition and requested one-hour loop",
+  "source": "exports/07-icebound-weather-post/source/Winter_Colony_Night_2026-10-04T155903.mp4",
+  "start_seconds": 83,
+  "end_seconds": 414,
+  "overlap_seconds": 8,
+  "repeat_interval_seconds": 323,
+  "curve": "equal-power sine/cosine",
+  "gain_db": -8.0,
+  "selection_reason": "Best tested level/coarse-spectrum candidate: source 1:23 to 6:54, 331 seconds retained, eight-second overlap. Mean overlap level difference 0.011 dB, coarse spectral distance 2.148 dB. Fixed -8 dB gain gives listening headroom. No compression, harmonic compatibility, absence-of-vocals or assistant listening claim.",
+  "short_audition_crossfade_seconds": [
+    25,
+    33
+  ],
+  "three_repeat_crossfades_seconds": [
+    [
+      323,
+      331
+    ],
+    [
+      646,
+      654
+    ]
+  ],
+  "assistant_listening": false,
+  "files": [
+    {
+      "path": "exports/07-icebound-weather-post/Icebound-Weather-Post-Winter-Colony-Night-join-v1.mp3",
+      "seconds": 58.0,
+      "sha256": "1987debbec5557ee74159300a9c2e575419fc1782192baef2d9cedc5e0fff756",
+      "bytes": 1393389,
+      "full_decode": "passed; exact sample count",
+      "preencode_peak_dbfs": -8.684086145172218,
+      "loudness_summary": "Integrated loudness:\r\n    I:         -20.3 LUFS\r\n    Threshold: -30.3 LUFS\r\n\r\n  Loudness range:\r\n    LRA:         1.9 LU\r\n    Threshold: -40.3 LUFS\r\n    LRA low:   -21.2 LUFS\r\n    LRA high:  -19.3 LUFS\r\n\r\n  True peak:\r\n    Peak:       -9.0 dBFS\r\n[out#0/null @ 0000021529d6c0c0] video:0KiB audio:10875KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\r\nsize=N/A time=00:00:58.00 bitrate=N/A speed= 406x elapsed=0:00:00.14"
+    },
+    {
+      "path": "exports/07-icebound-weather-post/Icebound-Weather-Post-Winter-Colony-Night-three-repeats-v1.mp3",
+      "seconds": 977.0,
+      "sha256": "ea1ca87fe3def544ea3595108b789dac3f527146196f44e2ff1c5dbfdbb94bbb",
+      "bytes": 23449581,
+      "full_decode": "passed; exact sample count",
+      "preencode_peak_dbfs": -8.684086145172218,
+      "loudness_summary": "Integrated loudness:\r\n    I:         -20.2 LUFS\r\n    Threshold: -30.2 LUFS\r\n\r\n  Loudness range:\r\n    LRA:         1.8 LU\r\n    Threshold: -40.2 LUFS\r\n    LRA low:   -21.1 LUFS\r\n    LRA high:  -19.3 LUFS\r\n\r\n  True peak:\r\n    Peak:       -8.9 dBFS\r\n[out#0/null @ 0000029efc11cf80] video:0KiB audio:183188KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\r\nsize=N/A time=00:16:17.00 bitrate=N/A speed= 417x elapsed=0:00:02.34"
+    }
+  ],
+  "user_join_approved": true,
+  "user_feedback": "yeah i guess it's fine, can we make the hour long loop?",
+  "approval_date": "2026-10-04",
+  "approval_scope": "Transition accepted and one-hour audio requested; no full-hour listening claim."
+}

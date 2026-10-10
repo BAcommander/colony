@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-10",
+  "app": "C:\\dev\\SpeedySlideShow\\dist\\Colony.exe",
+  "sha256": "67541ccf6726ecf81d153f097c53fb9bf69c836a3b10bf16f8e9b57806d81fff",
+  "previous_executable": "C:\\dev\\SpeedySlideShow\\dist\\Colony-before-rain-2026-10-10.exe",
+  "regression_tests": "43 passed",
+  "sfx_tests": "11 passed; real FFmpeg audio + integration",
+  "gui_smoke": "Tk constructed; packaged executable survived ten seconds, responded, then closed normally",
+  "manual_visual_review": false,
+  "commit_push": false,
+  "source_hashes": {
+    "colony\\render.py": "297c13d8f92a978f528d068da08da10a18f5f4dabdcd189aeae21471a5440762",
+    "colony\\sfx.py": "77b1ef42687d6c61e623de7b33284e140f448f2d280c8285eaa5b66f9dddb025",
+    "colony\\gui.py": "484bab035a7e06df7175c6746ed7427177140420c652ac960dbbee05fe4dc419",
+    "tests\\test_colony_sfx.py": "16cd072d6795083cddbd0ce5696317a02145e09a090d20cddcf3287ccfc7e2d4"
+  }
+}

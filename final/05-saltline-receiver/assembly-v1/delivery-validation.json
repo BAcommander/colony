@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-03",
+  "tool": "Colony application export engine",
+  "tool_path": "C:\\dev\\SpeedySlideShow\\colony\\render.py",
+  "tool_sha256": "de93079719b2e82347b6a867919eeb10a04be8f37b6da024bb21f2dcccec4621",
+  "exporter_sha256": "9557dfda9cf92007dc391f518b86c106f9ab0592456751da61a37b000098af8b",
+  "runner_sha256": "5e02f814279db28e79e0e3eb4a4704abb0c36a644593ad6bd8d5794df9c843ba",
+  "output": "G:\\AI\\colony\\exports\\05-saltline-receiver\\Saltline-Receiver-2-Hours-4K-v1.mp4",
+  "bytes": 54852654686,
+  "sha256": "434f548593721f3a62cdf94b5d00544f9a5a66c95e15e4f532826dd68bf3313f",
+  "duration_seconds": 7200,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "audio": "AAC 192k stereo 48000 Hz",
+  "settings": {
+    "crossfade": 0,
+    "match_loudness": false,
+    "gain_db": 0,
+    "overlay": "off",
+    "full_decode": true,
+    "loop_preparation": "Verified short master reused through Colony prepared-loop cache; no re-encode"
+  },
+  "source_video_sha256": "1d5acba548220427b77cbf19c84b191a50d947984a7b6e583896b82d85acbfdd",
+  "source_audio_sha256": "4dd1f3eca00e073a75fc23bf04125d2a229a4164046d0a2bf04c9c0984d16ec7",
+  "colony_loop": {
+    "path": "G:\\AI\\colony\\exports\\05-saltline-receiver\\assembly-v1\\colony-loop-preserved-4k.mp4",
+    "sha256": "1d5acba548220427b77cbf19c84b191a50d947984a7b6e583896b82d85acbfdd",
+    "decoded_yuv_frames_exactly_match_source_master": true
+  },
+  "validation": {
+    "full_video_audio_decode": true,
+    "video_packet_count": 216000,
+    "sequential_pts_dts": true,
+    "all_120_encoded_loop_payloads_identical": true,
+    "seam": "Exact decoded YUV frames retained from seam-verified short master; every repeated payload identical."
+  },
+  "review": "Technical validation and decoded still checks only; no full-two-hour artistic playback/listening or upload check claimed.",
+  "storage": "Finished two-hour video/audio and cached loop remain local ignored exports."
+}

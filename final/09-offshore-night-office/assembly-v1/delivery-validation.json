@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-10",
+  "tool": "Colony application export engine",
+  "tool_path": "C:\\dev\\SpeedySlideShow\\colony\\render.py",
+  "tool_sha256": "297c13d8f92a978f528d068da08da10a18f5f4dabdcd189aeae21471a5440762",
+  "exporter_sha256": "9557dfda9cf92007dc391f518b86c106f9ab0592456751da61a37b000098af8b",
+  "runner_sha256": "e6f7900db705ddc153e820e7ef8dde714be359408966146f06ac44eb54ddbe6d",
+  "output": "G:\\AI\\colony\\exports\\09-offshore-night-office\\Shoreless-Colony-2-Hours-4K-v1.mp4",
+  "bytes": 50705334433,
+  "sha256": "7fddb9e35e7cac4cd0f19d367e542402f2733412164d60f3ae3f1f4698677325",
+  "duration_seconds": 7200,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "audio": "AAC 192k stereo 48000 Hz",
+  "settings": {
+    "crossfade": 0,
+    "match_loudness": false,
+    "gain_db": 0,
+    "overlay": "off",
+    "full_decode": true,
+    "water": "Approved premixed water v2; no additional SFX layer",
+    "loop_preparation": "Verified short master reused through Colony prepared-loop cache; no re-encode"
+  },
+  "source_video_sha256": "139e535964c31a7e12bf782c5b637b56d9c621ec52931dfae6e358fabf24a7b1",
+  "source_audio_sha256": "39caaf00923a715c42826ab6a961058897ac88ce81d273b9c212fbf64deeca18",
+  "colony_loop": {
+    "path": "G:\\AI\\colony\\exports\\09-offshore-night-office\\assembly-v1\\colony-loop-preserved-4k.mp4",
+    "sha256": "139e535964c31a7e12bf782c5b637b56d9c621ec52931dfae6e358fabf24a7b1",
+    "decoded_yuv_frames_exactly_match_source_master": true
+  },
+  "validation": {
+    "full_video_audio_decode": true,
+    "video_packet_count": 216000,
+    "sequential_pts_dts": true,
+    "all_120_encoded_loop_payloads_identical": true,
+    "seam": "Exact decoded YUV frames retained from seam-verified short master; every repeated payload identical."
+  },
+  "review": "Technical validation and decoded still checks only; no full-two-hour artistic playback/listening or upload check claimed.",
+  "storage": "Finished two-hour video/audio and cached loop remain local ignored exports."
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-10",
+  "tool": "Colony application export engine",
+  "tool_path": "C:\\dev\\SpeedySlideShow\\colony\\render.py",
+  "tool_sha256": "297c13d8f92a978f528d068da08da10a18f5f4dabdcd189aeae21471a5440762",
+  "exporter_sha256": "9557dfda9cf92007dc391f518b86c106f9ab0592456751da61a37b000098af8b",
+  "runner_sha256": "86b31f8abb709df8b6908cb89d0f59daae9fdf6a4ed9b88c883707062572b085",
+  "output": "G:\\AI\\colony\\exports\\08-rainline-relay\\Rainline-Relay-1-Hour-4K-v1.mp4",
+  "bytes": 59340653719,
+  "sha256": "f1e6a456a0518b263721f701b59d2a32ee89b7e12625efbe93f1a31aeae1896a",
+  "duration_seconds": 3600,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "audio": "AAC 192k stereo 48000 Hz",
+  "settings": {
+    "crossfade": 0,
+    "match_loudness": false,
+    "gain_db": 0,
+    "overlay": "off",
+    "full_decode": true,
+    "rain": "Approved premixed v3; no additional SFX layer",
+    "loop_preparation": "Verified short master reused through Colony prepared-loop cache; no re-encode"
+  },
+  "source_video_sha256": "fad3fccc70a591f995ba05f3c48048a4735c373832ea95481f5b0046f1a7a438",
+  "source_audio_sha256": "00c463c25bcde4ab4b5960f730c3cd67fa5cba8358055c0446d719d3a4559dbd",
+  "colony_loop": {
+    "path": "G:\\AI\\colony\\exports\\08-rainline-relay\\assembly-v1\\colony-loop-preserved-4k.mp4",
+    "sha256": "fad3fccc70a591f995ba05f3c48048a4735c373832ea95481f5b0046f1a7a438",
+    "decoded_yuv_frames_exactly_match_source_master": true
+  },
+  "validation": {
+    "full_video_audio_decode": true,
+    "video_packet_count": 108000,
+    "sequential_pts_dts": true,
+    "all_180_encoded_loop_payloads_identical": true,
+    "seam": "Exact decoded YUV frames retained from seam-verified short master; every repeated payload identical."
+  },
+  "review": "Technical validation and decoded still checks only; no full-one-hour artistic playback/listening or upload check claimed.",
+  "storage": "Finished one-hour video/audio and cached loop remain local ignored exports."
+}

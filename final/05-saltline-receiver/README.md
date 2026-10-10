@@ -1,6 +1,6 @@
 # 05 - Saltline Receiver
 
-Selected artwork and thumbnail package, 2026-09-28. Updated 2026-09-30: v5 motion look accepted; requested one-minute 4K v7 delivered and technically verified. New longer light schedule awaits visual review. No soundtrack yet.
+Selected artwork and thumbnail package, 2026-09-28. Updated 2026-09-30: v5 motion look accepted; requested one-minute 4K v7 delivered and technically verified. New longer light schedule awaits visual review. Two-hour soundtrack delivered on 2026-10-03 after transition approval; full decode passed. The two-hour 4K Colony combined video is delivered and technically verified; combined review and extended listening remain pending. See [upload files](YOUTUBE-FILES.md) and [assembly record](assembly-v1/README.md).
 
 - `artwork-v1.png`: byte-identical copy of `creative/concepts/round-02/12-saltline-receiver/concept-v3-martian-structures.png`.
 - `thumbnail-v1.png`: built-in image-generation master, new design pending user review.
@@ -22,10 +22,10 @@ Uses the approved Ambient Colony series identity: ivory condensed title, orbital
 - [Description with three hashtags](description.txt)
 - [Studio search tags](youtube-tags.txt): 283 characters including separators, under 500.
 - [ElevenLabs music workflow and listening criteria](music/README.md)
-- [One-minute music test prompt](music/elevenlabs-prompt-v1.txt)
-- [Longer music prompt](music/elevenlabs-long-version.txt)
+- [One-minute music test prompt](music/elevenlabs-prompt-v2.txt)
+- [Longer music prompt](music/elevenlabs-long-version-v3-seven-minutes.txt)
 
-No soundtrack has been generated. Metadata contains no unverified music-production or duration claims; update it after the final audio is chosen. These are relevant search phrases, not measured keyword rankings.
+The user selected the Red Basin Listening Station short test. The longer Red World Basin export has been supplied, with join auditions in music/long-source-v1/. The transition is now approved and the two-hour soundtrack is delivered; the two-hour combined video is now delivered and technically verified. Existing publication drafts remain available with the finished export. These are relevant search phrases, not measured keyword rankings.
 
 ## Accepted animation look, 2026-09-29
 

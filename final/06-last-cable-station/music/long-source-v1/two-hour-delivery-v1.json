@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-03",
+  "file": "exports/06-last-cable-station/Last-Cable-Station-Mineral-Valley-Transit-2-Hours-v1.mp3",
+  "sha256": "3fddc6ea9a1484c05def11df9cc2aa5dc5b051e0e1d66c06b5725746b4f52ac4",
+  "bytes": 172801360,
+  "source": "exports/06-last-cable-station/source/Mineral_Valley_Transit_2026-10-03T144345.mp4",
+  "source_sha256": "7154f7e3bf623d29e2b7419aba4efa8079b0237ae5ee0551150b2482d68300d8",
+  "script_sha256": "4e2893ad9f0262f55870b976b257f01f17e6ef6d78dcc620579ed388b639cc86",
+  "source_start_seconds": 38,
+  "source_end_seconds": 463,
+  "overlap_seconds": 16,
+  "repeat_interval_seconds": 409,
+  "curve": "equal-power sine/cosine",
+  "gain_db": -7.0,
+  "opening_fade_seconds": 10,
+  "closing_fade_seconds": 20,
+  "encoded_format": "MP3 192 kb/s, stereo 48 kHz",
+  "decoded_samples_per_channel": 345600000,
+  "decoded_seconds": 7200.0,
+  "full_decode": "passed; every sample finite; exact two-hour sample count",
+  "integrated_lufs": -20.4,
+  "true_peak_dbtp": -9.6,
+  "decoded_sample_peak_dbfs": -9.601597795761394,
+  "preencode_peak_dbfs": -9.336944800657523,
+  "join_windows_seconds": [
+    [
+      409.0,
+      425.0
+    ],
+    [
+      818.0,
+      834.0
+    ],
+    [
+      1227.0,
+      1243.0
+    ],
+    [
+      1636.0,
+      1652.0
+    ],
+    [
+      2045.0,
+      2061.0
+    ],
+    [
+      2454.0,
+      2470.0
+    ],
+    [
+      2863.0,
+      2879.0
+    ],
+    [
+      3272.0,
+      3288.0
+    ],
+    [
+      3681.0,
+      3697.0
+    ],
+    [
+      4090.0,
+      4106.0
+    ],
+    [
+      4499.0,
+      4515.0
+    ],
+    [
+      4908.0,
+      4924.0
+    ],
+    [
+      5317.0,
+      5333.0
+    ],
+    [
+      5726.0,
+      5742.0
+    ],
+    [
+      6135.0,
+      6151.0
+    ],
+    [
+      6544.0,
+      6560.0
+    ],
+    [
+      6953.0,
+      6969.0
+    ]
+  ],
+  "user_feedback": "Audio previously accepted as good enough; user requested combined final and confirmed 2 hours on 2026-10-03",
+  "approval_scope": "Short join approved and two-hour assembly requested. No full two-hour listening review claimed.",
+  "assistant_listening": false,
+  "storage": "Local ignored export; not backed up by Git."
+}

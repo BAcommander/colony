@@ -72,3 +72,9 @@ __pycache__/
 
 # Post-push restore verification is machine-local evidence.
 /music/beneath-a-crimson-sky-animation-v2/remote-backup-verification.json
+
+# Requested short-master backup; large combined exports stay local.
+!final/06-last-cable-station/video-4k-v3.mp4
+!final/07-icebound-weather-post/video-4k-v3-60s.mp4
+!final/08-rainline-relay/video-4k-v5-20s.mp4
+!final/09-offshore-night-office/video-4k-v3-60s.mp4

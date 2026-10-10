@@ -107,14 +107,23 @@
     "description_file": "description.txt",
     "description_sha256": "ccc08e1ea3c9986c87c96014bdcac878426cd93023eeb5a282999af7bd17a7a4",
     "tags_file": "youtube-tags.txt",
-    "tags_sha256": "2235788ae65e689eb67091916e2240b258ec775a76cd7eaaf7e5a42a1116ccaa",
-    "tags_characters_including_separators": 291,
-    "tags_characters_including_file_newline": 292,
-    "tags_count": 14,
+    "tags_sha256": "2b08b01fb4ea38ec8ac268e0c8f10cd0315e52a658b650eb7335d357a41e450e",
+    "tags_characters_including_separators": 317,
+    "tags_characters_including_file_newline": 318,
+    "tags_count": 15,
     "tag_limit_exclusive": 500,
     "hashtags_count": 3,
     "sign_off": "Welcome to Ambient Colony. Stay a while and listen.",
-    "keyword_note": "Scene-relevant phrases; not measured search volume or ranking guarantees"
+    "keyword_note": "Updated to music genre, intended listening use and verified duration; no measured search volume or ranking claim.",
+    "tags_revision": {
+      "date": "2026-10-04",
+      "previous_file": "youtube-tags-before-studio-update-2026-10-04.txt",
+      "previous_sha256": "2235788ae65e689eb67091916e2240b258ec775a76cd7eaaf7e5a42a1116ccaa",
+      "studio_video_id": "nWrYvsZlNj4",
+      "studio_saved": true,
+      "studio_character_count": 333,
+      "evidence": "../../music/youtube-tags-update-2026-10-04/studio-update.json"
+    }
   },
   "music_preparation": {
     "status": "Selected short test and longer source supplied; join approved; one-hour audio delivered.",

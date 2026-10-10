@@ -1,0 +1,16 @@
+from pathlib import Path
+R=Path('G:/AI/colony'); H=R/'music/cable-animation-v3'
+s=(R/'scripts/render_floodplain_delivery.py').read_text()
+s=s.replace('accepted Floodplain v2','accepted Cable Station v3')
+s=s.replace("R=Path(__file__).resolve().parents[1]","R=Path('G:/AI/colony')")
+s=s.replace('from render_floodplain import Floodplain, digest','from render_cable_v3 import CableV3\nfrom render_floodplain import digest')
+s=s.replace("p=R/'final/04-floodplain-keeper';a=p/'delivery-v2'","p=R/'final/06-last-cable-station';a=p/'delivery-v3'")
+s=s.replace("scene=Floodplain(p/'animation-v2/scene-plan-v2.json')","scene=CableV3()")
+s=s.replace("p/'animation-v2/delivery-validation.json'","R/'music/cable-animation-v3/preview-validation.json'")
+s=s.replace('video-4k-v2.mp4','video-4k-v3.mp4')
+s=s.replace('exports/04-floodplain-keeper/animation-v2/floodplain-keeper-v2-three-loops-4k-60s.mp4','exports/06-last-cable-station/last-cable-station-v3-three-loops-4k-60s.mp4')
+s=s.replace('2026-09-29','2026-10-03')
+s=s.replace("then i think we're good where are the files so i can put them into the tool and make the next video?","ok perfect, can you use the tool to combine the final file?")
+s=s.replace('V2 preview look accepted; requested editor handoff.','V3 preview look accepted; Colony assembly requested.')
+out=H/'render_delivery.py';assert not out.exists();out.write_text(s,encoding='utf-8')
+print('Created Cable Station 4K delivery runner')

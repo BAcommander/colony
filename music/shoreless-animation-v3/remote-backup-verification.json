@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-06",
+  "commit": "f51b2cdd9464fee74a15eaf5de0a8f287fe2fe19",
+  "remote": "https://github.com/BAcommander/colony.git",
+  "branch": "main",
+  "push_confirmed": true,
+  "fresh_remote_bare_clone": "G:\\AI\\colony\\music\\.local\\shoreless-backup-2026-10-06\\remote-verification.git",
+  "checks": {
+    "music/shoreless-animation-v3/shoreless-colony-v3-preview-60s.mp4": {
+      "sha256": "a780568738c483e8a3b87f84566c1e76b20a40c94e71d449af7c86e3d6f9f65b",
+      "bytes": 42304903,
+      "matched": true
+    },
+    "final/09-offshore-night-office/artwork-v1.png": {
+      "sha256": "f042d109358089f0e89b11c99a84505fba9a825dca3428ed7109055d29253f69",
+      "bytes": 2037499,
+      "matched": true
+    },
+    "music/shoreless-animation-v1/render_shoreless.py": {
+      "sha256": "12e5b1050d75e229b67e44208a203a7bd46dd11b63dd234d0702dfc6511c04ff",
+      "bytes": 14018,
+      "matched": true
+    },
+    "music/shoreless-animation-v1/scene-plan-v1.json": {
+      "sha256": "5d906cb807f1914cc1a5c4b153ae65ed678f3e422ccd34531dcfc1917510e43b",
+      "bytes": 14955,
+      "matched": true
+    },
+    "music/shoreless-animation-v2/render_shoreless_v2.py": {
+      "sha256": "e271bd5db01d5ba9fbbe73b4abd51427d63679510f445287999d660e954e0d10",
+      "bytes": 11699,
+      "matched": true
+    },
+    "music/shoreless-animation-v2/scene-plan-v2.json": {
+      "sha256": "9cfb2990bae53bf8bf3dad5b527c12c436bda9c72a5f0c91170d5d0c6a40b911",
+      "bytes": 18642,
+      "matched": true
+    },
+    "music/shoreless-animation-v3/render_shoreless_v3.py": {
+      "sha256": "d8c9bb8ed610971fee77cc525d6c9e8f926a36fc4bd7eb7debb0337a29241540",
+      "bytes": 12304,
+      "matched": true
+    },
+    "music/shoreless-animation-v3/scene-plan-v3.json": {
+      "sha256": "019c1545f160841b2a9c904fc35b3634bdfa4403491a31079e7d9b50ce871e84",
+      "bytes": 24941,
+      "matched": true
+    },
+    "music/shoreless-animation-v3/dependency-snapshot/render_floodplain.py": {
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "bytes": 12017,
+      "matched": true
+    },
+    "music/shoreless-animation-v3/dependency-snapshot/water_surface.py": {
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "bytes": 3156,
+      "matched": true
+    },
+    "music/shoreless-animation-v3/dependency-snapshot/ambient_effects.py": {
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "bytes": 1640,
+      "matched": true
+    }
+  },
+  "all_preexisting_tracked_worktree_bytes_preserved": true,
+  "staging_area_empty": true,
+  "scope": "Shoreless v1-v3 and knowledge bank; only current sixty-second preview media backed up. Review videos/cache and other scenes remain local."
+}

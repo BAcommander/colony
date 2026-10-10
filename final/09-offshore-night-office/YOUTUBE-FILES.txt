@@ -1,0 +1,11 @@
+THE SHORELESS COLONY — UPLOAD FILES
+
+Video: G:\AI\colony\exports\09-offshore-night-office\Shoreless-Colony-2-Hours-4K-v1.mp4
+Thumbnail: G:\AI\colony\final\09-offshore-night-office\thumbnail-v2.jpg
+Title: G:\AI\colony\final\09-offshore-night-office\youtube-title.txt
+Description: G:\AI\colony\final\09-offshore-night-office\description.txt
+Tags: G:\AI\colony\final\09-offshore-night-office\youtube-tags.txt
+Soundtrack: G:\AI\colony\exports\09-offshore-night-office\Shoreless-Colony-Alien-Sea-Viewport-with-Water-2-Hours-v1.mp3
+Checks: G:\AI\colony\final\09-offshore-night-office\assembly-v1\README.txt
+
+Two hours, 4K/30 fps; original artwork upscaled from 1672x941. Approved music join and quieter water-v2 mix. Not uploaded.

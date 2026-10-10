@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-04",
+  "tool": "Colony application export engine",
+  "tool_path": "C:\\dev\\SpeedySlideShow\\colony\\render.py",
+  "tool_sha256": "de93079719b2e82347b6a867919eeb10a04be8f37b6da024bb21f2dcccec4621",
+  "exporter_sha256": "9557dfda9cf92007dc391f518b86c106f9ab0592456751da61a37b000098af8b",
+  "runner_sha256": "8122444723ec8d073f10dee8aa03441193acd043d12768eb4157cdd12cf19522",
+  "output": "G:\\AI\\colony\\exports\\07-icebound-weather-post\\Icebound-Weather-Post-1-Hour-4K-v1.mp4",
+  "bytes": 22957323954,
+  "sha256": "dd4829e2420cb6665b87a46c997832d0d8bc7b4b56d3dff4c1ddeda0708e4713",
+  "duration_seconds": 3600,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "audio": "AAC 192k stereo 48000 Hz",
+  "settings": {
+    "crossfade": 0,
+    "match_loudness": false,
+    "gain_db": 0,
+    "overlay": "off",
+    "full_decode": true,
+    "loop_preparation": "Verified short master reused through Colony prepared-loop cache; no re-encode"
+  },
+  "source_video_sha256": "8b02c264fc4145afd8992f42c515733a71a6f1fbe432aabed10784038a6196ae",
+  "source_audio_sha256": "5191576dae072201de40c20c06a63d396121001a42861691175a9fbd70dd29e6",
+  "colony_loop": {
+    "path": "G:\\AI\\colony\\exports\\07-icebound-weather-post\\assembly-v1\\colony-loop-preserved-4k.mp4",
+    "sha256": "8b02c264fc4145afd8992f42c515733a71a6f1fbe432aabed10784038a6196ae",
+    "decoded_yuv_frames_exactly_match_source_master": true
+  },
+  "validation": {
+    "full_video_audio_decode": true,
+    "video_packet_count": 108000,
+    "sequential_pts_dts": true,
+    "all_60_encoded_loop_payloads_identical": true,
+    "seam": "Exact decoded YUV frames retained from seam-verified short master; every repeated payload identical."
+  },
+  "review": "Technical validation and decoded still checks only; no full-one-hour artistic playback/listening or upload check claimed.",
+  "storage": "Finished one-hour video/audio and cached loop remain local ignored exports."
+}

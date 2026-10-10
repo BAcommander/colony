@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-10",
+  "title": "Alien Ocean Vista",
+  "original_path": "C:\\Users\\jazzs\\Downloads\\Alien_Ocean_Vista_2026-10-10T155711.mp4",
+  "preserved_path": "final/09-offshore-night-office/music/selected-test-v1/Alien_Ocean_Vista_2026-10-10T155711.mp4",
+  "sha256": "c41d65d66448114ca858cff868a156dc42c25015cb51689bb8baa522aa6d73d4",
+  "bytes": 1432227,
+  "decoded_audio_seconds": 60.010666666666665,
+  "validation_decode_format": "Stereo float32 48 kHz",
+  "full_audio_decode_passed": true,
+  "all_samples_finite": true,
+  "user_feedback": "i tihkn the open water prompt is better",
+  "selected_prompt": "elevenlabs-test-v3-b-open-water.txt",
+  "selected_short_test": true,
+  "approval_scope": "User prefers Open Water and supplies this test; selected direction for longer development. No long-source, join, final duration or motion approval inferred.",
+  "exact_generation_settings_observed": null,
+  "assistant_listening": false
+}

@@ -1,0 +1,255 @@
+{
+  "status": "planned only; no masks or renderer implemented",
+  "scene_name": "The Last Cable Station",
+  "source": {
+    "path": "final/06-last-cable-station/artwork-v3-final.png",
+    "sha256": "72fe97b682c4ff5de7ef577e2464163941c90a48fbf1268e4f8271e3afd97c37",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "output": {
+    "duration_seconds": 20,
+    "fps": 30,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "final_dimensions": [
+      3840,
+      2160
+    ],
+    "audio": false,
+    "version": "v1"
+  },
+  "protected_geometry": [
+    "window frames and interior silhouettes",
+    "fine cables and cable tower",
+    "station, walkway and parked cabin",
+    "near cliff edges, mineral texture and native plants",
+    "planet silhouette and shading",
+    "desk, chair/jacket, mug, steady lamp and screen housings"
+  ],
+  "principal_motion": [
+    "coherent valley cloud transport across separately masked depths",
+    "slower upper sky cloud transport"
+  ],
+  "layers": [
+    {
+      "name": "upper_clouds",
+      "method": "source-texture transport inside refined sky mask",
+      "roi_xyxy": [
+        110,
+        66,
+        1590,
+        310
+      ],
+      "mask_path": null,
+      "mask_status": "not created",
+      "source_anchor_xy": null,
+      "occluders": [
+        "planet",
+        "cables",
+        "terrain silhouettes",
+        "window/interior geometry"
+      ],
+      "parameters": {
+        "trial_speed_source_px_per_second": [
+          0.5,
+          1.5
+        ],
+        "direction": "right",
+        "exclude_from_texture": [
+          "planet",
+          "cables",
+          "cliffs",
+          "window frames"
+        ]
+      },
+      "loop_method": "Forward transport with staggered zero-opacity resets; periodic states and velocities",
+      "visual_acceptance": "Visible slow cloud edge movement; no planet duplication or cable ghosts"
+    },
+    {
+      "name": "far_valley_clouds",
+      "method": "independent depth-masked coherent source-cloud transport",
+      "roi_xyxy": [
+        450,
+        200,
+        1390,
+        405
+      ],
+      "mask_path": null,
+      "mask_status": "not created",
+      "source_anchor_xy": null,
+      "occluders": [
+        "cable tower and cables",
+        "station",
+        "mapped ridge silhouettes",
+        "window geometry"
+      ],
+      "parameters": {
+        "trial_speed_source_px_per_second": [
+          1.5,
+          3
+        ],
+        "direction": "right",
+        "phase": "independent"
+      },
+      "loop_method": "Forward transport with staggered zero-opacity resets; periodic states and velocities",
+      "visual_acceptance": "Recognizable cloud edge travels behind the tower; landscape remains crisp"
+    },
+    {
+      "name": "near_ravine_clouds",
+      "method": "soft structured transport clipped to low valley",
+      "roi_xyxy": [
+        630,
+        350,
+        1445,
+        605
+      ],
+      "mask_path": null,
+      "mask_status": "not created",
+      "source_anchor_xy": null,
+      "occluders": [
+        "near ledges and plants",
+        "tower",
+        "settlement",
+        "chair and window frame"
+      ],
+      "parameters": {
+        "trial_speed_source_px_per_second": [
+          2,
+          4
+        ],
+        "direction": "right",
+        "phase": "independent"
+      },
+      "loop_method": "Forward transport with staggered zero-opacity resets; periodic states and velocities",
+      "visual_acceptance": "Slow flow below station with no opaque smoke stripe or warped terrain"
+    },
+    {
+      "name": "left_cloud_bank",
+      "method": "shared exterior field with separate cloud depth and phase",
+      "roi_xyxy": [
+        110,
+        140,
+        338,
+        525
+      ],
+      "mask_path": null,
+      "mask_status": "not created",
+      "source_anchor_xy": null,
+      "occluders": [
+        "cliffs",
+        "window frame",
+        "desk lamp",
+        "console silhouettes"
+      ],
+      "parameters": {
+        "direction": "right",
+        "speed": "tune between far and near layers"
+      },
+      "loop_method": "Forward transport with staggered zero-opacity resets; periodic states and velocities",
+      "visual_acceptance": "Window openings show coherent exterior wind with protected room"
+    },
+    {
+      "name": "habitat_windows",
+      "method": "whole-aperture dim/off holds with coupled local spill",
+      "roi_xyxy": [
+        1030,
+        274,
+        1585,
+        370
+      ],
+      "mask_path": null,
+      "mask_status": "not created",
+      "source_anchor_xy": null,
+      "occluders": [
+        "window frames",
+        "habitat walls"
+      ],
+      "parameters": {
+        "candidate_count": [
+          2,
+          3
+        ],
+        "off_hold_seconds": [
+          3,
+          7
+        ],
+        "majority_steady": true,
+        "apertures": "select precisely before implementation"
+      },
+      "loop_method": "Independent periodic schedules with matched boundary states",
+      "visual_acceptance": "Independent readable changes, no blinking pattern or residual bright cores"
+    },
+    {
+      "name": "console_activity",
+      "method": "perspective-confined low-contrast status updates",
+      "roi_xyxy": [
+        258,
+        463,
+        620,
+        599
+      ],
+      "mask_path": null,
+      "mask_status": "not created",
+      "source_anchor_xy": null,
+      "occluders": [
+        "screen bezels",
+        "controls",
+        "desk objects"
+      ],
+      "parameters": {
+        "layout_preserved": true,
+        "desk_lamp": "steady",
+        "new_readable_text": false
+      },
+      "loop_method": "Independent periodic schedules with matched boundary states",
+      "visual_acceptance": "Quiet occupied console without distracting flashes"
+    }
+  ],
+  "review": {
+    "inspection_performed": [
+      "Approved source still inspected at full composition; SHA-256 and dimensions checked"
+    ],
+    "technical_report": null,
+    "user_feedback": null,
+    "approved": false,
+    "motion_rendered": false
+  },
+  "delivery": {
+    "final_path": "",
+    "final_sha256": "",
+    "tracked_in_git": false
+  },
+  "planning_notes": {
+    "coordinate_space": "source pixels, origin top-left",
+    "roi_status": "Approximate search extents only; not masks or validated anchors",
+    "exterior_window_rois_xyxy": [
+      [
+        110,
+        50,
+        342,
+        528
+      ],
+      [
+        451,
+        66,
+        1450,
+        610
+      ],
+      [
+        1503,
+        45,
+        1595,
+        660
+      ]
+    ],
+    "renderer": null,
+    "source_unchanged": true,
+    "final_delivery_duration_seconds": null,
+    "long_video_proposal_seconds": 7200
+  }
+}

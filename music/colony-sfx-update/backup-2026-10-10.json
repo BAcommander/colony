@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/BAcommander/slideshow",
+  "commit": "284c6a756322f47d003ad7c6986d851870b99f4f",
+  "branch": "main",
+  "ls_remote_verified": true,
+  "source_matched_prior_tested_build": true,
+  "tests": "43 regression + 11 real-audio SFX tests passed during implementation; source hashes unchanged at commit preparation.",
+  "executable": "Local dist/Colony.exe; binary not in Git."
+}

@@ -1,14 +1,60 @@
 {
-  "status": "not generated",
+  "status": "Two-hour soundtrack and combined 4K Colony video delivered; full listening pending",
   "date_prepared": "2026-09-28",
   "provider": "ElevenLabs Music",
   "settings_observed": null,
   "price_observed": null,
-  "short_test_files": [],
-  "selected_test": null,
-  "long_export": null,
-  "user_feedback": null,
-  "audio_approval": false,
-  "local_join_review": null,
-  "delivery_duration_seconds": null
+  "short_test_files": [
+    {
+      "file": "exports/06-last-cable-station/source/Colony_Cableway_Transit_2026-10-03T141226.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Colony_Cableway_Transit_2026-10-03T141226.mp4",
+      "sha256": "e9fe3cef2ceb8d4141555624fbacb7254a5bd5a2968a11909c7860e1e20fbb99",
+      "bytes": 1493340,
+      "decoded_audio_seconds": 60.010666666666665,
+      "sample_rate": 48000,
+      "channels": 2,
+      "samples_per_channel": 2880512,
+      "full_audio_decode_passed": true,
+      "sample_peak_dbfs": -3.4447898864746094,
+      "measured_loudness_lufs": -16.4,
+      "measured_true_peak_dbfs": -3.4,
+      "selected": true,
+      "assistant_listened": false
+    }
+  ],
+  "selected_test": "exports/06-last-cable-station/source/Colony_Cableway_Transit_2026-10-03T141226.mp4",
+  "long_export": {
+    "file": "exports/06-last-cable-station/source/Mineral_Valley_Transit_2026-10-03T144345.mp4",
+    "original_path": "C:\\Users\\jazzs\\Downloads\\Mineral_Valley_Transit_2026-10-03T144345.mp4",
+    "sha256": "7154f7e3bf623d29e2b7419aba4efa8079b0237ae5ee0551150b2482d68300d8",
+    "bytes": 12162062,
+    "decoded_audio_seconds": 480.0,
+    "settings_observed": null,
+    "prompt_observed": null
+  },
+  "user_feedback": "next one 6 heres the music i like",
+  "audio_approval": true,
+  "local_join_review": {
+    "record": "long-source-v1/audition-v1.json",
+    "short_audition": "exports/06-last-cable-station/Last-Cable-Station-Mineral-Valley-Transit-join-v1.mp3",
+    "three_repeats": "exports/06-last-cable-station/Last-Cable-Station-Mineral-Valley-Transit-three-repeats-v1.mp3",
+    "overlap_seconds": 16,
+    "source_start_seconds": 38,
+    "source_end_seconds": 463,
+    "gain_db": -7,
+    "user_approved": true
+  },
+  "delivery_duration_seconds": 7200,
+  "date_updated": "2026-10-03",
+  "selected_test_approved": true,
+  "approval_scope": "Supplied audio/transition accepted; two-hour extension and assembly authorized. Full long-form listening remains unclaimed.",
+  "credits_spent_by_assistant": 0,
+  "planned_long_generation_seconds": 420,
+  "target_delivery_duration_seconds": 7200,
+  "duration_status": "User explicitly confirmed 2 hours on 2026-10-03",
+  "current_long_prompt": "elevenlabs-long-version-v3-seven-minutes.txt",
+  "current_long_prompt_sha256": "72dd80bd61a617479ca9475e526cd2a8939c590ebfb34fe8019bb8893e3ab770",
+  "long_source_user_message": "here's the 7 minute version",
+  "join_user_feedback": "did we do the animation etc for number 6? the audio sounds good enough",
+  "two_hour_delivery": "long-source-v1/two-hour-delivery-v1.json"
 }

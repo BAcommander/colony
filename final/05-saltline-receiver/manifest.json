@@ -3,7 +3,7 @@
   "caption": "LISTENING FROM THE RED WORLD",
   "series_number": "05",
   "date": "2026-09-28",
-  "status": "User selected current scene for repository packaging; new thumbnail pending user review",
+  "status": "V5 look and music join accepted; requested two-hour 4K Colony export technically verified; combined user review pending",
   "artwork": {
     "file": "artwork-v1.png",
     "sha256": "7d87c10b025b05f1e1ee4990239e5254c499501a2e3c8b8963b24dd3e7e130ad",
@@ -90,8 +90,14 @@
     "backup": "Exact-path Git LFS by explicit commit/push request; remote verification pending",
     "validation": "../../music/saltline-animation-v1/v7-delivery-validation.json"
   },
-  "audio": null,
-  "delivery_note": "V5 look accepted; requested one-minute silent 4K v7 rendered with longer irregular hut off intervals. New timing/export visual review pending; no soundtrack.",
+  "audio": {
+    "file": "exports/05-saltline-receiver/Saltline-Receiver-Red-World-Basin-2-Hours-v1.mp3",
+    "sha256": "4dd1f3eca00e073a75fc23bf04125d2a229a4164046d0a2bf04c9c0984d16ec7",
+    "seconds": 7200,
+    "validation": "music/long-source-v1/two-hour-delivery-v1.json",
+    "approval_scope": "Short join approved; two-hour soundtrack and Colony combined video delivered. Full two-hour listening, combined visual review and upload checks remain pending."
+  },
+  "delivery_note": "Two-hour 4K/30 fps video assembled with Colony from the verified v7 minute loop and Red World Basin soundtrack. Native artwork is 1672x941 upscaled. Full decode, exact first-loop pictures and all 120 packet repetitions passed. Full combined review pending.",
   "animation_artwork_candidate": {
     "file": "artwork-v2-animation.png",
     "sha256": "0a6fc6e69d141fd094c7611b8fa41093b4be921db4d85700d5e1ea663a2a0f9b",
@@ -126,47 +132,112 @@
     "animation_rendered": true
   },
   "youtube_metadata": {
-    "status": "publication drafts; audio and duration claims deliberately absent until produced",
+    "status": "Publication drafts ready alongside the verified two-hour export; no upload performed",
     "title_file": "youtube-title.txt",
     "title_sha256": "71129211af8d97ef60c83de6a90a5ad3944d876cf2d1112e5e8ffe7fc20936ee",
     "description_file": "description.txt",
     "description_sha256": "47d9d3dd7af663e0296d9ea4880754fd6fdd0426a36f943e0c7e8dc28b31c8a2",
     "tags_file": "youtube-tags.txt",
-    "tags_sha256": "944f45e11ff2bf31137b4bfaa3db72273242a76b6b934620e0aa2a1af1509ec9",
-    "tags_characters_including_separators": 283,
-    "tags_characters_including_file_newline": 284,
-    "tags_count": 14,
+    "tags_sha256": "faaa3d817ce3d89e03d19c71aeafadf2978606b02face5cd33ca222f4b637044",
+    "tags_characters_including_separators": 318,
+    "tags_characters_including_file_newline": 319,
+    "tags_count": 15,
     "tag_limit_exclusive": 500,
     "hashtags_count": 3,
     "sign_off": "Welcome to Ambient Colony. Stay a while and listen.",
-    "keyword_note": "Scene-relevant phrases; not measured search volume or ranking guarantees"
+    "keyword_note": "Updated to music genre, intended listening use and verified duration; no measured search volume or ranking claim.",
+    "tags_revision": {
+      "date": "2026-10-04",
+      "previous_file": "youtube-tags-before-studio-update-2026-10-04.txt",
+      "previous_sha256": "944f45e11ff2bf31137b4bfaa3db72273242a76b6b934620e0aa2a1af1509ec9",
+      "studio_video_id": "SoZ7xOtRCL8",
+      "studio_saved": true,
+      "studio_character_count": 334,
+      "evidence": "../../music/youtube-tags-update-2026-10-04/studio-update.json"
+    }
   },
   "music_preparation": {
-    "status": "prompts prepared; no audio generated",
+    "status": "Short music transition approved; requested two-hour MP3 delivered and fully decode-verified",
     "files": [
       {
         "path": "music/README.md",
-        "sha256": "a15a1371e3deed89c23e4489837de55e9ea49d2d5d77b5144cd4b0a5402f3892"
+        "sha256": "deb396e62ce32cb39050cd3b160f545c64fde91fe96d3956bfde5d56dd9a0316"
       },
       {
         "path": "music/elevenlabs-prompt-v1.txt",
-        "sha256": "5f759a30e2144da80b771bb37aa96b624cef0e0c27292a0c2f8e42234256022d"
+        "sha256": "892a0e159485286a53faba7580b3c3966dae5012ca89e45ca80ee08e3b516f98"
       },
       {
         "path": "music/elevenlabs-long-version.txt",
-        "sha256": "f6efe47334af16c6e25c4ae37c540887710f6ef3634334954dac57983eefe7d8"
+        "sha256": "f38cb3c8de2136ec4a2d07bd2239a60d11e8b0f49220ae8496829004202ded5a"
       },
       {
         "path": "music/generation-record.json",
-        "sha256": "0e109e4698c856d2fa014833d2571051d47d438399383a8bbcc9a3e4fc07aa21"
+        "sha256": "f8da986449684756c474a2109c2fb2342de73b23dd00a26566b2c9caced80955"
       }
     ],
     "planned_test": "60 seconds, two variants; user runs manually after checking actual cost",
     "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
-    "delivery_duration_seconds": null,
+    "delivery_duration_seconds": 7200,
     "credits_spent_by_assistant": 0,
     "workflow": "creative/MUSIC_WORKFLOW.md",
     "official_guidance": "https://elevenlabs.io/docs/overview/capabilities/music/best-practices",
     "guidance_checked": "2026-09-28"
+  },
+  "music_current": {
+    "status": "Short music transition approved; requested two-hour MP3 delivered and fully decode-verified",
+    "generation_record": "music/generation-record.json",
+    "selected_short_source": {
+      "file": "exports/05-saltline-receiver/source/Red_Basin_Listening_Station_2026-10-03T131741.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Red_Basin_Listening_Station_2026-10-03T131741.mp4",
+      "sha256": "2a7d8dd809ca3db0357acc2f6a4f83f2afb5eaf1e815aee4208d8df73bd77302",
+      "bytes": 1515636,
+      "decoded_audio_seconds": 60.010666666666665,
+      "duration_method": "Full FFmpeg audio decode to 48 kHz stereo signed 16-bit PCM; sample count divided by sample rate.",
+      "selected": true,
+      "assistant_listened": false
+    },
+    "current_long_prompt": "music/elevenlabs-long-version-v3-seven-minutes.txt",
+    "prompt_sha256": "165150ab100ae9a781c47783a12361765639fae9ad29b2ac2956878a3c5fdd25",
+    "target_generation_seconds": 420,
+    "target_delivery_seconds": 7200,
+    "long_audio_generated": true,
+    "long_source": {
+      "file": "exports/05-saltline-receiver/source/Red_World_Basin_2026-10-03T133309.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Red_World_Basin_2026-10-03T133309.mp4",
+      "sha256": "88143466d2f9f4f72200a04619cd7ce0bcc51939b271d9160ecfbd57f94fb28b",
+      "bytes": 10636652,
+      "decoded_audio_seconds": 420.0106666666667,
+      "settings_observed": null,
+      "prompt_observed": null
+    },
+    "join_audition": "music/long-source-v1/audition-v1.json",
+    "long_audio_user_approved": false,
+    "two_hour_delivery_produced": true,
+    "two_hour_delivery": {
+      "record": "long-source-v1/two-hour-delivery-v1.json",
+      "file": "exports/05-saltline-receiver/Saltline-Receiver-Red-World-Basin-2-Hours-v1.mp3",
+      "sha256": "4dd1f3eca00e073a75fc23bf04125d2a229a4164046d0a2bf04c9c0984d16ec7",
+      "seconds": 7200,
+      "full_decode_verified": true,
+      "full_listening_approved": false
+    },
+    "join_user_approved": true
+  },
+  "assembled_video": {
+    "file": "exports/05-saltline-receiver/Saltline-Receiver-2-Hours-4K-v1.mp4",
+    "sha256": "434f548593721f3a62cdf94b5d00544f9a5a66c95e15e4f532826dd68bf3313f",
+    "bytes": 54852654686,
+    "seconds": 7200,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "validation": "assembly-v1/delivery-validation.json",
+    "tool": "Colony",
+    "full_decode_verified": true,
+    "user_full_playback_approved": false,
+    "storage": "local ignored export; not Git-backed"
   }
 }

@@ -1,0 +1,41 @@
+{
+  "name": "Rainline restrained intermittent rain",
+  "date": "2026-10-10",
+  "settings": {
+    "path": "G:\\AI\\colony\\music\\shared-rain-overlay\\Gentle_continuous_ra_#2-1791634292024.mp3",
+    "mode": "intermittent",
+    "gain_db": -11.18043885283336,
+    "start_s": 20,
+    "on_s": 120,
+    "off_s": 90,
+    "fade_in_s": 20,
+    "fade_out_s": 30,
+    "loop_crossfade_s": 2.0
+  },
+  "source_sha256": "60aea98d54ac02c6da1d0a3b22f882c7cd2071346e5f069275aded21d2f1a826",
+  "music_reference_lufs": -20.5,
+  "rain_amplitude_relative_to_v1": 0.4375,
+  "feedback_history": [
+    {
+      "version": 1,
+      "gain_db": -4,
+      "feedback": "Too loud when rain reaches peak"
+    },
+    {
+      "version": 2,
+      "gain_db": -10.020599913279625,
+      "feedback": "Sounds better; reduce peak another 10\u201315%"
+    },
+    {
+      "version": 3,
+      "gain_db": -11.18043885283336,
+      "feedback": "User: yeah that's good; requested final 4K hour with this mix"
+    }
+  ],
+  "reuse": "Starting point for this exact rain source against similarly quiet music. Rebalance other sources/music by listening at the maximum rain plateau; do not copy the gain universally.",
+  "evidence": "final/08-rainline-relay/music/long-source-v1/rain-mix-delivery-v3.json",
+  "tool": "C:/dev/SpeedySlideShow/colony/sfx.py",
+  "app_defaults_changed": false,
+  "user_rain_mix_approved": true,
+  "approval_scope": "Rainline v3 balance approved. Reuse with other music remains a starting point requiring a fresh listening check."
+}

@@ -1,0 +1,32 @@
+Input #0, mp3, from 'G:\AI\colony\exports\07-icebound-weather-post\Icebound-Weather-Post-Winter-Colony-Night-join-v1.mp3':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Duration: 00:00:58.00, start: 0.023021, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 48000 Hz, stereo, fltp, 192 kb/s, start 0.023021
+    Metadata:
+      encoder         : Lavc62.28
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Stream #0:0: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      encoder         : Lavc62.28.101 pcm_s16le
+[Parsed_ebur128_0 @ 0000021529d6bd80] Summary:
+
+  Integrated loudness:
+    I:         -20.3 LUFS
+    Threshold: -30.3 LUFS
+
+  Loudness range:
+    LRA:         1.9 LU
+    Threshold: -40.3 LUFS
+    LRA low:   -21.2 LUFS
+    LRA high:  -19.3 LUFS
+
+  True peak:
+    Peak:       -9.0 dBFS
+[out#0/null @ 0000021529d6c0c0] video:0KiB audio:10875KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:58.00 bitrate=N/A speed= 406x elapsed=0:00:00.14    

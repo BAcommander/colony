@@ -1,0 +1,726 @@
+{
+  "scene_name": "Icebound Weather Post",
+  "version": "v1",
+  "status": "draft implementation",
+  "source": {
+    "path": "final/07-icebound-weather-post/artwork-v3-final.png",
+    "sha256": "5b49468b673b762a63909defa6b202f0bff19755cd829f84c1390d63702d499d",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "duration": 20,
+  "fps": 30,
+  "preview_size": [
+    1280,
+    720
+  ],
+  "ffmpeg": "C:/Program Files/ShareX/ffmpeg.exe",
+  "feedback_applied": [
+    "Readable broad background motion from first draft",
+    "Independent far and nearer haze rather than one strong fog patch",
+    "Independent complete-aperture light holds and small local spill",
+    "Existing source geometry and frozen sea preserved",
+    "No foreground snow particles or global exposure modulation"
+  ],
+  "protected_geometry": [
+    "Ice cliffs and frozen sea topology",
+    "All structures, mast, equipment and camera",
+    "Ringed moon excluded from moving texture source and output"
+  ],
+  "protected_lines": [
+    [
+      [
+        274,
+        53
+      ],
+      [
+        274,
+        373
+      ],
+      13
+    ],
+    [
+      [
+        311,
+        114
+      ],
+      [
+        349,
+        119
+      ],
+      17
+    ],
+    [
+      [
+        328,
+        103
+      ],
+      [
+        328,
+        155
+      ],
+      12
+    ]
+  ],
+  "protected_ellipses": [
+    [
+      1501,
+      228,
+      65,
+      40
+    ]
+  ],
+  "clouds": [
+    {
+      "name": "sky",
+      "speed": 2.6,
+      "feather": 14,
+      "phase": 0.18,
+      "polygons": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1671,
+            0
+          ],
+          [
+            1671,
+            430
+          ],
+          [
+            1575,
+            423
+          ],
+          [
+            1550,
+            411
+          ],
+          [
+            1460,
+            411
+          ],
+          [
+            1443,
+            394
+          ],
+          [
+            1390,
+            390
+          ],
+          [
+            1375,
+            382
+          ],
+          [
+            1240,
+            375
+          ],
+          [
+            1220,
+            360
+          ],
+          [
+            1188,
+            356
+          ],
+          [
+            1180,
+            340
+          ],
+          [
+            1090,
+            334
+          ],
+          [
+            1080,
+            319
+          ],
+          [
+            934,
+            308
+          ],
+          [
+            918,
+            285
+          ],
+          [
+            884,
+            267
+          ],
+          [
+            851,
+            250
+          ],
+          [
+            760,
+            235
+          ],
+          [
+            741,
+            216
+          ],
+          [
+            707,
+            207
+          ],
+          [
+            690,
+            181
+          ],
+          [
+            658,
+            172
+          ],
+          [
+            652,
+            160
+          ],
+          [
+            558,
+            146
+          ],
+          [
+            473,
+            129
+          ],
+          [
+            396,
+            108
+          ],
+          [
+            345,
+            103
+          ],
+          [
+            280,
+            89
+          ],
+          [
+            240,
+            68
+          ],
+          [
+            188,
+            57
+          ],
+          [
+            127,
+            48
+          ],
+          [
+            85,
+            40
+          ],
+          [
+            0,
+            32
+          ]
+        ]
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "name": "main_room_right",
+      "polygon": [
+        [
+          295,
+          453
+        ],
+        [
+          364,
+          454
+        ],
+        [
+          365,
+          503
+        ],
+        [
+          296,
+          504
+        ]
+      ],
+      "start": 2.8,
+      "hold": 6.6,
+      "transition": 0.55,
+      "floor": 0.3
+    },
+    {
+      "name": "habitat_one_window",
+      "polygon": [
+        [
+          853,
+          472
+        ],
+        [
+          863,
+          473
+        ],
+        [
+          863,
+          486
+        ],
+        [
+          853,
+          486
+        ]
+      ],
+      "start": 10.4,
+      "hold": 7.3,
+      "transition": 0.35,
+      "floor": 0.2
+    },
+    {
+      "name": "habitat_two_window",
+      "polygon": [
+        [
+          1003,
+          507
+        ],
+        [
+          1010,
+          508
+        ],
+        [
+          1010,
+          519
+        ],
+        [
+          1003,
+          518
+        ]
+      ],
+      "start": 17.3,
+      "hold": 6.7,
+      "transition": 0.4,
+      "floor": 0.25
+    }
+  ],
+  "screen": {
+    "polygon": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "bands": [],
+    "starts": [],
+    "holds": [],
+    "depths": []
+  },
+  "entrance": {
+    "aperture": [
+      [
+        491,
+        451
+      ],
+      [
+        514,
+        452
+      ],
+      [
+        514,
+        458
+      ],
+      [
+        491,
+        457
+      ]
+    ],
+    "events": [
+      {
+        "start": 4.3,
+        "hold": 0.65,
+        "transition": 0.16,
+        "depth": 0.58
+      },
+      {
+        "start": 5.2,
+        "hold": 0.3,
+        "transition": 0.08,
+        "depth": 0.35
+      },
+      {
+        "start": 14.1,
+        "hold": 1.7,
+        "transition": 0.45,
+        "depth": 0.25
+      }
+    ],
+    "spill_polygons": [
+      [
+        [
+          456,
+          463
+        ],
+        [
+          518,
+          463
+        ],
+        [
+          528,
+          550
+        ],
+        [
+          482,
+          552
+        ],
+        [
+          460,
+          534
+        ]
+      ],
+      [
+        [
+          463,
+          608
+        ],
+        [
+          535,
+          602
+        ],
+        [
+          592,
+          623
+        ],
+        [
+          576,
+          644
+        ],
+        [
+          482,
+          640
+        ],
+        [
+          441,
+          626
+        ]
+      ]
+    ]
+  },
+  "room_spill": {
+    "polygons": [
+      [
+        [
+          272,
+          514
+        ],
+        [
+          370,
+          513
+        ],
+        [
+          383,
+          551
+        ],
+        [
+          273,
+          555
+        ]
+      ],
+      [
+        [
+          259,
+          622
+        ],
+        [
+          354,
+          621
+        ],
+        [
+          409,
+          645
+        ],
+        [
+          360,
+          662
+        ],
+        [
+          260,
+          651
+        ]
+      ]
+    ],
+    "strength": 0.1
+  },
+  "haze": [
+    {
+      "name": "far_spindrift",
+      "polygons": [
+        [
+          [
+            1117,
+            501
+          ],
+          [
+            1671,
+            493
+          ],
+          [
+            1671,
+            584
+          ],
+          [
+            1592,
+            576
+          ],
+          [
+            1560,
+            561
+          ],
+          [
+            1490,
+            557
+          ],
+          [
+            1450,
+            565
+          ],
+          [
+            1363,
+            563
+          ],
+          [
+            1324,
+            548
+          ],
+          [
+            1280,
+            542
+          ],
+          [
+            1230,
+            556
+          ],
+          [
+            1124,
+            546
+          ]
+        ]
+      ],
+      "feather": 12,
+      "speed": 4.8,
+      "lifetime": 20,
+      "seed": 7101,
+      "optical_depth": 0.17,
+      "max_opacity": 0.24,
+      "color": [
+        180,
+        198,
+        218
+      ],
+      "gusts": [
+        {
+          "x": 1240,
+          "y": 516,
+          "width": 150,
+          "height": 10,
+          "route_slope": 0,
+          "phase": 0,
+          "strength": 1
+        },
+        {
+          "x": 1515,
+          "y": 536,
+          "width": 150,
+          "height": 10,
+          "route_slope": 0,
+          "phase": 0,
+          "strength": 1
+        }
+      ],
+      "loop_schedule": [
+        {
+          "gust_index": 0,
+          "birth_x": 1192.0,
+          "age_at_zero": 0.0,
+          "fade_in": 5,
+          "fade_out": 5
+        },
+        {
+          "gust_index": 0,
+          "birth_x": 1192.0,
+          "age_at_zero": 10.0,
+          "fade_in": 5,
+          "fade_out": 5
+        },
+        {
+          "gust_index": 1,
+          "birth_x": 1467.0,
+          "age_at_zero": 3.7,
+          "fade_in": 5,
+          "fade_out": 5
+        },
+        {
+          "gust_index": 1,
+          "birth_x": 1467.0,
+          "age_at_zero": 13.7,
+          "fade_in": 5,
+          "fade_out": 5
+        }
+      ]
+    },
+    {
+      "name": "basin_spindrift",
+      "polygons": [
+        [
+          [
+            1185,
+            583
+          ],
+          [
+            1260,
+            579
+          ],
+          [
+            1300,
+            586
+          ],
+          [
+            1383,
+            581
+          ],
+          [
+            1420,
+            565
+          ],
+          [
+            1470,
+            572
+          ],
+          [
+            1518,
+            578
+          ],
+          [
+            1570,
+            610
+          ],
+          [
+            1671,
+            620
+          ],
+          [
+            1671,
+            683
+          ],
+          [
+            1580,
+            676
+          ],
+          [
+            1514,
+            665
+          ],
+          [
+            1460,
+            650
+          ],
+          [
+            1370,
+            669
+          ],
+          [
+            1306,
+            649
+          ],
+          [
+            1253,
+            639
+          ],
+          [
+            1198,
+            632
+          ],
+          [
+            1154,
+            620
+          ]
+        ]
+      ],
+      "feather": 12,
+      "speed": 8.5,
+      "lifetime": 20,
+      "seed": 7102,
+      "optical_depth": 0.23,
+      "max_opacity": 0.24,
+      "color": [
+        180,
+        198,
+        218
+      ],
+      "gusts": [
+        {
+          "x": 1260,
+          "y": 606,
+          "width": 160,
+          "height": 16,
+          "route_slope": 0,
+          "phase": 0,
+          "strength": 1
+        },
+        {
+          "x": 1545,
+          "y": 644,
+          "width": 160,
+          "height": 16,
+          "route_slope": 0,
+          "phase": 0,
+          "strength": 1
+        }
+      ],
+      "loop_schedule": [
+        {
+          "gust_index": 0,
+          "birth_x": 1175.0,
+          "age_at_zero": 0.0,
+          "fade_in": 5,
+          "fade_out": 5
+        },
+        {
+          "gust_index": 0,
+          "birth_x": 1175.0,
+          "age_at_zero": 10.0,
+          "fade_in": 5,
+          "fade_out": 5
+        },
+        {
+          "gust_index": 1,
+          "birth_x": 1460.0,
+          "age_at_zero": 3.7,
+          "fade_in": 5,
+          "fade_out": 5
+        },
+        {
+          "gust_index": 1,
+          "birth_x": 1460.0,
+          "age_at_zero": 13.7,
+          "fade_in": 5,
+          "fade_out": 5
+        }
+      ]
+    }
+  ],
+  "layer_order": [
+    "sky",
+    "far_spindrift",
+    "basin_spindrift",
+    "lights",
+    "entrance",
+    "room_spill"
+  ],
+  "loop_method": "Periodic forward cloud transport and staggered local haze lifetimes, zero-weight resets; independent eased periodic lighting events"
+}

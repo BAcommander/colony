@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-10",
+  "user_feedback": "at it's loudest reduce it by 15%",
+  "source": "final/09-offshore-night-office/music/water-mix-v1/Clear_ocean_water_re_#1-1791650516724.mp3",
+  "source_sha256": "7ad78fbee2c965c4ec6e4372d38898b89d5fd77bd4dc3d2adf2b987bf9a7b2c2",
+  "source_seconds": 30.0,
+  "source_integrated_lufs": -27.1,
+  "settings": {
+    "path": "G:\\AI\\colony\\final\\09-offshore-night-office\\music\\water-mix-v1\\Clear_ocean_water_re_#1-1791650516724.mp3",
+    "mode": "intermittent",
+    "gain_db": -19.411621485714146,
+    "start_s": 45,
+    "on_s": 35,
+    "off_s": 265,
+    "fade_in_s": 12,
+    "fade_out_s": 18,
+    "loop_crossfade_s": 2
+  },
+  "amplitude_fraction_of_supplied_sfx": 0.10700866000250421,
+  "music_source": "final/09-offshore-night-office/music/long-source-v1/Alien_Sea_Viewport_2026-10-10T160442.mp4",
+  "music_source_sha256": "aa207b4021f18223ad8e8f5d336b17ec672f9dc425328ece8a56964b9f20b8d9",
+  "music_gain_db": -6.9,
+  "music_excerpt_source_seconds": [
+    40,
+    444
+  ],
+  "water_events_preview_seconds": [
+    [
+      45,
+      80
+    ],
+    [
+      345,
+      380
+    ]
+  ],
+  "first_event_peak_plateau_seconds": [
+    57,
+    62
+  ],
+  "files": [
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v2/Shoreless-water-and-music-loop-review-7m20s-v2.mp3",
+      "seconds": 440,
+      "sha256": "4a31bae50742e01305e9696b42423f2d9032f9fbfd9adaeffb7befcaf19f69a2",
+      "full_decode_passed": true,
+      "all_samples_finite": true,
+      "sample_peak_dbfs": -7.619182586669922
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v2/Shoreless-water-short-preview-v2.mp3",
+      "seconds": 120,
+      "sha256": "e73533f5720c17d43db28744d0a5d61dccf79186c59d2a3b19bb545daebe4ba5",
+      "full_decode_passed": true,
+      "all_samples_finite": true,
+      "sample_peak_dbfs": -7.8809428215026855
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v2/Shoreless-music-loop-join-review-60s-v2.mp3",
+      "seconds": 60,
+      "sha256": "97edf3207902ac6c8aefed2f6a55363a0d95ed5a38f80af3df24c667b6456923",
+      "full_decode_passed": true,
+      "all_samples_finite": true,
+      "sample_peak_dbfs": -8.02635383605957
+    }
+  ],
+  "user_water_mix_approved": false,
+  "user_join_approved": false,
+  "assistant_listening": false,
+  "status": "V2 water reduced 15% in amplitude at unchanged timings. Full audition includes one exact candidate music overlap. User listening approval pending before two-hour extension.",
+  "followup": "then let me listen to the loop so we can make a 2 hour version etc",
+  "amplitude_multiplier_relative_to_v1": 0.85,
+  "music_loop_join_full_seconds": [
+    392,
+    404
+  ],
+  "music_loop_join_short_seconds": [
+    24,
+    36
+  ],
+  "target_final_duration_seconds": 7200,
+  "previous_record": "music/water-mix-v1/delivery-v1.json"
+}

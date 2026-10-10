@@ -1,0 +1,313 @@
+{
+  "source": "exports/07-icebound-weather-post/source/Winter_Colony_Night_2026-10-04T155903.mp4",
+  "original_path": "C:\\Users\\jazzs\\Downloads\\Winter_Colony_Night_2026-10-04T155903.mp4",
+  "sha256": "57232ba3451862836625c88aaabf22a2d7d3d056c50417bb86fcc85d85fbb626",
+  "bytes": 10545513,
+  "audio_seconds": 420.0106666666667,
+  "decoded_analysis_sample_rate": 12000,
+  "first_45_seconds_rms_dbfs": [
+    -19.100000381469727,
+    -18.389999389648438,
+    -18.190000534057617,
+    -18.010000228881836,
+    -18.010000228881836,
+    -17.81999969482422,
+    -18.25,
+    -18.09000015258789,
+    -18.260000228881836,
+    -18.260000228881836,
+    -17.899999618530273,
+    -18.239999771118164,
+    -18.18000030517578,
+    -15.479999542236328,
+    -14.579999923706055,
+    -14.300000190734863,
+    -14.270000457763672,
+    -14.399999618530273,
+    -14.600000381469727,
+    -14.729999542236328,
+    -15.170000076293945,
+    -15.3100004196167,
+    -15.279999732971191,
+    -15.630000114440918,
+    -15.369999885559082,
+    -14.720000267028809,
+    -14.779999732971191,
+    -14.260000228881836,
+    -14.270000457763672,
+    -14.359999656677246,
+    -14.359999656677246,
+    -14.34000015258789,
+    -14.40999984741211,
+    -14.289999961853027,
+    -15.170000076293945,
+    -15.220000267028809,
+    -15.539999961853027,
+    -15.229999542236328,
+    -14.899999618530273,
+    -15.210000038146973,
+    -14.300000190734863,
+    -14.470000267028809,
+    -14.430000305175781,
+    -14.6899995803833,
+    -14.699999809265137
+  ],
+  "last_50_seconds_rms_dbfs": [
+    -13.739999771118164,
+    -13.460000038146973,
+    -13.609999656677246,
+    -12.949999809265137,
+    -12.84000015258789,
+    -13.010000228881836,
+    -12.890000343322754,
+    -12.9399995803833,
+    -13.210000038146973,
+    -12.609999656677246,
+    -13.020000457763672,
+    -13.489999771118164,
+    -13.550000190734863,
+    -13.470000267028809,
+    -13.609999656677246,
+    -13.180000305175781,
+    -13.220000267028809,
+    -12.710000038146973,
+    -12.970000267028809,
+    -12.970000267028809,
+    -12.84000015258789,
+    -12.84000015258789,
+    -12.920000076293945,
+    -12.819999694824219,
+    -13.34000015258789,
+    -13.739999771118164,
+    -13.609999656677246,
+    -13.8100004196167,
+    -13.6899995803833,
+    -13.680000305175781,
+    -12.729999542236328,
+    -12.850000381469727,
+    -13.0,
+    -13.010000228881836,
+    -12.970000267028809,
+    -12.9399995803833,
+    -12.699999809265137,
+    -13.729999542236328,
+    -14.079999923706055,
+    -14.119999885559082,
+    -14.0,
+    -14.050000190734863,
+    -14.029999732971191,
+    -15.579999923706055,
+    -25.510000228881836,
+    -32.09000015258789,
+    -39.02000045776367,
+    -46.209999084472656,
+    -54.41999816894531,
+    -65.73999786376953
+  ],
+  "minute_rms_dbfs": [
+    -15.23,
+    -14.33,
+    -13.9,
+    -13.66,
+    -13.6,
+    -13.41,
+    -13.68
+  ],
+  "join_candidates": [
+    {
+      "score": 6.4576,
+      "start_seconds": 45,
+      "end_seconds": 414,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.863,
+      "spectrum_distance_db": 5.339
+    },
+    {
+      "score": 6.993,
+      "start_seconds": 44,
+      "end_seconds": 414,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.862,
+      "spectrum_distance_db": 5.881
+    },
+    {
+      "score": 7.063,
+      "start_seconds": 41,
+      "end_seconds": 414,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.605,
+      "spectrum_distance_db": 6.223
+    },
+    {
+      "score": 7.1325,
+      "start_seconds": 42,
+      "end_seconds": 414,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.718,
+      "spectrum_distance_db": 6.174
+    },
+    {
+      "score": 7.2132,
+      "start_seconds": 40,
+      "end_seconds": 414,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.46,
+      "spectrum_distance_db": 6.523
+    },
+    {
+      "score": 7.2435,
+      "start_seconds": 43,
+      "end_seconds": 414,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.82,
+      "spectrum_distance_db": 6.179
+    },
+    {
+      "score": 7.2639,
+      "start_seconds": 45,
+      "end_seconds": 414,
+      "overlap_seconds": 12,
+      "mean_level_difference_db": 0.951,
+      "spectrum_distance_db": 6.058
+    },
+    {
+      "score": 7.587,
+      "start_seconds": 44,
+      "end_seconds": 414,
+      "overlap_seconds": 12,
+      "mean_level_difference_db": 1.004,
+      "spectrum_distance_db": 6.333
+    },
+    {
+      "score": 7.6034,
+      "start_seconds": 39,
+      "end_seconds": 414,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.479,
+      "spectrum_distance_db": 6.899
+    },
+    {
+      "score": 7.6493,
+      "start_seconds": 45,
+      "end_seconds": 414,
+      "overlap_seconds": 16,
+      "mean_level_difference_db": 0.952,
+      "spectrum_distance_db": 6.443
+    },
+    {
+      "score": 7.6721,
+      "start_seconds": 45,
+      "end_seconds": 413,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 1.193,
+      "spectrum_distance_db": 6.219
+    },
+    {
+      "score": 7.7436,
+      "start_seconds": 27,
+      "end_seconds": 414,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.398,
+      "spectrum_distance_db": 7.181
+    },
+    {
+      "score": 7.8074,
+      "start_seconds": 45,
+      "end_seconds": 414,
+      "overlap_seconds": 20,
+      "mean_level_difference_db": 1.013,
+      "spectrum_distance_db": 6.539
+    },
+    {
+      "score": 7.812,
+      "start_seconds": 26,
+      "end_seconds": 414,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.349,
+      "spectrum_distance_db": 7.303
+    },
+    {
+      "score": 7.912,
+      "start_seconds": 43,
+      "end_seconds": 414,
+      "overlap_seconds": 12,
+      "mean_level_difference_db": 1.063,
+      "spectrum_distance_db": 6.604
+    },
+    {
+      "score": 7.948,
+      "start_seconds": 44,
+      "end_seconds": 414,
+      "overlap_seconds": 20,
+      "mean_level_difference_db": 0.992,
+      "spectrum_distance_db": 6.706
+    },
+    {
+      "score": 8.0528,
+      "start_seconds": 44,
+      "end_seconds": 414,
+      "overlap_seconds": 16,
+      "mean_level_difference_db": 0.987,
+      "spectrum_distance_db": 6.815
+    },
+    {
+      "score": 8.1064,
+      "start_seconds": 43,
+      "end_seconds": 414,
+      "overlap_seconds": 20,
+      "mean_level_difference_db": 0.982,
+      "spectrum_distance_db": 6.88
+    },
+    {
+      "score": 8.1089,
+      "start_seconds": 38,
+      "end_seconds": 414,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.587,
+      "spectrum_distance_db": 7.302
+    },
+    {
+      "score": 8.1894,
+      "start_seconds": 42,
+      "end_seconds": 414,
+      "overlap_seconds": 12,
+      "mean_level_difference_db": 1.098,
+      "spectrum_distance_db": 6.852
+    }
+  ],
+  "best_per_overlap": {
+    "8": {
+      "score": 6.4576,
+      "start_seconds": 45,
+      "end_seconds": 414,
+      "overlap_seconds": 8,
+      "mean_level_difference_db": 0.863,
+      "spectrum_distance_db": 5.339
+    },
+    "12": {
+      "score": 7.2639,
+      "start_seconds": 45,
+      "end_seconds": 414,
+      "overlap_seconds": 12,
+      "mean_level_difference_db": 0.951,
+      "spectrum_distance_db": 6.058
+    },
+    "16": {
+      "score": 7.6493,
+      "start_seconds": 45,
+      "end_seconds": 414,
+      "overlap_seconds": 16,
+      "mean_level_difference_db": 0.952,
+      "spectrum_distance_db": 6.443
+    },
+    "20": {
+      "score": 7.8074,
+      "start_seconds": 45,
+      "end_seconds": 414,
+      "overlap_seconds": 20,
+      "mean_level_difference_db": 1.013,
+      "spectrum_distance_db": 6.539
+    }
+  },
+  "limits": "Spectrum and level similarity only; positions are not musically aligned by ear. Overlap duration and harmony require user audition. No assistant listening."
+}

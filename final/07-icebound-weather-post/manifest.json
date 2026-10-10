@@ -2,7 +2,7 @@
   "title": "Icebound Weather Post",
   "series_number": "07",
   "date": "2026-09-28",
-  "status": "User accepted final v3 art; thumbnail generated pending review; publication metadata and music prompts prepared",
+  "status": "One-hour 4K Colony video delivered and technically verified; combined review pending",
   "artwork": {
     "file": "artwork-v1.png",
     "source": "creative/concepts/round-02/14-icebound-weather-post/concept-v1.png",
@@ -41,7 +41,21 @@
     "review": "Generated full image inspected: spelling, catalog number, series identity and focal subject readable; user review pending",
     "note": "Generated marketing adaptation; clean artwork not modified"
   },
-  "video": null,
+  "video": {
+    "path": "final/07-icebound-weather-post/video-4k-v3-60s.mp4",
+    "sha256": "8b02c264fc4145afd8992f42c515733a71a6f1fbe432aabed10784038a6196ae",
+    "bytes": 381119952,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "frames": 1800,
+    "seconds": 60,
+    "audio": false,
+    "codec": "H.264 lossless QP0 yuv420p",
+    "source_detail": "1672x941 native frames upscaled with Lanczos"
+  },
   "audio": null,
   "current_artwork_candidate": {
     "file": "artwork-v3-final.png",
@@ -66,47 +80,98 @@
   },
   "caption": "KEEPING THE LIGHTS ON",
   "youtube_metadata": {
-    "status": "publication drafts; audio and duration claims deliberately absent until produced",
+    "status": "Publication drafts; tags revised for delivered one-hour soundtrack on 2026-10-04",
     "title_file": "youtube-title.txt",
     "title_sha256": "6c47ce98407e2f094692aa67e828d3f4b1c88d32e945c1c82484e2a64615f118",
     "description_file": "description.txt",
     "description_sha256": "7b35a76c3b5cf304b383b965f173bdf2a046d1f869c266636860a5b12342a4b1",
     "tags_file": "youtube-tags.txt",
-    "tags_sha256": "788401a8b4582a479ad20f500347ddef2ceafbdef75cb4b107c3659a30898aa6",
-    "tags_characters_including_separators": 293,
-    "tags_characters_including_file_newline": 294,
+    "tags_sha256": "c6217deb4ab5855de0e7afa97faf426c2ab5bf444131ccae336b5b8b6fd7624f",
+    "tags_characters_including_separators": 307,
+    "tags_characters_including_file_newline": 308,
     "tags_count": 15,
     "tag_limit_exclusive": 500,
     "hashtags_count": 3,
     "sign_off": "Welcome to Ambient Colony. Stay a while and listen.",
-    "keyword_note": "Scene-relevant phrases; not measured search volume or ranking guarantees"
+    "keyword_note": "Revised around music genre and intended listening use; no measured search-volume or ranking claim. Removed obscure scene lore. User-generated soundtrack direction selected and one-hour runtime verified.",
+    "tags_revision": {
+      "date": "2026-10-04",
+      "previous_file": "youtube-tags-v1.txt",
+      "previous_sha256": "788401a8b4582a479ad20f500347ddef2ceafbdef75cb4b107c3659a30898aa6",
+      "user_feedback": "the tags for this video are a bit shit, no-one is searhcing half of those on youtube for this video",
+      "guidance": "https://support.google.com/youtube/answer/146402?hl=en-GB"
+    }
   },
   "music_preparation": {
-    "status": "prompts prepared; no audio generated",
+    "status": "Historical preparation; current delivered soundtrack is in music_current",
     "files": [
       {
         "path": "music/README.md",
-        "sha256": "31299257119cd63ef09a8e526d87b1ef8cd49ebb4cc51861e374777a8d50e8d9"
+        "sha256": "147fbab2db7a328a6695d354e4395b94b884342b7022b6b353bb7d8afc3899da"
       },
       {
         "path": "music/elevenlabs-prompt-v1.txt",
-        "sha256": "511a349d52d8749cc51f310191ca81b823ed841e87832d8d00e3bcc079c44e75"
+        "sha256": "7743e2c571722537bc692e3ce3eadbdaeda03d83b9c9355e963c5e9df8ca2bad"
       },
       {
         "path": "music/elevenlabs-long-version.txt",
-        "sha256": "d604b4b5f880e78d99fab145438fde24444ad5be2c9d5a19b37ebf50719b0db6"
+        "sha256": "cda42a0144f6f094ae78a780d4042e7f610150a2218dd55959eb107ad5d417fe"
       },
       {
         "path": "music/generation-record.json",
-        "sha256": "0e109e4698c856d2fa014833d2571051d47d438399383a8bbcc9a3e4fc07aa21"
+        "sha256": "8564c1602b4439e93039a3c05031b61176c9d54b188263cee744615ab019c4fc"
       }
     ],
     "planned_test": "60 seconds, two variants; user runs manually after checking actual cost",
     "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
-    "delivery_duration_seconds": null,
+    "delivery_duration_seconds": 3600,
     "credits_spent_by_assistant": 0,
     "workflow": "creative/MUSIC_WORKFLOW.md",
     "official_guidance": "https://elevenlabs.io/docs/overview/capabilities/music/best-practices",
     "guidance_checked": "2026-09-28"
+  },
+  "animation_current": {
+    "status": "Latest sixty-second v3 used for authorized final assembly; 4K master delivered and verified",
+    "package": "../../music/icebound-animation-v3/README.md",
+    "delivery": "../../music/icebound-animation-v3/delivery-v3.json",
+    "preview": "music/icebound-animation-v3/icebound-weather-post-v3-minute-720p.mp4",
+    "preview_sha256": "8e4a43d377d23c030086f2f2764e04cea5f71918ed8505eb22e45f0cf241a086",
+    "source_sha256": "5b49468b673b762a63909defa6b202f0bff19755cd829f84c1390d63702d499d",
+    "preview_seconds": 60,
+    "preview_dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "masks_created": true,
+    "renderer_implemented": true,
+    "four_k_export_produced": true,
+    "user_motion_approved": false,
+    "previous_version": "../../music/icebound-animation-v2/README.md",
+    "latest_feedback": "ok do your 60s suggestion",
+    "approval": "../../music/icebound-animation-v2/approved-v2-preview.json",
+    "accepted_look_version": "v2",
+    "new_schedule_user_approved": false,
+    "four_k_delivery": "delivery-v3/delivery-validation.json",
+    "assembly_authorized": true,
+    "assembly_request": "use our tool to make the final hour long video"
+  },
+  "music_current": {
+    "status": "One-hour MP3 delivered; transition approved; full decode passed",
+    "record": "music/long-source-v1/one-hour-delivery-v1.json",
+    "file": "exports/07-icebound-weather-post/Icebound-Weather-Post-Winter-Colony-Night-1-Hour-v1.mp3",
+    "sha256": "5191576dae072201de40c20c06a63d396121001a42861691175a9fbd70dd29e6",
+    "seconds": 3600,
+    "user_join_approved": true,
+    "full_hour_listening_approved": false
+  },
+  "combined_export": {
+    "file": "exports/07-icebound-weather-post/Icebound-Weather-Post-1-Hour-4K-v1.mp4",
+    "sha256": "dd4829e2420cb6665b87a46c997832d0d8bc7b4b56d3dff4c1ddeda0708e4713",
+    "bytes": 22957323954,
+    "duration_seconds": 3600,
+    "record": "assembly-v1/delivery-validation.json",
+    "tool": "Colony",
+    "full_combined_review": false
   }
 }

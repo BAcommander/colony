@@ -1,0 +1,50 @@
+{
+  "approval": {
+    "date": "2026-10-10",
+    "quote": "transition is fine , water is fine, make the 2 hour loop, scale up the video quality etc etc?",
+    "music_join_approved": true,
+    "water_mix_v2_approved": true,
+    "duration_seconds": 7200,
+    "animation_authorization": "Use current v3 for 4K and final assembly; no separate detailed motion verdict inferred."
+  },
+  "file": "exports/09-offshore-night-office/Shoreless-Colony-Alien-Sea-Viewport-with-Water-2-Hours-v1.mp3",
+  "sha256": "39caaf00923a715c42826ab6a961058897ac88ce81d273b9c212fbf64deeca18",
+  "bytes": 172801196,
+  "duration_seconds": 7200,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bitrate": 192000,
+  "source": "final/09-offshore-night-office/music/long-source-v1/Alien_Sea_Viewport_2026-10-10T160442.mp4",
+  "source_sha256": "aa207b4021f18223ad8e8f5d336b17ec672f9dc425328ece8a56964b9f20b8d9",
+  "source_cut_seconds": [
+    40,
+    444
+  ],
+  "music_gain_db": -6.9,
+  "overlap_seconds": 12,
+  "repeat_interval_seconds": 392,
+  "curve": "equal-power sine/cosine",
+  "water_settings": {
+    "path": "G:\\AI\\colony\\final\\09-offshore-night-office\\music\\water-mix-v1\\Clear_ocean_water_re_#1-1791650516724.mp3",
+    "mode": "intermittent",
+    "gain_db": -19.411621485714146,
+    "start_s": 45,
+    "on_s": 35,
+    "off_s": 265,
+    "fade_in_s": 12,
+    "fade_out_s": 18,
+    "loop_crossfade_s": 2
+  },
+  "opening_fade_seconds": 10,
+  "closing_fade_seconds": 20,
+  "validation": {
+    "full_decode": true,
+    "finite_samples": true,
+    "sample_count_per_channel": 345600000,
+    "sample_peak_dbfs": -7.516072427427504,
+    "integrated_lufs": -20.72,
+    "true_peak_dbtp": -7.52
+  },
+  "review": "User approved join and water v2; full two-hour listening not claimed.",
+  "runner_sha256": "d9561184d9ef226d2ddd274917b3c02d69bdacecb16cc3e8a5636b47ead9a615"
+}

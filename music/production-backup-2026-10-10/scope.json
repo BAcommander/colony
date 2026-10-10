@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-10",
+  "request": "commit, ppush and save all our learnings",
+  "includes": "Production records, scene code/config/masks and diagnostics for recent work through 09; shared music/animation lessons; selected short 4K masters via exact-path LFS; original reusable rain/water SFX; separate Colony-tool commit.",
+  "excludes": "Long exports, original full generated music exports, render/environment caches, intermediate PCM, redundant review media and executables remain local.",
+  "masters": [
+    {
+      "path": "final/06-last-cable-station/video-4k-v3.mp4",
+      "bytes": 62526558,
+      "sha256": "eb59de92482cad23972e759c190a7c0cbcc7e78a4ff4f26ac62271d6e29f76f1"
+    },
+    {
+      "path": "final/07-icebound-weather-post/video-4k-v3-60s.mp4",
+      "bytes": 381119952,
+      "sha256": "8b02c264fc4145afd8992f42c515733a71a6f1fbe432aabed10784038a6196ae"
+    },
+    {
+      "path": "final/08-rainline-relay/video-4k-v5-20s.mp4",
+      "bytes": 329166997,
+      "sha256": "fad3fccc70a591f995ba05f3c48048a4735c373832ea95481f5b0046f1a7a438"
+    },
+    {
+      "path": "final/09-offshore-night-office/video-4k-v3-60s.mp4",
+      "bytes": 421036504,
+      "sha256": "139e535964c31a7e12bf782c5b637b56d9c621ec52931dfae6e358fabf24a7b1"
+    }
+  ],
+  "final_video": {
+    "path": "exports/09-offshore-night-office/Shoreless-Colony-2-Hours-4K-v1.mp4",
+    "sha256": "7fddb9e35e7cac4cd0f19d367e542402f2733412164d60f3ae3f1f4698677325",
+    "remote_media_backup": false
+  },
+  "remote_verification": "See subsequent local verification receipt; this manifest alone does not prove push."
+}

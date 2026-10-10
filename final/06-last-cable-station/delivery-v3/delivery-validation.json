@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-03",
+  "accepted_preview_fingerprint": {
+    "source_sha256": "72fe97b682c4ff5de7ef577e2464163941c90a48fbf1268e4f8271e3afd97c37",
+    "config_sha256": "67bf483c1d822198dd78e7469ad4733f86e2dddc5697a072628fec708c62dcdd",
+    "dependencies": {
+      "music\\cable-animation-v1\\render_cable.py": "12cc8ad24309b48c7641766c6b91edd092ef49f463bfb4735fc58f12dd994832",
+      "music\\saltline-animation-v1\\periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music\\saltline-animation-v1\\dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "scripts\\ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "scripts\\render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts\\water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "music/cable-animation-v2/render_cable_v2.py": "0ccaf0b443fb7c278d63d49becf003e3d216d06ed87f9aa0a2442fc370b9f424"
+    },
+    "effective_masks": {
+      "sky": "b4c397c068a9acbaac63ede067103cad97c71e9674bc00a5ebd8323cd5fe398c",
+      "valley": "e7bef422f49cecc32f162b854ef9f49e9b5957b8f82fe8cd967348f1179241e7",
+      "left_fog": "b67c1efede7c7c5f6571651382047125d11c7359a3c75fb359d85b0ffa827f5f",
+      "ravine": "f3d74c1839055f50f7b2e76e4eb9bd7f28b9eb44d11420387e29c0c4af3230c1",
+      "lights": "716f0ac1c648342de970f9ecb4f7f298ebb90635bd57fbe4128f99288e9f42d6",
+      "screen": "19c4815981841166e5b48ddacf02712c90e63497675b14fd416b50ed21c55bf0",
+      "distance_fog": "828d49f7716be5660d378530062fd76cd494da3c160a96af438648d5f57b35cd",
+      "room_lamp": "82f557b5b02709636a290f0fabcc7809a2345d098a0fd3a47e90e19e21e4b6c1",
+      "daylight": "d208d437bf16f32a815d752962643fd442272ee52058e9021dcc27939e2d43fd",
+      "computers": "b868cb4873a4264e9c3b5609325225fff7a47aa23dbff9c5e23d9ab42659fdd1"
+    },
+    "renderer_sha256": "beea222306563652d3efbfdb3267bf57f770cd8df4c6344a33aa730f09b991b2"
+  },
+  "delivery_script_sha256": "d4d1373d4352a5864ae0e03b3b716a33e7d8da205e7a8f56a64fc1450dd00560",
+  "master": {
+    "path": "final/06-last-cable-station/video-4k-v3.mp4",
+    "bytes": 62526558,
+    "sha256": "eb59de92482cad23972e759c190a7c0cbcc7e78a4ff4f26ac62271d6e29f76f1",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "frames": 600,
+    "seconds": 20,
+    "audio": false,
+    "codec": "H.264 lossless QP0 yuv420p",
+    "source_detail": "1672x941 native source frames upscaled with Lanczos; no added native detail"
+  },
+  "validation": {
+    "full_decode": true,
+    "sequential_timestamps": true,
+    "no_duplicate_endpoint": true,
+    "source_protection": "Every generated source frame checked by unchanged renderer",
+    "encoded_seam": {
+      "sky": {
+        "seam_mae": 0.13924050632911392,
+        "ordinary_max_mae": 0.347160668679656,
+        "pass": true
+      },
+      "valley": {
+        "seam_mae": 0.38390173087660523,
+        "ordinary_max_mae": 0.4276024567280849,
+        "pass": true
+      },
+      "left_fog": {
+        "seam_mae": 0.22820582630002723,
+        "ordinary_max_mae": 0.4798983573827026,
+        "pass": true
+      },
+      "ravine": {
+        "seam_mae": 0.3357755900542724,
+        "ordinary_max_mae": 0.35342673229837185,
+        "pass": true
+      },
+      "lights": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 2.5288627722087798,
+        "pass": true
+      },
+      "screen": {
+        "seam_mae": 0.16810221073786966,
+        "ordinary_max_mae": 0.6844674131495837,
+        "pass": true
+      },
+      "distance_fog": {
+        "seam_mae": 0.16215044507239054,
+        "ordinary_max_mae": 0.19328212037851425,
+        "pass": true
+      },
+      "room_lamp": {
+        "seam_mae": 0.0,
+        "ordinary_max_mae": 4.167272160728576,
+        "pass": true
+      },
+      "daylight": {
+        "seam_mae": 0.10560642167314688,
+        "ordinary_max_mae": 0.4541729853406763,
+        "pass": true
+      },
+      "computers": {
+        "seam_mae": 0.017242271746944645,
+        "ordinary_max_mae": 0.047582075245626645,
+        "pass": true
+      },
+      "combined": {
+        "seam_mae": 0.12367995170399787,
+        "ordinary_max_mae": 0.5567108288995324,
+        "pass": true
+      }
+    }
+  },
+  "repeat": {
+    "path": "exports/06-last-cable-station/last-cable-station-v3-three-loops-4k-60s.mp4",
+    "sha256": "d7d0c8eede0bfdaefe63ae039e471cb5fd3511632ed63b3bd79552ff1677d13b",
+    "bytes": 187578006,
+    "decoded_frames": 1800,
+    "three_payloads_identical": true,
+    "sequential_timestamps": true
+  },
+  "user_approval": {
+    "quote": "ok perfect, can you use the tool to combine the final file?",
+    "scope": "V3 preview look accepted; Colony assembly requested. New 4K export not separately playback reviewed."
+  }
+}
