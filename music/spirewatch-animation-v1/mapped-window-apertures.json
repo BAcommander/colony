@@ -1,0 +1,112 @@
+[
+  {
+    "index": 0,
+    "aperture": [
+      252,
+      399,
+      4,
+      5
+    ],
+    "start": 7,
+    "hold": 6.3
+  },
+  {
+    "index": 1,
+    "aperture": [
+      246,
+      399,
+      5,
+      4
+    ],
+    "start": 18,
+    "hold": 9.1
+  },
+  {
+    "index": 2,
+    "aperture": [
+      245,
+      517,
+      4,
+      3
+    ],
+    "start": 29,
+    "hold": 7.5
+  },
+  {
+    "index": 3,
+    "aperture": [
+      245,
+      508,
+      3,
+      4
+    ],
+    "start": 40,
+    "hold": 8.8
+  },
+  {
+    "index": 4,
+    "aperture": [
+      411,
+      380,
+      6,
+      3
+    ],
+    "start": 53,
+    "hold": 9.3
+  },
+  {
+    "index": 5,
+    "aperture": [
+      411,
+      375,
+      6,
+      3
+    ],
+    "start": 58,
+    "hold": 7
+  },
+  {
+    "index": 6,
+    "aperture": [
+      616,
+      520,
+      4,
+      8
+    ],
+    "start": 12,
+    "hold": 5.8
+  },
+  {
+    "index": 7,
+    "aperture": [
+      616,
+      517,
+      4,
+      2
+    ],
+    "start": 33,
+    "hold": 11
+  },
+  {
+    "index": 8,
+    "aperture": [
+      801,
+      729,
+      6,
+      5
+    ],
+    "start": 45,
+    "hold": 7.6
+  },
+  {
+    "index": 9,
+    "aperture": [
+      795,
+      721,
+      5,
+      4
+    ],
+    "start": 23,
+    "hold": 8.4
+  }
+]

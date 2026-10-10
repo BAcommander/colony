@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-10",
+  "concept": "Spirewatch",
+  "source": "01-spirewatch-v2-cleanup.png",
+  "source_sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba",
+  "selection_scope": "User leaned toward Spirewatch, requested issue cleanup, then requested an animation prompt for this corrected version. No explicit finished-art rating or motion approval inferred.",
+  "animation_prompt": "spirewatch-animation-prompt-v1.txt",
+  "status": "V2 positive progress checkpoint; backup requested",
+  "proposed_preview_seconds": 60,
+  "animation_rendered": true,
+  "release_number": null,
+  "music_direction": "Vast Unfamiliar World short test",
+  "long_audio_selected": false,
+  "previous_concepts_preserved": true,
+  "animation_record": "music/spirewatch-animation-v2/delivery-v2.json",
+  "animation_preview": "music/spirewatch-animation-v2/spirewatch-v2-preview-60s.mp4",
+  "user_motion_approved": false,
+  "improvement_brief": "music/spirewatch-animation-v1/improvement-audit/v2-improvement-brief.txt",
+  "latest_feedback": "User said \"it's getting better\" and requested commit/push on 2026-10-11. Positive progress checkpoint; further refinement remains open, not final artistic approval."
+}

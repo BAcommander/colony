@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-10",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Make a conservative cleanup of this selected cinematic Spirewatch image. The definite defect is the coffee vessel on the foreground desk, approximately x185-278/y685-755 in the 1672x941 source: it has TWO handles. Replace that entire vessel with ONE simple handleless dark charcoal ceramic beaker of approximately the same height and position, a single clean oval rim, realistic wall thickness, grounded contact shadow and the same warm lamp light. Remove both loop handles completely and restore the small areas of desk and monitor background formerly covered by the handles. Do not leave any phantom handle, partial loop, second rim or duplicate cup. The beaker must sit convincingly on the desk, not float. Keep nearby notebook, lamp, monitor, chair and desk shape intact. Only if a small object boundary immediately around the corrected cup needs repair, clean that edge locally. Preserve the scene everywhere else as faithfully as possible: exactly this wide window framing and camera view, the distant right-hand spire, stepped dark city, left towers and their waterfalls, elevated cyan transit route, water reflections, clouds and mist, warm interior lamp, screen map, and dark exposure. The city is intentionally monumental and its waterfalls are intentional; do not redesign or simplify it. No new props, no new lights, no new architecture, no people, no text, no logos, no new window reflections, no sharpening or overall colour grade changes. Maintain landscape 16:9 and the original photographic materials. This is an object repair, not a new composition.",
+  "input": "C:/Users/jazzs/AppData/Local/Temp/codex-clipboard-3b4efd37-14ca-4cb5-9755-86de2d7390e6.png",
+  "input_role": "Selected Spirewatch artwork, edit target",
+  "output": "01-spirewatch-v2-cleanup.png",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "user_request": "fix any issues",
+  "inspection": {
+    "method": "Generated full-composition still visually inspected",
+    "confirmed": "Two handles removed; single handleless vessel sits on desk, rim and contact shadow readable. Window interior, desk/monitor/lamp, city spire, cyan route and waterfalls remain compositionally consistent.",
+    "limitation": "Imagegen slightly resynthesized distant clouds/building details; no pixel-identical preservation claimed. No other comparably obvious foreground construction defect identified at displayed size."
+  },
+  "status": "Cleanup delivered; user review pending",
+  "original_preserved": true,
+  "animation": false,
+  "catalog_number": null
+}

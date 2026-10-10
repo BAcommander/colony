@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-10",
+  "status": "Generated concepts, awaiting user selection; not animation-ready approved assets",
+  "generator": "built-in image_gen",
+  "prompt_file": "prompts.json",
+  "images": [
+    {
+      "file": "01-spirewatch.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "review": "Panoramic strong spire composition, cyan routes, warm desk. Generated waterfalls and water districts exceed prompt. Cup has two handles despite handleless instruction; repair before production if selected."
+    },
+    {
+      "file": "02-quiet-canal.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "review": "Clear canal reflections and grounded booth, readable connected bridge, separated water and dry ledge. Cup acquired a handle. Dense building detail should be reviewed before animation."
+    },
+    {
+      "file": "03-lower-grid.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "review": "Strong vertical depth and warm private refuge. Generator added tiny bridge silhouettes and cup handles despite exclusions; review/removal before production if selected."
+    }
+  ],
+  "selection": null,
+  "animation": false,
+  "catalog_number": null
+}

@@ -78,3 +78,7 @@ __pycache__/
 !final/07-icebound-weather-post/video-4k-v3-60s.mp4
 !final/08-rainline-relay/video-4k-v5-20s.mp4
 !final/09-offshore-night-office/video-4k-v3-60s.mp4
+
+# Spirewatch v2 checkpoint: exact preview; reviews/intermediates stay local
+!music/spirewatch-animation-v2/spirewatch-v2-preview-60s.mp4
+/music/spirewatch-animation-v2/remote-backup-verification.json

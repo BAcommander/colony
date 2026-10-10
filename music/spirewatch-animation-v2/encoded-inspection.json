@@ -1,0 +1,34 @@
+{
+  "source_video": "G:\\AI\\colony\\music\\spirewatch-animation-v2\\spirewatch-v2-preview-60s.mp4",
+  "sha256": "f07b826cbc54e8c5386bf4d2f6bf5bc2f0fe8339bdfbc8cd7585863c31891148",
+  "colour_aware": true,
+  "times": [
+    0,
+    4,
+    8,
+    9.6,
+    20,
+    28,
+    32,
+    34.6,
+    40,
+    48,
+    52.6,
+    56,
+    59.96666666666667
+  ],
+  "sheets": [
+    "storm-temporal.png",
+    "tower-temporal.png",
+    "room-temporal.png"
+  ],
+  "inspection_status": "Assistant inspected final full-composition 32-second decoded frame and tower/storm temporal sheets; source/native room and unchanged isolated decoded room activity inspected earlier. No continuous playback.",
+  "continuous_playback": false,
+  "user_motion_approved": false,
+  "findings": [
+    "Corrected transported sky texture no longer shows the earlier rectangular strip beside the tower in inspected frames.",
+    "Travelling tower pulse stays on existing cyan emitter strips.",
+    "Three cloud lightning events and restrained branches remain localized.",
+    "Room and architecture geometry remain steady in inspected samples."
+  ]
+}

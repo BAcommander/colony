@@ -1,0 +1,41 @@
+SPIREWATCH — LOCAL ANIMATION PRODUCTION PROMPT V1
+Prepared 2026-10-10. This file is a prompt for later execution. Preparing it does not start a render.
+
+When this prompt is explicitly invoked, build and deliver a local silent animation preview of the supplied Spirewatch artwork. Use the established Ambient Colony Python/NumPy/OpenCV/FFmpeg workflow. No cloud video service, paid generation, model installation or whole-scene diffusion. Preserve earlier scenes and all artwork versions.
+
+SOURCE
+G:/AI/colony/music/digital-city-concepts-v1/01-spirewatch-v2-cleanup.png
+Native 1672x941. SHA-256: 22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba.
+Use this corrected handleless-cup version, not the first concept, the canal alternatives or a screenshot. Freeze the source. Read G:/AI/colony/PRODUCTION_PIPELINE.md, creative/ANIMATION_WORKFLOW.md and creative/ANIMATION_KNOWLEDGE_BANK.md. This is a new, unnumbered concept; do not replace a numbered release or Farpoint's finished video.
+
+CREATIVE INTENT
+We are inside a dry, warmly lit observation room overlooking an immense dark city. The skyline, cyan transit infrastructure, waterfalls and distant needle tower establish the world. Make the city feel continuously inhabited and its weather visibly alive, while the room remains a quiet refuge. Preserve the photographic materials, dark tonal separation, original perspective and lighting balance. Fixed camera: no zoom, dolly, shake, parallax or moving architecture.
+
+PRINCIPAL MOTIONS — BUILD THESE FIRST
+1. Broad cloud transport. Move recognizable cloud formations slowly across the upper sky, broadly left to right. Give the lower banks around the distant skyline a separate, slower drift. Motion must read at normal 720p viewing size across upper, middle and distant regions, including the final third of the minute. Preserve tower silhouettes, antennas, mountains and the window frame. Exclude protected geometry from BOTH the sampled cloud source and destination. Avoid duplicated towers, doubled cloud ghosts, blanket haze and global brightness breathing. Improve coverage and coherent shapes before adding opacity or speed.
+
+2. The existing waterfalls. Animate water continuously DOWN the photographed falls on the left towers and smaller visible drops. Keep their outlines, channels, ledges and buildings fixed. Transport coherent streaks and broken translucent sheets inside tightly traced masks; introduce small evolving wisps only at visible impact/termination regions. Different falls should have independent internal phases. Water must descend, never oscillate upwards or slide the entire building texture. Restore rails, ledges and other occluders over the flowing water. This requires a new scene-specific optical flow layer; existing cloud/water renderers are not a waterfall simulation. Do not invent new falls or expose unseen landing basins.
+
+SUPPORTING MOTION
+3. Calm water reflections. Add gentle directional ripples to visible water between structures, with quieter motion in distant basins. Preserve reflected cyan/amber light forms without sparkling noise or broad wobble. Use perspective scaling, spatial filtering and boundary damping. Protect bridge piers, banks and architecture in both sampling and output. Tune the near/right water separately; do not repeat Shoreless's excessive far-right motion. Waterfalls can move clearly while the basins remain calm.
+
+4. Inhabited windows and practical lights. Select a small number of individually resolvable lit windows in different depths, leaving the great majority steady. Give them independent soft transitions and held dim/off states across the full minute. Mask complete emitting panes, including white cores, without affecting mullions or facades. Couple local spill and identifiable water reflections to the source light. Use a few isolated changes in existing walkway lamps. Keep the skyline's cyan architectural outlines mostly stable; never blink entire buildings or synchronize districts.
+
+5. Foreground monitor. Preserve its existing map. Add a slow marker travelling along an existing route, two or three restrained node acknowledgements and small updates in the existing side panel. Confine all activity to the actual screen perspective, preserve bezel and desk occlusion. No large waveform, scrolling invented prose, full-screen flashes or replacement interface. The preferred Shoreless left-monitor/Cable Station treatment is the reference.
+
+6. Warm desk lamp. Keep it predominantly steady. Add one brief gentle dip and recovery during the minute, with the lamp emitter and its actual desk/cup/notebook illumination changing together. No whole-room exposure pumping. The cup, notebook, chair and equipment remain solid and still; no obligatory steam.
+
+OPTIONAL AFTER THE ESSENTIALS WORK
+If an existing mast-tip light is clearly visible and can be precisely mapped, test one or two tiny red/green alternating beacon cycles with dark intervals; do not create floating dots or paint over a structural tip. A very faint moving service-light accent may follow an existing cyan transit strip while its base light remains on. Keep it infrequent and subordinate; no invented trains, vehicles or new focal objects. Omit either effect if its attachment or purpose is ambiguous. Do not add rain, glass droplets, lightning or sunbeams in this first pass; the scene already has sufficient motion and the nighttime lighting should remain coherent.
+
+METHOD AND REUSE
+Use independent source-coordinate masks and cropped procedural layers over the immutable plate. Establish the depth/occlusion order before rendering. Borrow cloud transport/depth treatment from Basalt and Cable Station; filtered reflection motion from Glacier/Floodplain with Shoreless's local calming lesson; complete window masks and spill coupling from Ringfall/Rainline; restrained route activity from Cable Station and the preferred Shoreless left display. Historical settings are examples, not transferable coordinates or automatic approval. Record each remapping choice and known failure risk in scene-plan-v1.json. Load preserved dependency snapshots when needed; do not alter another scene's approved renderer. Freeze random seeds and events in configuration.
+
+DELIVERY AND REVIEW
+Proposed first complete delivery: a genuine 60-second, silent 1280x720/30 fps preview (1800 frames), plus a clearly labelled three-repeat 180-second review. Independent cloud renewal and habitation events span the minute; this must not be three copied twenty-second videos. Local subcycles may repeat at their normal speed when recorded honestly. Do not slow falls or cloud travel merely to lengthen the loop.
+
+First render short full-composition isolated tests for clouds and waterfalls, then water and a forced-dim window-mask sheet. Refine specific masking/readability defects before the full preview. Use forward motion, locally hidden resets and wrapped event envelopes. No ping-pong, duplicate endpoint or whole-image dissolve.
+
+Check source hash, finite pixels, protected regions, native/encoded layer seams and composite seams against ordinary adjacent-frame motion. Check quiet neighboring frames so a bright event cannot hide a bad join. Fully decode all preview/review frames, confirm sequential timestamps, distinct states at 0/20/40 seconds and three identical decoded review repetitions. Use colour-aware FFmpeg decoding for visual inspection. Numerical change is not proof of good-looking motion; state whether review was actual playback or sampled stills.
+
+Save versioned outputs and exact settings, masks, code/dependency hashes, evidence and inspection notes under G:/AI/colony/music/spirewatch-animation-v1/. Deliver the complete preview for user review. Matching 4K follows that review and must disclose enlargement from 1672x941. Music, SFX, final duration, long assembly, upload and commit/push are separate stages. Vast Unfamiliar World is the associated short musical direction, not an approved extended soundtrack. Do not mix or generate audio as part of this visual prompt.

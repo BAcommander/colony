@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-10",
+  "method": "Assistant inspected source grid and native crops, mask overlay, full-composition native samples at 0/8 seconds, six-state waterfall/lamp temporal crops, ten original/forced-dim window pairs, isolated encoded full frames, and complete-preview colour-aware decoded frames at 8 and 40 seconds.",
+  "continuous_playback": false,
+  "observations": [
+    "Upper cloud features change position while window/city composition stays fixed. The initial narrow exclusions sampled small architecture fragments; the revised source exclusion and lower skyline boundary remove the observed artifacts in inspected samples.",
+    "Waterfall channel outlines and ledges remain fixed while internal texture changes. Separate numerical tracking confirms a downward displacement of eight native pixels over 0.2 seconds.",
+    "Basin reflections are calmer than waterfall texture; some source reflection detail is softened by the reconstructed-water method. Calmness and naturalness remain for user playback review.",
+    "Forced-dim selected panes include their bright cores; adjacent unselected windows remain lit. The surrounding facade is not broadly dimmed.",
+    "Monitor retains its map and bezel with small route/node/panel changes. The lamp sample at 32.1 seconds dims the emitter and its nearby warm pool without a whole-frame exposure change.",
+    "Decoded samples retain the cyan/amber colour balance, dry desk, corrected beaker and static skyline composition. No new vehicles, rain, lightning or camera movement were added."
+  ],
+  "technical_evidence": ["analytic-validation.json", "isolated-validation.json", "targeted-validation.json", "preview-validation.json", "repeat-validation.json"],
+  "status": "Draft delivered for real-time user review; no artistic approval inferred",
+  "user_motion_approved": false,
+  "four_k_authorized_by_this_delivery": false
+}

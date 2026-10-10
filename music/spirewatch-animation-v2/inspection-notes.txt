@@ -1,0 +1,24 @@
+SPIREWATCH V2 — INSPECTION AND LIMITS
+2026-10-10. Assistant inspected source, native temporal samples and colour-aware decoded isolated frames. Continuous playback was not performed. User visual verdict is pending.
+
+Source unchanged: 01-spirewatch-v2-cleanup.png, 1672x941, SHA-256 22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba.
+
+Initial study: broad cyan detection inside a rectangular tower region included blue sky. Intersecting the broad silhouette still caught small sky pockets along its approximate boundary. Corrected by individually mapping eleven existing emission-strip regions, retaining source-based cyan core selection and narrowly bounded glow. First renderer/config and two first-study samples preserved in history/first-study. Do not reuse the initial mask as a preset.
+
+Initial falling material was too contrasty in still samples. Reduced source-normalized texture contrast, reduced procedural thread contribution and smoothed tiny detail vertically. Current material transports photographed falling-water texture instead of modulating brightness over fixed photographed streaks. Tracking after dividing out stationary channel shading measures nine source pixels down in 0.2 seconds; this is direction evidence, not a playback realism verdict.
+
+Water samples preserve crisp basin ripples. Fine-detail measure remains about 99% of source over five sampled states. This is a spatial detail check, not proof that motion is strong enough or aesthetically approved. Far-right basins have lower displacement; native boundary damping and source masks keep banks/piers fixed.
+
+Cloud forms change position between temporal samples; valley and city mist have independent speeds and depth masks. Source and output geometry exclusions remain mandatory. Procedural mist is an artistic optical interpretation. Check renewal/doubled cloud edges and any stationary boundary halo during user playback.
+
+Final tower masks: samples show concentrated emissive bands at progressively higher and then lower elevations, without the rectangular sky patch seen in the first study. Existing light strip geometry stays fixed. Added district glows and transit lights are cinematic city activity; no engineering/physical simulation claim. Transit follows a manually mapped elevated route with explicit foreground occluders.
+
+Display activity: larger source-map marker, node acknowledgements and restrained data-panel updates are visible in temporal crops and a decoded full-composition city sample. The large waveform rejected on Shoreless was not reused. Markers synchronize to transit progress; their event envelope fades to zero so fallback-state changes cannot make the marker jump at event boundaries.
+
+Lightning: three localized cloud discharges at approximately 9.6, 34.6 and 52.6 seconds. Short branching filaments are partially obscured by source-cloud texture. A broad main flash and weak afterglow affect their cloud region, with faint mapped exterior/water response. Room exposure stays steady. Intensity/branch realism requires user playback feedback.
+
+The principal materials and city/storm layers were rendered in five isolated full-composition clips and fully decoded. Analytic per-layer seam/source-protection checks and targeted direction/detail/late-coverage checks passed before combined rendering. See the separate final encoded validation reports for actual completion state; this note does not itself assert a finished combined encode.
+
+No new source artwork, paid tools, cloud video service, camera motion, music mix or 4K master. This remains a silent review draft. V1 and other Colony scenes preserved.
+
+Final encoded inspection caught a separate cloud-source reconstruction edge beside the tower. This was not a remaining tower-light mask leak: isolated tower output changed no pixels at that sky edge. The prior wide inpainted architecture hole produced a vertical smoothed strip that became visible when transported. Reconstructed missing sky from normalized surrounding valid sky radiance, with an extended smooth transition annulus, excluding architecture from both sampling and output. Inspected corrected tower/sky samples at 8/32/52.6 seconds. Preserved the complete earlier minute, repeat, code/config and reports in history/pre-sky-correction. All fourteen non-sky layers match their previous native output at six times; see sky-correction-regression.json. The atmosphere is rerendered and rechecked; unchanged isolated clips are retained with explicit provenance. This correction is recorded on 2026-10-11 following work begun 2026-10-10.

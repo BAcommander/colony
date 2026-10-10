@@ -111,3 +111,8 @@ music/shared-rain-overlay/rain-source-v1.json -text whitespace=blank-at-eol,blan
 
 # Preserve raw FFmpeg diagnostic logs, including original carriage returns.
 final/0[6-7]-*/music/long-source-v1/*loudness.txt -text -diff
+
+# Preserve fingerprinted Spirewatch source and records byte for byte
+music/digital-city-concepts-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/spirewatch-animation-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/spirewatch-animation-v2/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

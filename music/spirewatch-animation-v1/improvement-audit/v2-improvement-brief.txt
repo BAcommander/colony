@@ -1,0 +1,50 @@
+SPIREWATCH — V2 IMPROVEMENT BRIEF
+2026-10-10 | Proposal following user dissatisfaction; not implemented or approved.
+
+User feedback: "this scene feels like theres ALOT of improvements needed, can you think long and hard and figure out how we can improve things 500%".
+500% expresses ambition, not a measured quality target. The user did not identify individual defects; the diagnoses below are the assistant's findings.
+
+SOURCE AND REVIEW
+Keep the cleaned 1672x941 source plate, SHA-256 22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba. Preserve v1 media, code and validation as a checkpoint. No catalog number assigned.
+Review evidence: renderer/config inspection and twelve colour-aware decoded frames at 0/1/2/4/8/16/24/32/40/48/56/59 seconds, with sky, falls, basins, room and spire timelines in this directory. This is sampled-frame inspection, not continuous playback. V1 decode/seam checks remain valid; they do not establish motion realism or user acceptance.
+
+DIAGNOSIS AND PRIORITY
+The picture has a strong warm-room/cold-city composition and a clear focal spire. The animation underuses the scale and function of the city. Its biggest effects need better material behaviour; many supporting effects are too small or infrequent to contribute at normal viewing size. Raising all amplitudes would amplify the weaknesses and repeat the excessive-water lesson from Shoreless.
+
+1. REBUILD THE WATERFALL MATERIAL (highest priority)
+Evidence: v1 multiplies the original fixed waterfall pixels by a downward-moving random density field. Brightness patches travel, but the photographed streak geometry remains fixed. The tracking test proves the overlay direction, not natural water flow. No spray or visible landing interaction is implemented.
+Proposal: separate the stable channel/rock shading from the falling water texture. Transport an irregular, vertically stretched water detail field within each fall, with narrow faster threads and slower broad sheet variations. Anchor the lip; retain small irregularities without moving building edges. Add faint spray only at visible exits/landings, clipped behind intervening structures. Do not invent a visible plunge pool where the image hides it. Give the three falls different local timing and speed consistent with their apparent scale.
+Gate: an 8–12 second full-composition test must read as continuous downward flow at 1x, without zebra bands, brightness washes, a static superimposed streak image, or glowing fog. Resolve this before a complete minute render.
+
+2. RESTORE CRISP BASIN REFLECTIONS
+Evidence: v1 replaces selected patches using a smoothed reconstructed reflection field. Decoded samples show broad soft reflection columns; only seven bounded regions move. This treatment risks losing the detailed surface that made the still credible.
+Proposal: preserve the source's fine ripple detail and create restrained local movement around it. Separate slow broad reflection displacement from sharper, lower-amplitude surface ripples; perspective compress both toward the far shore. Map all relevant visible basins, with individual strength by distance and exposure, while protecting piers and banks. Keep the far right especially calm. Couple an animated light's reflection only when a credible counterpart is visible.
+Gate: compare source, v1 and candidate at equal size/brightness. The water must keep detail, avoid melted vertical smears and hide patch boundaries. More displacement is not the target.
+
+3. GIVE THE ATMOSPHERE REAL DEPTH
+Evidence: cloud shapes do move across sampled states. However, the conservative skyline cutoff and broad mountain exclusion leave part of the low atmosphere frozen. Overlapping source-texture phases can soften/double formations during renewal; this is a risk to review at playback, not a confirmed user complaint.
+Proposal: map upper sky, mountain-valley cloud and city haze as separate depth regions. Preserve a dominant coherent cloud formation during renewal. Use slower distant movement and localized mist corridors behind individual towers; retain clear portions of the skyline. Protect both sampled texture and destination silhouettes. Very restrained cloud-driven illumination may affect selected exterior surfaces coherently, after the movement works.
+Gate: persistent directional motion across the complete minute, no frozen halo around towers, architecture carried into the sky, uniform opacity breathing or fog laid over the whole city.
+
+4. MAKE THE CITY FEEL OPERATED
+Evidence: the main cyan route and spire remain entirely static. Ten tiny window apertures and three short walkway dips contribute little to the city's dominant shapes. Omitting all transit activity left the strongest visual route unused.
+Proposal: interpret one suitable elevated corridor as a transit route and add two or three restrained lighted-carriage passages per minute. This is a proposed fictional addition, not an existing visible train. Match perspective, rail alignment, occlusion behind supports and plausible travel time. Use a compact carriage/window group rather than a free-floating glowing dot or sweeping neon stripe. Add staggered window occupancy changes across near/middle/far districts, with long steady holds and most windows unchanged. A small status pulse confined to an existing spire light segment can support the focal point; do not pulse the complete tower.
+Gate: reject transit if it looks pasted on or its route cannot be mapped convincingly. Avoid foreground craft, repeated attention-grabbing arrivals, synchronized district blinking and general neon pumping. The city should remain restful.
+
+5. GIVE THE ROOM A LEGIBLE JOB
+Evidence: v1's main map marker is roughly a pixel wide in the 720p composition. The rest of the room changes chiefly during one brief lamp dip. Adding a technical screen layer did not guarantee useful readability.
+Proposal: use a restrained route progression with two or three readable map-node acknowledgements and occasional updates to the existing small data panel. Where feasible, coordinate a screen route event with a city transit passage. Keep the existing map and perspective; adopt the restrained screen approach preferred in Shoreless/Cable Station, without the rejected prominent waveform. Couple any modest display glow to the nearby desk. Keep the warm lamp mostly steady with a rare small dip and matching spill.
+Gate: screen activity is visible at full-composition 720p without zooming, but does not pull attention from the view. Furniture, cup, bezel and window frame remain rigid.
+
+REUSE AND LIMITS
+Reuse source hashing, precise geometry protection, complete emitter/spill masks, independent holds, scene-bound configuration, colour-aware decoding and loop validation. Reuse Shoreless's local-water restraint and screen hierarchy as lessons, not copied coordinates or amplitudes. Reuse Cable's readable atmospheric/screen hierarchy and Rainline's coupled practical illumination. V1's waterfall brightness method is not an accepted preset. New masks must be mapped to this exact plate.
+The room/window framing and source grading already establish the shelter. Rain, camera movement, lightning and a wholesale source regeneration are not priorities. A 4K upscale cannot remedy weak motion or add true source detail.
+
+EXECUTION ORDER AND ACCEPTANCE
+A. Build two short principal-motion proofs: waterfall material and crisp water/atmospheric depth. Include equal-size v1/candidate comparisons and mask-edge stills.
+B. After available visual checks, assemble a 15–20 second full-composition candidate containing a representative transit and screen event. Check that motion has a focal hierarchy and no competing rhythmic pulses.
+C. Render a genuine 60-second silent 720p v2 using the same motion speeds, distributing independent room/city events across the minute. Inspect 0–20, 20–40 and 40–60 coverage and the wrap, not just the first seconds.
+D. Retain full decode, protected-pixel, timestamp, encoded regional/composite seam and repeat checks. Separate technical pass from artistic acceptance; report actual inspection limitations.
+E. Obtain the user's visual verdict before final 4K/long assembly. A longer loop or export size is not a substitute for resolving the principal material problems.
+
+This turn produced the audit and plan only. No v2 animation, audio mix, commit or push was made.

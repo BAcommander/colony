@@ -1,0 +1,222 @@
+{
+  "fingerprint": {
+    "source": {
+      "path": "music/digital-city-concepts-v1/01-spirewatch-v2-cleanup.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba"
+    },
+    "config_sha256": "fa76c0d401e62d88964365e8ee108c18bd95b82d8f47559743424c5c49093fdd",
+    "renderer_sha256": "51f2e30ded72db6203070febd858d6aea35f57edcd5ea79ba376f6353f22beb5",
+    "dependencies": {
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "masks": {
+      "clouds": "6376ec3440ccdfd46572db7b05969df0cb0e0e3e45932512e6f78cf097676c54",
+      "mist": "4f17746628a2881c3e9584ec05fc50efdde73aeb3a0b211b0278675c609ee3cf",
+      "falls": "60b77154a0eca2037c6aebbcd6a36eeca5f7a573eea3082ea4eeb9d3d4378594",
+      "water": "fb52d10dc9842bf8828c530e0f3414375595c805acc77c89986f6049b33efde4",
+      "windows": "ef28612292bc7e7fa5d5968a587356f7a81fd480de6f7ea2f0b8ed8cd3d736cf",
+      "walkway": "0426ef06b52e7bc8732dee422e9ead1c2d606fa04372b06b4fe18e7486b5f549",
+      "lamp": "65a46b6a779b51bd7af0984edc66349573c89dcf2b0a3f8be451f812d43574f4",
+      "screen": "2b796a7c439dbe62846f7e8c5e066731e209e7e295c054091dc91f9f1a384181",
+      "depth_mist": "afb22b4981b2268671047cbdc6f7b78f868c5381b08555f04cc51b5146b09ce2",
+      "spray": "5c108c1f546028eb237b889e8eefa92bfe69ec3d00d2c283c555f795c9824606",
+      "tower": "a91a6325cdc6a8ebd60fc7755a550bddcc18bffa39da2305b93195f4f6ee0b4d",
+      "city_glow": "790fe224d11d3bf9e46c3371cb332b7b38d548bed77c04c4b0663a024cdfb9ee",
+      "transit": "0962c8930b14b12e3add45c9f5a1fd027d269c60acf2694fc813cb0f71eb659a",
+      "lightning": "db0146aa41b15fb27528ee2bc25fccda9f5b98d8f89817deadcabeaf307dd5ef",
+      "storm_response": "acd13175250dc96c2c2c5b9073bc8930c3ecf3783592cbf8b3f41052b9e45331",
+      "screen_spill": "2bf08517dd580204b36c1e35894c8b2b25563cac927fa9048c27ced540d3de76"
+    },
+    "runtime": {
+      "numpy": "2.3.5",
+      "opencv": "5.0.0"
+    },
+    "baseline_sha256": "2b5b3d65d6fd0e199f961056d003d5abbdc4ef9d1e252df2639d56b173cc4edd"
+  },
+  "continuous_playback": false,
+  "fall_texture": {
+    "measured_downward_pixels_in_point_two_seconds": 9,
+    "correlation": 0.9971677091148033,
+    "scope": "material feature direction, not realism"
+  },
+  "tower": {
+    "up_centroid_y": [
+      345.4263710779987,
+      244.39463061323033,
+      152.33514772143093
+    ],
+    "down_centroid_y": [
+      114.89807306652715,
+      202.3656634901503,
+      335.34907186179015
+    ],
+    "emission_regions": [
+      [
+        1266,
+        97,
+        1271,
+        118
+      ],
+      [
+        1277,
+        119,
+        1283,
+        189
+      ],
+      [
+        1285,
+        162,
+        1292,
+        318
+      ],
+      [
+        1253,
+        282,
+        1259,
+        378
+      ],
+      [
+        1271,
+        202,
+        1278,
+        310
+      ],
+      [
+        1284,
+        317,
+        1294,
+        384
+      ],
+      [
+        1303,
+        330,
+        1310,
+        346
+      ],
+      [
+        1308,
+        338,
+        1317,
+        366
+      ],
+      [
+        1298,
+        366,
+        1307,
+        403
+      ],
+      [
+        1291,
+        377,
+        1297,
+        415
+      ],
+      [
+        1270,
+        381,
+        1279,
+        417
+      ]
+    ],
+    "direction_checks": true
+  },
+  "transit": {
+    "centroid_x": [
+      823.0835328919565,
+      1049.6367417836084,
+      1276.3029820686072,
+      1503.5280961361766
+    ],
+    "times": [
+      5,
+      8,
+      11,
+      14
+    ],
+    "direction_check": true
+  },
+  "water_detail": {
+    "source_relative_high_frequency_ratios": [
+      0.9981853025539891,
+      0.9982160972485152,
+      0.9917355091715571,
+      0.9922879772921618,
+      0.9954230325809987
+    ],
+    "times": [
+      0,
+      7,
+      20,
+      40,
+      56
+    ],
+    "minimum_gate": 0.85,
+    "scope": "retained fine detail, not perceptual water quality"
+  },
+  "two_second_motion_at_0_20_40_52": {
+    "clouds": [
+      1.7684849434836372,
+      1.6812956093143145,
+      1.6847762857690232,
+      1.6877100858630718
+    ],
+    "mist": [
+      0.09396564381148143,
+      0.08412045873505278,
+      0.07388375014274295,
+      0.06653452748005677
+    ],
+    "depth_mist": [
+      0.5190709888501442,
+      0.5535967971070644,
+      0.5128072667785957,
+      0.5163459468767488
+    ],
+    "falls": [
+      20.358018696127232,
+      16.892638905750477,
+      23.20351260572215,
+      21.415847193557525
+    ],
+    "water": [
+      0.983362045516366,
+      0.7131652915042161,
+      0.8584489376492278,
+      1.0039819264363647
+    ],
+    "screen": [
+      0.019949696145974912,
+      0.019949696145974912,
+      0.09893612035431411,
+      0.3834809642092765
+    ],
+    "city_glow": [
+      0.9303684273280076,
+      0.9303684273280076,
+      0.9303684273280076,
+      0.5964919253341812
+    ]
+  },
+  "lightning_events": [
+    {
+      "time": 9.4,
+      "peak_effect": 1.0111730501240994
+    },
+    {
+      "time": 34.4,
+      "peak_effect": 0.8089384400992794
+    },
+    {
+      "time": 52.4,
+      "peak_effect": 0.9100557451116893
+    }
+  ],
+  "protection": "Asserted for every sampled and encoded native frame; compression/resizing can change pixels.",
+  "user_motion_approved": false
+}

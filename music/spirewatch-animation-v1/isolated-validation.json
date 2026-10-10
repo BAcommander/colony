@@ -1,0 +1,74 @@
+{
+  "fingerprint": {
+    "source": {
+      "path": "music/digital-city-concepts-v1/01-spirewatch-v2-cleanup.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba"
+    },
+    "config_sha256": "9c3d4b470e124f356bfc29876abf88aff2acc9180d348b78ea8e84d9def3c6bd",
+    "renderer_sha256": "4e2c892e0b4fe3b1cc929c934a8e55bc8a751893a08000b43cdf765a9f3ed0bd",
+    "dependencies": {
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "masks": {
+      "clouds": "6376ec3440ccdfd46572db7b05969df0cb0e0e3e45932512e6f78cf097676c54",
+      "mist": "4f17746628a2881c3e9584ec05fc50efdde73aeb3a0b211b0278675c609ee3cf",
+      "falls": "46c93576a347c6bf17c0eb70ebfa59ac5b9f9f0479cd5a5dec68b30486f0a1b2",
+      "water": "d58a06439fabea527781d5a6ff44d417dfc0321248a92afdf05a587c029b38a0",
+      "windows": "a0635acb44a7f8e202147b45548ca175c2f5cd88e9e00065deea8488c580faaa",
+      "walkway": "0426ef06b52e7bc8732dee422e9ead1c2d606fa04372b06b4fe18e7486b5f549",
+      "lamp": "65a46b6a779b51bd7af0984edc66349573c89dcf2b0a3f8be451f812d43574f4",
+      "screen": "2b796a7c439dbe62846f7e8c5e066731e209e7e295c054091dc91f9f1a384181"
+    },
+    "runtime": {
+      "numpy": "2.3.5",
+      "opencv": "5.0.0"
+    }
+  },
+  "clips": [
+    {
+      "layer": "atmosphere",
+      "frames": 240,
+      "full_decode": true,
+      "sequential_timestamps": true,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "sha256": "e3c41c76cfe931867fd39ad4b869f53031315d4e04fba77397c7aff675ad633a",
+      "colour_aware_decode": true
+    },
+    {
+      "layer": "falls",
+      "frames": 240,
+      "full_decode": true,
+      "sequential_timestamps": true,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "sha256": "105ce827856899ed99e175cce918fcc966ef5cb44c925d46b730c539113621f6",
+      "colour_aware_decode": true
+    },
+    {
+      "layer": "water",
+      "frames": 240,
+      "full_decode": true,
+      "sequential_timestamps": true,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "sha256": "a99edafdb523c597badd20fa210adc8bf283c719b72599f836826ac545c6bac5",
+      "colour_aware_decode": true
+    }
+  ]
+}
