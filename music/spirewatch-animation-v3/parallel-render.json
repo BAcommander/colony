@@ -1,0 +1,200 @@
+{
+  "workers": 4,
+  "chunks": [
+    {
+      "index": 0,
+      "start_seconds": 0,
+      "duration": 15,
+      "path": "G:\\AI\\colony\\music\\spirewatch-animation-v3\\render-parts\\part-00.mp4",
+      "sha256": "bb4bbf51535e3a185fc1857d56e5001504fc13a826f0f75db0f92a3a1bd107d4",
+      "fingerprint": {
+        "source": {
+          "path": "music/digital-city-concepts-v1/01-spirewatch-v2-cleanup.png",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba"
+        },
+        "config_sha256": "7cd354c979dce48c3b1d25d611e5bd727a334a19dc83139f5eac87d428a3f752",
+        "renderer_sha256": "c87172e77be16773f198a5057e16aba88e0b1a458b983238333c375aed5569c3",
+        "dependencies": {
+          "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+          "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+          "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+        },
+        "masks": {
+          "clouds": "6376ec3440ccdfd46572db7b05969df0cb0e0e3e45932512e6f78cf097676c54",
+          "mist": "4f17746628a2881c3e9584ec05fc50efdde73aeb3a0b211b0278675c609ee3cf",
+          "falls": "60b77154a0eca2037c6aebbcd6a36eeca5f7a573eea3082ea4eeb9d3d4378594",
+          "water": "fb52d10dc9842bf8828c530e0f3414375595c805acc77c89986f6049b33efde4",
+          "windows": "04f3da3efd992b2b22c409b6ebbb9aaf23dfd36b0b7e5e5d09de3a0b3d1e21e0",
+          "walkway": "0426ef06b52e7bc8732dee422e9ead1c2d606fa04372b06b4fe18e7486b5f549",
+          "lamp": "65a46b6a779b51bd7af0984edc66349573c89dcf2b0a3f8be451f812d43574f4",
+          "screen": "2b796a7c439dbe62846f7e8c5e066731e209e7e295c054091dc91f9f1a384181",
+          "depth_mist": "afb22b4981b2268671047cbdc6f7b78f868c5381b08555f04cc51b5146b09ce2",
+          "spray": "5c108c1f546028eb237b889e8eefa92bfe69ec3d00d2c283c555f795c9824606",
+          "tower": "a91a6325cdc6a8ebd60fc7755a550bddcc18bffa39da2305b93195f4f6ee0b4d",
+          "city_glow": "790fe224d11d3bf9e46c3371cb332b7b38d548bed77c04c4b0663a024cdfb9ee",
+          "transit": "0962c8930b14b12e3add45c9f5a1fd027d269c60acf2694fc813cb0f71eb659a",
+          "lightning": "545e7fcc7d135eb5ad077f4e90be5711dfd47497947c4995bc79d6fdd0a2e5ba",
+          "storm_response": "d7bc75f026bdb65634897d80537edc878de67c90da37ddee7c362f35889e6ffe",
+          "screen_spill": "2bf08517dd580204b36c1e35894c8b2b25563cac927fa9048c27ced540d3de76"
+        },
+        "runtime": {
+          "numpy": "2.3.5",
+          "opencv": "5.0.0"
+        },
+        "baseline_sha256": "3426463d1164315de7c581a2cfb07927ce7c89fc071a8e1689598dd5ca5a450c",
+        "lighting_layers_sha256": "c8f47d8d41d237d24b669f5acfa98301065b56e7c0b3c6c6fbd32147b3e195dc"
+      }
+    },
+    {
+      "index": 1,
+      "start_seconds": 15,
+      "duration": 15,
+      "path": "G:\\AI\\colony\\music\\spirewatch-animation-v3\\render-parts\\part-01.mp4",
+      "sha256": "ac1976910284539c5fc3e832317a7778fe06f431ce7883ab5a2bda642d79b62b",
+      "fingerprint": {
+        "source": {
+          "path": "music/digital-city-concepts-v1/01-spirewatch-v2-cleanup.png",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba"
+        },
+        "config_sha256": "7cd354c979dce48c3b1d25d611e5bd727a334a19dc83139f5eac87d428a3f752",
+        "renderer_sha256": "c87172e77be16773f198a5057e16aba88e0b1a458b983238333c375aed5569c3",
+        "dependencies": {
+          "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+          "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+          "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+        },
+        "masks": {
+          "clouds": "6376ec3440ccdfd46572db7b05969df0cb0e0e3e45932512e6f78cf097676c54",
+          "mist": "4f17746628a2881c3e9584ec05fc50efdde73aeb3a0b211b0278675c609ee3cf",
+          "falls": "60b77154a0eca2037c6aebbcd6a36eeca5f7a573eea3082ea4eeb9d3d4378594",
+          "water": "fb52d10dc9842bf8828c530e0f3414375595c805acc77c89986f6049b33efde4",
+          "windows": "04f3da3efd992b2b22c409b6ebbb9aaf23dfd36b0b7e5e5d09de3a0b3d1e21e0",
+          "walkway": "0426ef06b52e7bc8732dee422e9ead1c2d606fa04372b06b4fe18e7486b5f549",
+          "lamp": "65a46b6a779b51bd7af0984edc66349573c89dcf2b0a3f8be451f812d43574f4",
+          "screen": "2b796a7c439dbe62846f7e8c5e066731e209e7e295c054091dc91f9f1a384181",
+          "depth_mist": "afb22b4981b2268671047cbdc6f7b78f868c5381b08555f04cc51b5146b09ce2",
+          "spray": "5c108c1f546028eb237b889e8eefa92bfe69ec3d00d2c283c555f795c9824606",
+          "tower": "a91a6325cdc6a8ebd60fc7755a550bddcc18bffa39da2305b93195f4f6ee0b4d",
+          "city_glow": "790fe224d11d3bf9e46c3371cb332b7b38d548bed77c04c4b0663a024cdfb9ee",
+          "transit": "0962c8930b14b12e3add45c9f5a1fd027d269c60acf2694fc813cb0f71eb659a",
+          "lightning": "545e7fcc7d135eb5ad077f4e90be5711dfd47497947c4995bc79d6fdd0a2e5ba",
+          "storm_response": "d7bc75f026bdb65634897d80537edc878de67c90da37ddee7c362f35889e6ffe",
+          "screen_spill": "2bf08517dd580204b36c1e35894c8b2b25563cac927fa9048c27ced540d3de76"
+        },
+        "runtime": {
+          "numpy": "2.3.5",
+          "opencv": "5.0.0"
+        },
+        "baseline_sha256": "3426463d1164315de7c581a2cfb07927ce7c89fc071a8e1689598dd5ca5a450c",
+        "lighting_layers_sha256": "c8f47d8d41d237d24b669f5acfa98301065b56e7c0b3c6c6fbd32147b3e195dc"
+      }
+    },
+    {
+      "index": 2,
+      "start_seconds": 30,
+      "duration": 15,
+      "path": "G:\\AI\\colony\\music\\spirewatch-animation-v3\\render-parts\\part-02.mp4",
+      "sha256": "a8a3fb8a764d994ffda15e9fb5472a66201e524d978860e4f46147192b242807",
+      "fingerprint": {
+        "source": {
+          "path": "music/digital-city-concepts-v1/01-spirewatch-v2-cleanup.png",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba"
+        },
+        "config_sha256": "7cd354c979dce48c3b1d25d611e5bd727a334a19dc83139f5eac87d428a3f752",
+        "renderer_sha256": "c87172e77be16773f198a5057e16aba88e0b1a458b983238333c375aed5569c3",
+        "dependencies": {
+          "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+          "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+          "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+        },
+        "masks": {
+          "clouds": "6376ec3440ccdfd46572db7b05969df0cb0e0e3e45932512e6f78cf097676c54",
+          "mist": "4f17746628a2881c3e9584ec05fc50efdde73aeb3a0b211b0278675c609ee3cf",
+          "falls": "60b77154a0eca2037c6aebbcd6a36eeca5f7a573eea3082ea4eeb9d3d4378594",
+          "water": "fb52d10dc9842bf8828c530e0f3414375595c805acc77c89986f6049b33efde4",
+          "windows": "04f3da3efd992b2b22c409b6ebbb9aaf23dfd36b0b7e5e5d09de3a0b3d1e21e0",
+          "walkway": "0426ef06b52e7bc8732dee422e9ead1c2d606fa04372b06b4fe18e7486b5f549",
+          "lamp": "65a46b6a779b51bd7af0984edc66349573c89dcf2b0a3f8be451f812d43574f4",
+          "screen": "2b796a7c439dbe62846f7e8c5e066731e209e7e295c054091dc91f9f1a384181",
+          "depth_mist": "afb22b4981b2268671047cbdc6f7b78f868c5381b08555f04cc51b5146b09ce2",
+          "spray": "5c108c1f546028eb237b889e8eefa92bfe69ec3d00d2c283c555f795c9824606",
+          "tower": "a91a6325cdc6a8ebd60fc7755a550bddcc18bffa39da2305b93195f4f6ee0b4d",
+          "city_glow": "790fe224d11d3bf9e46c3371cb332b7b38d548bed77c04c4b0663a024cdfb9ee",
+          "transit": "0962c8930b14b12e3add45c9f5a1fd027d269c60acf2694fc813cb0f71eb659a",
+          "lightning": "545e7fcc7d135eb5ad077f4e90be5711dfd47497947c4995bc79d6fdd0a2e5ba",
+          "storm_response": "d7bc75f026bdb65634897d80537edc878de67c90da37ddee7c362f35889e6ffe",
+          "screen_spill": "2bf08517dd580204b36c1e35894c8b2b25563cac927fa9048c27ced540d3de76"
+        },
+        "runtime": {
+          "numpy": "2.3.5",
+          "opencv": "5.0.0"
+        },
+        "baseline_sha256": "3426463d1164315de7c581a2cfb07927ce7c89fc071a8e1689598dd5ca5a450c",
+        "lighting_layers_sha256": "c8f47d8d41d237d24b669f5acfa98301065b56e7c0b3c6c6fbd32147b3e195dc"
+      }
+    },
+    {
+      "index": 3,
+      "start_seconds": 45,
+      "duration": 15,
+      "path": "G:\\AI\\colony\\music\\spirewatch-animation-v3\\render-parts\\part-03.mp4",
+      "sha256": "4db39845a9d18753095010d81d39327d1e4f4f12bd9c509ff5b2542121cdfe57",
+      "fingerprint": {
+        "source": {
+          "path": "music/digital-city-concepts-v1/01-spirewatch-v2-cleanup.png",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba"
+        },
+        "config_sha256": "7cd354c979dce48c3b1d25d611e5bd727a334a19dc83139f5eac87d428a3f752",
+        "renderer_sha256": "c87172e77be16773f198a5057e16aba88e0b1a458b983238333c375aed5569c3",
+        "dependencies": {
+          "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+          "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+          "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+        },
+        "masks": {
+          "clouds": "6376ec3440ccdfd46572db7b05969df0cb0e0e3e45932512e6f78cf097676c54",
+          "mist": "4f17746628a2881c3e9584ec05fc50efdde73aeb3a0b211b0278675c609ee3cf",
+          "falls": "60b77154a0eca2037c6aebbcd6a36eeca5f7a573eea3082ea4eeb9d3d4378594",
+          "water": "fb52d10dc9842bf8828c530e0f3414375595c805acc77c89986f6049b33efde4",
+          "windows": "04f3da3efd992b2b22c409b6ebbb9aaf23dfd36b0b7e5e5d09de3a0b3d1e21e0",
+          "walkway": "0426ef06b52e7bc8732dee422e9ead1c2d606fa04372b06b4fe18e7486b5f549",
+          "lamp": "65a46b6a779b51bd7af0984edc66349573c89dcf2b0a3f8be451f812d43574f4",
+          "screen": "2b796a7c439dbe62846f7e8c5e066731e209e7e295c054091dc91f9f1a384181",
+          "depth_mist": "afb22b4981b2268671047cbdc6f7b78f868c5381b08555f04cc51b5146b09ce2",
+          "spray": "5c108c1f546028eb237b889e8eefa92bfe69ec3d00d2c283c555f795c9824606",
+          "tower": "a91a6325cdc6a8ebd60fc7755a550bddcc18bffa39da2305b93195f4f6ee0b4d",
+          "city_glow": "790fe224d11d3bf9e46c3371cb332b7b38d548bed77c04c4b0663a024cdfb9ee",
+          "transit": "0962c8930b14b12e3add45c9f5a1fd027d269c60acf2694fc813cb0f71eb659a",
+          "lightning": "545e7fcc7d135eb5ad077f4e90be5711dfd47497947c4995bc79d6fdd0a2e5ba",
+          "storm_response": "d7bc75f026bdb65634897d80537edc878de67c90da37ddee7c362f35889e6ffe",
+          "screen_spill": "2bf08517dd580204b36c1e35894c8b2b25563cac927fa9048c27ced540d3de76"
+        },
+        "runtime": {
+          "numpy": "2.3.5",
+          "opencv": "5.0.0"
+        },
+        "baseline_sha256": "3426463d1164315de7c581a2cfb07927ce7c89fc071a8e1689598dd5ca5a450c",
+        "lighting_layers_sha256": "c8f47d8d41d237d24b669f5acfa98301065b56e7c0b3c6c6fbd32147b3e195dc"
+      }
+    }
+  ],
+  "timeline": "Four contiguous 15-second chunks sampled at original absolute scene time, not four repeated clips",
+  "encoder": "Same lossless H264/yuv420p conversion as isolated/native encoder",
+  "complete_preview_sha256": "84e61a2be420b37533e343dc1f546de817f9bafcffa3e4dd4f83fc0fb2e18577"
+}

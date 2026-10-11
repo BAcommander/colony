@@ -1,0 +1,28 @@
+{
+  "source_video": "G:\\AI\\colony\\music\\spirewatch-animation-v3\\spirewatch-v3-preview-60s.mp4",
+  "sha256": "a847ca04d7599e64b885b364373a29974671398aa569fc22674814b044ba3781",
+  "colour_aware": true,
+  "times": [
+    0,
+    4,
+    8,
+    9.6,
+    20,
+    28,
+    32,
+    34.6,
+    40,
+    48,
+    52.6,
+    56,
+    59.96666666666667
+  ],
+  "sheets": [
+    "storm-temporal.png",
+    "tower-temporal.png",
+    "room-temporal.png"
+  ],
+  "inspection_status": "Prepared for assistant sampled-frame inspection",
+  "continuous_playback": false,
+  "user_motion_approved": false
+}

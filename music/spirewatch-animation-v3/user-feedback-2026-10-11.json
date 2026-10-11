@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-11",
+  "previous_version": "v2",
+  "visibility_feedback": "at what point does the lightning happen? i see nothing on the big towers? none of the yellow in the scene have any movement?",
+  "revision_request": "can we give the lighning a bit more ommfh, do more with the lights, improve this by like 250%",
+  "scope": "Execute a stronger lightning and city-lighting revision. Preserve prior versions and record actual review scope. 250% expresses ambition, not a measurable quality result.",
+  "new_version_user_approved": false,
+  "backup_request": "so commit and push",
+  "backup_scope": "User explicitly requested commit/push on 2026-10-11. Current v3 minute preview, source/config/masks, diagnostics/history records and learnings selected for Git backup. Repeated/older/isolated/intermediate videos remain local. See backup-manifest.json and subsequent local remote-backup-verification.json for actual remote evidence. Backup authorization does not imply artistic approval."
+}

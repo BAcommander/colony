@@ -116,3 +116,7 @@ final/0[6-7]-*/music/long-source-v1/*loudness.txt -text -diff
 music/digital-city-concepts-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 music/spirewatch-animation-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 music/spirewatch-animation-v2/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve source fingerprints for the Spirewatch lighting checkpoint
+music/spirewatch-animation-v3/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/setup_spirewatch_v3.py -text

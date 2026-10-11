@@ -1,0 +1,28 @@
+{
+  "source_video": "G:\\AI\\colony\\music\\spirewatch-animation-v3\\spirewatch-v3-preview-60s.mp4",
+  "sha256": "84e61a2be420b37533e343dc1f546de817f9bafcffa3e4dd4f83fc0fb2e18577",
+  "colour_aware": true,
+  "times": [
+    0,
+    4,
+    8,
+    9.6,
+    20,
+    28,
+    32,
+    34.6,
+    40,
+    48,
+    52.6,
+    56,
+    59.96666666666667
+  ],
+  "sheets": [
+    "storm-temporal.png",
+    "tower-temporal.png",
+    "room-temporal.png"
+  ],
+  "inspection_status": "Assistant inspected selected full-composition peak frames and tower/room temporal sheets",
+  "continuous_playback": false,
+  "user_motion_approved": false
+}

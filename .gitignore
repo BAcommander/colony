@@ -82,3 +82,7 @@ __pycache__/
 # Spirewatch v2 checkpoint: exact preview; reviews/intermediates stay local
 !music/spirewatch-animation-v2/spirewatch-v2-preview-60s.mp4
 /music/spirewatch-animation-v2/remote-backup-verification.json
+
+# Spirewatch v3 exact current preview; repeated/intermediate media stay local
+!music/spirewatch-animation-v3/spirewatch-v3-preview-60s.mp4
+/music/spirewatch-animation-v3/remote-backup-verification.json
