@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-13",
+  "status": "implemented and technically checked; user visual/listening review pending",
+  "tool_repository": "C:\\dev\\SpeedySlideShow",
+  "tool_base_commit": "284c6a756322f47d003ad7c6986d851870b99f4f",
+  "colony_base_commit": "75db9cda262d782ba127ab3c1b2be3abd8dcd941",
+  "files": [
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\intro.py",
+      "sha256": "14fe148b6a47f024df5f3b8e921a1b540592217fc9c8e26012f149f079bb6d9e"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\render.py",
+      "sha256": "57e7a7c04e117f37480c25552e51c70d00485386cf5aa76995f5b3979e4d5d13"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\gui.py",
+      "sha256": "2c2f380ad3dba278aa40ab19e939d73729d8aa677ca90d32918e1101b2c77a40"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\Colony.spec",
+      "sha256": "0b906c7e0c079c28f9a6631272d561d0596c188ea1e641117cc32157919c0339"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\README.md",
+      "sha256": "88e71e2c81fb949589b42d75c173d7586465907c731f567042d8570d41b06da0"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\AGENTS.md",
+      "sha256": "2cea8896d758935da335e6539c314955c195e514e6ffcf6eab678508e83cac4f"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\tests\\test_colony_intro.py",
+      "sha256": "e38f2577d8c3c60f95f840a995edf8816e629d9f793b9ffc63ccff3efc3611dc"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\assets\\fonts\\BarlowCondensed-Regular.ttf",
+      "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\assets\\fonts\\BarlowCondensed-SemiBold.ttf",
+      "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\assets\\fonts\\OFL.txt",
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    }
+  ],
+  "tests": {
+    "command": "python -m pytest tests/test_colony.py tests/test_colony_sfx.py tests/test_colony_intro.py -q",
+    "passed": 67,
+    "exit_code": 0,
+    "duration_s": 22.4
+  },
+  "build": {
+    "command": "python -m PyInstaller --noconfirm --clean --distpath dist --workpath build/colony colony/Colony.spec",
+    "exit_code": 0,
+    "executable": "C:\\dev\\SpeedySlideShow\\dist\\Colony.exe",
+    "sha256": "295816dda800af944a6da8fd729ff13e712a0ebec13338ba88f1376aac4c0531",
+    "bytes": 58230129,
+    "previous_executable": "C:\\dev\\SpeedySlideShow\\dist\\Colony-before-intro-2026-10-13.exe",
+    "previous_sha256": "fe43e98a1e0ed8147af02fe0e1f65be53fbccf749e7d9015fc005f80f0e0a5ba",
+    "packaged_font_hashes_match_sources": {
+      "colony/assets/fonts/BarlowCondensed-Regular.ttf": true,
+      "colony/assets/fonts/BarlowCondensed-SemiBold.ttf": true,
+      "colony/assets/fonts/OFL.txt": true
+    },
+    "freetype_binary_bundled": true,
+    "startup": {
+      "parent_pid": 71508,
+      "survived_10_seconds": true,
+      "children": [
+        {
+          "Id": 74248,
+          "ProcessName": "Colony",
+          "MainWindowTitle": "Colony"
+        }
+      ]
+    }
+  },
+  "inspection": "Decoded temporal stills and native title cards; no continuous playback or listening claim. Preview intentionally silent.",
+  "remote_backup": "not committed/pushed during this task"
+}

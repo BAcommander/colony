@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-13",
+  "version": 3,
+  "sha256": "1dd850e32742641616e68cff41381685611acfa65dfa43a182b9887b8abdef28",
+  "frames": 750,
+  "fps": 30,
+  "duration_s": 25,
+  "pts_contiguous": true,
+  "full_decode": "passed in export manifest; all video frames also decoded to framemd5",
+  "settings": {
+    "presents_center_y_fraction": 0.525,
+    "tagline": "Stay a while and listen"
+  },
+  "source_sha256": "be81dc87de98c5e8147659df747dd3f9981411afa8bc3c6ac541c586bb63ec38",
+  "source_scene_unchanged": true,
+  "audio": "Generated silence only; no music audition",
+  "visual_samples_s": [
+    1,
+    6,
+    13,
+    16,
+    19,
+    23
+  ],
+  "inspection": "Decoded temporal stills and native graphics; no continuous playback claim",
+  "user_visual_approval": "not inferred from commit/push request"
+}

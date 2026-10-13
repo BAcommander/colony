@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "sha256": "423e2994af6d6f4087030a680e36739f2ba5ca3b9c1b685ac5a24efdce610219",
+  "frames": 750,
+  "fps": 30,
+  "duration_s": 25,
+  "pts_contiguous": true,
+  "opening_mean_rgb_relative_to_v1_at_same_time": 0.22680189132419004,
+  "native_graphic_sizes": {
+    "brand": {
+      "v1": [
+        904,
+        112
+      ],
+      "v2": [
+        1638,
+        196
+      ]
+    },
+    "title": {
+      "v1": [
+        1356,
+        258
+      ],
+      "v2": [
+        1992,
+        354
+      ]
+    },
+    "tagline": {
+      "v1": [
+        672,
+        88
+      ],
+      "v2": [
+        742,
+        96
+      ]
+    }
+  },
+  "source_scene_unchanged": true,
+  "full_decode": "passed in export manifest",
+  "audio": "generated silence only; no music audition",
+  "visual_samples_s": [
+    1,
+    6,
+    13,
+    16,
+    19,
+    23
+  ],
+  "inspection": "Decoded stills and native cards; no continuous playback claim",
+  "user_visual_approval": "pending"
+}

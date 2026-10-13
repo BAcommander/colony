@@ -1,0 +1,130 @@
+{
+  "tool": "Colony",
+  "opening": {
+    "title": "Rainline Relay",
+    "fade_audio": true,
+    "version": 3,
+    "duration_s": 22.0,
+    "channel": "AMBIENT COLONY",
+    "tagline": "Stay a while and listen",
+    "brand_s": [
+      2,
+      3.2,
+      8,
+      9
+    ],
+    "presents_s": [
+      4.8,
+      5.8,
+      8,
+      9
+    ],
+    "title_s": [
+      10,
+      11,
+      14,
+      15
+    ],
+    "tagline_s": [
+      12,
+      13,
+      20,
+      21.5
+    ],
+    "presents": "PRESENTS",
+    "presents_center_y_fraction": 0.525,
+    "tagline_center_y_fraction": 0.89,
+    "channel_font_height_fraction": 0.077,
+    "title_font_height_fraction": 0.165,
+    "underline_width_height_fraction": 0.22,
+    "black_overlay_opacity": 0.88,
+    "scene_reveal_s": [
+      10,
+      20
+    ],
+    "audio_fade_s": [
+      5,
+      20
+    ],
+    "font_sha256": {
+      "BarlowCondensed-Regular.ttf": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996",
+      "BarlowCondensed-SemiBold.ttf": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    },
+    "renderer_sha256": "a38a64b021730c9878dcb7605c1b9354a18bc943aa77e2b65ea08182bca05440"
+  },
+  "preview_limit_s": 25,
+  "started": "2026-10-13T17:36:42",
+  "finished": "2026-10-13T17:36:50",
+  "output": {
+    "path": "C:\\Colony\\creative\\brand\\intro-v3\\colony-intro-v3-silent-preview.mp4",
+    "duration_s": 25.0,
+    "width": 1280,
+    "height": 720,
+    "fps": 30.0,
+    "color": {
+      "space": "bt709",
+      "primaries": "bt709",
+      "trc": "bt709",
+      "range": "tv"
+    }
+  },
+  "video": {
+    "path": "C:\\Colony\\music\\rainline-animation-v5\\rainline-relay-v5-preview-20s.mp4",
+    "width": 1280,
+    "height": 720,
+    "fps": 30.0,
+    "duration_s": 20.0,
+    "loop_duration_s": 20.0,
+    "loops": 3,
+    "source_color": {
+      "space": null,
+      "primaries": null,
+      "trc": null,
+      "range": null
+    }
+  },
+  "overlay": null,
+  "audio": {
+    "tracks": [],
+    "sfx": null,
+    "crossfade_s": 0.0,
+    "match_loudness": false,
+    "target_lufs": null,
+    "limiter_dbfs": -1.5,
+    "codec": "aac 192k 48000 Hz stereo",
+    "note": "Visual preview with generated silence; no music or SFX auditioned."
+  },
+  "verification": {
+    "full_decode": true,
+    "passed": true,
+    "checks": [
+      {
+        "name": "Video stream",
+        "ok": true,
+        "detail": "1280x720 (expected 1280x720)"
+      },
+      {
+        "name": "Frame rate",
+        "ok": true,
+        "detail": "30 fps (expected 30)"
+      },
+      {
+        "name": "Audio stream",
+        "ok": true,
+        "detail": "aac, 48000 Hz, stereo"
+      },
+      {
+        "name": "Duration",
+        "ok": true,
+        "detail": "0:25 (expected 0:25, +0.00 s)"
+      },
+      {
+        "name": "Full decode",
+        "ok": true,
+        "detail": "every frame and sample decoded without errors"
+      }
+    ],
+    "note": "Technical checks only. Whether the loop and the overlay look and sound right is a human check."
+  },
+  "preview_silent": true
+}

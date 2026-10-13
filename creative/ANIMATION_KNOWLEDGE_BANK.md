@@ -1,8 +1,12 @@
 # Ambient Colony animation knowledge bank
 
-Updated 2026-10-10. Use the lessons from videos 01–11 and the first-live candidate to make future first drafts stronger and avoid repeating rejected experiments. Start with readable environmental motion, add a few believable signs of habitation, and preserve the photographed structure of the scene. Reuse methods and timing helpers; remap every mask, anchor and protected object to the new artwork.
+Updated 2026-10-13. Use the lessons from videos 01–11 and the first-live candidate to make future first drafts stronger and avoid repeating rejected experiments. Start with readable environmental motion, add a few believable signs of habitation, and preserve the photographed structure of the scene. Reuse methods and timing helpers; remap every mask, anchor and protected object to the new artwork.
 
 Read this with [ANIMATION_WORKFLOW.md](ANIMATION_WORKFLOW.md) and [NEXT_SCENE_RUNBOOK.md](NEXT_SCENE_RUNBOOK.md). The [production tracker](../PRODUCTION_PIPELINE.md) owns current release status; linked scene records hold exact settings and feedback. Older version READMEs describe their delivery at that time and may contain superseded next steps.
+
+## Opening typography and pacing
+
+V1 intro passed export tests but the user rejected the visual result: insufficient opening darkness, timid branding/title/underline, missing PRESENTS and a centered tagline arriving too late. Treat functionality and an artistic verdict separately. V2 uses an 88% black overlay, much larger branding/title, an independent delayed PRESENTS layer, and a lower invitation overlapping the title then holding five seconds after it clears. The fourth graphic layer and 22-second input budget prevent missing PRESENTS or clipping the extended tagline fade. Inspect the complete composition at readable size and regional timing states; tiny fixture glyphs require contrast-based tests rather than solid-white pixel thresholds. [Exact feedback, v2 sample and checks](brand/intro-v3/README.md). V3 further tightens PRESENTS spacing to 52.5% frame height and removes the tagline colon; user requested commit/push. Current visual review remains separate; unchanged audio/SFX and source-master protections remain required. The user is improving future production, so no current music is needed for a silent preview.
 
 ## Start every new scene with these decisions
 

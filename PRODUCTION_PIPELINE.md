@@ -1,10 +1,12 @@
 # Ambient Colony — production pipeline and tracker
 
-Last updated: 2026-10-10. This is the live work queue for the first fourteen releases. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
+Last updated: 2026-10-13. This is the live work queue for the first fourteen releases. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
 
 Before any animation plan or revision, consult the [animation knowledge bank](creative/ANIMATION_KNOWLEDGE_BANK.md). It links lessons from videos 01–09 to the source implementations, separates accepted results from candidates, and records what to reuse or avoid. Capture the selected examples in the scene plan and update the bank after meaningful feedback.
 
 ## Where we are
+
+Future-video opening v3, 2026-10-13: user says v1 works but rejects its visual treatment. The actual Colony default now has an 88% black opening overlay, almost-double channel lettering/larger orbital logo, delayed PRESENTS, larger location title and a longer amber rule. Lower "Stay a while and listen" appears at 12s before the title fades 14–15s, holds to 20s, clears at 21.5s. Scene reveal remains 10–20s; audio entrance remains 0:05–0:20. [V3 silent sample, feedback and evidence](creative/brand/intro-v3/README.md). Graphics budget is 22s; no added runtime. Preview needs no music, and no new full release is being made. V3 brings PRESENTS closer underneath and removes the tagline colon. User requests commit/push; artistic review remains separate. Tool source is pushed at `ca2113ebe0ec28042b4c9bc6be0d86b14afa626f`; see the v3 backup records for this production package. Future scripts use IntroSettings(public_title), avoiding duplicate baked audio fades. V1 and existing masters/exports preserved.
 
 All fourteen have artwork, thumbnails, descriptions and search tags in [final/](final/README.md). Packages 04–14 also have suggested upload titles and scene-specific ElevenLabs music prompts. Thumbnails 11-14 are user-approved as of 2026-09-29; earlier pending thumbnail revisions retain their own review status. These assets do not mean fourteen finished uploads exist.
 
@@ -148,6 +150,7 @@ Exit: a selected soundtrack with an accepted join treatment. No fixed drone-note
 
 - [ ] Confirm the desired runtime per release; do not assume every video needs the same length.
 - [ ] Repeat the verified short visual loop efficiently and assemble audio with track-specific accepted crossfades. Add only one opening/closing audio fade as appropriate.
+- [ ] Use the default Colony opening: orbital logo/channel with PRESENTS, larger public title, and lower "Stay a while and listen" appearing before the title fades and holding afterward. Enter the correct public title and use Preview opening; music is optional for visual review. See [the reusable intro](creative/brand/intro-v3/README.md). For scripted assembly pass IntroSettings(public_title). Keep music free of the old opening fade before applying the 0:05–0:20 entrance, or explicitly retain supplied fades. Preserve later SFX timing. Check opening-to-clean-scene continuity separately; text stays outside the repeating master.
 - [ ] If selected, use the subscribe overlay once at a suitable point, never once per ambient loop. Its own visual approval remains separate.
 - [ ] Verify full-file decoding, runtime, video/audio stream properties, timestamp continuity and the actual assembly joins. Record encoding settings and hashes.
 - [ ] Review the beginning, middle, end and joins in the combined video. Record the real extent of the user's listening/playback review.

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-13",
+  "purpose": "Reusable opening treatment, not a new release or soundtrack",
+  "source_video": "C:\\Colony\\music\\rainline-animation-v5\\rainline-relay-v5-preview-20s.mp4",
+  "source_sha256": "be81dc87de98c5e8147659df747dd3f9981411afa8bc3c6ac541c586bb63ec38",
+  "tool_root": "C:\\dev\\SpeedySlideShow",
+  "settings": {
+    "title": "Rainline Relay",
+    "fade_audio": true,
+    "version": 1,
+    "duration_s": 20.0,
+    "channel": "AMBIENT COLONY",
+    "tagline": "Stay a while and listen:",
+    "brand_s": [
+      2,
+      3,
+      7,
+      8
+    ],
+    "title_s": [
+      10,
+      11,
+      14,
+      15
+    ],
+    "tagline_s": [
+      15.5,
+      16.3,
+      18.5,
+      20
+    ],
+    "black_overlay_opacity": 0.5,
+    "scene_reveal_s": [
+      10,
+      20
+    ],
+    "audio_fade_s": [
+      5,
+      20
+    ],
+    "font_sha256": {
+      "BarlowCondensed-Regular.ttf": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996",
+      "BarlowCondensed-SemiBold.ttf": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    },
+    "renderer_sha256": "14fe148b6a47f024df5f3b8e921a1b540592217fc9c8e26012f149f079bb6d9e"
+  },
+  "preview": "C:\\Colony\\creative\\brand\\intro-v1\\colony-intro-v1-silent-preview.mp4",
+  "manifest": "C:\\Colony\\creative\\brand\\intro-v1\\colony-intro-v1-silent-preview.export.json",
+  "silent": true,
+  "user_visual_approval": "pending",
+  "inspection": "Decoded temporal stills and technical checks; no continuous playback or listening claim."
+}

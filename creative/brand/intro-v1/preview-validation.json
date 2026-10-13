@@ -1,0 +1,19 @@
+{
+  "frames": 750,
+  "fps": 30,
+  "timebase": "1/30",
+  "pts_contiguous": true,
+  "duration_s": 25,
+  "sha256": "e3d967eb34efc2418f27b0a03b061bf81af6e0a2b8dbdf05f4a123a9fde74b7d",
+  "sample_pts": {
+    "0": 0,
+    "299": 299,
+    "300": 300,
+    "599": 599,
+    "600": 600,
+    "749": 749
+  },
+  "full_decode": "passed in export manifest",
+  "audio": "generated silence only",
+  "inspection": "Assistant inspected decoded frames at 1/4/12/17/21 seconds; no continuous playback claim"
+}

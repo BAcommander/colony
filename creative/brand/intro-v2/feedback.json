@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-13",
+  "version_reviewed": 1,
+  "verdict": "works technically, visual treatment rejected",
+  "user_text": "ok our version workds, but it's kinda shit.\n\n1) the initial black screen for the first 5 seconds isn't DIM enough\n2) the ambient colony text should be much larger\n3) we don't have the 'PRESENTS' text appear under Ambient Colony (at all, it's completely missing)\n4) RainLIne Relay could be bigger, as could the yellow underline\n5) stay a while and listen could appear athe bottom of the screen, a few seconds before the main body text fairs out and stay for like 5 more seconds.",
+  "implementation_version": 2,
+  "timing_interpretation": "Tagline reveals 12\u201313s; main title fades 14\u201315s; tagline stays fully visible to 20s and fades to 21.5s.",
+  "approval": "v2 user review pending"
+}

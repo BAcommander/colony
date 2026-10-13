@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-13",
+  "version": 3,
+  "user_visual_approval": "not inferred from commit/push request",
+  "tool_repository": "C:\\dev\\SpeedySlideShow",
+  "files": [
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\intro.py",
+      "sha256": "a38a64b021730c9878dcb7605c1b9354a18bc943aa77e2b65ea08182bca05440"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\render.py",
+      "sha256": "30250ca1801eccb2ec89da507d277f5028be0dcfed97a1bc8194199e1d5d28e1"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\gui.py",
+      "sha256": "791cd4dc48d8a0932956a4d13672d75d2a6691fec0311f3beb71584a78565929"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\Colony.spec",
+      "sha256": "0b906c7e0c079c28f9a6631272d561d0596c188ea1e641117cc32157919c0339"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\README.md",
+      "sha256": "ad9fd4b8f4333e24894bf5c06e15a08c4db6c50a81ba03f07a0281604439dcfc"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\AGENTS.md",
+      "sha256": "2f497ae97b665b356aecd2b915de31c8049656e6bbeb6d8052ba51da073d6ddd"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\tests\\test_colony_intro.py",
+      "sha256": "0058e73959236a58437b74215e42c1119e4bd78a5fd12e18d83562bb77684781"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\assets\\fonts\\BarlowCondensed-Regular.ttf",
+      "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\assets\\fonts\\BarlowCondensed-SemiBold.ttf",
+      "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\assets\\fonts\\OFL.txt",
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    }
+  ],
+  "tests": {
+    "command": "python -m pytest tests/test_colony.py tests/test_colony_sfx.py tests/test_colony_intro.py -q",
+    "passed": 67,
+    "exit_code": 0,
+    "result": "...................................................................      [100%]\n67 passed in 25.56s"
+  },
+  "build": {
+    "exit_code": 0,
+    "executable": "C:\\dev\\SpeedySlideShow\\dist\\Colony.exe",
+    "sha256": "9b708d9e29004df8ec8842a2a26da96ac1e393825984a476d450f7c8ac79d0d6",
+    "bytes": 58231138,
+    "previous_executable": "C:\\dev\\SpeedySlideShow\\dist\\Colony-intro-v2-2026-10-13.exe",
+    "previous_sha256": "f084a218635f17f9fae6b6e53234e7d8f71b574fad3f6e51eee6a46bcb86d879",
+    "bundled_font_hashes_match": {
+      "colony/assets/fonts/BarlowCondensed-Regular.ttf": true,
+      "colony/assets/fonts/BarlowCondensed-SemiBold.ttf": true,
+      "colony/assets/fonts/OFL.txt": true
+    },
+    "startup_smoke": {
+      "parent_pid": 74296,
+      "survived_10_seconds": true,
+      "children": [
+        {
+          "Id": 70072,
+          "ProcessName": "Colony",
+          "MainWindowTitle": "Colony"
+        }
+      ]
+    }
+  },
+  "prior_versions": "V1 and v2 source snapshots, previews, graphics and manifests retained",
+  "inspection": "Decoded temporal stills and native graphics; no continuous playback or listening claim",
+  "backup": "User explicitly requests commit/push; see backup-manifest.json and subsequent local remote-backup-verification.json. Executables/build caches remain local."
+}

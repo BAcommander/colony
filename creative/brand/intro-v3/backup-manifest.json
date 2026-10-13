@@ -1,0 +1,478 @@
+{
+  "date": "2026-10-13",
+  "request": "lets have the present text closer underneath, and lets loose the : after stay a while and listen, then commit and push all that",
+  "current_version": 3,
+  "change": "PRESENTS centre moved from 56.5% to 52.5% frame height; tagline exactly Stay a while and listen. Other v2 appearance/timing retained.",
+  "tool_backup": {
+    "repository": "https://github.com/BAcommander/slideshow",
+    "branch": "main",
+    "commit": "ca2113ebe0ec28042b4c9bc6be0d86b14afa626f",
+    "remote_head_verified": "ca2113ebe0ec28042b4c9bc6be0d86b14afa626f"
+  },
+  "production_repository": "https://github.com/BAcommander/colony.git",
+  "branch": "main",
+  "storage": "ordinary Git; selected files are below 100 MiB",
+  "scope": "Updated default tool source/fonts/tests in slideshow; intro v1/v2/v3 reviews, media/graphics/snapshots/records, supplied reference screenshots and future-production guidance in Colony.",
+  "file_count_excluding_this_manifest": 90,
+  "bytes_excluding_this_manifest": 43234582,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 10859,
+      "sha256": "326dec46cdcc8c64cf53fbe66aa8e205a3c36bbd5d28e350cc999b80d4715820"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 4712,
+      "sha256": "2af1a83fa832c07028c2272ded3fca9dd9281448a1ad9a7db3f6fa323c20a8c7"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 57021,
+      "sha256": "a54e0e213e4a28e22c2b7b084cab4513238822a833924f1b7aceb1b9e01f25a4"
+    },
+    {
+      "path": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "bytes": 49006,
+      "sha256": "2907777514e81aec3d0729b5031559ba20bbdc214d01af3a0319a6ec4af73a8d"
+    },
+    {
+      "path": "creative/ANIMATION_WORKFLOW.md",
+      "bytes": 15394,
+      "sha256": "b63fcbdfd3b0adf8014cab8a38dc790a6a768dda573bf82b3b8f6246e7c97e50"
+    },
+    {
+      "path": "creative/brand/intro-v1/colony-intro-v1-silent-preview.export.json",
+      "bytes": 2841,
+      "sha256": "fd3ff64e629bcda097f9801f2aa07e24974b6b35c00ea9a2df438940fe4b1a0d"
+    },
+    {
+      "path": "creative/brand/intro-v1/colony-intro-v1-silent-preview.mp4",
+      "bytes": 5642452,
+      "sha256": "e3d967eb34efc2418f27b0a03b061bf81af6e0a2b8dbdf05f4a123a9fde74b7d"
+    },
+    {
+      "path": "creative/brand/intro-v1/delivery.json",
+      "bytes": 1580,
+      "sha256": "4145422bf4f6de21aa55737ba0cd7d300cc5283fbaf83be78af11a30fe62f5aa"
+    },
+    {
+      "path": "creative/brand/intro-v1/frame-01s.png",
+      "bytes": 1100518,
+      "sha256": "850de5b1f5fcf4f696b2ea43aeeec074ddd0bc39d9a6c7d87f64f1f53ea68e7f"
+    },
+    {
+      "path": "creative/brand/intro-v1/frame-04s.png",
+      "bytes": 1113310,
+      "sha256": "e9647ea8b69d8b3668d9567bc2d29c0a836f722c269621a6ea990a6c33d9d7c0"
+    },
+    {
+      "path": "creative/brand/intro-v1/frame-12s.png",
+      "bytes": 1251124,
+      "sha256": "27ca90e43c1f86b3bf155a2365ee138df1579daede5920e7076a1ff5859575ee"
+    },
+    {
+      "path": "creative/brand/intro-v1/frame-17s.png",
+      "bytes": 1508358,
+      "sha256": "55af586a51bc23a0457a5b39657076ab5a6c2ae80fc514b658ee8bdcc86669d5"
+    },
+    {
+      "path": "creative/brand/intro-v1/frame-21s.png",
+      "bytes": 1626209,
+      "sha256": "05f6750a753c85dbe729230ee879bcc455860b99a1a438acba6e6ca79057866b"
+    },
+    {
+      "path": "creative/brand/intro-v1/implementation-verification.json",
+      "bytes": 3447,
+      "sha256": "d7ee47331b3482d7c73281e79aa0c28bff1a9a1b500e5ddacd25e98aed355ea4"
+    },
+    {
+      "path": "creative/brand/intro-v1/native-4k-graphics/brand.png",
+      "bytes": 6738,
+      "sha256": "0a256392c12d76a3d797b8d97c87f5ce5564940dc84686ed40c8d51242496a41"
+    },
+    {
+      "path": "creative/brand/intro-v1/native-4k-graphics/tagline.png",
+      "bytes": 8518,
+      "sha256": "4023e276909a18299367bf338219b6161e65f0c90bcec28312b934e99ae3c8ae"
+    },
+    {
+      "path": "creative/brand/intro-v1/native-4k-graphics/title.png",
+      "bytes": 12323,
+      "sha256": "341cb70de8095bee89d496eaf3b2546725f5e9e7a6047ed868ca5d7b0223fc06"
+    },
+    {
+      "path": "creative/brand/intro-v1/preview-validation.json",
+      "bytes": 505,
+      "sha256": "2a516adc848b01076fa494e8a9f61210314a7e7d05588edfad3c00024d8e9c91"
+    },
+    {
+      "path": "creative/brand/intro-v1/README.md",
+      "bytes": 5468,
+      "sha256": "dd2d7bcedefcdba680d54b1c9b751f905f184864379e5d3ed8ed0448cdef6e40"
+    },
+    {
+      "path": "creative/brand/intro-v1/timing-contact-sheet.jpg",
+      "bytes": 391729,
+      "sha256": "20c5137840f8d0fcf8bfa4c993dd5e8b29d82e52489ef98305c5cfbbdce90a94"
+    },
+    {
+      "path": "creative/brand/intro-v1/tool-source-snapshot/colony/AGENTS.md",
+      "bytes": 1982,
+      "sha256": "2cea8896d758935da335e6539c314955c195e514e6ffcf6eab678508e83cac4f"
+    },
+    {
+      "path": "creative/brand/intro-v1/tool-source-snapshot/colony/Colony.spec",
+      "bytes": 1047,
+      "sha256": "0b906c7e0c079c28f9a6631272d561d0596c188ea1e641117cc32157919c0339"
+    },
+    {
+      "path": "creative/brand/intro-v1/tool-source-snapshot/colony/gui.py",
+      "bytes": 37493,
+      "sha256": "2c2f380ad3dba278aa40ab19e939d73729d8aa677ca90d32918e1101b2c77a40"
+    },
+    {
+      "path": "creative/brand/intro-v1/tool-source-snapshot/colony/intro.py",
+      "bytes": 7031,
+      "sha256": "14fe148b6a47f024df5f3b8e921a1b540592217fc9c8e26012f149f079bb6d9e"
+    },
+    {
+      "path": "creative/brand/intro-v1/tool-source-snapshot/colony/README.md",
+      "bytes": 7993,
+      "sha256": "88e71e2c81fb949589b42d75c173d7586465907c731f567042d8570d41b06da0"
+    },
+    {
+      "path": "creative/brand/intro-v1/tool-source-snapshot/colony/render.py",
+      "bytes": 53813,
+      "sha256": "57e7a7c04e117f37480c25552e51c70d00485386cf5aa76995f5b3979e4d5d13"
+    },
+    {
+      "path": "creative/brand/intro-v1/tool-source-snapshot/tests/test_colony_intro.py",
+      "bytes": 6418,
+      "sha256": "e38f2577d8c3c60f95f840a995edf8816e629d9f793b9ffc63ccff3efc3611dc"
+    },
+    {
+      "path": "creative/brand/intro-v2/colony-intro-v2-silent-preview.export.json",
+      "bytes": 3113,
+      "sha256": "8b7d4ea8d81e6644cad1833232d5929bc7101ce4220daa1dd74738369dbb041b"
+    },
+    {
+      "path": "creative/brand/intro-v2/colony-intro-v2-silent-preview.mp4",
+      "bytes": 4467403,
+      "sha256": "423e2994af6d6f4087030a680e36739f2ba5ca3b9c1b685ac5a24efdce610219"
+    },
+    {
+      "path": "creative/brand/intro-v2/delivery.json",
+      "bytes": 1852,
+      "sha256": "5be9f53b5075b2ea6728d62161dd5d5ee0beed7636782a33f1379cee74f4e095"
+    },
+    {
+      "path": "creative/brand/intro-v2/feedback.json",
+      "bytes": 839,
+      "sha256": "9e431d4d4779b1c6301b519b24617fc1a7ecdd5520e596f37182b4ee8c9663bc"
+    },
+    {
+      "path": "creative/brand/intro-v2/frame-01s.png",
+      "bytes": 417450,
+      "sha256": "fd76a831451fe0d3821d8021a708a95d751dc29f98851302d8ab182843d2c922"
+    },
+    {
+      "path": "creative/brand/intro-v2/frame-06s.png",
+      "bytes": 459086,
+      "sha256": "45a60f977f9d4b3ba778ea1312988268af4241621372f759386468b26b538c0c"
+    },
+    {
+      "path": "creative/brand/intro-v2/frame-13s.png",
+      "bytes": 936289,
+      "sha256": "5dac468f7b612051e93bf8253222a9b50f85d5fd44e9be45289a8fb183c67021"
+    },
+    {
+      "path": "creative/brand/intro-v2/frame-16s.png",
+      "bytes": 1301697,
+      "sha256": "dc9d757fd58a8bc6234c759c16439914ab51dfe5008c73609a80ce82d63d036f"
+    },
+    {
+      "path": "creative/brand/intro-v2/frame-19s.png",
+      "bytes": 1575966,
+      "sha256": "15d9f5ac2dfa8bdae1f4f715eedb02701da3b5d4ab1a9780b260e104c0dfd716"
+    },
+    {
+      "path": "creative/brand/intro-v2/frame-23s.png",
+      "bytes": 1685254,
+      "sha256": "1aea5db9c0d08fc46cfc033d503d72396504256b15cda43408e044975ef65dc3"
+    },
+    {
+      "path": "creative/brand/intro-v2/implementation-verification.json",
+      "bytes": 3467,
+      "sha256": "961545c2362b0e099358f718b0e45cbcee4d70d50d01911de2307590dc6eb76b"
+    },
+    {
+      "path": "creative/brand/intro-v2/native-4k-graphics/brand.png",
+      "bytes": 13651,
+      "sha256": "a36ae30e530a557e6085b1757ba5ae96a5317d3392a43608c84506e690fac126"
+    },
+    {
+      "path": "creative/brand/intro-v2/native-4k-graphics/presents.png",
+      "bytes": 2995,
+      "sha256": "6a1d5bfcbabc2f2bad391c3b166478f569986f2f2a154976474ec5a2165c64de"
+    },
+    {
+      "path": "creative/brand/intro-v2/native-4k-graphics/tagline.png",
+      "bytes": 9558,
+      "sha256": "b31d6cfee73fdf5a7af122339c08de549c4f6134cb303763469f7ed1cd884896"
+    },
+    {
+      "path": "creative/brand/intro-v2/native-4k-graphics/title.png",
+      "bytes": 19229,
+      "sha256": "691c6e92dcb422d6c267f20256695775bbbcaf8ba82c6ad1bf7e014ea1c70dbe"
+    },
+    {
+      "path": "creative/brand/intro-v2/preview-validation.json",
+      "bytes": 1014,
+      "sha256": "05a43d452b725d1262865682dd9e4edc46d62592279d5af8e34172c519857768"
+    },
+    {
+      "path": "creative/brand/intro-v2/README.md",
+      "bytes": 4388,
+      "sha256": "c6cfbe89b39703024e15fb1e4be7723561a337a804bc51dcc62d20b0a8e3c211"
+    },
+    {
+      "path": "creative/brand/intro-v2/timing-contact-sheet.jpg",
+      "bytes": 388432,
+      "sha256": "bad8d03fdfadc7c342209c9762e8486f0c64bcda05255e84441e3256b306d9a8"
+    },
+    {
+      "path": "creative/brand/intro-v2/tool-source-snapshot/colony/AGENTS.md",
+      "bytes": 2508,
+      "sha256": "4bfa71751943b265f19b478592f484961915a7698e42c7af2db62fb224fb1ee0"
+    },
+    {
+      "path": "creative/brand/intro-v2/tool-source-snapshot/colony/Colony.spec",
+      "bytes": 1047,
+      "sha256": "0b906c7e0c079c28f9a6631272d561d0596c188ea1e641117cc32157919c0339"
+    },
+    {
+      "path": "creative/brand/intro-v2/tool-source-snapshot/colony/gui.py",
+      "bytes": 37495,
+      "sha256": "791cd4dc48d8a0932956a4d13672d75d2a6691fec0311f3beb71584a78565929"
+    },
+    {
+      "path": "creative/brand/intro-v2/tool-source-snapshot/colony/intro.py",
+      "bytes": 7813,
+      "sha256": "16e44fceeb59ded715669a8a2c37935a1aad9aefcfe98c33460afb0f80290129"
+    },
+    {
+      "path": "creative/brand/intro-v2/tool-source-snapshot/colony/README.md",
+      "bytes": 8319,
+      "sha256": "f58bc6a51562ce948897c871f49c8c90575fec71357fc1b6a5a39bceb7812858"
+    },
+    {
+      "path": "creative/brand/intro-v2/tool-source-snapshot/colony/render.py",
+      "bytes": 53849,
+      "sha256": "30250ca1801eccb2ec89da507d277f5028be0dcfed97a1bc8194199e1d5d28e1"
+    },
+    {
+      "path": "creative/brand/intro-v2/tool-source-snapshot/tests/test_colony_intro.py",
+      "bytes": 7698,
+      "sha256": "a158454627f62ca31698acef78ec5c06010c69cdd9c383db9ae93cc37e616a76"
+    },
+    {
+      "path": "creative/brand/intro-v3/colony-intro-v3-silent-preview.export.json",
+      "bytes": 3154,
+      "sha256": "09d16292bf58fc5991c635efcb6f47ad5d8c9d4541a1c26bcee1b9d283b9eeb3"
+    },
+    {
+      "path": "creative/brand/intro-v3/colony-intro-v3-silent-preview.mp4",
+      "bytes": 4463428,
+      "sha256": "1dd850e32742641616e68cff41381685611acfa65dfa43a182b9887b8abdef28"
+    },
+    {
+      "path": "creative/brand/intro-v3/delivery.json",
+      "bytes": 1893,
+      "sha256": "60966bd59402835819ea79dc6a03945f115cb7d067d9bdb1699c844a06079f4d"
+    },
+    {
+      "path": "creative/brand/intro-v3/feedback.json",
+      "bytes": 527,
+      "sha256": "57dffac3b8184295422b1dd7bc2c8d2118eb7766e3373e66d7ab595b072e4932"
+    },
+    {
+      "path": "creative/brand/intro-v3/frame-01s.png",
+      "bytes": 417450,
+      "sha256": "fd76a831451fe0d3821d8021a708a95d751dc29f98851302d8ab182843d2c922"
+    },
+    {
+      "path": "creative/brand/intro-v3/frame-06s.png",
+      "bytes": 459796,
+      "sha256": "b228ef66a25caa6042344843a015569968ed54bd76b1827fb6122567e01323b8"
+    },
+    {
+      "path": "creative/brand/intro-v3/frame-13s.png",
+      "bytes": 938080,
+      "sha256": "77565e042cc182870e23e1d16e097063e8550f19160e3b7e5d8487442f7daffe"
+    },
+    {
+      "path": "creative/brand/intro-v3/frame-16s.png",
+      "bytes": 1300099,
+      "sha256": "03bed0d1bc4618cffdd1cfb74da9ad82f7b1fdd5ca6394f9dbb8a94205d795d0"
+    },
+    {
+      "path": "creative/brand/intro-v3/frame-19s.png",
+      "bytes": 1575946,
+      "sha256": "d0bd3ea073ad2e57b2fc1edd00fdea8e7a7f13c4de20ae47baae577b431aab2f"
+    },
+    {
+      "path": "creative/brand/intro-v3/frame-23s.png",
+      "bytes": 1685106,
+      "sha256": "fd3ff78449cceef3e6a8cb222236674133c6ac78fb3377e63ed688e483bd2243"
+    },
+    {
+      "path": "creative/brand/intro-v3/implementation-verification.json",
+      "bytes": 3406,
+      "sha256": "e4b3aefe06c14db8482310078959ede135f4e27acc4bac4d14e9e4c2de00ff3e"
+    },
+    {
+      "path": "creative/brand/intro-v3/native-4k-graphics/brand.png",
+      "bytes": 13651,
+      "sha256": "a36ae30e530a557e6085b1757ba5ae96a5317d3392a43608c84506e690fac126"
+    },
+    {
+      "path": "creative/brand/intro-v3/native-4k-graphics/presents.png",
+      "bytes": 2995,
+      "sha256": "6a1d5bfcbabc2f2bad391c3b166478f569986f2f2a154976474ec5a2165c64de"
+    },
+    {
+      "path": "creative/brand/intro-v3/native-4k-graphics/tagline.png",
+      "bytes": 9182,
+      "sha256": "625e720fbaea790268f69c418a0c25852c74a142b8f2a41fa59e318cbd2dfbdd"
+    },
+    {
+      "path": "creative/brand/intro-v3/native-4k-graphics/title.png",
+      "bytes": 19229,
+      "sha256": "691c6e92dcb422d6c267f20256695775bbbcaf8ba82c6ad1bf7e014ea1c70dbe"
+    },
+    {
+      "path": "creative/brand/intro-v3/preview-validation.json",
+      "bytes": 829,
+      "sha256": "2fa1ab9e130fe9f1602c200eddb7a4148b17087858ba23e9556410fa26a79409"
+    },
+    {
+      "path": "creative/brand/intro-v3/README.md",
+      "bytes": 5031,
+      "sha256": "2d0c4b445fe05a3dcc4b5da44446d90fc9cadd9d9751c7f5284e0585e4906318"
+    },
+    {
+      "path": "creative/brand/intro-v3/timing-contact-sheet.jpg",
+      "bytes": 389271,
+      "sha256": "49e8d21421a50663fd2b82221a5cb5a495f69ecaff3ddb72005330edb24ea849"
+    },
+    {
+      "path": "creative/brand/intro-v3/tool-source-snapshot/.gitattributes",
+      "bytes": 377,
+      "sha256": "dbee0a7cbacf3eada6150b20094bde1a2e584732a7e0d7547d6794f335a32e70"
+    },
+    {
+      "path": "creative/brand/intro-v3/tool-source-snapshot/colony/AGENTS.md",
+      "bytes": 2836,
+      "sha256": "2f497ae97b665b356aecd2b915de31c8049656e6bbeb6d8052ba51da073d6ddd"
+    },
+    {
+      "path": "creative/brand/intro-v3/tool-source-snapshot/colony/assets/fonts/BarlowCondensed-Regular.ttf",
+      "bytes": 102480,
+      "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996"
+    },
+    {
+      "path": "creative/brand/intro-v3/tool-source-snapshot/colony/assets/fonts/BarlowCondensed-SemiBold.ttf",
+      "bytes": 109428,
+      "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    },
+    {
+      "path": "creative/brand/intro-v3/tool-source-snapshot/colony/assets/fonts/OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "path": "creative/brand/intro-v3/tool-source-snapshot/colony/Colony.spec",
+      "bytes": 1047,
+      "sha256": "0b906c7e0c079c28f9a6631272d561d0596c188ea1e641117cc32157919c0339"
+    },
+    {
+      "path": "creative/brand/intro-v3/tool-source-snapshot/colony/gui.py",
+      "bytes": 37495,
+      "sha256": "791cd4dc48d8a0932956a4d13672d75d2a6691fec0311f3beb71584a78565929"
+    },
+    {
+      "path": "creative/brand/intro-v3/tool-source-snapshot/colony/intro.py",
+      "bytes": 8014,
+      "sha256": "a38a64b021730c9878dcb7605c1b9354a18bc943aa77e2b65ea08182bca05440"
+    },
+    {
+      "path": "creative/brand/intro-v3/tool-source-snapshot/colony/README.md",
+      "bytes": 8647,
+      "sha256": "ad9fd4b8f4333e24894bf5c06e15a08c4db6c50a81ba03f07a0281604439dcfc"
+    },
+    {
+      "path": "creative/brand/intro-v3/tool-source-snapshot/colony/render.py",
+      "bytes": 53849,
+      "sha256": "30250ca1801eccb2ec89da507d277f5028be0dcfed97a1bc8194199e1d5d28e1"
+    },
+    {
+      "path": "creative/brand/intro-v3/tool-source-snapshot/tests/test_colony_intro.py",
+      "bytes": 7889,
+      "sha256": "0058e73959236a58437b74215e42c1119e4bd78a5fd12e18d83562bb77684781"
+    },
+    {
+      "path": "creative/brand/references/ambient-outpost-project-hades-2026-10-13/01-scene-1s.png",
+      "bytes": 1794002,
+      "sha256": "148aa533bbd9d73d9bd7fb4e404439112737e939382a7a81eef1c398cd33dcb4"
+    },
+    {
+      "path": "creative/brand/references/ambient-outpost-project-hades-2026-10-13/02-channel-credit-4s.png",
+      "bytes": 2036082,
+      "sha256": "7ec75bf31f283cf951d6d31b591bacd09030c7c61953295ac0e719da14c725e4"
+    },
+    {
+      "path": "creative/brand/references/ambient-outpost-project-hades-2026-10-13/03-channel-credit-8s.png",
+      "bytes": 2015125,
+      "sha256": "cc72a3c7f43875851fada9bd312f7af30d2f0691e97cef4e04cc7bcd00c59d29"
+    },
+    {
+      "path": "creative/brand/references/ambient-outpost-project-hades-2026-10-13/04-location-title-11s.jpg",
+      "bytes": 680314,
+      "sha256": "6e5cab434e68179d7ca3a82fff120ce1d9777be37c8d925793740e0fb17f25ae"
+    },
+    {
+      "path": "creative/brand/references/ambient-outpost-project-hades-2026-10-13/05-clear-scene-21s.jpg",
+      "bytes": 689087,
+      "sha256": "ae57ac35a0320a3774ab7cf268a557fc3d2ba4a72c743323adde090cf2204074"
+    },
+    {
+      "path": "creative/brand/references/ambient-outpost-project-hades-2026-10-13/manifest.json",
+      "bytes": 2687,
+      "sha256": "a940db7fa2a02bc3494ecc32c09c243808a7b5acd27b967c410b2abef16e614a"
+    },
+    {
+      "path": "creative/MUSIC_WORKFLOW.md",
+      "bytes": 24296,
+      "sha256": "effa828f72268a03666e0951780c645f8ecb4411d182dcde97edae71673113a7"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "bytes": 26022,
+      "sha256": "fab1def6c808a63306781114a1e94909253bc36153fb4e45a043fce539df87ad"
+    },
+    {
+      "path": "scripts/preview_colony_intro.py",
+      "bytes": 3154,
+      "sha256": "6edfa6cf696f577234ec3edfabecebeebd78c7e9e7570194d49bd9ac289f6b8f"
+    }
+  ],
+  "hash_notes": "SHA-256 of actual working-copy bytes; intro directories and preview script use -text to preserve these bytes. General repository docs retain existing Git normalization. This manifest excludes itself to avoid recursion.",
+  "exclusions": [
+    "dist/Colony.exe and preserved executables/build caches remain local and rebuildable from tool source",
+    "Existing long releases and music sources unchanged; ignored media not added",
+    "Remote verification report generated after push and kept locally at creative/brand/intro-v3/remote-backup-verification.json"
+  ],
+  "user_visual_approval": "not inferred from backup authorization",
+  "remote_production_verification": "See subsequent local remote-backup-verification.json for actual remote commit and independent restored-file hashes."
+}

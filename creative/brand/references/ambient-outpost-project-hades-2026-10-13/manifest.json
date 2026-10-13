@@ -1,0 +1,49 @@
+{
+  "recorded_date": "2026-10-13",
+  "reference_creator": "Ambient Outpost",
+  "reference_video_title": "PROJECT HADES - Active Surveillance Hub | Sci-Fi Focus Ambience | Dark Ambient | 3 Hours | 4K",
+  "source": "Five screenshots attached by the user; original files copied without modification.",
+  "user_direction": "i'd like to start to incorporate this intro into all our future videos",
+  "inspection": "Supplied screenshot sequence only; no continuous video playback or audio inspection.",
+  "observation_limits": "Exact transition timings, fade curves, letter/camera movement and sound design cannot be established from the stills. The smaller line at 8 seconds is partly obscured by player controls.",
+  "intended_use": "Private production reference for an original Ambient Colony opening; do not insert reference screenshots, creator branding or YouTube interface into releases.",
+  "treatment": "../../../ANIMATION_WORKFLOW.md#once-only-opening-titles",
+  "status": "Direction requested; proposed timings recorded; no prototype, rendered approval or app integration.",
+  "files": [
+    {
+      "file": "01-scene-1s.png",
+      "original_path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-10\\chrome_lCOttuYyre.png",
+      "displayed_player_time_seconds": 1,
+      "sha256": "148aa533bbd9d73d9bd7fb4e404439112737e939382a7a81eef1c398cd33dcb4",
+      "bytes": 1794002
+    },
+    {
+      "file": "02-channel-credit-4s.png",
+      "original_path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-10\\chrome_BazAUd0uLh.png",
+      "displayed_player_time_seconds": 4,
+      "sha256": "7ec75bf31f283cf951d6d31b591bacd09030c7c61953295ac0e719da14c725e4",
+      "bytes": 2036082
+    },
+    {
+      "file": "03-channel-credit-8s.png",
+      "original_path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-10\\chrome_J4Oji1j44K.png",
+      "displayed_player_time_seconds": 8,
+      "sha256": "cc72a3c7f43875851fada9bd312f7af30d2f0691e97cef4e04cc7bcd00c59d29",
+      "bytes": 2015125
+    },
+    {
+      "file": "04-location-title-11s.jpg",
+      "original_path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-10\\chrome_jdSJIcXbUz.jpg",
+      "displayed_player_time_seconds": 11,
+      "sha256": "6e5cab434e68179d7ca3a82fff120ce1d9777be37c8d925793740e0fb17f25ae",
+      "bytes": 680314
+    },
+    {
+      "file": "05-clear-scene-21s.jpg",
+      "original_path": "C:\\Users\\john\\Documents\\ShareX\\Screenshots\\2026-10\\chrome_jWW8M1BktU.jpg",
+      "displayed_player_time_seconds": 21,
+      "sha256": "ae57ac35a0320a3774ab7cf268a557fc3d2ba4a72c743323adde090cf2204074",
+      "bytes": 689087
+    }
+  ]
+}

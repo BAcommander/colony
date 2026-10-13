@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-13",
+  "purpose": "Reusable opening treatment, not a new release or soundtrack",
+  "source_video": "C:\\Colony\\music\\rainline-animation-v5\\rainline-relay-v5-preview-20s.mp4",
+  "source_sha256": "be81dc87de98c5e8147659df747dd3f9981411afa8bc3c6ac541c586bb63ec38",
+  "tool_root": "C:\\dev\\SpeedySlideShow",
+  "settings": {
+    "title": "Rainline Relay",
+    "fade_audio": true,
+    "version": 2,
+    "duration_s": 22.0,
+    "channel": "AMBIENT COLONY",
+    "tagline": "Stay a while and listen:",
+    "brand_s": [
+      2,
+      3.2,
+      8,
+      9
+    ],
+    "presents_s": [
+      4.8,
+      5.8,
+      8,
+      9
+    ],
+    "title_s": [
+      10,
+      11,
+      14,
+      15
+    ],
+    "tagline_s": [
+      12,
+      13,
+      20,
+      21.5
+    ],
+    "presents": "PRESENTS",
+    "tagline_center_y_fraction": 0.89,
+    "channel_font_height_fraction": 0.077,
+    "title_font_height_fraction": 0.165,
+    "underline_width_height_fraction": 0.22,
+    "black_overlay_opacity": 0.88,
+    "scene_reveal_s": [
+      10,
+      20
+    ],
+    "audio_fade_s": [
+      5,
+      20
+    ],
+    "font_sha256": {
+      "BarlowCondensed-Regular.ttf": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996",
+      "BarlowCondensed-SemiBold.ttf": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    },
+    "renderer_sha256": "16e44fceeb59ded715669a8a2c37935a1aad9aefcfe98c33460afb0f80290129"
+  },
+  "preview": "C:\\Colony\\creative\\brand\\intro-v2\\colony-intro-v2-silent-preview.mp4",
+  "manifest": "C:\\Colony\\creative\\brand\\intro-v2\\colony-intro-v2-silent-preview.export.json",
+  "silent": true,
+  "user_visual_approval": "pending",
+  "inspection": "Decoded temporal stills and technical checks; no continuous playback or listening claim."
+}

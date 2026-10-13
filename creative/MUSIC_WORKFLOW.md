@@ -1,6 +1,6 @@
 # Ambient Colony music workflow
 
-Updated 2026-10-10. Current authority for music work; complements the visual animation workflow.
+Updated 2026-10-13. Current authority for music work; complements the visual animation workflow.
 
 ## Current state
 
@@ -11,6 +11,12 @@ Basalt: user slightly preferred Basalt Transmission Outpost, then supplied a ten
 User uses existing ElevenLabs credits. Quoted rate: 900 credits/minute; verify the UI price before each generation. This workflow does not authorize the assistant to spend credits or upload reference audio automatically. User runs paid generations manually; local analysis and assembly incur no ElevenLabs credits.
 
 Channel benchmark (2026-09-29): the user wants Ambient Colony to compete with the YouTube channel Ambient Outpost, which the user puts at about 160k subscribers. Treat it as a quality and long-form listening-comfort benchmark, not a copying target; prompts, art and titles stay original.
+
+## Future-video intro audio — 2026-10-13
+
+The user explicitly requests a slow opening fade starting at **0:05** for future videos. They report barely any reference music/SFX during the first 5–10 seconds; the assistant has only inspected the supplied screenshots and has not independently heard the reference. This replaces the initial intro proposal of audible music from time zero. See [the complete opening direction](ANIMATION_WORKFLOW.md#once-only-opening-titles).
+
+For the first prototype, hold opening gain at zero through 0:05, then fade gently to the scene's established listening level around 0:20. The 0:05 start is instructed; the fifteen-second fade duration/curve remains a proposal for listening review. Apply the once-only entrance to music and any SFX already scheduled there; retain later SFX onsets and accepted music/SFX balances. Rebuild the opening from the underlying sources/mix recipe so an old opening fade is not multiplied by a new one. Preserve track joins, event timing, requested total runtime and the chosen closing fade. Do not repeat this silence/fade with the ambient video or audio loops. Existing approved exports are unchanged. The actual Colony app now implements the optional half-cosine entrance at 0:05–0:20 after the final mix. Future mixes should omit their previous opening fade; the tool cannot remove a baked fade and offers an unchecked fade option to retain supplied fades. Numerical silence/ramp/late-SFX/preview agreement tests pass; listening review remains pending. The user clarified no new music is being made now: the reusable intro and silent visual preview do not require music. See [implementation and usage](brand/intro-v3/README.md). V2 changes the visual darkness/type/PRESENTS/tagline timing only; the original 0:05–0:20 audio entrance is retained, even though the lower tagline now fades through 21.5s.
 
 ## Lessons established by the Ringfall session
 

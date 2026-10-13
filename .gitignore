@@ -86,3 +86,9 @@ __pycache__/
 # Spirewatch v3 exact current preview; repeated/intermediate media stay local
 !music/spirewatch-animation-v3/spirewatch-v3-preview-60s.mp4
 /music/spirewatch-animation-v3/remote-backup-verification.json
+
+# Intro review checkpoint, explicitly requested 2026-10-13.
+!creative/brand/intro-v1/colony-intro-v1-silent-preview.mp4
+!creative/brand/intro-v2/colony-intro-v2-silent-preview.mp4
+!creative/brand/intro-v3/colony-intro-v3-silent-preview.mp4
+/creative/brand/intro-v3/remote-backup-verification.json

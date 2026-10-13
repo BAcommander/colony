@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-13",
+  "version": 2,
+  "user_visual_approval": "pending",
+  "tool_repository": "C:\\dev\\SpeedySlideShow",
+  "files": [
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\intro.py",
+      "sha256": "16e44fceeb59ded715669a8a2c37935a1aad9aefcfe98c33460afb0f80290129"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\render.py",
+      "sha256": "30250ca1801eccb2ec89da507d277f5028be0dcfed97a1bc8194199e1d5d28e1"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\gui.py",
+      "sha256": "791cd4dc48d8a0932956a4d13672d75d2a6691fec0311f3beb71584a78565929"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\Colony.spec",
+      "sha256": "0b906c7e0c079c28f9a6631272d561d0596c188ea1e641117cc32157919c0339"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\README.md",
+      "sha256": "f58bc6a51562ce948897c871f49c8c90575fec71357fc1b6a5a39bceb7812858"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\AGENTS.md",
+      "sha256": "4bfa71751943b265f19b478592f484961915a7698e42c7af2db62fb224fb1ee0"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\tests\\test_colony_intro.py",
+      "sha256": "a158454627f62ca31698acef78ec5c06010c69cdd9c383db9ae93cc37e616a76"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\assets\\fonts\\BarlowCondensed-Regular.ttf",
+      "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\assets\\fonts\\BarlowCondensed-SemiBold.ttf",
+      "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    },
+    {
+      "path": "C:\\dev\\SpeedySlideShow\\colony\\assets\\fonts\\OFL.txt",
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    }
+  ],
+  "tests": {
+    "command": "python -m pytest tests/test_colony.py tests/test_colony_sfx.py tests/test_colony_intro.py -q",
+    "passed": 67,
+    "exit_code": 0,
+    "result": "...................................................................      [100%]\r\n67 passed in 22.38s",
+    "initial_test_adjustment": "180p PRESENTS and thin underline are antialiased. Pixel tests now check contrast/extent rather than solid-ivory/amber values; full-size preview separately inspected."
+  },
+  "build": {
+    "exit_code": 0,
+    "executable": "C:\\dev\\SpeedySlideShow\\dist\\Colony.exe",
+    "sha256": "f084a218635f17f9fae6b6e53234e7d8f71b574fad3f6e51eee6a46bcb86d879",
+    "bytes": 58231124,
+    "previous_executable": "C:\\dev\\SpeedySlideShow\\dist\\Colony-intro-v1-2026-10-13.exe",
+    "previous_sha256": "295816dda800af944a6da8fd729ff13e712a0ebec13338ba88f1376aac4c0531",
+    "bundled_font_hashes_match": {
+      "colony/assets/fonts/BarlowCondensed-Regular.ttf": true,
+      "colony/assets/fonts/BarlowCondensed-SemiBold.ttf": true,
+      "colony/assets/fonts/OFL.txt": true
+    },
+    "startup_smoke": {
+      "parent_pid": 69924,
+      "survived_10_seconds": true,
+      "children": [
+        {
+          "Id": 73616,
+          "ProcessName": "Colony",
+          "MainWindowTitle": "Colony"
+        }
+      ]
+    }
+  },
+  "prior_version": "creative/brand/intro-v1: source snapshot, preview, graphics and manifests retained",
+  "inspection": "Temporal decoded samples and native graphics, not continuous playback/listening",
+  "remote_backup": "No commit/push in this revision"
+}

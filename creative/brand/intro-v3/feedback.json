@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-13",
+  "version": 3,
+  "user_text": "lets have the present text closer underneath, and lets loose the : after stay a while and listen, then commit and push all that",
+  "changes": {
+    "presents_center_y_fraction": {
+      "previous": 0.565,
+      "current": 0.525
+    },
+    "tagline": "Stay a while and listen"
+  },
+  "retained": "v2 typography sizes, darkness, timings, lower placement and audio",
+  "backup_authorized": true,
+  "artistic_approval": "not inferred from backup request"
+}

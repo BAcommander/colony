@@ -1,0 +1,10 @@
+
+# Reproduce the exact source line endings recorded by the Colony intro build.
+colony/intro.py text eol=crlf
+colony/render.py text eol=crlf
+colony/gui.py text eol=crlf
+colony/Colony.spec text eol=lf
+colony/README.md text eol=crlf
+colony/AGENTS.md text eol=crlf
+tests/test_colony_intro.py text eol=crlf
+colony/assets/fonts/OFL.txt text eol=lf whitespace=-blank-at-eol
