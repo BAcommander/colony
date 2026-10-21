@@ -1,0 +1,289 @@
+{
+  "date": "2026-10-21",
+  "status": "Technically verified preview; user visual review pending",
+  "source": {
+    "path": "artwork-v5.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0"
+  },
+  "fingerprint": {
+    "source": {
+      "path": "artwork-v5.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0"
+    },
+    "config_sha256": "d43cad6139e37db83ed7e15d51c9047431dc6ff9dc7549f5cf3b83f36bd7c3f4",
+    "renderer_sha256": "a65f1a0eeb13561e3766e4888f3cea406360d418e425e464bfa47b3e82704250",
+    "validation_sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+    "dependencies": {
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "masks": {
+      "clouds": "4978b31bf826e2ac0e77878a7f53b97ec27bf4d2c645f13b43a880f323e3cb1b",
+      "water": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+      "reflections": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+      "falls": "97c669dd3531a4ee60f4eabe81eeef7332b0c9747f4e04faea231efc6bc93efd",
+      "tower": "071a247a27f97b5fdd276a3fdf3e11e448d0ede2ae35ff6c50bb875f3373c832",
+      "tower_glow": "9ef63e005caf9c58ca34f74991cb2460e2a3d666fee51e1aa63d0ae7ace268bd",
+      "districts": "d260402d8ef75c3b7f78c2b9832039e6b890e6ba759d5b450c62d7f269ea495a",
+      "windows": "23a4b8a2654953ec6d366507b5c1fff7c82774071c39ae3fe4dd99b2d35a60d8",
+      "transit": "73ed94567dca0383a9a3f9ced110201911af2684794d3527401b948f2797727a",
+      "screen": "674fce95fa8babcddc52e8870078e665be29822752173fe9055a3f1fe9ef4f64",
+      "lamp": "ae3d0a5baa4ba65beee19ac56589e3aa3a5a450b74b3f58ec21bf0325ec716ee",
+      "screen_spill": "87ecc8871ff4505d4adf37f5cc6484143b61c21a1ab77699db5d0866203c5d23",
+      "lightning": "3236646853a266273b1e4801deb2d5ff0b26f81994a7469b7cfb233e7ee54b67",
+      "storm_response": "0a393adf2400b04903f358382aa9e48d39229d6b081f56cadea172399ff5c5c6"
+    },
+    "runtime": {
+      "numpy": "2.3.5",
+      "opencv": "5.0.0"
+    }
+  },
+  "preview": "G:\\AI\\colony\\music\\spirewatch-animation-v5\\spirewatch-v5-preview-60s.mp4",
+  "repeat": "G:\\AI\\colony\\music\\spirewatch-animation-v5\\spirewatch-v5-three-loops-180s.mp4",
+  "preview_validation": {
+    "fingerprint": {
+      "source": {
+        "path": "artwork-v5.png",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0"
+      },
+      "config_sha256": "d43cad6139e37db83ed7e15d51c9047431dc6ff9dc7549f5cf3b83f36bd7c3f4",
+      "renderer_sha256": "a65f1a0eeb13561e3766e4888f3cea406360d418e425e464bfa47b3e82704250",
+      "validation_sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+      "dependencies": {
+        "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+        "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+        "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+      },
+      "masks": {
+        "clouds": "4978b31bf826e2ac0e77878a7f53b97ec27bf4d2c645f13b43a880f323e3cb1b",
+        "water": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+        "reflections": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+        "falls": "97c669dd3531a4ee60f4eabe81eeef7332b0c9747f4e04faea231efc6bc93efd",
+        "tower": "071a247a27f97b5fdd276a3fdf3e11e448d0ede2ae35ff6c50bb875f3373c832",
+        "tower_glow": "9ef63e005caf9c58ca34f74991cb2460e2a3d666fee51e1aa63d0ae7ace268bd",
+        "districts": "d260402d8ef75c3b7f78c2b9832039e6b890e6ba759d5b450c62d7f269ea495a",
+        "windows": "23a4b8a2654953ec6d366507b5c1fff7c82774071c39ae3fe4dd99b2d35a60d8",
+        "transit": "73ed94567dca0383a9a3f9ced110201911af2684794d3527401b948f2797727a",
+        "screen": "674fce95fa8babcddc52e8870078e665be29822752173fe9055a3f1fe9ef4f64",
+        "lamp": "ae3d0a5baa4ba65beee19ac56589e3aa3a5a450b74b3f58ec21bf0325ec716ee",
+        "screen_spill": "87ecc8871ff4505d4adf37f5cc6484143b61c21a1ab77699db5d0866203c5d23",
+        "lightning": "3236646853a266273b1e4801deb2d5ff0b26f81994a7469b7cfb233e7ee54b67",
+        "storm_response": "0a393adf2400b04903f358382aa9e48d39229d6b081f56cadea172399ff5c5c6"
+      },
+      "runtime": {
+        "numpy": "2.3.5",
+        "opencv": "5.0.0"
+      }
+    },
+    "frames": 1800,
+    "full_decode": true,
+    "sequential_timestamps": true,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "sha256": "7ab93d89ee5083df662a87e10b3c6a5a82cf52072693caccb652acb951b4962f",
+    "colour_aware_decode": true,
+    "encoded_seams": {
+      "clouds": {
+        "seam_mae": 0.11033768829870778,
+        "ordinary_max": 1.320880565008501,
+        "neighbor_max": 0.11157913106938593,
+        "pass": true
+      },
+      "water": {
+        "seam_mae": 0.09842448291678667,
+        "ordinary_max": 0.9675722956467941,
+        "neighbor_max": 0.10422733527472879,
+        "pass": true
+      },
+      "reflections": {
+        "seam_mae": 0.09842448291678667,
+        "ordinary_max": 0.9675722956467941,
+        "neighbor_max": 0.10422733527472879,
+        "pass": true
+      },
+      "falls": {
+        "seam_mae": 0.5170391061452514,
+        "ordinary_max": 0.6663407821229049,
+        "neighbor_max": 0.5401303538175046,
+        "pass": true
+      },
+      "tower": {
+        "seam_mae": 0.0,
+        "ordinary_max": 0.292810649439632,
+        "neighbor_max": 0.0,
+        "pass": true
+      },
+      "tower_glow": {
+        "seam_mae": 0.0,
+        "ordinary_max": 0.14673318753417167,
+        "neighbor_max": 0.0,
+        "pass": true
+      },
+      "districts": {
+        "seam_mae": 0.011820135559596627,
+        "ordinary_max": 0.18104920923568635,
+        "neighbor_max": 0.01520912547528517,
+        "pass": true
+      },
+      "windows": {
+        "seam_mae": 0.03243039879608728,
+        "ordinary_max": 0.12580887885628292,
+        "neighbor_max": 0.03927765237020316,
+        "pass": true
+      },
+      "transit": {
+        "seam_mae": 0.0,
+        "ordinary_max": 0.17534787279222563,
+        "neighbor_max": 0.0,
+        "pass": true
+      },
+      "screen": {
+        "seam_mae": 0.03323591771245201,
+        "ordinary_max": 0.09346169273967109,
+        "neighbor_max": 0.041258380608561115,
+        "pass": true
+      },
+      "lamp": {
+        "seam_mae": 0.0,
+        "ordinary_max": 6.198641216434811,
+        "neighbor_max": 0.0,
+        "pass": true
+      },
+      "screen_spill": {
+        "seam_mae": 0.0,
+        "ordinary_max": 2.244118545676749,
+        "neighbor_max": 0.0,
+        "pass": true
+      },
+      "lightning": {
+        "seam_mae": 0.11656843483955469,
+        "ordinary_max": 1.4428169063059617,
+        "neighbor_max": 0.11754930426366698,
+        "pass": true
+      },
+      "storm_response": {
+        "seam_mae": 0.09842448291678667,
+        "ordinary_max": 0.9675722956467941,
+        "neighbor_max": 0.10422733527472879,
+        "pass": true
+      },
+      "combined": {
+        "seam_mae": 0.09494757955544303,
+        "ordinary_max": 0.9997584807812653,
+        "neighbor_max": 0.09549795606505036,
+        "pass": true
+      }
+    },
+    "no_duplicate_endpoint": true,
+    "distinct_0_20_40": true
+  },
+  "repeat_validation": {
+    "frames": 5400,
+    "full_decode": true,
+    "sequential_timestamps": true,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "sha256": "aae1a2ae7ec9b6e242ac7c4110213db74e7590f734290ad665d152cfc0e240a6",
+    "colour_aware_decode": true,
+    "three_exact_decoded_repetitions": true
+  },
+  "chunk_checks": {
+    "fingerprint": {
+      "source": {
+        "path": "artwork-v5.png",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0"
+      },
+      "config_sha256": "d43cad6139e37db83ed7e15d51c9047431dc6ff9dc7549f5cf3b83f36bd7c3f4",
+      "renderer_sha256": "a65f1a0eeb13561e3766e4888f3cea406360d418e425e464bfa47b3e82704250",
+      "validation_sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+      "dependencies": {
+        "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+        "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+        "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+      },
+      "masks": {
+        "clouds": "4978b31bf826e2ac0e77878a7f53b97ec27bf4d2c645f13b43a880f323e3cb1b",
+        "water": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+        "reflections": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+        "falls": "97c669dd3531a4ee60f4eabe81eeef7332b0c9747f4e04faea231efc6bc93efd",
+        "tower": "071a247a27f97b5fdd276a3fdf3e11e448d0ede2ae35ff6c50bb875f3373c832",
+        "tower_glow": "9ef63e005caf9c58ca34f74991cb2460e2a3d666fee51e1aa63d0ae7ace268bd",
+        "districts": "d260402d8ef75c3b7f78c2b9832039e6b890e6ba759d5b450c62d7f269ea495a",
+        "windows": "23a4b8a2654953ec6d366507b5c1fff7c82774071c39ae3fe4dd99b2d35a60d8",
+        "transit": "73ed94567dca0383a9a3f9ced110201911af2684794d3527401b948f2797727a",
+        "screen": "674fce95fa8babcddc52e8870078e665be29822752173fe9055a3f1fe9ef4f64",
+        "lamp": "ae3d0a5baa4ba65beee19ac56589e3aa3a5a450b74b3f58ec21bf0325ec716ee",
+        "screen_spill": "87ecc8871ff4505d4adf37f5cc6484143b61c21a1ab77699db5d0866203c5d23",
+        "lightning": "3236646853a266273b1e4801deb2d5ff0b26f81994a7469b7cfb233e7ee54b67",
+        "storm_response": "0a393adf2400b04903f358382aa9e48d39229d6b081f56cadea172399ff5c5c6"
+      },
+      "runtime": {
+        "numpy": "2.3.5",
+        "opencv": "5.0.0"
+      }
+    },
+    "checks": [
+      {
+        "frame": 449,
+        "scene_time": 14.966666666666667,
+        "decoded_yuv_matches_native_render_exactly": true
+      },
+      {
+        "frame": 450,
+        "scene_time": 15.0,
+        "decoded_yuv_matches_native_render_exactly": true
+      },
+      {
+        "frame": 899,
+        "scene_time": 29.966666666666665,
+        "decoded_yuv_matches_native_render_exactly": true
+      },
+      {
+        "frame": 900,
+        "scene_time": 30.0,
+        "decoded_yuv_matches_native_render_exactly": true
+      },
+      {
+        "frame": 1349,
+        "scene_time": 44.96666666666667,
+        "decoded_yuv_matches_native_render_exactly": true
+      },
+      {
+        "frame": 1350,
+        "scene_time": 45.0,
+        "decoded_yuv_matches_native_render_exactly": true
+      }
+    ],
+    "pass": true
+  },
+  "artwork": "G:\\AI\\colony\\music\\spirewatch-animation-v5\\artwork-v5.png",
+  "user_motion_approved": false,
+  "assistant_continuous_playback": false,
+  "four_k": null,
+  "audio": null,
+  "committed": false,
+  "pushed": false
+}

@@ -1,0 +1,64 @@
+{
+  "same_coordinate_regions": {
+    "city_and_bridge": [
+      650,
+      450,
+      1660,
+      750
+    ],
+    "room": [
+      0,
+      530,
+      480,
+      790
+    ],
+    "main_spire": [
+      1245,
+      245,
+      1335,
+      450
+    ]
+  },
+  "luma_values": {
+    "city_and_bridge": {
+      "thumbnail_mean_luma": 64.84517444026403,
+      "new_source_mean_luma": 65.2490209861386,
+      "old_source_mean_luma": 36.46582870561056,
+      "sampled_animation_mean_luma": [
+        65.23460090627061,
+        65.31052225148514,
+        65.31597933267328,
+        65.25228321254126,
+        65.34423865016501
+      ]
+    },
+    "room": {
+      "thumbnail_mean_luma": 39.50681825480768,
+      "new_source_mean_luma": 39.63298003525641,
+      "old_source_mean_luma": 27.428844142628204,
+      "sampled_animation_mean_luma": [
+        39.71353923557692,
+        39.8136898525641,
+        39.760897809294875,
+        39.73655123397435,
+        39.76842097115385
+      ]
+    },
+    "main_spire": {
+      "thumbnail_mean_luma": 79.83627958807587,
+      "new_source_mean_luma": 80.44804302439023,
+      "old_source_mean_luma": 44.54934140921409,
+      "sampled_animation_mean_luma": [
+        80.32482712195123,
+        80.86923554471544,
+        80.4220994905149,
+        80.53295326829269,
+        80.36463968563685
+      ]
+    }
+  },
+  "interpretation": "Descriptive brightness comparison, not a quality score. Source/artwork geometry differs from the older plate. Text regions excluded.",
+  "thumbnail_sha256": "8032a7e8e61fc057954655267dfe1ce23b23a2c5ed64a09d49b32917eb264270",
+  "new_source_sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0",
+  "visual_review": "Assistant inspected same-size clean plate and thumbnail; new plate retains bright city, bridge, water and room. Fine generated details may differ. User approval not inferred."
+}

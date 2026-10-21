@@ -1,0 +1,349 @@
+{
+  "date": "2026-10-21",
+  "status": "Technically verified; artistic review pending",
+  "source": {
+    "path": "music/digital-city-concepts-v1/01-spirewatch-v2-cleanup.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba"
+  },
+  "fingerprint": {
+    "source": {
+      "path": "music/digital-city-concepts-v1/01-spirewatch-v2-cleanup.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba"
+    },
+    "config_sha256": "66d4c6b3b2f9b02d18516552bd284a25a6c26caf8adc930404b931ad091ca6f1",
+    "renderer_sha256": "db82cece9f25c3405fe57c65b1f5408675aafd9fe7bf9daac240430b8763e6b2",
+    "dependencies": {
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "masks": {
+      "clouds": "6376ec3440ccdfd46572db7b05969df0cb0e0e3e45932512e6f78cf097676c54",
+      "mist": "4f17746628a2881c3e9584ec05fc50efdde73aeb3a0b211b0278675c609ee3cf",
+      "falls": "60b77154a0eca2037c6aebbcd6a36eeca5f7a573eea3082ea4eeb9d3d4378594",
+      "water": "fb52d10dc9842bf8828c530e0f3414375595c805acc77c89986f6049b33efde4",
+      "windows": "04f3da3efd992b2b22c409b6ebbb9aaf23dfd36b0b7e5e5d09de3a0b3d1e21e0",
+      "walkway": "0426ef06b52e7bc8732dee422e9ead1c2d606fa04372b06b4fe18e7486b5f549",
+      "lamp": "65a46b6a779b51bd7af0984edc66349573c89dcf2b0a3f8be451f812d43574f4",
+      "screen": "2b796a7c439dbe62846f7e8c5e066731e209e7e295c054091dc91f9f1a384181",
+      "depth_mist": "afb22b4981b2268671047cbdc6f7b78f868c5381b08555f04cc51b5146b09ce2",
+      "spray": "5c108c1f546028eb237b889e8eefa92bfe69ec3d00d2c283c555f795c9824606",
+      "tower": "a91a6325cdc6a8ebd60fc7755a550bddcc18bffa39da2305b93195f4f6ee0b4d",
+      "city_glow": "790fe224d11d3bf9e46c3371cb332b7b38d548bed77c04c4b0663a024cdfb9ee",
+      "transit": "0962c8930b14b12e3add45c9f5a1fd027d269c60acf2694fc813cb0f71eb659a",
+      "tower_corona": "f8635e89d3a19ce97e544f1a989db5c00b41a409b4fb18c91cbafe46acb68dc8",
+      "tower_crown": "9cf8a2f25c4ae513f6851f059c9f5fc3ab23d7f74215a27ee095dbb8b5417871",
+      "light_reflections": "fb52d10dc9842bf8828c530e0f3414375595c805acc77c89986f6049b33efde4",
+      "glass_reflection": "3c736bf06b4f831471f52d7f6ad43a6294ec6f40a2c6e0c7404896654c93fb1a",
+      "lightning": "d2d67b0528832b6a34bd951a870be53f962497867f66677f0d0e997c0942e2c8",
+      "storm_response": "2c18d8e12c8f8eb8c54f2a610bafe8dd8c3cd42374a62d7660352d532387f295",
+      "screen_spill": "2bf08517dd580204b36c1e35894c8b2b25563cac927fa9048c27ced540d3de76"
+    },
+    "runtime": {
+      "numpy": "2.3.5",
+      "opencv": "5.0.0"
+    },
+    "baseline_sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+    "lighting_layers_sha256": "c8f47d8d41d237d24b669f5acfa98301065b56e7c0b3c6c6fbd32147b3e195dc",
+    "digital_layers_sha256": "95c5d29ecfeda8685f61b73ee23d868476b3503cc68d7a15f3f268444bc5d229"
+  },
+  "preview": "G:\\AI\\colony\\music\\spirewatch-animation-v4\\spirewatch-v4-preview-60s.mp4",
+  "preview_validation": {
+    "fingerprint": {
+      "source": {
+        "path": "music/digital-city-concepts-v1/01-spirewatch-v2-cleanup.png",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba"
+      },
+      "config_sha256": "66d4c6b3b2f9b02d18516552bd284a25a6c26caf8adc930404b931ad091ca6f1",
+      "renderer_sha256": "db82cece9f25c3405fe57c65b1f5408675aafd9fe7bf9daac240430b8763e6b2",
+      "dependencies": {
+        "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+        "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+        "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+      },
+      "masks": {
+        "clouds": "6376ec3440ccdfd46572db7b05969df0cb0e0e3e45932512e6f78cf097676c54",
+        "mist": "4f17746628a2881c3e9584ec05fc50efdde73aeb3a0b211b0278675c609ee3cf",
+        "falls": "60b77154a0eca2037c6aebbcd6a36eeca5f7a573eea3082ea4eeb9d3d4378594",
+        "water": "fb52d10dc9842bf8828c530e0f3414375595c805acc77c89986f6049b33efde4",
+        "windows": "04f3da3efd992b2b22c409b6ebbb9aaf23dfd36b0b7e5e5d09de3a0b3d1e21e0",
+        "walkway": "0426ef06b52e7bc8732dee422e9ead1c2d606fa04372b06b4fe18e7486b5f549",
+        "lamp": "65a46b6a779b51bd7af0984edc66349573c89dcf2b0a3f8be451f812d43574f4",
+        "screen": "2b796a7c439dbe62846f7e8c5e066731e209e7e295c054091dc91f9f1a384181",
+        "depth_mist": "afb22b4981b2268671047cbdc6f7b78f868c5381b08555f04cc51b5146b09ce2",
+        "spray": "5c108c1f546028eb237b889e8eefa92bfe69ec3d00d2c283c555f795c9824606",
+        "tower": "a91a6325cdc6a8ebd60fc7755a550bddcc18bffa39da2305b93195f4f6ee0b4d",
+        "city_glow": "790fe224d11d3bf9e46c3371cb332b7b38d548bed77c04c4b0663a024cdfb9ee",
+        "transit": "0962c8930b14b12e3add45c9f5a1fd027d269c60acf2694fc813cb0f71eb659a",
+        "tower_corona": "f8635e89d3a19ce97e544f1a989db5c00b41a409b4fb18c91cbafe46acb68dc8",
+        "tower_crown": "9cf8a2f25c4ae513f6851f059c9f5fc3ab23d7f74215a27ee095dbb8b5417871",
+        "light_reflections": "fb52d10dc9842bf8828c530e0f3414375595c805acc77c89986f6049b33efde4",
+        "glass_reflection": "3c736bf06b4f831471f52d7f6ad43a6294ec6f40a2c6e0c7404896654c93fb1a",
+        "lightning": "d2d67b0528832b6a34bd951a870be53f962497867f66677f0d0e997c0942e2c8",
+        "storm_response": "2c18d8e12c8f8eb8c54f2a610bafe8dd8c3cd42374a62d7660352d532387f295",
+        "screen_spill": "2bf08517dd580204b36c1e35894c8b2b25563cac927fa9048c27ced540d3de76"
+      },
+      "runtime": {
+        "numpy": "2.3.5",
+        "opencv": "5.0.0"
+      },
+      "baseline_sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+      "lighting_layers_sha256": "c8f47d8d41d237d24b669f5acfa98301065b56e7c0b3c6c6fbd32147b3e195dc",
+      "digital_layers_sha256": "95c5d29ecfeda8685f61b73ee23d868476b3503cc68d7a15f3f268444bc5d229"
+    },
+    "frames": 1800,
+    "full_decode": true,
+    "sequential_timestamps": true,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "sha256": "86edb83713484cc634f7515124195ce22dc676fc4a26ffde9d2cca5743ef0968",
+    "colour_aware_decode": true,
+    "encoded_seams": {
+      "clouds": {
+        "seam_mae": 0.11505827173475558,
+        "ordinary_max": 4.781004617479887,
+        "neighbor_max": 0.11761281191009802,
+        "pass": true
+      },
+      "mist": {
+        "seam_mae": 0.04551004083694691,
+        "ordinary_max": 1.4150914270478114,
+        "neighbor_max": 0.05220393213488822,
+        "pass": true
+      },
+      "falls": {
+        "seam_mae": 1.6125350140056023,
+        "ordinary_max": 1.826470588235294,
+        "neighbor_max": 1.715826330532213,
+        "pass": true
+      },
+      "water": {
+        "seam_mae": 0.040998492986591445,
+        "ordinary_max": 1.193052281772866,
+        "neighbor_max": 0.0471682316421294,
+        "pass": true
+      },
+      "windows": {
+        "seam_mae": 0.05026790750141003,
+        "ordinary_max": 0.20910885504794133,
+        "neighbor_max": 0.054216018048505364,
+        "pass": true
+      },
+      "walkway": {
+        "seam_mae": 0.0,
+        "ordinary_max": 1.4320137693631672,
+        "neighbor_max": 0.0,
+        "pass": true
+      },
+      "lamp": {
+        "seam_mae": 0.0,
+        "ordinary_max": 2.652291599761435,
+        "neighbor_max": 0.0,
+        "pass": true
+      },
+      "screen": {
+        "seam_mae": 0.041155562682059915,
+        "ordinary_max": 0.08180336192843209,
+        "neighbor_max": 0.04756941660653679,
+        "pass": true
+      },
+      "depth_mist": {
+        "seam_mae": 0.03694874851013111,
+        "ordinary_max": 0.5060992657337512,
+        "neighbor_max": 0.04084080107123413,
+        "pass": true
+      },
+      "spray": {
+        "seam_mae": 2.3898361751922432,
+        "ordinary_max": 2.9378134403209626,
+        "neighbor_max": 2.8311601471079904,
+        "pass": true
+      },
+      "tower": {
+        "seam_mae": 0.0,
+        "ordinary_max": 2.0629209064543086,
+        "neighbor_max": 0.0,
+        "pass": true
+      },
+      "city_glow": {
+        "seam_mae": 0.06072218800611328,
+        "ordinary_max": 0.45069458701156506,
+        "neighbor_max": 0.07974634457902781,
+        "pass": true
+      },
+      "transit": {
+        "seam_mae": 0.0,
+        "ordinary_max": 0.11459280360425883,
+        "neighbor_max": 0.0,
+        "pass": true
+      },
+      "tower_corona": {
+        "seam_mae": 0.003049600861063773,
+        "ordinary_max": 2.6190390767482885,
+        "neighbor_max": 0.0052321583400603945,
+        "pass": true
+      },
+      "tower_crown": {
+        "seam_mae": 0.0,
+        "ordinary_max": 1.9772680305848314,
+        "neighbor_max": 0.0,
+        "pass": true
+      },
+      "light_reflections": {
+        "seam_mae": 0.040998492986591445,
+        "ordinary_max": 1.193052281772866,
+        "neighbor_max": 0.0471682316421294,
+        "pass": true
+      },
+      "glass_reflection": {
+        "seam_mae": 0.009977827050997782,
+        "ordinary_max": 0.19327420546932741,
+        "neighbor_max": 0.014042867701404288,
+        "pass": true
+      },
+      "lightning": {
+        "seam_mae": 0.10488942746243583,
+        "ordinary_max": 4.4475572925444125,
+        "neighbor_max": 0.10728358304777343,
+        "pass": true
+      },
+      "storm_response": {
+        "seam_mae": 0.01963948497854077,
+        "ordinary_max": 1.4379456366237482,
+        "neighbor_max": 0.022237482117310442,
+        "pass": true
+      },
+      "screen_spill": {
+        "seam_mae": 0.0,
+        "ordinary_max": 2.6748054957788443,
+        "neighbor_max": 0.0,
+        "pass": true
+      },
+      "combined": {
+        "seam_mae": 0.09094595401075378,
+        "ordinary_max": 2.950444694608155,
+        "neighbor_max": 0.0927298011198505,
+        "pass": true
+      }
+    },
+    "no_duplicate_endpoint": true,
+    "distinct_0_20_40": true
+  },
+  "repeat": "G:\\AI\\colony\\music\\spirewatch-animation-v4\\spirewatch-v4-three-loops-180s.mp4",
+  "repeat_validation": {
+    "frames": 5400,
+    "full_decode": true,
+    "sequential_timestamps": true,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "sha256": "4cb9a0d0d228500ac91a0f4922755c4dae5dd85abd2f9465eb14812195c13777",
+    "colour_aware_decode": true,
+    "three_exact_decoded_repetitions": true
+  },
+  "chunk_checks": {
+    "fingerprint": {
+      "source": {
+        "path": "music/digital-city-concepts-v1/01-spirewatch-v2-cleanup.png",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba"
+      },
+      "config_sha256": "66d4c6b3b2f9b02d18516552bd284a25a6c26caf8adc930404b931ad091ca6f1",
+      "renderer_sha256": "db82cece9f25c3405fe57c65b1f5408675aafd9fe7bf9daac240430b8763e6b2",
+      "dependencies": {
+        "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+        "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+        "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+      },
+      "masks": {
+        "clouds": "6376ec3440ccdfd46572db7b05969df0cb0e0e3e45932512e6f78cf097676c54",
+        "mist": "4f17746628a2881c3e9584ec05fc50efdde73aeb3a0b211b0278675c609ee3cf",
+        "falls": "60b77154a0eca2037c6aebbcd6a36eeca5f7a573eea3082ea4eeb9d3d4378594",
+        "water": "fb52d10dc9842bf8828c530e0f3414375595c805acc77c89986f6049b33efde4",
+        "windows": "04f3da3efd992b2b22c409b6ebbb9aaf23dfd36b0b7e5e5d09de3a0b3d1e21e0",
+        "walkway": "0426ef06b52e7bc8732dee422e9ead1c2d606fa04372b06b4fe18e7486b5f549",
+        "lamp": "65a46b6a779b51bd7af0984edc66349573c89dcf2b0a3f8be451f812d43574f4",
+        "screen": "2b796a7c439dbe62846f7e8c5e066731e209e7e295c054091dc91f9f1a384181",
+        "depth_mist": "afb22b4981b2268671047cbdc6f7b78f868c5381b08555f04cc51b5146b09ce2",
+        "spray": "5c108c1f546028eb237b889e8eefa92bfe69ec3d00d2c283c555f795c9824606",
+        "tower": "a91a6325cdc6a8ebd60fc7755a550bddcc18bffa39da2305b93195f4f6ee0b4d",
+        "city_glow": "790fe224d11d3bf9e46c3371cb332b7b38d548bed77c04c4b0663a024cdfb9ee",
+        "transit": "0962c8930b14b12e3add45c9f5a1fd027d269c60acf2694fc813cb0f71eb659a",
+        "tower_corona": "f8635e89d3a19ce97e544f1a989db5c00b41a409b4fb18c91cbafe46acb68dc8",
+        "tower_crown": "9cf8a2f25c4ae513f6851f059c9f5fc3ab23d7f74215a27ee095dbb8b5417871",
+        "light_reflections": "fb52d10dc9842bf8828c530e0f3414375595c805acc77c89986f6049b33efde4",
+        "glass_reflection": "3c736bf06b4f831471f52d7f6ad43a6294ec6f40a2c6e0c7404896654c93fb1a",
+        "lightning": "d2d67b0528832b6a34bd951a870be53f962497867f66677f0d0e997c0942e2c8",
+        "storm_response": "2c18d8e12c8f8eb8c54f2a610bafe8dd8c3cd42374a62d7660352d532387f295",
+        "screen_spill": "2bf08517dd580204b36c1e35894c8b2b25563cac927fa9048c27ced540d3de76"
+      },
+      "runtime": {
+        "numpy": "2.3.5",
+        "opencv": "5.0.0"
+      },
+      "baseline_sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+      "lighting_layers_sha256": "c8f47d8d41d237d24b669f5acfa98301065b56e7c0b3c6c6fbd32147b3e195dc",
+      "digital_layers_sha256": "95c5d29ecfeda8685f61b73ee23d868476b3503cc68d7a15f3f268444bc5d229"
+    },
+    "checks": [
+      {
+        "frame": 449,
+        "scene_time": 14.966666666666667,
+        "decoded_yuv_matches_native_render_exactly": true
+      },
+      {
+        "frame": 450,
+        "scene_time": 15.0,
+        "decoded_yuv_matches_native_render_exactly": true
+      },
+      {
+        "frame": 899,
+        "scene_time": 29.966666666666665,
+        "decoded_yuv_matches_native_render_exactly": true
+      },
+      {
+        "frame": 900,
+        "scene_time": 30.0,
+        "decoded_yuv_matches_native_render_exactly": true
+      },
+      {
+        "frame": 1349,
+        "scene_time": 44.96666666666667,
+        "decoded_yuv_matches_native_render_exactly": true
+      },
+      {
+        "frame": 1350,
+        "scene_time": 45.0,
+        "decoded_yuv_matches_native_render_exactly": true
+      }
+    ],
+    "pass": true
+  },
+  "thumbnail": "G:\\AI\\colony\\music\\spirewatch-animation-v4\\thumbnail-v1.jpg",
+  "user_motion_approved": false,
+  "assistant_continuous_playback": false,
+  "audio": null,
+  "four_k": null,
+  "committed": false,
+  "pushed": false
+}

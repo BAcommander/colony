@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-21",
+  "status": "Rejected by user: too dark and less exciting than thumbnail; clean-plate rebuild requested",
+  "assistant_inspection": "Full-composition native and decoded stills; native temporal crops for tower, bridge and screen. No continuous playback or listening claim.",
+  "observed": [
+    "Main spire brightness band changes vertical position in temporal samples",
+    "Original architecture and monitor layout preserved",
+    "Source-mapped cyan/amber route light follows bridge",
+    "Thumbnail text is correctly spelled and main spire remains unobstructed"
+  ],
+  "internal_revision": "First still lightning branches reduced to 32% of v3 branch contribution; broad cloud illumination retained. First review stills were replaced by final-state samples before encoding; earlier v3 remains intact.",
+  "limitations": [
+    "Thumbnail is generated marketing adaptation with fine geometry/lighting differences",
+    "No eight-minute audio supplied; music-aligned envelope remains future work",
+    "Lamp reflection intentionally faint; user should judge in playback",
+    "720p review, not 4K or long final assembly"
+  ],
+  "user_motion_approved": false,
+  "user_thumbnail_approved": false,
+  "user_feedback_record": "user-feedback-2026-10-21.json"
+}

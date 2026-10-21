@@ -1,0 +1,194 @@
+{
+  "pass": true,
+  "fingerprint": {
+    "source": {
+      "path": "artwork-v5.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0"
+    },
+    "config_sha256": "5a216df17702f65e77ec9e50b9a0bae5a8691ccceaea80d8f08ed8b3821e9619",
+    "renderer_sha256": "4d0e9f3828ccc92ffeebdd6fce5a34a505ecc76224975671faba0eb89236b295",
+    "validation_sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+    "dependencies": {
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "masks": {
+      "clouds": "4978b31bf826e2ac0e77878a7f53b97ec27bf4d2c645f13b43a880f323e3cb1b",
+      "water": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+      "reflections": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+      "falls": "97c669dd3531a4ee60f4eabe81eeef7332b0c9747f4e04faea231efc6bc93efd",
+      "tower": "a7a059ffd545f2078069a09d129cff6d0fd747f8ab810ece25467d545f5a472f",
+      "tower_glow": "2951cec0d4d96efa68bf4e16e7d6b706160da13f3f72a99704f4cc65eb05681b",
+      "districts": "fe5664673fdc03523dc5f4348567152f24b7869b54d0f98dd497a33cfdaa8029",
+      "windows": "f43f3fb6ee2a620b8ccdcdd1caf9b03caea0d181909a71a5af50e09658aebce9",
+      "transit": "60fee996e65e28c25d36793f1b73872cb9f4d3252261cb1b72959c6eeacdea4b",
+      "screen": "674fce95fa8babcddc52e8870078e665be29822752173fe9055a3f1fe9ef4f64",
+      "lamp": "ae3d0a5baa4ba65beee19ac56589e3aa3a5a450b74b3f58ec21bf0325ec716ee",
+      "screen_spill": "87ecc8871ff4505d4adf37f5cc6484143b61c21a1ab77699db5d0866203c5d23",
+      "lightning": "3236646853a266273b1e4801deb2d5ff0b26f81994a7469b7cfb233e7ee54b67",
+      "storm_response": "0a393adf2400b04903f358382aa9e48d39229d6b081f56cadea172399ff5c5c6"
+    },
+    "runtime": {
+      "numpy": "2.3.5",
+      "opencv": "5.0.0"
+    }
+  },
+  "layers": {
+    "clouds": {
+      "periodic": true,
+      "seam_mae": 0.044074035328350636,
+      "sampled_step_max": 0.05044073260413882,
+      "pass": true
+    },
+    "water": {
+      "periodic": true,
+      "seam_mae": 0.1149377930095948,
+      "sampled_step_max": 0.12084948592617563,
+      "pass": true
+    },
+    "reflections": {
+      "periodic": true,
+      "seam_mae": 0.07294417289360826,
+      "sampled_step_max": 0.07466711613011967,
+      "pass": true
+    },
+    "falls": {
+      "periodic": true,
+      "seam_mae": 1.4840078328981723,
+      "sampled_step_max": 1.6703111401218451,
+      "pass": true
+    },
+    "tower": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 1.0034745385812764,
+      "pass": true
+    },
+    "tower_glow": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 0.06514497388338131,
+      "pass": true
+    },
+    "districts": {
+      "periodic": true,
+      "seam_mae": 0.1460946446166547,
+      "sampled_step_max": 0.19307075710367233,
+      "pass": true
+    },
+    "windows": {
+      "periodic": true,
+      "seam_mae": 0.000659501274441652,
+      "sampled_step_max": 0.07983530292497727,
+      "pass": true
+    },
+    "transit": {
+      "periodic": true,
+      "seam_mae": 0.3143853530950305,
+      "sampled_step_max": 0.5421195388937324,
+      "pass": true
+    },
+    "screen": {
+      "periodic": true,
+      "seam_mae": 0.014637425426434753,
+      "sampled_step_max": 0.045794471052852705,
+      "pass": true
+    },
+    "lamp": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 4.450574221716021,
+      "pass": true
+    },
+    "screen_spill": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 0.0,
+      "pass": true
+    },
+    "lightning": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 0.9195767222730411,
+      "pass": true
+    },
+    "storm_response": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 0.5106154528032162,
+      "pass": true
+    }
+  },
+  "retained_layers": {
+    "clouds": {
+      "exact_match_to_v5_at": [
+        0,
+        7,
+        20,
+        32.2,
+        40,
+        54.6
+      ]
+    },
+    "screen": {
+      "exact_match_to_v5_at": [
+        0,
+        7,
+        20,
+        32.2,
+        40,
+        54.6
+      ]
+    },
+    "lamp": {
+      "exact_match_to_v5_at": [
+        0,
+        7,
+        20,
+        32.2,
+        40,
+        54.6
+      ]
+    },
+    "screen_spill": {
+      "exact_match_to_v5_at": [
+        0,
+        7,
+        20,
+        32.2,
+        40,
+        54.6
+      ]
+    },
+    "lightning": {
+      "exact_match_to_v5_at": [
+        0,
+        7,
+        20,
+        32.2,
+        40,
+        54.6
+      ]
+    },
+    "storm_response": {
+      "exact_match_to_v5_at": [
+        0,
+        7,
+        20,
+        32.2,
+        40,
+        54.6
+      ]
+    }
+  },
+  "distinct_0_20_40": true,
+  "protected_pixels": "Every native output asserts unchanged source outside active masks",
+  "warm_groups": 55,
+  "warm_apertures": 183,
+  "assistant_continuous_playback": false
+}

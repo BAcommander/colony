@@ -1,0 +1,133 @@
+{
+  "pass": true,
+  "fingerprint": {
+    "source": {
+      "path": "artwork-v5.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0"
+    },
+    "config_sha256": "d43cad6139e37db83ed7e15d51c9047431dc6ff9dc7549f5cf3b83f36bd7c3f4",
+    "renderer_sha256": "a65f1a0eeb13561e3766e4888f3cea406360d418e425e464bfa47b3e82704250",
+    "validation_sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+    "dependencies": {
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "masks": {
+      "clouds": "4978b31bf826e2ac0e77878a7f53b97ec27bf4d2c645f13b43a880f323e3cb1b",
+      "water": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+      "reflections": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+      "falls": "97c669dd3531a4ee60f4eabe81eeef7332b0c9747f4e04faea231efc6bc93efd",
+      "tower": "071a247a27f97b5fdd276a3fdf3e11e448d0ede2ae35ff6c50bb875f3373c832",
+      "tower_glow": "9ef63e005caf9c58ca34f74991cb2460e2a3d666fee51e1aa63d0ae7ace268bd",
+      "districts": "d260402d8ef75c3b7f78c2b9832039e6b890e6ba759d5b450c62d7f269ea495a",
+      "windows": "23a4b8a2654953ec6d366507b5c1fff7c82774071c39ae3fe4dd99b2d35a60d8",
+      "transit": "73ed94567dca0383a9a3f9ced110201911af2684794d3527401b948f2797727a",
+      "screen": "674fce95fa8babcddc52e8870078e665be29822752173fe9055a3f1fe9ef4f64",
+      "lamp": "ae3d0a5baa4ba65beee19ac56589e3aa3a5a450b74b3f58ec21bf0325ec716ee",
+      "screen_spill": "87ecc8871ff4505d4adf37f5cc6484143b61c21a1ab77699db5d0866203c5d23",
+      "lightning": "3236646853a266273b1e4801deb2d5ff0b26f81994a7469b7cfb233e7ee54b67",
+      "storm_response": "0a393adf2400b04903f358382aa9e48d39229d6b081f56cadea172399ff5c5c6"
+    },
+    "runtime": {
+      "numpy": "2.3.5",
+      "opencv": "5.0.0"
+    }
+  },
+  "layers": {
+    "clouds": {
+      "periodic": true,
+      "seam_mae": 0.044074035328350636,
+      "sampled_step_max": 0.05044073260413882,
+      "pass": true
+    },
+    "water": {
+      "periodic": true,
+      "seam_mae": 0.04517731957475763,
+      "sampled_step_max": 0.04503374097171502,
+      "pass": true
+    },
+    "reflections": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 0.041756403293568306,
+      "pass": true
+    },
+    "falls": {
+      "periodic": true,
+      "seam_mae": 0.4495213228894691,
+      "sampled_step_max": 0.6525783289817232,
+      "pass": true
+    },
+    "tower": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 0.10935865909155149,
+      "pass": true
+    },
+    "tower_glow": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 0.011361054305839582,
+      "pass": true
+    },
+    "districts": {
+      "periodic": true,
+      "seam_mae": 0.004334697058250536,
+      "sampled_step_max": 0.1006396519254497,
+      "pass": true
+    },
+    "windows": {
+      "periodic": true,
+      "seam_mae": 0.022166950298904742,
+      "sampled_step_max": 0.032508618056464635,
+      "pass": true
+    },
+    "transit": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 0.11273779258350136,
+      "pass": true
+    },
+    "screen": {
+      "periodic": true,
+      "seam_mae": 0.014637425426434753,
+      "sampled_step_max": 0.043677001932610704,
+      "pass": true
+    },
+    "lamp": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 4.450574221716021,
+      "pass": true
+    },
+    "screen_spill": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 0.0,
+      "pass": true
+    },
+    "lightning": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 0.9195767222730411,
+      "pass": true
+    },
+    "storm_response": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sampled_step_max": 0.5106154528032162,
+      "pass": true
+    }
+  },
+  "distinct_0_20_40": true,
+  "protected_pixels": "Every native output asserts unchanged source outside its active masks",
+  "warm_groups": 29,
+  "warm_apertures": 109,
+  "masks_newly_mapped": true,
+  "assistant_continuous_playback": false
+}

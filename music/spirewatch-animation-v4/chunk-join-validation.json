@@ -1,0 +1,81 @@
+{
+  "fingerprint": {
+    "source": {
+      "path": "music/digital-city-concepts-v1/01-spirewatch-v2-cleanup.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba"
+    },
+    "config_sha256": "66d4c6b3b2f9b02d18516552bd284a25a6c26caf8adc930404b931ad091ca6f1",
+    "renderer_sha256": "db82cece9f25c3405fe57c65b1f5408675aafd9fe7bf9daac240430b8763e6b2",
+    "dependencies": {
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "masks": {
+      "clouds": "6376ec3440ccdfd46572db7b05969df0cb0e0e3e45932512e6f78cf097676c54",
+      "mist": "4f17746628a2881c3e9584ec05fc50efdde73aeb3a0b211b0278675c609ee3cf",
+      "falls": "60b77154a0eca2037c6aebbcd6a36eeca5f7a573eea3082ea4eeb9d3d4378594",
+      "water": "fb52d10dc9842bf8828c530e0f3414375595c805acc77c89986f6049b33efde4",
+      "windows": "04f3da3efd992b2b22c409b6ebbb9aaf23dfd36b0b7e5e5d09de3a0b3d1e21e0",
+      "walkway": "0426ef06b52e7bc8732dee422e9ead1c2d606fa04372b06b4fe18e7486b5f549",
+      "lamp": "65a46b6a779b51bd7af0984edc66349573c89dcf2b0a3f8be451f812d43574f4",
+      "screen": "2b796a7c439dbe62846f7e8c5e066731e209e7e295c054091dc91f9f1a384181",
+      "depth_mist": "afb22b4981b2268671047cbdc6f7b78f868c5381b08555f04cc51b5146b09ce2",
+      "spray": "5c108c1f546028eb237b889e8eefa92bfe69ec3d00d2c283c555f795c9824606",
+      "tower": "a91a6325cdc6a8ebd60fc7755a550bddcc18bffa39da2305b93195f4f6ee0b4d",
+      "city_glow": "790fe224d11d3bf9e46c3371cb332b7b38d548bed77c04c4b0663a024cdfb9ee",
+      "transit": "0962c8930b14b12e3add45c9f5a1fd027d269c60acf2694fc813cb0f71eb659a",
+      "tower_corona": "f8635e89d3a19ce97e544f1a989db5c00b41a409b4fb18c91cbafe46acb68dc8",
+      "tower_crown": "9cf8a2f25c4ae513f6851f059c9f5fc3ab23d7f74215a27ee095dbb8b5417871",
+      "light_reflections": "fb52d10dc9842bf8828c530e0f3414375595c805acc77c89986f6049b33efde4",
+      "glass_reflection": "3c736bf06b4f831471f52d7f6ad43a6294ec6f40a2c6e0c7404896654c93fb1a",
+      "lightning": "d2d67b0528832b6a34bd951a870be53f962497867f66677f0d0e997c0942e2c8",
+      "storm_response": "2c18d8e12c8f8eb8c54f2a610bafe8dd8c3cd42374a62d7660352d532387f295",
+      "screen_spill": "2bf08517dd580204b36c1e35894c8b2b25563cac927fa9048c27ced540d3de76"
+    },
+    "runtime": {
+      "numpy": "2.3.5",
+      "opencv": "5.0.0"
+    },
+    "baseline_sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+    "lighting_layers_sha256": "c8f47d8d41d237d24b669f5acfa98301065b56e7c0b3c6c6fbd32147b3e195dc",
+    "digital_layers_sha256": "95c5d29ecfeda8685f61b73ee23d868476b3503cc68d7a15f3f268444bc5d229"
+  },
+  "checks": [
+    {
+      "frame": 449,
+      "scene_time": 14.966666666666667,
+      "decoded_yuv_matches_native_render_exactly": true
+    },
+    {
+      "frame": 450,
+      "scene_time": 15.0,
+      "decoded_yuv_matches_native_render_exactly": true
+    },
+    {
+      "frame": 899,
+      "scene_time": 29.966666666666665,
+      "decoded_yuv_matches_native_render_exactly": true
+    },
+    {
+      "frame": 900,
+      "scene_time": 30.0,
+      "decoded_yuv_matches_native_render_exactly": true
+    },
+    {
+      "frame": 1349,
+      "scene_time": 44.96666666666667,
+      "decoded_yuv_matches_native_render_exactly": true
+    },
+    {
+      "frame": 1350,
+      "scene_time": 45.0,
+      "decoded_yuv_matches_native_render_exactly": true
+    }
+  ],
+  "pass": true
+}

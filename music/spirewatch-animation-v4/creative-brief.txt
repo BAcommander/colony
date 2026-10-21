@@ -1,0 +1,21 @@
+Spirewatch v4 — connected digital city, 2026-10-21
+
+User request: implement as much of the proposed TRON-inspired thumbnail and animation improvement list as possible. User wants a substantial visual improvement. No numeric percentage of improvement is claimed.
+
+Keep the fixed camera, existing architecture, warm room and immutable 1672x941 plate. Render a genuine sixty-second silent 1280x720/30fps preview and three-repeat review. Prior versions stay intact. This pass is for user review, not 4K or long final assembly.
+
+Implemented targets:
+- Main spire base charge, channel-staggered upward propagation, crown hold, later downward return, confined cyan corona.
+- Six existing cyan district regions respond with individual delays; no whole-frame exposure pulsing.
+- Three perspective-following bridge passages with attached cyan/amber trails, source-mapped occlusion and coupled broken water reflections.
+- Monitor retains source map; tracking marker follows transit, small route acknowledgements follow district states, restrained scan/telemetry.
+- Whole-aperture warm windows retain independent masks but use slower transitions and longer holds; existing lamp/walkway behavior preserved.
+- Two local cloud lightning events; branches partially obscured and reduced after initial still review.
+- Very faint lamp reflection inside a local window-glass region, linked to the source lamp dip.
+- Thumbnail with stronger cyan/amber separation, clearer spire, bridge trails, tighter framing, SPIREWATCH / TRON-INSPIRED AMBIENCE / AMBIENT COLONY.
+
+Adapted lessons: complete aperture and coupled spill from Ringfall/Rainline; subtle mapped monitor activity preferred over large graphs in Shoreless; calm existing water displacement retained and new movement supplied by reflected light; no source geometry changes or mask reuse against generated thumbnail.
+
+Music: user is generating eight-minute Vast Unfamiliar World development (pulse -> ambient middle -> pulse). Actual audio not received. No invented musical timing/sync is baked into this minute. Lighting activity has a controllable multiplier for future music alignment; weather velocity stays independent. Final music-driven envelope and long assembly wait for the supplied track and its reviewed loop recipe.
+
+Thumbnail generated with the built-in imagegen tool using the existing clean scene as edit target. Marketing adaptation changes fine geometry/lighting and must never be substituted into the renderer. Exact prompt saved alongside. No official logo or franchise assets used.

@@ -1,0 +1,12 @@
+{
+  "frames": 240,
+  "full_decode": true,
+  "sequential_timestamps": true,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "sha256": "e858f41f3ba55ee9b19a3348d029f22335856f971d6d3597e23b66cc21fbf04a",
+  "colour_aware_decode": true
+}

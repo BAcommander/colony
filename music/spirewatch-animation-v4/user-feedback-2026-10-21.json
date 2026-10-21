@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-21",
+  "user_feedback": "so the thumbnail looks like WAY more exciting and bright than the rendered scene, i think we need to sstart over, make an epic prompt to make the scene like 500% better, that fully represents the thumbnail",
+  "verdict": "V4 visual direction rejected relative to the thumbnail; rebuild requested",
+  "cause": "Animation retained the older dark source plate while the separately generated thumbnail changed illumination and fine geometry.",
+  "next_action": "Prompt-only stage: rebuild clean artwork from the current thumbnail, review it, then remap animation to the new plate.",
+  "prompt": "music/spirewatch-artwork-rebuild-v1/production-prompt-v1.txt",
+  "new_artwork_generated": false,
+  "new_animation_rendered": false,
+  "numeric_improvement_claim": false
+}

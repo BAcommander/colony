@@ -1,0 +1,49 @@
+SPIREWATCH — THUMBNAIL-FAITHFUL SCENE REBUILD
+
+Objective
+Rebuild the scene so the actual ambient video delivers the visual impact of the current thumbnail. The user's "500% better" expresses ambition, not a measurable target. V4's dark source plate is no longer the visual target. Preserve all earlier artwork and animations.
+
+Primary visual reference / edit target
+G:/AI/colony/music/spirewatch-animation-v4/thumbnail-v1.png
+
+PART 1 — CLEAN CINEMATIC ARTWORK PROMPT
+
+Use the attached Spirewatch thumbnail as the authoritative edit target. Create a clean, text-free cinematic scene with the SAME luminous city, composition, architectural scale, rich cyan and amber lighting, storm-cloud separation and inviting foreground room. Preserve the thumbnail's visual impact at ordinary viewing size. Its normal illumination must be present in the finished clean image, without relying on a lightning flash or later animation to make it look impressive.
+
+Remove only the SPIREWATCH, TRON-INSPIRED AMBIENCE and AMBIENT COLONY lettering and their decorative rules. Reconstruct continuous natural cloud detail behind those graphics. Keep the skyline, bridge, tower, water, window and desk placement closely faithful to the thumbnail. Keep the full main spire and its crown inside the frame. Maintain the tighter framing and the warm lamp, coherent single-handled mug and working monitor in the lower-left room.
+
+The main spire is the unmistakable focal point: an immense dark sculptural structure threaded with brilliant, sharply defined cyan channels, smaller illuminated setbacks and a luminous foundation. Preserve readable dark material between the channels. Soft scattered light in the surrounding mist separates the tower from the storm sky; keep its outline crisp and its lighting physically attached to the architecture.
+
+The elevated bridge carries continuous cyan guide rails and a few selective amber route accents. Its perspective draws the eye across the city toward the spire. Light softly touches nearby bridge surfaces and supports. Distinguish permanent illuminated rails from future moving traffic; keep the still free of frozen detached vehicle streaks.
+
+Build the surrounding city as a richly inhabited place: clusters of warm windows, cyan infrastructure, occasional amber equipment, illuminated terraces and layers of increasingly distant buildings. Maintain individual architectural forms and dark gaps between districts. Give the left-hand waterfalls visible pale water texture, illuminated edges and believable mist at their bases.
+
+The canals hold vivid but controlled cyan and warm-gold reflections, broken into fine ripples and interrupted correctly by piers, walls and bridge supports. Preserve dark water between reflections. The storm sky has substantial cloud formations, pale blue light filtering behind the spire, and mist layered around the lower city. Clouds remain detailed and dimensional, without a blank white halo or blown highlights.
+
+The foreground room remains a believable sheltered interior: amber lamp light reveals the desk grain, mug, monitor bezel and chair edge. Retain readable shadows and a small detailed cyan route map on the screen. Keep the glass clear enough to enjoy the city; reflections are faint and local.
+
+Finish as a polished photographic science-fiction environment: blue-black materials, luminous ice cyan, selective warm amber, deep spatial depth, clear midtones and controlled highlights. Preserve the thumbnail's brightness hierarchy and colour richness. No lettering, logos, borders, giant pasted grids, extra moons, spacecraft, people, magenta wash, excessive bloom, crushed room shadows or redesigned architecture. Wide 16:9 composition, highest available native quality; record actual dimensions and disclose any later upscale.
+
+PART 2 — ANIMATION IMPLEMENTATION BRIEF AFTER CLEAN-PLATE REVIEW
+
+Animate the new clean artwork itself. Freeze its hash and redraw every effect mask against its exact geometry. Reuse prior effect algorithms where helpful; old v4 masks and coordinates are invalid for this new plate. The new plate's luminous appearance is the baseline throughout the video. Do not dim it back toward the rejected older render.
+
+Use a locked camera and fixed architecture. Create a genuine sixty-second cycle at 30 fps, initially a silent 1280x720 preview. Motion should be visible at full composition, with deliberate quiet intervals and no global brightness pumping.
+
+1. Main spire: retain steady luminous cyan channels. Add a broad, clearly travelling charge that rises through staggered channels, gathers briefly at the crown and later returns downward. Use attached core, local surface spill and restrained mist response. Brightness headroom must remain available above the steady base lighting.
+2. City: stagger softer acknowledgements through nearby cyan infrastructure and distant terraces. Warm inhabited windows follow independent long holds and gentle recovery. Keep some windows and rail lighting steady.
+3. Transit: make a few cyan and amber light sources travel along mapped bridge lanes, with perspective-correct speed/scale, short attached trails, smooth entry/exit and accurate structural occlusion. Avoid stationary baked vehicle trails and a continuous parade.
+4. Water: preserve fine texture and calm displacement. Couple broken, perspective-scaled light reflections to tower and transit activity, correctly occluded by shorelines and supports. Extra visual richness comes from light response rather than stronger water distortion.
+5. Weather: transport recognizable cloud formations, with different speeds for upper storm clouds and lower mist. Protect tower silhouettes in both sampled source and output. Two occasional intracloud flashes illuminate the actual moving clouds, with a local exterior/water response and mostly obscured thin branches. Baseline scene brightness must remain compelling between flashes.
+6. Waterfalls: move actual water texture down the existing falls; sustain soft mist at the correct lower edges. Keep surrounding walls fixed.
+7. Room: move tiny markers along the existing monitor map, add restrained telemetry and local screen spill. Give the desk lamp an occasional brief coupled dip. If glass reflections are added, keep them faint, correctly confined and tied to their light source.
+
+Preserve independent environmental motion. When the eight-minute music is supplied and reviewed, use its real energetic/ambient/return sections to adjust city activity gradually; do not assume the generated timings match the requested prompt. Weather velocity and normal scene illumination remain stable. No music synchronization claim before audio review.
+
+REVIEW AND DELIVERY
+
+First present the rebuilt clean still beside the thumbnail at equal display size. The scene should retain the same brightness, cyan/amber balance, spire prominence, readable bridge and reflective water without any text or animation. Refine the clean plate until it meets that visual target before spending time on motion masks.
+
+After the clean plate is accepted, produce short principal-motion tests, then the complete minute and a three-repeat review. Check every decoded frame/timestamp, regional/composite and quiet-neighbour seams, protected geometry, source/dependency fingerprints and exact repetitions. Inspect normal-size temporal/decoded samples and disclose any lack of continuous playback. Technical checks and user artistic approval remain separate.
+
+Only after full-preview acceptance make the matching 4K master from the same source/settings. Use that actual clean master for subsequent thumbnails so the thumbnail and video share the same scene appearance. Apply the existing Colony opening once at final assembly, outside the repeating scene loop. No new paid services or model installations; no automatic commit/push or final long assembly in this prompt-only stage.

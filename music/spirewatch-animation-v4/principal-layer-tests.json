@@ -1,0 +1,28 @@
+[
+  {
+    "layer": "tower",
+    "frames": 240,
+    "full_decode": true,
+    "sequential_timestamps": true,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "sha256": "01edbee0c34a175d23161e0a0477492beeb19ee4386a68688a0b788e9bc09291",
+    "colour_aware_decode": true
+  },
+  {
+    "layer": "transit",
+    "frames": 240,
+    "full_decode": true,
+    "sequential_timestamps": true,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "sha256": "aebef5d27bf17f752b3ccd3de5c218dae4895a9484acaaa0da97c82034b36afc",
+    "colour_aware_decode": true
+  }
+]

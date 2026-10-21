@@ -1,0 +1,2744 @@
+{
+  "date": "2026-10-21",
+  "base_commit": "205c7b739de7dc4a898818d9d01f8349f1651093",
+  "scope": "Backup requested 2026-10-21: current v8 minute preview plus v4\u2013v8 source, artwork, thumbnail, masks, diagnostics, feedback and learnings selected. Older/repeated/isolated/intermediate videos remain local. See music/spirewatch-animation-v8/backup-manifest.json and subsequent local remote-backup-verification.json for scope and remote evidence. Delivery-time uncommitted statements below are historical; backup does not imply artistic approval.",
+  "files": [
+    {
+      "path": "music/spirewatch-animation-v4/analytic-validation.json",
+      "bytes": 6421,
+      "sha256": "d882326deaf6fce1c15aad8e953b55f76e58757ff9285027f4951cc2f0ea4638",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/baseline.py",
+      "bytes": 16620,
+      "sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/bridge-temporal.png",
+      "bytes": 163592,
+      "sha256": "53473ba0997975947bc0eae76a8b2b791aa16ffec7cbc595de639afdcf8e56cf",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/check_chunk_joins.py",
+      "bytes": 1312,
+      "sha256": "32364ae94a4290eaa39774d0fa556f64e0a0c642ae9cd14f7fa4f23374b0fc3e",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/check_v4.py",
+      "bytes": 2530,
+      "sha256": "f3fe9a6e435d9100977892755f4d74f5d914d3d6922e0307c1c220e0313a4b3c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/chunk-join-validation.json",
+      "bytes": 3720,
+      "sha256": "3f773658de70af78066f471ddca13ea7b68292857b7cba9e6444f457d5d938d9",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/combined-v4-test-8s-decoded-0000.png",
+      "bytes": 885217,
+      "sha256": "a1508e17010f36bef0c922b0f3cca37c46037d744a0b932e3b02cdbb5f0fe1a6",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/creative-brief.txt",
+      "bytes": 2541,
+      "sha256": "97024e37585f7eeadc284ca0f262d12594966d36b3baf3a21e5fa7a058c0ccf8",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/delivery-v4.json",
+      "bytes": 15051,
+      "sha256": "8b19b8721ee5e963b70f7b8a033a1a4e19aace7f86081abb9af3ac91c78c45aa",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/dependencies/ambient_effects.py",
+      "bytes": 1640,
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/dependencies/render_floodplain.py",
+      "bytes": 12017,
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/dependencies/water_surface.py",
+      "bytes": 3156,
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/digital_layers.py",
+      "bytes": 7848,
+      "sha256": "95c5d29ecfeda8685f61b73ee23d868476b3503cc68d7a15f3f268444bc5d229",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/isolated-test-validation.json",
+      "bytes": 253,
+      "sha256": "d3cacec47203d5e88092bdb40fd53a4dd721def7d4df4c7cc14fe175d17331a7",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/lighting_layers.py",
+      "bytes": 7052,
+      "sha256": "c8f47d8d41d237d24b669f5acfa98301065b56e7c0b3c6c6fbd32147b3e195dc",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/mapped-window-apertures.json",
+      "bytes": 18861,
+      "sha256": "376bf04797f1b5ff0ef94aad1c90f2f14ffb9f808138f6a49d3f2e7871db8d73",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/city_glow.png",
+      "bytes": 21238,
+      "sha256": "216bce580ab7e69dd510768697a60ec6f6b3f267b2987734cf3752b4a146a833",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/clouds.png",
+      "bytes": 22264,
+      "sha256": "1b1e76ad63a01ff97c63097b4bca8df1ec1d977a8a3476744155a478d99ff972",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/depth_mist.png",
+      "bytes": 21993,
+      "sha256": "204821957851dcd0914481c4dd550e71f9a1c433e9cc1e7fd34282b7b255eea4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/falls.png",
+      "bytes": 5129,
+      "sha256": "262c8a43892ec79eac42fac0d52c72797b1e372272d8ab9d5acf1c819606c55c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/glass_reflection.png",
+      "bytes": 5176,
+      "sha256": "e72dafc7ea5ec77bf9a3e069f08833bcd0bf1b93e9f7e4b65f65f3dbdbe898df",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/lamp.png",
+      "bytes": 16480,
+      "sha256": "77a098307081850ca9a0beb9b09ada44e06c29cd945b8d2f78c5d909e722f6ca",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/light_reflections.png",
+      "bytes": 11437,
+      "sha256": "e7c751288b350320a6d1b3ee303f3d1602ad101c47ca9529641946f495563c67",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/lightning.png",
+      "bytes": 92104,
+      "sha256": "5f8c267ee2a701bf608bdb952d9dc5c17b562c7f68cbbb103902e2efcc58f8f2",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/mist.png",
+      "bytes": 12919,
+      "sha256": "31409e7ed81f503d00e4a9090ed0061d780553cf884f4a85bb67ee56141c8c9c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/screen.png",
+      "bytes": 4111,
+      "sha256": "595860bbee2f27a1a50629f4f822d48d69158e7c4d821fa5885e21e45ef30b95",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/screen_spill.png",
+      "bytes": 9636,
+      "sha256": "deba49b0ca61d56812ed85ae1413eba3bc7db55aa58302f7cc848927eec49a50",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/spray.png",
+      "bytes": 4852,
+      "sha256": "85614092023001b14f489df5cdbd1d66e81ad824e0b5e215b80b5302c3971ebe",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/storm_response.png",
+      "bytes": 63699,
+      "sha256": "9d38edf52afc5ca91818864994b92310203be2c928f762bc4c29253d336e4798",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/tower.png",
+      "bytes": 12896,
+      "sha256": "12aa0677f91fff401e3af71a837e9ecfcaf5934a142a44cd082aab406217f646",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/tower_corona.png",
+      "bytes": 16889,
+      "sha256": "e5152e60d3fb15df3284683069a6ac5480503cab30f98c274aa594b26287f662",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/tower_crown.png",
+      "bytes": 5722,
+      "sha256": "6be4ad927c97357d243c36a51da699629dee1ae0b4adb4ae0ce39d5495853b72",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/transit.png",
+      "bytes": 18205,
+      "sha256": "07eae375bfbf45da395dd4a1914a4af99c40e120e4635920c3d088a5a03400da",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/walkway.png",
+      "bytes": 4014,
+      "sha256": "fa31abee8a12dfd8f2a0659074142710fb8459d22e8591736a6763e7a70f9d95",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/water.png",
+      "bytes": 11437,
+      "sha256": "e7c751288b350320a6d1b3ee303f3d1602ad101c47ca9529641946f495563c67",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/masks/windows.png",
+      "bytes": 10506,
+      "sha256": "9b47851cc67c58e2b9dea517aea25a9dbc8b5bac7c52a2b56d917ef9102d3268",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/monitor-temporal.png",
+      "bytes": 80008,
+      "sha256": "b7cdea2325e7af7ffba5f7737ae90e14ce8c79fba6ae6965b95d1aeb2ac67df2",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/music-prompt-eight-minutes.txt",
+      "bytes": 1277,
+      "sha256": "d580218d85a6d74625d4d58ddadf423f1f8f10221748fd6e51558572675334e9",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/parallel-render.json",
+      "bytes": 13777,
+      "sha256": "a41985b0ef08d7a33b02b3e7d45d3f16c1e3565afd11927896bca791e0ba0dab",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/preview-validation.json",
+      "bytes": 6733,
+      "sha256": "3256c151db1347a6e17cb75238d4950e2673c6717a3405bc21905bae3e79da8d",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/previous-direction.json",
+      "bytes": 1292,
+      "sha256": "b90ed101dc59babaead8207b6f1f42319abd03b5bba294cb660c38fa2694bab0",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/previous-tracker-section.json",
+      "bytes": 869,
+      "sha256": "17a927fcc83b1ecc75edb2b146eb345f0527249d79d35436ee7e68d950a7cdca",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/principal-layer-tests.json",
+      "bytes": 609,
+      "sha256": "c72ba9cb6b69871161b6aa6ce3b7d963589cfc4d6ff0190de1d7edbafe396b8d",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/README.md",
+      "bytes": 2642,
+      "sha256": "91c173db6acf212a728c1f8024db77618bbf331e1aff52551b7828ee92074af7",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/record_delivery.py",
+      "bytes": 10588,
+      "sha256": "d105d910e682b1aaca35e98eff739963584543b2e58df0d7ede03748252c183a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/render_parallel.py",
+      "bytes": 1793,
+      "sha256": "5d24c3fb39eec8390e98b9454dce3adf59d3b1330dc91fa10bdc22822d4fffa1",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/render_spirewatch.py",
+      "bytes": 16739,
+      "sha256": "db82cece9f25c3405fe57c65b1f5408675aafd9fe7bf9daac240430b8763e6b2",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/repeat-validation.json",
+      "bytes": 298,
+      "sha256": "7176b0e166c45d5e9a63681ff4a74861ab2669ee7664e2193b4c742c0c565b37",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/review-00.00.png",
+      "bytes": 1690819,
+      "sha256": "009c66210d844b56dbde0928b96ebe553f62460837a6a8cccf584c838a4bc2e7",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/review-07.00.png",
+      "bytes": 1687245,
+      "sha256": "64fceba71e89c3fb44ea622aec8cca7169a9b7d7f8ca099885df05f9782f9e33",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/review-12.00.png",
+      "bytes": 1688008,
+      "sha256": "b60ad8cbda753bd9d2542036d7b078f03c412737abb5e6971535c6729b796b3e",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/review-18.00.png",
+      "bytes": 1688532,
+      "sha256": "858294b3ecc7d4d40ccc698419adea43adee4a4262067844067f7ca5a44e2d1f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/review-24.00.png",
+      "bytes": 1693660,
+      "sha256": "f925fac74f302d0c16d94075fc4344a02a4e02fc9e617747261175dbfc301245",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/review-28.60.png",
+      "bytes": 1725037,
+      "sha256": "4c7ca4d3fd4f83df9be7dfb56a2fbe2abfc46e9d592e1c100bb68b31d6b3421b",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/review-36.00.png",
+      "bytes": 1686890,
+      "sha256": "59dc65af8c33802a7ee52adde7ee2ab6502a3af19997d71466e3a1e8e01c0967",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/review-47.00.png",
+      "bytes": 1687623,
+      "sha256": "5d043c19aca8f77c8eaf5808c23a22e4d1ae8cd839aa702aa8d8c5e3a0729d40",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/review-54.60.png",
+      "bytes": 1715928,
+      "sha256": "85254587b7d92f2074ce62df34db044d232d0c9ed6f5d6a47b6accebc9fee620",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/review-59.97.png",
+      "bytes": 1690875,
+      "sha256": "dd72d94e740926fe4517543fcbb58de40fcfdeb21d87701febb92c8c3d8cbd52",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/scene-plan-v4.json",
+      "bytes": 33172,
+      "sha256": "66d4c6b3b2f9b02d18516552bd284a25a6c26caf8adc930404b931ad091ca6f1",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/setup_v4.py",
+      "bytes": 2867,
+      "sha256": "e3f77d113bbec6a548b38edfc2c2cc975447d11bd79d48c6d13d9987a99c621b",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/spirewatch-v4-preview-60s-decoded-0000.png",
+      "bytes": 887894,
+      "sha256": "923b18136b6356c2f6b98f747dc1e2f903be79ce1db66d7ff9f7285dbd63cd54",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/spirewatch-v4-preview-60s-decoded-0240.png",
+      "bytes": 885150,
+      "sha256": "2c75ca856c69e8d0e19f4d1ee4282753c967e61139d53e731935b4fdd8736d11",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/spirewatch-v4-preview-60s-decoded-0600.png",
+      "bytes": 887970,
+      "sha256": "702a75157fb8817550a23db4fca1b256b5776d2d5f623839737df6d7797ed728",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/spirewatch-v4-preview-60s-decoded-1200.png",
+      "bytes": 884587,
+      "sha256": "f7de6bef76cb403275ec3cd8d69fe7a9aa62aede01d7e0d3058606644f9f6d3c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/thumbnail-generation.json",
+      "bytes": 877,
+      "sha256": "50cbc40f406ec8f9ba82a154766e20681e4b249d0f47780b82e494bd98248e78",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/thumbnail-prompt-v1.txt",
+      "bytes": 1493,
+      "sha256": "06b311e01d4035e9f6d3ee2e49d8b00543bbc91cc535686bf14ade1aa84dfc40",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/thumbnail-v1.jpg",
+      "bytes": 373677,
+      "sha256": "7473ab0cacd509f58ae45cc06dab37847c99b9c9d836104959b3f578efc538b7",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/thumbnail-v1.png",
+      "bytes": 2169365,
+      "sha256": "8032a7e8e61fc057954655267dfe1ce23b23a2c5ed64a09d49b32917eb264270",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/tower-temporal.png",
+      "bytes": 245021,
+      "sha256": "d2c5b283dad2fd6326d4f5e365c85fbb08d7eac8bf67d17b230438dad485de13",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/tower-v4-isolated-8s-decoded-0000.png",
+      "bytes": 908093,
+      "sha256": "1b80b926b5cd827f832dc2f7e1b9180133ab139b40e80adcc3fd0b9d9145ecae",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/transit-v4-isolated-8s-decoded-0000.png",
+      "bytes": 907705,
+      "sha256": "1ff9adfb017f2cdee94b07abde0c9bc59357689391dd5e07ecb6275310d86c7d",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/user-feedback-2026-10-21.json",
+      "bytes": 809,
+      "sha256": "e4708ae3a31a933b0356784fc0978b615fd369846d28d01633133af8f4699824",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v4/visual-review.json",
+      "bytes": 1301,
+      "sha256": "837dfb887e4f9338363bc56186ad4d2bddf1fb66a02db083ece431c9ee7988eb",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/analytic-validation.json",
+      "bytes": 4524,
+      "sha256": "157034618e5b354b6ee7dd3d59ceaf95ee8b87d5b9a82d9573d87393f97f6894",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/artwork-generation-prompt.txt",
+      "bytes": 1268,
+      "sha256": "82c18e14d862cabd4d041e47d9bc2616bb4bd6d6f44d9e53a72680a3fc06f2a9",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/artwork-generation.json",
+      "bytes": 840,
+      "sha256": "5ba5adb07f87afaab844f06cc37b9135972d0a4ab2bed51173ba000d44995eca",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/artwork-v5.png",
+      "bytes": 2108631,
+      "sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/bridge-temporal.png",
+      "bytes": 253060,
+      "sha256": "20b4cd1d0989d5ef836516ebf76f3fc186c8a6f9fdac5f17e158bb1c0257907a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/check_chunk_joins.py",
+      "bytes": 1314,
+      "sha256": "9cdebe9d3fc221a5fb1f2a48775d4d685446b62dc31cddc9d33248e3c07395d6",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/check_v5.py",
+      "bytes": 3179,
+      "sha256": "89468ebc8c9e1e5da9b64bc587d7897b244cde668437fbe2691240d203e9472f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/chunk-join-validation.json",
+      "bytes": 2945,
+      "sha256": "f98e76287ab58c02f5db01bab5132e4cabe107052a53711ae699c5ae9f03b16d",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/clouds-v5-test-8s-decoded-0000.png",
+      "bytes": 1177917,
+      "sha256": "a98726bcfa593e47e1bb3b394595f166e1cd4949fb3db89ba1c348ba643d9ab7",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/combined-v5-test-8s-decoded-0000.png",
+      "bytes": 1178862,
+      "sha256": "c1bb7e7b34e6e86a41edc09a7faff9b64e72c8b8ddb3fe6c46e4b706f814414e",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/coordinate-review.png",
+      "bytes": 2065123,
+      "sha256": "9a9532a62d99ec2c0872e9bc9704ea64803a67da2cb37030d35dc67537e3b47d",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/delivery-v5.json",
+      "bytes": 11559,
+      "sha256": "69cab5cceb2e573a2a67c8d1d6e2cbe7f8947bca5ac79acfae110196e948c813",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/dependencies/ambient_effects.py",
+      "bytes": 1640,
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/dependencies/render_floodplain.py",
+      "bytes": 12017,
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/dependencies/water_surface.py",
+      "bytes": 3156,
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/history/first-mask-pass/review-00.00.png",
+      "bytes": 2053496,
+      "sha256": "dd24d0e241ef265ccdfa6ffce10b922fceb5709a4f224af8f3371c2e8157c5bb",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/history/first-mask-pass/review-07.00.png",
+      "bytes": 2068610,
+      "sha256": "2e94b20cb720739d5ab57dc337c07e599cebe19b11db038bb4e33643e13e6f89",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/history/first-mask-pass/review-12.00.png",
+      "bytes": 2071245,
+      "sha256": "50d9ba9dd5c580fb453373c4e30e135205c14db2d9606f833ef2e2c343eefefc",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/history/first-mask-pass/review-18.00.png",
+      "bytes": 2068689,
+      "sha256": "c88e34bd07d80a12546dd7c96eb59b257f529814d7884f49928304b32cedc630",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/history/first-mask-pass/review-28.60.png",
+      "bytes": 2058605,
+      "sha256": "4591a8cbfb9bd0b728cf9f1383157cfb9e2e536099a58c7fd8c3cea34bb4b013",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/history/first-mask-pass/review-40.00.png",
+      "bytes": 2070806,
+      "sha256": "e32563323a721564f68ed8a20dc84622cfd6eec31df581e8a772ee39e6e4dd51",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/history/first-mask-pass/review-54.60.png",
+      "bytes": 2056536,
+      "sha256": "36c1784d3ce960a93a99d6ce3d1f4ec89085d28d3866ed960cf20a38f6324139",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/history/first-mask-pass/scene-plan.json",
+      "bytes": 16672,
+      "sha256": "4f625128187cbbf79bf6a4d2227a9958d7e62bfb8168e03ca6744709b2860fab",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/mapped-window-apertures.json",
+      "bytes": 12177,
+      "sha256": "20d2fe797bc25b47a528587d7853f253507f41a740d0daef274710bbe8c02296",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/clouds.png",
+      "bytes": 17055,
+      "sha256": "ef14f59f4cc84ef76e60ae79dd440de3cf9d42cd90c5b0d3b629c325c7c8f50a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/districts.png",
+      "bytes": 23727,
+      "sha256": "35184271d485a86ceaf9f844cb5d59a92309c4fc42ed9c96a595402303320352",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/falls.png",
+      "bytes": 5112,
+      "sha256": "b1bdea6fff95b9426d8b41046b8bfc015ac5cf60c8534679e6f10aa877a97909",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/lamp.png",
+      "bytes": 10427,
+      "sha256": "f30b40fbc7e10a9dcf63389f4499e7150059c9c515b7e142f7cb0f294553a041",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/lightning.png",
+      "bytes": 123921,
+      "sha256": "3ad8e5cb292a4f38f9c3828237db58a6d6b0a2b333b58906c50005e1b2854857",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/reflections.png",
+      "bytes": 13358,
+      "sha256": "6db2c4499ff62c55a762ef14d6a33f9b162d68eb5abee42d3313ff97b4befa35",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/screen.png",
+      "bytes": 4105,
+      "sha256": "fbf5d8e925103706514c3bd60fb745e53006c2ad53d7b6ef81b7c6f984a00a98",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/screen_spill.png",
+      "bytes": 4862,
+      "sha256": "6c01348e2b208e5e7ba7d1e5a9f33ff7bfbe09e5a3623dfdb189d2119b209817",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/storm_response.png",
+      "bytes": 20750,
+      "sha256": "e3167ed7c7f86be5a7426d49e96c2d601d89a606e081d7260a6bda9a5809e1ac",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/tower.png",
+      "bytes": 17520,
+      "sha256": "32691a40998949f4c64beffe337a794c8931728cf4514665d1d7a4e95064b942",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/tower_glow.png",
+      "bytes": 19339,
+      "sha256": "81749ff9d4f2a3a46d68de233346595c8784a998ba83905610350ea7e8a4b55d",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/transit.png",
+      "bytes": 14445,
+      "sha256": "fd32508aa4b5ee7ad566da42ac63e2ab09e1fac1aff66d998d3078c4d189142a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/water.png",
+      "bytes": 13358,
+      "sha256": "6db2c4499ff62c55a762ef14d6a33f9b162d68eb5abee42d3313ff97b4befa35",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/masks/windows.png",
+      "bytes": 10528,
+      "sha256": "e1bfecbc98b70f792c224d820f80e0a258b45ea9801233133b77f474c30229d3",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/parallel-render.json",
+      "bytes": 9862,
+      "sha256": "ae14b6fca063e7a70bc4b3d87220b3d41b772e0c1cfa08daf49a345ccfd2b061",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/prepare_scene.py",
+      "bytes": 4805,
+      "sha256": "cc31e463555ab6536ca2ce5be336ac5cc5f0a2fdd61e46414bb5093e3e82f5f6",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/preview-validation.json",
+      "bytes": 4933,
+      "sha256": "4256d2a93f3dbc3bab3cfa77534ed78086c348198af025a3e0fdc3387f667108",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/previous-direction.json",
+      "bytes": 1480,
+      "sha256": "f44a9d5c9efcd3fe58ca33b65a25c3c15322d8faccc9d08fe856d9501772de1d",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/previous-tracker-section.json",
+      "bytes": 1354,
+      "sha256": "cba74a49a003f243b5a78089d12a15f09e3d31f86a6c1d62790b8265cc6c2f2b",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/README.md",
+      "bytes": 3048,
+      "sha256": "e5f4e69efe1470da72ea8ed46d02f1f6a1474df16ad67f20244491a08cc1114c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/record_verified.py",
+      "bytes": 10336,
+      "sha256": "9fe33d5ad6ff99c8fe316a206e5822ce3ac7a87b69ac9e746490210c9089bc59",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/render_parallel.py",
+      "bytes": 1280,
+      "sha256": "780ea5e3571c7015faf19af57d3d1e6db9fa070f627e14fd674cf71668a84657",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/render_spirewatch.py",
+      "bytes": 15220,
+      "sha256": "a65f1a0eeb13561e3766e4888f3cea406360d418e425e464bfa47b3e82704250",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/repeat-validation.json",
+      "bytes": 298,
+      "sha256": "dabcbd4b84d59306f76131cc249200156de4cd870c972d0a3bfc08287185fad0",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/review-00.00.png",
+      "bytes": 2054863,
+      "sha256": "360fa580f17aef49058e9d77b4c18afb54262350910ec82fca3c45122c8455dc",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/review-07.00.png",
+      "bytes": 2068665,
+      "sha256": "71378097c5bf26223b433c3e911976fd17c0397edc73088c3886a7b1c463988e",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/review-12.00.png",
+      "bytes": 2071281,
+      "sha256": "122eab1cb827b790e8b18f15ddc6f4c8861eabbb935b7e0a4f9128d73290d4a5",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/review-18.00.png",
+      "bytes": 2069202,
+      "sha256": "44396410bf16d64d57e63cfcd92181f5a256d58ba6ddc1a87067ada9dc3ba228",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/review-24.00.png",
+      "bytes": 2054690,
+      "sha256": "d9c41390168cf2b027d0b7a2c1ea011731c7fb77165ac4728bbf877e4f781914",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/review-28.60.png",
+      "bytes": 2059820,
+      "sha256": "74128d746bf677822841203deb48ac08743747fe2062fde1b03852c2ea9f0e9c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/review-32.20.png",
+      "bytes": 2056499,
+      "sha256": "d2214ce1752255e8380c8f65482a0504d4862a0bff395ba2b8edf5caaac8430c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/review-40.00.png",
+      "bytes": 2070785,
+      "sha256": "b90da37263d4899f2239ff36c9ad5fe6f262334e11ca25cf09c964446bcc7b04",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/review-47.00.png",
+      "bytes": 2068913,
+      "sha256": "4d6262badd2ebb92572ad902270897fc4091ffc904666d91d69426141c8418ba",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/review-54.60.png",
+      "bytes": 2057115,
+      "sha256": "42f3eaab356dd4fe08958ebc36238796421d8797cff73313a42767ce49613fa7",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/review-59.97.png",
+      "bytes": 2054501,
+      "sha256": "0ea6a8bc5065d2f1bfcacc91b732668291789ce3b8ea164a5436bab4f231d89f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/scene-plan-v5.json",
+      "bytes": 16194,
+      "sha256": "d43cad6139e37db83ed7e15d51c9047431dc6ff9dc7549f5cf3b83f36bd7c3f4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/screen-temporal.png",
+      "bytes": 86581,
+      "sha256": "6bd6fdc180ab0d2954e575b1c896ffad3c57b2345d6e58071001c7de7917b2e1",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/short-tests.json",
+      "bytes": 3478,
+      "sha256": "136b77c6c1345404ec6f846ea33b2adc7426643281a908f0c1254b01e3207e19",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/source-comparison.json",
+      "bytes": 1929,
+      "sha256": "b63d2258ee7d475aa8cb799b505d767a04e603403a21f84cebf6a437aebd7f37",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/spirewatch-v5-preview-60s-decoded-0000.png",
+      "bytes": 1170241,
+      "sha256": "2afef1b0e0fd2f70c6c292f5aad76c490685daf08630e1e36d5a8d4396653e63",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/spirewatch-v5-preview-60s-decoded-0240.png",
+      "bytes": 1179701,
+      "sha256": "59bd8535598a4b5f2a96ce6e96830e32329d56d8f564353ca076ef007e78a37b",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/spirewatch-v5-preview-60s-decoded-0600.png",
+      "bytes": 1176906,
+      "sha256": "b21daaa7e6fdb44ffa9bf1a6a7fb45a72fb9db563daa298f0548dcc06108591f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/spirewatch-v5-preview-60s-decoded-1200.png",
+      "bytes": 1181130,
+      "sha256": "fa466e4373e3f590246cfb230d0505f8b8e2f44c3d3cd681f8180e50a6255b37",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/tower-temporal.png",
+      "bytes": 224412,
+      "sha256": "a18a93b907ddf7fcd51adb60ce8ec8d541b70d301ed1e6ab2a70b19c4d5bc7e3",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/tower-v5-test-8s-decoded-0000.png",
+      "bytes": 1183007,
+      "sha256": "43c72ad9974cd436bb6e85277deaf8740a439286a4ee86f966cf0660121a386b",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/transit-v5-test-8s-decoded-0000.png",
+      "bytes": 1182648,
+      "sha256": "2d346e18091008d75bbb2a7c6eabcc0a817c68fe627b2d541b2a8d257ed80741",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/user-feedback-motion-2026-10-21.json",
+      "bytes": 329,
+      "sha256": "732db69d2378b43dfac03c1643b1f5d17480aeefc4f173aa2e9ec6aafeb7c998",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/validation_legacy.py",
+      "bytes": 16620,
+      "sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v5/visual-review.json",
+      "bytes": 1531,
+      "sha256": "f75e7571c3dd697795b42dcb09f0ea20ca6c184046b3a3472536d26aabf5eff6",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/analytic-validation.json",
+      "bytes": 5433,
+      "sha256": "98d318516d643b67e1be03255f4dfd45da02d3f204a69ba3494aa0ff9e714cc4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/artwork-v5.png",
+      "bytes": 2108631,
+      "sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/bridge-source-crop.png",
+      "bytes": 405398,
+      "sha256": "79f4695ab3a884543be117894de42e97814a0e3e1b6538607c3c62cd75155238",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/bridge-temporal.png",
+      "bytes": 553237,
+      "sha256": "94b48c2082b38cc2f10fcfb7a9a66b0a78ef5d441bc8e4ac0c006c7038e6ad23",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/build_v6.py",
+      "bytes": 2202,
+      "sha256": "63553775f2181a566939c0fa4b525223e9836b8d145ba0cd8976072a86b0cc8b",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/check_chunk_joins.py",
+      "bytes": 1314,
+      "sha256": "764df9128e5db9a34c0e7be2a29cd6a0b6ce527533f49602284373201296a935",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/check_v6.py",
+      "bytes": 1912,
+      "sha256": "10650a02812706874307aa67a0a24699f5be85e5ce243e8c0cc45f31a370b1ca",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/chunk-join-validation.json",
+      "bytes": 2945,
+      "sha256": "a051a7fae04cd9176e5c5daede369575ba299966fbe6864d28a9b4df9babe6fc",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/combined-encoded-4s.png",
+      "bytes": 1178347,
+      "sha256": "b26690c9653ebb47f7712f1b17b8f9db00d84ad093366d262ef852c84e6c75e0",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/combined-v6-test-8s-decoded-0000.png",
+      "bytes": 1165069,
+      "sha256": "86c1d9cf92615f11855848b1a922cbb6cf718430fa114ac71902a5c59033390c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/delivery-v6.json",
+      "bytes": 2888,
+      "sha256": "e90dea773f7b546ca661418890ca4c23ffe461c6d02e660de8d196c6a7ac4441",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/dependencies/ambient_effects.py",
+      "bytes": 1640,
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/dependencies/render_floodplain.py",
+      "bytes": 12017,
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/dependencies/water_surface.py",
+      "bytes": 3156,
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/falls-source-crop.png",
+      "bytes": 170800,
+      "sha256": "ab1ea5bd8b6e65fd941b9501fddd9fc4e93065880e168c47afab65863b00163f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/falls-temporal.png",
+      "bytes": 87921,
+      "sha256": "6e7c89a4af13dfc63fffe782e633d388036b65fee9b3d53e8d1757c6024359ee",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/falls-v6-test-8s-decoded-0000.png",
+      "bytes": 1182978,
+      "sha256": "f345ed752f039058c0aca9ac958d845205f133e202fa04325d50e6b6096ad7e6",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/feedback-and-plan.json",
+      "bytes": 329,
+      "sha256": "732db69d2378b43dfac03c1643b1f5d17480aeefc4f173aa2e9ec6aafeb7c998",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/analytic-validation.json",
+      "bytes": 5434,
+      "sha256": "92a953e95541d9d78d0d0246befb6b83c02dede75dfc092820fdab05c575dc58",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/combined-v6-test-8s-decoded-0000.png",
+      "bytes": 1165069,
+      "sha256": "86c1d9cf92615f11855848b1a922cbb6cf718430fa114ac71902a5c59033390c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/falls-v6-test-8s-decoded-0000.png",
+      "bytes": 1182978,
+      "sha256": "f345ed752f039058c0aca9ac958d845205f133e202fa04325d50e6b6096ad7e6",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/review-00.png",
+      "bytes": 2047676,
+      "sha256": "8326189bf2a6010eb98b699e15880fbdae5010666ebd512eafc0289ee16d8de4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/review-04.png",
+      "bytes": 2059882,
+      "sha256": "bc8df0a301b31d1c211c2a397e0aaa5b0e9c802f799dd8ee0d4c3f704936c409",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/review-08.png",
+      "bytes": 2064706,
+      "sha256": "9657d28ddff6ec4061de495de6db91febeb29a2b8fe846757b272c5d11a8e17c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/review-12.png",
+      "bytes": 2065313,
+      "sha256": "c6be8f67790246c81bd933f2d4d287d3dd5a84e25713607ddfe1fc1cb2ceeed4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/review-24.png",
+      "bytes": 2049257,
+      "sha256": "4e62133acbbdaf7b0b0697494ef219b82ad62518ed4c7b8db86438c43b24c193",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/review-40.png",
+      "bytes": 2065925,
+      "sha256": "bb1bbfb1bce6c37f3acd66f9045889b3e61d913d13a9f6909603171ecc90eaf2",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/review-48.png",
+      "bytes": 2064277,
+      "sha256": "dd8f5ceaff467c0d121e5d6814ab8c753955dc3a6da001aee7820be2959a0f52",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/short-tests.json",
+      "bytes": 3477,
+      "sha256": "0532ef708d19ffaf2ee7a7b018462bdfc83a645bf3fa053576998db571cd8d84",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/tower-v6-test-8s-decoded-0000.png",
+      "bytes": 1180079,
+      "sha256": "8b0adc0133029023303d514270cc962ff9bb4b3173835c0f84f656f8014c0871",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/transit-v6-test-8s-decoded-0000.png",
+      "bytes": 1178926,
+      "sha256": "26ef96ecf7445ff84b09ba86dadd0e91924ec25283518e877632bfa6c5d68094",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/mapped-window-apertures.json",
+      "bytes": 20998,
+      "sha256": "a19e3bc3faf417d17d527c4eb8d194c0fe5d0b2f8cc722d5ec544ebdc31580bf",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/clouds.png",
+      "bytes": 17055,
+      "sha256": "ef14f59f4cc84ef76e60ae79dd440de3cf9d42cd90c5b0d3b629c325c7c8f50a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/districts.png",
+      "bytes": 16171,
+      "sha256": "bc3924470b4442a126355cf7ed4f09c529f6879aad07e6d618d8c694af7dd5b1",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/falls.png",
+      "bytes": 5112,
+      "sha256": "b1bdea6fff95b9426d8b41046b8bfc015ac5cf60c8534679e6f10aa877a97909",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/lamp.png",
+      "bytes": 10427,
+      "sha256": "f30b40fbc7e10a9dcf63389f4499e7150059c9c515b7e142f7cb0f294553a041",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/lightning.png",
+      "bytes": 123921,
+      "sha256": "3ad8e5cb292a4f38f9c3828237db58a6d6b0a2b333b58906c50005e1b2854857",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/reflections.png",
+      "bytes": 13358,
+      "sha256": "6db2c4499ff62c55a762ef14d6a33f9b162d68eb5abee42d3313ff97b4befa35",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/screen.png",
+      "bytes": 4105,
+      "sha256": "fbf5d8e925103706514c3bd60fb745e53006c2ad53d7b6ef81b7c6f984a00a98",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/screen_spill.png",
+      "bytes": 4862,
+      "sha256": "6c01348e2b208e5e7ba7d1e5a9f33ff7bfbe09e5a3623dfdb189d2119b209817",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/storm_response.png",
+      "bytes": 20750,
+      "sha256": "e3167ed7c7f86be5a7426d49e96c2d601d89a606e081d7260a6bda9a5809e1ac",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/tower.png",
+      "bytes": 16798,
+      "sha256": "af077d7417aa88b897712295140daec15052baad37084a95d3308fb05ea05c1c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/tower_glow.png",
+      "bytes": 20038,
+      "sha256": "60c0572f207d1756244ec50cd8872a0b8aba6798945b5eeba3ae66767910c1c8",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/transit.png",
+      "bytes": 23372,
+      "sha256": "05f475a0a58610bd79058e3717f620de6ac14775031dbde65852a732b72cb867",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/water.png",
+      "bytes": 13358,
+      "sha256": "6db2c4499ff62c55a762ef14d6a33f9b162d68eb5abee42d3313ff97b4befa35",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/masks/windows.png",
+      "bytes": 17637,
+      "sha256": "48ed8d93a7c1b5183cb897c13d955cdd778fd63f6746e7de78f4f9b02fc4a36f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/parallel-render.json",
+      "bytes": 9862,
+      "sha256": "23abde47285b4e5520dcbbed18c643e17252733d82b0d45dcbb14873d8ed50f7",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/preview-validation.json",
+      "bytes": 4970,
+      "sha256": "a8a10f2afeaf1f54002e8c50b4cc1f0832d7a2031783cf7a40a1f333d05a378a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/previous-direction.json",
+      "bytes": 1480,
+      "sha256": "e446dfd7c36e0cfc5d9a5ae6ffff7672fd0b628f62b013e5ee6a8977ba5fce5f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/previous-tracker-section.json",
+      "bytes": 872,
+      "sha256": "193378b5905b249c253f1ac6ef0d086a80a03c7ba5eda6c69e991be2f6498a0a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/previous-v5-review.json",
+      "bytes": 1155,
+      "sha256": "e4bde04d654363920cfa2a2a2de2ea73d9d1fb1cf58de094d3deb977cfef3205",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/README.md",
+      "bytes": 2846,
+      "sha256": "8ffb39071efd58c6424ce7acd36893090cba0b8963989da1fdc1c65b08a039eb",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/record_delivery.py",
+      "bytes": 8863,
+      "sha256": "1bc00eff6e63560e140aee2eb7da23b02a84410a6bc3f795e97328a607816f0b",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/render_parallel.py",
+      "bytes": 1297,
+      "sha256": "dcfefe3b103040e601f2b40d25ed4405550abd8edcab6be3a1feef072b69b404",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/render_spirewatch.py",
+      "bytes": 17919,
+      "sha256": "4d0e9f3828ccc92ffeebdd6fce5a34a505ecc76224975671faba0eb89236b295",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/repeat-validation.json",
+      "bytes": 298,
+      "sha256": "127922a510b10c829d71abe7d55b23d792c62c29a22442a0019544b5cdc1a4c7",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/review-00.00.png",
+      "bytes": 2046372,
+      "sha256": "f4b39bf511cb0db714fcf38c2cf5751ed90104d2b9f91fb8e4ce9ecd79bb3899",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/review-04.00.png",
+      "bytes": 2058252,
+      "sha256": "85d2c47048cde937e6b08015bf860218e2ab3a10e14cd62b3e7b26fbcba297c2",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/review-08-corrected.png",
+      "bytes": 2061700,
+      "sha256": "0f17b71b85eb7bb6aa97aa6f6c2dff0cccbcd8c391b1ad84ebb252026e8aa81c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/review-08.00.png",
+      "bytes": 2061946,
+      "sha256": "5f5025bc6609021357f0a88dcf649bc48315f2c53db3a22a172dd82d0720956d",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/review-12.00.png",
+      "bytes": 2062928,
+      "sha256": "87a5ecdfae3e0350c17bdd764ad90a14c3cd352684c5e41bab3d8491a51cceec",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/review-24.00.png",
+      "bytes": 2047194,
+      "sha256": "ac805fadd97ae40f6b5f80556f4e82bacc2fdd2cdec806edbdc0314c8a254304",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/review-28.60.png",
+      "bytes": 2053063,
+      "sha256": "c9ec422c010faa55e5b9ca205f32b2d64292a5290e6435a059a5ff0017490b96",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/review-32.20.png",
+      "bytes": 2052101,
+      "sha256": "9fa2c9db9c8247c007b2a68edbdec4ca6dad77e420493e13be26257d2f0c29b0",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/review-40.00.png",
+      "bytes": 2063416,
+      "sha256": "4a79bcdc3594b682cfa98e5146689bc1b4237fde4625d383745c24be41a61fc7",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/review-48.00.png",
+      "bytes": 2062702,
+      "sha256": "d1af803e73a51a5c3a2daf11a8c5fbf8acb7f33bec0940596f1caff8c47bc80e",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/review-54.60.png",
+      "bytes": 2047332,
+      "sha256": "3ecfb3c14eb6dc08dab23314a7c0ffdb678fbd20caccf3a3725de68e59b04b15",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/review-59.97.png",
+      "bytes": 2045916,
+      "sha256": "c37228ac6e0c23976a31b59d0b26bccd33cf64ce25948959634f31ecb22be4de",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/scene-plan-v6.json",
+      "bytes": 19122,
+      "sha256": "5a216df17702f65e77ec9e50b9a0bae5a8691ccceaea80d8f08ed8b3821e9619",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/short-tests.json",
+      "bytes": 3477,
+      "sha256": "5b6a52a5509b8563e899c99d5744311ff78b70e54bf1cf2d0e2c5d926a69b152",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/short_tests.py",
+      "bytes": 599,
+      "sha256": "326c9f0c426e4a2f675b7167f8a8cdc626ec71e495998c1c604a7a7269908086",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/spirewatch-v6-preview-60s-decoded-0000.png",
+      "bytes": 1165069,
+      "sha256": "86c1d9cf92615f11855848b1a922cbb6cf718430fa114ac71902a5c59033390c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/spirewatch-v6-preview-60s-decoded-0240.png",
+      "bytes": 1175071,
+      "sha256": "5455c915c4b8da5d5f7a2f0ebb83f0aa57bdad93a995c0ea75ff76d8effe5129",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/spirewatch-v6-preview-60s-decoded-0600.png",
+      "bytes": 1171680,
+      "sha256": "0d0dc29ab4df7bd877c6a1130d8191f2bf6886cf3d256aea9c0028028931c3fe",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/spirewatch-v6-preview-60s-decoded-1200.png",
+      "bytes": 1176683,
+      "sha256": "5a386d64f9e96a18b64d5de6bcc4d7d79663eb78b3ee40040a67bbf4c551b578",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/tower-glitch-diagnosis.png",
+      "bytes": 115339,
+      "sha256": "a0dd883b4eb1c4ac69ad30fb7b24a20e5ed59b0df404a3722ab4bbafa0af75cd",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/tower-temporal.png",
+      "bytes": 293383,
+      "sha256": "59561e627a95a5c317d646af51d6b78a80651da1e68a7ab211ba71445907ca0a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/tower-v6-test-8s-decoded-0000.png",
+      "bytes": 1180079,
+      "sha256": "8b0adc0133029023303d514270cc962ff9bb4b3173835c0f84f656f8014c0871",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/transit-v6-test-8s-decoded-0000.png",
+      "bytes": 1178926,
+      "sha256": "26ef96ecf7445ff84b09ba86dadd0e91924ec25283518e877632bfa6c5d68094",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/user-feedback-tower-weather-2026-10-21.json",
+      "bytes": 492,
+      "sha256": "bf3de605705a252437e4432a8145e669b1ba102e17f72f1fbfef78d1028131e2",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v6/validation_legacy.py",
+      "bytes": 16620,
+      "sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/analytic-validation.json",
+      "bytes": 6289,
+      "sha256": "671197b338a37802cfef2375d6aff75f667ad4d71e94f8e39bf9369ca8164fd8",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/artwork-v5.png",
+      "bytes": 2108631,
+      "sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/candidate-storm-config.json",
+      "bytes": 28845,
+      "sha256": "618b22993bb4aa249725d4c42f8464696d0230976ca93ad7e6c233d4c9c5710c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/candidate_storm.py",
+      "bytes": 21361,
+      "sha256": "4cf8ab676690a4917eca14e2bf27a1fd0d7dc854016c2c1df7b1b2b66c313142",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/check_chunk_joins.py",
+      "bytes": 1314,
+      "sha256": "3f1ae5a112d8bd26ef0b7e82ef028e3e067ea932e641b7bc043e35d96a8d8948",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/check_v7.py",
+      "bytes": 2105,
+      "sha256": "6571233f6f2af678343d4901d25ac430ed5b417dc479c31cb86d160f57a1fa05",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/chunk-join-validation.json",
+      "bytes": 3028,
+      "sha256": "7a95b7ca48758adfbcae49ca122ab71c2f2cc430fa292f16e6e66b67ff267130",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/combined-v7-test-8s-decoded-0000.png",
+      "bytes": 1178812,
+      "sha256": "3e9c2ab3f335b42927e88966ec6dc4ff21c772c7307a4c3ab3acc98efaec1558",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/corrected-sky-18.4.png",
+      "bytes": 2084432,
+      "sha256": "9d1645ea87ef1caf66c63f9eb7999ef0e2bb39423968be4a7f17d09f4c6624f2",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/corrected-sky-30.6.png",
+      "bytes": 2059013,
+      "sha256": "c447b23519432c43e75bc56eb0dc9eccabdae0ad97dfe1d687bc864514822221",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/corrected-sky-43.2.png",
+      "bytes": 2092763,
+      "sha256": "0c85be86a11cecc82ecbe9cbe180d964b7f0558b50a367015f5c4eb2195c1738",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/corrected-sky-55.png",
+      "bytes": 2052312,
+      "sha256": "755726ee46d08f066a81db987ea0f5d0839b187ed4c0258e9133bf4376642aa1",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/corrected-sky-6.6.png",
+      "bytes": 2077752,
+      "sha256": "a4b9d6cd03d42a6cebdfae4d77ce24fd0a46cb09bf952fe0672e09ac9e9461fd",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/delivery-v7.json",
+      "bytes": 2893,
+      "sha256": "73476a59d0eb6c8dc4a5cf76a609d16fcf6d96b5d34ef70b363819da683f5077",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/dependencies/ambient_effects.py",
+      "bytes": 1640,
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/dependencies/render_floodplain.py",
+      "bytes": 12017,
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/dependencies/water_surface.py",
+      "bytes": 3156,
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/feedback-and-plan.json",
+      "bytes": 492,
+      "sha256": "bf3de605705a252437e4432a8145e669b1ba102e17f72f1fbfef78d1028131e2",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/final-flash-6.6s.png",
+      "bytes": 1189237,
+      "sha256": "3ddb852d5c6250acbb3364f68dcf0c4612f1c9508728a9b5b45afada587ff9a7",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/analytic-validation.json",
+      "bytes": 6289,
+      "sha256": "6ee53911749a4aecaf9887d2065151a9e0990511bdab1e2f91a1634ec760fd31",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/check_v7.py",
+      "bytes": 2105,
+      "sha256": "6571233f6f2af678343d4901d25ac430ed5b417dc479c31cb86d160f57a1fa05",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/chunk-join-validation.json",
+      "bytes": 3028,
+      "sha256": "d2c581f918456d26a91e1243953612ac5f7b62545af9b873152eff2adeb3e2d2",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/combined-v7-test-8s-decoded-0000.png",
+      "bytes": 1178812,
+      "sha256": "3e9c2ab3f335b42927e88966ec6dc4ff21c772c7307a4c3ab3acc98efaec1558",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/lightning-v7-test-8s-decoded-0000.png",
+      "bytes": 1182652,
+      "sha256": "b38604814926bb8b4b6a90cc086cad893d1b32b626e344eeb98896c18de90ceb",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/mapped-window-apertures.json",
+      "bytes": 20998,
+      "sha256": "a19e3bc3faf417d17d527c4eb8d194c0fe5d0b2f8cc722d5ec544ebdc31580bf",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/clouds.png",
+      "bytes": 17055,
+      "sha256": "ef14f59f4cc84ef76e60ae79dd440de3cf9d42cd90c5b0d3b629c325c7c8f50a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/districts.png",
+      "bytes": 16171,
+      "sha256": "bc3924470b4442a126355cf7ed4f09c529f6879aad07e6d618d8c694af7dd5b1",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/falls.png",
+      "bytes": 5112,
+      "sha256": "b1bdea6fff95b9426d8b41046b8bfc015ac5cf60c8534679e6f10aa877a97909",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/lamp.png",
+      "bytes": 10427,
+      "sha256": "f30b40fbc7e10a9dcf63389f4499e7150059c9c515b7e142f7cb0f294553a041",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/lightning.png",
+      "bytes": 163763,
+      "sha256": "78f726f2270961ea475d9a713b5174ee8da6c3befb15144ab0b19a23f4c43d34",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/rain.png",
+      "bytes": 8942,
+      "sha256": "78c129e1575ede3f25f3c61a867472f05abe15c947e7e111894c4798599d4416",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/reflections.png",
+      "bytes": 13358,
+      "sha256": "6db2c4499ff62c55a762ef14d6a33f9b162d68eb5abee42d3313ff97b4befa35",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/screen.png",
+      "bytes": 4105,
+      "sha256": "fbf5d8e925103706514c3bd60fb745e53006c2ad53d7b6ef81b7c6f984a00a98",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/screen_spill.png",
+      "bytes": 4862,
+      "sha256": "6c01348e2b208e5e7ba7d1e5a9f33ff7bfbe09e5a3623dfdb189d2119b209817",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/storm_response.png",
+      "bytes": 19800,
+      "sha256": "0f5821a5d0b0ec6cd1e858646040527acd06ed2ca434ca6fbd92aefc77e30625",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/tower.png",
+      "bytes": 10113,
+      "sha256": "7888e4dcacb4a8fe3cbbf878097d3d6910b6983d2bde528139cf89000f78ca42",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/tower_glow.png",
+      "bytes": 17567,
+      "sha256": "f6712e75ab9100e4bec622354c128aef2cc85cd6cdfa1277eb7d50aef09c972c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/transit.png",
+      "bytes": 23372,
+      "sha256": "05f475a0a58610bd79058e3717f620de6ac14775031dbde65852a732b72cb867",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/water.png",
+      "bytes": 13358,
+      "sha256": "6db2c4499ff62c55a762ef14d6a33f9b162d68eb5abee42d3313ff97b4befa35",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/masks/windows.png",
+      "bytes": 17637,
+      "sha256": "48ed8d93a7c1b5183cb897c13d955cdd778fd63f6746e7de78f4f9b02fc4a36f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/parallel-render.json",
+      "bytes": 10210,
+      "sha256": "1cd0b3bb53cfcfebacc41b7e93071b477e895822104c95bb8b4904c0cf5f382e",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/preview-validation.json",
+      "bytes": 5215,
+      "sha256": "5b9d6910a56231ac1edea5e0eb9ac94362ba5279064ec5a9344d3641a520c59a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/rain-v7-test-8s-decoded-0000.png",
+      "bytes": 1183889,
+      "sha256": "1fa7301d5c8ef87cd320b860773fa657f0787b9e3a89b7002544631da376ea73",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/render_spirewatch.py",
+      "bytes": 21346,
+      "sha256": "d7e2820e5bd3230243c68b2082cdc64fcbf2c293166e0ca5946a480f99c86623",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/repeat-validation.json",
+      "bytes": 298,
+      "sha256": "d1fbaabb8ffe5c864cf3d434ca5cdb80ceac73c151cfc0971570afb70120e016",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-00.00.png",
+      "bytes": 2048910,
+      "sha256": "57e2fffd047445c7336d0e037a7705145c9c8c12483ef9e0a8b1b69aa1fbc9c7",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-04.00.png",
+      "bytes": 2057284,
+      "sha256": "499abf8a11b36d5bba7b7570529bd699946b5c1457fe65bb02b93a5be7e878da",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-06.60.png",
+      "bytes": 2077269,
+      "sha256": "7b5c7670a3f9e6990ae6055d2a0672975419f0ca562b9163c4adae49823d75b5",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-08.00.png",
+      "bytes": 2063417,
+      "sha256": "96190b5719569f042277d7de076559dc7bf429f998aad3079e02f0c7ca7d9f70",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-12.00.png",
+      "bytes": 2067430,
+      "sha256": "d56ceb84dd265e82ce86c88307125487ca23596438df7f50070e15d9238a7347",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-16.00.png",
+      "bytes": 2072043,
+      "sha256": "dcd9c4ae745a77b22ee47f6ff8cb67c8d17d522fd4867fac8ba096bd0116f1ee",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-18.40.png",
+      "bytes": 2084857,
+      "sha256": "cbf8636ecc4d361954c7a34432723820e1d8e28bf2e7dd5bbf36c7b9a6e6760e",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-24.00.png",
+      "bytes": 2053136,
+      "sha256": "3b154505d46ac2ce46e85f2ced8b8767a47bd51a8bb4d669f0c96e65f98c5d43",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-28.60.png",
+      "bytes": 2047676,
+      "sha256": "8f8a0182c7bd1d92654cea1e10ce92f69f3dcdde92aed231334e287d8b798a38",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-30.60.png",
+      "bytes": 2060023,
+      "sha256": "93d76278ada25eeecbd480ccdec8f7e1a107755a2603e9e441aa598e4ce2004e",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-32.20.png",
+      "bytes": 2051694,
+      "sha256": "cf149a865c4f90e44e43d9e5a704f7af565090edbad483c79fb8666b40e8dd2f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-40.00.png",
+      "bytes": 2071034,
+      "sha256": "7012cb4337fd1d2b240dd67232cd3398ae213e205ff327c80470912b06ce4f20",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-43.20.png",
+      "bytes": 2091800,
+      "sha256": "7874e450c72cbd0589a647966722586c26d7042e6c6ee54355b2943c57589b16",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-46.00.png",
+      "bytes": 2072394,
+      "sha256": "78f8c80b6501169e018d1eb14b430b46bf01b07738acd8f2ce4bf7011c444c8c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-48.00.png",
+      "bytes": 2071358,
+      "sha256": "af6fed9ee1f84bbb7bb32c90379e059ef6ec66474780e153d7e1e67568ac11eb",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-54.60.png",
+      "bytes": 2047351,
+      "sha256": "75363140ffe0a3f7e13c6a9bd0830c558fcc8be423a5b00bb0502ccf67f85ffc",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-55.00.png",
+      "bytes": 2052657,
+      "sha256": "ea6db44df9f8afb5e434446f3f2717b04d60be4771a130bc5cf8192e7134a28d",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/review-59.97.png",
+      "bytes": 2048539,
+      "sha256": "f9d5db502cfbfd78027b3ef86734389dcfb498cd6c7e56d1a6e2a865894c1535",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/scene-plan-v7.json",
+      "bytes": 23734,
+      "sha256": "8cc6743d0228307218aaf91fc9cd611cc9c159fc5b4685e5ba1b173fabd3626f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/short-tests.json",
+      "bytes": 3695,
+      "sha256": "24720103a6bbaa52412b5b54a249011754b23609ce1e8b9ca9c2687af2863d31",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/short_tests.py",
+      "bytes": 758,
+      "sha256": "5d7a91b494b4deda50895928fee718957be0cb4dd87ba901a67271bea80e31ef",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/spirewatch-v7-preview-60s-decoded-0000.png",
+      "bytes": 1167017,
+      "sha256": "a074a08baef6333321e93cef3e007aefa3e611f210250a7c21587a132791d3de",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/spirewatch-v7-preview-60s-decoded-0240.png",
+      "bytes": 1176123,
+      "sha256": "0667afcf4a71109eb8279340e4c9c4a2f248196709258c3530e6bde4e68720ad",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/spirewatch-v7-preview-60s-decoded-0600.png",
+      "bytes": 1178224,
+      "sha256": "2d2bb8ea081ac6a24f08152b562a2d4cd96a323b36606f40414bcff3c14836d1",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/spirewatch-v7-preview-60s-decoded-1200.png",
+      "bytes": 1181333,
+      "sha256": "8ff9581a6485c46d17feedcfaacfb2d8e1800c02f17212551aa78c44c7405502",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/tower-v7-test-8s-decoded-0000.png",
+      "bytes": 1181826,
+      "sha256": "8f720a8df613b6f4a2a047ecdbea1e5ec30430aa5dd32673e2eab770c769c90a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/weather-encoded-18.4s.png",
+      "bytes": 1194401,
+      "sha256": "61e491d0e4d08995aff8d89c0cdea7ebee8029e539508700c25594ec5aff1c3e",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/left-silhouette-grid.png",
+      "bytes": 621013,
+      "sha256": "78b3b0471113c9b92413d2f9c2eac49cf511882c242eb9fe83144134e7eaf868",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/lightning-v7-test-8s-decoded-0000.png",
+      "bytes": 1182652,
+      "sha256": "b38604814926bb8b4b6a90cc086cad893d1b32b626e344eeb98896c18de90ceb",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/mapped-window-apertures.json",
+      "bytes": 20998,
+      "sha256": "a19e3bc3faf417d17d527c4eb8d194c0fe5d0b2f8cc722d5ec544ebdc31580bf",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/clouds.png",
+      "bytes": 17055,
+      "sha256": "ef14f59f4cc84ef76e60ae79dd440de3cf9d42cd90c5b0d3b629c325c7c8f50a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/districts.png",
+      "bytes": 16171,
+      "sha256": "bc3924470b4442a126355cf7ed4f09c529f6879aad07e6d618d8c694af7dd5b1",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/falls.png",
+      "bytes": 5112,
+      "sha256": "b1bdea6fff95b9426d8b41046b8bfc015ac5cf60c8534679e6f10aa877a97909",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/lamp.png",
+      "bytes": 10427,
+      "sha256": "f30b40fbc7e10a9dcf63389f4499e7150059c9c515b7e142f7cb0f294553a041",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/lightning.png",
+      "bytes": 168970,
+      "sha256": "cce844565532a593a7ccbc12ecec3235c7f8a3dd986c19e0b333e774f9a36dd4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/rain.png",
+      "bytes": 8942,
+      "sha256": "78c129e1575ede3f25f3c61a867472f05abe15c947e7e111894c4798599d4416",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/reflections.png",
+      "bytes": 13358,
+      "sha256": "6db2c4499ff62c55a762ef14d6a33f9b162d68eb5abee42d3313ff97b4befa35",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/screen.png",
+      "bytes": 4105,
+      "sha256": "fbf5d8e925103706514c3bd60fb745e53006c2ad53d7b6ef81b7c6f984a00a98",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/screen_spill.png",
+      "bytes": 4862,
+      "sha256": "6c01348e2b208e5e7ba7d1e5a9f33ff7bfbe09e5a3623dfdb189d2119b209817",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/storm_response.png",
+      "bytes": 19800,
+      "sha256": "0f5821a5d0b0ec6cd1e858646040527acd06ed2ca434ca6fbd92aefc77e30625",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/tower.png",
+      "bytes": 10113,
+      "sha256": "7888e4dcacb4a8fe3cbbf878097d3d6910b6983d2bde528139cf89000f78ca42",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/tower_glow.png",
+      "bytes": 17567,
+      "sha256": "f6712e75ab9100e4bec622354c128aef2cc85cd6cdfa1277eb7d50aef09c972c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/transit.png",
+      "bytes": 23372,
+      "sha256": "05f475a0a58610bd79058e3717f620de6ac14775031dbde65852a732b72cb867",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/water.png",
+      "bytes": 13358,
+      "sha256": "6db2c4499ff62c55a762ef14d6a33f9b162d68eb5abee42d3313ff97b4befa35",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/masks/windows.png",
+      "bytes": 17637,
+      "sha256": "48ed8d93a7c1b5183cb897c13d955cdd778fd63f6746e7de78f4f9b02fc4a36f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/parallel-render.json",
+      "bytes": 10210,
+      "sha256": "4d072b4cbba8620772041b7583b07b92ea75aa4eab39b8eb7a4c8c425be05f02",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/preview-validation.json",
+      "bytes": 5216,
+      "sha256": "5af8b15c65721e7e44e4cf77f42b50d84898112c38346fe7dedf7335f1372db4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/previous-direction.json",
+      "bytes": 1468,
+      "sha256": "3f69814b1c0925b07fede12210f848d31f3c07bb721ae8d2ca3672085eef54e7",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/previous-tracker-section.json",
+      "bytes": 863,
+      "sha256": "44c40a9afefae4cea1089bd7bca7b5ca10b964b1c35e325dcd6d95fbefcc6325",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/rain-v7-test-8s-decoded-0000.png",
+      "bytes": 1183889,
+      "sha256": "1fa7301d5c8ef87cd320b860773fa657f0787b9e3a89b7002544631da376ea73",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/README.md",
+      "bytes": 3079,
+      "sha256": "f5f2e86385b391f302e00419a4f06d840ce5f45f4cc4872bd4e1459c1fd65785",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/record_delivery.py",
+      "bytes": 8434,
+      "sha256": "5292c916c75035060f5038d508627a5faa9fb405203cafa84c5875b82265b3f3",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/render_parallel.py",
+      "bytes": 1297,
+      "sha256": "10093cd10d09a8c85bb55bb11b9e21fece3b5d64cb5bcb997eb8a2bbcbbd156c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/render_spirewatch.py",
+      "bytes": 21352,
+      "sha256": "5d8f8cf29618dc3e0a01159df3d232cbe007cdbd7bef8da34e7f20ff1a078b61",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/repeat-validation.json",
+      "bytes": 298,
+      "sha256": "d33245f1117ea6f91ad0e734b24282dca131ddbf41e528a199fc8d03b7298b70",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/review-00.00.png",
+      "bytes": 2048910,
+      "sha256": "57e2fffd047445c7336d0e037a7705145c9c8c12483ef9e0a8b1b69aa1fbc9c7",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/review-04.00.png",
+      "bytes": 2057284,
+      "sha256": "499abf8a11b36d5bba7b7570529bd699946b5c1457fe65bb02b93a5be7e878da",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/review-08.00.png",
+      "bytes": 2063417,
+      "sha256": "96190b5719569f042277d7de076559dc7bf429f998aad3079e02f0c7ca7d9f70",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/review-12.00.png",
+      "bytes": 2067430,
+      "sha256": "d56ceb84dd265e82ce86c88307125487ca23596438df7f50070e15d9238a7347",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/review-24.00.png",
+      "bytes": 2053136,
+      "sha256": "3b154505d46ac2ce46e85f2ced8b8767a47bd51a8bb4d669f0c96e65f98c5d43",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/review-28.60.png",
+      "bytes": 2047676,
+      "sha256": "8f8a0182c7bd1d92654cea1e10ce92f69f3dcdde92aed231334e287d8b798a38",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/review-32.20.png",
+      "bytes": 2051694,
+      "sha256": "cf149a865c4f90e44e43d9e5a704f7af565090edbad483c79fb8666b40e8dd2f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/review-40.00.png",
+      "bytes": 2071034,
+      "sha256": "7012cb4337fd1d2b240dd67232cd3398ae213e205ff327c80470912b06ce4f20",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/review-48.00.png",
+      "bytes": 2071358,
+      "sha256": "af6fed9ee1f84bbb7bb32c90379e059ef6ec66474780e153d7e1e67568ac11eb",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/review-54.60.png",
+      "bytes": 2047351,
+      "sha256": "75363140ffe0a3f7e13c6a9bd0830c558fcc8be423a5b00bb0502ccf67f85ffc",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/review-59.97.png",
+      "bytes": 2048539,
+      "sha256": "f9d5db502cfbfd78027b3ef86734389dcfb498cd6c7e56d1a6e2a865894c1535",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/scene-plan-v7.json",
+      "bytes": 28845,
+      "sha256": "618b22993bb4aa249725d4c42f8464696d0230976ca93ad7e6c233d4c9c5710c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/short-tests.json",
+      "bytes": 3695,
+      "sha256": "ac2f42a252d86a4649abc110eb79302fafd16b2a8e955c9228d6eae2ac6e3add",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/short_tests.py",
+      "bytes": 758,
+      "sha256": "5d7a91b494b4deda50895928fee718957be0cb4dd87ba901a67271bea80e31ef",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/spirewatch-v7-preview-60s-decoded-0000.png",
+      "bytes": 1167017,
+      "sha256": "a074a08baef6333321e93cef3e007aefa3e611f210250a7c21587a132791d3de",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/spirewatch-v7-preview-60s-decoded-0240.png",
+      "bytes": 1176123,
+      "sha256": "0667afcf4a71109eb8279340e4c9c4a2f248196709258c3530e6bde4e68720ad",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/spirewatch-v7-preview-60s-decoded-0600.png",
+      "bytes": 1178224,
+      "sha256": "2d2bb8ea081ac6a24f08152b562a2d4cd96a323b36606f40414bcff3c14836d1",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/spirewatch-v7-preview-60s-decoded-1200.png",
+      "bytes": 1181333,
+      "sha256": "8ff9581a6485c46d17feedcfaacfb2d8e1800c02f17212551aa78c44c7405502",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/tower-fix-review.png",
+      "bytes": 62713,
+      "sha256": "15ea9ae7c39e1b3141898d454e4588404d5b8a759a0a8092ea2cd6d9ef92a642",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/tower-v7-test-8s-decoded-0000.png",
+      "bytes": 1181826,
+      "sha256": "8f720a8df613b6f4a2a047ecdbea1e5ec30430aa5dd32673e2eab770c769c90a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v7/validation_legacy.py",
+      "bytes": 16620,
+      "sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/analytic-validation.json",
+      "bytes": 7425,
+      "sha256": "570321895b40b957b0755e045d4e5b361786e4510a98cb4390a01e8f0fb4f81f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/artwork-v5.png",
+      "bytes": 2108631,
+      "sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/beacon-placement.png",
+      "bytes": 29564,
+      "sha256": "834f29c0e64972655a89abf6278fe67bca0f2732b13b526bc99f12b00c3dc3e5",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/beacon-source-grid.png",
+      "bytes": 90233,
+      "sha256": "763eb70517f0394dfb71083dec2a26ce671a9a4e10861b311a5f0a54458f196c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/beacons-v8-test-8s-decoded-0000.png",
+      "bytes": 1182652,
+      "sha256": "b38604814926bb8b4b6a90cc086cad893d1b32b626e344eeb98896c18de90ceb",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/check_chunk_joins.py",
+      "bytes": 1314,
+      "sha256": "40735becb5819fc50e234c71dae0567f97eb0c835785e8de7266355c0c70fd02",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/check_v8.py",
+      "bytes": 2141,
+      "sha256": "b9d062f1be519848b2cbb4bf5a6139a5768a5a227483db29ed0fe7911b6c2279",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/chunk-join-validation.json",
+      "bytes": 3287,
+      "sha256": "0ba46b35d4633da1d09c181e945fa706bb8c3089be8ea71563c34b23ab149a2b",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/combined-encoded-18.4s.png",
+      "bytes": 1196041,
+      "sha256": "2b1c31a15bd19ffc6338e23ed2aac5debe14a2c946c8361f2247fb5bc6c161ed",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/combined-v8-test-8s-decoded-0000.png",
+      "bytes": 1178765,
+      "sha256": "fddc70e8e14677fe1416727c7a5655882a8d7afed9bb242b0545fd504dc48b6e",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/delivery-v8.json",
+      "bytes": 3170,
+      "sha256": "811afb53463b92b3cf8b43c3cda24a5402a12b154cfba98869fc865b85db8114",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/dependencies/ambient_effects.py",
+      "bytes": 1640,
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/dependencies/render_floodplain.py",
+      "bytes": 12017,
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/dependencies/water_surface.py",
+      "bytes": 3156,
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/feedback-and-plan.json",
+      "bytes": 316,
+      "sha256": "59a4a7faa9c84a25dd4f3ec47c1cab8a2cb5b2555d03fb6d88286cf41493d327",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/history/initial-beacon-positions/analytic-validation.json",
+      "bytes": 7425,
+      "sha256": "70f136bad3301f3c66faed769913fe942694a4b653b9ec8d24b199e30a98eaa5",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/history/initial-beacon-positions/beacon-placement.png",
+      "bytes": 26419,
+      "sha256": "0ce2ea5289a0c16ea16532d1990571422325749f8768fc0baab55a949b21b729",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/history/initial-beacon-positions/beacons-v8-test-8s-decoded-0000.png",
+      "bytes": 1182652,
+      "sha256": "b38604814926bb8b4b6a90cc086cad893d1b32b626e344eeb98896c18de90ceb",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/history/initial-beacon-positions/combined-v8-test-8s-decoded-0000.png",
+      "bytes": 1178765,
+      "sha256": "fddc70e8e14677fe1416727c7a5655882a8d7afed9bb242b0545fd504dc48b6e",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/history/initial-beacon-positions/rain_light-v8-test-8s-decoded-0000.png",
+      "bytes": 1182652,
+      "sha256": "b38604814926bb8b4b6a90cc086cad893d1b32b626e344eeb98896c18de90ceb",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/history/initial-beacon-positions/scene-plan-v8.json",
+      "bytes": 32406,
+      "sha256": "7c03db9e8135cb3483080dcae0e25b23d6166bf44d9f2e623b08707b7aa7236a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/history/initial-beacon-positions/short-tests.json",
+      "bytes": 3958,
+      "sha256": "c8280f52ea70d2990c4eda7a776735d8c4a1d21b102b53fe1d1152340d564189",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/history/initial-beacon-positions/spray-v8-test-8s-decoded-0000.png",
+      "bytes": 1182686,
+      "sha256": "fa43d5f710c23e7b3c2376c4a754e5ec58a3a93f5fd15f3e2b4db0b1e3b6803f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/mapped-window-apertures.json",
+      "bytes": 20998,
+      "sha256": "a19e3bc3faf417d17d527c4eb8d194c0fe5d0b2f8cc722d5ec544ebdc31580bf",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/beacons.png",
+      "bytes": 3996,
+      "sha256": "924aa6ce4a918df6e767ee58b4527871e66e0fda0fbb2ee59474dd7de875cd3e",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/clouds.png",
+      "bytes": 17055,
+      "sha256": "ef14f59f4cc84ef76e60ae79dd440de3cf9d42cd90c5b0d3b629c325c7c8f50a",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/districts.png",
+      "bytes": 16171,
+      "sha256": "bc3924470b4442a126355cf7ed4f09c529f6879aad07e6d618d8c694af7dd5b1",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/falls.png",
+      "bytes": 5112,
+      "sha256": "b1bdea6fff95b9426d8b41046b8bfc015ac5cf60c8534679e6f10aa877a97909",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/lamp.png",
+      "bytes": 10427,
+      "sha256": "f30b40fbc7e10a9dcf63389f4499e7150059c9c515b7e142f7cb0f294553a041",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/lightning.png",
+      "bytes": 168970,
+      "sha256": "cce844565532a593a7ccbc12ecec3235c7f8a3dd986c19e0b333e774f9a36dd4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/rain.png",
+      "bytes": 8942,
+      "sha256": "78c129e1575ede3f25f3c61a867472f05abe15c947e7e111894c4798599d4416",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/rain_light.png",
+      "bytes": 8942,
+      "sha256": "78c129e1575ede3f25f3c61a867472f05abe15c947e7e111894c4798599d4416",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/reflections.png",
+      "bytes": 13358,
+      "sha256": "6db2c4499ff62c55a762ef14d6a33f9b162d68eb5abee42d3313ff97b4befa35",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/screen.png",
+      "bytes": 4105,
+      "sha256": "fbf5d8e925103706514c3bd60fb745e53006c2ad53d7b6ef81b7c6f984a00a98",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/screen_spill.png",
+      "bytes": 4862,
+      "sha256": "6c01348e2b208e5e7ba7d1e5a9f33ff7bfbe09e5a3623dfdb189d2119b209817",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/spray.png",
+      "bytes": 4429,
+      "sha256": "a6c9106a5c399a3a75d19d92ab95662ba32978f05b3e32c890705a0f15375354",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/storm_response.png",
+      "bytes": 19800,
+      "sha256": "0f5821a5d0b0ec6cd1e858646040527acd06ed2ca434ca6fbd92aefc77e30625",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/tower.png",
+      "bytes": 10113,
+      "sha256": "7888e4dcacb4a8fe3cbbf878097d3d6910b6983d2bde528139cf89000f78ca42",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/tower_glow.png",
+      "bytes": 17567,
+      "sha256": "f6712e75ab9100e4bec622354c128aef2cc85cd6cdfa1277eb7d50aef09c972c",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/transit.png",
+      "bytes": 23372,
+      "sha256": "05f475a0a58610bd79058e3717f620de6ac14775031dbde65852a732b72cb867",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/water.png",
+      "bytes": 13358,
+      "sha256": "6db2c4499ff62c55a762ef14d6a33f9b162d68eb5abee42d3313ff97b4befa35",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/masks/windows.png",
+      "bytes": 17637,
+      "sha256": "48ed8d93a7c1b5183cb897c13d955cdd778fd63f6746e7de78f4f9b02fc4a36f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/parallel-render.json",
+      "bytes": 11294,
+      "sha256": "251302386f7c67cb8f9fb5e196fae66489b2e0f25186d488eaf5399659d93db5",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/prepare_backup.py",
+      "bytes": 5940,
+      "sha256": "e31b3ac6354f5f98365fa1718974a8bbf4acbc6eaddc37eaa199873a894a18a5",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/preview-validation.json",
+      "bytes": 5958,
+      "sha256": "5e05edc46c02f39dd2616a60bac0712dfa58fdaa7ea374ae3a924b49d9fb6854",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/previous-direction.json",
+      "bytes": 1429,
+      "sha256": "13a9741aa4b007a0b53da1ef8b499b1affde761579a6414311da29b1eb7860ae",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/previous-tracker-section.json",
+      "bytes": 747,
+      "sha256": "48480c43ef79bcabebcd710f6b8196b30fb51d575a5afe6903b6b08a2a85696d",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/rain_light-v8-test-8s-decoded-0000.png",
+      "bytes": 1182652,
+      "sha256": "b38604814926bb8b4b6a90cc086cad893d1b32b626e344eeb98896c18de90ceb",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/README.md",
+      "bytes": 3502,
+      "sha256": "c75ecbe0ee4c40efece2a17da27ef28fb85eed63a7d918c30b888ec77acf7cc8",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/record_delivery.py",
+      "bytes": 8210,
+      "sha256": "9cf75662e9b9a6f852d0b2f465bf783f6fb5c8efb9ad72174af3200ab207d6fc",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/render_parallel.py",
+      "bytes": 1297,
+      "sha256": "6ea5cff153e69dbe2c92c8d407470100c3d755ce7d8b37f78ded64b7fd749db5",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/render_spirewatch.py",
+      "bytes": 23911,
+      "sha256": "a5e964e95f1a12d984de4f499bbdd2566f589b8492a89b5441b0af8db9f65a94",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/repeat-validation.json",
+      "bytes": 298,
+      "sha256": "6e4e7254568cc40eb1db6ed53c2cd3e78d68e9dc7ecefb626d6f596ca987b8b5",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-00.00.png",
+      "bytes": 2048966,
+      "sha256": "dc61ccb84e4eb67410faa04b4bcd660ff2729be5cdcdf4b940b365482e8d2ae4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-04.00.png",
+      "bytes": 2057160,
+      "sha256": "8eb3c6bf00e49107f3524d4c164af144544e8492a0bebdc5758d15c55bf60390",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-04.80.png",
+      "bytes": 2058990,
+      "sha256": "6818fe02c3827f15743edb0feee3817f4bd296ce390565906f267f4732dad6e4",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-08.00.png",
+      "bytes": 2063523,
+      "sha256": "68fce1d985cc019005c25842ee61da0959ea29e3c5b95b7614bfe712d051c5f0",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-12.00.png",
+      "bytes": 2067204,
+      "sha256": "9d9b379a4671d19a969be9a5f58695f809eeac6f475730fc8ccc444614e0b1ed",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-15.00.png",
+      "bytes": 2073298,
+      "sha256": "b58ec60ece5866a0a952aca44fc6d23746b292f68054261c49451643135effae",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-16.50.png",
+      "bytes": 2072859,
+      "sha256": "5d865a2810156e2d620d73e415126546717a1840cd2635d3fab9e7eea2ef87ab",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-18.40.png",
+      "bytes": 2086919,
+      "sha256": "0cc78b2dee4904bb52d7a238f8fe1b172925949055b74ef56ce76a6a69a83d36",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-21.00.png",
+      "bytes": 2065307,
+      "sha256": "bfd28c7f52955c8455fadf4919fb651b749c47f06e45999d0e25d81f436149a0",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-24.00.png",
+      "bytes": 2053242,
+      "sha256": "2977f9f0534e06f5c23bbd2a43c95421a0809e709d7e2cecc9efd30abe55ddbe",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-28.60.png",
+      "bytes": 2047565,
+      "sha256": "bf966184c971e1ad283abe00a18ec1be601a1850f1a9ab6229425b243b0d5804",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-32.20.png",
+      "bytes": 2051562,
+      "sha256": "a7c433284ed663fddc45f002ae986778184abda67bcf7bdacc571e8e8ed33eac",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-40.00.png",
+      "bytes": 2070806,
+      "sha256": "ae83b45186f648bab62c5bd74766ddcb6f51a9a0f9ba48dca73cddbcac9ff7ff",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-43.20.png",
+      "bytes": 2095488,
+      "sha256": "21c0fe03b6949d961cc954412301e96a81ec70ba0d9180d49bc428ecd1da3f67",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-48.00.png",
+      "bytes": 2071232,
+      "sha256": "6bd63e6f1979f1576d2a54d136a040c24123c5dc1c1129ff11dc6161abad0323",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-54.60.png",
+      "bytes": 2047673,
+      "sha256": "5f8d1997e40e3e97cc4030723de603b92927562a42d85f814110f8e12f5f39fd",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-55.00.png",
+      "bytes": 2052565,
+      "sha256": "598ce1ec38811a30cbf2bf00c06b02bc5a605fcda8f7c2670cf3d7d6945bc420",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/review-59.97.png",
+      "bytes": 2048583,
+      "sha256": "aa319c84dd8f4260db5b1a31f7f3408927027e47d14c34df4881d0cab0df6dd5",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/scene-plan-v8.json",
+      "bytes": 32406,
+      "sha256": "29bc0d8be08821a93b412334c443658d931e825a8de1a7884d0f73d63b3ec0b6",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/short-tests.json",
+      "bytes": 3958,
+      "sha256": "a572ceaa7fa47fa1a02c08bcf967f1d40225657506f167d81fe641573b418c62",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/short_tests.py",
+      "bytes": 766,
+      "sha256": "0c69f8f95bf0279aa4324ed8d043eca5fc4f753744ccaa0d75cdf45460a5252b",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/spirewatch-v8-preview-60s-decoded-0000.png",
+      "bytes": 1167024,
+      "sha256": "2fdc394e55f4ba5bde9ac23945b651698e4097baff7d0d20c813342afacec0d6",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/spirewatch-v8-preview-60s-decoded-0240.png",
+      "bytes": 1176125,
+      "sha256": "9c6a595895b3460ade568cc08003b859f8fc86617b3a671323ce1078f3759a9f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/spirewatch-v8-preview-60s-decoded-0600.png",
+      "bytes": 1178296,
+      "sha256": "294a4deb8e53de22e3516628fc1eeb124813e2391fdd667fa795891fa7b3be81",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/spirewatch-v8-preview-60s-decoded-1200.png",
+      "bytes": 1181232,
+      "sha256": "39aa25e06f819697615135cb0fab1e09174fd36fb0936b7bb6070c35d46ec547",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/spirewatch-v8-preview-60s.mp4",
+      "bytes": 83677224,
+      "sha256": "8313bc2b891966c89284361a39a44c8e709c1c57283b32cecd39731b0cedb766",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/spray-isolated-temporal.png",
+      "bytes": 20872,
+      "sha256": "3d4504d84f67354d0d63875b14b7465b964560e82a110e49a610897e5edd2df0",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/spray-temporal.png",
+      "bytes": 38557,
+      "sha256": "87ac00344d3848f47fd3cfda6df1e19242655102e4b401633947f4f210f31b25",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/spray-v8-test-8s-decoded-0000.png",
+      "bytes": 1182686,
+      "sha256": "fa43d5f710c23e7b3c2376c4a754e5ec58a3a93f5fd15f3e2b4db0b1e3b6803f",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/tower-crown-temporal.png",
+      "bytes": 89376,
+      "sha256": "ebed53512d8936089e7f3450f472cb3616b14b677f0a78e24b06bf38c6c759ae",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-animation-v8/validation_legacy.py",
+      "bytes": 16620,
+      "sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/spirewatch-artwork-rebuild-v1/production-prompt-v1.txt",
+      "bytes": 7883,
+      "sha256": "6b7c2179c727f8c22bb2c3b978cf5df528d6ef6df4ad1312921f2a239db46eae",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 11771,
+      "sha256": "38215af0df6d167d36affe98a882526fea95cac6b6f2506a11872a0b62a459c6",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 5167,
+      "sha256": "75d0c0424f4584caf7acc1db6a113d6f0c1455a279098696f9daca6d4f328956",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "music/digital-city-concepts-v1/current-direction.json",
+      "bytes": 1886,
+      "sha256": "b76bcd578185edc35fe3c84db7c8e00fc875bf32a5a53576ee526d7fc4afebdd",
+      "index_only_scoped_document": false
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 64589,
+      "sha256": "6c2d7e46b6c90611242e8787821fad68d4db668b209e1bc210926c809d7b8a54",
+      "index_only_scoped_document": true
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "bytes": 27595,
+      "sha256": "5084a5b25ba14b648e075c12d80ab733143f7347c7593fc2f792af160001c10b",
+      "index_only_scoped_document": true
+    },
+    {
+      "path": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "bytes": 53845,
+      "sha256": "bc6e12099e8499799869364474c232075204b4fb972c270ea8aaaaded3bb1cb4",
+      "index_only_scoped_document": true
+    }
+  ],
+  "excluded_local_files": [
+    "music/spirewatch-animation-v4/__pycache__/baseline.cpython-312.pyc",
+    "music/spirewatch-animation-v4/__pycache__/digital_layers.cpython-312.pyc",
+    "music/spirewatch-animation-v4/__pycache__/lighting_layers.cpython-312.pyc",
+    "music/spirewatch-animation-v4/__pycache__/render_spirewatch.cpython-312.pyc",
+    "music/spirewatch-animation-v4/combined-v4-test-8s.mp4",
+    "music/spirewatch-animation-v4/dependencies/__pycache__/ambient_effects.cpython-312.pyc",
+    "music/spirewatch-animation-v4/dependencies/__pycache__/render_floodplain.cpython-312.pyc",
+    "music/spirewatch-animation-v4/dependencies/__pycache__/water_surface.cpython-312.pyc",
+    "music/spirewatch-animation-v4/render-parts/concat.txt",
+    "music/spirewatch-animation-v4/render-parts/part-00.mp4",
+    "music/spirewatch-animation-v4/render-parts/part-01.mp4",
+    "music/spirewatch-animation-v4/render-parts/part-02.mp4",
+    "music/spirewatch-animation-v4/render-parts/part-03.mp4",
+    "music/spirewatch-animation-v4/spirewatch-v4-preview-60s.mp4",
+    "music/spirewatch-animation-v4/spirewatch-v4-three-loops-180s.mp4",
+    "music/spirewatch-animation-v4/tower-v4-isolated-8s.mp4",
+    "music/spirewatch-animation-v4/transit-v4-isolated-8s.mp4",
+    "music/spirewatch-animation-v5/__pycache__/render_spirewatch.cpython-312.pyc",
+    "music/spirewatch-animation-v5/__pycache__/validation_legacy.cpython-312.pyc",
+    "music/spirewatch-animation-v5/clouds-v5-test-8s.mp4",
+    "music/spirewatch-animation-v5/combined-v5-test-8s.mp4",
+    "music/spirewatch-animation-v5/dependencies/__pycache__/ambient_effects.cpython-312.pyc",
+    "music/spirewatch-animation-v5/dependencies/__pycache__/render_floodplain.cpython-312.pyc",
+    "music/spirewatch-animation-v5/dependencies/__pycache__/water_surface.cpython-312.pyc",
+    "music/spirewatch-animation-v5/render-parts/concat.txt",
+    "music/spirewatch-animation-v5/render-parts/part-00.mp4",
+    "music/spirewatch-animation-v5/render-parts/part-01.mp4",
+    "music/spirewatch-animation-v5/render-parts/part-02.mp4",
+    "music/spirewatch-animation-v5/render-parts/part-03.mp4",
+    "music/spirewatch-animation-v5/spirewatch-v5-preview-60s.mp4",
+    "music/spirewatch-animation-v5/spirewatch-v5-three-loops-180s.mp4",
+    "music/spirewatch-animation-v5/tower-v5-test-8s.mp4",
+    "music/spirewatch-animation-v5/transit-v5-test-8s.mp4",
+    "music/spirewatch-animation-v6/__pycache__/render_spirewatch.cpython-312.pyc",
+    "music/spirewatch-animation-v6/__pycache__/validation_legacy.cpython-312.pyc",
+    "music/spirewatch-animation-v6/combined-v6-test-8s.mp4",
+    "music/spirewatch-animation-v6/dependencies/__pycache__/ambient_effects.cpython-312.pyc",
+    "music/spirewatch-animation-v6/dependencies/__pycache__/render_floodplain.cpython-312.pyc",
+    "music/spirewatch-animation-v6/dependencies/__pycache__/water_surface.cpython-312.pyc",
+    "music/spirewatch-animation-v6/falls-v6-test-8s.mp4",
+    "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/combined-v6-test-8s.mp4",
+    "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/falls-v6-test-8s.mp4",
+    "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/tower-v6-test-8s.mp4",
+    "music/spirewatch-animation-v6/history/before-transit-endpoint-envelope/transit-v6-test-8s.mp4",
+    "music/spirewatch-animation-v6/render-parts/concat.txt",
+    "music/spirewatch-animation-v6/render-parts/part-00.mp4",
+    "music/spirewatch-animation-v6/render-parts/part-01.mp4",
+    "music/spirewatch-animation-v6/render-parts/part-02.mp4",
+    "music/spirewatch-animation-v6/render-parts/part-03.mp4",
+    "music/spirewatch-animation-v6/spirewatch-v6-preview-60s.mp4",
+    "music/spirewatch-animation-v6/spirewatch-v6-three-loops-180s.mp4",
+    "music/spirewatch-animation-v6/tower-v6-test-8s.mp4",
+    "music/spirewatch-animation-v6/transit-v6-test-8s.mp4",
+    "music/spirewatch-animation-v7/__pycache__/candidate_storm.cpython-312.pyc",
+    "music/spirewatch-animation-v7/__pycache__/render_spirewatch.cpython-312.pyc",
+    "music/spirewatch-animation-v7/__pycache__/validation_legacy.cpython-312.pyc",
+    "music/spirewatch-animation-v7/combined-v7-test-8s.mp4",
+    "music/spirewatch-animation-v7/dependencies/__pycache__/ambient_effects.cpython-312.pyc",
+    "music/spirewatch-animation-v7/dependencies/__pycache__/render_floodplain.cpython-312.pyc",
+    "music/spirewatch-animation-v7/dependencies/__pycache__/water_surface.cpython-312.pyc",
+    "music/spirewatch-animation-v7/history/first-lightning-silhouette/combined-v7-test-8s.mp4",
+    "music/spirewatch-animation-v7/history/first-lightning-silhouette/lightning-v7-test-8s.mp4",
+    "music/spirewatch-animation-v7/history/first-lightning-silhouette/rain-v7-test-8s.mp4",
+    "music/spirewatch-animation-v7/history/first-lightning-silhouette/render-parts/concat.txt",
+    "music/spirewatch-animation-v7/history/first-lightning-silhouette/render-parts/part-00.mp4",
+    "music/spirewatch-animation-v7/history/first-lightning-silhouette/render-parts/part-01.mp4",
+    "music/spirewatch-animation-v7/history/first-lightning-silhouette/render-parts/part-02.mp4",
+    "music/spirewatch-animation-v7/history/first-lightning-silhouette/render-parts/part-03.mp4",
+    "music/spirewatch-animation-v7/history/first-lightning-silhouette/spirewatch-v7-preview-60s.mp4",
+    "music/spirewatch-animation-v7/history/first-lightning-silhouette/spirewatch-v7-three-loops-180s.mp4",
+    "music/spirewatch-animation-v7/history/first-lightning-silhouette/tower-v7-test-8s.mp4",
+    "music/spirewatch-animation-v7/lightning-v7-test-8s.mp4",
+    "music/spirewatch-animation-v7/rain-v7-test-8s.mp4",
+    "music/spirewatch-animation-v7/render-parts/concat.txt",
+    "music/spirewatch-animation-v7/render-parts/part-00.mp4",
+    "music/spirewatch-animation-v7/render-parts/part-01.mp4",
+    "music/spirewatch-animation-v7/render-parts/part-02.mp4",
+    "music/spirewatch-animation-v7/render-parts/part-03.mp4",
+    "music/spirewatch-animation-v7/spirewatch-v7-preview-60s.mp4",
+    "music/spirewatch-animation-v7/spirewatch-v7-three-loops-180s.mp4",
+    "music/spirewatch-animation-v7/tower-v7-test-8s.mp4",
+    "music/spirewatch-animation-v8/__pycache__/render_spirewatch.cpython-312.pyc",
+    "music/spirewatch-animation-v8/__pycache__/validation_legacy.cpython-312.pyc",
+    "music/spirewatch-animation-v8/beacons-v8-test-8s.mp4",
+    "music/spirewatch-animation-v8/combined-v8-test-8s.mp4",
+    "music/spirewatch-animation-v8/dependencies/__pycache__/ambient_effects.cpython-312.pyc",
+    "music/spirewatch-animation-v8/dependencies/__pycache__/render_floodplain.cpython-312.pyc",
+    "music/spirewatch-animation-v8/dependencies/__pycache__/water_surface.cpython-312.pyc",
+    "music/spirewatch-animation-v8/history/initial-beacon-positions/beacons-v8-test-8s.mp4",
+    "music/spirewatch-animation-v8/history/initial-beacon-positions/combined-v8-test-8s.mp4",
+    "music/spirewatch-animation-v8/history/initial-beacon-positions/rain_light-v8-test-8s.mp4",
+    "music/spirewatch-animation-v8/history/initial-beacon-positions/spray-v8-test-8s.mp4",
+    "music/spirewatch-animation-v8/rain_light-v8-test-8s.mp4",
+    "music/spirewatch-animation-v8/render-parts/concat.txt",
+    "music/spirewatch-animation-v8/render-parts/part-00.mp4",
+    "music/spirewatch-animation-v8/render-parts/part-01.mp4",
+    "music/spirewatch-animation-v8/render-parts/part-02.mp4",
+    "music/spirewatch-animation-v8/render-parts/part-03.mp4",
+    "music/spirewatch-animation-v8/spirewatch-v8-three-loops-180s.mp4",
+    "music/spirewatch-animation-v8/spray-v8-test-8s.mp4"
+  ],
+  "unrelated_changes": "Farpoint documents/media preserved unstaged; existing music experiment commit preserved. Shared document index versions contain only Spirewatch changes."
+}

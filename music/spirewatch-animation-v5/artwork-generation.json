@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-21",
+  "tool": "Built-in image_gen",
+  "mode": "edit",
+  "reference": "music/spirewatch-animation-v4/thumbnail-v1.png",
+  "reference_sha256": "8032a7e8e61fc057954655267dfe1ce23b23a2c5ed64a09d49b32917eb264270",
+  "exact_prompt": "artwork-generation-prompt.txt",
+  "output": {
+    "path": "artwork-v5.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0"
+  },
+  "dimensions": [
+    1672,
+    941
+  ],
+  "upscaled": false,
+  "purpose": "Clean thumbnail-faithful animation plate",
+  "assistant_inspection": "Clean plate compared at same display size to thumbnail; city, spire, reflections and room retain brightness/colour hierarchy. Small generated geometry/material details may differ.",
+  "user_approved": false
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-21",
+  "concept": "Spirewatch",
+  "source": "../spirewatch-animation-v5/artwork-v5.png",
+  "source_sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0",
+  "selection_scope": "User leaned toward Spirewatch, requested issue cleanup, then requested an animation prompt for this corrected version. No explicit finished-art rating or motion approval inferred.",
+  "animation_prompt": "spirewatch-animation-prompt-v1.txt",
+  "status": "V5 thumbnail-derived clean plate and remapped animation delivered; user playback review pending",
+  "proposed_preview_seconds": 60,
+  "animation_rendered": true,
+  "release_number": null,
+  "music_direction": "Vast Unfamiliar World short test",
+  "long_audio_selected": false,
+  "previous_concepts_preserved": true,
+  "animation_record": "music/spirewatch-animation-v5/delivery-v5.json",
+  "animation_preview": "music/spirewatch-animation-v5/spirewatch-v5-preview-60s.mp4",
+  "user_motion_approved": false,
+  "improvement_brief": "music/spirewatch-animation-v1/improvement-audit/v2-improvement-brief.txt",
+  "latest_feedback": "V4 was rejected for being darker than thumbnail. User authorized execution of the clean-plate animation rebuild.",
+  "backup_request": "No new commit/push requested for v5; older backups remain separate",
+  "thumbnail": "music/spirewatch-animation-v4/thumbnail-v1.jpg",
+  "rebuild_prompt": "music/spirewatch-artwork-rebuild-v1/production-prompt-v1.txt"
+}

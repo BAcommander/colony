@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-21",
+  "concept": "Spirewatch",
+  "source": "01-spirewatch-v2-cleanup.png",
+  "source_sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba",
+  "selection_scope": "User leaned toward Spirewatch, requested issue cleanup, then requested an animation prompt for this corrected version. No explicit finished-art rating or motion approval inferred.",
+  "animation_prompt": "spirewatch-animation-prompt-v1.txt",
+  "status": "V4 visual direction rejected: rebuild clean plate from brighter thumbnail; production prompt ready",
+  "proposed_preview_seconds": 60,
+  "animation_rendered": true,
+  "release_number": null,
+  "music_direction": "Vast Unfamiliar World short test",
+  "long_audio_selected": false,
+  "previous_concepts_preserved": true,
+  "animation_record": "music/spirewatch-animation-v4/delivery-v4.json",
+  "animation_preview": "music/spirewatch-animation-v4/spirewatch-v4-preview-60s.mp4",
+  "user_motion_approved": false,
+  "improvement_brief": "music/spirewatch-animation-v1/improvement-audit/v2-improvement-brief.txt",
+  "latest_feedback": "Thumbnail is much more exciting and bright than the render. User requests starting over with a scene that fully represents it.",
+  "backup_request": "No new commit/push requested for v4; prior v3 backup preserved",
+  "thumbnail": "music/spirewatch-animation-v4/thumbnail-v1.jpg",
+  "rebuild_prompt": "music/spirewatch-artwork-rebuild-v1/production-prompt-v1.txt"
+}

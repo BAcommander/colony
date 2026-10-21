@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-10",
+  "concept": "Spirewatch",
+  "source": "01-spirewatch-v2-cleanup.png",
+  "source_sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba",
+  "selection_scope": "User leaned toward Spirewatch, requested issue cleanup, then requested an animation prompt for this corrected version. No explicit finished-art rating or motion approval inferred.",
+  "animation_prompt": "spirewatch-animation-prompt-v1.txt",
+  "status": "V3 lighting revision delivered; user playback review pending",
+  "proposed_preview_seconds": 60,
+  "animation_rendered": true,
+  "release_number": null,
+  "music_direction": "Vast Unfamiliar World short test",
+  "long_audio_selected": false,
+  "previous_concepts_preserved": true,
+  "animation_record": "music/spirewatch-animation-v3/delivery-v3.json",
+  "animation_preview": "music/spirewatch-animation-v3/spirewatch-v3-preview-60s.mp4",
+  "user_motion_approved": false,
+  "improvement_brief": "music/spirewatch-animation-v1/improvement-audit/v2-improvement-brief.txt",
+  "latest_feedback": "User could not see v2 lightning/tower movement and found warm lighting static; requested more impact and light activity.",
+  "backup_request": "V3 checkpoint commit/push requested 2026-10-11; see v3 backup records"
+}

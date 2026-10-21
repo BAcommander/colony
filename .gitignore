@@ -98,3 +98,7 @@ __pycache__/
 !music/illuminated-horizon-ambient-insert-v1/Open_Horizon_2026-10-21T155714.mp4
 /music/illuminated-horizon-separation-test-v1/*-target-raw.f32
 /music/illuminated-horizon-backup-2026-10-21/remote-backup-verification.json
+
+# Current Spirewatch finishing preview; older/repeated/intermediate videos stay local.
+!music/spirewatch-animation-v8/spirewatch-v8-preview-60s.mp4
+music/spirewatch-animation-v8/remote-backup-verification.json

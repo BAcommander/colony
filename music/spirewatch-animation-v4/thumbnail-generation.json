@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-21",
+  "tool": "Built-in image_gen",
+  "mode": "edit",
+  "reference": {
+    "path": "music/digital-city-concepts-v1/01-spirewatch-v2-cleanup.png",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba"
+  },
+  "exact_prompt_file": "thumbnail-prompt-v1.txt",
+  "png": {
+    "path": "thumbnail-v1.png",
+    "sha256": "8032a7e8e61fc057954655267dfe1ce23b23a2c5ed64a09d49b32917eb264270",
+    "dimensions": [
+      1672,
+      940
+    ]
+  },
+  "jpeg": {
+    "path": "thumbnail-v1.jpg",
+    "sha256": "7473ab0cacd509f58ae45cc06dab37847c99b9c9d836104959b3f578efc538b7",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  "conversion": "FFmpeg Lanczos 1280x720 JPEG q2",
+  "role": "Marketing adaptation, not animation source",
+  "user_approved": false
+}

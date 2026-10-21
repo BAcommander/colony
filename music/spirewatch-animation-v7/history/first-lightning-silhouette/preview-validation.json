@@ -1,0 +1,151 @@
+{
+  "fingerprint": {
+    "source": {
+      "path": "artwork-v5.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0"
+    },
+    "config_sha256": "8cc6743d0228307218aaf91fc9cd611cc9c159fc5b4685e5ba1b173fabd3626f",
+    "renderer_sha256": "d7e2820e5bd3230243c68b2082cdc64fcbf2c293166e0ca5946a480f99c86623",
+    "validation_sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+    "dependencies": {
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "masks": {
+      "clouds": "4978b31bf826e2ac0e77878a7f53b97ec27bf4d2c645f13b43a880f323e3cb1b",
+      "water": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+      "reflections": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+      "falls": "97c669dd3531a4ee60f4eabe81eeef7332b0c9747f4e04faea231efc6bc93efd",
+      "tower": "4434ec1fce79c65edb5da227618d80d306ed4c767c8c8f3a8d77c7ebc185e728",
+      "tower_glow": "d84ffb865b8ec41274533a449830975d0c74fe3526e9a789817d5812a6aaa9f4",
+      "districts": "fe5664673fdc03523dc5f4348567152f24b7869b54d0f98dd497a33cfdaa8029",
+      "windows": "f43f3fb6ee2a620b8ccdcdd1caf9b03caea0d181909a71a5af50e09658aebce9",
+      "transit": "60fee996e65e28c25d36793f1b73872cb9f4d3252261cb1b72959c6eeacdea4b",
+      "screen": "674fce95fa8babcddc52e8870078e665be29822752173fe9055a3f1fe9ef4f64",
+      "lamp": "ae3d0a5baa4ba65beee19ac56589e3aa3a5a450b74b3f58ec21bf0325ec716ee",
+      "screen_spill": "87ecc8871ff4505d4adf37f5cc6484143b61c21a1ab77699db5d0866203c5d23",
+      "lightning": "5b27db726305af8170e817715e9e252efe0a1c625c62e8f8e9d2bdf6a0def96b",
+      "storm_response": "4a6cc91726f6b60d355326529ec1245f1ae0c042c4d491e05011870c59b431e6",
+      "rain": "b60cc9ef464fb6268be9288db4d4a9a69f11a3e9412ccde9e9e4e575360c994c"
+    },
+    "runtime": {
+      "numpy": "2.3.5",
+      "opencv": "5.0.0"
+    }
+  },
+  "frames": 1800,
+  "full_decode": true,
+  "sequential_timestamps": true,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "sha256": "b2f98fb1a29c50776e953b43f398ba7d65d8e7fd2fc907a6d8ef67ba54d76c34",
+  "colour_aware_decode": true,
+  "encoded_seams": {
+    "clouds": {
+      "seam_mae": 0.11033768829870778,
+      "ordinary_max": 2.140306830711628,
+      "neighbor_max": 0.11157913106938593,
+      "pass": true
+    },
+    "water": {
+      "seam_mae": 0.2838704171866833,
+      "ordinary_max": 1.122083906685014,
+      "neighbor_max": 0.2873585288062552,
+      "pass": true
+    },
+    "reflections": {
+      "seam_mae": 0.2838704171866833,
+      "ordinary_max": 1.122083906685014,
+      "neighbor_max": 0.2873585288062552,
+      "pass": true
+    },
+    "falls": {
+      "seam_mae": 1.5344506517690875,
+      "ordinary_max": 2.0340316573556794,
+      "neighbor_max": 1.691433891992551,
+      "pass": true
+    },
+    "tower": {
+      "seam_mae": 0.0,
+      "ordinary_max": 1.061245839277223,
+      "neighbor_max": 0.0,
+      "pass": true
+    },
+    "tower_glow": {
+      "seam_mae": 0.0,
+      "ordinary_max": 1.3683108871078797,
+      "neighbor_max": 8.262414277451872e-05,
+      "pass": true
+    },
+    "districts": {
+      "seam_mae": 0.24263597753116864,
+      "ordinary_max": 0.7525688450472668,
+      "neighbor_max": 0.2538703932045486,
+      "pass": true
+    },
+    "windows": {
+      "seam_mae": 0.01089205306072776,
+      "ordinary_max": 0.7197273944261896,
+      "neighbor_max": 0.1450955336497505,
+      "pass": true
+    },
+    "transit": {
+      "seam_mae": 0.3545121080847815,
+      "ordinary_max": 0.9212601039021394,
+      "neighbor_max": 0.4158575246062175,
+      "pass": true
+    },
+    "screen": {
+      "seam_mae": 0.03323591771245201,
+      "ordinary_max": 0.09346169273967109,
+      "neighbor_max": 0.041258380608561115,
+      "pass": true
+    },
+    "lamp": {
+      "seam_mae": 0.0,
+      "ordinary_max": 6.198641216434811,
+      "neighbor_max": 0.0,
+      "pass": true
+    },
+    "screen_spill": {
+      "seam_mae": 0.0,
+      "ordinary_max": 2.244118545676749,
+      "neighbor_max": 0.0,
+      "pass": true
+    },
+    "lightning": {
+      "seam_mae": 0.10077294790961229,
+      "ordinary_max": 2.057745956901786,
+      "neighbor_max": 0.10191854773191755,
+      "pass": true
+    },
+    "storm_response": {
+      "seam_mae": 0.2838704171866833,
+      "ordinary_max": 1.122083906685014,
+      "neighbor_max": 0.2873585288062552,
+      "pass": true
+    },
+    "rain": {
+      "seam_mae": 0.08200832605759671,
+      "ordinary_max": 1.0485191152123183,
+      "neighbor_max": 0.08507018846215868,
+      "pass": true
+    },
+    "combined": {
+      "seam_mae": 0.07866643588602366,
+      "ordinary_max": 0.993007895994857,
+      "neighbor_max": 0.08151547787161637,
+      "pass": true
+    }
+  },
+  "no_duplicate_endpoint": true,
+  "distinct_0_20_40": true
+}

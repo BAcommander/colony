@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-21",
+  "status": "User playback review pending",
+  "previous_verdict": "V4 rejected: thumbnail much brighter/more exciting than animation",
+  "response": "Rebuilt clean plate directly from thumbnail and redrew masks. Main city/room/spire brightness compares closely to thumbnail; see source-comparison.json.",
+  "assistant_inspected": [
+    "clean source and reference at full composition",
+    "native composite states",
+    "tower/screen/bridge temporal crops",
+    "decoded preview stills"
+  ],
+  "continuous_playback": false,
+  "internal_fix": "Initial cloud mask included a few roof/antenna edges. Expanded skyline/mast exclusions and added source-distance-bounded transport. First mask-pass stills/config preserved in history/.",
+  "user_artwork_approved": false,
+  "user_motion_approved": false,
+  "known_limits": [
+    "60-second silent 720p review; no 4K or long assembly",
+    "No new eight-minute music received; no sync claim",
+    "Cloud motion tapers near solid boundaries to protect geometry",
+    "Existing thumbnail is a marketing reference; generated clean plate fine details may differ"
+  ]
+}

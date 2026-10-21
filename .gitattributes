@@ -137,3 +137,7 @@ music/illuminated-horizon-*/*.log -text -diff
 music/illuminated-horizon-slow-middle-v1/Illuminated-Horizon-Slow-Middle-v1.wav filter=lfs diff=lfs merge=lfs -text
 music/illuminated-horizon-slow-middle-v1/history/internal-unrepaired/Illuminated-Horizon-Slow-Middle-v1.wav filter=lfs diff=lfs merge=lfs -text
 music/illuminated-horizon-ambient-middle-v2/Illuminated-Horizon-Ambient-Middle-v2.wav filter=lfs diff=lfs merge=lfs -text
+
+# Preserve exact Spirewatch rebuild and finishing checkpoint bytes.
+music/spirewatch-animation-v[4-8]/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/spirewatch-artwork-rebuild-v1/** -text
