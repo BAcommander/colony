@@ -4,6 +4,8 @@ Approved 2026-09-25. User feedback: "man they look awesome". The three finished 
 
 ## Identity
 
+2026-10-21 testing note: Thumbnail evidence (2026-10-21): supplied third-party change-history screenshot reports VPH 47.9 to 24.9 (-48%) after a clean scene gained a large STAR WARS title. The graph had already declined before the change; this is sequential observational evidence, not a causal A/B result. Treat scene-only or title-only thumbnails as test candidates alongside approved branding; do not automatically replace approved artwork. Prefer a concurrent YouTube thumbnail test, hold title/art/crop/brightness steady when isolating typography, and assess impressions/CTR/traffic context plus watch-time share. Evidence and interpretation: music/thumbnail-text-evidence-2026-10-21/README.md.
+
 Make the scene feel like an inviting place to spend time. Use the actual video artwork, a short destination title and one evocative caption. Keep the architecture, environment and strongest visual feature recognizable. Aim for a quiet cinematic science-fiction series with clear titles at small sizes.
 
 - Main lettering: very bold condensed uppercase sans serif, warm ivory approximately `#F3EBDD`. Clean engineered letterforms; no distressed horror type. The lettering is generated, not a verified named font. Use the approved Ringfall thumbnail as the visual typography reference.

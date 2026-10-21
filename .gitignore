@@ -92,3 +92,9 @@ __pycache__/
 !creative/brand/intro-v2/colony-intro-v2-silent-preview.mp4
 !creative/brand/intro-v3/colony-intro-v3-silent-preview.mp4
 /creative/brand/intro-v3/remote-backup-verification.json
+
+# User-requested music session checkpoint, 2026-10-21.
+!music/illuminated-horizon-slow-middle-v1/source-original.mp4
+!music/illuminated-horizon-ambient-insert-v1/Open_Horizon_2026-10-21T155714.mp4
+/music/illuminated-horizon-separation-test-v1/*-target-raw.f32
+/music/illuminated-horizon-backup-2026-10-21/remote-backup-verification.json

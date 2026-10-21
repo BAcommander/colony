@@ -1,0 +1,79 @@
+{
+  "status": "rejected by user; preserved as history",
+  "source": "G:\\AI\\colony\\music\\illuminated-horizon-slow-middle-v1\\source-original.mp4",
+  "source_sha256": "a60986de41c0cd5418ad9dd56bdbf442ac01b8a284dd6f9b8a6c2930e39443db",
+  "feedback_on_v1": "User hears whole-mix stretching and says it sounds crap; wants less repeating pulse and gradual return.",
+  "method": "Source-spectrum additive sustained bed with continuous phases and slow amplitudes, plus restrained diffuse convolution; original timing retained.",
+  "time_stretch": false,
+  "pitch_shifting_filter": false,
+  "spectral_oscillator_spacing_hz": 0.732421875,
+  "centre_direct_mix_fraction": 0.05,
+  "fixed_headroom_gain_db": -1.5796158040443093,
+  "pad_envelope_leveling": "30 ms RMS / 5 s target; 50 ms-smoothed gain; only reconstructed pad affected",
+  "source_unchanged_before_fixed_gain_s": [
+    [
+      0,
+      90
+    ],
+    [
+      390,
+      510
+    ]
+  ],
+  "sections_s": {
+    "fade_to_ambient": [
+      90,
+      180
+    ],
+    "ambient_hold": [
+      180,
+      300
+    ],
+    "restore_pulse": [
+      300,
+      390
+    ]
+  },
+  "middle_before": {
+    "normalised_envelope_variation": 0.25164613127708435,
+    "rhythmic_modulation_power_0_7_to_8_hz": 714418.1360999492
+  },
+  "middle_after": {
+    "normalised_envelope_variation": 0.13140694797039032,
+    "rhythmic_modulation_power_0_7_to_8_hz": 2451.9338498763827
+  },
+  "middle_modulation_power_change_db": -24.644437216680743,
+  "delivery": {
+    "frames": 24480000,
+    "seconds": 510.0,
+    "finite": true,
+    "peak_dbfs": -1.9901608284572854,
+    "rms_dbfs": -15.519641576077687,
+    "full_scale_samples": 0
+  },
+  "max_adjacent_sample_step": 0.15143835544586182,
+  "limits": [
+    "No isolated instrument stems; middle is a new sustained spectral texture derived from a stereo master.",
+    "Texture timbre and fine phase/pitch detail differ from the source; it is not a clean pad stem.",
+    "Signal checks do not establish musical quality or user approval.",
+    "Assistant has not continuously auditioned the output.",
+    "Original and rejected v1 preserved; local files only; no commit or push."
+  ],
+  "outputs": {
+    "Ambient-Entry-Review-v2.mp3": "48d83bebf039ecf2b14a8f67511e6cd2c9fe18c197fc7f37956487e164492612",
+    "Ambient-Middle-Review-45s.mp3": "85eb02ebdde9660b8c9fd4550c47fcea77b6c5b766113f6becc3736d1ee6922b",
+    "Illuminated-Horizon-Ambient-Middle-v2.mp3": "5293d80212fe3df302523a38f1aa6d88081225279cf90e0536df450ab8d3334d",
+    "Original-Middle-Level-Matched-45s.mp3": "5ec6479536901b44b2693b7c5c793355012a909f679a5c080ecd820d5b336d8e",
+    "Pulse-Return-Review-v2.mp3": "dd82f0f87598fa31dd5f8c618cfcdcf877d6b7487a46404947f456c1aac8e31c",
+    "Illuminated-Horizon-Ambient-Middle-v2.wav": "43924c289d02824b82ca4103af09795c928e405a7028af2a69f4ae633a4ebd4f"
+  },
+  "external_music_generation_or_models": false,
+  "regenerable_pcm_caches_removed": [
+    "source.f32",
+    "master.f32",
+    "delivery-decoded.f32",
+    "original-review.f32"
+  ],
+  "user_feedback": "it just sounds like a drone, it is not very good honestly",
+  "next_direction": "Evaluate genuine source separation on a short original-source excerpt before building an arrangement interface; no further whole-mix stretching or spectral-drone edits."
+}

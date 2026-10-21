@@ -1,0 +1,12 @@
+{
+  "type": "file",
+  "oid": "5f140166ba29ec2acf3bd63ecf0ca44537a35276",
+  "size": 1264844076,
+  "lfs": {
+    "oid": "f8cda01bfd0ebd141eef45d41db7a3ada23a56568465840d3cff04b8010ce82c",
+    "size": 1264844076,
+    "pointerSize": 135
+  },
+  "xetHash": "2dcff6bfd95f587bec0b12a98050a72969dbecfb615ddfdfa2154ae18d1efcb9",
+  "path": "checkpoint/audiosep_base_4M_steps.ckpt"
+}

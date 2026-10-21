@@ -1,0 +1,299 @@
+{
+  "status": "experiment completed; signal checks show nonselective extraction of almost the whole mix; user listening verdict pending",
+  "source": "G:\\AI\\colony\\music\\illuminated-horizon-slow-middle-v1\\source-original.mp4",
+  "source_sha256": "a60986de41c0cd5418ad9dd56bdbf442ac01b8a284dd6f9b8a6c2930e39443db",
+  "source_excerpt_s": [
+    200,
+    245
+  ],
+  "inference_context_s": [
+    190,
+    255
+  ],
+  "sample_rate": 32000,
+  "channels": 2,
+  "stereo_method": "same mono model applied to L/R as a batch",
+  "source_repo": "https://github.com/Audio-AGI/AudioSep",
+  "source_commit": "944583f18b84589dc965de3ad77525c945334252",
+  "checkpoint_sha256": "f8cda01bfd0ebd141eef45d41db7a3ada23a56568465840d3cff04b8010ce82c",
+  "checkpoint": "G:\\AI\\colony\\music\\.local\\audiosep-separation\\weights\\audiosep_base_4M_steps.ckpt",
+  "inference_adaptation": "strict checkpoint weights; unchanged ResUNet30; trained CLAP RoBERTa+projection text branch only; unused audio-query and Lightning training wrappers omitted",
+  "chunk_seconds": 10,
+  "chunk_hop_seconds": 5,
+  "chunk_join": "Hann overlap-add with context",
+  "fixed_common_gain_db": -2.5890939163600075,
+  "reduced_mix": "original minus 0.75 * estimated target (equivalent to retaining target at 25%)",
+  "time_stretch": false,
+  "reverb_or_spectral_resynthesis": false,
+  "audio_uploaded": false,
+  "model_metrics": {
+    "arpeggio": {
+      "prompt": "a repeating synthesizer arpeggio",
+      "target_before_common_gain": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -0.41090608363999254,
+        "rms_dbfs": -14.103922153602987,
+        "full_scale_samples": 0
+      },
+      "remainder_before_common_gain": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -2.7724884915028603,
+        "rms_dbfs": -36.05810562396052,
+        "full_scale_samples": 0
+      },
+      "target_plus_remainder_max_error": 5.960464477539063e-08
+    },
+    "pulse": {
+      "prompt": "a pulsing electronic synthesizer",
+      "target_before_common_gain": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -0.5109859667506029,
+        "rms_dbfs": -14.1211464636662,
+        "full_scale_samples": 0
+      },
+      "remainder_before_common_gain": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -5.1260139056469045,
+        "rms_dbfs": -37.428427835548156,
+        "full_scale_samples": 0
+      },
+      "target_plus_remainder_max_error": 2.9802322387695312e-08
+    },
+    "sequence": {
+      "prompt": "a synthesizer playing a repetitive melody",
+      "target_before_common_gain": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -0.49262623641345754,
+        "rms_dbfs": -14.032364186410707,
+        "full_scale_samples": 0
+      },
+      "remainder_before_common_gain": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -31.498299366279955,
+        "rms_dbfs": -65.87369497766124,
+        "full_scale_samples": 0
+      },
+      "target_plus_remainder_max_error": 4.656612873077393e-10
+    }
+  },
+  "outputs": {
+    "01-original-3m20-to-4m05": {
+      "wav_sha256": "d9b58179fca67d67f8199c7feae2597a3fd63a543015eb80c74d90825ca84b78",
+      "mp3_sha256": "1be35985f1a86c4ca9c5dcfe5d3ef0946f3e16eb84804eb8b1f6b4389631df90",
+      "decoded_mp3": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -3.0816320555680465,
+        "rms_dbfs": -16.618314323939998,
+        "full_scale_samples": 0
+      }
+    },
+    "02-arpeggio-extracted": {
+      "wav_sha256": "a339ee10e6a3b1274a573aee79054bb3e48a9078b670b42d672a5fdca11513e0",
+      "mp3_sha256": "8b0fe8311224a315c8d67430bb05b475cb490bc2923c0e4edda33c2bfcfcedfc",
+      "decoded_mp3": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -3.0049020605141212,
+        "rms_dbfs": -16.69565814212554,
+        "full_scale_samples": 0
+      }
+    },
+    "02-arpeggio-removed": {
+      "wav_sha256": "394152eb9604314fd64c033b019cc48858339745a17d6cca174a0a58129d8228",
+      "mp3_sha256": "030c84b4d458ed7c69db0796fb33ad767e76cea5e2f4823baaec1595dbffdeaf",
+      "decoded_mp3": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -5.365305618441587,
+        "rms_dbfs": -38.6473976953359,
+        "full_scale_samples": 0
+      }
+    },
+    "02-arpeggio-reduced": {
+      "wav_sha256": "3e83cb16c67838057023efe24abf42a5b6eb2fb478af46aee28340cbd8892cd5",
+      "mp3_sha256": "021c3ee2ccca7d76916a3ab6f76272c5b55dbc2fdd1171fb5e76de08a9298578",
+      "decoded_mp3": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -5.119580314198286,
+        "rms_dbfs": -28.135754259070215,
+        "full_scale_samples": 0
+      }
+    },
+    "03-pulse-extracted": {
+      "wav_sha256": "3989dbf14bfb6a538f094a45fa5bb0a8d37bd372ffaee107ab7840f18b2ca05b",
+      "mp3_sha256": "16922c5983a19c3bd58018fb49b4063d417485b9aeecd8f059f8e03c6b0ad4ef",
+      "decoded_mp3": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -3.09499199434116,
+        "rms_dbfs": -16.712861394684793,
+        "full_scale_samples": 0
+      }
+    },
+    "03-pulse-removed": {
+      "wav_sha256": "4d6be6b540323d77b5784920ae29284935ec31a8762b0356f14e64a1b912ce42",
+      "mp3_sha256": "eb78cfbfdb8410fdb12678db3ac98884c6f701cfb476d5398c257a61a77f7893",
+      "decoded_mp3": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -7.71213064916145,
+        "rms_dbfs": -40.017607067937924,
+        "full_scale_samples": 0
+      }
+    },
+    "03-pulse-reduced": {
+      "wav_sha256": "d70f4587deb0acb41ef26e6e331cc6b9dab086d0e0cf7724fb0c0785406b05a6",
+      "mp3_sha256": "c115ae7e5c3b72b597e89cdc871935ab6ad941fff350ac107522f49e3c63efe7",
+      "decoded_mp3": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -6.900595564197955,
+        "rms_dbfs": -28.16948615635852,
+        "full_scale_samples": 0
+      }
+    },
+    "04-sequence-extracted": {
+      "wav_sha256": "4b920567d85e2df7cbeec661bb31224a0f12b89a261209dac38243001d6b7b05",
+      "mp3_sha256": "a8d4083408a1564bbf23d9edfabf9f92158cf118190b1bde720d8c5dae4b169a",
+      "decoded_mp3": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -3.0808311418561325,
+        "rms_dbfs": -16.624085375198614,
+        "full_scale_samples": 0
+      }
+    },
+    "04-sequence-removed": {
+      "wav_sha256": "fc82380482711572e81f21596c9a6f7297cd83994751659711183c1c6cfa1a4c",
+      "mp3_sha256": "bb3071e58a76acb602d922f9d4cf196359cc1a59b308a75be7d962ade78b2fbf",
+      "decoded_mp3": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -34.18075258524413,
+        "rms_dbfs": -68.46450826656537,
+        "full_scale_samples": 0
+      }
+    },
+    "04-sequence-reduced": {
+      "wav_sha256": "ee7e54b1761bc73e1366ffed42869e7c70f87508952cdb24f0c47706f8fb4882",
+      "mp3_sha256": "5187c3e8c7f45092d0946c43a4f8f8b5b702356644a3d0c976629dc1862476e0",
+      "decoded_mp3": {
+        "frames": 1440000,
+        "seconds": 45.0,
+        "finite": true,
+        "peak_dbfs": -15.043110436467991,
+        "rms_dbfs": -28.642012655524823,
+        "full_scale_samples": 0
+      }
+    }
+  },
+  "elapsed_s": 36.42497682571411,
+  "peak_gpu_memory_gib": 3.2477426528930664,
+  "limits": [
+    "AudioSep is a 32-kHz mono-trained model; stereo handling here is an inference adaptation.",
+    "Prompted target is an estimate and may include wanted pads, bass or melody.",
+    "A lower residual level is evidence of removed signal, not proof of good separation.",
+    "Assistant performed technical checks, not listening; user must judge the clips.",
+    "No full-track edit, UI, paid service, commit or push."
+  ],
+  "comparison_analysis": {
+    "arpeggio": {
+      "source_rms_dbfs": -14.026627945080216,
+      "remainder_rms_relative_source_db": -22.03147712913139,
+      "target_source_correlation": 0.9968795954720332
+    },
+    "pulse": {
+      "source_rms_dbfs": -14.026627945080216,
+      "remainder_rms_relative_source_db": -23.401798975323995,
+      "target_source_correlation": 0.9977497191996617
+    },
+    "sequence": {
+      "source_rms_dbfs": -14.026627945080216,
+      "remainder_rms_relative_source_db": -51.84642578603984,
+      "target_source_correlation": 0.9999969480667277
+    }
+  },
+  "query_controls": {
+    "a repeating synthesizer arpeggio": {
+      "central_6s_target_to_source_rms_ratio": 0.9957519769668579,
+      "target_source_correlation": 0.9992307531552828,
+      "embedding_first_6": [
+        -0.09158944338560104,
+        -0.010921403765678406,
+        -0.06283201277256012,
+        -0.022065704688429832,
+        0.053642306476831436,
+        0.022834375500679016
+      ]
+    },
+    "a dog barking": {
+      "central_6s_target_to_source_rms_ratio": 0.012303050607442856,
+      "target_source_correlation": 0.26821483208699387,
+      "embedding_first_6": [
+        -0.03658721596002579,
+        0.005467398092150688,
+        -0.051716696470975876,
+        0.014591368846595287,
+        -0.012303332798182964,
+        -0.044616181403398514
+      ]
+    },
+    "a person speaking": {
+      "central_6s_target_to_source_rms_ratio": 0.027208678424358368,
+      "target_source_correlation": 0.4957539899520889,
+      "embedding_first_6": [
+        -0.03266097232699394,
+        0.005090902093797922,
+        -0.07270073145627975,
+        0.050638824701309204,
+        0.007260227110236883,
+        -0.014237204566597939
+      ]
+    },
+    "slow sustained synthesizer chords": {
+      "central_6s_target_to_source_rms_ratio": 0.9908949732780457,
+      "target_source_correlation": 0.9988184785536731,
+      "embedding_first_6": [
+        -0.048908427357673645,
+        0.02810436673462391,
+        -0.04045206308364868,
+        -0.006372158415615559,
+        -0.016873173415660858,
+        0.04341106116771698
+      ]
+    }
+  },
+  "alignment_check": {
+    "test_lag_range_samples": [
+      -16,
+      16
+    ],
+    "best_lag_samples": 0,
+    "best_correlation": 0.9999938657538685
+  },
+  "inference_script_sha256": "9869e02de77da75c69daf59179980aad175397dfdfba7ac2e143dd6d6ffbab1c",
+  "download_script_sha256": "e3486d7207b5be00088dc104c281e188895a5a526bd85e1a273a23a08eced1af"
+}

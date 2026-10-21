@@ -1,0 +1,552 @@
+{
+  "requested_by_user": true,
+  "scope": "All session-authored packages, source copies, rejected/test media and supplied thumbnail evidence; memory updates only for this session.",
+  "date": "2026-10-21",
+  "resume_date": "2026-10-25",
+  "base_commit": "eb9dfccef50855248aea663a9a824566c558fba3",
+  "branch": "main",
+  "remote": "https://github.com/BAcommander/colony.git",
+  "files": [
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/delivery-loudness.log",
+      "bytes": 1082470,
+      "sha256": "ad357b99cb5513910cc0527ff19b509fc97e87680ecee92d6670886d63e772b3",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/delivery-v1.json",
+      "bytes": 4635,
+      "sha256": "1799f63a870549593a7ac33cde6c777b9fe121f8376d0ca9c4f786c777b51464",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/edit_audio.py",
+      "bytes": 7187,
+      "sha256": "7de535b2c87849320e02c4a2adf1b39372228d64c5c166e0b1baccf8955126d8",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/final-signal-checks.json",
+      "bytes": 161,
+      "sha256": "ac478e99d8a15a23e4e2c28e45621536e6b1f348653a7b36e033cb72c4ca90c4",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/finalize_audio.py",
+      "bytes": 4304,
+      "sha256": "50cbe7c8fda5337abf3da6cc70c892741d7c507ce6adafb5aeb958bb3412792f",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/history/internal-unrepaired/delivery-v1.json",
+      "bytes": 2842,
+      "sha256": "165f0eb577125c9476bf711d9f36b8aaf1af39bfe344daf9ca146dd17e9c0ed0",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/history/internal-unrepaired/Illuminated-Horizon-Slow-Middle-v1.mp3",
+      "bytes": 24721054,
+      "sha256": "a2c373239c552dd63364f00fd58f83d267c9ded53fb7157240249a9dc5ae8163",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/history/internal-unrepaired/Illuminated-Horizon-Slow-Middle-v1.wav",
+      "bytes": 237295964,
+      "sha256": "d9493ab43209ec7e3ba9ce4f3997113714d2ed44f94ad43385c13cb4720fca81",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/history/internal-unrepaired/Return-Transition-Review-v1.mp3",
+      "bytes": 5602654,
+      "sha256": "04ae37262f18568989ee782e98eec48202babb64bd62be875c38468653ee30f3",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/history/internal-unrepaired/Slowing-Transition-Review-v1.mp3",
+      "bytes": 6802654,
+      "sha256": "e543b281bfde37059663fc400f854dd53a6296490407121855bc23585c5a98f2",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/Illuminated-Horizon-Slow-Middle-v1.mp3",
+      "bytes": 24717214,
+      "sha256": "f1a5fb77851ac7de9ccc34425f3762afce25739ced2990684ecb9b50530f1e18",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/Illuminated-Horizon-Slow-Middle-v1.wav",
+      "bytes": 177949122,
+      "sha256": "b3836dd7e3a6489c544e192057ee8ccc39fcaf4c22e574e7c5c56cd3c6ab0fa1",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/README.md",
+      "bytes": 3513,
+      "sha256": "30e15dbfadf7fa52ac35fc098c24c072a35bb6f7da439dae65dadf5fd5c1253d",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/render.log",
+      "bytes": 4829,
+      "sha256": "6f92ffe00b8518d2bd30d4ec64d7d58dc420b4287cddd586833cb20791550cda",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/Return-Transition-Review-v1.mp3",
+      "bytes": 5602604,
+      "sha256": "f4051d1d14c0acb32e352ef6b4faeda7b7ef1439af52f3892bc4a093c8a66178",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/Slowing-Transition-Review-v1.mp3",
+      "bytes": 6802604,
+      "sha256": "21cb6bb4479a0948df6007c7d7e87893748c2f3debb328466ff5cf1738a68bd5",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/source-original.mp4",
+      "bytes": 12757951,
+      "sha256": "a60986de41c0cd5418ad9dd56bdbf442ac01b8a284dd6f9b8a6c2930e39443db",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/source-probe.json",
+      "bytes": 3704,
+      "sha256": "5a43e84d394eb431a255b4984d8df2709ad1c02d07a7d23949fec5cef45015f4",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/tempo-commands.txt",
+      "bytes": 116937,
+      "sha256": "41d88cb44836c55fdeeac8ac298eeeb4a6f2fc4b4f5f562f2929790aaf697620",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-middle-v2/Ambient-Entry-Review-v2.mp3",
+      "bytes": 5202284,
+      "sha256": "48d83bebf039ecf2b14a8f67511e6cd2c9fe18c197fc7f37956487e164492612",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-middle-v2/Ambient-Middle-Review-45s.mp3",
+      "bytes": 1801964,
+      "sha256": "85eb02ebdde9660b8c9fd4550c47fcea77b6c5b766113f6becc3736d1ee6922b",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-middle-v2/build_ambient.py",
+      "bytes": 15138,
+      "sha256": "1628bffac0ebcadae3bc82ddc4aa5fa062af5bb533b9e9fa97699bec9f350d21",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-middle-v2/delivery-loudness.log",
+      "bytes": 893827,
+      "sha256": "db48f5b258f8812bd13279bdcea865817a5a847a3fa47bea8b5c366bd2658d4a",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-middle-v2/delivery-v2.json",
+      "bytes": 3360,
+      "sha256": "1d1f5ac0160ac7f8904b0e144141c7e2cc30264d071986aaf67f3fbfb4127735",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-middle-v2/Illuminated-Horizon-Ambient-Middle-v2.mp3",
+      "bytes": 20402015,
+      "sha256": "5293d80212fe3df302523a38f1aa6d88081225279cf90e0536df450ab8d3334d",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-middle-v2/Illuminated-Horizon-Ambient-Middle-v2.wav",
+      "bytes": 146880102,
+      "sha256": "43924c289d02824b82ca4103af09795c928e405a7028af2a69f4ae633a4ebd4f",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-middle-v2/Original-Middle-Level-Matched-45s.mp3",
+      "bytes": 1801964,
+      "sha256": "5ec6479536901b44b2693b7c5c793355012a909f679a5c080ecd820d5b336d8e",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-middle-v2/Pulse-Return-Review-v2.mp3",
+      "bytes": 4801964,
+      "sha256": "dd82f0f87598fa31dd5f8c618cfcdcf877d6b7487a46404947f456c1aac8e31c",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-middle-v2/README.md",
+      "bytes": 4174,
+      "sha256": "686ee22a52c0d1d3a312ba393f2ab8d56d4cb2d464d2f95012f442a35c2e194d",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/01-original-3m20-to-4m05.mp3",
+      "bytes": 1442348,
+      "sha256": "1be35985f1a86c4ca9c5dcfe5d3ef0946f3e16eb84804eb8b1f6b4389631df90",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/01-original-3m20-to-4m05.wav",
+      "bytes": 8640102,
+      "sha256": "d9b58179fca67d67f8199c7feae2597a3fd63a543015eb80c74d90825ca84b78",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/02-arpeggio-extracted.mp3",
+      "bytes": 1442348,
+      "sha256": "8b0fe8311224a315c8d67430bb05b475cb490bc2923c0e4edda33c2bfcfcedfc",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/02-arpeggio-extracted.wav",
+      "bytes": 8640102,
+      "sha256": "a339ee10e6a3b1274a573aee79054bb3e48a9078b670b42d672a5fdca11513e0",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/02-arpeggio-reduced.mp3",
+      "bytes": 1442348,
+      "sha256": "021c3ee2ccca7d76916a3ab6f76272c5b55dbc2fdd1171fb5e76de08a9298578",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/02-arpeggio-reduced.wav",
+      "bytes": 8640102,
+      "sha256": "3e83cb16c67838057023efe24abf42a5b6eb2fb478af46aee28340cbd8892cd5",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/02-arpeggio-removed.mp3",
+      "bytes": 1442348,
+      "sha256": "030c84b4d458ed7c69db0796fb33ad767e76cea5e2f4823baaec1595dbffdeaf",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/02-arpeggio-removed.wav",
+      "bytes": 8640102,
+      "sha256": "394152eb9604314fd64c033b019cc48858339745a17d6cca174a0a58129d8228",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/03-pulse-extracted.mp3",
+      "bytes": 1442348,
+      "sha256": "16922c5983a19c3bd58018fb49b4063d417485b9aeecd8f059f8e03c6b0ad4ef",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/03-pulse-extracted.wav",
+      "bytes": 8640102,
+      "sha256": "3989dbf14bfb6a538f094a45fa5bb0a8d37bd372ffaee107ab7840f18b2ca05b",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/03-pulse-reduced.mp3",
+      "bytes": 1442348,
+      "sha256": "c115ae7e5c3b72b597e89cdc871935ab6ad941fff350ac107522f49e3c63efe7",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/03-pulse-reduced.wav",
+      "bytes": 8640102,
+      "sha256": "d70f4587deb0acb41ef26e6e331cc6b9dab086d0e0cf7724fb0c0785406b05a6",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/03-pulse-removed.mp3",
+      "bytes": 1442348,
+      "sha256": "eb78cfbfdb8410fdb12678db3ac98884c6f701cfb476d5398c257a61a77f7893",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/03-pulse-removed.wav",
+      "bytes": 8640102,
+      "sha256": "4d6be6b540323d77b5784920ae29284935ec31a8762b0356f14e64a1b912ce42",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/04-sequence-extracted.mp3",
+      "bytes": 1442348,
+      "sha256": "a8d4083408a1564bbf23d9edfabf9f92158cf118190b1bde720d8c5dae4b169a",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/04-sequence-extracted.wav",
+      "bytes": 8640102,
+      "sha256": "4b920567d85e2df7cbeec661bb31224a0f12b89a261209dac38243001d6b7b05",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/04-sequence-reduced.mp3",
+      "bytes": 1442348,
+      "sha256": "5187c3e8c7f45092d0946c43a4f8f8b5b702356644a3d0c976629dc1862476e0",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/04-sequence-reduced.wav",
+      "bytes": 8640102,
+      "sha256": "ee7e54b1761bc73e1366ffed42869e7c70f87508952cdb24f0c47706f8fb4882",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/04-sequence-removed.mp3",
+      "bytes": 1442348,
+      "sha256": "bb3071e58a76acb602d922f9d4cf196359cc1a59b308a75be7d962ade78b2fbf",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/04-sequence-removed.wav",
+      "bytes": 8640102,
+      "sha256": "fc82380482711572e81f21596c9a6f7297cd83994751659711183c1c6cfa1a4c",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/checkpoint-key-summary.json",
+      "bytes": 3164,
+      "sha256": "647802098039a3a97f45661fdd2d5b168aca3097ae15a06c1a689b14e1fcb65d",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/comparison-analysis.json",
+      "bytes": 547,
+      "sha256": "e95a28e6841ce259f5ca62018918bac7e3014db1a791f1dabe2f04422076c5f0",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/delivery-test-v1.json",
+      "bytes": 10900,
+      "sha256": "d9e0448eb9728f5c793ea094762ae11f7a904c3f61eb473c6bb21112f3541fb4",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/download_assets.py",
+      "bytes": 2018,
+      "sha256": "e3486d7207b5be00088dc104c281e188895a5a526bd85e1a273a23a08eced1af",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/model-download-metadata.json",
+      "bytes": 381,
+      "sha256": "ce9349578145b827d6b321e24dc9f4925ae6e603f57dac4a611522fa587404bb",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/query-control-checks.json",
+      "bytes": 1482,
+      "sha256": "fc429a312cc2c0a5685eb379ebcab82665fa1166ad173957ec320d237da4b940",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/README.md",
+      "bytes": 5440,
+      "sha256": "1bcab1fbf36b92bdf8dbbe654919f45526270dd8121d6ccbe45cbd187f43b332",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/run_separation.py",
+      "bytes": 12259,
+      "sha256": "9869e02de77da75c69daf59179980aad175397dfdfba7ac2e143dd6d6ffbab1c",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-insert-v1/generation-feedback-v1.json",
+      "bytes": 932,
+      "sha256": "687d1832b00318f5b228f4bfc9765bad3c65918dd206b16a7792869fa29809ae",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-insert-v1/Open_Horizon_2026-10-21T155714.mp4",
+      "bytes": 208985,
+      "sha256": "d90073bd71ee960a713a69fdaaeadbb9ec2ca1f2fe0581008180ce4898843eff",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-insert-v1/prompt-v2-no-audio-reference.txt",
+      "bytes": 730,
+      "sha256": "2e23e24e1bc0c4345dc989a862262ed8f25b97f8b254c847da0a9d131ddd960d",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-insert-v1/prompt.txt",
+      "bytes": 782,
+      "sha256": "a567f0245c126e12599e226e60cb9861ce040435f7117056100a3aab0fe2fb13",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-insert-v1/README.md",
+      "bytes": 2345,
+      "sha256": "b9193991b153b4d74fb461a733078e986ae348ad70d947c8af4d642731994fe8",
+      "storage": "git"
+    },
+    {
+      "path": "music/sam-audio-separation-test-v1/check-access.cmd",
+      "bytes": 145,
+      "sha256": "eb56c7a82e6adfa36bd05f4d5fc03455cac04567aba7106f640f48c59090a7d8",
+      "storage": "git"
+    },
+    {
+      "path": "music/sam-audio-separation-test-v1/README.md",
+      "bytes": 2722,
+      "sha256": "378dfd7079c562cebc2e0175c693ccf2018a61b7acbdca33b220692520cc98cc",
+      "storage": "git"
+    },
+    {
+      "path": "music/sam-audio-separation-test-v1/sam_access.py",
+      "bytes": 3003,
+      "sha256": "a89778873251c49831a9aa59de0d6ebf0c6f7b6186c9c93373f9efb6103d192b",
+      "storage": "git"
+    },
+    {
+      "path": "music/sam-audio-separation-test-v1/sign-in.cmd",
+      "bytes": 144,
+      "sha256": "ad7b1d39bec30b16feeb48d414947b1798a64d52770861d121019594c6b2660d",
+      "storage": "git"
+    },
+    {
+      "path": "music/thumbnail-text-evidence-2026-10-21/README.md",
+      "bytes": 2625,
+      "sha256": "7fdabe3a4f2f75b8a91ffd2a100886a7e703f5d8b14231b0b27bed42b19fa996",
+      "storage": "git"
+    },
+    {
+      "path": "music/thumbnail-text-evidence-2026-10-21/reference-thumbnail-with-text.png",
+      "bytes": 1267075,
+      "sha256": "84b502b8713383bdec7abe92582aaaa29d8166beec144fd614ef03b6efa832b6",
+      "storage": "git"
+    },
+    {
+      "path": "music/thumbnail-text-evidence-2026-10-21/thumbnail-change-history.png",
+      "bytes": 1136343,
+      "sha256": "89eb7404e7405c3714b92dbc58ef829242c4b3db8f891b018f1cf3301de4a429",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-backup-2026-10-21/prepare_backup.py",
+      "bytes": 12513,
+      "sha256": "1cd2c986da574ed2081d140d3d052afbe9d72969bf227be0f8981f6c09a101e3",
+      "storage": "git"
+    },
+    {
+      "path": "music/illuminated-horizon-backup-2026-10-21/README.md",
+      "bytes": 4811,
+      "sha256": "ab7b463fbe20ce006d8aeecfc458cf03feb4a06d3c0169763270adbf03feb2c0",
+      "storage": "git"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 59115,
+      "sha256": "b3a43fc053b0bbdbbe4f9fe918207d4d8d4a6609c8c0f04c8ae20e2ca20581df",
+      "storage": "git",
+      "note": "Only session addition on HEAD is staged; unrelated worktree changes stay local."
+    },
+    {
+      "path": "creative/MUSIC_WORKFLOW.md",
+      "bytes": 27911,
+      "sha256": "6dbb6ff05e89ac3448193d2b24281e4ac3ac8e6da38dcdaf64d51d742249b7f5",
+      "storage": "git",
+      "note": "Only session addition on HEAD is staged; unrelated worktree changes stay local."
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "bytes": 27391,
+      "sha256": "86ec27122a83cc6905f55024857fad6a5a982c827a121dbcd895044e1c30a0b6",
+      "storage": "git",
+      "note": "Only session addition on HEAD is staged; unrelated worktree changes stay local."
+    },
+    {
+      "path": "final/THUMBNAIL_STYLE.md",
+      "bytes": 8978,
+      "sha256": "3aaee6086c435ce0fe778f770436abfd5ea8a16c6da57beed567d790dff92961",
+      "storage": "git",
+      "note": "Only session addition on HEAD is staged; unrelated worktree changes stay local."
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 11550,
+      "sha256": "d602059621545e88a7aeb6158e1704ffec13acb14f613e9b81307a9ca27e6895",
+      "storage": "git",
+      "note": "Only session addition on HEAD is staged; unrelated worktree changes stay local."
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 4956,
+      "sha256": "f5d5c2f0d4a800a3a7abd1fceaeb4e6f91c3c5aff1acb260f0e0cebcb246bdc5",
+      "storage": "git",
+      "note": "Only session addition on HEAD is staged; unrelated worktree changes stay local."
+    }
+  ],
+  "manifest_path": "music/illuminated-horizon-backup-2026-10-21/backup-manifest.json",
+  "manifest_self_hash": "Excluded from own file table; verify exact committed manifest separately.",
+  "excluded": [
+    {
+      "path": "music/illuminated-horizon-slow-middle-v1/__pycache__/edit_audio.cpython-312.pyc",
+      "reason": "regenerable cache, local Git preparation, self-manifest or post-push evidence"
+    },
+    {
+      "path": "music/illuminated-horizon-ambient-middle-v2/__pycache__/build_ambient.cpython-312.pyc",
+      "reason": "regenerable cache, local Git preparation, self-manifest or post-push evidence"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/arpeggio-target-raw.f32",
+      "reason": "regenerable cache, local Git preparation, self-manifest or post-push evidence"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/pulse-target-raw.f32",
+      "reason": "regenerable cache, local Git preparation, self-manifest or post-push evidence"
+    },
+    {
+      "path": "music/illuminated-horizon-separation-test-v1/sequence-target-raw.f32",
+      "reason": "regenerable cache, local Git preparation, self-manifest or post-push evidence"
+    },
+    {
+      "path": "music/illuminated-horizon-backup-2026-10-21/.local/index-versions/.gitattributes",
+      "reason": "regenerable cache, local Git preparation, self-manifest or post-push evidence"
+    },
+    {
+      "path": "music/illuminated-horizon-backup-2026-10-21/.local/index-versions/.gitignore",
+      "reason": "regenerable cache, local Git preparation, self-manifest or post-push evidence"
+    },
+    {
+      "path": "music/illuminated-horizon-backup-2026-10-21/.local/index-versions/AGENTS.md",
+      "reason": "regenerable cache, local Git preparation, self-manifest or post-push evidence"
+    },
+    {
+      "path": "music/illuminated-horizon-backup-2026-10-21/.local/index-versions/creative__MUSIC_WORKFLOW.md",
+      "reason": "regenerable cache, local Git preparation, self-manifest or post-push evidence"
+    },
+    {
+      "path": "music/illuminated-horizon-backup-2026-10-21/.local/index-versions/final__THUMBNAIL_STYLE.md",
+      "reason": "regenerable cache, local Git preparation, self-manifest or post-push evidence"
+    },
+    {
+      "path": "music/illuminated-horizon-backup-2026-10-21/.local/index-versions/PRODUCTION_PIPELINE.md",
+      "reason": "regenerable cache, local Git preparation, self-manifest or post-push evidence"
+    }
+  ],
+  "additional_exclusions": [
+    "music/.local model checkpoints, downloaded code/libraries and credentials",
+    "Unrelated pending Farpoint/Spirewatch/other-scene changes",
+    "Large unrelated long-form exports"
+  ],
+  "lfs_paths": [
+    "music/illuminated-horizon-slow-middle-v1/Illuminated-Horizon-Slow-Middle-v1.wav",
+    "music/illuminated-horizon-slow-middle-v1/history/internal-unrepaired/Illuminated-Horizon-Slow-Middle-v1.wav",
+    "music/illuminated-horizon-ambient-middle-v2/Illuminated-Horizon-Ambient-Middle-v2.wav"
+  ],
+  "index_versions": {
+    "AGENTS.md": "G:\\AI\\colony\\music\\illuminated-horizon-backup-2026-10-21\\.local\\index-versions\\AGENTS.md",
+    "creative/MUSIC_WORKFLOW.md": "G:\\AI\\colony\\music\\illuminated-horizon-backup-2026-10-21\\.local\\index-versions\\creative__MUSIC_WORKFLOW.md",
+    "PRODUCTION_PIPELINE.md": "G:\\AI\\colony\\music\\illuminated-horizon-backup-2026-10-21\\.local\\index-versions\\PRODUCTION_PIPELINE.md",
+    "final/THUMBNAIL_STYLE.md": "G:\\AI\\colony\\music\\illuminated-horizon-backup-2026-10-21\\.local\\index-versions\\final__THUMBNAIL_STYLE.md",
+    ".gitattributes": "G:\\AI\\colony\\music\\illuminated-horizon-backup-2026-10-21\\.local\\index-versions\\.gitattributes",
+    ".gitignore": "G:\\AI\\colony\\music\\illuminated-horizon-backup-2026-10-21\\.local\\index-versions\\.gitignore"
+  },
+  "ordinary_bytes": 226807754,
+  "lfs_bytes": 562125188,
+  "notes": [
+    "Commit/push request does not approve rejected music edits or the separation result.",
+    "No Sunday automation or paid generation is requested.",
+    "Remote backup is confirmed only by later independent fetch/content hash verification."
+  ]
+}

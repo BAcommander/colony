@@ -1,0 +1,17 @@
+{
+  "arpeggio": {
+    "source_rms_dbfs": -14.026627945080216,
+    "remainder_rms_relative_source_db": -22.03147712913139,
+    "target_source_correlation": 0.9968795954720332
+  },
+  "pulse": {
+    "source_rms_dbfs": -14.026627945080216,
+    "remainder_rms_relative_source_db": -23.401798975323995,
+    "target_source_correlation": 0.9977497191996617
+  },
+  "sequence": {
+    "source_rms_dbfs": -14.026627945080216,
+    "remainder_rms_relative_source_db": -51.84642578603984,
+    "target_source_correlation": 0.9999969480667277
+  }
+}

@@ -1,8 +1,10 @@
 # Ambient Colony music workflow
 
-Updated 2026-10-13. Current authority for music work; complements the visual animation workflow.
+Updated 2026-10-21. Current authority for music work; complements the visual animation workflow.
 
 ## Current state
+
+Illuminated Horizon / ambient-middle experiment (2026-10-21): user likes the original synth music but wants a less rhythmic middle and a gradual return. Original audio is 8:30; source MP4 and hashes are preserved in music/illuminated-horizon-slow-middle-v1/. User rejected v1 whole-mix slowdown as audibly stretched and v2 spectral reconstruction as a drone. AudioSep's genuine 45-second, three-prompt neural test selected almost the whole mix; subtracting it left remainders 22.03/23.40/51.85 dB below original RMS. Strict weight loading, negative-query controls and zero-lag checks passed; that is a failed musical separation, not a successful breakdown. SAM Audio has not run: access/sign-in helpers are prepared, authentication/model approval pending. User supplied eight-second Open Horizon; reports the arpeggio persists with the original as reference. Next manual generation attempt is planned for Sunday 2026-10-25 after the user's stated credit refresh: omit the arpeggiated audio reference, describe synth colour in text and retain changing harmony/sparse melody; confirm duration/budget then. The eight-second prompt records the earlier budget, not a Sunday duration commitment. No automatic spend or reminder authorized. See music/illuminated-horizon-backup-2026-10-21/README.md and backup-manifest.json; all session-authored packages, source copies and rejected/test media are selected for the requested backup. Downloaded models/libraries, credentials and regenerable PCM remain local. Backup and signal checks do not imply artistic acceptance.
 
 Ringfall: user generated music manually in ElevenLabs, selected a direction after short tests, supplied a longer export, and accepted the short crossfade audition with "yeah i couldn't relaly hear any transitions". A one-hour MP3 was made and fully decode-verified. Longer listening evaluation remains pending; do not claim final musical approval or that it is a completed video.
 
@@ -56,6 +58,16 @@ The sheltered-room/lightly-muffled prompt lost too much audible water detail for
 - Keep the very large combined exports local under exports/; back up code, sources selected for Git, short masters, prompts, settings and validation records. A Git push of records does not back up a 50 GB combined video. Preserve exact byte hashes for configs/renderers used in fingerprints.
 
 ## Evidence and analysis discipline
+
+## Stereo-master arrangement experiments — Illuminated Horizon, 2026-10-21
+
+- Slowing a finished stereo mix is not a composed breakdown. User rejected the pitch-preserving tempo edit because the stretching was audible. Spectral sustain/resynthesis suppressed measured pulse energy but was rejected as a drone: numeric gates do not establish musical detail or quality.
+- Source separation can only expose existing material. If the repeating synth carries most harmony/melody, removing it cannot reveal a rich ambient arrangement. Test a short, genuine neural separation before building an interface or processing the full track. Listen to original, extracted estimate and remainder at one shared gain; independently normalizing a nearly empty remainder hides collateral removal.
+- AudioSep was tested on original 3:20–4:05 with context and three descriptions; estimated targets correlated 0.99688–0.999997 with the original. Remainders fell 22.03–51.85 dB in RMS. Negative queries and strict checkpoint/zero-lag checks support a discrimination limitation on this sample. This is not a separation success. SAM Audio remains untested pending gated-model access.
+- User reports original-reference conditioning brings back the unwanted arpeggio, including the eight-second Open Horizon insert. Audio reference guides groove/instrumentation as well as timbre; text exclusions do not guarantee selective transfer. For the next contrast test, omit that audio reference and describe the palette in text, then check harmonic compatibility and joins. Do not infer key from prominent spectral peaks or claim listening from signal analysis.
+- User plans to resume Sunday 2026-10-25 after credits refresh. Earlier remaining budget was eight seconds; confirm the next duration instead of carrying that limit forward automatically. No assistant spending, generation, scheduled reminder, full-track remix or artistic approval is authorized by the backup request.
+
+Exact files, feedback and backup scope: [session checkpoint](../music/illuminated-horizon-backup-2026-10-21/README.md). [Official reference guidance checked 2026-10-21](https://elevenlabs.io/docs/overview/capabilities/music/best-practices).
 
 - No reliable assistant listening tool was available during these sessions. Distinguish signal measurements, user listening feedback, and creative suggestions.
 - Do not claim instrument identities, water/wind sources, reverb duration, BPM, key mode or absence of vocals solely from spectral analysis.

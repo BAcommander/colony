@@ -128,3 +128,12 @@ creative/brand/intro-v3/** -text whitespace=blank-at-eol,blank-at-eof,space-befo
 creative/brand/references/ambient-outpost-project-hades-2026-10-13/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 scripts/preview_colony_intro.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 creative/brand/intro-v3/tool-source-snapshot/colony/assets/fonts/OFL.txt -text whitespace=-blank-at-eol
+
+# Exact-byte session backup requested 2026-10-21: music experiments.
+music/illuminated-horizon-*/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/sam-audio-separation-test-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/thumbnail-text-evidence-2026-10-21/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/illuminated-horizon-*/*.log -text -diff
+music/illuminated-horizon-slow-middle-v1/Illuminated-Horizon-Slow-Middle-v1.wav filter=lfs diff=lfs merge=lfs -text
+music/illuminated-horizon-slow-middle-v1/history/internal-unrepaired/Illuminated-Horizon-Slow-Middle-v1.wav filter=lfs diff=lfs merge=lfs -text
+music/illuminated-horizon-ambient-middle-v2/Illuminated-Horizon-Ambient-Middle-v2.wav filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,135 @@
+{
+  "status": "rejected by user on 2026-10-21; preserved as history",
+  "source": "C:\\Users\\jazzs\\Downloads\\Illuminated_Horizon_2026-10-21T141941.mp4",
+  "source_sha256": "a60986de41c0cd5418ad9dd56bdbf442ac01b8a284dd6f9b8a6c2930e39443db",
+  "source_audio": {
+    "frames": 24480000,
+    "seconds": 510.0,
+    "finite": true,
+    "peak": 0.952754020690918,
+    "peak_dbfs": -0.42038419595569093,
+    "rms_dbfs": -13.727960512464392,
+    "samples_at_or_above_full_scale": 0
+  },
+  "delivery": {
+    "frames": 29658170,
+    "seconds": 617.8785416666667,
+    "finite": true,
+    "peak": 0.7949010133743286,
+    "peak_dbfs": -1.993738987169134,
+    "rms_dbfs": -17.98215569904134,
+    "samples_at_or_above_full_scale": 0
+  },
+  "method": "continuous FFmpeg Rubber Band tempo automation; pitch=1; linked stereo; 0.1 s cosine-ramp commands",
+  "minimum_tempo_ratio": 0.65,
+  "fixed_delivery_gain_db": -3.1126277845256913,
+  "expected_duration_s": 617.8779068759598,
+  "source_to_output_landmarks_s": {
+    "0": 0.0,
+    "90": 90.0,
+    "180": 201.6312611302876,
+    "300": 386.2466457456722,
+    "390": 497.8779068759598,
+    "510.0": 617.8779068759598
+  },
+  "middle_envelope_checks": [
+    {
+      "source_start_s": 195,
+      "mapped_output_start_s": 224.70818420721068,
+      "stretched_envelope_correlation": 0.550714299612593,
+      "best_offset_s": 0.10000000000000009
+    },
+    {
+      "source_start_s": 240,
+      "mapped_output_start_s": 293.93895343797993,
+      "stretched_envelope_correlation": 0.5168526753650919,
+      "best_offset_s": 0.10000000000000009
+    },
+    {
+      "source_start_s": 265,
+      "mapped_output_start_s": 332.4004918995184,
+      "stretched_envelope_correlation": 0.5924023420159835,
+      "best_offset_s": 0.09000000000000008
+    }
+  ],
+  "limits": [
+    "Existing repeating figures remain; no stems or beatless rearrangement.",
+    "Assistant measured signals; no continuous listening verdict.",
+    "Source ending retained; no new full-track fade or cadence.",
+    "No generation service, model installation, credits, commit or push."
+  ],
+  "outputs": {
+    "Illuminated-Horizon-Slow-Middle-v1.wav": "b3836dd7e3a6489c544e192057ee8ccc39fcaf4c22e574e7c5c56cd3c6ab0fa1",
+    "Illuminated-Horizon-Slow-Middle-v1.mp3": "f1a5fb77851ac7de9ccc34425f3762afce25739ced2990684ecb9b50530f1e18",
+    "Slowing-Transition-Review-v1.mp3": "21cb6bb4479a0948df6007c7d7e87893748c2f3debb328466ff5cf1738a68bd5",
+    "Return-Transition-Review-v1.mp3": "f4051d1d14c0acb32e352ef6b4faeda7b7ef1439af52f3892bc4a093c8a66178"
+  },
+  "master": {
+    "frames": 29658170,
+    "seconds": 617.8785416666667,
+    "finite": true,
+    "peak": 0.7943282723426819,
+    "peak_dbfs": -1.9999995886470454,
+    "rms_dbfs": -17.981968255405548,
+    "samples_at_or_above_full_scale": 0
+  },
+  "unrepaired_render_diagnostics": {
+    "frames": 29661984,
+    "seconds": 617.958,
+    "finite": true,
+    "peak": 2.029049873352051,
+    "peak_dbfs": 6.145854439487946,
+    "rms_dbfs": -14.875449121475908,
+    "samples_at_or_above_full_scale": 435
+  },
+  "repair": {
+    "reason": "Rubber Band EOF flush produced a large endpoint spike.",
+    "original_opening_restored_through_s": 80,
+    "opening_linear_cosine_blend_s": [
+      80,
+      85
+    ],
+    "source_tail_linear_cosine_blend_s": [
+      400,
+      410
+    ],
+    "tail_alignment_checks": [
+      {
+        "source_s": 420,
+        "correlation": 0.9980294015839737,
+        "offset_samples": 5178170
+      },
+      {
+        "source_s": 450,
+        "correlation": 0.9981760609778164,
+        "offset_samples": 5178170
+      },
+      {
+        "source_s": 480,
+        "correlation": 0.9957140194567954,
+        "offset_samples": 5178170
+      }
+    ],
+    "tail_shift_samples": 5178170,
+    "no_new_full_track_fades": true,
+    "first_80s_identical_to_source_before_fixed_gain": true,
+    "last_100s_identical_to_source_before_fixed_gain": true
+  },
+  "final_verification": {
+    "full_decode": "passed",
+    "integrated_loudness_lufs": -16.6,
+    "loudness_range_lu": 3.8,
+    "true_peak_dbfs": -2.0,
+    "signal_check_file": "final-signal-checks.json",
+    "loudness_log": "delivery-loudness.log"
+  },
+  "regenerable_pcm_caches_removed": [
+    "source-decoded.f32",
+    "edit-decoded.f32",
+    "delivery-decoded.f32",
+    "final-master.f32",
+    "final-delivery-decoded.f32"
+  ],
+  "user_feedback": "basically i can tell it is all being stretched / slowed down and it sounds crap",
+  "next_revision": "../illuminated-horizon-ambient-middle-v2/"
+}

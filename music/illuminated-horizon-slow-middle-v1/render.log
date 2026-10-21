@@ -1,0 +1,29 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'G:\AI\colony\music\illuminated-horizon-slow-middle-v1\source-original.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf59.27.100
+  Duration: 00:08:34.40, start: 0.000000, bitrate: 198 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 960x540 [SAR 1:1 DAR 16:9], 2 kb/s, 10 fps, 10 tbr, 10240 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc59.37.100 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 193 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_f32le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'G:\AI\colony\music\illuminated-horizon-slow-middle-v1\Illuminated-Horizon-Slow-Middle-v1.wav':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    ISFT            : Lavf63.1.100
+  Stream #0:0(und): Audio: pcm_f32le ([3][0][0][0] / 0x0003), 48000 Hz, stereo, flt, 3072 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.100 pcm_f32le
+      handler_name    : SoundHandler
+size=   13824KiB time=00:00:37.05 bitrate=3056.1kbits/s speed=72.9x elapsed=0:00:00.50    size=   32256KiB time=00:01:26.54 bitrate=3053.1kbits/s speed=84.5x elapsed=0:00:01.02    size=   38912KiB time=00:01:44.40 bitrate=3053.3kbits/s speed=67.8x elapsed=0:00:01.54    size=   44800KiB time=00:02:00.00 bitrate=3058.2kbits/s speed=58.4x elapsed=0:00:02.05    size=   50432KiB time=00:02:14.76 bitrate=3065.6kbits/s speed=52.4x elapsed=0:00:02.57    size=   55808KiB time=00:02:29.20 bitrate=3064.1kbits/s speed=48.3x elapsed=0:00:03.08    size=   60928KiB time=00:02:43.00 bitrate=3062.0kbits/s speed=45.2x elapsed=0:00:03.60    size=   66048KiB time=00:02:56.61 bitrate=3063.5kbits/s speed=42.9x elapsed=0:00:04.11    size=   71168KiB time=00:03:10.41 bitrate=3061.8kbits/s speed=41.1x elapsed=0:00:04.63    size=   76544KiB time=00:03:24.50 bitrate=3066.2kbits/s speed=39.7x elapsed=0:00:05.14    size=   81920KiB time=00:03:38.64 bitrate=3069.3kbits/s speed=38.6x elapsed=0:00:05.66    size=   87296KiB time=00:03:52.95 bitrate=3069.8kbits/s speed=37.7x elapsed=0:00:06.18    size=   92416KiB time=00:04:07.06 bitrate=3064.2kbits/s speed=36.9x elapsed=0:00:06.69    size=   97792KiB time=00:04:21.01 bitrate=3069.2kbits/s speed=36.2x elapsed=0:00:07.21    size=  102912KiB time=00:04:34.76 bitrate=3068.3kbits/s speed=35.6x elapsed=0:00:07.72    size=  108032KiB time=00:04:48.68 bitrate=3065.6kbits/s speed=  35x elapsed=0:00:08.24    size=  113152KiB time=00:05:02.30 bitrate=3066.3kbits/s speed=34.5x elapsed=0:00:08.75    size=  118528KiB time=00:05:16.22 bitrate=3070.6kbits/s speed=34.1x elapsed=0:00:09.27    size=  123648KiB time=00:05:30.36 bitrate=3066.1kbits/s speed=33.7x elapsed=0:00:09.78    size=  129024KiB time=00:05:44.25 bitrate=3070.3kbits/s speed=33.4x elapsed=0:00:10.30    size=  134144KiB time=00:05:57.87 bitrate=3070.7kbits/s speed=33.1x elapsed=0:00:10.82    size=  139008KiB time=00:06:11.22 bitrate=3067.5kbits/s speed=32.7x elapsed=0:00:11.33    size=  144128KiB time=00:06:24.48 bitrate=3070.9kbits/s speed=32.4x elapsed=0:00:11.85    size=  149248KiB time=00:06:38.32 bitrate=3069.4kbits/s speed=32.2x elapsed=0:00:12.36    size=  154368KiB time=00:06:51.69 bitrate=3071.7kbits/s speed=  32x elapsed=0:00:12.88    size=  159232KiB time=00:07:05.31 bitrate=3067.0kbits/s speed=31.7x elapsed=0:00:13.39    size=  164608KiB time=00:07:18.98 bitrate=3071.8kbits/s speed=31.5x elapsed=0:00:13.91    size=  169472KiB time=00:07:32.60 bitrate=3067.4kbits/s speed=31.4x elapsed=0:00:14.43    size=  174848KiB time=00:07:46.66 bitrate=3069.3kbits/s speed=31.2x elapsed=0:00:14.94    size=  179968KiB time=00:08:00.34 bitrate=3069.2kbits/s speed=31.1x elapsed=0:00:15.46    size=  184064KiB time=00:08:11.07 bitrate=3070.5kbits/s speed=30.7x elapsed=0:00:15.97    size=  190464KiB time=00:08:28.07 bitrate=3071.0kbits/s speed=30.8x elapsed=0:00:16.49    size=  199936KiB time=00:08:53.56 bitrate=3069.7kbits/s speed=31.4x elapsed=0:00:17.00    size=  209152KiB time=00:09:18.16 bitrate=3069.7kbits/s speed=31.9x elapsed=0:00:17.52    size=  219136KiB time=00:09:44.63 bitrate=3070.6kbits/s speed=32.4x elapsed=0:00:18.03    size=  228608KiB time=00:10:10.23 bitrate=3068.9kbits/s speed=32.9x elapsed=0:00:18.55    [out#0/wav @ 0000027193d031c0] video:0KiB audio:231734KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000039%
+size=  231734KiB time=00:10:17.95 bitrate=3072.0kbits/s speed=  33x elapsed=0:00:18.70    

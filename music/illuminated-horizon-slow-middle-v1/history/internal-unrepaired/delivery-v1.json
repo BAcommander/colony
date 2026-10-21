@@ -1,0 +1,76 @@
+{
+  "status": "local candidate; user listening review pending",
+  "source": "C:\\Users\\jazzs\\Downloads\\Illuminated_Horizon_2026-10-21T141941.mp4",
+  "source_sha256": "a60986de41c0cd5418ad9dd56bdbf442ac01b8a284dd6f9b8a6c2930e39443db",
+  "source_audio": {
+    "frames": 24480000,
+    "seconds": 510.0,
+    "finite": true,
+    "peak": 0.952754020690918,
+    "peak_dbfs": -0.42038419595569093,
+    "rms_dbfs": -13.727960512464392,
+    "samples_at_or_above_full_scale": 0
+  },
+  "unscaled_edit": {
+    "frames": 29661984,
+    "seconds": 617.958,
+    "finite": true,
+    "peak": 2.029049873352051,
+    "peak_dbfs": 6.145854439487946,
+    "rms_dbfs": -14.875449121475908,
+    "samples_at_or_above_full_scale": 435
+  },
+  "delivery": {
+    "frames": 29661984,
+    "seconds": 617.958,
+    "finite": true,
+    "peak": 0.8052265644073486,
+    "peak_dbfs": -1.8816381236253008,
+    "rms_dbfs": -23.021508151186296,
+    "samples_at_or_above_full_scale": 0
+  },
+  "method": "continuous FFmpeg Rubber Band tempo automation; pitch=1; linked stereo; 0.1 s cosine-ramp commands",
+  "minimum_tempo_ratio": 0.65,
+  "fixed_delivery_gain_db": -8.145854439487948,
+  "expected_duration_s": 617.8779068759598,
+  "source_to_output_landmarks_s": {
+    "0": 0.0,
+    "90": 90.0,
+    "180": 201.6312611302876,
+    "300": 386.2466457456722,
+    "390": 497.8779068759598,
+    "510.0": 617.8779068759598
+  },
+  "middle_envelope_checks": [
+    {
+      "source_start_s": 195,
+      "mapped_output_start_s": 224.70818420721068,
+      "stretched_envelope_correlation": 0.550714299612593,
+      "best_offset_s": 0.10000000000000009
+    },
+    {
+      "source_start_s": 240,
+      "mapped_output_start_s": 293.93895343797993,
+      "stretched_envelope_correlation": 0.5168526753650919,
+      "best_offset_s": 0.10000000000000009
+    },
+    {
+      "source_start_s": 265,
+      "mapped_output_start_s": 332.4004918995184,
+      "stretched_envelope_correlation": 0.5924023420159835,
+      "best_offset_s": 0.09000000000000008
+    }
+  ],
+  "limits": [
+    "Existing repeating figures remain; no stems or beatless rearrangement.",
+    "Assistant measured signals; no continuous listening verdict.",
+    "Source ending retained; no new full-track fade or cadence.",
+    "No generation service, model installation, credits, commit or push."
+  ],
+  "outputs": {
+    "Illuminated-Horizon-Slow-Middle-v1.wav": "d9493ab43209ec7e3ba9ce4f3997113714d2ed44f94ad43385c13cb4720fca81",
+    "Illuminated-Horizon-Slow-Middle-v1.mp3": "a2c373239c552dd63364f00fd58f83d267c9ded53fb7157240249a9dc5ae8163",
+    "Slowing-Transition-Review-v1.mp3": "e543b281bfde37059663fc400f854dd53a6296490407121855bc23585c5a98f2",
+    "Return-Transition-Review-v1.mp3": "04ae37262f18568989ee782e98eec48202babb64bd62be875c38468653ee30f3"
+  }
+}
