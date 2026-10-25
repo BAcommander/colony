@@ -1,0 +1,228 @@
+{
+  "date": "2026-10-25",
+  "catalog_number": "13",
+  "status": "20-second 720p30 silent animation candidate; technical checks passed, user playback review pending",
+  "artwork_feedback": "looks good i think",
+  "artwork_selected_for_animation": true,
+  "motion_user_approved": false,
+  "method": "Local source-texture transport and masked procedural compositing",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "preview_dimensions": [
+    1280,
+    720
+  ],
+  "preview": "Below-the-Snowline-v1-preview-20s.mp4",
+  "repeat_review": "Below-the-Snowline-v1-three-loops-60s.mp4",
+  "source_sha256": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+  "files": {
+    "__pycache__/render.cpython-312.pyc": {
+      "sha256": "73d2dbc220f37ca306e2589dbf1127a6922ae4ad99fa5b812850a165593d583f",
+      "bytes": 23679
+    },
+    "analytic-validation.json": {
+      "sha256": "d257f04906d30e8817d6d45c909072a30cb6b313f1ea286dccb258bd71f20cab",
+      "bytes": 1619
+    },
+    "Below-the-Snowline-v1-preview-20s.mp4": {
+      "sha256": "79866ade5a30ffbe6c55d27006f69a802f8f26880fd7b1c106d2b7f3cec21dac",
+      "bytes": 17783713
+    },
+    "Below-the-Snowline-v1-three-loops-60s.mp4": {
+      "sha256": "ff68b62796aa3a8fd9f01ebca3e8ccf97eb7f9373599d845cd0578ce2f465797",
+      "bytes": 53349471
+    },
+    "contact_review.py": {
+      "sha256": "fe3f234f69fc134a9a44c3adc93871fd3b41bec041651c0c266a5622a1273cec",
+      "bytes": 402
+    },
+    "decoded-0000.png": {
+      "sha256": "d63a25fb0f3ec430dcfab974ddfec1fdeabadbc201b0690baf46ab1f12a334bf",
+      "bytes": 1240343
+    },
+    "decoded-0120.png": {
+      "sha256": "619040a768e25f70c5250956c0401ec56d321fbd3c29e68eb7f2b9b8bc37e6b1",
+      "bytes": 1242156
+    },
+    "decoded-0240.png": {
+      "sha256": "43aded8000de1f4f8931fa6e207f053339e998f61de0c6c876d1a070a2aa188e",
+      "bytes": 1243569
+    },
+    "decoded-0360.png": {
+      "sha256": "1d9c853bdf439398a984e0bc91d78d44543534d0a1e2c083537929bf9ce43dba",
+      "bytes": 1241248
+    },
+    "decoded-0480.png": {
+      "sha256": "669646903186a5ce4c77f12a933e5a324c407088bad036ccda17dd6949810a11",
+      "bytes": 1242640
+    },
+    "decoded-0599.png": {
+      "sha256": "a194ecc41b740a5b9a23d3921bf4704c9f56981786a1b259e0ae1ac023942ef8",
+      "bytes": 1240970
+    },
+    "direct-validation.json": {
+      "sha256": "5ce1e97f0a8515c224edf8f0009aba20528e4e01db77f826c6b275285f23392a",
+      "bytes": 1440
+    },
+    "history/first-study/render.py": {
+      "sha256": "d02c4bb30f1de2389e864d2c7a821eabe1ff9fcea8df196d5e9e6a1430cece51",
+      "bytes": 9004
+    },
+    "history/first-study/sample-4.000.png": {
+      "sha256": "f51d5c8fa4a38bdbd67f8a45ac1125c48fe271c3ae95b8ef0ca47094fd9d1707",
+      "bytes": 2205320
+    },
+    "history/first-study/scene.json": {
+      "sha256": "bbcd5114dc806b21ad218cce75f348b336cedd2ce6ea7475f752e691734ca542",
+      "bytes": 2972
+    },
+    "interior-decoded-4.png": {
+      "sha256": "9f5462ff7b6eaf6a5d70e5b1c244c363b1ee985725b0e585eff5aefcf99717ce",
+      "bytes": 1254091
+    },
+    "interior-isolated-8s.mp4": {
+      "sha256": "0ebbea798a31b628208790ff665ffee0889e45f991eaff642e094ef87f11bdd8",
+      "bytes": 845159
+    },
+    "interior-temporal-review.png": {
+      "sha256": "0043a32fa7e1571d73691465bd015e0d191e2f10ac9e1c8b52f72fd28b273bf5",
+      "bytes": 400114
+    },
+    "isolated-validation.json": {
+      "sha256": "e9d782f7e9e16d6d202399e1536368908e07bc4a5dd0477495318cd21060ff52",
+      "bytes": 9176
+    },
+    "lighting-isolated-8s.mp4": {
+      "sha256": "d2aabbb5dfefdd3b3fadbad1f1293bb8af7db3f6c9066c5336bb894b2cbe01a2",
+      "bytes": 613473
+    },
+    "mask-review.png": {
+      "sha256": "6f0e9c3b12935333b4255a1ca09de8eced2ba27bfe7759f31256c622a589af82",
+      "bytes": 2140081
+    },
+    "masks/coffee_steam.png": {
+      "sha256": "8b24d1a09ab83877ea8acecbdf0cd3b311404a80ed6d82d9e618228e426235a4",
+      "bytes": 2603
+    },
+    "masks/far_powder.png": {
+      "sha256": "64bef90e21501f1b713087abf2fde214a7a39efcd87be0f33d3fcac27bccb8b8",
+      "bytes": 4353
+    },
+    "masks/ledge_spindrift.png": {
+      "sha256": "55a328d9e1e9255fe225f1e554e3ada1733eb03625aaa6f30fc5ec5d1c1da39f",
+      "bytes": 2427
+    },
+    "masks/ravine_mist.png": {
+      "sha256": "2bbb8099223338434c030988a8234ac03caea3000e4b6b0e8019307e5a38e135",
+      "bytes": 5611
+    },
+    "masks/sky.png": {
+      "sha256": "82f3638fcfaafd73c3ab2f92b2b92768e68e533aafe52db72ff390dbc26af5a0",
+      "bytes": 8045
+    },
+    "masks/snow.png": {
+      "sha256": "44a90c17efd317e1db13f8023babd753182cb526841125be2a71aac1f1eb24eb",
+      "bytes": 5360
+    },
+    "masks/terminals.png": {
+      "sha256": "c4bf97c75fab99285b5d8506cbc1bccae89236586c7c785a977d1e90a44274f2",
+      "bytes": 2433
+    },
+    "masks/windows.png": {
+      "sha256": "d289a8c6f4a8d812338f1ec267f3a0e679943091b623cb2d2417dd63babd592a",
+      "bytes": 2097
+    },
+    "package.py": {
+      "sha256": "62ea98ac512d6f2cb4857c17ece44d51e84159924487f480a84f6300e27fa162",
+      "bytes": 6434
+    },
+    "preview-validation.json": {
+      "sha256": "59b63f304677fc844c9bdc4d315c759a2d687b1c19c644075e00c33e8aef8b93",
+      "bytes": 8090
+    },
+    "README.md": {
+      "sha256": "417d40df76fead599f48a7cf4aa039d7139340a67c09bd77ee5052534a5c2ed0",
+      "bytes": 3041
+    },
+    "refined-8.png": {
+      "sha256": "98bd00b6d643d40dc837a2cbfd37cd02f8953c91ac9b8fca65be4bf619494384",
+      "bytes": 2209440
+    },
+    "render.py": {
+      "sha256": "838c4d0ec15fa85b43be7913ba4b37e99aa28e7a4e34c2a12a86704e13e4f373",
+      "bytes": 9118
+    },
+    "review_tools.py": {
+      "sha256": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f",
+      "bytes": 3964
+    },
+    "sample-0.000.png": {
+      "sha256": "e1613ac2f69f171821270dc13bbecf42a70f64590a2ecc6d48ec5505ac1b15ba",
+      "bytes": 2195153
+    },
+    "sample-12.000.png": {
+      "sha256": "3746cee891a14ac2e6b94ba2d434434ff51e44f5b29654828dab2470f5ff48fe",
+      "bytes": 2204463
+    },
+    "sample-16.000.png": {
+      "sha256": "ff94ba441d4d19700f292d3c77ce1d87f3d807c445d54f6e0ddc07d367d8fc8f",
+      "bytes": 2203910
+    },
+    "sample-19.967.png": {
+      "sha256": "56e9b5fa80b484d92faae0888d568cee883e516aafac64f5fb3e2e4f81d6d2c2",
+      "bytes": 2197594
+    },
+    "sample-2.000.png": {
+      "sha256": "3d0f63a22c96efe91dfd25c521bb8da316de65e9734151f7b4a690cfaf64c9db",
+      "bytes": 2198679
+    },
+    "sample-4.000.png": {
+      "sha256": "f1ee703c7bf654136bf01774d50c620ebfde1565bb5808f07013a56e63c334c0",
+      "bytes": 2199086
+    },
+    "sample-8.000.png": {
+      "sha256": "98bd00b6d643d40dc837a2cbfd37cd02f8953c91ac9b8fca65be4bf619494384",
+      "bytes": 2209440
+    },
+    "scene.json": {
+      "sha256": "bbcd5114dc806b21ad218cce75f348b336cedd2ce6ea7475f752e691734ca542",
+      "bytes": 2972
+    },
+    "sky-isolated-8s.mp4": {
+      "sha256": "7503e7cc21d347c802df3c2fb7f7422a602ec5123ebc8eb2cff71ca9d244f2b5",
+      "bytes": 4427195
+    },
+    "source.png": {
+      "sha256": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+      "bytes": 2284812
+    },
+    "steam-study.png": {
+      "sha256": "ea1ea98402dbcb86efbcdbef2b19e659b174f9a2774d5ed0940b057677fbbff3",
+      "bytes": 121672
+    },
+    "verify_direct.py": {
+      "sha256": "8f0c96fa9e3de9707b4fae0745678733c50029b2ff94ad2c0f67963916c8145d",
+      "bytes": 1115
+    },
+    "weather-decoded-4.png": {
+      "sha256": "9186c1edd82db63b6e2ec905ad5e38598e1bc355acb57d4b69f51ab65a499c16",
+      "bytes": 1247260
+    },
+    "weather-isolated-8s.mp4": {
+      "sha256": "d223aa8fe3ea0d23a7f6b621eebff1b60e32145ddfda3bb681922d674c19707e",
+      "bytes": 6689670
+    }
+  },
+  "review": "Source/mask/temporal/decoded still inspection only. No continuous playback claimed.",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "ffmpeg": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "numpy": "2.4.4",
+    "opencv": "5.0.0",
+    "pillow": "12.2.0"
+  },
+  "backup": "Local files only; no commit or push."
+}

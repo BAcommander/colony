@@ -141,3 +141,12 @@ music/illuminated-horizon-ambient-middle-v2/Illuminated-Horizon-Ambient-Middle-v
 # Preserve exact Spirewatch rebuild and finishing checkpoint bytes.
 music/spirewatch-animation-v[4-8]/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 music/spirewatch-artwork-rebuild-v1/** -text
+
+# Snowline source records preserve exact bytes; only short previews use LFS.
+final/13-below-the-snowline/ice-planet-retheme-v1/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+final/13-below-the-snowline/ice-planet-retheme-v2/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+final/13-below-the-snowline/ice-planet-retheme-v3/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+music/below-the-snowline-animation-v1/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+music/below-the-snowline-animation-v2/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+music/below-the-snowline-animation-v1/Below-the-Snowline-v1-preview-20s.mp4 filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-animation-v2/Below-the-Snowline-v2-preview-20s.mp4 filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-25",
+  "status": "Artwork selected; animation v1 lives at music/below-the-snowline-animation-v1 and awaits motion review",
+  "method": "Built-in imagegen edit using user-supplied Hoth ion cannon screenshot as visual reference",
+  "source": "../ice-planet-retheme-v2/artwork-v4.png",
+  "source_sha256": "00c1e9fffb9e28ba0f99a272b18c05b2df5900202bd10559393dedb5be250a94",
+  "artwork": "artwork-v5.png",
+  "sha256": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "prompt": "generation-prompt.txt",
+  "user_approved": true,
+  "review": "Still inspected: one snow-buried spherical ion cannon on left exterior plateau beside dish; idle with angled barrel. Terminals and scene composition visually retained; not pixel-identical. No animation review.",
+  "approval_scope": "Artwork selected for animation: looks good i think"
+}

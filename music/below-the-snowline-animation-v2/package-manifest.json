@@ -1,0 +1,282 @@
+{
+  "date": "2026-10-25",
+  "status": "V2 animation and Hoth thumbnail candidates; technical checks passed; user review pending",
+  "user_approved": false,
+  "source_sha256": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "method": "Local masked compositing; thumbnail generated separately with built-in imagegen",
+  "thumbnail": {
+    "master": "thumbnail-v2.png",
+    "upload": "thumbnail-v2.jpg",
+    "prompt": "thumbnail-prompt.txt",
+    "reference": "music/spirewatch-animation-v4/thumbnail-v1.png",
+    "reference_sha256": "8032a7e8e61fc057954655267dfe1ce23b23a2c5ed64a09d49b32917eb264270",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "scene_changes": "Generated marketing adaptation; composition/lighting differs. Not an animation plate."
+  },
+  "review": "Temporal/decoded still inspection; not continuous playback",
+  "files": {
+    "analytic-validation.json": {
+      "sha256": "ebb2ef403903f844aca2e00056584c75ddc19c476b9e70229ecde5dd8e979971",
+      "bytes": 2336
+    },
+    "audit.py": {
+      "sha256": "a72a0516a816724815a0e36f572488d33680a4109af02e7dca5cd9a5b2145ca7",
+      "bytes": 1312
+    },
+    "baseline.py": {
+      "sha256": "40a7f7badaf84617c229a6795184d61a308ee9ef3076a768694b8c613ddcf47d",
+      "bytes": 9348
+    },
+    "base_activity-isolated-8s.mp4": {
+      "sha256": "950faca7e50cc6780268af83c4b4a1796b2a7242e29b5b94bf7a85609cb4c99c",
+      "bytes": 646780
+    },
+    "Below-the-Snowline-v2-preview-20s.mp4": {
+      "sha256": "8c45915b623a26a4968938c3ae1615ab02640563773d96aa868b3d8bbd641df3",
+      "bytes": 18041322
+    },
+    "Below-the-Snowline-v2-three-loops-60s.mp4": {
+      "sha256": "d0138a0d2cb8cb4db7d323daa2a959d0ced03fe8b43f3c926903f6f51436d06e",
+      "bytes": 54122266
+    },
+    "bridge-grid.png": {
+      "sha256": "7e2e490df1587378beec4859d463196b72ab889c9e383816fd59c01da626472f",
+      "bytes": 241583
+    },
+    "buttons-grid.png": {
+      "sha256": "c3129181f8e93becaad636d1a96886bcc7455e49b597ffd98f683745345a4a64",
+      "bytes": 171853
+    },
+    "controls-decoded-3.png": {
+      "sha256": "886a3ef66a9b6d1258a8854642664ec1e49300f45662f9c5064bfc583e592801",
+      "bytes": 1253636
+    },
+    "controls-detail.png": {
+      "sha256": "3b277ca556751eb4e93139f466f407ca8f67e014f980d8ef22369e79f91f5698",
+      "bytes": 391113
+    },
+    "controls-isolated-8s.mp4": {
+      "sha256": "b3b10adcbaf288a1cc5bb59d958f852b517ed83b14241f7434980838c9a87aae",
+      "bytes": 887179
+    },
+    "decoded-0000.png": {
+      "sha256": "6350f435b79e176f9980f9f3a5b9bb0d9d907616bd402b522a2f6ab388dcab16",
+      "bytes": 1239794
+    },
+    "decoded-0120.png": {
+      "sha256": "6b957368aa9577c826cb0f4c97d2fc9aca310962f079495d55d27d13b12b866b",
+      "bytes": 1241943
+    },
+    "decoded-0240.png": {
+      "sha256": "660a464ed3623cf8b5277edde51924b8ccdfea92bc3117b8967f4953c4e8cbc6",
+      "bytes": 1243078
+    },
+    "decoded-0360.png": {
+      "sha256": "fbb7b808041c3eb44b492e85e476ae58d7b0ae16da1272013a5e842850c8663d",
+      "bytes": 1240431
+    },
+    "decoded-0480.png": {
+      "sha256": "7dbe121cb265e335331bd40b7de81cd692604622ea00622bf20f50a9d52d704a",
+      "bytes": 1242458
+    },
+    "decoded-0599.png": {
+      "sha256": "bdc34d668faf61ab6c8cfd9bbea00da9c5bd6d9443cceb2b9198402971696390",
+      "bytes": 1240304
+    },
+    "detail_review.py": {
+      "sha256": "9fc507ac82a0b4aa22a90d63629f5096371c7f986176fc5a8ecf207d415cc21e",
+      "bytes": 616
+    },
+    "direct-validation.json": {
+      "sha256": "488d343ebdf52150e6a72c3121f08e39bbe03fa85f31587ee5a2e6d5caffa3ab",
+      "bytes": 1528
+    },
+    "dish-before-after.png": {
+      "sha256": "1c313440c469aa14273511e42ee758124d2a8d27882d6ff3f02f877536c5c47a",
+      "bytes": 204056
+    },
+    "dish-detail.png": {
+      "sha256": "8713a100afb7b86294d937eb5d5b3519d49f0f3a4cf9aeaaffcc101accb6dffa",
+      "bytes": 199806
+    },
+    "habitat-detail.png": {
+      "sha256": "24f1ca8781d91c3357be7f2827a8e018b1212c9b7ebb143625606c4bbebb0035",
+      "bytes": 284956
+    },
+    "isolated-validation.json": {
+      "sha256": "090afd04b0860eae003652a1fbf19822eb9e718a0de3adddcde05a56c5c91424",
+      "bytes": 7113
+    },
+    "keys-grid.png": {
+      "sha256": "7f203f0b9734c446aff41e9aec38b782ffd0a23eb26e566192959c813ac63d71",
+      "bytes": 324121
+    },
+    "package.py": {
+      "sha256": "647e27519c65fd60bdcad4c6dfdde49093d22a6c0a0b43631e4ba84b20a43ce9",
+      "bytes": 6357
+    },
+    "prepare.py": {
+      "sha256": "c0f486e811fac20c773c8d60f37990a259436757c548497e85615dddf578c5a5",
+      "bytes": 2838
+    },
+    "preview-validation.json": {
+      "sha256": "af5f061908153f755bcf9069fd9e7daf1a7ce31b7db9d041aee344e6925a2788",
+      "bytes": 10418
+    },
+    "README.md": {
+      "sha256": "801031335a83b94977ce9c8927c74a1a420047295f534cffc7e8806688b13248",
+      "bytes": 3739
+    },
+    "regression-validation.json": {
+      "sha256": "5c1216e735e5d00ef6273ca37e1858836d3223c821761dd04b749e227f863814",
+      "bytes": 1134
+    },
+    "render.py": {
+      "sha256": "799aaa1ebaf841cf555796272cc4f9ccfd37142e29e766ef76dbd881ca6a9711",
+      "bytes": 7277
+    },
+    "review_tools.py": {
+      "sha256": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f",
+      "bytes": 3964
+    },
+    "sample-0.000.png": {
+      "sha256": "e1d31d7e9bba6c074f0be65b7c6b6a39a7e3f2e4bd7d61f348b44bac7045ba5a",
+      "bytes": 2194317
+    },
+    "sample-12.000.png": {
+      "sha256": "2e166b0958b791df810b8bf562956a25b2b4918c7c9a96c2f71b5481a510054c",
+      "bytes": 2203092
+    },
+    "sample-16.000.png": {
+      "sha256": "4778d0ef14877641cd14073cfdeb47d1a931f42ebb9b41284e22d4100cbe0c39",
+      "bytes": 2203048
+    },
+    "sample-19.967.png": {
+      "sha256": "68d4505b19887929ce1b620242ae3df8432d3ea841e6136dcdd40b3effaff325",
+      "bytes": 2196652
+    },
+    "sample-2.000.png": {
+      "sha256": "389f675807035f230a09bda28ef190854eb84ecba30fcbfc01d0abc98e822a16",
+      "bytes": 2198068
+    },
+    "sample-4.000.png": {
+      "sha256": "57b147e1bcf370c1545d7b39d3ac537a26abbd198088b4ac9c80fbed006a03a0",
+      "bytes": 2198239
+    },
+    "sample-8.000.png": {
+      "sha256": "44ed52616c3dbdaa0707c0d6691d5f7549cf63a72e83b3dda580ec231d826e27",
+      "bytes": 2208286
+    },
+    "scene.json": {
+      "sha256": "9aace7b806561de023c663cf63561980356de2a9edf461c59187f9b5d5040aef",
+      "bytes": 15015
+    },
+    "sky-decoded-4.png": {
+      "sha256": "50c48dddf4b54fec1db8ee3251ec1d1eabd1efcdf0a357a62c1b0c72e80cefab",
+      "bytes": 1248483
+    },
+    "sky-isolated-8s.mp4": {
+      "sha256": "a4eaa49c2c9dd86b36295e2a551527f549f755234b7e70171b9ee7bd4efb3f11",
+      "bytes": 4379636
+    },
+    "source.png": {
+      "sha256": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+      "bytes": 2284812
+    },
+    "thumbnail-prompt.txt": {
+      "sha256": "ad1c0b4eb6857b2f0c9d5189fe63d2135bc02ed311515d0b767add37c75ecf66",
+      "bytes": 1459
+    },
+    "thumbnail-v2.jpg": {
+      "sha256": "27f4c697834006e64315552572f39f8d65e09eecce19538b3316afece03824a9",
+      "bytes": 413634
+    },
+    "thumbnail-v2.png": {
+      "sha256": "bd82db0e0cf400a88ca32ae3c1e9bfd778857ba3b6c5a6978dc5fb8df7b923a2",
+      "bytes": 2445812
+    },
+    "user-dish-glitch.png": {
+      "sha256": "4b4f89c4bf9826e24f8bfb155cb73d9799a08ab0274f1f42ab3fcc4583e95362",
+      "bytes": 21838
+    },
+    "verify_direct.py": {
+      "sha256": "a4eebbd71ea5ce46ab57b1c3356c8666900a2111c75e66b7ec6fd5a0fa579501",
+      "bytes": 1117
+    },
+    "masks/bridge_lights.png": {
+      "sha256": "e541b895155417938e101e580893d4bcd84106843fa6cbb5cf317005dcbe7118",
+      "bytes": 1970
+    },
+    "masks/buttons.png": {
+      "sha256": "e6be3b87f96747a5999d8b492cd7e2dcc8e0e89b1ec45cbff45be5764e9df517",
+      "bytes": 2021
+    },
+    "masks/coffee_steam.png": {
+      "sha256": "8b24d1a09ab83877ea8acecbdf0cd3b311404a80ed6d82d9e618228e426235a4",
+      "bytes": 2603
+    },
+    "masks/far_powder.png": {
+      "sha256": "64bef90e21501f1b713087abf2fde214a7a39efcd87be0f33d3fcac27bccb8b8",
+      "bytes": 4353
+    },
+    "masks/habitat_activity.png": {
+      "sha256": "0e27f8d166a6b5efe95175ca0f591741a5cffef70ff712daf7ca3790cfeb4093",
+      "bytes": 1719
+    },
+    "masks/keys.png": {
+      "sha256": "0b0e59c95322d6a2b66cfd5832d2ce3dbaa7ee1ba3cf38fbd5cf04eba7e3a226",
+      "bytes": 1923
+    },
+    "masks/ledge_spindrift.png": {
+      "sha256": "55a328d9e1e9255fe225f1e554e3ada1733eb03625aaa6f30fc5ec5d1c1da39f",
+      "bytes": 2427
+    },
+    "masks/ravine_mist.png": {
+      "sha256": "2bbb8099223338434c030988a8234ac03caea3000e4b6b0e8019307e5a38e135",
+      "bytes": 5611
+    },
+    "masks/room_practical.png": {
+      "sha256": "5ac5f9056b1de558140a0dd11e99fa5f25670988d14a883a92ff3293371396d5",
+      "bytes": 7165
+    },
+    "masks/sky.png": {
+      "sha256": "785cd309e90156acf6ca8cbdf4e5dbe083d36d5b9b82bd5c7e217a85c616de61",
+      "bytes": 7761
+    },
+    "masks/snow.png": {
+      "sha256": "44a90c17efd317e1db13f8023babd753182cb526841125be2a71aac1f1eb24eb",
+      "bytes": 5360
+    },
+    "masks/terminals.png": {
+      "sha256": "c4bf97c75fab99285b5d8506cbc1bccae89236586c7c785a977d1e90a44274f2",
+      "bytes": 2433
+    },
+    "masks/windows.png": {
+      "sha256": "d289a8c6f4a8d812338f1ec267f3a0e679943091b623cb2d2417dd63babd592a",
+      "bytes": 2097
+    },
+    "__pycache__/render.cpython-312.pyc": {
+      "sha256": "8cc8aede8d5dcafcd1a6b96c1ae4936a0bf097c99ddeee1f1574124c0066b23e",
+      "bytes": 19517
+    },
+    "history/first-light-masks/render.py": {
+      "sha256": "657fbd9d9349686ca1c494345b160613195d1a0510f0506bd0f2274d5ee7d470",
+      "bytes": 7035
+    },
+    "history/first-light-masks/sample-4.000.png": {
+      "sha256": "29f71f9b3a049333d2f12c3237151c1d9e42ec0966438b34b19a683bfc0a2007",
+      "bytes": 2198822
+    },
+    "history/first-light-masks/scene.json": {
+      "sha256": "9aace7b806561de023c663cf63561980356de2a9edf461c59187f9b5d5040aef",
+      "bytes": 15015
+    }
+  }
+}

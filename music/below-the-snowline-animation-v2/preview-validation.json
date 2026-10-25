@@ -1,0 +1,309 @@
+{
+  "fingerprint": {
+    "source.png": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+    "scene.json": "9aace7b806561de023c663cf63561980356de2a9edf461c59187f9b5d5040aef",
+    "baseline.py": "40a7f7badaf84617c229a6795184d61a308ee9ef3076a768694b8c613ddcf47d",
+    "render.py": "799aaa1ebaf841cf555796272cc4f9ccfd37142e29e766ef76dbd881ca6a9711",
+    "review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f"
+  },
+  "clips": [
+    {
+      "path": "Below-the-Snowline-v2-preview-20s.mp4",
+      "sha256": "8c45915b623a26a4968938c3ae1615ab02640563773d96aa868b3d8bbd641df3",
+      "seconds": 20,
+      "frames": 600,
+      "layer": "combined",
+      "command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-n",
+        "-f",
+        "rawvideo",
+        "-pix_fmt",
+        "rgb24",
+        "-s",
+        "1672x941",
+        "-r",
+        "30",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-vf",
+        "scale=1280:720:flags=lanczos:in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv420p",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "veryfast",
+        "-qp",
+        "0",
+        "-color_primaries",
+        "bt709",
+        "-color_trc",
+        "bt709",
+        "-colorspace",
+        "bt709",
+        "-color_range",
+        "tv",
+        "-movflags",
+        "+faststart",
+        "G:\\AI\\youtube\\snowline-animation-v2\\Below-the-Snowline-v2-preview-20s.mp4"
+      ],
+      "validation": {
+        "decoded_frames": 600,
+        "all_frames_decode": true,
+        "timestamps_sequential": true,
+        "silent": true,
+        "bt709": {
+          "width": 1280,
+          "height": 720,
+          "color_space": "bt709",
+          "r_frame_rate": "30/1",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc63.1.100 libx264"
+          }
+        },
+        "seam_checks": {
+          "sky": {
+            "seam_mae": 0.3512220290957936,
+            "ordinary_max_mae": 0.4035823511269071,
+            "quiet_neighbour_max_mae": 0.37529365305845963,
+            "pass": true
+          },
+          "far_powder": {
+            "seam_mae": 0.1105307543730787,
+            "ordinary_max_mae": 0.12998177317119616,
+            "quiet_neighbour_max_mae": 0.11778067956146794,
+            "pass": true
+          },
+          "ravine_mist": {
+            "seam_mae": 0.12359727881954426,
+            "ordinary_max_mae": 0.1554646240904505,
+            "quiet_neighbour_max_mae": 0.1411936445669389,
+            "pass": true
+          },
+          "ledge_spindrift": {
+            "seam_mae": 0.139186295503212,
+            "ordinary_max_mae": 0.15011255696480535,
+            "quiet_neighbour_max_mae": 0.15011255696480535,
+            "pass": true
+          },
+          "windows": {
+            "seam_mae": 0.11670210252775809,
+            "ordinary_max_mae": 0.8582565556343019,
+            "quiet_neighbour_max_mae": 0.15320103945192534,
+            "pass": true
+          },
+          "terminals": {
+            "seam_mae": 0.11357810303481353,
+            "ordinary_max_mae": 0.23081534772182255,
+            "quiet_neighbour_max_mae": 0.21090713635987762,
+            "pass": true
+          },
+          "coffee_steam": {
+            "seam_mae": 0.09093567251461988,
+            "ordinary_max_mae": 0.13289473684210526,
+            "quiet_neighbour_max_mae": 0.11301169590643274,
+            "pass": true
+          },
+          "snow": {
+            "seam_mae": 0.1379178842907215,
+            "ordinary_max_mae": 0.15415620438373226,
+            "quiet_neighbour_max_mae": 0.14466516409715854,
+            "pass": true
+          },
+          "buttons": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.2758483033932135,
+            "quiet_neighbour_max_mae": 1.5085828343313372,
+            "pass": true
+          },
+          "keys": {
+            "seam_mae": 0.11404728789986092,
+            "ordinary_max_mae": 1.4047287899860919,
+            "quiet_neighbour_max_mae": 0.9531757070004636,
+            "pass": true
+          },
+          "bridge_lights": {
+            "seam_mae": 0.0132398753894081,
+            "ordinary_max_mae": 1.500778816199377,
+            "quiet_neighbour_max_mae": 1.1658878504672898,
+            "pass": true
+          },
+          "habitat_activity": {
+            "seam_mae": 0.7461368653421634,
+            "ordinary_max_mae": 1.4326710816777042,
+            "quiet_neighbour_max_mae": 1.030905077262693,
+            "pass": true
+          },
+          "room_practical": {
+            "seam_mae": 0.000970394552328386,
+            "ordinary_max_mae": 0.19013563086864335,
+            "quiet_neighbour_max_mae": 0.008621366629645834,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.12201634960653984,
+            "ordinary_max_mae": 0.15534571013828405,
+            "quiet_neighbour_max_mae": 0.13075101230040492,
+            "pass": true
+          }
+        },
+        "three_exact_decoded_repeats": false
+      }
+    },
+    {
+      "path": "Below-the-Snowline-v2-three-loops-60s.mp4",
+      "sha256": "d0138a0d2cb8cb4db7d323daa2a959d0ced03fe8b43f3c926903f6f51436d06e",
+      "validation": {
+        "decoded_frames": 1800,
+        "all_frames_decode": true,
+        "timestamps_sequential": true,
+        "silent": true,
+        "bt709": {
+          "width": 1280,
+          "height": 720,
+          "color_space": "bt709",
+          "r_frame_rate": "30/1",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc63.1.100 libx264"
+          }
+        },
+        "seam_checks": {
+          "sky": {
+            "seam_mae": 0.3512220290957936,
+            "ordinary_max_mae": 0.4035823511269071,
+            "quiet_neighbour_max_mae": 0.37529365305845963,
+            "pass": true
+          },
+          "far_powder": {
+            "seam_mae": 0.1105307543730787,
+            "ordinary_max_mae": 0.12998177317119616,
+            "quiet_neighbour_max_mae": 0.11778067956146794,
+            "pass": true
+          },
+          "ravine_mist": {
+            "seam_mae": 0.12359727881954426,
+            "ordinary_max_mae": 0.1554646240904505,
+            "quiet_neighbour_max_mae": 0.1411936445669389,
+            "pass": true
+          },
+          "ledge_spindrift": {
+            "seam_mae": 0.139186295503212,
+            "ordinary_max_mae": 0.15011255696480535,
+            "quiet_neighbour_max_mae": 0.15011255696480535,
+            "pass": true
+          },
+          "windows": {
+            "seam_mae": 0.11670210252775809,
+            "ordinary_max_mae": 0.8582565556343019,
+            "quiet_neighbour_max_mae": 0.15320103945192534,
+            "pass": true
+          },
+          "terminals": {
+            "seam_mae": 0.11357810303481353,
+            "ordinary_max_mae": 0.23081534772182255,
+            "quiet_neighbour_max_mae": 0.21090713635987762,
+            "pass": true
+          },
+          "coffee_steam": {
+            "seam_mae": 0.09093567251461988,
+            "ordinary_max_mae": 0.13289473684210526,
+            "quiet_neighbour_max_mae": 0.11301169590643274,
+            "pass": true
+          },
+          "snow": {
+            "seam_mae": 0.1379178842907215,
+            "ordinary_max_mae": 0.15415620438373226,
+            "quiet_neighbour_max_mae": 0.14466516409715854,
+            "pass": true
+          },
+          "buttons": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.2758483033932135,
+            "quiet_neighbour_max_mae": 1.5085828343313372,
+            "pass": true
+          },
+          "keys": {
+            "seam_mae": 0.11404728789986092,
+            "ordinary_max_mae": 1.4047287899860919,
+            "quiet_neighbour_max_mae": 0.9531757070004636,
+            "pass": true
+          },
+          "bridge_lights": {
+            "seam_mae": 0.0132398753894081,
+            "ordinary_max_mae": 1.500778816199377,
+            "quiet_neighbour_max_mae": 1.1658878504672898,
+            "pass": true
+          },
+          "habitat_activity": {
+            "seam_mae": 0.7461368653421634,
+            "ordinary_max_mae": 1.4326710816777042,
+            "quiet_neighbour_max_mae": 1.030905077262693,
+            "pass": true
+          },
+          "room_practical": {
+            "seam_mae": 0.000970394552328386,
+            "ordinary_max_mae": 0.19013563086864335,
+            "quiet_neighbour_max_mae": 0.008621366629645834,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.12201634960653984,
+            "ordinary_max_mae": 0.15534571013828405,
+            "quiet_neighbour_max_mae": 0.13075101230040492,
+            "pass": true
+          }
+        },
+        "three_exact_decoded_repeats": true
+      }
+    }
+  ],
+  "review": "Temporal and decoded still inspection; continuous playback not claimed"
+}

@@ -1,0 +1,22 @@
+{
+  "fingerprint": {
+    "source.png": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+    "scene.json": "9aace7b806561de023c663cf63561980356de2a9edf461c59187f9b5d5040aef",
+    "baseline.py": "40a7f7badaf84617c229a6795184d61a308ee9ef3076a768694b8c613ddcf47d",
+    "render.py": "799aaa1ebaf841cf555796272cc4f9ccfd37142e29e766ef76dbd881ca6a9711",
+    "review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f"
+  },
+  "retained_layers": {
+    "far_powder": "Exact isolated match at five phases",
+    "ravine_mist": "Exact isolated match at five phases",
+    "ledge_spindrift": "Exact isolated match at five phases",
+    "windows": "Exact isolated match at five phases",
+    "terminals": "Exact isolated match at five phases",
+    "coffee_steam": "Exact isolated match at five phases",
+    "snow": "Exact isolated match at five phases"
+  },
+  "old_valid_cloud_source_pixels_now_excluded": 2807,
+  "same_source": true,
+  "before_after": "dish-before-after.png: v1 top, v2 bottom; 0/4/8/12 seconds",
+  "inspection": "Temporal still comparison, not continuous playback"
+}

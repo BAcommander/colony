@@ -165,7 +165,7 @@
     "title": "Below the Snowline",
     "catalog_number": "13",
     "creative_concept_id": 19,
-    "status": "release artwork/thumbnail package accepted; publication and music briefs prepared; animation and audio not produced",
+    "status": "Ice-planet animation v2 and Hoth thumbnail candidates technically prepared; user review pending; no audio/4K",
     "artwork": "artwork-v2.png",
     "duration_seconds": null,
     "video": null,
@@ -175,7 +175,21 @@
     "suggested_title": "youtube-title.txt",
     "music_prompt": "music/elevenlabs-prompt-v1.txt",
     "motion_brief": "motion-brief.md",
-    "thumbnail_user_approved": true
+    "thumbnail_user_approved": true,
+    "retheme_candidate": {
+      "folder": "ice-planet-retheme-v3",
+      "artwork": "ice-planet-retheme-v3/artwork-v5.png",
+      "user_approved": true,
+      "status": "Artwork selected for animation; previous approved thumbnail preserved"
+    },
+    "animation_preview": {
+      "folder": "../../music/below-the-snowline-animation-v2",
+      "video": "Below-the-Snowline-v2-preview-20s.mp4",
+      "duration_seconds": 20,
+      "fps": 30,
+      "user_approved": false
+    },
+    "thumbnail_candidate": "../../music/below-the-snowline-animation-v2/thumbnail-v2.jpg"
   },
   {
     "folder": "14-crater-rim-survey",

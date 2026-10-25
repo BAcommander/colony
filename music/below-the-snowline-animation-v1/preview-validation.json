@@ -1,0 +1,248 @@
+{
+  "fingerprint": {
+    "source.png": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+    "scene.json": "bbcd5114dc806b21ad218cce75f348b336cedd2ce6ea7475f752e691734ca542",
+    "render.py": "838c4d0ec15fa85b43be7913ba4b37e99aa28e7a4e34c2a12a86704e13e4f373",
+    "review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f"
+  },
+  "clips": [
+    {
+      "path": "Below-the-Snowline-v1-preview-20s.mp4",
+      "sha256": "79866ade5a30ffbe6c55d27006f69a802f8f26880fd7b1c106d2b7f3cec21dac",
+      "seconds": 20,
+      "frames": 600,
+      "layer": "combined",
+      "command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-n",
+        "-f",
+        "rawvideo",
+        "-pix_fmt",
+        "rgb24",
+        "-s",
+        "1672x941",
+        "-r",
+        "30",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-vf",
+        "scale=1280:720:flags=lanczos:in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv420p",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "veryfast",
+        "-qp",
+        "0",
+        "-color_primaries",
+        "bt709",
+        "-color_trc",
+        "bt709",
+        "-colorspace",
+        "bt709",
+        "-color_range",
+        "tv",
+        "-movflags",
+        "+faststart",
+        "G:\\AI\\youtube\\snowline-animation-v1\\Below-the-Snowline-v1-preview-20s.mp4"
+      ],
+      "validation": {
+        "decoded_frames": 600,
+        "all_frames_decode": true,
+        "timestamps_sequential": true,
+        "silent": true,
+        "bt709": {
+          "width": 1280,
+          "height": 720,
+          "color_space": "bt709",
+          "r_frame_rate": "30/1",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc63.1.100 libx264"
+          }
+        },
+        "seam_checks": {
+          "sky": {
+            "seam_mae": 0.3500460855631656,
+            "ordinary_max_mae": 0.4046425887324343,
+            "quiet_neighbour_max_mae": 0.3751421562371492,
+            "pass": true
+          },
+          "far_powder": {
+            "seam_mae": 0.11127887048069861,
+            "ordinary_max_mae": 0.13075709350091133,
+            "quiet_neighbour_max_mae": 0.11828395767023042,
+            "pass": true
+          },
+          "ravine_mist": {
+            "seam_mae": 0.12489361582207492,
+            "ordinary_max_mae": 0.15594934140444022,
+            "quiet_neighbour_max_mae": 0.14115419083207928,
+            "pass": true
+          },
+          "ledge_spindrift": {
+            "seam_mae": 0.13973535386811617,
+            "ordinary_max_mae": 0.15005765112831493,
+            "quiet_neighbour_max_mae": 0.15005765112831493,
+            "pass": true
+          },
+          "windows": {
+            "seam_mae": 0.058823529411764705,
+            "ordinary_max_mae": 0.8017954169619655,
+            "quiet_neighbour_max_mae": 0.09662178124261753,
+            "pass": true
+          },
+          "terminals": {
+            "seam_mae": 0.11357810303481353,
+            "ordinary_max_mae": 0.23081534772182255,
+            "quiet_neighbour_max_mae": 0.21090713635987762,
+            "pass": true
+          },
+          "coffee_steam": {
+            "seam_mae": 0.09093567251461988,
+            "ordinary_max_mae": 0.13289473684210526,
+            "quiet_neighbour_max_mae": 0.11301169590643274,
+            "pass": true
+          },
+          "snow": {
+            "seam_mae": 0.13879271682277963,
+            "ordinary_max_mae": 0.1556416343157167,
+            "quiet_neighbour_max_mae": 0.1456892537714209,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.13772982108994972,
+            "ordinary_max_mae": 0.1559622942259598,
+            "quiet_neighbour_max_mae": 0.14530258059196965,
+            "pass": true
+          }
+        },
+        "three_exact_decoded_repeats": false
+      }
+    },
+    {
+      "path": "Below-the-Snowline-v1-three-loops-60s.mp4",
+      "sha256": "ff68b62796aa3a8fd9f01ebca3e8ccf97eb7f9373599d845cd0578ce2f465797",
+      "validation": {
+        "decoded_frames": 1800,
+        "all_frames_decode": true,
+        "timestamps_sequential": true,
+        "silent": true,
+        "bt709": {
+          "width": 1280,
+          "height": 720,
+          "color_space": "bt709",
+          "r_frame_rate": "30/1",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc63.1.100 libx264"
+          }
+        },
+        "seam_checks": {
+          "sky": {
+            "seam_mae": 0.3500460855631656,
+            "ordinary_max_mae": 0.4046425887324343,
+            "quiet_neighbour_max_mae": 0.3751421562371492,
+            "pass": true
+          },
+          "far_powder": {
+            "seam_mae": 0.11127887048069861,
+            "ordinary_max_mae": 0.13075709350091133,
+            "quiet_neighbour_max_mae": 0.11828395767023042,
+            "pass": true
+          },
+          "ravine_mist": {
+            "seam_mae": 0.12489361582207492,
+            "ordinary_max_mae": 0.15594934140444022,
+            "quiet_neighbour_max_mae": 0.14115419083207928,
+            "pass": true
+          },
+          "ledge_spindrift": {
+            "seam_mae": 0.13973535386811617,
+            "ordinary_max_mae": 0.15005765112831493,
+            "quiet_neighbour_max_mae": 0.15005765112831493,
+            "pass": true
+          },
+          "windows": {
+            "seam_mae": 0.058823529411764705,
+            "ordinary_max_mae": 0.8017954169619655,
+            "quiet_neighbour_max_mae": 0.09662178124261753,
+            "pass": true
+          },
+          "terminals": {
+            "seam_mae": 0.11357810303481353,
+            "ordinary_max_mae": 0.23081534772182255,
+            "quiet_neighbour_max_mae": 0.21090713635987762,
+            "pass": true
+          },
+          "coffee_steam": {
+            "seam_mae": 0.09093567251461988,
+            "ordinary_max_mae": 0.13289473684210526,
+            "quiet_neighbour_max_mae": 0.11301169590643274,
+            "pass": true
+          },
+          "snow": {
+            "seam_mae": 0.13879271682277963,
+            "ordinary_max_mae": 0.1556416343157167,
+            "quiet_neighbour_max_mae": 0.1456892537714209,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.13772982108994972,
+            "ordinary_max_mae": 0.1559622942259598,
+            "quiet_neighbour_max_mae": 0.14530258059196965,
+            "pass": true
+          }
+        },
+        "three_exact_decoded_repeats": true
+      }
+    }
+  ],
+  "review": "Temporal still inspection only; user playback review pending"
+}

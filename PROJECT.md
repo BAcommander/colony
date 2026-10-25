@@ -1,5 +1,7 @@
 # Ambient Colony - project context
 
+Below the Snowline animation v2 (2026-10-25): v1 is a decent checkpoint needing more work, not accepted final motion. User reported a satellite ghost and requested colored/dimming lights, building/interior activity, console buttons and a Hoth thumbnail inspired by Spirewatch. music/below-the-snowline-animation-v2/ fixes source/destination cloud exclusion around the dish feed/support; before/after crops show removed ghost fragments. Eight console indicators, seven phased keys, source-masked bridge emitters, two habitat displays and room-practical/spill variation add activity. Seven retained isolated layers match v1 at five phases. Same native 1672x941 artwork v5. Twenty-second silent 720p30 preview and exact three-repeat review passed full decoding/timestamps/region/quiet-neighbor seams, protected-pixel/periodicity and direct native-to-decoded checks. Assistant inspected temporal/decoded stills, not continuous playback. Separate built-in-imagegen Hoth thumbnail PNG/JPEG candidate uses Spirewatch typography; scene geometry/lighting can differ. Motion/thumbnail user review pending; no audio, 4K, commit or push. Earlier art, v1 and approved thumbnail preserved.
+
 Live production status and TODOs: [PRODUCTION_PIPELINE.md](PRODUCTION_PIPELINE.md). Use its release tracker and next-session checklist; detailed scene evidence remains in manifests and specialist workflows.
 
 Last updated: 2026-09-26.

@@ -1,0 +1,53 @@
+{
+  "fingerprint": {
+    "source.png": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+    "scene.json": "bbcd5114dc806b21ad218cce75f348b336cedd2ce6ea7475f752e691734ca542",
+    "render.py": "838c4d0ec15fa85b43be7913ba4b37e99aa28e7a4e34c2a12a86704e13e4f373",
+    "review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f"
+  },
+  "layers": {
+    "sky": {
+      "endpoint_exact": true,
+      "seam_mae": 0.18251428761297184,
+      "normal_max": 0.19869417862838915
+    },
+    "far_powder": {
+      "endpoint_exact": true,
+      "seam_mae": 0.02562325766626842,
+      "normal_max": 0.030649143767423337
+    },
+    "ravine_mist": {
+      "endpoint_exact": true,
+      "seam_mae": 0.030447416212646523,
+      "normal_max": 0.0313389466732706
+    },
+    "ledge_spindrift": {
+      "endpoint_exact": true,
+      "seam_mae": 0.029601029601029602,
+      "normal_max": 0.029922779922779922
+    },
+    "windows": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "normal_max": 0.2908166769695721
+    },
+    "terminals": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0742979932257712,
+      "normal_max": 0.15164317538939676
+    },
+    "coffee_steam": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0441643083783552,
+      "normal_max": 0.06637509647543093
+    },
+    "snow": {
+      "endpoint_exact": true,
+      "seam_mae": 0.04059646208244768,
+      "normal_max": 0.044259939152569455
+    }
+  },
+  "protected_pixels": "asserted every frame",
+  "artwork_selected": true,
+  "animation_user_approved": false
+}

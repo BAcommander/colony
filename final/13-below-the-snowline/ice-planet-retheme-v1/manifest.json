@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-25",
+  "catalog_number": "13",
+  "title": "Below the Snowline",
+  "status": "Hoth-inspired ice-planet artwork candidate; user review pending; no animation produced",
+  "user_approved": false,
+  "method": "Built-in imagegen edit of approved clean artwork-v2.png",
+  "source": {
+    "path": "../artwork-v2.png",
+    "sha256": "bac9e6b150994ad53aad35b22faabb9077236eb9a97f1b34705ec7fbf364e702",
+    "bytes": 2367478,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "artwork": {
+    "path": "artwork-v3.png",
+    "sha256": "5419d8d2bf7f9e078863bffc3278dd31e7d7bc2580462bbb6d4bd46584b521f2",
+    "bytes": 2449474,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "prompt": "generation-prompt.txt",
+  "motion_brief": "direction-and-motion-brief.md",
+  "review": "Still inspected: warm dry room, open snowy planetary vista, grounded bridge, frozen ravine and restrained base hardware. No animation or playback review performed.",
+  "resolution_note": "Generated file dimensions recorded above; not a 4K delivery or an upscaled export."
+}

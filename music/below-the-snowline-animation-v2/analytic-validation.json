@@ -1,0 +1,78 @@
+{
+  "fingerprint": {
+    "source.png": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+    "scene.json": "9aace7b806561de023c663cf63561980356de2a9edf461c59187f9b5d5040aef",
+    "baseline.py": "40a7f7badaf84617c229a6795184d61a308ee9ef3076a768694b8c613ddcf47d",
+    "render.py": "799aaa1ebaf841cf555796272cc4f9ccfd37142e29e766ef76dbd881ca6a9711",
+    "review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f"
+  },
+  "layers": {
+    "sky": {
+      "endpoint_exact": true,
+      "seam_mae": 0.18288731407421666,
+      "ordinary_max": 0.20060313488304551
+    },
+    "far_powder": {
+      "endpoint_exact": true,
+      "seam_mae": 0.02562325766626842,
+      "ordinary_max": 0.030649143767423337
+    },
+    "ravine_mist": {
+      "endpoint_exact": true,
+      "seam_mae": 0.030447416212646523,
+      "ordinary_max": 0.0313389466732706
+    },
+    "ledge_spindrift": {
+      "endpoint_exact": true,
+      "seam_mae": 0.029601029601029602,
+      "ordinary_max": 0.029922779922779922
+    },
+    "windows": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max": 0.2908166769695721
+    },
+    "terminals": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0742979932257712,
+      "ordinary_max": 0.15164317538939676
+    },
+    "coffee_steam": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0441643083783552,
+      "ordinary_max": 0.06637509647543093
+    },
+    "snow": {
+      "endpoint_exact": true,
+      "seam_mae": 0.04059646208244768,
+      "ordinary_max": 0.044259939152569455
+    },
+    "buttons": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max": 1.4134877384196185
+    },
+    "keys": {
+      "endpoint_exact": true,
+      "seam_mae": 0.10905183991404781,
+      "ordinary_max": 0.6639806607574537
+    },
+    "bridge_lights": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max": 0.6367634124890061
+    },
+    "habitat_activity": {
+      "endpoint_exact": true,
+      "seam_mae": 0.7177522349936143,
+      "ordinary_max": 1.0945083014048531
+    },
+    "room_practical": {
+      "endpoint_exact": true,
+      "seam_mae": 0.0,
+      "ordinary_max": 0.0
+    }
+  },
+  "dish_guard_exact_in_sky_layer": true,
+  "motion_user_approved": false
+}

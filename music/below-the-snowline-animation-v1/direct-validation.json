@@ -1,0 +1,59 @@
+{
+  "fingerprint": {
+    "source.png": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+    "scene.json": "bbcd5114dc806b21ad218cce75f348b336cedd2ce6ea7475f752e691734ca542",
+    "render.py": "838c4d0ec15fa85b43be7913ba4b37e99aa28e7a4e34c2a12a86704e13e4f373",
+    "review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f"
+  },
+  "checks": [
+    {
+      "frame": 0,
+      "exact_native_to_decoded_yuv": true
+    },
+    {
+      "frame": 1,
+      "exact_native_to_decoded_yuv": true
+    },
+    {
+      "frame": 119,
+      "exact_native_to_decoded_yuv": true
+    },
+    {
+      "frame": 120,
+      "exact_native_to_decoded_yuv": true
+    },
+    {
+      "frame": 239,
+      "exact_native_to_decoded_yuv": true
+    },
+    {
+      "frame": 240,
+      "exact_native_to_decoded_yuv": true
+    },
+    {
+      "frame": 359,
+      "exact_native_to_decoded_yuv": true
+    },
+    {
+      "frame": 360,
+      "exact_native_to_decoded_yuv": true
+    },
+    {
+      "frame": 479,
+      "exact_native_to_decoded_yuv": true
+    },
+    {
+      "frame": 480,
+      "exact_native_to_decoded_yuv": true
+    },
+    {
+      "frame": 598,
+      "exact_native_to_decoded_yuv": true
+    },
+    {
+      "frame": 599,
+      "exact_native_to_decoded_yuv": true
+    }
+  ],
+  "visual_review": "Source/mask/temporal/decoded stills only; no continuous playback claim"
+}

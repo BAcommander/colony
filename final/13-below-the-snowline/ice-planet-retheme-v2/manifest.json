@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-25",
+  "status": "Terminal refinement candidate; user review pending; no animation",
+  "method": "Built-in imagegen edit with two user-supplied Echo Base terminal references",
+  "source": "../ice-planet-retheme-v1/artwork-v3.png",
+  "source_sha256": "5419d8d2bf7f9e078863bffc3278dd31e7d7bc2580462bbb6d4bd46584b521f2",
+  "artwork": "artwork-v4.png",
+  "sha256": "00c1e9fffb9e28ba0f99a272b18c05b2df5900202bd10559393dedb5be250a94",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "prompt": "generation-prompt.txt",
+  "review": "Still inspected: chunky terminal housings, cyan radar geometry, colored block readouts and tactile illuminated keys; exterior composition visually preserved, not a pixel-identical preservation claim. No playback review.",
+  "user_approved": false
+}
