@@ -1,0 +1,199 @@
+{
+  "fingerprint": {
+    "files": {
+      "scene-plan-v4.json": "2dc96b17702720f0e227e029686d9a102601d53b437eae782cecb50ddeb64015",
+      "render_deepwell_v4.py": "252ed160fecc93a27c88e8fad7ef36933d06b29fcd03473ea81f862cdb18a0d2",
+      "review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f",
+      "v3-snapshot-manifest.json": "b6b870969179708e8f4dfd6e28e9e5f9793aa7d8930e030b41a38868aaaf8a31",
+      "v3-snapshot/render_deepwell_v3.py": "6ba65d111f2a609059f6ea538e9287b1422ae0eb1cc3ffc0a7b7978647d0144c",
+      "v3-snapshot/review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f",
+      "v3-snapshot/scene-plan-v3.json": "699ab3be0a0c685847ec598bfc4a7514be5a9c1ffeb8fa89addfaa880ccfdc61",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/analytic-validation.json": "100b34cc77ad35ca7ce4877899e902bf0807e39e68d669903b3b562f0c0ab4d6",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/artwork-original-v2.png": "46013ffabbddfdf983b16de74fa65972780e0a84288cf24e8ed11bfd08e90e84",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/artwork-planet-v1.png": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/artwork-provenance.json": "8ebd36096e2e26e30335db64e5a1168e76b537f826b02a4a4422c306b23ab77a",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/dependency-snapshot/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/dependency-snapshot/manifest.json": "9c875868a4ca3d1714805ee5f153e5cdfdcd4e473e74c236740e5d0754a0baf9",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/dependency-snapshot/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/dependency-snapshot/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/preview-validation.json": "d455827ece0ff5f2cc137ac9e743b5048304311fdabe683ee9807f87497ec755",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/render_deepwell.py": "769a835cd532d32454c435f435e2ca65b5d39ddaa9003e06b3750bccec1ddc34",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/scene-plan-v1.json": "39e755f2e9c7d59060669cbe1067a1723e6b6df55e74fe7bb29b45d4355a4045",
+      "v3-snapshot/v2-snapshot/baseline-snapshot-manifest.json": "738d33fbe672898ef4d27c7f56f8cd2d23897427c16da84276496d8443673387",
+      "v3-snapshot/v2-snapshot/render_deepwell_v2.py": "69e1f770a6188e320793eacb7ddb5341b5e1f912925454a6c93d08a46348a075",
+      "v3-snapshot/v2-snapshot/review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f",
+      "v3-snapshot/v2-snapshot/scene-plan-v2.json": "f5d8459777405fea6ba11a9682524ea5c0973af52f83117aa3f3ee3255147713",
+      "v3-snapshot/v2-snapshot/weather_refinement.py": "ede3711fb5b6b3c393145b1f13274d0cd3d21ec413c586ebc30b90f3f11d1724",
+      "v3-snapshot/v2-snapshot-manifest.json": "9460d6d605050a10745877da45d703956582186835c46162310b87a7fac5d9a5"
+    },
+    "masks_float32_sha256": {
+      "water": "b4f69014286f6540c9a672a8e3c20d27b912ec43ef03e236c17efeca450f4bb0",
+      "sky": "f855074fcdd263a26620c4d2e9df2a8c2ec9693b29ed71860d32fa633d87d1aa",
+      "planet_veil": "42e887f2b809bc71d6aa96cbfeccde90368630e9c9400c6596aa1dd40c8cc3cd",
+      "far_drift": "2989755a565c8668fc332fc13a9ba09202f8563665f165a9ac04052eca00a1a4",
+      "basin_haze": "09cc6c738946a92f9bc12400312980f03d81de66b9af243777f2f2ecd6f317c3",
+      "brine_wisps": "3d5ad7e6614d35f191ce45e61661c20a8111f285eb957d596f06ea598f33a095",
+      "salt_far": "063dcb2ad74a0a37f7c65bf34d75abfb4cedb0a9db4ab564ec0c30eea2cc2e78",
+      "salt_middle": "5a06cdf91155b27d9782f8c62563d6c0a3f22a44971a8d4b6a50e817fda8aa30",
+      "lights": "faf1c585918be54c3d26ddf9c6b41528a8457e664557682584dca9d7680655fb",
+      "lamp": "758a2fc3d3946239d752ce32bbc9004ea6414c6535580f52c3929d34c8ec24bd",
+      "status": "bd3fdc914b4c278be05b87f9bb75da9cb084f82ba476bdeb2eafcb050112fb82",
+      "daylight": "c91aa2039fa677ffd30b3b7a7c239bd7528c29e7fdcc0803fd5815f596b12570",
+      "screen": "3475cbc46b285d1fd04e0ccdf18fd6a3722cef4b67f290ca6c720ae7b3044013",
+      "coffee_steam": "d408d60a49955bdb4d5a20c398e9cae887c2c20f823097cc40fc72c424514474",
+      "tank_steam_near": "c51c96668e695fe78935f060c2eb62b7499a72a2ad4ed23a5fcce3c935562b8b",
+      "tank_steam_middle": "7c4d2baca9262c6a2dc6792acccb7bc39911d473004467ac08a5b956f75faa45",
+      "tank_steam_far": "d22509d03b02e3eeb7d5f026f07ee1ebea48a753995aad6d3090c3f9f96c015a",
+      "pipeline_lights": "ed8c4a54865b357bf2b1dfb3958ff64bf92d40217f139f3d980c70490633713d"
+    },
+    "runtime": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "numpy": "2.4.4",
+      "opencv": "5.0.0",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "ffmpeg": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    }
+  },
+  "changed_layers": {
+    "coffee_steam": {
+      "endpoint_exact": true,
+      "seam_step_mae": 0.37231291729381344,
+      "ordinary_sampled_max": 0.3851646019065262,
+      "one_second_motion_at_0_4_8_12_16": [
+        6.273088649608274,
+        6.657365597622631,
+        6.601134653236078,
+        6.74423989811277,
+        5.68665817606422
+      ]
+    },
+    "tank_steam_near": {
+      "endpoint_exact": true,
+      "seam_step_mae": 0.26883155397390274,
+      "ordinary_sampled_max": 0.3281435349940688,
+      "one_second_motion_at_0_4_8_12_16": [
+        2.561313760379597,
+        2.7034400948991695,
+        2.809979240806643,
+        2.461150652431791,
+        3.350607947805457
+      ]
+    },
+    "tank_steam_middle": {
+      "endpoint_exact": true,
+      "seam_step_mae": 0.19940107393638992,
+      "ordinary_sampled_max": 0.2722015695993391,
+      "one_second_motion_at_0_4_8_12_16": [
+        1.882073523337464,
+        1.9114002478314747,
+        2.345105328376704,
+        2.914807930607187,
+        2.068876497315159
+      ]
+    },
+    "tank_steam_far": {
+      "endpoint_exact": true,
+      "seam_step_mae": 0.3287241887905605,
+      "ordinary_sampled_max": 0.3255899705014749,
+      "one_second_motion_at_0_4_8_12_16": [
+        3.5035951327433628,
+        3.063053097345133,
+        2.5945796460176993,
+        2.6174410029498527,
+        3.032817109144543
+      ]
+    },
+    "pipeline_lights": {
+      "endpoint_exact": true,
+      "seam_step_mae": 0.0036501108069352107,
+      "ordinary_sampled_max": 0.1382479468126711,
+      "one_second_motion_at_0_4_8_12_16": [
+        0.1671881110676574,
+        3.232955286142615,
+        1.201407899882675,
+        2.4648025029331246,
+        2.5187719984356667
+      ]
+    }
+  },
+  "pipeline_head_normalized_arc": {
+    "0": 0.039891493341648515,
+    "2": 0.1308585231490266,
+    "5": 0.5162010451243297,
+    "8": 0.9015435670996331,
+    "10": 0.9925105969070112,
+    "12": 0.9015435670996331,
+    "15": 0.51620104512433,
+    "18": 0.13085852314902666,
+    "20": 0.039891493341648515
+  },
+  "head_zero_speed_at_0_10_20": "Analytic cosine derivative is zero",
+  "bright_core_controls_retained": [
+    {
+      "xy": [
+        1610,
+        188
+      ],
+      "mask_coverage": 1.0
+    },
+    {
+      "xy": [
+        1653,
+        185
+      ],
+      "mask_coverage": 1.0
+    },
+    {
+      "xy": [
+        1668,
+        185
+      ],
+      "mask_coverage": 1.0
+    },
+    {
+      "xy": [
+        1567,
+        204
+      ],
+      "mask_coverage": 1.0
+    },
+    {
+      "xy": [
+        1568,
+        204
+      ],
+      "mask_coverage": 1.0
+    },
+    {
+      "xy": [
+        1572,
+        204
+      ],
+      "mask_coverage": 1.0
+    },
+    {
+      "xy": [
+        1573,
+        204
+      ],
+      "mask_coverage": 1.0
+    },
+    {
+      "xy": [
+        1486,
+        232
+      ],
+      "mask_coverage": 1.0
+    },
+    {
+      "xy": [
+        1487,
+        232
+      ],
+      "mask_coverage": 1.0
+    }
+  ],
+  "source_guards": "Inherited unchanged v3 per-frame window/mullion/stone/steady glass/cup/tank/pipe checks, with explicit purple-indicator footprint",
+  "user_approved": false,
+  "inspection": "Native and actual-conversion 720p temporal stills; continuous playback not claimed"
+}

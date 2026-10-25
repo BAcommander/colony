@@ -1,0 +1,43 @@
+User feedback, 2026-10-25: "window masking needs to be alot better, can we add
+steam in the forgroune to the coffee or pipes and to the containers in the
+distance? maybe some lights running along the pipeline?"
+
+V3 is a focused correction/addition to v2. Preserve its frozen plate, framing,
+water, sky, planetary cloud veil, basin weather, monitor and existing room-light
+timings outside the remapped cliff windows. V2 remains intact as a checkpoint.
+No new image generation, paid video/model service, soundtrack, 4K or long assembly.
+
+Replace the former small window rectangles with ten actual glass panes in six
+room groups; map one cool unlit pane as steady. Follow sloping/curved architectural
+edges using fractional source coordinates, 16x coverage and inward-only feather.
+Protect mullions, the wide central pillar, sills and stone. Include bright/white
+cores inside the pane, not just warm pixels. Source pixel inspection identified
+one tiny white core at x1573/y204, while the actual dark stile is x1570: preserve
+the stile and dim the core. Inspect source/mask/all-dim close-ups and normal-size
+window activity. Nine explicit bright-core controls supplement visual review.
+
+Use coffee as the foreground vapor source. Keep a narrow, irregular, rising,
+curling plume attached inside the cup opening, behind the front rim/body. Choose
+this instead of inventing an obvious leak in closed indoor pipework. Add three
+independent small process-vapor plumes at existing tank roof outlets. These are
+artistic interpretations of the photographed fittings. Match outside wind to the
+right, occlude vapor behind vessel/pipe solids, and carry emission changes upward
+with the material rather than fading an entire stationary smoke stripe. Keep
+finite/clamped envelopes, upward feature transport and exact 20-second timing.
+
+Mount twelve small muted-cyan indicators on the visible pipe face, with tiny
+attached housings and a restrained travelling acknowledgement pattern. Follow the
+real source pipe from the distant left toward its inlet near x1390; do not extend
+it onto the right cliff. Preserve the pipe/support pixels outside this explicitly
+authorized indicator footprint. This scoped addition replaces v2's blanket
+pipeline-pixel invariance only where a new indicator is intentionally drawn.
+
+Render separate eight-second windows/coffee/tanks/pipeline clips, then a genuine
+twenty-second silent 720p30 preview and three exact repetitions. Verify every
+rendered source frame protects window frames, steady glass, cup/tank bodies and
+unlit pipe/support regions. Compare all twelve retained v2 layers and the complete
+composite outside the old/new light and new-vapor/indicator masks. Verify all
+decoded frames/timestamps, per-region/composite and quiet-neighbour seams, exact
+repeat payloads and direct native-to-YUV controls. Do not weaken seam thresholds.
+Assistant inspects source/masks/temporal/decoded stills; continuous playback and
+the user's artistic verdict remain separate.

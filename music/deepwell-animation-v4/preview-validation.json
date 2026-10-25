@@ -1,0 +1,419 @@
+{
+  "fingerprint": {
+    "files": {
+      "scene-plan-v4.json": "43da67e8cc814996f2a8ce3eb6c73ff9aa081a6808c627854a470f28afcd79b8",
+      "render_deepwell_v4.py": "252ed160fecc93a27c88e8fad7ef36933d06b29fcd03473ea81f862cdb18a0d2",
+      "review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f",
+      "v3-snapshot-manifest.json": "b6b870969179708e8f4dfd6e28e9e5f9793aa7d8930e030b41a38868aaaf8a31",
+      "v3-snapshot/render_deepwell_v3.py": "6ba65d111f2a609059f6ea538e9287b1422ae0eb1cc3ffc0a7b7978647d0144c",
+      "v3-snapshot/review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f",
+      "v3-snapshot/scene-plan-v3.json": "699ab3be0a0c685847ec598bfc4a7514be5a9c1ffeb8fa89addfaa880ccfdc61",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/analytic-validation.json": "100b34cc77ad35ca7ce4877899e902bf0807e39e68d669903b3b562f0c0ab4d6",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/artwork-original-v2.png": "46013ffabbddfdf983b16de74fa65972780e0a84288cf24e8ed11bfd08e90e84",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/artwork-planet-v1.png": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/artwork-provenance.json": "8ebd36096e2e26e30335db64e5a1168e76b537f826b02a4a4422c306b23ab77a",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/dependency-snapshot/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/dependency-snapshot/manifest.json": "9c875868a4ca3d1714805ee5f153e5cdfdcd4e473e74c236740e5d0754a0baf9",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/dependency-snapshot/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/dependency-snapshot/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/preview-validation.json": "d455827ece0ff5f2cc137ac9e743b5048304311fdabe683ee9807f87497ec755",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/render_deepwell.py": "769a835cd532d32454c435f435e2ca65b5d39ddaa9003e06b3750bccec1ddc34",
+      "v3-snapshot/v2-snapshot/baseline-snapshot/scene-plan-v1.json": "39e755f2e9c7d59060669cbe1067a1723e6b6df55e74fe7bb29b45d4355a4045",
+      "v3-snapshot/v2-snapshot/baseline-snapshot-manifest.json": "738d33fbe672898ef4d27c7f56f8cd2d23897427c16da84276496d8443673387",
+      "v3-snapshot/v2-snapshot/render_deepwell_v2.py": "69e1f770a6188e320793eacb7ddb5341b5e1f912925454a6c93d08a46348a075",
+      "v3-snapshot/v2-snapshot/review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f",
+      "v3-snapshot/v2-snapshot/scene-plan-v2.json": "f5d8459777405fea6ba11a9682524ea5c0973af52f83117aa3f3ee3255147713",
+      "v3-snapshot/v2-snapshot/weather_refinement.py": "ede3711fb5b6b3c393145b1f13274d0cd3d21ec413c586ebc30b90f3f11d1724",
+      "v3-snapshot/v2-snapshot-manifest.json": "9460d6d605050a10745877da45d703956582186835c46162310b87a7fac5d9a5"
+    },
+    "masks_float32_sha256": {
+      "water": "b4f69014286f6540c9a672a8e3c20d27b912ec43ef03e236c17efeca450f4bb0",
+      "sky": "f855074fcdd263a26620c4d2e9df2a8c2ec9693b29ed71860d32fa633d87d1aa",
+      "planet_veil": "42e887f2b809bc71d6aa96cbfeccde90368630e9c9400c6596aa1dd40c8cc3cd",
+      "far_drift": "2989755a565c8668fc332fc13a9ba09202f8563665f165a9ac04052eca00a1a4",
+      "basin_haze": "09cc6c738946a92f9bc12400312980f03d81de66b9af243777f2f2ecd6f317c3",
+      "brine_wisps": "3d5ad7e6614d35f191ce45e61661c20a8111f285eb957d596f06ea598f33a095",
+      "salt_far": "063dcb2ad74a0a37f7c65bf34d75abfb4cedb0a9db4ab564ec0c30eea2cc2e78",
+      "salt_middle": "5a06cdf91155b27d9782f8c62563d6c0a3f22a44971a8d4b6a50e817fda8aa30",
+      "lights": "faf1c585918be54c3d26ddf9c6b41528a8457e664557682584dca9d7680655fb",
+      "lamp": "758a2fc3d3946239d752ce32bbc9004ea6414c6535580f52c3929d34c8ec24bd",
+      "status": "bd3fdc914b4c278be05b87f9bb75da9cb084f82ba476bdeb2eafcb050112fb82",
+      "daylight": "c91aa2039fa677ffd30b3b7a7c239bd7528c29e7fdcc0803fd5815f596b12570",
+      "screen": "3475cbc46b285d1fd04e0ccdf18fd6a3722cef4b67f290ca6c720ae7b3044013",
+      "coffee_steam": "d408d60a49955bdb4d5a20c398e9cae887c2c20f823097cc40fc72c424514474",
+      "tank_steam_near": "c51c96668e695fe78935f060c2eb62b7499a72a2ad4ed23a5fcce3c935562b8b",
+      "tank_steam_middle": "7c4d2baca9262c6a2dc6792acccb7bc39911d473004467ac08a5b956f75faa45",
+      "tank_steam_far": "d22509d03b02e3eeb7d5f026f07ee1ebea48a753995aad6d3090c3f9f96c015a",
+      "pipeline_lights": "cbad4086721b35d8f858c6f2ba36de5215295756c1bd38875dd562c2e187fd91"
+    },
+    "runtime": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "numpy": "2.4.4",
+      "opencv": "5.0.0",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "ffmpeg": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    }
+  },
+  "clips": [
+    {
+      "path": "Deepwell-v4-preview-20s.mp4",
+      "sha256": "4439abd51f9a414f961b50ac6a67796fdc9dc56165f622a164cc5d864309831f",
+      "seconds": 20,
+      "frames": 600,
+      "layer": "combined",
+      "command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-n",
+        "-f",
+        "rawvideo",
+        "-pix_fmt",
+        "rgb24",
+        "-s",
+        "1672x941",
+        "-r",
+        "30",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-vf",
+        "scale=1280:720:flags=lanczos:in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv420p",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "veryfast",
+        "-qp",
+        "0",
+        "-color_primaries",
+        "bt709",
+        "-color_trc",
+        "bt709",
+        "-colorspace",
+        "bt709",
+        "-color_range",
+        "tv",
+        "-movflags",
+        "+faststart",
+        "G:\\AI\\colony\\music\\deepwell-animation-v4\\Deepwell-v4-preview-20s.mp4"
+      ],
+      "validation": {
+        "decoded_frames": 600,
+        "all_frames_decode": true,
+        "timestamps_sequential": true,
+        "silent": true,
+        "bt709": {
+          "width": 1280,
+          "height": 720,
+          "color_space": "bt709",
+          "r_frame_rate": "30/1",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc63.1.100 libx264"
+          }
+        },
+        "seam_checks": {
+          "water": {
+            "seam_mae": 0.23542616328626717,
+            "ordinary_max_mae": 0.24522588057157077,
+            "quiet_neighbour_max_mae": 0.24522588057157077,
+            "pass": true
+          },
+          "sky": {
+            "seam_mae": 0.15669050510502405,
+            "ordinary_max_mae": 0.16552422075293483,
+            "quiet_neighbour_max_mae": 0.1628435208923672,
+            "pass": true
+          },
+          "planet_veil": {
+            "seam_mae": 0.15109132803484276,
+            "ordinary_max_mae": 0.16078350183453527,
+            "quiet_neighbour_max_mae": 0.1560485988904608,
+            "pass": true
+          },
+          "far_drift": {
+            "seam_mae": 0.030891223973535706,
+            "ordinary_max_mae": 0.04845300642148278,
+            "quiet_neighbour_max_mae": 0.035731659856003115,
+            "pass": true
+          },
+          "basin_haze": {
+            "seam_mae": 0.046417197452229296,
+            "ordinary_max_mae": 0.06273885350318471,
+            "quiet_neighbour_max_mae": 0.051937367303609344,
+            "pass": true
+          },
+          "brine_wisps": {
+            "seam_mae": 0.15777454847415404,
+            "ordinary_max_mae": 0.18240952183239914,
+            "quiet_neighbour_max_mae": 0.17625077849283788,
+            "pass": true
+          },
+          "salt_far": {
+            "seam_mae": 0.03718878033406871,
+            "ordinary_max_mae": 0.05588822355289421,
+            "quiet_neighbour_max_mae": 0.04764155898728858,
+            "pass": true
+          },
+          "salt_middle": {
+            "seam_mae": 0.04983789489557415,
+            "ordinary_max_mae": 0.0543617582749001,
+            "quiet_neighbour_max_mae": 0.04900851994269773,
+            "pass": true
+          },
+          "lights": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 1.23455684870188,
+            "quiet_neighbour_max_mae": 0.13936138466129513,
+            "pass": true
+          },
+          "lamp": {
+            "seam_mae": 0.08445923371954724,
+            "ordinary_max_mae": 1.6950112924133691,
+            "quiet_neighbour_max_mae": 0.08604952625319061,
+            "pass": true
+          },
+          "status": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 15.100436681222707,
+            "quiet_neighbour_max_mae": 0.0,
+            "pass": true
+          },
+          "daylight": {
+            "seam_mae": 0.08874096706920802,
+            "ordinary_max_mae": 0.3657912604878995,
+            "quiet_neighbour_max_mae": 0.12032591299287065,
+            "pass": true
+          },
+          "screen": {
+            "seam_mae": 0.15450928381962864,
+            "ordinary_max_mae": 0.19805481874447392,
+            "quiet_neighbour_max_mae": 0.19805481874447392,
+            "pass": true
+          },
+          "coffee_steam": {
+            "seam_mae": 0.4239661778306249,
+            "ordinary_max_mae": 0.47635090500726646,
+            "quiet_neighbour_max_mae": 0.43863125908310213,
+            "pass": true
+          },
+          "tank_steam_near": {
+            "seam_mae": 0.46825092628082277,
+            "ordinary_max_mae": 0.5284272390443338,
+            "quiet_neighbour_max_mae": 0.47974958477066565,
+            "pass": true
+          },
+          "tank_steam_middle": {
+            "seam_mae": 0.5106984969053935,
+            "ordinary_max_mae": 0.6332449160035367,
+            "quiet_neighbour_max_mae": 0.5485411140583555,
+            "pass": true
+          },
+          "tank_steam_far": {
+            "seam_mae": 0.40299697114618205,
+            "ordinary_max_mae": 0.4315319623784473,
+            "quiet_neighbour_max_mae": 0.424996014666029,
+            "pass": true
+          },
+          "pipeline_lights": {
+            "seam_mae": 0.008394543546694649,
+            "ordinary_max_mae": 0.22478722163926781,
+            "quiet_neighbour_max_mae": 0.017721814154133146,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.150552546233904,
+            "ordinary_max_mae": 0.32444883042206824,
+            "quiet_neighbour_max_mae": 0.1555056095108089,
+            "pass": true
+          }
+        },
+        "three_exact_decoded_repeats": false
+      }
+    },
+    {
+      "path": "Deepwell-v4-three-loops-60s.mp4",
+      "sha256": "8176c3b6f71ae54ef59636711f1f495917975a489a52e445ef97ffadfff6bb35",
+      "validation": {
+        "decoded_frames": 1800,
+        "all_frames_decode": true,
+        "timestamps_sequential": true,
+        "silent": true,
+        "bt709": {
+          "width": 1280,
+          "height": 720,
+          "color_space": "bt709",
+          "r_frame_rate": "30/1",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc63.1.100 libx264"
+          }
+        },
+        "seam_checks": {
+          "water": {
+            "seam_mae": 0.23542616328626717,
+            "ordinary_max_mae": 0.24522588057157077,
+            "quiet_neighbour_max_mae": 0.24522588057157077,
+            "pass": true
+          },
+          "sky": {
+            "seam_mae": 0.15669050510502405,
+            "ordinary_max_mae": 0.16552422075293483,
+            "quiet_neighbour_max_mae": 0.1628435208923672,
+            "pass": true
+          },
+          "planet_veil": {
+            "seam_mae": 0.15109132803484276,
+            "ordinary_max_mae": 0.16078350183453527,
+            "quiet_neighbour_max_mae": 0.1560485988904608,
+            "pass": true
+          },
+          "far_drift": {
+            "seam_mae": 0.030891223973535706,
+            "ordinary_max_mae": 0.04845300642148278,
+            "quiet_neighbour_max_mae": 0.035731659856003115,
+            "pass": true
+          },
+          "basin_haze": {
+            "seam_mae": 0.046417197452229296,
+            "ordinary_max_mae": 0.06273885350318471,
+            "quiet_neighbour_max_mae": 0.051937367303609344,
+            "pass": true
+          },
+          "brine_wisps": {
+            "seam_mae": 0.15777454847415404,
+            "ordinary_max_mae": 0.18240952183239914,
+            "quiet_neighbour_max_mae": 0.17625077849283788,
+            "pass": true
+          },
+          "salt_far": {
+            "seam_mae": 0.03718878033406871,
+            "ordinary_max_mae": 0.05588822355289421,
+            "quiet_neighbour_max_mae": 0.04764155898728858,
+            "pass": true
+          },
+          "salt_middle": {
+            "seam_mae": 0.04983789489557415,
+            "ordinary_max_mae": 0.0543617582749001,
+            "quiet_neighbour_max_mae": 0.04900851994269773,
+            "pass": true
+          },
+          "lights": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 1.23455684870188,
+            "quiet_neighbour_max_mae": 0.13936138466129513,
+            "pass": true
+          },
+          "lamp": {
+            "seam_mae": 0.08445923371954724,
+            "ordinary_max_mae": 1.6950112924133691,
+            "quiet_neighbour_max_mae": 0.08604952625319061,
+            "pass": true
+          },
+          "status": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 15.100436681222707,
+            "quiet_neighbour_max_mae": 0.0,
+            "pass": true
+          },
+          "daylight": {
+            "seam_mae": 0.08874096706920802,
+            "ordinary_max_mae": 0.3657912604878995,
+            "quiet_neighbour_max_mae": 0.12032591299287065,
+            "pass": true
+          },
+          "screen": {
+            "seam_mae": 0.15450928381962864,
+            "ordinary_max_mae": 0.19805481874447392,
+            "quiet_neighbour_max_mae": 0.19805481874447392,
+            "pass": true
+          },
+          "coffee_steam": {
+            "seam_mae": 0.4239661778306249,
+            "ordinary_max_mae": 0.47635090500726646,
+            "quiet_neighbour_max_mae": 0.43863125908310213,
+            "pass": true
+          },
+          "tank_steam_near": {
+            "seam_mae": 0.46825092628082277,
+            "ordinary_max_mae": 0.5284272390443338,
+            "quiet_neighbour_max_mae": 0.47974958477066565,
+            "pass": true
+          },
+          "tank_steam_middle": {
+            "seam_mae": 0.5106984969053935,
+            "ordinary_max_mae": 0.6332449160035367,
+            "quiet_neighbour_max_mae": 0.5485411140583555,
+            "pass": true
+          },
+          "tank_steam_far": {
+            "seam_mae": 0.40299697114618205,
+            "ordinary_max_mae": 0.4315319623784473,
+            "quiet_neighbour_max_mae": 0.424996014666029,
+            "pass": true
+          },
+          "pipeline_lights": {
+            "seam_mae": 0.008394543546694649,
+            "ordinary_max_mae": 0.22478722163926781,
+            "quiet_neighbour_max_mae": 0.017721814154133146,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.150552546233904,
+            "ordinary_max_mae": 0.32444883042206824,
+            "quiet_neighbour_max_mae": 0.1555056095108089,
+            "pass": true
+          }
+        },
+        "three_exact_decoded_repeats": true
+      },
+      "three_identical_encoded_packet_sequences": true
+    }
+  ],
+  "user_approved": false,
+  "inspection": "Source/native/actual-720p/decoded temporal stills; no continuous playback claim"
+}

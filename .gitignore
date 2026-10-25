@@ -107,3 +107,7 @@ music/spirewatch-animation-v8/remote-backup-verification.json
 !music/below-the-snowline-animation-v1/Below-the-Snowline-v1-preview-20s.mp4
 !music/below-the-snowline-animation-v2/Below-the-Snowline-v2-preview-20s.mp4
 /music/below-the-snowline-animation-v2/remote-backup-verification.json
+
+# User-requested complete Deepwell checkpoint, 2026-10-25.
+!music/deepwell-animation-v[1-4]/**/*.mp4
+/music/deepwell-backup-2026-10-25/remote-backup-verification.json

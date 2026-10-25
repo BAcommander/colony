@@ -1,0 +1,26 @@
+[
+  {
+    "path": "G:\\AI\\colony\\AGENTS.md",
+    "changed": true,
+    "sha256_before": "76f5dac4be8a259bc87ad92a4c3224e4dab9c9d2faf5a49ac4075247336519f7",
+    "sha256_after": "85f4c32db89e874006784f1247b4a8df6494c085619b13f648c236168d9adccd"
+  },
+  {
+    "path": "G:\\AI\\colony\\PRODUCTION_PIPELINE.md",
+    "changed": true,
+    "sha256_before": "76bafe9bbaaae508f221c277e9f3b1b44a0a0eeaf97007a916ad0a24fc712d8c",
+    "sha256_after": "81d6041d4c230056d600b064dc1c7bdd7a2a39b222936eb0d6d068c48d061a64"
+  },
+  {
+    "path": "G:\\AI\\colony\\final\\12-deepwell-station\\README.md",
+    "changed": true,
+    "sha256_before": "0dd4e7cad14c2d26698db05206d546e571df3cf9dfd2f5cc92b8c7498dc24ac6",
+    "sha256_after": "17035b726f04ae1b880fc6ba390bafedcfa4cd07fa73ed08e51bf6fd3cfd70e0"
+  },
+  {
+    "path": "G:\\AI\\colony\\creative\\ANIMATION_KNOWLEDGE_BANK.md",
+    "changed": true,
+    "sha256_before": "7cc0a81f0b64b3a7262a02af50c679720e3e29283ed4055d1bbcfc6835bf1ea3",
+    "sha256_after": "c2121df07356625ed8fbc91d104da86f312eba807801e1c3d5c3f8d302a47f1b"
+  }
+]

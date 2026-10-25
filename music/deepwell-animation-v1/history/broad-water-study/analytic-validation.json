@@ -1,0 +1,101 @@
+{
+  "fingerprint": {
+    "files": {
+      "scene-plan-v1.json": "94d4e66fcc3dc7aa0bab099b7494d985acdd8940118e2cc3d1566328ea68e80f",
+      "render_deepwell.py": "769a835cd532d32454c435f435e2ca65b5d39ddaa9003e06b3750bccec1ddc34",
+      "artwork-planet-v1.png": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b",
+      "artwork-original-v2.png": "46013ffabbddfdf983b16de74fa65972780e0a84288cf24e8ed11bfd08e90e84",
+      "dependency-snapshot/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "dependency-snapshot/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "dependency-snapshot/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "masks_float32_sha256": {
+      "water": "b4f69014286f6540c9a672a8e3c20d27b912ec43ef03e236c17efeca450f4bb0",
+      "sky": "e1cd93db1a5c0d1b029808f9346bb0f11ab83aa3b63ae46228578b44057ee04b",
+      "lights": "2d68d7e6527f4e5d9c79874aa1246143b43f42858b0d411ee235a0fbb39670fa",
+      "lamp": "c26d03b2af7fe7d52562a819bb63f79f110e516eea24409342d8f7241f2d4e83",
+      "screen": "3475cbc46b285d1fd04e0ccdf18fd6a3722cef4b67f290ca6c720ae7b3044013"
+    },
+    "runtime": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "numpy": "2.4.4",
+      "opencv": "5.0.0",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "ffmpeg": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    }
+  },
+  "layers": {
+    "water": {
+      "endpoint_exact": true,
+      "seam_step_mae": 0.0607202329454011,
+      "ordinary_sampled_max": 0.06106444140548687,
+      "one_second_motion_at_0_4_8_12_16": [
+        1.7474068078851646,
+        1.7584710942417956,
+        1.8162174901311403,
+        1.6431674620672974,
+        1.6801311093125444
+      ],
+      "protected_pixels_exact": true
+    },
+    "sky": {
+      "endpoint_exact": true,
+      "seam_step_mae": 0.04834389109778287,
+      "ordinary_sampled_max": 0.049618684996742816,
+      "one_second_motion_at_0_4_8_12_16": [
+        1.0927538917716828,
+        1.1181823797650337,
+        1.1006329042837568,
+        1.0896118336815148,
+        1.1351702720309096
+      ],
+      "protected_pixels_exact": true
+    },
+    "lights": {
+      "endpoint_exact": true,
+      "seam_step_mae": 0.0,
+      "ordinary_sampled_max": 0.24399717514124294,
+      "one_second_motion_at_0_4_8_12_16": [
+        0.0,
+        7.986935028248587,
+        8.600635593220339,
+        6.323799435028248,
+        1.510946327683616
+      ],
+      "protected_pixels_exact": true
+    },
+    "lamp": {
+      "endpoint_exact": true,
+      "seam_step_mae": 0.0,
+      "ordinary_sampled_max": 0.535741935483871,
+      "one_second_motion_at_0_4_8_12_16": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.3638924731182795
+      ],
+      "protected_pixels_exact": true
+    },
+    "screen": {
+      "endpoint_exact": true,
+      "seam_step_mae": 0.04922917476357041,
+      "ordinary_sampled_max": 0.051949734421557196,
+      "one_second_motion_at_0_4_8_12_16": [
+        1.202228267910351,
+        1.0169711102474415,
+        1.1216478818499807,
+        0.9098328799067237,
+        0.869154035496826
+      ],
+      "protected_pixels_exact": true
+    }
+  },
+  "planet_static_exact": true,
+  "outside_active_masks_exact": true,
+  "water_loop_frequency_deviation_percent": {
+    "mean": 16.75076164877211,
+    "max": 32.37313350573183
+  },
+  "artistic_approval": false
+}

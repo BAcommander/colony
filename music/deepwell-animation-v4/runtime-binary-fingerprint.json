@@ -1,0 +1,94 @@
+{
+  "C:\\Users\\jazzs\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe": {
+    "bytes": 107312,
+    "sha256": "5640e9be2fd33d05a1a9ae1228e2354609a69ab831605995ec4e2bd6da8fff5e"
+  },
+  "C:\\Users\\jazzs\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.EXE": {
+    "bytes": 222248960,
+    "sha256": "05f4251bce9293c2ab492cb17ca7724a0ffd0d06c881ba2ee83b82a89c2fc740"
+  },
+  "C:\\Users\\jazzs\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffprobe.EXE": {
+    "bytes": 222044160,
+    "sha256": "51e0780cd881f83749b029ed716cbb841c2eac6289f418050f2f2961b158896b"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\cv2\\cv2.pyd": {
+    "bytes": 86293504,
+    "sha256": "f1e76ab01cf4d33af780adf8ada1a26c5eaeecc55d2cbe8a5e288195e8f9b0dd"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\fft\\_pocketfft_umath.cp312-win_amd64.pyd": {
+    "bytes": 276480,
+    "sha256": "7c009372f4f448c2d7419726b671f7122693705c905d5239df1ef2b49c30eadc"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\linalg\\lapack_lite.cp312-win_amd64.pyd": {
+    "bytes": 18944,
+    "sha256": "7d0b28de7229d533f158708676ae4661b0554badd8b4ca7befd9f573b6fddb80"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp312-win_amd64.pyd": {
+    "bytes": 112128,
+    "sha256": "8732faea57c1e9750297bc5df2ed090954159e28024c66f1cdbf1d4eb798ccb8"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\random\\bit_generator.cp312-win_amd64.pyd": {
+    "bytes": 157696,
+    "sha256": "13c855266daae91046fdeced52acd6ad1a39680381f11e2c9959b173f5f8b6fb"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\random\\mtrand.cp312-win_amd64.pyd": {
+    "bytes": 488960,
+    "sha256": "a100e03d295811221bc317d9ba7e0ff0dbcd58a8deda7d2f734703fc7e223e6a"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\random\\_bounded_integers.cp312-win_amd64.pyd": {
+    "bytes": 207360,
+    "sha256": "dd98c61f9c78c6dfbf16b7ef5060647aba412a6ea74ab6cd80d93c34dd485d57"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\random\\_common.cp312-win_amd64.pyd": {
+    "bytes": 167424,
+    "sha256": "95b8170a18ec959a6e7d5eb3c5ec62945e25ef000e7d3e079634f6a6f1025599"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\random\\_generator.cp312-win_amd64.pyd": {
+    "bytes": 585216,
+    "sha256": "dd21763b7cbd0934d11e18a205b43a2f94281749cdc3ae29a8b0551d89bec069"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\random\\_mt19937.cp312-win_amd64.pyd": {
+    "bytes": 83968,
+    "sha256": "dfb5422af41c2481f7284cfb24d6c22d20f7335a3b782381b965f1ae5dbbb58b"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\random\\_pcg64.cp312-win_amd64.pyd": {
+    "bytes": 94720,
+    "sha256": "7233f96d62e6e908a5b8c05d944bab62484e1e8094ed7ceb67c4d039da9b03e3"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\random\\_philox.cp312-win_amd64.pyd": {
+    "bytes": 78336,
+    "sha256": "a42e903341f5ab570a508c4347e838955b9d01dfb42fbe2a92716cd17c8263bf"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\random\\_sfc64.cp312-win_amd64.pyd": {
+    "bytes": 59904,
+    "sha256": "a84fd4bed2bbfe54d6e0b21990e9260cf82770e80c22f58ce767917ad2d72a9b"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\_core\\_multiarray_tests.cp312-win_amd64.pyd": {
+    "bytes": 65536,
+    "sha256": "a37712b7a0e12fbb28b5c77873886140f7a36dc7c11d0ffb1739fb07f879ad4b"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\_core\\_multiarray_umath.cp312-win_amd64.pyd": {
+    "bytes": 3714560,
+    "sha256": "f4523c2dfe641a904605029ce4a5046388bd61b18afc0594d34018b5e6d848f8"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\_core\\_operand_flag_tests.cp312-win_amd64.pyd": {
+    "bytes": 12288,
+    "sha256": "7e4e9738f554ccffe98ace10618d96b40784fa6dfe1313a5e73fb72dc575c736"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\_core\\_rational_tests.cp312-win_amd64.pyd": {
+    "bytes": 39936,
+    "sha256": "922c3ca16dd5be1c89aab32f584272cb9a9cea32dff728b27fdd17ce9be85dd2"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\_core\\_simd.cp312-win_amd64.pyd": {
+    "bytes": 832000,
+    "sha256": "5fb18573594ff25afb56359a6349f006e37dfb71e4de2c30dad8c0fb91957bf5"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\_core\\_struct_ufunc_tests.cp312-win_amd64.pyd": {
+    "bytes": 14336,
+    "sha256": "9bb5da7cb16679c130025472ffb10824821a1972d375a69876745ae77ecb05a9"
+  },
+  "C:\\AI\\ComfyUI\\venv\\Lib\\site-packages\\numpy\\_core\\_umath_tests.cp312-win_amd64.pyd": {
+    "bytes": 33280,
+    "sha256": "adb48d882bc86e2cfb31ede2316fd69a046590b67e5f29a624fe44b47795aa07"
+  }
+}

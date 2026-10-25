@@ -1,0 +1,10 @@
+Save Deepwell v4 steam and purple pipeline animation checkpoint
+
+Preserve the complete v1-v4 source, artwork, dependencies, review/history media,
+validation and exact user feedback. V4 rebuilds rolling vapor at the coffee and
+three tank outlets and sends larger purple indicators along the pipeline and back.
+Retain corrected glazing and thirteen verified v3 layers.
+
+Full frame, timestamp, loop, direct-YUV and prior-version preservation checks pass.
+Save scoped project status and visibility lessons. V4 artistic review remains
+pending. Unrelated working and staged scene changes are preserved separately.

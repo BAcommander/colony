@@ -1,0 +1,41 @@
+{
+  "tool": "built-in image_gen edit",
+  "original_source": "G:\\AI\\colony\\final\\12-deepwell-station\\artwork-v2.png",
+  "original_sha256": "46013ffabbddfdf983b16de74fa65972780e0a84288cf24e8ed11bfd08e90e84",
+  "generated_original_sha256": "ca706c9947e875a8582eca18e079c01001dc446248f77f938ad5b7e147b509dc",
+  "final_sha256": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "local_sky_bbox": [
+    1010,
+    41,
+    1284,
+    237
+  ],
+  "feather_pixels": [
+    23,
+    20
+  ],
+  "perimeter_colour_match_additive_plane": [
+    [
+      2.0156084656084756,
+      2.0823633156966657,
+      2.0186067019400302
+    ],
+    [
+      0.3128784659283096,
+      -0.16695316317002207,
+      -0.4955458611229172
+    ],
+    [
+      -0.33006695813892656,
+      -0.4542850115811128,
+      -0.5648934186308616
+    ]
+  ],
+  "outside_sky_edit_mask_byte_identical": true,
+  "changed_pixels": 45566,
+  "user_art_approval": false
+}

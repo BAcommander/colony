@@ -1,0 +1,233 @@
+{
+  "fingerprint": {
+    "files": {
+      "scene-plan-v1.json": "39e755f2e9c7d59060669cbe1067a1723e6b6df55e74fe7bb29b45d4355a4045",
+      "render_deepwell.py": "769a835cd532d32454c435f435e2ca65b5d39ddaa9003e06b3750bccec1ddc34",
+      "artwork-planet-v1.png": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b",
+      "artwork-original-v2.png": "46013ffabbddfdf983b16de74fa65972780e0a84288cf24e8ed11bfd08e90e84",
+      "dependency-snapshot/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "dependency-snapshot/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "dependency-snapshot/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "masks_float32_sha256": {
+      "water": "b4f69014286f6540c9a672a8e3c20d27b912ec43ef03e236c17efeca450f4bb0",
+      "sky": "e1cd93db1a5c0d1b029808f9346bb0f11ab83aa3b63ae46228578b44057ee04b",
+      "lights": "2d68d7e6527f4e5d9c79874aa1246143b43f42858b0d411ee235a0fbb39670fa",
+      "lamp": "c26d03b2af7fe7d52562a819bb63f79f110e516eea24409342d8f7241f2d4e83",
+      "screen": "3475cbc46b285d1fd04e0ccdf18fd6a3722cef4b67f290ca6c720ae7b3044013"
+    },
+    "runtime": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "numpy": "2.4.4",
+      "opencv": "5.0.0",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "ffmpeg": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    }
+  },
+  "clips": [
+    {
+      "path": "Deepwell-v1-preview-20s.mp4",
+      "sha256": "53efd6ffd2145e989f6166ccfc5540c49e45d26972441cfba7057bed9a2f8a36",
+      "seconds": 20,
+      "frames": 600,
+      "layer": "combined",
+      "command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-n",
+        "-f",
+        "rawvideo",
+        "-pix_fmt",
+        "rgb24",
+        "-s",
+        "1672x941",
+        "-r",
+        "30",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-vf",
+        "scale=1280:720:flags=lanczos:in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv420p",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "veryfast",
+        "-qp",
+        "0",
+        "-color_primaries",
+        "bt709",
+        "-color_trc",
+        "bt709",
+        "-colorspace",
+        "bt709",
+        "-color_range",
+        "tv",
+        "-movflags",
+        "+faststart",
+        "G:\\AI\\colony\\music\\deepwell-animation-v1\\Deepwell-v1-preview-20s.mp4"
+      ],
+      "validation": {
+        "decoded_frames": 600,
+        "all_frames_decode": true,
+        "timestamps_sequential": true,
+        "silent": true,
+        "bt709": {
+          "width": 1280,
+          "height": 720,
+          "color_space": "bt709",
+          "r_frame_rate": "30/1",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc63.1.100 libx264"
+          }
+        },
+        "seam_checks": {
+          "water": {
+            "seam_mae": 0.18941355230486598,
+            "ordinary_max_mae": 0.19784734465250975,
+            "quiet_neighbour_max_mae": 0.19313013876314966,
+            "pass": true
+          },
+          "sky": {
+            "seam_mae": 0.1311212573703959,
+            "ordinary_max_mae": 0.13938184393904587,
+            "quiet_neighbour_max_mae": 0.13307871965694157,
+            "pass": true
+          },
+          "lights": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.6810551558752997,
+            "quiet_neighbour_max_mae": 0.0,
+            "pass": true
+          },
+          "lamp": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.3970148164367564,
+            "quiet_neighbour_max_mae": 0.0,
+            "pass": true
+          },
+          "screen": {
+            "seam_mae": 0.0627763041556145,
+            "ordinary_max_mae": 0.09438549955791335,
+            "quiet_neighbour_max_mae": 0.09151193633952255,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.1470906608625913,
+            "ordinary_max_mae": 0.2995565816221278,
+            "quiet_neighbour_max_mae": 0.1482797545784744,
+            "pass": true
+          }
+        },
+        "three_exact_decoded_repeats": false
+      }
+    },
+    {
+      "path": "Deepwell-v1-three-loops-60s.mp4",
+      "sha256": "b8569645e311efac6bbc9a635732efe48d922f5e8e5c36d9a59e9aae8fd61f50",
+      "validation": {
+        "decoded_frames": 1800,
+        "all_frames_decode": true,
+        "timestamps_sequential": true,
+        "silent": true,
+        "bt709": {
+          "width": 1280,
+          "height": 720,
+          "color_space": "bt709",
+          "r_frame_rate": "30/1",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc63.1.100 libx264"
+          }
+        },
+        "seam_checks": {
+          "water": {
+            "seam_mae": 0.18941355230486598,
+            "ordinary_max_mae": 0.19784734465250975,
+            "quiet_neighbour_max_mae": 0.19313013876314966,
+            "pass": true
+          },
+          "sky": {
+            "seam_mae": 0.1311212573703959,
+            "ordinary_max_mae": 0.13938184393904587,
+            "quiet_neighbour_max_mae": 0.13307871965694157,
+            "pass": true
+          },
+          "lights": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 0.6810551558752997,
+            "quiet_neighbour_max_mae": 0.0,
+            "pass": true
+          },
+          "lamp": {
+            "seam_mae": 0.0,
+            "ordinary_max_mae": 2.3970148164367564,
+            "quiet_neighbour_max_mae": 0.0,
+            "pass": true
+          },
+          "screen": {
+            "seam_mae": 0.0627763041556145,
+            "ordinary_max_mae": 0.09438549955791335,
+            "quiet_neighbour_max_mae": 0.09151193633952255,
+            "pass": true
+          },
+          "combined": {
+            "seam_mae": 0.1470906608625913,
+            "ordinary_max_mae": 0.2995565816221278,
+            "quiet_neighbour_max_mae": 0.1482797545784744,
+            "pass": true
+          }
+        },
+        "three_exact_decoded_repeats": true
+      },
+      "three_identical_encoded_packet_sequences": true
+    }
+  ],
+  "user_approved": false,
+  "inspection": "Assistant inspects source, masks and temporal/decoded stills; no continuous playback claim"
+}

@@ -1,0 +1,35 @@
+2026-10-25. User says steam everywhere and the cyan lights are very hard to see,
+asks for purple lights travelling up and down the pipeline, and another much
+better pass. Treat v3 vapor/indicator visibility as failed user review. Preserve
+v3 and its corrected glazing; do not transfer its numeric passes into acceptance.
+
+Change the vapor method as well as its settings: wider rolling body plus broken
+filaments, larger curl, taller coverage, whiter scattering against the background,
+more persistent source duty and fewer empty moments. Coffee remains attached
+inside the opening with front rim/body fixed; three tank roof outlets retain
+vessel/pipe occlusion. Use convective upward transport with birth-time variation,
+finite envelopes and lifetimes dividing twenty seconds. Preserve transparency
+and breakup rather than creating a flat stripe or solid cone.
+
+Enlarge the pipe-mounted emitters to short purple segments. Remove the luminance
+gate that can erase a bright indicator inside a photographed pipe highlight; use
+the actual traced pipe face and an inward geometry feather instead. Keep tiny
+housings and a confined purple surface halo. A bright pulse moves from the
+distant left to the plant at 10s and returns by 20s. Smooth positional easing and
+a continuous directional tail make the reversal legible without reversing the
+scene or making a hard state jump. Inspect a full twenty-second indicator-only
+cycle so both directions are actually covered.
+
+Review at the delivered 1280x720 full composition before relying on crops or
+metrics. Compare original v3 and v4 without amplified differences. Preserve the
+whole-pane masks, white-core coverage, steady blue glass and fixed mullions/stone.
+Retain thirteen v3 layers and the composite outside old/new vapor/light masks.
+
+Render coffee/tank isolated clips and a complete pipe round-trip test, then a
+genuine silent twenty-second preview and exact three-repeat review. Retain all
+native source guards, finite/periodic states, all-frame/timestamp decode, regional
+and quiet-neighbour seam comparisons, repeated packet/picture identity and direct
+native-to-YUV controls. Do not loosen gates. Exact v3 files, snapshot/runtime/code/
+config/masks and user feedback must be preserved. No new artwork, music, paid
+service, model install, 4K, long assembly or commit/push requested. Assistant still
+inspection and the user's actual playback verdict remain distinct.

@@ -150,3 +150,7 @@ music/below-the-snowline-animation-v1/** -text whitespace=blank-at-eol,-blank-at
 music/below-the-snowline-animation-v2/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
 music/below-the-snowline-animation-v1/Below-the-Snowline-v1-preview-20s.mp4 filter=lfs diff=lfs merge=lfs -text
 music/below-the-snowline-animation-v2/Below-the-Snowline-v2-preview-20s.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Deepwell checkpoint: preserve all source, media and hash-bound records exactly.
+music/deepwell-animation-v[1-4]/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/deepwell-backup-2026-10-25/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

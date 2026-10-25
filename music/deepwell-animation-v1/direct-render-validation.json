@@ -1,0 +1,64 @@
+{
+  "fingerprint": {
+    "files": {
+      "scene-plan-v1.json": "39e755f2e9c7d59060669cbe1067a1723e6b6df55e74fe7bb29b45d4355a4045",
+      "render_deepwell.py": "769a835cd532d32454c435f435e2ca65b5d39ddaa9003e06b3750bccec1ddc34",
+      "artwork-planet-v1.png": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b",
+      "artwork-original-v2.png": "46013ffabbddfdf983b16de74fa65972780e0a84288cf24e8ed11bfd08e90e84",
+      "dependency-snapshot/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "dependency-snapshot/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "dependency-snapshot/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "masks_float32_sha256": {
+      "water": "b4f69014286f6540c9a672a8e3c20d27b912ec43ef03e236c17efeca450f4bb0",
+      "sky": "e1cd93db1a5c0d1b029808f9346bb0f11ab83aa3b63ae46228578b44057ee04b",
+      "lights": "2d68d7e6527f4e5d9c79874aa1246143b43f42858b0d411ee235a0fbb39670fa",
+      "lamp": "c26d03b2af7fe7d52562a819bb63f79f110e516eea24409342d8f7241f2d4e83",
+      "screen": "3475cbc46b285d1fd04e0ccdf18fd6a3722cef4b67f290ca6c720ae7b3044013"
+    },
+    "runtime": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "numpy": "2.4.4",
+      "opencv": "5.0.0",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "ffmpeg": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    }
+  },
+  "preview_direct_native_to_decoded_yuv_match_frames": [
+    0,
+    1,
+    119,
+    120,
+    239,
+    240,
+    359,
+    360,
+    479,
+    480,
+    598,
+    599
+  ],
+  "all_selected_yuv_bytes_exact": true,
+  "retained_secondary_isolates": {
+    "sky": {
+      "sha256": "17a979c8f79229d049b5104de5eb3fb76b9ab9918a88cac29e9e0b6828cdd7b5",
+      "direct_native_yuv_match_frames": [
+        0,
+        120,
+        239
+      ],
+      "same_layer_output_with_fine_water_config": true
+    },
+    "screen": {
+      "sha256": "21c459c268dc2d8b15f4ade540e692ccdc4fe9d9c779bcb2853a1af45bdc2b3d",
+      "direct_native_yuv_match_frames": [
+        0,
+        120,
+        239
+      ],
+      "same_layer_output_with_fine_water_config": true
+    }
+  },
+  "assistant_inspection": "Source, masks, native temporal stills, water scale comparison, isolated cloud temporal crops and selected decoded stills. Continuous playback not claimed.",
+  "user_artistic_approval": false
+}

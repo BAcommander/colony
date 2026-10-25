@@ -1,0 +1,416 @@
+{
+  "scene": "Deepwell Station",
+  "date": "2026-10-25",
+  "status": "First planet and motion candidate; user review pending",
+  "current_source": "artwork-planet-v1.png",
+  "current_preview": "Deepwell-v1-preview-20s.mp4",
+  "repeat_review": "Deepwell-v1-three-loops-60s.mp4",
+  "silent": true,
+  "runtime_binary_fingerprint": "runtime-binary-fingerprint.json",
+  "fingerprint": {
+    "files": {
+      "scene-plan-v1.json": "39e755f2e9c7d59060669cbe1067a1723e6b6df55e74fe7bb29b45d4355a4045",
+      "render_deepwell.py": "769a835cd532d32454c435f435e2ca65b5d39ddaa9003e06b3750bccec1ddc34",
+      "artwork-planet-v1.png": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b",
+      "artwork-original-v2.png": "46013ffabbddfdf983b16de74fa65972780e0a84288cf24e8ed11bfd08e90e84",
+      "dependency-snapshot/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "dependency-snapshot/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "dependency-snapshot/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "masks_float32_sha256": {
+      "water": "b4f69014286f6540c9a672a8e3c20d27b912ec43ef03e236c17efeca450f4bb0",
+      "sky": "e1cd93db1a5c0d1b029808f9346bb0f11ab83aa3b63ae46228578b44057ee04b",
+      "lights": "2d68d7e6527f4e5d9c79874aa1246143b43f42858b0d411ee235a0fbb39670fa",
+      "lamp": "c26d03b2af7fe7d52562a819bb63f79f110e516eea24409342d8f7241f2d4e83",
+      "screen": "3475cbc46b285d1fd04e0ccdf18fd6a3722cef4b67f290ca6c720ae7b3044013"
+    },
+    "runtime": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "numpy": "2.4.4",
+      "opencv": "5.0.0",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "ffmpeg": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    }
+  },
+  "files": {
+    "analytic-validation.json": {
+      "bytes": 3641,
+      "sha256": "100b34cc77ad35ca7ce4877899e902bf0807e39e68d669903b3b562f0c0ab4d6"
+    },
+    "artwork-original-v2.png": {
+      "bytes": 2380932,
+      "sha256": "46013ffabbddfdf983b16de74fa65972780e0a84288cf24e8ed11bfd08e90e84"
+    },
+    "artwork-planet-v1.png": {
+      "bytes": 2385467,
+      "sha256": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b"
+    },
+    "artwork-provenance.json": {
+      "bytes": 1015,
+      "sha256": "8ebd36096e2e26e30335db64e5a1168e76b537f826b02a4a4422c306b23ab77a"
+    },
+    "cloud-transport-comparison.png": {
+      "bytes": 205163,
+      "sha256": "b07ca971158a33247fe1f7dc0872cbcf7e7690796d5d5817b87768c3bc85a0c9"
+    },
+    "creative-brief.txt": {
+      "bytes": 2860,
+      "sha256": "9d68cd7b4327beb156872508e7efbcf3b1d825abce654c84fcb9b79a1b9fc40f"
+    },
+    "decoded-0000.png": {
+      "bytes": 1220134,
+      "sha256": "5240613be2e955d190aebbea395a20479eb7d6cc4978955a974c0b97c7d9cb1f"
+    },
+    "decoded-0120.png": {
+      "bytes": 1221450,
+      "sha256": "9cbc1ffc285e94c20a9d71d7ac87a88b01d8ffe203d7e1a9af2f0ec60c83345b"
+    },
+    "decoded-0240.png": {
+      "bytes": 1221855,
+      "sha256": "56df5e0acd610d2bc2015f6959f6d1c458448b1d934087870a4b1d28bafd5b82"
+    },
+    "decoded-0360.png": {
+      "bytes": 1218648,
+      "sha256": "75b96e5c6e921ebf810d5f9b743962e173f9d1e23bea67e3fab585f7a34e0ea6"
+    },
+    "decoded-0480.png": {
+      "bytes": 1221336,
+      "sha256": "908fbc6b290fd6c672f86dada57cde326071e9e9d13a286961044ce09d4d117b"
+    },
+    "decoded-0599.png": {
+      "bytes": 1220207,
+      "sha256": "bb5b1ad16fd41997151742a83817f3c57c9e7fc0d6e9008bb338658912e60850"
+    },
+    "deepwell-screen-isolated-8s.mp4": {
+      "bytes": 568575,
+      "sha256": "21c459c268dc2d8b15f4ade540e692ccdc4fe9d9c779bcb2853a1af45bdc2b3d"
+    },
+    "deepwell-sky-isolated-8s.mp4": {
+      "bytes": 1712333,
+      "sha256": "17a979c8f79229d049b5104de5eb3fb76b9ab9918a88cac29e9e0b6828cdd7b5"
+    },
+    "Deepwell-v1-preview-20s.mp4": {
+      "bytes": 8263266,
+      "sha256": "53efd6ffd2145e989f6166ccfc5540c49e45d26972441cfba7057bed9a2f8a36"
+    },
+    "Deepwell-v1-three-loops-60s.mp4": {
+      "bytes": 24788150,
+      "sha256": "b8569645e311efac6bbc9a635732efe48d922f5e8e5c36d9a59e9aae8fd61f50"
+    },
+    "deepwell-water-fine-isolated-8s.mp4": {
+      "bytes": 2013947,
+      "sha256": "53c499eea4dc775250aa9fb347201b070d4b249649db57fb1ee2947c02d4175d"
+    },
+    "deepwell-water-isolated-8s.mp4": {
+      "bytes": 1750411,
+      "sha256": "6f4b0049699f059d4b1cb86af6b2a6b33541a6d41ce20544fbf094059ea073c9"
+    },
+    "dependency-snapshot/ambient_effects.py": {
+      "bytes": 1640,
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+    },
+    "dependency-snapshot/manifest.json": {
+      "bytes": 542,
+      "sha256": "9c875868a4ca3d1714805ee5f153e5cdfdcd4e473e74c236740e5d0754a0baf9"
+    },
+    "dependency-snapshot/render_floodplain.py": {
+      "bytes": 12017,
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "dependency-snapshot/water_surface.py": {
+      "bytes": 3156,
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "direct-render-validation.json": {
+      "bytes": 2571,
+      "sha256": "9240f562a88c53375848ca7e829339afd47b0ba8bcbfc7f9bfbea36dd65415b8"
+    },
+    "finalize_manifest.py": {
+      "bytes": 1727,
+      "sha256": "27c466c5e6adbc662dc35cf55028c7e6ff62d51c5ce24231a7ec8e766aa73b8c"
+    },
+    "history/broad-water-study/analytic-validation.json": {
+      "bytes": 3643,
+      "sha256": "92284b2b67ec4bdaa4b943dfd1ae3fa85dd0bc1bc0f4501bbe1e6c3ec0b91aae"
+    },
+    "history/broad-water-study/deepwell-water-isolated-8s.mp4": {
+      "bytes": 1750411,
+      "sha256": "6f4b0049699f059d4b1cb86af6b2a6b33541a6d41ce20544fbf094059ea073c9"
+    },
+    "history/broad-water-study/isolated-validation.json": {
+      "bytes": 8312,
+      "sha256": "97c39faf62b4ec403cf361c45b4b06bf40e3d45d20ff00da72187a7828260565"
+    },
+    "history/broad-water-study/mask-review.png": {
+      "bytes": 2350920,
+      "sha256": "a434291c6671fe6d91fe58a5cd0b9704b353ac3be77176f649357a24fb832bbf"
+    },
+    "history/broad-water-study/render_deepwell.py": {
+      "bytes": 14592,
+      "sha256": "769a835cd532d32454c435f435e2ca65b5d39ddaa9003e06b3750bccec1ddc34"
+    },
+    "history/broad-water-study/sample-0.000s.png": {
+      "bytes": 2328603,
+      "sha256": "6c02f5c3995e00c2e426cfa02ab6112963843802bf6606e24ccdbc454d5097cd"
+    },
+    "history/broad-water-study/sample-12.000s.png": {
+      "bytes": 2327708,
+      "sha256": "a625034bcb153f2008bc54d9e34f70abababf40cee787cbb1e4928f69fc3bd1a"
+    },
+    "history/broad-water-study/sample-16.000s.png": {
+      "bytes": 2329196,
+      "sha256": "4788d994c8e66d16547ab3fcab5eced647a03aeaf7be08d21959af7f3f705b21"
+    },
+    "history/broad-water-study/sample-19.967s.png": {
+      "bytes": 2328498,
+      "sha256": "db305df862d6456714f80aadeb7df503b9fdef0ebe3c94e4104970c56b36edeb"
+    },
+    "history/broad-water-study/sample-4.000s.png": {
+      "bytes": 2328944,
+      "sha256": "b0d51b6a1015cf5bfb6999def98429cd2a87edd7deb6e1923b68b453ed202e25"
+    },
+    "history/broad-water-study/sample-8.000s.png": {
+      "bytes": 2329174,
+      "sha256": "4a67b593a757f678347c25637ec74630dad38b5488e87edf30606bd2bb3f473d"
+    },
+    "history/broad-water-study/scene-plan-v1.json": {
+      "bytes": 9056,
+      "sha256": "94d4e66fcc3dc7aa0bab099b7494d985acdd8940118e2cc3d1566328ea68e80f"
+    },
+    "history/initial-mask-and-screen-seam/mask-review.png": {
+      "bytes": 2356154,
+      "sha256": "54389ce5a48c6083a90d1b412511790660b559217940e0defa77c2e918c71f48"
+    },
+    "history/initial-mask-and-screen-seam/README.txt": {
+      "bytes": 649,
+      "sha256": "5e7a43b6b09ae979aa7d49988def84a5629418826bb567362b679ecaf1fa56bb"
+    },
+    "history/initial-mask-and-screen-seam/render_deepwell.py": {
+      "bytes": 14462,
+      "sha256": "ef6e55f4d75c3a0e94a565a6c0732b873519611a3bf09a2f252228841f47d4b0"
+    },
+    "history/initial-mask-and-screen-seam/sample-0.000s.png": {
+      "bytes": 2335752,
+      "sha256": "f22aca50cf6522877be251016e774747433e37da55518b8c0ac821add558f85a"
+    },
+    "history/initial-mask-and-screen-seam/sample-12.000s.png": {
+      "bytes": 2334920,
+      "sha256": "71ab20b15a8811a7b483afea58e1aeea2f0878596eeb87e4078026b1327d5e89"
+    },
+    "history/initial-mask-and-screen-seam/sample-16.000s.png": {
+      "bytes": 2336235,
+      "sha256": "1c940acc65d36fb82e6a97173ccc985d4962d1fab232216a3175429a16a37583"
+    },
+    "history/initial-mask-and-screen-seam/sample-19.967s.png": {
+      "bytes": 2335650,
+      "sha256": "504c60667d00cbc31071f2386300cc323d21e5ff4cb22a80cc0a784c24755d05"
+    },
+    "history/initial-mask-and-screen-seam/sample-4.000s.png": {
+      "bytes": 2336358,
+      "sha256": "d9d6f7b7ced34e9bedb755be0a4d96bf7c4f53a290fe1cf3e4a5ddb1a5425f3b"
+    },
+    "history/initial-mask-and-screen-seam/sample-8.000s.png": {
+      "bytes": 2336329,
+      "sha256": "aacdf800be52fe66a3d2a2e2c937fd0118486b0d974c5333000e2c042fa8e1fe"
+    },
+    "history/initial-mask-and-screen-seam/scene-plan-v1.json": {
+      "bytes": 9056,
+      "sha256": "94d4e66fcc3dc7aa0bab099b7494d985acdd8940118e2cc3d1566328ea68e80f"
+    },
+    "inspect_delivery.py": {
+      "bytes": 2802,
+      "sha256": "c46273873bd555f1fa5910bba0877a00ffa64550e7dce302cd055b2078eea1cf"
+    },
+    "isolated-validation.json": {
+      "bytes": 8312,
+      "sha256": "97c39faf62b4ec403cf361c45b4b06bf40e3d45d20ff00da72187a7828260565"
+    },
+    "mask-review.png": {
+      "bytes": 2350920,
+      "sha256": "a434291c6671fe6d91fe58a5cd0b9704b353ac3be77176f649357a24fb832bbf"
+    },
+    "masks/lamp.png": {
+      "bytes": 9750,
+      "sha256": "6c02a6fdbd1ccc7b2fac602d4d14a56b20e2af37f5ae8619cc7c290296a1edec"
+    },
+    "masks/lights.png": {
+      "bytes": 2083,
+      "sha256": "3a4d3eabe4c043030da737e924930b13815ac63b2e4c7dab027e7606f1119e51"
+    },
+    "masks/screen.png": {
+      "bytes": 2309,
+      "sha256": "48b360c38bdfa60303c24eff49d4d81f2bfcee99b487dc7ab1d3d6f763ccc74c"
+    },
+    "masks/sky.png": {
+      "bytes": 6265,
+      "sha256": "a4ea296976373a369316dc73748d193775140f01dbff9ca1250b4caa1f015414"
+    },
+    "masks/water.png": {
+      "bytes": 10329,
+      "sha256": "b05ff5db44ecf57e58d97552b4c3d5fce199252a1104fd4dd2390cf0b23254ca"
+    },
+    "monitor-detail.png": {
+      "bytes": 179942,
+      "sha256": "6bc833c79276c95764b3c9d316652aee39221bcb33c0eb13dd17361f1281e23d"
+    },
+    "planet-edit-executed-prompt.txt": {
+      "bytes": 1234,
+      "sha256": "c882792d89631f0258ceee1d1ab107fc2befdcce3dda159872150dd86a0c7dd2"
+    },
+    "planet-edit-mask.png": {
+      "bytes": 2293,
+      "sha256": "97e795aa42163c6c7e97fadc4a3762e819ff60f4e41141c3b2430b2c81ce610d"
+    },
+    "planet-edit-prompt.txt": {
+      "bytes": 1582,
+      "sha256": "725936d969b3eded78a9f978a56fd8f3bcb9aad10800ac6bfefe9cdf31b9b392"
+    },
+    "planet-imagegen-original.png": {
+      "bytes": 2302537,
+      "sha256": "ca706c9947e875a8582eca18e079c01001dc446248f77f938ad5b7e147b509dc"
+    },
+    "prepare_deepwell.py": {
+      "bytes": 5961,
+      "sha256": "fa591f239e3fa99fe97f94b68222c984da7cf6a0314d5aced0dd4dc6e74c2b64"
+    },
+    "preview-validation.json": {
+      "bytes": 7846,
+      "sha256": "d455827ece0ff5f2cc137ac9e743b5048304311fdabe683ee9807f87497ec755"
+    },
+    "project-status-before/AGENTS.md.txt": {
+      "bytes": 65949,
+      "sha256": "83958d1f67ceeb67d294f83ae2e320b9c11a6c93baab07b332cf9c28eb077be6"
+    },
+    "project-status-before/creative__ANIMATION_KNOWLEDGE_BANK.md.txt": {
+      "bytes": 54855,
+      "sha256": "e524e9e5a9bce51bc5bb061753520024aba917f3b0a41e3bff35be84cc1de4c6"
+    },
+    "project-status-before/final__12-deepwell-station__README.md.txt": {
+      "bytes": 1562,
+      "sha256": "24697d186685246ad975eb3ab20db7150990f87b2be51b0e797371bc4003e717"
+    },
+    "project-status-before/PRODUCTION_PIPELINE.md.txt": {
+      "bytes": 27667,
+      "sha256": "1b47d15e35a560320d033a5ae7d7a986640e6b1cb1c1482828dcc13511a6202c"
+    },
+    "project-status-update.json": {
+      "bytes": 1086,
+      "sha256": "dff7c087b3447c9e432f9a98fc0189852d48222ea96d882fdc30a4680a4a92cf"
+    },
+    "README.md": {
+      "bytes": 5958,
+      "sha256": "e4488e1ca99b4e8d06ed29c4d19597b92e11ba41e8b739ab6a58a61796b1e8f7"
+    },
+    "refine_water.py": {
+      "bytes": 1618,
+      "sha256": "3d036874a10dd1c40e97dbbded8bd5e1fbe67c9e8385b5d2f14707802a3ed5c0"
+    },
+    "render_deepwell.py": {
+      "bytes": 14592,
+      "sha256": "769a835cd532d32454c435f435e2ca65b5d39ddaa9003e06b3750bccec1ddc34"
+    },
+    "runtime-binary-fingerprint.json": {
+      "bytes": 4730,
+      "sha256": "974fb14bf3638b0f60980da6c6b642b638dc9c0efa2c28ab81fb08e886fc5d09"
+    },
+    "sample-0.000s.png": {
+      "bytes": 2351501,
+      "sha256": "0f9eeb68628c44bf91000ddc086b16a1453365ded47e9562f0378c7e2068798a"
+    },
+    "sample-12.000s.png": {
+      "bytes": 2350694,
+      "sha256": "59710c30cf0f315bb9b007964f775b0de624ca3a200f1a62503d5dae7d0830d7"
+    },
+    "sample-16.000s.png": {
+      "bytes": 2351990,
+      "sha256": "f257c29592434980cfc19a3adf50bd80e0fd0f5553ae40f4bd387b7df2db41b2"
+    },
+    "sample-19.967s.png": {
+      "bytes": 2351574,
+      "sha256": "29afda0afe1b0e30675cb032d4ca2e6a9295ac97282d77ce0ff6496453ed06ab"
+    },
+    "sample-4.000s.png": {
+      "bytes": 2353128,
+      "sha256": "4d26b338e738020b754d5413449087a23c7cea6cdb413d7b48cbf7a18d3d5f04"
+    },
+    "sample-8.000s.png": {
+      "bytes": 2352959,
+      "sha256": "40a4e75850902644a5d725f21ae71020acb1f4c4e378d1b2248b86ca38e45334"
+    },
+    "scene-plan-v1.json": {
+      "bytes": 9061,
+      "sha256": "39e755f2e9c7d59060669cbe1067a1723e6b6df55e74fe7bb29b45d4355a4045"
+    },
+    "sky-isolated-decoded-0.png": {
+      "bytes": 1247470,
+      "sha256": "00881dde8d17fcb9cdaa920940eecc40d3c90d7ece0c5896457cdb2f31992339"
+    },
+    "sky-isolated-decoded-4.png": {
+      "bytes": 1247707,
+      "sha256": "116b40daa803a18c68bda785924fd50de27a9df7739c73763d55c16e4887040e"
+    },
+    "sky-isolated-decoded-7.9.png": {
+      "bytes": 1248867,
+      "sha256": "66ebd0469df2ae80d552e3956280b315e930229c54172628d7c5b73e1800cf77"
+    },
+    "study_water_detail.py": {
+      "bytes": 645,
+      "sha256": "fc6d8d647b10e5eeda2d0598fd34c7b4deacf659189433d96e69e3471c29c43d"
+    },
+    "update_project_status.py": {
+      "bytes": 6675,
+      "sha256": "5a2d11028362357b9e603abbc599c78331fa5135055f69238a9fbb931d09b5df"
+    },
+    "water-detail-proposed-config.json": {
+      "bytes": 590,
+      "sha256": "7ecb024369ed1b082ae5f7605274e39d97d3d87a7c8b1dfe35ec9e72f6dabca9"
+    },
+    "water-detail-study-00.png": {
+      "bytes": 2351501,
+      "sha256": "0f9eeb68628c44bf91000ddc086b16a1453365ded47e9562f0378c7e2068798a"
+    },
+    "water-detail-study-04.png": {
+      "bytes": 2353128,
+      "sha256": "4d26b338e738020b754d5413449087a23c7cea6cdb413d7b48cbf7a18d3d5f04"
+    },
+    "water-detail-study-08.png": {
+      "bytes": 2352959,
+      "sha256": "40a4e75850902644a5d725f21ae71020acb1f4c4e378d1b2248b86ca38e45334"
+    },
+    "water-detail-study-16.png": {
+      "bytes": 2351990,
+      "sha256": "f257c29592434980cfc19a3adf50bd80e0fd0f5553ae40f4bd387b7df2db41b2"
+    },
+    "water-fine-decoded-0.png": {
+      "bytes": 1243752,
+      "sha256": "c50dde9c5750db17a5a9fbcd68d626236db868ad275f0b68a66def226756f1e5"
+    },
+    "water-fine-decoded-4.png": {
+      "bytes": 1244631,
+      "sha256": "ab6d27f0c8c6ba598959c3ae44f7807e73546560e4c81627f86bb865b230654a"
+    },
+    "water-fine-decoded-7.9.png": {
+      "bytes": 1244062,
+      "sha256": "077a6fd084f0f18522a1b156e4ea6871f9e4c98cac4e1cc8bdee1562a7f56d77"
+    },
+    "water-fine-decoded-comparison.png": {
+      "bytes": 659669,
+      "sha256": "03475a75951380f76d6a2bc016d9d793f3f8982a5320acf5b02f144f0b569617"
+    },
+    "water-fine-isolated-validation.json": {
+      "bytes": 4137,
+      "sha256": "7b75c40faf74e8126eac3441f7e5959e3c76a363073634e874ad46ab3a059de1"
+    },
+    "water-grid.png": {
+      "bytes": 901745,
+      "sha256": "2ac2a39f7dc2761f83e8a335f782a04685c65abf7a1112df368cfb3f49d8a577"
+    },
+    "water-scale-comparison.png": {
+      "bytes": 927036,
+      "sha256": "c7084ab59b1050225b03631b368163148da8010485e4e3b845c0fbd5c92c1812"
+    }
+  },
+  "remote_backup": false,
+  "assistant_review": "Source/masks/native temporal stills, water-scale study, isolated decoded crops and selected decoded full-composition pictures. Continuous playback not claimed.",
+  "scope": "No soundtrack, opening, 4K, long assembly, model install, commit or push. Original art and thumbnail preserved."
+}

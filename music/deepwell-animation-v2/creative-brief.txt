@@ -1,0 +1,41 @@
+User says v1 is "a decent first pass" but "needs a good bit more" and asks to
+"make it 300% better, revisit every park". Interpret park as part. Revisit the
+whole scene; do not equate opacity multipliers or pixel deltas with quality.
+
+Keep the planet-edited clean source, framing, daylight palette, geology and
+equipment. Preserve v1 and approved original art/thumbnail. No new artwork,
+music, paid service, model install, 4K or long assembly is needed for this pass.
+
+Water: rebuild the wind-direction distribution so crests read more horizontally,
+with a weaker cross-wave field, stronger but filtered reflection movement and
+depth/shoreline damping. Retain warm reflections inside the channels. Preserve
+fine detail instead of returning to the blurred broad-wave study.
+
+Sky and planet: replace the broad dead halo around the planet with a close body
+guard and a separate foreground cloud veil. Real planet-free cloud material moves
+at two depth-dependent rates; thin source-derived clouds cross the fixed world.
+Do not rotate/warp the planet or drag its image into another part of the sky.
+
+Basin: far airflow below the arches, independent middle-distance haze and low
+evaporative wisps along brine create depth. Two irregular mineral-surface drift
+routes add motion on dry terrace surfaces. Keep the pipeline, arches, room and
+terrace silhouettes fixed and avoid a continuous flat fog stripe or smoke jet.
+
+Habitation: improve the existing monitor's pressure, rate, levels and forward log
+without enlarging its housing; acknowledge work cycles on the existing amber
+status light. Map eight existing window groups with separate held schedules,
+retaining steady panes. Couple lamp dips to emitter, warm wall/metal spill and a
+small real desk highlight. Let restrained daylight change only the table and
+ledge highlights, related to the sky cycle, rather than pumping global exposure.
+
+Camera, furnishings, hand-wheel and pipework remain physically still. No invented
+characters, craft, neon strips, unsupported valves or foreground smoke. Check the
+scale and placement of every effect at full composition, not only cropped or
+amplified differences. "300%" is an ambition, never a measured improvement.
+
+Render isolated eight-second tests, then a genuine twenty-second silent 720p30
+preview and exact three-repeat review. Source protection, finite values, periodic
+states/velocities, all-frame decoding/timestamps, regional/composite and quiet-
+neighbour seams, repeat payloads and direct native-to-YUV samples remain gates.
+Inspect normal-size temporal and decoded stills honestly; user playback review
+and artistic approval remain distinct. Record internal failures and fixes.

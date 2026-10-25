@@ -1,0 +1,28 @@
+{
+  "roi": [
+    402,
+    375,
+    1672,
+    704
+  ],
+  "seed": 12025,
+  "components": 24,
+  "time_scale": 0.07,
+  "specular_strength": 9,
+  "wavelength_range": [
+    0.12,
+    1.05
+  ],
+  "reflection_sigma_x": 1.4,
+  "reflection_sigma_y": 0.65,
+  "displacement_scale": 0.38,
+  "reflection_contrast": 0.09,
+  "highlight_roughness": 0.32,
+  "sampling_filter_pixels": 1.05,
+  "edge_damping_pixels": 12,
+  "loop_seconds": 20,
+  "perspective_distance_scale": 2600,
+  "perspective_horizon_y": 315,
+  "perspective_center_x": 1060,
+  "perspective_lateral_scale": 330
+}

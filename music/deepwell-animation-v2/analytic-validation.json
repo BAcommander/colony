@@ -1,0 +1,218 @@
+{
+  "fingerprint": {
+    "files": {
+      "scene-plan-v2.json": "f5d8459777405fea6ba11a9682524ea5c0973af52f83117aa3f3ee3255147713",
+      "render_deepwell_v2.py": "69e1f770a6188e320793eacb7ddb5341b5e1f912925454a6c93d08a46348a075",
+      "review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f",
+      "weather_refinement.py": "ede3711fb5b6b3c393145b1f13274d0cd3d21ec413c586ebc30b90f3f11d1724",
+      "baseline-snapshot-manifest.json": "738d33fbe672898ef4d27c7f56f8cd2d23897427c16da84276496d8443673387",
+      "baseline-snapshot/dependency-snapshot/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "baseline-snapshot/dependency-snapshot/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "baseline-snapshot/dependency-snapshot/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "baseline-snapshot/render_deepwell.py": "769a835cd532d32454c435f435e2ca65b5d39ddaa9003e06b3750bccec1ddc34",
+      "baseline-snapshot/artwork-planet-v1.png": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b",
+      "baseline-snapshot/scene-plan-v1.json": "39e755f2e9c7d59060669cbe1067a1723e6b6df55e74fe7bb29b45d4355a4045",
+      "baseline-snapshot/artwork-original-v2.png": "46013ffabbddfdf983b16de74fa65972780e0a84288cf24e8ed11bfd08e90e84"
+    },
+    "masks_float32_sha256": {
+      "water": "b4f69014286f6540c9a672a8e3c20d27b912ec43ef03e236c17efeca450f4bb0",
+      "sky": "f855074fcdd263a26620c4d2e9df2a8c2ec9693b29ed71860d32fa633d87d1aa",
+      "planet_veil": "42e887f2b809bc71d6aa96cbfeccde90368630e9c9400c6596aa1dd40c8cc3cd",
+      "far_drift": "2989755a565c8668fc332fc13a9ba09202f8563665f165a9ac04052eca00a1a4",
+      "basin_haze": "09cc6c738946a92f9bc12400312980f03d81de66b9af243777f2f2ecd6f317c3",
+      "brine_wisps": "3d5ad7e6614d35f191ce45e61661c20a8111f285eb957d596f06ea598f33a095",
+      "salt_far": "063dcb2ad74a0a37f7c65bf34d75abfb4cedb0a9db4ab564ec0c30eea2cc2e78",
+      "salt_middle": "5a06cdf91155b27d9782f8c62563d6c0a3f22a44971a8d4b6a50e817fda8aa30",
+      "lights": "9a38349f78ae53e02424c430c2478e1d50a143ebff69a60bc8b1260add52eb60",
+      "lamp": "758a2fc3d3946239d752ce32bbc9004ea6414c6535580f52c3929d34c8ec24bd",
+      "status": "bd3fdc914b4c278be05b87f9bb75da9cb084f82ba476bdeb2eafcb050112fb82",
+      "daylight": "c91aa2039fa677ffd30b3b7a7c239bd7528c29e7fdcc0803fd5815f596b12570",
+      "screen": "3475cbc46b285d1fd04e0ccdf18fd6a3722cef4b67f290ca6c720ae7b3044013"
+    },
+    "runtime": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "numpy": "2.4.4",
+      "opencv": "5.0.0",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "ffmpeg": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    }
+  },
+  "layers": {
+    "water": {
+      "endpoint_exact": true,
+      "protected_pixels_exact": true,
+      "seam_step_mae": 0.1259895993227466,
+      "ordinary_sampled_max": 0.12792460904430986,
+      "one_second_motion_at_0_4_8_12_16": [
+        2.75671594119307,
+        2.6185550066826058,
+        2.552194096359763,
+        2.6192589284883665,
+        2.7247076553822107
+      ]
+    },
+    "sky": {
+      "endpoint_exact": true,
+      "protected_pixels_exact": true,
+      "seam_step_mae": 0.06208803677258311,
+      "ordinary_sampled_max": 0.06351292159439334,
+      "one_second_motion_at_0_4_8_12_16": [
+        1.4435297035711836,
+        1.4474718849115251,
+        1.4011103546907735,
+        1.4547889323390804,
+        1.4290565679274259
+      ]
+    },
+    "planet_veil": {
+      "endpoint_exact": true,
+      "protected_pixels_exact": true,
+      "seam_step_mae": 0.006912447577607628,
+      "ordinary_sampled_max": 0.00731945896718049,
+      "one_second_motion_at_0_4_8_12_16": [
+        0.19371493461957928,
+        0.18092218436941343,
+        0.19502591605671174,
+        0.17870048683959028,
+        0.19639086585489257
+      ]
+    },
+    "far_drift": {
+      "endpoint_exact": true,
+      "protected_pixels_exact": true,
+      "seam_step_mae": 0.009143558142188748,
+      "ordinary_sampled_max": 0.011368823462284607,
+      "one_second_motion_at_0_4_8_12_16": [
+        0.2645498117083191,
+        0.24560652744493894,
+        0.2260926623302522,
+        0.20178591806458976,
+        0.3488959260527217
+      ]
+    },
+    "basin_haze": {
+      "endpoint_exact": true,
+      "protected_pixels_exact": true,
+      "seam_step_mae": 0.01291194704703305,
+      "ordinary_sampled_max": 0.013875293276775587,
+      "one_second_motion_at_0_4_8_12_16": [
+        0.3919576127658913,
+        0.43956556192607094,
+        0.48928665765471807,
+        0.32561102565297784,
+        0.395313786727575
+      ]
+    },
+    "brine_wisps": {
+      "endpoint_exact": true,
+      "protected_pixels_exact": true,
+      "seam_step_mae": 0.006244171430888375,
+      "ordinary_sampled_max": 0.009447350281798645,
+      "one_second_motion_at_0_4_8_12_16": [
+        0.23979240157320683,
+        0.21874873291975835,
+        0.2760004865588128,
+        0.29615213072213437,
+        0.253659327737907
+      ]
+    },
+    "salt_far": {
+      "endpoint_exact": true,
+      "protected_pixels_exact": true,
+      "seam_step_mae": 0.005113041335551038,
+      "ordinary_sampled_max": 0.005729070412123452,
+      "one_second_motion_at_0_4_8_12_16": [
+        0.13090617877163802,
+        0.13614242592250353,
+        0.10081315838107559,
+        0.13826772623667838,
+        0.11528984168052732
+      ]
+    },
+    "salt_middle": {
+      "endpoint_exact": true,
+      "protected_pixels_exact": true,
+      "seam_step_mae": 0.017097451006651488,
+      "ordinary_sampled_max": 0.020356234096692113,
+      "one_second_motion_at_0_4_8_12_16": [
+        0.46256863532877995,
+        0.4010981652604794,
+        0.453774385072095,
+        0.34418106334538634,
+        0.26766662202580244
+      ]
+    },
+    "lights": {
+      "endpoint_exact": true,
+      "protected_pixels_exact": true,
+      "seam_step_mae": 0.0,
+      "ordinary_sampled_max": 0.18421052631578946,
+      "one_second_motion_at_0_4_8_12_16": [
+        0.8546704599336178,
+        4.263869132290185,
+        10.188715030820294,
+        7.13466097676624,
+        9.666903745851114
+      ]
+    },
+    "lamp": {
+      "endpoint_exact": true,
+      "protected_pixels_exact": true,
+      "seam_step_mae": 0.0,
+      "ordinary_sampled_max": 0.0,
+      "one_second_motion_at_0_4_8_12_16": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.52216180589883
+      ]
+    },
+    "status": {
+      "endpoint_exact": true,
+      "protected_pixels_exact": true,
+      "seam_step_mae": 0.0,
+      "ordinary_sampled_max": 0.0,
+      "one_second_motion_at_0_4_8_12_16": [
+        0.0,
+        24.38628472222222,
+        0.0,
+        24.38628472222222,
+        0.0
+      ]
+    },
+    "daylight": {
+      "endpoint_exact": true,
+      "protected_pixels_exact": true,
+      "seam_step_mae": 0.03884992289708004,
+      "ordinary_sampled_max": 0.03948238002856717,
+      "one_second_motion_at_0_4_8_12_16": [
+        0.901983357139304,
+        0.011156828049829095,
+        0.3293822528265149,
+        0.8320364409007895,
+        0.25279098357743335
+      ]
+    },
+    "screen": {
+      "endpoint_exact": true,
+      "protected_pixels_exact": true,
+      "seam_step_mae": 0.12825495530509134,
+      "ordinary_sampled_max": 0.14652157015157405,
+      "one_second_motion_at_0_4_8_12_16": [
+        2.3930560953491384,
+        2.1434123591138747,
+        2.2346158828863842,
+        2.156885606943905,
+        2.0774711750226715
+      ]
+    }
+  },
+  "source_protection": "Asserted on every native rendered frame outside the selected layer/group masks",
+  "planet": "Fixed source body and silhouette; only explicit foreground cloud opacity changes it. Planet-free cloud sampling prevents duplicates.",
+  "water_frequency_deviation_percent": {
+    "mean": 8.141067904720153,
+    "max": 18.830650759529078
+  },
+  "user_approved": false
+}

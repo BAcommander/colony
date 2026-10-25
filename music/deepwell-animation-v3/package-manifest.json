@@ -1,0 +1,637 @@
+{
+  "scene": "Deepwell Station",
+  "version": "v3",
+  "date": "2026-10-25",
+  "status": "Whole-pane mask/steam/pipeline-indicator candidate; user review pending",
+  "current_source": {
+    "path": "v2-snapshot/baseline-snapshot/artwork-planet-v1.png",
+    "sha256": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b"
+  },
+  "current_preview": "Deepwell-v3-preview-20s.mp4",
+  "repeat_review": "Deepwell-v3-three-loops-60s.mp4",
+  "fingerprint": {
+    "files": {
+      "scene-plan-v3.json": "699ab3be0a0c685847ec598bfc4a7514be5a9c1ffeb8fa89addfaa880ccfdc61",
+      "render_deepwell_v3.py": "6ba65d111f2a609059f6ea538e9287b1422ae0eb1cc3ffc0a7b7978647d0144c",
+      "review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f",
+      "v2-snapshot-manifest.json": "9460d6d605050a10745877da45d703956582186835c46162310b87a7fac5d9a5",
+      "v2-snapshot/baseline-snapshot/analytic-validation.json": "100b34cc77ad35ca7ce4877899e902bf0807e39e68d669903b3b562f0c0ab4d6",
+      "v2-snapshot/baseline-snapshot/artwork-original-v2.png": "46013ffabbddfdf983b16de74fa65972780e0a84288cf24e8ed11bfd08e90e84",
+      "v2-snapshot/baseline-snapshot/artwork-planet-v1.png": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b",
+      "v2-snapshot/baseline-snapshot/artwork-provenance.json": "8ebd36096e2e26e30335db64e5a1168e76b537f826b02a4a4422c306b23ab77a",
+      "v2-snapshot/baseline-snapshot/dependency-snapshot/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "v2-snapshot/baseline-snapshot/dependency-snapshot/manifest.json": "9c875868a4ca3d1714805ee5f153e5cdfdcd4e473e74c236740e5d0754a0baf9",
+      "v2-snapshot/baseline-snapshot/dependency-snapshot/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "v2-snapshot/baseline-snapshot/dependency-snapshot/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "v2-snapshot/baseline-snapshot/preview-validation.json": "d455827ece0ff5f2cc137ac9e743b5048304311fdabe683ee9807f87497ec755",
+      "v2-snapshot/baseline-snapshot/render_deepwell.py": "769a835cd532d32454c435f435e2ca65b5d39ddaa9003e06b3750bccec1ddc34",
+      "v2-snapshot/baseline-snapshot/scene-plan-v1.json": "39e755f2e9c7d59060669cbe1067a1723e6b6df55e74fe7bb29b45d4355a4045",
+      "v2-snapshot/baseline-snapshot-manifest.json": "738d33fbe672898ef4d27c7f56f8cd2d23897427c16da84276496d8443673387",
+      "v2-snapshot/render_deepwell_v2.py": "69e1f770a6188e320793eacb7ddb5341b5e1f912925454a6c93d08a46348a075",
+      "v2-snapshot/review_tools.py": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f",
+      "v2-snapshot/scene-plan-v2.json": "f5d8459777405fea6ba11a9682524ea5c0973af52f83117aa3f3ee3255147713",
+      "v2-snapshot/weather_refinement.py": "ede3711fb5b6b3c393145b1f13274d0cd3d21ec413c586ebc30b90f3f11d1724"
+    },
+    "masks_float32_sha256": {
+      "water": "b4f69014286f6540c9a672a8e3c20d27b912ec43ef03e236c17efeca450f4bb0",
+      "sky": "f855074fcdd263a26620c4d2e9df2a8c2ec9693b29ed71860d32fa633d87d1aa",
+      "planet_veil": "42e887f2b809bc71d6aa96cbfeccde90368630e9c9400c6596aa1dd40c8cc3cd",
+      "far_drift": "2989755a565c8668fc332fc13a9ba09202f8563665f165a9ac04052eca00a1a4",
+      "basin_haze": "09cc6c738946a92f9bc12400312980f03d81de66b9af243777f2f2ecd6f317c3",
+      "brine_wisps": "3d5ad7e6614d35f191ce45e61661c20a8111f285eb957d596f06ea598f33a095",
+      "salt_far": "063dcb2ad74a0a37f7c65bf34d75abfb4cedb0a9db4ab564ec0c30eea2cc2e78",
+      "salt_middle": "5a06cdf91155b27d9782f8c62563d6c0a3f22a44971a8d4b6a50e817fda8aa30",
+      "lights": "faf1c585918be54c3d26ddf9c6b41528a8457e664557682584dca9d7680655fb",
+      "lamp": "758a2fc3d3946239d752ce32bbc9004ea6414c6535580f52c3929d34c8ec24bd",
+      "status": "bd3fdc914b4c278be05b87f9bb75da9cb084f82ba476bdeb2eafcb050112fb82",
+      "daylight": "c91aa2039fa677ffd30b3b7a7c239bd7528c29e7fdcc0803fd5815f596b12570",
+      "screen": "3475cbc46b285d1fd04e0ccdf18fd6a3722cef4b67f290ca6c720ae7b3044013",
+      "coffee_steam": "615b2be68a8de0d270f367f835e8413238bcb9b36c23217c4405a2027d2801c7",
+      "tank_steam_near": "877b2c6f0d454a1273ff0862d0989c622708b1d2b8286ec42422c991c4ca123f",
+      "tank_steam_middle": "f2127b0fb4f5dd5ade0322dd444af7865757ad9b534b3d232ac86b1be2103fea",
+      "tank_steam_far": "825b1a25d96f9fb6618c89bf8d69fe9c6f3d048018c1b049d338d8bfecd86669",
+      "pipeline_lights": "9cb1c97fced03ff69c6d1cbf4a6771f0a1eb5c3bb81e72e92086ded70502b9cd"
+    },
+    "runtime": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "numpy": "2.4.4",
+      "opencv": "5.0.0",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "ffmpeg": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    }
+  },
+  "files": {
+    "analytic-validation.json": {
+      "bytes": 8370,
+      "sha256": "bb61b85ea4aaa693182c20cb856fb96f1d20a7b52ae78364f0867fb3b926dc3e"
+    },
+    "changed-mask-review.png": {
+      "bytes": 2385398,
+      "sha256": "acf9510b59734f2c4c8af3bcdbbbb97d27c8415581a29e1e3d8cbc5212e7df81"
+    },
+    "coffee-grid.png": {
+      "bytes": 15550,
+      "sha256": "fe908cd119299461e1bc349cb72850aeaadd9820280e07fc75f3321a52726612"
+    },
+    "coffee-source-5x.png": {
+      "bytes": 27155,
+      "sha256": "883b26b28a715b1245fbb1fa2e9b2c6f447f6d8c356c006baed97da3a761ad3c"
+    },
+    "creative-brief.txt": {
+      "bytes": 2985,
+      "sha256": "8613ace744b6d2df93f45166dfd8dbc15d8bfb1263e8e1ffb1a297a6fd1accb0"
+    },
+    "cup-ruler.png": {
+      "bytes": 21021,
+      "sha256": "ae23f8e9392629d82c7b75ae6d2c47afd4215cdb41c7cc9c13937e8b778b7547"
+    },
+    "decoded-0000.png": {
+      "bytes": 1218872,
+      "sha256": "595928c0c042795c049110f0e0c36eebbd2c0e9c51bf26817ce07f57ce31e375"
+    },
+    "decoded-0120.png": {
+      "bytes": 1219541,
+      "sha256": "e8df051109e86fad4a665ae2c846acb6768b367bbc51e74f0ddde2faef30bdfc"
+    },
+    "decoded-0240.png": {
+      "bytes": 1220112,
+      "sha256": "a67f17671f2c892c049554782a04ab2dd69e79004c8cbe42a4f1501f355eb3a6"
+    },
+    "decoded-0360.png": {
+      "bytes": 1218873,
+      "sha256": "dcc294e2c757835953937dc6222b34849464b456aa37a1e1dcf6a1b165f7b727"
+    },
+    "decoded-0480.png": {
+      "bytes": 1219438,
+      "sha256": "1f5452288bf29284da39c3e86f23ce7a23f928d96ddeace850542558c7961aa1"
+    },
+    "decoded-0599.png": {
+      "bytes": 1219089,
+      "sha256": "5a02ba2f2f658521f79439b62cbf00fef3d39f16e4f12ef33d2aa3e332e9be2f"
+    },
+    "decoded-steam-temporal-review.png": {
+      "bytes": 128260,
+      "sha256": "701505e3ab575a3d881ee5a1e01d13a82439d20d9d9f729ebe7b39be867dcf91"
+    },
+    "deepwell-v3-coffee-isolated-8s.mp4": {
+      "bytes": 598392,
+      "sha256": "83c2720071ee658e1a0e35649ddde2c64fb22e4a915e04467e048ecdbd09c960"
+    },
+    "deepwell-v3-pipeline-isolated-8s.mp4": {
+      "bytes": 565451,
+      "sha256": "387e584c229f44009d584889b0394c215ac86fab404b4788a803e145c51049ca"
+    },
+    "Deepwell-v3-preview-20s.mp4": {
+      "bytes": 10815030,
+      "sha256": "321b21ad4535b9c768f13f0f75943aac7476f8a6ff1b200d8049f1b926ce890c"
+    },
+    "deepwell-v3-tank_steam-isolated-8s.mp4": {
+      "bytes": 582126,
+      "sha256": "da6f960273e91d100c8b0dd537b2c7da85aa451b95c5758756c9df397a25ba27"
+    },
+    "Deepwell-v3-three-loops-60s.mp4": {
+      "bytes": 32443426,
+      "sha256": "000c13f14eef38255bcbc90939b10f356630250776d8a13bb2429e1374da2ffb"
+    },
+    "deepwell-v3-windows-isolated-8s.mp4": {
+      "bytes": 566546,
+      "sha256": "ae4ad5b7f6526bf52a2b8f0a017ddf92a85e90b991b8e463ede66efe4b1ccd20"
+    },
+    "direct-render-validation.json": {
+      "bytes": 7618,
+      "sha256": "0ed054a529c5136729d30aece58fb386a3bf769ff620e5d84b801f4e1833c665"
+    },
+    "far-tank-ruler.png": {
+      "bytes": 30675,
+      "sha256": "403c991edd7f731c4e5531e12353511d80551405b93fd6313f0acd1d4970afda"
+    },
+    "finalize_manifest.py": {
+      "bytes": 1855,
+      "sha256": "c156034ce09c852c632845ff8bc5c8d79bfdfdc23224aec818bb0e4005c92c50"
+    },
+    "habitat-window-grid.png": {
+      "bytes": 116692,
+      "sha256": "18b104e26b0c98fdc38e4102c1a30d6c57c39b15d9d15274768c1da4de6698fc"
+    },
+    "history/initial-pane-steam-study/analytic-validation.json": {
+      "bytes": 6877,
+      "sha256": "6b8135918e89d7023bfea25bb69b45b3551d9bea68c14753bb4911ecc6705031"
+    },
+    "history/initial-pane-steam-study/changed-mask-review.png": {
+      "bytes": 2385456,
+      "sha256": "d61e368c27e59d4080999c791527bcec11cd0bf9208798267a67ec59440d8c6e"
+    },
+    "history/initial-pane-steam-study/README.txt": {
+      "bytes": 562,
+      "sha256": "54072ee52ee29c1c9594ceeb90dd9dad21edd79f72392ca0a422dc46f323de71"
+    },
+    "history/initial-pane-steam-study/render_deepwell_v3.py": {
+      "bytes": 14332,
+      "sha256": "f527bdee70dc581cb4e10202a91049fb851541d3f4d7ba4fda666462f22ec453"
+    },
+    "history/initial-pane-steam-study/sample-0.000s.png": {
+      "bytes": 2350440,
+      "sha256": "5c99edfd5d7d7c00e55aab3c5ae43ddcaee6a11f2b5d4b809ed716ac6b1a7052"
+    },
+    "history/initial-pane-steam-study/sample-12.000s.png": {
+      "bytes": 2351285,
+      "sha256": "f2b72df535d1da78e0029ad467ce0bec7204f31bed6ef52e61f2bb4465fbebf9"
+    },
+    "history/initial-pane-steam-study/sample-16.000s.png": {
+      "bytes": 2350863,
+      "sha256": "d61d337ccc917a4bd73b4fa16b94b0ba818865eb99859e0f4dfb223f15bc6ad6"
+    },
+    "history/initial-pane-steam-study/sample-19.967s.png": {
+      "bytes": 2350559,
+      "sha256": "2dc37d4a38eb910e5f3b05b006ce4201c9384b01321d703e8e9eef1bcaa631d3"
+    },
+    "history/initial-pane-steam-study/sample-2.000s.png": {
+      "bytes": 2351133,
+      "sha256": "eebdce300f40ddf5d06e190deae69b2983d4b7d076cc6b73237ed9328db5e9fb"
+    },
+    "history/initial-pane-steam-study/sample-4.000s.png": {
+      "bytes": 2351929,
+      "sha256": "23a506a45c8be20c30a07b340f7327749e3f46f708a4c04613c13f195997b563"
+    },
+    "history/initial-pane-steam-study/sample-6.000s.png": {
+      "bytes": 2352106,
+      "sha256": "7ef0eff8b5a382abf5fd90987fc443eed7bb60e82423d54276afca4fa76a9329"
+    },
+    "history/initial-pane-steam-study/sample-8.000s.png": {
+      "bytes": 2352569,
+      "sha256": "d9917f0a38fcf0bba89420f536ffc00823a75608c0fe33eecb6ffb9a5740cd9e"
+    },
+    "history/initial-pane-steam-study/scene-plan-v3.json": {
+      "bytes": 30605,
+      "sha256": "0042804fd47da3a2e6cdd4dcbc02994d3673425c7bf5ae02717f887b64d3a529"
+    },
+    "history/initial-pane-steam-study/window-all-dim-diagnostic.png": {
+      "bytes": 2385105,
+      "sha256": "01cef28d412f0d9a3c56d466a29a9e58d5e958bd9f72e24a7a12ea580de3ecbe"
+    },
+    "history/initial-pane-steam-study/window-source-mask-dim-comparison.png": {
+      "bytes": 199587,
+      "sha256": "b98da569bc0540bab2e489600c638072f736c3af8ce62e74c73055578deebe54"
+    },
+    "isolated-coffee-decoded-0.png": {
+      "bytes": 1251473,
+      "sha256": "1331516a901ac355837b006dfb4b92ba2a06e1b37c8412ca78d56ac5b6c4ada4"
+    },
+    "isolated-coffee-decoded-2.png": {
+      "bytes": 1251511,
+      "sha256": "770486ef1910cf303357fed539c0b0d4ae0301d040044fa53f081f842c6a24b8"
+    },
+    "isolated-coffee-decoded-4.png": {
+      "bytes": 1251496,
+      "sha256": "755b20f389acdff0683679de9fba75d45c4d66ecb8d77f2a8f80ace11b538421"
+    },
+    "isolated-coffee-decoded-7.9.png": {
+      "bytes": 1251491,
+      "sha256": "6e826440805abf3afbd29dc3ae1e6873299ee7972de347753e4b69484a27fe3e"
+    },
+    "isolated-coffee-validation.json": {
+      "bytes": 6800,
+      "sha256": "a0fbfe551d09fea1160272015494496ae122c79c5bf2f8b84efaf764e0245fe3"
+    },
+    "isolated-pipeline-decoded-0.png": {
+      "bytes": 1251524,
+      "sha256": "e78b636c0f2cd7ec21f953669a02b0a9389b143638f225a1313f4b22c6632880"
+    },
+    "isolated-pipeline-decoded-2.png": {
+      "bytes": 1251520,
+      "sha256": "2d6ed9fc7e8e946b53ae2d009400415733fb9c836cbe9055fd420a24e90f869d"
+    },
+    "isolated-pipeline-decoded-4.png": {
+      "bytes": 1251541,
+      "sha256": "33ae91db6123e8037c92069a11269c1f06c10f3e865c2bf6e41d110fc0e51112"
+    },
+    "isolated-pipeline-decoded-7.9.png": {
+      "bytes": 1251516,
+      "sha256": "fe2d1663b57a76739aeb4802c896a1dc793ef0f63975204ef7c674de7c3a1a58"
+    },
+    "isolated-pipeline-validation.json": {
+      "bytes": 6806,
+      "sha256": "1bdd4392eee8867154f1582f70597381367b58aa1277345b257a0ea624b1049c"
+    },
+    "isolated-tank_steam-decoded-0.png": {
+      "bytes": 1251540,
+      "sha256": "81b81269afa1720532af67a946abc6819e23e709a2d079b7594f0ab23a32c13a"
+    },
+    "isolated-tank_steam-decoded-2.png": {
+      "bytes": 1251545,
+      "sha256": "b749908e3c2bc8c92e7e93233cda0d4b24f4f8434cd5992794d3e2d73af25382"
+    },
+    "isolated-tank_steam-decoded-4.png": {
+      "bytes": 1251528,
+      "sha256": "cfa4091dcaebf8a5cd3c299d1a69b69e2746889edcb4410b0993c5e3447cb930"
+    },
+    "isolated-tank_steam-decoded-7.9.png": {
+      "bytes": 1251533,
+      "sha256": "72247c83a601ecfaaab4c5ab3ba7944bf204e3291b7e225d0bd10ee9451afddb"
+    },
+    "isolated-tank_steam-validation.json": {
+      "bytes": 6812,
+      "sha256": "4b11b66f52e04d8755fe18723c9370e43b08decd57d90d1d862f517112d391a7"
+    },
+    "isolated-validation.json": {
+      "bytes": 13334,
+      "sha256": "78543bd7989aab844f40310c7c865fb9337291c85a6c3f89555c03f8f5419af1"
+    },
+    "isolated-windows-decoded-0.png": {
+      "bytes": 1251402,
+      "sha256": "0f28b1df94955a1b7bfda5345a3c276f4b2f61aab92a57d38dec49a74c2051d1"
+    },
+    "isolated-windows-decoded-2.png": {
+      "bytes": 1251403,
+      "sha256": "757cfdf0432bb2245dc4eb3d3bf715e84b88a67bfd8900f7e5840cc77f4e3e37"
+    },
+    "isolated-windows-decoded-4.png": {
+      "bytes": 1251376,
+      "sha256": "3efa17d8296547b5f6911ba6a164c4bd3a3201c83c02b6395e29a9d9a67fafd6"
+    },
+    "isolated-windows-decoded-7.9.png": {
+      "bytes": 1251417,
+      "sha256": "4c0e2283ebad6ccaad38d19acf79e47ab0a5f2d326da8c8df66b88a3d614d951"
+    },
+    "isolated-windows-validation.json": {
+      "bytes": 6803,
+      "sha256": "3eabf6e50a4f3a97c1cab9f33ad93feef9cf5a7f1861bf2761a1ae563c37f976"
+    },
+    "left-house-source-5x.png": {
+      "bytes": 23271,
+      "sha256": "2ab5340ff4bc3d27fe0057028644f6ba4baea0b21d135eaa8a64bb935daab6ca"
+    },
+    "low-windows-grid.png": {
+      "bytes": 6670,
+      "sha256": "c6a220cf4985a1dade1cdd1c37c1e1b0f71361587d82beffc081be739645d5f1"
+    },
+    "lower-panes-ruler.png": {
+      "bytes": 14805,
+      "sha256": "a26782174f76a4010dbb49664e033e8952dcc8c52445660940b8cd22546012f6"
+    },
+    "masks/basin_haze.png": {
+      "bytes": 3628,
+      "sha256": "8b44827ecd736bdfd283ac6a910ce1f0d7139dc4471fdcddde56b81d28b1fcc6"
+    },
+    "masks/brine_wisps.png": {
+      "bytes": 5039,
+      "sha256": "1d553581ed9b8e3ef83c6290b3e2a3b91783e888a74b591ff5345353b87301dd"
+    },
+    "masks/coffee_steam.png": {
+      "bytes": 1896,
+      "sha256": "67ad1c95cd9a03a2c5abd3effb6277c98d986025b4b4a373d22291a7e6243847"
+    },
+    "masks/daylight.png": {
+      "bytes": 4388,
+      "sha256": "f40306e0fe056f77b4e01bd1f4f5d7c368f3989406f7832c1aa1bab07c959b14"
+    },
+    "masks/far_drift.png": {
+      "bytes": 4154,
+      "sha256": "ba7181cfbb9d4e5a48983be4946b0f9157317b33df82f410893725a4f9193920"
+    },
+    "masks/lamp.png": {
+      "bytes": 11995,
+      "sha256": "06189880a05040461b314ee62edd51aa50fcb5e52128e1413ce4660f4179f44e"
+    },
+    "masks/lights.png": {
+      "bytes": 2316,
+      "sha256": "87664cf72e3245de003e7fe46f8cefe0fd61335202b17986aaaa0a0d4684c96f"
+    },
+    "masks/pipeline_lights.png": {
+      "bytes": 2562,
+      "sha256": "1fbb42f63001e676640aec5d8939fed7bd2731af9ae7e24707d08252e83765ea"
+    },
+    "masks/planet_veil.png": {
+      "bytes": 5223,
+      "sha256": "14ae64c9e9576612036866f396839dd10285a720078cb6ca76739ef61163eb38"
+    },
+    "masks/salt_far.png": {
+      "bytes": 3364,
+      "sha256": "e31fc2abbbd8b3bb966d31d18a958e204b48d73c0f95406f92d343a38b3742c1"
+    },
+    "masks/salt_middle.png": {
+      "bytes": 3118,
+      "sha256": "53d381e9fde7d9f8447cf5b8c2f6964373875c98440387f859bd40d74d2f774e"
+    },
+    "masks/screen.png": {
+      "bytes": 2309,
+      "sha256": "48b360c38bdfa60303c24eff49d4d81f2bfcee99b487dc7ab1d3d6f763ccc74c"
+    },
+    "masks/sky.png": {
+      "bytes": 7065,
+      "sha256": "c5278a3ad9af4676296650f79fb73fddd72f665a2b282a06ef7c9acee4a3e441"
+    },
+    "masks/status.png": {
+      "bytes": 1833,
+      "sha256": "e66765dcaf69d4a9a90e3040956ba19afe2fd5829f97445bc3738589d466faae"
+    },
+    "masks/tank_steam_far.png": {
+      "bytes": 1775,
+      "sha256": "6dd98482b5081d779a297a7018d858749a081eab04e20ee0eb37282c942e6794"
+    },
+    "masks/tank_steam_middle.png": {
+      "bytes": 1753,
+      "sha256": "26fe443ab8b73327199a84638d40ea20e3ba3c741a0687f220847d0bfbb3b5dd"
+    },
+    "masks/tank_steam_near.png": {
+      "bytes": 1798,
+      "sha256": "418df36bc9b766025eab00d68df60af924e4cc8afe01cf0cd3531087a263dd3a"
+    },
+    "masks/water.png": {
+      "bytes": 10329,
+      "sha256": "b05ff5db44ecf57e58d97552b4c3d5fce199252a1104fd4dd2390cf0b23254ca"
+    },
+    "mid-windows-grid.png": {
+      "bytes": 6782,
+      "sha256": "093b8e6aae98d2e57355ff3a572578ea49b9e63174a2e813ec319a2f8a5dcc4c"
+    },
+    "middle-house-source-5x.png": {
+      "bytes": 10789,
+      "sha256": "675ea18ebe7a0bef18ab72269427fca3525a59c524eff2c9dfbf14ee8d682db7"
+    },
+    "middle-panes-ruler.png": {
+      "bytes": 16280,
+      "sha256": "87f49e8eb7c295f30718a3e7a7a17728b7a579f6ed4aa85fc3638c46a6610eb7"
+    },
+    "middle-window-all-dim-close.png": {
+      "bytes": 9783,
+      "sha256": "70fc874347e81f6847959f62b8f69fd44bbabc6479c4386a63ef000a4ea18c31"
+    },
+    "near-tank-ruler.png": {
+      "bytes": 35790,
+      "sha256": "b7070c413c77567e02def5e6625d904fbb4023669f6a565a14f3d333fc51bb7f"
+    },
+    "pipe-details-source-5x.png": {
+      "bytes": 341610,
+      "sha256": "0700b022be874f85d03ced875fe7086cf8e53b22ceab905458a56c41c4176572"
+    },
+    "pipeline-source-ruler.png": {
+      "bytes": 584576,
+      "sha256": "56fe8575e943b6785291f7042d8dde22ea3f65186ccb676cb00a852b1d75a9d1"
+    },
+    "prepare_v3.py": {
+      "bytes": 6463,
+      "sha256": "43a8ce8db23f2d83dbcb5de8d8bae70b7aa531e3c958c4013f8029cdf3ab4b49"
+    },
+    "preview-validation.json": {
+      "bytes": 16688,
+      "sha256": "60aa1a5853b79e03f9c2f0442c3daddd0b1f17f605db074250e6c2e89280d605"
+    },
+    "project-status-before/AGENTS.md.txt": {
+      "bytes": 69507,
+      "sha256": "cfe9086371b25e607479fa2c96ad3897ba964e3ca237cba80c81d737847de035"
+    },
+    "project-status-before/creative__ANIMATION_KNOWLEDGE_BANK.md.txt": {
+      "bytes": 57430,
+      "sha256": "9797d964c2b9b97af84263110bc879b7b76208ac56cc0b87676752fc84520228"
+    },
+    "project-status-before/final__12-deepwell-station__README.md.txt": {
+      "bytes": 2351,
+      "sha256": "3be549ee6d9e025cc81d8d677467e6eeb493b3e6870dbb0770657b5d6e7ed2cc"
+    },
+    "project-status-before/PRODUCTION_PIPELINE.md.txt": {
+      "bytes": 30570,
+      "sha256": "115242be4986869e473d4f194668422c193beca6e23f9eb5b91a77b7e7ac318b"
+    },
+    "project-status-update.json": {
+      "bytes": 1086,
+      "sha256": "df70bacef7e76a1bf674da9f93873c14eaff4f350824cf41bb5449019a573887"
+    },
+    "README.md": {
+      "bytes": 6099,
+      "sha256": "a2c98da6c128c59942cc181d58f85cf224523a146f1601664c23721215221270"
+    },
+    "refine_selection.py": {
+      "bytes": 2026,
+      "sha256": "8734d524e0a908f44fcaee769f4408c8cf0dfb1015fa59a2b552ea5dd327aab1"
+    },
+    "render_deepwell_v3.py": {
+      "bytes": 14724,
+      "sha256": "6ba65d111f2a609059f6ea538e9287b1422ae0eb1cc3ffc0a7b7978647d0144c"
+    },
+    "review_tools.py": {
+      "bytes": 3964,
+      "sha256": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f"
+    },
+    "right-house-source-5x.png": {
+      "bytes": 16164,
+      "sha256": "7d82502a357c2607b457e8a73dcac0bf03b81dccdbda432c3cb03fb835df39a8"
+    },
+    "right-panes-ruler.png": {
+      "bytes": 22325,
+      "sha256": "33dd54a468839df7b1230e956a01c05080641ad6f9576e448a9c336ef7f0ab33"
+    },
+    "right-windows-grid.png": {
+      "bytes": 12888,
+      "sha256": "39ef68de3ad05196b0b330816e6e99e786961b412acdf71267d5705c54b09a24"
+    },
+    "runtime-binary-fingerprint.json": {
+      "bytes": 4730,
+      "sha256": "285a45f285556798743a6a3ecb0a1eb104ff41450b8c1c4841a1997a372f1f83"
+    },
+    "sample-0.000s.png": {
+      "bytes": 2350603,
+      "sha256": "aa301d5dacae61852cc13057e48cdde96c0eacad457f949df09b34e108005c1d"
+    },
+    "sample-12.000s.png": {
+      "bytes": 2351508,
+      "sha256": "e601344c2e4509851ba1aa29e92438b9303dba98b15bf501af6f4f5aac7a950f"
+    },
+    "sample-16.000s.png": {
+      "bytes": 2351011,
+      "sha256": "84ac6ff18377a3d6b18779f92dd66e93d77d0f41a425a86e2388355f9e5f2d4b"
+    },
+    "sample-19.967s.png": {
+      "bytes": 2350661,
+      "sha256": "ff0c477ef41bf88e0f0142874fa882339ad625e1b4fe3d0c7fa8891ed038c0dd"
+    },
+    "sample-2.000s.png": {
+      "bytes": 2351324,
+      "sha256": "00f0721da5032ec707b2b22e8b27ff5f98eb09ffa0ae0f57b26cb03bd7c8d671"
+    },
+    "sample-4.000s.png": {
+      "bytes": 2352142,
+      "sha256": "b6f90d29503f976ff3d87758387371b55f96e158a7b33cdcd7b8308ce74652d3"
+    },
+    "sample-6.000s.png": {
+      "bytes": 2352345,
+      "sha256": "34bd44297c1ec3dcf1428ce508e6eee39831487d8328a1ddb3d25bff712ac12f"
+    },
+    "sample-8.000s.png": {
+      "bytes": 2352815,
+      "sha256": "82e342109e7abae83315381ad6c48d5fe0ace088295b3890a23d9b125feeb553"
+    },
+    "scene-plan-v3.json": {
+      "bytes": 31097,
+      "sha256": "699ab3be0a0c685847ec598bfc4a7514be5a9c1ffeb8fa89addfaa880ccfdc61"
+    },
+    "steam-strength-comparison.png": {
+      "bytes": 168106,
+      "sha256": "e92873e949129541def700514316e5098bb3d7ab7a25c56f1931a35fc09d3cfa"
+    },
+    "steam-strength-study-00.png": {
+      "bytes": 2350607,
+      "sha256": "199198b7397616c9dab0879b6be7aa0a2e390a71194ab827a70d9e65914e13cf"
+    },
+    "steam-strength-study-02.png": {
+      "bytes": 2351328,
+      "sha256": "679ba83f468f9bc456b7f0e9df63954aa2af955be159c0117d501dfab6f227ef"
+    },
+    "steam-strength-study-04.png": {
+      "bytes": 2352161,
+      "sha256": "a7f4b06143a06d5f64a20422d6f815f7d73184c1a261942bd0bbf3c596c98761"
+    },
+    "steam-strength-study-08.png": {
+      "bytes": 2352845,
+      "sha256": "7157639c73ed89865ce6ea72244d939660b9105aae678f727e5e1e51eee2077c"
+    },
+    "study_steam.py": {
+      "bytes": 690,
+      "sha256": "bd528fad7d231661fb4d472701c93ea7bb8100568bfcc56406465ad83f0c659a"
+    },
+    "tanks-grid.png": {
+      "bytes": 67184,
+      "sha256": "3bc3eaa3204946cb75a429279d1134a47b8726c69fef89893307938dc1a362e7"
+    },
+    "tanks-source-5x.png": {
+      "bytes": 61527,
+      "sha256": "15161d4dd0fa1950f9bd4d76686b362571badc769599418247d8274dc3ad379d"
+    },
+    "update_project_status.py": {
+      "bytes": 8473,
+      "sha256": "bd2a861851034c9f47728c9f3691823e18aec55ae4b6a3470ab9a6ae6f047553"
+    },
+    "user-feedback.json": {
+      "bytes": 585,
+      "sha256": "a88badb05d72b6504e126107193966ca71892f14e62a706bf97284c0c165875e"
+    },
+    "v2-snapshot/baseline-snapshot/analytic-validation.json": {
+      "bytes": 3641,
+      "sha256": "100b34cc77ad35ca7ce4877899e902bf0807e39e68d669903b3b562f0c0ab4d6"
+    },
+    "v2-snapshot/baseline-snapshot/artwork-original-v2.png": {
+      "bytes": 2380932,
+      "sha256": "46013ffabbddfdf983b16de74fa65972780e0a84288cf24e8ed11bfd08e90e84"
+    },
+    "v2-snapshot/baseline-snapshot/artwork-planet-v1.png": {
+      "bytes": 2385467,
+      "sha256": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b"
+    },
+    "v2-snapshot/baseline-snapshot/artwork-provenance.json": {
+      "bytes": 1015,
+      "sha256": "8ebd36096e2e26e30335db64e5a1168e76b537f826b02a4a4422c306b23ab77a"
+    },
+    "v2-snapshot/baseline-snapshot/dependency-snapshot/ambient_effects.py": {
+      "bytes": 1640,
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+    },
+    "v2-snapshot/baseline-snapshot/dependency-snapshot/manifest.json": {
+      "bytes": 542,
+      "sha256": "9c875868a4ca3d1714805ee5f153e5cdfdcd4e473e74c236740e5d0754a0baf9"
+    },
+    "v2-snapshot/baseline-snapshot/dependency-snapshot/render_floodplain.py": {
+      "bytes": 12017,
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+    },
+    "v2-snapshot/baseline-snapshot/dependency-snapshot/water_surface.py": {
+      "bytes": 3156,
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "v2-snapshot/baseline-snapshot/preview-validation.json": {
+      "bytes": 7846,
+      "sha256": "d455827ece0ff5f2cc137ac9e743b5048304311fdabe683ee9807f87497ec755"
+    },
+    "v2-snapshot/baseline-snapshot/render_deepwell.py": {
+      "bytes": 14592,
+      "sha256": "769a835cd532d32454c435f435e2ca65b5d39ddaa9003e06b3750bccec1ddc34"
+    },
+    "v2-snapshot/baseline-snapshot/scene-plan-v1.json": {
+      "bytes": 9061,
+      "sha256": "39e755f2e9c7d59060669cbe1067a1723e6b6df55e74fe7bb29b45d4355a4045"
+    },
+    "v2-snapshot/baseline-snapshot-manifest.json": {
+      "bytes": 1127,
+      "sha256": "738d33fbe672898ef4d27c7f56f8cd2d23897427c16da84276496d8443673387"
+    },
+    "v2-snapshot/render_deepwell_v2.py": {
+      "bytes": 18225,
+      "sha256": "69e1f770a6188e320793eacb7ddb5341b5e1f912925454a6c93d08a46348a075"
+    },
+    "v2-snapshot/review_tools.py": {
+      "bytes": 3964,
+      "sha256": "95a71c26a4fa3f5b0cf27eaff23e0660867bcdfce0cfbe929a4082356b40575f"
+    },
+    "v2-snapshot/scene-plan-v2.json": {
+      "bytes": 18531,
+      "sha256": "f5d8459777405fea6ba11a9682524ea5c0973af52f83117aa3f3ee3255147713"
+    },
+    "v2-snapshot/weather_refinement.py": {
+      "bytes": 2401,
+      "sha256": "ede3711fb5b6b3c393145b1f13274d0cd3d21ec413c586ebc30b90f3f11d1724"
+    },
+    "v2-snapshot-manifest.json": {
+      "bytes": 1806,
+      "sha256": "9460d6d605050a10745877da45d703956582186835c46162310b87a7fac5d9a5"
+    },
+    "verify_delivery.py": {
+      "bytes": 3313,
+      "sha256": "6f1327c0573c9f69100331b213082b0a93244369d77e719a63d311160ca786b3"
+    },
+    "window-all-dim-diagnostic.png": {
+      "bytes": 2385073,
+      "sha256": "abe109552a22d0b699012eb2408a338b4107159edf965971381ac01dff6e0b9d"
+    },
+    "window-source-mask-dim-comparison.png": {
+      "bytes": 199561,
+      "sha256": "2992001603ec518da96b025c656e096567b2f4eee53935c08d07dc5e0c632fe4"
+    }
+  },
+  "runtime_binary_fingerprint": "runtime-binary-fingerprint.json",
+  "v2_preservation": {
+    "all_manifest_files_exact": true,
+    "checked_count": 140
+  },
+  "remote_backup": false,
+  "scope": "Silent 720p review and repeat; no opening, audio, 4K, long assembly, new image generation, paid service, model install, commit or push.",
+  "assistant_inspection": "Source/mask/bright-core/all-dim and native/decoded temporal stills; continuous playback not claimed."
+}
