@@ -1,0 +1,36 @@
+[
+  {
+    "path": "G:\\AI\\colony\\AGENTS.md",
+    "sha256_before": "c1bbd2e66b68cfc07592d6c7c7c6fc4230668c009b97eea2938f89ed6b503693",
+    "sha256_after": "85f7cafa447de85248d18d5c03096b269a65e255caf8123eb8fcfe386c638cb9",
+    "scope": "Spirewatch final status, explicit history label, scoped production lesson or final link only; unrelated bytes retained."
+  },
+  {
+    "path": "G:\\AI\\colony\\PRODUCTION_PIPELINE.md",
+    "sha256_before": "bb69ca2d406a7106ed38b86a32d730b7a195484912b31a80b5eef7f13c11a742",
+    "sha256_after": "3f89d1f24b429b3367795a79b83355cbe82297fe7fe1d2518cbe2a3ac9de57a1",
+    "scope": "Spirewatch final status, explicit history label, scoped production lesson or final link only; unrelated bytes retained."
+  },
+  {
+    "path": "G:\\AI\\colony\\creative\\MUSIC_WORKFLOW.md",
+    "sha256_before": "f685629912db2c0d411bef6bae87edd25c81a781523149de4595253d3f6982ba",
+    "sha256_after": "ea4245afc9d2167f73da14fa342056362d748d23082c920977ce3c27939099d4",
+    "scope": "Spirewatch final status, explicit history label, scoped production lesson or final link only; unrelated bytes retained."
+  },
+  {
+    "path": "G:\\AI\\colony\\creative\\ANIMATION_KNOWLEDGE_BANK.md",
+    "sha256_before": "8a655b8c70c33449a29da47baa8c547bd4e356c51993c60ed6a57588fbcf0bb8",
+    "sha256_after": "803b8e21a7ece19d5e64c9b1a7059032d12caefe5c07a51d97abd20062fede5f",
+    "scope": "Spirewatch final status, explicit history label, scoped production lesson or final link only; unrelated bytes retained."
+  },
+  {
+    "path": "G:\\AI\\colony\\music\\spirewatch-animation-v8\\README.md",
+    "sha256_before": "c75ecbe0ee4c40efece2a17da27ef28fb85eed63a7d918c30b888ec77acf7cc8",
+    "sha256_after": "dbe530d07ef092f6d3a2049627cacf51bda050dcc8e97e53d6089b85968b3552",
+    "scope": "Spirewatch final status, explicit history label, scoped production lesson or final link only; unrelated bytes retained."
+  },
+  {
+    "path": "G:\\AI\\colony\\final\\local-export-inventory.json",
+    "scope": "Added the three verified Spirewatch final audio/video exports; existing inventory entries retained"
+  }
+]

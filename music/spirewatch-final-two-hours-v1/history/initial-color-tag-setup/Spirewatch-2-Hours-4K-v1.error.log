@@ -1,0 +1,29 @@
+2026-10-25 23:51:25,651 colony.render INFO: Export: video=G:\AI\colony\music\spirewatch-animation-v8\delivery-4k-v1\Spirewatch-v8-60s-4K-loop.mp4 tracks=['G:\\AI\\colony\\exports\\spirewatch\\Illuminated-Horizon-and-Stillness-2-Hours-v1.flac'] overlay=None mode=off every=900 bottom=100 crossfade=0 match=False full_decode=True output=G:\AI\colony\exports\spirewatch\Spirewatch-2-Hours-4K-v1.mp4
+2026-10-25 23:51:25,651 colony.render INFO: Video loop ready (reused from the last run)
+2026-10-25 23:51:25,652 colony.render INFO: Video ready
+2026-10-25 23:51:25,652 colony.render INFO: Measuring track 1 of 1: Illuminated-Horizon-and-Stillness-2-Hours-v1.flac
+2026-10-25 23:51:25,653 app.exporter DEBUG: imageio-ffmpeg not installed, trying system ffmpeg
+2026-10-25 23:51:25,661 app.exporter DEBUG: Using system ffmpeg: C:\Users\jazzs\AppData\Local\Microsoft\WinGet\Links\ffmpeg.EXE
+2026-10-25 23:51:25,710 app.exporter DEBUG: Running: C:\Users\jazzs\AppData\Local\Microsoft\WinGet\Links\ffmpeg.EXE -hide_banner -nostdin -i G:\AI\colony\exports\spirewatch\Illuminated-Horizon-and-Stillness-2-Hours-v1.flac -vn...
+2026-10-25 23:51:29,564 colony.render INFO: Rendering the opening titles...
+2026-10-25 23:51:29,660 app.exporter DEBUG: Running (streaming): C:\Users\jazzs\AppData\Local\Microsoft\WinGet\Links\ffmpeg.EXE -y -hide_banner -nostdin -f concat...
+
+Traceback (most recent call last):
+  File "G:\AI\colony\creative\brand\intro-v3\tool-source-snapshot\colony\render.py", line 908, in render
+    entries = opening_entries(ffmpeg, prep, entries, intro, report)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\AI\colony\creative\brand\intro-v3\tool-source-snapshot\colony\render.py", line 627, in opening_entries
+    exporter._run_ffmpeg_streaming(cmd + _loop_encode_args(prep.color) + [partial],
+  File "C:\dev\SpeedySlideShow\app\exporter.py", line 2079, in _run_ffmpeg_streaming
+    proc = subprocess.Popen(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\jazzs\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\jazzs\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 1462, in _execute_child
+    args = list2cmdline(args)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jazzs\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\subprocess.py", line 608, in list2cmdline
+    for arg in map(os.fsdecode, seq):
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 859, in fsdecode
+TypeError: expected str, bytes or os.PathLike object, not NoneType

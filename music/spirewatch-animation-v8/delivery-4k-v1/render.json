@@ -1,0 +1,26 @@
+{
+  "chunks": [
+    {
+      "index": 0,
+      "start_seconds": 0,
+      "sha256": "3921daaac2d0c5025e2981e1515656a2b555adc2f8be3a64a1db56301f9ac6d7"
+    },
+    {
+      "index": 1,
+      "start_seconds": 15,
+      "sha256": "d47e48e0e7be421964b2048df9dc8f9bc0e6d34cff71b96a8ede2dacd8944b7d"
+    },
+    {
+      "index": 2,
+      "start_seconds": 30,
+      "sha256": "8aed552ec66a63c1d2e52d2ead5e9d7e923944c0eb4c1507b38086123d913986"
+    },
+    {
+      "index": 3,
+      "start_seconds": 45,
+      "sha256": "242c3390c4bbf06303d4b4f73bd1b4fc9577b0d8b03d2731846ad5a97936e5a8"
+    }
+  ],
+  "master_sha256": "c5bc500c98532d1d53229b17fd699c05f737a4809ee5b1dd87cc2393eb5b225f",
+  "script_sha256": "30167fc69dd7ec96d26da773575bac34f68a3a3009a3e455b27c72c9efc8d0c8"
+}

@@ -23,3 +23,8 @@ Reproduce with the existing Python runtime and PYTHONPATH=G:/AI/youtube/.runtime
 ## Requested backup
 
 Backup requested 2026-10-21: current v8 minute preview plus v4–v8 source, artwork, thumbnail, masks, diagnostics, feedback and learnings selected. Older/repeated/isolated/intermediate videos remain local. See music/spirewatch-animation-v8/backup-manifest.json and subsequent local remote-backup-verification.json for scope and remote evidence. Delivery-time uncommitted statements below are historical; backup does not imply artistic approval.
+
+
+## Final two-hour assembly — 2026-10-26
+
+User requested the latest Spirewatch with the approved two-track soundtrack and current intro. [Final video](G:/AI/colony/exports/spirewatch/Spirewatch-2-Hours-4K-v1.mp4) is delivered and technically verified. See [assembly evidence](../spirewatch-final-two-hours-v1/README.md). This does not overwrite the clean minute master or historical preview. Full combined user review remains pending; no upload or remote backup.

@@ -1,0 +1,40 @@
+{
+  "output": "G:\\AI\\colony\\exports\\spirewatch\\Spirewatch-2-Hours-4K-v1.mp4",
+  "bytes": 72432193092,
+  "duration_seconds": 7200.0,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30.0,
+  "colony_full_decode_passed": true,
+  "checks": [
+    {
+      "name": "Video stream",
+      "ok": true,
+      "detail": "3840x2160 (expected 3840x2160)"
+    },
+    {
+      "name": "Frame rate",
+      "ok": true,
+      "detail": "30 fps (expected 30)"
+    },
+    {
+      "name": "Audio stream",
+      "ok": true,
+      "detail": "aac, 48000 Hz, stereo"
+    },
+    {
+      "name": "Duration",
+      "ok": true,
+      "detail": "2:00:00 (expected 2:00:00, +0.00 s)"
+    },
+    {
+      "name": "Full decode",
+      "ok": true,
+      "detail": "every frame and sample decoded without errors"
+    }
+  ],
+  "source_hashes_unchanged": true,
+  "further_checks": "verify_final.py checks every video timestamp/loop payload, decoded source identity, opening stills and the complete audio envelope."
+}

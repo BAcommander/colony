@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-25",
+  "source_user_path": "C:\\Users\\jazzs\\Downloads\\Illuminated_Stillness_2026-10-25T233322 (1).mp4",
+  "source_copy": "source-original.mp4",
+  "source_sha256": "938d48fccd5aabbfd14f01f7d12bb02497df310700d45fac973a6b65afcbb744",
+  "source_audio_seconds": 180,
+  "source_video_container_seconds": 184.4,
+  "original_horizon": "G:\\AI\\colony\\music\\illuminated-horizon-slow-middle-v1\\source-original.mp4",
+  "original_sha256": "a60986de41c0cd5418ad9dd56bdbf442ac01b8a284dd6f9b8a6c2930e39443db",
+  "user_status": "New three-minute upload supplied without text. Prior thirty-second Stillness had potential. No approval of this long generation or its joins is inferred.",
+  "measured_body_loudness": {
+    "horizon": {
+      "window_seconds": [
+        60,
+        180
+      ],
+      "integrated_lufs": -12.26,
+      "true_peak_dbtp": -0.47,
+      "lra": 1.8
+    },
+    "stillness": {
+      "window_seconds": [
+        15,
+        165
+      ],
+      "integrated_lufs": -12.92,
+      "true_peak_dbtp": -1.71,
+      "lra": 2.8
+    }
+  },
+  "fixed_gain_db": {
+    "horizon": -7.74,
+    "stillness": -7.08,
+    "shared_headroom": 0.0
+  },
+  "processing": "One fixed gain per track based on measured interior loudness, common headroom if needed, eight-second equal-power crossfades. No time stretching, pitch shift, EQ, separation or dynamic loudness processing. Existing source fades retained.",
+  "stillness_recurrence_windows": [
+    {
+      "start_seconds": 5,
+      "duration_seconds": 24,
+      "strongest_lags": [
+        {
+          "seconds": 0.29,
+          "correlation": 0.1553
+        },
+        {
+          "seconds": 1.35,
+          "correlation": 0.0294
+        },
+        {
+          "seconds": 1.42,
+          "correlation": 0.0267
+        }
+      ],
+      "original_075s_lag_correlation": -0.2852,
+      "original_150s_lag_correlation": 0.1098
+    },
+    {
+      "start_seconds": 78,
+      "duration_seconds": 24,
+      "strongest_lags": [
+        {
+          "seconds": 0.29,
+          "correlation": 0.2147
+        },
+        {
+          "seconds": 1.5,
+          "correlation": 0.0789
+        },
+        {
+          "seconds": 0.35,
+          "correlation": 0.0699
+        }
+      ],
+      "original_075s_lag_correlation": -0.4095,
+      "original_150s_lag_correlation": 0.0789
+    },
+    {
+      "start_seconds": 149,
+      "duration_seconds": 24,
+      "strongest_lags": [
+        {
+          "seconds": 0.26,
+          "correlation": 0.5238
+        },
+        {
+          "seconds": 0.29,
+          "correlation": 0.4683
+        },
+        {
+          "seconds": 0.32,
+          "correlation": 0.4151
+        }
+      ],
+      "original_075s_lag_correlation": -0.2295,
+      "original_150s_lag_correlation": -0.1715
+    }
+  ],
+  "analysis_limits": "Envelope recurrence is not an instrument or beat detector. Assistant signal checks do not establish audible contrast, harmonic compatibility, smooth joins or artistic acceptance. No assistant listening claimed.",
+  "full_review_timeline": [
+    {
+      "seconds": [
+        0,
+        22
+      ],
+      "audio": "Horizon 8:00\u20138:22"
+    },
+    {
+      "seconds": [
+        22,
+        30
+      ],
+      "audio": "Horizon tail \u2192 Stillness 0:00\u20130:08 overlap"
+    },
+    {
+      "seconds": [
+        30,
+        194
+      ],
+      "audio": "Stillness 0:08\u20132:52"
+    },
+    {
+      "seconds": [
+        194,
+        202
+      ],
+      "audio": "Stillness 2:52\u20133:00 \u2192 Horizon 0:00\u20130:08 overlap"
+    },
+    {
+      "seconds": [
+        202,
+        224
+      ],
+      "audio": "Horizon 0:08\u20130:30"
+    }
+  ],
+  "short_review_timing": "Each forty-five-second excerpt has fifteen seconds before the transition, an eight-second overlap, then twenty-two seconds after. No extra edge fades.",
+  "outputs": [
+    {
+      "path": "Horizon-to-Stillness-entry-review-45s.mp3",
+      "duration_seconds": 45,
+      "sha256": "5a5c63643a569a6d150ce5ebea94a1d8c7e492245e05aff2351c6ad22fcb89b2",
+      "decoded_sample_frames": 2160000,
+      "decoded_peak_dbfs": -8.181661007909943,
+      "full_review_interval_seconds": [
+        7,
+        52
+      ]
+    },
+    {
+      "path": "Stillness-to-Horizon-return-review-45s.mp3",
+      "duration_seconds": 45,
+      "sha256": "3962b5c3d371f15ebdd7a0d4e1349019217c10b72acdc1c77aae2054f9249949",
+      "decoded_sample_frames": 2160000,
+      "decoded_peak_dbfs": -8.802897876126066,
+      "full_review_interval_seconds": [
+        179,
+        224
+      ]
+    },
+    {
+      "path": "Horizon-Stillness-Horizon-full-companion-review-3m44s.mp3",
+      "duration_seconds": 224,
+      "sha256": "e4cb3f4864c2aba5edf0ffb48bdc130d87ff67d455013aae77cf3af543096276",
+      "decoded_sample_frames": 10752000,
+      "decoded_peak_dbfs": -8.169403507075325,
+      "full_review_interval_seconds": [
+        0,
+        224
+      ]
+    }
+  ],
+  "scope": "Local listening reviews only. Sources preserved. No credit spend, music generation, full-hour assembly, video render, commit or push."
+}

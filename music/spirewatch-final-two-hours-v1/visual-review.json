@@ -1,0 +1,14 @@
+{
+  "stills": "opening-contact-sheet.jpg",
+  "times_seconds": [
+    1,
+    6,
+    13,
+    16,
+    19,
+    23
+  ],
+  "inspection": "Assistant inspected all six final decoded temporal stills in the contact sheet: dark opening, channel/logo/PRESENTS, SPIREWATCH with lower tagline, held tagline at16/19s and clean23s scene. Continuous playback not claimed.",
+  "source_phase": "Source loop starts at phase zero and repeats every sixty seconds; opening adds no runtime",
+  "assistant_inspected": true
+}

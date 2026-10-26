@@ -1,0 +1,298 @@
+{
+  "date": "2026-10-25",
+  "user_request": "yeah those transitions sound good, can we make an 2-hour long version alternating between illuminated horizon and illuminated stillness?",
+  "approval_scope": "Both 45-second transition previews accepted; two-hour A/B audio requested. Full-length listening and final video remain separate.",
+  "sources": {
+    "horizon": {
+      "path": "G:\\AI\\colony\\music\\illuminated-horizon-slow-middle-v1\\source-original.mp4",
+      "sha256": "a60986de41c0cd5418ad9dd56bdbf442ac01b8a284dd6f9b8a6c2930e39443db",
+      "audio_seconds": 510
+    },
+    "stillness": {
+      "path": "G:\\AI\\colony\\music\\illuminated-stillness-long-v1\\source-original.mp4",
+      "sha256": "938d48fccd5aabbfd14f01f7d12bb02497df310700d45fac973a6b65afcbb744",
+      "audio_seconds": 180
+    }
+  },
+  "accepted_review_record": {
+    "path": "G:\\AI\\colony\\music\\illuminated-stillness-long-v1\\delivery-review.json",
+    "sha256": "7f89f61c0b29680bb185ff66615723c9901ebe045cdda3eb1f480b5e96dc91a0"
+  },
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration_seconds": 7200,
+  "sample_frames": 345600000,
+  "gains_db": {
+    "horizon": -7.74,
+    "stillness": -7.08
+  },
+  "overlap_seconds": 8,
+  "overlap_curve": "outgoing cos / incoming sin, endpoints inclusive, matching accepted native review recipe",
+  "cycle_interval_seconds": 674,
+  "source_occurrences": {
+    "horizon": 11,
+    "stillness": 10
+  },
+  "tracks": [
+    {
+      "track": "Illuminated Horizon",
+      "start_seconds": 0,
+      "source_duration_seconds": 510
+    },
+    {
+      "track": "Illuminated Stillness",
+      "start_seconds": 502.0,
+      "source_duration_seconds": 180.0
+    },
+    {
+      "track": "Illuminated Horizon",
+      "start_seconds": 674.0,
+      "source_duration_seconds": 510.0
+    },
+    {
+      "track": "Illuminated Stillness",
+      "start_seconds": 1176.0,
+      "source_duration_seconds": 180.0
+    },
+    {
+      "track": "Illuminated Horizon",
+      "start_seconds": 1348.0,
+      "source_duration_seconds": 510.0
+    },
+    {
+      "track": "Illuminated Stillness",
+      "start_seconds": 1850.0,
+      "source_duration_seconds": 180.0
+    },
+    {
+      "track": "Illuminated Horizon",
+      "start_seconds": 2022.0,
+      "source_duration_seconds": 510.0
+    },
+    {
+      "track": "Illuminated Stillness",
+      "start_seconds": 2524.0,
+      "source_duration_seconds": 180.0
+    },
+    {
+      "track": "Illuminated Horizon",
+      "start_seconds": 2696.0,
+      "source_duration_seconds": 510.0
+    },
+    {
+      "track": "Illuminated Stillness",
+      "start_seconds": 3198.0,
+      "source_duration_seconds": 180.0
+    },
+    {
+      "track": "Illuminated Horizon",
+      "start_seconds": 3370.0,
+      "source_duration_seconds": 510.0
+    },
+    {
+      "track": "Illuminated Stillness",
+      "start_seconds": 3872.0,
+      "source_duration_seconds": 180.0
+    },
+    {
+      "track": "Illuminated Horizon",
+      "start_seconds": 4044.0,
+      "source_duration_seconds": 510.0
+    },
+    {
+      "track": "Illuminated Stillness",
+      "start_seconds": 4546.0,
+      "source_duration_seconds": 180.0
+    },
+    {
+      "track": "Illuminated Horizon",
+      "start_seconds": 4718.0,
+      "source_duration_seconds": 510.0
+    },
+    {
+      "track": "Illuminated Stillness",
+      "start_seconds": 5220.0,
+      "source_duration_seconds": 180.0
+    },
+    {
+      "track": "Illuminated Horizon",
+      "start_seconds": 5392.0,
+      "source_duration_seconds": 510.0
+    },
+    {
+      "track": "Illuminated Stillness",
+      "start_seconds": 5894.0,
+      "source_duration_seconds": 180.0
+    },
+    {
+      "track": "Illuminated Horizon",
+      "start_seconds": 6066.0,
+      "source_duration_seconds": 510.0
+    },
+    {
+      "track": "Illuminated Stillness",
+      "start_seconds": 6568.0,
+      "source_duration_seconds": 180.0
+    },
+    {
+      "track": "Illuminated Horizon",
+      "start_seconds": 6740.0,
+      "source_duration_seconds": 510.0
+    }
+  ],
+  "joins": [
+    {
+      "from": "Illuminated Horizon",
+      "to": "Illuminated Stillness",
+      "start_seconds": 502.0,
+      "end_seconds": 510.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Stillness",
+      "to": "Illuminated Horizon",
+      "start_seconds": 674.0,
+      "end_seconds": 682.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Horizon",
+      "to": "Illuminated Stillness",
+      "start_seconds": 1176.0,
+      "end_seconds": 1184.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Stillness",
+      "to": "Illuminated Horizon",
+      "start_seconds": 1348.0,
+      "end_seconds": 1356.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Horizon",
+      "to": "Illuminated Stillness",
+      "start_seconds": 1850.0,
+      "end_seconds": 1858.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Stillness",
+      "to": "Illuminated Horizon",
+      "start_seconds": 2022.0,
+      "end_seconds": 2030.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Horizon",
+      "to": "Illuminated Stillness",
+      "start_seconds": 2524.0,
+      "end_seconds": 2532.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Stillness",
+      "to": "Illuminated Horizon",
+      "start_seconds": 2696.0,
+      "end_seconds": 2704.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Horizon",
+      "to": "Illuminated Stillness",
+      "start_seconds": 3198.0,
+      "end_seconds": 3206.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Stillness",
+      "to": "Illuminated Horizon",
+      "start_seconds": 3370.0,
+      "end_seconds": 3378.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Horizon",
+      "to": "Illuminated Stillness",
+      "start_seconds": 3872.0,
+      "end_seconds": 3880.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Stillness",
+      "to": "Illuminated Horizon",
+      "start_seconds": 4044.0,
+      "end_seconds": 4052.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Horizon",
+      "to": "Illuminated Stillness",
+      "start_seconds": 4546.0,
+      "end_seconds": 4554.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Stillness",
+      "to": "Illuminated Horizon",
+      "start_seconds": 4718.0,
+      "end_seconds": 4726.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Horizon",
+      "to": "Illuminated Stillness",
+      "start_seconds": 5220.0,
+      "end_seconds": 5228.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Stillness",
+      "to": "Illuminated Horizon",
+      "start_seconds": 5392.0,
+      "end_seconds": 5400.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Horizon",
+      "to": "Illuminated Stillness",
+      "start_seconds": 5894.0,
+      "end_seconds": 5902.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Stillness",
+      "to": "Illuminated Horizon",
+      "start_seconds": 6066.0,
+      "end_seconds": 6074.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Horizon",
+      "to": "Illuminated Stillness",
+      "start_seconds": 6568.0,
+      "end_seconds": 6576.0,
+      "duration_seconds": 8.0
+    },
+    {
+      "from": "Illuminated Stillness",
+      "to": "Illuminated Horizon",
+      "start_seconds": 6740.0,
+      "end_seconds": 6748.0,
+      "duration_seconds": 8.0
+    }
+  ],
+  "end_treatment": {
+    "last_track_start_seconds": 6740,
+    "last_track_source_used_seconds": 460,
+    "closing_fade_seconds": 20,
+    "closing_fade_curve": "half cosine, unity at 1:59:40, zero at final sample"
+  },
+  "opening": "No extra opening fade baked in. Apply once-only 0:05\u20130:20 entrance during later Colony video assembly. Original source entrance remains.",
+  "unchanged": "Source tempo, pitch, musical material and existing internal/source fades retained. No EQ, separation, synthetic pads, SFX or dynamic normalization.",
+  "outputs": [
+    "Illuminated-Horizon-and-Stillness-2-Hours-v1.flac",
+    "Illuminated-Horizon-and-Stillness-2-Hours-v1.mp3"
+  ],
+  "scope": "Audio-only local delivery. No new generation/spend, final video, commit or push."
+}

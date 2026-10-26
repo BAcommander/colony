@@ -1,0 +1,25 @@
+{
+  "reason": "User screenshot confirms upload requires 10 seconds to 5 minutes.",
+  "output": "Vast-Unfamiliar-World-slow-reference-12s-crossfaded.wav",
+  "sha256": "a84826f22dcfe5768971c1db8690f4b5633f6767733bfc2203ba50db236155a2",
+  "duration_seconds": 12,
+  "audio": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_frames": 576000,
+    "sample_width_bytes": 3
+  },
+  "source_excerpt": "Vast-Unfamiliar-World-reference-00m24s-to-00m29s.wav",
+  "source_sha256": "f655d7e7e3cfe47b8f3d40757f188b4a9fcdebdd8c10ee5dc90f5ccf0d77e6a2",
+  "source_interval_in_original_seconds": [
+    24,
+    29
+  ],
+  "recipe": "Three copies of the five-second excerpt, 150ms linear amplitude crossfades, trim to 12 seconds. No time stretching, pitch shift, resampling or music from neighbouring intervals.",
+  "overlap_start_seconds": [
+    4.85,
+    9.7
+  ],
+  "limitation": "Phrase repeats are introduced solely to meet the upload limit. They may condition repetition; this is a reference-only workaround, not a genuine twelve-second original passage or new composed interlude. Crossfades have not been auditioned by assistant.",
+  "generation": "Use existing 30-second prompt as one manual trial. No generation submitted or credits spent."
+}

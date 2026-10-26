@@ -1,0 +1,135 @@
+{
+  "tool": "Colony",
+  "opening": {
+    "title": "Spirewatch",
+    "fade_audio": true,
+    "version": 3,
+    "duration_s": 22.0,
+    "channel": "AMBIENT COLONY",
+    "tagline": "Stay a while and listen",
+    "brand_s": [
+      2,
+      3.2,
+      8,
+      9
+    ],
+    "presents_s": [
+      4.8,
+      5.8,
+      8,
+      9
+    ],
+    "title_s": [
+      10,
+      11,
+      14,
+      15
+    ],
+    "tagline_s": [
+      12,
+      13,
+      20,
+      21.5
+    ],
+    "presents": "PRESENTS",
+    "presents_center_y_fraction": 0.525,
+    "tagline_center_y_fraction": 0.89,
+    "channel_font_height_fraction": 0.077,
+    "title_font_height_fraction": 0.165,
+    "underline_width_height_fraction": 0.22,
+    "black_overlay_opacity": 0.88,
+    "scene_reveal_s": [
+      10,
+      20
+    ],
+    "audio_fade_s": [
+      5,
+      20
+    ],
+    "font_sha256": {
+      "BarlowCondensed-Regular.ttf": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996",
+      "BarlowCondensed-SemiBold.ttf": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    },
+    "renderer_sha256": "a38a64b021730c9878dcb7605c1b9354a18bc943aa77e2b65ea08182bca05440"
+  },
+  "preview_limit_s": 25,
+  "started": "2026-10-26T00:01:20",
+  "finished": "2026-10-26T00:07:42",
+  "output": {
+    "path": "G:\\AI\\colony\\music\\spirewatch-final-two-hours-v1\\Spirewatch-opening-review-25s-4K.mp4",
+    "duration_s": 25,
+    "width": 3840,
+    "height": 2160,
+    "fps": 30.0,
+    "color": {
+      "space": "bt709",
+      "primaries": "bt709",
+      "trc": "bt709",
+      "range": "tv"
+    }
+  },
+  "video": {
+    "path": "G:\\AI\\colony\\music\\spirewatch-animation-v8\\delivery-4k-v1\\Spirewatch-v8-60s-4K-loop.mp4",
+    "width": 3840,
+    "height": 2160,
+    "fps": 30.0,
+    "duration_s": 60.0,
+    "loop_duration_s": 60.0,
+    "loops": 2,
+    "source_color": {
+      "space": "bt709",
+      "primaries": null,
+      "trc": null,
+      "range": "tv"
+    }
+  },
+  "overlay": null,
+  "audio": {
+    "tracks": [
+      {
+        "path": "G:\\AI\\colony\\exports\\spirewatch\\Illuminated-Horizon-and-Stillness-2-Hours-v1.flac",
+        "duration_s": 7200.0,
+        "loudness_lufs": -20.2,
+        "gain_db": 0.0
+      }
+    ],
+    "sfx": null,
+    "crossfade_s": 0.0,
+    "match_loudness": false,
+    "target_lufs": null,
+    "limiter_dbfs": -1.5,
+    "codec": "aac 192k 48000 Hz stereo"
+  },
+  "verification": {
+    "full_decode": true,
+    "passed": true,
+    "checks": [
+      {
+        "name": "Video stream",
+        "ok": true,
+        "detail": "3840x2160 (expected 3840x2160)"
+      },
+      {
+        "name": "Frame rate",
+        "ok": true,
+        "detail": "30 fps (expected 30)"
+      },
+      {
+        "name": "Audio stream",
+        "ok": true,
+        "detail": "aac, 48000 Hz, stereo"
+      },
+      {
+        "name": "Duration",
+        "ok": true,
+        "detail": "0:25 (expected 0:25, +0.00 s)"
+      },
+      {
+        "name": "Full decode",
+        "ok": true,
+        "detail": "every frame and sample decoded without errors"
+      }
+    ],
+    "note": "Technical checks only. Whether the loop and the overlay look and sound right is a human check."
+  }
+}

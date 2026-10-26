@@ -1,0 +1,163 @@
+creative/basalt-transmission/animation/baseline-v6-loop-4k-master.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+creative/glacier-sanctuary/animation/final-v11/glacier-sanctuary-v11-60s-4k.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+final/01-ringfall-observatory/video-4k.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+final/02-basalt-transmission/video-4k.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+final/03-glacier-sanctuary/video-4k.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+final/**/description.txt text eol=lf
+final/**/youtube-tags.txt text eol=lf
+final/08-rainline-relay/thumbnail-prompt-v1.md text eol=lf
+final/08-rainline-relay/youtube-title.txt text eol=lf
+final/08-rainline-relay/music/* text eol=lf
+final/09-offshore-night-office/thumbnail-prompt-v1.md text eol=lf
+final/09-offshore-night-office/youtube-title.txt text eol=lf
+final/09-offshore-night-office/music/* text eol=lf
+final/10-nightward-station/thumbnail-prompt-v1.md text eol=lf
+final/10-nightward-station/youtube-title.txt text eol=lf
+final/10-nightward-station/music/* text eol=lf
+final/09-offshore-night-office/thumbnail-prompt-v2.md text eol=lf
+final/10-nightward-station/thumbnail-prompt-v2.md text eol=lf
+creative/concepts/round-02/17-empty-junction/generation-v1.md text eol=lf
+creative/concepts/round-02/18-deepwell-station/generation-v1.md text eol=lf
+creative/concepts/round-02/19-below-the-snowline/generation-v1.md text eol=lf
+creative/concepts/round-02/20-crater-rim-survey/generation-v1.md text eol=lf
+creative/concepts/round-02/17-empty-junction/generation-v2.md text eol=lf
+creative/concepts/round-02/18-deepwell-station/generation-v2.md text eol=lf
+creative/concepts/round-02/19-below-the-snowline/generation-v2.md text eol=lf
+creative/concepts/round-02/20-crater-rim-survey/generation-v2.md text eol=lf
+final/11-empty-junction/*.md text eol=lf
+final/11-empty-junction/*.txt text eol=lf
+final/11-empty-junction/music/* text eol=lf
+final/12-deepwell-station/*.md text eol=lf
+final/12-deepwell-station/*.txt text eol=lf
+final/12-deepwell-station/music/* text eol=lf
+final/13-below-the-snowline/*.md text eol=lf
+final/13-below-the-snowline/*.txt text eol=lf
+final/13-below-the-snowline/music/* text eol=lf
+final/14-crater-rim-survey/*.md text eol=lf
+final/14-crater-rim-survey/*.txt text eol=lf
+final/14-crater-rim-survey/music/* text eol=lf
+final/04-floodplain-keeper/video-4k-v2.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve Saltline hash-bound config/code bytes across platform checkouts.
+music/saltline-animation-v1/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/saltline-animation-v1/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/saltline-animation-v1/dependency-snapshot/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/saltline-animation-v1/*.md text eol=lf
+music/saltline-animation-v1/history/*.md text eol=lf
+final/05-saltline-receiver/video-4k-v7-60s.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve Rainline hash-bound renderer/config/snapshot bytes.
+music/rainline-animation-v*/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/rainline-animation-v*/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/rainline-animation-v5/dependency-snapshot/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/rainline-animation-v1/initial-mask-review/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/rainline-renderer/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/rainline-animation-v5/rainline-relay-v5-preview-20s.mp4 -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve Shoreless hash-bound code/config and dependency snapshot bytes.
+music/shoreless-animation-v*/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/shoreless-animation-v*/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/shoreless-animation-v*/**/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/shoreless-animation-v*/**/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/shoreless-animation-v3/shoreless-colony-v3-preview-60s.mp4 -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve Farpoint hash-bound code/config and dependency snapshot bytes.
+music/farpoint-animation-v*/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/farpoint-animation-v*/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/farpoint-animation-v*/**/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/farpoint-animation-v*/**/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/farpoint-animation-v6/farpoint-station-v6-preview-60s.mp4 -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve Empty Junction hash-bound renderer/config/dependency bytes.
+music/empty-junction-animation-v*/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/empty-junction-animation-v*/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/empty-junction-animation-v*/**/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/empty-junction-animation-v*/**/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/empty-junction-animation-v3/empty-junction-v3-preview-60s.mp4 -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+final/11-empty-junction/animation-production-prompt-v1.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve Skies of Baal artwork, exact prompts and hash-bound records byte-for-byte.
+creative/live/skies-of-baal/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve Crimson Sky source-bound renderer, plans and records.
+music/beneath-a-crimson-sky-animation-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/beneath-a-crimson-sky-animation-v2/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Exact large review files included in the user-requested complete checkpoint.
+music/beneath-a-crimson-sky-animation-v1/beneath-a-crimson-sky-v1-three-loops-180s.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/beneath-a-crimson-sky-animation-v2/beneath-a-crimson-sky-v2-three-loops-180s.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# 2026-10-10 production backup: exact masters and hash-bound records.
+final/06-last-cable-station/video-4k-v3.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+final/07-icebound-weather-post/video-4k-v3-60s.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+final/08-rainline-relay/video-4k-v5-20s.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+final/09-offshore-night-office/video-4k-v3-60s.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/cable-animation-v*/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/icebound-animation-v*/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/colony-sfx-update/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/rainline-final-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/shoreless-final-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/shoreless-music-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/production-backup-2026-10-10/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+final/0[5-9]-*/**/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+final/0[5-9]-*/**/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve metadata and source-hash record bytes.
+final/04-floodplain-keeper/manifest.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+final/catalog.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+final/local-export-inventory.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/shared-rain-overlay/rain-preset-current.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/shared-rain-overlay/rain-source-v1.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve raw FFmpeg diagnostic logs, including original carriage returns.
+final/0[6-7]-*/music/long-source-v1/*loudness.txt -text -diff
+
+# Preserve fingerprinted Spirewatch source and records byte for byte
+music/digital-city-concepts-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/spirewatch-animation-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/spirewatch-animation-v2/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve source fingerprints for the Spirewatch lighting checkpoint
+music/spirewatch-animation-v3/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/setup_spirewatch_v3.py -text
+
+# Preserve hash-bound intro media, source snapshots and records.
+creative/brand/intro-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+creative/brand/intro-v2/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+creative/brand/intro-v3/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+creative/brand/references/ambient-outpost-project-hades-2026-10-13/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+scripts/preview_colony_intro.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+creative/brand/intro-v3/tool-source-snapshot/colony/assets/fonts/OFL.txt -text whitespace=-blank-at-eol
+
+# Exact-byte session backup requested 2026-10-21: music experiments.
+music/illuminated-horizon-*/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/sam-audio-separation-test-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/thumbnail-text-evidence-2026-10-21/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/illuminated-horizon-*/*.log -text -diff
+music/illuminated-horizon-slow-middle-v1/Illuminated-Horizon-Slow-Middle-v1.wav filter=lfs diff=lfs merge=lfs -text
+music/illuminated-horizon-slow-middle-v1/history/internal-unrepaired/Illuminated-Horizon-Slow-Middle-v1.wav filter=lfs diff=lfs merge=lfs -text
+music/illuminated-horizon-ambient-middle-v2/Illuminated-Horizon-Ambient-Middle-v2.wav filter=lfs diff=lfs merge=lfs -text
+
+# Preserve exact Spirewatch rebuild and finishing checkpoint bytes.
+music/spirewatch-animation-v[4-8]/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/spirewatch-artwork-rebuild-v1/** -text
+
+# Snowline source records preserve exact bytes; only short previews use LFS.
+final/13-below-the-snowline/ice-planet-retheme-v1/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+final/13-below-the-snowline/ice-planet-retheme-v2/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+final/13-below-the-snowline/ice-planet-retheme-v3/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+music/below-the-snowline-animation-v1/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+music/below-the-snowline-animation-v2/** -text whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+music/below-the-snowline-animation-v1/Below-the-Snowline-v1-preview-20s.mp4 filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-animation-v2/Below-the-Snowline-v2-preview-20s.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Deepwell checkpoint: preserve all source, media and hash-bound records exactly.
+music/deepwell-animation-v[1-4]/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/deepwell-backup-2026-10-25/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Exact Spirewatch final-delivery and music checkpoint bytes.
+music/illuminated-stillness-*/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/spirewatch-final-two-hours-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/spirewatch-backup-2026-10-26/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/spirewatch-animation-v8/delivery-4k-v1/Spirewatch-v8-60s-4K-loop.mp4 filter=lfs diff=lfs merge=lfs -text
+music/spirewatch-final-two-hours-v1/Spirewatch-opening-review-25s-4K.mp4 filter=lfs diff=lfs merge=lfs -text

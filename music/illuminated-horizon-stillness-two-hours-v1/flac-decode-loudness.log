@@ -1,0 +1,30 @@
+Input #0, flac, from 'G:\AI\colony\music\illuminated-horizon-stillness-two-hours-v1\Illuminated-Horizon-and-Stillness-2-Hours-v1.flac':
+  Metadata:
+    encoder         : Lavf63.1.100
+  Duration: 02:00:00.00, start: 0.000000, bitrate: 1169 kb/s
+  Stream #0:0: Audio: flac, 48000 Hz, stereo, s32 (24 bit)
+Stream mapping:
+  Stream #0:0 -> #0:0 (flac (native) -> pcm_f32le (native))
+Press [q] to stop, [?] for help
+Output #0, f32le, to 'pipe:1':
+  Metadata:
+    encoder         : Lavf63.1.100
+  Stream #0:0: Audio: pcm_f32le, 48000 Hz, stereo, flt, 3072 kb/s
+    Metadata:
+      encoder         : Lavc63.1.100 pcm_f32le
+[Parsed_ebur128_0 @ 0000020da519c940] Summary:
+
+  Integrated loudness:
+    I:         -20.2 LUFS
+    Threshold: -30.2 LUFS
+
+  Loudness range:
+    LRA:         2.3 LU
+    Threshold: -40.2 LUFS
+    LRA low:   -21.3 LUFS
+    LRA high:  -19.0 LUFS
+
+  True peak:
+    Peak:       -8.2 dBFS
+[out#0/f32le @ 0000020da31cf800] video:0KiB audio:2700000KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000000%
+size= 2700000KiB time=02:00:00.00 bitrate=3072.0kbits/s speed= 421x elapsed=0:00:17.10    

@@ -1,0 +1,195 @@
+{
+  "master": "Spirewatch-v8-60s-4K-loop.mp4",
+  "sha256": "c5bc500c98532d1d53229b17fd699c05f737a4809ee5b1dd87cc2393eb5b225f",
+  "bytes": 601798678,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "seconds": 60,
+  "frames": 1800,
+  "audio": false,
+  "codec": "H.264 lossless QP0 yuv420p BT.709",
+  "native_source_dimensions": [
+    1672,
+    941
+  ],
+  "upscale": "Lanczos from native frames",
+  "fingerprint": {
+    "source": {
+      "path": "artwork-v5.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0"
+    },
+    "config_sha256": "29bc0d8be08821a93b412334c443658d931e825a8de1a7884d0f73d63b3ec0b6",
+    "renderer_sha256": "a5e964e95f1a12d984de4f499bbdd2566f589b8492a89b5441b0af8db9f65a94",
+    "validation_sha256": "a5caacb0143ac0ad0196f60ae91e71861f9eb64f43452b684733d4ce51705860",
+    "dependencies": {
+      "ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+    },
+    "masks": {
+      "clouds": "4978b31bf826e2ac0e77878a7f53b97ec27bf4d2c645f13b43a880f323e3cb1b",
+      "water": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+      "reflections": "84ab123d5fb2d12c691dd0b3504f4c035531718010c5e87389e392ddba06b6d6",
+      "falls": "97c669dd3531a4ee60f4eabe81eeef7332b0c9747f4e04faea231efc6bc93efd",
+      "tower": "4434ec1fce79c65edb5da227618d80d306ed4c767c8c8f3a8d77c7ebc185e728",
+      "tower_glow": "d84ffb865b8ec41274533a449830975d0c74fe3526e9a789817d5812a6aaa9f4",
+      "districts": "fe5664673fdc03523dc5f4348567152f24b7869b54d0f98dd497a33cfdaa8029",
+      "windows": "f43f3fb6ee2a620b8ccdcdd1caf9b03caea0d181909a71a5af50e09658aebce9",
+      "transit": "60fee996e65e28c25d36793f1b73872cb9f4d3252261cb1b72959c6eeacdea4b",
+      "screen": "674fce95fa8babcddc52e8870078e665be29822752173fe9055a3f1fe9ef4f64",
+      "lamp": "ae3d0a5baa4ba65beee19ac56589e3aa3a5a450b74b3f58ec21bf0325ec716ee",
+      "screen_spill": "87ecc8871ff4505d4adf37f5cc6484143b61c21a1ab77699db5d0866203c5d23",
+      "lightning": "dd841de01b98ecc6b6ba172de6c9a0a66f28058d56246c2c10a1eee828782c3f",
+      "storm_response": "4a6cc91726f6b60d355326529ec1245f1ae0c042c4d491e05011870c59b431e6",
+      "rain": "b60cc9ef464fb6268be9288db4d4a9a69f11a3e9412ccde9e9e4e575360c994c",
+      "rain_light": "b60cc9ef464fb6268be9288db4d4a9a69f11a3e9412ccde9e9e4e575360c994c",
+      "spray": "f46ec33033869220fe14a1c16d346b46a39c8a66abd1c9a97fdf839b1451dda8",
+      "beacons": "d48baf0d1b5b8a678fd1af703dabd9087b8a0aa4351b4497e540c51065e0cbb4"
+    },
+    "runtime": {
+      "numpy": "2.3.5",
+      "opencv": "5.0.0"
+    }
+  },
+  "full_decode": true,
+  "all_timestamps_checked": true,
+  "no_duplicate_endpoint": true,
+  "distinct_0_20_40": true,
+  "regional_and_composite_seams": {
+    "clouds": {
+      "seam_mae": 0.11857846095699266,
+      "ordinary_max": 2.1795147043069654,
+      "neighbour_max": 0.1208923318237185,
+      "pass": true
+    },
+    "water": {
+      "seam_mae": 0.30901538530742795,
+      "ordinary_max": 1.1511126736721486,
+      "neighbour_max": 0.3113272653879709,
+      "pass": true
+    },
+    "reflections": {
+      "seam_mae": 0.30901538530742795,
+      "ordinary_max": 1.1511126736721486,
+      "neighbour_max": 0.3113272653879709,
+      "pass": true
+    },
+    "falls": {
+      "seam_mae": 1.605643471349086,
+      "ordinary_max": 2.1238477181464392,
+      "neighbour_max": 1.7329441640085472,
+      "pass": true
+    },
+    "tower": {
+      "seam_mae": 0.0,
+      "ordinary_max": 1.414363664479643,
+      "neighbour_max": 0.0,
+      "pass": true
+    },
+    "tower_glow": {
+      "seam_mae": 0.0,
+      "ordinary_max": 1.304907329143851,
+      "neighbour_max": 3.6749843813163795e-05,
+      "pass": true
+    },
+    "districts": {
+      "seam_mae": 0.2580988269616484,
+      "ordinary_max": 0.8144259405579529,
+      "neighbour_max": 0.26307765554407503,
+      "pass": true
+    },
+    "windows": {
+      "seam_mae": 0.011735019609035358,
+      "ordinary_max": 0.7645260558646386,
+      "neighbour_max": 0.13731053888534206,
+      "pass": true
+    },
+    "transit": {
+      "seam_mae": 0.3736451209647768,
+      "ordinary_max": 0.916879917641003,
+      "neighbour_max": 0.4269817633649533,
+      "pass": true
+    },
+    "screen": {
+      "seam_mae": 0.03502231908161997,
+      "ordinary_max": 0.09558811815572059,
+      "neighbour_max": 0.04113338240026509,
+      "pass": true
+    },
+    "lamp": {
+      "seam_mae": 0.0,
+      "ordinary_max": 6.192953734520704,
+      "neighbour_max": 0.0,
+      "pass": true
+    },
+    "screen_spill": {
+      "seam_mae": 0.0,
+      "ordinary_max": 2.0439741628420873,
+      "neighbour_max": 0.0,
+      "pass": true
+    },
+    "lightning": {
+      "seam_mae": 0.10586777861205164,
+      "ordinary_max": 2.0639002617730995,
+      "neighbour_max": 0.1079427068986053,
+      "pass": true
+    },
+    "storm_response": {
+      "seam_mae": 0.30901538530742795,
+      "ordinary_max": 1.1511126736721486,
+      "neighbour_max": 0.3113272653879709,
+      "pass": true
+    },
+    "rain": {
+      "seam_mae": 0.08723125300090369,
+      "ordinary_max": 1.0668233324014524,
+      "neighbour_max": 0.09051699369656885,
+      "pass": true
+    },
+    "rain_light": {
+      "seam_mae": 0.08723125300090369,
+      "ordinary_max": 1.0668233324014524,
+      "neighbour_max": 0.09051699369656885,
+      "pass": true
+    },
+    "spray": {
+      "seam_mae": 1.447917372929238,
+      "ordinary_max": 2.136280425791579,
+      "neighbour_max": 1.6775487603679347,
+      "pass": true
+    },
+    "beacons": {
+      "seam_mae": 0.0,
+      "ordinary_max": 1.9308986752595778,
+      "neighbour_max": 0.00322234156820623,
+      "pass": true
+    },
+    "combined": {
+      "seam_mae": 0.0837036745336316,
+      "ordinary_max": 1.0105495600881778,
+      "neighbour_max": 0.08683481042437978,
+      "pass": true
+    }
+  },
+  "exact_native_yuv_frame_checks": [
+    0,
+    449,
+    450,
+    552,
+    899,
+    900,
+    1296,
+    1349,
+    1350,
+    1799
+  ],
+  "assistant_continuous_playback": false,
+  "new_commit_or_push": false
+}

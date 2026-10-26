@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "duration_seconds": 7200,
+  "sample_frames_per_channel": 345600000,
+  "source_hashes_unchanged": true,
+  "user_approved_transitions": true,
+  "join_count": 20,
+  "all_joins_and_repetitions_checked_in_lossless_sample_comparison": true,
+  "outputs": [
+    {
+      "file": "Illuminated-Horizon-and-Stillness-2-Hours-v1.flac",
+      "bytes": 1052153804,
+      "sha256": "e588d72bf0ffaa3c817ec7b16cf477acf4b3bf04bb590a8923888b517521aeb6",
+      "decoded_sample_frames": 345600000,
+      "decoded_seconds": 7200.0,
+      "all_samples_finite": true,
+      "no_full_scale_samples": true,
+      "sample_peak_dbfs": -8.160384323702774,
+      "rms_dbfs": -21.414433007422065,
+      "integrated_lufs": -20.2,
+      "true_peak_dbtp": -8.2,
+      "full_sample_recipe_comparison": {
+        "performed": true,
+        "maximum_absolute_error": 1.1897463991772383e-07,
+        "tolerance": 2.384185791015625e-07,
+        "note": "FLAC quantized to 24-bit; entire two-hour decoded stream compared with approved gain/crossfade recipe and one closing fade."
+      },
+      "validation_seconds": 17.973489999771118
+    },
+    {
+      "file": "Illuminated-Horizon-and-Stillness-2-Hours-v1.mp3",
+      "bytes": 288001964,
+      "sha256": "6d01afe112b8c5ef509adbe12bb27cd2d2f9ecff897af27c25c9a5a6dd748b68",
+      "decoded_sample_frames": 345600000,
+      "decoded_seconds": 7200.0,
+      "all_samples_finite": true,
+      "no_full_scale_samples": true,
+      "sample_peak_dbfs": -8.148542402536043,
+      "rms_dbfs": -21.41466888235383,
+      "integrated_lufs": -20.2,
+      "true_peak_dbtp": -8.1,
+      "full_sample_recipe_comparison": {
+        "performed": false,
+        "maximum_absolute_error": null,
+        "tolerance": null,
+        "note": "Lossy MP3: exact count, every decoded sample checked for finite values/peak; no waveform identity claim."
+      },
+      "validation_seconds": 22.936691761016846
+    }
+  ],
+  "assistant_scope": "Full technical decode/recipe/loudness verification, not listening. User accepted short joins and requested duration; full two-hour listening remains pending.",
+  "remote_backup": false
+}

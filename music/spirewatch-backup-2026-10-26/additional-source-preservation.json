@@ -1,0 +1,20 @@
+[
+  {
+    "source": "C:\\Users\\jazzs\\Downloads\\Open_Skyline_2026-10-25T225849.mp4",
+    "copy": "generated-sources/Open_Skyline_2026-10-25T225849.mp4",
+    "sha256": "e410925e094aaf5da0fe54e2cb029c6db2f0e4374f5e384e236cbbac3a3645f0",
+    "bytes": 766426
+  },
+  {
+    "source": "C:\\Users\\jazzs\\Downloads\\Nightfall_Across_Glass_2026-10-25T225849.mp4",
+    "copy": "generated-sources/Nightfall_Across_Glass_2026-10-25T225849.mp4",
+    "sha256": "b0460c3bdd0bdd6fd3f20607197094b9dcec7a7057f7d017ca4404f35ed3199f",
+    "bytes": 766847
+  },
+  {
+    "source": "C:\\Users\\jazzs\\Downloads\\TODO_-_Vast_Unfamiliar_World_2026-10-10T192538 (1).mp4",
+    "copy": "generated-sources/TODO_-_Vast_Unfamiliar_World_2026-10-10T192538 (1).mp4",
+    "sha256": "ff13a9de84cc31c08e306304bbbe19473252b98efa1607c8bd1394af3525ca20",
+    "bytes": 1497727
+  }
+]

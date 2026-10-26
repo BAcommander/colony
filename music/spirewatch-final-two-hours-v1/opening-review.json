@@ -1,0 +1,12 @@
+{
+  "path": "G:\\AI\\colony\\music\\spirewatch-final-two-hours-v1\\Spirewatch-opening-review-25s-4K.mp4",
+  "sha256": "be50c042a6f136aada7e7f9d0d26a2d2b129081f1f29e91beb8c8beb9a4434aa",
+  "seconds": 25,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "same_cached_opening_as_final": true,
+  "same_intro_audio_graph": true,
+  "colony_full_decode_passed": true
+}

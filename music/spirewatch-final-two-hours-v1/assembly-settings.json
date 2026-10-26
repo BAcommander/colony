@@ -1,0 +1,112 @@
+{
+  "tool": "Actual Colony renderer preserved with intro v3",
+  "renderer_path": "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\render.py",
+  "renderer_sha256": "30250ca1801eccb2ec89da507d277f5028be0dcfed97a1bc8194199e1d5d28e1",
+  "intro_verified_files": {
+    "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\intro.py": "a38a64b021730c9878dcb7605c1b9354a18bc943aa77e2b65ea08182bca05440",
+    "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\render.py": "30250ca1801eccb2ec89da507d277f5028be0dcfed97a1bc8194199e1d5d28e1",
+    "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\gui.py": "791cd4dc48d8a0932956a4d13672d75d2a6691fec0311f3beb71584a78565929",
+    "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\Colony.spec": "0b906c7e0c079c28f9a6631272d561d0596c188ea1e641117cc32157919c0339",
+    "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\README.md": "ad9fd4b8f4333e24894bf5c06e15a08c4db6c50a81ba03f07a0281604439dcfc",
+    "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\AGENTS.md": "2f497ae97b665b356aecd2b915de31c8049656e6bbeb6d8052ba51da073d6ddd",
+    "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\tests\\test_colony_intro.py": "0058e73959236a58437b74215e42c1119e4bd78a5fd12e18d83562bb77684781",
+    "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\assets\\fonts\\BarlowCondensed-Regular.ttf": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996",
+    "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\assets\\fonts\\BarlowCondensed-SemiBold.ttf": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9",
+    "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\assets\\fonts\\OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+  },
+  "dependencies": {
+    "C:\\dev\\SpeedySlideShow\\app\\exporter.py": "9557dfda9cf92007dc391f518b86c106f9ab0592456751da61a37b000098af8b",
+    "C:\\dev\\SpeedySlideShow\\colony\\sfx.py": "77b1ef42687d6c61e623de7b33284e140f448f2d280c8285eaa5b66f9dddb025"
+  },
+  "local_installed_renderer_sha256": "297c13d8f92a978f528d068da08da10a18f5f4dabdcd189aeae21471a5440762",
+  "reason_for_snapshot": "Installed local source/executable predates the recorded intro release. Use verified v3 snapshot via package search path, retaining existing exporter/SFX dependencies. No installed tool file is modified.",
+  "video": {
+    "path": "G:\\AI\\colony\\music\\spirewatch-animation-v8\\delivery-4k-v1\\Spirewatch-v8-60s-4K-loop.mp4",
+    "sha256": "c5bc500c98532d1d53229b17fd699c05f737a4809ee5b1dd87cc2393eb5b225f",
+    "native_source_dimensions": [
+      1672,
+      941
+    ],
+    "output_dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "unit_seconds": 60
+  },
+  "audio": {
+    "path": "G:\\AI\\colony\\exports\\spirewatch\\Illuminated-Horizon-and-Stillness-2-Hours-v1.flac",
+    "sha256": "e588d72bf0ffaa3c817ec7b16cf477acf4b3bf04bb590a8923888b517521aeb6",
+    "seconds": 7200,
+    "gain_db": 0,
+    "match_loudness": false,
+    "crossfade": 0,
+    "sfx": null,
+    "closing_fade": "Existing soundtrack twenty-second closing fade retained"
+  },
+  "opening": {
+    "title": "Spirewatch",
+    "fade_audio": true,
+    "version": 3,
+    "duration_s": 22.0,
+    "channel": "AMBIENT COLONY",
+    "tagline": "Stay a while and listen",
+    "brand_s": [
+      2,
+      3.2,
+      8,
+      9
+    ],
+    "presents_s": [
+      4.8,
+      5.8,
+      8,
+      9
+    ],
+    "title_s": [
+      10,
+      11,
+      14,
+      15
+    ],
+    "tagline_s": [
+      12,
+      13,
+      20,
+      21.5
+    ],
+    "presents": "PRESENTS",
+    "presents_center_y_fraction": 0.525,
+    "tagline_center_y_fraction": 0.89,
+    "channel_font_height_fraction": 0.077,
+    "title_font_height_fraction": 0.165,
+    "underline_width_height_fraction": 0.22,
+    "black_overlay_opacity": 0.88,
+    "scene_reveal_s": [
+      10,
+      20
+    ],
+    "audio_fade_s": [
+      5,
+      20
+    ],
+    "font_sha256": {
+      "BarlowCondensed-Regular.ttf": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996",
+      "BarlowCondensed-SemiBold.ttf": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9"
+    },
+    "renderer_sha256": "a38a64b021730c9878dcb7605c1b9354a18bc943aa77e2b65ea08182bca05440"
+  },
+  "opening_encoder": {
+    "crf": 0,
+    "preset": "veryfast",
+    "b_frames": 0,
+    "pixel_format": "yuv420p",
+    "color": "BT.709 TV"
+  },
+  "clean_units": "Original master stream-copied; source phase unchanged",
+  "output": "G:\\AI\\colony\\exports\\spirewatch\\Spirewatch-2-Hours-4K-v1.mp4",
+  "expected_frames": 216000,
+  "expected_seconds": 7200,
+  "ffmpeg": "C:\\Users\\jazzs\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.EXE",
+  "ffmpeg_version": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+}

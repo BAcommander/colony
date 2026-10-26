@@ -1,0 +1,23 @@
+{
+  "source": "C:\\Users\\jazzs\\Downloads\\TODO_-_Vast_Unfamiliar_World_2026-10-10T192538 (1).mp4",
+  "source_sha256": "ff13a9de84cc31c08e306304bbbe19473252b98efa1607c8bd1394af3525ca20",
+  "requested_interval_seconds": [
+    24,
+    29
+  ],
+  "output": "Vast-Unfamiliar-World-reference-00m24s-to-00m29s.wav",
+  "output_sha256": "f655d7e7e3cfe47b8f3d40757f188b4a9fcdebdd8c10ee5dc90f5ccf0d77e6a2",
+  "duration_seconds": 5,
+  "audio": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_width_bytes": 3,
+    "sample_frames": 240000
+  },
+  "exact_decoded_source_segment_pcm24": true,
+  "processing": "Decode AAC, select 24.000 <= t < 29.000 seconds, encode 24-bit PCM. No gain, fades, looping, stretching or resampling. Original unchanged.",
+  "selection": "User identifies this interval as the slower candidate. No assistant listening or musical acceptance claimed.",
+  "next_generation": "Manual 30-second instrumental trial with only this excerpt as reference. Influence is an untested choice, not measured optimum. No credits spent or generation submitted.",
+  "reference_docs": "https://elevenlabs.io/docs/help-center/product/core-capabilities/music/what-is-audio-reference",
+  "short_upload_caveat": "Current documentation does not establish a five-second minimum; a separate official References announcement states 10-second minimum. Try exact excerpt if uploader accepts it; do not include unwanted neighbouring music to meet a limit."
+}

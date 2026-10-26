@@ -1,0 +1,88 @@
+{
+  "source_user_path": "C:\\Users\\jazzs\\Downloads\\Illuminated_Stillness_2026-10-25T232654.mp4",
+  "source_preserved_copy": "source-original.mp4",
+  "source_sha256": "269bb7e2a8071821d0322bf2c6c4107d0a354be303a6b3584f0a274f75dc647d",
+  "original_sha256": "a60986de41c0cd5418ad9dd56bdbf442ac01b8a284dd6f9b8a6c2930e39443db",
+  "audio_seconds": 30,
+  "container_seconds": 34.4,
+  "user_feedback": "this has potential",
+  "artistic_status": "Promising B candidate, not final music or transition approval",
+  "candidate_interior_recurrence": [
+    {
+      "lag_seconds": 0.29,
+      "correlation": 0.3117
+    },
+    {
+      "lag_seconds": 0.31,
+      "correlation": 0.2768
+    },
+    {
+      "lag_seconds": 0.4,
+      "correlation": 0.114
+    }
+  ],
+  "original_middle_recurrence": [
+    {
+      "lag_seconds": 1.5,
+      "correlation": 0.6173
+    },
+    {
+      "lag_seconds": 0.75,
+      "correlation": 0.5644
+    },
+    {
+      "lag_seconds": 1.31,
+      "correlation": 0.1356
+    }
+  ],
+  "limits": "Envelope repetition does not identify instruments or establish perceptual beatlessness. Assistant has not listened. Harmonic fit/transition quality are for user audition.",
+  "audition": {
+    "path": "Horizon-Stillness-Horizon-transition-audition-54s.mp3",
+    "sha256": "a0f71d35d1af67987c67fa1a4e929185ceee1ab388880b3aadc406c7edf0e4fb",
+    "seconds": 54,
+    "decoded_samples_per_channel": 2592000,
+    "decoded_peak_dbfs": -7.329798820801936,
+    "fixed_a_gain_db": -6.904548879280467,
+    "fixed_b_gain_db": -7.191471550803287,
+    "shared_headroom_gain_db": 0.0,
+    "matching": "Both bodies matched by one fixed RMS gain each to -21 dBFS; not perceptual loudness certification. No stretching, pitch shifting, EQ or separation.",
+    "timeline": [
+      {
+        "seconds": [
+          0,
+          12
+        ],
+        "audio": "Original Horizon 8:10\u20138:22"
+      },
+      {
+        "seconds": [
+          12,
+          20
+        ],
+        "audio": "8-second equal-power Horizon tail \u2192 Stillness start"
+      },
+      {
+        "seconds": [
+          20,
+          34
+        ],
+        "audio": "Stillness 0:08\u20130:22"
+      },
+      {
+        "seconds": [
+          34,
+          42
+        ],
+        "audio": "8-second equal-power Stillness ending \u2192 Horizon opening"
+      },
+      {
+        "seconds": [
+          42,
+          54
+        ],
+        "audio": "Horizon 0:08\u20130:20"
+      }
+    ]
+  },
+  "generation": "No paid generation or long extension submitted. No commit/push requested."
+}

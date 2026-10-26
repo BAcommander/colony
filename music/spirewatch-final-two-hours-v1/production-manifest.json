@@ -1,0 +1,138 @@
+{
+  "final_video": {
+    "path": "G:\\AI\\colony\\exports\\spirewatch\\Spirewatch-2-Hours-4K-v1.mp4",
+    "bytes": 72432193092,
+    "sha256": "027bf487ded435b6899db004e589bf0f6b3432693a2a13f930a1c3aec96a7705"
+  },
+  "settings": "assembly-settings.json",
+  "checks": "delivery-validation.json",
+  "records": {
+    "assemble_with_colony.py": {
+      "bytes": 5882,
+      "sha256": "1772946702a9d676f12e554bd8438b5a04484c5aeecc6ebf628ce10a2c0f2cf7"
+    },
+    "assembly-progress.json": {
+      "bytes": 165,
+      "sha256": "745e6f5b3389ac4681dda16b1c37b7ff6200398604dd14234ade4aeb5acc5fb9"
+    },
+    "assembly-result.json": {
+      "bytes": 1024,
+      "sha256": "aa0339d3c829f068b384d476a48b0bb561bec47e1ad8b235abe06311bbe98978"
+    },
+    "assembly-settings.json": {
+      "bytes": 5110,
+      "sha256": "98178f7867e9d2217369dc2f9a9a7e1a64173e18089ad3bd6fa7bba7627f17b0"
+    },
+    "audio-validation.json": {
+      "bytes": 3316,
+      "sha256": "0302bc81bfd6748db10f6892913e3fc8bdccced5d208f5a1e03d22924ce532b8"
+    },
+    "colony-export.json": {
+      "bytes": 3288,
+      "sha256": "e074f5f2288af8a2b3486e1607c76134ea9d7482a0ac069820cd4c5c6d3e0d44"
+    },
+    "container-hash.json": {
+      "bytes": 258,
+      "sha256": "00c0dcb780f8f2a82d2a3b85f8dde9a497f2a4b72470012f895b335438672761"
+    },
+    "delivery-validation.json": {
+      "bytes": 991,
+      "sha256": "6812f804b1fae22175504b6063f587a76f01c2ea6fbf39b686c0ce3589913abd"
+    },
+    "make_opening_review.py": {
+      "bytes": 944,
+      "sha256": "c213f5c5842d00cdb462d4bc536059947b687825b45f859f22bc4a5ca41fad6c"
+    },
+    "opening-01.png": {
+      "bytes": 470945,
+      "sha256": "b38e0194d2ab23158f8ad0b1142580f427aac8c6bf2c98b523cf36550586eae3"
+    },
+    "opening-02.png": {
+      "bytes": 491482,
+      "sha256": "9bdba0ebae3c70ae5f836b80fa87ebf1230af40f8998b3acf109aec6a35b6450"
+    },
+    "opening-03.png": {
+      "bytes": 888675,
+      "sha256": "489b638fc59e7518cf2cc0b51778e0ad0d035f15b9458fd5a49b867e3b4078fa"
+    },
+    "opening-04.png": {
+      "bytes": 1121765,
+      "sha256": "9dad6c943f737e79b562a07c67d1ba48659c37f7d695818adaec1acb5f880189"
+    },
+    "opening-05.png": {
+      "bytes": 1275705,
+      "sha256": "67e24df0948434b2eb7aa34a2fcbf539e6fc248877ae85447e1756837eba7f0e"
+    },
+    "opening-06.png": {
+      "bytes": 1300045,
+      "sha256": "1cb3a47c7ce2c9e89defb002983e4dec5ca53153ee3de5947a6cbcb65ed68904"
+    },
+    "opening-cache-brand.png": {
+      "bytes": 477820,
+      "sha256": "fd52b15e67a8b998b595c468bd956d6012e2491dd2e36cbdc87caa45c4d6032b"
+    },
+    "opening-cache-title.png": {
+      "bytes": 864693,
+      "sha256": "ed0a7ddf7a2c8be15cd40f583d4264b8ff33c8798decd0e62f21e286cb244ec0"
+    },
+    "opening-contact-sheet.jpg": {
+      "bytes": 430358,
+      "sha256": "0f589d234799575aec37a330c8d9ced81c8ca32061e0d9412dce0405262bee98"
+    },
+    "opening-review.json": {
+      "bytes": 369,
+      "sha256": "7931156c7089ca8097c40ac51b4ba2865c2548be1767f0e5e1623c6bebf7da49"
+    },
+    "project-status-update.json": {
+      "bytes": 2129,
+      "sha256": "611e9baad239264f40a54a5cf0fc1b7995a06b584c337d0af9c74a3ee8e9e332"
+    },
+    "README.md": {
+      "bytes": 3287,
+      "sha256": "46cc8d5b63fb29c086c63106af23c7808eef09b8f49809b57dd199f30bfe8a66"
+    },
+    "record_delivery.py": {
+      "bytes": 13112,
+      "sha256": "37748e8f7edf3beaeb876c453eb8c778a77ff8b3dc50918dea68a0612ec00a60"
+    },
+    "Spirewatch-opening-review-25s-4K.export.json": {
+      "bytes": 3299,
+      "sha256": "fb6adb2aba025ece91d278d0402437839dcdb7f3b6dd616f8d7d64c939f35849"
+    },
+    "Spirewatch-opening-review-25s-4K.mp4": {
+      "bytes": 295533034,
+      "sha256": "be50c042a6f136aada7e7f9d0d26a2d2b129081f1f29e91beb8c8beb9a4434aa"
+    },
+    "tool-source-snapshot-manifest.json": {
+      "bytes": 1693,
+      "sha256": "4074aa3c9aa305f3fc54bf0a3d27822ccd74f34c4de3ae575925dde7d8ea6e9e"
+    },
+    "verify_final.py": {
+      "bytes": 10370,
+      "sha256": "b24f6aea2b97c94d230467e9940a3e598df777bdcb6f702fde6f2427346b084a"
+    },
+    "video-validation.json": {
+      "bytes": 4400,
+      "sha256": "7f3a2fe12b8337d0979e94b8306b2105ab309fff14f40ef3e193cba5bbfb4a8f"
+    },
+    "visual-review.json": {
+      "bytes": 513,
+      "sha256": "43c6f4ea7c475f8dba835e026ce706a2fa320aa2d5bbc70e402e79211036237b"
+    }
+  },
+  "assistant_visual_inspection": {
+    "stills": "opening-contact-sheet.jpg",
+    "times_seconds": [
+      1,
+      6,
+      13,
+      16,
+      19,
+      23
+    ],
+    "inspection": "Assistant inspected all six final decoded temporal stills in the contact sheet: dark opening, channel/logo/PRESENTS, SPIREWATCH with lower tagline, held tagline at16/19s and clean23s scene. Continuous playback not claimed.",
+    "source_phase": "Source loop starts at phase zero and repeats every sixty seconds; opening adds no runtime",
+    "assistant_inspected": true
+  },
+  "remote_backup": false
+}

@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "output": "G:\\AI\\colony\\exports\\spirewatch\\Spirewatch-2-Hours-4K-v1.mp4",
+  "bytes": 72432193092,
+  "sha256": "027bf487ded435b6899db004e589bf0f6b3432693a2a13f930a1c3aec96a7705",
+  "duration_seconds": 7200,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "frames": 216000,
+  "native_source_dimensions": [
+    1672,
+    941
+  ],
+  "upscale": "Previously verified native-to-4K Lanczos master, unchanged in assembly",
+  "colony_full_video_audio_decode": true,
+  "video_validation": "video-validation.json",
+  "audio_validation": "audio-validation.json",
+  "opening": "Actual Colony v3, public title Spirewatch, once; pictures clear by 22s; sound silence to5/fade to20",
+  "source_hashes_unchanged": true,
+  "clean_loop_payloads_identical": 119,
+  "full_combined_user_review": "pending",
+  "assistant_inspection": "Decoded temporal stills, technical checks; not continuous playback or full listening",
+  "remote_backup": false
+}

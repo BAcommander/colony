@@ -1,0 +1,82 @@
+{
+  "status": "verified two-hour local audio delivery",
+  "source_recipe": "mix-recipe.json",
+  "verification": "delivery-validation.json",
+  "media": [
+    {
+      "path": "G:\\AI\\colony\\exports\\spirewatch\\Illuminated-Horizon-and-Stillness-2-Hours-v1.flac",
+      "bytes": 1052153804,
+      "sha256": "e588d72bf0ffaa3c817ec7b16cf477acf4b3bf04bb590a8923888b517521aeb6"
+    },
+    {
+      "path": "G:\\AI\\colony\\exports\\spirewatch\\Illuminated-Horizon-and-Stillness-2-Hours-v1.mp3",
+      "bytes": 288001964,
+      "sha256": "6d01afe112b8c5ef509adbe12bb27cd2d2f9ecff897af27c25c9a5a6dd748b68"
+    }
+  ],
+  "records": {
+    "build_two_hours.py": {
+      "bytes": 7085,
+      "sha256": "e8b0ce0883635c3be87a16018ed0bf9607844f2f99f042f8006ff0a60cae73a9"
+    },
+    "delivery-paths.json": {
+      "bytes": 641,
+      "sha256": "87fd772d1a73f0d1b9888ef7bd0e7143f4349904fc89da1865b612137399678e"
+    },
+    "delivery-validation.json": {
+      "bytes": 2190,
+      "sha256": "c57ee994d44aec50f8c5ef3414d29dc5e993818256fe66739149c47b33cff787"
+    },
+    "encode-result.json": {
+      "bytes": 617,
+      "sha256": "16c2715e6392dcba32d94a5c7bb08ea4d1826ad3087812f137b53b1487e9e09b"
+    },
+    "encode.log": {
+      "bytes": 72,
+      "sha256": "e6ae80155aa490569deb106f4768526cd0a152d6537533081bf8bf5ac1cb4fcd"
+    },
+    "finalize_delivery.py": {
+      "bytes": 6597,
+      "sha256": "8fbfa64e4d6dfee09713b2edf43ecb32260413ba24583c3dc920958efd0b593f"
+    },
+    "flac-decode-loudness.log": {
+      "bytes": 1162,
+      "sha256": "3180d1b09063fde054b7c00a5a2d034baa66081411d6dd3ac40c8956a528c8e2"
+    },
+    "mix-recipe.json": {
+      "bytes": 8616,
+      "sha256": "f34700774f6d86e84ef3b5229d170f1e7a2eb7a4d823ae62fd8c3e1d7b640662"
+    },
+    "mp3-decode-loudness.log": {
+      "bytes": 1238,
+      "sha256": "4139b3634adf1ffd47d834917dbb497a6177c2e125ad361ad9fccd6439692252"
+    },
+    "project-status-update.json": {
+      "bytes": 6011,
+      "sha256": "b3fd65d0f2892a8b48d42d2ed51fe26820f89fec092a79dd066013565713a006"
+    },
+    "README.md": {
+      "bytes": 2597,
+      "sha256": "aa2563623cfc4a5952480cdb99ce78c4c511a483d54198aa9fe18b402f57766f"
+    },
+    "track-timeline.tsv": {
+      "bytes": 666,
+      "sha256": "867880af024476e751e2f7099a3d7d028792a5e2bcdb0b62550a27ec85b436ba"
+    },
+    "validation-progress.json": {
+      "bytes": 1613,
+      "sha256": "1538b0e6411fb6a51c2be78af7cd29c1b860a903052e8b3cf8e6711abda6246b"
+    },
+    "verify_delivery.py": {
+      "bytes": 3623,
+      "sha256": "fd6880a0c5b7c276837ec33c8323044524c882a1f8ca0c716358603d125945cb"
+    }
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.4.4",
+    "ffmpeg": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "approval_scope": "User accepted both short joins and requested two hours; full-length listening/video assembly separate.",
+  "remote_backup": false
+}

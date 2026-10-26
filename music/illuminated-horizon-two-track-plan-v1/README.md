@@ -1,0 +1,9 @@
+# Illuminated Horizon — separate companion-track plan
+
+The user reports the short slow-phrase reference attempt also does not work and proposes creating a separate track for the TRON piece, switching between two tracks. This plan treats original Illuminated Horizon (8:30 audio) as track A and a newly composed calm companion as B. The reference-source TODO / Vast Unfamiliar World is a different track, not the primary TRON master. No new generation, spend, audio alteration, join or assembly is performed here.
+
+Generate a standalone 30-second instrumental B audition, one variant, with no audio reference. The new musical brief asks for a composed calm piece with developing harmony, expressive legato phrases and sustained bass. Evaluate the actual output before requesting a longer B. A 3–5-minute development is a possible later duration, subject to user preference and budget. Do not promise exact sound/key matching or a beatless result.
+
+For the final video, use substantial A/B passages rather than swapping short samples. A → B → A gives an energy arc. Signal analysis of the original can find lower-energy exit/entry candidates and recurring note/envelope patterns; it cannot approve musical phrase boundaries or perceptual quality. Once B exists, compare its harmony and phrase lengths with A and prepare short level-matched auditions of both directions. An 8–16-second crossfade is a trial range, not a fixed optimum. A quiet handover may work better than overlapping conflicting bass or melodies; do not assume a long crossfade fixes incompatible keys. Preserve unprocessed originals. No stretching or pitch shift is presumed or required by this plan.
+
+See original-transition-analysis.json for source-specific energy/recurrence candidates. Assistant performs signal analysis, not listening. Both transition directions need listening review before long-form assembly. No commit/push requested for these new experiments.

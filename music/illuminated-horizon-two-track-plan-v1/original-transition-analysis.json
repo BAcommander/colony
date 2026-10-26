@@ -1,0 +1,100 @@
+{
+  "source": "G:\\AI\\colony\\music\\illuminated-horizon-slow-middle-v1\\source-original.mp4",
+  "source_sha256": "a60986de41c0cd5418ad9dd56bdbf442ac01b8a284dd6f9b8a6c2930e39443db",
+  "decoded_audio_seconds": 510.0,
+  "source_unchanged": true,
+  "recurrence_windows": [
+    {
+      "start": 15,
+      "duration": 45,
+      "rms_dbfs": -11.150838819335329,
+      "recurrence": [
+        {
+          "lag_seconds": 1.5,
+          "correlation": 0.6627259790294299
+        },
+        {
+          "lag_seconds": 0.75,
+          "correlation": 0.5952530144235105
+        },
+        {
+          "lag_seconds": 1.31,
+          "correlation": 0.14091697246543552
+        }
+      ]
+    },
+    {
+      "start": 225,
+      "duration": 45,
+      "rms_dbfs": -11.593468076305244,
+      "recurrence": [
+        {
+          "lag_seconds": 1.5,
+          "correlation": 0.6428016911710253
+        },
+        {
+          "lag_seconds": 0.75,
+          "correlation": 0.5977246906292715
+        },
+        {
+          "lag_seconds": 0.37,
+          "correlation": 0.13190843208756148
+        }
+      ]
+    },
+    {
+      "start": 435,
+      "duration": 45,
+      "rms_dbfs": -11.3262285352101,
+      "recurrence": [
+        {
+          "lag_seconds": 1.5,
+          "correlation": 0.6788898448595001
+        },
+        {
+          "lag_seconds": 0.75,
+          "correlation": 0.6116393311673878
+        },
+        {
+          "lag_seconds": 1.31,
+          "correlation": 0.1708952090906639
+        }
+      ]
+    }
+  ],
+  "local_energy_candidate_windows": [
+    {
+      "start_seconds": 32.0,
+      "four_second_rms_dbfs": -12.016841394254794,
+      "relative_to_28s_neighbourhood_db": -0.8952598513320954
+    },
+    {
+      "start_seconds": 116.0,
+      "four_second_rms_dbfs": -12.181711121519726,
+      "relative_to_28s_neighbourhood_db": -0.7539644518030282
+    },
+    {
+      "start_seconds": 308.0,
+      "four_second_rms_dbfs": -12.136800526097355,
+      "relative_to_28s_neighbourhood_db": -0.7727261328609297
+    },
+    {
+      "start_seconds": 332.0,
+      "four_second_rms_dbfs": -12.22670143343635,
+      "relative_to_28s_neighbourhood_db": -0.7690515703252025
+    },
+    {
+      "start_seconds": 385.0,
+      "four_second_rms_dbfs": -12.341750408167515,
+      "relative_to_28s_neighbourhood_db": -0.8572344732213548
+    },
+    {
+      "start_seconds": 476.0,
+      "four_second_rms_dbfs": -12.16063556034726,
+      "relative_to_28s_neighbourhood_db": -0.7839904584988145
+    }
+  ],
+  "last_ten_seconds_rms_dbfs": -16.02659746182579,
+  "last_one_second_rms_dbfs": -72.79358627432474,
+  "interpretation_limits": "Signal review only. Low-energy windows are audition candidates, not verified phrase/harmonic boundaries. No reliable key or precise musical BPM claimed. A second track has not been supplied, so compatible harmony, overlap and smoothness cannot yet be verified. No source processing or generation performed."
+}

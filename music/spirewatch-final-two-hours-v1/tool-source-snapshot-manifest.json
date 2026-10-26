@@ -1,0 +1,20 @@
+{
+  "sources": {
+    "colony/intro.py": "a38a64b021730c9878dcb7605c1b9354a18bc943aa77e2b65ea08182bca05440",
+    "colony/render.py": "30250ca1801eccb2ec89da507d277f5028be0dcfed97a1bc8194199e1d5d28e1",
+    "colony/gui.py": "791cd4dc48d8a0932956a4d13672d75d2a6691fec0311f3beb71584a78565929",
+    "colony/Colony.spec": "0b906c7e0c079c28f9a6631272d561d0596c188ea1e641117cc32157919c0339",
+    "colony/README.md": "ad9fd4b8f4333e24894bf5c06e15a08c4db6c50a81ba03f07a0281604439dcfc",
+    "colony/AGENTS.md": "2f497ae97b665b356aecd2b915de31c8049656e6bbeb6d8052ba51da073d6ddd",
+    "tests/test_colony_intro.py": "0058e73959236a58437b74215e42c1119e4bd78a5fd12e18d83562bb77684781",
+    "colony/assets/fonts/BarlowCondensed-Regular.ttf": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996",
+    "colony/assets/fonts/BarlowCondensed-SemiBold.ttf": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9",
+    "colony/assets/fonts/OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+    "app/exporter.py": "9557dfda9cf92007dc391f518b86c106f9ab0592456751da61a37b000098af8b",
+    "colony/sfx.py": "77b1ef42687d6c61e623de7b33284e140f448f2d280c8285eaa5b66f9dddb025",
+    "colony/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/__init__.py": "f64b682ac56a611252123f62efd20756ed2e7fec6791196fe3cc8b5885acf451",
+    "app/trims.py": "c6b5eebec3db3346637c66e99c487661e40140bb3b93c9f1d0d1d5cfba050020"
+  },
+  "scope": "Verified saved Colony v3 engine/fonts plus the recorded local exporter/SFX dependencies. Minimal package init/trims also retained for reproduction; no installed tool files modified."
+}

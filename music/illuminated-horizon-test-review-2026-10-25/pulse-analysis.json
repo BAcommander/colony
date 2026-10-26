@@ -1,0 +1,851 @@
+{
+  "method": "FFT band RMS envelope, 40ms windows/10ms hop; detrended autocorrelation. Recurrence supports rhythmic motion but does not identify an instrument or establish perceived beat. No listening performed.",
+  "files": [
+    {
+      "file": "C:\\Users\\jazzs\\Downloads\\Open_Skyline_2026-10-25T225849.mp4",
+      "sha256": "e410925e094aaf5da0fe54e2cb029c6db2f0e4374f5e384e236cbbac3a3645f0",
+      "decoded_audio_seconds": 30.0,
+      "bands": {
+        "bass": {
+          "interior_5_to_29s": {
+            "envelope_cv": 0.40380656452465913,
+            "repeated_envelope_lags": [
+              {
+                "seconds": 0.75,
+                "correlation": 0.97,
+                "twice_lag_correlation": 0.958
+              },
+              {
+                "seconds": 1.5,
+                "correlation": 0.958,
+                "twice_lag_correlation": 0.944
+              },
+              {
+                "seconds": 1.12,
+                "correlation": 0.305,
+                "twice_lag_correlation": 0.905
+              },
+              {
+                "seconds": 0.38,
+                "correlation": 0.304,
+                "twice_lag_correlation": 0.911
+              }
+            ]
+          },
+          "successive_8s": [
+            {
+              "envelope_cv": 0.340967537440197,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.97,
+                  "twice_lag_correlation": 0.956
+                },
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.956,
+                  "twice_lag_correlation": 0.952
+                },
+                {
+                  "seconds": 0.37,
+                  "correlation": 0.307,
+                  "twice_lag_correlation": 0.908
+                },
+                {
+                  "seconds": 1.12,
+                  "correlation": 0.304,
+                  "twice_lag_correlation": 0.912
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.35861124207221307,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.907,
+                  "twice_lag_correlation": 0.883
+                },
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.883,
+                  "twice_lag_correlation": 0.876
+                },
+                {
+                  "seconds": 1.12,
+                  "correlation": 0.301,
+                  "twice_lag_correlation": 0.829
+                },
+                {
+                  "seconds": 0.38,
+                  "correlation": 0.288,
+                  "twice_lag_correlation": 0.849
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.4469508004623445,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.995,
+                  "twice_lag_correlation": 0.982
+                },
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.994,
+                  "twice_lag_correlation": 0.995
+                },
+                {
+                  "seconds": 0.38,
+                  "correlation": 0.301,
+                  "twice_lag_correlation": 0.941
+                },
+                {
+                  "seconds": 1.13,
+                  "correlation": 0.294,
+                  "twice_lag_correlation": 0.945
+                }
+              ]
+            }
+          ]
+        },
+        "middle": {
+          "interior_5_to_29s": {
+            "envelope_cv": 0.4707430317931464,
+            "repeated_envelope_lags": [
+              {
+                "seconds": 0.75,
+                "correlation": 0.509,
+                "twice_lag_correlation": 0.445
+              },
+              {
+                "seconds": 1.5,
+                "correlation": 0.445,
+                "twice_lag_correlation": 0.568
+              },
+              {
+                "seconds": 0.38,
+                "correlation": 0.44,
+                "twice_lag_correlation": 0.404
+              },
+              {
+                "seconds": 1.13,
+                "correlation": 0.345,
+                "twice_lag_correlation": 0.339
+              }
+            ]
+          },
+          "successive_8s": [
+            {
+              "envelope_cv": 0.5590384772416052,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.615,
+                  "twice_lag_correlation": 0.535
+                },
+                {
+                  "seconds": 0.37,
+                  "correlation": 0.594,
+                  "twice_lag_correlation": 0.482
+                },
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.535,
+                  "twice_lag_correlation": 0.734
+                },
+                {
+                  "seconds": 1.13,
+                  "correlation": 0.409,
+                  "twice_lag_correlation": 0.441
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.29358890653989966,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.391,
+                  "twice_lag_correlation": 0.424
+                },
+                {
+                  "seconds": 0.37,
+                  "correlation": 0.363,
+                  "twice_lag_correlation": 0.25
+                },
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.348,
+                  "twice_lag_correlation": 0.391
+                },
+                {
+                  "seconds": 1.12,
+                  "correlation": 0.277,
+                  "twice_lag_correlation": 0.27
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.5182878337635195,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.391,
+                  "twice_lag_correlation": 0.293
+                },
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.293,
+                  "twice_lag_correlation": 0.374
+                },
+                {
+                  "seconds": 0.38,
+                  "correlation": 0.22,
+                  "twice_lag_correlation": 0.316
+                },
+                {
+                  "seconds": 0.56,
+                  "correlation": 0.195,
+                  "twice_lag_correlation": 0.174
+                }
+              ]
+            }
+          ]
+        },
+        "upper": {
+          "interior_5_to_29s": {
+            "envelope_cv": 0.951026390954906,
+            "repeated_envelope_lags": [
+              {
+                "seconds": 0.75,
+                "correlation": 0.614,
+                "twice_lag_correlation": 0.583
+              },
+              {
+                "seconds": 1.5,
+                "correlation": 0.583,
+                "twice_lag_correlation": 0.65
+              },
+              {
+                "seconds": 0.38,
+                "correlation": 0.437,
+                "twice_lag_correlation": 0.431
+              },
+              {
+                "seconds": 1.13,
+                "correlation": 0.372,
+                "twice_lag_correlation": 0.458
+              }
+            ]
+          },
+          "successive_8s": [
+            {
+              "envelope_cv": 1.0708514956571422,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.765,
+                  "twice_lag_correlation": 0.738
+                },
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.738,
+                  "twice_lag_correlation": 0.829
+                },
+                {
+                  "seconds": 0.37,
+                  "correlation": 0.539,
+                  "twice_lag_correlation": 0.553
+                },
+                {
+                  "seconds": 1.13,
+                  "correlation": 0.497,
+                  "twice_lag_correlation": 0.582
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.7411078229630628,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.392,
+                  "twice_lag_correlation": 0.296
+                },
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.296,
+                  "twice_lag_correlation": 0.379
+                },
+                {
+                  "seconds": 0.38,
+                  "correlation": 0.286,
+                  "twice_lag_correlation": 0.274
+                },
+                {
+                  "seconds": 0.56,
+                  "correlation": 0.233,
+                  "twice_lag_correlation": 0.156
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.7110395545466918,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.656,
+                  "twice_lag_correlation": 0.645
+                },
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.645,
+                  "twice_lag_correlation": 0.607
+                },
+                {
+                  "seconds": 0.38,
+                  "correlation": 0.513,
+                  "twice_lag_correlation": 0.453
+                },
+                {
+                  "seconds": 1.13,
+                  "correlation": 0.475,
+                  "twice_lag_correlation": 0.532
+                }
+              ]
+            }
+          ]
+        },
+        "broadband": {
+          "interior_5_to_29s": {
+            "envelope_cv": 0.3447389460187889,
+            "repeated_envelope_lags": [
+              {
+                "seconds": 0.75,
+                "correlation": 0.935,
+                "twice_lag_correlation": 0.914
+              },
+              {
+                "seconds": 1.5,
+                "correlation": 0.914,
+                "twice_lag_correlation": 0.909
+              },
+              {
+                "seconds": 1.12,
+                "correlation": 0.323,
+                "twice_lag_correlation": 0.851
+              },
+              {
+                "seconds": 0.38,
+                "correlation": 0.323,
+                "twice_lag_correlation": 0.868
+              }
+            ]
+          },
+          "successive_8s": [
+            {
+              "envelope_cv": 0.2972949092625384,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.942,
+                  "twice_lag_correlation": 0.923
+                },
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.923,
+                  "twice_lag_correlation": 0.935
+                },
+                {
+                  "seconds": 0.37,
+                  "correlation": 0.336,
+                  "twice_lag_correlation": 0.867
+                },
+                {
+                  "seconds": 1.12,
+                  "correlation": 0.324,
+                  "twice_lag_correlation": 0.872
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.28416945143483413,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.876,
+                  "twice_lag_correlation": 0.858
+                },
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.858,
+                  "twice_lag_correlation": 0.863
+                },
+                {
+                  "seconds": 1.12,
+                  "correlation": 0.343,
+                  "twice_lag_correlation": 0.803
+                },
+                {
+                  "seconds": 0.38,
+                  "correlation": 0.325,
+                  "twice_lag_correlation": 0.814
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.3976876417107864,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.945,
+                  "twice_lag_correlation": 0.935
+                },
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.939,
+                  "twice_lag_correlation": 0.945
+                },
+                {
+                  "seconds": 1.13,
+                  "correlation": 0.299,
+                  "twice_lag_correlation": 0.889
+                },
+                {
+                  "seconds": 0.38,
+                  "correlation": 0.296,
+                  "twice_lag_correlation": 0.887
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "C:\\Users\\jazzs\\Downloads\\Nightfall_Across_Glass_2026-10-25T225849.mp4",
+      "sha256": "b0460c3bdd0bdd6fd3f20607197094b9dcec7a7057f7d017ca4404f35ed3199f",
+      "decoded_audio_seconds": 30.0,
+      "bands": {
+        "bass": {
+          "interior_5_to_29s": {
+            "envelope_cv": 1.642912869049314,
+            "repeated_envelope_lags": [
+              {
+                "seconds": 0.75,
+                "correlation": 0.782,
+                "twice_lag_correlation": 0.738
+              },
+              {
+                "seconds": 1.5,
+                "correlation": 0.738,
+                "twice_lag_correlation": 0.58
+              },
+              {
+                "seconds": 0.37,
+                "correlation": 0.08,
+                "twice_lag_correlation": 0.714
+              },
+              {
+                "seconds": 1.12,
+                "correlation": 0.015,
+                "twice_lag_correlation": 0.612
+              }
+            ]
+          },
+          "successive_8s": [
+            {
+              "envelope_cv": 0.4920895170162792,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.854,
+                  "twice_lag_correlation": 0.811
+                },
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.832,
+                  "twice_lag_correlation": 0.854
+                },
+                {
+                  "seconds": 0.37,
+                  "correlation": 0.08,
+                  "twice_lag_correlation": 0.759
+                },
+                {
+                  "seconds": 1.12,
+                  "correlation": 0.019,
+                  "twice_lag_correlation": 0.769
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.6970111051564175,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 1.05,
+                  "correlation": 0.248,
+                  "twice_lag_correlation": 0.037
+                },
+                {
+                  "seconds": 1.03,
+                  "correlation": 0.213,
+                  "twice_lag_correlation": 0.078
+                },
+                {
+                  "seconds": 1.08,
+                  "correlation": 0.2,
+                  "twice_lag_correlation": -0.039
+                },
+                {
+                  "seconds": 1.01,
+                  "correlation": 0.198,
+                  "twice_lag_correlation": -0.078
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.579453858812669,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 0.78,
+                  "correlation": 0.113,
+                  "twice_lag_correlation": -0.007
+                },
+                {
+                  "seconds": 0.69,
+                  "correlation": 0.106,
+                  "twice_lag_correlation": -0.073
+                },
+                {
+                  "seconds": 1.12,
+                  "correlation": 0.099,
+                  "twice_lag_correlation": -0.041
+                },
+                {
+                  "seconds": 0.74,
+                  "correlation": 0.069,
+                  "twice_lag_correlation": 0.052
+                }
+              ]
+            }
+          ]
+        },
+        "middle": {
+          "interior_5_to_29s": {
+            "envelope_cv": 1.3025201047726351,
+            "repeated_envelope_lags": [
+              {
+                "seconds": 0.75,
+                "correlation": 0.586,
+                "twice_lag_correlation": 0.549
+              },
+              {
+                "seconds": 1.5,
+                "correlation": 0.549,
+                "twice_lag_correlation": 0.423
+              },
+              {
+                "seconds": 0.38,
+                "correlation": 0.525,
+                "twice_lag_correlation": 0.468
+              },
+              {
+                "seconds": 1.13,
+                "correlation": 0.467,
+                "twice_lag_correlation": 0.317
+              }
+            ]
+          },
+          "successive_8s": [
+            {
+              "envelope_cv": 0.5852430711892982,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.681,
+                  "twice_lag_correlation": 0.605
+                },
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.638,
+                  "twice_lag_correlation": 0.681
+                },
+                {
+                  "seconds": 1.13,
+                  "correlation": 0.554,
+                  "twice_lag_correlation": 0.418
+                },
+                {
+                  "seconds": 0.38,
+                  "correlation": 0.547,
+                  "twice_lag_correlation": 0.509
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.6085193523661413,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 0.43,
+                  "correlation": 0.17,
+                  "twice_lag_correlation": 0.048
+                },
+                {
+                  "seconds": 0.65,
+                  "correlation": 0.108,
+                  "twice_lag_correlation": -0.08
+                },
+                {
+                  "seconds": 0.85,
+                  "correlation": 0.051,
+                  "twice_lag_correlation": 0.004
+                },
+                {
+                  "seconds": 1.29,
+                  "correlation": -0.07,
+                  "twice_lag_correlation": -0.065
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.5996089149550304,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 1.09,
+                  "correlation": 0.165,
+                  "twice_lag_correlation": 0.109
+                },
+                {
+                  "seconds": 1.42,
+                  "correlation": 0.159,
+                  "twice_lag_correlation": 0.068
+                },
+                {
+                  "seconds": 1.36,
+                  "correlation": 0.137,
+                  "twice_lag_correlation": -0.085
+                },
+                {
+                  "seconds": 1.17,
+                  "correlation": 0.122,
+                  "twice_lag_correlation": -0.263
+                }
+              ]
+            }
+          ]
+        },
+        "upper": {
+          "interior_5_to_29s": {
+            "envelope_cv": 1.026883632021666,
+            "repeated_envelope_lags": [
+              {
+                "seconds": 0.75,
+                "correlation": 0.532,
+                "twice_lag_correlation": 0.518
+              },
+              {
+                "seconds": 1.5,
+                "correlation": 0.518,
+                "twice_lag_correlation": 0.404
+              },
+              {
+                "seconds": 0.38,
+                "correlation": 0.465,
+                "twice_lag_correlation": 0.387
+              },
+              {
+                "seconds": 1.13,
+                "correlation": 0.424,
+                "twice_lag_correlation": 0.313
+              }
+            ]
+          },
+          "successive_8s": [
+            {
+              "envelope_cv": 1.186779995997627,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.909,
+                  "twice_lag_correlation": 0.831
+                },
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.869,
+                  "twice_lag_correlation": 0.909
+                },
+                {
+                  "seconds": 0.38,
+                  "correlation": 0.747,
+                  "twice_lag_correlation": 0.633
+                },
+                {
+                  "seconds": 1.13,
+                  "correlation": 0.722,
+                  "twice_lag_correlation": 0.623
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.6079924167085724,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 0.65,
+                  "correlation": 0.085,
+                  "twice_lag_correlation": -0.087
+                },
+                {
+                  "seconds": 0.7,
+                  "correlation": 0.077,
+                  "twice_lag_correlation": -0.057
+                },
+                {
+                  "seconds": 1.18,
+                  "correlation": 0.06,
+                  "twice_lag_correlation": -0.025
+                },
+                {
+                  "seconds": 0.53,
+                  "correlation": 0.052,
+                  "twice_lag_correlation": 0.029
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.5645575564685938,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 1.09,
+                  "correlation": 0.113,
+                  "twice_lag_correlation": -0.035
+                },
+                {
+                  "seconds": 1.39,
+                  "correlation": 0.113,
+                  "twice_lag_correlation": -0.086
+                },
+                {
+                  "seconds": 0.54,
+                  "correlation": 0.092,
+                  "twice_lag_correlation": 0.093
+                },
+                {
+                  "seconds": 0.31,
+                  "correlation": 0.088,
+                  "twice_lag_correlation": -0.039
+                }
+              ]
+            }
+          ]
+        },
+        "broadband": {
+          "interior_5_to_29s": {
+            "envelope_cv": 1.3753820795643537,
+            "repeated_envelope_lags": [
+              {
+                "seconds": 0.75,
+                "correlation": 0.777,
+                "twice_lag_correlation": 0.707
+              },
+              {
+                "seconds": 1.5,
+                "correlation": 0.707,
+                "twice_lag_correlation": 0.565
+              },
+              {
+                "seconds": 0.37,
+                "correlation": 0.133,
+                "twice_lag_correlation": 0.712
+              },
+              {
+                "seconds": 1.12,
+                "correlation": 0.06,
+                "twice_lag_correlation": 0.577
+              }
+            ]
+          },
+          "successive_8s": [
+            {
+              "envelope_cv": 0.40738348076049025,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 1.5,
+                  "correlation": 0.837,
+                  "twice_lag_correlation": 0.789
+                },
+                {
+                  "seconds": 0.75,
+                  "correlation": 0.829,
+                  "twice_lag_correlation": 0.837
+                },
+                {
+                  "seconds": 0.37,
+                  "correlation": 0.13,
+                  "twice_lag_correlation": 0.757
+                },
+                {
+                  "seconds": 1.12,
+                  "correlation": 0.074,
+                  "twice_lag_correlation": 0.739
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.6047274122650177,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 0.43,
+                  "correlation": 0.166,
+                  "twice_lag_correlation": 0.048
+                },
+                {
+                  "seconds": 0.65,
+                  "correlation": 0.113,
+                  "twice_lag_correlation": -0.087
+                },
+                {
+                  "seconds": 0.85,
+                  "correlation": 0.053,
+                  "twice_lag_correlation": 0.0
+                },
+                {
+                  "seconds": 1.29,
+                  "correlation": -0.077,
+                  "twice_lag_correlation": -0.064
+                }
+              ]
+            },
+            {
+              "envelope_cv": 0.5573278507119779,
+              "repeated_envelope_lags": [
+                {
+                  "seconds": 1.09,
+                  "correlation": 0.238,
+                  "twice_lag_correlation": 0.085
+                },
+                {
+                  "seconds": 1.4,
+                  "correlation": 0.193,
+                  "twice_lag_correlation": -0.008
+                },
+                {
+                  "seconds": 1.36,
+                  "correlation": 0.179,
+                  "twice_lag_correlation": -0.068
+                },
+                {
+                  "seconds": 0.84,
+                  "correlation": 0.058,
+                  "twice_lag_correlation": -0.009
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

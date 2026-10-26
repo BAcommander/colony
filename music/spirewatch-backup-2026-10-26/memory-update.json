@@ -1,0 +1,24 @@
+[
+  {
+    "path": "AGENTS.md",
+    "before": "85f7cafa447de85248d18d5c03096b269a65e255caf8123eb8fcfe386c638cb9",
+    "after": "0bcd1267b7c31408d086e5b16b85c148ef98e259920f07aa9aef6f56751e4909",
+    "scope": "Only current Spirewatch/music backup request, plus scoped Music Workflow lesson"
+  },
+  {
+    "path": "PRODUCTION_PIPELINE.md",
+    "before": "3f89d1f24b429b3367795a79b83355cbe82297fe7fe1d2518cbe2a3ac9de57a1",
+    "after": "b7e608235ff8c1510f983b87a0c6ccb9e4e132b7b613ec96c81f32251716ca63",
+    "scope": "Only current Spirewatch/music backup request, plus scoped Music Workflow lesson"
+  },
+  {
+    "path": "creative/MUSIC_WORKFLOW.md",
+    "before": "ea4245afc9d2167f73da14fa342056362d748d23082c920977ce3c27939099d4",
+    "after": "b40b7d4c9c8152a31353880243aeedb11030ba7392453a9f1a1a53acb1ccc215",
+    "scope": "Only current Spirewatch/music backup request, plus scoped Music Workflow lesson"
+  },
+  {
+    "path": "creative\\ANIMATION_KNOWLEDGE_BANK.md",
+    "scope": "Appended only scoped Spirewatch checkpoint lesson"
+  }
+]
