@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Engine Room After Hours",
+  "influence": "Star Trek: The Original Series",
+  "headline": "A QUIET VOYAGE",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "1fda9a8102a7abddb9d945cb9652eb857c56a4c1d95b316b38e0f774548ec174",
+      "bytes": 2206616,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "d53b9adbc50500c21a17f490a6dbe65a969948a75fca89520aa01b1d0c7a1529",
+      "bytes": 2152024,
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "3f61ef8975edb60ef837b45daaaa0b1af0aa9499a5c3045404a28885e0e276ec",
+      "bytes": 332237,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "eefca24d172a6d853c57fb4f217e81a35b5e844f3bfab7e9423ec75e289db0d6",
+      "bytes": 1552
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "f88d439bb82f3174f339e6c70b9979829c0df84644b1cadfa8ca8e04ceb60898",
+      "bytes": 1182
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "TOS orange-red lattice power-channel motif, no TNG-style glowing blue warp core. Inspect lattice, ladder/rails and chair geometry. Actual machinery reads as caged orange power racks; lattice resembles fine wire mesh rather than exact original engineering depth motif. Refinement may be needed for TOS fidelity and realism.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

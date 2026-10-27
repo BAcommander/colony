@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "Shore Leave at the Survey Post",
+  "influence": "Star Trek: The Original Series",
+  "headline": "A STRANGE NEW WORLD",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "ff511dc03935aad70a98217799e948807c6b7d1a17950862ccb67a57e2e6702e",
+      "bytes": 2376629,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "52b4f1a673deb2dd92443b967c5b909ae525597cae8916228c7cb9fa6a9a70f7",
+      "bytes": 2302466,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "ad663c8f1e680ddd0b9e25d2cb86ada554aee7d1088b1593a4c0ec95d2ccb24b",
+      "bytes": 348822,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "1be6c8b0cd97ff07c442abace4d9f770086149561255af6ea9302da96ff348cb",
+      "bytes": 1574
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "92ab2cb3f74164e8fe34a15baa88d1f895ce42afd25ebaf452243e3e23ec7ea2",
+      "bytes": 1187
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Classic box-shuttle and midcentury pavilion should establish TOS rather than generic outpost. Inspect skids/nacelles, terrace supports and path. Actual shuttle has four short landing assemblies rather than a simple original-style skid arrangement; exterior is quiet pastel, thumbnail adds strong orange sunset. Inspect bridge/landing-pad supports.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

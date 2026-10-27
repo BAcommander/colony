@@ -166,5 +166,77 @@
     "source_influence": "The Matrix real world / Zion",
     "headline": "BENEATH THE MACHINE",
     "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "H1",
+    "title": "The Time Machine at Midnight",
+    "folder": "2026-10-27-retro-worlds/h1-workshop",
+    "source_influence": "Back to the Future",
+    "headline": "BACK BEFORE DAWN",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "H2",
+    "title": "One Minute Before the Storm",
+    "folder": "2026-10-27-retro-worlds/h2-clock-square",
+    "source_influence": "Back to the Future",
+    "headline": "ONE MORE MINUTE",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "H3",
+    "title": "Tomorrow Can Wait",
+    "folder": "2026-10-27-retro-worlds/h3-future-rooftop",
+    "source_influence": "Back to the Future Part II",
+    "headline": "TOMORROW CAN WAIT",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "I1",
+    "title": "The Last Curry in Deep Space",
+    "folder": "2026-10-27-retro-worlds/i1-bunkroom",
+    "source_influence": "Red Dwarf",
+    "headline": "THREE MILLION YEARS LATER",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "I2",
+    "title": "Starbug Between Adventures",
+    "folder": "2026-10-27-retro-worlds/i2-starbug-bay",
+    "source_influence": "Red Dwarf",
+    "headline": "PARKED FOR THE NIGHT",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "I3",
+    "title": "The Long Way Through Nothing",
+    "folder": "2026-10-27-retro-worlds/i3-mining-watch",
+    "source_influence": "Red Dwarf",
+    "headline": "A LONG WAY FROM HOME",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "J1",
+    "title": "The Quiet Watch on the Bridge",
+    "folder": "2026-10-27-retro-worlds/j1-tos-bridge",
+    "source_influence": "Star Trek: The Original Series",
+    "headline": "THE FINAL FRONTIER",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "J2",
+    "title": "The Engine Room After Hours",
+    "folder": "2026-10-27-retro-worlds/j2-tos-engineering",
+    "source_influence": "Star Trek: The Original Series",
+    "headline": "A QUIET VOYAGE",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "J3",
+    "title": "Shore Leave at the Survey Post",
+    "folder": "2026-10-27-retro-worlds/j3-tos-outpost",
+    "source_influence": "Star Trek: The Original Series",
+    "headline": "A STRANGE NEW WORLD",
+    "status": "candidate; individual user verdict pending"
   }
 ]

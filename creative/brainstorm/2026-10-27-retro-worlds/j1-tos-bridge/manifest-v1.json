@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Quiet Watch on the Bridge",
+  "influence": "Star Trek: The Original Series",
+  "headline": "THE FINAL FRONTIER",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "6a204e5ee42b10746f626911642b30367bd0a8a9bdd1c2b72c29bbf1162588f8",
+      "bytes": 1985757,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "117bd0d3e3e74bc65ce75a65d33b230e11c1da4b22f72762da780bd9f78c0027",
+      "bytes": 2051706,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "62173a6a326ab681e40293677515062f4cbe0ad3047fce8d7f82866cb9cef7e3",
+      "bytes": 283840,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "f798da6f88eca3b417d360ba1252ffe06b254fbbe833ce46550cce4e502daafe",
+      "bytes": 1566
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "892066803dca775bed3b79e482c1642f20e62742583bb0d53ef6865453d22427",
+      "bytes": 1186
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "TOS era: physical coloured buttons/red rails and forward viewscreen, not panoramic transparent windshield. Check central-chair scale and shallow floor level changes. Actual bridge is frontal/symmetrical rather than requested oblique; multiple small level changes and rail continuity need review. Clean set-like appearance may need photographic refinement.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

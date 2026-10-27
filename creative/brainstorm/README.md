@@ -1,9 +1,10 @@
 # Ambient Colony brainstorms
 
-Current collection: 2026-10-27. [Open the combined gallery](gallery.html): **21 clean/thumbnail pairs across seven influences**.
+Current collection: 2026-10-27. [Open the combined gallery](gallery.html): **30 clean/thumbnail pairs across ten influences**.
 
 - [Andor, Alien, Dune and The Expanse — twelve pairs](../concepts/four-worlds-2026-10-27/README.md). User says "a bunch of these look sick"; individual choices are not identified.
 - [Stargate, Battlestar Galactica and The Matrix — nine pairs](2026-10-27-three-worlds/README.md). New candidates; user review pending.
+- [Back to the Future (with DeLorean), Red Dwarf and Star Trek TOS — nine pairs](2026-10-27-retro-worlds/README.md). Latest set, H1–J3; user review pending.
 - [Brineward v1/v2 and geometry correction](../concepts/brineward-station/README.md).
 - [First three source-first studies](../concepts/source-first-2026-10-27/README.md). User found the IP atmosphere insufficient; preserve as learning history.
 - [Twelve revised scene briefs](../concepts/four-worlds-vibe-studies-2026-10-27.txt).
@@ -12,6 +13,6 @@ Current collection: 2026-10-27. [Open the combined gallery](gallery.html): **21 
 
 New artwork is stored here. Earlier images stay at their existing concept paths so saved links and provenance remain valid; the combined gallery links to those originals without duplicate media.
 
-Review IDs A1–G3 are brainstorming identifiers, not release/catalog numbers. Source influences are exploration context, not official affiliation or public title decisions. Exact prompts, source paths, hashes, dimensions and full-composition inspection concerns accompany the generated assets. Thumbnail text/light/colour/geometry can differ from clean scenes. No automatic approval, CTR result, animation/music or publication inferred.
+Review IDs A1–J3 are brainstorming identifiers, not release/catalog numbers. Source influences are exploration context, not official affiliation or public title decisions. Exact prompts, source paths, hashes, dimensions and full-composition inspection concerns accompany the generated assets. Thumbnail text/light/colour/geometry can differ from clean scenes. No automatic approval, CTR result, animation/music or publication inferred.
 
-The user explicitly requested committing this collection on 2026-10-27. This is a local Git records-and-artwork commit, not a push or remote backup. Rebuild the combined gallery with build_index.py; it verifies referenced image hashes and gallery-local link targets.
+The user explicitly requested committing the collection, then authorized committing and pushing all today's concepts on 2026-10-27. The earlier local checkpoint is 1cbff98; the latest retro set and records extend it. Push scope includes all generated artwork and thumbnails, not just text records. Check actual remote branch evidence before claiming push complete. Rebuild the combined gallery with build_index.py; it verifies referenced image hashes and gallery-local link targets.

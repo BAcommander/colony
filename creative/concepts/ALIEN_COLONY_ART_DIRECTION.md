@@ -58,6 +58,12 @@ Direct Moore interview supports buried windowless CIC; Matrix crew interview sup
 
 Actual deviations: E1 generated handled cup with ambiguous handle geometry and extra celestial objects; E3 left transit ring mostly open rather than full blue surface; F1 resembles a conventional fighter jet. Thumbnail generation continues to amplify warmth, skies and star density. Preserve these as review concerns, not invisible prompt successes. Assistant inspected all returned stills; fine geometry/user selection remain pending. Set-level positive feedback is not approval of every pair. User authorizes local Git commit of brainstorm artwork and records, not a push.
 
+### Retro-world identity and expanded backup (2026-10-27)
+
+User requests another three-by-three set: Back to the Future featuring its car, Red Dwarf and Star Trek TOS. [Nine new pairs](../brainstorm/2026-10-27-retro-worlds/README.md) join the [30-pair collection](../brainstorm/README.md). Keep source eras distinct: handmade equipment on stainless DeLorean; Red Dwarf off-white bunks/red industrial pipes and rounded Starbug; TOS clean midcentury colour blocks, physical controls, forward viewscreen and orange-red engineering rather than modern reboot styling. Source links in scene details support research; actual generated geometry/canon fidelity is not established by those sources.
+
+Assistant observed: H2 adds a DMC badge and mixes car equipment configurations; I3 is an approximate red mining hull; J1 becomes symmetrical; J2 lattice has cage/power-rack associations. The user has not reviewed these outputs. TOS's clean constructed-set feel is a deliberate era cue but may need further photographic material refinement. More dirt would erase that identity, not automatically improve realism. Existing thumbnail warmth/sunset drift persists and is recorded. User explicitly requests committing and pushing all today's concepts; backup authorization remains separate from visual acceptance.
+
 ## The central change
 
 Start with a place people need in order to live here, then make the unfamiliar environment shape that place. A colony is a network of homes, work, food, water, power and transport. It can be a small settlement or an established district; it need not be three identical pods pasted onto a horizon.

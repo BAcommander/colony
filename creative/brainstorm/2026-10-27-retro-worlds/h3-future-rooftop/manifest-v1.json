@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "Tomorrow Can Wait",
+  "influence": "Back to the Future Part II",
+  "headline": "TOMORROW CAN WAIT",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "0732e7e17236638d2c2ac0a60e5d6344c55265c0f6f90dbc1b1aac92f4409d4e",
+      "bytes": 2390752,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "b781b0119bcfc7f9c2d528adf5d6ec156525be88b1384ef2b9a34c721160f29d",
+      "bytes": 2360489,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "b378147cbbac723f794a3d949774de89ed28629989f0dc80b62580b026676ba1",
+      "bytes": 445778,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "40764980c7e17164eaddf4b33dcdba5d931294be1e75d206cdc123e192b75c65",
+      "bytes": 1491
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "6601aa6264e5440339a86430079c672adba3e88a9da4898027d88d11766d7bcc",
+      "bytes": 1185
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Inspect reactor appliance, wheel orientation, door supports and deck edge. Parked hero car with distant flying traffic is intentional; no motion generated. Actual output has wheel chocks and distant flying traffic; thumbnail adds stronger sunset and warm contrast. Inspect raised door side/hinge and car electronics.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}
