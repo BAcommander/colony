@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Water Vault Under the Ridge",
+  "influence": "Dune",
+  "headline": "WATER IS LIFE",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "8d2371d01c33ebd0b887d096e3385a7e35218818a706ac1e96192c77c2006c11",
+      "bytes": 2393121,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "1be7b483a4cce7561dca4998953147bd6b24a2e6b047935a133c7c704420c672",
+      "bytes": 2393961,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "6522d04e934bf15e21ab33e1a610c8800fcc3525e50afffae861c93b94e43a94",
+      "bytes": 326554,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "31084d95160bf65f0b2df94e97967d978745014c06fe5a0a04858fb812e7b923",
+      "bytes": 1198
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "35e0e1a79c51904c4ae8d574e63917c0e85b1920833d7865e6c41d92bd7b843a",
+      "bytes": 1181
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Quiet reservoir scale reads more like a historic cistern than overt sci-fi. Gallery water separation needs detail review.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Fleet at Rest",
+  "influence": "Battlestar Galactica (2004)",
+  "headline": "STILL TOGETHER",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "f526e7e1cc3df1fbdf77741e4601935ce544dc3210e6af96404857d9d57b53a1",
+      "bytes": 2160179,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "0da1bc57934a687a8a05461f97cfe66452a1f6b092a3ea4bfe846f08bdbf9ded",
+      "bytes": 2163013,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "a9d30918bb29f8340f64f8385e54ece035323c68faff84f39d14f82ae990deb3",
+      "bytes": 306636,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "770a2085f6f4fe7784b6cfb98709f8e8d216a219274c3d3b68fa91d3c2f29dcf",
+      "bytes": 1462
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "88abf1518494e45a7d0b6bf57a8228e0278a1a7fa89721bf3dccdb41efd44f7c",
+      "bytes": 1182
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Window is on a civilian transport, not CIC. Inspect fleet silhouette and fine window structure; gravitational premise fictional and not validated. Thumbnail enlarges warm highlights and star density; fine spacecraft forms unreviewed.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

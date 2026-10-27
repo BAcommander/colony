@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Rainline Safehouse",
+  "influence": "The Matrix (1999) simulation",
+  "headline": "WAIT FOR THE CALL",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "25798f0a26dfa948a445e5b873eea4bbf6e4480548cfb43b36f103ea5107cbd5",
+      "bytes": 1971272,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "2f2d4171da3cfe943a115fa986f139c2374fa7eb37a4b7556671cc229c7dff46",
+      "bytes": 1975629,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "b793b1a0a10cab90b56d3378d6d7ff429b129cdd64dc5cbade093ca421d53cdb",
+      "bytes": 288298,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "34376591fa7910ddf3c7189874efb29a00d209b4772e705c28392babe9af1824",
+      "bytes": 1483
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "fb04367391fadde98f982601a5a694c892b4def15690b7e0fcca65543c7bee11",
+      "bytes": 1185
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Simulation is deliberately terrestrial, not alien planet; green palette/grid hierarchy should establish influence. Check handset, cord, blinds and window. Phone and rain hierarchy present; image is deliberately an urban simulation rather than off-world scene.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

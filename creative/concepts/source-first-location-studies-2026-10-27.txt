@@ -1,0 +1,111 @@
+SOURCE-FIRST COLONY LOCATION STUDIES
+2026-10-27. Supersedes the previous location-to-franchise pairings as the current exploration method; earlier brainstorm preserved. Ten ungenerated proposals, not catalog releases or approved scenes.
+
+RESEARCH SCOPE
+Web research into production interviews, creator/studio material and official film records, including the images accompanying those pages where provided. This is not a full-film rewatch, frame-by-frame visual audit or originality clearance. Published production evidence is separated below from our interpretation and invented scene. Solaris means Tarkovsky's 1972 film, Dune means Villeneuve's films, and Alien means the 1979 film. No image references downloaded or passed to imagegen; no generation performed.
+
+METHOD
+Work/source evidence -> transferable design mechanism -> human need and environmental constraint -> new composition -> standalone generation brief -> review risk. New concepts are allowed to replace old functions entirely. The briefs translate influences into physical directions instead of relying on franchise names as prompt shorthand. All scenes belong to original alien colonies.
+
+01 / ANDOR -> THE SHIFT COURT
+Evidence: Luke Hull describes design arising from story/character; official world-building coverage shows different social and practical settings rather than one universal sci-fi look.
+Source: https://www.starwars.com/news/andor-season-2-world-building-production-design-feature
+Interpretation: make social infrastructure visible through connected ordinary spaces. This is broader than copying industrial grime.
+New scene: an enclosed public washhouse and shift canteen around a sheltered court in a wind-scoured escarpment town. Pipes, laundry drying behind glass and a late meal establish a whole life beyond the job.
+Generation brief: Clean 16:9 documentary-like photograph, eye level from beneath the court's covered entrance. Plain weathered masonry, one closed canteen door with a warm rectangular window, a bench and two practical drying cabinets behind sealed glazing. A continuous covered route leads to adjacent homes. Beyond a broad exterior opening, enormous blunt interlocking mineral terraces descend into pale grey-green atmospheric haze; near walls contain the same aggregate. Thick windbreak walls and enclosed links protect the court. Cool diffuse daylight, restrained warm dining-room illumination, dry sheltered paving, broad quiet surfaces, moderate natural perspective. No people, text, logos or decorative futuristic equipment. One human-scale court, not a whole-city panorama.
+Test/risk: can the place imply community without crowds or a pile of props? Trace all doors and routes.
+Do not reproduce: Ferrix streets, bell tower, insignia, named locations or exact material/layout combinations.
+
+02 / ALIEN -> THE FILTER CHANGE ROOM
+Evidence: Scott's production account emphasizes the art department constructing tangible sets; contemporary coverage describes distinct working and living decks of a commercial tug.
+Sources: https://theasc.com/article/the-filming-of-alien-directing/
+https://theasc.com/article/behind-the-scenes-of-alien/
+Interpretation: spaces become credible when their size, maintenance tasks and service connections are legible.
+New scene: a colony atmospheric scrubber's filter-change bay, beside a sealed view into a pale abrasive exterior.
+Generation brief: Clean widescreen photographic still from the dry maintenance landing of a small atmospheric plant. Two accessible replaceable filter housings along one wall, clearly routed ducts, a secured service cart and one folded work apron. A closed pressure door has a small upper inspection window; an adjacent broad sealed exterior window reveals a plain of massive irregular porous stone chimneys shedding fine pale mineral haze. Equipment is isolated from exterior dust. Human-scale painted steel, rubber seals, simple mechanical catches, cream overhead task light and cold diffuse exterior daylight. Keep ceiling and floor readable, controls sparse and functional, large plain wall sections. No creature, horror event, octagonal tunnel imitation, logos or text.
+Test/risk: make the maintenance operation recognizable, without filling every surface with pipes.
+Do not reproduce: Nostromo corridors, Weyland-Yutani marks, iconic consoles or biomechanical architecture.
+
+03 / TALES FROM THE LOOP -> THE FIELD EXCHANGE
+Evidence: director Mark Romanek discusses cohesive extrapolation, period architectural influences and an understated facility entrance in a direct interview.
+Source: https://www.architecturaldigest.com/story/tales-from-the-loop-simon-stalenhags-amazon-set-design
+Interpretation: ordinary life beside one unexplained large object can carry more emotional weight than explaining every device.
+New scene: a small settlement electrical exchange beside an enormous partly buried ceramic field instrument.
+Generation brief: Quiet 16:9 observational photograph from a covered neighbourhood footpath. A plain low utility exchange and modest glazed maintenance porch occupy a small part of the frame. One huge asymmetrical cream ceramic receiver emerges from an alien plain of broad overlapping dark mineral plates with pale seams; the device is clearly supported and serviced by a single buried cable route. No floating objects. Overcast late afternoon, muted moss-grey and chalk, one ordinary warm interior bulb, a bicycle-like hand trolley parked under cover. Sparse inhabited buildings on the path establish a community. Comfortable scale, ample empty sky, soft distance, no text or logos.
+Test/risk: keep the landform visibly alien so it does not become rural Earth with a mysterious machine.
+Do not reproduce: the artist's robots, cooling towers, paintings, recognizable spherical machine or exact compositions. Aim for photographic materials, not imitation of an artist's rendering style.
+
+04 / DUNE -> THE NIGHT WATER COURT
+Evidence: Vermette describes architectural choices responding to environment and narrative; interviews explain thick protective construction and climate constraints.
+Sources: https://www.wix.com/studio/blog/dune-production-designer-patrice-vermette
+https://www.elledecor.com/life-culture/a38066050/dune-set-design/
+Interpretation: begin with how a settlement survives, then derive its massing and light openings.
+New scene: a public drinking-water collection court beneath a settlement's heat shield.
+Generation brief: Clean 16:9 architectural photograph at seated height from a shaded bench within a compact communal water court. Heavy pale mineral-concrete piers support a low insulated roof; two simple taps and closed storage vessels sit on a dry drained service ledge. A narrow tall opening shows a hot exterior of tilted chalk slabs separated by dark blue-grey mineral gullies, one coherent eroded geological system. Deep door reveals, protected circulation, no open gap from an occupied pressurized room. Indirect cool daylight enters high slots, one small practical lamp marks the covered route to homes. Muted bone and dark umber, quiet mass and honest materials, minimal equipment, no people or text.
+Test/risk: read as usable civic infrastructure, not a ceremonial throne room. Decide breathable-air assumptions before generation.
+Do not reproduce: Arrakeen, sietch entrances, spice, worms, costumes or film-specific emblems.
+
+05 / SCAVENGERS REIGN -> THE SPORE SEASON SHELTER
+Evidence: the creators discuss believable alien world-building through symbiotic ecosystems rather than isolated creature designs.
+Source: https://www.cartoonbrew.com/streaming/scavengers-reign-team-talks-through-the-worldbuilding-process-for-their-sci-fi-thriller-series-exclusive-233879.html
+Interpretation: show a relationship between life forms and let human construction accommodate it.
+New scene: a field-worker shelter beside a native pollination corridor.
+Generation brief: Photographic 16:9 scene from the interior edge of a closed glazed shelter. Beyond the glass, mature grey-green organisms form low porous arches; smaller rust-coloured cushion colonies grow only beneath their shaded drip lines, making one readable ecological relationship. A cleared narrow boardwalk detours around the mature growth and reaches another occupied shelter. Fine external spore residue collects on replaceable intake screens; inside remains clean and dry. One boot-cleaning tray behind the sealed door, ordinary bench and cream task lamp. Soft neutral morning light, matte living surfaces with age/damage variation, large calm patches, no glowing plants, mixed monster garden, identifiable creatures, text or logos.
+Test/risk: ecology must read as related growth, not a random collection. Illustration-to-photography translation remains an untested candidate.
+Do not reproduce: specific organisms, characters, biological tools or narrative events from Vesta.
+
+06 / THE EXPANSE -> THE RESERVE HALL
+Evidence: concept designers describe extrapolation from contemporary technology; a production-design interview links distinct settings to controlled material and colour systems.
+Sources: https://magazine.artstation.com/2016/02/scenes-concept-art-expanse/
+https://www.inverse.com/article/27137-the-expanse-ships-design-season-2
+Interpretation: resource dependency should dictate the room's arrangement and what a resident can reach.
+New scene: a small municipal water-reserve inspection hall in a cliff colony.
+Generation brief: Restrained 16:9 photograph from a human-height dry service gallery. Three cylindrical reserve tanks are seated in visible cradles below the railing, with accessible valves, one straightforward level indicator per tank and a clear walking route. A small closed break alcove has a bench and a single warm light. A broad sealed high window shows distant layered ice mesas above dark mineral flats; insulated lines disappear into the colony wall. Neutral industrial grey, muted blue-white exterior light, tiny functional colour markings without readable text. Recognizable flanges and thermal insulation, no arbitrary glowing controls, no starship bridge, no people or logos.
+Test/risk: gallery must be physically supported and machinery logically connected; resource dependence is design inference, not a source-authenticated scene.
+Do not reproduce: Tycho geometry, faction palettes/logos, Rocinante or Belter signs.
+
+07 / DEATH STRANDING -> THE LAST COVERED MILE
+Evidence: Kojima Productions environment artists describe real geological reference/scans and the importance of believable man-made proportions.
+Source: https://www.kojimaproductions.jp/en/Staff-interview-06
+Interpretation: make the distance and difficulty of a route visible; the refuge earns its emotional value through that journey.
+New scene: a relay shelter where an exposed walking route reaches the inhabited edge of a colony.
+Generation brief: Eye-level 16:9 documentary-like photograph from just under a plain relay shelter canopy. A single repaired paved path follows a shallow alien valley of low rounded charcoal landforms with broad pale mineral crusts and no Earth grass. The route crosses a short fully supported culvert, passes three modest weather markers and vanishes into low cloud toward distant occupied windows. Closed insulated shelter door, one warm light, a dry bench and a charging socket for a hand trolley. Wet exposed stone and dry shelter, restrained silver daylight, very sparse rain, no gigantic architecture, no characters or text.
+Test/risk: wet dark terrain alone reads as Iceland; preserve the mineral crust morphology and coherent supporting geology.
+Do not reproduce: Bridges logos, stacked porter cargo, scanner arms, tar creatures or recognizable distribution centres.
+
+08 / SOLARIS (1972) -> THE LISTENING ANNEX
+Evidence: official Mosfilm records identify the 1972 production and research-station premise; studio archive material supplies production imagery. Our emotional/visual reading below is interpretation, not a claim from an accessed designer interview.
+Sources: https://www.mosfilm.ru/cinema/films/solyaris/
+https://www.mosfilm.ru/about/news/sozdanie-filma-solyaris-andreya-tarkovskogo-arkhivnye-materialy-chast-1/
+Interpretation: a small familiar human refuge can coexist with an environment that remains difficult to understand.
+New scene: an ocean-observation annex with a tiny resident reading corner.
+Generation brief: Quiet photographic 16:9 still from a seated position in a modest maintained observation room. One worn fabric chair, two closed books on a simple shelf and a cream reading lamp occupy one edge. A sealed broad window faces a grey-lilac sea broken by immense slowly formed cellular surface ridges, coherent broad shapes with distant fog, no ordinary wind-wave pattern as the main subject. A small functional instrument desk sits off to the side, screen subdued. Human joinery, ordinary plaster and metal, subtle window reflections, cold diffuse daylight, dry interior and clear exterior boundary. No copied library, floating furniture, recognizable station corridor, people or text.
+Test/risk: unusual surface may look like solid terrain; establish reflective water in the near view and label its physical status as fictional concept.
+Do not reproduce: library scene, dacha, sentient-ocean lore or specific station design.
+
+09 / SILENT RUNNING -> THE COMMON GARDEN SERVICE AISLE
+Evidence: Trumbull's interview describes combining real industrial locations and constructed garden sets; official film descriptions establish preservation of living ecosystems as the story's centre.
+Sources: https://ryanlambiearchive.wordpress.com/2024/06/18/douglas-trumbull-interview-2014-2001-silent-running/
+https://player.bfi.org.uk/rentals/film/watch-silent-running-1972-online
+Interpretation: care can be visible in practical upkeep, without characters or sentimental spectacle.
+New scene: a shared food garden in a surface colony, seen from its working side.
+Generation brief: Clean 16:9 photograph from a narrow dry greenhouse service aisle. Recognizable food plants occupy two orderly raised beds; ordinary irrigation joints, drainage and a repaired stool reveal daily care. One sealed exterior observation panel looks onto an alien plain of large pale polygonal mineral mounds with dark narrow channels, under muted dusty blue daylight. Heavy ribs and insulated base show an enclosure built for exterior conditions. Plants receive restrained white horticultural lights, no purple wash. Small clean potting surface, one closed tool cabinet, no jungle clutter, no dome fleet, no robots, people, logos or text.
+Test/risk: avoid a generic greenhouse whose only alien cue is a window postcard; exterior mineral weather affects enclosure and seals.
+Do not reproduce: Valley Forge ship/domes, drones or its forest-set composition.
+
+10 / BLADE RUNNER 2049 -> THE SEA WALL NIGHT OFFICE
+Evidence: Gassner links the film's architectural strength to a demanding environment; Deakins discusses architecture, smog and cold weather as foundational references.
+Sources: https://staging.ascmag.com/articles/blade-runner-2049-designing-the-future
+https://theasc.com/article/uncanny-valley-blade-runner-2049/
+Interpretation: weather, architecture and light can form one visual argument; scale does not require a skyline full of detail.
+New scene: an inhabited coastal flood-barrier maintenance office.
+Generation brief: Photographic 16:9 scene standing beneath a deeply recessed concrete service arcade. One small closed office window and a warm desk lamp face a protected dry landing. Beyond the supporting piers, an immense low sea wall recedes toward a flat alien ocean with broad pale mineral slicks and dark brine channels beneath low silver cloud. Tall slab-like tidal deposits on the distant shore establish unfamiliar geology without copying Brineward fins. Thick visible piers, closed bulkhead, sheltered cable route and realistic drainage. Narrow neutral-grey palette with one warm cream patch, restrained reflections, quiet planar architecture, no neon signs, giant ads, vehicles, people or text.
+Test/risk: must remain an inviting working refuge rather than an abandoned dystopian ruin; confirm wall/arcade support and flood separation.
+Do not reproduce: Wallace chamber, Las Vegas orange ruins, spinners or recognizable city shots.
+
+SELECTION AND LEARNING
+Strongest first photographic test: Shift Court (social specificity, connected routes).
+Strongest new alien-world test: Spore Season Shelter (visible ecological relationships).
+Strongest quiet ambient composition: Listening Annex (intimate refuge versus a large unfamiliar field).
+These rankings are our editorial judgments, not audience-performance evidence.
+Before generation, select one brief and review functional geometry and atmospheric assumptions. Do not generate all ten from this research request. After generation, compare actual source fidelity/material response/full-composition readability, record the largest defect and user verdict; do not generalize a success from prompt quality alone.

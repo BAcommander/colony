@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Dock Beneath the City",
+  "influence": "The Matrix real world / Zion",
+  "headline": "BENEATH THE MACHINE",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "36e6a4a5b325a8afccde3a357211149a757564ea69ce0e708e4bac549093e475",
+      "bytes": 2468901,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "205f811320c8550768f0af66cae2744e96c0d533cb908ec0b1daf8d3755da9a6",
+      "bytes": 2429917,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "ce6c9b712383fb2cd491d038f183acfe36cac8e16451cd96350887f3f8586870",
+      "bytes": 399424,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "0e7fdf88dbb7cf3d7a72b80757cfc90044d29b9ba46f843193f50901a1d841c1",
+      "bytes": 1509
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "5881c58c2ba9a767c8dfdb190306a30a85d74cfd48c8ff731a51c7a2c21ea341",
+      "bytes": 1187
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Read as dry dock not a flooded chamber; inspect hovercraft cradle and gallery load paths. Keep real-world palette distinct from green simulation. Dock is dry on raised platform with cradles visible; thumbnail warms dock lighting and adds local contrast.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Old Quarter Listening Room",
+  "influence": "Andor",
+  "headline": "KEEP THE SIGNAL",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "4cb484d9f45316572536ef4f0bf084a7218c5cd961fa5c3fd146cf314606e206",
+      "bytes": 2311100,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "5b9b1d3f464dca6b8c12b495423facf688d87f40eb3a4bae015d4af59b9b59bc",
+      "bytes": 2225172,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "fddeaad770bd9a0f4111164b953979b78746a26e1fa4b61367795f650f98f43c",
+      "bytes": 336275,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "a29acf4dc6da0c693c493e21a3cbcbe50a1447d914d6cc5c582f4df9a7e0ebee",
+      "bytes": 1062
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "7800f06f2efb4d0aa5f0069930bd1ff15641e88a8e5579a3a1debb3c8bb3cdac",
+      "bytes": 1183
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Layered civic life and warm radio corner. Inspect bridge supports and fine town geometry; thumbnail adds warmer sky.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

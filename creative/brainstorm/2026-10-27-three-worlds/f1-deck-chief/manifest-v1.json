@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Deck Chief's Quiet Hour",
+  "influence": "Battlestar Galactica (2004)",
+  "headline": "BETWEEN SORTIES",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "aa05f5837db00ebae0a0dc80283b8cdd1deae80e503d65c71399f004f51547a0",
+      "bytes": 2343297,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "76a8c824c984d117b6f3ea67d0bcb97d7715bd262c3ea2be43c539fd502660a3",
+      "bytes": 2373632,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "dbb144ec0d75eb52133c4fb85b559733336434de245de3adf02de635585e7d75",
+      "bytes": 373639,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "1baf1e56da173cd98ab7ef769e93149a4e7b9e75d81b36219236f8f8b577fdcd",
+      "bytes": 1494
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "1ad8f99f44669296bc1837e1e4d6021cd5242b886548deaa98485d948bedebb4",
+      "bytes": 1183
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Inspect fighter landing gear, clipped bulkheads and hangar enclosure. Heavy carrier aesthetic is intended; no exact hero craft copied. Actual fighter reads like a conventional twin-tail jet, less distinctive than intended colonial spacecraft.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Ancient Transit Watch",
+  "influence": "Stargate Universe / Ancients",
+  "headline": "BEYOND THIS DOOR",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "7600ac53c34e5d899c9062e5e9303b53c5e1cea4e586c9ccd4160d18ce94349e",
+      "bytes": 2555130,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "1c87c389e4509f494e3fc89616809ad037c9254340cf7059fb71afd82839a2b3",
+      "bytes": 2368257,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "98da976866194fbb4bbcf9ef5541a23a1ef38bd80668f1ff652965e1d2f0b006",
+      "bytes": 411153,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "d4254868a1121877b2dd105f457cb3533b092f3fd5fcc403bf787a2990ee2bf5",
+      "bytes": 1522
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "dddd3767b2d81aae28055dc342cdaead914dbbb10571e1759f018e8323e5bf40",
+      "bytes": 1184
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Inspect rib/load paths, ring supports and window enclosure. Do not infer spacecraft generation or actual transit physics from still. Actual output leaves ring mostly open with a blue rim, not requested full blue surface. Floor edge and gate approach need review.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

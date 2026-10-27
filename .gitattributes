@@ -128,3 +128,11 @@ creative/brand/intro-v3/** -text whitespace=blank-at-eol,blank-at-eof,space-befo
 creative/brand/references/ambient-outpost-project-hades-2026-10-13/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 scripts/preview_colony_intro.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 creative/brand/intro-v3/tool-source-snapshot/colony/assets/fonts/OFL.txt -text whitespace=-blank-at-eol
+# Brainstorm assets and hash-bound exact prompts/records: preserve file bytes.
+/creative/brainstorm/** -text
+/creative/concepts/brineward-station/** -text
+/creative/concepts/four-worlds-2026-10-27/** -text
+/creative/concepts/source-first-2026-10-27/** -text
+/creative/concepts/four-worlds-vibe-studies-2026-10-27.txt -text
+/creative/concepts/photographic-locations-2026-10-27.txt -text
+/creative/concepts/source-first-location-studies-2026-10-27.txt -text

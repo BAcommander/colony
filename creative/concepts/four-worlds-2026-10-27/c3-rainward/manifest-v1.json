@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Rainward Keep",
+  "influence": "Dune",
+  "headline": "SHELTER FROM THE SEA",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "70fc029c914f498572aacd886dbd2c631af13f83881f553093639d60d690a182",
+      "bytes": 2664726,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "1e3c8b2e2c33ced3f9cf0e6f8140c3042118ca11b60afed33afef0dab698b65d",
+      "bytes": 2574239,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "7f40a14d0121d932c98fd7844093ff7381d905002934da019187cfe9cdce1d30",
+      "bytes": 293404,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "793c6d4569444f75446b14bc7aa1076d3c0534a00d12ea4cfe6545189bd393b0",
+      "bytes": 1128
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "a7ff7c35026df090c7963b0f3421d2896070dbf6077e0efbe45030020deefc3d",
+      "bytes": 1188
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Clear coastal refuge, but source-specific identity is less immediate than the storm gate. Inspect terrace support/glazing.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

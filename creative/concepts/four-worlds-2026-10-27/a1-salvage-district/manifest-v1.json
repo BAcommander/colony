@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Salvage District After Closing",
+  "influence": "Andor",
+  "headline": "AFTER THE SHIFT",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "6e741f8ce96fce0df13500c0fc6992cf5889d7b37e4ac1934e7d66f97bd52aa1",
+      "bytes": 2698596,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "2b1aea2bd1b6dc30dd1d4b34cacaefd670fabbf2132bcd61a731f8c53b098b2c",
+      "bytes": 2522331,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "f8f0a6a24085449ef4df36b66fc7ef487d7ec3d53d38083d9eb1f7b7f335f2bc",
+      "bytes": 472413,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "81f582fb5c11f6ea0609598c5e2bb6ddbb5443de9de7238e307264882c7971ec",
+      "bytes": 1201
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "f42070002621daebe45fa712ea91ba78d9595ed2fc6785694774fa153fb0e48c",
+      "bytes": 1183
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Strong workshop/hull scale contrast. Dense machinery and wet paving need fine-geometry review; thumbnail adds warmer sky.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}
