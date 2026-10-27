@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-27",
+  "base_commit": "b2ece8e87d929b1f8e3ee6f45ce0fb55e34929ab",
+  "package_files": [
+    {
+      "path": "music/spirewatch-upload-v1/description.txt",
+      "sha256": "fc3b1946387a2e1df807f335a407ede0725467c5af2260680abb7acbac0f5188",
+      "bytes": 570
+    },
+    {
+      "path": "music/spirewatch-upload-v1/manifest.json",
+      "sha256": "bf0bb7abd44b051e85441ce337d141724a643adea4a8111e24b1ab4d895a36ef",
+      "bytes": 2963
+    },
+    {
+      "path": "music/spirewatch-upload-v1/README.txt",
+      "sha256": "704e9ed36306d1e293d3f36a947ad1a57701a4e9ce10c9a7819e3cbde0297ec6",
+      "bytes": 2255
+    },
+    {
+      "path": "music/spirewatch-upload-v1/thumbnail-v1.jpg",
+      "sha256": "7473ab0cacd509f58ae45cc06dab37847c99b9c9d836104959b3f578efc538b7",
+      "bytes": 373677
+    },
+    {
+      "path": "music/spirewatch-upload-v1/thumbnail-v1.png",
+      "sha256": "8032a7e8e61fc057954655267dfe1ce23b23a2c5ed64a09d49b32917eb264270",
+      "bytes": 2169365
+    },
+    {
+      "path": "music/spirewatch-upload-v1/youtube-tags.txt",
+      "sha256": "434d3c91b299059b2373b83c99ab7202436638fd420a72030ba3c5f0558b3257",
+      "bytes": 427
+    },
+    {
+      "path": "music/spirewatch-upload-v1/youtube-title.txt",
+      "sha256": "bd0f4c3b74b60f3da277bea41a215779c799770a255e4e328465217f3dfbbdf1",
+      "bytes": 68
+    },
+    {
+      "path": "music/spirewatch-final-two-hours-v1/README.md",
+      "sha256": "04b02ddee9a76c4f13fa63c1bb65c78346158f2262a755c68d2a8643f674ec9f",
+      "bytes": 3675
+    }
+  ],
+  "shared_additions": [
+    "AGENTS.md",
+    "creative/MUSIC_WORKFLOW.md",
+    ".gitattributes",
+    ".gitignore"
+  ],
+  "limits": "Long video/audio remain local. No upload; no new artistic approval. Unrelated working changes excluded."
+}

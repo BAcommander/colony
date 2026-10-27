@@ -1,5 +1,7 @@
 # Spirewatch — final two-hour 4K video
 
+Upload packaging prepared 2026-10-27: [title, description, Studio tags and unchanged thumbnail copies](../spirewatch-upload-v1/README.txt). User requested its commit/push and durable lessons; see [backup scope](../spirewatch-upload-backup-2026-10-27/README.txt) and the subsequent local remote-backup-verification.json for actual backup evidence. No YouTube upload has been performed.
+
 Delivered 2026-10-26 through the actual Colony export engine, with the current once-only v3 intro and the user-approved Horizon/Stillness transitions.
 
 [Open final video](G:/AI/colony/exports/spirewatch/Spirewatch-2-Hours-4K-v1.mp4)

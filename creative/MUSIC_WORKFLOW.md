@@ -166,3 +166,8 @@ Spirewatch final assembly (2026-10-26): the verified two-hour FLAC was supplied 
 ## Spirewatch checkpoint lessons - 2026-10-26
 
 The separate Stillness composition and accepted two-direction joins became the workable arrangement; failed stretching, spectral drone, separation and short-reference workarounds remain failed experiments. Preserve fixed source gains, eight-second overlaps, the unfaded soundtrack opening for the once-only intro and the existing closing fade. Source-reference guidance is not literal extension or selective groove removal. Exact decisions, limitations, durable settings and final production evidence are retained in ../music/spirewatch-backup-2026-10-26/LESSONS.md. Full two-hour user playback/upload checks remain pending.
+
+
+## Publication packaging lessons - 2026-10-27
+
+Deliver title, scene-led description, separate Studio tags, existing upload JPEG/PNG and the actual final-video path together; link the pack from the production record and memory. Spirewatch uses TRON-inspired ambient music for focus, with Horizon pulse alternating with more spacious Stillness, rather than a beatless/sleep or continuous environmental-audio promise. Retain the exact channel sign-off, accurate AI credit and three relevant hashtags; use listener-oriented tags below the project 500-character limit without unsupported search-performance claims. Preserve the existing thumbnail and its approval scope: sequential typography evidence was not causal. Current pack: ../music/spirewatch-upload-v1/README.txt; detailed lessons and backup scope: ../music/spirewatch-upload-backup-2026-10-27/LESSONS.txt. A local pack, Git backup, upload and full playback approval are separate states.
