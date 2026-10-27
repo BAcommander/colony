@@ -2,6 +2,8 @@
 
 Current collection: 2026-10-27. [Open the combined gallery](gallery.html): **30 clean/thumbnail pairs across ten influences**.
 
+Seasonal exploration: user subsequently requested testing all ten. [Ten clean Christmas images and comparison gallery](2026-10-27-christmas-tests/README.md), centred on 'Christmas somewhere you wish you could stay', are generated with exact prompts and manifests. No thumbnail designs, animation or audio; X01–X10 review pending. Kept separate from the 30-pair gallery; [original proposals](christmas-locations-2026-10-27.txt) remain history. User subsequently requests commit/push of the complete seasonal round; see its separate [backup verification](2026-10-27-christmas-tests/backup-verification.json). The earlier receipt covers the preceding collection only.
+
 - [Andor, Alien, Dune and The Expanse — twelve pairs](../concepts/four-worlds-2026-10-27/README.md). User says "a bunch of these look sick"; individual choices are not identified.
 - [Stargate, Battlestar Galactica and The Matrix — nine pairs](2026-10-27-three-worlds/README.md). New candidates; user review pending.
 - [Back to the Future (with DeLorean), Red Dwarf and Star Trek TOS — nine pairs](2026-10-27-retro-worlds/README.md). Latest set, H1–J3; user review pending.

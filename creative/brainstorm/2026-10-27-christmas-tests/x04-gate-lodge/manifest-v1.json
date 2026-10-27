@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-27",
+  "review_id": "X04",
+  "title": "The Snowbound Gate Lodge",
+  "influence": "Stargate SG-1",
+  "generator": "built-in image_gen.imagegen",
+  "image_inputs": [],
+  "original_generation_path": "C:\\Users\\john\\.codex\\generated_images\\01a11569-0e03-7520-8947-ce396d150bba\\exec-e26fc7f5-5118-49ee-adbc-f961616d0931.png",
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "294dd2cc0c3e791b3022b567a7eb1e44bcb7e42007cc1513db78d137f2c96c17",
+      "bytes": 2548982,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "preview-v1.jpg": {
+      "sha256": "64a19b320d27c5fefdf7b59a46e9ee726b7d207b0f1e5a8baa58fea0f1375c59",
+      "bytes": 387833,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "b9e759650ece48e5c38581b23286ca3bf210c2a892ca3ceb81641fa72997cf40",
+      "bytes": 1616
+    }
+  },
+  "inspection": "Assistant returned full-composition still inspection; no crop-level audit",
+  "concerns": "Check gate, transit surface, path/steps, window enclosure and flue. No body/face/arrival action; atmosphere must read both Stargate and a winter refuge. Ring, complete blue surface, snowy path and stove are visible. Extra coffee-table lantern/rug/props and more presents than requested added. Gate approach and door/pressure geometry still need inspection.",
+  "user_approval": null,
+  "catalog_number": null,
+  "thumbnail_generated": false,
+  "animation_generated": false,
+  "remote_backup_record": "../backup-verification.json"
+}

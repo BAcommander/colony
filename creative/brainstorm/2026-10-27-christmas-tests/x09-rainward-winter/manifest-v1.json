@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-27",
+  "review_id": "X09",
+  "title": "Winter at the Rainward Keep",
+  "influence": "Dune coastal strand",
+  "generator": "built-in image_gen.imagegen",
+  "image_inputs": [],
+  "original_generation_path": "C:\\Users\\john\\.codex\\generated_images\\01a11569-0e03-7520-8947-ce396d150bba\\exec-610dea9a-7f40-45a8-bc2e-95273a68d6cf.png",
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "4adc1e40c74d33bca30d9505d75471e91b48f635a60bf28ee67f6baf0bfd6494",
+      "bytes": 2665411,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "preview-v1.jpg": {
+      "sha256": "acafb577f8559f7c7891da1f3230a276e712c06a1fd0c1a51f6a180666d86f69",
+      "bytes": 283266,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "b7fa0cf8175261bf6e1f52444a24d5b4a5958e784684059dc4f85ccbc49268bf",
+      "bytes": 1559
+    }
+  },
+  "inspection": "Assistant returned full-composition still inspection; no crop-level audit",
+  "concerns": "Check fireplace/flue, sealed glazing, dry room, chair supports and terrace/ledge structure. Avoid all-over amber or generic Christmas castle. Clear contained hearth, chair and cold coast with high snow. Some darker interior texture and added minor props; preserve the restrained contrast if revised. Fireplace/window construction needs close check.",
+  "user_approval": null,
+  "catalog_number": null,
+  "thumbnail_generated": false,
+  "animation_generated": false,
+  "remote_backup_record": "../backup-verification.json"
+}

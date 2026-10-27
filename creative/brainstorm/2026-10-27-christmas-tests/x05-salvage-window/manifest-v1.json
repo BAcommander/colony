@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-27",
+  "review_id": "X05",
+  "title": "The Salvage Quarter Christmas Window",
+  "influence": "Andor",
+  "generator": "built-in image_gen.imagegen",
+  "image_inputs": [],
+  "original_generation_path": "C:\\Users\\john\\.codex\\generated_images\\01a11569-0e03-7520-8947-ce396d150bba\\exec-5fac62bb-bdc8-4f18-ba10-ce2ce33ec386.png",
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "b279fd1d20570a4e5ae1f534cfe49f9f625747ff0a00afac0a133f71573a042c",
+      "bytes": 2560667,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "preview-v1.jpg": {
+      "sha256": "355ed8b30334c3a6d3726407ccbf714244a6d7fb9619259806181becbc5614bd",
+      "bytes": 356787,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "ac2c2312a9222983e0542249e62f9f3f49d9336bf12f0852fd8f0f932cb3ae80",
+      "bytes": 1596
+    }
+  },
+  "inspection": "Assistant returned full-composition still inspection; no crop-level audit",
+  "concerns": "Check chimney/armchair/window geometry and street/craft supports. Giant hull plus lived-in district should read before tiny festive details. Strong chair/tree/stove and snowy working-town hierarchy. Exterior has more festive lights and small ambiguous distant silhouettes than requested. Bridge/hull/street geometry requires closer review.",
+  "user_approval": null,
+  "catalog_number": null,
+  "thumbnail_generated": false,
+  "animation_generated": false,
+  "remote_backup_record": "../backup-verification.json"
+}

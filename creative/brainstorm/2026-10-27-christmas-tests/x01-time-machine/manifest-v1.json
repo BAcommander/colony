@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-27",
+  "review_id": "X01",
+  "title": "Christmas in the Time Machine Workshop",
+  "influence": "Back to the Future",
+  "generator": "built-in image_gen.imagegen",
+  "image_inputs": [],
+  "original_generation_path": "C:\\Users\\john\\.codex\\generated_images\\01a11569-0e03-7520-8947-ce396d150bba\\exec-d237dad7-a195-436d-aaa7-7ce6d01d6677.png",
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "00c32910575b53d15c2f02abb12d701e92fba920490693c7cbff7bb836affb01",
+      "bytes": 2500253,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "preview-v1.jpg": {
+      "sha256": "d8f9346f1508a1bd5d0c8eb9d64d11572b1be1020166b6fb12f940062825fc3a",
+      "bytes": 399435,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "cb8402770cf6ccd96d01561e5ed9bea5ccac431b00de4bc876647deaf1b61d68",
+      "bytes": 1644
+    }
+  },
+  "inspection": "Assistant returned full-composition still inspection; no crop-level audit",
+  "concerns": "Inspect car proportions, door hinge, wheels, time-machine equipment and separation from stove. Closed garage glazing and actual flue are required; no car physics accuracy inferred. Actual returned image shows closed garage glazing, flued stove and visible car. Added rugs, pillows, extra exterior tree and handled mug exceed requested restraint. Verify detailed car model/door geometry before production.",
+  "user_approval": null,
+  "catalog_number": null,
+  "thumbnail_generated": false,
+  "animation_generated": false,
+  "remote_backup_record": "../backup-verification.json"
+}

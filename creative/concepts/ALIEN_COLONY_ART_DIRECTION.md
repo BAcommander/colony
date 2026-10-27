@@ -64,6 +64,14 @@ User requests another three-by-three set: Back to the Future featuring its car, 
 
 Assistant observed: H2 adds a DMC badge and mixes car equipment configurations; I3 is an approximate red mining hull; J1 becomes symmetrical; J2 lattice has cage/power-rack associations. The user has not reviewed these outputs. TOS's clean constructed-set feel is a deliberate era cue but may need further photographic material refinement. More dirt would erase that identity, not automatically improve realism. Existing thumbnail warmth/sunset drift persists and is recorded. User explicitly requests committing and pushing all today's concepts; backup authorization remains separate from visual acceptance.
 
+### Seasonal comfort brief (2026-10-27)
+
+User adopts the promise 'Christmas somewhere you wish you could stay' and asks for ten brainstorm ideas before making art. [Written seasonal proposals](../brainstorm/christmas-locations-2026-10-27.txt) preserve distinct source-world material/design cues while adding a readable place to sit, weather/exposure outside and two or three restrained seasonal anchors. Festivity must exist in the clean scene, not only thumbnail text. Decorations should remain readable at full composition without covering every surface. Snow is confined to planetary environments; orbital cold is communicated through space and lighting. Conventional hearths belong to plausible lodge/keep construction; enclosed electric/radiant warmth suits working ships. No art, audience-performance result or new approved seasonal release inferred.
+
+### Ten seasonal tests generated (2026-10-27)
+
+User subsequently requests all ten Christmas ideas as a test. [Clean outputs, exact prompts and actual concerns](../brainstorm/2026-10-27-christmas-tests/README.md) are saved; no thumbnails, animation or audio. Assistant full-composition inspection only, user verdict pending. DeLorean/gate/rings offer immediate setting silhouettes; citrus and wire trees distinguish utilitarian celebrations. TOS retains clean midcentury form rather than generic worn industrial styling. The generator still adds extra props/rugs/parcels beyond restrained briefs, so count actual visual competition rather than promised prompt limits. Coastal keep may read terrestrial; stylised ring geometry and fireplace construction remain review questions. These are assistant observations, not user approval or measured seasonal click potential. Original Ringfall and every prior candidate remain intact. User subsequently explicitly requests commit/push of the ten seasonal tests and records; see the seasonal package backup-verification.json for separate remote evidence.
+
 ## The central change
 
 Start with a place people need in order to live here, then make the unfamiliar environment shape that place. A colony is a network of homes, work, food, water, power and transport. It can be a small settlement or an established district; it need not be three identical pods pasted onto a horizon.
