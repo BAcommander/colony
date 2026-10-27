@@ -1,0 +1,266 @@
+{
+  "verified_at_utc": "2026-10-27T18:18:35.935819+00:00",
+  "user_request": "ok commit and push all these",
+  "branch": "codex/concept-brainstorms-2026-10-27",
+  "content_commit": "d3bd0459e63c1673a1d256328311bc41ce2a82c8",
+  "remote_advertisement": "d3bd0459e63c1673a1d256328311bc41ce2a82c8\trefs/heads/codex/concept-brainstorms-2026-10-27",
+  "push_completed": true,
+  "scope": "Ten Christmas clean PNGs, ten JPEG display copies, exact prompts, manifests, gallery/builder, written proposals and repository learnings/status. Actual images included in ordinary Git.",
+  "verification": {
+    "original_png_comparisons": 10,
+    "decoded_images": 20,
+    "staged_asset_hash_matches": 30,
+    "gallery_links_checked": true,
+    "diff_check_passed": true,
+    "remote_head_matches_content_commit": true,
+    "independent_remote_restore_performed": false
+  },
+  "artistic_approval": null,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 61207,
+      "sha256": "2d47cab9f3f3476f1e4107bbfae8715fb257781e38b6cbc12d51adc1c800f393"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "bytes": 31993,
+      "sha256": "b3807e543d133868f5d86cfcb0fe85af7aefa3fc3af1fde15e0944430541a7b8"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/README.md",
+      "bytes": 4047,
+      "sha256": "b5811db30e2e5d8bc013fe13c7fa4a996fa7cd002406e1674bafae323dbdd04e"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/build_gallery.py",
+      "bytes": 3958,
+      "sha256": "d9ff8c0509bd7e2b48a77c3fc04c09f4a23ea6e0bf2925ea7d11225467ea5994"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/gallery.html",
+      "bytes": 10282,
+      "sha256": "b67fe3b8976b59783ae2be99dd187659bb27ed6cc99d26bdced854d6661ad75e"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/generation-index.json",
+      "bytes": 33858,
+      "sha256": "5e79b371270773b6591fb7c6235eb25d3239ed4ff5ef87e3a1387da7f8938d6f"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x01-time-machine/concept-v1.png",
+      "bytes": 2500253,
+      "sha256": "00c32910575b53d15c2f02abb12d701e92fba920490693c7cbff7bb836affb01"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x01-time-machine/generation-v1.txt",
+      "bytes": 1644,
+      "sha256": "cb8402770cf6ccd96d01561e5ed9bea5ccac431b00de4bc876647deaf1b61d68"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x01-time-machine/manifest-v1.json",
+      "bytes": 1599,
+      "sha256": "31aee0ad57aa53d6942612cbcc45df3e0cebe649a6b3553622dace65718b4244"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x01-time-machine/preview-v1.jpg",
+      "bytes": 399435,
+      "sha256": "d8f9346f1508a1bd5d0c8eb9d64d11572b1be1020166b6fb12f940062825fc3a"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x02-dwarf-christmas/concept-v1.png",
+      "bytes": 2382093,
+      "sha256": "85d3ffee770ece3e4b08860cd9dc702c2d18ab08b543392f545c8752f02386f0"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x02-dwarf-christmas/generation-v1.txt",
+      "bytes": 1559,
+      "sha256": "c49d3dd2ed31c21f3c7b8340425fc58839316ff4602783aa4a8d70ccf75fa8ab"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x02-dwarf-christmas/manifest-v1.json",
+      "bytes": 1546,
+      "sha256": "62f1b7f8366a226cdbb31b78d5a129305ccb6e90072b4c218740c8a74e8556c1"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x02-dwarf-christmas/preview-v1.jpg",
+      "bytes": 345232,
+      "sha256": "99760ed6a7aee88eccabeca9878c9aa759c7ce532f0dbbd43a8720d25ad4f805"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x03-tos-lounge/concept-v1.png",
+      "bytes": 2217865,
+      "sha256": "d58150caeca479a0533a14307b3c0d2de684830885d53930041fb0ce47396241"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x03-tos-lounge/generation-v1.txt",
+      "bytes": 1587,
+      "sha256": "40de789deff3ebea79a5edf7296ee4fe9cf8bb40ab3e0344850ae88da9f9f87c"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x03-tos-lounge/manifest-v1.json",
+      "bytes": 1560,
+      "sha256": "071d69d28361bb6f5df4240c46bde944a595fd7f675c68e262f0b2b3c273347d"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x03-tos-lounge/preview-v1.jpg",
+      "bytes": 248269,
+      "sha256": "b7cab5e2f4f087651bccac3ed09548ce1186c9b3b50a3bb44084f9c9b0e13ddf"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x04-gate-lodge/concept-v1.png",
+      "bytes": 2548982,
+      "sha256": "294dd2cc0c3e791b3022b567a7eb1e44bcb7e42007cc1513db78d137f2c96c17"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x04-gate-lodge/generation-v1.txt",
+      "bytes": 1616,
+      "sha256": "b9e759650ece48e5c38581b23286ca3bf210c2a892ca3ceb81641fa72997cf40"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x04-gate-lodge/manifest-v1.json",
+      "bytes": 1532,
+      "sha256": "8685daca0d59e51c6967e97b838c4dace82034d1edbc562c16d63c57837f7e1b"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x04-gate-lodge/preview-v1.jpg",
+      "bytes": 387833,
+      "sha256": "64a19b320d27c5fefdf7b59a46e9ee726b7d207b0f1e5a8baa58fea0f1375c59"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x05-salvage-window/concept-v1.png",
+      "bytes": 2560667,
+      "sha256": "b279fd1d20570a4e5ae1f534cfe49f9f625747ff0a00afac0a133f71573a042c"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x05-salvage-window/generation-v1.txt",
+      "bytes": 1596,
+      "sha256": "ac2c2312a9222983e0542249e62f9f3f49d9336bf12f0852fd8f0f932cb3ae80"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x05-salvage-window/manifest-v1.json",
+      "bytes": 1519,
+      "sha256": "47ed2c0023086c30025dcb85bb2932de8bd309b8f0162c96c91edff25f9b70c9"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x05-salvage-window/preview-v1.jpg",
+      "bytes": 356787,
+      "sha256": "355ed8b30334c3a6d3726407ccbf714244a6d7fb9619259806181becbc5614bd"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x06-freighter-christmas/concept-v1.png",
+      "bytes": 2210996,
+      "sha256": "dff5dabe8296eaf3a9111436625bfffac62c2419283ddbff3e8eb8d2f20c15d1"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x06-freighter-christmas/generation-v1.txt",
+      "bytes": 1553,
+      "sha256": "b46fe187c8172d2366918367a363006f314e82073d33723a824875f0250f1466"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x06-freighter-christmas/manifest-v1.json",
+      "bytes": 1494,
+      "sha256": "b560ab5d9905dea22626b36fb9ea1b36d507510833df46a155ad7a4bfae1478a"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x06-freighter-christmas/preview-v1.jpg",
+      "bytes": 269670,
+      "sha256": "3cd8a17baafbedfab89531b22d479fd5774b40d3849e63bc84e6ac126b4fbf8f"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x07-fleet-christmas/concept-v1.png",
+      "bytes": 2244191,
+      "sha256": "e46445e64c01dab91a8e220a9158f1dd7b37da74d5b14d512369f6dae85fdb3a"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x07-fleet-christmas/generation-v1.txt",
+      "bytes": 1549,
+      "sha256": "e9fb692c46f0772f8e608bf6eb1b6d6858cff1edbee1d5571e047ed35ee833c2"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x07-fleet-christmas/manifest-v1.json",
+      "bytes": 1506,
+      "sha256": "2a1bbfb1f66b6b797a429a2461d8610a967c48fd9773aba6474a1dcde1fc2859"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x07-fleet-christmas/preview-v1.jpg",
+      "bytes": 285720,
+      "sha256": "8c999b2824396f9ca96fb05ccec757c54ea68492478162427e949c9d18938b9a"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x08-belt-canteen/concept-v1.png",
+      "bytes": 2602648,
+      "sha256": "02b3869e5fd157617a070202ffed236949944683554b8e23a27c51b21f4ce039"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x08-belt-canteen/generation-v1.txt",
+      "bytes": 1591,
+      "sha256": "169c93d0beec42f0202308e6112eb3485f6e64bc3b347a5ab3f41b5c0e4cabf0"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x08-belt-canteen/manifest-v1.json",
+      "bytes": 1503,
+      "sha256": "5040d72357704373bd2fec38df2db0eb6da6a49ef766b7082edc039487fda80c"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x08-belt-canteen/preview-v1.jpg",
+      "bytes": 413417,
+      "sha256": "40802498e86efba7c3f9b9705ac6b24d57db473ee60ad96d4a31cc64e7356559"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x09-rainward-winter/concept-v1.png",
+      "bytes": 2665411,
+      "sha256": "4adc1e40c74d33bca30d9505d75471e91b48f635a60bf28ee67f6baf0bfd6494"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x09-rainward-winter/generation-v1.txt",
+      "bytes": 1559,
+      "sha256": "b7fa0cf8175261bf6e1f52444a24d5b4a5958e784684059dc4f85ccbc49268bf"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x09-rainward-winter/manifest-v1.json",
+      "bytes": 1533,
+      "sha256": "b833b109f38f214c5c1f98bc168b2d91f7b26a4fd35b4a167a9bbbce069b1138"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x09-rainward-winter/preview-v1.jpg",
+      "bytes": 283266,
+      "sha256": "acafb577f8559f7c7891da1f3230a276e712c06a1fd0c1a51f6a180666d86f69"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x10-ringfall-christmas/concept-v1.png",
+      "bytes": 2364127,
+      "sha256": "acf1a9944c187a02a8307b2d503c040a84e17341d4edfc1100b316017d5b12db"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x10-ringfall-christmas/generation-v1.txt",
+      "bytes": 1718,
+      "sha256": "18199505ffc10e239afcb8d9a8567af89c4d0a8636b2aabd7945b3ac27001f17"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x10-ringfall-christmas/manifest-v1.json",
+      "bytes": 1599,
+      "sha256": "372b648df41b1204b841cb2db607c76a884ee88364364d22f72c646be945e673"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/x10-ringfall-christmas/preview-v1.jpg",
+      "bytes": 319045,
+      "sha256": "4b4a38a5b40a3d4548bb583865f4cc4de9946df4e6d2ba4bcb10cf2b106e06fb"
+    },
+    {
+      "path": "creative/brainstorm/README.md",
+      "bytes": 3111,
+      "sha256": "7b02558c499dc2932a53edddd29a9bdea8012b59b428274d9f58fe604b09ff46"
+    },
+    {
+      "path": "creative/brainstorm/christmas-locations-2026-10-27.txt",
+      "bytes": 10343,
+      "sha256": "8febaa6814fa8cd25d50c155d044b84e46203364e2a6f9031bc0068313371516"
+    },
+    {
+      "path": "creative/concepts/ALIEN_COLONY_ART_DIRECTION.md",
+      "bytes": 24849,
+      "sha256": "f2ac470ad88f81badee631a2d11daf2c6f9683de0f10240c6a78187372b33469"
+    }
+  ]
+}
