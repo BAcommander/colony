@@ -1,0 +1,82 @@
+{
+  "introduced_newline_only_changes_fixed": 121,
+  "tracked_edit_restorations": [
+    {
+      "path": ".gitattributes",
+      "method": "Conflict-free three-way merge of original local delta onto committed merge",
+      "sha256": "2ad90f8a3a6e6d5fa51739fa635c66ee9151c7f269916b151be8c8e52af89f7a"
+    },
+    {
+      "path": ".gitignore",
+      "method": "Exact original local bytes restored",
+      "sha256": "d07fecaa4b2b8b34969b6ad6a32368a89e5bddb63ff86b469bdc01c76f7aeaed"
+    },
+    {
+      "path": "AGENTS.md",
+      "method": "Original local bytes retained as a whole, with the merged branch additive memory block inserted after the title",
+      "sha256": "0335ed6e9a3c0a8d8fb0328fec1292b54f7340208a38bee83da7ada0db369b54"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "method": "Original local bytes retained as a whole, with the merged branch additive memory block inserted after the title",
+      "sha256": "073bddb8f9c71900b50ddc74de256d0830ffaa658bf7e6d72e7c73d4ab6b9cf3"
+    },
+    {
+      "path": "PROJECT.md",
+      "method": "Exact original local bytes restored",
+      "sha256": "2d3bad246a1a712b3404d3ef03ec238a7ce36e8ea8e68c91b3e8d78a5a000c58"
+    },
+    {
+      "path": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "method": "Exact original local bytes restored",
+      "sha256": "d65d50d01a186d02e0632b1bf64b1b43e2d51f9a40517da11c27841fc52655c4"
+    },
+    {
+      "path": "creative/MUSIC_WORKFLOW.md",
+      "method": "Conflict-free three-way merge of original local delta onto committed merge",
+      "sha256": "e65749fd0a2c972ca514c769ef821ce95570e9374ff9f9fb14b3540ad281b07f"
+    },
+    {
+      "path": "final/10-nightward-station/README.md",
+      "method": "Exact original local bytes restored",
+      "sha256": "93be085bd82301d391f2fc27b4aa8cab00da4619feef196ba7ba69a98b9eb451"
+    },
+    {
+      "path": "final/10-nightward-station/manifest.json",
+      "method": "Exact original local bytes restored",
+      "sha256": "049f230d49de9aff2dab8829c7f1d7db11934e987dec3dabbe38996c303077ea"
+    },
+    {
+      "path": "final/10-nightward-station/music/README.md",
+      "method": "Exact original local bytes restored",
+      "sha256": "bf8468b0cac754dfd375613d1fe7098ddee5c44d9fd4071dc633922a8f247a72"
+    },
+    {
+      "path": "final/10-nightward-station/music/generation-record.json",
+      "method": "Exact original local bytes restored",
+      "sha256": "508fd398a76101108818aaa7518b35a1fc3e5574094e332032004a61b030f8f9"
+    },
+    {
+      "path": "final/10-nightward-station/youtube-tags.txt",
+      "method": "Exact original local bytes restored",
+      "sha256": "0b440a5de3d0388493e213eab18330c7649570435c0dc59a30bf5f9e16a3a186"
+    },
+    {
+      "path": "final/12-deepwell-station/README.md",
+      "method": "Exact original local bytes restored",
+      "sha256": "8e4f99966b5620486e84f88b3abfaf476c83dab5c6842efc969bec510b6475d2"
+    },
+    {
+      "path": "final/README.md",
+      "method": "Exact original local bytes restored",
+      "sha256": "65297a37add1cea72976c701e1d4f7f232ab12a9ce3585435be9f96ae7ac3cda"
+    },
+    {
+      "path": "final/catalog.json",
+      "method": "Exact original local bytes restored",
+      "sha256": "0df3c8f668492b56f5cd422eebadd0cf3c08ba601f345430d0bde226f65b36a1"
+    }
+  ],
+  "recovery_stash": "9498687c633a37fd31f73cbdf0a257f7753bd55f",
+  "stash_retained": true
+}

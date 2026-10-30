@@ -207,5 +207,26 @@
     "music_prompt": "music/elevenlabs-prompt-v1.txt",
     "motion_brief": "motion-brief.md",
     "thumbnail_user_approved": true
+  },
+  {
+    "folder": "15-cyberpunk-apartment",
+    "title": "Cyberpunk Apartment",
+    "catalog_number": "15",
+    "title_status": "working title",
+    "status": "Existing V3 silent animation imported at user request; Colony packaging, music and assembly pending",
+    "artwork": "artwork-v3.png",
+    "animation_source": "animation-v3/clean-apartment.png",
+    "duration_seconds": 10,
+    "fps": 60,
+    "video": "animation-v3/Cyberpunk-Apartment-V3-4K.mp4",
+    "video_1080p": "animation-v3/Cyberpunk-Apartment-V3-1080p.mp4",
+    "thumbnail": null,
+    "description": null,
+    "search_tags": null,
+    "suggested_title": null,
+    "music_prompt": null,
+    "audio": null,
+    "import_date": "2026-10-25",
+    "manifest": "manifest.json"
   }
 ]

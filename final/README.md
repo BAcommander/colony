@@ -1,5 +1,7 @@
 # Ambient Colony - final exports
 
+Catalog 15 — [Cyberpunk Apartment](15-cyberpunk-apartment/README.md) was imported on 2026-10-25 with its existing V3 loop, source and reproduction notes. Its Colony thumbnail, metadata, music and final assembly are pending.
+
 Planning and next actions: [production pipeline and release tracker](../PRODUCTION_PIPELINE.md). This separates completed assets from remaining motion, music, assembly, review and backup work.
 
 Three original approved video packages (01-03), Floodplain (04) with an accepted animation look and verified one-hour 4K Colony export, Saltline (05) with an accepted v5 look and technically verified two-hour 4K Colony export awaiting combined review, and accepted clean artwork for 06-07 with new thumbnails pending review. Packages 08-10 have selected artwork, thumbnails pending review, metadata and music prompts. Packages 11-14 have user-approved artwork/thumbnail packages (2026-09-29), metadata and music/motion briefs. Number 06 now has an accepted v3 animation look, verified twenty-second 4K master and finished two-hour Colony export awaiting combined review; animations for 07-14 have not been produced. Exact image prompts, provenance and current approval scope are recorded per package.
@@ -26,6 +28,7 @@ Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subs
 | [12 - Deepwell Station](12-deepwell-station/) | [Selected v2 artwork](12-deepwell-station/artwork-v2.png); no video yet | [JPEG](12-deepwell-station/thumbnail-v1.jpg) |
 | [13 - Below the Snowline](13-below-the-snowline/) | [Selected v2 artwork](13-below-the-snowline/artwork-v2.png); no video yet | [JPEG](13-below-the-snowline/thumbnail-v1.jpg) |
 | [14 - Crater Rim Survey](14-crater-rim-survey/) | [Selected v2 artwork](14-crater-rim-survey/artwork-v2.png); no video yet | [JPEG](14-crater-rim-survey/thumbnail-v1.jpg) |
+| [15 - Cyberpunk Apartment](15-cyberpunk-apartment/) | [10 seconds, 4K/60fps V3](15-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-4K.mp4) | Pending |
 
 The short masters listed here are 3840x2160, 30 fps and silent, with upscaled source artwork. Long music-video exports are tracked separately through each assembly package and the local inventory. Approved copied media retain their original production paths. Saltline v7 is a new requested delivery with a separate pending visual-review status.
 

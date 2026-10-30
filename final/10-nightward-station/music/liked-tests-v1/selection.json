@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-10",
+  "feedback": "i like both, make me a prompt for the longer version of each",
+  "short_tests_liked": true,
+  "files": [
+    {
+      "file": "final/10-nightward-station/music/liked-tests-v1/Observation_Deck_2026-10-10T192516.mp4",
+      "sha256": "f76796cd9e592806b93634405557beb7ce622fecc7e624a2a69e315aad38978f",
+      "bytes": 1492970,
+      "long_prompt": "elevenlabs-long-v3-a-observation-deck-seven-minutes.txt",
+      "pairing_basis": "User supplied both following A/B prompts; naming and order suggest this pairing, generation settings not observed."
+    },
+    {
+      "file": "final/10-nightward-station/music/liked-tests-v1/Vast_Unfamiliar_World_2026-10-10T192538.mp4",
+      "sha256": "2b80b6e45bfb78010ed0905598143be25dbf661ecdfdb04a89b2fcee949f23f3",
+      "bytes": 1497856,
+      "long_prompt": "elevenlabs-long-v3-b-vast-unfamiliar-world-seven-minutes.txt",
+      "pairing_basis": "User supplied both following A/B prompts; naming and order suggest this pairing, generation settings not observed."
+    }
+  ],
+  "requested_generation_seconds": 420,
+  "final_video_duration_seconds": null,
+  "assistant_listening": false,
+  "long_sources_received": false,
+  "note": "Use each supplied file as reference for its corresponding longer prompt. Actual duration and local join are checked after generation. No generation or credits used here."
+}

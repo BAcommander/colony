@@ -1,0 +1,10 @@
+Mode: built-in image_gen, precise-object-edit.
+
+Initial full-frame repair:
+Edit this exact image, preserving its original 1672x941 framing, camera, geometry, colors and fine detail. Remove ONLY the FOUR conspicuous hovering/flying cars from the city view, and invisibly reconstruct the small background patches they cover. Centers: (731,443), (1316,398), (1358,395), (1484,405). Remove bodies and colored lights/glows. Fill with coherent existing city/building texture and atmospheric haze, maintaining all road lines. Preserve all furniture, cup and lamp, plants, mullions, skyline, signs and textures. No replacements, new objects, text or style change.
+
+Full-frame follow-up:
+Keep everything identical except the short horizontal dark gray floating streak near (1356,396). Remove the entire streak and end lights, replacing it with atmospheric blue haze and faint distant buildings. Preserve the diagonal road below at y420.
+
+Final successful close-up repair (crop x1282..1427, y355..434, enlarged for the edit):
+Precise object removal in this crop. REMOVE the entire short black horizontal FLOATING BAR near the CENTER of the image, with its little orange/pink end lights (approximately x250 to385,y153 to182 in this 580x316 input). This dark bar is an unwanted remnant of a flying vehicle. Replace that ENTIRE bar and its end lights with soft blue-gray atmospheric fog that naturally blends with the surrounding fog. No trace of any dark horizontal line, solid shape, vehicle, bright end light or smudge should remain there. Preserve the real large diagonal road across the BOTTOM of the image and its edges, preserve distant buildings above, preserve image composition and aspect ratio. Only remove the central floating bar, do not invent new structures in its place.

@@ -1,0 +1,3934 @@
+{
+  "channel": "Ambient Outpost",
+  "handle": "@AmbientOutpost",
+  "retrieved": "2026-10-30",
+  "subscribers": 163000,
+  "videos_listed": 454,
+  "method": "yt-dlp flat playlist of public videos tab (newest first); per-video metadata only for the nine sampled ids with upload_date; view counts are rounded public figures and absent where YouTube did not expose them in the listing",
+  "stats_by_duration_class": {
+    "4h": {
+      "n_with_views": 27,
+      "n_total": 32,
+      "median_views": 18000,
+      "max_views": 133000
+    },
+    "10h+": {
+      "n_with_views": 1,
+      "n_total": 1,
+      "median_views": 11000,
+      "max_views": 11000
+    },
+    "3h": {
+      "n_with_views": 16,
+      "n_total": 19,
+      "median_views": 39500,
+      "max_views": 350000
+    },
+    "1h": {
+      "n_with_views": 93,
+      "n_total": 229,
+      "median_views": 21000,
+      "max_views": 274000
+    },
+    "2h": {
+      "n_with_views": 141,
+      "n_total": 170,
+      "median_views": 25000,
+      "max_views": 1300000
+    },
+    "8h": {
+      "n_with_views": 3,
+      "n_total": 3,
+      "median_views": 107000,
+      "max_views": 133000
+    }
+  },
+  "note": "Third-party public metadata recorded for study. No audio, video or thumbnails stored in the repository.",
+  "videos": [
+    {
+      "position_newest_first": 0,
+      "id": "Ak0aQdxc6Kw",
+      "title": "COLD MASS — Ambient Music for When You're the Only One Left",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 9600,
+      "upload_date": "20261026",
+      "likes": 220,
+      "comments": 8,
+      "category": "Music",
+      "resolution": "3840x2160",
+      "fps": 60,
+      "tags": [
+        "dark ambient",
+        "dark ambient music",
+        "ambient music",
+        "sci fi ambience",
+        "sci fi ambient",
+        "arctic ambience",
+        "antarctic ambience",
+        "polar station",
+        "radar station ambience",
+        "secret facility",
+        "abandoned facility",
+        "cold war ambience",
+        "mysterious ambience",
+        "isolation ambience",
+        "cinematic ambient",
+        "atmospheric soundscapes",
+        "deep ambient",
+        "drone ambient",
+        "eerie ambient",
+        "ambient outpost",
+        "music for focus",
+        "music for reading",
+        "music for studying",
+        "background ambience",
+        "sci fi soundscape"
+      ]
+    },
+    {
+      "position_newest_first": 1,
+      "id": "RG6AHgSVMvA",
+      "title": "FAR COAST — Ambient Music for Listening to the Unknown",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": null
+    },
+    {
+      "position_newest_first": 2,
+      "id": "8Rqo6m1bOzE",
+      "title": "THE SUNKEN GIANT — Deep Ocean Mystery | Dark Ambient Music",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 15000,
+      "upload_date": "20261012",
+      "likes": 287,
+      "comments": 16,
+      "category": "Music",
+      "resolution": "3840x2160",
+      "fps": 60,
+      "tags": [
+        "ambient music",
+        "background music",
+        "ambient",
+        "meditation",
+        "meditation music",
+        "focus",
+        "focus music",
+        "soothing",
+        "soothing music",
+        "calm",
+        "study",
+        "study music",
+        "science fiction",
+        "dark ambient",
+        "dark music",
+        "sleep",
+        "sleep music",
+        "relaxing",
+        "relaxing music",
+        "4k",
+        "ambient outpost"
+      ]
+    },
+    {
+      "position_newest_first": 3,
+      "id": "01YvpUZjwAQ",
+      "title": "SKULL ISLAND — Dark Ambient Music from Uncharted Waters",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 11000
+    },
+    {
+      "position_newest_first": 4,
+      "id": "UvawrWnyqEQ",
+      "title": "BURNING SEA — Dark Ambient Music from an Offshore Rig in Flames",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 17000
+    },
+    {
+      "position_newest_first": 5,
+      "id": "KO0k7at4qCs",
+      "title": "DEAD WATER — Deep Ambient Music & Underground Waterfall Ambience",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 28000,
+      "upload_date": "20260921",
+      "likes": 682,
+      "comments": 24,
+      "category": "Music",
+      "resolution": "3840x2160",
+      "fps": 60,
+      "tags": [
+        "dead water",
+        "deep ambient music",
+        "atmospheric ambient music",
+        "dark ambient",
+        "dark ambient music",
+        "underground ambience",
+        "underground ambient",
+        "underground waterfall",
+        "waterfall ambience",
+        "water ambience",
+        "industrial ambience",
+        "industrial ambient",
+        "control room ambience",
+        "deep underground",
+        "cinematic ambience",
+        "ambient soundscape",
+        "dark soundscape",
+        "deep focus music",
+        "focus ambience",
+        "sleep ambience",
+        "study ambience",
+        "relaxing ambient",
+        "waterfall sounds",
+        "underground facility ambience"
+      ]
+    },
+    {
+      "position_newest_first": 6,
+      "id": "CNow-q2-uRs",
+      "title": "DARK TIDE — Ambient Music from a Lost Offshore Outpost",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 133000,
+      "upload_date": "20260914",
+      "likes": 1936,
+      "comments": 62,
+      "category": "Music",
+      "resolution": "3840x2160",
+      "fps": 60,
+      "tags": [
+        "dark tide",
+        "dark ambient",
+        "dark ambient music",
+        "deep ambient music",
+        "atmospheric ambient music",
+        "sci fi ambience",
+        "sci fi ambient music",
+        "dark sci fi ambience",
+        "offshore ambience",
+        "offshore outpost",
+        "offshore rig",
+        "abandoned offshore rig",
+        "deep sea ambience",
+        "ocean ambience",
+        "dark ocean ambience",
+        "underwater ambience",
+        "control room ambience",
+        "industrial ambience",
+        "dark soundscape",
+        "storm ambience",
+        "deep ocean",
+        "cinematic ambience",
+        "water ambience",
+        "deep work music",
+        "ambient soundscape"
+      ]
+    },
+    {
+      "position_newest_first": 7,
+      "id": "OHIGJQn9JaA",
+      "title": "BLACK HARBOR — Ambient Music from a Secret Submarine Base",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 65000,
+      "upload_date": "20260907",
+      "likes": 905,
+      "comments": 28,
+      "category": "Music",
+      "resolution": "3840x2160",
+      "fps": 60,
+      "tags": [
+        "dark ambient",
+        "dark ambient music",
+        "atmospheric ambient music",
+        "sci fi ambience",
+        "sci fi ambient music",
+        "dark sci fi ambience",
+        "submarine ambience",
+        "submarine base",
+        "secret submarine base",
+        "underground submarine base",
+        "underground ambience",
+        "deep sea ambience",
+        "ocean ambience",
+        "dark ocean ambience",
+        "underwater ambience",
+        "submarine sounds",
+        "industrial ambience",
+        "dark soundscape",
+        "secret base ambience",
+        "water ambience",
+        "music for focus",
+        "deep work music",
+        "ambient outpost",
+        "black harbor"
+      ]
+    },
+    {
+      "position_newest_first": 8,
+      "id": "FjXvg6kn4ak",
+      "title": "SILENT DEEP — The Ghost Rig | Dark Ambient Music & Offshore Ambience",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 80000,
+      "upload_date": "20260831",
+      "likes": 1494,
+      "comments": 48,
+      "category": "Music",
+      "resolution": "3840x2160",
+      "fps": 60,
+      "tags": [
+        "dark ambient",
+        "dark ambient music",
+        "sci fi ambience",
+        "sci fi ambient music",
+        "dark sci fi ambience",
+        "offshore ambience",
+        "offshore rig ambience",
+        "oil rig ambience",
+        "industrial ambience",
+        "deep sea ambience",
+        "ocean ambience",
+        "dark ocean ambience",
+        "underwater ambience",
+        "submarine ambience",
+        "dark soundscape",
+        "isolation ambience",
+        "ghost rig",
+        "creepy ambience",
+        "eerie ambience",
+        "music for focus",
+        "writing music",
+        "reading music",
+        "deep work music",
+        "original dark ambient",
+        "ambient outpost",
+        "silent deep"
+      ]
+    },
+    {
+      "position_newest_first": 9,
+      "id": "ETl1SIxrC7w",
+      "title": "THE ICE WALL | Deep Ambient Music for Antarctic Secrets | 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 24000
+    },
+    {
+      "position_newest_first": 10,
+      "id": "b6Q8uO_mLMM",
+      "title": "THE SECRET ISLAND – Dark Ocean Ambient Music from a Forgotten Coast | 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 19000
+    },
+    {
+      "position_newest_first": 11,
+      "id": "G0-ZTBd6jyI",
+      "title": "THE GREAT PYRAMID OUTPOST | Dark Ambient Music at the Edge of Civilization",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 12000
+    },
+    {
+      "position_newest_first": 12,
+      "id": "yf9S6389ih4",
+      "title": "THE FLOOD — Dark Ambient Music from an Abandoned Dam Outpost",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 11000
+    },
+    {
+      "position_newest_first": 13,
+      "id": "2ecr0wZpkHk",
+      "title": "THE LAST OPERATOR | Post-Apocalyptic Desert Outpost | Sci-Fi Ambience",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 14,
+      "id": "RUUstRP7PjI",
+      "title": "ALONE AT THE DESERT BASE | Atmospheric Ambient Music for Deep Focus",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 15000
+    },
+    {
+      "position_newest_first": 15,
+      "id": "XWnIi39qnAQ",
+      "title": "DEAD LIGHT | Dark Ambient Music Inside a Forgotten Megastructure",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 16,
+      "id": "Qau9IObRk2k",
+      "title": "GONE DARK | Desert Ambient Music After the World Went Silent",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 15000
+    },
+    {
+      "position_newest_first": 17,
+      "id": "ZYUiQZgYCJw",
+      "title": "THE SILENT BORDER 2 | Ambient Music from a Secret Forest Outpost",
+      "duration_s": 36001,
+      "duration_class": "10h+",
+      "views": 11000
+    },
+    {
+      "position_newest_first": 18,
+      "id": "RV4sC6BqaRg",
+      "title": "THE HANDLER: SR-71 Blackbird Inside Job | Cinematic Sci-Fi Ambience (Day & Night) | 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 19,
+      "id": "xQiTA_ktoAw",
+      "title": "THE WHISTLEBLOWER — Cinematic Ambient Music | Day & Night Cycle",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 28000
+    },
+    {
+      "position_newest_first": 20,
+      "id": "CWi552TioSE",
+      "title": "DEAD RADIO — Desert Research Outpost | Relaxing Sci-Fi Ambient Music for Focus | Day & Night | 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 21,
+      "id": "57dz8JN1tOE",
+      "title": "THE SILENT BORDER | Forest Outpost Ambience | Cold War Sci-Fi Ambient | Day & Night Cycle | 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 26000
+    },
+    {
+      "position_newest_first": 22,
+      "id": "hLao1OeWKzQ",
+      "title": "GHOST TRAIN | Dystopian Desert Ambience | Dark Sci-Fi Ambient | Full Day & Night Cycle | 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": null
+    },
+    {
+      "position_newest_first": 23,
+      "id": "c8Kzu3zjGWs",
+      "title": "EVERYBODY’S GONE 3 | Dark Ambient Music After the End of the World",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": null
+    },
+    {
+      "position_newest_first": 24,
+      "id": "uNcHRzwXVGE",
+      "title": "SILENT CONTACT | Monument Valley RV Outpost Ambience | Day & Night Sci-Fi Ambient | 4 Hours | 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 23000
+    },
+    {
+      "position_newest_first": 25,
+      "id": "m0WbXnU0u7E",
+      "title": "HANGAR 18 | Area 51 Day & Night UFO Ambience | Dark Sci-Fi Ambient | 4 Hours | 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": null
+    },
+    {
+      "position_newest_first": 26,
+      "id": "Us10_bOC87Y",
+      "title": "EVERYBODY'S GONE 2 | Fallout Day & Night Desert Ambience | Post-Apocalyptic Ambient | 4 Hours | 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 19000
+    },
+    {
+      "position_newest_first": 27,
+      "id": "e5CMaeYcSWc",
+      "title": "YOU ARE ALL THAT REMAINS | Post-Apocalyptic Ambience | Dark Sci-Fi Rain Ambient | 4 Hours | 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": null
+    },
+    {
+      "position_newest_first": 28,
+      "id": "0mSfpVexk9M",
+      "title": "EVERYBODY'S GONE | Fallout Day & Night Ambience | Post-Apocalyptic Sci-Fi Ambient | 4 Hours | 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 25000
+    },
+    {
+      "position_newest_first": 29,
+      "id": "v_mwhR7qxBk",
+      "title": "YOU ARE STILL HERE | Dark Ambient Music & Rain After Everyone Left",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 12000
+    },
+    {
+      "position_newest_first": 30,
+      "id": "dqLO6HKUWkM",
+      "title": "ALONE - THE HIGH DESERT OUTPOST | Midnight Ambience for Quiet Focus & Sleep | 4 Hours | 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 33000,
+      "upload_date": "20260427",
+      "likes": 805,
+      "comments": 50,
+      "category": "Music",
+      "resolution": "3840x2160",
+      "fps": 60,
+      "tags": [
+        "dark ambient music",
+        "sci-fi ambient",
+        "deep space ambient",
+        "ambient space music",
+        "space ambient",
+        "dark space music",
+        "ambient music for concentration",
+        "ambient music for studying",
+        "cinematic ambient",
+        "ambient for deep focus",
+        "dystopian ambient",
+        "futuristic ambient music",
+        "deep space soundtrack",
+        "atmospheric sci-fi music",
+        "sci-fi soundtrack",
+        "ambient sci-fi",
+        "immersive ambient music",
+        "ambient exploration",
+        "ambient sci-fi drone",
+        "ambient textures",
+        "moody ambient music",
+        "space isolation music"
+      ]
+    },
+    {
+      "position_newest_first": 31,
+      "id": "SURE_m7GCwg",
+      "title": "YOU ARE THE LAST WITNESS | Post-Apocalyptic Rain Ambience | Dark Sci-Fi Ambient | 4 Hours | 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 14000
+    },
+    {
+      "position_newest_first": 32,
+      "id": "gWhpDwiJWK8",
+      "title": "ALONE at OUTPOST XTAL | Dark Winter Sci-Fi Ambience | Ambient Focus Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 33,
+      "id": "3JJfP04QXM0",
+      "title": "THE ABANDONED SCP FACILITY | Dark Ambient | Sci-Fi Ambience for Focus & Study | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 34,
+      "id": "uu7AFNST6gg",
+      "title": "THE EMPTY SAFEHOUSE | Sci-Fi Rain Ambience | Dark Ambient for Focus & Sleep | 3 Hours | 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 20000
+    },
+    {
+      "position_newest_first": 35,
+      "id": "65h_qlXkDb0",
+      "title": "SILENT WATCH: The Forgotten Research Chamber | Sci-Fi Ambient",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 36,
+      "id": "1wJfMt4VCFA",
+      "title": "COLD STATION | Deep Space Ambience | Dark Sci-Fi Ambient for Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 37,
+      "id": "4xmK4q3UfbE",
+      "title": "THE FOREST SCP BASE | Dark Ambient for Exploration | Sci-Fi Ambience | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 12000
+    },
+    {
+      "position_newest_first": 38,
+      "id": "cO_lxbuGdG8",
+      "title": "THE STATION IS STILL LISTENING | Day & Night Ambience | Calm Ambient for Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 39,
+      "id": "MKo-nrMSoCc",
+      "title": "THE APOLLO FILES — Winter Night Ambience | Dark Ambient for Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 40,
+      "id": "JnPA26UIaEA",
+      "title": "THE GOLDEN CITY | Late Night Ambient Soundscape",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 41,
+      "id": "ZUBS53ipxnk",
+      "title": "ALONE - FAR FROM EVERYTHING | Outpost Ambience for Focus & Sleep | 2 Hours | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 42000,
+      "upload_date": "20260319",
+      "likes": 824,
+      "comments": 27,
+      "category": "Music",
+      "resolution": "3840x2160",
+      "fps": 60,
+      "tags": [
+        "Sci-Fi Ambience",
+        "Deep Space White Noise",
+        "Space Station Ambience",
+        "Futuristic White Noise",
+        "Relaxing Sci-Fi Sounds",
+        "Sci-Fi Study Sounds",
+        "Background Noise for Focus",
+        "Starship White Noise",
+        "Sleep",
+        "Ambient Focus Music",
+        "4K Ambient Music",
+        "Productivity Music",
+        "Study Music",
+        "Stress Relief Music",
+        "Anxiety Relief",
+        "Ambient Soundscapes",
+        "Meditation Music",
+        "Deep Focus Music",
+        "Work Music",
+        "Study Soundtracks",
+        "desert",
+        "desert outpost"
+      ]
+    },
+    {
+      "position_newest_first": 42,
+      "id": "yyWiFx-XGF4",
+      "title": "OUTPOST 9 - The Station on the Ridge | Sci-Fi Ambience for Focus & Sleep | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 43,
+      "id": "m3hdI3PAeaY",
+      "title": "DEAD CITIES: Last Signal | Post Apocalyptic Ambience | Dark Ambient for Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 13000
+    },
+    {
+      "position_newest_first": 44,
+      "id": "T6LbUsJ3XAM",
+      "title": "The Gate — Access Denied | Dark Sci-Fi Ambient Music",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": null
+    },
+    {
+      "position_newest_first": 45,
+      "id": "T0i-at08ptU",
+      "title": "NIGHT WATCH - Dark Frequencies | Sci-Fi Outpost Ambience | Ambient for Focus | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 49000
+    },
+    {
+      "position_newest_first": 46,
+      "id": "4eLsr_GHAAs",
+      "title": "CHEYENNE MOUNTAIN | Winter Ambience | Dark Ambient for Deep Focus | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 16000
+    },
+    {
+      "position_newest_first": 47,
+      "id": "Mz1xyXXr4kA",
+      "title": "DEAD CHANNEL - No Incoming Signal | Dark Ambient | Calm Sci-Fi Ambience | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 35000
+    },
+    {
+      "position_newest_first": 48,
+      "id": "SC_2GYrzuUo",
+      "title": "WHITE DOME | Desert Control Room Ambience | Dark Sci-Fi Ambient Soundscape",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 23000
+    },
+    {
+      "position_newest_first": 49,
+      "id": "03r7VJ7gAjI",
+      "title": "Night Shift Control Room | Sci-Fi Ambient Music for Focus",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 50,
+      "id": "BBikvoo01hw",
+      "title": "Silent Surface — Access Under Watch | Sci-Fi Ambience | Calm Focus Ambient | 3 Hours | 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 39000
+    },
+    {
+      "position_newest_first": 51,
+      "id": "VNgyviyiGpE",
+      "title": "PROJECT HADES - Active Surveillance Hub | Sci-Fi Focus Ambience | Dark Ambient | 3 Hours | 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 67000
+    },
+    {
+      "position_newest_first": 52,
+      "id": "Cjh4F-4YgM4",
+      "title": "DEAD CHANNEL: Silent Watch Protocol | Sci-Fi Ambience | Ambient for Sleep & Focus | 3 Hours | 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 65000
+    },
+    {
+      "position_newest_first": 53,
+      "id": "3ZcWF9yi2l8",
+      "title": "Metro Underground — Winter Sci-Fi Ambient",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": null
+    },
+    {
+      "position_newest_first": 54,
+      "id": "Gd6dKClYbYY",
+      "title": "DEAD CHANNEL: Systems Without Command | Sci-Fi Outpost Ambience | Dark Ambient | 3 Hours | 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 51000
+    },
+    {
+      "position_newest_first": 55,
+      "id": "XB1ojUq71qg",
+      "title": "AFTER THE INCIDENT | Sci-Fi Winter Ambience | Dark Ambient | 3 Hours | 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 15000
+    },
+    {
+      "position_newest_first": 56,
+      "id": "1YRVH8NyVUI",
+      "title": "THE GATE - Compromised Passage | Winter Sci-Fi Ambience | Dark Ambient | 3 Hours | 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 20000
+    },
+    {
+      "position_newest_first": 57,
+      "id": "CzwQKeV1BnA",
+      "title": "OUTPOST ON STANDBY | Winter Sci-Fi Ambience | Dark Ambient | 3 Hours | 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 58,
+      "id": "lsBf8launFU",
+      "title": "THE GATE - Dead Tunnels | Winter Sci-Fi Ambience | Dark Ambient | 3 Hours | 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 20000
+    },
+    {
+      "position_newest_first": 59,
+      "id": "N5JHodv4aYU",
+      "title": "MOONLIT WINTER CABIN - Snowbound Night Ambient Music | 3 Hours | 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 47000
+    },
+    {
+      "position_newest_first": 60,
+      "id": "Aytq_rszT_o",
+      "title": "The Gate | Restricted Sector – Dark Sci-Fi Winter Ambience",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 62000
+    },
+    {
+      "position_newest_first": 61,
+      "id": "sXvHQPaIX4c",
+      "title": "The Arctic Black Site | Dark Winter Sci-Fi Ambience for Isolation",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 50000
+    },
+    {
+      "position_newest_first": 62,
+      "id": "pjhZ_Gj7coQ",
+      "title": "THE GATE - Inner Access | Sci-Fi Winter Ambience | Dark Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 19000
+    },
+    {
+      "position_newest_first": 63,
+      "id": "XVdY0O8TWVg",
+      "title": "THE WORLD FEELS FAR AWAY | Isolated Winter Night Ambience | Dark Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 41000
+    },
+    {
+      "position_newest_first": 64,
+      "id": "PC66vSUc8ww",
+      "title": "BEYOND THE FROZEN GATE | Winter Sci-Fi Ambience | Dark Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 25000
+    },
+    {
+      "position_newest_first": 65,
+      "id": "mv5G033jLM8",
+      "title": "Still Awake at Midnight | Dark Night Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 66,
+      "id": "_gsWPsD2j4Y",
+      "title": "Abandoned Arctic Research Station | Dark Winter Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 67,
+      "id": "twvJMW6h-nc",
+      "title": "Last Watch Before Dawn — Winter Outpost Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 29000
+    },
+    {
+      "position_newest_first": 68,
+      "id": "Hh2Or6Mdfq8",
+      "title": "Codename: Collusion | Rain Ambience | Dark Ambient Music | 6 Hours | 4K",
+      "duration_s": 21601,
+      "duration_class": "8h",
+      "views": 39000
+    },
+    {
+      "position_newest_first": 69,
+      "id": "Uw_yaqpKnPo",
+      "title": "The Number Station — Remote Mountain Outpost | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 17000
+    },
+    {
+      "position_newest_first": 70,
+      "id": "L5YPI2qjBmw",
+      "title": "After Midnight | Dark Ambient Atmosphere",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 16000
+    },
+    {
+      "position_newest_first": 71,
+      "id": "dT6vX0O34mU",
+      "title": "WORLD'S END 3 - The Last Researcher | Cinematic Winter Sci-Fi Ambience | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 25000
+    },
+    {
+      "position_newest_first": 72,
+      "id": "kbINCxZifag",
+      "title": "Secret Radar Station – Sci-Fi Winter Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 21000
+    },
+    {
+      "position_newest_first": 73,
+      "id": "BX_2-C8ijBA",
+      "title": "The Analyst’s House: The Man Who Never Existed | Sci-Fi Rain Ambience 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 74,
+      "id": "UB9U6tfq54Y",
+      "title": "THE OUTPOST IN THE ALPS | Sci-Fi Winter Ambience | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 25000
+    },
+    {
+      "position_newest_first": 75,
+      "id": "ezdV5h9aA6g",
+      "title": "Into the Abyss: Underwater Sci‑Fi Outpost - Atmospheric Ambient Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 14000
+    },
+    {
+      "position_newest_first": 76,
+      "id": "kqOQO3qJ2DQ",
+      "title": "The Thing: Dead Winter Station | Dark Sci-Fi Horror & Snow Ambience 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 17000
+    },
+    {
+      "position_newest_first": 77,
+      "id": "dzOarurbtsc",
+      "title": "Abandoned Outpost in a Dark Forest | Sci-Fi Rain Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 19000
+    },
+    {
+      "position_newest_first": 78,
+      "id": "PyqW8VXEa-g",
+      "title": "World’s End 2: Ghost Facility - Atmospheric Winter Sci-Fi Ambient 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 43000
+    },
+    {
+      "position_newest_first": 79,
+      "id": "JmCIp2DD2qo",
+      "title": "FORSAKEN – Dark Sci-Fi Winter Ambience from a Memory Lab | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 72000
+    },
+    {
+      "position_newest_first": 80,
+      "id": "dUUscANzXT4",
+      "title": "After the Mission - Lone Winter Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 19000
+    },
+    {
+      "position_newest_first": 81,
+      "id": "Pm4C5tdtE2s",
+      "title": "The Cuba Crisis Meeting — Cold War Spy Night Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 82,
+      "id": "C5TuPmo0_is",
+      "title": "The Silent Guardian: Secrets in the Deep - Sci-Fi Winter Ambient 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 83,
+      "id": "fS22O6S3dHk",
+      "title": "The Volkov Relay - Desolate Cold War Arctic Station | Winter Sci-Fi Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 50000
+    },
+    {
+      "position_newest_first": 84,
+      "id": "aQEt4bMiFbA",
+      "title": "Groom Lake - The Grey Visitor | Cinematic Sci-Fi Ambient & Apollo Conspiracy | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 85,
+      "id": "3S17RDJxsO4",
+      "title": "The Palm Canyon Briefing | Sci-Fi Conspiracy Dark Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 28000
+    },
+    {
+      "position_newest_first": 86,
+      "id": "EhGYLrqX3uo",
+      "title": "The Father of Apollo – Architect of an Illusion | Dark Winter Sci-Fi Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 29000
+    },
+    {
+      "position_newest_first": 87,
+      "id": "dKFmMwF8dfI",
+      "title": "The Secret Man | Dark Sci-Fi Conspiracy Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 22000
+    },
+    {
+      "position_newest_first": 88,
+      "id": "qXUsY6NW698",
+      "title": "The Palm Springs Job — Spy Night Rain Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 89,
+      "id": "wc96ITthFM8",
+      "title": "Isolation — CIA Mountain Outpost | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 17000
+    },
+    {
+      "position_newest_first": 90,
+      "id": "TO4oFMjIDxk",
+      "title": "The Laurel Directive | Cinematic Sci-Fi Rain Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 81000
+    },
+    {
+      "position_newest_first": 91,
+      "id": "IwcdBPWsdQI",
+      "title": "Signals: The Man Without a Name | Dark Sci-Fi Rain Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 36000
+    },
+    {
+      "position_newest_first": 92,
+      "id": "hfsAoPYDNp4",
+      "title": "Project Umbra: The Moon Files | Mystery Sci-Fi Rain Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 52000
+    },
+    {
+      "position_newest_first": 93,
+      "id": "V6uL50dnKp4",
+      "title": "Collusion: The Secret Program | Cinematic Sci-Fi Rain Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 205000
+    },
+    {
+      "position_newest_first": 94,
+      "id": "6jZz5OnsHp4",
+      "title": "Cold War Outpost Ambience | Dark Sci-Fi Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 95,
+      "id": "TG8ERLOfMp0",
+      "title": "Abandoned Fallout Vault – Dark Sci-Fi Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 31000
+    },
+    {
+      "position_newest_first": 96,
+      "id": "pGnmhVkronY",
+      "title": "Winter Outpost: First Snow | Dark Sci-Fi Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 97,
+      "id": "eX-_DVDuXsM",
+      "title": "Cold War Office Ambience | Sci-Fi Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 78000
+    },
+    {
+      "position_newest_first": 98,
+      "id": "hYVa0sYAe5Q",
+      "title": "Abandoned SCP Base: Death Zone | Dark Sci-Fi Rain Ambience | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 36000
+    },
+    {
+      "position_newest_first": 99,
+      "id": "gZK0ix2IAjM",
+      "title": "Alone in a Ghost City – Dark Sci-Fi Outpost Ambience for Focus & Sleep | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 100,
+      "id": "zGAcR9kStpM",
+      "title": "The Sunken Outpost – Atmospheric Sci-Fi Ambience | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 15000
+    },
+    {
+      "position_newest_first": 101,
+      "id": "CVfmaqFJcuk",
+      "title": "Canyon Secrets | Dark Cinematic Sci-Fi Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 102,
+      "id": "zcv-Sx-vWK8",
+      "title": "Forest Research Lab - Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 12000
+    },
+    {
+      "position_newest_first": 103,
+      "id": "3fvP4uNZpv8",
+      "title": "DEAD Cities 10 | Sci-Fi Ambient Music for Focus & Survival | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 104,
+      "id": "q62Kx3wBGwE",
+      "title": "Secret Abyss | Dark Sci-Fi Ambient Journey into Mystery | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 27000
+    },
+    {
+      "position_newest_first": 105,
+      "id": "qhB2OFTZujM",
+      "title": "Dark Matter Research Facility | Sci-Fi Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 26000
+    },
+    {
+      "position_newest_first": 106,
+      "id": "1XObQFBxpMM",
+      "title": "DEAD Radio 2 | Dark Sci-Fi Ambience | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 107,
+      "id": "BCL3XpsfovU",
+      "title": "The Outpost Array - Relaxing Sci-Fi Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 108,
+      "id": "FALZ9RWungk",
+      "title": "Silent Watch 6: Sunset Outpost - Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 15000
+    },
+    {
+      "position_newest_first": 109,
+      "id": "hcbf7jPwAsg",
+      "title": "Access Gate | Dark Sci-Fi Ambient Music for Deep Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 110,
+      "id": "fiOtEpKyTAw",
+      "title": "GHOST CORE: Dead Terminal | Dark Sci-Fi Ambient for Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 111,
+      "id": "20I4mXyUans",
+      "title": "DEAD Cities 8 | Dark Sci-Fi Ambient Music for Focus & Sleep | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 28000
+    },
+    {
+      "position_newest_first": 112,
+      "id": "PC1XXRz3-VI",
+      "title": "SOLARIS Deep Space Station – Dark Sci-Fi Ambient Focus Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 113,
+      "id": "V5hRYBHgj_8",
+      "title": "PHANTOM Outpost | Dark Sci-Fi Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 25000
+    },
+    {
+      "position_newest_first": 114,
+      "id": "_vjQp04LeoY",
+      "title": "CATACOMBS Outpost | Dark Sci-Fi Ambient for Deep Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 29000
+    },
+    {
+      "position_newest_first": 115,
+      "id": "QHeNCTx7oRE",
+      "title": "Biosphere Lost 3 | Deep Relaxing Sci-Fi Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 21000
+    },
+    {
+      "position_newest_first": 116,
+      "id": "O1WHUcDlNPs",
+      "title": "Research Black Site IV | Dark Sci‑Fi Ambient Music for Deep Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 16000
+    },
+    {
+      "position_newest_first": 117,
+      "id": "tK3LKIHwNzk",
+      "title": "Abandoned Machines | Dark Sci-Fi Ambient Music for Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 21000
+    },
+    {
+      "position_newest_first": 118,
+      "id": "E0YxSPltbbk",
+      "title": "FALLOUT Core | Dark Sci-Fi Ambient | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 119,
+      "id": "z1xdiAH9s2Q",
+      "title": "Biosphere Lost 2 | Deep Calming Sci-Fi Ambient Music | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 163000
+    },
+    {
+      "position_newest_first": 120,
+      "id": "sJhwiOLr0Sg",
+      "title": "Forest Bunker | Dark Sci-Fi Rain Ambience | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 121,
+      "id": "XWfUMyhnnIw",
+      "title": "Skywatch Empire | Relaxing Sci-Fi Ambient Music & ASMR | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 33000
+    },
+    {
+      "position_newest_first": 122,
+      "id": "j5xOig6WiDM",
+      "title": "Mountain Outpost Lab – Dark Sci‑Fi Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 82000
+    },
+    {
+      "position_newest_first": 123,
+      "id": "XtX56L80VS0",
+      "title": "Skywatch - Deep Focus Sci-Fi Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 102000
+    },
+    {
+      "position_newest_first": 124,
+      "id": "Ai5Ygoy-ooA",
+      "title": "Access Tunnel – Dark Sci-Fi Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 125,
+      "id": "ufrdLx8pim0",
+      "title": "The Secret Island | Relaxing Sci-Fi Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 17000
+    },
+    {
+      "position_newest_first": 126,
+      "id": "Tpgag138ygU",
+      "title": "Never Leave 7 – Sci-Fi Mountain Outpost Ambience | 4K",
+      "duration_s": 3961,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 127,
+      "id": "bfhCKn-sWHQ",
+      "title": "Echo Station 4 Is Silent | Sci-Fi Forest Outpost Ambience | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 29000
+    },
+    {
+      "position_newest_first": 128,
+      "id": "9trf8zx3EHw",
+      "title": "Lost Planet Outpost – Epic Summer Sci-Fi Ambient Music & ASMR for Deep Focus and Relaxation | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 47000
+    },
+    {
+      "position_newest_first": 129,
+      "id": "79s8CQM8Zz4",
+      "title": "NEVER Leave 6 – Sci-Fi Outpost Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 52000
+    },
+    {
+      "position_newest_first": 130,
+      "id": "ZOOSFiKaC78",
+      "title": "GONE – Atmospheric Sci-Fi Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 131,
+      "id": "HgUJoXcHVOs",
+      "title": "The Last Watch – Relaxing Sci-Fi Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 25000
+    },
+    {
+      "position_newest_first": 132,
+      "id": "xJn7_YL7YYw",
+      "title": "Silent Frequency 2 | Dark Sci-Fi Ambient Music for Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 65000
+    },
+    {
+      "position_newest_first": 133,
+      "id": "2zetOMRxKl8",
+      "title": "Outer Limits - Melancholic Sci-Fi Outpost Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 134,
+      "id": "ZRwPfdt41dc",
+      "title": "The Flooded Core – Dark Post-Apocalyptic Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 14000
+    },
+    {
+      "position_newest_first": 135,
+      "id": "Ic_W80fJX_s",
+      "title": "NEVER LEAVE 5 – Ambient Sci-Fi Music for Focus | Retro-Futurist Outpost Beyond Reality | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 26000
+    },
+    {
+      "position_newest_first": 136,
+      "id": "PoQ4xBWto_g",
+      "title": "Silent Cry: The Abandoned Tower – Dark Post-Apocalyptic Sci-Fi Ambience | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 137,
+      "id": "tSZIf_qw-hU",
+      "title": "Nightfall at the Jungle Outpost – Post-Apocalyptic Sci-Fi Ambience | 4K",
+      "duration_s": 5199,
+      "duration_class": "2h",
+      "views": 44000
+    },
+    {
+      "position_newest_first": 138,
+      "id": "KrasqRMenW8",
+      "title": "The Black Site – Dark Sci-Fi Ambience Sealed Inside a Classified Research Facility | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 79000
+    },
+    {
+      "position_newest_first": 139,
+      "id": "zXTsd0tadX4",
+      "title": "Operation Blackstone – Dark Sci-Fi Ambient Music from a Failed Mission | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 140,
+      "id": "VRPoHvb5v24",
+      "title": "Sanctuary Deep – Sci-Fi Ambient Music for Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 141,
+      "id": "SKlHZZYP6PQ",
+      "title": "The Loneliest Job in the World – Sci-Fi Ambient Music from a Remote Outpost | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 33000
+    },
+    {
+      "position_newest_first": 142,
+      "id": "vVf3Unl1Re0",
+      "title": "Abandoned SCP Base | Dark Ambient Rain Music [4K]",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 274000
+    },
+    {
+      "position_newest_first": 143,
+      "id": "AD-MxCVHtiQ",
+      "title": "Secret Desert Outpost – Dark Sci-Fi Ambient Music for Focus & Study | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 144,
+      "id": "TwbloLHXyfw",
+      "title": "Command Silence – Dark Sci-Fi Rain Ambient for Deep Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 145,
+      "id": "zNADIokrLGE",
+      "title": "The Silent Outpost 2 | Sci-Fi Ambient Music for Deep Focus & Sleep | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 36000
+    },
+    {
+      "position_newest_first": 146,
+      "id": "aJrDxtA_XTc",
+      "title": "Code Apollo – Sci-Fi Outpost Ambience for Sleep & Focus |4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 147,
+      "id": "zbk75_8wJNo",
+      "title": "Final Mission – Deep Space Sci-Fi Ambience for Sleep & Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 148,
+      "id": "3vu0BpGnV70",
+      "title": "Cold War Outpost - Dark Sci-Fi Ambient Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 21000
+    },
+    {
+      "position_newest_first": 149,
+      "id": "1cvzHfWbbOA",
+      "title": "Descent Into the Lost Facility | Dark Sci-Fi Ambient Soundscape [4K]",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 150,
+      "id": "I59cY0MykRw",
+      "title": "Dark Signal: Arctic Research Station - Sci-Fi Ambient Music [4K]",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 45000
+    },
+    {
+      "position_newest_first": 151,
+      "id": "KRZAcQfAoCc",
+      "title": "CITADEL: DEFCON Alpha | Deep Sci-Fi Outpost Ambience for Sleep, Study & Focus [4K]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 132000
+    },
+    {
+      "position_newest_first": 152,
+      "id": "ScQS2eEHmWk",
+      "title": "Echoes from Signal Ridge – Dark Sci-Fi Ambient Music [4K]",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 82000
+    },
+    {
+      "position_newest_first": 153,
+      "id": "1NMJLOiTTTM",
+      "title": "The Safehouse Archives - Dark Sci-Fi Ambient Music",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 62000
+    },
+    {
+      "position_newest_first": 154,
+      "id": "1fDP9T9Cagg",
+      "title": "Echo Station | Deep Sci-Fi Outpost Ambience for Focus & Calm [4K]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 413000
+    },
+    {
+      "position_newest_first": 155,
+      "id": "gmgw3b-Z1nc",
+      "title": "Silent Frequency | Dark Sci-Fi Ambience for Focus, Study & Sleep | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 33000
+    },
+    {
+      "position_newest_first": 156,
+      "id": "Q2RP1wVtubQ",
+      "title": "Biosphere Lost: Sci-Fi Rain Ambience for Deep Sleep, Focus & Relaxation [4K]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 148000
+    },
+    {
+      "position_newest_first": 157,
+      "id": "4N_-54bbP0M",
+      "title": "The Safehouse | Ambient Music for Sleep & Focus",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 41000
+    },
+    {
+      "position_newest_first": 158,
+      "id": "au8jLqE0iHU",
+      "title": "The Silent Outpost | Ultimate Sci-Fi Rain Ambience for Sleep & Focus [4K]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 114000
+    },
+    {
+      "position_newest_first": 159,
+      "id": "g7N7y3bTq6U",
+      "title": "The Inside Job | Mysterious Sci-Fi Ambience for Sleep & Focus [4K]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 160,
+      "id": "5izGnED_aO0",
+      "title": "Delta Force: Ghost Forest - Dark Sci-Fi Rain Ambience",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 14000
+    },
+    {
+      "position_newest_first": 161,
+      "id": "i92YD2awxb0",
+      "title": "Delta Force: Signal Black – Dark Sci-Fi Rain Ambient Music",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 13000
+    },
+    {
+      "position_newest_first": 162,
+      "id": "n8d23gt4SiI",
+      "title": "Cold War Mountain Outpost | Epic Sci-Fi Ambience for Sleep & Focus [4K]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 40000
+    },
+    {
+      "position_newest_first": 163,
+      "id": "LtCsJNx-55M",
+      "title": "DEAD Zone Outpost | Sci-Fi Rain Ambience in Isolation for Focus & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 49000
+    },
+    {
+      "position_newest_first": 164,
+      "id": "YsPBheY6B_w",
+      "title": "AREA 51: Secret S4 Base | Sci-Fi Ambience for Deep Focus & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 165,
+      "id": "dnuZUwcQ50s",
+      "title": "Secret Black Ops Facility – Dark Sci-Fi Rain Ambience for Focus & Sleep | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 36000
+    },
+    {
+      "position_newest_first": 166,
+      "id": "W6zehLRTLgY",
+      "title": "CITADEL 7: Frozen Time | Sci-Fi Outpost Ambience for Deep Focus & Sleep [4K]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 167,
+      "id": "aQpa-qon9zw",
+      "title": "Sci-Fi Canyon Outpost Base 2 | Dark Rain Ambience for Focus & Sleep | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 25000
+    },
+    {
+      "position_newest_first": 168,
+      "id": "jsoVP6uL6c4",
+      "title": "FALLOUT Bunker [3D] Post-Apocalyptic Sci-Fi Ambience for Focus, Sleep & Study | 4K",
+      "duration_s": 7180,
+      "duration_class": "2h",
+      "views": 42000
+    },
+    {
+      "position_newest_first": 169,
+      "id": "yLGAS4Cdot4",
+      "title": "Deep Sea Outpost – Sci-Fi Ambience for Focus, Sleep & Relaxation | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 16000
+    },
+    {
+      "position_newest_first": 170,
+      "id": "sE7ssGiILqQ",
+      "title": "Sci-Fi Canyon Outpost | Relaxing Rain Ambience for Focus & Sleep | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 121000
+    },
+    {
+      "position_newest_first": 171,
+      "id": "Lzrsy9fzK98",
+      "title": "CITADEL 6 Mountain Outpost | Sci-Fi Ambience for Focus & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 29000
+    },
+    {
+      "position_newest_first": 172,
+      "id": "fMPi3zjT4lY",
+      "title": "Silent Vault | Sci-Fi Underground Ambience for Deep Focus, Study & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 12000
+    },
+    {
+      "position_newest_first": 173,
+      "id": "u4q5YdOgeLM",
+      "title": "Silent Watch 3 | Sci-Fi Ambience for Deep Focus, Study & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 11000
+    },
+    {
+      "position_newest_first": 174,
+      "id": "6CV0wacf6FE",
+      "title": "ENCLAVE Outpost | Epic Sci-Fi Mountain Base Ambience for Deep Focus & Sleep | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 28000
+    },
+    {
+      "position_newest_first": 175,
+      "id": "2d__CN3sp1w",
+      "title": "CITADEL 5 Mountain Outpost | Relaxing Sci-Fi Ambience for Focus & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 23000
+    },
+    {
+      "position_newest_first": 176,
+      "id": "uvv6uw5F8zQ",
+      "title": "Dark Forest 7 | Sci-Fi Outpost Rain Ambience for Focus & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 177,
+      "id": "OmsH3gAFGZE",
+      "title": "Forest BUNKER Outpost | Sci-Fi Ambience for Focus & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 17000
+    },
+    {
+      "position_newest_first": 178,
+      "id": "hSwcHHPcw2o",
+      "title": "SILENT Watch | Mysterious Sci-Fi Ambience for Focus, Study & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 330000
+    },
+    {
+      "position_newest_first": 179,
+      "id": "udLgFN4YF6w",
+      "title": "The Last of Us [3D] Post-Apocalyptic Ambience for Focus & Study 4K",
+      "duration_s": 5199,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 180,
+      "id": "dtMUkQkSXIQ",
+      "title": "The Empty Control Room | Sci-Fi Ambience for Deep Focus & Relaxation 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 25000
+    },
+    {
+      "position_newest_first": 181,
+      "id": "vww-9wXNdhs",
+      "title": "CITADEL 4 Mountain Outpost | Relaxing Sci-Fi Ambience for Focus & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 72000
+    },
+    {
+      "position_newest_first": 182,
+      "id": "f5zcBcZau4A",
+      "title": "Hidden Winter Outpost in the Snow | Immersive Sci-Fi Ambience for Focus & Sleep 4K",
+      "duration_s": 7672,
+      "duration_class": "3h",
+      "views": null
+    },
+    {
+      "position_newest_first": 183,
+      "id": "4Sfg5Vn6hfc",
+      "title": "Sunset Patrol | Sci-Fi Outpost Ambience for Relaxation & Deep Focus [4K]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 17000
+    },
+    {
+      "position_newest_first": 184,
+      "id": "kcZQrSa3rcQ",
+      "title": "Scenic Sci-Fi Outpost | Relaxing Ambience for Focus & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 13000
+    },
+    {
+      "position_newest_first": 185,
+      "id": "wXYhEZrfPjk",
+      "title": "Ghost Mountain Outpost – Dark Sci-Fi Ambience for Focus & Sleep | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 186,
+      "id": "4vTTnW-65Ek",
+      "title": "Keeper of Secrets | Sci-Fi Outpost Ambience for Deep Focus & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 56000
+    },
+    {
+      "position_newest_first": 187,
+      "id": "t6GcqSC4ByU",
+      "title": "CITADEL 3 Sci-Fi Outpost | Ambience for Deep Focus & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 36000
+    },
+    {
+      "position_newest_first": 188,
+      "id": "4CUc5RBLo4A",
+      "title": "Nightwatch Outpost | Rainy Sci-Fi Ambience for Deep Focus & Study 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 189,
+      "id": "24pc_GXoZ4s",
+      "title": "Epic Sci-Fi Mountain Outpost | Spring Ambience for Sleep, Focus & Relaxation 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 20000
+    },
+    {
+      "position_newest_first": 190,
+      "id": "5pv0q9-teEA",
+      "title": "Mountain Base | Cinematic Sci-Fi Outpost Ambience for Deep Focus & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 44000
+    },
+    {
+      "position_newest_first": 191,
+      "id": "qHDXo63vg54",
+      "title": "Alone In The Dark | Eerie Sci-Fi Rain Ambience for Deep Sleep & Focus 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 192,
+      "id": "zizfCutrtHE",
+      "title": "CITADEL 2 | Deep Relaxing Sci-Fi Mountain Outpost | Ambience for Focus & Sleep | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 131000
+    },
+    {
+      "position_newest_first": 193,
+      "id": "HSCugvW7K5A",
+      "title": "Haunting Cliffside Outpost | The Gorge [4 HOURS] Sci-Fi Ambience for Focus & Sleep 4K",
+      "duration_s": 14401,
+      "duration_class": "4h",
+      "views": 57000
+    },
+    {
+      "position_newest_first": 194,
+      "id": "dsZ9slQx6pE",
+      "title": "Behind the Falls | Stunning Sci-Fi Outpost Ambience for Sleep & Focus 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 34000
+    },
+    {
+      "position_newest_first": 195,
+      "id": "9gN7dBlVtmY",
+      "title": "DARK Forest 6 | Rainy Sci-Fi Ambient for Focus & Sleep 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 52000
+    },
+    {
+      "position_newest_first": 196,
+      "id": "Dvwaq1rwioQ",
+      "title": "CITADEL Mountain Outpost | Relaxing Sci-Fi Ambience for Focus & Sleep 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 1300000
+    },
+    {
+      "position_newest_first": 197,
+      "id": "8W-du10K9I8",
+      "title": "The Last of Us | Winter Survival Ambience 4K | Post-Apocalyptic Soundscape",
+      "duration_s": 5503,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 198,
+      "id": "I1y4-nEQMrw",
+      "title": "Tales from NEVER Leave | Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 33000
+    },
+    {
+      "position_newest_first": 199,
+      "id": "6QSlPw1-C7U",
+      "title": "The Gorge | Sci-Fi Cliffside Ambience for Sleep, Study & Focus 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 200,
+      "id": "8oHhIPwMH3Q",
+      "title": "Sci-Fi Outpost Ambience | Mysterious Sounds for Deep Focus & Sleep",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 201,
+      "id": "VMTmNg2ZksA",
+      "title": "ALONE: Secret Data Center 11 | Calm Sci-Fi Ambience for Focus & Sleep @FocusSoundscapesMusic",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 202,
+      "id": "pgGBZzZTg04",
+      "title": "Eerie Sci-Fi Lab Ambience | Focus & Sleep Sounds from a Distant Outpost",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 203,
+      "id": "_gOJLPRmcig",
+      "title": "The Last of Us | Post-Apocalyptic Rain Ambience | 4K 21:9",
+      "duration_s": 6094,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 204,
+      "id": "EPNOZU7Er1Y",
+      "title": "Secret Arctic Vault | Dark Sci-Fi Ambience 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 205,
+      "id": "ddpRYKsZt24",
+      "title": "The Last of Us | Post-Apocalyptic Ambience for Focus & Creativity 4K",
+      "duration_s": 5182,
+      "duration_class": "2h",
+      "views": 70000
+    },
+    {
+      "position_newest_first": 206,
+      "id": "GJ5xl94K4PA",
+      "title": "ALONE: Secret Data Center 10 | Relaxing Ambience for Focus & Sleep 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 17000
+    },
+    {
+      "position_newest_first": 207,
+      "id": "Yg4yaX1qIyc",
+      "title": "Eternal Winter MEGABASE | Dark Sci-Fi Outpost in a Frozen Wasteland 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 208,
+      "id": "2sQiyXsB8LU",
+      "title": "OBLIVION RISING | Abandoned Sci-Fi Outpost Ambience | 4K 21:9",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 209,
+      "id": "FUSdvDqeUsY",
+      "title": "DEAD Space | Abandoned Spaceship Sci-Fi Ambience",
+      "duration_s": 4662,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 210,
+      "id": "KHvY51K7j3U",
+      "title": "Lost Outpost Ambience | Dark Sci-Fi Ambient Music for Focus & Study",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 211,
+      "id": "YHbonad841Y",
+      "title": "Wasteland Control Room  | Sci-Fi Ambience for Deep Focus & Sleep",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 14000
+    },
+    {
+      "position_newest_first": 212,
+      "id": "LPFJkzZG5OY",
+      "title": "The Outpost Experiment | Sci-Fi Ambience for Focus, Study & Sleep 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 213,
+      "id": "waE5EGTxYvA",
+      "title": "The Empty Space Station | Sci-Fi Ambience for Relaxation, Focus, and Sleep",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 214,
+      "id": "FiFMdiUjv5g",
+      "title": "A Night in the Desert | Relaxing ASMR Ambience for Sleep & Focus",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 215,
+      "id": "T0LoMpkx1WU",
+      "title": "Dark Winter | Relaxing Music for Focus & Study 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 35000
+    },
+    {
+      "position_newest_first": 216,
+      "id": "GKjOv59rA9k",
+      "title": "The Control Room | Ambient Music for Relaxation, Focus & Sleep",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 217,
+      "id": "Ij29GJaOJ-U",
+      "title": "The Secrets You Keep 2 | Ambient Music for Focus, Study & Sleep",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 218,
+      "id": "I8JbkN8IRrg",
+      "title": "Lonely Winter Station | Ambient Music for Focus & Sleep",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 15000
+    },
+    {
+      "position_newest_first": 219,
+      "id": "ifNhdqwX6yg",
+      "title": "ALONE: Secret Data Center 9 | Relaxing Ambience for Focus & Sleep",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 24000
+    },
+    {
+      "position_newest_first": 220,
+      "id": "D-4ZKbdo_GY",
+      "title": "It's the 90s and You Are a Secret Agent | Ambient Focus Music 4K",
+      "duration_s": 3604,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 221,
+      "id": "CPPZ2ny78Qg",
+      "title": "The Comfort of Solitude | Relaxing Ambience for Focus & Sleep",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 27000
+    },
+    {
+      "position_newest_first": 222,
+      "id": "fgEwN79398U",
+      "title": "Abandoned SCP Research Site | Relaxing Ambient for Focus & Sleep",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 27000
+    },
+    {
+      "position_newest_first": 223,
+      "id": "SZI0YoehUaQ",
+      "title": "Winter Mission Outpost [Christmas Edition] Ambient Focus Music 4K",
+      "duration_s": 3604,
+      "duration_class": "1h",
+      "views": 25000
+    },
+    {
+      "position_newest_first": 224,
+      "id": "NSThsDe93ok",
+      "title": "Secret Mountain Facility | Dark Winter Ambient Music | 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 138000
+    },
+    {
+      "position_newest_first": 225,
+      "id": "khb3DhQ0W5o",
+      "title": "It Comes at Night | Ambient Focus Music for Dark Winter 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 41000
+    },
+    {
+      "position_newest_first": 226,
+      "id": "UVSjSHmBgZI",
+      "title": "ALONE: Data Center 8 [Ambient Sound - No Music] 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 28000
+    },
+    {
+      "position_newest_first": 227,
+      "id": "RmjPBIAJ7_8",
+      "title": "Winter Mission Outpost 7 [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 43000
+    },
+    {
+      "position_newest_first": 228,
+      "id": "cVcDu5zYhRM",
+      "title": "DARK Winter: BLACK OPS Sites 6 | Ambient Music for Focus & Study 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 22000
+    },
+    {
+      "position_newest_first": 229,
+      "id": "WWIJao-LXHo",
+      "title": "ALONE: Winter Mission Outpost 6 | Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 230,
+      "id": "SAau0m1129I",
+      "title": "Endless Rain Frontier [GLOOM Station 4] Relaxing Sci-Fi Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 13000
+    },
+    {
+      "position_newest_first": 231,
+      "id": "URhLb4cGKYA",
+      "title": "BLACK OPS Sites 5 [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 21000
+    },
+    {
+      "position_newest_first": 232,
+      "id": "7zMopFDNhBA",
+      "title": "ALONE: Winter Mission Outpost 5 | Dark Ambient Focus Music (@Luftrum1 Bioscape) 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 30000
+    },
+    {
+      "position_newest_first": 233,
+      "id": "w7zvOg0-iBE",
+      "title": "The Mountain Base | Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 24000
+    },
+    {
+      "position_newest_first": 234,
+      "id": "hVP3-1mJMo8",
+      "title": "DEAD ISLAND 2 - Traces of Danger | Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 235,
+      "id": "wBxC2bxOhvs",
+      "title": "DARK Winter: BLACK OPS Sites 4 | Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 33000
+    },
+    {
+      "position_newest_first": 236,
+      "id": "NDM2WClJh_c",
+      "title": "ALONE: Winter Mission Outpost 4 | Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 49000
+    },
+    {
+      "position_newest_first": 237,
+      "id": "zE7PhuRxz4I",
+      "title": "Secret Data Center 7 [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 38000
+    },
+    {
+      "position_newest_first": 238,
+      "id": "iK42PUwmcjw",
+      "title": "BLACK OPS Sites 3 [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 30000
+    },
+    {
+      "position_newest_first": 239,
+      "id": "DuX8PJMVzs0",
+      "title": "ALONE: Winter Mission Outpost 2 | NO MUSIC - Ambience for Focus & Sleep",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 25000
+    },
+    {
+      "position_newest_first": 240,
+      "id": "TImZKAZ5Z28",
+      "title": "DEAD ISLAND - No Welcome | Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 241,
+      "id": "Ebh-PxF2Nrg",
+      "title": "BLACK OPS Sites 2 [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 36000
+    },
+    {
+      "position_newest_first": 242,
+      "id": "08sjZqaxRoU",
+      "title": "Winter Mission Outpost 3 [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 76000
+    },
+    {
+      "position_newest_first": 243,
+      "id": "w98apAvz-WU",
+      "title": "Secret Data Center 6 [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 244,
+      "id": "ZTuDITiJBcA",
+      "title": "BLACK OPS Sites [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 66000
+    },
+    {
+      "position_newest_first": 245,
+      "id": "29S2rWCH1SU",
+      "title": "ALONE: Winter Mission Outpost 2 | Dark Ambient Focus Music 4K",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 805000
+    },
+    {
+      "position_newest_first": 246,
+      "id": "5B8gCfRvINU",
+      "title": "DARK Forest 5 | Deep Focus Ambient 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 16000
+    },
+    {
+      "position_newest_first": 247,
+      "id": "FhIwGlv2QOU",
+      "title": "NEVER Leave 4 | Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7208,
+      "duration_class": "2h",
+      "views": 23000
+    },
+    {
+      "position_newest_first": 248,
+      "id": "YbepikNAAWs",
+      "title": "A Place To DIE 2 | Dark Ambient Focus Music [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 249,
+      "id": "GWRw6inrDzg",
+      "title": "The Mountain LAB 3 [ALONE] Dark Ambient Focus Music | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 15000
+    },
+    {
+      "position_newest_first": 250,
+      "id": "XxAlUhtLDbU",
+      "title": "Secret Data Center 5 [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 20000
+    },
+    {
+      "position_newest_first": 251,
+      "id": "itvGJ_RZ9iQ",
+      "title": "NEVER Leave 3 | Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 17000
+    },
+    {
+      "position_newest_first": 252,
+      "id": "72IZ5sbZCsc",
+      "title": "DEAD Cities 7 [END Scene] Dark Ambient Focus Music [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 253,
+      "id": "M1KTGp0kmfw",
+      "title": "Forest Lab: Contact LOST | Dark Focus Ambient [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 21000
+    },
+    {
+      "position_newest_first": 254,
+      "id": "zkcGbPQ1EgY",
+      "title": "The Secrets of AREA 51 | Dark Outpost Focus Ambient 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 17000
+    },
+    {
+      "position_newest_first": 255,
+      "id": "akUMGyA86wE",
+      "title": "ALONE: Winter Mission Outpost | Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 217000
+    },
+    {
+      "position_newest_first": 256,
+      "id": "-ofAkjWCT1c",
+      "title": "DARK Forest 4 | Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 42000
+    },
+    {
+      "position_newest_first": 257,
+      "id": "htAErYSoOHQ",
+      "title": "Secret Data Center 4 [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 37000
+    },
+    {
+      "position_newest_first": 258,
+      "id": "zBxdaxIW2Gc",
+      "title": "DEAD Cities 6 [Control Room] Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 259,
+      "id": "91wKIkzd6SA",
+      "title": "ALONE: Endless Winter Outpost | Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 148000
+    },
+    {
+      "position_newest_first": 260,
+      "id": "0rFeojPhIEM",
+      "title": "DEAD Cities 5 [Secret Test Site] Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 12000
+    },
+    {
+      "position_newest_first": 261,
+      "id": "z8oJcvoqYLY",
+      "title": "NEVER Leave 2 | Dark Ambient Focus Music [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 44000
+    },
+    {
+      "position_newest_first": 262,
+      "id": "M_Zr_a3cgfk",
+      "title": "DEAD Cities 4 [Power Station] Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 14000
+    },
+    {
+      "position_newest_first": 263,
+      "id": "ErBBE5a_tNc",
+      "title": "The Mountain LAB 2 | Dark Ambient Focus Music [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 23000
+    },
+    {
+      "position_newest_first": 264,
+      "id": "5x9K0msoiug",
+      "title": "DEAD Cities 3 [Radio Tower] Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 14000
+    },
+    {
+      "position_newest_first": 265,
+      "id": "A2LMIzJ0wt0",
+      "title": "The SILENT Mission | Dark Ambient Focus Music [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 15000
+    },
+    {
+      "position_newest_first": 266,
+      "id": "n_mqn7vmENs",
+      "title": "DEAD Cities 2 [Factory District] Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 20000
+    },
+    {
+      "position_newest_first": 267,
+      "id": "0F64a7JvO5c",
+      "title": "CONSPIRACY 2 | Dark Ambient Focus Music 4K [BLACK Projects]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 36000
+    },
+    {
+      "position_newest_first": 268,
+      "id": "uCAyx_8NDUs",
+      "title": "DEAD Cities [Control Station] Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 64000
+    },
+    {
+      "position_newest_first": 269,
+      "id": "TMJRXOO8iVE",
+      "title": "Missing In Action | Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 12000
+    },
+    {
+      "position_newest_first": 270,
+      "id": "U4eoqesM-s8",
+      "title": "Secret Data Center 3 [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 23000
+    },
+    {
+      "position_newest_first": 271,
+      "id": "qWGh-PNs-m4",
+      "title": "River of Darkness | Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 16000
+    },
+    {
+      "position_newest_first": 272,
+      "id": "8cICcgI4czs",
+      "title": "Where You Belong | Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 29000
+    },
+    {
+      "position_newest_first": 273,
+      "id": "GGw3axV7IGs",
+      "title": "NEVER Leave | Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 693000
+    },
+    {
+      "position_newest_first": 274,
+      "id": "LQWCbtqqhmg",
+      "title": "DARK Shadows 2 [Winter Outpost] Deep Focus Ambient Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 275,
+      "id": "CZKH6TX6hFc",
+      "title": "Clear and Present DANGER | Dark Focus Ambient [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 35000
+    },
+    {
+      "position_newest_first": 276,
+      "id": "NMmGK4JSO4g",
+      "title": "LONG Outpost DAYS 2 | Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 14000
+    },
+    {
+      "position_newest_first": 277,
+      "id": "ipXi0sHuUI4",
+      "title": "LOSS or VIOLENCE [WINTER Outpost] Dark Focus Ambient Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 20000
+    },
+    {
+      "position_newest_first": 278,
+      "id": "CQNIkEPOKGs",
+      "title": "No Time For Caution | Dark Focus Ambient 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 20000
+    },
+    {
+      "position_newest_first": 279,
+      "id": "gbhHqUnZHHs",
+      "title": "A Place To DIE | Dark Focus Ambient 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 280,
+      "id": "uL0khb9r2lA",
+      "title": "The Secrets You Keep | Dark Focus Ambient Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 41000
+    },
+    {
+      "position_newest_first": 281,
+      "id": "Cr4Y_ak4r4A",
+      "title": "LONG Outpost DAYS || Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 20000
+    },
+    {
+      "position_newest_first": 282,
+      "id": "BGIzW73hLj0",
+      "title": "DARK Shadows [WINTER Outpost] Deep Focus Ambient Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 110000
+    },
+    {
+      "position_newest_first": 283,
+      "id": "sH3VbMM-7nA",
+      "title": "ALONE: DARK Forest 3 | Deep Focus Sleep Ambient Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 12000
+    },
+    {
+      "position_newest_first": 284,
+      "id": "u-HhWe9jSlw",
+      "title": "Secret LAB 257 | Dark Ambient Focus Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 285,
+      "id": "iyi3MUof6zo",
+      "title": "Abandoned Lab: No RESCUE | Dark Ambient Focus Music [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 286,
+      "id": "MVer_ITpJv0",
+      "title": "ALONE: DARK Forest 2 | Deep Ambient Sleep Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 26000
+    },
+    {
+      "position_newest_first": 287,
+      "id": "paYfywfbdE4",
+      "title": "The Mountain LAB [2 Hours ALONE] Dark Ambient Sleep Focus Music | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 25000
+    },
+    {
+      "position_newest_first": 288,
+      "id": "0T-F2LmV5d4",
+      "title": "FEAR of the DARK [ALONE] Deep Ambient Sleep Focus Music | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 289,
+      "id": "xF8enG4JHDg",
+      "title": "GLOOM 3: Hibernation Outpost | 2 HOURS Ultra Deep Sleep Focus Ambient [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 290,
+      "id": "QPgQ923rFgE",
+      "title": "THEY Are Here. || Secret BASE || 2 Hours Dark Focus Ambient 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 291,
+      "id": "vKNdHguZWxo",
+      "title": "Abandoned Lab: NEVER Return | Dark Focus Ambient [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 292,
+      "id": "6l9q9m_mqDU",
+      "title": "One Last MOMENT | Deep Sleep Focus Ambient [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 293,
+      "id": "S6HrMh8vdU8",
+      "title": "Secret DATA Center 2 [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 29000
+    },
+    {
+      "position_newest_first": 294,
+      "id": "yjst37m6fE8",
+      "title": "Abandoned Lab: The WARNING | Dark Focus Ambient [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 51000
+    },
+    {
+      "position_newest_first": 295,
+      "id": "poDy3VU-qlo",
+      "title": "Forest of DEAD War Machines 2 | Dark Focus Ambient Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 296,
+      "id": "tU2pUL9IRQA",
+      "title": "DARK Mountain: Ghost Tower 2 [ALONE] Focus Ambient Music",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 297,
+      "id": "ZlWtn1iWPPc",
+      "title": "Secret CANYON Outpost | Dark Focus Ambient [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 298,
+      "id": "7IXbBQNvfqw",
+      "title": "The LAB Nobody Knows About | Dark Ambient Music 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 299,
+      "id": "tFFX-EJ0aEA",
+      "title": "GLOOM 2: Hibernation Outpost | Dark Focus Ambient [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 20000
+    },
+    {
+      "position_newest_first": 300,
+      "id": "OdSSTxpyAcA",
+      "title": "Desert GHOSTS | Dark Focus Ambient 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 12000
+    },
+    {
+      "position_newest_first": 301,
+      "id": "UKFrmzyXXes",
+      "title": "Bunker Outpost [ALONE] Dark Focus Ambient 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 15000
+    },
+    {
+      "position_newest_first": 302,
+      "id": "pU5tMMxAuPM",
+      "title": "Secret DATA Center [ALONE] Dark Focus Ambient 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 27000
+    },
+    {
+      "position_newest_first": 303,
+      "id": "Wu3PQI2sdF8",
+      "title": "DARK Matter: It's Behind You | Dark Focus Ambient 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 304,
+      "id": "jSrHjFMqnsA",
+      "title": "Forest of DEAD War Machines | Dark Focus Ambient 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 305,
+      "id": "y0oixp6phno",
+      "title": "On Your Own | Dark Focus Ambient 4K [ALONE]",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 13000
+    },
+    {
+      "position_newest_first": 306,
+      "id": "iTBrLv_C4a4",
+      "title": "The OUTER Limits | Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 14000
+    },
+    {
+      "position_newest_first": 307,
+      "id": "Y8Xl-NcOXZ8",
+      "title": "Final Days 3 | Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 308,
+      "id": "gsQkFeZctsA",
+      "title": "The Outpost Chamber | Dark Ambient Focus Music [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 309,
+      "id": "-JmAAEmRDuk",
+      "title": "The Abandoned LAB: Dark Ambient Focus Music [ALONE] 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 24000
+    },
+    {
+      "position_newest_first": 310,
+      "id": "K1wfZRsx840",
+      "title": "GLOOM: Hibernation Outpost | Dark Ambient Focus Music [ALONE] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 21000
+    },
+    {
+      "position_newest_first": 311,
+      "id": "xV4LnDSkHds",
+      "title": "Winter Forest Lookout | Dark Focus Ambience 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 312,
+      "id": "98cDn3w2JQs",
+      "title": "Deep Sea Station [NO MUSIC] Dark Ambient Focus 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 12000
+    },
+    {
+      "position_newest_first": 313,
+      "id": "WRgJ4FZUorA",
+      "title": "WASTELAND | Dark Ambient",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 314,
+      "id": "_FORFDIAEL4",
+      "title": "Midnight Ambient Mix - Reflect, Relax & Drift Away | Focus Calm Energy 4K",
+      "duration_s": 4235,
+      "duration_class": "2h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 315,
+      "id": "BtU2mn3PeH0",
+      "title": "FALLOUT Bunker [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 15000
+    },
+    {
+      "position_newest_first": 316,
+      "id": "deFkJg2gbm4",
+      "title": "Winter Forest Lookout [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 317,
+      "id": "43QzXqcG4DE",
+      "title": "Desert Outpost 4 [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 11000
+    },
+    {
+      "position_newest_first": 318,
+      "id": "x5Lp1L1O5zg",
+      "title": "Final Days 2 | Dark Ambient Focus Music [SOLITUDE] 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 319,
+      "id": "w18A73ydcPU",
+      "title": "SIGNS of LIFE [ALONE] Dark Ambience 4K [No Music]",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 320,
+      "id": "dglgh7t-n3Q",
+      "title": "INSIDE The Shadows [Black Projects 10] Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 11000
+    },
+    {
+      "position_newest_first": 321,
+      "id": "b0TN4igG3KY",
+      "title": "TIME Machine | Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 322,
+      "id": "F13L7fwiisU",
+      "title": "Final Days | Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 14000
+    },
+    {
+      "position_newest_first": 323,
+      "id": "6Mjkq3CLKg0",
+      "title": "Test Facility [Black Projects 9] Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 324,
+      "id": "fJ4cSLiWblI",
+      "title": "DAYS Gone [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 104000
+    },
+    {
+      "position_newest_first": 325,
+      "id": "xyeETfyF1oo",
+      "title": "GHOST Tower [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 28801,
+      "duration_class": "8h",
+      "views": 107000
+    },
+    {
+      "position_newest_first": 326,
+      "id": "_jkXXThRysA",
+      "title": "Deep Sea Outpost [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 21000
+    },
+    {
+      "position_newest_first": 327,
+      "id": "0WZ8Scnmx94",
+      "title": "DEATH ZONE | Abandoned Black Site | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 328,
+      "id": "-3i12PQQcbc",
+      "title": "Classified SITE [Black Projects 8] Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 329,
+      "id": "49FDhRUo1Tg",
+      "title": "Signs of LIFE [ALONE] Dark Ambient Focus Music 4K | feat. @FocusSoundscapesMusic",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 13000
+    },
+    {
+      "position_newest_first": 330,
+      "id": "QnO-uvIVd5c",
+      "title": "Disturbing Dreams [SOLITUDE] Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 331,
+      "id": "EPDCo-4tzWU",
+      "title": "The HIDDEN Base [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 13000
+    },
+    {
+      "position_newest_first": 332,
+      "id": "kbCvcY3IVns",
+      "title": "ARRIVAL | Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 333,
+      "id": "NfjTl74QTis",
+      "title": "The HANGAR [Black Projects 7] Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 334,
+      "id": "jSsBPB7WAfA",
+      "title": "LOST Outpost | Dark Ambient Focus Music 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 40000
+    },
+    {
+      "position_newest_first": 335,
+      "id": "_sJUHQUcemE",
+      "title": "Dark Forest [8 Hours ALONE] Ambient Focus Music 4K",
+      "duration_s": 28801,
+      "duration_class": "8h",
+      "views": 133000
+    },
+    {
+      "position_newest_first": 336,
+      "id": "Iq7qhe7R-OM",
+      "title": "The SECRET Facility | Dark Ambient Focus Music 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 16000
+    },
+    {
+      "position_newest_first": 337,
+      "id": "Ulrjt2chgMU",
+      "title": "NO WAY OUT | Underground Facility — Dark Sci-Fi Ambience",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 338,
+      "id": "MxfQhhk7GEw",
+      "title": "FALLOUT Desert [SOLITUDE] Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 339,
+      "id": "JgC0YINPT-M",
+      "title": "GHOST Tower [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 108000
+    },
+    {
+      "position_newest_first": 340,
+      "id": "8J3aNLJ0p0Q",
+      "title": "Into DANGER [Black Projects 6] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 17000
+    },
+    {
+      "position_newest_first": 341,
+      "id": "PsxkP2OP9yo",
+      "title": "The Failed Mission [SOLITUDE] Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 342,
+      "id": "ov-Af4eSTKU",
+      "title": "Desert OUTPOST 2 [ALONE] Focus Ambient - NO Music | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 17000
+    },
+    {
+      "position_newest_first": 343,
+      "id": "EbeII3fKAJk",
+      "title": "Detach From The World [SOLITUDE] Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 344,
+      "id": "fksdTMfRPqU",
+      "title": "ALONE at a DESERT OUTPOST | Control Room Ambience | Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 20000
+    },
+    {
+      "position_newest_first": 345,
+      "id": "gb6lKl8c9cg",
+      "title": "CONSPIRACY [Black Projects 5] Dark Ambient Focus Music 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 237000
+    },
+    {
+      "position_newest_first": 346,
+      "id": "ju59VBRZk6U",
+      "title": "The Empty Outpost [ALONE] Dark Ambient [No Music] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 74000
+    },
+    {
+      "position_newest_first": 347,
+      "id": "OovWK64WOTs",
+      "title": "Hibernation Outpost [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 10801,
+      "duration_class": "3h",
+      "views": 350000
+    },
+    {
+      "position_newest_first": 348,
+      "id": "pg3Bq2YKp7Y",
+      "title": "The Hidden Cabin [ALONE] Dark Ambient Focus [No Music] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 47000
+    },
+    {
+      "position_newest_first": 349,
+      "id": "HNHPoSrZSTo",
+      "title": "SCP Control STATION [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 11000
+    },
+    {
+      "position_newest_first": 350,
+      "id": "FlFocn-_LwQ",
+      "title": "FALLOUT ZONE | Rain Ambience | Dark Ambient Music for Focus | 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 351,
+      "id": "G9TK400pZKQ",
+      "title": "Transmission Lost [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 59000
+    },
+    {
+      "position_newest_first": 352,
+      "id": "SOUF8JIqlKw",
+      "title": "ALONE at SCP Facility 4  | Dark Ambient for Focus | Rain Ambience | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 13000
+    },
+    {
+      "position_newest_first": 353,
+      "id": "DdLYw1CrH5s",
+      "title": "Unknown SCP Facility [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 25000
+    },
+    {
+      "position_newest_first": 354,
+      "id": "Rsp7gtqDtiM",
+      "title": "Secret Mountain Complex | Sci-Fi Rain Ambience | Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 355,
+      "id": "eKMxo0_ILug",
+      "title": "Abandoned Compound [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 356,
+      "id": "ZRgW66WN0uk",
+      "title": "Dark Forest [ALONE] Dark Ambient [No Music] 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 94000
+    },
+    {
+      "position_newest_first": 357,
+      "id": "FtnNEiRUdVA",
+      "title": "The Hacker Mansion [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 24000
+    },
+    {
+      "position_newest_first": 358,
+      "id": "XoMHAnGNAPE",
+      "title": "The Deserted Camp [ALONE] Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 55000
+    },
+    {
+      "position_newest_first": 359,
+      "id": "bNmP4NsYgRI",
+      "title": "ALONE: Dark Forest | Deep Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 695000
+    },
+    {
+      "position_newest_first": 360,
+      "id": "UnaXM6ceHks",
+      "title": "ALONE: The Empty Outpost [Dark Ambient Focus Music] アローン: 空の前哨基地 - アンビエント ミュージック",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 1000000
+    },
+    {
+      "position_newest_first": 361,
+      "id": "_1TF96qANn0",
+      "title": "Approaching DANGER [ALONE] Dark Ambient Focus Music | 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 362,
+      "id": "4tpQSMJcnOI",
+      "title": "The LAST Fortress 3 | Dark Ambient Focus Music 4K",
+      "duration_s": 7201,
+      "duration_class": "2h",
+      "views": null
+    },
+    {
+      "position_newest_first": 363,
+      "id": "oAjYCj6uyfM",
+      "title": "The LAST Fortress 2 | Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 364,
+      "id": "XxE_AfkgC1Y",
+      "title": "The LAST Fortress 1 | Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 365,
+      "id": "qyIFL4U51gg",
+      "title": "Outpost XTAL-11 | Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 366,
+      "id": "AQyKEP4WIHs",
+      "title": "THE DAY AFTER 3 | Dark Ambient Focus Music 4K",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 367,
+      "id": "UHBIvFKULEI",
+      "title": "SCP FACILITY 2 | The Isolation Wing | Dark Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 368,
+      "id": "FVCOi2gm_jg",
+      "title": "SCP FACILITY 1 | Secure Containment | Dark Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 16000
+    },
+    {
+      "position_newest_first": 369,
+      "id": "Eylh8aK9DUU",
+      "title": "HIDDEN OASIS | Sci-Fi Outpost Ambience | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 370,
+      "id": "G3tZ8Il7Itc",
+      "title": "XTAL-10 | Lost Forest Outpost | Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 371,
+      "id": "9bxQWjW71q8",
+      "title": "CHECKPOINT | Desert Station | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 372,
+      "id": "OUzPFDhBQ_8",
+      "title": "BLACK PROJECTS 3 | Remote Desert Facility | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 373,
+      "id": "ydNyElBmzfg",
+      "title": "INTO THE DEEP 3 | Underground Facility | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 374,
+      "id": "4OkkWqBlO4M",
+      "title": "BLACK PROJECTS 2 | High Desert Mission | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 375,
+      "id": "bz_KJ0WvN1U",
+      "title": "XTAL-9 - Secret Forest Outpost | Sci-Fi Ambience | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 16000
+    },
+    {
+      "position_newest_first": 376,
+      "id": "DkYbz3GKdtQ",
+      "title": "XTAL-6 | Siberian Outpost Sci-Fi Ambience | Dark Winter Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 377,
+      "id": "8D4cR0HXGeo",
+      "title": "BLACK PROJECTS 1 | Mountain Facility | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 378,
+      "id": "8ZV8YWPbrZo",
+      "title": "CANYON OF SECRETS 2 | Desert Sci-Fi Ambience | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 379,
+      "id": "nc_FKCRfJLQ",
+      "title": "LAST LIGHT 7 | Hidden Forest Black Site | Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 380,
+      "id": "giYO2o8XjNk",
+      "title": "XTAL-7C | Secluded Mountain Outpost | Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 9500
+    },
+    {
+      "position_newest_first": 381,
+      "id": "ajvqAX2Gvnk",
+      "title": "SECRET FACILITY 3 | Restricted Access | Dark Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 382,
+      "id": "cTq2gjJcFQg",
+      "title": "DEEP TUNNELS | Underground Complex | Dark Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 383,
+      "id": "zjTjndV0OBE",
+      "title": "THE LAST OF US | Post-Apocalyptic Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 11000
+    },
+    {
+      "position_newest_first": 384,
+      "id": "O840N6UtmXE",
+      "title": "XTAL-8 | Desert Outpost | Calm Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 385,
+      "id": "drDBdnHx2CQ",
+      "title": "XTAL-7 | Hidden Mountain Station | Dark Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 15000
+    },
+    {
+      "position_newest_first": 386,
+      "id": "CCTe_3sRuh4",
+      "title": "INTO THE DARK | Winter Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 387,
+      "id": "qMb0Xg6sbFQ",
+      "title": "ABANDONED SCP LAB | Dark Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 388,
+      "id": "BY10fkm2f94",
+      "title": "HIDDEN FOREST BASE | Dark Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 389,
+      "id": "A9N-7azJanw",
+      "title": "SCP Containment Facility | Dark Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 390,
+      "id": "XK51IyAR4zg",
+      "title": "SCP Site-19 | Secure Containment Facility | Dark Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 391,
+      "id": "WD2BQUEsijQ",
+      "title": "IT'S IN THE HILLS 2 | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 392,
+      "id": "fuXA_nYC2es",
+      "title": "THE UNDERGROUND COMPLEX | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 393,
+      "id": "KIs2Wc5niSw",
+      "title": "INTO THE DEEP 2 | Underground Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 394,
+      "id": "lO_-Ga1qMS0",
+      "title": "THE ABANDONED SCP FACILITY | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 395,
+      "id": "Gdu7yOKwrT4",
+      "title": "SCP SITE-06 | Secret Containment Facility | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 18000
+    },
+    {
+      "position_newest_first": 396,
+      "id": "O4A2V88dgAI",
+      "title": "THE DAY AFTER | Abandoned Research Facility | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 397,
+      "id": "-qMftOthH7k",
+      "title": "SCP RESEARCH | Site-416 | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 398,
+      "id": "25mKdqwOujY",
+      "title": "LAST LIGHT 6 | Desert Safehouse | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 399,
+      "id": "uCtHMSyfv1w",
+      "title": "IT'S IN THE HILLS | Mountain Black Site | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 400,
+      "id": "PgtivjlUqOU",
+      "title": "RELIC | Ancient Underground Complex | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 401,
+      "id": "u3XYgHX-su0",
+      "title": "LAST LIGHT 5 | Mountain Research Station | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 402,
+      "id": "M0xn5GBL7fA",
+      "title": "INTO THE DEEP | Hidden Research Facility | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 29000
+    },
+    {
+      "position_newest_first": 403,
+      "id": "EVoo_sbvPIs",
+      "title": "THE DREAM IS ALWAYS THE SAME | Forest Retreat | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 404,
+      "id": "iboIR6DwNR0",
+      "title": "XTAL-5 | Mountain Outpost | Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 405,
+      "id": "G6npGvOBRpQ",
+      "title": "SKY FIELDS 2 | Mountain Research Station | Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 406,
+      "id": "lusNxMQ2MLk",
+      "title": "GHOST MISSION 2 | Industrial Research Complex | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 407,
+      "id": "5MFE_KXdoQc",
+      "title": "THE DAY AFTER | Abandoned Research Facility | Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 408,
+      "id": "lartU0vpo8s",
+      "title": "LAST LIGHT 4 | Secluded Forest Outpost | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 13000
+    },
+    {
+      "position_newest_first": 409,
+      "id": "nLNsqbBRsJ4",
+      "title": "A THIEF'S PASSAGE | Secret Mountain Complex | Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 410,
+      "id": "Mr2LWS9lzVQ",
+      "title": "LAST LIGHT 3 | Remote Mountain Station | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 411,
+      "id": "GqFJLlHofhE",
+      "title": "THE CANYON OF SECRETS | Hidden Desert Facility | Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 412,
+      "id": "QRRDo1lDgw8",
+      "title": "GHOST MISSION | Industrial Megastructure | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 413,
+      "id": "JCfdO7Ux1wk",
+      "title": "LAYERS OF DAWN | Mountain Observatory | Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 414,
+      "id": "Iysm0FPs_q4",
+      "title": "SKY FIELDS | Mountain Retreat | Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 10000
+    },
+    {
+      "position_newest_first": 415,
+      "id": "qKU_fMNM-kc",
+      "title": "LAST LIGHT | Hidden Canyon Station | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 17000
+    },
+    {
+      "position_newest_first": 416,
+      "id": "2b6J4PY2Uqc",
+      "title": "LAST LIGHT 2 | Hidden Research Station | Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 16000
+    },
+    {
+      "position_newest_first": 417,
+      "id": "LfJIeR_x4kg",
+      "title": "THE RESEARCH CENTER | Secret Mountain Facility | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 16000
+    },
+    {
+      "position_newest_first": 418,
+      "id": "hMJf2RN_tcE",
+      "title": "THE RESEARCH CENTER | Secret Mountain Facility | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 419,
+      "id": "vpsDTn7R7pg",
+      "title": "NOTHING BUT LONELINESS 3 | Liminal Space | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 420,
+      "id": "RFuTtwdgVEo",
+      "title": "SCP RESEARCH | Underground Facility | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 421,
+      "id": "Q6rnZ4pfPzs",
+      "title": "OTHERWORLD | Frozen Space Complex | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 422,
+      "id": "16hD_aDreQo",
+      "title": "SCP RESEARCH | Abandoned Forest Facility | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 423,
+      "id": "qEdOZospGFQ",
+      "title": "SCP RESEARCH | Forest Black Site | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 424,
+      "id": "2h7de_bwiDw",
+      "title": "LONELINESS 2 | Lost in a Liminal World | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 425,
+      "id": "qLILVVm9-WY",
+      "title": "THE HIDDEN SCP FACILITY | Frozen Research Site | Dark Ambient Music",
+      "duration_s": 3845,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 426,
+      "id": "GqfErAJ9P-Y",
+      "title": "LOOKING FOR SHELTER | Mountain Bunker | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 13000
+    },
+    {
+      "position_newest_first": 427,
+      "id": "LRVtzdyh_68",
+      "title": "NOTHING BUT LONELINESS | Liminal Void | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 428,
+      "id": "hDS3rn-5R5U",
+      "title": "MAXIMUM RISK | Secret Mountain Passage | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 429,
+      "id": "P2JrUH3TlXQ",
+      "title": "THE STRUCTURE | Mysterious Ancient Megastructure | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 430,
+      "id": "buStkAnb7Ls",
+      "title": "FLASHPOINT | Hidden Mountain Base | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 431,
+      "id": "lwy3NUVoFAc",
+      "title": "CRATER | Mysterious Impact Site | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 432,
+      "id": "L3RR06sbZ18",
+      "title": "WAYPOINT HUB-2 | Dark Forest Outpost | Sci-Fi Winter Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 433,
+      "id": "h4vgIVEoKYA",
+      "title": "NEAR DARK | Remote Research Compound | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 434,
+      "id": "iNaCbGGRl4A",
+      "title": "XTAL-4 | Hidden Forest Outpost | Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 435,
+      "id": "WqdCS75nJX4",
+      "title": "ALONE IN THE DARK | Isolated Gas Station | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 436,
+      "id": "WJ4Jz_6DELE",
+      "title": "THE SECRET MINE | Research Site | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 437,
+      "id": "cXzfM5d5tJ0",
+      "title": "LOST BUNKER | Abandoned Fallout Shelter | Dark Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 438,
+      "id": "sVL_vvdTG4U",
+      "title": "XTAL-2 | Forest Research Outpost | Sci-Fi Winter Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 439,
+      "id": "HfVayj9Fr9w",
+      "title": "POINT OF NO RETURN | Remote Mountain Outpost | Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 440,
+      "id": "iRyWs3F1KuE",
+      "title": "DARK CLEARING | Forest Research Outpost | Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 441,
+      "id": "4c_Lzt3G3is",
+      "title": "XTAL-3 | Remote Forest Outpost | Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 442,
+      "id": "j8744lR4NkM",
+      "title": "WAYPOINT | Winter Forest Station | Dark Sci-Fi Ambient Music",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 443,
+      "id": "bXnfSpuQwB4",
+      "title": "XTAL-1 | Mountain Outpost | Sci-Fi Winter Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 23000
+    },
+    {
+      "position_newest_first": 444,
+      "id": "fKN3HvZc6sg",
+      "title": "ENEMY LINES | Hidden Forest Outpost | Sci-Fi Winter Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 445,
+      "id": "VdyDictupok",
+      "title": "THE AMBUSH | Abandoned Research Facility | Dark Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 446,
+      "id": "MKDozHq2Oak",
+      "title": "THE DEEP | Underground Cave Station | Dark Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 447,
+      "id": "oAAVK8JcG1k",
+      "title": "DOME FIELD NORTH | Arctic Research Station | Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 448,
+      "id": "sV4rxxBWrH0",
+      "title": "RAINY MOUNTAIN CABIN | Rain Ambience for Focus & Sleep",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 449,
+      "id": "iSa1lt2V6f0",
+      "title": "DOME FIELD EAST | Frozen Science Complex | Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 450,
+      "id": "IPA57uGwDEw",
+      "title": "DO NOT ENTER | Remote Mountain Station | Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 451,
+      "id": "_0iLi6dsHnE",
+      "title": "FALLOUT BUNKER | Underground Shelter | Dark Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": null
+    },
+    {
+      "position_newest_first": 452,
+      "id": "Aw5TPC415NM",
+      "title": "THE HIDDEN BASE | Secret Forest Facility | Dark Sci-Fi Ambience",
+      "duration_s": 3601,
+      "duration_class": "1h",
+      "views": 24000
+    },
+    {
+      "position_newest_first": 453,
+      "id": "oX5Ke8mPgik",
+      "title": "THE SECRET FACILITY | Dark Sci-Fi Ambience",
+      "duration_s": 3602,
+      "duration_class": "1h",
+      "views": 103000
+    }
+  ]
+}

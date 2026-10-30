@@ -1,0 +1,42 @@
+{
+  "retrieved": "2026-10-30",
+  "public_channel_data": [
+    {"channel": "Ambient Colony", "url": "https://www.youtube.com/@AmbientColony/videos", "method": "yt-dlp 2026.10.26 flat playlist and per-video JSON for all eleven videos; no account"},
+    {"channel": "Ambient Outpost", "url": "https://www.youtube.com/@AmbientOutpost/videos", "method": "yt-dlp flat playlist (454 entries) plus per-video JSON for nine sampled videos; thumbnails inspected at listing size and not stored"}
+  ],
+  "ambient_outpost_sampled_videos": [
+    "https://www.youtube.com/watch?v=CNow-q2-uRs",
+    "https://www.youtube.com/watch?v=FjXvg6kn4ak",
+    "https://www.youtube.com/watch?v=OHIGJQn9JaA",
+    "https://www.youtube.com/watch?v=ZUBS53ipxnk",
+    "https://www.youtube.com/watch?v=dqLO6HKUWkM",
+    "https://www.youtube.com/watch?v=KO0k7at4qCs",
+    "https://www.youtube.com/watch?v=Ak0aQdxc6Kw",
+    "https://www.youtube.com/watch?v=8Rqo6m1bOzE",
+    "https://www.youtube.com/watch?v=dDYH-75RJWA"
+  ],
+  "listener_evidence": [
+    {"title": "Dark and moody music for writing on a deep, dark winter's night (Substack)", "url": "https://mbh4h.substack.com/p/ambient-outpost-youtube-music-for-dark-times"}
+  ],
+  "creator_positioning": [
+    {"title": "Ambient Outpost Patreon", "url": "https://www.patreon.com/cw/AmbientOutpost"},
+    {"title": "Ambient Outpost website", "url": "https://www.ambientoutpost.com"}
+  ],
+  "youtube_policy": [
+    {"title": "Disclosing use of altered or synthetic content", "url": "https://support.google.com/youtube/answer/14328491"},
+    {"title": "YouTube channel monetization policies: inauthentic content", "url": "https://support.google.com/youtube/answer/1311392"},
+    {"title": "YouTube culture and trends: ambient channels", "url": "https://blog.youtube/culture-and-trends/ambient-music/"}
+  ],
+  "composition_research": [
+    {"title": "How Brian Eno created Ambient 1: Music for Airports (Reverb Machine deconstruction)", "url": "https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/"},
+    {"title": "Deconstructing Music for Airports (Open Culture)", "url": "https://www.openculture.com/2019/07/deconstructing-brian-enos-music-for-airports.html"},
+    {"title": "Discreet Music (Wikipedia; 63 and 68 second loops)", "url": "https://en.wikipedia.org/wiki/Discreet_Music"},
+    {"title": "Mastering ambient music without drums (iZotope)", "url": "https://www.izotope.com/en/learn/mastering-ambient-music-without-drums"},
+    {"title": "Splice: how to make ambient music", "url": "https://splice.com/blog/how-to-make-ambient-music/"},
+    {"title": "Earlier practitioner research (Eno, Rich, Roach, KMRU, Wolf)", "url": "../november-2026/RESEARCH.md"}
+  ],
+  "channel_growth_secondary_sources_unverified": [
+    {"title": "OutlierKit: YouTube music channel growth strategy", "url": "https://outlierkit.com/resources/youtube-music-channel-growth-strategy/"},
+    {"title": "Subscribr: Reach tab, impressions and CTR", "url": "https://subscribr.ai/youtube-strategy/youtube-analytics-reach-tab-explained"}
+  ]
+}

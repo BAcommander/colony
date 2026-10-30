@@ -1,0 +1,216 @@
+{
+  "source": "C:\\Users\\jazzs\\Downloads\\TODO_-_Vast_Unfamiliar_World_2026-10-10T192538.mp4",
+  "source_sha256": "2b80b6e45bfb78010ed0905598143be25dbf661ecdfdb04a89b2fcee949f23f3",
+  "matches_previously_liked_test": true,
+  "decoded_audio_seconds": 60.010666666666665,
+  "container_seconds": 64.4,
+  "sample_rate": 48000,
+  "channels": 2,
+  "all_samples_finite": true,
+  "samples_at_or_above_full_scale": 0,
+  "rms_dbfs": -15.243283392750653,
+  "sample_peak_dbfs": -0.732657495570616,
+  "spectral_energy_percent": {
+    "20-80 Hz": 38.35,
+    "80-250 Hz": 29.34,
+    "250-2000 Hz": 32.22,
+    "2000-8000 Hz": 0.09,
+    "8000-20000 Hz": 0.0
+  },
+  "spectral_centroid_hz": 254.0,
+  "integrated_lufs": -13.74,
+  "true_peak_dbtp": -0.73,
+  "loudness_range_lu": 3.1,
+  "stereo_correlation": 0.6565291884693205,
+  "side_relative_mid_db": -6.833054479847212,
+  "channel_rms_difference_db": 0.023590810515935184,
+  "timeline_5s": [
+    {
+      "start_seconds": 0,
+      "end_seconds": 5,
+      "rms_dbfs": -14.54555186549081,
+      "sample_peak_dbfs": -1.55695242469222,
+      "spectral_energy_percent": {
+        "20-80 Hz": 48.24,
+        "80-250 Hz": 30.24,
+        "250-2000 Hz": 21.46,
+        "2000-8000 Hz": 0.06,
+        "8000-20000 Hz": 0.0
+      },
+      "spectral_centroid_hz": 184.6
+    },
+    {
+      "start_seconds": 5,
+      "end_seconds": 10,
+      "rms_dbfs": -14.41537588459055,
+      "sample_peak_dbfs": -0.9472948197345986,
+      "spectral_energy_percent": {
+        "20-80 Hz": 36.68,
+        "80-250 Hz": 33.17,
+        "250-2000 Hz": 30.07,
+        "2000-8000 Hz": 0.08,
+        "8000-20000 Hz": 0.0
+      },
+      "spectral_centroid_hz": 267.1
+    },
+    {
+      "start_seconds": 10,
+      "end_seconds": 15,
+      "rms_dbfs": -13.820867315257324,
+      "sample_peak_dbfs": -0.767475038820538,
+      "spectral_energy_percent": {
+        "20-80 Hz": 40.31,
+        "80-250 Hz": 31.03,
+        "250-2000 Hz": 28.61,
+        "2000-8000 Hz": 0.05,
+        "8000-20000 Hz": 0.0
+      },
+      "spectral_centroid_hz": 252.2
+    },
+    {
+      "start_seconds": 15,
+      "end_seconds": 20,
+      "rms_dbfs": -13.826584298846168,
+      "sample_peak_dbfs": -0.732657495570616,
+      "spectral_energy_percent": {
+        "20-80 Hz": 38.32,
+        "80-250 Hz": 30.42,
+        "250-2000 Hz": 31.22,
+        "2000-8000 Hz": 0.04,
+        "8000-20000 Hz": 0.0
+      },
+      "spectral_centroid_hz": 305.3
+    },
+    {
+      "start_seconds": 20,
+      "end_seconds": 25,
+      "rms_dbfs": -15.348580092656727,
+      "sample_peak_dbfs": -3.3338639186496897,
+      "spectral_energy_percent": {
+        "20-80 Hz": 41.43,
+        "80-250 Hz": 30.2,
+        "250-2000 Hz": 28.25,
+        "2000-8000 Hz": 0.12,
+        "8000-20000 Hz": 0.0
+      },
+      "spectral_centroid_hz": 218.8
+    },
+    {
+      "start_seconds": 25,
+      "end_seconds": 30,
+      "rms_dbfs": -20.44432609319033,
+      "sample_peak_dbfs": -9.389055837100294,
+      "spectral_energy_percent": {
+        "20-80 Hz": 0.01,
+        "80-250 Hz": 0.16,
+        "250-2000 Hz": 99.01,
+        "2000-8000 Hz": 0.79,
+        "8000-20000 Hz": 0.03
+      },
+      "spectral_centroid_hz": 502.5
+    },
+    {
+      "start_seconds": 30,
+      "end_seconds": 35,
+      "rms_dbfs": -14.838619037849677,
+      "sample_peak_dbfs": -1.5890386388947844,
+      "spectral_energy_percent": {
+        "20-80 Hz": 40.13,
+        "80-250 Hz": 33.77,
+        "250-2000 Hz": 26.06,
+        "2000-8000 Hz": 0.04,
+        "8000-20000 Hz": 0.0
+      },
+      "spectral_centroid_hz": 194.2
+    },
+    {
+      "start_seconds": 35,
+      "end_seconds": 40,
+      "rms_dbfs": -15.066182298952832,
+      "sample_peak_dbfs": -1.053205785912002,
+      "spectral_energy_percent": {
+        "20-80 Hz": 35.03,
+        "80-250 Hz": 28.9,
+        "250-2000 Hz": 36.02,
+        "2000-8000 Hz": 0.06,
+        "8000-20000 Hz": 0.0
+      },
+      "spectral_centroid_hz": 256.1
+    },
+    {
+      "start_seconds": 40,
+      "end_seconds": 45,
+      "rms_dbfs": -14.90636758949276,
+      "sample_peak_dbfs": -1.083854516434501,
+      "spectral_energy_percent": {
+        "20-80 Hz": 41.95,
+        "80-250 Hz": 27.07,
+        "250-2000 Hz": 30.89,
+        "2000-8000 Hz": 0.08,
+        "8000-20000 Hz": 0.0
+      },
+      "spectral_centroid_hz": 238.4
+    },
+    {
+      "start_seconds": 45,
+      "end_seconds": 50,
+      "rms_dbfs": -14.175956788975085,
+      "sample_peak_dbfs": -1.1764460841826352,
+      "spectral_energy_percent": {
+        "20-80 Hz": 32.9,
+        "80-250 Hz": 27.44,
+        "250-2000 Hz": 39.53,
+        "2000-8000 Hz": 0.12,
+        "8000-20000 Hz": 0.0
+      },
+      "spectral_centroid_hz": 287.9
+    },
+    {
+      "start_seconds": 50,
+      "end_seconds": 55,
+      "rms_dbfs": -15.082637590429279,
+      "sample_peak_dbfs": -1.1128084731904877,
+      "spectral_energy_percent": {
+        "20-80 Hz": 41.7,
+        "80-250 Hz": 28.11,
+        "250-2000 Hz": 30.12,
+        "2000-8000 Hz": 0.07,
+        "8000-20000 Hz": 0.0
+      },
+      "spectral_centroid_hz": 227.2
+    },
+    {
+      "start_seconds": 55,
+      "end_seconds": 60,
+      "rms_dbfs": -30.412476250952174,
+      "sample_peak_dbfs": -11.482798624025977,
+      "spectral_energy_percent": {
+        "20-80 Hz": 26.47,
+        "80-250 Hz": 28.58,
+        "250-2000 Hz": 44.86,
+        "2000-8000 Hz": 0.09,
+        "8000-20000 Hz": 0.0
+      },
+      "spectral_centroid_hz": 324.7
+    }
+  ],
+  "edge_rms_1s": {
+    "opening": [
+      -12.592849525805711,
+      -15.77746396103165,
+      -15.183007397619484,
+      -14.74656652469788,
+      -15.195540585370688,
+      -15.084723790790338
+    ],
+    "closing": [
+      -14.222480943614183,
+      -24.097182178298382,
+      -32.921758560497864,
+      -40.43387526236199,
+      -49.506917396640596,
+      -69.14357607749238
+    ]
+  },
+  "scope": "Signal analysis only; no assistant listening, instrument identification, vocal absence, key/tempo or harmonic loop compatibility claimed."
+}

@@ -1,0 +1,16 @@
+{
+  "frames": 600,
+  "seconds": 10.0,
+  "fps": 60,
+  "resolution": [
+    3840,
+    2160
+  ],
+  "decoded_without_errors": true,
+  "average_adjacent_difference": 0.11800262203981945,
+  "largest_adjacent_difference": 0.22625578703703703,
+  "loop_boundary_difference": 0.23588541666666665,
+  "halves_are_distinct": true,
+  "half_difference": 0.49767434413580247,
+  "file_size_bytes": 29847525
+}

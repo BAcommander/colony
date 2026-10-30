@@ -1,0 +1,11 @@
+FARPOINT STATION — UPLOAD FILES
+
+Video: G:\AI\colony\exports\10-nightward-station\Farpoint-Station-1-Hour-4K-v1.mp4
+Thumbnail: G:\AI\colony\final\10-nightward-station\thumbnail-v2.jpg
+Title: G:\AI\colony\final\10-nightward-station\youtube-title.txt
+Description: G:\AI\colony\final\10-nightward-station\description.txt
+Tags: G:\AI\colony\final\10-nightward-station\youtube-tags.txt
+Soundtrack: G:\AI\colony\exports\10-nightward-station\Farpoint-Station-Unfolding-Warmth-1-Hour-v1.mp3
+Checks: G:\AI\colony\final\10-nightward-station\assembly-v1\README.txt
+
+One hour, 4K/30 fps; original artwork upscaled from 1672x941. Approved Unfolding Warmth music join. No added SFX. Not uploaded.

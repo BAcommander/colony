@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "file": "exports/10-nightward-station/Farpoint-Station-Unfolding-Warmth-1-Hour-v1.mp3",
+  "sha256": "a145ca15f6645608f31e580067cf976705213cbb34e8241e7dc196941fdc1597",
+  "bytes": 86401196,
+  "duration_seconds": 3600,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bitrate": 192000,
+  "source": "final/10-nightward-station/music/long-a-unfolding-warmth-v1/Unfolding_Warmth_2026-10-10T193419.mp4",
+  "source_sha256": "a8ac883694a5a230e3f4cb89123e368026d211666055a401029421763dff1322",
+  "source_cut_seconds": [
+    42,
+    284
+  ],
+  "music_gain_db": -7,
+  "overlap_seconds": 12,
+  "repeat_interval_seconds": 230,
+  "curve": "equal-power sine/cosine",
+  "sfx": null,
+  "opening_fade_seconds": 10,
+  "closing_fade_seconds": 20,
+  "validation": {
+    "full_decode": true,
+    "finite_samples": true,
+    "sample_count_per_channel": 172800000,
+    "sample_peak_dbfs": -8.78603431805034,
+    "integrated_lufs": -20.51,
+    "true_peak_dbtp": -8.77
+  },
+  "approval": {
+    "join_quote": "i think it works fine,",
+    "assembly_quote": "i think for now lets just build out the full farpoint with this. since the track was only 5 minutes do you recommend 1 hour?",
+    "duration_decision": "One hour recommended and used for requested full Farpoint assembly."
+  },
+  "review": "User approved join; full-hour listening not claimed.",
+  "runner_sha256": "e94c767e18e8b2407d742e365322f0b1962da6c5d95ce439a19a926801bde315"
+}

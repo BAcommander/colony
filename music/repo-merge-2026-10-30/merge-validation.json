@@ -1,0 +1,13 @@
+{
+  "incoming_paths": 371,
+  "incoming_files_byte_identical": 366,
+  "intentionally_combined_paths": [
+    ".gitattributes",
+    "AGENTS.md",
+    "PRODUCTION_PIPELINE.md",
+    "creative/MUSIC_WORKFLOW.md",
+    "final/13-below-the-snowline/manifest.json"
+  ],
+  "json_files_parsed": 95,
+  "conflicts_remaining": false
+}

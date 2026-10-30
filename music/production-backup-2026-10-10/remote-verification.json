@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-10",
+  "colony_commit": "4431bf9a320147dac388068589568c21b7aa9d9b",
+  "tool_commit": "284c6a756322f47d003ad7c6986d851870b99f4f",
+  "both_remote_main_verified": true,
+  "tracked_worktrees_clean": true,
+  "lfs_restore_method": "Fresh separate lfs.storage; git lfs fetch origin at pushed commit; no shared local LFS object cache.",
+  "masters": [
+    {
+      "path": "final/06-last-cable-station/video-4k-v3.mp4",
+      "bytes": 62526558,
+      "sha256": "eb59de92482cad23972e759c190a7c0cbcc7e78a4ff4f26ac62271d6e29f76f1",
+      "remote_download_sha256": "eb59de92482cad23972e759c190a7c0cbcc7e78a4ff4f26ac62271d6e29f76f1",
+      "pass": true
+    },
+    {
+      "path": "final/07-icebound-weather-post/video-4k-v3-60s.mp4",
+      "bytes": 381119952,
+      "sha256": "8b02c264fc4145afd8992f42c515733a71a6f1fbe432aabed10784038a6196ae",
+      "remote_download_sha256": "8b02c264fc4145afd8992f42c515733a71a6f1fbe432aabed10784038a6196ae",
+      "pass": true
+    },
+    {
+      "path": "final/08-rainline-relay/video-4k-v5-20s.mp4",
+      "bytes": 329166997,
+      "sha256": "fad3fccc70a591f995ba05f3c48048a4735c373832ea95481f5b0046f1a7a438",
+      "remote_download_sha256": "fad3fccc70a591f995ba05f3c48048a4735c373832ea95481f5b0046f1a7a438",
+      "pass": true
+    },
+    {
+      "path": "final/09-offshore-night-office/video-4k-v3-60s.mp4",
+      "bytes": 421036504,
+      "sha256": "139e535964c31a7e12bf782c5b637b56d9c621ec52931dfae6e358fabf24a7b1",
+      "remote_download_sha256": "139e535964c31a7e12bf782c5b637b56d9c621ec52931dfae6e358fabf24a7b1",
+      "pass": true
+    }
+  ],
+  "large_combined_exports_remain_local": true,
+  "scope_record": "scope.json",
+  "tag_file": "final/09-offshore-night-office/youtube-tags.txt"
+}

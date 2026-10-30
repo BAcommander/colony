@@ -103,6 +103,10 @@ __pycache__/
 !music/spirewatch-animation-v8/spirewatch-v8-preview-60s.mp4
 music/spirewatch-animation-v8/remote-backup-verification.json
 
+# Catalog 15 existing short loops imported at user request (2026-10-25).
+!final/15-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-4K.mp4
+!final/15-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-1080p.mp4
+
 # Snowline requested preview backup; repeats and isolated tests stay local.
 !music/below-the-snowline-animation-v1/Below-the-Snowline-v1-preview-20s.mp4
 !music/below-the-snowline-animation-v2/Below-the-Snowline-v2-preview-20s.mp4

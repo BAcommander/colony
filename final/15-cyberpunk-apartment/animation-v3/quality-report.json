@@ -1,0 +1,20 @@
+{
+  "duration": 10,
+  "fps": 60,
+  "frames": 600,
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "export_dimensions": [
+    3840,
+    2160
+  ],
+  "upscaled": true,
+  "exact_periodic_match": true,
+  "is_not_five_second_repeat": true,
+  "mean_adjacent_frame_difference": 0.11419328719805642,
+  "maximum_adjacent_frame_difference": 0.12395688657407407,
+  "seam_difference": 0.11762522505144032,
+  "seconds_to_render": 209.5
+}

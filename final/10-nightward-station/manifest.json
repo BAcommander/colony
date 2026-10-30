@@ -2,7 +2,7 @@
   "catalog_number": "10",
   "title": "Farpoint Station",
   "date": "2026-09-28",
-  "status": "artwork selected for packaging; thumbnail pending user review; metadata and music prompts prepared",
+  "status": "One-hour 4K Farpoint video delivered and technically verified; full combined review/upload checks pending",
   "user_approved": false,
   "generator": "built-in image_gen",
   "source": {
@@ -75,7 +75,21 @@
     "method": "generated images inspected as stills in chat",
     "notes": "Still inspected in chat: closer ochre/chalk planetary horizon crops against right and bottom window edges; dark cabin panels restored; external habitat remains white. Blue upper-frame and panel indicators plus pink undershelf lights are visible. Warm lamp and practical room composition retained. No animation or user acceptance claimed."
   },
-  "video": null,
+  "video": {
+    "file": "final/10-nightward-station/video-4k-v6-60s.mp4",
+    "sha256": "c9479291c39b7158e22907f7496942f6355a41303f17b3c32880f50a2181d372",
+    "duration_seconds": 60,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "silent": true,
+    "native_source_dimensions": [
+      1672,
+      941
+    ]
+  },
   "thumbnail": {
     "master": "thumbnail-v2.png",
     "master_sha256": "7e73762504217367d9d2ff4d751ec03f2561ea8990f500096d755ce63e597dff",
@@ -197,7 +211,7 @@
   "animation": {
     "version": "v6",
     "date": "2026-10-07",
-    "status": "Revised minute candidate; user playback review pending",
+    "status": "V6 authorized for final assembly; one-hour 4K delivered",
     "record": "music/farpoint-animation-v6/delivery-v6.json",
     "preview": "music/farpoint-animation-v6/farpoint-station-v6-preview-60s.mp4",
     "preview_sha256": "4844bfd1a5e64d6c33b1438741182af073721eb4b1488e500f0d4b68d3eb5a7d",
@@ -212,13 +226,14 @@
     "silent": true,
     "seam_checks_passed": true,
     "user_approved": false,
-    "master_4k": null,
+    "master_4k": "final/10-nightward-station/video-4k-v6-60s.mp4",
     "backup": {
       "authorization_date": "2026-10-07",
       "manifest": "music/farpoint-animation-v6/backup-manifest.json",
       "remote_evidence": "music/farpoint-animation-v6/remote-backup-verification.json (local, written after verification)",
       "scope": "Exact v6 minute preview plus source, dependencies and records"
-    }
+    },
+    "user_authorized_for_assembly": true
   },
   "animation_history": [
     {
@@ -329,5 +344,33 @@
     "provenance": "music/farpoint-animation-v6/asset-provenance.json",
     "scope": "User-authorized narrow bar cleanup; original packaging artwork remains unchanged",
     "user_approved": false
+  },
+  "music_current": {
+    "status": "Unfolding Warmth selected; approved join extended to one hour",
+    "user_join_approved": true,
+    "target_final_duration_seconds": 3600,
+    "record": "music/one-hour-v1/delivery.json",
+    "source": "final/10-nightward-station/music/long-a-unfolding-warmth-v1/Unfolding_Warmth_2026-10-10T193419.mp4",
+    "sfx": null
+  },
+  "final_assembly": {
+    "status": "Delivered and technically verified; full combined review/upload checks pending",
+    "record": "assembly-v1/delivery-validation.json",
+    "file": "exports/10-nightward-station/Farpoint-Station-1-Hour-4K-v1.mp4",
+    "sha256": "a1684bdd06d73874ab0fd4a8108aa8b4def35bd60de853cb5b9779138553ca01",
+    "duration_seconds": 3600,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30
+  },
+  "four_k_current": {
+    "file": "final/10-nightward-station/video-4k-v6-60s.mp4",
+    "sha256": "c9479291c39b7158e22907f7496942f6355a41303f17b3c32880f50a2181d372",
+    "record": "delivery-v6/delivery-validation.json",
+    "preserved_dependency_snapshot": true,
+    "exact_saved_preview_source_samples": true,
+    "user_authorized_for_assembly": true
   }
 }

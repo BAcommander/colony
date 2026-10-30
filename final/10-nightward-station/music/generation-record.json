@@ -1,14 +1,60 @@
 {
-  "status": "not generated",
+  "status": "Unfolding Warmth selected; approved join and one-hour 4K video delivered",
   "date_prepared": "2026-09-28",
   "provider": "ElevenLabs Music",
   "settings_observed": null,
   "price_observed": null,
-  "short_test_files": [],
+  "short_test_files": [
+    {
+      "file": "final/10-nightward-station/music/liked-tests-v1/Observation_Deck_2026-10-10T192516.mp4",
+      "sha256": "f76796cd9e592806b93634405557beb7ce622fecc7e624a2a69e315aad38978f",
+      "bytes": 1492970,
+      "long_prompt": "elevenlabs-long-v3-a-observation-deck-seven-minutes.txt",
+      "pairing_basis": "User supplied both following A/B prompts; naming and order suggest this pairing, generation settings not observed."
+    },
+    {
+      "file": "final/10-nightward-station/music/liked-tests-v1/Vast_Unfamiliar_World_2026-10-10T192538.mp4",
+      "sha256": "2b80b6e45bfb78010ed0905598143be25dbf661ecdfdb04a89b2fcee949f23f3",
+      "bytes": 1497856,
+      "long_prompt": "elevenlabs-long-v3-b-vast-unfamiliar-world-seven-minutes.txt",
+      "pairing_basis": "User supplied both following A/B prompts; naming and order suggest this pairing, generation settings not observed."
+    }
+  ],
   "selected_test": null,
-  "long_export": null,
-  "user_feedback": null,
-  "audio_approval": false,
-  "local_join_review": null,
-  "delivery_duration_seconds": null
+  "long_export": "final/10-nightward-station/music/long-a-unfolding-warmth-v1/Unfolding_Warmth_2026-10-10T193419.mp4",
+  "user_feedback": "i like both, make me a prompt for the longer version of each",
+  "audio_approval": true,
+  "local_join_review": "final/10-nightward-station/music/long-a-unfolding-warmth-v1/Farpoint-Unfolding-Warmth-join-review-60s-v1.mp3",
+  "delivery_duration_seconds": 3600,
+  "date_revised": "2026-10-10",
+  "current_test_prompts": [
+    "elevenlabs-test-v3-a-quiet-exploration.txt",
+    "elevenlabs-test-v3-b-first-contact.txt"
+  ],
+  "inspiration": "User requested Encounter at Farpoint as emotional inspiration: exploration, curiosity and wonder. Original orchestral ambient direction; no reference audio or existing theme supplied.",
+  "long_prompt_status": "V3 paired seven-minute prompts ready; v1/v2 preserved.",
+  "short_test_approval": true,
+  "selection_record": "liked-tests-v1/selection.json",
+  "current_long_prompts": [
+    "elevenlabs-long-v3-a-observation-deck-seven-minutes.txt",
+    "elevenlabs-long-v3-b-vast-unfamiliar-world-seven-minutes.txt"
+  ],
+  "long_source_sha256": "a8ac883694a5a230e3f4cb89123e368026d211666055a401029421763dff1322",
+  "long_source_decoded_seconds": 298.53866666666664,
+  "local_join_record": "long-a-unfolding-warmth-v1/audition-v1.json",
+  "local_join_approved": true,
+  "loop_approval": {
+    "date": "2026-10-10",
+    "quote": "i think it works fine,",
+    "scope": "Approval of the presented Unfolding Warmth loop audition; preserve source cut 42\u2013284s, twelve-second equal-power crossfade and -7 dB gain. Does not select this over the pending second longer version or set final runtime."
+  },
+  "final_duration_seconds": 3600,
+  "final_video": "exports/10-nightward-station/Farpoint-Station-1-Hour-4K-v1.mp4",
+  "one_hour_record": "one-hour-v1/delivery.json",
+  "full_hour_listening_approved": false,
+  "assembly_authorization": {
+    "join_quote": "i think it works fine,",
+    "assembly_quote": "i think for now lets just build out the full farpoint with this. since the track was only 5 minutes do you recommend 1 hour?",
+    "duration_decision": "One hour recommended and used for requested full Farpoint assembly."
+  }
 }

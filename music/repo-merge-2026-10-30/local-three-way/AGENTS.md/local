@@ -1,0 +1,703 @@
+# Ambient Colony — working instructions
+
+Below the Snowline animation v2 (2026-10-25): v1 is a decent checkpoint needing more work, not accepted final motion. User reported a satellite ghost and requested colored/dimming lights, building/interior activity, console buttons and a Hoth thumbnail inspired by Spirewatch. music/below-the-snowline-animation-v2/ fixes source/destination cloud exclusion around the dish feed/support; before/after crops show removed ghost fragments. Eight console indicators, seven phased keys, source-masked bridge emitters, two habitat displays and room-practical/spill variation add activity. Seven retained isolated layers match v1 at five phases. Same native 1672x941 artwork v5. Twenty-second silent 720p30 preview and exact three-repeat review passed full decoding/timestamps/region/quiet-neighbor seams, protected-pixel/periodicity and direct native-to-decoded checks. Assistant inspected temporal/decoded stills, not continuous playback. Separate built-in-imagegen Hoth thumbnail PNG/JPEG candidate uses Spirewatch typography; scene geometry/lighting can differ. Motion/thumbnail user review pending; no audio, 4K, commit or push. Earlier art, v1 and approved thumbnail preserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Catalog 15 import (2026-10-25): user requested adding the existing Cyberpunk Apartment animation at the end of the numbered list. final/15-cyberpunk-apartment/ contains the byte-verified ten-second 4K/60fps silent V3, 1080p copy, clean/original art, repair assets, source scripts and historical reports. Working title retained; no new render or playback review. Thumbnail, metadata, music and long-form assembly pending. Original YouTube files retained. Exact-path LFS/ignore rules prepare both short videos for tracking, but no commit/push/remote backup was performed. Spirewatch and the live special remain unnumbered.
+
+
+
+
+
+
+
+Current Deepwell v4 candidate (2026-10-25): user says all v3 steam and cyan indicators are very hard to see, requests purple lights up/down the pipeline and another much better pass. V3 visibility failed user review; numeric passes are not acceptance. V4 at music/deepwell-animation-v4/ rebuilds wider/taller rolling vapor with broken filaments, larger curl, whiter material contrast and persistent source emission at the coffee and three tank outlets. Cup rims/bodies, tank shells and pipe solids remain occluders. The far-right plume is kept more against grey sky instead of the pale cliff. Twenty larger pipe-face purple segments replace cyan pinpoints, with confined local glow and a head travelling toward the plant at 10s and back by 20s. A cosine path and continuous directional tail smooth the turnarounds; the scene is not reversed. Enlarged segments exposed a distant mount alignment error; source pixel profiles guided corrected face placement before final output. A full 20s pipeline-only test covers both legs. Same frozen 1672x941 planet plate, SHA-256 8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b. Thirteen retained v3 layers, including corrected glazing, and scoped composites match at seven sampled states. Genuine silent 20s 720p30 preview and three exact repeats passed all 600/1800-frame decode/timestamp, regional/composite and quiet-neighbour joins, packet/picture identity and direct-native-YUV controls (14 combined, 6 pipeline, 6 retained vapor). All v3 manifest files are exact. Assistant inspected unamplified actual-conversion 720p/native/decoded stills, not continuous playback. User v4 verdict pending; MUCH better is ambition, not a measured claim. No new artwork, music, opening, 4K, long assembly, paid service, model install, commit or push. Earlier deliveries and approved original art/thumbnail preserved. See v4 README and checks. User requested commit and push on 2026-10-25: all Deepwell v1-v4 packages, including review/history media, source/configuration, validation and lessons, are selected. See music/deepwell-backup-2026-10-25/backup-manifest.json and the subsequent local remote-backup-verification.json for actual remote evidence. Backup is a checkpoint, not artistic approval.
+
+
+
+
+
+
+
+Current Spirewatch final production (2026-10-26): user requested the final two-hour 4K video through Colony with the approved alternating Horizon/Stillness music and current intro. Delivered exports/spirewatch/Spirewatch-2-Hours-4K-v1.mp4, exact 7200s/3840x2160/30fps/216000 frames, H.264 BT.709 with AAC 192k stereo 48kHz. Verified v8 sixty-second master retained; native artwork is 1672x941, previously Lanczos upscaled. Current v3 AMBIENT COLONY/orbital logo/PRESENTS, SPIREWATCH title and lower Stay a while and listen appear once; graphics clear by 22s, audio silent to5 then fades to20. Existing two-hour gains, eight-second A/B joins and closing fade retained. The local installed Colony copy predates the intro, so the hash-verified saved v3 real renderer/fonts were loaded with existing exporter/SFX dependencies; no installed app source changed. Job-local CRF0 opening unit preserves all first-minute pictures after22s exactly; subsequent119 minute units have identical copied packets and match source decoded YUV. Full Colony video/audio decode, every video timestamp, entire AAC-to-expected-mix comparison, source hashes and output hash passed. Assistant inspected final decoded temporal stills, not continuous playback/full listening. Latest scene authorized for assembly; no separate detailed artistic verdict inferred. Full combined user review/upload checks pending. See music/spirewatch-final-two-hours-v1/README.md and delivery-validation.json. Originals preserved; no paid generation, upload, commit/push or remote media backup. Backup requested 2026-10-26: all authored Spirewatch source/art/configuration, original music generations, prompts, accepted joins, production recipes and lessons selected; exact 4K minute and intro review use Git LFS. Long exports and regenerable render/repeat caches remain local under project media policy. See music/spirewatch-backup-2026-10-26/backup-manifest.json and subsequent local remote-backup-verification.json for actual scope/evidence. Delivery-time local-only statements are historical; no full-length artistic approval is inferred.
+
+Historical Spirewatch v8 4K delivery (2026-10-21): Spirewatch v8 now has a verified clean sixty-second 3840x2160/30fps silent master at music/spirewatch-animation-v8/delivery-4k-v1/Spirewatch-v8-60s-4K-loop.mp4, requested with "sure make a 60s 4k loop". Exact saved source/config/renderer/dependency/mask/runtime fingerprint retained. Native 1672x941 frames upscaled directly with Lanczos; no 720p video enlargement or effect changes. All 1800 frames/timestamps, regional/composite and quiet-neighbour loop seams passed; ten decoded 4K pictures including chunk boundaries match direct native-to-YUV renders exactly. Assistant inspected decoded stills, not continuous playback. No audio or opening baked into the loop; apply the current opening once during later Colony assembly. User authorized 4K delivery; full combined playback remains separate. New master and delivery records are local, not committed/pushed. The prior v8 preview/source backup remains verified at b456b82. See delivery-4k-v1/delivery-validation.json. Earlier v8 finishing details and backup scope remain in music/spirewatch-animation-v8/README.md.
+
+
+
+
+
+
+
+Current Illuminated Horizon / Stillness soundtrack (2026-10-25): user accepted both long-Stillness transition previews with "yeah those transitions sound good" and requested a two-hour alternating version. Delivered exports/spirewatch/Illuminated-Horizon-and-Stillness-2-Hours-v1.mp3 and matching stereo 48 kHz/24-bit FLAC. Original Horizon is 8:30, long Stillness 3:00; complete sources alternate with approved eight-second equal-power overlaps and fixed -7.74/-7.08 dB gains. Cycle interval 11:14; eleven Horizon occurrences (final 7:40) and ten complete Stillness occurrences, twenty handovers, exact 2:00:00. One twenty-second closing fade; no extra opening fade, SFX, stretch, pitch shift, EQ or dynamic normalization. Apply the current opening once during later Colony video assembly. All 345,600,000 stereo frames of each file decoded with finite samples/no clipping; full FLAC samples match the complete recipe within 24-bit tolerance. Integrated loudness/true peaks and source hashes verified. User approval covers short joins and extension request; assistant performed technical checks, not listening, and full combined listening/playback review remains pending; the final two-hour Spirewatch video with intro is now delivered. See music/illuminated-horizon-stillness-two-hours-v1/README.md, mix-recipe.json, delivery-validation.json and delivery-paths.json. Earlier failed experiments and source files preserved. No new credit spend, video render, commit/push or remote backup of this delivery. Backup requested 2026-10-26: all authored Spirewatch source/art/configuration, original music generations, prompts, accepted joins, production recipes and lessons selected; exact 4K minute and intro review use Git LFS. Long exports and regenerable render/repeat caches remain local under project media policy. See music/spirewatch-backup-2026-10-26/backup-manifest.json and subsequent local remote-backup-verification.json for actual scope/evidence. Delivery-time local-only statements are historical; no full-length artistic approval is inferred.
+
+Historical Illuminated Horizon / ambient-middle experiment (2026-10-21): user likes the original synth music but wants a less rhythmic middle and a gradual return. Original audio is 8:30; source MP4 and hashes are preserved in music/illuminated-horizon-slow-middle-v1/. User rejected v1 whole-mix slowdown as audibly stretched and v2 spectral reconstruction as a drone. AudioSep's genuine 45-second, three-prompt neural test selected almost the whole mix; subtracting it left remainders 22.03/23.40/51.85 dB below original RMS. Strict weight loading, negative-query controls and zero-lag checks passed; that is a failed musical separation, not a successful breakdown. SAM Audio has not run: access/sign-in helpers are prepared, authentication/model approval pending. User supplied eight-second Open Horizon; reports the arpeggio persists with the original as reference. Next manual generation attempt is planned for Sunday 2026-10-25 after the user's stated credit refresh: omit the arpeggiated audio reference, describe synth colour in text and retain changing harmony/sparse melody; confirm duration/budget then. The eight-second prompt records the earlier budget, not a Sunday duration commitment. No automatic spend or reminder authorized. See music/illuminated-horizon-backup-2026-10-21/README.md and backup-manifest.json; all session-authored packages, source copies and rejected/test media are selected for the requested backup. Downloaded models/libraries, credentials and regenerable PCM remain local. Backup and signal checks do not imply artistic acceptance.
+
+
+
+
+
+
+
+Thumbnail evidence (2026-10-21): supplied third-party change-history screenshot reports VPH 47.9 to 24.9 (-48%) after a clean scene gained a large STAR WARS title. The graph had already declined before the change; this is sequential observational evidence, not a causal A/B result. Treat scene-only or title-only thumbnails as test candidates alongside approved branding; do not automatically replace approved artwork. Prefer a concurrent YouTube thumbnail test, hold title/art/crop/brightness steady when isolating typography, and assess impressions/CTR/traffic context plus watch-time share. Evidence and interpretation: music/thumbnail-text-evidence-2026-10-21/README.md.
+
+
+
+
+
+
+
+Historical Spirewatch v7 (2026-10-21): v6 was "much improved" but user found a floating-looking tower, requested lightning across the sky and asked about occasional rain. V7 at music/spirewatch-animation-v7/ restricts the tower mask to narrow bright emitters and protects the foundation below y425, fixing broad blue wall/fog dimming with a flat boundary. Five distributed intracloud flashes (6.6/18.4/30.6/43.2/55s) and two exterior showers (11–26/37–53s) are a review candidate. Ten other layers match v6 at six times. Genuine sixty-second silent 720p and exact three-repeat review passed full technical checks. Assistant inspected temporal/decoded stills, not continuous playback. User v7 review pending, no music/4K/long assembly/commit/push. See README.md and delivery-v7.json.
+
+
+
+
+
+
+
+Historical Spirewatch v6 (2026-10-21; subsequently much improved with tower-mask defect): user rejected v5 because movement was only apparent on PC/clouds. music/spirewatch-animation-v6/ delivers the same bright native plate with complete emitter dim-to-bright travel, three tower sweeps, six tight district regions, opposed cyan/amber traffic and broken reflections, larger downward waterfall features, stronger bounded water and 183 apertures/55 warm groups. Six unchanged layers match v5 at sampled times. Full minute/repeat/region/seam/chunk checks passed. Assistant inspected temporal/decoded stills, not continuous playback. User playback review pending; no music/4K/long assembly/commit/push. See README.md, delivery-v6.json and exact feedback. V5 is rejected for motion visibility, v4 for thumbnail mismatch; both preserved.
+
+
+
+
+
+
+
+Historical Spirewatch v5 (2026-10-21; subsequently rejected for motion visibility): user authorized the thumbnail-faithful rebuild after rejecting darker v4. Delivered music/spirewatch-animation-v5/ with clean artwork-v5.png (1672x941, SHA-256 e93d08a99ac2bfd7a20e17f0a3ad07d9e406300ab67f3dc98237490ab09b5af0), newly mapped masks, genuine sixty-second silent 720p/30fps preview and exact three-repeat review. Source city/room/spire brightness closely matches thumbnail; no return to old dark plate. First sky mask pulled some roof/antenna edges; corrected before encoding, first samples/config retained. Full analytical/decode/timestamp/regional/quiet-neighbour/chunk-boundary checks passed. Assistant inspected stills, not continuous playback. User artwork/motion review pending. No new eight-minute music received, no sync/4K/long assembly yet. Earlier versions and unrelated work preserved. New v5 local/uncommitted/unpushed. See README.md, delivery-v5.json and visual-review.json.
+
+
+
+
+
+
+
+Latest Spirewatch correction (2026-10-21): user rejects v4 relative to its far brighter, more exciting generated thumbnail and requests starting over. The thumbnail is now the visual target. Prompt-only rebuild brief saved at music/spirewatch-artwork-rebuild-v1/production-prompt-v1.txt; no new artwork/animation yet. First derive a clean text-free source from the thumbnail, review equal-size brightness/composition, then freeze its hash and redraw masks. Do not continue brightening the old dark v4 plate or reuse its coordinates on the new image. Prior technical passes remain valid but are not visual acceptance. Exact feedback is music/spirewatch-animation-v4/user-feedback-2026-10-21.json. Preserve prior versions; no commit/push requested.
+
+
+
+
+
+
+
+Current Spirewatch v4 (2026-10-21): Connected-city revision and TRON-inspired thumbnail delivered in music/spirewatch-animation-v4/. Genuine sixty-second 720p/30fps preview and exact three-repeat review; full technical gates passed. Same source as v3, eight retained layers sampled byte-identically. Main-spire charge/up/crown/down cycle, delayed cyan district responses, perspective cyan/amber transit with water reflections, original monitor-map tracking, slower warm windows, faint lamp-linked glass reflection and two local storms. User playback/thumbnail review pending; assistant inspected stills only. Eight-minute Vast Unfamiliar World music generation in progress, no new audio received; musical envelope timing, 4K and final assembly pending. Thumbnail is a separate generated marketing adaptation, never a clean animation source. Earlier versions and unrelated work preserved. New v4 files local/uncommitted/unpushed. See README.md, delivery-v4.json, visual-review.json and creative-brief.txt.
+
+
+
+
+
+
+
+Future-video opening v3 (2026-10-13): v1 worked technically but the user rejected its look: opening too bright, channel/title/underline too small, missing PRESENTS, tagline should appear earlier near the bottom and hold after the main title. Implemented v3 in C:/dev/SpeedySlideShow/colony and rebuilt dist/Colony.exe. 88% black overlay through 10s, scene reveal 10–20s; almost-double AMBIENT COLONY with larger orbital logo 2–9s, separate PRESENTS 4.8–9s, larger public title and longer amber underline 10–15s. Exact tagline "Stay a while and listen" centered at 89% frame height, reveals 12–13s while the main title remains, holds fully to 20s (five seconds after title clears), fades through 21.5s. Opening budget/input cards now 22s; do not cut the tagline at the old 20s. Audio remains silence to 0:05, slow fade to supplied level at 0:20. Future mixes omit the old baked opening fade or untick the tool fade; preserve later SFX/gains/joins/closing fades. Apply once during assembly, preserve clean scene masters and stream-copy later units. GUI enabled by default; public title starts blank. New scripted production passes intro=IntroSettings(public_title); historical calls unchanged. Preview opening works without music; user explicitly is improving the reusable intro, not making a new music/video release now. Silent 25-second Rainline demo, native 4K graphic cards, decoded stills, exact feedback and evidence are in creative/brand/intro-v3/. V1/v2 source/media and executables preserved. Technical checks cover PRESENTS, enlarged text/rule, lower overlapping/held tagline, darkness, clean tail/phase, audio and SFX. Assistant inspected temporal stills, not continuous playback/audio; v3 visual/listening approval pending. See current workflows/tracker. For livestreams play startup intro outside the repeating playlist. User explicitly requested commit/push in both repositories, including closer PRESENTS at 52.5% frame height and no trailing colon on the tagline. See intro-v3/backup-manifest.json and subsequent local remote-backup-verification.json for actual backup scope/evidence.
+
+
+
+
+
+
+
+Current Spirewatch animation (2026-10-11): after the positive v2 checkpoint and verified backup 4f008e9, user could not see lightning/tower activity and found yellow lights static. V3 responds with broader double-pulse cloud illumination/afterglow at 9.6/34.6/52.6s, thin partially obscured branches, spatially related exterior/water response, higher-contrast up/down main-spire bands and six stronger cyan regions. 157 complete warm apertures in 36 local groups have independent holds/recovery and coupled spill; walkway/desk dips are stronger. Same source SHA-256 22553e407a8aac902a7eb55ddf52d544752a642856b3265ef2368741a0eadcba, 1672x941; nine environment/transit/monitor layers match v2 exactly at five times. Silent genuine sixty-second 720p/30 fps preview and exact three-repeat review delivered in music/spirewatch-animation-v3/; see README.md and delivery-v3.json. First thick lightning branch rejected internally; preserved in history. Analytic source protection/periodicity, full 1800/5400-frame decode/timestamps/regional and quiet-neighbour seams, exact minute repetitions and all contiguous-render boundary pictures passed. Assistant inspected native/decoded stills, not continuous playback. User artistic review pending; 250% is ambition, not a measurement. V1/v2 and unrelated work preserved. No new music, 4K, long assembly or paid service. User explicitly requested commit/push on 2026-10-11. Current v3 minute preview, source/config/masks, diagnostics/history records and learnings selected for Git backup. Repeated/older/isolated/intermediate videos remain local. See music/spirewatch-animation-v3/backup-manifest.json and subsequent local remote-backup-verification.json for actual remote evidence. Backup authorization does not imply artistic approval.
+
+
+
+
+
+
+
+Current Farpoint music/production (2026-10-10): User chose Unfolding Warmth for full Farpoint after accepting the join; one hour recommended and produced. Delivered exports/10-nightward-station/Farpoint-Station-1-Hour-4K-v1.mp4 via actual Colony; see final/10-nightward-station/assembly-v1/. Source 0:42–4:44, twelve-second equal-power joins, 230-second repeat interval, fixed -7 dB, one 10/20-second opening/closing fade; no SFX. Exact full audio decode/no clipping passed. Latest v6 rendered at native 1672x941 then Lanczos upscaled to 4K/30 fps, genuine sixty-second master. Preserved ambient_effects snapshot restores preview dependency; NumPy differs but all ten saved source states match exactly. Full 1800-frame timestamps/regional seams passed; final full audio/video decode, 108000 video timestamps, 60 identical loop payloads and first-minute decoded YUV identity passed. Decoded stills inspected, not continuous playback. Current scene authorized for assembly; no separate detailed v6 verdict inferred. Full combined review/upload checks pending. Originals preserved, second longer music option not needed for this delivery. New media local; no commit/push or remote backup.
+
+
+
+
+
+
+
+Current backup request (2026-10-10): User requested commit/push and saving all learnings, then improved Shoreless tags. Music workflow now records approved Rainline rain and Shoreless water balances, plateau review, separate joins, amplitude reductions and listener-oriented tags. Animation knowledge bank records exact-source 4K delivery, colour preservation, loop verification and slow MP4 finalization. Colony tool SFX implementation is pushed to slideshow main at 284c6a756322f47d003ad7c6986d851870b99f4f; its source still matched the existing 54 passing tests/build evidence before commit. Production code/records and four short 4K masters are selected for Colony Git/LFS backup; see music/production-backup-2026-10-10/scope.json and the later local remote-verification.json for actual remote evidence. Large combined videos, full music sources, intermediate PCM and caches remain local; a Git records backup is not a remote backup of these long media. Earlier no-push statements describe the original delivery sessions.
+
+
+
+
+
+
+
+Current Rainline production (2026-10-10): User approved quieter rain v3 ("yeah that's good") and requested final one-hour 4K through Colony. Delivered exports/08-rainline-relay/Rainline-Relay-1-Hour-4K-v1.mp4; see final/08-rainline-relay/assembly-v1/. Latest unchanged twenty-second v5 master at final/08-rainline-relay/video-4k-v5-20s.mp4 uses native 1672x941 source upscaled to 3840x2160/30 fps. Source/config/renderer/dependency/mask fingerprint matches preview; full 600-frame timestamps and regional/composite seam checks passed. Actual Colony Prepared cache preserves pictures; approved premixed rain-v3 hour used with no additional SFX, gain, fades, overlay or loudness matching. Full video/audio decode, all 108000 video timestamps, 180 identical encoded repetitions and first-loop decoded YUV identity passed. Music join and rain balance approved; latest v5 authorized for assembly without inventing separate detailed motion verdict. Decoded stills inspected, not continuous playback. Full combined review/upload checks pending. Original files preserved; new media local, no commit, push or remote backup.
+
+
+
+
+
+
+
+Current Crimson Sky animation (2026-10-08): user invoked production prompt v3 with "make the animation". Complete genuine sixty-second silent 720p/30 fps v2 preview and exact three-repeat 180-second review are delivered in music/beneath-a-crimson-sky-animation-v2/; see README.md and delivery-v2.json. Source is rebuilt v12, native 1672x941, SHA-256 bbcb566dac5704b0a046c2c7769f3a73bd0f092851d723988489d627eb12e0b5. All masks remapped to its changed geometry. Rightward source clouds use unequal phase spacing, sharper dominant texture fields and depth-staggered renewal; sky now spans sixty seconds. Separate sustained far/middle dust, six room schedules and lantern core/wall/paving/nearby-object variation remain. Three restrained intracloud events at 8.4/33.2/56.2 seconds follow moving cloud density. Two ember-red events at 18.1-25.4/44.2-52.1 light the existing recessed lancet above the domed-wing doorway, with source-textured panes and confined stone spill. First flat-red internal still corrected before video. Optional precipitation omitted because the sunset gaps have insufficient clear fall distance. Main golden window and world/opening protected. Seven isolated/baseline/composite clips, analytic protection/periodicity/late coverage, all 1800/5400 decoded frames/timestamps, regional/composite seams, quiet-neighbour join and exact three-repeat identity passed. Encoded cloud patch travels 16 preview pixels right in eight seconds. Assistant inspected native/full-composition masks and temporal/decoded stills, not continuous playback. User says v2 is "decent" but "it'll need more work" and explicitly requests commit/push of everything. Preserve this as a checkpoint, not visual approval. Specific remaining defects were not given; do not invent them. Matching upscaled 4K still follows complete-preview acceptance. No 4K video, music, broadcast, new artwork, paid service or model install. Public title/copy remains generic Beneath a Crimson Sky, unnumbered special after publication of catalog 10 Farpoint Station; catalog 11 unchanged, live date/runtime unset. All authored scene and both animation packages, including prior/test MP4s and repeated reviews, are selected for the requested backup. Exact-path LFS stores the two >100 MiB reviews; remaining files use ordinary Git. See v2 backup-manifest.json and subsequent local remote-backup-verification.json for actual remote evidence. Historical 39a717b remains the earlier art-only backup. "251%" is ambition, never a measured improvement.
+
+
+
+
+
+
+
+Crimson Sky artwork/history: user said rebuilt v12 looks "alot better" and then designated it for animation by invoking v3. Artwork in creative/live/skies-of-baal/artwork-rebuild-v1/ includes native v12 and a disclosed Lanczos 3840x2160 upscale. Final reconstruction uses the original clean terrace reference; v12a/v12b attempts retain unwanted etched texture and are preserved. Fine fortress/dome/terrain/world geometry differs from v11, which is why masks were redrawn. Positive source feedback does not approve the new animation. Historical animation v1 remains frozen to source v11 (SHA-256 30f0d2d0261875556fd7a96b6b9c1f02788d41e4254b23348a0859b2be376a5f); quality feedback and failed signed-cloud/colour-decoder attempts are preserved in its package. Use colour-aware FFmpeg RGB decoding; the old OpenCV conversion misread BT.709. No visual originality clearance or AAA certification is claimed from reconstruction or renaming.
+
+
+
+
+
+
+
+Current Empty Junction animation (2026-10-07): user said v2 was okay but still felt static, then authorized the recommended ground streamers, cabin exhaust and terrain-guided mist. V3 genuine sixty-second silent 720p/30 fps preview and exact three-repeat 180-second review are delivered in music/empty-junction-animation-v3/; see README.md and delivery-v3.json. Same approved artwork-v2.png SHA-256 ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be, native 1672x941. Two curved mineral-powder routes at 17/22 native px/sec add near-ground movement. Existing right-hand cabin grille at x520/y389 supplies condensation with ten-second puff lifetimes and minute-wide emission variation; no artwork edit was needed. Grille exhaust is an artistic interpretation. Directed valley mist at 8 native px/sec flows behind a near ridge; small trackside post and turnout equipment occlude powder. V2 sky, previous far/side mist and habitation match at sampled states; full composite outside new masks matches v2. Initial plume looked like a steady streak; variable emission corrected it. Three isolated clips, finite/source-protection checks, analytical states/seams/velocity diagnostics, new-effect coverage into final third, encoded isolated motion, full 1800/5400-frame decoding/timestamps, regional/composite seams and exact repetitions passed. Assistant inspected normal-size temporal/decoded stills and masks, not continuous playback. User says v3 still needs work; it is not visually approved. 4K follows full-preview acceptance with identical motion and disclosed upscaling. V1/v2 preserved. Music/assembly separate; no image generation, paid tools or new models. User explicitly requested commit/push of v3 on 2026-10-07. Exact minute preview, code/config/masks/records and dependency snapshots selected for Git backup; see backup-manifest.json and subsequent local remote-backup-verification.json for actual remote evidence. Repeated/older draft videos remain local.
+
+
+
+
+
+
+
+Current Farpoint animation (2026-10-07): v5's stronger brightness-only stars still failed the user's visibility review. User authorized removal of the floating amber bars beside the monitor and requested LEDs on the bottom-right cabinet. V6 genuine sixty-second 720p/30 fps silent preview and exact three-repeat 180-second review are delivered in music/farpoint-animation-v6/; see README.md and delivery-v6.json. 280 extracted source stars move right/up at 1.25/-.13 native px/sec, about 7.66/-.80 preview pixels per eight seconds; independent zero-opacity renewals close the minute. Cinematic approximation, not celestial simulation. New door-mounted strip has steady cyan power, green acknowledgements and amber holds. Core and local spill share states. Floating bars removed using a confined built-in imagegen patch with gradient matching; first direct blend left dark ovals and is preserved as a failed internal candidate. Active animation source is final/10-nightward-station/artwork-v4b-reflection-cleanup.png, SHA-256 8eeffb7e02a09c61604b8ed36309eda86585f707b83e94dedab3db45c5f83247, native 1672x941. All pixels outside its small cleanup mask exactly match original v3 artwork; lamp and desk spill preserved. Original packaging art/thumbs retained. V5 full planet composite and weather/station layer regions match at 0/7/20/40/54 seconds; no new cloud approval inferred. Aurora remains removed. Analytical seams/protection/regressions, encoded positional tracking, full 1800/5400-frame decoding/timestamps, regional/composite encoded seams and exact three-cycle repetition passed. Assistant inspected normal-size temporal/decoded stills and detail/mask images, not continuous playback. Latest v6 subsequently authorized for final assembly on 2026-10-10; verified one-hour 4K delivery now complete. See Current Farpoint music/production. Full combined review remains pending. Historical source/code/media and feedback preserved. No paid services or model installation. User explicitly requested commit/push on 2026-10-07. The exact v6 minute preview, corrected plate, source/config/masks/records and dependency snapshots are selected for Git backup. See backup-manifest.json and the subsequent local remote-backup-verification.json for verified remote evidence. Three-minute review and older/isolated draft videos remain local. Backup authorization is separate from visual acceptance.
+
+
+
+
+
+
+
+Current Shoreless music (2026-10-10): User approved transition and quieter water v2 and requested two-hour loop plus 4K final. Delivered exports/09-offshore-night-office/Shoreless-Colony-2-Hours-4K-v1.mp4 via actual Colony; see final/09-offshore-night-office/assembly-v1/. Two-hour soundtrack uses source 0:40–7:24, twelve-second equal-power joins/392-second interval, -6.9 dB music, water -19.41162149 dB with 35-second events including 12/18-second fades and 265 seconds off, onset45. Single10/20-second opening/closing fades. Full sample decode and no-clipping check passed. Current v3 source fingerprint retained in sixty-second 4K master upscaled from1672x941. Full1800-frame and regional seam checks passed; final216000 timestamps,120 identical minute payloads, decoded first-minute identity and full audio/video decode passed. Music/water balance approved; latest animation authorized for final without inventing separate detailed timing verdict. Full combined user review/upload checks pending. Original files preserved; no commit, push or remote backup. Exact hashes/settings in delivery records.
+
+
+
+
+
+
+
+Current Shoreless animation (2026-10-06): user found only the far-right sea slightly excessive, rejected the large right-monitor graph, preferred the left monitor, and requested walkway flickers plus a one-minute loop. V3 silent sixty-second 720p/30 fps preview and three-repeat 180-second review are delivered in music/shoreless-animation-v3/; see README.md and delivery-v3.json. Same immutable artwork-v1.png SHA-256 f042d109358089f0e89b11c99a84505fba9a825dca3428ed7109055d29253f69, native 1672x941. Water displacement transitions from .40 to .30 only across source x1085–1145 beyond the third tower; sampled water left of x1085 is unchanged. Original right-screen images now have restrained tracking details; sampled left monitor retains v2 exactly at 0/7/27/47 seconds. Three real walkway lamps flicker with warm spill. Unique minute-wide cabin/exterior/room events and sunlight compose over unchanged-speed twenty-second environmental fields; this is not a copied twenty-second video. Cropped local effects and fingerprinted float32 environment caching reduce repeated work. Three isolated tests, analytic seams/protected pixels, distinct 0/20/40 source states and encoded sections, full 1800/5400-frame decodes/timestamps, regional/composite encoded seams and three exact decoded minute repetitions passed. Assistant inspected mask/temporal/decoded stills, not continuous playback. Latest v3 later authorized for final assembly on 2026-10-10; verified 4K master and two-hour music/video now delivered. See Current Shoreless music. Full combined review/upload checks pending. V1/v2 and prior scenes preserved; no credits spent. User explicitly requested commit/push on 2026-10-06; source/config/masks/records, knowledge bank and the exact v3 minute preview are selected for backup. See music/shoreless-animation-v3/backup-manifest.json and the later local remote-backup-verification.json for actual remote evidence. Review videos and the environment cache remain local. Knowledge bank updated with the local-water correction and rejection of the prominent waveform.
+
+
+
+
+
+
+
+Current Rainline music (2026-10-10): user selected final Above_the_Flooded_Canopy_2026-10-10T120411.mp4, requested one hour and customizable intermittent rain, then supplied Gentle_continuous_ra_#2-1791634292024.mp3. Source audio is 420.0107 seconds, rain 30 seconds; originals preserved. Music-only and rain MP3 hours delivered in exports/08-rainline-relay/; exact recipe and checks in final/08-rainline-relay/music/long-source-v1/one-hour-delivery-v1.json. Candidate source 0:20–6:48, twelve-second equal-power overlaps, 376-second repeat interval, fixed -6 dB gain, ten/twenty-second opening/closing fades. Both decode to exactly 3600 seconds with finite samples/no clipping; dry -20.5 LUFS/-9.6 dBTP, rain mix -20.7 LUFS/-6.6 dBTP. V1 rain -4 dB; current v3 is -11.1804 dB (43.75% of v1 amplitude), starts at 20 seconds, 120 seconds on including 20/30-second fades, 90 seconds off; source-loop overlap two seconds. Sixty-second join and 260-second rain mix review delivered. User approved the music transition with "the transition between pieces sounds totally fine". Rain was too loud at peak; requested half-amplitude v2 preview/hour delivered with unchanged music/timing. See rain-mix-delivery-v2.json. User said v2 sounds better and requested another 10–15% peak reduction. V3 implements 12.5% less rain than v2, with unchanged music/fade/gap timings; preview and hour passed full decode checks. User approved v3 rain balance and requested final assembly; full-hour review remains pending; previous versions preserved. See rain-mix-delivery-v3.json. Reuse lessons and exact feedback are in creative/MUSIC_WORKFLOW.md under Rain and reusable ambience, with music/shared-rain-overlay/rain-preset-current.json; source-specific starting point, not a universal or globally changed app default. Assistant has not listened or independently checked vocals. Colony tool C:/dev/SpeedySlideShow now has optional SFX controls, mix preview and manifest settings; 43 existing and 11 new real-audio tests passed, rebuilt usual dist/Colony.exe startup smoke passed and old executable preserved. Use dry hour plus SFX or premixed hour alone to avoid double rain. Tool source changes subsequently committed and pushed at 284c6a756322f47d003ad7c6986d851870b99f4f; see Current backup request. Latest v5 4K and final one-hour assembly now delivered; see Current Rainline production. No new credits, commit, push or remote media backup.
+
+
+
+
+
+
+
+Current Rainline animation (2026-10-05): user said v4 was "about there" and requested foreground lamp blinking plus rain on the windows. V5 silent twenty-second 720p/30 fps preview and three-loop sixty-second review are delivered in music/rainline-animation-v5/; see README.md and delivery-v5.json. Same immutable artwork-v1.png SHA-256 2a159c964df74dc56ecec50bee9fdf66ebf48899c5b77050616863092cc365f8, native 1672x941. Two brief lamp blinks dim its emitter, warm desk spill and nearby halo together. Twelve sparse glass rain beads/trails use local refraction/highlights and the protected window mask; 10/20-second lifetimes close on the loop. V4 water displacement .3375/speed .12, corrected habitat panes, readable radio/screen, exterior rain/mist and red/green antennas retained. Eight isolated retained layers match v4 exactly at sampled times 0 and 7 seconds. Shared renderer music/rainline-renderer/render_rainline.py; exact hash-verified v4 snapshot in music/rainline-animation-v4/renderer-v4-snapshot.py. Two isolated eight-second tests, analytic seams/protected pixels, full 600/1800-frame decodes/timestamps, encoded regional/composite seams and three identical decoded repetitions passed. Assistant inspected masks/temporal/decoded stills, not continuous playback. V4 positive feedback does not approve v5 timing/look; User later approved the music/rain mix and requested latest-v5 final assembly on 2026-10-10. The verified twenty-second 4K master and one-hour Colony export are delivered; see Current Rainline production. Full combined playback/upload review remains pending. Earlier versions preserved. User explicitly requested commit/push on 2026-10-05; Rainline code/config/masks/records and the exact v5 twenty-second preview are selected for Git backup. See music/rainline-animation-v5/backup-manifest.json and the subsequent local remote-backup-verification.json for actual backup evidence. Review/repeated videos remain local; artistic review is still pending.
+
+
+
+
+
+
+
+Current Icebound music (2026-10-04): user accepted the Winter Colony Night transition and requested the hour with "yeah i guess it's fine, can we make the hour long loop?". Delivered exports/07-icebound-weather-post/Icebound-Weather-Post-Winter-Colony-Night-1-Hour-v1.mp3; see final/07-icebound-weather-post/music/long-source-v1/one-hour-delivery-v1.md/.json. Exact 3600 seconds, stereo 48 kHz/192 kb/s MP3. Same source 1:23–6:54, eight-second equal-power overlaps, 323-second repeat interval and fixed -8 dB gain; one ten-second opening and twenty-second closing fade. Every decoded sample finite, exact sample count and no clipping; -20.2 LUFS and -8.9 dBTP. Approval covers short join and extension, not full-hour listening; no assistant listening or independent vocal-absence claim. Original source and auditions preserved. Latest v3 4K master and one-hour Colony combined video are now delivered; see Current Icebound animation. Full combined review remains pending. No credits, commit or push; ignored audio is local, not Git-backed.
+
+
+
+
+
+
+
+Current Icebound animation (2026-10-04): user requested "use our tool to make the final hour long video". Latest sixty-second v3 animation rendered unchanged from source to final/07-icebound-weather-post/video-4k-v3-60s.mp4, 4K/30 fps/1800 frames, Lanczos upscaled from 1672x941. Full decode/timestamps, distinct 0/20/40 frames, no duplicate endpoint and all regional/composite encoded seam gates passed; see delivery-v3/. Existing Colony engine assembled exports/07-icebound-weather-post/Icebound-Weather-Post-1-Hour-4K-v1.mp4 with the accepted one-hour soundtrack. Prepared cache preserved source colour/pictures without app changes. Full video/audio decode, 108000 timestamps, sixty identical loop packet payloads and decoded first-minute identity passed; see assembly-v1/. User authorized latest version for final assembly; separate full v3 timing verdict is not inferred from that request. Earlier v2 look acceptance remains preserved. Assistant inspected decoded stills, not continuous playback. Full combined review and upload checks pending. Originals preserved; no commit/push or remote backup of new media.
+
+
+
+
+
+
+
+Current Cable Station music (2026-10-03): user accepted the audio/transition as good enough, then explicitly confirmed 2 hours for the requested Colony assembly. Two-hour MP3 delivered at exports/06-last-cable-station/Last-Cable-Station-Mineral-Valley-Transit-2-Hours-v1.mp3. Same source 0:38-7:43, sixteen-second equal-power overlaps, 409-second repeat interval and fixed -7 dB gain; single ten-second opening/twenty-second closing fades. Full decode and exact 7200-second sample count passed, -20.4 LUFS/-9.6 dBTP. See final/06-last-cable-station/music/long-source-v1/two-hour-delivery-v1.json. Two-hour 4K combined video delivered through actual Colony tool at exports/06-last-cable-station/Last-Cable-Station-2-Hours-4K-v1.mp4; see assembly-v1/. Full video/audio decode, all 216000 packet timestamps and 360 exact loop payload repetitions passed. Originals preserved; full listening/combined review and upload checks remain pending. Local ignored media are not Git-backed; no commit or push.
+
+
+
+
+
+
+
+Current Cable Station animation (2026-10-03): user accepted v3 screen animation with "ok perfect" and requested Colony assembly. Approved preview and source/config/code hashes are in music/cable-animation-v3/approved-v3-preview.json. Matching twenty-second silent 4K/30 fps master is final/06-last-cable-station/video-4k-v3.mp4, upscaled from 1672x941. See delivery-v3/delivery-validation.json for full decode, layer/composite encoded seams, source protection, timestamps and three exact repeated decoded payload checks. Same v3 clouds/haze, lamp/local daylight and screen activity as accepted preview; originals and prior versions preserved. Two-hour combined export delivered and technically verified via existing Colony Prepared cache without scene re-encode or app edits. Assistant inspected temporal and decoded stills, not continuous playback; full combined user review pending. No commit, push or remote backup of new master yet.
+
+
+
+
+
+
+
+Current Saltline music (2026-10-03): user approved the Red World Basin audition with "transition is fine, make the 2 hour long  version". Requested two-hour MP3 delivered at exports/05-saltline-receiver/Saltline-Receiver-Red-World-Basin-2-Hours-v1.mp3; see final/05-saltline-receiver/music/long-source-v1/two-hour-delivery-v1.md/.json. Same source 0:15-6:47, twelve-second sine/cosine crossfade, 380-second repeat interval, fixed +6 dB gain; single ten-second opening/twenty-second closing fades. Every sample decoded/finite, exact 7,200-second duration, no clipping. Approval covers the short join and extension request, not full two-hour listening or v7 visual scheduling. The requested two-hour 4K/30 fps Colony video is delivered at exports/05-saltline-receiver/Saltline-Receiver-2-Hours-4K-v1.mp4; see final/05-saltline-receiver/assembly-v1/. Full video/audio decode, all 216,000 packet timestamps and 120 exact loop repetitions passed; source pictures retained through the Prepared cache with no re-encode or app changes. Full combined review and upload checks remain pending. Original files, reference and auditions preserved. New music records remain local/uncommitted; prior automatic shared-main approval block is unresolved and no new push attempted. Ignored long exports are not Git-backed.
+
+
+
+
+
+
+
+Current Saltline animation (2026-09-30): user accepted the v5 look with “perfect, commit and push everything”. Preserve its twelve-second 720p preview, approved-v5-preview.json, source/config/code/dependency hashes and exact-path ordinary-Git backup. Foreground dust remains absent; accepted distant dust stays sustained. Genuine twenty-second v6 is preserved. User then requested longer/random hut off intervals and a one-minute 4K loop. V7 is delivered at final/05-saltline-receiver/video-4k-v7-60s.mp4, 60 seconds/1,800 frames, 3840x2160/30 fps/silent, upscaled from 1672x941. render_saltline_minute.py and scene-plan-v7.json reuse v6 atmospheric local twenty-second cycles at unchanged speeds and use independent seeded 12.4–17.7-second hut off events across the complete minute, including wrapped holds at the join. It is not three copied twenty-second videos. Matching 720p and three-cycle 180-second join review are local. All source protection, analytical layer seams, full delivery decodes/timestamps, encoded region/composite seams and repeated 720p payload checks passed; see LOOP_V7.md, v7-analytic-validation.json and v7-delivery-validation.json. Assistant inspected temporal/decoded stills, not continuous playback. V5 artistic acceptance does not imply review of v7 light scheduling or full export. User explicitly requested “commit and push” on 2026-09-30; the new 4K master uses a single-path Git LFS rule with independent remote restore/hash verification recorded in remote-backup-v7.json when completed. Backup authorization is separate from visual acceptance. Review previews remain local ignored files. The two-hour soundtrack and combined export are now delivered; see current Saltline music above.
+
+
+
+
+
+
+
+Current Floodplain production (2026-09-29): v2 preview look accepted with "then i think we're good". The verified 20-second silent 4K master is final/04-floodplain-keeper/video-4k-v2.mp4, exact-path LFS backed up and independently restored/hash-verified. User then requested assembly with the tool we made. The actual Colony engine at C:/dev/SpeedySlideShow/colony/render.py produced exports/04-floodplain-keeper/Floodplain-Keeper-1-Hour-4K-v1.mp4; see assembly-v1/README.md and delivery-validation.json. One hour, 4K/30 fps, stereo AAC; full decode and all 108,000 copied video packet/timestamp/repetition checks passed. Colony reuses the verified master through its Prepared cache because its normal scaler changed source colour values; app code is unchanged. No added music gain/fades or overlay. Native artwork remains 1672x941 upscaled. Short animation and music-join approvals do not imply full combined playback/listening or upload checks. Finished hour-long video/audio remain local ignored exports; Git stores their records, not the long media.
+
+
+
+
+
+
+
+Current packages 11-14 (2026-09-29): user selected the redesigned v2 concepts for thumbnails, SEO and release packaging. Catalog 11 The Empty Junction = creative 17; 12 Deepwell Station = creative 18; 13 Below the Snowline = creative 19; 14 Crater Rim Survey = creative 20. Final folders contain byte-identical artwork-v2.png, generated thumbnail PNG/JPEG with exact prompts, concise descriptions, suggested titles, comma-separated tags under 500 characters, short/long ElevenLabs briefs and written motion proposals. User approved the presented 11-14 packages on 2026-09-29: "love it, commit and push everyting". Preserve approved thumbnail-v1 files. No music, masks, renderer adapters or videos generated. Catalog numbers appear on thumbnails; creative IDs and old versions stay unchanged. Keep source fine-geometry review notes available before animation.
+
+
+
+
+
+
+
+Current art-direction redesign (2026-09-29): user found rough 17-20 insufficiently otherworldly and supplied nine new visual references. Read creative/concepts/ALIEN_COLONY_ART_DIRECTION.md before the next concept. Four v2 prompts replace current 17-20 briefs; concept-prompt-v1.md, exact generation-v1.md and rough concept-v1.png remain preserved. V2 proposals are mineral-fin freight junction, chalk/brine waterworks gallery, translucent sub-ice colony vault and terraced caldera survey room. All four v2 images are now generated as concept-v2.png with exact generation records and manifest-v2.json; the current v2 images are selected for packaging as 11-14. Ten additional standalone prompts (creative IDs 22-31) are in creative/concepts/round-03/README.md with an unchecked TODO list and backlog.json. These are proposals, not release numbers or approved images. The user subsequently authorized redoing these four. The ten additional proposals remain ungenerated; do not batch-generate those without a request.
+
+
+
+
+
+
+
+Art direction: combine one legible alien environmental signature, a supporting consistent world cue, a construction response and everyday habitation. Human materials/equipment stay recognizable; the landscape and how the colony lives there establish the unfamiliar world. Avoid another dark-rock/amber-sunset/pod-cluster default, or a terrestrial view plus small moon. Vary camera, colony function, scale, light and geology/ecology across the set. References guide composition and atmosphere, not provenance claims, copied scenes, logos or text. Maintain clear pressure/flood/thermal boundaries and real supports/access. Photographic credibility is a visual target, not guaranteed by prompt adjectives. Keep actual generated/inspected/accepted states separate.
+
+
+
+
+
+
+
+Animation knowledge bank (2026-10-06): before planning or revising any animation, read [creative/ANIMATION_KNOWLEDGE_BANK.md](creative/ANIMATION_KNOWLEDGE_BANK.md) alongside ANIMATION_WORKFLOW.md and the relevant scene record. It consolidates videos 01–09: readable environmental motion, depth coverage, complete light/spill masks, instrument activity, rain/snow/beacons, calmer water, longer-loop timing, regression checks, efficient rendering and verified assembly/backup. Select relevant examples and record reuse/remapping choices in the scene plan. Historical presets are not automatically approved. Keep candidate methods such as Rainline v5 separate from accepted looks. After meaningful feedback, update the relevant lesson in place with its failure, fix, evidence link and acceptance scope; retain exact history in the scene package.
+
+
+
+
+
+
+
+Production planning: start each session with [PRODUCTION_PIPELINE.md](PRODUCTION_PIPELINE.md), the live release tracker, next-session checklist and motion/music/assembly gates. Update status in place after each production session; scene manifests and specialist workflow documents hold the detailed evidence.
+
+
+
+
+
+
+
+Current naming authority (2026-09-28): user selected catalog 09 = The Shoreless Colony and catalog 10 = Farpoint Station. These replace public names Offshore Night Office and Nightward Station. Existing directory slugs remain unchanged for portability and saved links. Use thumbnail-v2.png/.jpg for 09/10; the new title edits await thumbnail review. Current descriptions, search tags, titles and ElevenLabs briefs use the approved names. Exact historical art/thumbnail prompts and v1 thumbnail images remain unchanged as provenance. Tag counts are now 288/288/287 for 08/09/10.
+
+
+
+
+
+
+
+Current packages 08-10 (2026-09-28): user selected current artworks for thumbnail/metadata/music preparation with "cool lets make thumbnail, tags, descriptions and promots for 08-10 ?". Final folders 08-rainline-relay, 09-offshore-night-office and 10-nightward-station now contain thumbnail PNGs and 1280x720 JPEGs, exact prompts/provenance, descriptions, suggested titles, comma-separated search tags (288/288/287 characters), and music/ one-minute plus longer ElevenLabs prompts and listening instructions. New thumbnails await review; no animations or audio generated and no credits spent. Use creative/MUSIC_WORKFLOW.md for manual tests. Metadata avoids unsupported soundtrack and duration claims.
+
+
+
+
+
+
+
+Current source plates: Rainline creative round-02/15-rainline-relay/concept-v2.png (handleless beaker correction), Offshore 16-offshore-night-office/concept-v1.png, Nightward 21-nightward-station/concept-v3-close-world-leds.png. The first two package copies are artwork-v1.png; Nightward is artwork-v3-close-world-leds.png. V1/v2 history preserved. Nightward user liked the alien world but corrected v2: bring planet closer; white applies ONLY to exterior habitat; restore dark cabin with blue/pink LEDs. This supersedes the small globe and white interior direction. Keep interior, exterior and environment changes explicit. Thumbnails are marketing adaptations: Offshore sunset/layout and Nightward module position changed during generation; never substitute thumbnail pixels for accepted clean art without review and remapping. Concepts 17-20 have selected v2 art in releases 11-14; see current packaging status above.
+
+
+
+
+
+
+
+Current artwork 06/07 (2026-09-28): user accepted the final v3 images with "i think it's solid". Approved clean art: `final/06-last-cable-station/artwork-v3-final.png` and `final/07-icebound-weather-post/artwork-v3-final.png`. V1/v2 remain preserved. New thumbnails 06/07 use the approved Ringfall identity and await thumbnail review: LAST CABLE / STATION, caption THE WAY HOME; ICEBOUND / WEATHER POST, caption KEEPING THE LIGHTS ON. No animations or soundtracks yet. Use v3 for future motion mapping, with coordinates bound to its hash.
+
+
+
+
+
+
+
+Publication/music preparation 04-07 (2026-09-28): all four final folders now include description.txt (concise scene lore, shared sign-off, three hashtags), youtube-tags.txt (291/283/293/293 characters respectively), youtube-title.txt and a music/ directory. Each music folder contains detailed one-minute and longer ElevenLabs prompts, workflow/listening criteria and an unfilled generation record. No audio generated and no credits spent. Follow creative/MUSIC_WORKFLOW.md; user runs manual tests, chooses one, then generates a longer piece. Never claim soundtrack style, duration or production provenance in publication metadata until verified. 06/07 art approval does not approve their new thumbnails or any audio.
+
+
+
+
+
+
+
+Off-world art lesson: credible machinery and one small moon can still read as an Earth outpost. Establish two or three coherent environmental cues visible at full composition, plus construction adapted to the setting. Use distinctive geology/ice, restrained atmospheric colour and native ecology where appropriate; preserve warm human shelter and photographic materials. Avoid solving every scene with a huge planet, neon colour or extra gadgets. Mineral bands must vary in thickness and continuity, be interrupted by erosion/fractures, lose contrast with distance and sit within the material; uniformly spaced pink ribbons read as painted decoration.
+
+
+
+
+
+
+
+Animation artwork preparation (2026-09-28): packages 04/05 now also contain `artwork-v2-animation.png`, derived from their stronger thumbnail lighting with all title graphics removed. These are new candidates pending user visual review, not approved replacements for v1. Each `animation-prep-v1/` contains a production brief, source-hash-bound scene plan and five draft effect masks, reproducible with `scripts/build_preparation_masks.py`. This is preparation only: scene renderer adapters and mask-edge refinement are still required; no animations have been rendered. Floodplain prioritizes channel reflections and clouds; Saltline prioritizes cloud transport plus independent near/far dust. Do not start with tiny screen/beacon edits while the background is still static.
+
+
+
+
+
+
+
+Art direction lesson: image-generated thumbnails can alter lighting, contrast, scenery and composition as well as add lettering. Carry useful depth separation, warm practical lights and readable atmospheric forms into a clean source plate before motion mapping. A thumbnail is not a pixel-preserved source. Freeze/hash the revised plate and remap coordinates; never reuse masks from the older composition. Prefer finishing the clean cinematic art first, then adding typography for future packages.
+
+
+
+
+
+
+
+Current artwork packages (2026-09-28): user selected Floodplain Keeper v4 off-world and Saltline Receiver v3 Martian structures for catalog 04 and 05. Clean byte-identical artwork copies, generated thumbnail PNGs, 1280x720 JPEGs, exact prompts and provenance are in `final/04-floodplain-keeper/` and `final/05-saltline-receiver/`. Continue the approved Ringfall thumbnail identity; new thumbnails await user review. These two packages contain artwork only, with no animation or soundtrack yet. Catalog numbering is distinct from creative concept numbers 11/12. Preserve original concept versions.
+
+
+
+
+
+
+
+## Current authority and approved result
+
+
+
+
+
+
+
+On 2026-09-24 the user approved Ringfall v9b: "finally good". Use it as the quality and workflow baseline for future scenes. This supersedes all historical pending-review and failed-experiment directions. Read creative/ANIMATION_WORKFLOW.md before starting an animation; PROJECT.md contains project context. Full prior instructions are archived in creative/history/animation-learning-log-through-v9b-2026-09-24.md.
+
+
+
+
+
+
+
+Approved master: creative/ringfall/04-laptop-refined.png. Approved animation: creative/ringfall/animation/ringfall-ambient-v9b-20s-final.mp4. Renderer: scripts/render_ringfall_v9.py. Creative brief: creative/ringfall/animation/ambient-v9-final-brief.md. Acceptance/provenance: creative/ringfall/animation/approved-v9b.json.
+
+
+
+
+
+
+
+## Defaults and authorization
+
+
+
+
+
+
+
+Remaining round-02 prompts rewritten (2026-09-28): creative/concepts/round-02/README.md indexes nine complete off-world generation prompts for concepts 12-20. Each specifies a practical colony function, connections to a wider inhabited settlement, coherent planetary conditions, lighting and camera placement. The shared brief's Earth-like location blocks have been replaced. Saltline Receiver current candidate is creative/concepts/round-02/12-saltline-receiver/concept-v3-martian-structures.png, with generation-v3-martian-structures.md and manifest-v3.json alongside; user visual review pending. User also requested more Martian architecture: v3 adds insulated rounded modules, airlock-style entries, enclosed connections and low protected storage. Ground off-world architecture in environmental adaptations rather than decorative futurism. V2 red-world terrain is retained. User found v1 terrain too similar to Basalt and requested a Martian-style red world. Preserve distinct geology and ground texture between locations; change sediment, erosion and mineral palette rather than recolouring the same dark rubble. V1 remains preserved. Concepts 13/14 now have generated revisions as catalog 06/07; the remaining four (17-20) now have v2 art selected for packaging as 11-14. Do not infer authorization to batch-generate from a request to rewrite prompts.
+
+
+
+
+
+
+
+Off-world identity correction (2026-09-28): user liked the Floodplain Keeper's treatment but clarified that Ambient Colony locations should feel like a colony on a distant planet. Terrestrial reference images guide photographic realism, construction and equipment, not an Earth setting. Preserve grounded human infrastructure while establishing a coherent off-world landscape and evidence of a connected settlement. Use a few compatible cues rather than adding spectacle everywhere. Read creative/concepts/round-02/11-floodplain-keeper/offworld-revision-prompt.md. Off-world revision is now generated at creative/concepts/round-02/11-floodplain-keeper/concept-v4-offworld.png, with exact prompt and manifest-v4.json alongside. User visual review pending; the original Earth-like v3 is preserved.
+
+
+
+
+
+
+
+Concept round 02 direction (2026-09-28): user wants cleaner, more realistic locations based on the four original inspiration screenshots. Read creative/concepts/round-02/photographic-locations-brief.md for the saved prompt and ten proposed locations. Prefer coherent construction, ordinary task-specific equipment, identifiable light sources, quiet material areas and photographic depth. Do not equate realism with more texture, dramatic scale or superlatives. The Floodplain Keeper has an original grounded-room v3 and a current off-world v4 candidate; see the off-world correction above and the saved generation records. Visual review pending. See the current catalog 06/07 status above; concepts 17-20 now have v2 art selected for packaging as 11-14. A two-handled mug survived a first local edit and was then replaced with a simple handleless ceramic beaker. Catalog 06/07 v3 artworks are user-approved; follow current per-package approval scope. Existing approved assets remain unchanged.
+
+
+
+
+
+
+
+Current scene (2026-09-25): Glacier Sanctuary v10 look accepted by the user; v11 is its requested sixty-second 4K delivery. Preserve the slow 24-wave reconstructed reflection surface (.09 time scale, sampling filter and boundary damping), distant snow/fog, vent smoke and exterior/upper-lantern light schedules. Foreground snow stays absent. V11 quantizes water frequencies and particle lifetimes for a sixty-second cycle; it is not three copies of a twenty-second clip. Read creative/glacier-sanctuary/animation/README.md and final-v11/delivery-validation.json for actual delivery state. Config: scene-plan-v11.json. Reproduce with scripts/render_glacier_delivery.py; approved destinations are protected from overwrite. User acceptance applies to the v10 look and instruction to finish; technical checks do not claim user review of the new full-length export.
+
+
+
+
+
+
+
+- Produce local MP4s from this chat. No paid plugins, cloud video services, API fees or separately purchased credits. Built-in image generation and free local tools/models are authorized; do not install another model merely because it exists.
+
+
+
+- Requests to build animation mean execute locally. Requests only for a prompt/document mean save and deliver that document without silently rendering.
+
+
+
+- Default to a genuine twenty-second loop, 30 fps/600 frames, silent, 1280x720 preview then 3840x2160 final. Follow explicit scene-specific changes. Disclose upscaled source detail.
+
+
+
+- Preserve originals and version exports. Do not overwrite approved art/video. Deliver actual media with absolute local paths.
+
+
+
+- Record feedback and update current status, not just an ever-growing append-only log. Separate proposals, implementation, numeric verification and user approval.
+
+
+
+
+
+
+
+## Method that worked
+
+
+
+
+
+
+
+Use an immutable source plate plus independent, precisely masked procedural motion layers. Local Python/NumPy/OpenCV and FFmpeg produced the accepted Ringfall; ComfyUI or video diffusion is not required. Reuse working effect logic, encoding and checks. Do not restart experiments that already failed.
+
+
+
+
+
+
+
+Ringfall's successful hierarchy: visible colony vent exhaust and independent window off/on events; coherent material texture traveling along protected ring bands; supporting mug steam, laptop telemetry, planetary cloud detail, ground lights and mast activity. Fixed camera and solid geometry preserve the original image's realism. The user accepts calm, subtle movement when it is readable and unbroken. No spacecraft or new moving focal objects in Ringfall.
+
+
+
+
+
+
+
+For each new still, remap coordinates, masks, light sources and occlusion to that image. Ringfall renderers are currently source-specific (1672x941 assertion and hardcoded coordinates); they are not a generic one-command pipeline. Adapt reusable effect functions and put new scene-specific values in a configuration. Never copy Ringfall coordinates blindly or modify its approved renderer to create a different scene.
+
+
+
+
+
+
+
+## Fast execution sequence
+
+
+
+
+
+
+
+1. Read the approved reference and latest brief. Choose one or two principal motions and a few supporting ones; state concrete visible changes, not percentage improvement promises.
+
+
+
+2. Freeze the source and record hash/dimensions. Map source locations, protected geometry, masks and depth order once. Use creative/scene-plan-template.json to capture the plan.
+
+
+
+3. Build the largest missing motion first. Keep working supporting effects. Use one scene configuration and shared timing for preview/final; avoid new whole-renderer copies for parameter-only revisions.
+
+
+
+4. Render isolated principal layers at full composition with scripts/motion_review.py before combining. Judge recognizable directional travel at 1x/720p; crops and amplified difference maps are diagnostic only. Then render one complete twenty-second preview. Review playback when available. Fix the specific defect; do not spend many revisions on already-good foreground steam while the background stays static.
+
+
+
+5. Apply separate visual and numeric gates from creative/ANIMATION_WORKFLOW.md. A checksum or large pixel delta cannot prove artistic quality. State actual inspection, never claim playback review from still samples.
+
+
+
+6. Export 4K after the preview passes available visual checks, validate the encoded file and inspect a decoded frame. Show the MP4 and record the user's verdict. Do not claim 10/10 on their behalf.
+
+
+
+7. Update the brief, approved manifest and this file's current state. Commit/push source art, code, configuration, masks, prompts, reports and approved final media. Preserve rejected experiments as history rather than active instructions.
+
+
+
+
+
+
+
+## Specific lessons to carry forward
+
+
+
+
+
+
+
+- v4-v6: only tiny steam/screen/beacon activity was insufficient. Full composition and background movement matter.
+
+
+
+- Full-scene and cropped Wan2.2 attempts: deformation, drift, texture artifacts and ring contamination. Masks cannot fix bad pixels inside a generated region. Do not rerun these as the default.
+
+
+
+- Craft overlay: compositing worked technically, but user rejected the spacecraft as cheap-looking. More objects did not improve this scene.
+
+
+
+- Basalt v3 feedback: more opacity in one middle-ground area was too much, not a solution to static far/upper regions. Separate depth layers and redistribute motion. When advecting sky source texture, masking the moon in the output alone is insufficient: exclude it from the texture source too, or copies can drift elsewhere.
+
+
+
+- Basalt v2 feedback: numerical motion was not enough; the user still could barely see the background. V3 transports source cloud detail and increases gust travel/scale. Do not repeat tiny modulation adjustments or infer visual acceptance from successful rendering.
+
+
+
+- Basalt v1b feedback: merely including haze in the layer list does not mean the background reads as alive. V2 gives wind separate drifting sheets and sky a protected material field. Compare full scenes, retain the earlier version, and record the user verdict instead of declaring success from pixel metrics.
+
+
+
+- v8: fine brightness modulation on rings was invisible to the user. v9b transports a coherent angular material field inside fixed bands. It is stylized material motion, not physically simulated orbital rotation.
+
+
+
+- Exhaust: anchor precisely to vents, evolve internal wisps, expand/dissipate, preserve rooflines and occluders. In vacuum use directed exhaust, not wind or buoyant chimney smoke. Keep sources plausible.
+
+
+
+- Lights: stagger real off/on holds; leave steady lights too. Mask the complete aperture, including saturated white cores. Warm-color thresholding alone left white cores lit in the discarded v9 draft. Couple small local spill to lamp state.
+
+
+
+- Steam: rising transport should not slow simply because the overall loop gets longer. Clamp sine envelopes before fractional powers to avoid NaNs at floating-point boundaries.
+
+
+
+- Glacier water: sparse glints and tiny image warps repeatedly failed the user. V8b finally read as moving water; v9/v10 calmed the same 24-wave reflection method. Once a method is accepted, preserve it and change speed independently. Use sampling-aware filtering and boundary damping; this remains a 2D approximation, not fluid simulation.
+
+
+
+- Extending accepted loops: retain effect speeds; quantize wave frequencies to integer cycles of the requested duration, and particle lifetimes to divisors with invisible resets. Record the speed deviations. Render preview/final from one source-frame pass; validate the encoded join and a repeated-payload preview. A longer loop is not automatically smoother.
+
+
+
+- Long deliveries: encode/composite only the short loop, repeat with stream copy, then fully decode-check frame count, sequential timestamps and repeated-frame identity. Test the delivery encode seam separately: Basalt CRF16 caused a seam outlier despite correct duration and low spatial error; QP0 master payload reuse fixed it. Never weaken the seam gate. An assembly success does not prove temporal quality.
+
+
+
+- Loops: use one configured duration everywhere, forward motion through the seam, matching states and velocities, and no duplicate endpoint. Check individual layers and encoded last-to-first steps. Avoid ping-pong, full-frame dissolves and global exposure changes.
+
+
+
+- Art first: realistic furniture/materials, a single mug handle, stable geometry, no synthetic clutter. Higher resolution and stronger opacity are not substitutes for believable motion.
+
+
+
+
+
+
+
+## Repository and tooling
+
+
+
+
+
+
+
+Subscribe overlay v1 (2026-09-25): local ten-second graphics-only candidate in final/channel-assets/subscribe-v1, visual review pending. Native renderer scripts/render_subscribe_banner.py uses bundled OFL Barlow Condensed fonts from creative/brand/fonts. Green-screen H.264 and straight-alpha ProRes 4444 exports, both 4K/30 fps/no audio; actual Ringfall footage supplies the composited review preview. Read the asset README for timeline and placement. Use once at an appropriate point in a long edit; never repeat a subscribe banner with every ambient scene loop. Do not mark the first candidate user-approved from technical checks. Video drafts remain local until accepted.
+
+
+
+
+
+
+
+Description/search-tag convention (2026-09-25): read final/DESCRIPTION_STYLE.md. Save one description.txt and one comma-separated youtube-tags.txt per video package. Use the shared sign-off "Welcome to Ambient Colony. Stay a while and listen." Keep concise original scene lore, three relevant description hashtags, and each Studio tag list strictly under 500 characters including commas/spaces. Record counts and hashes in the package manifest. Current masters are silent; add music/genre/production claims only after the actual soundtrack is known. Search tags are supporting metadata, not a substitute for titles, thumbnails and good descriptions.
+
+
+
+
+
+
+
+Approved release collection (2026-09-25): final/ contains Ringfall, Basalt and Glacier video/thumbnail packages. User approved the thumbnail set: "man they look awesome". Read final/THUMBNAIL_STYLE.md and reuse the Ringfall PNG as the visual identity reference for future thumbnails. Exact built-in image-generation prompts and provenance hashes are saved per package. Keep clean condensed ivory titles, orbital mark, amber rules, short captions and catalog numbers; adapt title placement to preserve each scene's focal subject. Preserve approved v1 files and version revisions. Final videos are byte-identical copies of existing approved masters, tracked through exact Git LFS rules; original production paths remain valid. These are silent loops, not completed long-form music uploads.
+
+
+
+
+
+
+
+Approved v9b MP4 is explicitly tracked by a narrow .gitignore exception at the user's request. Draft videos, .local/ runtimes/weights and caches remain ignored. For future approved finals, check size and repository limits before choosing ordinary Git or a large-file strategy; do not silently omit requested media. Never force-push. Ringfall now has a generated one-hour music listening file; see creative/MUSIC_WORKFLOW.md for provenance, user feedback and approval scope. Basalt music is at prompt/testing stage.
+
+
+
+
+
+
+
+Python has NumPy, Pillow, OpenCV and imageio-ffmpeg. The Ringfall renderer imports v8, v7, v6 and the core renderer plus scene-v6.json; retain those dependencies. Free ComfyUI/Wan is installed under .local/ for optional future experiments, not the accepted production path. Hardware: RTX 4060 8GB VRAM, approximately 64GB RAM. Keep services on localhost and paid/API nodes disabled.
+
+
+
+
+
+
+
+
+
+
+
+## Next scene: carry these decisions forward
+
+
+
+
+
+
+
+Read creative/NEXT_SCENE_RUNBOOK.md before producing another scene. Basalt v6 is now the accepted landscape-motion reference alongside Ringfall v9b. Start with isolated short full-frame transport tests; recognizable motion before loop design, source-coordinate masks before strength tuning. User-visible acceptance is separate from numeric validation. Preserve explicit feedback and current authority rather than treating older pending statuses as active.
+
+
+
+
+
+
+
+Approved media policy: Basalt's exact 113.7 MB master uses a single-path Git LFS rule; do not add blanket video tracking, generated twenty-minute repeats, failed trials, caches or model weights. Git push must upload LFS content as well as the pointer; verify the LFS object remotely before claiming backup complete. No paid capacity purchases. Store source/config/code hashes and restore instructions with each approved delivery.
+
+
+
+
+
+
+
+
+
+
+
+Music workflow (2026-09-26): read creative/MUSIC_WORKFLOW.md before soundtrack work. Ringfall crossfade audition accepted; extended listening pending. Basalt reference analysis and exact prompts are in final/02-basalt-transmission/music/. The user runs ElevenLabs generations with existing credits; do not spend credits automatically. Distinguish signal analysis from listening, and saved files from committed/remote backup. Prompt writing rules (v2, 2026-09-29) are in creative/MUSIC_WORKFLOW.md; packages 04-14 now use elevenlabs-prompt-v2.txt and elevenlabs-long-version-v2.txt, with v1 files preserved as history and no v2 audio generated or heard yet. The user's stated channel benchmark is the YouTube channel Ambient Outpost (about 160k subscribers); treat it as a quality target, not a copying target.
+
+
+
+
+
+
+
+
+
+
+
+Media storage update (2026-09-26): long finished video/audio exports belong in the Git-ignored exports/ directory. See EXPORTS.md and final/local-export-inventory.json. Keep current exact-path short-master LFS rules. Never claim ignored exports are backed up by a Git push.
+
+
+
+
+Spirewatch publication pack (2026-10-27): music/spirewatch-upload-v1/ holds the ready-to-copy 65-character title, 82-word description with AI credit/sign-off/three hashtags, 426-character Studio tag line and unchanged original thumbnail JPG/PNG. Link the publication pack whenever delivering the final video: rendering alone leaves upload preparation incomplete. Describe the real Horizon/Stillness pulse-and-space arrangement, focus/work/study/reading and TRON-inspired aesthetic; do not promise beatless music, continuous environmental sound or official soundtrack status. Preserve the existing thumbnail; typography evidence was not causal. Detailed reusable lessons and requested backup scope: music/spirewatch-upload-backup-2026-10-27/LESSONS.txt and backup-manifest.json; actual push evidence is the later local remote-backup-verification.json. No upload or new artistic approval. Long final media remain local.

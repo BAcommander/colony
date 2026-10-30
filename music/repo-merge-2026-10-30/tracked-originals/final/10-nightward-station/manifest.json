@@ -1,0 +1,376 @@
+{
+  "catalog_number": "10",
+  "title": "Farpoint Station",
+  "date": "2026-09-28",
+  "status": "One-hour 4K Farpoint video delivered and technically verified; full combined review/upload checks pending",
+  "user_approved": false,
+  "generator": "built-in image_gen",
+  "source": {
+    "path": "creative/concepts/round-02/21-nightward-station/concept-v3-close-world-leds.png",
+    "sha256": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+    "bytes": 1948580,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "artwork": {
+    "path": "final/10-nightward-station/artwork-v3-close-world-leds.png",
+    "sha256": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+    "bytes": 1948580,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "prompts": [
+    {
+      "path": "final/10-nightward-station/artwork-edit-v3.md",
+      "sha256": "f071956664a0b81823bc66b33bd9761ccb842fe55608a5ea3aab5665a4c2804b",
+      "bytes": 3318
+    }
+  ],
+  "references": [
+    {
+      "path": "final/10-nightward-station/artwork-v2-distant-world.png",
+      "sha256": "4c621703c1207819fd7763f57456c07ab8f9c2f80690fe87927bddaac8379549",
+      "bytes": 1909846,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "final/10-nightward-station/artwork-v1.png",
+      "sha256": "d0113c74265ea6c347ca7f57739dd82e24a7f85feae967297d7f0da4229b8a08",
+      "bytes": 1866967,
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "reference_role": "V2 is primary edit target and alien planet reference; v1 guides darker interior materials only.",
+  "historical_artwork": [
+    {
+      "path": "final/10-nightward-station/artwork-v1.png",
+      "sha256": "d0113c74265ea6c347ca7f57739dd82e24a7f85feae967297d7f0da4229b8a08",
+      "bytes": 1866967,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "final/10-nightward-station/artwork-v2-distant-world.png",
+      "sha256": "4c621703c1207819fd7763f57456c07ab8f9c2f80690fe87927bddaac8379549",
+      "bytes": 1909846,
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "visual_inspection": {
+    "method": "generated images inspected as stills in chat",
+    "notes": "Still inspected in chat: closer ochre/chalk planetary horizon crops against right and bottom window edges; dark cabin panels restored; external habitat remains white. Blue upper-frame and panel indicators plus pink undershelf lights are visible. Warm lamp and practical room composition retained. No animation or user acceptance claimed."
+  },
+  "video": {
+    "file": "final/10-nightward-station/video-4k-v6-60s.mp4",
+    "sha256": "c9479291c39b7158e22907f7496942f6355a41303f17b3c32880f50a2181d372",
+    "duration_seconds": 60,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "silent": true,
+    "native_source_dimensions": [
+      1672,
+      941
+    ]
+  },
+  "thumbnail": {
+    "master": "thumbnail-v2.png",
+    "master_sha256": "7e73762504217367d9d2ff4d751ec03f2561ea8990f500096d755ce63e597dff",
+    "master_dimensions": [
+      1672,
+      941
+    ],
+    "upload": "thumbnail-v2.jpg",
+    "upload_sha256": "26eae78ce7d23c09b00ba9826f52f3811be4b5ff1849ce2d0aa9cd233beab35a",
+    "upload_dimensions": [
+      1280,
+      720
+    ],
+    "upload_bytes": 237019,
+    "source_art": "artwork-v3-close-world-leds.png",
+    "source_art_sha256": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+    "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
+    "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+    "prompt": "thumbnail-prompt-v2.md",
+    "prompt_sha256": "7e190f3a6d2e073bdc228366ce050b8940a3cb47679254aa7b744e7775d2f3d6",
+    "method": "Built-in image_gen title edit on v1 thumbnail; FFmpeg Lanczos JPEG quality 2",
+    "review": "Generated still inspected: new title, caption, catalog number and brand spelling correct; scene identity retained. User review pending. Not a pixel-identical background edit.",
+    "user_approved": false,
+    "edit_target": "thumbnail-v1.png",
+    "edit_target_sha256": "84b4e2fedb09fd967f7d0299069d085311bf621e2536c292f2d8e73ac823249a"
+  },
+  "audio": null,
+  "resolution_note": "Native generated 1672x941; not a 4K master.",
+  "version_note": "V1/v2 and their manifests preserved. V3 brings the alien world closer, restores darker interior, retains white exterior and adds LED accents.",
+  "edit_target": {
+    "path": "final/10-nightward-station/artwork-v2-distant-world.png",
+    "sha256": "4c621703c1207819fd7763f57456c07ab8f9c2f80690fe87927bddaac8379549",
+    "bytes": 1909846,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "user_feedback": "V2 world looks better but is too far away; white applies only to external station. Restore dark interior and add blue or pink LEDs.",
+  "selection": {
+    "date": "2026-09-28",
+    "scope": "User requested thumbnails and publication/music preparation for current 08-10 artworks. Does not approve new thumbnails or audio.",
+    "feedback": "cool lets make thumbnail, tags, descriptions and promots for 08-10 ?"
+  },
+  "caption": "A QUIET WATCH ABOVE HOME",
+  "youtube_metadata": {
+    "status": "publication drafts; no unverified soundtrack or duration claims",
+    "title_file": "youtube-title.txt",
+    "title_sha256": "3d3d30e9fd2f8dec078d99658890225334e99bc369f9111f1d93bf7b935db675",
+    "description_file": "description.txt",
+    "description_sha256": "8839ac488335bd648e1257ab376799050bff311a4e4b86212b9ffaa67e22a12e",
+    "tags_file": "youtube-tags.txt",
+    "tags_sha256": "9239b6baed110fb423577316a3ea61d6df223e9c99251cb541f1ec04954b9c40",
+    "tags_characters_including_separators": 287,
+    "tags_characters_including_file_newline": 288,
+    "tags_count": 17,
+    "hashtags_count": 3,
+    "keyword_note": "Scene-relevant phrases, not measured search volume or ranking guarantees"
+  },
+  "music_preparation": {
+    "status": "prompts prepared; no audio generated",
+    "files": [
+      {
+        "path": "music/elevenlabs-long-version.txt",
+        "sha256": "6dfc3a6338ce79eba626537f503c0dfd1d12886d8ceeb955d1f79a1fe056cb26"
+      },
+      {
+        "path": "music/elevenlabs-prompt-v1.txt",
+        "sha256": "3726b14629a4553605a7a439ed34fd30a22082b617e8271663b5a788629dcabf"
+      },
+      {
+        "path": "music/generation-record.json",
+        "sha256": "0e109e4698c856d2fa014833d2571051d47d438399383a8bbcc9a3e4fc07aa21"
+      },
+      {
+        "path": "music/README.md",
+        "sha256": "b56fc8c4da4cb006bb03c47bc85395cc1443706feade51c0c2e546451ffe4840"
+      }
+    ],
+    "planned_test": "60 seconds, two variants; user runs manually after checking actual displayed cost",
+    "planned_long_piece": "approximately five minutes, one variant using chosen own test as reference",
+    "credits_spent_by_assistant": 0,
+    "workflow": "creative/MUSIC_WORKFLOW.md"
+  },
+  "previous_titles": [
+    "Nightward Station"
+  ],
+  "naming_approval": {
+    "date": "2026-09-28",
+    "feedback": "I like 10 = Farpoint Station and The Shoreless Colony = 9",
+    "scope": "Names approved; new thumbnail v2 awaits visual review."
+  },
+  "historical_thumbnails": [
+    {
+      "master": "thumbnail-v1.png",
+      "master_sha256": "84b4e2fedb09fd967f7d0299069d085311bf621e2536c292f2d8e73ac823249a",
+      "master_dimensions": [
+        1672,
+        941
+      ],
+      "upload": "thumbnail-v1.jpg",
+      "upload_sha256": "c7941bfcd8dd4eb5600940cb39f18339f257d1481a7b3be1e1c85b5dc5bfb70a",
+      "upload_dimensions": [
+        1280,
+        720
+      ],
+      "upload_bytes": 250245,
+      "source_art": "artwork-v3-close-world-leds.png",
+      "source_art_sha256": "9728b8a9baa773365b2eff1a7b0bb030836050f02309e4a04e29bae6d2104c4b",
+      "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
+      "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+      "prompt": "thumbnail-prompt-v1.md",
+      "prompt_sha256": "8390472f5307add2479550809d86633356e0adc24fda4fc95de2db3f488febca",
+      "method": "Built-in image_gen; FFmpeg Lanczos JPEG export quality 2",
+      "review": "Title and caption spelling, 10 number, close alien horizon, dark cabin and coloured LEDs inspected. Exterior white module repositioned by generation to sit below title; marketing adaptation only. User review pending.",
+      "user_approved": false
+    }
+  ],
+  "animation": {
+    "version": "v6",
+    "date": "2026-10-07",
+    "status": "V6 authorized for final assembly; one-hour 4K delivered",
+    "record": "music/farpoint-animation-v6/delivery-v6.json",
+    "preview": "music/farpoint-animation-v6/farpoint-station-v6-preview-60s.mp4",
+    "preview_sha256": "4844bfd1a5e64d6c33b1438741182af073721eb4b1488e500f0d4b68d3eb5a7d",
+    "repeat_review": "music/farpoint-animation-v6/farpoint-station-v6-three-loops-180s.mp4",
+    "repeat_review_sha256": "a9aa4eeab575b0f8966db6377e3ac818c11239ff8b5bca46622cd9a5ac0bc752",
+    "duration_seconds": 60,
+    "fps": 30,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "silent": true,
+    "seam_checks_passed": true,
+    "user_approved": false,
+    "master_4k": "final/10-nightward-station/video-4k-v6-60s.mp4",
+    "backup": {
+      "authorization_date": "2026-10-07",
+      "manifest": "music/farpoint-animation-v6/backup-manifest.json",
+      "remote_evidence": "music/farpoint-animation-v6/remote-backup-verification.json (local, written after verification)",
+      "scope": "Exact v6 minute preview plus source, dependencies and records"
+    },
+    "user_authorized_for_assembly": true
+  },
+  "animation_history": [
+    {
+      "version": "v1",
+      "date": "2026-10-07",
+      "status": "User rejected planet motion as effectively invisible",
+      "record": "music/farpoint-animation-v1/delivery-v1.json",
+      "preview": "music/farpoint-animation-v1/farpoint-station-v1-preview-20s.mp4",
+      "preview_sha256": "cf7ad3b93813926c6f27ecf3933f4c1e4256cd08d41e02aec8695d666f1409bd",
+      "repeat_review": "music/farpoint-animation-v1/farpoint-station-v1-three-loops-60s.mp4",
+      "duration_seconds": 20,
+      "fps": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "silent": true,
+      "user_approved": false,
+      "master_4k": null
+    },
+    {
+      "version": "v2",
+      "date": "2026-10-07",
+      "status": "User confirmed cloud motion visible; asked for more planetary and instrument detail",
+      "record": "music/farpoint-animation-v2/delivery-v2.json",
+      "preview": "music/farpoint-animation-v2/farpoint-v2-full-scene-motion-test-8s.mp4",
+      "preview_sha256": "b44937a3be9c491009c96a76295aca4a351b53f0a2234944a6423577d3e926e5",
+      "duration_seconds": 8,
+      "fps": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "silent": true,
+      "seamless": false,
+      "user_approved": false,
+      "master_4k": null,
+      "cloud_visibility_confirmed": true
+    },
+    {
+      "version": "v3",
+      "date": "2026-10-07",
+      "status": "Twelve-second forward detail preview; new additions await review",
+      "record": "music/farpoint-animation-v3/delivery-v3.json",
+      "preview": "music/farpoint-animation-v3/farpoint-v3-detail-preview-12s.mp4",
+      "preview_sha256": "84792899d4126f39447c514429bb2bc65b7cf6e2f3d87aa9cd8f68c183929b5c",
+      "duration_seconds": 12,
+      "fps": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "silent": true,
+      "seamless": false,
+      "user_approved": false,
+      "master_4k": null
+    },
+    {
+      "version": "v4",
+      "date": "2026-10-07",
+      "status": "User requested changes: sparse coverage, implausible blue glow, imperceptible star variation",
+      "record": "music/farpoint-animation-v4/delivery-v4.json",
+      "preview": "music/farpoint-animation-v4/farpoint-station-v4-preview-60s.mp4",
+      "preview_sha256": "31cd810a6845c66e4975ad880146e205061a683814a8314ed9f5ab66616d38a3",
+      "repeat_review": "music/farpoint-animation-v4/farpoint-station-v4-three-loops-180s.mp4",
+      "repeat_review_sha256": "8743c6f2b84ff59ac245387d2cd7fe0841d07a165857280b76ba3874b098cfef",
+      "duration_seconds": 60,
+      "fps": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "silent": true,
+      "seam_checks_passed": true,
+      "user_approved": false,
+      "master_4k": null,
+      "feedback_record": "music/farpoint-animation-v4/user-feedback-coverage-2026-10-07.json"
+    },
+    {
+      "version": "v5",
+      "date": "2026-10-07",
+      "status": "User requested positional star activity, bar cleanup and cabinet LEDs",
+      "record": "music/farpoint-animation-v5/delivery-v5.json",
+      "preview": "music/farpoint-animation-v5/farpoint-station-v5-preview-60s.mp4",
+      "preview_sha256": "28ddf4d0b191ecc92031f6cd27eeebda6a33c8579246c0bf457f4be2baf2a722",
+      "repeat_review": "music/farpoint-animation-v5/farpoint-station-v5-three-loops-180s.mp4",
+      "repeat_review_sha256": "439dd6bb976d0f0df9200a6828103594e86c79e3bd94d1ebc92c1ea053e0ea37",
+      "duration_seconds": 60,
+      "fps": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "silent": true,
+      "seam_checks_passed": true,
+      "user_approved": false,
+      "master_4k": null,
+      "feedback_record": "music/farpoint-animation-v5/user-feedback-stars-bars-leds-2026-10-07.json"
+    }
+  ],
+  "animation_source": {
+    "path": "final/10-nightward-station/artwork-v4b-reflection-cleanup.png",
+    "sha256": "8eeffb7e02a09c61604b8ed36309eda86585f707b83e94dedab3db45c5f83247",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "provenance": "music/farpoint-animation-v6/asset-provenance.json",
+    "scope": "User-authorized narrow bar cleanup; original packaging artwork remains unchanged",
+    "user_approved": false
+  },
+  "music_current": {
+    "status": "Unfolding Warmth selected; approved join extended to one hour",
+    "user_join_approved": true,
+    "target_final_duration_seconds": 3600,
+    "record": "music/one-hour-v1/delivery.json",
+    "source": "final/10-nightward-station/music/long-a-unfolding-warmth-v1/Unfolding_Warmth_2026-10-10T193419.mp4",
+    "sfx": null
+  },
+  "final_assembly": {
+    "status": "Delivered and technically verified; full combined review/upload checks pending",
+    "record": "assembly-v1/delivery-validation.json",
+    "file": "exports/10-nightward-station/Farpoint-Station-1-Hour-4K-v1.mp4",
+    "sha256": "a1684bdd06d73874ab0fd4a8108aa8b4def35bd60de853cb5b9779138553ca01",
+    "duration_seconds": 3600,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30
+  },
+  "four_k_current": {
+    "file": "final/10-nightward-station/video-4k-v6-60s.mp4",
+    "sha256": "c9479291c39b7158e22907f7496942f6355a41303f17b3c32880f50a2181d372",
+    "record": "delivery-v6/delivery-validation.json",
+    "preserved_dependency_snapshot": true,
+    "exact_saved_preview_source_samples": true,
+    "user_authorized_for_assembly": true
+  }
+}

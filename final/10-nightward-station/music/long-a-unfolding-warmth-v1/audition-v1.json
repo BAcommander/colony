@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-10",
+  "source": "final/10-nightward-station/music/long-a-unfolding-warmth-v1/Unfolding_Warmth_2026-10-10T193419.mp4",
+  "source_sha256": "a8ac883694a5a230e3f4cb89123e368026d211666055a401029421763dff1322",
+  "analysis": {
+    "duration_seconds": 298.53866666666664,
+    "integrated_lufs": -13.5,
+    "sample_peak_dbfs": -0.9743367433547974,
+    "edge_rms_5s": [
+      [
+        0,
+        -39.14
+      ],
+      [
+        5,
+        -29.37
+      ],
+      [
+        10,
+        -25.85
+      ],
+      [
+        15,
+        -15.73
+      ],
+      [
+        20,
+        -16.68
+      ],
+      [
+        25,
+        -18.87
+      ],
+      [
+        30,
+        -16.29
+      ],
+      [
+        35,
+        -17.21
+      ],
+      [
+        40,
+        -15.38
+      ],
+      [
+        45,
+        -17.37
+      ],
+      [
+        50,
+        -18.88
+      ],
+      [
+        55,
+        -18.93
+      ],
+      [
+        233,
+        -15.05
+      ],
+      [
+        238,
+        -18.08
+      ],
+      [
+        243,
+        -15.88
+      ],
+      [
+        248,
+        -16.62
+      ],
+      [
+        253,
+        -15.32
+      ],
+      [
+        258,
+        -14.56
+      ],
+      [
+        263,
+        -14.09
+      ],
+      [
+        268,
+        -16.47
+      ],
+      [
+        273,
+        -14.79
+      ],
+      [
+        278,
+        -16.44
+      ],
+      [
+        283,
+        -18.82
+      ],
+      [
+        288,
+        -21.53
+      ],
+      [
+        293,
+        -39.38
+      ]
+    ]
+  },
+  "source_start_seconds": 42,
+  "source_end_seconds": 284,
+  "overlap_seconds": 12,
+  "repeat_interval_seconds": 230,
+  "curve": "equal-power sine/cosine",
+  "gain_db": -7.0,
+  "candidate_level_difference_db": 0.4102668762207031,
+  "candidate_coarse_spectral_distance_db": 2.1094547261332175,
+  "candidate_method": "RMS and coarse-spectrum match away from measured opening/closing fades. Numeric candidate only, no harmonic compatibility or assistant listening claim.",
+  "auditions": [
+    {
+      "path": "final/10-nightward-station/music/long-a-unfolding-warmth-v1/Farpoint-Unfolding-Warmth-join-review-60s-v1.mp3",
+      "sha256": "7d839bbb51ebef89b6c3642725df74d6967f25b9c38128fe036a3e8e5d19d22c",
+      "duration_seconds": 60.0,
+      "full_decode": true,
+      "all_samples_finite": true,
+      "sample_peak_dbfs": -8.830120086669922
+    },
+    {
+      "path": "final/10-nightward-station/music/long-a-unfolding-warmth-v1/Farpoint-Unfolding-Warmth-three-repeats-v1.mp3",
+      "sha256": "8fadd8e7eb9f7c3d5169ba6174e2b0584e3fda3e2d3f9f2ae9e3c77c06b7e4cc",
+      "duration_seconds": 702.0,
+      "full_decode": true,
+      "all_samples_finite": true,
+      "sample_peak_dbfs": -8.78603458404541
+    }
+  ],
+  "short_join_seconds": [
+    24,
+    36
+  ],
+  "triple_join_seconds": [
+    [
+      230,
+      242
+    ],
+    [
+      460,
+      472
+    ]
+  ],
+  "triple_boundary_fades_seconds": [
+    5,
+    8
+  ],
+  "user_join_approved": true,
+  "long_source_selected_for_final": true,
+  "assistant_listening": false,
+  "final_duration_seconds": 3600,
+  "feedback": "here's the first version, what do you think can we loop it etc?",
+  "approval": {
+    "date": "2026-10-10",
+    "quote": "i think it works fine,",
+    "scope": "Approval of the presented Unfolding Warmth loop audition; preserve source cut 42\u2013284s, twelve-second equal-power crossfade and -7 dB gain. Does not select this over the pending second longer version or set final runtime."
+  },
+  "subsequent_selection": {
+    "join_quote": "i think it works fine,",
+    "assembly_quote": "i think for now lets just build out the full farpoint with this. since the track was only 5 minutes do you recommend 1 hour?",
+    "duration_decision": "One hour recommended and used for requested full Farpoint assembly."
+  }
+}

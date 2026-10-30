@@ -1,0 +1,205 @@
+{
+  "catalog_number": "15",
+  "title": "Cyberpunk Apartment",
+  "title_status": "working title",
+  "date": "2026-10-25",
+  "status": "Existing V3 silent animation imported at user request; Colony packaging, music and assembly pending",
+  "selection": {
+    "scope": "User requested bringing the existing animation into Colony and appending it to the numbered list. No publication or remote-backup approval implied.",
+    "feedback": "could we move it over, what number would make sense for it to become, like add at the end of the colony current list"
+  },
+  "source_folder": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3",
+  "originals_preserved": true,
+  "import_method": "Byte-verified copies; no re-render",
+  "video": {
+    "path": "animation-v3/Cyberpunk-Apartment-V3-4K.mp4",
+    "sha256": "e6256bbcf2fadd2b0639788058d2909e09c18901e73ae82392648fa85df23ac4",
+    "bytes": 29847525,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 60,
+    "duration_seconds": 10,
+    "audio": false
+  },
+  "preview": {
+    "path": "animation-v3/Cyberpunk-Apartment-V3-1080p.mp4",
+    "sha256": "c27dcc8abba8d9c98359a28942277dcfdce8ff7748cf18b42f7f773f892b1c54",
+    "bytes": 6395504,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "fps": 60,
+    "duration_seconds": 10
+  },
+  "artwork": {
+    "path": "artwork-v3.png",
+    "sha256": "3ae5b38ec7c6c5fa31d1df38a6659c39efdec5b717bfa199b0b839a1c0fc634d",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "resolution_note": "Video is upscaled from 1672x941 source artwork.",
+  "pending": [
+    "public title",
+    "Colony thumbnail",
+    "description and search tags",
+    "music selection and production",
+    "long-form assembly and review",
+    "publication"
+  ],
+  "historical_reports": "animation-v3 reports describe the original September delivery; not fresh migration playback review.",
+  "source_files": [
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\Cyberpunk-Apartment-V3-4K.mp4",
+      "package_path": "animation-v3/Cyberpunk-Apartment-V3-4K.mp4",
+      "sha256": "e6256bbcf2fadd2b0639788058d2909e09c18901e73ae82392648fa85df23ac4",
+      "bytes": 29847525
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\Cyberpunk-Apartment-V3-1080p.mp4",
+      "package_path": "animation-v3/Cyberpunk-Apartment-V3-1080p.mp4",
+      "sha256": "c27dcc8abba8d9c98359a28942277dcfdce8ff7748cf18b42f7f773f892b1c54",
+      "bytes": 6395504
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\clean-apartment.png",
+      "package_path": "animation-v3/clean-apartment.png",
+      "sha256": "3ae5b38ec7c6c5fa31d1df38a6659c39efdec5b717bfa199b0b839a1c0fc634d",
+      "bytes": 2584033
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\car-removal-edit.png",
+      "package_path": "animation-v3/car-removal-edit.png",
+      "sha256": "c3a2c01eaeb621065008dd70975b721fe77e6d16e1e331accdf878bff524975f",
+      "bytes": 2399064
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\car-removal-refined.png",
+      "package_path": "animation-v3/car-removal-refined.png",
+      "sha256": "2a76b669d53ea9f3c5053b2acdadbdfca0009fce94e9fead0b22331d131e1aaa",
+      "bytes": 2322510
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\car3-detail.png",
+      "package_path": "animation-v3/car3-detail.png",
+      "sha256": "d282f15b0796e263e0d4f5ee9a4977be37f1f5aa5ec0b11585a37166ba1e4130",
+      "bytes": 158638
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\car3-detail-repaired.png",
+      "package_path": "animation-v3/car3-detail-repaired.png",
+      "sha256": "ea5375ada547bbd64196f7ac4a440e6870a99d26a62dec53e0895ddc160250e0",
+      "bytes": 1305773
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\render.py",
+      "package_path": "animation-v3/render.py",
+      "sha256": "fac10843f65cd3078a022f65c5549f815d0b93801d59fdd5facaf9213a9911d5",
+      "bytes": 15304,
+      "original_sha256": "d417561032982b94b94fcfe19934fcd371ec1694e30f2d1b4da809e0d52015d0",
+      "adaptation": "Overwrite refusal added; motion/art algorithms unchanged",
+      "original_snapshot": "animation-v3/source-snapshot/render.py"
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\prepare_art.py",
+      "package_path": "animation-v3/prepare_art.py",
+      "sha256": "cacec1e630f32eaabb9dcb8a695d2a9dea2c3d1cb6d694f34057c13480910985",
+      "bytes": 2102,
+      "original_sha256": "62a54f5db445a39341cf6bfcc940309c74d384b3a93c1344e880f9c4db992454",
+      "adaptation": "Overwrite refusal added; motion/art algorithms unchanged",
+      "original_snapshot": "animation-v3/source-snapshot/prepare_art.py"
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\check_layers.py",
+      "package_path": "animation-v3/check_layers.py",
+      "sha256": "9ed546ccc81a016967d7da4f1b4993f60900fc2dc1c833c1d57d868198c0310a",
+      "bytes": 1154
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\verify_delivery.py",
+      "package_path": "animation-v3/verify_delivery.py",
+      "sha256": "9c4744fc283908365f76b87b75f44fb75c70e00bf39b58278c01f4a368d0dc6b",
+      "bytes": 1622
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\art-prompts.txt",
+      "package_path": "animation-v3/art-prompts.txt",
+      "sha256": "946b92e8040a15c89a5fbd43a4f319a83d0bb1e14f29099f701301fa50ad7cbe",
+      "bytes": 1774
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\brief.txt",
+      "package_path": "animation-v3/brief.txt",
+      "sha256": "23504e54d9e99c758941fe02af83ee86dc3ea12464172523862ea34b0da579d0",
+      "bytes": 7038
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\art-repair-report.json",
+      "package_path": "animation-v3/art-repair-report.json",
+      "sha256": "9c4837108100100231cf2f323f44bda11cbea6b549cb5c7f22f5b405f3e5433c",
+      "bytes": 376
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\quality-report.json",
+      "package_path": "animation-v3/quality-report.json",
+      "sha256": "40446172ed3c4226f5cbc18924d0a583bd35eac01f003174206686322fb63ef3",
+      "bytes": 444
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\delivery-report.json",
+      "package_path": "animation-v3/delivery-report.json",
+      "sha256": "8d74e947adb707d1cfb639f6eefe785ebc1e18cbfb5ef2933854fd4287225813",
+      "bytes": 405
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\layer-check.json",
+      "package_path": "animation-v3/layer-check.json",
+      "sha256": "193ec7a3cf1e889e17b7ae749a98be0f01b69f36269a5141dbf706d6b65777bb",
+      "bytes": 243
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\car-removal-check.jpg",
+      "package_path": "animation-v3/car-removal-check.jpg",
+      "sha256": "98d7c21a58e1cfe4a1d59f88002938845b55feb24b206f68ffa47d3df512f4aa",
+      "bytes": 77081
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\final-detail-check.png",
+      "package_path": "animation-v3/final-detail-check.png",
+      "sha256": "5141f016632ba6b7e2cd13a1dfbbe463d3a2c13352a83acaec53cc9975e4f9ca",
+      "bytes": 340989
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\steam-check.jpg",
+      "package_path": "animation-v3/steam-check.jpg",
+      "sha256": "7c8b2aef63294eebc21b2ff4b0cd2d3481263b070dbea11a5a612f340429a634",
+      "bytes": 92245
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\README.txt",
+      "package_path": "animation-v3/README.txt",
+      "sha256": "79bc2978c391936895ea5ae640729317866eef23007fcad91cbabc719da701ca",
+      "bytes": 1943
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\apartment-original.png",
+      "package_path": "apartment-original.png",
+      "sha256": "f392c2bd136553348ceb137c928683c5489c162c204ce7b782f4950d3b14a407",
+      "bytes": 2558033
+    },
+    {
+      "original_path": "G:\\AI\\youtube\\cyberpunk-apartment-loop\\v3\\clean-apartment.png",
+      "package_path": "artwork-v3.png",
+      "sha256": "3ae5b38ec7c6c5fa31d1df38a6659c39efdec5b717bfa199b0b839a1c0fc634d",
+      "bytes": 2584033
+    }
+  ],
+  "adaptations": [
+    "Working render.py and prepare_art.py gain overwrite refusal; original scripts preserved in source-snapshot."
+  ],
+  "backup_status": "Local import only; no commit or push performed"
+}

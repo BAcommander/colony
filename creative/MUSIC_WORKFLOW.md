@@ -1,5 +1,9 @@
 # Ambient Colony music workflow
 
+## Channel performance and what holds listeners — 2026-10-30, evening
+
+User reports the latest videos are not doing well and asks for more learning about what makes great ambient tracks. [Channel research note](music/channel-research-2026-10-30/README.md) records public data for both channels: Ambient Colony has eleven uploads in 33 days, 17 subscribers and 1,606 views; the first two videos earn about 13 views a day for life, videos three to nine about 4–7, and the newest cannot be judged at one to four days. Ten of eleven titles share one suffix and ten of eleven thumbnails share one interior-looking-out composition with a large title block. Ambient Outpost (454 videos, 163k subscribers) started with titles like ours, broke out with two-hour dark "ALONE"/"CITADEL" series, now uses narrative titles, second-person incident-report descriptions, "No AI-generated music" positioning with disclosed Midjourney visuals, scene-dominant thumbnails with one short title, and the Music category. A long-session listener values undulating synth plus restrained environmental texture that "never intrudes", and dislikes prominent chatter. Working hypotheses for our sound: a place not a song; an identity-bearing environmental layer mixed low; non-repeating assembly through unequal, non-commensurate loop periods for music and ambience (Eno's Discreet Music used 63 and 68 second loops); permit tension in at least one scene; slow pace without a foreground tune; keep dynamics. YouTube now requires the AI-use disclosure for AI music and treats interchangeable templated videos as inauthentic content for monetization. Recommended order: Studio analytics export, native thumbnail test, retitle away from the shared suffix, November V3 sound work with independent loop periods and one uneasy scene, exterior-wide thumbnails and art, a continuous stream of existing exports, sequels to Ringfall and Basalt. Observational evidence only; no commit, push, upload, retitle or generation performed.
+
 ## Reusable reference analysis — 2026-10-30
 
 First user ratings now received: [exact scores and notes](music/reference-analysis/comparison-2026-10-30/feedback-2026-10-30/README.md). WINTER WATCH, Rainline and Shoreless tie at 4/5; Basalt and both Ringfall versions 3.5/5; Spirewatch 3/5, too fast. Rain adds variety/interest according to the user, but a same-music dry/rain test is needed for causality. Spectral resemblance did not predict preference; the prior Spirewatch starting-point suggestion is superseded. EQ did not improve Ringfall's scores. These trials used existing published tracks at matched levels, not new compositions. Current [D environment-first pilot](music/reference-analysis/comparison-2026-10-30/elevenlabs/D-environment-first-after-ratings.txt) is ungenerated. Longer listening, actual generation settings and preference are still required; no paid generation, upload, commit or push.
@@ -176,6 +180,7 @@ Minimum-influence reference tests retained the unwanted pulse; user reports the 
 
 
 Spirewatch final assembly (2026-10-26): the verified two-hour FLAC was supplied once to Colony with no additional gain, joins, loudness matching or SFX. Only the current once-only 0:05–0:20 entrance was added; the closing fade remains supplied. Final video and complete audio/visual verification: ../music/spirewatch-final-two-hours-v1/README.md. Full combined user listening remains pending.
+
 
 ## Spirewatch checkpoint lessons - 2026-10-26
 

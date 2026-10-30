@@ -1,5 +1,14 @@
 # 10 soundtrack preparation
 
+Latest (2026-10-10): Unfolding Warmth selected for the full Farpoint video. Approved 0:42–4:44 cut, twelve-second equal-power join and -7 dB gain extended to one hour with single 10/20-second opening/closing fades, no SFX. See [soundtrack checks](one-hour-v1/delivery.json), [upload files](../YOUTUBE-FILES.txt) and [final video checks](../assembly-v1/README.txt). Full combined review/upload checks remain pending. Earlier preparation states below are historical; a second long variation is not required for this delivery.
+
+
+Earlier tests (2026-10-10): user likes both Observation Deck and Vast Unfamiliar World. Originals and hashes are in liked-tests-v1/. Use each as the reference for the corresponding elevenlabs-long-v3 seven-minute prompt, one instrumental variant each. Both are approved short directions; longer audio and join review remain pending. Final video duration is unset.
+
+
+Earlier prompts (2026-10-10): v3 A Quiet Exploration and v3 B First Contact. Generate one 60-second instrumental test from each prompt, then choose a direction. User requested emotional inspiration from Encounter at Farpoint; the musical instructions use original phrases, warm orchestral/synth textures and curiosity. No reference soundtrack was uploaded or copied. Earlier prompts remain preserved; revise the long prompt after selection.
+
+
 Status: v1 prompts prepared 2026-09-28, rewritten as v2 on 2026-09-29; no audio generated or evaluated for this scene. These are musical design choices, not measurements of a reference recording.
 
 ## Files and manual generation

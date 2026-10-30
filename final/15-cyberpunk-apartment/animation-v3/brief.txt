@@ -1,0 +1,83 @@
+Paste this back to me:
+
+> Rebuild the cyberpunk apartment animation as a **10-second seamless loop**, using the current V2 as the starting point. Keep its composition, detailed city, warm apartment and successful rain/reflection effects. This is a targeted refinement: make it feel like a carefully directed cinematic environment, with more natural motion and fewer obvious procedural patterns.
+>
+> **1. Remove the four hovering vehicles**
+>
+> Locate and remove the four conspicuous flying cars hovering above the roads in the background. Reconstruct the city, atmosphere and road detail behind them cleanly. Inspect the repaired areas at full resolution for smears, repeated textures and broken architectural lines. Preserve the moving traffic that belongs on the roads. Do not add replacement aircraft.
+>
+> **2. Make road traffic convincingly irregular**
+>
+> The current traffic is too evenly spaced and similar. Replace the repeated pattern with independently timed vehicles:
+>
+> - Use varied gaps, occasional pairs, small clusters and longer empty stretches.
+> - Vary vehicle length, headlight intensity, taillight color within a restrained palette, and motion-blur length.
+> - Give different lanes believable speed differences. Within each lane, use modest speed variation while maintaining safe spacing; vehicles must not overlap or pass through one another.
+> - Match perspective: distant vehicles should be smaller, dimmer and move less across the screen than nearer vehicles.
+> - Keep vehicles anchored to the existing road surfaces, following curves precisely and disappearing behind buildings and window frames.
+> - Avoid repeating the same three-car pattern, evenly spaced luminous dots, or constant-length light streaks.
+>
+> **3. Animate the buildings’ existing lights**
+>
+> Make lighting movement clearly visible across several parts of the skyline, using the signs and illuminated surfaces already present:
+>
+> - Add slow traveling light bands within two or three existing vertical neon signs.
+> - Give a few existing illuminated panels restrained scrolling gradients or abstract display changes, contained perfectly within their surfaces.
+> - Animate a small number of window groups switching or fading independently, suggesting activity inside the buildings.
+> - Add occasional local neon fluctuations, with most lights remaining steady.
+> - Let nearby haze and reflections respond subtly to the strongest animated signs.
+>
+> Use distinct timings and behaviors for each building. **Do not pulse entire towers or the whole skyline together.** Avoid random sparkle effects, strobing, new floating graphics, invented lettering, or moving architectural edges.
+>
+> **4. Introduce restrained foreground life**
+>
+> Add two carefully executed foreground motions so the apartment feels inhabited:
+>
+> - Very slight movement in selected leaves of one foreground plant, as if from gentle indoor ventilation. Keep the pot, stems and furniture anchored. Leaves should bend naturally at their attachments, with subtle differences in timing.
+> - A thin, delicate wisp of steam rising from the existing cup on the table, if the cup can be isolated convincingly. It should curl upward, disperse and disappear naturally, without becoming smoke or a repeating corkscrew.
+>
+> Keep both effects understated. The foreground must feel calm and sheltered, while the city provides most of the motion. If either effect cannot be executed cleanly, use one convincing foreground effect rather than two poor ones.
+>
+> **5. Refine rain, mist and reflections**
+>
+> Preserve the layered rain, but vary streak lengths, brightness and spacing so it does not resemble a uniform particle overlay. Include a few slow droplets on the glass with delicate trails. Keep rain outside and exclude all interior objects.
+>
+> Let mist move gently through selected gaps between buildings, respecting depth and occlusion. Avoid sweeping translucent shapes across the whole skyline.
+>
+> Keep water reflections attached to their light sources. Use irregular, fine shimmer with stronger responses beneath brighter signs. Floor reflections should change gently with nearby light, while the floor’s texture and geometry remain stable.
+>
+> **6. Direct the scene as a whole**
+>
+> Keep the camera completely locked. Preserve the original framing, warm/cool lighting balance and crisp architectural detail.
+>
+> Establish a clear hierarchy: traffic and selected signs provide the most noticeable motion; rain and reflections support them; mist, leaves and steam reward closer inspection. Different layers should have different rhythms. Avoid making everything move at once or at the same speed.
+>
+> Aim for believable, richly layered atmosphere rather than simply increasing effect intensity. No rubbery surfaces, drifting furniture, morphing objects, excessive bloom, exposure pumping or artificial camera movement.
+>
+> **7. Build a genuine 10-second loop**
+>
+> Create a full ten-second animation—not the existing five-second clip repeated twice or slowed down. Use the longer duration to reduce repetition and give traffic, signs and foreground effects room to develop.
+>
+> Every layer must cross the loop boundary smoothly, including its motion direction and speed. Vehicles should enter and leave behind natural occlusions or outside the visible road area. Steam and droplets should use staggered lifetimes. Avoid synchronized resets, pauses, ping-pong playback or an obvious whole-frame crossfade.
+>
+> **8. Use the best available production method**
+>
+> Preserve the current files and create a new version. Repair the original artwork only where necessary to remove the hovering vehicles, then build the animation from that clean source.
+>
+> Use dedicated image or video tools where they improve the result, and precise compositing where it provides better control. Explain any capability limitation briefly. Do not disguise a limitation with generic overlays.
+>
+> Deliver a high-quality **4K, 60 fps, 10-second silent MP4**, plus a smaller 1080p copy. Clearly identify any upscaling; prioritize genuine detail and clean motion over artificial sharpening.
+>
+> **9. Inspect and iterate before delivery**
+>
+> Review the result at normal playback size, at full-resolution crops, and through at least three consecutive loops. Verify:
+>
+> - All four hovering cars are gone, with clean background repairs.
+> - Traffic has visibly varied spacing, appearance and speed.
+> - Several existing building lights show readable, independent animation.
+> - At least one foreground effect is visible but restrained.
+> - Rain, mist and reflections respect scene boundaries and depth.
+> - Furniture, window frames and building silhouettes remain stable.
+> - The ten-second join has no noticeable jump or synchronized reset.
+>
+> Compare it directly with V2. Do not use a pixel-change score as a substitute for judging whether the motion looks natural. Fix visible defects before delivering the final files.

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "merge_commit": "57323d926119aacea79ba91aca2a501046a2f5bb",
+  "both_parents_verified": [
+    "72e0b950de2b5d5bc952ddda6b2477cd9c5b2728",
+    "d8ff47daf8d6fa9bd301db264e8a61b4a1bb80eb"
+  ],
+  "tracked_local_edits_preserved": 15,
+  "untracked_files_hash_verified": 94,
+  "original_local_files_restored_exactly": 11,
+  "shared_files_combined_with_local_edits": 4,
+  "original_local_edit_path_set_unchanged": true,
+  "index_empty": true,
+  "conflicts_remaining": false,
+  "recovery_stash_retained": "9498687c633a37fd31f73cbdf0a257f7753bd55f",
+  "tests": "Incoming JSON and branch file identities verified. Signal regression tests not rerun because optional imageio_ffmpeg dependency is absent in this checkout. No installation performed.",
+  "pushed": false
+}

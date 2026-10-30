@@ -1,0 +1,3 @@
+Farpoint Station — Unfolding Warmth loop candidate
+
+Actual source 298.539s; original preserved. Candidate cut 42s–284s, twelve-second equal-power overlap, -7.0 dB fixed gain. Sixty-second audition join at 24–36s. Three-repeat review 702s with single five/eight-second opening/closing fades. Full finite decodes and no clipping checked. Numeric matching does not prove a natural musical join; user approved the presented loop on 2026-10-10: "i think it works fine". Approval covers the loop, not full-length playback or final soundtrack selection. Second longer variation has not arrived. No final long runtime selected; no 4K or final assembly produced here.

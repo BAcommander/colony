@@ -1,0 +1,663 @@
+{
+  "head": "72e0b950de2b5d5bc952ddda6b2477cd9c5b2728",
+  "branch": "main",
+  "incoming": "d8ff47daf8d6fa9bd301db264e8a61b4a1bb80eb",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "tracked_edit": true,
+      "bytes": 14240,
+      "sha256": "f7f0da70c3544b90999f9a953c6c247a1d7835488ef001bf17331a5a9384740b"
+    },
+    {
+      "path": ".gitignore",
+      "tracked_edit": true,
+      "bytes": 6703,
+      "sha256": "d07fecaa4b2b8b34969b6ad6a32368a89e5bddb63ff86b469bdc01c76f7aeaed"
+    },
+    {
+      "path": "AGENTS.md",
+      "tracked_edit": true,
+      "bytes": 76817,
+      "sha256": "e24f037885c881d0fd6df2754041ee9c7d8b29ed5f75e9e05312db9c8e093352"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "tracked_edit": true,
+      "bytes": 34789,
+      "sha256": "b7e608235ff8c1510f983b87a0c6ccb9e4e132b7b613ec96c81f32251716ca63"
+    },
+    {
+      "path": "PROJECT.md",
+      "tracked_edit": true,
+      "bytes": 5320,
+      "sha256": "2d3bad246a1a712b3404d3ef03ec238a7ce36e8ea8e68c91b3e8d78a5a000c58"
+    },
+    {
+      "path": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "tracked_edit": true,
+      "bytes": 60818,
+      "sha256": "d65d50d01a186d02e0632b1bf64b1b43e2d51f9a40517da11c27841fc52655c4"
+    },
+    {
+      "path": "creative/MUSIC_WORKFLOW.md",
+      "tracked_edit": true,
+      "bytes": 33031,
+      "sha256": "09b2f541206cbcd1ce096185164432cb875718c8eb242ea300884d421d72e460"
+    },
+    {
+      "path": "final/10-nightward-station/README.md",
+      "tracked_edit": true,
+      "bytes": 3347,
+      "sha256": "93be085bd82301d391f2fc27b4aa8cab00da4619feef196ba7ba69a98b9eb451"
+    },
+    {
+      "path": "final/10-nightward-station/manifest.json",
+      "tracked_edit": true,
+      "bytes": 15305,
+      "sha256": "049f230d49de9aff2dab8829c7f1d7db11934e987dec3dabbe38996c303077ea"
+    },
+    {
+      "path": "final/10-nightward-station/music/README.md",
+      "tracked_edit": true,
+      "bytes": 5611,
+      "sha256": "bf8468b0cac754dfd375613d1fe7098ddee5c44d9fd4071dc633922a8f247a72"
+    },
+    {
+      "path": "final/10-nightward-station/music/generation-record.json",
+      "tracked_edit": true,
+      "bytes": 3371,
+      "sha256": "508fd398a76101108818aaa7518b35a1fc3e5574094e332032004a61b030f8f9"
+    },
+    {
+      "path": "final/10-nightward-station/youtube-tags.txt",
+      "tracked_edit": true,
+      "bytes": 4,
+      "sha256": "0b440a5de3d0388493e213eab18330c7649570435c0dc59a30bf5f9e16a3a186"
+    },
+    {
+      "path": "final/12-deepwell-station/README.md",
+      "tracked_edit": true,
+      "bytes": 2655,
+      "sha256": "8e4f99966b5620486e84f88b3abfaf476c83dab5c6842efc969bec510b6475d2"
+    },
+    {
+      "path": "final/README.md",
+      "tracked_edit": true,
+      "bytes": 7047,
+      "sha256": "65297a37add1cea72976c701e1d4f7f232ab12a9ce3585435be9f96ae7ac3cda"
+    },
+    {
+      "path": "final/catalog.json",
+      "tracked_edit": true,
+      "bytes": 9144,
+      "sha256": "0df3c8f668492b56f5cd422eebadd0cf3c08ba601f345430d0bde226f65b36a1"
+    },
+    {
+      "path": "final/08-rainline-relay/music/long-source-v1/Rainline-music-join-review-60s-v1.mp3",
+      "tracked_edit": false,
+      "bytes": 1441260,
+      "sha256": "a67df69371eab89357aa4621311083adc61d347341a0384f703a94431f0e7c37"
+    },
+    {
+      "path": "final/08-rainline-relay/music/long-source-v1/Rainline-rain-mix-preview-v1.mp3",
+      "tracked_edit": false,
+      "bytes": 6241644,
+      "sha256": "aebb60eb4d297bddcc02d423f46456f35671134e156263ac23b120c9c4137130"
+    },
+    {
+      "path": "final/08-rainline-relay/music/long-source-v1/Rainline-rain-mix-preview-v2-half-volume.mp3",
+      "tracked_edit": false,
+      "bytes": 6241644,
+      "sha256": "11fda4fab120e6ec5aa631e59fdef59f41b8ff8db995c5c6f80f9b3ebb4acbcf"
+    },
+    {
+      "path": "final/08-rainline-relay/music/long-source-v1/Rainline-rain-mix-preview-v3.mp3",
+      "tracked_edit": false,
+      "bytes": 6241644,
+      "sha256": "c452742048524437d592fe6e312180cc435b51ebcb83b5972ec75106a0b0ee17"
+    },
+    {
+      "path": "final/08-rainline-relay/music/long-source-v1/rain-loop-28s-v1.wav",
+      "tracked_edit": false,
+      "bytes": 10752092,
+      "sha256": "0f2af3162b1c17a91c4fbf4d3ecb183e2c86bf0fe2f976b95033367af34cec75"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/long-source-v1/Shoreless-music-join-review-60s-v1.mp3",
+      "tracked_edit": false,
+      "bytes": 1441196,
+      "sha256": "dfae1baa4ae38b876d9cad6980b160d6da27bda0a022e09d07df1fa3ffd12531"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/two-hour-v1/music-two-hour-pre-fades.flac",
+      "tracked_edit": false,
+      "bytes": 947732655,
+      "sha256": "9e1bba24c2d36c9d62fd75ff2d3be7ca64d8d08b35076276b424de87473097c3"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v1/Shoreless-water-short-preview-v1.mp3",
+      "tracked_edit": false,
+      "bytes": 2881299,
+      "sha256": "22208b667bd05db184a778ac4b6f290821cbee6b8e9b0a510c61a8ac9a733ba8"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v1/Shoreless-water-sparse-preview-v1.mp3",
+      "tracked_edit": false,
+      "bytes": 8809491,
+      "sha256": "5630964c0ea0c9db46f3b132f89a61c6335036edfc7960b4784ca5896f854f91"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v1/music-excerpt-level-matched-v1.flac",
+      "tracked_edit": false,
+      "bytes": 53170658,
+      "sha256": "c9242056a02d8d7fc8e85bee6e01e8bdc364aafef05ccd4d0dd86fd24704241a"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v2/Shoreless-music-loop-join-review-60s-v2.mp3",
+      "tracked_edit": false,
+      "bytes": 1441196,
+      "sha256": "97edf3207902ac6c8aefed2f6a55363a0d95ed5a38f80af3df24c667b6456923"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v2/Shoreless-water-and-music-loop-review-7m20s-v2.mp3",
+      "tracked_edit": false,
+      "bytes": 10561580,
+      "sha256": "4a31bae50742e01305e9696b42423f2d9032f9fbfd9adaeffb7befcaf19f69a2"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v2/Shoreless-water-short-preview-v2.mp3",
+      "tracked_edit": false,
+      "bytes": 2881196,
+      "sha256": "e73533f5720c17d43db28744d0a5d61dccf79186c59d2a3b19bb545daebe4ba5"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v2/music-loop-review-source-v2.flac",
+      "tracked_edit": false,
+      "bytes": 57957178,
+      "sha256": "aad4f29dc6d4f2b9a1d4d566d65fbb1464a9f760602947119413abd5fbfeba30"
+    },
+    {
+      "path": "final/09-offshore-night-office/music/water-mix-v2/water-source-loop-v2.wav",
+      "tracked_edit": false,
+      "bytes": 10752092,
+      "sha256": "97d70d4f4dce911599258a415786f0d36796ca8de866232d427e1b1dfb1edf64"
+    },
+    {
+      "path": "final/10-nightward-station/YOUTUBE-FILES.txt",
+      "tracked_edit": false,
+      "bytes": 696,
+      "sha256": "1664eba0aceb3ae1d9de4883d5bc375e53e79158a3e91c0af0b020b89ae0d295"
+    },
+    {
+      "path": "final/10-nightward-station/assembly-v1/README.txt",
+      "tracked_edit": false,
+      "bytes": 2096,
+      "sha256": "34dff5b8ecc95b5832970c5d494346a049944dc3a0a2a8d994d33ac14895f9fc"
+    },
+    {
+      "path": "final/10-nightward-station/assembly-v1/assemble-with-colony.py",
+      "tracked_edit": false,
+      "bytes": 6213,
+      "sha256": "66e1fc454e14b78930948ed3e2de04bb35ec460ef7f8ca6b56fca8b5a5b1c89f"
+    },
+    {
+      "path": "final/10-nightward-station/assembly-v1/build_audio.py",
+      "tracked_edit": false,
+      "bytes": 3569,
+      "sha256": "e94c767e18e8b2407d742e365322f0b1962da6c5d95ce439a19a926801bde315"
+    },
+    {
+      "path": "final/10-nightward-station/assembly-v1/colony-export.json",
+      "tracked_edit": false,
+      "bytes": 2053,
+      "sha256": "f3c648a930c0e48d6dd982b4127f8a223ccbe783e5ec3f61d498b0c1e7cfc0d2"
+    },
+    {
+      "path": "final/10-nightward-station/assembly-v1/delivery-validation.json",
+      "tracked_edit": false,
+      "bytes": 2039,
+      "sha256": "441b2c1638651244054a6083b9dbbecbed0f3785fa7ddeb4db7d1135bbc563dc"
+    },
+    {
+      "path": "final/10-nightward-station/assembly-v1/record_delivery.py",
+      "tracked_edit": false,
+      "bytes": 11229,
+      "sha256": "3cc848f64c7e1cb8f742d2d09226150d0cb588f17dced1643dddee3d36d730c6"
+    },
+    {
+      "path": "final/10-nightward-station/assembly-v1/render_delivery.py",
+      "tracked_edit": false,
+      "bytes": 5759,
+      "sha256": "1327fea8669ec84deb13149cc6c4135f9639c0ee70f929f72f889e6fde1fe52a"
+    },
+    {
+      "path": "final/10-nightward-station/delivery-v6/README.txt",
+      "tracked_edit": false,
+      "bytes": 625,
+      "sha256": "fbd39719cb6bde1175131cdb055279a284330a90c0b87f99ace9a039c4827b14"
+    },
+    {
+      "path": "final/10-nightward-station/delivery-v6/colour-aware-frame-0s.png",
+      "tracked_edit": false,
+      "bytes": 1151830,
+      "sha256": "3fa922b6d1bff5caa039d8cfc5fcdf524dae13f66b2ef1ee700d25b0aa923d95"
+    },
+    {
+      "path": "final/10-nightward-station/delivery-v6/colour-aware-frame-8s.png",
+      "tracked_edit": false,
+      "bytes": 1152109,
+      "sha256": "421cdaf89d93484b5ef45b9020dd95f36c150dae25cf964353b8f0ce12525404"
+    },
+    {
+      "path": "final/10-nightward-station/delivery-v6/decoded-frame-8s.jpg",
+      "tracked_edit": false,
+      "bytes": 1306582,
+      "sha256": "a3a3e945d2151aa71327a8549972356ae2c09a834b10667d7b614aacfd2c43ba"
+    },
+    {
+      "path": "final/10-nightward-station/delivery-v6/decoded-frame.jpg",
+      "tracked_edit": false,
+      "bytes": 1304799,
+      "sha256": "030f3dafd52a76ca1da9db5764202291b60201f1bfe9a6c6f92a8f8a840d5793"
+    },
+    {
+      "path": "final/10-nightward-station/delivery-v6/delivery-validation.json",
+      "tracked_edit": false,
+      "bytes": 7374,
+      "sha256": "dc1e2a2d895130e5a74b0e4c0181fe058ab9fbc0dfcd7a382a13207ab85d2ebb"
+    },
+    {
+      "path": "final/10-nightward-station/delivery-v6/visual-inspection.json",
+      "tracked_edit": false,
+      "bytes": 735,
+      "sha256": "4aa167c3fdfd916423e1dc2a96af06b9d9048371ba5bf4ec958b7478e9ecd5b7"
+    },
+    {
+      "path": "final/10-nightward-station/music/elevenlabs-long-v3-a-observation-deck-seven-minutes.txt",
+      "tracked_edit": false,
+      "bytes": 1083,
+      "sha256": "7ed3cfc23231ea09e6b757d81322ef22cb6971faae83288c0e8d63d195127608"
+    },
+    {
+      "path": "final/10-nightward-station/music/elevenlabs-long-v3-b-vast-unfamiliar-world-seven-minutes.txt",
+      "tracked_edit": false,
+      "bytes": 1062,
+      "sha256": "9719b070ebd17baa9fd17fb4d8a07c89bdd17b726d8c22e6a8d3a2ac7d34aa7c"
+    },
+    {
+      "path": "final/10-nightward-station/music/elevenlabs-test-v3-a-quiet-exploration.txt",
+      "tracked_edit": false,
+      "bytes": 1122,
+      "sha256": "2160b45124c4a32de4b88cee8ca1c2ac371575f44cd06789e0554156243c725c"
+    },
+    {
+      "path": "final/10-nightward-station/music/elevenlabs-test-v3-b-first-contact.txt",
+      "tracked_edit": false,
+      "bytes": 1125,
+      "sha256": "8e75ae3e9b71dfbb05882451caf514c334d54ba7320166e356ac7bbc49f3989a"
+    },
+    {
+      "path": "final/10-nightward-station/music/liked-tests-v1/selection.json",
+      "tracked_edit": false,
+      "bytes": 1405,
+      "sha256": "854019f3e712b8d37671d145f59a812c2c0d18bc73f941b52bf146044a1000f4"
+    },
+    {
+      "path": "final/10-nightward-station/music/long-a-unfolding-warmth-v1/Farpoint-Unfolding-Warmth-join-review-60s-v1.mp3",
+      "tracked_edit": false,
+      "bytes": 1441196,
+      "sha256": "7d839bbb51ebef89b6c3642725df74d6967f25b9c38128fe036a3e8e5d19d22c"
+    },
+    {
+      "path": "final/10-nightward-station/music/long-a-unfolding-warmth-v1/Farpoint-Unfolding-Warmth-three-repeats-v1.mp3",
+      "tracked_edit": false,
+      "bytes": 16849196,
+      "sha256": "8fadd8e7eb9f7c3d5169ba6174e2b0584e3fda3e2d3f9f2ae9e3c77c06b7e4cc"
+    },
+    {
+      "path": "final/10-nightward-station/music/long-a-unfolding-warmth-v1/README.txt",
+      "tracked_edit": false,
+      "bytes": 668,
+      "sha256": "657ceda6fa7640edf795ef1b8260e4e6151aa9d68285de81f7a3df5978c05623"
+    },
+    {
+      "path": "final/10-nightward-station/music/long-a-unfolding-warmth-v1/audition-v1.json",
+      "tracked_edit": false,
+      "bytes": 3956,
+      "sha256": "4fed78ad8f5a1aaa7e74afcd4a7c1408f7987269c254852b646fb487efe2ed00"
+    },
+    {
+      "path": "final/10-nightward-station/music/one-hour-v1/README.txt",
+      "tracked_edit": false,
+      "bytes": 650,
+      "sha256": "418d843035ce2c1b5d882faefdafe6c05d3311148164ba202953186e50de54d8"
+    },
+    {
+      "path": "final/10-nightward-station/music/one-hour-v1/delivery.json",
+      "tracked_edit": false,
+      "bytes": 1475,
+      "sha256": "499ec23222fc5224682634f0d41bd9470d9171277e9de34c9f781b00620c39c5"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/README.md",
+      "tracked_edit": false,
+      "bytes": 2955,
+      "sha256": "a0a6dfc4fc9e2743fe27d61dd76abc54f8ed35b221f0b6dde6033569bdf83d00"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-1080p.mp4",
+      "tracked_edit": false,
+      "bytes": 6395504,
+      "sha256": "c27dcc8abba8d9c98359a28942277dcfdce8ff7748cf18b42f7f773f892b1c54"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-4K.mp4",
+      "tracked_edit": false,
+      "bytes": 29847525,
+      "sha256": "e6256bbcf2fadd2b0639788058d2909e09c18901e73ae82392648fa85df23ac4"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/README.txt",
+      "tracked_edit": false,
+      "bytes": 1943,
+      "sha256": "79bc2978c391936895ea5ae640729317866eef23007fcad91cbabc719da701ca"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/art-prompts.txt",
+      "tracked_edit": false,
+      "bytes": 1774,
+      "sha256": "946b92e8040a15c89a5fbd43a4f319a83d0bb1e14f29099f701301fa50ad7cbe"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/art-repair-report.json",
+      "tracked_edit": false,
+      "bytes": 376,
+      "sha256": "9c4837108100100231cf2f323f44bda11cbea6b549cb5c7f22f5b405f3e5433c"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/brief.txt",
+      "tracked_edit": false,
+      "bytes": 7038,
+      "sha256": "23504e54d9e99c758941fe02af83ee86dc3ea12464172523862ea34b0da579d0"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/car-removal-check.jpg",
+      "tracked_edit": false,
+      "bytes": 77081,
+      "sha256": "98d7c21a58e1cfe4a1d59f88002938845b55feb24b206f68ffa47d3df512f4aa"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/car-removal-edit.png",
+      "tracked_edit": false,
+      "bytes": 2399064,
+      "sha256": "c3a2c01eaeb621065008dd70975b721fe77e6d16e1e331accdf878bff524975f"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/car-removal-refined.png",
+      "tracked_edit": false,
+      "bytes": 2322510,
+      "sha256": "2a76b669d53ea9f3c5053b2acdadbdfca0009fce94e9fead0b22331d131e1aaa"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/car3-detail-repaired.png",
+      "tracked_edit": false,
+      "bytes": 1305773,
+      "sha256": "ea5375ada547bbd64196f7ac4a440e6870a99d26a62dec53e0895ddc160250e0"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/car3-detail.png",
+      "tracked_edit": false,
+      "bytes": 158638,
+      "sha256": "d282f15b0796e263e0d4f5ee9a4977be37f1f5aa5ec0b11585a37166ba1e4130"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/check_layers.py",
+      "tracked_edit": false,
+      "bytes": 1154,
+      "sha256": "9ed546ccc81a016967d7da4f1b4993f60900fc2dc1c833c1d57d868198c0310a"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/clean-apartment.png",
+      "tracked_edit": false,
+      "bytes": 2584033,
+      "sha256": "3ae5b38ec7c6c5fa31d1df38a6659c39efdec5b717bfa199b0b839a1c0fc634d"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/delivery-report.json",
+      "tracked_edit": false,
+      "bytes": 405,
+      "sha256": "8d74e947adb707d1cfb639f6eefe785ebc1e18cbfb5ef2933854fd4287225813"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/final-detail-check.png",
+      "tracked_edit": false,
+      "bytes": 340989,
+      "sha256": "5141f016632ba6b7e2cd13a1dfbbe463d3a2c13352a83acaec53cc9975e4f9ca"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/layer-check.json",
+      "tracked_edit": false,
+      "bytes": 243,
+      "sha256": "193ec7a3cf1e889e17b7ae749a98be0f01b69f36269a5141dbf706d6b65777bb"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/prepare_art.py",
+      "tracked_edit": false,
+      "bytes": 2102,
+      "sha256": "cacec1e630f32eaabb9dcb8a695d2a9dea2c3d1cb6d694f34057c13480910985"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/quality-report.json",
+      "tracked_edit": false,
+      "bytes": 444,
+      "sha256": "40446172ed3c4226f5cbc18924d0a583bd35eac01f003174206686322fb63ef3"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/render.py",
+      "tracked_edit": false,
+      "bytes": 15304,
+      "sha256": "fac10843f65cd3078a022f65c5549f815d0b93801d59fdd5facaf9213a9911d5"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/source-snapshot/check_layers.py",
+      "tracked_edit": false,
+      "bytes": 1154,
+      "sha256": "9ed546ccc81a016967d7da4f1b4993f60900fc2dc1c833c1d57d868198c0310a"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/source-snapshot/prepare_art.py",
+      "tracked_edit": false,
+      "bytes": 1973,
+      "sha256": "62a54f5db445a39341cf6bfcc940309c74d384b3a93c1344e880f9c4db992454"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/source-snapshot/render.py",
+      "tracked_edit": false,
+      "bytes": 15183,
+      "sha256": "d417561032982b94b94fcfe19934fcd371ec1694e30f2d1b4da809e0d52015d0"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/source-snapshot/verify_delivery.py",
+      "tracked_edit": false,
+      "bytes": 1622,
+      "sha256": "9c4744fc283908365f76b87b75f44fb75c70e00bf39b58278c01f4a368d0dc6b"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/steam-check.jpg",
+      "tracked_edit": false,
+      "bytes": 92245,
+      "sha256": "7c8b2aef63294eebc21b2ff4b0cd2d3481263b070dbea11a5a612f340429a634"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/animation-v3/verify_delivery.py",
+      "tracked_edit": false,
+      "bytes": 1622,
+      "sha256": "9c4744fc283908365f76b87b75f44fb75c70e00bf39b58278c01f4a368d0dc6b"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/apartment-original.png",
+      "tracked_edit": false,
+      "bytes": 2558033,
+      "sha256": "f392c2bd136553348ceb137c928683c5489c162c204ce7b782f4950d3b14a407"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/artwork-v3.png",
+      "tracked_edit": false,
+      "bytes": 2584033,
+      "sha256": "3ae5b38ec7c6c5fa31d1df38a6659c39efdec5b717bfa199b0b839a1c0fc634d"
+    },
+    {
+      "path": "final/15-cyberpunk-apartment/manifest.json",
+      "tracked_edit": false,
+      "bytes": 8714,
+      "sha256": "c2f310855909a52601e0b90cc8536bc8302f50e6a97e65b4fd13ba384f395120"
+    },
+    {
+      "path": "music/farpoint-final-v1/assemble-with-colony.py",
+      "tracked_edit": false,
+      "bytes": 6213,
+      "sha256": "66e1fc454e14b78930948ed3e2de04bb35ec460ef7f8ca6b56fca8b5a5b1c89f"
+    },
+    {
+      "path": "music/farpoint-final-v1/build_audio.py",
+      "tracked_edit": false,
+      "bytes": 3569,
+      "sha256": "e94c767e18e8b2407d742e365322f0b1962da6c5d95ce439a19a926801bde315"
+    },
+    {
+      "path": "music/farpoint-final-v1/prepare_scripts.py",
+      "tracked_edit": false,
+      "bytes": 1945,
+      "sha256": "f9b8c1124eeb7f834ebbe5b2499b183e2b5ba9ddc89ad1ecb1b8147abf456873"
+    },
+    {
+      "path": "music/farpoint-final-v1/record_delivery.py",
+      "tracked_edit": false,
+      "bytes": 11229,
+      "sha256": "3cc848f64c7e1cb8f742d2d09226150d0cb588f17dced1643dddee3d36d730c6"
+    },
+    {
+      "path": "music/farpoint-final-v1/render_delivery.py",
+      "tracked_edit": false,
+      "bytes": 5759,
+      "sha256": "1327fea8669ec84deb13149cc6c4135f9639c0ee70f929f72f889e6fde1fe52a"
+    },
+    {
+      "path": "music/farpoint-music-v1/prepare_unfolding.py",
+      "tracked_edit": false,
+      "bytes": 5600,
+      "sha256": "c365982cde8e17b74686165d3a9150bc45e4b6718b9cc400f77b1308ab58c222"
+    },
+    {
+      "path": "music/farpoint-music-v1/source-analysis.json",
+      "tracked_edit": false,
+      "bytes": 1157,
+      "sha256": "dcc4f1caa8277bcbffbe54bdeb862db94305c52610dbc3a37f83b3ee42876593"
+    },
+    {
+      "path": "music/farpoint-vast-analysis-v1/analysis.json",
+      "tracked_edit": false,
+      "bytes": 6170,
+      "sha256": "f4dbd4ac2a0771f64928aa4910514dc3919b060697e7a10ca6bc19d6a4204f73"
+    },
+    {
+      "path": "music/farpoint-vast-analysis-v1/analyze.py",
+      "tracked_edit": false,
+      "bytes": 2388,
+      "sha256": "62e8275df7ec3befbb2d6ce3523175ab21b3630bf4e6de8cdf96ffd11d9abf51"
+    },
+    {
+      "path": "music/production-backup-2026-10-10/remote-verification.json",
+      "tracked_edit": false,
+      "bytes": 1780,
+      "sha256": "3dc6daa618f27824cbd2ed27d4ccaa1aa227c444605b60f4e03632f63142a067"
+    },
+    {
+      "path": "music/spirewatch-animation-v4/render-parts/concat.txt",
+      "tracked_edit": false,
+      "bytes": 80,
+      "sha256": "dc0f815f60951835b7f59789263df919a137692a3529144769fe979af65968b9"
+    },
+    {
+      "path": "music/spirewatch-animation-v5/render-parts/concat.txt",
+      "tracked_edit": false,
+      "bytes": 80,
+      "sha256": "dc0f815f60951835b7f59789263df919a137692a3529144769fe979af65968b9"
+    },
+    {
+      "path": "music/spirewatch-animation-v6/render-parts/concat.txt",
+      "tracked_edit": false,
+      "bytes": 80,
+      "sha256": "dc0f815f60951835b7f59789263df919a137692a3529144769fe979af65968b9"
+    },
+    {
+      "path": "music/spirewatch-animation-v7/history/first-lightning-silhouette/render-parts/concat.txt",
+      "tracked_edit": false,
+      "bytes": 80,
+      "sha256": "dc0f815f60951835b7f59789263df919a137692a3529144769fe979af65968b9"
+    },
+    {
+      "path": "music/spirewatch-animation-v7/render-parts/concat.txt",
+      "tracked_edit": false,
+      "bytes": 80,
+      "sha256": "dc0f815f60951835b7f59789263df919a137692a3529144769fe979af65968b9"
+    },
+    {
+      "path": "music/spirewatch-animation-v8/delivery-4k-v1/parts/concat.txt",
+      "tracked_edit": false,
+      "bytes": 80,
+      "sha256": "dc0f815f60951835b7f59789263df919a137692a3529144769fe979af65968b9"
+    },
+    {
+      "path": "music/spirewatch-animation-v8/render-parts/concat.txt",
+      "tracked_edit": false,
+      "bytes": 80,
+      "sha256": "dc0f815f60951835b7f59789263df919a137692a3529144769fe979af65968b9"
+    },
+    {
+      "path": "music/spirewatch-final-two-hours-v1/verification-cache/all-video-packets.sha256",
+      "tracked_edit": false,
+      "bytes": 24192330,
+      "sha256": "babbf7e6b570d95b960815892e3340dd429b5ff0aa78f204d91bd1056b4a797b"
+    },
+    {
+      "path": "music/spirewatch-final-two-hours-v1/verification-cache/branded-first-minute-frames.md5",
+      "tracked_edit": false,
+      "bytes": 146026,
+      "sha256": "fd03cf4f4a7811bff359e3123926d4ccfa5ef6f8a2fea2ec9ea1c798a55094f8"
+    },
+    {
+      "path": "music/spirewatch-final-two-hours-v1/verification-cache/expected-audio.log",
+      "tracked_edit": false,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "music/spirewatch-final-two-hours-v1/verification-cache/final-audio.log",
+      "tracked_edit": false,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "music/spirewatch-final-two-hours-v1/verification-cache/first-clean-minute-frames.md5",
+      "tracked_edit": false,
+      "bytes": 146026,
+      "sha256": "8dbd7a342af05d23d641e10ba9e021d979fdd0e0b099c7acf40cdefd2ec09f41"
+    },
+    {
+      "path": "music/spirewatch-final-two-hours-v1/verification-cache/master-frames.md5",
+      "tracked_edit": false,
+      "bytes": 146026,
+      "sha256": "8dbd7a342af05d23d641e10ba9e021d979fdd0e0b099c7acf40cdefd2ec09f41"
+    },
+    {
+      "path": "music/spirewatch-final-two-hours-v1/verification-cache/packet-read.log",
+      "tracked_edit": false,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "tracked_edits": 15,
+  "untracked_files": 94
+}

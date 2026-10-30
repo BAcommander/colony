@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-10",
+  "tool": "Colony application export engine",
+  "tool_path": "C:\\dev\\SpeedySlideShow\\colony\\render.py",
+  "tool_sha256": "297c13d8f92a978f528d068da08da10a18f5f4dabdcd189aeae21471a5440762",
+  "exporter_sha256": "9557dfda9cf92007dc391f518b86c106f9ab0592456751da61a37b000098af8b",
+  "runner_sha256": "66e1fc454e14b78930948ed3e2de04bb35ec460ef7f8ca6b56fca8b5a5b1c89f",
+  "output": "G:\\AI\\colony\\exports\\10-nightward-station\\Farpoint-Station-1-Hour-4K-v1.mp4",
+  "bytes": 20289894663,
+  "sha256": "a1684bdd06d73874ab0fd4a8108aa8b4def35bd60de853cb5b9779138553ca01",
+  "duration_seconds": 3600,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "audio": "AAC 192k stereo 48000 Hz",
+  "settings": {
+    "crossfade": 0,
+    "match_loudness": false,
+    "gain_db": 0,
+    "overlay": "off",
+    "full_decode": true,
+    "sfx": "None; approved Unfolding Warmth soundtrack only",
+    "loop_preparation": "Verified short master reused through Colony prepared-loop cache; no re-encode"
+  },
+  "source_video_sha256": "c9479291c39b7158e22907f7496942f6355a41303f17b3c32880f50a2181d372",
+  "source_audio_sha256": "a145ca15f6645608f31e580067cf976705213cbb34e8241e7dc196941fdc1597",
+  "colony_loop": {
+    "path": "G:\\AI\\colony\\exports\\10-nightward-station\\assembly-v1\\colony-loop-preserved-4k.mp4",
+    "sha256": "c9479291c39b7158e22907f7496942f6355a41303f17b3c32880f50a2181d372",
+    "decoded_yuv_frames_exactly_match_source_master": true
+  },
+  "validation": {
+    "full_video_audio_decode": true,
+    "video_packet_count": 108000,
+    "sequential_pts_dts": true,
+    "all_60_encoded_loop_payloads_identical": true,
+    "seam": "Exact decoded YUV frames retained from seam-verified short master; every repeated payload identical."
+  },
+  "review": "Technical validation and decoded still checks only; no full-one-hour artistic playback/listening or upload check claimed.",
+  "storage": "Finished one-hour video/audio and cached loop remain local ignored exports."
+}
