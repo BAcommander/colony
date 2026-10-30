@@ -87,8 +87,24 @@
     ]
   },
   "music_preparation": {
-    "status": "prompts prepared; no audio generated",
+    "status": "V3 research-informed prompts prepared; no audio generated",
+    "current_version": 3,
     "files": [
+      {
+        "path": "final/13-below-the-snowline/music/ambience-prompt-v3.txt",
+        "sha256": "fe6d4838db852f411f0a1d3e233f97941abec404e015ebe132cdc254e82d0b83",
+        "bytes": 378
+      },
+      {
+        "path": "final/13-below-the-snowline/music/elevenlabs-long-version-v2.txt",
+        "sha256": "6d1f9df2f5ccda3e849b468a22ea1fb1d6b0ec1c4cd50569fe814f83a4873835",
+        "bytes": 1023
+      },
+      {
+        "path": "final/13-below-the-snowline/music/elevenlabs-long-version-v3.txt",
+        "sha256": "fc21a0fbeb0a7128aca2b9f962bf69665dc462365d2c09fd590adbe03c4bbf56",
+        "bytes": 1128
+      },
       {
         "path": "final/13-below-the-snowline/music/elevenlabs-long-version.txt",
         "sha256": "f7b72656b72ff215273a11ca7bf3388288402db3ecb9a741a339915c60a5f35a",
@@ -100,20 +116,37 @@
         "bytes": 1758
       },
       {
+        "path": "final/13-below-the-snowline/music/elevenlabs-prompt-v2.txt",
+        "sha256": "7ba145624e021c126bc9f6ba0f43f0ddaaa5a3c21f7e061359712fcfe08f138a",
+        "bytes": 1146
+      },
+      {
+        "path": "final/13-below-the-snowline/music/elevenlabs-prompt-v3.txt",
+        "sha256": "d127beb9289b816482abfa3ef1dd5208c56783b75f49f991ecde486c0e761de6",
+        "bytes": 1013
+      },
+      {
         "path": "final/13-below-the-snowline/music/generation-record.json",
-        "sha256": "a933eb3efc92b43f9f72390e0a6b3369a878891603ec60fda6f2144e6b3152f6",
-        "bytes": 346
+        "sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c",
+        "bytes": 603
+      },
+      {
+        "path": "final/13-below-the-snowline/music/prompt-manifest-v3.json",
+        "sha256": "fe2bd11df7259a6bafd496247d7f92673fae4a23b4b6816dd29a8c18bb72ad5d",
+        "bytes": 1189
       },
       {
         "path": "final/13-below-the-snowline/music/README.md",
-        "sha256": "41ede2e23a57e72ac2309acaed3d924a5d5638d5769d79c136a4d2af90d4d15b",
-        "bytes": 2017
+        "sha256": "3e14a3d0f097ebc70969340d5625d3eb9a832c69e1eb91e8c55f694b43e07060",
+        "bytes": 3523
       }
     ],
-    "planned_test": "approximately 60 seconds, two variants; user manual generation if supported",
-    "planned_long_piece": "approximately five minutes using chosen own test as reference if supported",
+    "planned_test": "120 seconds, two variants; manual generation if supported",
+    "planned_long_piece": "about eight minutes using a chosen owned dry reference, if supported",
     "credits_spent_by_assistant": 0,
-    "workflow": "creative/MUSIC_WORKFLOW.md"
+    "workflow": "creative/MUSIC_WORKFLOW.md",
+    "month_pack": "creative/music/november-2026/README.md",
+    "prior_manifest_snapshot": "final/13-below-the-snowline/music/music-preparation-before-v3.json"
   },
   "motion_preparation": {
     "status": "written proposal only; no masks or implementation",

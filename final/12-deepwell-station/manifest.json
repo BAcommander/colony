@@ -87,8 +87,24 @@
     ]
   },
   "music_preparation": {
-    "status": "prompts prepared; no audio generated",
+    "status": "V3 research-informed prompts prepared; no audio generated",
+    "current_version": 3,
     "files": [
+      {
+        "path": "final/12-deepwell-station/music/ambience-prompt-v3.txt",
+        "sha256": "bfaabaec1e310c817de48b5e0eef044e1ef95d23742ce0b91be9bed4cb03e7a7",
+        "bytes": 392
+      },
+      {
+        "path": "final/12-deepwell-station/music/elevenlabs-long-version-v2.txt",
+        "sha256": "b3580aa7c546f43c0dd40420f15f17ba8f6eb2f4db26a87169b5bb8443de50c4",
+        "bytes": 1062
+      },
+      {
+        "path": "final/12-deepwell-station/music/elevenlabs-long-version-v3.txt",
+        "sha256": "cbbd590a91da3f40d31056f1a2341097647f97deb75a6195f835fb496f3e73e1",
+        "bytes": 1135
+      },
       {
         "path": "final/12-deepwell-station/music/elevenlabs-long-version.txt",
         "sha256": "5e9509340e0f06364c95b9fcb356c440f9d350ccf26ac1957bb1b37e71f588c6",
@@ -100,20 +116,37 @@
         "bytes": 1759
       },
       {
+        "path": "final/12-deepwell-station/music/elevenlabs-prompt-v2.txt",
+        "sha256": "3a9bbf986831596a30f5bde64a080bfd3f7742554a6e34d96c84d222ec7e549a",
+        "bytes": 1017
+      },
+      {
+        "path": "final/12-deepwell-station/music/elevenlabs-prompt-v3.txt",
+        "sha256": "261ef604503852e50792229950efe63dc6c7ada9c1b0a3cca20611262e710528",
+        "bytes": 1002
+      },
+      {
         "path": "final/12-deepwell-station/music/generation-record.json",
-        "sha256": "a933eb3efc92b43f9f72390e0a6b3369a878891603ec60fda6f2144e6b3152f6",
-        "bytes": 346
+        "sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c",
+        "bytes": 603
+      },
+      {
+        "path": "final/12-deepwell-station/music/prompt-manifest-v3.json",
+        "sha256": "1d1bae4d8320122eeccabbf9ae701a0d87e392b18c35e250f3cbea57652a1e39",
+        "bytes": 1187
       },
       {
         "path": "final/12-deepwell-station/music/README.md",
-        "sha256": "0473f8fed6cb220ea4760cbc7740af4d74f129ac2a08f62eb731bb209776f0b7",
-        "bytes": 2038
+        "sha256": "f929cbb298fca2cd049c1321ec0ac7a7a8279c1628ab49575895cbf21eaeedf6",
+        "bytes": 3548
       }
     ],
-    "planned_test": "approximately 60 seconds, two variants; user manual generation if supported",
-    "planned_long_piece": "approximately five minutes using chosen own test as reference if supported",
+    "planned_test": "120 seconds, two variants; manual generation if supported",
+    "planned_long_piece": "about eight minutes using a chosen owned dry reference, if supported",
     "credits_spent_by_assistant": 0,
-    "workflow": "creative/MUSIC_WORKFLOW.md"
+    "workflow": "creative/MUSIC_WORKFLOW.md",
+    "month_pack": "creative/music/november-2026/README.md",
+    "prior_manifest_snapshot": "final/12-deepwell-station/music/music-preparation-before-v3.json"
   },
   "motion_preparation": {
     "status": "written proposal only; no masks or implementation",

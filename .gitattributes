@@ -1,4 +1,16 @@
 creative/basalt-transmission/animation/baseline-v6-loop-4k-master.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve exact bytes for the audio-analysis evidence and its fingerprinted tools.
+/creative/music/reference-analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/creative/music/november-2026/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/analyze_ambient_audio.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/ambient_audio_report.html -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/compare_ambient_audio.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/investigate_ambient_repetition.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/prepare_ambient_trials.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/test_ambient_audio.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/archive_ambient_reports.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+"/Analyze Audio.cmd" -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 creative/glacier-sanctuary/animation/final-v11/glacier-sanctuary-v11-60s-4k.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 final/01-ringfall-observatory/video-4k.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 final/02-basalt-transmission/video-4k.mp4 filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

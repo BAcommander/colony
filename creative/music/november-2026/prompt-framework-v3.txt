@@ -1,0 +1,14 @@
+Purpose: continuous scene ambience for long, voluntary listening. Original direction informed by first-pass user preference, practitioner research and current ElevenLabs documentation; generated results still need testing.
+
+1. State instrumental mode and actual requested length.
+2. Give a sound family, free-time/beatless direction and one sentence of scene mood.
+3. Assign a rounded foundation, a near texture and a distant layer. Keep their identities consistent.
+4. Describe slow changes of colour, voicing, density and depth. Keep musical events sparse and soft, rather than writing a sequence of little questions and replies.
+5. Keep overall continuity while allowing gentle unequal internal changes. Avoid a rigid volume cycle or named dramatic structure.
+6. Keep bass controlled, midrange softly audible and top end smooth. Describe a usable sonic relationship, not a numerical spectral quota or compulsory fixed note.
+7. Keep environmental sound outside the Music pass so it can be mixed and tested separately.
+8. End open and still active; no required cadence or fade to silence. Inspect the export because prompting cannot guarantee that ending or a seamless loop.
+9. Use one compact exclusion sentence for actual failure modes. Avoid endlessly adding prohibitions that remove all life.
+10. A long prompt preserves the chosen owned reference and atmosphere. Change one layer gradually, without scheduling a new event or section every minute.
+
+What this does not establish: reference instruments/key/BPM, Ambient Outpost's exact process, a universal ambient genre definition, a guaranteed model response, a proven focus/sleep effect or all-day acceptance.

@@ -10,5 +10,9 @@
   "user_feedback": null,
   "audio_approval": false,
   "local_join_review": null,
-  "delivery_duration_seconds": null
+  "delivery_duration_seconds": null,
+  "current_prompt_version": "v3",
+  "v3_date_prepared": "2026-10-30",
+  "v3_status": "research-informed proposal; not generated",
+  "v3_scope": "User confirms November scene lineup; short pilot, owned-reference long prompt and separate ambience proposal."
 }

@@ -1,0 +1,110 @@
+{
+  "scope": "Seven three-minute clips, constant-gain matched to -23 LUFS; identities intentionally kept in local answer key until rated. No assistant listening/approval inferred.",
+  "trials": [
+    {
+      "trial": "A",
+      "source_sha256": "5b7d8106add09fba68600aaea12ba410c66f242b10fb88c605b23e1432dcedda",
+      "clip_start_seconds_in_passage": 60,
+      "clip_duration_seconds": 180,
+      "treatment": null,
+      "gain_db": 0.0,
+      "target_lufs": -23,
+      "measured": {
+        "integrated_lufs": -23.0,
+        "loudness_range_lu": 3.8,
+        "true_peak_dbtp": -8.6
+      },
+      "output_sha256": "d0e21fa20e529885fe17d9c1ef4afc47f6e6bd916fb99327f4c449688763aa46"
+    },
+    {
+      "trial": "B",
+      "source_sha256": "3db9000adb505ce2aba7009748d10e40d5e0e7b4b13acc038b8f3ae1ddb03546",
+      "clip_start_seconds_in_passage": 60,
+      "clip_duration_seconds": 180,
+      "treatment": null,
+      "gain_db": -5.0,
+      "target_lufs": -23,
+      "measured": {
+        "integrated_lufs": -23.0,
+        "loudness_range_lu": 5.4,
+        "true_peak_dbtp": -9.8
+      },
+      "output_sha256": "839e402744f3f2088279d38da1eb3c87aae2eb6b5c0c88ff81bad79b2877cdab"
+    },
+    {
+      "trial": "C",
+      "source_sha256": "f4f40cbb1773a191d1fdb8cc5e328c84c205fee591a38e946a50b82c38c255ba",
+      "clip_start_seconds_in_passage": 60,
+      "clip_duration_seconds": 180,
+      "treatment": null,
+      "gain_db": -2.6999999999999993,
+      "target_lufs": -23,
+      "measured": {
+        "integrated_lufs": -23.0,
+        "loudness_range_lu": 2.0,
+        "true_peak_dbtp": -10.9
+      },
+      "output_sha256": "7c900f34a29f12e9186d84f450a96772a42014029d13203233ff0f224df0c1e9"
+    },
+    {
+      "trial": "D",
+      "source_sha256": "49c706602f6823880a9893b110ee536e38f26b3bf96154ac1da76801bfcf0333",
+      "clip_start_seconds_in_passage": 60,
+      "clip_duration_seconds": 180,
+      "treatment": null,
+      "gain_db": -6.899999999999999,
+      "target_lufs": -23,
+      "measured": {
+        "integrated_lufs": -23.0,
+        "loudness_range_lu": 6.4,
+        "true_peak_dbtp": -9.8
+      },
+      "output_sha256": "bb371e3a9dfca908d62f407014807c9ad554b4f4242c3d4bf8e322c1f4ac86c4"
+    },
+    {
+      "trial": "E",
+      "source_sha256": "dc088c659a102a83e04e99fe854c53cf83d71644f87d268fd222394e8d011173",
+      "clip_start_seconds_in_passage": 60,
+      "clip_duration_seconds": 180,
+      "treatment": null,
+      "gain_db": -2.1999999999999993,
+      "target_lufs": -23,
+      "measured": {
+        "integrated_lufs": -23.0,
+        "loudness_range_lu": 1.8,
+        "true_peak_dbtp": -12.4
+      },
+      "output_sha256": "94027c33f75814815e92d6e460969ad7f6ff7ce0d08086dd7a8ff5d2e49051e0"
+    },
+    {
+      "trial": "F",
+      "source_sha256": "49c706602f6823880a9893b110ee536e38f26b3bf96154ac1da76801bfcf0333",
+      "clip_start_seconds_in_passage": 60,
+      "clip_duration_seconds": 180,
+      "treatment": "bass=g=-6.8093:f=80:t=q:w=0.707",
+      "gain_db": -4.800000000000001,
+      "target_lufs": -23,
+      "measured": {
+        "integrated_lufs": -23.0,
+        "loudness_range_lu": 7.3,
+        "true_peak_dbtp": -8.9
+      },
+      "output_sha256": "19d0ab10c37b0e1f6e182806225d97436cb95cbdebea909eb7e5a9d6cb6344e8"
+    },
+    {
+      "trial": "G",
+      "source_sha256": "cca2f70f3defc1505aebe95de67d2d0d647f58961bc58c2c0594c383f978b3cf",
+      "clip_start_seconds_in_passage": 60,
+      "clip_duration_seconds": 180,
+      "treatment": null,
+      "gain_db": -1.8999999999999986,
+      "target_lufs": -23,
+      "measured": {
+        "integrated_lufs": -23.0,
+        "loudness_range_lu": 5.5,
+        "true_peak_dbtp": -9.7
+      },
+      "output_sha256": "b370d84b9eec5e0e6eeccb0199928f64a86d6083facb3f951a744e4bb5fad39a"
+    }
+  ]
+}

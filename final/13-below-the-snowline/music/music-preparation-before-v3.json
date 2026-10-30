@@ -1,0 +1,29 @@
+{
+  "status": "prompts prepared; no audio generated",
+  "files": [
+    {
+      "path": "final/13-below-the-snowline/music/elevenlabs-long-version.txt",
+      "sha256": "f7b72656b72ff215273a11ca7bf3388288402db3ecb9a741a339915c60a5f35a",
+      "bytes": 2087
+    },
+    {
+      "path": "final/13-below-the-snowline/music/elevenlabs-prompt-v1.txt",
+      "sha256": "8b33d912e38f7b7506c53b959422d22ab76329bff7aa42f26754882521d7336d",
+      "bytes": 1758
+    },
+    {
+      "path": "final/13-below-the-snowline/music/generation-record.json",
+      "sha256": "a933eb3efc92b43f9f72390e0a6b3369a878891603ec60fda6f2144e6b3152f6",
+      "bytes": 346
+    },
+    {
+      "path": "final/13-below-the-snowline/music/README.md",
+      "sha256": "41ede2e23a57e72ac2309acaed3d924a5d5638d5769d79c136a4d2af90d4d15b",
+      "bytes": 2017
+    }
+  ],
+  "planned_test": "approximately 60 seconds, two variants; user manual generation if supported",
+  "planned_long_piece": "approximately five minutes using chosen own test as reference if supported",
+  "credits_spent_by_assistant": 0,
+  "workflow": "creative/MUSIC_WORKFLOW.md"
+}

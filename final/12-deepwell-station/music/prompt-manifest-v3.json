@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "date_prepared": "2026-10-30",
+  "title": "Deepwell Station",
+  "status": "prompts prepared, no audio generated/listened/approved",
+  "pilot_seconds": 120,
+  "long_requested_seconds": 480,
+  "sfx_status": "separate proposed source; no audio generated",
+  "source_research": "creative/music/november-2026/RESEARCH.md",
+  "listening_feedback": "creative/music/reference-analysis/comparison-2026-10-30/feedback-2026-10-30/decoded-ratings.json",
+  "assets": {
+    "elevenlabs-prompt-v3.txt": {
+      "sha256": "261ef604503852e50792229950efe63dc6c7ada9c1b0a3cca20611262e710528",
+      "bytes": 1002
+    },
+    "elevenlabs-long-version-v3.txt": {
+      "sha256": "cbbd590a91da3f40d31056f1a2341097647f97deb75a6195f835fb496f3e73e1",
+      "bytes": 1135
+    },
+    "ambience-prompt-v3.txt": {
+      "sha256": "bfaabaec1e310c817de48b5e0eef044e1ef95d23742ce0b91be9bed4cb03e7a7",
+      "bytes": 392
+    }
+  },
+  "preserved_v2_sha256": {
+    "elevenlabs-prompt-v2.txt": "3a9bbf986831596a30f5bde64a080bfd3f7742554a6e34d96c84d222ec7e549a",
+    "elevenlabs-long-version-v2.txt": "b3580aa7c546f43c0dd40420f15f17ba8f6eb2f4db26a87169b5bb8443de50c4"
+  },
+  "user_audio_approval": null
+}

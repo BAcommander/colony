@@ -87,8 +87,24 @@
     ]
   },
   "music_preparation": {
-    "status": "prompts prepared; no audio generated",
+    "status": "V3 research-informed prompts prepared; no audio generated",
+    "current_version": 3,
     "files": [
+      {
+        "path": "final/14-crater-rim-survey/music/ambience-prompt-v3.txt",
+        "sha256": "aa376c911ef58d9e17126ec3b9b8092304e90675327fa1401413c643d9d362cb",
+        "bytes": 385
+      },
+      {
+        "path": "final/14-crater-rim-survey/music/elevenlabs-long-version-v2.txt",
+        "sha256": "b8509854fd500fea184036c8c1857e70e95c91ed6dd387187c94c72c1c7a2040",
+        "bytes": 1060
+      },
+      {
+        "path": "final/14-crater-rim-survey/music/elevenlabs-long-version-v3.txt",
+        "sha256": "96cb67f58cd4fd9c7183371b3059ff4daeb207ebb82d3276e51fa5ce97294da4",
+        "bytes": 1119
+      },
       {
         "path": "final/14-crater-rim-survey/music/elevenlabs-long-version.txt",
         "sha256": "40d41782a3ab2224f53eb02f791d28ec9744f162a77933e9c2a2f459f52d5208",
@@ -100,20 +116,37 @@
         "bytes": 1789
       },
       {
+        "path": "final/14-crater-rim-survey/music/elevenlabs-prompt-v2.txt",
+        "sha256": "d076cca02eee29f64f7267c206c8195ccee65fd56af17ba435ce1b02cfa7f0d2",
+        "bytes": 1226
+      },
+      {
+        "path": "final/14-crater-rim-survey/music/elevenlabs-prompt-v3.txt",
+        "sha256": "3aed145203e044ca2f5f9218a0862809620d3c336cb7682159c005e7459a1557",
+        "bytes": 1039
+      },
+      {
         "path": "final/14-crater-rim-survey/music/generation-record.json",
-        "sha256": "a933eb3efc92b43f9f72390e0a6b3369a878891603ec60fda6f2144e6b3152f6",
-        "bytes": 346
+        "sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c",
+        "bytes": 603
+      },
+      {
+        "path": "final/14-crater-rim-survey/music/prompt-manifest-v3.json",
+        "sha256": "7ae04507167769cc191e911aafd6e05de1c4cf4de680ed637eaa943e4eb6df21",
+        "bytes": 1188
       },
       {
         "path": "final/14-crater-rim-survey/music/README.md",
-        "sha256": "c3fcfc6e39447f531aa1139e9015d9eca84d12d65985d6617a58bcfa08ee8b45",
-        "bytes": 2021
+        "sha256": "25f855e22c2d3d4721d64eac4abc7e365ef32126446662c34b71e9b29466d3db",
+        "bytes": 3531
       }
     ],
-    "planned_test": "approximately 60 seconds, two variants; user manual generation if supported",
-    "planned_long_piece": "approximately five minutes using chosen own test as reference if supported",
+    "planned_test": "120 seconds, two variants; manual generation if supported",
+    "planned_long_piece": "about eight minutes using a chosen owned dry reference, if supported",
     "credits_spent_by_assistant": 0,
-    "workflow": "creative/MUSIC_WORKFLOW.md"
+    "workflow": "creative/MUSIC_WORKFLOW.md",
+    "month_pack": "creative/music/november-2026/README.md",
+    "prior_manifest_snapshot": "final/14-crater-rim-survey/music/music-preparation-before-v3.json"
   },
   "motion_preparation": {
     "status": "written proposal only; no masks or implementation",

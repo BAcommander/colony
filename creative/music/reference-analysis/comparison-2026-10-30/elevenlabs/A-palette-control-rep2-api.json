@@ -1,0 +1,38 @@
+{
+  "model_id": "music_v2_5",
+  "seed": 301027,
+  "store_for_inpainting": true,
+  "composition_plan": {
+    "chunks": [
+      {
+        "text": "[Ambient continuity]\n{instrumental}",
+        "duration_ms": 120000,
+        "positive_styles": [
+          "instrumental dark science-fiction synth ambient",
+          "beatless and free-time",
+          "rounded low bass supporting a warm low-mid bed",
+          "soft sustained harmonic voices with audible upper-mid detail",
+          "smooth subdued top end and soft attacks",
+          "overlapping voices with breathing space",
+          "occasional small receding fragments without a foreground tune",
+          "gentle unequal swells and gradual voicing changes",
+          "established continuous night atmosphere, quiet comfort",
+          "suspended ending, no dramatic arc"
+        ],
+        "negative_styles": [
+          "vocals",
+          "lyrics",
+          "drums",
+          "rhythmic arpeggios",
+          "percussion",
+          "foreground sound effects",
+          "bright bells",
+          "impacts",
+          "risers",
+          "climax"
+        ],
+        "context_adherence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "test": "ambient-colony-2026-10-30",
+  "rated_at": "2026-10-30T16:13:23.139Z",
+  "ratings": {
+    "A": {
+      "comfort": "4",
+      "keep_playing": "4",
+      "distraction": "",
+      "notes": ""
+    },
+    "B": {
+      "comfort": "3.5",
+      "keep_playing": "3.5",
+      "distraction": "",
+      "notes": ""
+    },
+    "C": {
+      "comfort": "3",
+      "keep_playing": "3",
+      "distraction": "",
+      "notes": "too fast really to be ambient"
+    },
+    "D": {
+      "comfort": "3.5",
+      "keep_playing": "3.5",
+      "distraction": "",
+      "notes": ""
+    },
+    "E": {
+      "comfort": "4",
+      "keep_playing": "4",
+      "distraction": "",
+      "notes": "the rain adds something here i think, maybe just variety / interest"
+    },
+    "F": {
+      "comfort": "3.5",
+      "keep_playing": "3.5",
+      "distraction": "",
+      "notes": ""
+    },
+    "G": {
+      "comfort": "4",
+      "keep_playing": "4",
+      "distraction": "",
+      "notes": ""
+    }
+  }
+}

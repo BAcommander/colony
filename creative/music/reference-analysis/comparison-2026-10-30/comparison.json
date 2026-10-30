@@ -1,0 +1,772 @@
+{
+  "scope": "One 30-minute live DVR reference and five 30-minute published Colony passages, same analyser/method. SFX are not separated.",
+  "tracks": [
+    {
+      "id": "reference",
+      "name": "WINTER WATCH",
+      "analysis_file": "C:\\Colony\\exports\\reference-analysis\\winter-watch-30min-v2\\analysis.json",
+      "source": {
+        "path": "C:\\Colony\\exports\\reference-analysis\\winter-watch-30min-v1\\reference-sample.m4a",
+        "sha256": "5b7d8106add09fba68600aaea12ba410c66f242b10fb88c605b23e1432dcedda",
+        "bytes": 29156117,
+        "metadata": {
+          "id": "dDYH-75RJWA",
+          "title": "WINTER WATCH — Remote Forest Outpost | Dark Ambient Music 2026-10-30 15:38",
+          "channel": "Ambient Outpost",
+          "webpage_url": "https://www.youtube.com/watch?v=dDYH-75RJWA",
+          "duration": null,
+          "is_live": true,
+          "live_status": "is_live",
+          "format_id": "234",
+          "retrieved_at_utc": "2026-10-30T15:38:14.472641+00:00",
+          "scope": "bounded live DVR excerpt; not the whole stream",
+          "requested_sample_seconds": 1800.0,
+          "approximate_start_seconds_behind_live": 1815.0,
+          "live_start_index": -363
+        }
+      },
+      "seconds": 1800.0108958333333,
+      "lufs": -22.6,
+      "lra": 5.0,
+      "true_peak": -5.7,
+      "bands_percent": [
+        33.247722496480726,
+        35.93912553568928,
+        26.6979114779164,
+        4.089541884875497,
+        0.02553657423616274,
+        0.00016203080194357404
+      ],
+      "below_250_percent": 69.18684803217,
+      "above_1k_percent": 4.115240489913603,
+      "stereo_correlation": 0.262710317909263,
+      "side_percent": 36.864527177998475,
+      "rms_spread_db": 5.721953080652103,
+      "median_absolute_1s_level_change_db": 0.7668758914634637,
+      "p95_absolute_1s_level_change_db": 2.459147168558445,
+      "recurrence": [
+        {
+          "lag_seconds": 628,
+          "feature_autocorrelation": 0.495,
+          "overlap_seconds": 1172,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 629.18012,
+              "waveform_correlation": 0.26668
+            },
+            {
+              "start_seconds": 582.005,
+              "matched_lag_seconds": 626.9745,
+              "waveform_correlation": 0.22615
+            },
+            {
+              "start_seconds": 1160.011,
+              "matched_lag_seconds": 627.034,
+              "waveform_correlation": 0.19687
+            }
+          ]
+        },
+        {
+          "lag_seconds": 620,
+          "feature_autocorrelation": 0.372,
+          "overlap_seconds": 1180,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 618.82362,
+              "waveform_correlation": 0.22724
+            },
+            {
+              "start_seconds": 586.005,
+              "matched_lag_seconds": 620.58425,
+              "waveform_correlation": 0.16717
+            },
+            {
+              "start_seconds": 1168.011,
+              "matched_lag_seconds": 619.09037,
+              "waveform_correlation": 0.17953
+            }
+          ]
+        },
+        {
+          "lag_seconds": 608,
+          "feature_autocorrelation": 0.3453,
+          "overlap_seconds": 1192,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 610.46412,
+              "waveform_correlation": 0.23487
+            },
+            {
+              "start_seconds": 592.005,
+              "matched_lag_seconds": 608.0,
+              "waveform_correlation": 0.30413
+            },
+            {
+              "start_seconds": 1180.011,
+              "matched_lag_seconds": 610.30012,
+              "waveform_correlation": 0.19665
+            }
+          ]
+        },
+        {
+          "lag_seconds": 809,
+          "feature_autocorrelation": 0.3418,
+          "overlap_seconds": 991,
+          "status": "candidate; audition required"
+        },
+        {
+          "lag_seconds": 202,
+          "feature_autocorrelation": 0.3355,
+          "overlap_seconds": 1598,
+          "status": "candidate; audition required"
+        }
+      ]
+    },
+    {
+      "id": "basalt",
+      "name": "Basalt",
+      "analysis_file": "C:\\Colony\\exports\\reference-analysis\\comparison-2026-10-30\\basalt\\analysis\\analysis.json",
+      "source": {
+        "path": "C:\\Colony\\exports\\reference-analysis\\comparison-2026-10-30\\basalt\\published-passage.m4a",
+        "sha256": "3db9000adb505ce2aba7009748d10e40d5e0e7b4b13acc038b8f3ae1ddb03546",
+        "bytes": 29111620,
+        "metadata": {
+          "id": "QTJGwrVvv8s",
+          "title": "Basalt Transmission - Sci-Fi Ambient Music for Sleep, Focus and Study",
+          "channel": "Ambient Colony",
+          "channel_id": "UCT5K7bJk5yJGUO_uu_17BdQ",
+          "duration": 7200,
+          "webpage_url": "https://www.youtube.com/watch?v=QTJGwrVvv8s",
+          "format_id": "140",
+          "acodec": "mp4a.40.2",
+          "asr": 44100,
+          "abr": 129.472,
+          "scope": "Published YouTube mix, 02:00–32:00; includes any baked SFX. Not an isolated music master.",
+          "excerpt_start_seconds": 120,
+          "excerpt_requested_seconds": 1800,
+          "acquired_at_utc": "2026-10-30T15:53:59.335849+00:00"
+        }
+      },
+      "seconds": 1800.011625,
+      "lufs": -17.8,
+      "lra": 5.4,
+      "true_peak": -3.9,
+      "bands_percent": [
+        30.477178980390157,
+        13.742681116907383,
+        55.60869709826183,
+        0.17138272897239834,
+        5.8330994928481004e-05,
+        1.744473306225458e-06
+      ],
+      "below_250_percent": 44.21986009729754,
+      "above_1k_percent": 0.17144280444063303,
+      "stereo_correlation": 0.2826267594874299,
+      "side_percent": 35.87105425414726,
+      "rms_spread_db": 6.056108390360166,
+      "median_absolute_1s_level_change_db": 0.6112990446589386,
+      "p95_absolute_1s_level_change_db": 2.3320789111360307,
+      "recurrence": [
+        {
+          "lag_seconds": 499,
+          "feature_autocorrelation": 0.9988,
+          "overlap_seconds": 1301,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 499.0,
+              "waveform_correlation": 0.99957
+            },
+            {
+              "start_seconds": 646.506,
+              "matched_lag_seconds": 499.0,
+              "waveform_correlation": 0.99983
+            },
+            {
+              "start_seconds": 1289.012,
+              "matched_lag_seconds": 499.0,
+              "waveform_correlation": 0.99967
+            }
+          ]
+        },
+        {
+          "lag_seconds": 511,
+          "feature_autocorrelation": 0.6179,
+          "overlap_seconds": 1289,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 513.44562,
+              "waveform_correlation": 0.09442
+            },
+            {
+              "start_seconds": 640.506,
+              "matched_lag_seconds": 510.529,
+              "waveform_correlation": 0.11694
+            },
+            {
+              "start_seconds": 1277.012,
+              "matched_lag_seconds": 508.15675,
+              "waveform_correlation": 0.14258
+            }
+          ]
+        },
+        {
+          "lag_seconds": 487,
+          "feature_autocorrelation": 0.6177,
+          "overlap_seconds": 1313,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 488.53425,
+              "waveform_correlation": 0.09067
+            },
+            {
+              "start_seconds": 652.506,
+              "matched_lag_seconds": 487.70837,
+              "waveform_correlation": 0.11013
+            },
+            {
+              "start_seconds": 1301.012,
+              "matched_lag_seconds": 489.9685,
+              "waveform_correlation": 0.22038
+            }
+          ]
+        },
+        {
+          "lag_seconds": 474,
+          "feature_autocorrelation": 0.5097,
+          "overlap_seconds": 1326,
+          "status": "candidate; audition required"
+        },
+        {
+          "lag_seconds": 523,
+          "feature_autocorrelation": 0.509,
+          "overlap_seconds": 1277,
+          "status": "candidate; audition required"
+        }
+      ]
+    },
+    {
+      "id": "rainline",
+      "name": "Rainline",
+      "analysis_file": "C:\\Colony\\exports\\reference-analysis\\comparison-2026-10-30\\rainline\\analysis\\analysis.json",
+      "source": {
+        "path": "C:\\Colony\\exports\\reference-analysis\\comparison-2026-10-30\\rainline\\published-passage.m4a",
+        "sha256": "dc088c659a102a83e04e99fe854c53cf83d71644f87d268fd222394e8d011173",
+        "bytes": 29111665,
+        "metadata": {
+          "id": "rZERVj1aqGE",
+          "title": "Rainline Relay - Sci-Fi Ambient Music for Sleep, Focus and Study",
+          "channel": "Ambient Colony",
+          "channel_id": "UCT5K7bJk5yJGUO_uu_17BdQ",
+          "duration": 3600,
+          "webpage_url": "https://www.youtube.com/watch?v=rZERVj1aqGE",
+          "format_id": "140",
+          "acodec": "mp4a.40.2",
+          "asr": 44100,
+          "abr": 129.472,
+          "scope": "Published YouTube mix, 02:00–32:00; includes any baked SFX. Not an isolated music master.",
+          "excerpt_start_seconds": 120,
+          "excerpt_requested_seconds": 1800,
+          "acquired_at_utc": "2026-10-30T15:54:14.741187+00:00"
+        }
+      },
+      "seconds": 1800.011625,
+      "lufs": -20.8,
+      "lra": 2.0,
+      "true_peak": -9.7,
+      "bands_percent": [
+        0.03220897188090063,
+        64.58952296526415,
+        35.11973675709914,
+        0.16761655865935768,
+        0.07722211983465134,
+        0.01369262726180876
+      ],
+      "below_250_percent": 64.62173193714506,
+      "above_1k_percent": 0.2585313057558178,
+      "stereo_correlation": 0.4410284736453439,
+      "side_percent": 28.048706681236524,
+      "rms_spread_db": 3.8484636400024215,
+      "median_absolute_1s_level_change_db": 0.20438910744309524,
+      "p95_absolute_1s_level_change_db": 1.192120016824008,
+      "recurrence": [
+        {
+          "lag_seconds": 376,
+          "feature_autocorrelation": 0.6451,
+          "overlap_seconds": 1424,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 376.0,
+              "waveform_correlation": 0.99295
+            },
+            {
+              "start_seconds": 708.006,
+              "matched_lag_seconds": 376.0,
+              "waveform_correlation": 0.99934
+            },
+            {
+              "start_seconds": 1412.012,
+              "matched_lag_seconds": 376.0,
+              "waveform_correlation": 0.99824
+            }
+          ]
+        },
+        {
+          "lag_seconds": 631,
+          "feature_autocorrelation": 0.4242,
+          "overlap_seconds": 1169,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 628.65575,
+              "waveform_correlation": 0.22002
+            },
+            {
+              "start_seconds": 580.506,
+              "matched_lag_seconds": 632.0,
+              "waveform_correlation": 0.835
+            },
+            {
+              "start_seconds": 1157.012,
+              "matched_lag_seconds": 628.4155,
+              "waveform_correlation": 0.33331
+            }
+          ]
+        },
+        {
+          "lag_seconds": 210,
+          "feature_autocorrelation": 0.3836,
+          "overlap_seconds": 1590,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 210.0,
+              "waveform_correlation": 0.67988
+            },
+            {
+              "start_seconds": 791.006,
+              "matched_lag_seconds": 210.0,
+              "waveform_correlation": 0.80716
+            },
+            {
+              "start_seconds": 1578.012,
+              "matched_lag_seconds": 210.95675,
+              "waveform_correlation": 0.30524
+            }
+          ]
+        },
+        {
+          "lag_seconds": 201,
+          "feature_autocorrelation": 0.3775,
+          "overlap_seconds": 1599,
+          "status": "candidate; audition required"
+        },
+        {
+          "lag_seconds": 841,
+          "feature_autocorrelation": 0.3671,
+          "overlap_seconds": 959,
+          "status": "candidate; audition required"
+        }
+      ]
+    },
+    {
+      "id": "ringfall",
+      "name": "Ringfall",
+      "analysis_file": "C:\\Colony\\exports\\reference-analysis\\comparison-2026-10-30\\ringfall\\analysis\\analysis.json",
+      "source": {
+        "path": "C:\\Colony\\exports\\reference-analysis\\comparison-2026-10-30\\ringfall\\published-passage.m4a",
+        "sha256": "49c706602f6823880a9893b110ee536e38f26b3bf96154ac1da76801bfcf0333",
+        "bytes": 29111671,
+        "metadata": {
+          "id": "4wYgfUVlvnA",
+          "title": "Ringfall Observatory - Sci-Fi Ambient Music for Sleep, Focus and Study",
+          "channel": "Ambient Colony",
+          "channel_id": "UCT5K7bJk5yJGUO_uu_17BdQ",
+          "duration": 3600,
+          "webpage_url": "https://www.youtube.com/watch?v=4wYgfUVlvnA",
+          "format_id": "140",
+          "acodec": "mp4a.40.2",
+          "asr": 44100,
+          "abr": 129.472,
+          "scope": "Published YouTube mix, 02:00–32:00; includes any baked SFX. Not an isolated music master.",
+          "excerpt_start_seconds": 120,
+          "excerpt_requested_seconds": 1800,
+          "acquired_at_utc": "2026-10-30T15:53:59.359797+00:00"
+        }
+      },
+      "seconds": 1800.011625,
+      "lufs": -16.0,
+      "lra": 7.4,
+      "true_peak": -2.8,
+      "bands_percent": [
+        70.4933828752555,
+        13.213840168175993,
+        16.00656196082855,
+        0.2861649735498442,
+        4.894555945946157e-05,
+        1.0766306557758374e-06
+      ],
+      "below_250_percent": 83.7072230434315,
+      "above_1k_percent": 0.28621499573995945,
+      "stereo_correlation": 0.4022623713494927,
+      "side_percent": 29.904348751047273,
+      "rms_spread_db": 12.388392040101756,
+      "median_absolute_1s_level_change_db": 0.7064475263664534,
+      "p95_absolute_1s_level_change_db": 2.157000374562109,
+      "recurrence": [
+        {
+          "lag_seconds": 295,
+          "feature_autocorrelation": 0.9978,
+          "overlap_seconds": 1505,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 295.0,
+              "waveform_correlation": 0.99902
+            },
+            {
+              "start_seconds": 748.506,
+              "matched_lag_seconds": 295.0,
+              "waveform_correlation": 0.99972
+            },
+            {
+              "start_seconds": 1493.012,
+              "matched_lag_seconds": 295.0,
+              "waveform_correlation": 0.9999
+            }
+          ]
+        },
+        {
+          "lag_seconds": 590,
+          "feature_autocorrelation": 0.9956,
+          "overlap_seconds": 1210,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 590.0,
+              "waveform_correlation": 0.99902
+            },
+            {
+              "start_seconds": 601.006,
+              "matched_lag_seconds": 590.0,
+              "waveform_correlation": 0.99936
+            },
+            {
+              "start_seconds": 1198.012,
+              "matched_lag_seconds": 590.0,
+              "waveform_correlation": 0.99991
+            }
+          ]
+        },
+        {
+          "lag_seconds": 885,
+          "feature_autocorrelation": 0.9921,
+          "overlap_seconds": 915,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 885.0,
+              "waveform_correlation": 0.99903
+            },
+            {
+              "start_seconds": 453.506,
+              "matched_lag_seconds": 885.0,
+              "waveform_correlation": 0.99987
+            },
+            {
+              "start_seconds": 903.012,
+              "matched_lag_seconds": 885.0,
+              "waveform_correlation": 0.99972
+            }
+          ]
+        },
+        {
+          "lag_seconds": 872,
+          "feature_autocorrelation": 0.2391,
+          "overlap_seconds": 928,
+          "status": "candidate; audition required"
+        },
+        {
+          "lag_seconds": 577,
+          "feature_autocorrelation": 0.2385,
+          "overlap_seconds": 1223,
+          "status": "candidate; audition required"
+        }
+      ]
+    },
+    {
+      "id": "shoreless",
+      "name": "Shoreless",
+      "analysis_file": "C:\\Colony\\exports\\reference-analysis\\comparison-2026-10-30\\shoreless\\analysis\\analysis.json",
+      "source": {
+        "path": "C:\\Colony\\exports\\reference-analysis\\comparison-2026-10-30\\shoreless\\published-passage.m4a",
+        "sha256": "cca2f70f3defc1505aebe95de67d2d0d647f58961bc58c2c0594c383f978b3cf",
+        "bytes": 29111638,
+        "metadata": {
+          "id": "UiVU-M1-ZW0",
+          "title": "Shoreless Colony - Sci-Fi Ambient Music for Sleep, Focus and Study",
+          "channel": "Ambient Colony",
+          "channel_id": "UCT5K7bJk5yJGUO_uu_17BdQ",
+          "duration": 7200,
+          "webpage_url": "https://www.youtube.com/watch?v=UiVU-M1-ZW0",
+          "format_id": "140",
+          "acodec": "mp4a.40.2",
+          "asr": 44100,
+          "abr": 129.472,
+          "scope": "Published YouTube mix, 02:00–32:00; includes any baked SFX. Not an isolated music master.",
+          "excerpt_start_seconds": 120,
+          "excerpt_requested_seconds": 1800,
+          "acquired_at_utc": "2026-10-30T15:54:57.916356+00:00"
+        }
+      },
+      "seconds": 1800.011625,
+      "lufs": -20.8,
+      "lra": 6.1,
+      "true_peak": -7.6,
+      "bands_percent": [
+        0.004263705086445841,
+        30.158421220029112,
+        68.75222281618325,
+        1.0842646442701978,
+        0.0007799818691288418,
+        4.763256187707834e-05
+      ],
+      "below_250_percent": 30.162684925115556,
+      "above_1k_percent": 1.0850922587012037,
+      "stereo_correlation": -0.02146255896471928,
+      "side_percent": 51.072965450946775,
+      "rms_spread_db": 7.328897532717498,
+      "median_absolute_1s_level_change_db": 0.99084098532337,
+      "p95_absolute_1s_level_change_db": 2.446053226617571,
+      "recurrence": [
+        {
+          "lag_seconds": 392,
+          "feature_autocorrelation": 0.7049,
+          "overlap_seconds": 1408,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 392.0,
+              "waveform_correlation": 0.99974
+            },
+            {
+              "start_seconds": 700.006,
+              "matched_lag_seconds": 392.0,
+              "waveform_correlation": 0.99979
+            },
+            {
+              "start_seconds": 1396.012,
+              "matched_lag_seconds": 392.0,
+              "waveform_correlation": 0.99935
+            }
+          ]
+        },
+        {
+          "lag_seconds": 784,
+          "feature_autocorrelation": 0.6987,
+          "overlap_seconds": 1016,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 784.0,
+              "waveform_correlation": 0.99974
+            },
+            {
+              "start_seconds": 504.006,
+              "matched_lag_seconds": 784.0,
+              "waveform_correlation": 0.99981
+            },
+            {
+              "start_seconds": 1004.012,
+              "matched_lag_seconds": 784.0,
+              "waveform_correlation": 0.9993
+            }
+          ]
+        },
+        {
+          "lag_seconds": 296,
+          "feature_autocorrelation": 0.6145,
+          "overlap_seconds": 1504,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 293.0725,
+              "waveform_correlation": 0.04867
+            },
+            {
+              "start_seconds": 748.006,
+              "matched_lag_seconds": 297.31475,
+              "waveform_correlation": 0.06122
+            },
+            {
+              "start_seconds": 1492.012,
+              "matched_lag_seconds": 293.51437,
+              "waveform_correlation": 0.07352
+            }
+          ]
+        },
+        {
+          "lag_seconds": 310,
+          "feature_autocorrelation": 0.5923,
+          "overlap_seconds": 1490,
+          "status": "candidate; audition required"
+        },
+        {
+          "lag_seconds": 378,
+          "feature_autocorrelation": 0.5745,
+          "overlap_seconds": 1422,
+          "status": "candidate; audition required"
+        }
+      ]
+    },
+    {
+      "id": "spirewatch",
+      "name": "Spirewatch",
+      "analysis_file": "C:\\Colony\\exports\\reference-analysis\\comparison-2026-10-30\\spirewatch\\analysis\\analysis.json",
+      "source": {
+        "path": "C:\\Colony\\exports\\reference-analysis\\comparison-2026-10-30\\spirewatch\\published-passage.m4a",
+        "sha256": "f4f40cbb1773a191d1fdb8cc5e328c84c205fee591a38e946a50b82c38c255ba",
+        "bytes": 29111522,
+        "metadata": {
+          "id": "wDnRb8yvoWg",
+          "title": "Spirewatch | TRON-Inspired Ambient Music for Focus",
+          "channel": "Ambient Colony",
+          "channel_id": "UCT5K7bJk5yJGUO_uu_17BdQ",
+          "duration": 7200,
+          "webpage_url": "https://www.youtube.com/watch?v=wDnRb8yvoWg",
+          "format_id": "140",
+          "acodec": "mp4a.40.2",
+          "asr": 44100,
+          "abr": 129.472,
+          "scope": "Published YouTube mix, 02:00–32:00; includes any baked SFX. Not an isolated music master.",
+          "excerpt_start_seconds": 120,
+          "excerpt_requested_seconds": 1800,
+          "acquired_at_utc": "2026-10-30T15:55:12.541484+00:00"
+        }
+      },
+      "seconds": 1800.011625,
+      "lufs": -20.1,
+      "lra": 2.3,
+      "true_peak": -8.0,
+      "bands_percent": [
+        37.517310722371874,
+        31.005469802766317,
+        28.579783932351354,
+        2.8946847422664868,
+        0.0027375084727899474,
+        1.3291771195676523e-05
+      ],
+      "below_250_percent": 68.52278052513819,
+      "above_1k_percent": 2.8974355425104723,
+      "stereo_correlation": 0.7239580733361662,
+      "side_percent": 13.824538686715483,
+      "rms_spread_db": 3.4096265589383563,
+      "median_absolute_1s_level_change_db": 0.4956598038308542,
+      "p95_absolute_1s_level_change_db": 2.4275369446441935,
+      "recurrence": [
+        {
+          "lag_seconds": 674,
+          "feature_autocorrelation": 0.9406,
+          "overlap_seconds": 1126,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 674.0,
+              "waveform_correlation": 0.99897
+            },
+            {
+              "start_seconds": 559.006,
+              "matched_lag_seconds": 674.0,
+              "waveform_correlation": 0.99971
+            },
+            {
+              "start_seconds": 1114.012,
+              "matched_lag_seconds": 674.0,
+              "waveform_correlation": 0.99968
+            }
+          ]
+        },
+        {
+          "lag_seconds": 680,
+          "feature_autocorrelation": 0.3866,
+          "overlap_seconds": 1120,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 681.68538,
+              "waveform_correlation": 0.20289
+            },
+            {
+              "start_seconds": 556.006,
+              "matched_lag_seconds": 681.49437,
+              "waveform_correlation": 0.20212
+            },
+            {
+              "start_seconds": 1108.012,
+              "matched_lag_seconds": 679.43725,
+              "waveform_correlation": 0.22942
+            }
+          ]
+        },
+        {
+          "lag_seconds": 668,
+          "feature_autocorrelation": 0.3852,
+          "overlap_seconds": 1132,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 667.98712,
+              "waveform_correlation": 0.20299
+            },
+            {
+              "start_seconds": 562.006,
+              "matched_lag_seconds": 669.67525,
+              "waveform_correlation": 0.23257
+            },
+            {
+              "start_seconds": 1120.012,
+              "matched_lag_seconds": 669.0685,
+              "waveform_correlation": 0.27996
+            }
+          ]
+        },
+        {
+          "lag_seconds": 686,
+          "feature_autocorrelation": 0.385,
+          "overlap_seconds": 1114,
+          "status": "candidate; audition required"
+        },
+        {
+          "lag_seconds": 662,
+          "feature_autocorrelation": 0.3806,
+          "overlap_seconds": 1138,
+          "status": "candidate; audition required"
+        }
+      ]
+    }
+  ]
+}

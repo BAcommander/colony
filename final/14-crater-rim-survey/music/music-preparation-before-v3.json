@@ -1,0 +1,29 @@
+{
+  "status": "prompts prepared; no audio generated",
+  "files": [
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-long-version.txt",
+      "sha256": "40d41782a3ab2224f53eb02f791d28ec9744f162a77933e9c2a2f459f52d5208",
+      "bytes": 2118
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-prompt-v1.txt",
+      "sha256": "687b1ee72532a4f2f9cc475b5ec8342032616e5693d9b1d957bb9c9ed992a090",
+      "bytes": 1789
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/generation-record.json",
+      "sha256": "a933eb3efc92b43f9f72390e0a6b3369a878891603ec60fda6f2144e6b3152f6",
+      "bytes": 346
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/README.md",
+      "sha256": "c3fcfc6e39447f531aa1139e9015d9eca84d12d65985d6617a58bcfa08ee8b45",
+      "bytes": 2021
+    }
+  ],
+  "planned_test": "approximately 60 seconds, two variants; user manual generation if supported",
+  "planned_long_piece": "approximately five minutes using chosen own test as reference if supported",
+  "credits_spent_by_assistant": 0,
+  "workflow": "creative/MUSIC_WORKFLOW.md"
+}
