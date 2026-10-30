@@ -1,0 +1,25 @@
+{
+  "verified_at": "2026-10-30T18:08:54+00:00",
+  "remote": "https://github.com/BAcommander/colony.git",
+  "branch": "main",
+  "local_head": "127101b6bbd44cd6cd516c7e926ef959dc29bae9",
+  "origin_main_after_fetch": "127101b6bbd44cd6cd516c7e926ef959dc29bae9",
+  "commits_pushed": [
+    "57323d926119aacea79ba91aca2a501046a2f5bb Merge October 30 ambient research, listening lessons and November briefs into main",
+    "127101b6bbd44cd6cd516c7e926ef959dc29bae9 Add channel research, four-week plan and pre-video gate; preserve Farpoint and catalog 15 records"
+  ],
+  "lfs_objects_uploaded": [
+    "c27dcc8abba8d9c98359a28942277dcfdce8ff7748cf18b42f7f773f892b1c54 * final/15-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-1080p.mp4",
+    "e6256bbcf2fadd2b0639788058d2909e09c18901e73ae82392648fa85df23ac4 * final/15-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-4K.mp4"
+  ],
+  "lfs_pending_after_push": "",
+  "excluded_local_only": [
+    "final/08-rainline-relay/music/long-source-v1 review audio",
+    "final/09-offshore-night-office/music previews and 947 MB pre-fade FLAC",
+    "final/10-nightward-station/music/long-a-unfolding-warmth-v1/Farpoint-Unfolding-Warmth-three-repeats-v1.mp3",
+    "music/spirewatch-animation-v4..v8 render-parts and delivery parts",
+    "music/spirewatch-final-two-hours-v1/verification-cache",
+    "music/farpoint-music-v1/.local (ignored)"
+  ],
+  "note": "First push attempts were rejected by GitHub fsck because a merge-record directory was named .gitattributes; the unpushed commit was recreated with .record suffixes. No history that had reached the remote was rewritten."
+}
