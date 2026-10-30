@@ -1,0 +1,125 @@
+RECOGNIZABLE WORLD ATMOSPHERE — FOUR SOURCES, TWELVE SCENES
+2026-10-27. User feedback: "im not really getting vibe froim the IPs at all"; focus on Andor, Alien, Dune and The Expanse, three ideas each. User wants strong atmosphere and amazing scenes to help clicks. This supersedes the excessively abstract source-first approach for new concept development. Existing images remain preserved; no generation authorized by a request for ideas.
+
+CORRECTION
+Prior candidates retained generic virtues (function, refuge, ecology) while removing too many recognizable visual cues. For the next image, choose a specific strand of a source world and retain a coherent combination of architecture, technology era, light, scale, environment and implied story. Do not blend all four into one generic colony.
+Use original locations and compositions with strong influence; do not describe them as official franchise art. No logos/characters needed. Photographic credibility remains a goal. Surface-only references and the sources below support interpretation, not a full scene audit or guaranteed audience response.
+Do not require an alien planet exterior in every concept: user now prioritizes source atmosphere. Asteroid/orbital locations are deliberate proposals consistent with this exploration; confirm the selected concept before generation.
+
+ANDOR — working communities, industrial civic life, institutional scale
+Evidence: official world-building feature describes story/character-led design and distinct planetary settings.
+https://www.starwars.com/news/andor-season-2-world-building-production-design-feature
+Our visual direction: tactile masonry, mechanical/analogue services, layered lived-in streets, stark institutional structures, practical warm pools against overcast exteriors. Not shiny space-opera spectacle.
+
+A1. THE SALVAGE DISTRICT AFTER CLOSING
+Frame: standing just inside an open repair-shop canopy; a single pool of warm bench light and a stripped engine frame the view into a narrow terracotta-and-stone lane. Walkways, hoists and ordinary upper-floor homes overlap in depth. At the lane's end an enormous dismantled industrial hull rises through cool evening haze.
+Identity: salvage-town social fabric, earthy masonry, physical machinery, handmade repairs and scale beyond the street.
+One dominant thumbnail idea: THE WARM WORKSHOP / THE GIANT HULL.
+Alien setting: inhabited off-world salvage port; unfamiliar eroded pale ridges beyond a narrow roof gap, no giant planet needed.
+Keep calm: one secured hoist, static grounded machinery, sparse distant practical lights. No busy crowds, weapon props or decorative greeble.
+Geometry check: supported gantries, continuous upper routes, engine clear of doors.
+
+A2. THE HYDRO STATION NIGHT SHIFT
+Frame: from a modest dark control booth, a huge austere concrete spillway drops into a cold sea. Repeating light wells lead toward a remote institutional block. Sparse chunky mechanical controls and one used chair occupy the foreground.
+Identity: severe industrial order, repetitive geometry and human vulnerability inside an immense system.
+Thumbnail idea: SMALL LIT BOOTH / VAST WHITE CONCRETE DROP.
+Alien setting: mineral-grey coastal basin beneath a low unusual atmospheric band, geometry and scale dominate.
+Keep calm: ocean haze, tiny distant work lights, no action or prison narrative required.
+Geometry check: booth anchored to wall; sealed glazing and dry electrical area above spray.
+
+A3. THE OLD QUARTER LISTENING ROOM
+Frame: inside a small top-floor communications room, looking past a heavy shutter toward a dense stepped district of stone roofs, covered lanes and a weathered civic tower. One repaired radio and practical lamp; distant transport infrastructure crosses behind the neighbourhood.
+Identity: private ordinary life beneath the machinery of a larger political world; grounded masonry against distant controlled infrastructure.
+Thumbnail idea: SECRET WARM ROOM / LAYERED CITY.
+Alien setting: district follows broad mineral escarpment shelves, no Earth skyline.
+Avoid: copying Ferrix's tower or specific interiors, symbols or recognizable props.
+Geometry check: real window shutters, maintainable aerial mounting, readable bridges.
+
+ALIEN (1979 emphasis) — commercial space labour, retrofuturist hardware, isolation
+Evidence: contemporary production coverage describes a battered commercial tug with distinct working/living decks and physical sets.
+https://theasc.com/article/behind-the-scenes-of-alien/
+Our visual direction: off-white moulded panels, dense but purposeful mechanical interfaces, recessed ribbed thresholds, low ceiling services, small CRT displays and restrained fluorescent work light. The mood is before anything goes wrong, with no creature needed.
+
+B1. THE FREIGHTER'S LAST COFFEE
+Frame: empty compact crew mess seen obliquely from its doorway. Worn cream padded seating, bolted table, a single handleless beaker and plain food warmer. Through an adjoining open interior pressure hatch, a dark working bridge shows a few small green CRTs; the distant sealed forward port reveals a sliver of cold planetary limb.
+Identity: recognizably late-1970s commercial-space domesticity, working crew rather than glamorous explorers.
+Thumbnail idea: WARM EMPTY MESS / GREEN BRIDGE GLOW.
+Keep calm: warm-white ceiling practicals, deep but readable service recesses. No horror, gore or monster silhouette.
+Geometry check: hatch seals, bolted furniture, bridge scale and access.
+
+B2. LISTENING POST IN THE ASH
+Frame: inside a squat surface relay's airlock control room. Thick ribbed doorframe, cream mechanical wall panels, chunky switches and a small green CRT. A sealed side window reveals a landing pad and half-obscured communications mast in a blue-grey ash storm over immense fractured black plate terrain.
+Identity: isolated industrial frontier, heavy hardware and hostile weather; analogue interface era.
+Thumbnail idea: GREEN CONSOLE / SMALL LIT PAD LOST IN THE STORM.
+Keep calm: one amber exterior work lamp, drifting weather proposed later, no blinking emergency everywhere.
+Geometry check: closed exterior boundary, pad supported on stable rock, mast anchors and cable route.
+
+B3. THE REFINERY WATCH GALLERY
+Frame: from a narrow pressurized gallery with ordinary rails and off-white service panels, look through a huge reinforced window at an enormous external refinery structure: stacked heat-exchanger blocks, pipe runs and a few red obstruction lamps above a cold planetary night side.
+Identity: interstellar heavy industry; human comfort occupies a tiny fraction of a working machine.
+Thumbnail idea: TINY HUMAN GALLERY / IMMENSE REFINERY.
+Keep calm: one coffee shelf, quiet small CRT, no arbitrary wall clutter.
+Geometry check: distinguish exterior vacuum from interior; no buoyant chimney smoke in vacuum. Radiators do not glow without a defined reason.
+
+DUNE — Villeneuve films; monumental mass, climate, ritual and controlled light
+Evidence: Vermette explains environmental constraints driving protective architecture and recognisable construction logic.
+https://www.elledecor.com/life-culture/a38066050/dune-set-design/
+Our visual direction: enormous thick walls, deeply cut openings, sand-softened surfaces, controlled shafts of hard light, human-scale refuge inside monumental architecture. Do not reduce the influence to a sand-coloured hut.
+
+C1. THE STORM GATE VIGIL
+Frame: eye-level from a shaded service alcove inside a colossal fortress gate. One plain chair and small shaded practical lamp indicate a quiet watch. The opening is a giant tapering slice framing dunes and an advancing dust wall; floor and deep wall reveal communicate massive scale.
+Identity: austere desert power, deep protective mass and weather as an immense force.
+Thumbnail idea: DARK MONUMENTAL GATE / LUMINOUS DUST WALL.
+Originality: new gate proportions and plan, no film set reconstruction, banners or recognizable vehicles.
+Geometry check: visible lintel/support, occupied alcove sheltered from the storm, no impossible thin stone spans.
+
+C2. THE WATER VAULT UNDER THE RIDGE
+Frame: high protected gallery overlooking an immense dark underground reservoir. Massive stone piers descend into still black water, a single narrow daylight shaft reveals suspended dust and the mineral wall; a small warm caretaker recess establishes human scale.
+Identity: water as precious shared infrastructure; cavernous quiet, ritual weight and restrained technology.
+Thumbnail idea: ONE LIGHT SHAFT / BLACK RESERVOIR.
+Originality: civic maintenance reservoir rather than a copied sacred site; no costumes, emblems or franchise lore in public copy.
+Geometry check: human access and fall protection, waterline and supports, no electrical desk beside uncontained flooding.
+
+C3. THE RAINWARD KEEP
+Frame: a small warm reading/watch room cut into a dark coastal stronghold. A huge deep-set angular opening of sealed glass overlooks a violent grey ocean, sheer cliffs and a low landing terrace. Bare stone, one chair and a restrained glow from an adjoining room.
+Identity: the cold wet coastal strand of Dune, not another desert image; heavy architecture, dignified solitude and overwhelming nature.
+Thumbnail idea: WARM STONE REFUGE / STORM OCEAN.
+Originality: new coastal colony, not Caladan set replication.
+Geometry check: storm-facing glazing, supported terrace, credible runoff and no open room exposed to surf.
+
+THE EXPANSE — several distinct human futures; select a strand for each scene
+Evidence: designers discuss modern technological roots, engineering constraints and settings differentiated through materials/colour.
+https://magazine.artstation.com/2016/02/scenes-concept-art-expanse/
+https://www.inverse.com/article/27137-the-expanse-ships-design-season-2
+Our visual direction: pressure boundaries, visible structure, practical dense habitation and thrust/spin context where relevant. Belter improvised density, Martian military order and orbital construction scale should remain distinct.
+
+D1. THE ROCKSIDE NIGHT CANTEEN
+Frame: from a small late-night canteen built against exposed asteroid rock. Repaired metal tables, a shuttered food counter and warm utilitarian strips face a huge sealed dock window. An industrial freighter sits outside among scaffolded berths and blue-white service lamps, with black space beyond.
+Identity: working Belt settlement, retrofits, scarcity and mixed-generation equipment.
+Thumbnail idea: HUMBLE WARM CANTEEN / HUGE DOCKED FREIGHTER.
+Originality: independent asteroid settlement, no faction signs or copied ship silhouette.
+Geometry check: explicit gravity premise is a rotating habitat; local floor/objects share that orientation. No loose steam outside in vacuum.
+
+D2. THE RED VALLEY WATCH
+Frame: ordered compact surface operations room with charcoal panels, recessed restrained red indicators and two practical seats. A broad sealed window looks over a harsh red basin, a recessed hangar and rows of low pressurized habitats connected by enclosed routes.
+Identity: disciplined Martian engineering, consistent equipment families, useful low-profile infrastructure.
+Thumbnail idea: DARK ORDERED CABIN / RED COLONY BASIN.
+Keep calm: dusty pale sky and one distant moving-weather region proposed for later, no battles or holographic overload.
+Geometry check: sealed habitats and pressure suit access, garage width, dust-excluding seals and structure.
+
+D3. THE SHIPYARD BETWEEN SHIFTS
+Frame: inside an off-duty observation alcove of a rotating construction station, with a bolted padded bench and one understated work light. Outside the sealed window a colossal half-built spine-shaped freighter sits within a skeletal docking truss; tiny maintenance lamps provide a legible size ladder.
+Identity: practical orbital industry, visible construction sequence and human scale against engineering scale.
+Thumbnail idea: ONE EMPTY BENCH / UNFINISHED SHIP FILLING SPACE.
+Keep calm: minimal stars, no giant planet stealing the subject, no spectacle fleet.
+Geometry check: coherent habitat rotation/local gravity, external ship clearance and truss load paths.
+
+FIRST FOUR TO TEST
+A1 Salvage District: strongest Andor-like lived-in street/workshop.
+B1 Freighter's Last Coffee: strongest Alien-era domestic technology and quiet isolation.
+C1 Storm Gate Vigil: strongest large-scale Dune-like light/mass silhouette.
+D1 Rockside Night Canteen: strongest Expanse-like inhabited industrial context.
+Ranking is editorial judgment, not a measured click prediction.
+
+GENERATION AND REVIEW RULE
+Keep each chosen brief's architecture/technology/lighting/scale cues together. Full-composition thumbnail test: can the dominant place and mood be understood without reading its title? Then inspect fine construction and photographic materials. Do not compensate for weak source recognition with logos or franchise claims. Record actual user verdict. No new images generated by this planning step; previous candidates remain intact.

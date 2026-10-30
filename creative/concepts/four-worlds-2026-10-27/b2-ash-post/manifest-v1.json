@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "Listening Post in the Ash",
+  "influence": "Alien (1979)",
+  "headline": "STAY INSIDE",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "93b517bc79262089f1c8fd08c3bb63bf6fab54a28b2abc6f26b4e972adb2fe2d",
+      "bytes": 2204033,
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "7f48aae90de59d3addb0a1842ca1276944bd6d1a875509d43bafc07bc2a2358b",
+      "bytes": 2338909,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "9d52b993416c6faa0a822e964da11a50c93e7140dc2a9730e27d914f23f375d4",
+      "bytes": 350265,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "47f3c81b48951e4a2e2df59a870179b81e10e4b94b197a38c44f933a81e21553",
+      "bytes": 1154
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "cbfcb82ef7526c1aa0f098622bae2e780ecce35047d276ae196a7ff7b1372417",
+      "bytes": 1179
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Strong green-console/storm-pad contrast. Generator added a craft not requested in brief; inspect craft and pad before selection.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

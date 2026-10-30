@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-27",
+  "generator": "built-in image_gen.imagegen",
+  "mode": "new generation",
+  "prompt": "generation-v1.txt",
+  "reference_image_inputs": [],
+  "artwork": "concept-v1.png",
+  "sha256": "fa97734197c3fd2e0a072acf73575ac16e1845f3fd1e3aac4c5dedf99884436e",
+  "width": 1672,
+  "height": 941,
+  "original_generation_path": "C:\\Users\\john\\.codex\\generated_images\\01a11569-0e03-7520-8947-ce396d150bba\\exec-e25589cc-85e7-4839-945f-1b3e24295baf.png",
+  "status": "generated; assistant inspected full-composition returned still; user review pending",
+  "catalog_number": null,
+  "animation_generated": false,
+  "remote_backup_verified": false
+}

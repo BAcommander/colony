@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Shipyard Between Shifts",
+  "influence": "The Expanse",
+  "headline": "BETWEEN THE STARS",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "d59bd352b82ef7dbd61489ce63b348a39f98cc00dc49fb9e85960d71c5b0d56f",
+      "bytes": 2573945,
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "9989d131fdc53620e51cce072e1a83e7e99a4cf884aa9c4b2704cb276ac9e1cf",
+      "bytes": 2507711,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "ca4677304ec1cc5b119837811e8fad1e7cda533589d248ac15c396b93c10c578",
+      "bytes": 402231,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "af74351d077275d46cfc82f74ce5259af94cad64c78a007056f4b1c04f258edd",
+      "bytes": 1188
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "4ae6dea70e51e8e5f2cb5d93c694d1bb07bb4d1ef7f1b1a4e90699c52bdd161b",
+      "bytes": 1185
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Clear construction subject but ship silhouette resembles canteen freighter. Thumbnail adds many stars and stronger warmth.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

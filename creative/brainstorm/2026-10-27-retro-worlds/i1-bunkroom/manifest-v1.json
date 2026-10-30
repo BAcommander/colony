@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Last Curry in Deep Space",
+  "influence": "Red Dwarf",
+  "headline": "THREE MILLION YEARS LATER",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "39b2251e5c8b52074c802c3b6d9278b0b19dd8a641ba8cbff96297a83918b513",
+      "bytes": 2225887,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "e5fe9bb98aca75c80a0834767a862fc1e98b73209762ebfe0e305a2d6a1aea29",
+      "bytes": 2178780,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "bdc60443a18e70da5d12e947ad914b794a659e7d0d5864bfd659590e9a6caaea",
+      "bytes": 406565,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "6bf1820a9ad380f3fb3f8b8948d799eaca12142ba23fabd007625c07f1a0e731",
+      "bytes": 1572
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "02721bdd58e0690f7613990efdca669ab8a65876f2f5a480fabc34b2f75404fa",
+      "bytes": 1193
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Red Dwarf off-white/angular bunkroom strand rather than universal all-red room. Inspect tableware, bunk access and doorway; no character likeness or Holly face. Actual returned room has visible warm habitation cues; bunk and mug/food geometry still need detail inspection. Long headline occupies substantial upper-frame space.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

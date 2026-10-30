@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "title": "WINTER WATCH — Remote Forest Outpost | Dark Ambient Music 2026-10-30 15:38",
+  "created_at_utc": "2026-10-30T15:40:12.623710+00:00",
+  "source": {
+    "path": "C:\\Colony\\exports\\reference-analysis\\winter-watch-30min-v1\\reference-sample.m4a",
+    "sha256": "5b7d8106add09fba68600aaea12ba410c66f242b10fb88c605b23e1432dcedda",
+    "bytes": 29156117,
+    "metadata": {
+      "id": "dDYH-75RJWA",
+      "title": "WINTER WATCH — Remote Forest Outpost | Dark Ambient Music 2026-10-30 15:38",
+      "channel": "Ambient Outpost",
+      "webpage_url": "https://www.youtube.com/watch?v=dDYH-75RJWA",
+      "duration": null,
+      "is_live": true,
+      "live_status": "is_live",
+      "format_id": "234",
+      "retrieved_at_utc": "2026-10-30T15:38:14.472641+00:00",
+      "scope": "bounded live DVR excerpt; not the whole stream",
+      "requested_sample_seconds": 1800.0,
+      "approximate_start_seconds_behind_live": 1815.0,
+      "live_start_index": -363
+    }
+  },
+  "method": {
+    "resolution_seconds": 1,
+    "spectrum": "Hann-window stereo power, 8192 samples / 50% overlap, resampled 48 kHz",
+    "loudness": "FFmpeg ebur128 true peak",
+    "script_sha256": "2a616e5b225c47f5bd314924aeb63ee473afad0ab2ed49b669fea853a54a2391",
+    "numpy_version": "2.4.3",
+    "ffmpeg_version": "ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers"
+  },
+  "limitations": [
+    "Signal measurements only; no assistant listening or instrument/vocal identification.",
+    "Spectral energy percentages are not perceived loudness percentages.",
+    "RMS is an unweighted level measure; LUFS/LRA/true peak are measured separately by FFmpeg.",
+    "Recurrence suggests similar patterns, not proven loops; stationary drones can look repetitive.",
+    "Change markers identify places to audition, not confirmed musical transitions.",
+    "Analysis cannot establish why a listener enjoys a track or predict retention/CTR."
+  ],
+  "measurements": {
+    "decoded_duration_seconds": 1800.0108958333333,
+    "analysis_sample_rate": 48000,
+    "analysis_channels": 2,
+    "overall_rms_dbfs": -23.955196612606823,
+    "sample_peak_dbfs": -5.738445198901859,
+    "rms_dbfs_p5_p50_p95": [
+      -26.82974207732819,
+      -24.504762521081563,
+      -21.10778899667609
+    ],
+    "rms_p95_minus_p5_db": 5.721953080652103,
+    "band_energy_percent": {
+      "Below 80 Hz": 33.247722496480726,
+      "80–250 Hz": 35.93912553568928,
+      "250 Hz–1 kHz": 26.6979114779164,
+      "1–4 kHz": 4.089541884875497,
+      "4–12 kHz": 0.02553657423616274,
+      "12–24 kHz": 0.00016203080194357404
+    },
+    "stereo_correlation": 0.262710317909263,
+    "side_energy_percent": 36.864527177998475,
+    "recurrence_candidates": [
+      {
+        "lag_seconds": 628,
+        "feature_autocorrelation": 0.495,
+        "overlap_seconds": 1172,
+        "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+        "waveform_checks": [
+          {
+            "start_seconds": 4.0,
+            "matched_lag_seconds": 629.18012,
+            "waveform_correlation": 0.26668
+          },
+          {
+            "start_seconds": 582.005,
+            "matched_lag_seconds": 626.9745,
+            "waveform_correlation": 0.22615
+          },
+          {
+            "start_seconds": 1160.011,
+            "matched_lag_seconds": 627.034,
+            "waveform_correlation": 0.19687
+          }
+        ]
+      },
+      {
+        "lag_seconds": 620,
+        "feature_autocorrelation": 0.372,
+        "overlap_seconds": 1180,
+        "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+        "waveform_checks": [
+          {
+            "start_seconds": 4.0,
+            "matched_lag_seconds": 618.82362,
+            "waveform_correlation": 0.22724
+          },
+          {
+            "start_seconds": 586.005,
+            "matched_lag_seconds": 620.58425,
+            "waveform_correlation": 0.16717
+          },
+          {
+            "start_seconds": 1168.011,
+            "matched_lag_seconds": 619.09037,
+            "waveform_correlation": 0.17953
+          }
+        ]
+      },
+      {
+        "lag_seconds": 608,
+        "feature_autocorrelation": 0.3453,
+        "overlap_seconds": 1192,
+        "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+        "waveform_checks": [
+          {
+            "start_seconds": 4.0,
+            "matched_lag_seconds": 610.46412,
+            "waveform_correlation": 0.23487
+          },
+          {
+            "start_seconds": 592.005,
+            "matched_lag_seconds": 608.0,
+            "waveform_correlation": 0.30413
+          },
+          {
+            "start_seconds": 1180.011,
+            "matched_lag_seconds": 610.30012,
+            "waveform_correlation": 0.19665
+          }
+        ]
+      },
+      {
+        "lag_seconds": 809,
+        "feature_autocorrelation": 0.3418,
+        "overlap_seconds": 991,
+        "status": "candidate; audition required"
+      },
+      {
+        "lag_seconds": 202,
+        "feature_autocorrelation": 0.3355,
+        "overlap_seconds": 1598,
+        "status": "candidate; audition required"
+      }
+    ],
+    "audition_markers": [
+      {
+        "time_seconds": 58,
+        "change_score": 1.466
+      },
+      {
+        "time_seconds": 129,
+        "change_score": 1.491
+      },
+      {
+        "time_seconds": 465,
+        "change_score": 1.403
+      },
+      {
+        "time_seconds": 646,
+        "change_score": 1.693
+      },
+      {
+        "time_seconds": 696,
+        "change_score": 1.411
+      },
+      {
+        "time_seconds": 863,
+        "change_score": 1.435
+      },
+      {
+        "time_seconds": 1269,
+        "change_score": 1.637
+      },
+      {
+        "time_seconds": 1671,
+        "change_score": 1.536
+      }
+    ],
+    "integrated_lufs": -22.6,
+    "loudness_range_lu": 5.0,
+    "true_peak_dbtp": -5.7
+  },
+  "full_report_local_path": "C:\\Colony\\exports\\reference-analysis\\winter-watch-30min-v2\\report.html",
+  "validation": {
+    "unittest_passed": 4,
+    "actual_live_url_acquisition": true,
+    "charts_visually_inspected": true,
+    "assistant_listening_performed": false
+  },
+  "tool_files_sha256": {
+    "scripts/analyze_ambient_audio.py": "2a616e5b225c47f5bd314924aeb63ee473afad0ab2ed49b669fea853a54a2391",
+    "scripts/ambient_audio_report.html": "3470c3a6fc82e255fee1b3be9fce8d0608639d4099d5e22d23608f05c9f84f24",
+    "scripts/test_ambient_audio.py": "11729c64e4e986d2de1626ac703dd387399117cda54ea414fce783793c0e8d4f",
+    "Analyze Audio.cmd": "4eb2d08a09b3fb5f1f0afa789f57d44c43e68786756701f666edc81118dd4a1c"
+  }
+}

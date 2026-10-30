@@ -1,6 +1,12 @@
 # Ambient Colony music workflow
 
-Updated 2026-10-21. Current authority for music work; complements the visual animation workflow.
+## Reusable reference analysis — 2026-10-30
+
+First user ratings now received: [exact scores and notes](music/reference-analysis/comparison-2026-10-30/feedback-2026-10-30/README.md). WINTER WATCH, Rainline and Shoreless tie at 4/5; Basalt and both Ringfall versions 3.5/5; Spirewatch 3/5, too fast. Rain adds variety/interest according to the user, but a same-music dry/rain test is needed for causality. Spectral resemblance did not predict preference; the prior Spirewatch starting-point suggestion is superseded. EQ did not improve Ringfall's scores. These trials used existing published tracks at matched levels, not new compositions. Current [D environment-first pilot](music/reference-analysis/comparison-2026-10-30/elevenlabs/D-environment-first-after-ratings.txt) is ungenerated. Longer listening, actual generation settings and preference are still required; no paid generation, upload, commit or push.
+
+User reports listening to Ambient Outpost's WINTER WATCH for almost the whole day and requests a reusable analyser. [Tool instructions](music/reference-analysis/README.md) describe the file-picker/drag-drop launcher and local/YouTube CLI; [actual thirty-minute findings](music/reference-analysis/winter-watch-2026-10-30/README.md) preserve source scope, hashes and limits. The URL was live; thirty minutes of available DVR is not the whole broadcast or all-day listening. Low treble, bass/lower-mid weight, stereo difference and moderate level movement are measurable comparison axes, not proof of preference causes or instrument identities. The ten-minute feature recurrence had weak actual waveform matches: do not promote similarity candidates to loop claims. Four signal/CLI regression checks pass; report charts inspected, no continuous assistant listening. External source audio stays in ignored exports; compact data and original descriptive lessons belong in the repo. No paid API, model installation, upload, commit or push for this task.
+
+Updated 2026-10-30. Current authority for music work; complements the visual animation workflow.
 
 ## Current state
 
@@ -79,11 +85,19 @@ Exact files, feedback and backup scope: [session checkpoint](../music/illuminate
 - Full-file low stereo correlation does not prove a particular reverb, good mono compatibility or desirable width. Preserve a stable bass foundation and audition mono on generated work.
 - External downloaded references stay local; preserve filenames/hashes and analysis, not copyrighted MP3s in Git. Create original descriptive prompts. Use a selected user-generated test as the ElevenLabs audio reference for long-form generation.
 
+## Current V3 prompts — November 2026, researched 2026-10-30
+
+User explicitly requests ambient research and improved prompts for next month, and confirms 11 The Empty Junction, 12 Deepwell Station, 13 Below the Snowline and 14 Crater Rim Survey. [Month pack](music/november-2026/README.md), [primary-source research and limits](music/november-2026/RESEARCH.md), and per-scene V3 files are current proposals. V1/V2 and earlier generic A/B/C/D tests remain preserved; no V3 generation, listening approval or credit spend.
+
+Current direction: a consistent inhabited sound family with small slow changes of colour, density, voicing and depth. Reduce foreground phrases, piano figures, question/answer parts and narrated minute-by-minute arrivals. Preserve musical life rather than enforcing a fixed drone or perfectly static level. Keep controlled bass and softly audible upper-mid detail; reference spectral percentages are comparison data, not quotas. Avoid obvious pulses in response to this user's pace feedback, not as a universal ambient definition.
+
+For these four, start with two-minute/two-variant pilots; the first has a duration-matched V2 control to compare wording if budget allows. Extend the chosen owned dry sound toward eight minutes only if actual controls support it, changing the text if a different duration is selected. Generate environmental detail separately and test the same music dry/with SFX at matched loudness. Respect listener viewpoint and review the sustained plateau; prior source-specific rain/water gains are not defaults. Review join/three repeats and 30–60 minutes of normal work, followed by longer listening, before all-day approval. Document actual model, settings, costs, exports and user feedback. No focus/sleep/healing efficacy claims inferred from artist interviews or the small task-attention study.
+
 ## Repeatable sequence
 
 1. Read scene description and last accepted feedback.
 2. Analyse reference duration, spectrum, dynamics and recurrence; label limits.
-3. Write a scene-specific one-minute prompt following the prompt writing rules below: length and mode first, a distinct genre and production anchor, sequential positive musical description, one short generic exclusion sentence last.
+3. Write the scene-specific pilot using its current prompt version (November V3: 120 seconds); follow the current rules: length and mode first, a distinct genre and production anchor, sequential positive musical description, one short generic exclusion sentence last.
 4. User generates two short variants, chooses one, and reports what works or distracts.
 5. Revise only the unresolved characteristics. Avoid continuing to spend credits once the direction works.
 6. User selects Use as reference on their chosen test, requests about five minutes/one variant, and supplies the export.
@@ -91,7 +105,7 @@ Exact files, feedback and backup scope: [session checkpoint](../music/illuminate
 8. After a successful listening check, make the requested one-hour audio with only one opening/closing fade. Decode-check duration and peak headroom. Preserve source exports and version revisions.
 9. Record prompt, model/settings shown, filenames, checks, exact feedback, and approval scope. Keep recording status distinct from committed/pushed status.
 
-## Prompt writing rules (v2, 2026-09-29)
+## Historical prompt writing rules (v2, 2026-09-29)
 
 Established by a full review of the 04-14 v1 prompts against the official ElevenLabs Music best-practices page and the compose API reference (both checked 2026-09-29), the Ringfall v1-to-v2 prompt experience and the Basalt long prompt that produced the accepted ten-minute export. The v2 prompts are untested: no generation has compared v1 with v2. These rules are documented reasoning until a listening test confirms them.
 

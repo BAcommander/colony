@@ -1,0 +1,185 @@
+{
+  "source": "C:\\Colony\\exports\\reference-analysis\\winter-watch-30min-v1\\reference-sample.m4a",
+  "source_sha256": "5b7d8106add09fba68600aaea12ba410c66f242b10fb88c605b23e1432dcedda",
+  "duration_seconds": 1800.011,
+  "method": "Whole-excerpt stereo waveform autocorrelation at 2 kHz / 0–1 kHz, 30 seconds up to duration minus 120 seconds; at least two minutes overlap, normalized by overlapping window energies. Top lags checked at three locations using 8 kHz stereo waveforms and ±3s alignment.",
+  "limitations": "Not every band/component, time stretch or longer recurrence is tested. Weak results do not prove absence of loops. Decoder/channel correlation does not identify instruments.",
+  "candidates": [
+    {
+      "lag_seconds": 1618.0,
+      "whole_excerpt_waveform_correlation_0_1khz": 0.3182447152154153,
+      "waveform_checks": [
+        {
+          "start_seconds": 4.0,
+          "matched_lag_seconds": 1617.254,
+          "waveform_correlation": 0.28096
+        },
+        {
+          "start_seconds": 87.005,
+          "matched_lag_seconds": 1617.99987,
+          "waveform_correlation": 0.48702
+        },
+        {
+          "start_seconds": 170.011,
+          "matched_lag_seconds": 1617.93913,
+          "waveform_correlation": 0.21878
+        }
+      ],
+      "status": "sampled waveform similarity only; review listening and timing before claiming a full loop"
+    },
+    {
+      "lag_seconds": 1212.0,
+      "whole_excerpt_waveform_correlation_0_1khz": 0.17841504035087316,
+      "waveform_checks": [
+        {
+          "start_seconds": 4.0,
+          "matched_lag_seconds": 1211.14513,
+          "waveform_correlation": 0.19569
+        },
+        {
+          "start_seconds": 290.005,
+          "matched_lag_seconds": 1214.97162,
+          "waveform_correlation": 0.28172
+        },
+        {
+          "start_seconds": 576.011,
+          "matched_lag_seconds": 1211.99987,
+          "waveform_correlation": 0.38394
+        }
+      ],
+      "status": "sampled waveform similarity only; review listening and timing before claiming a full loop"
+    },
+    {
+      "lag_seconds": 1601.2665,
+      "whole_excerpt_waveform_correlation_0_1khz": 0.13534673963823207,
+      "waveform_checks": [
+        {
+          "start_seconds": 4.0,
+          "matched_lag_seconds": 1600.52025,
+          "waveform_correlation": 0.18784
+        },
+        {
+          "start_seconds": 95.372,
+          "matched_lag_seconds": 1601.26675,
+          "waveform_correlation": 0.1427
+        },
+        {
+          "start_seconds": 186.745,
+          "matched_lag_seconds": 1601.3125,
+          "waveform_correlation": 0.18957
+        }
+      ],
+      "status": "sampled waveform similarity only; review listening and timing before claiming a full loop"
+    },
+    {
+      "lag_seconds": 838.2565,
+      "whole_excerpt_waveform_correlation_0_1khz": 0.1246347198791874,
+      "waveform_checks": [
+        {
+          "start_seconds": 4.0,
+          "matched_lag_seconds": 836.77062,
+          "waveform_correlation": 0.27547
+        },
+        {
+          "start_seconds": 476.877,
+          "matched_lag_seconds": 838.51788,
+          "waveform_correlation": 0.16408
+        },
+        {
+          "start_seconds": 949.755,
+          "matched_lag_seconds": 838.25675,
+          "waveform_correlation": 0.24851
+        }
+      ],
+      "status": "sampled waveform similarity only; review listening and timing before claiming a full loop"
+    },
+    {
+      "lag_seconds": 809.0615,
+      "whole_excerpt_waveform_correlation_0_1khz": 0.12312185727814692,
+      "waveform_checks": [
+        {
+          "start_seconds": 4.0,
+          "matched_lag_seconds": 806.51975,
+          "waveform_correlation": 0.20916
+        },
+        {
+          "start_seconds": 491.475,
+          "matched_lag_seconds": 809.10537,
+          "waveform_correlation": 0.37448
+        },
+        {
+          "start_seconds": 978.949,
+          "matched_lag_seconds": 806.94125,
+          "waveform_correlation": 0.19331
+        }
+      ],
+      "status": "sampled waveform similarity only; review listening and timing before claiming a full loop"
+    },
+    {
+      "lag_seconds": 1584.5635,
+      "whole_excerpt_waveform_correlation_0_1khz": 0.11147627762999934,
+      "waveform_checks": [
+        {
+          "start_seconds": 4.0,
+          "matched_lag_seconds": 1581.758,
+          "waveform_correlation": 0.17624
+        },
+        {
+          "start_seconds": 103.724,
+          "matched_lag_seconds": 1582.71213,
+          "waveform_correlation": 0.16675
+        },
+        {
+          "start_seconds": 203.447,
+          "matched_lag_seconds": 1584.56337,
+          "waveform_correlation": 0.19711
+        }
+      ],
+      "status": "sampled waveform similarity only; review listening and timing before claiming a full loop"
+    },
+    {
+      "lag_seconds": 1200.527,
+      "whole_excerpt_waveform_correlation_0_1khz": 0.11096489224388409,
+      "waveform_checks": [
+        {
+          "start_seconds": 4.0,
+          "matched_lag_seconds": 1199.656,
+          "waveform_correlation": 0.27694
+        },
+        {
+          "start_seconds": 295.742,
+          "matched_lag_seconds": 1201.99325,
+          "waveform_correlation": 0.19515
+        },
+        {
+          "start_seconds": 587.484,
+          "matched_lag_seconds": 1201.56538,
+          "waveform_correlation": 0.15977
+        }
+      ],
+      "status": "sampled waveform similarity only; review listening and timing before claiming a full loop"
+    },
+    {
+      "lag_seconds": 794.3715,
+      "whole_excerpt_waveform_correlation_0_1khz": 0.11011877719214619,
+      "waveform_checks": [
+        {
+          "start_seconds": 4.0,
+          "matched_lag_seconds": 795.7,
+          "waveform_correlation": 0.29721
+        },
+        {
+          "start_seconds": 498.82,
+          "matched_lag_seconds": 797.34862,
+          "waveform_correlation": 0.15337
+        },
+        {
+          "start_seconds": 993.639,
+          "matched_lag_seconds": 792.28162,
+          "waveform_correlation": 0.20882
+        }
+      ],
+      "status": "sampled waveform similarity only; review listening and timing before claiming a full loop"
+    }
+  ]
+}

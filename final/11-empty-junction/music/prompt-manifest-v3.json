@@ -1,0 +1,34 @@
+{
+  "version": 3,
+  "date_prepared": "2026-10-30",
+  "title": "The Empty Junction",
+  "status": "prompts prepared, no audio generated/listened/approved",
+  "pilot_seconds": 120,
+  "long_requested_seconds": 480,
+  "sfx_status": "separate proposed source; no audio generated",
+  "source_research": "creative/music/november-2026/RESEARCH.md",
+  "listening_feedback": "creative/music/reference-analysis/comparison-2026-10-30/feedback-2026-10-30/decoded-ratings.json",
+  "assets": {
+    "elevenlabs-prompt-v3.txt": {
+      "sha256": "f81151b1666da50cfc97cbcc4f6ddbc3e5559e2eae0b55421c2f13fed8b98fcd",
+      "bytes": 998
+    },
+    "elevenlabs-long-version-v3.txt": {
+      "sha256": "e5613a3c27a5c59e9ac35571a8973a64a72130b57bb5920f218a38b14053ef53",
+      "bytes": 1108
+    },
+    "ambience-prompt-v3.txt": {
+      "sha256": "2873e13df1f1c12262da0e87350235fb5b58d45866925b0cf6f7734d5c834974",
+      "bytes": 417
+    },
+    "v2-control-120s.txt": {
+      "sha256": "b33a45006d8ccee6feebbe740daf493b64b2436e3b6da18ba9563f162f602517",
+      "bytes": 1023
+    }
+  },
+  "preserved_v2_sha256": {
+    "elevenlabs-prompt-v2.txt": "64768c47606ad3a441d73b0546ad9c7059fe254f750cb19d639114102bb2d9d1",
+    "elevenlabs-long-version-v2.txt": "d0a5b99a0c5e83517445521692bff41c3cfacdc42ab5ab76d470bb58b3eab51a"
+  },
+  "user_audio_approval": null
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-27",
+  "user_request": "commit and push all the concepts we've made here today",
+  "remote": "origin",
+  "repository": "https://github.com/BAcommander/colony",
+  "branch": "codex/concept-brainstorms-2026-10-27",
+  "verified_content_commit": "4f537d68fd4109f13791fdb950db42f56e50353e",
+  "earlier_content_commit": "1cbff98",
+  "push_exit_code": 0,
+  "remote_ls_remote_head": "4f537d68fd4109f13791fdb950db42f56e50353e",
+  "remote_head_matches_content_commit": true,
+  "scope": {
+    "scene_thumbnail_pairs": 30,
+    "influences": 10,
+    "earlier_studies": "Brineward v1/v2 and three source-first images, plus written brainstorming history",
+    "image_files_verified": 95,
+    "manifest_asset_hashes_verified_against_staged_git_blobs": 155,
+    "includes": ["clean PNG artwork", "generated thumbnail PNGs", "1280x720 JPEGs", "exact executed prompts", "source research and interpretation", "manifests and geometry concerns", "galleries and rebuild scripts", "art-direction learnings and production tracker"]
+  },
+  "storage": "Ordinary Git for these image/text assets; no new LFS rules required; every file below 100 MiB.",
+  "checks": ["image decoding", "manifest SHA-256 matching of staged Git asset bytes", "gallery target existence", "thumbnail dimensions and sub-2MB size", "staged whitespace check", "successful push and fresh remote branch advertisement"],
+  "independent_full_remote_restore": false,
+  "acceptance": "Backup authorization is separate from visual approval; no named approval of latest candidates.",
+  "shared_main_modified_by_push": false,
+  "transport_observation": "Initial streaming HTTPS push was very slow. Per-command HTTP/1.1 and 256 MiB post buffer retry succeeded. No permanent Git configuration changed; this is session evidence, not a universal fix.",
+  "receipt_scope": "This receipt verifies the content commit above; a later small documentation commit can contain the receipt itself."
+}

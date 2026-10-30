@@ -1,0 +1,242 @@
+[
+  {
+    "review_id": "A1",
+    "title": "The Salvage District After Closing",
+    "folder": "../concepts/four-worlds-2026-10-27/a1-salvage-district",
+    "source_influence": "Andor",
+    "headline": "AFTER THE SHIFT",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "A2",
+    "title": "The Hydro Station Night Shift",
+    "folder": "../concepts/four-worlds-2026-10-27/a2-hydro-night-shift",
+    "source_influence": "Andor",
+    "headline": "NIGHT SHIFT",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "A3",
+    "title": "The Old Quarter Listening Room",
+    "folder": "../concepts/four-worlds-2026-10-27/a3-old-quarter",
+    "source_influence": "Andor",
+    "headline": "KEEP THE SIGNAL",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "B1",
+    "title": "The Freighter\u2019s Last Coffee",
+    "folder": "../concepts/four-worlds-2026-10-27/b1-last-coffee",
+    "source_influence": "Alien (1979)",
+    "headline": "THE LAST COFFEE",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "B2",
+    "title": "Listening Post in the Ash",
+    "folder": "../concepts/four-worlds-2026-10-27/b2-ash-post",
+    "source_influence": "Alien (1979)",
+    "headline": "STAY INSIDE",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "B3",
+    "title": "The Refinery Watch Gallery",
+    "folder": "../concepts/four-worlds-2026-10-27/b3-refinery",
+    "source_influence": "Alien (1979)",
+    "headline": "WATCHING THE DARK",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "C1",
+    "title": "The Storm Gate Vigil",
+    "folder": "../concepts/four-worlds-2026-10-27/c1-storm-gate",
+    "source_influence": "Dune",
+    "headline": "WAIT OUT THE STORM",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "C2",
+    "title": "The Water Vault Under the Ridge",
+    "folder": "../concepts/four-worlds-2026-10-27/c2-water-vault",
+    "source_influence": "Dune",
+    "headline": "WATER IS LIFE",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "C3",
+    "title": "The Rainward Keep",
+    "folder": "../concepts/four-worlds-2026-10-27/c3-rainward",
+    "source_influence": "Dune",
+    "headline": "SHELTER FROM THE SEA",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "D1",
+    "title": "The Rockside Night Canteen",
+    "folder": "../concepts/four-worlds-2026-10-27/d1-rockside",
+    "source_influence": "The Expanse",
+    "headline": "HOME IN THE BELT",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "D2",
+    "title": "The Red Valley Watch",
+    "folder": "../concepts/four-worlds-2026-10-27/d2-red-valley",
+    "source_influence": "The Expanse",
+    "headline": "A HOME ON MARS",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "D3",
+    "title": "The Shipyard Between Shifts",
+    "folder": "../concepts/four-worlds-2026-10-27/d3-shipyard",
+    "source_influence": "The Expanse",
+    "headline": "BETWEEN THE STARS",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "E1",
+    "title": "The Gate Camp After Sunset",
+    "folder": "2026-10-27-three-worlds/e1-gate-camp",
+    "source_influence": "Stargate",
+    "headline": "THE WAY HOME",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "E2",
+    "title": "The Ocean City Night Balcony",
+    "folder": "2026-10-27-three-worlds/e2-ocean-city",
+    "source_influence": "Stargate Atlantis",
+    "headline": "A CITY FAR FROM HOME",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "E3",
+    "title": "The Ancient Transit Watch",
+    "folder": "2026-10-27-three-worlds/e3-ancient-transit",
+    "source_influence": "Stargate Universe / Ancients",
+    "headline": "BEYOND THIS DOOR",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "F1",
+    "title": "The Deck Chief's Quiet Hour",
+    "folder": "2026-10-27-three-worlds/f1-deck-chief",
+    "source_influence": "Battlestar Galactica (2004)",
+    "headline": "BETWEEN SORTIES",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "F2",
+    "title": "The Third Watch",
+    "folder": "2026-10-27-three-worlds/f2-third-watch",
+    "source_influence": "Battlestar Galactica (2004)",
+    "headline": "HOLDING THE LINE",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "F3",
+    "title": "The Fleet at Rest",
+    "folder": "2026-10-27-three-worlds/f3-fleet-mess",
+    "source_influence": "Battlestar Galactica (2004)",
+    "headline": "STILL TOGETHER",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "G1",
+    "title": "The Operator's Last Watch",
+    "folder": "2026-10-27-three-worlds/g1-operator",
+    "source_influence": "The Matrix (1999) real world",
+    "headline": "STAY CONNECTED",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "G2",
+    "title": "The Rainline Safehouse",
+    "folder": "2026-10-27-three-worlds/g2-phone-safehouse",
+    "source_influence": "The Matrix (1999) simulation",
+    "headline": "WAIT FOR THE CALL",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "G3",
+    "title": "The Dock Beneath the City",
+    "folder": "2026-10-27-three-worlds/g3-underground-dock",
+    "source_influence": "The Matrix real world / Zion",
+    "headline": "BENEATH THE MACHINE",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "H1",
+    "title": "The Time Machine at Midnight",
+    "folder": "2026-10-27-retro-worlds/h1-workshop",
+    "source_influence": "Back to the Future",
+    "headline": "BACK BEFORE DAWN",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "H2",
+    "title": "One Minute Before the Storm",
+    "folder": "2026-10-27-retro-worlds/h2-clock-square",
+    "source_influence": "Back to the Future",
+    "headline": "ONE MORE MINUTE",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "H3",
+    "title": "Tomorrow Can Wait",
+    "folder": "2026-10-27-retro-worlds/h3-future-rooftop",
+    "source_influence": "Back to the Future Part II",
+    "headline": "TOMORROW CAN WAIT",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "I1",
+    "title": "The Last Curry in Deep Space",
+    "folder": "2026-10-27-retro-worlds/i1-bunkroom",
+    "source_influence": "Red Dwarf",
+    "headline": "THREE MILLION YEARS LATER",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "I2",
+    "title": "Starbug Between Adventures",
+    "folder": "2026-10-27-retro-worlds/i2-starbug-bay",
+    "source_influence": "Red Dwarf",
+    "headline": "PARKED FOR THE NIGHT",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "I3",
+    "title": "The Long Way Through Nothing",
+    "folder": "2026-10-27-retro-worlds/i3-mining-watch",
+    "source_influence": "Red Dwarf",
+    "headline": "A LONG WAY FROM HOME",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "J1",
+    "title": "The Quiet Watch on the Bridge",
+    "folder": "2026-10-27-retro-worlds/j1-tos-bridge",
+    "source_influence": "Star Trek: The Original Series",
+    "headline": "THE FINAL FRONTIER",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "J2",
+    "title": "The Engine Room After Hours",
+    "folder": "2026-10-27-retro-worlds/j2-tos-engineering",
+    "source_influence": "Star Trek: The Original Series",
+    "headline": "A QUIET VOYAGE",
+    "status": "candidate; individual user verdict pending"
+  },
+  {
+    "review_id": "J3",
+    "title": "Shore Leave at the Survey Post",
+    "folder": "2026-10-27-retro-worlds/j3-tos-outpost",
+    "source_influence": "Star Trek: The Original Series",
+    "headline": "A STRANGE NEW WORLD",
+    "status": "candidate; individual user verdict pending"
+  }
+]

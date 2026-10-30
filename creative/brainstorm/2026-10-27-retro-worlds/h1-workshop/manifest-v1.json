@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Time Machine at Midnight",
+  "influence": "Back to the Future",
+  "headline": "BACK BEFORE DAWN",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "2f67c4dfcce4b3989ec30377918f4ec80509ff9bef87eeca871a6523fb4abc90",
+      "bytes": 2322420,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "5869e793ed537ddf16332ade1203eb44ba333ab0a55587d275c4f66887b340a3",
+      "bytes": 2330614,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "b95ee4a1cf95f6e33b3f218ab0b717463dea9714d13c0a9360b97ce4961a9054",
+      "bytes": 402831,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "8ef32f981bb362f2ac11ae821561e3cdbb962a20e0f77781c72178bacf4b6cb7",
+      "bytes": 1503
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "92a1ffb48b845b00bb7e81e379cf5b0a7536dcc3a2657f1a49445cc476dd593c",
+      "bytes": 1184
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Inspect DMC-12 proportions, gullwing hinge, wheel count and rear equipment; the user explicitly requested the recognizable car. No motion or actual time-travel engineering claim. Actual output has a prominent raised driver-side door and a large close-up car; fine rear machinery and time-circuit layout are illustrative, not exact replicas.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

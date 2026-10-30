@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "One Minute Before the Storm",
+  "influence": "Back to the Future",
+  "headline": "ONE MORE MINUTE",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "4f29d33df68031224978fd63098b9da56267b633c326309ef1f0633a29b1a631",
+      "bytes": 2680456,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "1c2bd975e3f0bbde83955a6c04e5d1a7956f5016e76cff7a7627c4412b919783",
+      "bytes": 2506530,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "fa4d2c5121883d0e60f55e44255897e4d873146808298e3bfbe628ca51dcdf5d",
+      "bytes": 489756,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "60e1d25fe3b14ab38c9a73a15c98824dd2e05644456976ee08915e28e9c33280",
+      "bytes": 1551
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "09e79e380bb591e8e80f6fb462f18a74285abd0ca0974ed253d3dd0033c1ee4b",
+      "bytes": 1183
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Check car grille, wheel/door geometry, clocktower cable anchors and perspective; town is intentionally terrestrial period setting. Actual output includes a DMC grille badge despite no-logo instruction and a roof reactor appliance associated with another car configuration. Period/config continuity needs review; car and clock are clearly readable.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-30",
+  "four_scene_lineup_matches_user": true,
+  "prompt_and_control_hashes_checked": 13,
+  "current_package_music_hashes_checked": true,
+  "v1_v2_prompts_changed": false,
+  "v2_control_only_changes_requested_duration": true,
+  "local_markdown_links_checked": 17,
+  "audio_generated": false,
+  "paid_generation_performed": false,
+  "release_dates_assigned": false,
+  "user_audio_approval": null,
+  "limitations": "Text/metadata validation and source reading only; no generation or listening validation of V3."
+}

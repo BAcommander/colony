@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Gate Camp After Sunset",
+  "influence": "Stargate",
+  "headline": "THE WAY HOME",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "384fefe650ce8420b166a6fc55cc9f50bd878ec8379b514def985c8313cd9f08",
+      "bytes": 2551695,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "aaeffe7e0d48a4c059344ef4ee5a732d6a7980b791a91d9e3099c4b0a9b064a3",
+      "bytes": 2489729,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "f72e0dfe7a5dfb8bdf908b47ab6e277bf1ab6dba66425a079dca7f8fef11adf5",
+      "bytes": 443808,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "259fc9aeaa889491b75e26affce503a09bed3ff47d874f3a5b91a1b54bd7bde4",
+      "bytes": 1573
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "fc10b18fd8659eda104b7617dc7e710242f3c5b845b8db2b4d436c91827ab846",
+      "bytes": 1180
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Check gate base/access and laptop/props. The recognisable transit-ring design is deliberate; no claim of official affiliation. Blue portal behaviour is fictional. Actual output adds two celestial bodies and handled cup; thumbnail cup appears to have ambiguous/two-sided handle geometry. Fix before production.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

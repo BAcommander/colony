@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Long Way Through Nothing",
+  "influence": "Red Dwarf",
+  "headline": "A LONG WAY FROM HOME",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "b8a14fc66761a2820dd641c77524b559b62546cca1ce028afdc04332f89245c0",
+      "bytes": 2147507,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "9ce1dd71902b1ade96c7d9ae4a003743f33154c3649144e9a084eda009fb3494",
+      "bytes": 2131362,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "ff8b571f28376709980f39bc942176d3ce4ac307a7817fcc2b86edeb8347c111",
+      "bytes": 328741,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "fc4f4dbd06bc911458c21e40846ea89c271462c1c7886e5157caa10a464981bc",
+      "bytes": 1508
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "4f5566c4b4a10b9db3cd7601ac9dd5f5cfd5f8a2d7ef28047ad37086e9ecdfc4",
+      "bytes": 1188
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Observation point is a companion craft so whole mining ship can be visible; inspect ram scoop/red silhouette and window boundary. No physical gravity validation. Red vessel reads as an elongated boxlike industrial freighter; exact classic Red Dwarf ram-scoop/silhouette fidelity is not established. Thumbnail increases stars and warmth.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

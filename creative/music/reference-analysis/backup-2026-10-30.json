@@ -1,0 +1,473 @@
+{
+  "verified_at_utc": "2026-10-30T16:32:59.214109+00:00",
+  "user_request": "commit and push etc etc",
+  "branch": "codex/concept-brainstorms-2026-10-27",
+  "content_commit": "25441ea943cc840a3d59b2ef8851136f4a0ef211",
+  "remote_advertisement": "25441ea943cc840a3d59b2ef8851136f4a0ef211\trefs/heads/codex/concept-brainstorms-2026-10-27",
+  "push_completed": true,
+  "scope": "Analyser/launcher/report templates, comparison/repetition/trial/archive tools and regression checks; exact exported ratings plus decoded feedback; compact and six full chart/timeline reports; ambient/ElevenLabs research and source records; November11-14 V3 pilot/long/SFX prompts and preserved history; updated knowledge, production tracker and byte-preservation rules.",
+  "excluded_local_material": "Downloaded third-party and own published audio, listening clips and prepared FLACs, failed/intermediate captures, logs/caches, local Python environment and other exports. These are not remotely backed up by this Git push.",
+  "verification": {
+    "regression_checks_passed": 4,
+    "staged_manifest_prompt_and_ratings_hash_matches": 63,
+    "current_tool_fingerprints_checked": true,
+    "archived_reports": 6,
+    "new_recordings_committed": 0,
+    "staged_diff_check_passed": true,
+    "remote_head_matches_content_commit": true,
+    "independent_remote_restore_performed": false
+  },
+  "generation_or_artistic_approval": "No new V3 audio generated or approved. Backup authorization is separate from listening acceptance.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 12310,
+      "sha256": "efa6b2b36ee1b6b43a9ebf762e676785c5e21e9089a486248f4715954f2d38cd"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 66784,
+      "sha256": "d595e9e733b9323677006ab3e902ea1d951974d01c1b2a8f0919397785477a65"
+    },
+    {
+      "path": "Analyze Audio.cmd",
+      "bytes": 287,
+      "sha256": "4eb2d08a09b3fb5f1f0afa789f57d44c43e68786756701f666edc81118dd4a1c"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "bytes": 32527,
+      "sha256": "8af606bf6785cdce6c6175ad1c93cfab24ee9e895eed02cc1a36df52e200fa8a"
+    },
+    {
+      "path": "creative/MUSIC_WORKFLOW.md",
+      "bytes": 28011,
+      "sha256": "421fd511d2ed3c5eff6c594296b59934cff485461f34c2ecd9b160ddacaa8e11"
+    },
+    {
+      "path": "creative/music/november-2026/README.md",
+      "bytes": 4538,
+      "sha256": "840b0bc64dd47a56b5f5dc6904adb24155e227cf98307cc296bc9a8053cccead"
+    },
+    {
+      "path": "creative/music/november-2026/RESEARCH.md",
+      "bytes": 9223,
+      "sha256": "e7142dd5fba2828ea5d0318c14bd5e6b34b1482c2b106c0adfe8a9365a2fff72"
+    },
+    {
+      "path": "creative/music/november-2026/month-plan.json",
+      "bytes": 2646,
+      "sha256": "6e27401dfa45b3075bdd1bebd6f6a9afb214c7274925bcdccb93be9955aebc55"
+    },
+    {
+      "path": "creative/music/november-2026/prompt-framework-v3.txt",
+      "bytes": 1666,
+      "sha256": "6ed88731c527053870ea0427ecb0166627ae747a5140b7060041f104e12b218b"
+    },
+    {
+      "path": "creative/music/november-2026/sources.json",
+      "bytes": 3875,
+      "sha256": "df950f4de1746ca82b9f99b04e4906c61da0bed61d464faae3ed169f4d901441"
+    },
+    {
+      "path": "creative/music/november-2026/validation.json",
+      "bytes": 533,
+      "sha256": "16fc6872a533153269b01e7d511a71b9dc9136a3e817090b2fd5fdf50f7fc18a"
+    },
+    {
+      "path": "creative/music/reference-analysis/README.md",
+      "bytes": 4445,
+      "sha256": "aaef87679547bc41ea023a19fa810b10e67914d799f7b96d2ed87163285698c1"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/README.md",
+      "bytes": 9140,
+      "sha256": "96fecd6e2fddb9a4d233dbe378298e4e0b1252337f73b09e153e33706399b010"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/channel-inventory.json",
+      "bytes": 2452,
+      "sha256": "0e5ec29457468af3b8ac70c201391aa6b4fc1166887e8cc72d60df088c6e89ec"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/comparison.html",
+      "bytes": 3337,
+      "sha256": "e59adb01a2fcebd42e049b7c0eb0c041595c855e811cc8f7ee5f0b759d531d83"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/comparison.json",
+      "bytes": 27830,
+      "sha256": "0aa559786940499c2b4088358928b7b430a3ee1ef67e0040d68740f154297999"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/elevenlabs/A-palette-control-rep1-api.json",
+      "bytes": 1179,
+      "sha256": "28dd4bfd2e54152461e017775b6c85d0b54c071f2930795af92f7b5c34d7b0b3"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/elevenlabs/A-palette-control-rep2-api.json",
+      "bytes": 1179,
+      "sha256": "05b791d4135d334a243f6196c8478a1c8043f5c4c1bdca02946dd836d6f17376"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/elevenlabs/A-palette-control.txt",
+      "bytes": 912,
+      "sha256": "f03c370f9f734ae76a329c138d7133baacbef9be3ca82941a0094993878a4f40"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/elevenlabs/B-spatial-independence-rep1-api.json",
+      "bytes": 1396,
+      "sha256": "fecfe7d0dd4a0e88bfb3a38b41538b0d207a1f9bfde6879c492556147d59e99a"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/elevenlabs/B-spatial-independence-rep2-api.json",
+      "bytes": 1396,
+      "sha256": "8de430d37b1ca01b8c59f818331223f3d1db81ff3031cde77f0987f98fa9a1cc"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/elevenlabs/B-spatial-independence.txt",
+      "bytes": 1117,
+      "sha256": "3e43321d0d792a65593b7dca4ffb773db22e20c213394c1c980e317fb1c07e88"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/elevenlabs/C-slow-dynamic-movement-rep1-api.json",
+      "bytes": 1402,
+      "sha256": "2f029c12d72936e1dde084a274b38aa2fadabff03e8236def67f794e7b679963"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/elevenlabs/C-slow-dynamic-movement-rep2-api.json",
+      "bytes": 1402,
+      "sha256": "63540013bb7f44f90fadc7eaf5e060483fe70381fa12963112cde2e88d6c3f3c"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/elevenlabs/C-slow-dynamic-movement.txt",
+      "bytes": 1123,
+      "sha256": "a8f28b44c1b09a1809e7e5c0133de87efbf68f85e9c15c6c447d24a198eb1bb4"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/elevenlabs/D-environment-first-after-ratings.txt",
+      "bytes": 1110,
+      "sha256": "dffd7f15aedb42003d31784db4557f573e8583e96b68ad60e20902ce6ced94ad"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/elevenlabs/README.md",
+      "bytes": 7884,
+      "sha256": "8b7750fa5c83b6b8e7689083b391fad0698bc0ac0245b11a904c588a26819aa5"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/elevenlabs/long-form-8min-plan-api.json",
+      "bytes": 4716,
+      "sha256": "de84b27e3c19fe0ac6f0a6b328a77735f304088782c604255d7246c4dd2e9280"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/elevenlabs/test-matrix.json",
+      "bytes": 3047,
+      "sha256": "995c531fff21831b99f724f95a526aeda6c82a16b998700f2d84e80ed4562fd0"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/feedback-2026-10-30/README.md",
+      "bytes": 3879,
+      "sha256": "92fffa3035bc8ea58a497d7fe740e46a30cfd1bc1509cdcb3a99bdd50b66fb5f"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/feedback-2026-10-30/ambient-listening-ratings-original.json",
+      "bytes": 980,
+      "sha256": "c759d862589d6fffc9ade739a96faa9aca1b1d2ed749daac4b04f1c75157081d"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/feedback-2026-10-30/decoded-ratings.json",
+      "bytes": 2917,
+      "sha256": "567961163e9d43291cebbe8e32dc7bb7223682c9eead65896daf49bb744e2263"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/reference-deeper-recurrence.json",
+      "bytes": 6377,
+      "sha256": "4bb1cec67c597e0693e158ca0b9c2d6951d6fde86a52f59f62ee5b52eaa6fe06"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/reports/basalt/analysis.json",
+      "bytes": 885604,
+      "sha256": "b544b735dab7116e7e9131caa12c25266b8805d93ec59c7211e0ad8929609990"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/reports/basalt/report.html",
+      "bytes": 612520,
+      "sha256": "acd5ec06e2872545f2104352586edff38416fe4a0b61910bedfaca323d4f73f4"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/reports/rainline/analysis.json",
+      "bytes": 882915,
+      "sha256": "e66575df55365cf8237ec5c10025f21fc9dc924e8ed7f1fbfd245f2d38abf204"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/reports/rainline/report.html",
+      "bytes": 609833,
+      "sha256": "8f67e0f612587de87847fa88581087b9cf3fc9e85a6308410f9ba0ed1017e368"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/reports/reference/analysis.json",
+      "bytes": 879267,
+      "sha256": "34a61a58bf2cdf73bf1d92c2a8c910cd4c0c295c1b1f609a13735707a71efa0e"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/reports/reference/report.html",
+      "bytes": 606182,
+      "sha256": "c1ec439384cfaf9cfc20c02762de28d99e7424304fd43fd31135b38bd525221b"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/reports/ringfall/analysis.json",
+      "bytes": 882340,
+      "sha256": "96e55fe0d20cab2620c6f7cf8e0ab6ef957067b4e3d72ccee23c0beb656a903f"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/reports/ringfall/report.html",
+      "bytes": 609258,
+      "sha256": "1bba9e07b8da9891d45ae39a6378580d071bfd07903508eb23e9076a33283f42"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/reports/shoreless/analysis.json",
+      "bytes": 887337,
+      "sha256": "7a49a0daaa3de9d274914905e363ef0d70aecc8c2bfa2f0c1197ddc61ebd1213"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/reports/shoreless/report.html",
+      "bytes": 614256,
+      "sha256": "4f1a40103541d8b49260d7a0cca8e1f9889c09d85d357d3cfd755c0599f19d0e"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/reports/spirewatch/analysis.json",
+      "bytes": 879986,
+      "sha256": "6307b3c66c8d954f140eb6a3b488ffe8800961fd5858a92aefef1e2f5278056c"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/reports/spirewatch/report.html",
+      "bytes": 606906,
+      "sha256": "0109ad694ab02aa8356a5b97dda050d7684fb031dfc270d66305e6e518c7aa65"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/ringfall-deeper-positive-control.json",
+      "bytes": 6299,
+      "sha256": "31cd4a11951b0ccfe8284830b0374f3a5cbea224195aae0fa426babb096e793c"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/trial-validation.json",
+      "bytes": 3879,
+      "sha256": "145aff377bdd470a8fda2425fda02722600601421720bb2fa5f379f23fc08716"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/validation.json",
+      "bytes": 1977,
+      "sha256": "7b7eea41d7f6370c34e91a4e1f9acb9ae80c688e45424adaff69e8e408d76a9a"
+    },
+    {
+      "path": "creative/music/reference-analysis/winter-watch-2026-10-30/README.md",
+      "bytes": 3881,
+      "sha256": "964b6f095307ed9b5f1958afbff02742aa3c8dc5b5695dd55d09c86ac5f75195"
+    },
+    {
+      "path": "creative/music/reference-analysis/winter-watch-2026-10-30/measurements.json",
+      "bytes": 6750,
+      "sha256": "84466ebf22feb64d0340ac6d936355546512223c1139734bc3c6ada8c67e4f87"
+    },
+    {
+      "path": "final/11-empty-junction/manifest.json",
+      "bytes": 8862,
+      "sha256": "7af664e5722830f32abc3fab5e1ab0aa1314c02db2615afb6abbec73e843a2d4"
+    },
+    {
+      "path": "final/11-empty-junction/music/README.md",
+      "bytes": 3555,
+      "sha256": "77dc9f62e7ff8c253cba850f22224bc235aeb09bdce9fb0c7199fe7d11fedc4b"
+    },
+    {
+      "path": "final/11-empty-junction/music/ambience-prompt-v3.txt",
+      "bytes": 417,
+      "sha256": "2873e13df1f1c12262da0e87350235fb5b58d45866925b0cf6f7734d5c834974"
+    },
+    {
+      "path": "final/11-empty-junction/music/elevenlabs-long-version-v3.txt",
+      "bytes": 1108,
+      "sha256": "e5613a3c27a5c59e9ac35571a8973a64a72130b57bb5920f218a38b14053ef53"
+    },
+    {
+      "path": "final/11-empty-junction/music/elevenlabs-prompt-v3.txt",
+      "bytes": 998,
+      "sha256": "f81151b1666da50cfc97cbcc4f6ddbc3e5559e2eae0b55421c2f13fed8b98fcd"
+    },
+    {
+      "path": "final/11-empty-junction/music/generation-record.json",
+      "bytes": 603,
+      "sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c"
+    },
+    {
+      "path": "final/11-empty-junction/music/music-preparation-before-v3.json",
+      "bytes": 1091,
+      "sha256": "c74825c415a8d01cba1198f03f9b1011bd956f89fbf6f68c181766061bfd9ce8"
+    },
+    {
+      "path": "final/11-empty-junction/music/prompt-manifest-v3.json",
+      "bytes": 1328,
+      "sha256": "1d846c5d8b2839fcd09efb0b8312e449c31647c3c87f3477dd1b31a6125d4bcc"
+    },
+    {
+      "path": "final/11-empty-junction/music/v2-control-120s.txt",
+      "bytes": 1023,
+      "sha256": "b33a45006d8ccee6feebbe740daf493b64b2436e3b6da18ba9563f162f602517"
+    },
+    {
+      "path": "final/12-deepwell-station/manifest.json",
+      "bytes": 7342,
+      "sha256": "141e331516b12863f58eb93823305a67a0ed29943c78a4931dfeff5d30d689b1"
+    },
+    {
+      "path": "final/12-deepwell-station/music/README.md",
+      "bytes": 3548,
+      "sha256": "f929cbb298fca2cd049c1321ec0ac7a7a8279c1628ab49575895cbf21eaeedf6"
+    },
+    {
+      "path": "final/12-deepwell-station/music/ambience-prompt-v3.txt",
+      "bytes": 392,
+      "sha256": "bfaabaec1e310c817de48b5e0eef044e1ef95d23742ce0b91be9bed4cb03e7a7"
+    },
+    {
+      "path": "final/12-deepwell-station/music/elevenlabs-long-version-v3.txt",
+      "bytes": 1135,
+      "sha256": "cbbd590a91da3f40d31056f1a2341097647f97deb75a6195f835fb496f3e73e1"
+    },
+    {
+      "path": "final/12-deepwell-station/music/elevenlabs-prompt-v3.txt",
+      "bytes": 1002,
+      "sha256": "261ef604503852e50792229950efe63dc6c7ada9c1b0a3cca20611262e710528"
+    },
+    {
+      "path": "final/12-deepwell-station/music/generation-record.json",
+      "bytes": 603,
+      "sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c"
+    },
+    {
+      "path": "final/12-deepwell-station/music/music-preparation-before-v3.json",
+      "bytes": 1099,
+      "sha256": "00b8ea972bf23aa570c2901921bb0d9138181db94766c2973559eb4bfdd537e3"
+    },
+    {
+      "path": "final/12-deepwell-station/music/prompt-manifest-v3.json",
+      "bytes": 1187,
+      "sha256": "1d1bae4d8320122eeccabbf9ae701a0d87e392b18c35e250f3cbea57652a1e39"
+    },
+    {
+      "path": "final/13-below-the-snowline/manifest.json",
+      "bytes": 7376,
+      "sha256": "1ccd45716dee1a8975ce1771f70dadbc08bb61e0a11a8869aa0c38e20a1e7358"
+    },
+    {
+      "path": "final/13-below-the-snowline/music/README.md",
+      "bytes": 3523,
+      "sha256": "3e14a3d0f097ebc70969340d5625d3eb9a832c69e1eb91e8c55f694b43e07060"
+    },
+    {
+      "path": "final/13-below-the-snowline/music/ambience-prompt-v3.txt",
+      "bytes": 378,
+      "sha256": "fe6d4838db852f411f0a1d3e233f97941abec404e015ebe132cdc254e82d0b83"
+    },
+    {
+      "path": "final/13-below-the-snowline/music/elevenlabs-long-version-v3.txt",
+      "bytes": 1128,
+      "sha256": "fc21a0fbeb0a7128aca2b9f962bf69665dc462365d2c09fd590adbe03c4bbf56"
+    },
+    {
+      "path": "final/13-below-the-snowline/music/elevenlabs-prompt-v3.txt",
+      "bytes": 1013,
+      "sha256": "d127beb9289b816482abfa3ef1dd5208c56783b75f49f991ecde486c0e761de6"
+    },
+    {
+      "path": "final/13-below-the-snowline/music/generation-record.json",
+      "bytes": 603,
+      "sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c"
+    },
+    {
+      "path": "final/13-below-the-snowline/music/music-preparation-before-v3.json",
+      "bytes": 1107,
+      "sha256": "fce3bd4704857411c43b7edd1f798a62931790fce642a00b99dcfddd960f2d09"
+    },
+    {
+      "path": "final/13-below-the-snowline/music/prompt-manifest-v3.json",
+      "bytes": 1189,
+      "sha256": "fe2bd11df7259a6bafd496247d7f92673fae4a23b4b6816dd29a8c18bb72ad5d"
+    },
+    {
+      "path": "final/14-crater-rim-survey/manifest.json",
+      "bytes": 7372,
+      "sha256": "71ebe9294e3087995952a01abff6704abacce97d91f1f669b0f97ed3e6282472"
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/README.md",
+      "bytes": 3531,
+      "sha256": "25f855e22c2d3d4721d64eac4abc7e365ef32126446662c34b71e9b29466d3db"
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/ambience-prompt-v3.txt",
+      "bytes": 385,
+      "sha256": "aa376c911ef58d9e17126ec3b9b8092304e90675327fa1401413c643d9d362cb"
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-long-version-v3.txt",
+      "bytes": 1119,
+      "sha256": "96cb67f58cd4fd9c7183371b3059ff4daeb207ebb82d3276e51fa5ce97294da4"
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-prompt-v3.txt",
+      "bytes": 1039,
+      "sha256": "3aed145203e044ca2f5f9218a0862809620d3c336cb7682159c005e7459a1557"
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/generation-record.json",
+      "bytes": 603,
+      "sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c"
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/music-preparation-before-v3.json",
+      "bytes": 1103,
+      "sha256": "592aca9243e5820315ff081ac986251fe3a23bf69046c57e6605bd9ce6ba4f30"
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/prompt-manifest-v3.json",
+      "bytes": 1188,
+      "sha256": "7ae04507167769cc191e911aafd6e05de1c4cf4de680ed637eaa943e4eb6df21"
+    },
+    {
+      "path": "scripts/ambient_audio_report.html",
+      "bytes": 9339,
+      "sha256": "3470c3a6fc82e255fee1b3be9fce8d0608639d4099d5e22d23608f05c9f84f24"
+    },
+    {
+      "path": "scripts/analyze_ambient_audio.py",
+      "bytes": 19196,
+      "sha256": "2a616e5b225c47f5bd314924aeb63ee473afad0ab2ed49b669fea853a54a2391"
+    },
+    {
+      "path": "scripts/archive_ambient_reports.py",
+      "bytes": 1726,
+      "sha256": "f39e55fe3d7e4347142d5ac6cde26d0f53dce541afab31b932243e1eca04d43b"
+    },
+    {
+      "path": "scripts/compare_ambient_audio.py",
+      "bytes": 8590,
+      "sha256": "5f971da4adcf5349b0037894bc3237c959d9d335fef21816ffe16fe208c3c790"
+    },
+    {
+      "path": "scripts/investigate_ambient_repetition.py",
+      "bytes": 2670,
+      "sha256": "b19a861d53905d1281bb9cbd267e391a605a7f46348bb4f9910aace21ccf1afc"
+    },
+    {
+      "path": "scripts/prepare_ambient_trials.py",
+      "bytes": 6814,
+      "sha256": "87ba125d2fae756b41e73f7fb3e25c8b032301f61c09ca192b46030f8d7ded73"
+    },
+    {
+      "path": "scripts/test_ambient_audio.py",
+      "bytes": 4784,
+      "sha256": "11729c64e4e986d2de1626ac703dd387399117cda54ea414fce783793c0e8d4f"
+    }
+  ]
+}

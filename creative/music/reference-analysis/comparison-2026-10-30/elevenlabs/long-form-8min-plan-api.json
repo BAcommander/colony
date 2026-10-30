@@ -1,0 +1,129 @@
+{
+  "model_id": "music_v2_5",
+  "seed": 301028,
+  "store_for_inpainting": true,
+  "composition_plan": {
+    "chunks": [
+      {
+        "text": "[Ambient continuity 1]\n{instrumental}",
+        "duration_ms": 120000,
+        "positive_styles": [
+          "instrumental dark science-fiction synth ambient",
+          "beatless and free-time",
+          "rounded low bass supporting a warm low-mid bed",
+          "soft sustained harmonic voices with audible upper-mid detail",
+          "smooth subdued top end and soft attacks",
+          "overlapping voices with breathing space",
+          "occasional small receding fragments without a foreground tune",
+          "gentle unequal swells and gradual voicing changes",
+          "established continuous night atmosphere, quiet comfort",
+          "suspended ending, no dramatic arc",
+          "Establish the chosen palette without a fade-in or build."
+        ],
+        "negative_styles": [
+          "vocals",
+          "lyrics",
+          "drums",
+          "rhythmic arpeggios",
+          "percussion",
+          "foreground sound effects",
+          "bright bells",
+          "impacts",
+          "risers",
+          "climax"
+        ],
+        "context_adherence": "high"
+      },
+      {
+        "text": "[Ambient continuity 2]\n{instrumental}",
+        "duration_ms": 120000,
+        "positive_styles": [
+          "instrumental dark science-fiction synth ambient",
+          "beatless and free-time",
+          "rounded low bass supporting a warm low-mid bed",
+          "soft sustained harmonic voices with audible upper-mid detail",
+          "smooth subdued top end and soft attacks",
+          "overlapping voices with breathing space",
+          "occasional small receding fragments without a foreground tune",
+          "gentle unequal swells and gradual voicing changes",
+          "established continuous night atmosphere, quiet comfort",
+          "suspended ending, no dramatic arc",
+          "Keep the same sound family; let one background voice recede while another changes voicing slowly."
+        ],
+        "negative_styles": [
+          "vocals",
+          "lyrics",
+          "drums",
+          "rhythmic arpeggios",
+          "percussion",
+          "foreground sound effects",
+          "bright bells",
+          "impacts",
+          "risers",
+          "climax"
+        ],
+        "context_adherence": "high"
+      },
+      {
+        "text": "[Ambient continuity 3]\n{instrumental}",
+        "duration_ms": 120000,
+        "positive_styles": [
+          "instrumental dark science-fiction synth ambient",
+          "beatless and free-time",
+          "rounded low bass supporting a warm low-mid bed",
+          "soft sustained harmonic voices with audible upper-mid detail",
+          "smooth subdued top end and soft attacks",
+          "overlapping voices with breathing space",
+          "occasional small receding fragments without a foreground tune",
+          "gentle unequal swells and gradual voicing changes",
+          "established continuous night atmosphere, quiet comfort",
+          "suspended ending, no dramatic arc",
+          "Preserve continuity; thin one layer briefly without silence or an obvious breakdown."
+        ],
+        "negative_styles": [
+          "vocals",
+          "lyrics",
+          "drums",
+          "rhythmic arpeggios",
+          "percussion",
+          "foreground sound effects",
+          "bright bells",
+          "impacts",
+          "risers",
+          "climax"
+        ],
+        "context_adherence": "high"
+      },
+      {
+        "text": "[Ambient continuity 4]\n{instrumental}",
+        "duration_ms": 120000,
+        "positive_styles": [
+          "instrumental dark science-fiction synth ambient",
+          "beatless and free-time",
+          "rounded low bass supporting a warm low-mid bed",
+          "soft sustained harmonic voices with audible upper-mid detail",
+          "smooth subdued top end and soft attacks",
+          "overlapping voices with breathing space",
+          "occasional small receding fragments without a foreground tune",
+          "gentle unequal swells and gradual voicing changes",
+          "established continuous night atmosphere, quiet comfort",
+          "suspended ending, no dramatic arc",
+          "Return to the same density gently; remain suspended and moving, with no cadence or fade-out."
+        ],
+        "negative_styles": [
+          "vocals",
+          "lyrics",
+          "drums",
+          "rhythmic arpeggios",
+          "percussion",
+          "foreground sound effects",
+          "bright bells",
+          "impacts",
+          "risers",
+          "climax"
+        ],
+        "context_adherence": "high"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "status": "prompts prepared; no audio generated",
+  "files": [
+    {
+      "path": "final/11-empty-junction/music/elevenlabs-long-version.txt",
+      "sha256": "a491c2a30e4f8d6df6f5984a551291146a9c779e4d51d5fd424c39aa9986ef11",
+      "bytes": 2150
+    },
+    {
+      "path": "final/11-empty-junction/music/elevenlabs-prompt-v1.txt",
+      "sha256": "420b87cedc3eab191321036ede938edfd9bb586afdcf71d0de35495cdac94993",
+      "bytes": 1821
+    },
+    {
+      "path": "final/11-empty-junction/music/generation-record.json",
+      "sha256": "a933eb3efc92b43f9f72390e0a6b3369a878891603ec60fda6f2144e6b3152f6",
+      "bytes": 346
+    },
+    {
+      "path": "final/11-empty-junction/music/README.md",
+      "sha256": "8e095064ca91932c1bf55b94a245c301ac4e21c5f8cf45823cbffd03292a28b0",
+      "bytes": 2047
+    }
+  ],
+  "planned_test": "approximately 60 seconds, two variants; user manual generation if supported",
+  "planned_long_piece": "approximately five minutes using chosen own test as reference if supported",
+  "credits_spent_by_assistant": 0,
+  "workflow": "creative/MUSIC_WORKFLOW.md"
+}

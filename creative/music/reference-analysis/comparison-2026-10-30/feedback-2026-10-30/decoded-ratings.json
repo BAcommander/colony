@@ -1,0 +1,87 @@
+{
+  "rated_at": "2026-10-30T16:13:23.139Z",
+  "source_sha256": "c759d862589d6fffc9ade739a96faa9aca1b1d2ed749daac4b04f1c75157081d",
+  "source_original_preserved": true,
+  "user_statement": "ok i filled in the ratings, i think these are decent, maybe better than what we composed in terms of 'raw ambience'",
+  "scope": "Single personal first pass on seven level-matched three-minute excerpts; identical comfort/keep-playing scores. Distraction fields blank, not zero. No long-session approval or causal significance inferred.",
+  "ratings": [
+    {
+      "trial": "A",
+      "id": "reference",
+      "name": "WINTER WATCH",
+      "treatment": null,
+      "comfort": 4.0,
+      "keep_playing": 4.0,
+      "distraction": null,
+      "notes": ""
+    },
+    {
+      "trial": "B",
+      "id": "basalt",
+      "name": "Basalt",
+      "treatment": null,
+      "comfort": 3.5,
+      "keep_playing": 3.5,
+      "distraction": null,
+      "notes": ""
+    },
+    {
+      "trial": "C",
+      "id": "spirewatch",
+      "name": "Spirewatch",
+      "treatment": null,
+      "comfort": 3.0,
+      "keep_playing": 3.0,
+      "distraction": null,
+      "notes": "too fast really to be ambient"
+    },
+    {
+      "trial": "D",
+      "id": "ringfall",
+      "name": "Ringfall",
+      "treatment": null,
+      "comfort": 3.5,
+      "keep_playing": 3.5,
+      "distraction": null,
+      "notes": ""
+    },
+    {
+      "trial": "E",
+      "id": "rainline",
+      "name": "Rainline",
+      "treatment": null,
+      "comfort": 4.0,
+      "keep_playing": 4.0,
+      "distraction": null,
+      "notes": "the rain adds something here i think, maybe just variety / interest"
+    },
+    {
+      "trial": "F",
+      "id": "ringfall_eq",
+      "name": "Ringfall Â· diagnostic sub-bass shelf",
+      "treatment": "bass=g=-6.8093:f=80:t=q:w=0.707",
+      "comfort": 3.5,
+      "keep_playing": 3.5,
+      "distraction": null,
+      "notes": ""
+    },
+    {
+      "trial": "G",
+      "id": "shoreless",
+      "name": "Shoreless",
+      "treatment": null,
+      "comfort": 4.0,
+      "keep_playing": 4.0,
+      "distraction": null,
+      "notes": ""
+    }
+  ],
+  "findings": [
+    "WINTER WATCH, Rainline and Shoreless tie at 4/5 for both rated dimensions.",
+    "Basalt, original Ringfall and EQ-treated Ringfall tie at 3.5/5. No preference improvement demonstrated by this EQ treatment.",
+    "Spirewatch 3/5, with user note too fast really to be ambient. Perceived pace, not a measured BPM.",
+    "User says rain adds variety/interest on Rainline. Contribution remains confounded with different music until the same dry source is compared with/without rain.",
+    "Spirewatch spectral similarity did not predict preference. Prior starting-point recommendation is superseded by these listening results.",
+    "These are existing published recordings at matched levels, with only Ringfall EQ as a new treatment; no new ElevenLabs compositions."
+  ]
+}

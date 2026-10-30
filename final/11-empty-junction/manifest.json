@@ -87,8 +87,24 @@
     ]
   },
   "music_preparation": {
-    "status": "prompts prepared; no audio generated",
+    "status": "V3 research-informed prompts prepared; no audio generated",
+    "current_version": 3,
     "files": [
+      {
+        "path": "final/11-empty-junction/music/ambience-prompt-v3.txt",
+        "sha256": "2873e13df1f1c12262da0e87350235fb5b58d45866925b0cf6f7734d5c834974",
+        "bytes": 417
+      },
+      {
+        "path": "final/11-empty-junction/music/elevenlabs-long-version-v2.txt",
+        "sha256": "d0a5b99a0c5e83517445521692bff41c3cfacdc42ab5ab76d470bb58b3eab51a",
+        "bytes": 1037
+      },
+      {
+        "path": "final/11-empty-junction/music/elevenlabs-long-version-v3.txt",
+        "sha256": "e5613a3c27a5c59e9ac35571a8973a64a72130b57bb5920f218a38b14053ef53",
+        "bytes": 1108
+      },
       {
         "path": "final/11-empty-junction/music/elevenlabs-long-version.txt",
         "sha256": "a491c2a30e4f8d6df6f5984a551291146a9c779e4d51d5fd424c39aa9986ef11",
@@ -100,20 +116,42 @@
         "bytes": 1821
       },
       {
+        "path": "final/11-empty-junction/music/elevenlabs-prompt-v2.txt",
+        "sha256": "64768c47606ad3a441d73b0546ad9c7059fe254f750cb19d639114102bb2d9d1",
+        "bytes": 1022
+      },
+      {
+        "path": "final/11-empty-junction/music/elevenlabs-prompt-v3.txt",
+        "sha256": "f81151b1666da50cfc97cbcc4f6ddbc3e5559e2eae0b55421c2f13fed8b98fcd",
+        "bytes": 998
+      },
+      {
         "path": "final/11-empty-junction/music/generation-record.json",
-        "sha256": "a933eb3efc92b43f9f72390e0a6b3369a878891603ec60fda6f2144e6b3152f6",
-        "bytes": 346
+        "sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c",
+        "bytes": 603
+      },
+      {
+        "path": "final/11-empty-junction/music/prompt-manifest-v3.json",
+        "sha256": "1d846c5d8b2839fcd09efb0b8312e449c31647c3c87f3477dd1b31a6125d4bcc",
+        "bytes": 1328
       },
       {
         "path": "final/11-empty-junction/music/README.md",
-        "sha256": "8e095064ca91932c1bf55b94a245c301ac4e21c5f8cf45823cbffd03292a28b0",
-        "bytes": 2047
+        "sha256": "77dc9f62e7ff8c253cba850f22224bc235aeb09bdce9fb0c7199fe7d11fedc4b",
+        "bytes": 3555
+      },
+      {
+        "path": "final/11-empty-junction/music/v2-control-120s.txt",
+        "sha256": "b33a45006d8ccee6feebbe740daf493b64b2436e3b6da18ba9563f162f602517",
+        "bytes": 1023
       }
     ],
-    "planned_test": "approximately 60 seconds, two variants; user manual generation if supported",
-    "planned_long_piece": "approximately five minutes using chosen own test as reference if supported",
+    "planned_test": "120 seconds, two variants; manual generation if supported",
+    "planned_long_piece": "about eight minutes using a chosen owned dry reference, if supported",
     "credits_spent_by_assistant": 0,
-    "workflow": "creative/MUSIC_WORKFLOW.md"
+    "workflow": "creative/MUSIC_WORKFLOW.md",
+    "month_pack": "creative/music/november-2026/README.md",
+    "prior_manifest_snapshot": "final/11-empty-junction/music/music-preparation-before-v3.json"
   },
   "motion_preparation": {
     "status": "V3 implemented and technically checked; further visual work required",

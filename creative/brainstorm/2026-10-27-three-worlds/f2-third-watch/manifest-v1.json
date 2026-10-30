@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Third Watch",
+  "influence": "Battlestar Galactica (2004)",
+  "headline": "HOLDING THE LINE",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "3f8854c473b6d724ddbdcfb954dd4986c37ef77b3bc36c58d91659f639984fbe",
+      "bytes": 2064817,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "d2ee9946b887ed747cc3ce90ca16e2e93d0c123716aeada8b6f0277be710fd8c",
+      "bytes": 1943938,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "6a2f3dbafa4fee80388731bdb3a73c5eb31099d0aaafaa2d5da85c785ec55bbf",
+      "bytes": 295798,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "0d6661347ff166b10a14098011af0ce9010a7cf267e0c45bfff11d91da0a17b7",
+      "bytes": 1450
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "da14a1ad407a37ae50b5272c72090616e5eb6b6879f788c511a5bd21680d3031",
+      "bytes": 1184
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Keep CIC windowless and no holograms; verify suspended monitor support and chart-table access. Radar graphics illustrative only. Windowless room and physical table are present; suspended mounts/fine controls still require review.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

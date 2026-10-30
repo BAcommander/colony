@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "date_prepared": "2026-10-30",
+  "title": "Crater Rim Survey",
+  "status": "prompts prepared, no audio generated/listened/approved",
+  "pilot_seconds": 120,
+  "long_requested_seconds": 480,
+  "sfx_status": "separate proposed source; no audio generated",
+  "source_research": "creative/music/november-2026/RESEARCH.md",
+  "listening_feedback": "creative/music/reference-analysis/comparison-2026-10-30/feedback-2026-10-30/decoded-ratings.json",
+  "assets": {
+    "elevenlabs-prompt-v3.txt": {
+      "sha256": "3aed145203e044ca2f5f9218a0862809620d3c336cb7682159c005e7459a1557",
+      "bytes": 1039
+    },
+    "elevenlabs-long-version-v3.txt": {
+      "sha256": "96cb67f58cd4fd9c7183371b3059ff4daeb207ebb82d3276e51fa5ce97294da4",
+      "bytes": 1119
+    },
+    "ambience-prompt-v3.txt": {
+      "sha256": "aa376c911ef58d9e17126ec3b9b8092304e90675327fa1401413c643d9d362cb",
+      "bytes": 385
+    }
+  },
+  "preserved_v2_sha256": {
+    "elevenlabs-prompt-v2.txt": "d076cca02eee29f64f7267c206c8195ccee65fd56af17ba435ce1b02cfa7f0d2",
+    "elevenlabs-long-version-v2.txt": "b8509854fd500fea184036c8c1857e70e95c91ed6dd387187c94c72c1c7a2040"
+  },
+  "user_audio_approval": null
+}

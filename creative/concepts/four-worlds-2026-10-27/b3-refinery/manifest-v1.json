@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Refinery Watch Gallery",
+  "influence": "Alien (1979)",
+  "headline": "WATCHING THE DARK",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "ab942ce581cf2a02ccdf516181ee1a00af7f9f760e431dcea610a2efe4d22e38",
+      "bytes": 2533587,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "ac83c5e2aa8c06b8a318852fdb7ff600b5a697ab9c46d5d1185e7658b2e01a4d",
+      "bytes": 2584760,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "e2ba9e48591a12e27b863ff87b6de7949053d80faee41f3438bf17ad6eaed8bf",
+      "bytes": 398954,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "1cb0852715d9a3c1244fcf595f3695baa0dc53c93e11a184162b52e0bde2949b",
+      "bytes": 1118
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "a96def2a5528e87ec36f89cbfbe06cc50203af4cef61fc5f571c347ac858b7fd",
+      "bytes": 1185
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Immense machinery, but visual density may reduce small-size clarity. Glass/pressure boundary needs explicit fine review.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Rockside Night Canteen",
+  "influence": "The Expanse",
+  "headline": "HOME IN THE BELT",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "9374e4b45e436084bc0973d453997eb9fb9c18528d4644321a521b6000c8b7f2",
+      "bytes": 2718765,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "fba6a18c6a9a629fb900caa4fda62db9a6c3f1496abcc238369d2d352e09c1a0",
+      "bytes": 2443790,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "79d427a0bd2a0d986422072356eebe902bccbd9409dfd81bf735a6476909a838",
+      "bytes": 434338,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "af6975aa1dcc50f281de44065b1e353fb9143b3f0315a623b3c1820b5138d290",
+      "bytes": 1197
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "dd7a59f5738c944ebc5fc186e5f0fe9e79359af9950cb2042357750aa45ec7ef",
+      "bytes": 1184
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Rock-walled canteen establishes working settlement. Ship and furniture are dense; spin-gravity context is proposed, not verified from still.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

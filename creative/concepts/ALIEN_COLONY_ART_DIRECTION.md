@@ -2,6 +2,76 @@
 
 Prepared 2026-09-29 from nine user-supplied reference images and feedback on rough concepts 17–20. The subsequent user-authorized generation run produced four v2 candidates, saved with exact prompts and manifests. V1 images remain history; v2 artworks are selected for release packaging as 11-14; release thumbnails 11-14 were approved on 2026-09-29. Photographic credibility is the target, not a guarantee of a particular model output or a claim that the references are photographs.
 
+## Photographic restraint reference (2026-10-27)
+
+User supplied a screenshot of a cool, fogbound industrial station on a snowy escarpment, with a warm doorway/window, an access stair and an observatory-like dome. Its origin is unverified: AI, rendering and photography cannot be established from this still. Treat its visible qualities as reference evidence, not provenance. User asked to apply its realism while keeping a clearly alien planet and to save the lessons.
+
+Compared with the Cable Station and Glacier thumbnails discussed in chat, useful hypotheses are:
+
+- A dominant weather condition should consistently reduce distant visibility, contrast and saturation. Leaving every object equally legible weakens depth.
+- Use ordinary functional construction, a camera with a plausible place to stand, traceable services and continuous access. Design a place people maintain, allowing modest asymmetry and practical inconveniences without unsafe or impossible routes.
+- Preserve broad plain walls, empty sky and other quiet areas. Concentrate detail around actual work and contact/weather exposure; do not distribute sharp texture uniformly.
+- Restrict the palette through shared illumination and material colour. One modest warm refuge can carry habitation; numerous glowing windows and screens can compete.
+- Wear should follow joints, runoff and handling. Avoid indiscriminate peeling, wetness and grit. Exterior dampness and sheltered dryness can coexist.
+- Build the alien identity into a large environmental form, a consistent supporting cue and an engineering response. Earth scenery plus a small moon remains insufficient. Do not trade realism for spectacular gadgets or neon geology.
+- Finish the clean still first. Weather overlays, animation and resolution cannot repair incoherent construction. Review at full composition and then inspect high-risk fine geometry separately.
+
+These are design judgments, not measured evidence that a packaging change improves CTR. The comparison involved visible thumbnails, not an audit of all full-resolution channel scenes. User has not approved the new output or declared realism parity.
+
+First application: [The Brineward Station candidate](brineward-station/README.md), generated 2026-10-27 from a new textual composition. Keep its exact prompt, source hash, review concerns and acceptance state with the image. No existing scene is replaced.
+
+### Brineward feedback and colour/hierarchy follow-up
+
+2026-10-27: user says Brineward v1 "looks good" and requests correction of entrance/foreground steps; generated v2 presents a closed personnel door, aligned supported steps/handrail and continuous main paving. V2 review is pending. Preserve v1 and do not imply a pixel-preserved edit without comparison.
+
+The reference has a narrower blue/cyan hue range; Brineward is also subdued but varies neutral walls, lilac-grey brine and warm cream fixtures. Reference interest comes partly from one stair-to-dome journey and fog-suppressed detail. Brineward adds explicit alien silhouettes, while repeated fins and sharp surface texture can distribute attention. These are visual observations, not quantified colour measurements or objective interest scores. Narrow colour range, low saturation and low detail competition are different properties: avoid treating blanket desaturation as the realism fix.
+
+For subsequent studies, keep one dominant route/refuge or landform, reduce competing fine contrast, and vary weather, camera, function and ecology. Test dry neutral-daylight scenes as well as wet fog. [Ten new written location studies](photographic-locations-2026-10-27.txt) are proposals only, separate from round-03 and not assigned release numbers.
+
+### Source-first research correction (2026-10-27)
+
+User explicitly changes the method: investigate each of the ten pop-culture works first, then derive an original location, rather than attaching franchise influences to existing ideas. Current exploration authority is [the researched source-first studies](source-first-location-studies-2026-10-27.txt); previous brainstorms remain history. Ten entries separate published source evidence, our interpretation, new function, standalone generation brief, construction risk and recognizable elements to avoid. Research uses creator/production interviews and studio records; it does not claim a full rewatch or shot-by-shot audit. Solaris is explicitly the 1972 film. Original briefs translate principles into geometry, materials, light and human use rather than relying on franchise names as generator shortcuts.
+
+New reusable lesson: ask what constraints and relationships made a source world convincing, then invent a different place that obeys its own constraints. Social continuity, maintenance access, symbiosis, resource dependency and weather-driven architecture can produce different images; applying a franchise palette to a pre-existing station cannot establish those relationships. The proposed advantage remains untested until images are generated and reviewed. No new images generated in this research step, no assigned catalog numbers, and existing art/backlogs preserved.
+
+### Three generated source-first studies
+
+2026-10-27: user authorized Shift Court, Spore Season Shelter and Listening Annex. [All three v1 candidates and actual inspection](source-first-2026-10-27/README.md) are saved with exact prompts and hashes. Assistant full-composition inspection finds distinct social/ecological/private-refuge subjects, but texture density remains high in Shift Court and Spore Season Shelter, while Listening Annex's ocean forms can read as salt/ice islands. Generated extra small props also demonstrate that restraint instructions are not guaranteed. These are review hypotheses; user verdict pending. No animation or blanket quality/realism acceptance inferred.
+
+### User correction: source atmosphere was lost (2026-10-27)
+
+After seeing Shift Court, Spore Season Shelter and Listening Annex, user says "im not really getting vibe froim the IPs at all" and narrows the direction to Andor, Alien, Dune and The Expanse, three ideas each. Do not treat the prior abstract translations as successful source recognition. [Twelve revised concepts](four-worlds-vibe-studies-2026-10-27.txt) now retain combinations of distinctive architecture, technology era, light, scale and implied everyday story. Specific source strands matter: Dune includes cold coastal mass as well as desert; The Expanse includes different engineered cultures. Less abstraction is explicitly desired. Original places/compositions remain possible without removing every recognizable visual cue.
+
+For this exploration, surface-only colony framing is relaxed to propose commercial ships and asteroid/orbital settlements where source atmosphere calls for them; this is stated as a proposal, not a silent change to existing scenes. User wants scenes that help clicks; thumbnail-readable mood/subject is a design objective, not measured CTR evidence. Generate only after selection/request. All previous candidates and feedback preserved.
+
+### Four-world scene/thumbnail comparison generated (2026-10-27)
+
+User requested all twelve revised concepts and thumbnail versions. [Full package and concrete inspection notes](four-worlds-2026-10-27/README.md) preserve twelve clean sources and twelve derived marketing images with exact prompts/hashes. Assistant inspected full returned stills, no separate fine geometry audit; user verdict pending. Mood headlines are experimental, with no unassigned catalog numbers and no tiny caption. Source-specific hardware/light/scale combinations appear clearer to the assistant than the previous abstractions, but do not claim the user's vibe goal achieved before their feedback.
+
+Observed generation behaviour: typography edits also warmed scenes, changed skies/framing and added stars despite modest-change instructions. B2 added an unrequested craft. A2 is terrestrial-looking; C2 has historic-cistern associations; D1/D3 repeat related ship forms. Preserve these concerns before selection/animation. Compare quiet dominant shapes (storm gate) against dense machinery (refinery/shipyard); never infer click performance from either visual complexity or generation success. All historical images remain intact.
+
+### Expanded brainstorm and actual feedback (2026-10-27)
+
+User says "a bunch of these look sick" about the twelve stronger IP-influenced pairs and requests Stargate, Battlestar Galactica and The Matrix next, same treatment, details and a repo commit. [Brainstorm hub](../brainstorm/README.md) indexes all 21 pairs while retaining earlier paths. Nine new pairs use recognizable clusters of cues: expedition kit/ancient transit and ocean-city geometry; carrier hangar/windowless CIC/civilian fleet; green simulation grids versus cold patched-metal real-world machinery.
+
+Direct Moore interview supports buried windowless CIC; Matrix crew interview supports green simulation and patched hovercraft material distinctions. Stargate interview chapter/description research is identified as such, not a claim of having watched the full interview. Detailed source context is stored with new scene briefs. Cross-IP atmosphere does not require adding a celestial body or exterior window everywhere: windowless CIC and terrestrial-looking simulated city are deliberate variants.
+
+Actual deviations: E1 generated handled cup with ambiguous handle geometry and extra celestial objects; E3 left transit ring mostly open rather than full blue surface; F1 resembles a conventional fighter jet. Thumbnail generation continues to amplify warmth, skies and star density. Preserve these as review concerns, not invisible prompt successes. Assistant inspected all returned stills; fine geometry/user selection remain pending. Set-level positive feedback is not approval of every pair. User authorizes local Git commit of brainstorm artwork and records, not a push.
+
+### Retro-world identity and expanded backup (2026-10-27)
+
+User requests another three-by-three set: Back to the Future featuring its car, Red Dwarf and Star Trek TOS. [Nine new pairs](../brainstorm/2026-10-27-retro-worlds/README.md) join the [30-pair collection](../brainstorm/README.md). Keep source eras distinct: handmade equipment on stainless DeLorean; Red Dwarf off-white bunks/red industrial pipes and rounded Starbug; TOS clean midcentury colour blocks, physical controls, forward viewscreen and orange-red engineering rather than modern reboot styling. Source links in scene details support research; actual generated geometry/canon fidelity is not established by those sources.
+
+Assistant observed: H2 adds a DMC badge and mixes car equipment configurations; I3 is an approximate red mining hull; J1 becomes symmetrical; J2 lattice has cage/power-rack associations. The user has not reviewed these outputs. TOS's clean constructed-set feel is a deliberate era cue but may need further photographic material refinement. More dirt would erase that identity, not automatically improve realism. Existing thumbnail warmth/sunset drift persists and is recorded. User explicitly requests committing and pushing all today's concepts; backup authorization remains separate from visual acceptance.
+
+### Seasonal comfort brief (2026-10-27)
+
+User adopts the promise 'Christmas somewhere you wish you could stay' and asks for ten brainstorm ideas before making art. [Written seasonal proposals](../brainstorm/christmas-locations-2026-10-27.txt) preserve distinct source-world material/design cues while adding a readable place to sit, weather/exposure outside and two or three restrained seasonal anchors. Festivity must exist in the clean scene, not only thumbnail text. Decorations should remain readable at full composition without covering every surface. Snow is confined to planetary environments; orbital cold is communicated through space and lighting. Conventional hearths belong to plausible lodge/keep construction; enclosed electric/radiant warmth suits working ships. No art, audience-performance result or new approved seasonal release inferred.
+
+### Ten seasonal tests generated (2026-10-27)
+
+User subsequently requests all ten Christmas ideas as a test. [Clean outputs, exact prompts and actual concerns](../brainstorm/2026-10-27-christmas-tests/README.md) are saved; no thumbnails, animation or audio. Assistant full-composition inspection only, user verdict pending. DeLorean/gate/rings offer immediate setting silhouettes; citrus and wire trees distinguish utilitarian celebrations. TOS retains clean midcentury form rather than generic worn industrial styling. The generator still adds extra props/rugs/parcels beyond restrained briefs, so count actual visual competition rather than promised prompt limits. Coastal keep may read terrestrial; stylised ring geometry and fireplace construction remain review questions. These are assistant observations, not user approval or measured seasonal click potential. Original Ringfall and every prior candidate remain intact. User subsequently explicitly requests commit/push of the ten seasonal tests and records; see the seasonal package backup-verification.json for separate remote evidence.
+
 ## The central change
 
 Start with a place people need in order to live here, then make the unfamiliar environment shape that place. A colony is a network of homes, work, food, water, power and transport. It can be a small settlement or an established district; it need not be three identical pods pasted onto a horizon.

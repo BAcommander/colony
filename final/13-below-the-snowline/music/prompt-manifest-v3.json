@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "date_prepared": "2026-10-30",
+  "title": "Below the Snowline",
+  "status": "prompts prepared, no audio generated/listened/approved",
+  "pilot_seconds": 120,
+  "long_requested_seconds": 480,
+  "sfx_status": "separate proposed source; no audio generated",
+  "source_research": "creative/music/november-2026/RESEARCH.md",
+  "listening_feedback": "creative/music/reference-analysis/comparison-2026-10-30/feedback-2026-10-30/decoded-ratings.json",
+  "assets": {
+    "elevenlabs-prompt-v3.txt": {
+      "sha256": "d127beb9289b816482abfa3ef1dd5208c56783b75f49f991ecde486c0e761de6",
+      "bytes": 1013
+    },
+    "elevenlabs-long-version-v3.txt": {
+      "sha256": "fc21a0fbeb0a7128aca2b9f962bf69665dc462365d2c09fd590adbe03c4bbf56",
+      "bytes": 1128
+    },
+    "ambience-prompt-v3.txt": {
+      "sha256": "fe6d4838db852f411f0a1d3e233f97941abec404e015ebe132cdc254e82d0b83",
+      "bytes": 378
+    }
+  },
+  "preserved_v2_sha256": {
+    "elevenlabs-prompt-v2.txt": "7ba145624e021c126bc9f6ba0f43f0ddaaa5a3c21f7e061359712fcfe08f138a",
+    "elevenlabs-long-version-v2.txt": "6d1f9df2f5ccda3e849b468a22ea1fb1d6b0ec1c4cd50569fe814f83a4873835"
+  },
+  "user_audio_approval": null
+}

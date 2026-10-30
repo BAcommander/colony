@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-27",
+  "working_title": "The Brineward Station",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "prompt": "concept-prompt-v1.txt",
+  "reference_image_inputs": [],
+  "reference_role": "Conversation screenshot informed written design analysis only; authorship unverified.",
+  "artwork": "concept-v1.png",
+  "native_dimensions": [1672, 940],
+  "sha256": "22f872ce5e891444491298009bd376be7cc38be1f11877e56de500f81497f451",
+  "original_generation_path": "C:/Users/john/.codex/generated_images/01a11569-0e03-7520-8947-ce396d150bba/exec-e9cd76a4-3dd7-494b-89eb-5a68525b0cf6.png",
+  "status": "generated candidate; assistant full-composition still inspected; user review pending",
+  "fine_geometry": "Review foreground access transitions, entrance, railing terminations and pipe joins before animation.",
+  "approval": null,
+  "animation_generated": false,
+  "audio_generated": false,
+  "remote_backup_verified": false
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Ocean City Night Balcony",
+  "influence": "Stargate Atlantis",
+  "headline": "A CITY FAR FROM HOME",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "95ddc6f06286c8aea58bdd03c26f25e98d0267cd1b9458c05974480b4a5c0e22",
+      "bytes": 2361743,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "736720ad9b04e427eff546a6d6c8b5baaf499c49d8641c033b7a7652c8c5ef71",
+      "bytes": 2220353,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "0443d3bafb0dba380d98297339427c03ddb02db3cd9f133c57cfb9ca1b945ff0",
+      "bytes": 345756,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "1aa98f5f1f1e3c8c102691d0ccfa4033cc3826ed838c62b0c585bc4316e97206",
+      "bytes": 1530
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "211715c6c49a7a447414cd69a4f29b35830b4b600403adc6bf62af5b4f09df60",
+      "bytes": 1188
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Check tower/platform supports and near glass/pressure boundaries. Deliberate ancient-city influence; silhouette differs from reference production. Actual image increases skyline density; thumbnail warms horizon substantially.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-30",
+  "regression_checks_passed": 4,
+  "thirty_minute_passages_verified": 6,
+  "level_matched_trials_verified": 7,
+  "trial_target_lufs": -23,
+  "max_target_error_lu": 0.15,
+  "trial_true_peak_ceiling_dbtp": -1,
+  "comparison_and_trials_local_links_checked": true,
+  "comparison_and_trial_controls_inspected_in_browser": true,
+  "continuous_assistant_listening_performed": false,
+  "deeper_recurrence_positive_control": {
+    "lag_seconds": 295.0,
+    "whole_excerpt_waveform_correlation_0_1khz": 0.9998871774311603,
+    "waveform_checks": [
+      {
+        "start_seconds": 4.0,
+        "matched_lag_seconds": 295.0,
+        "waveform_correlation": 0.99902
+      },
+      {
+        "start_seconds": 748.506,
+        "matched_lag_seconds": 295.0,
+        "waveform_correlation": 0.99973
+      },
+      {
+        "start_seconds": 1493.012,
+        "matched_lag_seconds": 295.0,
+        "waveform_correlation": 0.9999
+      }
+    ],
+    "status": "sampled waveform similarity only; review listening and timing before claiming a full loop"
+  },
+  "api_example_json_fields_and_durations_checked": true,
+  "actual_api_requests_sent": 0,
+  "paid_generation_performed": false,
+  "files_sha256": {
+    "scripts\\analyze_ambient_audio.py": "2a616e5b225c47f5bd314924aeb63ee473afad0ab2ed49b669fea853a54a2391",
+    "scripts\\compare_ambient_audio.py": "5f971da4adcf5349b0037894bc3237c959d9d335fef21816ffe16fe208c3c790",
+    "scripts\\prepare_ambient_trials.py": "87ba125d2fae756b41e73f7fb3e25c8b032301f61c09ca192b46030f8d7ded73",
+    "scripts/investigate_ambient_repetition.py": "b19a861d53905d1281bb9cbd267e391a605a7f46348bb4f9910aace21ccf1afc"
+  },
+  "historical_tool_revision": {
+    "path": "scripts/investigate_ambient_repetition.py",
+    "sha256": "e2c3f47c3000806a2de79f702c1db63adaf4764229b2a9c4e8ebb79e9c350aeb",
+    "scope": "Earlier half-excerpt search implementation; current extended-search fingerprint is in files_sha256. Not the current source."
+  }
+}

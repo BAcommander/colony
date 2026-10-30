@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Freighter\u2019s Last Coffee",
+  "influence": "Alien (1979)",
+  "headline": "THE LAST COFFEE",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "cae5a4d7f0cb90219724693caabdab312299869e16b1e8a079d3907dfafe7a90",
+      "bytes": 2233271,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "3e485d05fef2bd75a519f5e1ba70d2512a4ea318bef674f0b08737c56f5cec11",
+      "bytes": 2069560,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "0248b9fb00161658f746d5d1bee761f0934accc9a5e024c318bcc54434c1508f",
+      "bytes": 286387,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "a720290faebef25f89e335a3a8dc8c8d3c663db6a5ec6826d748bd9e8624c1df",
+      "bytes": 1206
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "45104074aab269e77300c29c19b6632019a48093bd6ca9669ddd8027ef2d8578",
+      "bytes": 1183
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Clear retrofuturist mess/green-bridge distinction. Fine hatch, seats and controls remain unreviewed at crop scale.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

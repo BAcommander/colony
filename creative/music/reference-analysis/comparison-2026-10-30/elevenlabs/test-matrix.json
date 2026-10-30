@@ -1,0 +1,92 @@
+{
+  "status": "No generations made; no credits spent. Hypotheses, not a proven sound recipe.",
+  "conditions": [
+    {
+      "condition": "A-palette-control",
+      "repeat": 1,
+      "duration_seconds": 120,
+      "seed_if_api": 301026,
+      "api_body": "A-palette-control-rep1-api.json",
+      "prompt_file": "A-palette-control.txt",
+      "actual_model": null,
+      "actual_ui_parameters": null,
+      "export_path": null,
+      "sha256": null,
+      "user_rating": null,
+      "status": "prepared, not generated"
+    },
+    {
+      "condition": "A-palette-control",
+      "repeat": 2,
+      "duration_seconds": 120,
+      "seed_if_api": 301027,
+      "api_body": "A-palette-control-rep2-api.json",
+      "prompt_file": "A-palette-control.txt",
+      "actual_model": null,
+      "actual_ui_parameters": null,
+      "export_path": null,
+      "sha256": null,
+      "user_rating": null,
+      "status": "prepared, not generated"
+    },
+    {
+      "condition": "B-spatial-independence",
+      "repeat": 1,
+      "duration_seconds": 120,
+      "seed_if_api": 301026,
+      "api_body": "B-spatial-independence-rep1-api.json",
+      "prompt_file": "B-spatial-independence.txt",
+      "actual_model": null,
+      "actual_ui_parameters": null,
+      "export_path": null,
+      "sha256": null,
+      "user_rating": null,
+      "status": "prepared, not generated"
+    },
+    {
+      "condition": "B-spatial-independence",
+      "repeat": 2,
+      "duration_seconds": 120,
+      "seed_if_api": 301027,
+      "api_body": "B-spatial-independence-rep2-api.json",
+      "prompt_file": "B-spatial-independence.txt",
+      "actual_model": null,
+      "actual_ui_parameters": null,
+      "export_path": null,
+      "sha256": null,
+      "user_rating": null,
+      "status": "prepared, not generated"
+    },
+    {
+      "condition": "C-slow-dynamic-movement",
+      "repeat": 1,
+      "duration_seconds": 120,
+      "seed_if_api": 301026,
+      "api_body": "C-slow-dynamic-movement-rep1-api.json",
+      "prompt_file": "C-slow-dynamic-movement.txt",
+      "actual_model": null,
+      "actual_ui_parameters": null,
+      "export_path": null,
+      "sha256": null,
+      "user_rating": null,
+      "status": "prepared, not generated"
+    },
+    {
+      "condition": "C-slow-dynamic-movement",
+      "repeat": 2,
+      "duration_seconds": 120,
+      "seed_if_api": 301027,
+      "api_body": "C-slow-dynamic-movement-rep2-api.json",
+      "prompt_file": "C-slow-dynamic-movement.txt",
+      "actual_model": null,
+      "actual_ui_parameters": null,
+      "export_path": null,
+      "sha256": null,
+      "user_rating": null,
+      "status": "prepared, not generated"
+    }
+  ],
+  "proposed_minutes_if_all_six_are_run": 12,
+  "price": "Check actual UI cost before generation; old credit quotes are not current evidence.",
+  "current_priority_after_user_ratings": "D-environment-first-after-ratings.txt, ungenerated; earlier A/B/C conditions remain historical proposals."
+}

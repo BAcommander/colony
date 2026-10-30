@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Hydro Station Night Shift",
+  "influence": "Andor",
+  "headline": "NIGHT SHIFT",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "ec712842ffa5ed991d1ef97eaae98a8a1b867cb5ae4d0cbcf4769d451bf140c4",
+      "bytes": 2450484,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "9689c17fdf1a72ccc97a602348f6606e3a37423808ec58fd10570df30318d63d",
+      "bytes": 2351612,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "9cc377864098dac2a1bd0655fa4bdbee32ab8cc711b49df52018a526a0cc4152",
+      "bytes": 300134,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "135aa34595b08da581f0920f7da67b1214b9fda62b7808d6d39c42be7bebccda",
+      "bytes": 1107
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "d3822f82808091c7c8e1dfc273ddb8c86bd048d6791598de35ea05c5630e61d2",
+      "bytes": 1179
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Readable institutional scale, but landscape looks terrestrial. Confirm sealed booth glazing before animation; thumbnail adds sunset.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

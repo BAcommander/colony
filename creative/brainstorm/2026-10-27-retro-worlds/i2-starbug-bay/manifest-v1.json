@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "Starbug Between Adventures",
+  "influence": "Red Dwarf",
+  "headline": "PARKED FOR THE NIGHT",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "15ee1378e0f8cd1aa0e1bd8a2ea9b45c24af12687be88b5df7be8ab19bc49eb7",
+      "bytes": 2249312,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "540384651538e1235af6ee59f35caabab5446780890d7960eea28d77695519f1",
+      "bytes": 2301631,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "08ac8c1bed560c92f865ce9a8c4e4e5ba6c27648de580a872e5ae4b06514302e",
+      "bytes": 356933,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "28d8f2b07bb633682185116e5b2819bd64bb4a32bf0128dc048262d5af859aba",
+      "bytes": 1530
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "a6fc4f8466bae54a1dde1ba450498f6f6466df72ca9525ab6c695c60cdff7682",
+      "bytes": 1188
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Check that Starbug retains three connected bulbous sections and supported landing gear. Distinctive named craft is deliberate influence; fine machinery needs review. Three bulbous green sections and resting legs are visible. Bay/floor has extra sheen; fine landing supports and maintenance stairs unverified.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

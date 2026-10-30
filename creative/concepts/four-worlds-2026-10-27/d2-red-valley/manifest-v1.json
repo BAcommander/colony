@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Red Valley Watch",
+  "influence": "The Expanse",
+  "headline": "A HOME ON MARS",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "044b79995306d0e448711bd4e062fd0c060f8281522f004649fed8e45faf3db0",
+      "bytes": 2425006,
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "64cf4c5e5873975cd02875141106d23571db7e2133deb419754d65fa25550b93",
+      "bytes": 2314902,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "64669021cb56481433279fd15de8730d170cfd4a8a7e7cb9bdf7e986020b3797",
+      "bytes": 380857,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "344c5450484d0fcee91422313bf07e5b1f0e01c8d6970423180ca6fb6c644198",
+      "bytes": 1181
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "7b8957019b0d1c980f467b1271676a42004989580b0c9bfab568237eb9b5f4b5",
+      "bytes": 1182
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Ordered cabin versus red colony. Habitat silhouettes are generic; fine pressure connections and hangar geometry need review.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

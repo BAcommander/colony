@@ -1,0 +1,77 @@
+{
+  "checked_date": "2026-10-30",
+  "evidence_types_kept_separate": true,
+  "full_audio_or_embedded_video_listening_claimed": false,
+  "sources": [
+    {
+      "id": "eno-interview",
+      "title": "Brian Eno / Andrew Ford, ABC Music Show",
+      "url": "https://www.abc.net.au/listen/programs/musicshow/brian-eno/3125602",
+      "type": "first-person practitioner interview",
+      "scope_and_limit": "Consistent sonic setting, optional attention, texture and small ongoing variation; artistic intent, not a measured efficacy claim."
+    },
+    {
+      "id": "rich-interview",
+      "title": "Robert Rich / questions from Tomasz Kowalczyk",
+      "url": "https://robertrich.com/media/interviews/questions-from-tomasz-kowalczyk/",
+      "type": "artist-hosted first-person interview",
+      "scope_and_limit": "Gradual flow, contextual listening, environmental place and multidimensional depth; avoid importing healing/physiology claims."
+    },
+    {
+      "id": "roach-notes",
+      "title": "Steve Roach / Long Thoughts",
+      "url": "https://www.steveroach.com/product/long-thoughts/",
+      "type": "official artist release/process notes",
+      "scope_and_limit": "Extended listening during development and changing sound relationships; promotional wellbeing claims are not independent research."
+    },
+    {
+      "id": "kmru-interview",
+      "title": "KMRU: Spaces / Ableton",
+      "url": "https://www.ableton.com/en/blog/kmru-spaces/",
+      "type": "first-person producer interview",
+      "scope_and_limit": "Texture-based work without grid, quiet field recordings, processed/original layers; not a universal mixing rule."
+    },
+    {
+      "id": "wolf-interview",
+      "title": "Patricia Wolf: Natural Synthesis / Ableton",
+      "url": "https://www.ableton.com/en/blog/patricia-wolf-natural-synthesis/",
+      "type": "first-person producer interview",
+      "scope_and_limit": "Scene-specific source selection and iterative editing/mixing; film-score narrative methods are not all adopted for long-form ambience."
+    },
+    {
+      "id": "kiss-linnell",
+      "title": "Kiss & Linnell, Psychological Research 85 (2021), 2313\u20132325",
+      "url": "https://link.springer.com/article/10.1007/s00426-020-01400-6",
+      "type": "original empirical study",
+      "scope_and_limit": "Forty students, preferred music vs silence in low-demand vigilance task; attentional-state findings do not establish all-day comfort or our prompt recipe."
+    },
+    {
+      "id": "eleven-best-practices",
+      "title": "ElevenLabs Music best practices",
+      "url": "https://elevenlabs.io/docs/overview/capabilities/music/best-practices",
+      "type": "official product documentation",
+      "scope_and_limit": "Musical/production direction and instrumental prompts; claims of adherence still require actual export evaluation."
+    },
+    {
+      "id": "eleven-compose",
+      "title": "ElevenLabs Compose music API",
+      "url": "https://elevenlabs.io/docs/api-reference/music/compose",
+      "type": "official API reference",
+      "scope_and_limit": "Prompt/plan alternatives, current model names, duration and seed parameter constraints; actual UI uninspected."
+    },
+    {
+      "id": "eleven-plans",
+      "title": "ElevenLabs composition plans",
+      "url": "https://elevenlabs.io/docs/eleven-api/guides/how-to/music/composition-plans",
+      "type": "official API guide",
+      "scope_and_limit": "Current v2/v2.5 chunk schema and duration/context controls; no API calls made."
+    },
+    {
+      "id": "eleven-references",
+      "title": "ElevenLabs Introducing References",
+      "url": "https://elevenlabs.io/blog/introducing-references-sound-control-for-music-v2",
+      "type": "official product announcement",
+      "scope_and_limit": "Owned audio style/feel reference; length descriptions differ across docs, so inspect actual controls."
+    }
+  ]
+}

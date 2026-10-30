@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-27",
+  "review_id": "X07",
+  "title": "Christmas with the Fleet",
+  "influence": "Battlestar Galactica 2004",
+  "generator": "built-in image_gen.imagegen",
+  "image_inputs": [],
+  "original_generation_path": "C:\\Users\\john\\.codex\\generated_images\\01a11569-0e03-7520-8947-ce396d150bba\\exec-7bc05a6f-ef78-46d1-a7b6-62774899324e.png",
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "e46445e64c01dab91a8e220a9158f1dd7b37da74d5b14d512369f6dae85fdb3a",
+      "bytes": 2244191,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "preview-v1.jpg": {
+      "sha256": "8c999b2824396f9ca96fb05ccec757c54ea68492478162427e949c9d18938b9a",
+      "bytes": 285720,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "e9fb692c46f0772f8e608bf6eb1b6d6858cff1edbee1d5571e047ed35ee833c2",
+      "bytes": 1549
+    }
+  },
+  "inspection": "Assistant returned full-composition still inspection; no crop-level audit",
+  "concerns": "Civilian room can have a window; no CIC misrepresentation. Check wire tree, heater, ship silhouettes and gravity/pressure enclosure. Improvised wire tree and civilian fleet view present. Larger spread and more vessels than implied by sparse brief; carrier is an approximation. Detail review of heater/tree/ship needed.",
+  "user_approval": null,
+  "catalog_number": null,
+  "thumbnail_generated": false,
+  "animation_generated": false,
+  "remote_backup_record": "../backup-verification.json"
+}

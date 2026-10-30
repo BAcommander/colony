@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "title": "The Storm Gate Vigil",
+  "influence": "Dune",
+  "headline": "WAIT OUT THE STORM",
+  "catalog_number": null,
+  "generator": "built-in image_gen.imagegen",
+  "clean_inputs": [],
+  "thumbnail_inputs": [
+    "concept-v1.png",
+    "C:/Colony/final/01-ringfall-observatory/thumbnail-v1.png (style only)"
+  ],
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "bcd9b536e3f2415bd62d49597d466e19cb6bc0d8abccfb53e5ed83c60e0862be",
+      "bytes": 2295469,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.png": {
+      "sha256": "ed8662b9e80ba43861ab62b0b9e8cf8cce0daf4843393c57f33bdc701ba1ab7d",
+      "bytes": 2126497,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "thumbnail-v1.jpg": {
+      "sha256": "d0b70e29b1f2299dfb792c0ce6b11bea499ba7a0cb6ae4524dedb2e89f4bcb5f",
+      "bytes": 250866,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "2f076cb0ca47769d3eafa0337f13964da0e1beff55eff5d8ee2536a71498daa8",
+      "bytes": 1148
+    },
+    "thumbnail-prompt-v1.txt": {
+      "sha256": "abb06f3067ad9b744113230bca7071b9a97d87b4362c87dd4462a433cedf7504",
+      "bytes": 1186
+    }
+  },
+  "assistant_inspection": "returned full-composition clean and thumbnail stills",
+  "review_note": "Strong monumental silhouette and dust wall. Hard reflective floor and extreme gate scale need review.",
+  "user_approval": null,
+  "thumbnail_is_pixel_preserved": false,
+  "remote_backup_verified": false
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-27",
+  "review_id": "X02",
+  "title": "Three Million Christmases from Home",
+  "influence": "Red Dwarf",
+  "generator": "built-in image_gen.imagegen",
+  "image_inputs": [],
+  "original_generation_path": "C:\\Users\\john\\.codex\\generated_images\\01a11569-0e03-7520-8947-ce396d150bba\\exec-f5c4ef58-8702-4375-888a-d10f79da24ad.png",
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "85d3ffee770ece3e4b08860cd9dc702c2d18ab08b543392f545c8752f02386f0",
+      "bytes": 2382093,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "preview-v1.jpg": {
+      "sha256": "99760ed6a7aee88eccabeca9878c9aa759c7ce532f0dbbd43a8720d25ad4f805",
+      "bytes": 345232,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "c49d3dd2ed31c21f3c7b8340425fc58839316ff4602783aa4a8d70ccf75fa8ab",
+      "bytes": 1559
+    }
+  },
+  "inspection": "Assistant returned full-composition still inspection; no crop-level audit",
+  "concerns": "Check bunk ladder/floor access, tableware, heater construction and porthole. Keep Red Dwarf specificity without actor likeness or giant colourful luxury decorations. Bunks, octagonal passage, red pipes and curry remain visible. Tree looks more conventional/upright than improvised; CRT treatment is relatively modern. Check heater, bunk access and small utensils.",
+  "user_approval": null,
+  "catalog_number": null,
+  "thumbnail_generated": false,
+  "animation_generated": false,
+  "remote_backup_record": "../backup-verification.json"
+}

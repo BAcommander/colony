@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-27",
+  "review_id": "X08",
+  "title": "The Belt's Christmas Canteen",
+  "influence": "The Expanse",
+  "generator": "built-in image_gen.imagegen",
+  "image_inputs": [],
+  "original_generation_path": "C:\\Users\\john\\.codex\\generated_images\\01a11569-0e03-7520-8947-ce396d150bba\\exec-a26a17f6-7dda-413c-b409-79b0494d3228.png",
+  "assets": {
+    "concept-v1.png": {
+      "sha256": "02b3869e5fd157617a070202ffed236949944683554b8e23a27c51b21f4ce039",
+      "bytes": 2602648,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "preview-v1.jpg": {
+      "sha256": "40802498e86efba7c3f9b9705ac6b24d57db473ee60ad96d4a31cc64e7356559",
+      "bytes": 413417,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "generation-v1.txt": {
+      "sha256": "169c93d0beec42f0202308e6112eb3485f6e64bc3b347a5ab3f41b5c0e4cabf0",
+      "bytes": 1591
+    }
+  },
+  "inspection": "Assistant returned full-composition still inspection; no crop-level audit",
+  "concerns": "Inspect citrus-tree form (not generic fir), pressure glass, booth furniture and dock supports. Keep biology precious/small and no orbital snow. Citrus tree with fruit and paper ornaments generated as requested. Room/dock wide view remains coherent at composition scale. Fine booth/table/ship and glass boundaries not audited.",
+  "user_approval": null,
+  "catalog_number": null,
+  "thumbnail_generated": false,
+  "animation_generated": false,
+  "remote_backup_record": "../backup-verification.json"
+}
