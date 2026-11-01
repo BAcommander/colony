@@ -1,0 +1,14 @@
+{
+  "water_surface.py": {
+    "original": "G:\\AI\\colony\\scripts\\water_surface.py",
+    "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4"
+  },
+  "render_floodplain.py": {
+    "original": "G:\\AI\\colony\\scripts\\render_floodplain.py",
+    "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3"
+  },
+  "ambient_effects.py": {
+    "original": "G:\\AI\\colony\\scripts\\ambient_effects.py",
+    "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc"
+  }
+}

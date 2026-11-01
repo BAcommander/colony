@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "valid_audio_seconds": 3600,
+  "sample_frames": 172800000,
+  "all_samples_finite": true,
+  "no_full_scale_samples": true,
+  "sample_peak_dbfs": -10.161627204985583,
+  "source_expected_graph": "[0:a:0]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,volume=0.00dB[a0];[a0]alimiter=limit=0.8414:level=0:latency=1[intro_mix];[intro_mix]afade=t=in:st=5:d=15:curve=hsin[aout]",
+  "first_four_seconds_peak": 0.0,
+  "opening_audio_silence_to_5s_then_hsin_fade_to_20s": true,
+  "full_track_correlation_with_expected_mix": 0.9999592642836312,
+  "whole_mix_gain_difference_db": -0.0068903763700171785,
+  "lossy_encoding_snr_db": 40.85997488988504,
+  "diagnostic_windows": [
+    {
+      "second": 4,
+      "expected_rms": 0.0,
+      "aac_rms": 3.5901240882053777e-09,
+      "correlation": 0.0
+    },
+    {
+      "second": 5,
+      "expected_rms": 0.0004056288609079213,
+      "aac_rms": 0.0004050976489723524,
+      "correlation": 0.9997919483722393
+    },
+    {
+      "second": 10,
+      "expected_rms": 0.0182199672399133,
+      "aac_rms": 0.018198163759672786,
+      "correlation": 0.9999238363416391
+    },
+    {
+      "second": 15,
+      "expected_rms": 0.06332800400312817,
+      "aac_rms": 0.06315859407036961,
+      "correlation": 0.9997722754968548
+    },
+    {
+      "second": 19,
+      "expected_rms": 0.07348695375737259,
+      "aac_rms": 0.0732862074384669,
+      "correlation": 0.9997250492803611
+    },
+    {
+      "second": 20,
+      "expected_rms": 0.06837125246286178,
+      "aac_rms": 0.06827388913650419,
+      "correlation": 0.9999184649624677
+    },
+    {
+      "second": 501,
+      "expected_rms": 0.07979585082751683,
+      "aac_rms": 0.0797639348534844,
+      "correlation": 0.9999923150668364
+    },
+    {
+      "second": 505,
+      "expected_rms": 0.07016825425214779,
+      "aac_rms": 0.07014157068841857,
+      "correlation": 0.9999962863551788
+    },
+    {
+      "second": 510,
+      "expected_rms": 0.05511203076982205,
+      "aac_rms": 0.05509651684845129,
+      "correlation": 0.9999962195407828
+    },
+    {
+      "second": 673,
+      "expected_rms": 0.0846581515580075,
+      "aac_rms": 0.08462609563617145,
+      "correlation": 0.9999900759177608
+    },
+    {
+      "second": 677,
+      "expected_rms": 0.07889488297418151,
+      "aac_rms": 0.07886497244461152,
+      "correlation": 0.9999972163043201
+    },
+    {
+      "second": 682,
+      "expected_rms": 0.07950111347165886,
+      "aac_rms": 0.07946886187927699,
+      "correlation": 0.9999894726831628
+    },
+    {
+      "second": 3580,
+      "expected_rms": 0.07496573425219259,
+      "aac_rms": 0.0749230240873516,
+      "correlation": 0.9999836423122587
+    },
+    {
+      "second": 3590,
+      "expected_rms": 0.03883470236589974,
+      "aac_rms": 0.03881933248916733,
+      "correlation": 0.9999929908265728
+    },
+    {
+      "second": 3599,
+      "expected_rms": 0.0023994038939631228,
+      "aac_rms": 0.0023969022213839297,
+      "correlation": 0.9999277370501547
+    }
+  ],
+  "note": "Exact sample count over declared 3600-second interval; compare AAC with the full FLAC passed through the same Colony graph. No claim of lossy waveform identity or assistant listening.",
+  "colour_remux_aac_packet_identity": true
+}

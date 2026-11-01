@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-01",
+  "request": "i think the video is fine but we need to increase the 3 sfx to provide more variance, like they need to be 25% more frequent",
+  "visual_feedback": "Video is fine; retain selected V6 treatment and current intro. Only select existing wind/quiet minutes to match revised wind timing.",
+  "duration_seconds": 3600,
+  "sample_rate": 48000,
+  "counts": {
+    "wind": {
+      "before": 20,
+      "after": 25,
+      "increase_percent": 25
+    },
+    "train": {
+      "before": 7,
+      "after": 9,
+      "increase_percent": 28.57142857142858
+    },
+    "grit": {
+      "before": 19,
+      "after": 24,
+      "increase_percent": 26.315789473684205
+    }
+  },
+  "rounding": "Nearest whole-event counts to 25% more per hour. No playback speed or event duration change.",
+  "wind_starts": [
+    0,
+    180,
+    300,
+    480,
+    600,
+    720,
+    840,
+    1020,
+    1140,
+    1260,
+    1440,
+    1560,
+    1680,
+    1860,
+    1980,
+    2160,
+    2340,
+    2460,
+    2580,
+    2760,
+    2880,
+    3000,
+    3180,
+    3300,
+    3480
+  ],
+  "wind_minutes": [
+    0,
+    3,
+    5,
+    8,
+    10,
+    12,
+    14,
+    17,
+    19,
+    21,
+    24,
+    26,
+    28,
+    31,
+    33,
+    36,
+    39,
+    41,
+    43,
+    46,
+    48,
+    50,
+    53,
+    55,
+    58
+  ],
+  "train_starts": [
+    110,
+    550,
+    930,
+    1340,
+    1795,
+    2230,
+    2650,
+    3070,
+    3430
+  ],
+  "grit_starts": [
+    193,
+    217,
+    335,
+    501,
+    733,
+    757,
+    875,
+    1041,
+    1157,
+    1453,
+    1477,
+    1581,
+    1697,
+    2015,
+    2181,
+    2353,
+    2377,
+    2487,
+    2781,
+    2897,
+    3013,
+    3037,
+    3215,
+    3497
+  ],
+  "durations": {
+    "wind": 60,
+    "train": 25,
+    "grit": 12
+  },
+  "gain_db": {
+    "wind": 7.850000000000001,
+    "train": 4.5,
+    "grit": -3.3
+  },
+  "fade_seconds": {
+    "wind": [
+      5,
+      8
+    ],
+    "train": [
+      3,
+      6
+    ],
+    "grit": [
+      1,
+      2.5
+    ]
+  },
+  "grit_follows_wind_envelope": true,
+  "wind_source_phase": "Original 24-second source loop follows the global timeline",
+  "music": "Approved V3 mix minus its verified old SFX stem plus newly scheduled SFX. Music arrangement, level and closing fade retained within 24-bit quantization. No new music generation, EQ, compression, normalization or stretching.",
+  "source_mix": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-final-SFX-v3.flac",
+  "source_stem": "G:\\AI\\colony\\music\\empty-junction-music-v1\\delivery-hour-final-sfx-v3\\media\\The-Empty-Junction-1-Hour-SFX-only-v3.flac",
+  "source_paths": [
+    "G:\\AI\\colony\\music\\empty-junction-music-v1\\sources\\Soft_wind_moving_thr_#4-1793463971195.mp3",
+    "G:\\AI\\colony\\music\\empty-junction-music-v1\\sources\\Distant_freight_trai_#4-1793489393057.mp3",
+    "G:\\AI\\colony\\music\\empty-junction-music-v1\\sources\\Fine_dry_mineral_gri_#2-1793489678825.mp3"
+  ],
+  "source_hashes": [
+    "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34",
+    "ec88e61ec6a720af5cf479c425f38a3864fe279ebfdc5cf0ea63b14915a6649e",
+    "1babf4e01c5d788e3b07fc89dd673e90dd2fe2e57db5ab26b60d3cf07bec2340"
+  ]
+}

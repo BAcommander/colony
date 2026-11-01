@@ -1,0 +1,33 @@
+{
+  "source": "G:\\AI\\colony\\music\\empty-junction-animation-v4\\artwork-v3.png",
+  "planet": {
+    "asset": "ringed-planet-rgba.png",
+    "roi": [
+      933,
+      32,
+      1129,
+      119
+    ],
+    "opacity": 0.52,
+    "colour_haze_mix": 0.2
+  },
+  "fog": "Expanded far and middle banks, brighter atmospheric colour, stronger optical thickness, rolling forward-advection and terrain occlusion",
+  "light_off_depth": {
+    "windows": 0.94,
+    "cabin": 0.82,
+    "practicals": 0.9,
+    "door_lamp": 0.85
+  },
+  "ambient_floor_rgb": [
+    14,
+    19,
+    28
+  ],
+  "period_seconds": 60,
+  "retained": [
+    "source cloud transport",
+    "grille condensation",
+    "wind-timed near powder"
+  ],
+  "beacons": "beacon-plan.json"
+}

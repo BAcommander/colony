@@ -1,0 +1,4 @@
+A distant [single sound source] heard from [listener position or shelter]. [One slow evolving action], with [one or two soft material details]. Rounded onset and a natural decay that blends into the surroundings. Environmental sound only; no music, voices or sharp foreground impacts.
+
+Settings to choose separately: source duration, number of variants and whether a continuous loop or complete one-shot is needed.
+Review in the actual composition before adopting. Source gain, audible event duration, fade duration and recurrence are separate decisions.

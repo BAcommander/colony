@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "outputs": [
+    {
+      "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-final-SFX-v4.flac",
+      "sha256": "f637f3a3f6aa4f0a0b65b7428253ebe8960011aa68591eb9e8636cb60362f3d1",
+      "bytes": 568677315,
+      "seconds": 3600,
+      "frames": 172800000,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -10.172807808173882,
+      "maximum_lossless_recipe_error": 1.189691829495132e-07
+    },
+    {
+      "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-SFX-only-v4.flac",
+      "sha256": "47f1c07d10ec6221e2d9684d968c9fb97a5ee7bbe8d2dd150f1867731883c56d",
+      "bytes": 310571754,
+      "seconds": 3600,
+      "frames": 172800000,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -16.436747155979013,
+      "maximum_lossless_recipe_error": 1.1897282092832029e-07
+    }
+  ],
+  "old_stem_reconstruction_max_error": 1.1897282092832029e-07,
+  "dry_music_preservation_max_float_error": 1.4901161193847656e-08,
+  "no_level_or_duration_changes": true,
+  "counts": {
+    "wind": {
+      "before": 20,
+      "after": 25,
+      "increase_percent": 25
+    },
+    "train": {
+      "before": 7,
+      "after": 9,
+      "increase_percent": 28.57142857142858
+    },
+    "grit": {
+      "before": 19,
+      "after": 24,
+      "increase_percent": 26.315789473684205
+    }
+  },
+  "example": "G:\\AI\\colony\\music\\empty-junction-final-hour-v2\\Empty-Junction-more-frequent-SFX-check-6min.mp3",
+  "assistant_listening": false
+}

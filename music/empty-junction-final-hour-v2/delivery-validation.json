@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "output": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-4K-v2.mp4",
+  "sha256": "2c65f3aa44b834f84bde50043c426b55a38c82ec8e89e61a4ae498910da08b29",
+  "bytes": 9933739715,
+  "duration_seconds": 3600,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "frames": 108000,
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "upscale": "Existing native-to-4K Lanczos masters reused; no video re-encoding",
+  "user_visual_feedback": "i think the video is fine",
+  "revision": "About 25% more frequent SFX, preserving levels, music and visuals; existing wind/quiet sections rescheduled to keep powder synchronized.",
+  "counts": {
+    "wind": {
+      "before": 20,
+      "after": 25,
+      "increase_percent": 25
+    },
+    "train": {
+      "before": 7,
+      "after": 9,
+      "increase_percent": 28.57142857142858
+    },
+    "grit": {
+      "before": 19,
+      "after": 24,
+      "increase_percent": 26.315789473684205
+    }
+  },
+  "complete_decode": true,
+  "every_picture_payload_and_timestamp_checked": true,
+  "complete_audio_comparison": true,
+  "user_revised_mix_review": "pending",
+  "assistant_listening": false,
+  "published": false,
+  "committed_or_pushed": false
+}

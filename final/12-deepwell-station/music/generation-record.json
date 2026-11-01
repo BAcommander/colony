@@ -1,18 +1,169 @@
 {
-  "status": "not generated",
+  "status": "Accepted music/water/wind/pump balance extended to one hour; MP3, lossless mix and separate stems delivered and fully checked. V4 visual review and video assembly remain pending.",
   "date_prepared": "2026-09-29",
   "provider": "ElevenLabs Music",
   "settings_observed": null,
   "price_observed": null,
-  "short_test_files": [],
-  "selected_test": null,
-  "long_export": null,
-  "user_feedback": null,
-  "audio_approval": false,
-  "local_join_review": null,
-  "delivery_duration_seconds": null,
+  "short_test_files": [
+    {
+      "title": "Waterworks Gallery",
+      "path": "music/deepwell-production-2026-11-01/sources/Waterworks_Gallery_2026-11-01T171541.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Waterworks_Gallery_2026-11-01T171541.mp4",
+      "sha256": "5a6b9b4b11283cd5fd5438fac1ba40588bd7f39eb53e4953bb8ac524a0828728",
+      "duration_seconds": 240,
+      "audition": "music/deepwell-production-2026-11-01/review/A-Waterworks-Gallery-4min-level-matched.mp3"
+    },
+    {
+      "title": "Sheltered Replenishment",
+      "path": "music/deepwell-production-2026-11-01/sources/Sheltered_Replenishment_2026-11-01T171541.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Sheltered_Replenishment_2026-11-01T171541.mp4",
+      "sha256": "121c115fc41985f20f17c77e6ec889c29869edf66ed92929043054e9746a1cd0",
+      "duration_seconds": 240,
+      "audition": "music/deepwell-production-2026-11-01/review/B-Sheltered-Replenishment-4min-level-matched.mp3"
+    }
+  ],
+  "selected_test": [
+    "Waterworks Gallery",
+    "Sheltered Replenishment"
+  ],
+  "long_export": [
+    {
+      "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-v1.flac",
+      "sha256": "ea5b2b80ff2f5d2a7bff22d7f5a7bea3b09851f7c043deaf3a91c9a6842bf20f",
+      "bytes": 592339509,
+      "seconds": 3600,
+      "sample_frames_per_channel": 172800000,
+      "all_finite": true,
+      "clipping_samples": 0,
+      "sample_peak_dbfs": -9.41231992212913,
+      "full_sample_recipe_max_error": 1.1897621254863822e-7,
+      "full_sample_recipe_snr_db": 118.569866539847,
+      "kind": "mix"
+    },
+    {
+      "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-v1.mp3",
+      "sha256": "710d059e4a445ae58391c7e26bcb605c0baefa112532da0e151caa20c1c55d4d",
+      "bytes": 86401196,
+      "seconds": 3600,
+      "sample_frames_per_channel": 172800000,
+      "all_finite": true,
+      "clipping_samples": 0,
+      "sample_peak_dbfs": -9.683012207554734,
+      "full_sample_recipe_max_error": 0.013812005519866943,
+      "full_sample_recipe_snr_db": 29.87083957556817,
+      "kind": "mix"
+    }
+  ],
+  "user_feedback": {
+    "date": "2026-11-01",
+    "verbatim": "lets use both like we did with junction, we also had a water SFX we made before right? should be in the repo, and what about the wind we had too? can we combine it all?",
+    "selected_music": [
+      "Waterworks Gallery",
+      "Sheltered Replenishment"
+    ],
+    "use_both_authorized": true,
+    "combine_existing_water_and_wind_authorized": true,
+    "new_join_and_effect_balance_approval": true,
+    "final_duration_unset": false
+  },
+  "audio_approval": true,
+  "local_join_review": "music/deepwell-production-2026-11-01/delivery-hour-v1/delivery-validation.json",
+  "delivery_duration_seconds": 3600,
   "current_prompt_version": "v3",
   "v3_date_prepared": "2026-10-30",
-  "v3_status": "research-informed proposal; not generated",
-  "v3_scope": "User confirms November scene lineup; short pilot, owned-reference long prompt and separate ambience proposal."
+  "v3_status": "Two samples supplied after the prepared pilot brief; actual generation prompt/settings unverified",
+  "v3_scope": "User confirms November scene lineup; short pilot, owned-reference long prompt and separate ambience proposal.",
+  "received_date": "2026-11-01",
+  "actual_supplied_durations_seconds": [
+    240,
+    240
+  ],
+  "measurements": "music/deepwell-production-2026-11-01/sample-intake.json",
+  "actual_model": null,
+  "actual_cost_shown": null,
+  "actual_prompt_confirmed": false,
+  "assistant_listening": false,
+  "candidate_decision": "Keep both as candidates",
+  "combined_review": "music/deepwell-production-2026-11-01/combined-review-v4/Deepwell-both-music-water-wind-pump-8min-v4.mp3",
+  "latest_feedback": "music/deepwell-production-2026-11-01/delivery-hour-v1/delivery-paths.json",
+  "third_sfx_proposal": "music/deepwell-production-2026-11-01/combined-review-v2/plant-room-pump-sfx-prompt.txt",
+  "third_sfx": {
+    "status": "Accepted in current balance and included in hour",
+    "source": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\A_distant_water-circ_#4-1793555177439.mp3",
+    "sha256": "c939da31dc0d2b3a1451a32368ad7216e2c7885f74e43a0bde3152d75a3c8e1f",
+    "seconds": 20
+  },
+  "audio_approval_scope": {
+    "date": "2026-11-01",
+    "verbatim": "yeah that sounds good now, lets get the 1 hour version ready",
+    "scope": "Acceptance follows the water-and-wind-in-composition excerpt at the current v4 balance, and authorizes a one-hour soundtrack. No full-hour listening or new animation verdict inferred."
+  },
+  "hour_delivery": {
+    "date": "2026-11-01",
+    "seconds": 3600,
+    "outputs": [
+      {
+        "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-v1.flac",
+        "sha256": "ea5b2b80ff2f5d2a7bff22d7f5a7bea3b09851f7c043deaf3a91c9a6842bf20f",
+        "bytes": 592339509,
+        "seconds": 3600,
+        "sample_frames_per_channel": 172800000,
+        "all_finite": true,
+        "clipping_samples": 0,
+        "sample_peak_dbfs": -9.41231992212913,
+        "full_sample_recipe_max_error": 1.1897621254863822e-7,
+        "full_sample_recipe_snr_db": 118.569866539847,
+        "kind": "mix"
+      },
+      {
+        "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-v1.mp3",
+        "sha256": "710d059e4a445ae58391c7e26bcb605c0baefa112532da0e151caa20c1c55d4d",
+        "bytes": 86401196,
+        "seconds": 3600,
+        "sample_frames_per_channel": 172800000,
+        "all_finite": true,
+        "clipping_samples": 0,
+        "sample_peak_dbfs": -9.683012207554734,
+        "full_sample_recipe_max_error": 0.013812005519866943,
+        "full_sample_recipe_snr_db": 29.87083957556817,
+        "kind": "mix"
+      },
+      {
+        "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-dry-music-v1.flac",
+        "sha256": "f83076a34c25fbefe1123c7540509ad63f0cd252885468097de9028620253c95",
+        "bytes": 470951977,
+        "seconds": 3600,
+        "sample_frames_per_channel": 172800000,
+        "all_finite": true,
+        "clipping_samples": 0,
+        "sample_peak_dbfs": -9.623164769373911,
+        "full_sample_recipe_max_error": 1.1897621254863822e-7,
+        "full_sample_recipe_snr_db": 118.49557736444702,
+        "kind": "dry"
+      },
+      {
+        "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-SFX-only-v1.flac",
+        "sha256": "27b1d61ce41c4e08b5c68f14a9a2f6f74afd093a8a3496124f3593329c9c8e4c",
+        "bytes": 484732418,
+        "seconds": 3600,
+        "sample_frames_per_channel": 172800000,
+        "all_finite": true,
+        "clipping_samples": 0,
+        "sample_peak_dbfs": -19.796523691729742,
+        "full_sample_recipe_max_error": 1.1897623153345194e-7,
+        "full_sample_recipe_snr_db": 100.81991467166189,
+        "kind": "sfx"
+      }
+    ],
+    "recipe": "music/deepwell-production-2026-11-01/delivery-hour-v1/mix-recipe.json",
+    "validation": "music/deepwell-production-2026-11-01/delivery-hour-v1/delivery-validation.json",
+    "balance_approval": {
+      "date": "2026-11-01",
+      "verbatim": "yeah that sounds good now, lets get the 1 hour version ready",
+      "scope": "Acceptance follows the water-and-wind-in-composition excerpt at the current v4 balance, and authorizes a one-hour soundtrack. No full-hour listening or new animation verdict inferred."
+    },
+    "assistant_listening": false,
+    "full_hour_user_listening": null,
+    "new_video": false
+  }
 }

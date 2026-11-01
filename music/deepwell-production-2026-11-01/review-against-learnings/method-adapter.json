@@ -1,0 +1,12 @@
+{
+  "original_script": "G:\\AI\\colony\\scripts\\analyze_ambient_audio.py",
+  "original_sha256": "2a616e5b225c47f5bd314924aeb63ee473afad0ab2ed49b669fea853a54a2391",
+  "snapshot_sha256": "0b863c8569e11f36a41b6c20cffea20db3dbd7917889fabd75a75c642a3c55d6",
+  "change": "Only replace unavailable imageio_ffmpeg binary discovery with PATH lookup. All audio measurement and report functions unchanged. No library install.",
+  "body_window_seconds": [
+    20,
+    180
+  ],
+  "body_reason": "Equal 160-second interior window excludes generated entrance and long ending fades; separate from complete four-minute source measurements.",
+  "reference_scope": "Archived thirty-minute published/reference mixes, including SFX, versus four-minute dry generation sources; not matched duration or composition."
+}

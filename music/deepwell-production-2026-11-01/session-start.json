@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-01",
+  "verbatim": "right lets move onto the next video this next one is uploading",
+  "next_catalog": "12",
+  "title": "Deepwell Station",
+  "prior_release": "The Empty Junction — user reports uploading; completion not verified",
+  "current_animation": "music/deepwell-animation-v4/Deepwell-v4-preview-20s.mp4",
+  "repeat_review": "music/deepwell-animation-v4/Deepwell-v4-three-loops-60s.mp4",
+  "music_prompt": "music-pilot-prompt.txt",
+  "prompt_origin": "final/12-deepwell-station/music/elevenlabs-prompt-v3.txt",
+  "prompt_change": "Remove duration from descriptive prompt; preserve existing musical brief. Duration is a separate proposed test setting.",
+  "proposed_test": {
+    "seconds_per_sample": 120,
+    "samples": 2,
+    "mode": "instrumental",
+    "environmental_sfx_in_music": false
+  },
+  "sound_direction": "Gently warm daylight synth ambience, slow changing inner tones and depth; separate water circulation SFX after choosing music.",
+  "carry_forward": [
+    "Short music comparison before long generation",
+    "Keep SFX separate for level and recurrence control",
+    "More frequent is distinct from louder",
+    "Preserve current visual/thumbnail versions until reviewed"
+  ],
+  "generation_status": "Accepted music/water/wind/pump balance extended to one hour; MP3, lossless mix and separate stems delivered and fully checked. V4 visual review and video assembly remain pending.",
+  "visual_verdict": {
+    "date": "2026-11-01",
+    "verbatim": "ok i think it's decent shall we make the full version?",
+    "scope": "User reviewed current V4 full-scene animation and authorized the full version with the accepted one-hour soundtrack."
+  },
+  "publication_action": "User is handling Empty Junction upload; no upload or account action by assistant",
+  "sample_intake": "sample-intake.json",
+  "actual_supplied_durations_seconds": [
+    240,
+    240
+  ],
+  "selected_music": [
+    "Waterworks Gallery",
+    "Sheltered Replenishment"
+  ],
+  "combined_review": "music/deepwell-production-2026-11-01/combined-review-v4/Deepwell-both-music-water-wind-pump-8min-v4.mp3",
+  "hour_delivery": "music/deepwell-production-2026-11-01/delivery-hour-v1/delivery-paths.json",
+  "balance_approval": {
+    "date": "2026-11-01",
+    "verbatim": "yeah that sounds good now, lets get the 1 hour version ready",
+    "scope": "Acceptance follows the water-and-wind-in-composition excerpt at the current v4 balance, and authorizes a one-hour soundtrack. No full-hour listening or new animation verdict inferred."
+  },
+  "video_delivery": {
+    "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-4K-v1.mp4",
+    "sha256": "2ded2931f60db759cdbd0f563e2663cd3262f4364d751e769caa92d0b15f283f",
+    "bytes": 16644387474,
+    "seconds": 3600,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "validation": "music/deepwell-final-hour-v1/delivery-validation.json",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "upscale": "Lanczos from native rendered frames",
+    "opening": "Current Colony v3 applied once",
+    "full_combined_user_review": "pending",
+    "assistant_inspection": "Decoded temporal stills and complete technical checks; no continuous playback or full listening"
+  }
+}

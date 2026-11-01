@@ -1,0 +1,14 @@
+{
+  "stills": "opening-contact-sheet.jpg",
+  "times_seconds": [
+    1,
+    6,
+    13,
+    16,
+    19,
+    23
+  ],
+  "inspection": "Assistant inspected the decoded opening contact sheet: dark first frame, legible channel/logo/PRESENTS, complete one-line THE EMPTY JUNCTION with underline and safe side margins, lower invitation overlapping then holding, and clean scene by23s. No clipping or unexpected overlays observed. Continuous playback not claimed.",
+  "assistant_inspected": true,
+  "source_phase": "Source phase starts at zero; wind/quiet/quiet repeats every 180 seconds; opening adds no runtime"
+}

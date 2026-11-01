@@ -1,5 +1,9 @@
 # Ambient Colony — believable life on unfamiliar worlds
 
+## Scene-first thumbnail checkpoint — 2026-11-01
+
+Junction and [Deepwell candidates](../../music/deepwell-thumbnail-v2/README.md) try scene-only or one-word treatments, omitting the header, catalogue number, small subtitle and rules. Start from the current clean scene so important cues (such as Deepwell’s planet) match the final video. Check at320×180 or smaller; preserve the approved branded control. This is an artistic hypothesis, not a demonstrated CTR lift. Deepwell’s generated lettering edit changes fine detail/contrast outside text: these are package comparisons, not isolated typography tests. User selection remains pending. Full cross-discipline lessons and prompt review queue: [2026-11-01 checkpoint](../../music/prompt-learnings-2026-11-01/README.md).
+
 Prepared 2026-09-29 from nine user-supplied reference images and feedback on rough concepts 17–20. The subsequent user-authorized generation run produced four v2 candidates, saved with exact prompts and manifests. V1 images remain history; v2 artworks are selected for release packaging as 11-14; release thumbnails 11-14 were approved on 2026-09-29. Photographic credibility is the target, not a guarantee of a particular model output or a claim that the references are photographs.
 
 ## Photographic restraint reference (2026-10-27)

@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-01",
+  "user_request": "lets use both like we did with junction, we also had a water SFX we made before right? should be in the repo, and what about the wind we had too? can we combine it all?",
+  "status": "User-requested +3dB wind applied in composition; prior10% water reduction retained. Listening verdict pending.",
+  "seconds": 480,
+  "music": {
+    "source_intake": "../sample-intake.json",
+    "gains_db": [
+      -8.35,
+      -6.8
+    ],
+    "segments": [
+      {
+        "track": "A",
+        "source_in": 0,
+        "source_out": 224,
+        "start": 0,
+        "fade_in": 0,
+        "fade_out": 20
+      },
+      {
+        "track": "B",
+        "source_in": 4,
+        "source_out": 220,
+        "start": 204,
+        "fade_in": 20,
+        "fade_out": 28
+      },
+      {
+        "track": "A",
+        "source_in": 4,
+        "source_out": 224,
+        "start": 392,
+        "fade_in": 28,
+        "fade_out": 0
+      }
+    ],
+    "joins_seconds": [
+      [
+        204,
+        224
+      ],
+      [
+        392,
+        420
+      ]
+    ],
+    "crossfade_curve": "Equal-power cosine/sine",
+    "trim_reason": "A strong terminal fade begins around225s. B falls gradually through its final minute; the longer B-to-A overlap fills the late tail. Subsequent source entrances begin at4s to bypass initial near-silence. These are listening candidates, not guaranteed musical joins."
+  },
+  "water": {
+    "source": "G:\\AI\\colony\\final\\09-offshore-night-office\\music\\water-mix-v1\\Clear_ocean_water_re_#1-1791650516724.mp3",
+    "local_copy": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\Clear_ocean_water_re_#1-1791650516724.mp3",
+    "sha256": "7ad78fbee2c965c4ec6e4372d38898b89d5fd77bd4dc3d2adf2b987bf9a7b2c2",
+    "reuse": "Shoreless gentle rolling/rippling exterior water, not a newly generated pump sound",
+    "nominal_isolated_lufs_before_envelope": -40.9151498112135,
+    "loop": {
+      "seconds": 26,
+      "trim": [
+        1,
+        29
+      ],
+      "overlap_seconds": 2,
+      "gain_db": -13.815149811213503,
+      "seam_sample_rms_step": 0.005244097522075167,
+      "ordinary_step_99_9_percentile": 0.010662846822292656,
+      "boundary_measurements_note": "V1 loop values scaled by the requested 0.9 water amplitude multiplier"
+    },
+    "events": [
+      [
+        25,
+        75
+      ],
+      [
+        185,
+        255
+      ],
+      [
+        320,
+        375
+      ],
+      [
+        440,
+        480
+      ]
+    ],
+    "fade_in_seconds": 8,
+    "fade_out_seconds": 12
+  },
+  "wind": {
+    "source": "G:\\AI\\colony\\music\\empty-junction-music-v1\\sources\\Soft_wind_moving_thr_#4-1793463971195.mp3",
+    "local_copy": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\Soft_wind_moving_thr_#4-1793463971195.mp3",
+    "sha256": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34",
+    "reuse": "Junction wind at +4.85dB source gain:3dB above Deepwell v2,3dB below Junction",
+    "nominal_isolated_lufs_before_envelope": -38,
+    "loop": {
+      "seconds": 24,
+      "trim": [
+        1,
+        29
+      ],
+      "overlap_seconds": 4,
+      "gain_db": 4.85,
+      "seam_sample_rms_step": 0.0029819452162345474,
+      "ordinary_step_99_9_percentile": 0.00426312250391229,
+      "boundary_measurements_note": "Previous loop step measurements scaled by +3dB amplitude factor"
+    },
+    "events": [
+      [
+        105,
+        165
+      ],
+      [
+        360,
+        420
+      ]
+    ],
+    "fade_in_seconds": 8,
+    "fade_out_seconds": 12
+  },
+  "source_viewpoint": "Exterior sounds heard quietly from the sheltered gallery; water and wind independently scheduled",
+  "effects_period_seconds": {
+    "water": 26,
+    "wind": 24
+  },
+  "sfx_fades_inside_events": true,
+  "ending": "One ten-second review closing fade; no production opening or extra opening fade",
+  "processing": "Fixed gains and fades only. No EQ, compression, pitch shift, time stretch, or paid generation.",
+  "assistant_listening": false,
+  "no_effects_off_window_samples_match_dry_exactly": true,
+  "mixed_minus_stem_vs_dry_max_float_error": 2.0954757928848267e-08,
+  "water_revision": {
+    "amplitude_multiplier": 0.9,
+    "gain_change_db": -0.9151498112135024,
+    "previous_gain_db": -12.9,
+    "new_gain_db": -13.815149811213503,
+    "scope": "Water only; timings and existing music/wind unchanged",
+    "outside_water_events_samples_identical_to_v1": true
+  },
+  "wind_revision": {
+    "change_db": 3,
+    "amplitude_multiplier": 1.4125375446227544,
+    "source_gain_db": 4.85,
+    "water_and_music_preserved": true,
+    "outside_wind_events_samples_identical_to_v2": true,
+    "timings_and_fades_unchanged": true
+  }
+}

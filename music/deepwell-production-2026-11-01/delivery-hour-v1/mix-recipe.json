@@ -1,0 +1,572 @@
+{
+  "date": "2026-11-01",
+  "user_request": "yeah that sounds good now, lets get the 1 hour version ready",
+  "approval_scope": "Current balance accepted and hour extension requested; no claim of a full-hour listening session or new animation approval.",
+  "seconds": 3600,
+  "sample_rate": 48000,
+  "channels": 2,
+  "source_hashes": {
+    "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\Waterworks_Gallery_2026-11-01T171541.mp4": "5a6b9b4b11283cd5fd5438fac1ba40588bd7f39eb53e4953bb8ac524a0828728",
+    "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\Sheltered_Replenishment_2026-11-01T171541.mp4": "121c115fc41985f20f17c77e6ec889c29869edf66ed92929043054e9746a1cd0",
+    "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\Clear_ocean_water_re_#1-1791650516724.mp3": "7ad78fbee2c965c4ec6e4372d38898b89d5fd77bd4dc3d2adf2b987bf9a7b2c2",
+    "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\Soft_wind_moving_thr_#4-1793463971195.mp3": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34",
+    "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\A_distant_water-circ_#4-1793555177439.mp3": "c939da31dc0d2b3a1451a32368ad7216e2c7885f74e43a0bde3152d75a3c8e1f"
+  },
+  "music_gain_db": [
+    -8.35,
+    -6.8
+  ],
+  "music_schedule": [
+    {
+      "track": "A",
+      "index": 0,
+      "source_in": 0,
+      "source_out": 224,
+      "start": 0,
+      "natural_end": 224,
+      "output_end": 224,
+      "fade_in": 0,
+      "fade_out": 20
+    },
+    {
+      "track": "B",
+      "index": 1,
+      "source_in": 4,
+      "source_out": 220,
+      "start": 204,
+      "natural_end": 420,
+      "output_end": 420,
+      "fade_in": 20,
+      "fade_out": 28
+    },
+    {
+      "track": "A",
+      "index": 0,
+      "source_in": 4,
+      "source_out": 224,
+      "start": 392,
+      "natural_end": 612,
+      "output_end": 612,
+      "fade_in": 28,
+      "fade_out": 20
+    },
+    {
+      "track": "B",
+      "index": 1,
+      "source_in": 4,
+      "source_out": 220,
+      "start": 592,
+      "natural_end": 808,
+      "output_end": 808,
+      "fade_in": 20,
+      "fade_out": 28
+    },
+    {
+      "track": "A",
+      "index": 0,
+      "source_in": 4,
+      "source_out": 224,
+      "start": 780,
+      "natural_end": 1000,
+      "output_end": 1000,
+      "fade_in": 28,
+      "fade_out": 20
+    },
+    {
+      "track": "B",
+      "index": 1,
+      "source_in": 4,
+      "source_out": 220,
+      "start": 980,
+      "natural_end": 1196,
+      "output_end": 1196,
+      "fade_in": 20,
+      "fade_out": 28
+    },
+    {
+      "track": "A",
+      "index": 0,
+      "source_in": 4,
+      "source_out": 224,
+      "start": 1168,
+      "natural_end": 1388,
+      "output_end": 1388,
+      "fade_in": 28,
+      "fade_out": 20
+    },
+    {
+      "track": "B",
+      "index": 1,
+      "source_in": 4,
+      "source_out": 220,
+      "start": 1368,
+      "natural_end": 1584,
+      "output_end": 1584,
+      "fade_in": 20,
+      "fade_out": 28
+    },
+    {
+      "track": "A",
+      "index": 0,
+      "source_in": 4,
+      "source_out": 224,
+      "start": 1556,
+      "natural_end": 1776,
+      "output_end": 1776,
+      "fade_in": 28,
+      "fade_out": 20
+    },
+    {
+      "track": "B",
+      "index": 1,
+      "source_in": 4,
+      "source_out": 220,
+      "start": 1756,
+      "natural_end": 1972,
+      "output_end": 1972,
+      "fade_in": 20,
+      "fade_out": 28
+    },
+    {
+      "track": "A",
+      "index": 0,
+      "source_in": 4,
+      "source_out": 224,
+      "start": 1944,
+      "natural_end": 2164,
+      "output_end": 2164,
+      "fade_in": 28,
+      "fade_out": 20
+    },
+    {
+      "track": "B",
+      "index": 1,
+      "source_in": 4,
+      "source_out": 220,
+      "start": 2144,
+      "natural_end": 2360,
+      "output_end": 2360,
+      "fade_in": 20,
+      "fade_out": 28
+    },
+    {
+      "track": "A",
+      "index": 0,
+      "source_in": 4,
+      "source_out": 224,
+      "start": 2332,
+      "natural_end": 2552,
+      "output_end": 2552,
+      "fade_in": 28,
+      "fade_out": 20
+    },
+    {
+      "track": "B",
+      "index": 1,
+      "source_in": 4,
+      "source_out": 220,
+      "start": 2532,
+      "natural_end": 2748,
+      "output_end": 2748,
+      "fade_in": 20,
+      "fade_out": 28
+    },
+    {
+      "track": "A",
+      "index": 0,
+      "source_in": 4,
+      "source_out": 224,
+      "start": 2720,
+      "natural_end": 2940,
+      "output_end": 2940,
+      "fade_in": 28,
+      "fade_out": 20
+    },
+    {
+      "track": "B",
+      "index": 1,
+      "source_in": 4,
+      "source_out": 220,
+      "start": 2920,
+      "natural_end": 3136,
+      "output_end": 3136,
+      "fade_in": 20,
+      "fade_out": 28
+    },
+    {
+      "track": "A",
+      "index": 0,
+      "source_in": 4,
+      "source_out": 224,
+      "start": 3108,
+      "natural_end": 3328,
+      "output_end": 3328,
+      "fade_in": 28,
+      "fade_out": 20
+    },
+    {
+      "track": "B",
+      "index": 1,
+      "source_in": 4,
+      "source_out": 220,
+      "start": 3308,
+      "natural_end": 3524,
+      "output_end": 3524,
+      "fade_in": 20,
+      "fade_out": 28
+    },
+    {
+      "track": "A",
+      "index": 0,
+      "source_in": 4,
+      "source_out": 224,
+      "start": 3496,
+      "natural_end": 3716,
+      "output_end": 3600,
+      "fade_in": 28,
+      "fade_out": 20
+    }
+  ],
+  "crossfades": "A\u2192B20s, B\u2192A28s, equal-power cosine/sine; same source regions as accepted review",
+  "sfx_gain_db": {
+    "water": -13.815149811213503,
+    "wind": 4.85,
+    "pump": 3.960000000000001
+  },
+  "sfx_events": {
+    "water": [
+      [
+        25,
+        75
+      ],
+      [
+        185,
+        255
+      ],
+      [
+        320,
+        375
+      ],
+      [
+        440,
+        480
+      ],
+      [
+        495,
+        550
+      ],
+      [
+        650,
+        705
+      ],
+      [
+        785,
+        855
+      ],
+      [
+        910,
+        960
+      ],
+      [
+        995,
+        1055
+      ],
+      [
+        1150,
+        1205
+      ],
+      [
+        1270,
+        1320
+      ],
+      [
+        1400,
+        1440
+      ],
+      [
+        1460,
+        1510
+      ],
+      [
+        1615,
+        1685
+      ],
+      [
+        1740,
+        1790
+      ],
+      [
+        1875,
+        1920
+      ],
+      [
+        1935,
+        1990
+      ],
+      [
+        2090,
+        2145
+      ],
+      [
+        2225,
+        2295
+      ],
+      [
+        2350,
+        2400
+      ],
+      [
+        2420,
+        2470
+      ],
+      [
+        2575,
+        2645
+      ],
+      [
+        2700,
+        2750
+      ],
+      [
+        2835,
+        2880
+      ],
+      [
+        2915,
+        2975
+      ],
+      [
+        3070,
+        3125
+      ],
+      [
+        3190,
+        3240
+      ],
+      [
+        3320,
+        3360
+      ],
+      [
+        3375,
+        3430
+      ],
+      [
+        3530,
+        3585
+      ]
+    ],
+    "wind": [
+      [
+        105,
+        165
+      ],
+      [
+        360,
+        420
+      ],
+      [
+        570,
+        630
+      ],
+      [
+        825,
+        885
+      ],
+      [
+        1075,
+        1135
+      ],
+      [
+        1310,
+        1370
+      ],
+      [
+        1540,
+        1600
+      ],
+      [
+        1785,
+        1845
+      ],
+      [
+        2010,
+        2070
+      ],
+      [
+        2265,
+        2325
+      ],
+      [
+        2500,
+        2560
+      ],
+      [
+        2745,
+        2805
+      ],
+      [
+        2995,
+        3055
+      ],
+      [
+        3230,
+        3290
+      ],
+      [
+        3450,
+        3510
+      ]
+    ],
+    "pump": [
+      [
+        80,
+        100
+      ],
+      [
+        275,
+        295
+      ],
+      [
+        420,
+        440
+      ],
+      [
+        550,
+        570
+      ],
+      [
+        735,
+        755
+      ],
+      [
+        885,
+        905
+      ],
+      [
+        1055,
+        1075
+      ],
+      [
+        1225,
+        1245
+      ],
+      [
+        1375,
+        1395
+      ],
+      [
+        1515,
+        1535
+      ],
+      [
+        1695,
+        1715
+      ],
+      [
+        1850,
+        1870
+      ],
+      [
+        1990,
+        2010
+      ],
+      [
+        2175,
+        2195
+      ],
+      [
+        2325,
+        2345
+      ],
+      [
+        2475,
+        2495
+      ],
+      [
+        2655,
+        2675
+      ],
+      [
+        2810,
+        2830
+      ],
+      [
+        2975,
+        2995
+      ],
+      [
+        3145,
+        3165
+      ],
+      [
+        3295,
+        3315
+      ],
+      [
+        3430,
+        3450
+      ]
+    ]
+  },
+  "sfx_event_counts": {
+    "water": 30,
+    "wind": 15,
+    "pump": 22
+  },
+  "sfx_fade_seconds": {
+    "water": [
+      8,
+      12
+    ],
+    "wind": [
+      8,
+      12
+    ],
+    "pump": [
+      3,
+      5
+    ]
+  },
+  "source_loops": {
+    "water": {
+      "seconds": 26.0,
+      "trim": [
+        1,
+        29
+      ],
+      "overlap_seconds": 2,
+      "gain_db": -13.815149811213503,
+      "seam_sample_rms_step": 0.005244098898266935,
+      "ordinary_step_99_9_percentile": 0.010662846922602292
+    },
+    "wind": {
+      "seconds": 24.0,
+      "trim": [
+        1,
+        29
+      ],
+      "overlap_seconds": 4,
+      "gain_db": 4.85,
+      "seam_sample_rms_step": 0.0029819453108644273,
+      "ordinary_step_99_9_percentile": 0.004263122215595369
+    }
+  },
+  "sfx_schedule_design": "First eight minutes retain accepted event timing. Later eight-minute blocks use staggered patterns with comparable event density; pump remains in exterior-sound gaps. Short source loops follow the global clock independently of music joins.",
+  "sfx_block_pattern_order": [
+    0,
+    1,
+    2,
+    3,
+    1,
+    3,
+    2,
+    1
+  ],
+  "closing_fade_seconds": 20,
+  "production_opening_fade_baked": false,
+  "initial_music": "First source retains its generated entrance; no new production opening fade. Apply current Colony opening once during video assembly.",
+  "review_closing_fade_removed": true,
+  "no_eq_compression_stretching_or_new_generation": true,
+  "new_4k_video": false
+}

@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "output": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-4K-v2.mp4",
+  "duration": 3600.0,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30.0,
+  "all_video_audio_decoded": true,
+  "checks": [
+    {
+      "name": "Video stream",
+      "ok": true,
+      "detail": "3840x2160 (expected 3840x2160)"
+    },
+    {
+      "name": "Frame rate",
+      "ok": true,
+      "detail": "30 fps (expected 30)"
+    },
+    {
+      "name": "Audio stream",
+      "ok": true,
+      "detail": "aac, 48000 Hz, stereo"
+    },
+    {
+      "name": "Duration",
+      "ok": true,
+      "detail": "1:00:00 (expected 1:00:00, +0.00 s)"
+    },
+    {
+      "name": "Full decode",
+      "ok": true,
+      "detail": "every frame and sample decoded without errors"
+    }
+  ]
+}

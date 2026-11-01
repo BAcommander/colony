@@ -1,0 +1,26 @@
+const fs=require('fs'),path=require('path');
+const H=__dirname,R=path.resolve(H,'../..');
+const write=(p,o)=>fs.writeFileSync(p,JSON.stringify(o,null,2)+'\n');
+const request='right lets move onto the next video this next one is uploading';
+const junctionPath=path.join(R,'final/11-empty-junction/manifest.json');
+const junction=JSON.parse(fs.readFileSync(junctionPath,'utf8'));
+junction.publication={status:'uploading',reported_by:'user',date:'2026-11-01',verbatim:request,upload_completion_verified:false,public_url:null};
+junction.status='User reports uploading; one-hour 4K v2 with more frequent SFX delivered and verified. Moving production to 12 Deepwell Station.';
+write(junctionPath,junction);
+const file=path.join(R,'PRODUCTION_PIPELINE.md');let tracker=fs.readFileSync(file,'utf8');
+tracker=tracker.replace(/^\| 11 \|.*$/m,'| 11 | [The Empty Junction](final/11-empty-junction/README.md) | V6 visuals accepted; one-hour 4K v2 delivered and fully checked | Revised V4 audio: 25 wind passages, 9 trains, 24 grit events; original levels retained | User reports uploading (2026-11-01); public URL/completion not yet verified |');
+tracker=tracker.replace(/^\| 12 \|.*$/m,'| 12 | [Deepwell Station](final/12-deepwell-station/README.md) | Current V4: rolling steam and purple pipeline out/return lights; 20s preview and 60s repeat review | Music not yet supplied; two short pilot samples next | Active next video (2026-11-01). Revisit V4 visuals and test the duration-free music prompt in music/deepwell-production-2026-11-01/ |');
+fs.writeFileSync(file,tracker);
+const deepwellPath=path.join(R,'final/12-deepwell-station/manifest.json');const deepwell=JSON.parse(fs.readFileSync(deepwellPath,'utf8'));
+deepwell.current_production={date:'2026-11-01',status:'Active next video after Empty Junction upload began',session:'music/deepwell-production-2026-11-01/session-start.json',animation:'music/deepwell-animation-v4/Deepwell-v4-preview-20s.mp4',animation_user_approval:'not yet recorded for v4',music_status:'No generated soundtrack supplied; short two-sample pilot prepared',paid_generation_performed:false};
+write(deepwellPath,deepwell);
+const promptSource=path.join(R,'final/12-deepwell-station/music/elevenlabs-prompt-v3.txt');
+const original=fs.readFileSync(promptSource,'utf8');
+if(!original.startsWith('Instrumental only, 120 seconds.'))throw Error('Unexpected source prompt');
+const prompt=original.replace('Instrumental only, 120 seconds.','Instrumental only.');
+fs.writeFileSync(path.join(H,'music-pilot-prompt.txt'),prompt);
+write(path.join(H,'session-start.json'),{date:'2026-11-01',verbatim:request,next_catalog:'12',title:'Deepwell Station',prior_release:'The Empty Junction — user reports uploading; completion not verified',current_animation:'music/deepwell-animation-v4/Deepwell-v4-preview-20s.mp4',repeat_review:'music/deepwell-animation-v4/Deepwell-v4-three-loops-60s.mp4',music_prompt:'music-pilot-prompt.txt',prompt_origin:'final/12-deepwell-station/music/elevenlabs-prompt-v3.txt',prompt_change:'Remove duration from descriptive prompt; preserve existing musical brief. Duration is a separate proposed test setting.',proposed_test:{seconds_per_sample:120,samples:2,mode:'instrumental',environmental_sfx_in_music:false},sound_direction:'Gently warm daylight synth ambience, slow changing inner tones and depth; separate water circulation SFX after choosing music.',carry_forward:['Short music comparison before long generation','Keep SFX separate for level and recurrence control','More frequent is distinct from louder','Preserve current visual/thumbnail versions until reviewed'],generation_status:'Prepared only; no new audio or paid generation',visual_verdict:'V4 not newly approved by moving to this video',publication_action:'User is handling Empty Junction upload; no upload or account action by assistant'});
+const agentsPath=path.join(R,'AGENTS.md');let agents=fs.readFileSync(agentsPath,'utf8');
+const note='Production moves to Deepwell (2026-11-01): user reports The Empty Junction is uploading and asks to move to the next video. Upload completion/public URL unverified. Catalog 12 Deepwell Station is now active; existing V4 twenty-second animation/repeat review and approved original thumbnail are preserved. No Deepwell audio has been supplied. music/deepwell-production-2026-11-01/ holds the session record and existing researched V3 pilot text with its duration removed from the prose; proposed manual test is two 120-second instrumental samples. No paid generation, new visual approval, upload action, commit or push. Choose music before separate water-circulation ambience; reuse Empty Junction lessons about independent SFX levels and recurrence.';
+if(!agents.includes('Production moves to Deepwell (2026-11-01):')){const i=agents.indexOf('\n')+1;fs.writeFileSync(agentsPath,agents.slice(0,i)+'\n'+note+'\n\n'+agents.slice(i));}
+console.log('Empty Junction marked user-reported uploading; Deepwell activated and short pilot prepared');

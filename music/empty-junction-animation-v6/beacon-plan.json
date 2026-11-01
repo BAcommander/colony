@@ -1,0 +1,42 @@
+{
+  "source_native_dimensions": [
+    1672,
+    941
+  ],
+  "anchors": [
+    {
+      "name": "cabin_tall",
+      "roi": [
+        261,
+        203,
+        286,
+        227
+      ],
+      "period_seconds": 6,
+      "phase_seconds": 0.65
+    },
+    {
+      "name": "cabin_short",
+      "roi": [
+        357,
+        260,
+        382,
+        284
+      ],
+      "period_seconds": 5,
+      "phase_seconds": 2.1
+    },
+    {
+      "name": "hall_mast",
+      "roi": [
+        956,
+        375,
+        981,
+        399
+      ],
+      "period_seconds": 4,
+      "phase_seconds": 1.2
+    }
+  ],
+  "pulse": "Soft 0.18s rise, 0.28s hold, 0.25s fall; independent periods and phases"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "received and ready for listening selection",
+  "sources": [
+    {
+      "title": "Waterworks Gallery",
+      "path": "music/deepwell-production-2026-11-01/sources/Waterworks_Gallery_2026-11-01T171541.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Waterworks_Gallery_2026-11-01T171541.mp4",
+      "sha256": "5a6b9b4b11283cd5fd5438fac1ba40588bd7f39eb53e4953bb8ac524a0828728",
+      "duration_seconds": 240,
+      "audition": "music/deepwell-production-2026-11-01/review/A-Waterworks-Gallery-4min-level-matched.mp3"
+    },
+    {
+      "title": "Sheltered Replenishment",
+      "path": "music/deepwell-production-2026-11-01/sources/Sheltered_Replenishment_2026-11-01T171541.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Sheltered_Replenishment_2026-11-01T171541.mp4",
+      "sha256": "121c115fc41985f20f17c77e6ec889c29869edf66ed92929043054e9746a1cd0",
+      "duration_seconds": 240,
+      "audition": "music/deepwell-production-2026-11-01/review/B-Sheltered-Replenishment-4min-level-matched.mp3"
+    }
+  ],
+  "selected": null,
+  "audio_approval": false,
+  "commit_or_push": false
+}

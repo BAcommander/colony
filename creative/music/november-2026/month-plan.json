@@ -36,14 +36,79 @@
       "long_requested_seconds": 480,
       "actual_model": null,
       "actual_cost_shown": null,
-      "generated_files": [],
-      "selected_pilot": null,
+      "generated_files": [
+        {
+          "title": "Waterworks Gallery",
+          "path": "music/deepwell-production-2026-11-01/sources/Waterworks_Gallery_2026-11-01T171541.mp4",
+          "original_path": "C:\\Users\\jazzs\\Downloads\\Waterworks_Gallery_2026-11-01T171541.mp4",
+          "sha256": "5a6b9b4b11283cd5fd5438fac1ba40588bd7f39eb53e4953bb8ac524a0828728",
+          "duration_seconds": 240,
+          "audition": "music/deepwell-production-2026-11-01/review/A-Waterworks-Gallery-4min-level-matched.mp3"
+        },
+        {
+          "title": "Sheltered Replenishment",
+          "path": "music/deepwell-production-2026-11-01/sources/Sheltered_Replenishment_2026-11-01T171541.mp4",
+          "original_path": "C:\\Users\\jazzs\\Downloads\\Sheltered_Replenishment_2026-11-01T171541.mp4",
+          "sha256": "121c115fc41985f20f17c77e6ec889c29869edf66ed92929043054e9746a1cd0",
+          "duration_seconds": 240,
+          "audition": "music/deepwell-production-2026-11-01/review/B-Sheltered-Replenishment-4min-level-matched.mp3"
+        }
+      ],
+      "selected_pilot": [
+        "Waterworks Gallery",
+        "Sheltered Replenishment"
+      ],
       "sfx_file": null,
-      "sfx_gain_db": null,
-      "sfx_schedule": null,
+      "sfx_gain_db": {
+        "water": -13.815149811213503,
+        "wind": 4.85,
+        "pump": 3.960000000000001
+      },
+      "sfx_schedule": "music/deepwell-production-2026-11-01/delivery-hour-v1/mix-recipe.json",
       "long_session_feedback": null,
       "release_date": null,
-      "status": "brief prepared, ungenerated"
+      "status": "One-hour 4K V4 video delivered with accepted music/water/wind/pump mix and current Colony opening; full technical validation passed. Final combined user playback pending.",
+      "actual_pilot_durations_seconds": [
+        240,
+        240
+      ],
+      "generation_provenance_note": "Supplied by user; exact prompt/model/cost unverified",
+      "sfx_files": [
+        "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\Clear_ocean_water_re_#1-1791650516724.mp3",
+        "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\Soft_wind_moving_thr_#4-1793463971195.mp3",
+        "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\A_distant_water-circ_#4-1793555177439.mp3"
+      ],
+      "audio_delivery": "music/deepwell-production-2026-11-01/delivery-hour-v1/delivery-paths.json",
+      "balance_approval": {
+        "date": "2026-11-01",
+        "verbatim": "yeah that sounds good now, lets get the 1 hour version ready",
+        "scope": "Acceptance follows the water-and-wind-in-composition excerpt at the current v4 balance, and authorizes a one-hour soundtrack. No full-hour listening or new animation verdict inferred."
+      },
+      "video_delivery": {
+        "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-4K-v1.mp4",
+        "sha256": "2ded2931f60db759cdbd0f563e2663cd3262f4364d751e769caa92d0b15f283f",
+        "bytes": 16644387474,
+        "seconds": 3600,
+        "dimensions": [
+          3840,
+          2160
+        ],
+        "fps": 30,
+        "validation": "music/deepwell-final-hour-v1/delivery-validation.json",
+        "native_dimensions": [
+          1672,
+          941
+        ],
+        "upscale": "Lanczos from native rendered frames",
+        "opening": "Current Colony v3 applied once",
+        "full_combined_user_review": "pending",
+        "assistant_inspection": "Decoded temporal stills and complete technical checks; no continuous playback or full listening"
+      },
+      "animation_approval": {
+        "date": "2026-11-01",
+        "verbatim": "ok i think it's decent shall we make the full version?",
+        "scope": "User reviewed current V4 full-scene animation and authorized the full version with the accepted one-hour soundtrack."
+      }
     },
     {
       "order": 3,

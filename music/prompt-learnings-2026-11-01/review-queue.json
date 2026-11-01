@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-01",
+  "status": "Review candidates, not adopted prompts",
+  "items": [
+    {
+      "scene": "11-empty-junction",
+      "current_prompt": "final/11-empty-junction/music/elevenlabs-prompt-v3.txt",
+      "current_sha256": "f81151b1666da50cfc97cbcc4f6ddbc3e5559e2eae0b55421c2f13fed8b98fcd",
+      "review_draft": "review-drafts/11-empty-junction-music-v4-review.txt",
+      "draft_sha256": "0e5e132fef0ad755618bbc9109cabf9148140b0fe5c14ed7d8e5099eddaaa0fa",
+      "change": "Remove duration from descriptive prompt only; musical wording preserved.",
+      "settings": "Choose duration/variants separately at next generation and record actual exported length.",
+      "status": "ungenerated review draft; canonical v3 unchanged",
+      "next_review": "Review musical palette for the next selected scene; do not add numerical spectral/stereo targets or regenerate accepted music by default."
+    },
+    {
+      "scene": "12-deepwell-station",
+      "current_prompt": "final/12-deepwell-station/music/elevenlabs-prompt-v3.txt",
+      "current_sha256": "261ef604503852e50792229950efe63dc6c7ada9c1b0a3cca20611262e710528",
+      "review_draft": "review-drafts/12-deepwell-station-music-v4-review.txt",
+      "draft_sha256": "aa9699a06a95463338cde83c0ebccf1afe31ae609a73b5a01ea84ece0e305d95",
+      "change": "Remove duration from descriptive prompt only; musical wording preserved.",
+      "settings": "Choose duration/variants separately at next generation and record actual exported length.",
+      "status": "ungenerated review draft; canonical v3 unchanged",
+      "next_review": "Review musical palette for the next selected scene; do not add numerical spectral/stereo targets or regenerate accepted music by default."
+    },
+    {
+      "scene": "13-below-the-snowline",
+      "current_prompt": "final/13-below-the-snowline/music/elevenlabs-prompt-v3.txt",
+      "current_sha256": "d127beb9289b816482abfa3ef1dd5208c56783b75f49f991ecde486c0e761de6",
+      "review_draft": "review-drafts/13-below-the-snowline-music-v4-review.txt",
+      "draft_sha256": "1e210efa9b36c614533ff1164b093b5b462b518812c1f23ea89626b3d6353b3d",
+      "change": "Remove duration from descriptive prompt only; musical wording preserved.",
+      "settings": "Choose duration/variants separately at next generation and record actual exported length.",
+      "status": "ungenerated review draft; canonical v3 unchanged",
+      "next_review": "Review musical palette for the next selected scene; do not add numerical spectral/stereo targets or regenerate accepted music by default."
+    },
+    {
+      "scene": "14-crater-rim-survey",
+      "current_prompt": "final/14-crater-rim-survey/music/elevenlabs-prompt-v3.txt",
+      "current_sha256": "3aed145203e044ca2f5f9218a0862809620d3c336cb7682159c005e7459a1557",
+      "review_draft": "review-drafts/14-crater-rim-survey-music-v4-review.txt",
+      "draft_sha256": "d58a8ebfb78dee82e22e2bfd42a6e158a6d66610809292fe550cfc372404f172",
+      "change": "Remove duration from descriptive prompt only; musical wording preserved.",
+      "settings": "Choose duration/variants separately at next generation and record actual exported length.",
+      "status": "ungenerated review draft; canonical v3 unchanged",
+      "next_review": "Review musical palette for the next selected scene; do not add numerical spectral/stereo targets or regenerate accepted music by default."
+    }
+  ],
+  "additional_reviews": [
+    {
+      "target": "Existing per-scene elevenlabs-long-version-v3.txt",
+      "action": "Review old eight-minute duration proposal against actual next generation settings; preserve until then."
+    },
+    {
+      "target": "Thumbnail prompt style",
+      "action": "Current clean scene; scene-only/one-word candidates; retain important scene cues and evaluate phone-size legibility. Generated edits are package comparisons."
+    },
+    {
+      "target": "SFX prompts",
+      "action": "Use library before new generation; short source/action/material brief with actual settings and contextual audition."
+    }
+  ]
+}

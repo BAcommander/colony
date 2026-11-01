@@ -1,0 +1,8 @@
+{
+  "method": "Assistant inspected local image files returned by view_image, without artificial motion amplification",
+  "inspected": ["preflight-005.70.png", "wind-decoded-0171.jpg", "quiet-decoded-0900.jpg"],
+  "observations": "Mountain fog is visible around and behind the lower ridges; planet remains separate from the mineral silhouettes; visible tall-cabin red beacon sits on the mast tip; darker gallery windows remain confined to apertures. Native-derived 4K stills retain the selected composition and warm cabin/hall hierarchy.",
+  "display_limit": "4K stills were displayed at 2048x1152 by the image tool; all 4K source/decoded picture controls are separately verified numerically.",
+  "continuous_playback": false,
+  "scope": "Production fidelity inspection of user-selected V6, not a new user artistic approval."
+}

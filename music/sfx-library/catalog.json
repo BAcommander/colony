@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "created": "2026-11-01",
+  "scope": "Starter library of six source sounds with contextual acceptance, deduplicated by original source hash. No universal favourite rating inferred.",
+  "preview_policy": "Preview copies use constant gain toward−24LUFS, limited for peak headroom. They are audition-only. Reuse original source_file with scene-specific gains.",
+  "reuse_policy": "Check location, distance, plateau level, event duration and quiet gaps in the actual composition before adopting. Keep gains and frequency separate.",
+  "entries": [
+    {
+      "id": "wind-soft-exterior-01",
+      "title": "Soft exterior wind",
+      "category": "Wind",
+      "description": "Soft wind intended as a distant exterior layer, including sheltered listening viewpoints.",
+      "usages": [
+        {
+          "scene": "The Empty Junction",
+          "source_gain_db": 7.850000000000001,
+          "event_seconds": 60,
+          "fade_seconds": [
+            5,
+            8
+          ],
+          "recipe": "music/empty-junction-final-hour-v2/mix-recipe.json",
+          "status": "balance accepted; later25% frequency increase requested"
+        },
+        {
+          "scene": "Deepwell Station",
+          "source_gain_db": 4.85,
+          "event_seconds": 60,
+          "fade_seconds": [
+            8,
+            12
+          ],
+          "recipe": "music/deepwell-production-2026-11-01/delivery-hour-v1/mix-recipe.json",
+          "status": "accepted balance"
+        }
+      ],
+      "reuse_notes": [
+        "30-second source; accepted prepared loop trims1–29s with4s overlap (24-second cycle).",
+        "An8-second rise is not an8-second event. Deepwell wind plays60-second passages.",
+        "Deepwell+4.85dB and Junction+7.85dB are source-specific, scene-specific settings."
+      ],
+      "aliases": [
+        "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\Soft_wind_moving_thr_#4-1793463971195.mp3"
+      ],
+      "related_prompt": null,
+      "source_file": "assets/wind-soft-exterior-01.mp3",
+      "source_sha256": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34",
+      "source_bytes": 721197,
+      "original_project_path": "music/empty-junction-music-v1/sources/Soft_wind_moving_thr_#4-1793463971195.mp3",
+      "duration_seconds": 30.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "measurements": {
+        "lufs": -42.8,
+        "lra_lu": 3.9,
+        "true_peak_dbtp": -24.7
+      },
+      "preview_file": "previews/wind-soft-exterior-01.mp3",
+      "preview_gain_db": 18.799999999999997,
+      "preview_measurements": {
+        "lufs": -24.3,
+        "lra_lu": 3.9,
+        "true_peak_dbtp": -6.2
+      },
+      "preview_sha256": "f712c160831374ab1093e8f638a4c61538067a12bb3e2d84bbea2e84686c70ef",
+      "approval": "Accepted in recorded scene mix",
+      "general_favourite": false,
+      "assistant_listening": false,
+      "provenance": "User-supplied generated SFX; exact provider/model/settings and licence terms not independently verified here. Existing source records retained."
+    },
+    {
+      "id": "water-soft-ripples-01",
+      "title": "Gentle exterior water",
+      "category": "Water",
+      "description": "Rolling/rippling ocean-water source reused quietly for the sheltered Deepwell gallery.",
+      "usages": [
+        {
+          "scene": "Deepwell Station",
+          "source_gain_db": -13.815149811213503,
+          "event_seconds": "40–70",
+          "fade_seconds": [
+            8,
+            12
+          ],
+          "recipe": "music/deepwell-production-2026-11-01/delivery-hour-v1/mix-recipe.json",
+          "status": "accepted balance"
+        }
+      ],
+      "reuse_notes": [
+        "Originally stored with Shoreless; do not describe this as a literal new circulation-pump recording.",
+        "Deepwell source gain includes the requested10% amplitude reduction.",
+        "Prepared loop trims1–29s with2s overlap (26-second cycle)."
+      ],
+      "aliases": [
+        "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\Clear_ocean_water_re_#1-1791650516724.mp3"
+      ],
+      "related_prompt": null,
+      "source_file": "assets/water-soft-ripples-01.mp3",
+      "source_sha256": "7ad78fbee2c965c4ec6e4372d38898b89d5fd77bd4dc3d2adf2b987bf9a7b2c2",
+      "source_bytes": 721197,
+      "original_project_path": "final/09-offshore-night-office/music/water-mix-v1/Clear_ocean_water_re_#1-1791650516724.mp3",
+      "duration_seconds": 30.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "measurements": {
+        "lufs": -27.1,
+        "lra_lu": 10.5,
+        "true_peak_dbtp": -7.5
+      },
+      "preview_file": "previews/water-soft-ripples-01.mp3",
+      "preview_gain_db": 3.1000000000000014,
+      "preview_measurements": {
+        "lufs": -24.3,
+        "lra_lu": 10.6,
+        "true_peak_dbtp": -4.5
+      },
+      "preview_sha256": "83aed7e1f82f6819c9b448d9fcd636995d356544c870b17121b8de29f089d5ff",
+      "approval": "Accepted in recorded scene mix",
+      "general_favourite": false,
+      "assistant_listening": false,
+      "provenance": "User-supplied generated SFX; exact provider/model/settings and licence terms not independently verified here. Existing source records retained."
+    },
+    {
+      "id": "train-distant-freight-01",
+      "title": "Distant freight passage",
+      "category": "Transport",
+      "description": "Distant freight/train texture intended to add railway identity without a foreground arrival.",
+      "usages": [
+        {
+          "scene": "The Empty Junction",
+          "source_gain_db": 4.5,
+          "event_seconds": 25,
+          "fade_seconds": [
+            3,
+            6
+          ],
+          "recipe": "music/empty-junction-final-hour-v2/mix-recipe.json",
+          "status": "balance accepted; laterfrequency increase requested"
+        }
+      ],
+      "reuse_notes": [
+        "Use complete25-second source; accepted timing places it in wind gaps.",
+        "Related written brief includes a distant whistle; actual rendered contents are not independently identified by the assistant."
+      ],
+      "aliases": [],
+      "related_prompt": {
+        "path": "prompts/train-distant-freight-01.txt",
+        "original_path": "music/empty-junction-music-v1/distant-train-sfx-prompt-v1.txt",
+        "sha256": "87620b8d5ec73ceb23a84f094ea28f0dab053d50741847415af2050112e2d58c",
+        "actual_generation_prompt_confirmed": false,
+        "scope": "Related saved brief, not proof of exact wording/settings used for this supplied source."
+      },
+      "source_file": "assets/train-distant-freight-01.mp3",
+      "source_sha256": "ec88e61ec6a720af5cf479c425f38a3864fe279ebfdc5cf0ea63b14915a6649e",
+      "source_bytes": 601389,
+      "original_project_path": "music/empty-junction-music-v1/sources/Distant_freight_trai_#4-1793489393057.mp3",
+      "duration_seconds": 25.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "measurements": {
+        "lufs": -39.5,
+        "lra_lu": 9.7,
+        "true_peak_dbtp": -20.3
+      },
+      "preview_file": "previews/train-distant-freight-01.mp3",
+      "preview_gain_db": 15.5,
+      "preview_measurements": {
+        "lufs": -24.2,
+        "lra_lu": 9.7,
+        "true_peak_dbtp": -5.2
+      },
+      "preview_sha256": "43c30c27defff10f23ef2ae3bb786c48f9ab6bb8b31b0695d329dc35caf16c41",
+      "approval": "Accepted in recorded scene mix",
+      "general_favourite": false,
+      "assistant_listening": false,
+      "provenance": "User-supplied generated SFX; exact provider/model/settings and licence terms not independently verified here. Existing source records retained."
+    },
+    {
+      "id": "grit-mineral-soft-01",
+      "title": "Fine mineral grit",
+      "category": "Surface texture",
+      "description": "Fine dry mineral-grit rustle intended for exposed steps/platform surfaces.",
+      "usages": [
+        {
+          "scene": "The Empty Junction",
+          "source_gain_db": -3.3,
+          "event_seconds": 12,
+          "fade_seconds": [
+            1,
+            2.5
+          ],
+          "recipe": "music/empty-junction-final-hour-v2/mix-recipe.json",
+          "status": "balance accepted; laterfrequency increase requested"
+        }
+      ],
+      "reuse_notes": [
+        "Earlier grit was too loud. Accepted source gain is−3.3dB,7.5dB below first mix.",
+        "Events also follow the wind envelope. Keep this as a secondary texture, and review it with music."
+      ],
+      "aliases": [],
+      "related_prompt": {
+        "path": "prompts/grit-mineral-soft-01.txt",
+        "original_path": "music/empty-junction-music-v1/mineral-grit-sfx-prompt-v1.txt",
+        "sha256": "69038ef9bf461d8b4de5e966a7c7e4fe18331c99719be2aa72bec4f5c0f1e362",
+        "actual_generation_prompt_confirmed": false,
+        "scope": "Related saved brief, not proof of exact wording/settings used for this supplied source."
+      },
+      "source_file": "assets/grit-mineral-soft-01.mp3",
+      "source_sha256": "1babf4e01c5d788e3b07fc89dd673e90dd2fe2e57db5ab26b60d3cf07bec2340",
+      "source_bytes": 289197,
+      "original_project_path": "music/empty-junction-music-v1/sources/Fine_dry_mineral_gri_#2-1793489678825.mp3",
+      "duration_seconds": 12.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "measurements": {
+        "lufs": -41.2,
+        "lra_lu": 4.2,
+        "true_peak_dbtp": -20.9
+      },
+      "preview_file": "previews/grit-mineral-soft-01.mp3",
+      "preview_gain_db": 17.200000000000003,
+      "preview_measurements": {
+        "lufs": -24.5,
+        "lra_lu": 4.3,
+        "true_peak_dbtp": -4.8
+      },
+      "preview_sha256": "0ade55b9059a8ccc795c977d6c141c324380fada2c58bc782a1125f39e8d5ab2",
+      "approval": "Accepted in recorded scene mix",
+      "general_favourite": false,
+      "assistant_listening": false,
+      "provenance": "User-supplied generated SFX; exact provider/model/settings and licence terms not independently verified here. Existing source records retained."
+    },
+    {
+      "id": "pump-distant-circulation-01",
+      "title": "Distant circulation pump",
+      "category": "Machinery",
+      "description": "Plant-room pump cycle intended as a rounded interior sound with pipe resonance.",
+      "usages": [
+        {
+          "scene": "Deepwell Station",
+          "source_gain_db": 3.960000000000001,
+          "event_seconds": 20,
+          "fade_seconds": [
+            3,
+            5
+          ],
+          "recipe": "music/deepwell-production-2026-11-01/delivery-hour-v1/mix-recipe.json",
+          "status": "accepted balance"
+        }
+      ],
+      "reuse_notes": [
+        "Complete20-second source;22 events in the accepted hour.",
+        "Placed in water/wind gaps. Balance is approved in the composition, not a universal machinery preset."
+      ],
+      "aliases": [],
+      "related_prompt": {
+        "path": "prompts/pump-distant-circulation-01.txt",
+        "original_path": "music/deepwell-production-2026-11-01/combined-review-v2/plant-room-pump-sfx-prompt.txt",
+        "sha256": "99ce98c0af67265e278da2277a9c33c78f32582aa0b93dd9c221d9f19474579b",
+        "actual_generation_prompt_confirmed": false,
+        "scope": "Related saved brief, not proof of exact wording/settings used for this supplied source."
+      },
+      "source_file": "assets/pump-distant-circulation-01.mp3",
+      "source_sha256": "c939da31dc0d2b3a1451a32368ad7216e2c7885f74e43a0bde3152d75a3c8e1f",
+      "source_bytes": 481581,
+      "original_project_path": "music/deepwell-production-2026-11-01/sources/A_distant_water-circ_#4-1793555177439.mp3",
+      "duration_seconds": 20.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "measurements": {
+        "lufs": -40.9,
+        "lra_lu": 1.3,
+        "true_peak_dbtp": -29.5
+      },
+      "preview_file": "previews/pump-distant-circulation-01.mp3",
+      "preview_gain_db": 16.9,
+      "preview_measurements": {
+        "lufs": -24.3,
+        "lra_lu": 1.3,
+        "true_peak_dbtp": -12.9
+      },
+      "preview_sha256": "0690a4ed48ffb3c712d6f81f2e040c80e49a91170143df8febd28c4872574284",
+      "approval": "Accepted in recorded scene mix",
+      "general_favourite": false,
+      "assistant_listening": false,
+      "provenance": "User-supplied generated SFX; exact provider/model/settings and licence terms not independently verified here. Existing source records retained."
+    },
+    {
+      "id": "rain-sheltered-gentle-01",
+      "title": "Gentle sheltered rain",
+      "category": "Rain",
+      "description": "Continuous gentle rain intended to be heard from shelter.",
+      "usages": [
+        {
+          "scene": "Rainline Relay",
+          "source_gain_db": -11.18043885283336,
+          "event_seconds": 120,
+          "fade_seconds": [
+            20,
+            30
+          ],
+          "recipe": "music/shared-rain-overlay/rain-preset-current.json",
+          "status": "accepted balance"
+        }
+      ],
+      "reuse_notes": [
+        "Approved v3 after two peak-level reductions;43.75% of originalv1 rain amplitude.",
+        "Two-minute passages with90 seconds off;2-second loop overlap.",
+        "Later current preset records approval; original v3 delivery report predates that approval."
+      ],
+      "aliases": [],
+      "related_prompt": {
+        "path": "prompts/rain-sheltered-gentle-01.txt",
+        "original_path": "music/shared-rain-overlay/rain-overlay-prompt-v2-short.txt",
+        "sha256": "dd1970158ff499066ba59478fd2e8bc4bd09c192b412a4da94da737fb8f9b678",
+        "actual_generation_prompt_confirmed": false,
+        "scope": "Related saved brief, not proof of exact wording/settings used for this supplied source."
+      },
+      "source_file": "assets/rain-sheltered-gentle-01.mp3",
+      "source_sha256": "60aea98d54ac02c6da1d0a3b22f882c7cd2071346e5f069275aded21d2f1a826",
+      "source_bytes": 721197,
+      "original_project_path": "music/shared-rain-overlay/Gentle_continuous_ra_#2-1791634292024.mp3",
+      "duration_seconds": 30.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "measurements": {
+        "lufs": -29.5,
+        "lra_lu": 0.7,
+        "true_peak_dbtp": -7.0
+      },
+      "preview_file": "previews/rain-sheltered-gentle-01.mp3",
+      "preview_gain_db": 5.0,
+      "preview_measurements": {
+        "lufs": -24.8,
+        "lra_lu": 0.7,
+        "true_peak_dbtp": -2.3
+      },
+      "preview_sha256": "fbee6f2d52c5b86146dde0539df2b93a3902ff56a403db03a63e7dc62adda719",
+      "approval": "Accepted in recorded scene mix",
+      "general_favourite": false,
+      "assistant_listening": false,
+      "provenance": "User-supplied generated SFX; exact provider/model/settings and licence terms not independently verified here. Existing source records retained."
+    }
+  ]
+}

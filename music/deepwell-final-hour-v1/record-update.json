@@ -1,0 +1,28 @@
+{
+  "status": "recorded",
+  "video": {
+    "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-4K-v1.mp4",
+    "sha256": "2ded2931f60db759cdbd0f563e2663cd3262f4364d751e769caa92d0b15f283f",
+    "bytes": 16644387474,
+    "seconds": 3600,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "validation": "music/deepwell-final-hour-v1/delivery-validation.json",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "upscale": "Lanczos from native rendered frames",
+    "opening": "Current Colony v3 applied once",
+    "full_combined_user_review": "pending",
+    "assistant_inspection": "Decoded temporal stills and complete technical checks; no continuous playback or full listening"
+  },
+  "approval": {
+    "date": "2026-11-01",
+    "verbatim": "ok i think it's decent shall we make the full version?",
+    "scope": "User reviewed current V4 full-scene animation and authorized the full version with the accepted one-hour soundtrack."
+  }
+}

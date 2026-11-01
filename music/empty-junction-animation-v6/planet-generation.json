@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "prompt": "planet-prompt.txt",
+  "original_returned_file": "C:\\Users\\jazzs\\.codex\\generated_images\\01a192a2-705f-7391-80a2-74e52ec3e7ea\\exec-68eb5fa7-6b6a-4993-9161-aa129681b796.png",
+  "workspace_asset": "ringed-planet-rgba.png",
+  "sha256": "78d3f4926cc0da1d6005b124c16698a1ba02ee8830588c2e3d5f21dbf4d7379d",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "original_generated_alpha_preserved": true,
+  "composition": "Placement, scale and atmospheric blend are explicit renderer settings; underlying scene plate is unchanged."
+}

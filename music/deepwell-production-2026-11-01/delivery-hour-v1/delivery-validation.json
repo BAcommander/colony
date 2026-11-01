@@ -1,0 +1,184 @@
+{
+  "status": "passed",
+  "outputs": [
+    {
+      "path": "G:\\AI\\colony\\exports\\12-deepwell-station\\Deepwell-Station-1-Hour-v1.flac",
+      "sha256": "ea5b2b80ff2f5d2a7bff22d7f5a7bea3b09851f7c043deaf3a91c9a6842bf20f",
+      "bytes": 592339509,
+      "seconds": 3600,
+      "sample_frames_per_channel": 172800000,
+      "all_finite": true,
+      "clipping_samples": 0,
+      "sample_peak_dbfs": -9.41231992212913,
+      "full_sample_recipe_max_error": 1.1897621254863822e-07,
+      "full_sample_recipe_snr_db": 118.569866539847,
+      "kind": "mix"
+    },
+    {
+      "path": "G:\\AI\\colony\\exports\\12-deepwell-station\\Deepwell-Station-1-Hour-v1.mp3",
+      "sha256": "710d059e4a445ae58391c7e26bcb605c0baefa112532da0e151caa20c1c55d4d",
+      "bytes": 86401196,
+      "seconds": 3600,
+      "sample_frames_per_channel": 172800000,
+      "all_finite": true,
+      "clipping_samples": 0,
+      "sample_peak_dbfs": -9.683012207554734,
+      "full_sample_recipe_max_error": 0.013812005519866943,
+      "full_sample_recipe_snr_db": 29.87083957556817,
+      "kind": "mix"
+    },
+    {
+      "path": "G:\\AI\\colony\\exports\\12-deepwell-station\\Deepwell-Station-1-Hour-dry-music-v1.flac",
+      "sha256": "f83076a34c25fbefe1123c7540509ad63f0cd252885468097de9028620253c95",
+      "bytes": 470951977,
+      "seconds": 3600,
+      "sample_frames_per_channel": 172800000,
+      "all_finite": true,
+      "clipping_samples": 0,
+      "sample_peak_dbfs": -9.623164769373911,
+      "full_sample_recipe_max_error": 1.1897621254863822e-07,
+      "full_sample_recipe_snr_db": 118.49557736444702,
+      "kind": "dry"
+    },
+    {
+      "path": "G:\\AI\\colony\\exports\\12-deepwell-station\\Deepwell-Station-1-Hour-SFX-only-v1.flac",
+      "sha256": "27b1d61ce41c4e08b5c68f14a9a2f6f74afd093a8a3496124f3593329c9c8e4c",
+      "bytes": 484732418,
+      "seconds": 3600,
+      "sample_frames_per_channel": 172800000,
+      "all_finite": true,
+      "clipping_samples": 0,
+      "sample_peak_dbfs": -19.796523691729742,
+      "full_sample_recipe_max_error": 1.1897623153345194e-07,
+      "full_sample_recipe_snr_db": 100.81991467166189,
+      "kind": "sfx"
+    }
+  ],
+  "full_mix_measurements": {
+    "i": -22.71,
+    "tp": -9.41,
+    "lra": 4.3,
+    "thresh": -32.72
+  },
+  "source_hashes_unchanged": true,
+  "accepted_first470_seconds_max_absolute_error": 3.5390257835388184e-07,
+  "prefix_note": "Compare to accepted v4 FLAC before its ten-second review closing fade. Quantization differences under1e-6; no musical or SFX gain change.",
+  "all_repeated_dry_joins_exact": [
+    {
+      "kind": "A-to-B",
+      "start": 204,
+      "end": 224,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "B-to-A",
+      "start": 392,
+      "end": 420,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "A-to-B",
+      "start": 592,
+      "end": 612,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "B-to-A",
+      "start": 780,
+      "end": 808,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "A-to-B",
+      "start": 980,
+      "end": 1000,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "B-to-A",
+      "start": 1168,
+      "end": 1196,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "A-to-B",
+      "start": 1368,
+      "end": 1388,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "B-to-A",
+      "start": 1556,
+      "end": 1584,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "A-to-B",
+      "start": 1756,
+      "end": 1776,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "B-to-A",
+      "start": 1944,
+      "end": 1972,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "A-to-B",
+      "start": 2144,
+      "end": 2164,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "B-to-A",
+      "start": 2332,
+      "end": 2360,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "A-to-B",
+      "start": 2532,
+      "end": 2552,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "B-to-A",
+      "start": 2720,
+      "end": 2748,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "A-to-B",
+      "start": 2920,
+      "end": 2940,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "B-to-A",
+      "start": 3108,
+      "end": 3136,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "A-to-B",
+      "start": 3308,
+      "end": 3328,
+      "identical_to_first_join": true
+    },
+    {
+      "kind": "B-to-A",
+      "start": 3496,
+      "end": 3524,
+      "identical_to_first_join": true
+    }
+  ],
+  "sfx_off_samples_exact_dry": 71040000,
+  "all_audio_frames_compared": true,
+  "samples_per_channel": 172800000,
+  "closing_fade_seconds": 20,
+  "last_sample_zero": true,
+  "assistant_listening": false,
+  "full_hour_user_review": "not yet reported",
+  "new_video_export": false
+}

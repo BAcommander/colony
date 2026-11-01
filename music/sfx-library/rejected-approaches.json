@@ -1,0 +1,17 @@
+{
+  "scope": "Feedback history, not a complete catalogue of rejected generated files",
+  "entries": [
+    {
+      "scene": "The Empty Junction",
+      "approach": "Radio chatter/static/electronic station sounds",
+      "feedback": "Voices unwanted; early voice-free version too quiet, later static lacked variety; no accepted radio layer in final mix.",
+      "decision": "Do not treat these approaches as approved library sounds."
+    },
+    {
+      "scene": "The Empty Junction",
+      "approach": "Cabin/compressor mechanical effect",
+      "feedback": "User said it did not feel ambient enough and preferred trying distant train/whistle.",
+      "decision": "Retain history in original project; not in accepted starter set."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "complete_bright_core_masks_used": true,
+  "windows": [
+    {
+      "name": "gallery_2",
+      "on_mean_rgb": 187.3333282470703,
+      "off_mean_rgb": 30.11111111111111,
+      "remaining_fraction": 0.16073547292875803
+    },
+    {
+      "name": "gallery_3",
+      "on_mean_rgb": 184.8333282470703,
+      "off_mean_rgb": 30.166666666666668,
+      "remaining_fraction": 0.1632101036796908
+    },
+    {
+      "name": "gallery_4",
+      "on_mean_rgb": 198.9920654296875,
+      "off_mean_rgb": 30.952380952380953,
+      "remaining_fraction": 0.15554580473118296
+    },
+    {
+      "name": "gallery_5",
+      "on_mean_rgb": 177.5170135498047,
+      "off_mean_rgb": 29.775510204081634,
+      "remaining_fraction": 0.16773327586275402
+    },
+    {
+      "name": "gallery_6",
+      "on_mean_rgb": 185.6666717529297,
+      "off_mean_rgb": 30.178861788617887,
+      "remaining_fraction": 0.16254323677852908
+    },
+    {
+      "name": "gallery_7",
+      "on_mean_rgb": 170.45237731933594,
+      "off_mean_rgb": 29.339285714285715,
+      "remaining_fraction": 0.17212599891945007
+    },
+    {
+      "name": "gallery_8",
+      "on_mean_rgb": 180.79127502441406,
+      "off_mean_rgb": 29.94080996884735,
+      "remaining_fraction": 0.1656098169826179
+    },
+    {
+      "name": "hall_0",
+      "on_mean_rgb": 188.1458282470703,
+      "off_mean_rgb": 30.333333333333332,
+      "remaining_fraction": 0.16122246034336754
+    },
+    {
+      "name": "hall_1",
+      "on_mean_rgb": 197.4736785888672,
+      "off_mean_rgb": 30.92982456140351,
+      "remaining_fraction": 0.15662758086255257
+    },
+    {
+      "name": "hall_2",
+      "on_mean_rgb": 178.96888732910156,
+      "off_mean_rgb": 31.16,
+      "remaining_fraction": 0.1741084747467901
+    },
+    {
+      "name": "hall_3",
+      "on_mean_rgb": 178.4927520751953,
+      "off_mean_rgb": 29.855072463768117,
+      "remaining_fraction": 0.16726209953438775
+    },
+    {
+      "name": "hall_4",
+      "on_mean_rgb": 172.80128479003906,
+      "off_mean_rgb": 29.5,
+      "remaining_fraction": 0.1707163232949556
+    },
+    {
+      "name": "hall_5",
+      "on_mean_rgb": 177.38888549804688,
+      "off_mean_rgb": 29.76388888888889,
+      "remaining_fraction": 0.16778891645506505
+    },
+    {
+      "name": "hall_6",
+      "on_mean_rgb": 181.0263214111328,
+      "off_mean_rgb": 29.99122807017544,
+      "remaining_fraction": 0.16567330008359232
+    },
+    {
+      "name": "hall_7",
+      "on_mean_rgb": 177.20437622070312,
+      "off_mean_rgb": 29.690997566909974,
+      "remaining_fraction": 0.16755228172204203
+    },
+    {
+      "name": "hall_8",
+      "on_mean_rgb": 162.07408142089844,
+      "off_mean_rgb": 28.8,
+      "remaining_fraction": 0.1776965184532363
+    },
+    {
+      "name": "upper_left",
+      "on_mean_rgb": 188.1553955078125,
+      "off_mean_rgb": 30.330827067669173,
+      "remaining_fraction": 0.16120094236898877
+    },
+    {
+      "name": "upper_right",
+      "on_mean_rgb": 186.56263732910156,
+      "off_mean_rgb": 30.237791932059448,
+      "remaining_fraction": 0.16207849741488786
+    }
+  ],
+  "note": "Brightness evidence, not user visual acceptance. The inherited apertures.json preserves V5 geometry/timing; current strength is in scene-plan-v6.json."
+}

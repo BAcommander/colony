@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-01",
+  "verbatim": "lets use both like we did with junction, we also had a water SFX we made before right? should be in the repo, and what about the wind we had too? can we combine it all?",
+  "selected_music": [
+    "Waterworks Gallery",
+    "Sheltered Replenishment"
+  ],
+  "use_both_authorized": true,
+  "combine_existing_water_and_wind_authorized": true,
+  "new_join_and_effect_balance_approval": false,
+  "final_duration_unset": true
+}

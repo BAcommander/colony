@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-01",
+  "wind_request": "yeah the wind is still too quiet, lets try the 3db louder version in the mix",
+  "pump_request": "here the distant water pmp for more variance",
+  "wind_increase_applied_db": 3,
+  "prior_water_amplitude_reduction": 0.9,
+  "pump_supplied": "C:\\Users\\jazzs\\Downloads\\A_distant_water-circ_#4-1793555177439.mp3",
+  "main_mix_seconds": 480,
+  "final_duration_unset": true
+}

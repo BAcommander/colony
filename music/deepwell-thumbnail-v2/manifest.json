@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-01",
+  "method": "Built-in image_gen lettering edit; ffmpeg Lanczos format-sized JPEGs; exact original clean source retained for scene-only candidate.",
+  "prompt": "prompt.txt",
+  "references": [
+    {
+      "role": "edit target",
+      "path": "G:\\AI\\colony\\music\\deepwell-animation-v4\\v3-snapshot\\v2-snapshot\\baseline-snapshot\\artwork-planet-v1.png",
+      "sha256": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b"
+    },
+    {
+      "role": "typography reference only",
+      "path": "music/empty-junction-visual-revision-v1/thumbnail-revised-junction-v1.jpg",
+      "sha256": "8ca8c1590fbc6abf93f694f8419bc0db80c82173e84cc6c89655b7d0dac37a92"
+    }
+  ],
+  "original_generated_file": "C:/Users/jazzs/.codex/generated_images/01a192a2-705f-7391-80a2-74e52ec3e7ea/exec-f41ea52d-d940-4a25-8566-b8fe9e0fd143.png",
+  "files": {
+    "deepwell-scene-master.png": {
+      "sha256": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b",
+      "bytes": 2385467,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    "deepwell-title-master.png": {
+      "sha256": "cdf910c4566d46dd82ed086b0da436f38bcac668815ab55acf91eb056dc3f220",
+      "bytes": 2402461,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    "Deepwell-title-v2.jpg": {
+      "sha256": "3bf37d2e2d3baa91e3b8417338249d7f9c151adba1771bf3f534f26a631d9ddb",
+      "bytes": 292831,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    "Deepwell-scene-only-v2.jpg": {
+      "sha256": "6cf987512cbcf144a6631f8faaf1e8678e021f6820aa684a06557b1fd3bc4d94",
+      "bytes": 282155,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    "phone-comparison.png": {
+      "sha256": "c6de16bc5e9eb8608ff52a837389485d516790bfcdab8c052598dd953c9a5df5",
+      "bytes": 310250,
+      "dimensions": [
+        960,
+        180
+      ],
+      "mode": "RGB"
+    },
+    "prompt.txt": {
+      "sha256": "dd6ce220ad612c98b6466b6dc759f9246688bed2447bb44c86e6e280d87d28d3",
+      "bytes": 1443
+    }
+  },
+  "outside_generous_text_region": {
+    "excluded_roi_xyxy": [
+      0,
+      0,
+      535,
+      205
+    ],
+    "mean_absolute_channel_difference_0_255": 7.87508241230818,
+    "fraction_pixels_any_channel_difference_gt5": 0.630563300509607,
+    "interpretation": "Generative scene changes occur outside lettering. Not a controlled text-only comparison."
+  },
+  "inspection": "Full generated still and320x180 comparison inspected: title spelled correctly, single-line text, planet and landscape retained, header/subtitle/number removed. Some fine texture and contrast drift.",
+  "assistant_preference": "one-word candidate for a readable scene-first upload; no performance claim",
+  "user_selection": "pending",
+  "canonical_thumbnail_preserved": true,
+  "video_audio_unchanged": true
+}

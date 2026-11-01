@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "outputs": [
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v4\\Deepwell-both-music-water-wind-pump-8min-v4.flac",
+      "sha256": "414e875a6f9ddf387a277eefd3b34dedfa63a6ffc3c97e78bec821d5126e6a5f",
+      "seconds": 480.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -9.624820379055114,
+      "gain_recipe_snr_db": 127.56410400828968,
+      "max_absolute_error": 1.1894735507667065e-07
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v4\\Deepwell-both-music-water-wind-pump-8min-v4.mp3",
+      "sha256": "d0f8b815a7af55329293e57d1bd1fb6ccefcac2c770a9190858efc2f99fe9fbd",
+      "seconds": 480.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -9.887402238614468,
+      "gain_recipe_snr_db": 29.869563400306205,
+      "max_absolute_error": 0.013110026717185974
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v4\\Deepwell-pump-and-louder-wind-in-music-60s-v4.mp3",
+      "sha256": "4d562f471bb92406b380e09698e07e854ce4ca836ec95b427a485215e4530c70",
+      "seconds": 60.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -11.030797377136729,
+      "gain_recipe_snr_db": 29.990792863851592,
+      "max_absolute_error": 0.014448747038841248
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v4\\Deepwell-louder-wind-in-composition-80s-v4.mp3",
+      "sha256": "8e1b66d703652a802078e69fedc173b272933cad2a2e4af7ce511380476514a4",
+      "seconds": 80.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -11.044645439016698,
+      "gain_recipe_snr_db": 29.91164992527082,
+      "max_absolute_error": 0.023016035556793213
+    }
+  ],
+  "full_mix_measurements": {
+    "i": -22.73,
+    "tp": -9.62,
+    "lra": 4.5,
+    "thresh": -32.8
+  },
+  "all_files_fully_decoded_and_recipe_compared": true,
+  "outside_pump_windows_exact_to_v3": true,
+  "pump_events_avoid_water_and_wind": true,
+  "input_hashes_unchanged": true,
+  "assistant_listening": false,
+  "user_mix_approval": false
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-01",
+  "title": "Deepwell Station — Water for a New World | 1 Hour Sci-Fi Ambient",
+  "title_characters": 64,
+  "thumbnail_sha256": "55c75db1e2c2a43a359ac6c23f79283bef894328e48c11d4013280cc57d2c776",
+  "thumbnail_changed": false,
+  "canonical_upload_files_updated": true,
+  "old_files_preserved": "previous-copy/",
+  "files": {
+    "youtube-title.txt": "47c71b46158bc2c1d64efb650be7ee05acfe3380389f9087ccc60b69c8d15f8b",
+    "description.txt": "6c09ad9345a0e0fc53345fa4e928bcb78dfd6908c39cbd5daac6a18d8b5cc389",
+    "youtube-tags.txt": "c52c37977192c7507132a9f9214a846d6509f9a678ea1386e80da723c476bc3e",
+    "thumbnail-current.jpg": "55c75db1e2c2a43a359ac6c23f79283bef894328e48c11d4013280cc57d2c776",
+    "upload-notes.txt": "8406a6ea0e2aefd1089ee032a4c9ef487d87d8aaa54a4c21bc1f9176a21a4994"
+  },
+  "soundtrack_unchanged": true,
+  "uploaded": false,
+  "thumbnail_candidates": {
+    "status": "User selection pending; original thumbnail-current.jpg retained",
+    "folder": "thumbnail-candidates",
+    "manifest": "music/deepwell-thumbnail-v2/manifest.json"
+  }
+}

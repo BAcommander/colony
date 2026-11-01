@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "seconds": 3600,
+  "sample_frames": 172800000,
+  "all_finite_unclipped": true,
+  "sample_peak_dbfs": -10.174554877593508,
+  "entire_mix_correlation": 0.9999534682799475,
+  "gain_difference_db": -0.007481851512797956,
+  "aac_snr_db": 40.28146180532073,
+  "actual_Colony_audio_graph": "[0:a:0]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,volume=0.00dB[a0];[a0]alimiter=limit=0.8414:level=0:latency=1[intro_mix];[intro_mix]afade=t=in:st=5:d=15:curve=hsin[aout]",
+  "silent_first_four_seconds_peak": 0.0,
+  "intro_audio_envelope_once": true
+}

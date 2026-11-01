@@ -1,0 +1,4 @@
+render-cache/
+verification-cache/
+masters/*.mp4
+remote-backup-verification.json

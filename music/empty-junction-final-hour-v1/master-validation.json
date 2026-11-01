@@ -1,0 +1,1541 @@
+{
+  "status": "passed",
+  "units": [
+    {
+      "file": "Empty-Junction-v6-wind-60s-720p.mp4",
+      "frames": 1800,
+      "all_timestamps_exact": true,
+      "regional_seams": {
+        "clouds": {
+          "seam_mae": 0.06051213198628641,
+          "ordinary_max": 0.2437337178881531,
+          "neighbour_max": 0.06734129516516242
+        },
+        "window_gallery_0": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.6712962962962963,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_1": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.505804311774461,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_2": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.65361803084223,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_3": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.0602957906712174,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_4": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.3212487411883185,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_5": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.4955223880597015,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_6": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.5480859010270773,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_7": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.398745519713262,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_8": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.7230639730639736,
+          "neighbour_max": 0.0
+        },
+        "window_hall_0": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.118279569892473,
+          "neighbour_max": 0.0
+        },
+        "window_hall_1": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.6074074074074076,
+          "neighbour_max": 0.0
+        },
+        "window_hall_2": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.7972508591065295,
+          "neighbour_max": 0.0
+        },
+        "window_hall_3": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.7870370370370368,
+          "neighbour_max": 0.0
+        },
+        "window_hall_4": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.76010101010101,
+          "neighbour_max": 0.0
+        },
+        "window_hall_5": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.9017341040462425,
+          "neighbour_max": 0.0
+        },
+        "window_hall_6": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.90138067061144,
+          "neighbour_max": 0.0
+        },
+        "window_hall_7": {
+          "seam_mae": 0.0,
+          "ordinary_max": 3.2068452380952377,
+          "neighbour_max": 0.0
+        },
+        "window_hall_8": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.5519125683060113,
+          "neighbour_max": 0.0
+        },
+        "window_upper_left": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.8365384615384617,
+          "neighbour_max": 0.0
+        },
+        "window_upper_right": {
+          "seam_mae": 0.0,
+          "ordinary_max": 3.0013280212483395,
+          "neighbour_max": 0.0
+        },
+        "window_cabin": {
+          "seam_mae": 0.0,
+          "ordinary_max": 6.009324009324009,
+          "neighbour_max": 0.0
+        },
+        "practical_door_lamp": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.8109092979559298,
+          "neighbour_max": 3.795858718138511e-05
+        },
+        "practical_roof_amber": {
+          "seam_mae": 0.0,
+          "ordinary_max": 4.413966049382716,
+          "neighbour_max": 0.0
+        },
+        "practical_yard_signal": {
+          "seam_mae": 0.0,
+          "ordinary_max": 4.405165456012914,
+          "neighbour_max": 0.0
+        },
+        "practical_hall_practical": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.31326403326403324,
+          "neighbour_max": 0.0
+        },
+        "practical_upper_door_lamp": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.6048545597484276,
+          "neighbour_max": 0.0
+        },
+        "far_mist": {
+          "seam_mae": 0.06818678516791725,
+          "ordinary_max": 0.15089483014011315,
+          "neighbour_max": 0.07175639251110949
+        },
+        "middle_mist": {
+          "seam_mae": 0.13182276414958474,
+          "ordinary_max": 0.22704942953610807,
+          "neighbour_max": 0.1448482230009761
+        },
+        "cabin_exhaust": {
+          "seam_mae": 0.15871033398094184,
+          "ordinary_max": 0.2267092237949857,
+          "neighbour_max": 0.15598112683874552
+        },
+        "yard_powder": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.16942540266399153,
+          "neighbour_max": 0.02177265043006558
+        },
+        "planet": {
+          "seam_mae": 0.06804956527692202,
+          "ordinary_max": 0.07852399534469774,
+          "neighbour_max": 0.0703772164030944
+        },
+        "beacon_cabin_tall": {
+          "seam_mae": 1.1377613776137763,
+          "ordinary_max": 1.6728167281672814,
+          "neighbour_max": 1.2915129151291513
+        },
+        "beacon_cabin_short": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.782190132370638,
+          "neighbour_max": 0.0
+        },
+        "beacon_hall_mast": {
+          "seam_mae": 0.03146853146853147,
+          "ordinary_max": 1.7948717948717947,
+          "neighbour_max": 0.6083916083916084
+        },
+        "combined": {
+          "seam_mae": 0.05614981494824093,
+          "ordinary_max": 0.22009150978834513,
+          "neighbour_max": 0.058961000572705945
+        }
+      },
+      "chunk_boundaries": {
+        "450": {
+          "clouds": 0.0683772725891424,
+          "window_gallery_0": 0.0,
+          "window_gallery_1": 0.0,
+          "window_gallery_2": 0.0,
+          "window_gallery_3": 0.0,
+          "window_gallery_4": 0.0,
+          "window_gallery_5": 0.0,
+          "window_gallery_6": 0.0,
+          "window_gallery_7": 0.0,
+          "window_gallery_8": 0.0,
+          "window_hall_0": 0.0,
+          "window_hall_1": 0.0,
+          "window_hall_2": 0.0,
+          "window_hall_3": 0.0,
+          "window_hall_4": 0.0,
+          "window_hall_5": 0.0,
+          "window_hall_6": 0.0,
+          "window_hall_7": 0.0,
+          "window_hall_8": 0.0,
+          "window_upper_left": 0.0,
+          "window_upper_right": 0.0,
+          "window_cabin": 0.0,
+          "practical_door_lamp": 0.002467308166790032,
+          "practical_roof_amber": 0.0,
+          "practical_yard_signal": 0.0,
+          "practical_hall_practical": 0.0,
+          "practical_upper_door_lamp": 0.0,
+          "far_mist": 0.06823535125421919,
+          "middle_mist": 0.20922343302449875,
+          "cabin_exhaust": 0.1996946988620594,
+          "yard_powder": 0.12814653811142693,
+          "planet": 0.05593208735537756,
+          "beacon_cabin_tall": 0.055350553505535055,
+          "beacon_cabin_short": 0.0,
+          "beacon_hall_mast": 0.24825174825174826,
+          "combined": 0.07942907991403252
+        },
+        "900": {
+          "clouds": 0.0524674219632739,
+          "window_gallery_0": 0.0,
+          "window_gallery_1": 0.0,
+          "window_gallery_2": 0.0,
+          "window_gallery_3": 0.0,
+          "window_gallery_4": 0.0,
+          "window_gallery_5": 0.0,
+          "window_gallery_6": 0.0,
+          "window_gallery_7": 0.0,
+          "window_gallery_8": 0.0,
+          "window_hall_0": 0.0,
+          "window_hall_1": 0.0,
+          "window_hall_2": 0.0,
+          "window_hall_3": 0.0,
+          "window_hall_4": 0.0,
+          "window_hall_5": 0.0,
+          "window_hall_6": 0.0,
+          "window_hall_7": 0.0,
+          "window_hall_8": 0.0,
+          "window_upper_left": 0.0,
+          "window_upper_right": 0.0,
+          "window_cabin": 0.0,
+          "practical_door_lamp": 0.0036250450758222776,
+          "practical_roof_amber": 0.0,
+          "practical_yard_signal": 0.0,
+          "practical_hall_practical": 0.0,
+          "practical_upper_door_lamp": 0.0,
+          "far_mist": 0.0672397464850295,
+          "middle_mist": 0.12878242363144674,
+          "cabin_exhaust": 0.20441298917568695,
+          "yard_powder": 0.14077913392409294,
+          "planet": 0.06277812007941398,
+          "beacon_cabin_tall": 1.2484624846248462,
+          "beacon_cabin_short": 0.0,
+          "beacon_hall_mast": 0.1456876456876457,
+          "combined": 0.06450331615215503
+        },
+        "1350": {
+          "clouds": 0.06671694610431049,
+          "window_gallery_0": 0.0,
+          "window_gallery_1": 0.0,
+          "window_gallery_2": 0.0,
+          "window_gallery_3": 0.0,
+          "window_gallery_4": 0.0,
+          "window_gallery_5": 0.0,
+          "window_gallery_6": 0.0,
+          "window_gallery_7": 0.0,
+          "window_gallery_8": 0.0,
+          "window_hall_0": 0.0,
+          "window_hall_1": 0.0,
+          "window_hall_2": 0.0,
+          "window_hall_3": 0.0,
+          "window_hall_4": 0.0,
+          "window_hall_5": 0.0,
+          "window_hall_6": 0.0,
+          "window_hall_7": 0.0,
+          "window_hall_8": 0.0,
+          "window_upper_left": 0.0,
+          "window_upper_right": 0.0,
+          "window_cabin": 0.0,
+          "practical_door_lamp": 0.004289320351496518,
+          "practical_roof_amber": 0.0,
+          "practical_yard_signal": 0.0,
+          "practical_hall_practical": 0.0,
+          "practical_upper_door_lamp": 0.0,
+          "far_mist": 0.06689978388091596,
+          "middle_mist": 0.13113468708495352,
+          "cabin_exhaust": 0.17124618373577574,
+          "yard_powder": 0.14977056976722583,
+          "planet": 0.048264530704456764,
+          "beacon_cabin_tall": 0.022140221402214024,
+          "beacon_cabin_short": 0.0,
+          "beacon_hall_mast": 0.10139860139860139,
+          "combined": 0.07193925622124923
+        }
+      }
+    },
+    {
+      "file": "Empty-Junction-v6-quiet-60s-720p.mp4",
+      "frames": 1800,
+      "all_timestamps_exact": true,
+      "regional_seams": {
+        "clouds": {
+          "seam_mae": 0.06051213198628641,
+          "ordinary_max": 0.2437337178881531,
+          "neighbour_max": 0.06734129516516242
+        },
+        "window_gallery_0": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.6712962962962963,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_1": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.505804311774461,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_2": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.65361803084223,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_3": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.0602957906712174,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_4": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.3212487411883185,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_5": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.4955223880597015,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_6": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.5480859010270773,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_7": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.398745519713262,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_8": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.7230639730639736,
+          "neighbour_max": 0.0
+        },
+        "window_hall_0": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.118279569892473,
+          "neighbour_max": 0.0
+        },
+        "window_hall_1": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.6074074074074076,
+          "neighbour_max": 0.0
+        },
+        "window_hall_2": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.7972508591065295,
+          "neighbour_max": 0.0
+        },
+        "window_hall_3": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.7870370370370368,
+          "neighbour_max": 0.0
+        },
+        "window_hall_4": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.76010101010101,
+          "neighbour_max": 0.0
+        },
+        "window_hall_5": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.9017341040462425,
+          "neighbour_max": 0.0
+        },
+        "window_hall_6": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.90138067061144,
+          "neighbour_max": 0.0
+        },
+        "window_hall_7": {
+          "seam_mae": 0.0,
+          "ordinary_max": 3.2068452380952377,
+          "neighbour_max": 0.0
+        },
+        "window_hall_8": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.5519125683060113,
+          "neighbour_max": 0.0
+        },
+        "window_upper_left": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.8365384615384617,
+          "neighbour_max": 0.0
+        },
+        "window_upper_right": {
+          "seam_mae": 0.0,
+          "ordinary_max": 3.0013280212483395,
+          "neighbour_max": 0.0
+        },
+        "window_cabin": {
+          "seam_mae": 0.0,
+          "ordinary_max": 6.009324009324009,
+          "neighbour_max": 0.0
+        },
+        "practical_door_lamp": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.8144584258573895,
+          "neighbour_max": 0.0
+        },
+        "practical_roof_amber": {
+          "seam_mae": 0.0,
+          "ordinary_max": 4.413966049382716,
+          "neighbour_max": 0.0
+        },
+        "practical_yard_signal": {
+          "seam_mae": 0.0,
+          "ordinary_max": 4.405165456012914,
+          "neighbour_max": 0.0
+        },
+        "practical_hall_practical": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.31326403326403324,
+          "neighbour_max": 0.0
+        },
+        "practical_upper_door_lamp": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.6048545597484276,
+          "neighbour_max": 0.0
+        },
+        "far_mist": {
+          "seam_mae": 0.06818678516791725,
+          "ordinary_max": 0.15089483014011315,
+          "neighbour_max": 0.07175639251110949
+        },
+        "middle_mist": {
+          "seam_mae": 0.13182276414958474,
+          "ordinary_max": 0.22704942953610807,
+          "neighbour_max": 0.1448482230009761
+        },
+        "cabin_exhaust": {
+          "seam_mae": 0.15871033398094184,
+          "ordinary_max": 0.2267092237949857,
+          "neighbour_max": 0.15598112683874552
+        },
+        "yard_powder": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.02857195935276524,
+          "neighbour_max": 0.0
+        },
+        "planet": {
+          "seam_mae": 0.06804956527692202,
+          "ordinary_max": 0.07852399534469774,
+          "neighbour_max": 0.0703772164030944
+        },
+        "beacon_cabin_tall": {
+          "seam_mae": 1.1377613776137763,
+          "ordinary_max": 1.6728167281672814,
+          "neighbour_max": 1.2915129151291513
+        },
+        "beacon_cabin_short": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.782190132370638,
+          "neighbour_max": 0.0
+        },
+        "beacon_hall_mast": {
+          "seam_mae": 0.03146853146853147,
+          "ordinary_max": 1.7948717948717947,
+          "neighbour_max": 0.6083916083916084
+        },
+        "combined": {
+          "seam_mae": 0.05614981494824093,
+          "ordinary_max": 0.2088067394557446,
+          "neighbour_max": 0.058703898711103715
+        }
+      },
+      "chunk_boundaries": {
+        "450": {
+          "clouds": 0.0683772725891424,
+          "window_gallery_0": 0.0,
+          "window_gallery_1": 0.0,
+          "window_gallery_2": 0.0,
+          "window_gallery_3": 0.0,
+          "window_gallery_4": 0.0,
+          "window_gallery_5": 0.0,
+          "window_gallery_6": 0.0,
+          "window_gallery_7": 0.0,
+          "window_gallery_8": 0.0,
+          "window_hall_0": 0.0,
+          "window_hall_1": 0.0,
+          "window_hall_2": 0.0,
+          "window_hall_3": 0.0,
+          "window_hall_4": 0.0,
+          "window_hall_5": 0.0,
+          "window_hall_6": 0.0,
+          "window_hall_7": 0.0,
+          "window_hall_8": 0.0,
+          "window_upper_left": 0.0,
+          "window_upper_right": 0.0,
+          "window_cabin": 0.0,
+          "practical_door_lamp": 0.0,
+          "practical_roof_amber": 0.0,
+          "practical_yard_signal": 0.0,
+          "practical_hall_practical": 0.0,
+          "practical_upper_door_lamp": 0.0,
+          "far_mist": 0.06823535125421919,
+          "middle_mist": 0.20922343302449875,
+          "cabin_exhaust": 0.1996946988620594,
+          "yard_powder": 0.0,
+          "planet": 0.05593208735537756,
+          "beacon_cabin_tall": 0.055350553505535055,
+          "beacon_cabin_short": 0.0,
+          "beacon_hall_mast": 0.24825174825174826,
+          "combined": 0.06880938745096589
+        },
+        "900": {
+          "clouds": 0.0524674219632739,
+          "window_gallery_0": 0.0,
+          "window_gallery_1": 0.0,
+          "window_gallery_2": 0.0,
+          "window_gallery_3": 0.0,
+          "window_gallery_4": 0.0,
+          "window_gallery_5": 0.0,
+          "window_gallery_6": 0.0,
+          "window_gallery_7": 0.0,
+          "window_gallery_8": 0.0,
+          "window_hall_0": 0.0,
+          "window_hall_1": 0.0,
+          "window_hall_2": 0.0,
+          "window_hall_3": 0.0,
+          "window_hall_4": 0.0,
+          "window_hall_5": 0.0,
+          "window_hall_6": 0.0,
+          "window_hall_7": 0.0,
+          "window_hall_8": 0.0,
+          "window_upper_left": 0.0,
+          "window_upper_right": 0.0,
+          "window_cabin": 0.0,
+          "practical_door_lamp": 0.0,
+          "practical_roof_amber": 0.0,
+          "practical_yard_signal": 0.0,
+          "practical_hall_practical": 0.0,
+          "practical_upper_door_lamp": 0.0,
+          "far_mist": 0.0672397464850295,
+          "middle_mist": 0.12878242363144674,
+          "cabin_exhaust": 0.20441298917568695,
+          "yard_powder": 0.0,
+          "planet": 0.06277812007941398,
+          "beacon_cabin_tall": 1.2484624846248462,
+          "beacon_cabin_short": 0.0,
+          "beacon_hall_mast": 0.1456876456876457,
+          "combined": 0.052836741857414694
+        },
+        "1350": {
+          "clouds": 0.06671694610431049,
+          "window_gallery_0": 0.0,
+          "window_gallery_1": 0.0,
+          "window_gallery_2": 0.0,
+          "window_gallery_3": 0.0,
+          "window_gallery_4": 0.0,
+          "window_gallery_5": 0.0,
+          "window_gallery_6": 0.0,
+          "window_gallery_7": 0.0,
+          "window_gallery_8": 0.0,
+          "window_hall_0": 0.0,
+          "window_hall_1": 0.0,
+          "window_hall_2": 0.0,
+          "window_hall_3": 0.0,
+          "window_hall_4": 0.0,
+          "window_hall_5": 0.0,
+          "window_hall_6": 0.0,
+          "window_hall_7": 0.0,
+          "window_hall_8": 0.0,
+          "window_upper_left": 0.0,
+          "window_upper_right": 0.0,
+          "window_cabin": 0.0,
+          "practical_door_lamp": 0.0,
+          "practical_roof_amber": 0.0,
+          "practical_yard_signal": 0.0,
+          "practical_hall_practical": 0.0,
+          "practical_upper_door_lamp": 0.0,
+          "far_mist": 0.06689978388091596,
+          "middle_mist": 0.13113468708495352,
+          "cabin_exhaust": 0.17124618373577574,
+          "yard_powder": 0.0,
+          "planet": 0.048264530704456764,
+          "beacon_cabin_tall": 0.022140221402214024,
+          "beacon_cabin_short": 0.0,
+          "beacon_hall_mast": 0.10139860139860139,
+          "combined": 0.05952754838749408
+        }
+      }
+    },
+    {
+      "file": "Empty-Junction-v6-wind-60s-4K.mp4",
+      "frames": 1800,
+      "all_timestamps_exact": true,
+      "regional_seams": {
+        "clouds": {
+          "seam_mae": 0.07993447751450387,
+          "ordinary_max": 0.327192293166954,
+          "neighbour_max": 0.0892796189304827
+        },
+        "window_gallery_0": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.7093333333333334,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_1": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.538560647892509,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_2": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.6940002733360666,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_3": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.069194194194194,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_4": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.3094836314546066,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_5": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.541411390968913,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_6": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.5120048019207686,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_7": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.455344793519067,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_8": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.7577777777777777,
+          "neighbour_max": 0.0
+        },
+        "window_hall_0": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.2112898139388206,
+          "neighbour_max": 0.0
+        },
+        "window_hall_1": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.60825862537354,
+          "neighbour_max": 0.0
+        },
+        "window_hall_2": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.8649863227823364,
+          "neighbour_max": 0.0
+        },
+        "window_hall_3": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.8468468468468466,
+          "neighbour_max": 0.0
+        },
+        "window_hall_4": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.6983588002263725,
+          "neighbour_max": 0.0
+        },
+        "window_hall_5": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.9452443280977314,
+          "neighbour_max": 0.0
+        },
+        "window_hall_6": {
+          "seam_mae": 0.0,
+          "ordinary_max": 3.1131354026090867,
+          "neighbour_max": 0.0
+        },
+        "window_hall_7": {
+          "seam_mae": 0.0,
+          "ordinary_max": 3.0862516212710767,
+          "neighbour_max": 0.0
+        },
+        "window_hall_8": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.6408333333333336,
+          "neighbour_max": 0.0
+        },
+        "window_upper_left": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.8411214953271027,
+          "neighbour_max": 0.0
+        },
+        "window_upper_right": {
+          "seam_mae": 0.0,
+          "ordinary_max": 3.0734265734265733,
+          "neighbour_max": 0.0
+        },
+        "window_cabin": {
+          "seam_mae": 0.0,
+          "ordinary_max": 6.138959432180765,
+          "neighbour_max": 0.0
+        },
+        "practical_door_lamp": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.852065869591388,
+          "neighbour_max": 1.9008154498279762e-05
+        },
+        "practical_roof_amber": {
+          "seam_mae": 0.0,
+          "ordinary_max": 4.359465516512326,
+          "neighbour_max": 0.0
+        },
+        "practical_yard_signal": {
+          "seam_mae": 0.0,
+          "ordinary_max": 4.356814971751413,
+          "neighbour_max": 0.0
+        },
+        "practical_hall_practical": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.34130337189208465,
+          "neighbour_max": 0.0
+        },
+        "practical_upper_door_lamp": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.620578637767519,
+          "neighbour_max": 0.0
+        },
+        "far_mist": {
+          "seam_mae": 0.09526307012872443,
+          "ordinary_max": 0.1994852098697694,
+          "neighbour_max": 0.09902044636661449
+        },
+        "middle_mist": {
+          "seam_mae": 0.17969135505569542,
+          "ordinary_max": 0.2770572024576161,
+          "neighbour_max": 0.18265025643218133
+        },
+        "cabin_exhaust": {
+          "seam_mae": 0.16903170019918778,
+          "ordinary_max": 0.25555744277854126,
+          "neighbour_max": 0.18130722789246945
+        },
+        "yard_powder": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.19956303381738283,
+          "neighbour_max": 0.02590201714823809
+        },
+        "planet": {
+          "seam_mae": 0.08097696161283936,
+          "ordinary_max": 0.09504667062567569,
+          "neighbour_max": 0.08764636913191114
+        },
+        "beacon_cabin_tall": {
+          "seam_mae": 1.1114258734655336,
+          "ordinary_max": 1.7088897882099017,
+          "neighbour_max": 1.3002832861189801
+        },
+        "beacon_cabin_short": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.7721348918446864,
+          "neighbour_max": 0.0
+        },
+        "beacon_hall_mast": {
+          "seam_mae": 0.06139646869983948,
+          "ordinary_max": 1.7693953986088815,
+          "neighbour_max": 0.5599250936329588
+        },
+        "combined": {
+          "seam_mae": 0.07355587740761363,
+          "ordinary_max": 0.24705196025555531,
+          "neighbour_max": 0.07884415693698298
+        }
+      },
+      "chunk_boundaries": {
+        "450": {
+          "clouds": 0.08885640670971427,
+          "window_gallery_0": 0.0,
+          "window_gallery_1": 0.0,
+          "window_gallery_2": 0.0,
+          "window_gallery_3": 0.0,
+          "window_gallery_4": 0.0,
+          "window_gallery_5": 0.0,
+          "window_gallery_6": 0.0,
+          "window_gallery_7": 0.0,
+          "window_gallery_8": 0.0,
+          "window_hall_0": 0.0,
+          "window_hall_1": 0.0,
+          "window_hall_2": 0.0,
+          "window_hall_3": 0.0,
+          "window_hall_4": 0.0,
+          "window_hall_5": 0.0,
+          "window_hall_6": 0.0,
+          "window_hall_7": 0.0,
+          "window_hall_8": 0.0,
+          "window_upper_left": 0.0,
+          "window_upper_right": 0.0,
+          "window_cabin": 0.0,
+          "practical_door_lamp": 0.004371875534604345,
+          "practical_roof_amber": 0.0,
+          "practical_yard_signal": 0.0,
+          "practical_hall_practical": 0.0,
+          "practical_upper_door_lamp": 0.0,
+          "far_mist": 0.10001828930452229,
+          "middle_mist": 0.26031919081796434,
+          "cabin_exhaust": 0.23827905851592215,
+          "yard_powder": 0.15768160116304045,
+          "planet": 0.08764636913191114,
+          "beacon_cabin_tall": 0.04438149197355997,
+          "beacon_cabin_short": 0.0,
+          "beacon_hall_mast": 0.2748796147672552,
+          "combined": 0.10142761439244254
+        },
+        "900": {
+          "clouds": 0.0725847432456099,
+          "window_gallery_0": 0.0,
+          "window_gallery_1": 0.0,
+          "window_gallery_2": 0.0,
+          "window_gallery_3": 0.0,
+          "window_gallery_4": 0.0,
+          "window_gallery_5": 0.0,
+          "window_gallery_6": 0.0,
+          "window_gallery_7": 0.0,
+          "window_gallery_8": 0.0,
+          "window_hall_0": 0.0,
+          "window_hall_1": 0.0,
+          "window_hall_2": 0.0,
+          "window_hall_3": 0.0,
+          "window_hall_4": 0.0,
+          "window_hall_5": 0.0,
+          "window_hall_6": 0.0,
+          "window_hall_7": 0.0,
+          "window_hall_8": 0.0,
+          "window_upper_left": 0.0,
+          "window_upper_right": 0.0,
+          "window_cabin": 0.0,
+          "practical_door_lamp": 0.0043592034316054925,
+          "practical_roof_amber": 0.0,
+          "practical_yard_signal": 0.0,
+          "practical_hall_practical": 0.0,
+          "practical_upper_door_lamp": 0.0,
+          "far_mist": 0.10165625790071059,
+          "middle_mist": 0.15670420071362787,
+          "cabin_exhaust": 0.23543793009382927,
+          "yard_powder": 0.16830632238026796,
+          "planet": 0.08738751084920744,
+          "beacon_cabin_tall": 1.1413732631862943,
+          "beacon_cabin_short": 0.0,
+          "beacon_hall_mast": 0.15021401819154626,
+          "combined": 0.08386919644440878
+        },
+        "1350": {
+          "clouds": 0.0884575099547209,
+          "window_gallery_0": 0.0,
+          "window_gallery_1": 0.0,
+          "window_gallery_2": 0.0,
+          "window_gallery_3": 0.0,
+          "window_gallery_4": 0.0,
+          "window_gallery_5": 0.0,
+          "window_gallery_6": 0.0,
+          "window_gallery_7": 0.0,
+          "window_gallery_8": 0.0,
+          "window_hall_0": 0.0,
+          "window_hall_1": 0.0,
+          "window_hall_2": 0.0,
+          "window_hall_3": 0.0,
+          "window_hall_4": 0.0,
+          "window_hall_5": 0.0,
+          "window_hall_6": 0.0,
+          "window_hall_7": 0.0,
+          "window_hall_8": 0.0,
+          "window_upper_left": 0.0,
+          "window_upper_right": 0.0,
+          "window_cabin": 0.0,
+          "practical_door_lamp": 0.004515492701924682,
+          "practical_roof_amber": 0.0,
+          "practical_yard_signal": 0.0,
+          "practical_hall_practical": 0.0,
+          "practical_upper_door_lamp": 0.0,
+          "far_mist": 0.09188223839570524,
+          "middle_mist": 0.1694376305987099,
+          "cabin_exhaust": 0.19406657093299154,
+          "yard_powder": 0.17679370900860714,
+          "planet": 0.0861617407458164,
+          "beacon_cabin_tall": 0.030082287872656144,
+          "beacon_cabin_short": 0.0,
+          "beacon_hall_mast": 0.1297485286249331,
+          "combined": 0.09221884089042993
+        }
+      }
+    },
+    {
+      "file": "Empty-Junction-v6-quiet-60s-4K.mp4",
+      "frames": 1800,
+      "all_timestamps_exact": true,
+      "regional_seams": {
+        "clouds": {
+          "seam_mae": 0.07993447751450387,
+          "ordinary_max": 0.327192293166954,
+          "neighbour_max": 0.0892796189304827
+        },
+        "window_gallery_0": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.7093333333333334,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_1": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.538560647892509,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_2": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.6940002733360666,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_3": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.069194194194194,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_4": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.3094836314546066,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_5": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.541411390968913,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_6": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.5120048019207686,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_7": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.455344793519067,
+          "neighbour_max": 0.0
+        },
+        "window_gallery_8": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.7577777777777777,
+          "neighbour_max": 0.0
+        },
+        "window_hall_0": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.2112898139388206,
+          "neighbour_max": 0.0
+        },
+        "window_hall_1": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.60825862537354,
+          "neighbour_max": 0.0
+        },
+        "window_hall_2": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.8649863227823364,
+          "neighbour_max": 0.0
+        },
+        "window_hall_3": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.8468468468468466,
+          "neighbour_max": 0.0
+        },
+        "window_hall_4": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.6983588002263725,
+          "neighbour_max": 0.0
+        },
+        "window_hall_5": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.9452443280977314,
+          "neighbour_max": 0.0
+        },
+        "window_hall_6": {
+          "seam_mae": 0.0,
+          "ordinary_max": 3.1131354026090867,
+          "neighbour_max": 0.0
+        },
+        "window_hall_7": {
+          "seam_mae": 0.0,
+          "ordinary_max": 3.0862516212710767,
+          "neighbour_max": 0.0
+        },
+        "window_hall_8": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.6408333333333336,
+          "neighbour_max": 0.0
+        },
+        "window_upper_left": {
+          "seam_mae": 0.0,
+          "ordinary_max": 2.8411214953271027,
+          "neighbour_max": 0.0
+        },
+        "window_upper_right": {
+          "seam_mae": 0.0,
+          "ordinary_max": 3.0734265734265733,
+          "neighbour_max": 0.0
+        },
+        "window_cabin": {
+          "seam_mae": 0.0,
+          "ordinary_max": 6.138959432180765,
+          "neighbour_max": 0.0
+        },
+        "practical_door_lamp": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.8539202206635537,
+          "neighbour_max": 0.0
+        },
+        "practical_roof_amber": {
+          "seam_mae": 0.0,
+          "ordinary_max": 4.359465516512326,
+          "neighbour_max": 0.0
+        },
+        "practical_yard_signal": {
+          "seam_mae": 0.0,
+          "ordinary_max": 4.356814971751413,
+          "neighbour_max": 0.0
+        },
+        "practical_hall_practical": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.34130337189208465,
+          "neighbour_max": 0.0
+        },
+        "practical_upper_door_lamp": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.620578637767519,
+          "neighbour_max": 0.0
+        },
+        "far_mist": {
+          "seam_mae": 0.09526307012872443,
+          "ordinary_max": 0.1994852098697694,
+          "neighbour_max": 0.09902044636661449
+        },
+        "middle_mist": {
+          "seam_mae": 0.17969135505569542,
+          "ordinary_max": 0.2770572024576161,
+          "neighbour_max": 0.18265025643218133
+        },
+        "cabin_exhaust": {
+          "seam_mae": 0.16903170019918778,
+          "ordinary_max": 0.25555744277854126,
+          "neighbour_max": 0.18130722789246945
+        },
+        "yard_powder": {
+          "seam_mae": 0.0,
+          "ordinary_max": 0.03177504088813996,
+          "neighbour_max": 0.0
+        },
+        "planet": {
+          "seam_mae": 0.08097696161283936,
+          "ordinary_max": 0.09504667062567569,
+          "neighbour_max": 0.08764636913191114
+        },
+        "beacon_cabin_tall": {
+          "seam_mae": 1.1114258734655336,
+          "ordinary_max": 1.7088897882099017,
+          "neighbour_max": 1.3002832861189801
+        },
+        "beacon_cabin_short": {
+          "seam_mae": 0.0,
+          "ordinary_max": 1.7721348918446864,
+          "neighbour_max": 0.0
+        },
+        "beacon_hall_mast": {
+          "seam_mae": 0.06139646869983948,
+          "ordinary_max": 1.7693953986088815,
+          "neighbour_max": 0.5599250936329588
+        },
+        "combined": {
+          "seam_mae": 0.07355587740761363,
+          "ordinary_max": 0.2332957839265574,
+          "neighbour_max": 0.07818537136123369
+        }
+      },
+      "chunk_boundaries": {
+        "450": {
+          "clouds": 0.08885640670971427,
+          "window_gallery_0": 0.0,
+          "window_gallery_1": 0.0,
+          "window_gallery_2": 0.0,
+          "window_gallery_3": 0.0,
+          "window_gallery_4": 0.0,
+          "window_gallery_5": 0.0,
+          "window_gallery_6": 0.0,
+          "window_gallery_7": 0.0,
+          "window_gallery_8": 0.0,
+          "window_hall_0": 0.0,
+          "window_hall_1": 0.0,
+          "window_hall_2": 0.0,
+          "window_hall_3": 0.0,
+          "window_hall_4": 0.0,
+          "window_hall_5": 0.0,
+          "window_hall_6": 0.0,
+          "window_hall_7": 0.0,
+          "window_hall_8": 0.0,
+          "window_upper_left": 0.0,
+          "window_upper_right": 0.0,
+          "window_cabin": 0.0,
+          "practical_door_lamp": 0.0,
+          "practical_roof_amber": 0.0,
+          "practical_yard_signal": 0.0,
+          "practical_hall_practical": 0.0,
+          "practical_upper_door_lamp": 0.0,
+          "far_mist": 0.10001828930452229,
+          "middle_mist": 0.26031919081796434,
+          "cabin_exhaust": 0.23827905851592215,
+          "yard_powder": 0.0,
+          "planet": 0.08764636913191114,
+          "beacon_cabin_tall": 0.04438149197355997,
+          "beacon_cabin_short": 0.0,
+          "beacon_hall_mast": 0.2748796147672552,
+          "combined": 0.08834153473388678
+        },
+        "900": {
+          "clouds": 0.0725847432456099,
+          "window_gallery_0": 0.0,
+          "window_gallery_1": 0.0,
+          "window_gallery_2": 0.0,
+          "window_gallery_3": 0.0,
+          "window_gallery_4": 0.0,
+          "window_gallery_5": 0.0,
+          "window_gallery_6": 0.0,
+          "window_gallery_7": 0.0,
+          "window_gallery_8": 0.0,
+          "window_hall_0": 0.0,
+          "window_hall_1": 0.0,
+          "window_hall_2": 0.0,
+          "window_hall_3": 0.0,
+          "window_hall_4": 0.0,
+          "window_hall_5": 0.0,
+          "window_hall_6": 0.0,
+          "window_hall_7": 0.0,
+          "window_hall_8": 0.0,
+          "window_upper_left": 0.0,
+          "window_upper_right": 0.0,
+          "window_cabin": 0.0,
+          "practical_door_lamp": 0.0,
+          "practical_roof_amber": 0.0,
+          "practical_yard_signal": 0.0,
+          "practical_hall_practical": 0.0,
+          "practical_upper_door_lamp": 0.0,
+          "far_mist": 0.10165625790071059,
+          "middle_mist": 0.15670420071362787,
+          "cabin_exhaust": 0.23543793009382927,
+          "yard_powder": 0.0,
+          "planet": 0.08738751084920744,
+          "beacon_cabin_tall": 1.1413732631862943,
+          "beacon_cabin_short": 0.0,
+          "beacon_hall_mast": 0.15021401819154626,
+          "combined": 0.06990136554047581
+        },
+        "1350": {
+          "clouds": 0.0884575099547209,
+          "window_gallery_0": 0.0,
+          "window_gallery_1": 0.0,
+          "window_gallery_2": 0.0,
+          "window_gallery_3": 0.0,
+          "window_gallery_4": 0.0,
+          "window_gallery_5": 0.0,
+          "window_gallery_6": 0.0,
+          "window_gallery_7": 0.0,
+          "window_gallery_8": 0.0,
+          "window_hall_0": 0.0,
+          "window_hall_1": 0.0,
+          "window_hall_2": 0.0,
+          "window_hall_3": 0.0,
+          "window_hall_4": 0.0,
+          "window_hall_5": 0.0,
+          "window_hall_6": 0.0,
+          "window_hall_7": 0.0,
+          "window_hall_8": 0.0,
+          "window_upper_left": 0.0,
+          "window_upper_right": 0.0,
+          "window_cabin": 0.0,
+          "practical_door_lamp": 0.0,
+          "practical_roof_amber": 0.0,
+          "practical_yard_signal": 0.0,
+          "practical_hall_practical": 0.0,
+          "practical_upper_door_lamp": 0.0,
+          "far_mist": 0.09188223839570524,
+          "middle_mist": 0.1694376305987099,
+          "cabin_exhaust": 0.19406657093299154,
+          "yard_powder": 0.0,
+          "planet": 0.0861617407458164,
+          "beacon_cabin_tall": 0.030082287872656144,
+          "beacon_cabin_short": 0.0,
+          "beacon_hall_mast": 0.1297485286249331,
+          "combined": 0.07754663727153088
+        }
+      }
+    }
+  ],
+  "native_yuv_controls": {
+    "wind-720p": [
+      0,
+      171,
+      449,
+      450,
+      899,
+      900,
+      1349,
+      1350,
+      1799
+    ],
+    "quiet-720p": [
+      0,
+      171,
+      449,
+      450,
+      899,
+      900,
+      1349,
+      1350,
+      1799
+    ],
+    "wind-4K": [
+      0,
+      171,
+      449,
+      450,
+      899,
+      900,
+      1349,
+      1350,
+      1799
+    ],
+    "quiet-4K": [
+      0,
+      171,
+      449,
+      450,
+      899,
+      900,
+      1349,
+      1350,
+      1799
+    ]
+  },
+  "scheduled_joins": {
+    "720p-wind-quiet": {
+      "clouds": 0.06051213198628641,
+      "window_gallery_0": 0.0,
+      "window_gallery_1": 0.0,
+      "window_gallery_2": 0.0,
+      "window_gallery_3": 0.0,
+      "window_gallery_4": 0.0,
+      "window_gallery_5": 0.0,
+      "window_gallery_6": 0.0,
+      "window_gallery_7": 0.0,
+      "window_gallery_8": 0.0,
+      "window_hall_0": 0.0,
+      "window_hall_1": 0.0,
+      "window_hall_2": 0.0,
+      "window_hall_3": 0.0,
+      "window_hall_4": 0.0,
+      "window_hall_5": 0.0,
+      "window_hall_6": 0.0,
+      "window_hall_7": 0.0,
+      "window_hall_8": 0.0,
+      "window_upper_left": 0.0,
+      "window_upper_right": 0.0,
+      "window_cabin": 0.0,
+      "practical_door_lamp": 0.0,
+      "practical_roof_amber": 0.0,
+      "practical_yard_signal": 0.0,
+      "practical_hall_practical": 0.0,
+      "practical_upper_door_lamp": 0.0,
+      "far_mist": 0.06818678516791725,
+      "middle_mist": 0.13182276414958474,
+      "cabin_exhaust": 0.15871033398094184,
+      "yard_powder": 0.0,
+      "planet": 0.06804956527692202,
+      "beacon_cabin_tall": 1.1377613776137763,
+      "beacon_cabin_short": 0.0,
+      "beacon_hall_mast": 0.03146853146853147,
+      "combined": 0.05614981494824093
+    },
+    "720p-quiet-quiet": {
+      "clouds": 0.06051213198628641,
+      "window_gallery_0": 0.0,
+      "window_gallery_1": 0.0,
+      "window_gallery_2": 0.0,
+      "window_gallery_3": 0.0,
+      "window_gallery_4": 0.0,
+      "window_gallery_5": 0.0,
+      "window_gallery_6": 0.0,
+      "window_gallery_7": 0.0,
+      "window_gallery_8": 0.0,
+      "window_hall_0": 0.0,
+      "window_hall_1": 0.0,
+      "window_hall_2": 0.0,
+      "window_hall_3": 0.0,
+      "window_hall_4": 0.0,
+      "window_hall_5": 0.0,
+      "window_hall_6": 0.0,
+      "window_hall_7": 0.0,
+      "window_hall_8": 0.0,
+      "window_upper_left": 0.0,
+      "window_upper_right": 0.0,
+      "window_cabin": 0.0,
+      "practical_door_lamp": 0.0,
+      "practical_roof_amber": 0.0,
+      "practical_yard_signal": 0.0,
+      "practical_hall_practical": 0.0,
+      "practical_upper_door_lamp": 0.0,
+      "far_mist": 0.06818678516791725,
+      "middle_mist": 0.13182276414958474,
+      "cabin_exhaust": 0.15871033398094184,
+      "yard_powder": 0.0,
+      "planet": 0.06804956527692202,
+      "beacon_cabin_tall": 1.1377613776137763,
+      "beacon_cabin_short": 0.0,
+      "beacon_hall_mast": 0.03146853146853147,
+      "combined": 0.05614981494824093
+    },
+    "720p-quiet-wind": {
+      "clouds": 0.06051213198628641,
+      "window_gallery_0": 0.0,
+      "window_gallery_1": 0.0,
+      "window_gallery_2": 0.0,
+      "window_gallery_3": 0.0,
+      "window_gallery_4": 0.0,
+      "window_gallery_5": 0.0,
+      "window_gallery_6": 0.0,
+      "window_gallery_7": 0.0,
+      "window_gallery_8": 0.0,
+      "window_hall_0": 0.0,
+      "window_hall_1": 0.0,
+      "window_hall_2": 0.0,
+      "window_hall_3": 0.0,
+      "window_hall_4": 0.0,
+      "window_hall_5": 0.0,
+      "window_hall_6": 0.0,
+      "window_hall_7": 0.0,
+      "window_hall_8": 0.0,
+      "window_upper_left": 0.0,
+      "window_upper_right": 0.0,
+      "window_cabin": 0.0,
+      "practical_door_lamp": 0.0,
+      "practical_roof_amber": 0.0,
+      "practical_yard_signal": 0.0,
+      "practical_hall_practical": 0.0,
+      "practical_upper_door_lamp": 0.0,
+      "far_mist": 0.06818678516791725,
+      "middle_mist": 0.13182276414958474,
+      "cabin_exhaust": 0.15871033398094184,
+      "yard_powder": 0.0,
+      "planet": 0.06804956527692202,
+      "beacon_cabin_tall": 1.1377613776137763,
+      "beacon_cabin_short": 0.0,
+      "beacon_hall_mast": 0.03146853146853147,
+      "combined": 0.05614981494824093
+    },
+    "4K-wind-quiet": {
+      "clouds": 0.07993447751450387,
+      "window_gallery_0": 0.0,
+      "window_gallery_1": 0.0,
+      "window_gallery_2": 0.0,
+      "window_gallery_3": 0.0,
+      "window_gallery_4": 0.0,
+      "window_gallery_5": 0.0,
+      "window_gallery_6": 0.0,
+      "window_gallery_7": 0.0,
+      "window_gallery_8": 0.0,
+      "window_hall_0": 0.0,
+      "window_hall_1": 0.0,
+      "window_hall_2": 0.0,
+      "window_hall_3": 0.0,
+      "window_hall_4": 0.0,
+      "window_hall_5": 0.0,
+      "window_hall_6": 0.0,
+      "window_hall_7": 0.0,
+      "window_hall_8": 0.0,
+      "window_upper_left": 0.0,
+      "window_upper_right": 0.0,
+      "window_cabin": 0.0,
+      "practical_door_lamp": 0.0,
+      "practical_roof_amber": 0.0,
+      "practical_yard_signal": 0.0,
+      "practical_hall_practical": 0.0,
+      "practical_upper_door_lamp": 0.0,
+      "far_mist": 0.09526307012872443,
+      "middle_mist": 0.17969135505569542,
+      "cabin_exhaust": 0.16903170019918778,
+      "yard_powder": 0.0,
+      "planet": 0.08097696161283936,
+      "beacon_cabin_tall": 1.1114258734655336,
+      "beacon_cabin_short": 0.0,
+      "beacon_hall_mast": 0.06139646869983948,
+      "combined": 0.07355587740761363
+    },
+    "4K-quiet-quiet": {
+      "clouds": 0.07993447751450387,
+      "window_gallery_0": 0.0,
+      "window_gallery_1": 0.0,
+      "window_gallery_2": 0.0,
+      "window_gallery_3": 0.0,
+      "window_gallery_4": 0.0,
+      "window_gallery_5": 0.0,
+      "window_gallery_6": 0.0,
+      "window_gallery_7": 0.0,
+      "window_gallery_8": 0.0,
+      "window_hall_0": 0.0,
+      "window_hall_1": 0.0,
+      "window_hall_2": 0.0,
+      "window_hall_3": 0.0,
+      "window_hall_4": 0.0,
+      "window_hall_5": 0.0,
+      "window_hall_6": 0.0,
+      "window_hall_7": 0.0,
+      "window_hall_8": 0.0,
+      "window_upper_left": 0.0,
+      "window_upper_right": 0.0,
+      "window_cabin": 0.0,
+      "practical_door_lamp": 0.0,
+      "practical_roof_amber": 0.0,
+      "practical_yard_signal": 0.0,
+      "practical_hall_practical": 0.0,
+      "practical_upper_door_lamp": 0.0,
+      "far_mist": 0.09526307012872443,
+      "middle_mist": 0.17969135505569542,
+      "cabin_exhaust": 0.16903170019918778,
+      "yard_powder": 0.0,
+      "planet": 0.08097696161283936,
+      "beacon_cabin_tall": 1.1114258734655336,
+      "beacon_cabin_short": 0.0,
+      "beacon_hall_mast": 0.06139646869983948,
+      "combined": 0.07355587740761363
+    },
+    "4K-quiet-wind": {
+      "clouds": 0.07993447751450387,
+      "window_gallery_0": 0.0,
+      "window_gallery_1": 0.0,
+      "window_gallery_2": 0.0,
+      "window_gallery_3": 0.0,
+      "window_gallery_4": 0.0,
+      "window_gallery_5": 0.0,
+      "window_gallery_6": 0.0,
+      "window_gallery_7": 0.0,
+      "window_gallery_8": 0.0,
+      "window_hall_0": 0.0,
+      "window_hall_1": 0.0,
+      "window_hall_2": 0.0,
+      "window_hall_3": 0.0,
+      "window_hall_4": 0.0,
+      "window_hall_5": 0.0,
+      "window_hall_6": 0.0,
+      "window_hall_7": 0.0,
+      "window_hall_8": 0.0,
+      "window_upper_left": 0.0,
+      "window_upper_right": 0.0,
+      "window_cabin": 0.0,
+      "practical_door_lamp": 0.0,
+      "practical_roof_amber": 0.0,
+      "practical_yard_signal": 0.0,
+      "practical_hall_practical": 0.0,
+      "practical_upper_door_lamp": 0.0,
+      "far_mist": 0.09526307012872443,
+      "middle_mist": 0.17969135505569542,
+      "cabin_exhaust": 0.16903170019918778,
+      "yard_powder": 0.0,
+      "planet": 0.08097696161283936,
+      "beacon_cabin_tall": 1.1114258734655336,
+      "beacon_cabin_short": 0.0,
+      "beacon_hall_mast": 0.06139646869983948,
+      "combined": 0.07355587740761363
+    }
+  },
+  "cycles": {
+    "720p": {
+      "all_5400_frames_and_timestamps": true,
+      "wind_quiet_quiet_exact_packets_and_decoded_pictures": true
+    },
+    "4K": {
+      "all_5400_frames_and_timestamps": true,
+      "wind_quiet_quiet_exact_packets_and_decoded_pictures": true
+    }
+  },
+  "files": [
+    {
+      "file": "Empty-Junction-v6-cycle-180s-4K.mp4",
+      "bytes": 476342227,
+      "sha256": "d356492eba407dfa9fd7155cca748fd77503d18dccf1a7d6e12f5eebd1aa51f9"
+    },
+    {
+      "file": "Empty-Junction-v6-cycle-180s-720p.mp4",
+      "bytes": 48739339,
+      "sha256": "a0426ef6d35da37dafdb2c149b847914ae03a92253b84708c9e25e7aef339a5f"
+    },
+    {
+      "file": "Empty-Junction-v6-quiet-60s-4K.mp4",
+      "bytes": 152399895,
+      "sha256": "2627e5621d6c3965b3b976e82c044e2916c69574358341b0e48f5285c95290c3"
+    },
+    {
+      "file": "Empty-Junction-v6-quiet-60s-720p.mp4",
+      "bytes": 15570703,
+      "sha256": "5e64b8152943c2a57a8f3f4e9e4cb39e0651e95aab392c9102c03b9bda70f754"
+    },
+    {
+      "file": "Empty-Junction-v6-wind-60s-4K.mp4",
+      "bytes": 171544131,
+      "sha256": "e380a3e26367b125ac8d9596bd6115b5c626d12cc0be5441989f6b3364acdfa5"
+    },
+    {
+      "file": "Empty-Junction-v6-wind-60s-720p.mp4",
+      "bytes": 17599587,
+      "sha256": "8641d293f40c444387f8381a186b30034509ebbf7e9dccba9e4ac2ad9ac39ee5"
+    }
+  ],
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "4k_upscale": "Lanczos directly from native frames",
+  "assistant_continuous_playback": false
+}

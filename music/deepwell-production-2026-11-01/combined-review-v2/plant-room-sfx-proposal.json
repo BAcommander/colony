@@ -1,0 +1,9 @@
+{
+  "status": "Prompt only; not generated",
+  "suggested_test_duration_seconds": 15,
+  "suggested_variants": 2,
+  "prompt": "plant-room-pump-sfx-prompt.txt",
+  "scene_reason": "Visible plant equipment; slow mechanical load change offers a different texture from exterior water and wind",
+  "mixing_proposal": "Occasional soft cycles between exterior-sound events, not a continuous motor drone",
+  "actual_cost_and_settings": "Unknown; manual user generation, no API action"
+}

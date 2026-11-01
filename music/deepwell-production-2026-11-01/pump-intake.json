@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-01",
+  "user_message": "here the distant water pmp for more variance",
+  "original_path": "C:\\Users\\jazzs\\Downloads\\A_distant_water-circ_#4-1793555177439.mp3",
+  "source_copy": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\A_distant_water-circ_#4-1793555177439.mp3",
+  "sha256": "c939da31dc0d2b3a1451a32368ad7216e2c7885f74e43a0bde3152d75a3c8e1f",
+  "frames": 960000,
+  "seconds": 20,
+  "measurements": {
+    "i": -40.96,
+    "tp": -29.54,
+    "lra": 1.2,
+    "thresh": -50.96
+  },
+  "proposed_gain_db": 1.9600000000000009,
+  "proposed_nominal_lufs": -39,
+  "proposed_peak_dbtp": -27.58,
+  "actual_generation_prompt_model_cost": "Not verified; supplied by user",
+  "assistant_listening": false,
+  "applied_review": "combined-review-v4",
+  "applied_gain_db": 3.960000000000001,
+  "applied_nominal_lufs": -37
+}

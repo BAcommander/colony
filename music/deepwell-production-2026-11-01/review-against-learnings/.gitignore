@@ -1,0 +1,4 @@
+cache/
+__pycache__/
+*/decode-log.txt
+*/loudness-log.txt

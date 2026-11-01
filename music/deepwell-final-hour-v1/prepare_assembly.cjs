@@ -1,0 +1,21 @@
+const fs=require('fs'),path=require('path');
+const h=__dirname, prior=path.resolve(h,'../empty-junction-final-hour-v1');
+let a=fs.readFileSync(path.join(prior,'assemble_with_colony.py'),'utf8');
+a=a.replaceAll('The Empty Junction','Deepwell Station').replaceAll('The-Empty-Junction','Deepwell-Station').replaceAll('11-empty-junction','12-deepwell-station');
+a=a.replace("Empty-Junction-v6-cycle-180s-4K.mp4","Deepwell-v4-60s-4K.mp4");
+a=a.replace("Deepwell-Station-1-Hour-final-SFX-v3.flac","Deepwell-Station-1-Hour-v1.flac");
+a=a.replace("ar={'sha256':'84a773c68ca1a8d1115c76e2edcc914f8c955c5f60cb31436b1c5718b4982f09'}", "av=json.loads((R/'music/deepwell-production-2026-11-01/delivery-hour-v1/delivery-validation.json').read_text());assert av['status']=='passed'\n    ar=next(x for x in av['outputs'] if x['path']==str(AUDIO))");
+a=a.replaceAll('180','60').replaceAll('three-minute','one-minute');
+a=a.replace("render.LOOP_CRF=0;render.LOOP_PRESET='veryfast'", "render.LOOP_CRF=0;render.LOOP_PRESET='veryfast'\n    # Explicit VUI metadata prevents this FFmpeg build dropping primaries/transfer.\n    original_encode_args=render._loop_encode_args\n    def tagged_args(color):\n        return original_encode_args(color)+['-bsf:v','h264_metadata=colour_primaries=1:transfer_characteristics=1:matrix_coefficients=1:video_full_range_flag=0']\n    render._loop_encode_args=tagged_args");
+a=a.replace("'b_frames':0", "'b_frames':0,'h264_vui_completion':'Job-local _loop_encode_args wrapper adds h264_metadata BT.709 TV; no application source edit'");
+fs.writeFileSync(path.join(h,'assemble_with_colony.py'),a);
+let v=fs.readFileSync(path.join(prior,'verify_final.py'),'utf8');
+v=v.replaceAll('The Empty Junction','Deepwell Station').replaceAll('THE EMPTY JUNCTION','DEEPWELL STATION');
+v=v.replaceAll('10800','TEMP_SECOND_CYCLE').replaceAll('5400','1800').replaceAll('TEMP_SECOND_CYCLE','3600');
+// The previous substitution also touches 108000; restore the hour frame count.
+v=v.replaceAll('36000','108000');
+v=v.replaceAll('framedigests(VIDEO,0,180','framedigests(VIDEO,0,60').replaceAll('framedigests(OUTPUT,0,180','framedigests(OUTPUT,0,60').replaceAll('framedigests(OUTPUT,180,180','framedigests(OUTPUT,60,60');
+v=v.replaceAll('three-minute','one-minute').replaceAll('three_minute','one_minute').replaceAll('19_clean','59_clean').replaceAll("'clean_loop_payloads_identical':19","'clean_loop_payloads_identical':59");
+v=v.replace('Source phase starts at zero; wind/quiet/quiet repeats every 180 seconds; opening adds no runtime','Selected V4 twenty-second motion repeats continuously; sixty-second assembly unit; opening adds no runtime');
+fs.writeFileSync(path.join(h,'verify_final.py'),v);
+console.log('Prepared Deepwell assembly and verification using established Colony workflow');

@@ -1,0 +1,1734 @@
+{
+  "scene": "Deepwell Station",
+  "catalog": "12",
+  "version": "v3",
+  "duration": 20,
+  "fps": 30,
+  "preview_size": [
+    1280,
+    720
+  ],
+  "source": {
+    "path": "v2-snapshot/baseline-snapshot/artwork-planet-v1.png",
+    "sha256": "8c04e8fbf7af063d00cd05fb587c713f2e0a380b8274410016d072cdf9a25b9b",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "baseline_snapshot": "baseline-snapshot",
+  "seed": 122026,
+  "reuse": {
+    "water": "Glacier/Floodplain filtered reflection normals, retuned for horizontal wind crests and channel depth; no sparse glint substitution",
+    "sky": "Basalt/Shoreless source cloud transport; original planet-free source excludes geometry; new foreground veil crosses fixed planet",
+    "weather": "Separate far/middle/near transport and terrain-guided flow from Basalt/Cable/Empty Junction lessons; exact masks are Deepwell-specific; candidate methods are not inherited approvals",
+    "instruments": "Cable Station perspective-confined functional display; continuous needle/bar fields retain v1 seam fix",
+    "lighting": "Complete apertures, independent held schedules, attached emitter/spill and retained steady windows from Rainline/Spirewatch"
+  },
+  "water": {
+    "roi": [
+      402,
+      375,
+      1672,
+      704
+    ],
+    "seed": 122026,
+    "components": 32,
+    "time_scale": 0.075,
+    "specular_strength": 10.5,
+    "wavelength_range": [
+      0.09,
+      0.82
+    ],
+    "reflection_sigma_x": 1.05,
+    "reflection_sigma_y": 0.55,
+    "displacement_scale": 0.43,
+    "reflection_contrast": 0.105,
+    "highlight_roughness": 0.32,
+    "sampling_filter_pixels": 1.0,
+    "edge_damping_pixels": 12,
+    "loop_seconds": 20,
+    "perspective_distance_scale": 2600,
+    "perspective_horizon_y": 315,
+    "perspective_center_x": 1060,
+    "perspective_lateral_scale": 330
+  },
+  "water_direction": {
+    "main_theta": 1.48,
+    "main_spread": 0.24,
+    "cross_theta": 0.35,
+    "cross_spread": 0.28,
+    "cross_count": 8,
+    "cross_strength": 0.38,
+    "gust_time_offset_seconds": 0.24,
+    "sun_glint_variation": 0.14
+  },
+  "sky": {
+    "near_speed": 4.8,
+    "far_speed": 2.7,
+    "gain": 1.1,
+    "feather": 6,
+    "planet_ellipse": [
+      1145,
+      160,
+      89,
+      90
+    ],
+    "veil_band_center_y": 177,
+    "veil_band_radius_y": 43,
+    "veil_opacity": 0.3,
+    "veil_speed": 8.5
+  },
+  "atmosphere": [
+    {
+      "name": "far_drift",
+      "roi": [
+        410,
+        280,
+        1145,
+        361
+      ],
+      "polygon": [
+        [
+          418,
+          304
+        ],
+        [
+          627,
+          303
+        ],
+        [
+          805,
+          309
+        ],
+        [
+          971,
+          300
+        ],
+        [
+          1110,
+          315
+        ],
+        [
+          1115,
+          339
+        ],
+        [
+          967,
+          347
+        ],
+        [
+          761,
+          350
+        ],
+        [
+          540,
+          345
+        ],
+        [
+          418,
+          342
+        ]
+      ],
+      "center_y": 326,
+      "height": 12,
+      "speed": 7.0,
+      "seed": 124,
+      "opacity": 0.26,
+      "color": [
+        226,
+        231,
+        235
+      ],
+      "feather": 12,
+      "forms": [
+        {
+          "anchor_x": 88.2,
+          "phase": 0.6119999999999999,
+          "width": 79.81361360398593,
+          "height": 4.732674898759251,
+          "y_offset": 1.6971265397912898,
+          "strength": 0.867509061835713
+        },
+        {
+          "anchor_x": 227.85,
+          "phase": 0.9849999999999999,
+          "width": 85.70093466926903,
+          "height": 8.47857897338925,
+          "y_offset": -0.6702315926497737,
+          "strength": 0.9598785353415542
+        },
+        {
+          "anchor_x": 367.5,
+          "phase": 0.35799999999999965,
+          "width": 77.61160594886486,
+          "height": 6.758370800537797,
+          "y_offset": -2.474388802367967,
+          "strength": 0.988197792782286
+        },
+        {
+          "anchor_x": 507.15000000000003,
+          "phase": 0.7309999999999999,
+          "width": 53.891625818902625,
+          "height": 5.041544815855038,
+          "y_offset": 0.21427834409561264,
+          "strength": 0.9226265145584197
+        },
+        {
+          "anchor_x": 646.8,
+          "phase": 0.10400000000000009,
+          "width": 66.4704909967295,
+          "height": 6.709281847584735,
+          "y_offset": 1.0704527446373593,
+          "strength": 0.8645622196673897
+        }
+      ]
+    },
+    {
+      "name": "basin_haze",
+      "roi": [
+        415,
+        335,
+        1320,
+        431
+      ],
+      "polygon": [
+        [
+          420,
+          349
+        ],
+        [
+          669,
+          345
+        ],
+        [
+          840,
+          349
+        ],
+        [
+          938,
+          342
+        ],
+        [
+          1083,
+          354
+        ],
+        [
+          1276,
+          382
+        ],
+        [
+          1255,
+          398
+        ],
+        [
+          1123,
+          390
+        ],
+        [
+          971,
+          373
+        ],
+        [
+          841,
+          376
+        ],
+        [
+          643,
+          374
+        ],
+        [
+          420,
+          372
+        ]
+      ],
+      "center_y": 361,
+      "height": 8,
+      "speed": 10.5,
+      "seed": 128,
+      "opacity": 0.27,
+      "color": [
+        222,
+        229,
+        234
+      ],
+      "feather": 9,
+      "forms": [
+        {
+          "anchor_x": 108.6,
+          "phase": 0.6639999999999999,
+          "width": 80.94049611606687,
+          "height": 7.902017286935511,
+          "y_offset": -1.2631209367098373,
+          "strength": 0.8703321914131587
+        },
+        {
+          "anchor_x": 280.55,
+          "phase": 0.03699999999999992,
+          "width": 52.37336791016166,
+          "height": 5.003327410779669,
+          "y_offset": 2.1241801455508567,
+          "strength": 0.9055900305931678
+        },
+        {
+          "anchor_x": 452.5,
+          "phase": 0.41000000000000014,
+          "width": 66.97579155039828,
+          "height": 4.486873828495945,
+          "y_offset": -1.2969573859706696,
+          "strength": 0.851627463851964
+        },
+        {
+          "anchor_x": 624.45,
+          "phase": 0.7829999999999999,
+          "width": 90.46808227483379,
+          "height": 6.534212782775934,
+          "y_offset": 1.578830367221797,
+          "strength": 0.9748315525830442
+        },
+        {
+          "anchor_x": 796.4,
+          "phase": 0.1559999999999997,
+          "width": 76.04341518858615,
+          "height": 7.5276427275208615,
+          "y_offset": 1.9404138343343327,
+          "strength": 0.9000634869534453
+        }
+      ]
+    },
+    {
+      "name": "brine_wisps",
+      "roi": [
+        745,
+        424,
+        1510,
+        561
+      ],
+      "polygon": [
+        [
+          777,
+          444
+        ],
+        [
+          933,
+          434
+        ],
+        [
+          1087,
+          448
+        ],
+        [
+          1230,
+          471
+        ],
+        [
+          1380,
+          498
+        ],
+        [
+          1490,
+          520
+        ],
+        [
+          1482,
+          533
+        ],
+        [
+          1359,
+          514
+        ],
+        [
+          1202,
+          488
+        ],
+        [
+          1065,
+          467
+        ],
+        [
+          933,
+          451
+        ],
+        [
+          789,
+          460
+        ]
+      ],
+      "center_y": 459,
+      "height": 6,
+      "slope": 0.115,
+      "speed": 10.0,
+      "seed": 130,
+      "opacity": 0.2,
+      "color": [
+        213,
+        223,
+        230
+      ],
+      "feather": 8,
+      "forms": [
+        {
+          "anchor_x": 91.8,
+          "phase": 0.69,
+          "width": 87.37114652871561,
+          "height": 7.77799186812126,
+          "y_offset": -2.4977788246137864,
+          "strength": 0.93196849687573
+        },
+        {
+          "anchor_x": 237.15,
+          "phase": 0.06299999999999972,
+          "width": 75.65378019719644,
+          "height": 5.288531781940496,
+          "y_offset": 1.6737659796805762,
+          "strength": 0.8886437357529786
+        },
+        {
+          "anchor_x": 382.5,
+          "phase": 0.43599999999999994,
+          "width": 71.51735897789597,
+          "height": 5.973077614765604,
+          "y_offset": 1.4818758875435178,
+          "strength": 0.9582831740874447
+        },
+        {
+          "anchor_x": 527.85,
+          "phase": 0.8090000000000002,
+          "width": 60.262661760405635,
+          "height": 5.844946794443842,
+          "y_offset": -0.4382619042328879,
+          "strength": 0.9895148651852606
+        },
+        {
+          "anchor_x": 673.2,
+          "phase": 0.18199999999999994,
+          "width": 70.48887099825923,
+          "height": 6.922054586972572,
+          "y_offset": -0.4568517430048482,
+          "strength": 0.9905911815524453
+        }
+      ]
+    }
+  ],
+  "surface_drift": [
+    {
+      "name": "salt_far",
+      "roi": [
+        422,
+        328,
+        988,
+        371
+      ],
+      "route": [
+        [
+          429,
+          347
+        ],
+        [
+          580,
+          345
+        ],
+        [
+          760,
+          349
+        ],
+        [
+          971,
+          355
+        ]
+      ],
+      "speed": 16.0,
+      "opacity": 0.24,
+      "width": 3.8,
+      "seed": 140,
+      "color": [
+        191,
+        203,
+        213
+      ],
+      "forms": [
+        {
+          "anchor_x": 67.92,
+          "phase": 0.8199999999999998,
+          "width": 58.529893733422895,
+          "height": 3.1352689330943995,
+          "y_offset": -1.1671348550387128,
+          "strength": 0.976577159599517
+        },
+        {
+          "anchor_x": 211.30666666666667,
+          "phase": 0.19299999999999962,
+          "width": 38.376236041015666,
+          "height": 2.330661999952961,
+          "y_offset": -2.000188028924758,
+          "strength": 0.9906931365436331
+        },
+        {
+          "anchor_x": 354.6933333333333,
+          "phase": 0.5659999999999998,
+          "width": 42.199260902476055,
+          "height": 2.828461770926489,
+          "y_offset": 1.1177479960789731,
+          "strength": 0.9148083301071279
+        },
+        {
+          "anchor_x": 498.08000000000004,
+          "phase": 0.9390000000000001,
+          "width": 35.87027378683488,
+          "height": 2.3473849240540865,
+          "y_offset": 2.159395710246275,
+          "strength": 0.9637794041788819
+        }
+      ]
+    },
+    {
+      "name": "salt_middle",
+      "roi": [
+        425,
+        398,
+        775,
+        448
+      ],
+      "route": [
+        [
+          433,
+          422
+        ],
+        [
+          536,
+          422
+        ],
+        [
+          650,
+          418
+        ],
+        [
+          763,
+          427
+        ]
+      ],
+      "speed": 20.0,
+      "opacity": 0.24,
+      "width": 4.2,
+      "seed": 142,
+      "color": [
+        191,
+        203,
+        213
+      ],
+      "forms": [
+        {
+          "anchor_x": 42.0,
+          "phase": 0.8459999999999999,
+          "width": 45.81426960116768,
+          "height": 2.87495561605179,
+          "y_offset": -1.986376814634319,
+          "strength": 0.8834727938151367
+        },
+        {
+          "anchor_x": 130.66666666666669,
+          "phase": 0.21899999999999986,
+          "width": 47.57878441181684,
+          "height": 2.6128054432887633,
+          "y_offset": 2.403934851373414,
+          "strength": 0.9397029189388308
+        },
+        {
+          "anchor_x": 219.33333333333334,
+          "phase": 0.5919999999999996,
+          "width": 49.6277209819274,
+          "height": 2.727295174045258,
+          "y_offset": 0.2601522221988488,
+          "strength": 0.853655280939952
+        },
+        {
+          "anchor_x": 308.00000000000006,
+          "phase": 0.9649999999999999,
+          "width": 44.98811709705515,
+          "height": 2.609145118420021,
+          "y_offset": -0.1674793183295331,
+          "strength": 0.977365855724968
+        }
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "name": "right-left-room",
+      "polygons": [
+        [
+          [
+            1603.8,
+            181.1
+          ],
+          [
+            1607.7,
+            178.6
+          ],
+          [
+            1613.1,
+            177.0
+          ],
+          [
+            1613.1,
+            203.8
+          ],
+          [
+            1603.8,
+            205.3
+          ]
+        ]
+      ],
+      "start": 1.7,
+      "hold": 5.1,
+      "transition": 0.9,
+      "floor": 0.57
+    },
+    {
+      "name": "right-bright-room",
+      "polygons": [
+        [
+          [
+            1640.7,
+            173.5
+          ],
+          [
+            1658.5,
+            171.9
+          ],
+          [
+            1658.5,
+            199.1
+          ],
+          [
+            1640.7,
+            201.0
+          ]
+        ],
+        [
+          [
+            1662.1,
+            171.5
+          ],
+          [
+            1671.6,
+            170.9
+          ],
+          [
+            1671.6,
+            197.8
+          ],
+          [
+            1662.1,
+            198.9
+          ]
+        ]
+      ],
+      "start": 8.1,
+      "hold": 5.9,
+      "transition": 1.4,
+      "floor": 0.48
+    },
+    {
+      "name": "middle-left-room",
+      "polygons": [
+        [
+          [
+            1550.5,
+            198.6
+          ],
+          [
+            1553.1,
+            195.2
+          ],
+          [
+            1556.1,
+            193.8
+          ],
+          [
+            1556.1,
+            215.9
+          ],
+          [
+            1550.5,
+            217.5
+          ]
+        ],
+        [
+          [
+            1559.2,
+            193.5
+          ],
+          [
+            1562.8,
+            192.0
+          ],
+          [
+            1562.8,
+            215.0
+          ],
+          [
+            1559.2,
+            216.2
+          ]
+        ]
+      ],
+      "start": 15.2,
+      "hold": 6.3,
+      "transition": 1.3,
+      "floor": 0.57
+    },
+    {
+      "name": "middle-bright-room",
+      "polygons": [
+        [
+          [
+            1565.5,
+            191.8
+          ],
+          [
+            1569.6,
+            190.3
+          ],
+          [
+            1569.6,
+            213.6
+          ],
+          [
+            1565.5,
+            214.7
+          ]
+        ],
+        [
+          [
+            1571.6,
+            189.9
+          ],
+          [
+            1574.8,
+            188.8
+          ],
+          [
+            1574.8,
+            212.5
+          ],
+          [
+            1571.6,
+            213.8
+          ]
+        ]
+      ],
+      "start": 3.7,
+      "hold": 5.4,
+      "transition": 1.0,
+      "floor": 0.51
+    },
+    {
+      "name": "lower-left-room",
+      "polygons": [
+        [
+          [
+            1464.7,
+            232.1
+          ],
+          [
+            1477.6,
+            230.5
+          ],
+          [
+            1477.6,
+            242.0
+          ],
+          [
+            1464.7,
+            242.9
+          ]
+        ]
+      ],
+      "start": 10.7,
+      "hold": 5.2,
+      "transition": 1.0,
+      "floor": 0.62
+    },
+    {
+      "name": "lower-bright-room",
+      "polygons": [
+        [
+          [
+            1480.3,
+            230.1
+          ],
+          [
+            1491.7,
+            229.0
+          ],
+          [
+            1491.7,
+            240.9
+          ],
+          [
+            1480.3,
+            241.9
+          ]
+        ],
+        [
+          [
+            1494.6,
+            228.8
+          ],
+          [
+            1497.7,
+            228.3
+          ],
+          [
+            1497.7,
+            238.5
+          ],
+          [
+            1494.6,
+            239.4
+          ]
+        ]
+      ],
+      "start": 17.3,
+      "hold": 5.9,
+      "transition": 1.2,
+      "floor": 0.53
+    }
+  ],
+  "lamp": {
+    "events": [
+      {
+        "start": 6.4,
+        "hold": 1.3,
+        "transition": 0.32,
+        "depth": 0.3
+      },
+      {
+        "start": 14.8,
+        "hold": 2.0,
+        "transition": 0.6,
+        "depth": 0.2
+      },
+      {
+        "start": 6.04,
+        "hold": 0.18,
+        "transition": 0.055,
+        "depth": 0.18
+      }
+    ],
+    "spill_gain": 1.2,
+    "desk_polygon": [
+      [
+        296,
+        745
+      ],
+      [
+        575,
+        715
+      ],
+      [
+        747,
+        773
+      ],
+      [
+        609,
+        805
+      ],
+      [
+        493,
+        817
+      ],
+      [
+        356,
+        790
+      ]
+    ],
+    "desk_strength": 0.045
+  },
+  "status": {
+    "polygon": [
+      [
+        252,
+        319
+      ],
+      [
+        258,
+        319
+      ],
+      [
+        258,
+        338
+      ],
+      [
+        252,
+        339
+      ]
+    ],
+    "events": [
+      {
+        "start": 3.2,
+        "hold": 0.42,
+        "transition": 0.1,
+        "depth": 0.72
+      },
+      {
+        "start": 3.88,
+        "hold": 0.3,
+        "transition": 0.08,
+        "depth": 0.6
+      },
+      {
+        "start": 11.7,
+        "hold": 0.7,
+        "transition": 0.16,
+        "depth": 0.6
+      },
+      {
+        "start": 18.0,
+        "hold": 0.42,
+        "transition": 0.1,
+        "depth": 0.54
+      }
+    ]
+  },
+  "daylight": {
+    "table_polygon": [
+      [
+        300,
+        742
+      ],
+      [
+        576,
+        713
+      ],
+      [
+        747,
+        774
+      ],
+      [
+        608,
+        805
+      ],
+      [
+        493,
+        817
+      ],
+      [
+        354,
+        789
+      ]
+    ],
+    "table_strength": 0.042,
+    "ledge_polygon": [
+      [
+        435,
+        584
+      ],
+      [
+        804,
+        628
+      ],
+      [
+        1184,
+        690
+      ],
+      [
+        1614,
+        759
+      ],
+      [
+        1614,
+        769
+      ],
+      [
+        1176,
+        704
+      ],
+      [
+        797,
+        644
+      ],
+      [
+        436,
+        598
+      ]
+    ],
+    "ledge_strength": 0.027
+  },
+  "screen": {
+    "quad": [
+      [
+        268,
+        356
+      ],
+      [
+        316,
+        355
+      ],
+      [
+        326,
+        404
+      ],
+      [
+        277,
+        406
+      ]
+    ],
+    "size": [
+      128,
+      128
+    ],
+    "needle_strength": 1.25,
+    "log_cycles": 2,
+    "data_cycles": 4
+  },
+  "isolated_groups": {
+    "windows": [
+      "lights"
+    ],
+    "coffee": [
+      "coffee_steam"
+    ],
+    "tank_steam": [
+      "tank_steam_near",
+      "tank_steam_middle",
+      "tank_steam_far"
+    ],
+    "pipeline": [
+      "pipeline_lights"
+    ],
+    "water": [
+      "water"
+    ],
+    "sky": [
+      "sky",
+      "planet_veil"
+    ],
+    "atmosphere": [
+      "far_drift",
+      "basin_haze",
+      "brine_wisps",
+      "salt_far",
+      "salt_middle"
+    ],
+    "habitation": [
+      "screen",
+      "lights",
+      "lamp",
+      "status",
+      "daylight"
+    ]
+  },
+  "user_approved": false,
+  "inspection": "Native/temporal/decoded still inspection; continuous playback not claimed",
+  "window_panes": {
+    "panes": [
+      {
+        "id": "R1",
+        "group": "right-left-room",
+        "polygon": [
+          [
+            1603.8,
+            181.1
+          ],
+          [
+            1607.7,
+            178.6
+          ],
+          [
+            1613.1,
+            177.0
+          ],
+          [
+            1613.1,
+            203.8
+          ],
+          [
+            1603.8,
+            205.3
+          ]
+        ]
+      },
+      {
+        "id": "R2-steady",
+        "group": null,
+        "polygon": [
+          [
+            1616.6,
+            177.0
+          ],
+          [
+            1628.8,
+            174.2
+          ],
+          [
+            1628.8,
+            201.5
+          ],
+          [
+            1616.6,
+            203.6
+          ]
+        ]
+      },
+      {
+        "id": "R3",
+        "group": "right-bright-room",
+        "polygon": [
+          [
+            1640.7,
+            173.5
+          ],
+          [
+            1658.5,
+            171.9
+          ],
+          [
+            1658.5,
+            199.1
+          ],
+          [
+            1640.7,
+            201.0
+          ]
+        ]
+      },
+      {
+        "id": "R4",
+        "group": "right-bright-room",
+        "polygon": [
+          [
+            1662.1,
+            171.5
+          ],
+          [
+            1671.6,
+            170.9
+          ],
+          [
+            1671.6,
+            197.8
+          ],
+          [
+            1662.1,
+            198.9
+          ]
+        ]
+      },
+      {
+        "id": "M1",
+        "group": "middle-left-room",
+        "polygon": [
+          [
+            1550.5,
+            198.6
+          ],
+          [
+            1553.1,
+            195.2
+          ],
+          [
+            1556.1,
+            193.8
+          ],
+          [
+            1556.1,
+            215.9
+          ],
+          [
+            1550.5,
+            217.5
+          ]
+        ]
+      },
+      {
+        "id": "M2",
+        "group": "middle-left-room",
+        "polygon": [
+          [
+            1559.2,
+            193.5
+          ],
+          [
+            1562.8,
+            192.0
+          ],
+          [
+            1562.8,
+            215.0
+          ],
+          [
+            1559.2,
+            216.2
+          ]
+        ]
+      },
+      {
+        "id": "M3",
+        "group": "middle-bright-room",
+        "polygon": [
+          [
+            1565.5,
+            191.8
+          ],
+          [
+            1569.6,
+            190.3
+          ],
+          [
+            1569.6,
+            213.6
+          ],
+          [
+            1565.5,
+            214.7
+          ]
+        ]
+      },
+      {
+        "id": "M4",
+        "group": "middle-bright-room",
+        "polygon": [
+          [
+            1571.6,
+            189.9
+          ],
+          [
+            1574.8,
+            188.8
+          ],
+          [
+            1574.8,
+            212.5
+          ],
+          [
+            1571.6,
+            213.8
+          ]
+        ]
+      },
+      {
+        "id": "L1",
+        "group": "lower-left-room",
+        "polygon": [
+          [
+            1464.7,
+            232.1
+          ],
+          [
+            1477.6,
+            230.5
+          ],
+          [
+            1477.6,
+            242.0
+          ],
+          [
+            1464.7,
+            242.9
+          ]
+        ]
+      },
+      {
+        "id": "L2",
+        "group": "lower-bright-room",
+        "polygon": [
+          [
+            1480.3,
+            230.1
+          ],
+          [
+            1491.7,
+            229.0
+          ],
+          [
+            1491.7,
+            240.9
+          ],
+          [
+            1480.3,
+            241.9
+          ]
+        ]
+      },
+      {
+        "id": "L3",
+        "group": "lower-bright-room",
+        "polygon": [
+          [
+            1494.6,
+            228.8
+          ],
+          [
+            1497.7,
+            228.3
+          ],
+          [
+            1497.7,
+            238.5
+          ],
+          [
+            1494.6,
+            239.4
+          ]
+        ]
+      }
+    ],
+    "supersampling": 16,
+    "inward_feather_pixels": 0.38,
+    "facade_regions": [
+      [
+        1595,
+        165,
+        1672,
+        211
+      ],
+      [
+        1538,
+        179,
+        1581,
+        222
+      ],
+      [
+        1438,
+        218,
+        1505,
+        249
+      ]
+    ],
+    "fixed_mullion_lines": [
+      [
+        1614,
+        177,
+        1614,
+        205
+      ],
+      [
+        1634,
+        174,
+        1634,
+        202
+      ],
+      [
+        1660,
+        172,
+        1660,
+        200
+      ],
+      [
+        1557,
+        195,
+        1557,
+        215
+      ],
+      [
+        1564,
+        192,
+        1564,
+        215
+      ],
+      [
+        1570,
+        192,
+        1570,
+        214
+      ],
+      [
+        1478,
+        230,
+        1478,
+        242
+      ],
+      [
+        1493,
+        229,
+        1493,
+        240
+      ]
+    ],
+    "bright_core_controls": [
+      [
+        1610,
+        188
+      ],
+      [
+        1653,
+        185
+      ],
+      [
+        1668,
+        185
+      ],
+      [
+        1567,
+        204
+      ],
+      [
+        1568,
+        204
+      ],
+      [
+        1572,
+        204
+      ],
+      [
+        1573,
+        204
+      ],
+      [
+        1486,
+        232
+      ],
+      [
+        1487,
+        232
+      ]
+    ]
+  },
+  "steam": [
+    {
+      "name": "coffee_steam",
+      "anchor": [
+        250.5,
+        748.7
+      ],
+      "roi": [
+        221,
+        646,
+        288,
+        751
+      ],
+      "height": 96,
+      "width": 5.6,
+      "drift": 3.8,
+      "lifetime": 5,
+      "opacity": 0.35200000000000004,
+      "seed": 303,
+      "color": [
+        218,
+        220,
+        215
+      ],
+      "kind": "coffee",
+      "baseline": 0.65
+    },
+    {
+      "name": "tank_steam_near",
+      "anchor": [
+        1196.6,
+        234.1
+      ],
+      "roi": [
+        1184,
+        183,
+        1230,
+        238
+      ],
+      "height": 47,
+      "width": 5.2,
+      "drift": 13,
+      "lifetime": 5,
+      "opacity": 0.528,
+      "seed": 311,
+      "color": [
+        221,
+        229,
+        234
+      ],
+      "kind": "vent",
+      "baseline": 0.28,
+      "events": [
+        {
+          "start": 0.7,
+          "hold": 7.0,
+          "transition": 1.2
+        },
+        {
+          "start": 12.0,
+          "hold": 5.5,
+          "transition": 1.0
+        }
+      ]
+    },
+    {
+      "name": "tank_steam_middle",
+      "anchor": [
+        1169.0,
+        238.2
+      ],
+      "roi": [
+        1159,
+        198,
+        1192,
+        242
+      ],
+      "height": 36,
+      "width": 3.8,
+      "drift": 10,
+      "lifetime": 4,
+      "opacity": 0.462,
+      "seed": 313,
+      "color": [
+        217,
+        226,
+        232
+      ],
+      "kind": "vent",
+      "baseline": 0.3,
+      "events": [
+        {
+          "start": 5.1,
+          "hold": 8.2,
+          "transition": 1.6
+        }
+      ]
+    },
+    {
+      "name": "tank_steam_far",
+      "anchor": [
+        1291.0,
+        228.5
+      ],
+      "roi": [
+        1281,
+        187,
+        1318,
+        232
+      ],
+      "height": 37,
+      "width": 4.1,
+      "drift": 12,
+      "lifetime": 5,
+      "opacity": 0.5060000000000001,
+      "seed": 317,
+      "color": [
+        218,
+        226,
+        232
+      ],
+      "kind": "vent",
+      "baseline": 0.28,
+      "events": [
+        {
+          "start": 14.4,
+          "hold": 8.4,
+          "transition": 1.6
+        }
+      ]
+    }
+  ],
+  "steam_occluders": {
+    "cup_front": [
+      [
+        215.5,
+        751.5
+      ],
+      [
+        227,
+        755.6
+      ],
+      [
+        249.5,
+        756.3
+      ],
+      [
+        271.8,
+        752.8
+      ],
+      [
+        290.6,
+        747.6
+      ],
+      [
+        290.6,
+        826
+      ],
+      [
+        214.5,
+        827
+      ]
+    ],
+    "tank_shells": [
+      [
+        [
+          1127,
+          254.0
+        ],
+        [
+          1145,
+          246.4
+        ],
+        [
+          1159.0,
+          249.1
+        ],
+        [
+          1159,
+          245.2
+        ],
+        [
+          1170,
+          240.0
+        ],
+        [
+          1180.7,
+          244.3
+        ],
+        [
+          1181.2,
+          241.2
+        ],
+        [
+          1196.8,
+          237.0
+        ],
+        [
+          1214.5,
+          243.1
+        ],
+        [
+          1214.5,
+          282
+        ],
+        [
+          1126.2,
+          291.5
+        ]
+      ],
+      [
+        [
+          1245.0,
+          243.0
+        ],
+        [
+          1260.2,
+          236.1
+        ],
+        [
+          1272,
+          240.6
+        ],
+        [
+          1274.1,
+          237.6
+        ],
+        [
+          1291.2,
+          232.6
+        ],
+        [
+          1308.0,
+          238.6
+        ],
+        [
+          1308,
+          265
+        ],
+        [
+          1244.5,
+          278
+        ]
+      ]
+    ]
+  },
+  "pipeline_lights": {
+    "route": [
+      [
+        858,
+        331.6
+      ],
+      [
+        900,
+        323.5
+      ],
+      [
+        950,
+        317.0
+      ],
+      [
+        1000,
+        310.1
+      ],
+      [
+        1050,
+        304.2
+      ],
+      [
+        1100,
+        298.3
+      ],
+      [
+        1150,
+        292.5
+      ],
+      [
+        1200,
+        288.0
+      ],
+      [
+        1250,
+        282.0
+      ],
+      [
+        1300,
+        276.0
+      ],
+      [
+        1350,
+        270.0
+      ],
+      [
+        1390,
+        266.5
+      ]
+    ],
+    "marker_x": [
+      899,
+      940,
+      981,
+      1021,
+      1062,
+      1107,
+      1152,
+      1200,
+      1250,
+      1302,
+      1358,
+      1386
+    ],
+    "roi": [
+      887,
+      260,
+      1394,
+      332
+    ],
+    "period": 10,
+    "phases": [
+      0,
+      0.5
+    ],
+    "floor": 0.12,
+    "color": [
+      132,
+      222,
+      229
+    ],
+    "halo_color": [
+      28,
+      76,
+      83
+    ],
+    "fixture_darkening": 0.18,
+    "pulse_width": 0.1,
+    "core_sigma": [
+      0.95,
+      0.6
+    ],
+    "halo_sigma": [
+      2.1,
+      1.1
+    ]
+  },
+  "revision_scope": "Whole-pane masks replace v2 small rectangles; coffee and three actual roof-outlet steam sources; restrained mounted pipeline indicator chase. V2 remaining layers/timings retained."
+}

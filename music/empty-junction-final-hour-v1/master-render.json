@@ -1,0 +1,84 @@
+{
+  "parts": [
+    {
+      "part": 0,
+      "start_seconds": 0,
+      "frames": 450,
+      "files": {
+        "quiet-4K.mp4": "a36d370b5f562440122fdc007c991912d90ec21ebb2c687c1ec2c3831154289c",
+        "quiet-720p.mp4": "73763016bccb818f826539a9488f0c8b64b9458b17a94344ad9c69bef52ff9b4",
+        "wind-4K.mp4": "44f39f7dceaaffa484febf79172f0653a6be189a705b9e885ced6d75d1ae3006",
+        "wind-720p.mp4": "16c108a3ac0417dce9c9d97ad1096216a4baa851a2c7657f67c44584e8e18cb0"
+      }
+    },
+    {
+      "part": 1,
+      "start_seconds": 15,
+      "frames": 450,
+      "files": {
+        "quiet-4K.mp4": "82f7f2324fd043976269ae2e3096a42c3853a255c2e7e355a6cc1ef131d30f37",
+        "quiet-720p.mp4": "ec9a4bc5da9556dd55885c9c78b118ac2a71d9cee03902f2410eedd8442e8e9c",
+        "wind-4K.mp4": "70508c88c23e64233ba4244abb2ce37d82754da850e76ca3855f859113cc4287",
+        "wind-720p.mp4": "3f68f295fc52d88d74b2f94df1beaf76701c59c0211876914b06231d274814b1"
+      }
+    },
+    {
+      "part": 2,
+      "start_seconds": 30,
+      "frames": 450,
+      "files": {
+        "quiet-4K.mp4": "094f1c19b025af7e0ab4095ff63f13e52211fc728c71cce49bb5a6917e7988ee",
+        "quiet-720p.mp4": "ef67f0703320e48ae33f47546cf663a0840410bc3f17e305d7a039f93a5a0579",
+        "wind-4K.mp4": "6e46c9ee53af0afb780362988604e7e83d3ac2eee45d81c0d608f2121ffc1c1e",
+        "wind-720p.mp4": "65979f6397da1c593c2188a6c515b86b650c880820002b7735d1ef93d5378bd3"
+      }
+    },
+    {
+      "part": 3,
+      "start_seconds": 45,
+      "frames": 450,
+      "files": {
+        "quiet-4K.mp4": "e79f9ce09ce66c31281cdba9e100d404a7c3d7079b08bec316bc31537d983a88",
+        "quiet-720p.mp4": "fb12c368a4693532438f3ae8d77792a1e680fbdda56b64116f04c654707c7a19",
+        "wind-4K.mp4": "5e3e8ae14783a83e8dd065f76de25a962ed1dcba3a93322cf33bfeb5084188ab",
+        "wind-720p.mp4": "18b3674cfb2292c2e58e5314108c95a53e6605f480893ae6b4632e48d0315ff6"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "Empty-Junction-v6-cycle-180s-4K.mp4",
+      "bytes": 476342227,
+      "sha256": "d356492eba407dfa9fd7155cca748fd77503d18dccf1a7d6e12f5eebd1aa51f9"
+    },
+    {
+      "file": "Empty-Junction-v6-cycle-180s-720p.mp4",
+      "bytes": 48739339,
+      "sha256": "a0426ef6d35da37dafdb2c149b847914ae03a92253b84708c9e25e7aef339a5f"
+    },
+    {
+      "file": "Empty-Junction-v6-quiet-60s-4K.mp4",
+      "bytes": 152399895,
+      "sha256": "2627e5621d6c3965b3b976e82c044e2916c69574358341b0e48f5285c95290c3"
+    },
+    {
+      "file": "Empty-Junction-v6-quiet-60s-720p.mp4",
+      "bytes": 15570703,
+      "sha256": "5e64b8152943c2a57a8f3f4e9e4cb39e0651e95aab392c9102c03b9bda70f754"
+    },
+    {
+      "file": "Empty-Junction-v6-wind-60s-4K.mp4",
+      "bytes": 171544131,
+      "sha256": "e380a3e26367b125ac8d9596bd6115b5c626d12cc0be5441989f6b3364acdfa5"
+    },
+    {
+      "file": "Empty-Junction-v6-wind-60s-720p.mp4",
+      "bytes": 17599587,
+      "sha256": "8641d293f40c444387f8381a186b30034509ebbf7e9dccba9e4ac2ad9ac39ee5"
+    }
+  ],
+  "native_unchanged": true,
+  "adapter_sha256": "4c8b93ca58a662c89f7df89346bbe5eb7139e4ff2caf3bffb7523090cd7c4f46",
+  "wind_schedule": "60 seconds active, 120 seconds quiet; other motion remains identical",
+  "fps": 30
+}

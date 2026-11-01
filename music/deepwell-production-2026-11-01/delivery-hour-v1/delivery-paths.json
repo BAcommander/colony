@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-01",
+  "seconds": 3600,
+  "outputs": [
+    {
+      "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-v1.flac",
+      "sha256": "ea5b2b80ff2f5d2a7bff22d7f5a7bea3b09851f7c043deaf3a91c9a6842bf20f",
+      "bytes": 592339509,
+      "seconds": 3600,
+      "sample_frames_per_channel": 172800000,
+      "all_finite": true,
+      "clipping_samples": 0,
+      "sample_peak_dbfs": -9.41231992212913,
+      "full_sample_recipe_max_error": 1.1897621254863822e-7,
+      "full_sample_recipe_snr_db": 118.569866539847,
+      "kind": "mix"
+    },
+    {
+      "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-v1.mp3",
+      "sha256": "710d059e4a445ae58391c7e26bcb605c0baefa112532da0e151caa20c1c55d4d",
+      "bytes": 86401196,
+      "seconds": 3600,
+      "sample_frames_per_channel": 172800000,
+      "all_finite": true,
+      "clipping_samples": 0,
+      "sample_peak_dbfs": -9.683012207554734,
+      "full_sample_recipe_max_error": 0.013812005519866943,
+      "full_sample_recipe_snr_db": 29.87083957556817,
+      "kind": "mix"
+    },
+    {
+      "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-dry-music-v1.flac",
+      "sha256": "f83076a34c25fbefe1123c7540509ad63f0cd252885468097de9028620253c95",
+      "bytes": 470951977,
+      "seconds": 3600,
+      "sample_frames_per_channel": 172800000,
+      "all_finite": true,
+      "clipping_samples": 0,
+      "sample_peak_dbfs": -9.623164769373911,
+      "full_sample_recipe_max_error": 1.1897621254863822e-7,
+      "full_sample_recipe_snr_db": 118.49557736444702,
+      "kind": "dry"
+    },
+    {
+      "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-SFX-only-v1.flac",
+      "sha256": "27b1d61ce41c4e08b5c68f14a9a2f6f74afd093a8a3496124f3593329c9c8e4c",
+      "bytes": 484732418,
+      "seconds": 3600,
+      "sample_frames_per_channel": 172800000,
+      "all_finite": true,
+      "clipping_samples": 0,
+      "sample_peak_dbfs": -19.796523691729742,
+      "full_sample_recipe_max_error": 1.1897623153345194e-7,
+      "full_sample_recipe_snr_db": 100.81991467166189,
+      "kind": "sfx"
+    }
+  ],
+  "recipe": "music/deepwell-production-2026-11-01/delivery-hour-v1/mix-recipe.json",
+  "validation": "music/deepwell-production-2026-11-01/delivery-hour-v1/delivery-validation.json",
+  "balance_approval": {
+    "date": "2026-11-01",
+    "verbatim": "yeah that sounds good now, lets get the 1 hour version ready",
+    "scope": "Acceptance follows the water-and-wind-in-composition excerpt at the current v4 balance, and authorizes a one-hour soundtrack. No full-hour listening or new animation verdict inferred."
+  },
+  "assistant_listening": false,
+  "full_hour_user_listening": null,
+  "new_video": false
+}

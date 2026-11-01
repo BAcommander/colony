@@ -1,0 +1,26 @@
+{
+  "native_states_match_selected_v6": [
+    0,
+    3.1,
+    5.7,
+    12,
+    20,
+    29.966666666666665,
+    44,
+    59.96666666666667
+  ],
+  "selected_preview_yuv_exact_at_frames": [
+    0,
+    93,
+    171,
+    360,
+    899
+  ],
+  "only_wind_powder_omitted_in_quiet_unit": true,
+  "beacons_and_powder_disjoint": true,
+  "source_native_dimensions": [
+    1672,
+    941
+  ],
+  "4k_method": "Native RGB rendered directly then Lanczos upscaled to 3840x2160 with BT.709 conversion; no 720p enlargement"
+}

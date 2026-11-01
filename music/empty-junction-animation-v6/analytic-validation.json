@@ -1,0 +1,33 @@
+{
+  "source_sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+  "planet_sha256": "78d3f4926cc0da1d6005b124c16698a1ba02ee8830588c2e3d5f21dbf4d7379d",
+  "layers": {
+    "clouds": {
+      "periodic": true,
+      "seam_mae": 0.0032679697020543824,
+      "ordinary_max": 0.004138086497278846
+    },
+    "mist": {
+      "periodic": true,
+      "seam_mae": 0.0020196794275322157,
+      "ordinary_max": 0.002039170721703302
+    },
+    "windows": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "ordinary_max": 0.001121596862410107
+    },
+    "beacons": {
+      "periodic": true,
+      "seam_mae": 0.00026313247130966243,
+      "ordinary_max": 0.000401266425652577
+    },
+    "None": {
+      "periodic": true,
+      "seam_mae": 0.0062495021245510644,
+      "ordinary_max": 0.009263873140488163
+    }
+  },
+  "protected_pixels_asserted": true,
+  "user_approved": false
+}

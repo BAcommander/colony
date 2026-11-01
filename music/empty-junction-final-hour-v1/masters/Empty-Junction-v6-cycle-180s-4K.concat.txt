@@ -1,0 +1,3 @@
+file 'G:/AI/colony/music/empty-junction-final-hour-v1/masters/Empty-Junction-v6-wind-60s-4K.mp4'
+file 'G:/AI/colony/music/empty-junction-final-hour-v1/masters/Empty-Junction-v6-quiet-60s-4K.mp4'
+file 'G:/AI/colony/music/empty-junction-final-hour-v1/masters/Empty-Junction-v6-quiet-60s-4K.mp4'

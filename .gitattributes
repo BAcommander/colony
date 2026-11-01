@@ -235,3 +235,63 @@ final/11-empty-junction/youtube-title.txt -text
 # Preserve historical document line endings and raw FFmpeg logs without whitespace rewriting.
 music/empty-junction-animation-v[45]/history/records-before-v*/** -whitespace
 music/empty-junction-music-v1/**/*.log -diff -whitespace
+
+# All-day production backup requested 2026-11-01; preserve fingerprinted bytes.
+final/12-deepwell-station/upload-2026-11-01/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/deepwell-final-hour-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/deepwell-production-2026-11-01/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/deepwell-thumbnail-v2/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/empty-junction-animation-v6/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/empty-junction-final-hour-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/empty-junction-final-hour-v2/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/prompt-learnings-2026-11-01/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/sfx-library/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/production-backup-2026-11-01/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+AGENTS.md whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+final/12-deepwell-station/manifest.json -text
+music/deepwell-final-hour-v1/masters/Deepwell-v4-20s-4K.mp4 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v1/Deepwell-A-to-B-dry-join-90s-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v1/Deepwell-B-to-A-dry-join-90s-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v1/Deepwell-both-music-water-wind-8min-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v1/Deepwell-quick-water-wind-check-2min-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v2/Deepwell-water-down-10-percent-8min-v2.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v2/Deepwell-water-down-check-2min-v2.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v2/Deepwell-wind-current-vs-plus3dB-91s.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v2/Deepwell-wind-in-composition-80s.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v3/Deepwell-louder-wind-in-composition-80s-v3.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v3/Deepwell-water-down-wind-plus3dB-8min-v3.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v4/Deepwell-both-music-water-wind-pump-8min-v4.flac filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v4/Deepwell-both-music-water-wind-pump-8min-v4.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v4/Deepwell-louder-wind-in-composition-80s-v4.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v4/Deepwell-pump-and-louder-wind-in-music-60s-v4.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/combined-review-v4/Deepwell-water-and-wind-together-60s-v4.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/review/A-Waterworks-Gallery-4min-level-matched.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/review/B-Sheltered-Replenishment-4min-level-matched.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/review/Deepwell-original-wind-30s.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/sources/A_distant_water-circ_#4-1793555177439.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/sources/Clear_ocean_water_re_#1-1791650516724.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/sources/Sheltered_Replenishment_2026-11-01T171541.mp4 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/sources/Soft_wind_moving_thr_#4-1793463971195.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-production-2026-11-01/sources/Waterworks_Gallery_2026-11-01T171541.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-animation-v6/Empty-Junction-v6-30s-720p.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-animation-v6/Empty-Junction-v6-with-approved-audio-30s-720p.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-final-hour-v1/masters/Empty-Junction-v6-quiet-60s-4K.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-final-hour-v1/masters/Empty-Junction-v6-wind-60s-4K.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-final-hour-v2/Empty-Junction-more-frequent-SFX-check-6min.mp3 filter=lfs diff=lfs merge=lfs -text
+music/sfx-library/assets/grit-mineral-soft-01.mp3 filter=lfs diff=lfs merge=lfs -text
+music/sfx-library/assets/pump-distant-circulation-01.mp3 filter=lfs diff=lfs merge=lfs -text
+music/sfx-library/assets/rain-sheltered-gentle-01.mp3 filter=lfs diff=lfs merge=lfs -text
+music/sfx-library/assets/train-distant-freight-01.mp3 filter=lfs diff=lfs merge=lfs -text
+music/sfx-library/assets/water-soft-ripples-01.mp3 filter=lfs diff=lfs merge=lfs -text
+music/sfx-library/assets/wind-soft-exterior-01.mp3 filter=lfs diff=lfs merge=lfs -text
+music/sfx-library/previews/grit-mineral-soft-01.mp3 filter=lfs diff=lfs merge=lfs -text
+music/sfx-library/previews/pump-distant-circulation-01.mp3 filter=lfs diff=lfs merge=lfs -text
+music/sfx-library/previews/rain-sheltered-gentle-01.mp3 filter=lfs diff=lfs merge=lfs -text
+music/sfx-library/previews/train-distant-freight-01.mp3 filter=lfs diff=lfs merge=lfs -text
+music/sfx-library/previews/water-soft-ripples-01.mp3 filter=lfs diff=lfs merge=lfs -text
+music/sfx-library/previews/wind-soft-exterior-01.mp3 filter=lfs diff=lfs merge=lfs -text
+
+# Frozen snapshots retain historical whitespace verbatim.
+music/empty-junction-animation-v6/history/records-before-v6/** -whitespace
+music/deepwell-final-hour-v1/source-snapshot/** -whitespace
+music/empty-junction-final-hour-v1/source-snapshot/** -whitespace

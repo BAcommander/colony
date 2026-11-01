@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "outputs": [
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v2\\Deepwell-water-down-10-percent-8min-v2.flac",
+      "sha256": "f0a36bae999193dc2c137a5a6ea5a1f8b522f8f54d5f21abe77c03d5f13f4be6",
+      "seconds": 480.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -9.624820379055114,
+      "gain_recipe_snr_db": 121.94804605489963,
+      "max_absolute_error": 1.1897373042302206e-07
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v2\\Deepwell-water-down-10-percent-8min-v2.mp3",
+      "sha256": "88d29d35242039c0176b40e453e336ce49b0bc8c5f787a41e86be39a293a4bdb",
+      "seconds": 480.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -9.887402238614468,
+      "gain_recipe_snr_db": 29.998257246040986,
+      "max_absolute_error": 0.012831494212150574
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v2\\Deepwell-water-down-check-2min-v2.mp3",
+      "sha256": "84ee1797d394a7d8dc29b00f24f56c6f22204e55202069bccbff0b83fb81571e",
+      "seconds": 120.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -10.48738069930634,
+      "gain_recipe_snr_db": 30.012381784631255,
+      "max_absolute_error": 0.018751733005046844
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v2\\Deepwell-wind-current-vs-plus3dB-91s.mp3",
+      "sha256": "cb65ece9efcf89aaf734f7664951b5bfd3121d2070733b8721b694a7bb107b95",
+      "seconds": 91.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -12.450309971192716,
+      "gain_recipe_snr_db": 29.900991733764286,
+      "max_absolute_error": 0.014820508658885956
+    }
+  ],
+  "full_decode_and_gain_recipe_comparison": true,
+  "only_water_changed_in_main_mix": true,
+  "outside_water_windows_exact": true,
+  "assistant_listening": false,
+  "water_change": {
+    "amplitude_multiplier": 0.9,
+    "gain_change_db": -0.9151498112135024,
+    "previous_gain_db": -12.9,
+    "new_gain_db": -13.815149811213503,
+    "scope": "Water only; timings and existing music/wind unchanged",
+    "outside_water_events_samples_identical_to_v1": true
+  },
+  "optional_wind_comparison": {
+    "file": "Deepwell-wind-current-vs-plus3dB-91s.mp3",
+    "full_mix_range": [
+      100,
+      145
+    ],
+    "current_level_range": [
+      0,
+      45
+    ],
+    "silence_separator": [
+      45,
+      46
+    ],
+    "plus3db_range": [
+      46,
+      91
+    ],
+    "wind_enters_at_comparison_seconds": [
+      5,
+      51
+    ],
+    "new_main_mix_wind_gain_db": 1.85,
+    "optional_gain_db": 4.85,
+    "boost_applied_to_main_mix": false
+  }
+}

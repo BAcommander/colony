@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "outputs": [
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v3\\Deepwell-water-down-wind-plus3dB-8min-v3.flac",
+      "sha256": "878a3905e4fac74a7f390bdee51bcba0a40f844d7dca42360931799b05d33a8c",
+      "seconds": 480.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -9.624820379055114,
+      "gain_recipe_snr_db": 124.4782851878218,
+      "max_absolute_error": 1.189691829495132e-07
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v3\\Deepwell-water-down-wind-plus3dB-8min-v3.mp3",
+      "sha256": "61dedc809b245b73c09ad334a77370c94c653892c4056483517f8a47efa0bfef",
+      "seconds": 480.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -9.887402238614468,
+      "gain_recipe_snr_db": 29.95590342020678,
+      "max_absolute_error": 0.01283147931098938
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v3\\Deepwell-louder-wind-in-composition-80s-v3.mp3",
+      "sha256": "ab4dc20812b49936c57471ad5a710588e9af227c8d3af19ef4cf09ae4805622f",
+      "seconds": 80.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -11.080273684716735,
+      "gain_recipe_snr_db": 29.95865704477594,
+      "max_absolute_error": 0.023288831114768982
+    }
+  ],
+  "all_outputs_fully_decoded_and_compared": true,
+  "outside_wind_events_exact_to_v2": true,
+  "source_unchanged": true,
+  "assistant_listening": false,
+  "new_balance_approval": false
+}

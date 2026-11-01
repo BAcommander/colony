@@ -1,0 +1,124 @@
+{
+  "status": "passed",
+  "outputs": [
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v1\\Deepwell-both-music-water-wind-8min-v1.flac",
+      "sha256": "41d894bfb5d044f9f1763c5d2857498bdab1e88eafee490bf4ca6279b28d726e",
+      "seconds": 480.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -9.625005400497722,
+      "gain_recipe_snr_db": 118.47058530054494,
+      "max_absolute_error": 1.1897621254863822e-07
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v1\\Deepwell-both-music-water-wind-8min-v1.mp3",
+      "sha256": "f2c002c61923a21b73c8d5432a4edca6b09d56ebbe885554eef8d9c37dfd6444",
+      "seconds": 480.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -9.89677817305008,
+      "gain_recipe_snr_db": 29.952746806394654,
+      "max_absolute_error": 0.014320135116577148
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v1\\Deepwell-both-music-dry-8min-v1.flac",
+      "sha256": "c7dde61ad4ad8f222c118353e23dcf53ca99ff579fa3b024521f1d4961aa512a",
+      "seconds": 480.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -9.623164769373911,
+      "gain_recipe_snr_db": 118.42809845940734,
+      "max_absolute_error": 1.1897621254863822e-07
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v1\\Deepwell-water-wind-only-8min-v1.flac",
+      "sha256": "b69cc6e0b96b3a99439029239fd538865b4d8f62f10faad55fb51160046d5f85",
+      "seconds": 480.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -20.392260310086918,
+      "gain_recipe_snr_db": 98.9634909479529,
+      "max_absolute_error": 1.1897623153345194e-07
+    }
+  ],
+  "examples": [
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v1\\Deepwell-quick-water-wind-check-2min-v1.mp3",
+      "sha256": "126b3a48c342562b19d20885fc1ec38419c1210a9e7210c8ed1ff1fafdd7f58e",
+      "seconds": 120.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -10.604633303704937,
+      "gain_recipe_snr_db": 29.967350287127136,
+      "max_absolute_error": 0.018751688301563263,
+      "full_mix_range_seconds": [
+        20,
+        140
+      ]
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v1\\Deepwell-A-to-B-dry-join-90s-v1.mp3",
+      "sha256": "fae42f7780aaffc37f3f5311d2dada07ed4b7005274877e362ccaf2c93baaade",
+      "seconds": 90.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -11.604159893743162,
+      "gain_recipe_snr_db": 30.449673444412095,
+      "max_absolute_error": 0.01820620894432068,
+      "full_mix_range_seconds": [
+        180,
+        270
+      ]
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\combined-review-v1\\Deepwell-B-to-A-dry-join-90s-v1.mp3",
+      "sha256": "e08d6074bca56ea3150704d7239f8a0f60f73995d4f0fae2604918df3aa77cc8",
+      "seconds": 90.0,
+      "full_decode": true,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -10.52048209654618,
+      "gain_recipe_snr_db": 30.454134406695232,
+      "max_absolute_error": 0.008986979722976685,
+      "full_mix_range_seconds": [
+        372,
+        462
+      ]
+    }
+  ],
+  "full_mix_measurements": {
+    "i": -22.75,
+    "tp": -9.63,
+    "lra": 4.6,
+    "thresh": -32.82
+  },
+  "both_original_music_hashes_unchanged": true,
+  "original_sfx_hashes_unchanged": true,
+  "source_period_boundary_checks": [
+    {
+      "seconds": 26.0,
+      "trim": [
+        1,
+        29
+      ],
+      "overlap_seconds": 2,
+      "gain_db": -12.9,
+      "seam_sample_rms_step": 0.005826775024527963,
+      "ordinary_step_99_9_percentile": 0.011847607580325173
+    },
+    {
+      "seconds": 24.0,
+      "trim": [
+        1,
+        29
+      ],
+      "overlap_seconds": 4,
+      "gain_db": 1.85,
+      "seam_sample_rms_step": 0.002111055545097694,
+      "ordinary_step_99_9_percentile": 0.003018059604957856
+    }
+  ],
+  "full_decode_and_recipe_comparison": true,
+  "assistant_listening": false,
+  "user_balance_join_review": "pending"
+}

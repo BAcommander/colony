@@ -1,0 +1,55 @@
+{
+  "status": "Thirty-second visual review candidate",
+  "clips": [
+    {
+      "file": "Empty-Junction-v6-30s-720p.mp4",
+      "sha256": "c4c2e6ebc6f35649e6426b6291bc081800d9be74c11f093cc373fa2732741158",
+      "frames": 900,
+      "fps": 30,
+      "seconds": 30,
+      "all_frames_decoded": true,
+      "sequential_timestamps": true,
+      "matches_silent_video": false,
+      "exact_native_to_decoded_yuv_controls": [
+        0,
+        93,
+        171,
+        360,
+        899
+      ]
+    },
+    {
+      "file": "Empty-Junction-v6-with-approved-audio-30s-720p.mp4",
+      "sha256": "955dfc84e914c3fdf43886a022de357509eef755008bec36b5f845a0e7fca22f",
+      "frames": 900,
+      "fps": 30,
+      "seconds": 30,
+      "all_frames_decoded": true,
+      "sequential_timestamps": true,
+      "matches_silent_video": true,
+      "audio": {
+        "approved_source_sha256": "84a773c68ca1a8d1115c76e2edcc914f8c955c5f60cb31436b1c5718b4982f09",
+        "comparison_snr_db": 35.87955428314394,
+        "whole_excerpt_compared": true,
+        "no_added_gain_eq_or_fades": true
+      }
+    }
+  ],
+  "source_sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+  "source_native_dimensions": [
+    1672,
+    941
+  ],
+  "planet_asset_sha256": "78d3f4926cc0da1d6005b124c16698a1ba02ee8830588c2e3d5f21dbf4d7379d",
+  "preview_dimensions": [
+    1280,
+    720
+  ],
+  "user_approved": false,
+  "user_audio_mix_approved": true,
+  "periodicity": "Native 60s layer states and sampled seam checks passed; this 30s review is not a loop and is not presented as a complete encoded cycle.",
+  "assistant_review": "Native/decoded temporal stills; no continuous playback claim",
+  "full_4k_or_hour_created": false,
+  "committed": false,
+  "pushed": false
+}

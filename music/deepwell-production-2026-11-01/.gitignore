@@ -1,0 +1,15 @@
+cache/
+review/*.mp3
+review/*.flac
+sources/*.mp4
+combined-review-v1/*.mp3
+combined-review-v1/*.flac
+combined-review-v1/*.mp4
+combined-review-v2/*.mp3
+combined-review-v2/*.flac
+combined-review-v3/*.mp3
+combined-review-v3/*.flac
+combined-review-v4/*.mp3
+combined-review-v4/*.flac
+sources/*.mp3
+__pycache__/

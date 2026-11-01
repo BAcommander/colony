@@ -1,0 +1,26 @@
+DEEPWELL STATION — UPLOAD PACKAGE (2026-11-01)
+
+Video: G:/AI/colony/exports/12-deepwell-station/Deepwell-Station-1-Hour-4K-v1.mp4
+Title: Deepwell Station — Water for a New World | 1 Hour Sci-Fi Ambient
+Thumbnail: thumbnail-current.jpg (byte-identical copy of approved thumbnail-v1.jpg; 1280x720)
+Description: description.txt
+Tags: youtube-tags.txt
+Suggested category: Music
+AI use: Yes. AI-generated music is a disclosure example in current YouTube guidance. The description line supplements the Studio setting.
+Source: https://support.google.com/youtube/answer/14328491
+
+PACKAGING REVIEW
+The existing thumbnail is readable and matches the established channel identity, but predates the latest review. Its large two-line title, brand, subtitle and catalogue number occupy much of the upper-left scene. It also omits the planet now visible in the final animation. These are visual/creative concerns, not demonstrated CTR defects.
+Keep the current approved thumbnail available; no replacement was generated or silently selected. A scene-first candidate with only DEEPWELL, and a scene-only candidate, are sensible tests. Use consistent artwork/crop/brightness if the purpose is to isolate typography; changing the planet/art and text together tests the complete package, not text alone. No concurrent result or Studio CTR/retention data currently establishes the winner.
+Native YouTube A/B testing can compare up to3 variants, where eligible; it evaluates watch time. Hold title steady for a thumbnail-only comparison.
+Source: https://support.google.com/youtube/answer/16391400
+
+The title and description have now been refreshed from the old preparation drafts to state the scene story, one-hour runtime, actual sound layers,4K output and AI creation. Previous bytes are under previous-copy/. Native art is1672x941, rendered then Lanczos upscaled to4K; no native4K artwork claim.
+
+AUDIO REVIEW
+G:/AI/colony/music/deepwell-production-2026-11-01/review-against-learnings/REPORT.md
+No audio/video re-export or processing change was made. Both source analyses and equal160-second interior-window checks are saved. Full-session preference remains a listening question, not a number to optimize.
+
+No account action, upload, paid generation, commit or push.
+
+NEW THUMBNAIL CANDIDATES: thumbnail-candidates/Deepwell-title-v2.jpg and Deepwell-scene-only-v2.jpg. See phone-comparison.png (old / one-word / scene-only). User selection pending; original thumbnail retained. Exact prompt and provenance: music/deepwell-thumbnail-v2/.

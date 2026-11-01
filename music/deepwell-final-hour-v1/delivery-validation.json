@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "output": "G:\\AI\\colony\\exports\\12-deepwell-station\\Deepwell-Station-1-Hour-4K-v1.mp4",
+  "bytes": 16644387474,
+  "sha256": "2ded2931f60db759cdbd0f563e2663cd3262f4364d751e769caa92d0b15f283f",
+  "duration_seconds": 3600,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "frames": 108000,
+  "native_source_dimensions": [
+    1672,
+    941
+  ],
+  "upscale": "Previously verified native-to-4K Lanczos master, unchanged in assembly",
+  "colony_full_video_audio_decode": true,
+  "video_validation": "video-validation.json",
+  "audio_validation": "audio-validation.json",
+  "opening": "Actual Colony v3, public title Deepwell Station, once; pictures clear by 22s; sound silence to5/fade to20",
+  "source_hashes_unchanged": true,
+  "clean_loop_payloads_identical": 59,
+  "full_combined_user_review": "pending",
+  "assistant_inspection": "Decoded temporal stills, technical checks; not continuous playback or full listening",
+  "remote_backup": false
+}

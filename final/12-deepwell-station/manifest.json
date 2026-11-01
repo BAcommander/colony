@@ -3,7 +3,7 @@
   "creative_concept_id": 18,
   "title": "Deepwell Station",
   "date": "2026-09-29",
-  "status": "release artwork/thumbnail package accepted; publication and music briefs prepared; animation and audio not produced",
+  "status": "One-hour 4K V4 video delivered with accepted music/water/wind/pump mix and current Colony opening; full technical validation passed. Final combined user playback pending.",
   "user_approved": true,
   "generator": "built-in image_gen",
   "selection": {
@@ -67,27 +67,35 @@
   },
   "caption": "WATER FOR A NEW WORLD",
   "youtube_metadata": {
-    "status": "publication drafts; no unsupported soundtrack, runtime or resolution claims",
+    "status": "Updated local upload copy for completed one-hour video; not published",
     "title_file": "youtube-title.txt",
-    "title_sha256": "73435100a9538ba70818372a24652462209dd4e8d43c0996f0efd2bf26526772",
+    "title_sha256": "47c71b46158bc2c1d64efb650be7ee05acfe3380389f9087ccc60b69c8d15f8b",
     "description_file": "description.txt",
-    "description_sha256": "9b5f9241520a1dc34de3841b414a78b699e8cd42078aeeaa58f7e8bc23253ad0",
+    "description_sha256": "6c09ad9345a0e0fc53345fa4e928bcb78dfd6908c39cbd5daac6a18d8b5cc389",
     "tags_file": "youtube-tags.txt",
     "tags_sha256": "c52c37977192c7507132a9f9214a846d6509f9a678ea1386e80da723c476bc3e",
     "tags_characters_including_separators": 295,
     "tags_characters_including_file_newline": 296,
     "tags_count": 16,
     "hashtags_count": 3,
-    "description_words_before_hashtags": 70,
+    "description_words_before_hashtags": 110,
     "keyword_note": "Scene-relevant suggestions, not measured search-volume data or ranking guarantees",
-    "guidance_checked": "2026-09-29",
+    "guidance_checked": "2026-11-01",
     "sources": [
       "https://support.google.com/youtube/answer/146402?hl=en",
-      "https://support.google.com/youtube/answer/12948449?hl=en"
+      "https://support.google.com/youtube/answer/12948449?hl=en",
+      "https://support.google.com/youtube/answer/14328491",
+      "https://support.google.com/youtube/answer/16391400"
+    ],
+    "upload_package": "final/12-deepwell-station/upload-2026-11-01",
+    "thumbnail_review": "Scene-first one-word and scene-only candidates prepared at music/deepwell-thumbnail-v2/. User choice pending; current approved thumbnail-v1 remains unchanged.",
+    "thumbnail_candidates": [
+      "music/deepwell-thumbnail-v2/Deepwell-title-v2.jpg",
+      "music/deepwell-thumbnail-v2/Deepwell-scene-only-v2.jpg"
     ]
   },
   "music_preparation": {
-    "status": "V3 research-informed prompts prepared; no audio generated",
+    "status": "Accepted music/water/wind/pump balance extended to one hour; MP3, lossless mix and separate stems delivered and fully checked. V4 visual review and video assembly remain pending.",
     "current_version": 3,
     "files": [
       {
@@ -127,8 +135,8 @@
       },
       {
         "path": "final/12-deepwell-station/music/generation-record.json",
-        "sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c",
-        "bytes": 603
+        "sha256": "9ace9c4e7702e5798bc1f467ef186783f6f142bad64a650a6d87f0231cfa4318",
+        "bytes": 7603
       },
       {
         "path": "final/12-deepwell-station/music/prompt-manifest-v3.json",
@@ -146,22 +154,230 @@
     "credits_spent_by_assistant": 0,
     "workflow": "creative/MUSIC_WORKFLOW.md",
     "month_pack": "creative/music/november-2026/README.md",
-    "prior_manifest_snapshot": "final/12-deepwell-station/music/music-preparation-before-v3.json"
+    "prior_manifest_snapshot": "final/12-deepwell-station/music/music-preparation-before-v3.json",
+    "supplied_candidates": [
+      {
+        "title": "Waterworks Gallery",
+        "path": "music/deepwell-production-2026-11-01/sources/Waterworks_Gallery_2026-11-01T171541.mp4",
+        "original_path": "C:\\Users\\jazzs\\Downloads\\Waterworks_Gallery_2026-11-01T171541.mp4",
+        "sha256": "5a6b9b4b11283cd5fd5438fac1ba40588bd7f39eb53e4953bb8ac524a0828728",
+        "duration_seconds": 240,
+        "audition": "music/deepwell-production-2026-11-01/review/A-Waterworks-Gallery-4min-level-matched.mp3"
+      },
+      {
+        "title": "Sheltered Replenishment",
+        "path": "music/deepwell-production-2026-11-01/sources/Sheltered_Replenishment_2026-11-01T171541.mp4",
+        "original_path": "C:\\Users\\jazzs\\Downloads\\Sheltered_Replenishment_2026-11-01T171541.mp4",
+        "sha256": "121c115fc41985f20f17c77e6ec889c29869edf66ed92929043054e9746a1cd0",
+        "duration_seconds": 240,
+        "audition": "music/deepwell-production-2026-11-01/review/B-Sheltered-Replenishment-4min-level-matched.mp3"
+      }
+    ]
   },
   "motion_preparation": {
-    "status": "written proposal only; no masks or implementation",
+    "status": "Historical proposal implemented through selected animation V4; full video delivered.",
     "brief": {
       "path": "final/12-deepwell-station/motion-brief.md",
       "sha256": "2fb59b03eb17073caeabe99aa6eb622660d7be21d186917262da3bf3a30f124d",
       "bytes": 1327
     }
   },
-  "video": null,
-  "audio": null,
-  "resolution_note": "Native clean source and generated thumbnail are 1672x941; no 4K video produced.",
+  "video": {
+    "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-4K-v1.mp4",
+    "sha256": "2ded2931f60db759cdbd0f563e2663cd3262f4364d751e769caa92d0b15f283f",
+    "bytes": 16644387474,
+    "seconds": 3600,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "validation": "music/deepwell-final-hour-v1/delivery-validation.json",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "upscale": "Lanczos from native rendered frames",
+    "opening": "Current Colony v3 applied once",
+    "full_combined_user_review": "pending",
+    "assistant_inspection": "Decoded temporal stills and complete technical checks; no continuous playback or full listening"
+  },
+  "audio": {
+    "date": "2026-11-01",
+    "seconds": 3600,
+    "outputs": [
+      {
+        "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-v1.flac",
+        "sha256": "ea5b2b80ff2f5d2a7bff22d7f5a7bea3b09851f7c043deaf3a91c9a6842bf20f",
+        "bytes": 592339509,
+        "seconds": 3600,
+        "sample_frames_per_channel": 172800000,
+        "all_finite": true,
+        "clipping_samples": 0,
+        "sample_peak_dbfs": -9.41231992212913,
+        "full_sample_recipe_max_error": 1.1897621254863822e-7,
+        "full_sample_recipe_snr_db": 118.569866539847,
+        "kind": "mix"
+      },
+      {
+        "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-v1.mp3",
+        "sha256": "710d059e4a445ae58391c7e26bcb605c0baefa112532da0e151caa20c1c55d4d",
+        "bytes": 86401196,
+        "seconds": 3600,
+        "sample_frames_per_channel": 172800000,
+        "all_finite": true,
+        "clipping_samples": 0,
+        "sample_peak_dbfs": -9.683012207554734,
+        "full_sample_recipe_max_error": 0.013812005519866943,
+        "full_sample_recipe_snr_db": 29.87083957556817,
+        "kind": "mix"
+      },
+      {
+        "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-dry-music-v1.flac",
+        "sha256": "f83076a34c25fbefe1123c7540509ad63f0cd252885468097de9028620253c95",
+        "bytes": 470951977,
+        "seconds": 3600,
+        "sample_frames_per_channel": 172800000,
+        "all_finite": true,
+        "clipping_samples": 0,
+        "sample_peak_dbfs": -9.623164769373911,
+        "full_sample_recipe_max_error": 1.1897621254863822e-7,
+        "full_sample_recipe_snr_db": 118.49557736444702,
+        "kind": "dry"
+      },
+      {
+        "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-SFX-only-v1.flac",
+        "sha256": "27b1d61ce41c4e08b5c68f14a9a2f6f74afd093a8a3496124f3593329c9c8e4c",
+        "bytes": 484732418,
+        "seconds": 3600,
+        "sample_frames_per_channel": 172800000,
+        "all_finite": true,
+        "clipping_samples": 0,
+        "sample_peak_dbfs": -19.796523691729742,
+        "full_sample_recipe_max_error": 1.1897623153345194e-7,
+        "full_sample_recipe_snr_db": 100.81991467166189,
+        "kind": "sfx"
+      }
+    ],
+    "recipe": "music/deepwell-production-2026-11-01/delivery-hour-v1/mix-recipe.json",
+    "validation": "music/deepwell-production-2026-11-01/delivery-hour-v1/delivery-validation.json",
+    "balance_approval": {
+      "date": "2026-11-01",
+      "verbatim": "yeah that sounds good now, lets get the 1 hour version ready",
+      "scope": "Acceptance follows the water-and-wind-in-composition excerpt at the current v4 balance, and authorizes a one-hour soundtrack. No full-hour listening or new animation verdict inferred."
+    },
+    "assistant_listening": false,
+    "full_hour_user_listening": null,
+    "new_video": false
+  },
+  "resolution_note": "Native source is 1672x941; selected V4 native frames rendered directly and Lanczos upscaled to 3840x2160.",
   "approval": {
     "date": "2026-09-29",
     "feedback": "love it, commit and push everyting",
     "scope": "Current release artwork/thumbnail package 11-14 accepted. Music and motion remain unproduced proposals; no audio, animation or upload approval implied."
+  },
+  "current_production": {
+    "date": "2026-11-01",
+    "status": "One-hour 4K V4 video delivered with accepted music/water/wind/pump mix and current Colony opening; full technical validation passed. Final combined user playback pending.",
+    "session": "music/deepwell-production-2026-11-01/session-start.json",
+    "animation": "music/deepwell-animation-v4/Deepwell-v4-preview-20s.mp4",
+    "animation_user_approval": {
+      "date": "2026-11-01",
+      "verbatim": "ok i think it's decent shall we make the full version?",
+      "scope": "User reviewed current V4 full-scene animation and authorized the full version with the accepted one-hour soundtrack."
+    },
+    "music_status": "Accepted music/water/wind/pump balance extended to one hour; MP3, lossless mix and separate stems delivered and fully checked. V4 visual review and video assembly remain pending.",
+    "paid_generation_performed": false,
+    "sample_intake": "music/deepwell-production-2026-11-01/sample-intake.json",
+    "combined_review": "music/deepwell-production-2026-11-01/combined-review-v4/Deepwell-both-music-water-wind-pump-8min-v4.mp3",
+    "audio_hour": {
+      "date": "2026-11-01",
+      "seconds": 3600,
+      "outputs": [
+        {
+          "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-v1.flac",
+          "sha256": "ea5b2b80ff2f5d2a7bff22d7f5a7bea3b09851f7c043deaf3a91c9a6842bf20f",
+          "bytes": 592339509,
+          "seconds": 3600,
+          "sample_frames_per_channel": 172800000,
+          "all_finite": true,
+          "clipping_samples": 0,
+          "sample_peak_dbfs": -9.41231992212913,
+          "full_sample_recipe_max_error": 1.1897621254863822e-7,
+          "full_sample_recipe_snr_db": 118.569866539847,
+          "kind": "mix"
+        },
+        {
+          "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-v1.mp3",
+          "sha256": "710d059e4a445ae58391c7e26bcb605c0baefa112532da0e151caa20c1c55d4d",
+          "bytes": 86401196,
+          "seconds": 3600,
+          "sample_frames_per_channel": 172800000,
+          "all_finite": true,
+          "clipping_samples": 0,
+          "sample_peak_dbfs": -9.683012207554734,
+          "full_sample_recipe_max_error": 0.013812005519866943,
+          "full_sample_recipe_snr_db": 29.87083957556817,
+          "kind": "mix"
+        },
+        {
+          "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-dry-music-v1.flac",
+          "sha256": "f83076a34c25fbefe1123c7540509ad63f0cd252885468097de9028620253c95",
+          "bytes": 470951977,
+          "seconds": 3600,
+          "sample_frames_per_channel": 172800000,
+          "all_finite": true,
+          "clipping_samples": 0,
+          "sample_peak_dbfs": -9.623164769373911,
+          "full_sample_recipe_max_error": 1.1897621254863822e-7,
+          "full_sample_recipe_snr_db": 118.49557736444702,
+          "kind": "dry"
+        },
+        {
+          "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-SFX-only-v1.flac",
+          "sha256": "27b1d61ce41c4e08b5c68f14a9a2f6f74afd093a8a3496124f3593329c9c8e4c",
+          "bytes": 484732418,
+          "seconds": 3600,
+          "sample_frames_per_channel": 172800000,
+          "all_finite": true,
+          "clipping_samples": 0,
+          "sample_peak_dbfs": -19.796523691729742,
+          "full_sample_recipe_max_error": 1.1897623153345194e-7,
+          "full_sample_recipe_snr_db": 100.81991467166189,
+          "kind": "sfx"
+        }
+      ],
+      "recipe": "music/deepwell-production-2026-11-01/delivery-hour-v1/mix-recipe.json",
+      "validation": "music/deepwell-production-2026-11-01/delivery-hour-v1/delivery-validation.json",
+      "balance_approval": {
+        "date": "2026-11-01",
+        "verbatim": "yeah that sounds good now, lets get the 1 hour version ready",
+        "scope": "Acceptance follows the water-and-wind-in-composition excerpt at the current v4 balance, and authorizes a one-hour soundtrack. No full-hour listening or new animation verdict inferred."
+      },
+      "assistant_listening": false,
+      "full_hour_user_listening": null,
+      "new_video": false
+    },
+    "final_video": {
+      "path": "exports/12-deepwell-station/Deepwell-Station-1-Hour-4K-v1.mp4",
+      "sha256": "2ded2931f60db759cdbd0f563e2663cd3262f4364d751e769caa92d0b15f283f",
+      "bytes": 16644387474,
+      "seconds": 3600,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "fps": 30,
+      "validation": "music/deepwell-final-hour-v1/delivery-validation.json",
+      "native_dimensions": [
+        1672,
+        941
+      ],
+      "upscale": "Lanczos from native rendered frames",
+      "opening": "Current Colony v3 applied once",
+      "full_combined_user_review": "pending",
+      "assistant_inspection": "Decoded temporal stills and complete technical checks; no continuous playback or full listening"
+    },
+    "audio_learnings_review": "music/deepwell-production-2026-11-01/review-against-learnings/REPORT.md"
   }
 }

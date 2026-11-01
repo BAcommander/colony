@@ -1,5 +1,12 @@
 # 12 — Deepwell Station
 
+Current delivery (2026-11-01): [one-hour 4K video](../../exports/12-deepwell-station/Deepwell-Station-1-Hour-4K-v1.mp4), with selected V4 motion, both accepted music tracks, water/wind/pump and current once-only opening. [Production recipe and validation](../../music/deepwell-final-hour-v1/README.md). User called V4 decent and requested this full version. Final combined playback review remains pending. Native source remains 1672x941; output is Lanczos upscaled to 4K.
+
+## Earlier preparation history
+
+Deepwell music samples received (2026-11-01): user supplies Waterworks_Gallery_2026-11-01T171541.mp4 and Sheltered_Replenishment_2026-11-01T171541.mp4. Both decode to exactly 240 seconds, stereo 48kHz. Originals copied and SHA-256 verified in music/deepwell-production-2026-11-01/sources/. Source integrated loudness −14.65/−16.20 LUFS; fixed −8.35/−6.80 dB gains make approximately −23 LUFS full-length audition MP3s under review/. All samples decoded, finite/unclipped audition and full gain-reference comparison passed. No EQ, compression, extra fades, SFX, joins, stretching or new generation. Actual prompt/model/cost unverified. Music choice/approval pending; no assistant listening verdict. Earlier proposed 120-second test is superseded by actual supplied 240-second durations, not evidence of incorrect files. V4 visuals and original thumbnail unchanged.
+
+
 Prepared 2026-09-29. The user selected the current v2 concept for release packaging. User approved the presented package on 2026-09-29: "love it, commit and push everyting". Preserve the approved thumbnail v1. Publication copy remains ready for soundtrack/runtime details once produced. V1 was a decent first pass. User reports v3 steam and cyan lights are too faint; v4 rebuilds vapor visibility and uses purple lights travelling out and back. V4 is the current review candidate; no audio exists.
 
 - Clean source: [artwork-v2.png](artwork-v2.png), a byte-identical copy of creative concept 18-deepwell-station/concept-v2.png.
