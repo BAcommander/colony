@@ -1,0 +1,21 @@
+{
+  "status": "delivered",
+  "duration_seconds": 3600,
+  "outputs": [
+    {
+      "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-train-option-v1.flac",
+      "bytes": 551145338,
+      "sha256": "a68aee72fbe4e3bf746693dc0a19e992d5a156ef7366982c7951d3efca6587bb",
+      "matches_validated_output": true
+    },
+    {
+      "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-train-option-v1.mp3",
+      "bytes": 86401196,
+      "sha256": "04cc37192e6188283eb97c61b139709e619ac0aa8368a4522fc76c6ec9a32e38",
+      "matches_validated_output": true
+    }
+  ],
+  "source_validation": "G:\\AI\\colony\\music\\empty-junction-music-v1\\delivery-hour-train-option-v1\\delivery-validation.json",
+  "local_delivery_only": true,
+  "remote_backup_performed": false
+}

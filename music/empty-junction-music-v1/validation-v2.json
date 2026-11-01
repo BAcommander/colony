@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "source_files_unchanged": true,
+  "outputs": [
+    {
+      "file": "review/Empty-Junction-A-B-intermittent-wind-v2.flac",
+      "sha256": "02f3ad2eb6324ec76e0b93c1d0117bc3a87ecb7edad147d10e57982a83aa4da1",
+      "bytes": 69750756,
+      "decoded_frames": 21600000,
+      "seconds": 450,
+      "all_samples_finite": true,
+      "full_scale_samples": 0,
+      "sample_peak_dbfs": -10.19142230485188,
+      "integrated_lufs": -22.89,
+      "true_peak_dbtp": -10.19,
+      "lra_lu": 2.3,
+      "recipe_comparison": {
+        "all_decoded_samples_compared": true,
+        "max_absolute_error": 1.1897282092832029e-7,
+        "snr_db": 125.14580679812272
+      },
+      "wind_off_window_checks": [
+        {
+          "start_seconds": 60,
+          "end_seconds": 180,
+          "max_difference_from_dry": 0,
+          "exact_dry_identity": true
+        },
+        {
+          "start_seconds": 240,
+          "end_seconds": 360,
+          "max_difference_from_dry": 0,
+          "exact_dry_identity": true
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 450,
+          "max_difference_from_dry": 0,
+          "exact_dry_identity": true
+        }
+      ]
+    },
+    {
+      "file": "review/Empty-Junction-A-B-intermittent-wind-v2.mp3",
+      "sha256": "896df2affed2222ab84d81c1a78ff66a901c1f3b0da7c0172b06bfb443f15d8d",
+      "bytes": 10801196,
+      "decoded_frames": 21600000,
+      "seconds": 450,
+      "all_samples_finite": true,
+      "full_scale_samples": 0,
+      "sample_peak_dbfs": -10.444672227516092,
+      "integrated_lufs": -23.15,
+      "true_peak_dbtp": -10.44,
+      "lra_lu": 2.4,
+      "recipe_comparison": {
+        "all_decoded_samples_compared": true,
+        "max_absolute_error": 0.011888936161994934,
+        "snr_db": 30.240812815028203
+      },
+      "wind_off_window_checks": [
+        {
+          "start_seconds": 60,
+          "end_seconds": 180,
+          "max_difference_from_dry": 0.00753512978553772,
+          "exact_dry_identity": null
+        },
+        {
+          "start_seconds": 240,
+          "end_seconds": 360,
+          "max_difference_from_dry": 0.0076167285442352295,
+          "exact_dry_identity": null
+        },
+        {
+          "start_seconds": 420,
+          "end_seconds": 450,
+          "max_difference_from_dry": 0.007682591676712036,
+          "exact_dry_identity": null
+        }
+      ]
+    }
+  ]
+}

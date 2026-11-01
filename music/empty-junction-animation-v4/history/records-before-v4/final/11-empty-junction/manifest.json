@@ -1,0 +1,313 @@
+{
+  "catalog_number": "11",
+  "creative_concept_id": 17,
+  "title": "The Empty Junction",
+  "date": "2026-09-29",
+  "status": "Original approved artwork/thumbnail retained; revised composition and thumbnail candidates prepared 2026-10-31; one-hour audio delivered; original-plate animation remains work in progress.",
+  "user_approved": true,
+  "generator": "built-in image_gen",
+  "selection": {
+    "date": "2026-09-29",
+    "scope": "User requested release numbering, thumbnails, SEO, descriptions and associated preparation for these four v2 concepts. This selects art for packaging, not new thumbnails, motion or audio approval.",
+    "feedback": "can we do the thumbnails, seo, descriptions etc etc for these 4, and get them ordered with the correct number etc?"
+  },
+  "source": {
+    "path": "creative/concepts/round-02/17-empty-junction/concept-v2.png",
+    "sha256": "ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be",
+    "bytes": 2629928,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "artwork": {
+    "path": "final/11-empty-junction/artwork-v2.png",
+    "sha256": "ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be",
+    "bytes": 2629928,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "prompts": [
+    {
+      "path": "final/11-empty-junction/artwork-generation-v2.md",
+      "sha256": "e7688d4576d0ad5ac427c095f3907d4c35b973b19d0cc85567bf878a2f15166f",
+      "bytes": 3888
+    }
+  ],
+  "source_generation_manifest": "creative/concepts/round-02/17-empty-junction/manifest-v2.json",
+  "source_visual_review": {
+    "method": "generated still inspected in chat",
+    "notes": "Pale eroded fins, sheltered signal cabin and inhabited freight gallery establish a distinct setting. Foreground turnout/crossing rail geometry needs closer review before production; parked freight wagons are present."
+  },
+  "thumbnail": {
+    "master": "thumbnail-v1.png",
+    "master_sha256": "758903af8063ffdc6eb4252b43ba648522735eaeb80559eb947c976d0b5ca6b9",
+    "master_dimensions": [
+      1672,
+      941
+    ],
+    "upload": "thumbnail-v1.jpg",
+    "upload_sha256": "6b4ecae87451cb96a5b72d6517b696331070f45af8731ab15ad98a192f74a326",
+    "upload_dimensions": [
+      1280,
+      720
+    ],
+    "upload_bytes": 340096,
+    "source_art": "artwork-v2.png",
+    "source_art_sha256": "ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be",
+    "style_reference": "final/01-ringfall-observatory/thumbnail-v1.png",
+    "style_reference_sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+    "prompt": "thumbnail-prompt-v1.md",
+    "prompt_sha256": "ffc6d25a1e0ab565ded14899b65ffed8df0c35b8a41c1d6d658d0018a68efad0",
+    "method": "built-in image_gen using source concept v2 + Ringfall identity reference; FFmpeg Lanczos 1280x720 JPEG quality 2",
+    "review": "Title, caption, brand and number 11 correctly rendered. Stronger sunset and altered cabin/foreground proportions; recognizable source scene retained. Rail turnout remains a clean-art review item. User approved 2026-09-29.",
+    "user_approved": true
+  },
+  "caption": "BETWEEN DISTANT HOMES",
+  "youtube_metadata": {
+    "status": "User-requested narrative title saved locally; publication not performed.",
+    "title_file": "youtube-title.txt",
+    "title_sha256": "64dfad24df592111fe9729536fac84567b8a8990b4bf6b31551012364b94b057",
+    "description_file": "description.txt",
+    "description_sha256": "5bb549832f5e870766161e409bbd39b7527bc67c691e0a0ef71ddd4713523655",
+    "tags_file": "youtube-tags.txt",
+    "tags_sha256": "92278dff88dbb338cdb10c12045e391747df018c3668efb5f7194ea9f870c7b2",
+    "tags_characters_including_separators": 298,
+    "tags_characters_including_file_newline": 299,
+    "tags_count": 17,
+    "hashtags_count": 3,
+    "description_words_before_hashtags": 73,
+    "keyword_note": "Scene-relevant suggestions, not measured search-volume data or ranking guarantees",
+    "guidance_checked": "2026-09-29",
+    "sources": [
+      "https://support.google.com/youtube/answer/146402?hl=en",
+      "https://support.google.com/youtube/answer/12948449?hl=en"
+    ],
+    "title_characters": 71,
+    "title_updated": "2026-10-31",
+    "previous_title_record": "music/empty-junction-visual-revision-v1/previous-release-youtube-title.txt"
+  },
+  "music_preparation": {
+    "status": "Written prompt history retained; user-supplied long music variants and wind now have a separate one-hour delivery record. Actual supplied generation settings not verified.",
+    "current_version": 3,
+    "files": [
+      {
+        "path": "final/11-empty-junction/music/ambience-prompt-v3.txt",
+        "sha256": "2873e13df1f1c12262da0e87350235fb5b58d45866925b0cf6f7734d5c834974",
+        "bytes": 417
+      },
+      {
+        "path": "final/11-empty-junction/music/elevenlabs-long-version-v2.txt",
+        "sha256": "d0a5b99a0c5e83517445521692bff41c3cfacdc42ab5ab76d470bb58b3eab51a",
+        "bytes": 1037
+      },
+      {
+        "path": "final/11-empty-junction/music/elevenlabs-long-version-v3.txt",
+        "sha256": "e5613a3c27a5c59e9ac35571a8973a64a72130b57bb5920f218a38b14053ef53",
+        "bytes": 1108
+      },
+      {
+        "path": "final/11-empty-junction/music/elevenlabs-long-version.txt",
+        "sha256": "a491c2a30e4f8d6df6f5984a551291146a9c779e4d51d5fd424c39aa9986ef11",
+        "bytes": 2150
+      },
+      {
+        "path": "final/11-empty-junction/music/elevenlabs-prompt-v1.txt",
+        "sha256": "420b87cedc3eab191321036ede938edfd9bb586afdcf71d0de35495cdac94993",
+        "bytes": 1821
+      },
+      {
+        "path": "final/11-empty-junction/music/elevenlabs-prompt-v2.txt",
+        "sha256": "64768c47606ad3a441d73b0546ad9c7059fe254f750cb19d639114102bb2d9d1",
+        "bytes": 1022
+      },
+      {
+        "path": "final/11-empty-junction/music/elevenlabs-prompt-v3.txt",
+        "sha256": "f81151b1666da50cfc97cbcc4f6ddbc3e5559e2eae0b55421c2f13fed8b98fcd",
+        "bytes": 998
+      },
+      {
+        "path": "final/11-empty-junction/music/generation-record.json",
+        "sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c",
+        "bytes": 603
+      },
+      {
+        "path": "final/11-empty-junction/music/prompt-manifest-v3.json",
+        "sha256": "1d846c5d8b2839fcd09efb0b8312e449c31647c3c87f3477dd1b31a6125d4bcc",
+        "bytes": 1328
+      },
+      {
+        "path": "final/11-empty-junction/music/README.md",
+        "sha256": "77dc9f62e7ff8c253cba850f22224bc235aeb09bdce9fb0c7199fe7d11fedc4b",
+        "bytes": 3555
+      },
+      {
+        "path": "final/11-empty-junction/music/v2-control-120s.txt",
+        "sha256": "b33a45006d8ccee6feebbe740daf493b64b2436e3b6da18ba9563f162f602517",
+        "bytes": 1023
+      }
+    ],
+    "planned_test": "120 seconds, two variants; manual generation if supported",
+    "planned_long_piece": "about eight minutes using a chosen owned dry reference, if supported",
+    "credits_spent_by_assistant": 0,
+    "workflow": "creative/MUSIC_WORKFLOW.md",
+    "month_pack": "creative/music/november-2026/README.md",
+    "prior_manifest_snapshot": "final/11-empty-junction/music/music-preparation-before-v3.json"
+  },
+  "motion_preparation": {
+    "status": "V3 implemented and technically checked; further visual work required",
+    "brief": {
+      "path": "final/11-empty-junction/motion-brief.md",
+      "sha256": "adbe4beb364e2a80fd664a80044521a2c689bb53d9fd45329c5f7f948596d281",
+      "bytes": 1292
+    },
+    "production_prompt": {
+      "path": "final/11-empty-junction/animation-production-prompt-v1.txt",
+      "sha256": "c33509e37b4c06debc27c88e8cf1289e12273e228a4bd5b672a08b85721d04b9",
+      "bytes": 15040,
+      "date": "2026-10-07",
+      "proposed_duration_seconds": 60,
+      "supersedes": "Twenty-second target in original motion-brief.md when this full production prompt is explicitly invoked",
+      "scope": "Prompt only; no production or new acceptance inferred"
+    }
+  },
+  "video": null,
+  "audio": {
+    "version": "one-hour-final-sfx-v3",
+    "status": "User-requested full music + wind + distant train + mineral grit combination delivered; three in-context checks and separate SFX-only stem ready. Grit source gain -3.3 dB; other levels and timings retained. User balance/full-session approval pending.",
+    "grit_source_gain_db": -3.3,
+    "grit_change_from_v1_db": -7.5,
+    "duration_seconds": 3600,
+    "recipe": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/mix-recipe.json",
+    "validation": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/delivery-validation.json",
+    "paths": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/delivery-paths.json",
+    "examples": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/example-sections.json",
+    "outputs": [
+      {
+        "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-final-SFX-v3.flac",
+        "bytes": 553177040,
+        "sha256": "84a773c68ca1a8d1115c76e2edcc914f8c955c5f60cb31436b1c5718b4982f09",
+        "matches_validated_output": true
+      },
+      {
+        "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-final-SFX-v3.mp3",
+        "bytes": 86401196,
+        "sha256": "0d7fcd4ff3557136025a384832481038ee6759aaf982648781930b21e5ca1cd6",
+        "matches_validated_output": true
+      },
+      {
+        "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-SFX-only-v3.flac",
+        "bytes": 247924801,
+        "sha256": "71a3f66bca5e93a2462cfa695793c03fbbacf92a3989f45b41ac03cef074d234",
+        "matches_validated_output": true
+      }
+    ],
+    "radio_included": false,
+    "compressor_included": false,
+    "user_balance_and_full_length_approved": false,
+    "previous_delivery": {
+      "version": "one-hour-final-sfx-v1",
+      "status": "User-requested full music + wind + distant train + mineral grit combination delivered; three in-context checks and separate SFX-only stem ready. User balance/full-session approval pending.",
+      "duration_seconds": 3600,
+      "recipe": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/mix-recipe.json",
+      "validation": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/delivery-validation.json",
+      "paths": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/delivery-paths.json",
+      "examples": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/example-sections.json",
+      "outputs": [
+        {
+          "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-final-SFX-v1.flac",
+          "bytes": 555262253,
+          "sha256": "3060360291688070f80e75782d5d4337ccee662037a5005fe4936b107c57f148",
+          "matches_validated_output": true
+        },
+        {
+          "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-final-SFX-v1.mp3",
+          "bytes": 86401196,
+          "sha256": "c2c8ba258448050af54a5e6337296290f86a8bcbee86704c5e83c957dee48606",
+          "matches_validated_output": true
+        },
+        {
+          "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-SFX-only-v1.flac",
+          "bytes": 250023766,
+          "sha256": "e8aed553706bdbabfa8cdfd1564c5790b506d42e196b0d3ca9f5337bab9e92e7",
+          "matches_validated_output": true
+        }
+      ],
+      "radio_included": false,
+      "compressor_included": false,
+      "user_balance_and_full_length_approved": false,
+      "previous_delivery": {
+        "status": "One-hour music and intermittent wind delivered locally; full listening approval not inferred.",
+        "duration_seconds": 3600,
+        "recipe": "music/empty-junction-music-v1/delivery-hour-v1/mix-recipe.json",
+        "validation": "music/empty-junction-music-v1/delivery-hour-v1/delivery-validation.json",
+        "paths": "music/empty-junction-music-v1/delivery-hour-v1/delivery-paths.json",
+        "radio_included": false,
+        "user_full_length_approved": false
+      },
+      "earlier_option": "music/empty-junction-music-v1/delivery-hour-train-option-v1/README.md"
+    },
+    "earlier_option": "music/empty-junction-music-v1/delivery-hour-train-option-v1/README.md"
+  },
+  "resolution_note": "Original and new candidate artwork are native 1672x941. Existing 1280x720 v3 animation uses original artwork; new composition not animated. No 4K video delivery.",
+  "approval": {
+    "date": "2026-09-29",
+    "feedback": "love it, commit and push everyting",
+    "scope": "Current release artwork/thumbnail package 11-14 accepted. Music and motion remain unproduced proposals; no audio, animation or upload approval implied."
+  },
+  "animation": {
+    "version": "v3",
+    "date": "2026-10-07",
+    "status": "V3 work in progress; user says it still needs work; Git backup requested",
+    "record": "music/empty-junction-animation-v3/delivery-v3.json",
+    "preview": "music/empty-junction-animation-v3/empty-junction-v3-preview-60s.mp4",
+    "preview_sha256": "16c547cb62e41440e35f06b82ff68afb79bf85a42ce0cc30f7161163783778ef",
+    "repeat_review": "music/empty-junction-animation-v3/empty-junction-v3-three-loops-180s.mp4",
+    "repeat_review_sha256": "6fd70d1f5f53e03849d616d3a7d035a1364fe676dd9e59fda592427bbbdd54c9",
+    "duration_seconds": 60,
+    "fps": 30,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "silent": true,
+    "seam_checks_passed": true,
+    "user_approved": false,
+    "master_4k": null,
+    "backup_record": "music/empty-junction-animation-v3/backup-manifest.json"
+  },
+  "visual_revision": {
+    "date": "2026-10-31",
+    "package": "music/empty-junction-visual-revision-v1/README.md",
+    "manifest": "music/empty-junction-visual-revision-v1/manifest.json",
+    "artwork_candidate": "music/empty-junction-visual-revision-v1/artwork-v3.png",
+    "artwork_candidate_sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+    "thumbnail_candidates": [
+      {
+        "id": "A",
+        "path": "music/empty-junction-visual-revision-v1/thumbnail-original-scene-v1.jpg",
+        "sha256": "7ddcbbd910f6dae70d936c9115a85ba7e3bb6c5e285a042632774bcdf1339414"
+      },
+      {
+        "id": "B",
+        "path": "music/empty-junction-visual-revision-v1/thumbnail-original-junction-v1.jpg",
+        "sha256": "8343b0244712b9afb66277f68c977040b950eb8c262a96486726dd6e2251debf"
+      },
+      {
+        "id": "C",
+        "path": "music/empty-junction-visual-revision-v1/thumbnail-revised-scene-v1.jpg",
+        "sha256": "0b3e0b27a95cf3cd7ac1dc0853e402cf696cd98f19458f0551ac3134adb45b71"
+      },
+      {
+        "id": "D",
+        "path": "music/empty-junction-visual-revision-v1/thumbnail-revised-junction-v1.jpg",
+        "sha256": "8ca8c1590fbc6abf93f694f8419bc0db80c82173e84cc6c89655b7d0dac37a92"
+      }
+    ],
+    "user_approved": false,
+    "status": "New returned artwork and thumbnails await visual selection; existing approved art/thumbnail are unchanged.",
+    "animation_note": "Current animation uses original artwork. New composition requires fresh mask mapping; not remapped or animated in this task."
+  }
+}

@@ -1,0 +1,5 @@
+Use case: ads-marketing / text-localization.
+Asset type: simplified 16:9 YouTube thumbnail for The Empty Junction.
+Image 1 is the actual scene and sole edit target. Image 2 is the approved Ringfall thumbnail ONLY as a reference for clean condensed ivory letterforms; do not import its landscape, planet, branding layout, rules or other text.
+Add only the exact word "JUNCTION" in one line of clean bold condensed uppercase ivory lettering, approximately #F3EBDD, modest in size, approximately one quarter of the frame width. Place it in the clear upper-central sky with a generous top margin, away from the cabin, rails, freight hall and distinctive spire silhouettes. Keep the scene dominant and the word readable at phone size.
+Preserve Image 1's framing, crop, geometry, lighting, colour, brightness and every scene detail as closely as possible. Do not relight or reinterpret the scene. No header, logo, subtitle, caption, number, underline, badges, drop-shadow block, extra text, people, planets or new objects. Keep the bottom-right free. Output the completed thumbnail only, landscape 16:9.

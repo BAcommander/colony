@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "source_copies_hash_verified": true,
+  "source_files_unchanged": true,
+  "outputs": [
+    {
+      "file": "review/Empty-Junction-A-B-dry-v1.flac",
+      "bytes": 61374839,
+      "sha256": "503ac7b659d39d0e31fe13b61672e4c75a4a19618a9e21ea5e00ea172f8ecd92",
+      "frames": 21600000,
+      "seconds": 450,
+      "all_samples_finite": true,
+      "full_scale_samples": 0,
+      "sample_peak_dbfs": -11.26162683131251,
+      "rms_dbfs": -22.501297784908928,
+      "integrated_lufs": -22.98,
+      "true_peak_dbtp": -11.26,
+      "lra_lu": 2.2,
+      "recipe_comparison": {
+        "all_decoded_samples_compared": true,
+        "max_absolute_error": 1.1897418517037295e-7,
+        "snr_db": 121.04567573977847
+      }
+    },
+    {
+      "file": "review/Empty-Junction-A-B-dry-v1.mp3",
+      "bytes": 10801196,
+      "sha256": "abeafe61337df3463a4726efb0279cc9b5e1905a17eeb386f2c0fbcaa19ceaa2",
+      "frames": 21600000,
+      "seconds": 450,
+      "all_samples_finite": true,
+      "full_scale_samples": 0,
+      "sample_peak_dbfs": -11.526644357232339,
+      "rms_dbfs": -22.766268360050436,
+      "integrated_lufs": -23.24,
+      "true_peak_dbtp": -11.53,
+      "lra_lu": 2.3,
+      "recipe_comparison": {
+        "all_decoded_samples_compared": true,
+        "max_absolute_error": 0.008229821920394897,
+        "snr_db": 30.43808809835632
+      }
+    },
+    {
+      "file": "review/Empty-Junction-A-B-soft-wind-v1.flac",
+      "bytes": 83866211,
+      "sha256": "30028fb2c23cde479ff446e5b5b8aff1a0c1166d9943c72a2d652f52914b85cf",
+      "frames": 21600000,
+      "seconds": 450,
+      "all_samples_finite": true,
+      "full_scale_samples": 0,
+      "sample_peak_dbfs": -10.19142230485188,
+      "rms_dbfs": -22.317504282718836,
+      "integrated_lufs": -22.73,
+      "true_peak_dbtp": -10.19,
+      "lra_lu": 2.1,
+      "recipe_comparison": {
+        "all_decoded_samples_compared": true,
+        "max_absolute_error": 1.1897463991772383e-7,
+        "snr_db": 121.28244224735583
+      }
+    },
+    {
+      "file": "review/Empty-Junction-A-B-soft-wind-v1.mp3",
+      "bytes": 10801196,
+      "sha256": "becaec8760bdfbd016a510a09569a1e7c3a6e80884da97a70af2c51047a986ba",
+      "frames": 21600000,
+      "seconds": 450,
+      "all_samples_finite": true,
+      "full_scale_samples": 0,
+      "sample_peak_dbfs": -10.444672227516092,
+      "rms_dbfs": -22.582323278725983,
+      "integrated_lufs": -22.99,
+      "true_peak_dbtp": -10.44,
+      "lra_lu": 2.2,
+      "recipe_comparison": {
+        "all_decoded_samples_compared": true,
+        "max_absolute_error": 0.013254106044769287,
+        "snr_db": 29.92199284009253
+      }
+    },
+    {
+      "file": "review/Empty-Junction-music-handover-60s-v1.flac",
+      "bytes": 11222678,
+      "sha256": "b02f7ac37b301d34680d2d9b52f99761148a815aa57bcc69c3222ba1a5e5f75b",
+      "frames": 2880000,
+      "seconds": 60,
+      "all_samples_finite": true,
+      "full_scale_samples": 0,
+      "sample_peak_dbfs": -10.19142230485188,
+      "rms_dbfs": -21.781411899180846,
+      "integrated_lufs": -22.35,
+      "true_peak_dbtp": -10.19,
+      "lra_lu": 1.5,
+      "recipe_comparison": {
+        "all_decoded_samples_compared": true,
+        "max_absolute_error": 1.1886004358530045e-7,
+        "snr_db": 121.84282106892576
+      }
+    },
+    {
+      "file": "review/Empty-Junction-music-handover-60s-v1.mp3",
+      "bytes": 1441196,
+      "sha256": "0e54c08ecbbe71fdd304ccbde4cda4b09b280875540110443595b88fcd212e9f",
+      "frames": 2880000,
+      "seconds": 60,
+      "all_samples_finite": true,
+      "full_scale_samples": 0,
+      "sample_peak_dbfs": -10.444672227516092,
+      "rms_dbfs": -22.04598841208387,
+      "integrated_lufs": -22.61,
+      "true_peak_dbtp": -10.44,
+      "lra_lu": 1.6,
+      "recipe_comparison": {
+        "all_decoded_samples_compared": true,
+        "max_absolute_error": 0.015333391726016998,
+        "snr_db": 29.971210270928268
+      }
+    }
+  ]
+}

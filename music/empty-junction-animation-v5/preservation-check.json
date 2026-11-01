@@ -1,0 +1,17 @@
+{
+  "original_v4_media_and_source_unchanged": true,
+  "files": [
+    {
+      "path": "empty-junction-animation-v4/artwork-v3.png",
+      "sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8"
+    },
+    {
+      "path": "empty-junction-animation-v4/Empty-Junction-v4-wind-minute-720p.mp4",
+      "sha256": "b21fdc0d70afd3d1142a1c1d8e9be7b423365775f1a8a930477cd90682a60533"
+    },
+    {
+      "path": "empty-junction-animation-v4/Empty-Junction-v4-with-approved-audio-4min-720p.mp4",
+      "sha256": "0cc7ae800d10fe76367a538e8cca12044f7fdb4ebfd206a3cdeeacd3403e7eee"
+    }
+  ]
+}

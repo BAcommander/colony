@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-31",
+  "feedback": [
+    {"exact_user_text": "grit is probably too loud, what levels did we use", "context": "Original final SFX V1, grit +4.2 dB source gain."},
+    {"exact_user_text": "ok try it", "context": "Authorizes proposed 6 dB reduction to -1.8 dB source gain, V2."},
+    {"exact_user_text": "yeah much better, but down a tiny bit more please", "context": "Positive feedback on V2 check, requests further reduction. Assistant selects another 1.5 dB reduction to -3.3 dB source gain for V3."}
+  ],
+  "latest": "V3 grit 7.5 dB below V1, with all other levels and timings retained; V3/full-length listening verdict pending."
+}

@@ -1,0 +1,8 @@
+/review/*
+!/review/*.mp3
+/.cache/
+/delivery-hour-v1/media/
+/delivery-hour-train-option-v1/media/
+/delivery-hour-final-sfx-v1/media/
+/delivery-hour-final-sfx-v2/media/
+/delivery-hour-final-sfx-v3/media/

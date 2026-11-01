@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-31",
+  "duration_seconds": 450,
+  "sample_rate": 48000,
+  "channels": 2,
+  "base_music": {
+    "file": "review/Empty-Junction-A-B-dry-v1.flac",
+    "sha256": "503ac7b659d39d0e31fe13b61672e4c75a4a19618a9e21ea5e00ea172f8ecd92",
+    "note": "Reviewed dry arrangement retained; quantized to the existing 24-bit FLAC."
+  },
+  "wind_source": {
+    "file": "sources/Soft_wind_moving_thr_#4-1793463971195.mp3",
+    "sha256": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34"
+  },
+  "wind_gain_db": 7.850000000000001,
+  "wind_period_seconds": 24,
+  "wind_source_trim_seconds": [
+    1,
+    29
+  ],
+  "wind_tail_head_overlap_seconds": 4,
+  "wind_tail_head_curve": "equal-power cosine/sine",
+  "wind_windows_seconds": [
+    [
+      0,
+      60
+    ],
+    [
+      180,
+      240
+    ],
+    [
+      360,
+      420
+    ]
+  ],
+  "wind_off_windows_seconds": [
+    [
+      60,
+      180
+    ],
+    [
+      240,
+      360
+    ],
+    [
+      420,
+      450
+    ]
+  ],
+  "wind_fade_in_seconds": 5,
+  "wind_fade_out_seconds": 8,
+  "wind_fades_are_inside_active_windows": true,
+  "music_handover_seconds": [
+    212,
+    224
+  ],
+  "radio_included": false,
+  "feedback": "User prefers roughly one minute wind / two minutes off; prior music/wind preview sounded good so far. Radio v2 too static-focused; v3 station prompt adds varied purposeful equipment activity.",
+  "approval": "New wind timing and radio v3 prompt await listening/generation; no final approval inferred.",
+  "assistant_review": "Full technical decode/sample checks only, no assistant listening verdict.",
+  "paid_generation_performed": false
+}

@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-31",
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration_seconds": 450,
+  "sources": [
+    {
+      "file": "Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "sha256": "0e82babcee59a6843da6c06ec5675f5066b2248fe1c8450f886dbd0d1bc2f3e5",
+      "bytes": 6093871,
+      "measured_input_lufs": -13.87,
+      "measured_input_true_peak_dbtp": -2.13,
+      "measured_input_lra_lu": 2.8,
+      "measurement": "FFmpeg loudnorm analysis input statistics, 2026-10-31; analysis output discarded"
+    },
+    {
+      "file": "Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "sha256": "1401cad7b6537ae069a958e0f1f170eb974bf606a2f5b043ea32a3b648efc567",
+      "bytes": 6063165,
+      "measured_input_lufs": -13.24,
+      "measured_input_true_peak_dbtp": -1.89,
+      "measured_input_lra_lu": 1.8,
+      "measurement": "FFmpeg loudnorm analysis input statistics, 2026-10-31; analysis output discarded"
+    },
+    {
+      "file": "Soft_wind_moving_thr_#4-1793463971195.mp3",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Soft_wind_moving_thr_#4-1793463971195.mp3",
+      "sha256": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34",
+      "bytes": 721197,
+      "measured_input_lufs": -42.85,
+      "measured_input_true_peak_dbtp": -24.68,
+      "measured_input_lra_lu": 3.2,
+      "measurement": "FFmpeg loudnorm analysis input statistics, 2026-10-31; analysis output discarded"
+    }
+  ],
+  "music_gain_db": [
+    -9.13,
+    -9.76
+  ],
+  "wind_gain_db": 7.850000000000001,
+  "nominal_isolated_targets_lufs": {
+    "music": -23,
+    "wind": -35
+  },
+  "schedule": [
+    {
+      "source": "Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "source_in_seconds": 0,
+      "source_out_seconds": 224,
+      "output_start_seconds": 0
+    },
+    {
+      "source": "Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 240,
+      "output_start_seconds": 212
+    }
+  ],
+  "handover": {
+    "start_seconds": 212,
+    "end_seconds": 224,
+    "curve": "equal-power cosine/sine, 12 seconds",
+    "approval": "pending user listening"
+  },
+  "source_fade_handling": "A long generated closing fade excluded; B two-second opening excluded. A opening and B final generated fade retained.",
+  "wind": {
+    "source_in_seconds": 1,
+    "source_out_seconds": 29,
+    "crossfade_seconds": 4,
+    "period_seconds": 24,
+    "curve": "equal-power cosine/sine",
+    "fade_in_seconds": 3,
+    "fade_out_seconds": 10,
+    "loop_boundary_sample_differences": [
+      -0.0036951545625925064,
+      0.004672210663557053
+    ],
+    "note": "Repeating 30-second source; no claim of non-repetition or acoustic field-recording provenance."
+  },
+  "excerpt": {
+    "output_start_seconds": 192,
+    "output_end_seconds": 252,
+    "handover_at_excerpt_seconds": [
+      20,
+      32
+    ]
+  },
+  "added_eq_compression_limiting_time_stretch_pitch_shift": false,
+  "radio_included": false,
+  "paid_generation_performed": false,
+  "approval": "Local audition only. User preferred earlier Signal Cabin Drift pilot; no approval inferred for either new long variant, handover or wind balance.",
+  "assistant_review": "Full technical decode/sample validation only; no assistant listening verdict.",
+  "generation_settings": "User supplied two four-minute variants and one wind export. Actual generation prompts, reference, settings and cost not verified."
+}

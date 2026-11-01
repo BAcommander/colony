@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "grit_gains_db": [
+    {
+      "version": "v1",
+      "gain_db": 4.2
+    },
+    {
+      "version": "v2",
+      "gain_db": -1.8
+    },
+    {
+      "version": "v3",
+      "gain_db": -3.3
+    }
+  ],
+  "v3_change_from_v2_db": -1.4999999999999998,
+  "v3_change_from_v1_db": -7.5,
+  "base_music_wind_train_identical": true,
+  "grit_source_schedule_and_fades_identical": true,
+  "unchanged_example_files": [
+    {
+      "id": "01-wind",
+      "all_three_versions_byte_identical": true,
+      "sha256": "0567d29d8d7883949ccaa5a0d3b2e81d65698f2248b14643f9a40bc7a63d77ec"
+    },
+    {
+      "id": "02-train",
+      "all_three_versions_byte_identical": true,
+      "sha256": "a6b455d16f17cd93edb95fd7d001456fa5431d382cd0c1b3ca2c335d38deed4e"
+    }
+  ]
+}

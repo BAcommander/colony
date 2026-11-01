@@ -1,0 +1,29 @@
+Input #0, flac, from 'G:\AI\colony\music\empty-junction-music-v1\delivery-hour-final-sfx-v2\media\The-Empty-Junction-1-Hour-final-SFX-v2.flac':
+  Metadata:
+    encoder         : Lavf63.1.100
+  Duration: 01:00:00.00, start: 0.000000, bitrate: 1230 kb/s
+  Stream #0:0: Audio: flac, 48000 Hz, stereo, s32 (24 bit)
+Stream mapping:
+  Stream #0:0 -> #0:0 (flac (native) -> pcm_f32le (native))
+Output #0, f32le, to 'pipe:1':
+  Metadata:
+    encoder         : Lavf63.1.100
+  Stream #0:0: Audio: pcm_f32le, 48000 Hz, stereo, flt, 3072 kb/s
+    Metadata:
+      encoder         : Lavc63.1.100 pcm_f32le
+[Parsed_ebur128_0 @ 0000026350fb9000] Summary:
+
+  Integrated loudness:
+    I:         -22.8 LUFS
+    Threshold: -32.9 LUFS
+
+  Loudness range:
+    LRA:         2.2 LU
+    Threshold: -42.8 LUFS
+    LRA low:   -24.0 LUFS
+    LRA high:  -21.8 LUFS
+
+  True peak:
+    Peak:      -10.2 dBFS
+[out#0/f32le @ 0000026350f32840] video:0KiB audio:1350000KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000000%
+size= 1350000KiB time=01:00:00.00 bitrate=3072.0kbits/s speed= 288x elapsed=0:00:12.48    

@@ -1,0 +1,2634 @@
+{
+  "requested": "commit and push",
+  "date": "2026-11-01",
+  "scope": "All authored Junction session artwork, thumbnail variants, supplied music/SFX sources, recipes, reviews, animation v4/v5 and lessons.",
+  "user_audio_balance_approved": true,
+  "user_v5_animation_approved": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 19907,
+      "sha256": "f887d5f78614ca5285d6999f72cbef90e50c940887604fd12dcfdc881ff57e06",
+      "storage": "git",
+      "git_stored_sha256": "4dec6b9af0a52b8f2eace75a86908f0873fc07fbf9d5d587afe2eaaaad379b4a",
+      "line_endings": "Git text normalization; fingerprinted source packages remain exact"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 7579,
+      "sha256": "d4dad1ecf36536e0b3ee2e5f23d5d8314deb861a49f71328537b5620132259e8",
+      "storage": "git"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 92199,
+      "sha256": "c574f3e43ecc8e604ee72cb3aad4614ace56ed455cf8062929a2d2da45ff3970",
+      "storage": "git"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "bytes": 43262,
+      "sha256": "8d89a0c4afca2cb991ce481d523c3508792b298c301353dc5e71f349d38a280c",
+      "storage": "git",
+      "git_stored_sha256": "18095ace18e41ebff115c9d67d30029d1d7361880d03c219f936ce4b76e0e1d1",
+      "line_endings": "Git text normalization; fingerprinted source packages remain exact"
+    },
+    {
+      "path": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "bytes": 62558,
+      "sha256": "ec639319449facda534a46b10fbef023a467af1fb091906d774d2b1d3ea569b1",
+      "storage": "git"
+    },
+    {
+      "path": "final/11-empty-junction/README.md",
+      "bytes": 3764,
+      "sha256": "290c9f44a181f63b98d31c3a47652f4088869ed5c5f65432cccc7d5fde83ec02",
+      "storage": "git"
+    },
+    {
+      "path": "final/11-empty-junction/manifest.json",
+      "bytes": 17621,
+      "sha256": "da8393d9e4535fbd7f669bb06ce8169d02dd36b23ae15c7e9bec1d78dea138db",
+      "storage": "git"
+    },
+    {
+      "path": "final/11-empty-junction/youtube-title.txt",
+      "bytes": 74,
+      "sha256": "64dfad24df592111fe9729536fac84567b8a8990b4bf6b31551012364b94b057",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-quiet-minute-720p-decoded-0000.png",
+      "bytes": 1866201,
+      "sha256": "86f8104f967f7b9623352cf1fcc6a36b23c6e1fb8000eca498170cce70c3547b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-quiet-minute-720p-decoded-0240.png",
+      "bytes": 1868501,
+      "sha256": "a124a961f53bca300c8960033e76ca8d62d0c7783ffeea5931c6639b310a001e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-quiet-minute-720p-decoded-0600.png",
+      "bytes": 1868411,
+      "sha256": "12ad1fa13e3fa323ea166714758b26531a9bf081dbb804ab10777b2727ceaf1c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-quiet-minute-720p-decoded-1080.png",
+      "bytes": 1868214,
+      "sha256": "6292b0d5433aafa52b705c8bdc2a67c83851f857c76b02e4b7f27a2d48f2b560",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-quiet-minute-720p-decoded-1799.png",
+      "bytes": 1866207,
+      "sha256": "9a8727e47f6af27b0c4474cdffa127cf8cc8bef3af13386b0a76f7f90ab0f1b3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-quiet-minute-720p.mp4",
+      "bytes": 11174650,
+      "sha256": "f434ac1f03861329dde789b4dca4f1f9eefddf2e1e45f767b0b739e9c6bcfd8a",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-scheduled-cycle-180s-720p-concat.txt",
+      "bytes": 284,
+      "sha256": "9935ed2b93dd22bbf0f782eefb1981e98c6ee93501194741e5d2e1f4c703164b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-wind-minute-720p-decoded-0000.png",
+      "bytes": 1866201,
+      "sha256": "86f8104f967f7b9623352cf1fcc6a36b23c6e1fb8000eca498170cce70c3547b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-wind-minute-720p-decoded-0240.png",
+      "bytes": 1868308,
+      "sha256": "fbf13aa079c203d93caa2b3fbcc9c5b60c219dfe7ac96429cf4462b0c6a9d775",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-wind-minute-720p-decoded-0600.png",
+      "bytes": 1868252,
+      "sha256": "5a00ffe4efeb2b64cad4e64dc143c2bdb6d27910c7ad15d1de05093f32eb5685",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-wind-minute-720p-decoded-1080.png",
+      "bytes": 1868046,
+      "sha256": "01dfd9224758a534230d2111f224d44b97f778b14c118dd697a27a7520351bad",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-wind-minute-720p-decoded-1799.png",
+      "bytes": 1866207,
+      "sha256": "9a8727e47f6af27b0c4474cdffa127cf8cc8bef3af13386b0a76f7f90ab0f1b3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-wind-minute-720p.mp4",
+      "bytes": 13196829,
+      "sha256": "b21fdc0d70afd3d1142a1c1d8e9be7b423365775f1a8a930477cd90682a60533",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/Empty-Junction-v4-with-approved-audio-4min-720p.mp4",
+      "bytes": 54693377,
+      "sha256": "0cc7ae800d10fe76367a538e8cca12044f7fdb4ebfd206a3cdeeacd3403e7eee",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/README.md",
+      "bytes": 6704,
+      "sha256": "fe024c3e36a784ed88a1be110813db2ed4a1383094747a6004a781342f9c1aef",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/analytic-validation.json",
+      "bytes": 5099,
+      "sha256": "0924669d9516e120777458b6dc270c9c0b5b9884e2300ee5205f6afa3c8b1b66",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/artwork-v3.png",
+      "bytes": 3353792,
+      "sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/build_plan.py",
+      "bytes": 9406,
+      "sha256": "1857be03b9e811c128750f42d8bdd0fc00ec3b33791a1b393daf50324e4260b3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/cabin-coordinate-detail.png",
+      "bytes": 855118,
+      "sha256": "753af9da5d293f41f05398b526d036fd11370d6c855d6a3c15455e9f90156591",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/cabin_exhaust-04s.png",
+      "bytes": 1757292,
+      "sha256": "77f264b7d08bf7a80ba464e8472c8fa7f0f16110a9721518a7ddb9d391a84b2c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/cabin_exhaust-08s.png",
+      "bytes": 1757268,
+      "sha256": "bd2d40e1e6bb29ede5a3a4d3c25f7d54a4c209c89d3b0c998ef436ee5fefabfa",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/cabin_exhaust-16s.png",
+      "bytes": 1757281,
+      "sha256": "2db00641ed316abb4873fa39552b8920449b63e1de72b3909c1404c8ef829c07",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/cabin_exhaust-36s.png",
+      "bytes": 1757277,
+      "sha256": "d14157ac7ed13e03b37a759d4bd42b1d5cb3f0c5b2743263a15f6f2d9ab3f45d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/cabin_exhaust-48s.png",
+      "bytes": 1757178,
+      "sha256": "d3ec3676b7347a336c1b6c0022c4ea1bf51ad2148e04c54c49e49f9626830cf1",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/cabin_exhaust-v4-isolated-8s.mp4",
+      "bytes": 861511,
+      "sha256": "6a89dcaf7229ef60cdb37e64b64a617cfa8d093aae6a21a1633727fcb056c71e",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/combined-decoded-00000.png",
+      "bytes": 1866201,
+      "sha256": "86f8104f967f7b9623352cf1fcc6a36b23c6e1fb8000eca498170cce70c3547b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/combined-decoded-00480.png",
+      "bytes": 1868479,
+      "sha256": "4c0f14b7416569d2fe2594d5cc4910cda96c57ae8ea101da11f12cf14f565290",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/combined-decoded-01799.png",
+      "bytes": 1866207,
+      "sha256": "9a8727e47f6af27b0c4474cdffa127cf8cc8bef3af13386b0a76f7f90ab0f1b3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/combined-decoded-01800.png",
+      "bytes": 1866201,
+      "sha256": "86f8104f967f7b9623352cf1fcc6a36b23c6e1fb8000eca498170cce70c3547b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/combined-decoded-03750.png",
+      "bytes": 1867862,
+      "sha256": "e94aada2c529baf02f598cf8203db06fe214e97a484fd07b8c481f0b50495aa7",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/combined-decoded-05400.png",
+      "bytes": 1866201,
+      "sha256": "86f8104f967f7b9623352cf1fcc6a36b23c6e1fb8000eca498170cce70c3547b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/combined-decoded-05940.png",
+      "bytes": 1868181,
+      "sha256": "a825847745542f55657885dc53634daa11a0ab029abd91b927345f6349da90fa",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/combined-decoded-06780.png",
+      "bytes": 1868032,
+      "sha256": "efcac32da1268ec5824be5579c4b8190bb7e8fd4c589dabbe57943ab182da56e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/combined-decoded-07199.png",
+      "bytes": 1866207,
+      "sha256": "9a8727e47f6af27b0c4474cdffa127cf8cc8bef3af13386b0a76f7f90ab0f1b3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/combined-preview-concat.txt",
+      "bytes": 378,
+      "sha256": "7a1376d0720b65b6b7028f3c4bec0c3756457deb2a4c011fa09a03cedbb629e0",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/delivery-v4.json",
+      "bytes": 12772,
+      "sha256": "ec634d6d2b0b881a6b3e8d63965a39709d69cdf81f468fc56546f3abb54eb121",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/dependency-snapshot.json",
+      "bytes": 1310,
+      "sha256": "e95c043360f14f794f67737ad790284ec0be4f93dd23c288ddb1b4e0b9d3c5da",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/dependency-snapshot/music/empty-junction-animation-v1/render_junction.py",
+      "bytes": 12293,
+      "sha256": "c641b02956bf329a5661bc4867367e4584644f614c1fa7768c91e8548b8e67e9",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/dependency-snapshot/music/empty-junction-animation-v2/render_junction_v2.py",
+      "bytes": 5348,
+      "sha256": "2c1e48b2f590b89b41edfe30de3043ba563857f34ce6f7bc349599f3510dff32",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/dependency-snapshot/music/empty-junction-animation-v3/render_junction_v3.py",
+      "bytes": 7859,
+      "sha256": "bf63787ef3ee3e7d53460a12400cc4225183fa123ca5ecd7cb1621485d75563d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/dependency-snapshot/music/empty-junction-animation-v4/build_plan.py",
+      "bytes": 9406,
+      "sha256": "1857be03b9e811c128750f42d8bdd0fc00ec3b33791a1b393daf50324e4260b3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/dependency-snapshot/music/empty-junction-animation-v4/render_junction_v4.py",
+      "bytes": 9798,
+      "sha256": "8dd11ccbe7adb1073703bb3090490adba2835146742a5d9881ac3a9770d0b79d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/dependency-snapshot/music/farpoint-animation-v1/render_farpoint.py",
+      "bytes": 17027,
+      "sha256": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/dependency-snapshot/music/saltline-animation-v1/dust_transport.py",
+      "bytes": 3185,
+      "sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/dependency-snapshot/music/saltline-animation-v1/periodic_transport.py",
+      "bytes": 1600,
+      "sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/dependency-snapshot/scripts/ambient_effects.py",
+      "bytes": 1640,
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/dependency-snapshot/scripts/render_floodplain.py",
+      "bytes": 12017,
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/dependency-snapshot/scripts/water_surface.py",
+      "bytes": 3156,
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/habitation-04s.png",
+      "bytes": 1757166,
+      "sha256": "4e612ce7849fa387f04cefb2a11f4225165432f344dd14b34aa65698ebbba84b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/habitation-08s.png",
+      "bytes": 1757151,
+      "sha256": "734601196d167783750c8a5cae0aac0f3fe7a131039dcb067c0659eaaf11da22",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/habitation-16s.png",
+      "bytes": 1757066,
+      "sha256": "ebf3b300a052b154f98653119999f26153beb639bb1068cc08fb7cf2cff80465",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/habitation-36s.png",
+      "bytes": 1756823,
+      "sha256": "02e1e91c4b4bd7a0fa0e7f041e7b0156c9c55996665c3e47af9c72f5ede3b870",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/habitation-48s.png",
+      "bytes": 1756566,
+      "sha256": "f033f9dd1cad3ad297a1013ffa89f23b4b09810a05ae9b46ef722fac6e8db8a8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/analytic-validation.json",
+      "bytes": 5100,
+      "sha256": "25d0f5d0acb94ee20f81b9c86845f6f4fbd74eb2181d27b4a51f5c19077636a6",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/cabin_exhaust-04s.png",
+      "bytes": 1757292,
+      "sha256": "77f264b7d08bf7a80ba464e8472c8fa7f0f16110a9721518a7ddb9d391a84b2c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/cabin_exhaust-08s.png",
+      "bytes": 1757268,
+      "sha256": "bd2d40e1e6bb29ede5a3a4d3c25f7d54a4c209c89d3b0c998ef436ee5fefabfa",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/cabin_exhaust-16s.png",
+      "bytes": 1757281,
+      "sha256": "2db00641ed316abb4873fa39552b8920449b63e1de72b3909c1404c8ef829c07",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/cabin_exhaust-36s.png",
+      "bytes": 1757277,
+      "sha256": "d14157ac7ed13e03b37a759d4bd42b1d5cb3f0c5b2743263a15f6f2d9ab3f45d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/cabin_exhaust-48s.png",
+      "bytes": 1757178,
+      "sha256": "d3ec3676b7347a336c1b6c0022c4ea1bf51ad2148e04c54c49e49f9626830cf1",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/habitation-04s.png",
+      "bytes": 1757166,
+      "sha256": "4e612ce7849fa387f04cefb2a11f4225165432f344dd14b34aa65698ebbba84b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/habitation-08s.png",
+      "bytes": 1757151,
+      "sha256": "734601196d167783750c8a5cae0aac0f3fe7a131039dcb067c0659eaaf11da22",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/habitation-16s.png",
+      "bytes": 1757066,
+      "sha256": "ebf3b300a052b154f98653119999f26153beb639bb1068cc08fb7cf2cff80465",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/habitation-36s.png",
+      "bytes": 1756823,
+      "sha256": "02e1e91c4b4bd7a0fa0e7f041e7b0156c9c55996665c3e47af9c72f5ede3b870",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/habitation-48s.png",
+      "bytes": 1756566,
+      "sha256": "f033f9dd1cad3ad297a1013ffa89f23b4b09810a05ae9b46ef722fac6e8db8a8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/mask-overlay.png",
+      "bytes": 3036154,
+      "sha256": "b46717795c212e2efb728a8a8bbe3e4429558d54dccebf3079fb23dc5b49a5bc",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/cabin_exhaust.png",
+      "bytes": 4508,
+      "sha256": "4176bd1e65666a32010c7384e20f8d1ffd7569006c9d9892112c6c165d53cd1b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/far_mist.png",
+      "bytes": 6138,
+      "sha256": "4dc4a315ddd73d408c5a8fcb76d2206bbce22fa88a4d53bb9f0161c6e354de27",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_cabin_window.png",
+      "bytes": 2363,
+      "sha256": "2d459b0bd77386410517e8887cbab8b4ffe78cf4a467ace7f6a46afdd468d187",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_door_lamp.png",
+      "bytes": 18018,
+      "sha256": "b365f1ffbfce571a96496005a7c26044655d3d494e630d5636cb260aa8376b50",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_gallery_far.png",
+      "bytes": 1988,
+      "sha256": "ae234dec3214c705d1f32fab570daf86f6c24eb432f0afd17a316188c5074920",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_gallery_left.png",
+      "bytes": 2275,
+      "sha256": "a36ed56a4568cb551746e0ed570cb1ed849d5e4bd71f9225f5df97ef58a0ae99",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_gallery_middle.png",
+      "bytes": 2242,
+      "sha256": "5b416f9abd71169c62fb6cc15c0b687427720833f5b11dde398e26ecb7e57dad",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_gallery_right.png",
+      "bytes": 2158,
+      "sha256": "0a7f053dfacb70f966746875270093cd9a4074ac00e8ad552d9e626d30485adf",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_hall_left.png",
+      "bytes": 1880,
+      "sha256": "df40c2424fa25dfa6f7a67fe0d535e34500e6e3f7bd57ee8ae8273b47d56e8fd",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_hall_middle.png",
+      "bytes": 1900,
+      "sha256": "f2b04d084b6f6b11afe3d00c6d9b1cf860f53264b4d6403654a4d1a6fbf16b56",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_hall_practical.png",
+      "bytes": 9812,
+      "sha256": "7c35b08fdccceda3c5578c61776a508aef32dd61568d18c3f69381ca53218328",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_hall_right.png",
+      "bytes": 1875,
+      "sha256": "2724010a26da5fb88d978889ca9e1e3bdfe3a0bc789b310df719a65b3c94ed52",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_roof_amber.png",
+      "bytes": 3062,
+      "sha256": "f0b1250875c714f53a0d0dbfb339b4215fdf6b62a684fe8642fae5b4e56aa057",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_upper_door_lamp.png",
+      "bytes": 4769,
+      "sha256": "84dc4132b73e6521c04a02b1b1f6fad3bbe84d07ffe89391104a799ddccd5546",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_upper_left.png",
+      "bytes": 1826,
+      "sha256": "d2d114761b6860516662574d03b9d647fe6342d771dc103d7ec35d45034eadc4",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_upper_right.png",
+      "bytes": 1863,
+      "sha256": "d85c74d0ce34d7be5b076089f51f62ba99a93867663467af2eaacdbbcff0b34a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/light_yard_signal.png",
+      "bytes": 2458,
+      "sha256": "009e1c2063d5d20366a016c20e5f771c84c53c07397daf945ffe7d3a10f41158",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/middle_mist.png",
+      "bytes": 8085,
+      "sha256": "c1fe1069ab1ba7f4d76cdec216a38f2dbeddd148365f1ed49b46749c365d7920",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/sky_clouds.png",
+      "bytes": 5817,
+      "sha256": "08c3699f5142ae5a1be0b34f4fb76cec95eba4e3c291919883407cf9624cc5a4",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/terrain_flow.png",
+      "bytes": 5150,
+      "sha256": "793fb85f825cefc8f5a7c33ac54a493b4e7824dd2476c435f8e004a3a5c48836",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/masks/yard_powder.png",
+      "bytes": 8890,
+      "sha256": "497b4bb2bc609a57ac05f8ee6f36381833b8d2e85691e29fca48915c8c9442cd",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/pass_weather-04s.png",
+      "bytes": 1756728,
+      "sha256": "7de493114c3fdd5272e4c88736e81e1d6407ddc20248e2c8802bcc4ae62e9dec",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/pass_weather-08s.png",
+      "bytes": 1756725,
+      "sha256": "e1fe0a39d93b0e5944e0588400cd9eca31eba5bf3e03cfc08d280bf3d880779b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/pass_weather-16s.png",
+      "bytes": 1756720,
+      "sha256": "c7a1c629e6c46ef8c1a9935abbe389c930db7a26e79f265cba68e5093d9a0b85",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/pass_weather-36s.png",
+      "bytes": 1756751,
+      "sha256": "bebbd3a077d251f06ee93b34c182b1eb5e0615e3361b41b87c58d7c1b9f02908",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/pass_weather-48s.png",
+      "bytes": 1756650,
+      "sha256": "a024014001a305db59cb3a63d6db26270487823bbc40fa59977b47573a003973",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sample-00.00s.png",
+      "bytes": 1713682,
+      "sha256": "dc257f529296f7e31e8c924753d56c240795ffd079205f666b47844c4838f91c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sample-04.00s.png",
+      "bytes": 1711110,
+      "sha256": "ffa94f779f98cca756ff83c9497e5bc285938eabcbf83827e91151cc5f2ea499",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sample-08.00s.png",
+      "bytes": 1713171,
+      "sha256": "bfc9d4d6e2615b03bb764cb6065a8c4f30c58e0d24dcdb227b8851c8db6a3a7b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sample-16.00s.png",
+      "bytes": 1713924,
+      "sha256": "9457b57e3d1b0998c5f77e00a287b504a6d386af24c4ef16364822e110a494e2",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sample-24.00s.png",
+      "bytes": 1710011,
+      "sha256": "c8ea49621bd569ebed3dbb0f0746f3dd2338e3389c81b5d6b9268f421d8f9426",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sample-36.00s.png",
+      "bytes": 1715465,
+      "sha256": "c69eb6e05284a74edaaf31ecde4c35ddaf4086794c27659328c420ce984ae6c9",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sample-48.00s.png",
+      "bytes": 1715202,
+      "sha256": "5768619a382141db84518ba862abf72a724b19269b2cf340030868429aa5f26e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sample-56.00s.png",
+      "bytes": 1716320,
+      "sha256": "5a7f32b9db84b95fc33f2880129bf932700fb4ad7b2bb959400746209ecf46d2",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sample-59.97s.png",
+      "bytes": 1713752,
+      "sha256": "5544cbb666933d1aff14899c5c789be59e1583d13da6ee6382e9aa05b0d7ee8b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/scene-plan-v4.json",
+      "bytes": 34635,
+      "sha256": "88535ae0f2f4dcb881b830a1a6ecfbb26b665f00adcc277322c80e24fedcbda2",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sky_clouds-04s.png",
+      "bytes": 1711588,
+      "sha256": "7e0183ea62472bc49f420f9bd0b93b8d49305fc00e363853f5b6ac4d106254bf",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sky_clouds-08s.png",
+      "bytes": 1713795,
+      "sha256": "67dbabccca0569493201ef997f280e5172eee2e72dc576d40d40ee8a6d5acba8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sky_clouds-16s.png",
+      "bytes": 1714588,
+      "sha256": "ad8029b088471359eba893d6bcbe922b6b95212de1ecb59cecfed8ef9153e14d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sky_clouds-36s.png",
+      "bytes": 1716315,
+      "sha256": "2060bafe01902ba921723c9c94dea5dd6914924e82b2b1b905243610cba36a00",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/sky_clouds-48s.png",
+      "bytes": 1716565,
+      "sha256": "59689a177a44e5d19d0fd1cf3201f198856d67a8106ffdacde02c29b0d6272b2",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/yard_powder-04s.png",
+      "bytes": 1756976,
+      "sha256": "ccaa07f5618094af4b9f74034e544cd7f0282635ba3e2fa9775c4776543beeeb",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/yard_powder-08s.png",
+      "bytes": 1756932,
+      "sha256": "78728f2f7365cc1736676fa08d88356e1eb764a72799a59900a70125d6853cf5",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/yard_powder-16s.png",
+      "bytes": 1756918,
+      "sha256": "dcd06a375cd00f9c3885cc679ca0fbac5b5d6912f104f33698bbceee154b2d3e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/yard_powder-36s.png",
+      "bytes": 1756938,
+      "sha256": "6638a6b61f94fc7e269a43e4591e49bf1468d59e0d2ef9eb94fcddaecc9f5401",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/initial-sky-boundary/yard_powder-48s.png",
+      "bytes": 1756897,
+      "sha256": "3d0a6ab9b240b74ac392f0168fdf443aa0f895730f346ec4cfabf77dff8f0d49",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/records-before-v4/AGENTS.md",
+      "bytes": 90083,
+      "sha256": "fda144c822f0899352d1a3c0108bcd74a70a635c57b2c78682e963262e674e57",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/records-before-v4/PRODUCTION_PIPELINE.md",
+      "bytes": 43370,
+      "sha256": "6ad673d94306d27128a0a66fcefe82080acdc2218124141ee3c7db3d0fd5bb0e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/records-before-v4/creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "bytes": 60818,
+      "sha256": "d65d50d01a186d02e0632b1bf64b1b43e2d51f9a40517da11c27841fc52655c4",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/records-before-v4/final/11-empty-junction/README.md",
+      "bytes": 3360,
+      "sha256": "e8094b2c49c7ddbb0a0c516959647859190c0ffd789579ffe3a4870f38ff7a5c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/history/records-before-v4/final/11-empty-junction/manifest.json",
+      "bytes": 15070,
+      "sha256": "f8c30c7576b7f140aebc5f2d494082acd164549e00067a8329fbdf8c4f3d129a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/isolated-validation.json",
+      "bytes": 6031,
+      "sha256": "8d458142f414f8588b7d566d229d861c8d3bff3ecc3015a6bb287402bc5fa82a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/mask-overlay.png",
+      "bytes": 3040441,
+      "sha256": "d0db7b8839f6ce5ef58bb8703654ba705baf66a1b72d49e2804cc93fb234f05e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/cabin_exhaust.png",
+      "bytes": 4508,
+      "sha256": "4176bd1e65666a32010c7384e20f8d1ffd7569006c9d9892112c6c165d53cd1b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/far_mist.png",
+      "bytes": 6138,
+      "sha256": "4dc4a315ddd73d408c5a8fcb76d2206bbce22fa88a4d53bb9f0161c6e354de27",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_cabin_window.png",
+      "bytes": 2363,
+      "sha256": "2d459b0bd77386410517e8887cbab8b4ffe78cf4a467ace7f6a46afdd468d187",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_door_lamp.png",
+      "bytes": 18018,
+      "sha256": "b365f1ffbfce571a96496005a7c26044655d3d494e630d5636cb260aa8376b50",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_gallery_far.png",
+      "bytes": 1988,
+      "sha256": "ae234dec3214c705d1f32fab570daf86f6c24eb432f0afd17a316188c5074920",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_gallery_left.png",
+      "bytes": 2275,
+      "sha256": "a36ed56a4568cb551746e0ed570cb1ed849d5e4bd71f9225f5df97ef58a0ae99",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_gallery_middle.png",
+      "bytes": 2242,
+      "sha256": "5b416f9abd71169c62fb6cc15c0b687427720833f5b11dde398e26ecb7e57dad",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_gallery_right.png",
+      "bytes": 2158,
+      "sha256": "0a7f053dfacb70f966746875270093cd9a4074ac00e8ad552d9e626d30485adf",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_hall_left.png",
+      "bytes": 1880,
+      "sha256": "df40c2424fa25dfa6f7a67fe0d535e34500e6e3f7bd57ee8ae8273b47d56e8fd",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_hall_middle.png",
+      "bytes": 1900,
+      "sha256": "f2b04d084b6f6b11afe3d00c6d9b1cf860f53264b4d6403654a4d1a6fbf16b56",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_hall_practical.png",
+      "bytes": 9812,
+      "sha256": "7c35b08fdccceda3c5578c61776a508aef32dd61568d18c3f69381ca53218328",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_hall_right.png",
+      "bytes": 1875,
+      "sha256": "2724010a26da5fb88d978889ca9e1e3bdfe3a0bc789b310df719a65b3c94ed52",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_roof_amber.png",
+      "bytes": 3062,
+      "sha256": "f0b1250875c714f53a0d0dbfb339b4215fdf6b62a684fe8642fae5b4e56aa057",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_upper_door_lamp.png",
+      "bytes": 4769,
+      "sha256": "84dc4132b73e6521c04a02b1b1f6fad3bbe84d07ffe89391104a799ddccd5546",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_upper_left.png",
+      "bytes": 1826,
+      "sha256": "d2d114761b6860516662574d03b9d647fe6342d771dc103d7ec35d45034eadc4",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_upper_right.png",
+      "bytes": 1863,
+      "sha256": "d85c74d0ce34d7be5b076089f51f62ba99a93867663467af2eaacdbbcff0b34a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/light_yard_signal.png",
+      "bytes": 2458,
+      "sha256": "009e1c2063d5d20366a016c20e5f771c84c53c07397daf945ffe7d3a10f41158",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/middle_mist.png",
+      "bytes": 8085,
+      "sha256": "c1fe1069ab1ba7f4d76cdec216a38f2dbeddd148365f1ed49b46749c365d7920",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/sky_clouds.png",
+      "bytes": 5176,
+      "sha256": "7f7ea2f9f9fa27dd374b41899c25a7d818fe1bce8405fb13261ec79d5cdec25c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/terrain_flow.png",
+      "bytes": 5150,
+      "sha256": "793fb85f825cefc8f5a7c33ac54a493b4e7824dd2476c435f8e004a3a5c48836",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/masks/yard_powder.png",
+      "bytes": 8890,
+      "sha256": "497b4bb2bc609a57ac05f8ee6f36381833b8d2e85691e29fca48915c8c9442cd",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/pass_weather-04s.png",
+      "bytes": 1756728,
+      "sha256": "7de493114c3fdd5272e4c88736e81e1d6407ddc20248e2c8802bcc4ae62e9dec",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/pass_weather-08s.png",
+      "bytes": 1756725,
+      "sha256": "e1fe0a39d93b0e5944e0588400cd9eca31eba5bf3e03cfc08d280bf3d880779b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/pass_weather-16s.png",
+      "bytes": 1756720,
+      "sha256": "c7a1c629e6c46ef8c1a9935abbe389c930db7a26e79f265cba68e5093d9a0b85",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/pass_weather-36s.png",
+      "bytes": 1756751,
+      "sha256": "bebbd3a077d251f06ee93b34c182b1eb5e0615e3361b41b87c58d7c1b9f02908",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/pass_weather-48s.png",
+      "bytes": 1756650,
+      "sha256": "a024014001a305db59cb3a63d6db26270487823bbc40fa59977b47573a003973",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/principal-motion-detail.png",
+      "bytes": 889390,
+      "sha256": "5cc04f91c15716e5fd4f77a7da97f2dd4390f9c06ffd87d7ffa3fdb540b5295d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/record-integration.json",
+      "bytes": 1062,
+      "sha256": "83d91e3f1793aabcaff26ea54d02515d186f77a139f975d62d1e4a6872217c1e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/render-record.json",
+      "bytes": 4839,
+      "sha256": "6fa4a175bafe25e8f091f03edeaedb4fce458aacb098a90e093fa4e90a0acc3c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/render_junction_v4.py",
+      "bytes": 9798,
+      "sha256": "8dd11ccbe7adb1073703bb3090490adba2835146742a5d9881ac3a9770d0b79d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sample-00.00s.png",
+      "bytes": 1756881,
+      "sha256": "9822f57af4a339ed7a8699c9f448a58aad980affa2581e94cad73b562a18bcdd",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sample-04.00s.png",
+      "bytes": 1758260,
+      "sha256": "6521beb5ca280d8aeddd11ae2667e171b121da9914d7a80d0348461a68fe06fe",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sample-08.00s.png",
+      "bytes": 1758322,
+      "sha256": "9a7edf150743bc777c9088004d525754ecc7ef37cfda8fca250f8f8f9dfec3c2",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sample-16.00s.png",
+      "bytes": 1758560,
+      "sha256": "a961ef6920abb4e6007cd8c8b5bb33bbc4e69dbe764d8b441afa31c9359e56a9",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sample-24.00s.png",
+      "bytes": 1758669,
+      "sha256": "96adc6f0ca96dc89d16aca2daf525618a5946adb2ee161fb84686b49b32ab7e8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sample-36.00s.png",
+      "bytes": 1758584,
+      "sha256": "2cdd7b5cdd2eca95eaf674e2bbaf0c1d774e5592e2e93e9562773df6e0a10016",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sample-48.00s.png",
+      "bytes": 1757755,
+      "sha256": "8e7786bae02d031285e1aeff9b45fad84d08804298a0207abd0e8f90be1cf678",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sample-56.00s.png",
+      "bytes": 1758931,
+      "sha256": "43b653d791cc5910b7b82d7277d9842dab20b6e77626d45669dcd775b6d4ff22",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sample-59.97s.png",
+      "bytes": 1756835,
+      "sha256": "5f2b7e4bf66ef085a615b2a4357d05db3d3764b58672c45ab2784e8d2c5b9755",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/scene-plan-v4.json",
+      "bytes": 34635,
+      "sha256": "9862aeff07ce7b1531ef16da4ff2219d4a2f572e64d2876096534afa525e7f86",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sky_clouds-04s.png",
+      "bytes": 1758777,
+      "sha256": "162898a690d93e1659450c693e7ae8efa518ac9deb8a61a91f9a638b84b140b1",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sky_clouds-08s.png",
+      "bytes": 1758985,
+      "sha256": "a0228c2591359671330aa92d8234351ee4f594c3e114b40c838aab596e0b786f",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sky_clouds-16s.png",
+      "bytes": 1759258,
+      "sha256": "dc9fbf7cf5840b0be90913ae4797101ff153809ab32deb2040ce4bf52c61ddf0",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sky_clouds-36s.png",
+      "bytes": 1759438,
+      "sha256": "84dae8d6fd54940df76de3adca9d17e45dc8554eee741ea9e0a0063addf2e61e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/sky_clouds-48s.png",
+      "bytes": 1759156,
+      "sha256": "1ebc436416223ad444d7844875e8db82ce78dc1a27da59c8c960e9dd457544f7",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/source-coordinate-grid.png",
+      "bytes": 3054710,
+      "sha256": "0374d1f74768bc577a8d3a15f072976bfa2dc3071c0c82514328a8de7faec36c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/update_records.cjs",
+      "bytes": 8629,
+      "sha256": "8224a1160685db932fb3c33ed72c447d275acdb18433d68dfedada0d2d5abf53",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/upper-rooms-detail.png",
+      "bytes": 286873,
+      "sha256": "fdaeaa67a7341cb3bbb3fa883faea6f9df057b43a9bd728293652e52d0a6b64a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/user-request.json",
+      "bytes": 742,
+      "sha256": "c2950c79b15af2adcbd6c0090d9f09da4626bd3ffd57d1ff4b93abfe099475e2",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/validate_delivery.py",
+      "bytes": 9563,
+      "sha256": "380b244aeebddd9cdd79c5f64e88df289bb9b005abb44afd31b9641b4296e1fb",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/visual-review.json",
+      "bytes": 1726,
+      "sha256": "af67a7a3d69aa2c069e26765d6a747323ed200558e6e6129523ad3834181a7a5",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/windows-detail.png",
+      "bytes": 312653,
+      "sha256": "2abc1095be8bff2eb47ce921479a3ef7a648be95b53b4244d6b75c7bab1489e7",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/yard_powder-04s.png",
+      "bytes": 1756976,
+      "sha256": "ccaa07f5618094af4b9f74034e544cd7f0282635ba3e2fa9775c4776543beeeb",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/yard_powder-08s.png",
+      "bytes": 1756932,
+      "sha256": "78728f2f7365cc1736676fa08d88356e1eb764a72799a59900a70125d6853cf5",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/yard_powder-16s.png",
+      "bytes": 1756918,
+      "sha256": "dcd06a375cd00f9c3885cc679ca0fbac5b5d6912f104f33698bbceee154b2d3e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/yard_powder-36s.png",
+      "bytes": 1756938,
+      "sha256": "6638a6b61f94fc7e269a43e4591e49bf1468d59e0d2ef9eb94fcddaecc9f5401",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/yard_powder-48s.png",
+      "bytes": 1756897,
+      "sha256": "3d0a6ab9b240b74ac392f0168fdf443aa0f895730f346ec4cfabf77dff8f0d49",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v4/yard_powder-v4-isolated-8s.mp4",
+      "bytes": 973226,
+      "sha256": "2c692cbbf2f46bedf4e64ca83ef02cffa1847696402d5434ea5a975493012e8d",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v4-v5-details-20s.mp4",
+      "bytes": 1043840,
+      "sha256": "0c756c29c9cb7b17efd17b76e41f191b9d0c597a09df7a094d5f84a7cb2c228b",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-60s-720p-decoded-0000.png",
+      "bytes": 1857798,
+      "sha256": "cce3efd404913fd5085ca65a43088757cb8b0fe8f00cd2492d26a2c3878fb2b9",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-60s-720p-decoded-0180.png",
+      "bytes": 1861483,
+      "sha256": "dc018ad22e20a042b4b0c9c2df8228bd587dda093f2215e430e767b7919322c8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-60s-720p-decoded-0600.png",
+      "bytes": 1860777,
+      "sha256": "f6f7647823dc407dcfb939603b43fc323ff04034536661c75b76085c68e188f7",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-60s-720p-decoded-0960.png",
+      "bytes": 1857114,
+      "sha256": "c93c475f22665ddcfdb0853920fc5c8221d26d59eca2c5a24b9591f9a31a7b45",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-60s-720p-decoded-1320.png",
+      "bytes": 1860514,
+      "sha256": "7d4755da46fcd7e2a1f5adef68a94d73913764b9245543e19f3f82c6242b256f",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-60s-720p-decoded-1799.png",
+      "bytes": 1857343,
+      "sha256": "66d3cf730063e35d3aa3fc43ab6aecd8acd05c1528ab1ed0bdd21dc1a04514d5",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-60s-720p.mp4",
+      "bytes": 17599607,
+      "sha256": "b930e881dfaafc367b72189d53b7aa202865d1e553ce13749073978a79f2c56b",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-two-loops-120s-720p-decoded-0000.png",
+      "bytes": 1857798,
+      "sha256": "cce3efd404913fd5085ca65a43088757cb8b0fe8f00cd2492d26a2c3878fb2b9",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-two-loops-120s-720p-decoded-0180.png",
+      "bytes": 1861483,
+      "sha256": "dc018ad22e20a042b4b0c9c2df8228bd587dda093f2215e430e767b7919322c8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-two-loops-120s-720p-decoded-0600.png",
+      "bytes": 1860777,
+      "sha256": "f6f7647823dc407dcfb939603b43fc323ff04034536661c75b76085c68e188f7",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-two-loops-120s-720p-decoded-0960.png",
+      "bytes": 1857114,
+      "sha256": "c93c475f22665ddcfdb0853920fc5c8221d26d59eca2c5a24b9591f9a31a7b45",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-two-loops-120s-720p-decoded-1320.png",
+      "bytes": 1860514,
+      "sha256": "7d4755da46fcd7e2a1f5adef68a94d73913764b9245543e19f3f82c6242b256f",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-two-loops-120s-720p-decoded-1799.png",
+      "bytes": 1857343,
+      "sha256": "66d3cf730063e35d3aa3fc43ab6aecd8acd05c1528ab1ed0bdd21dc1a04514d5",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-with-approved-audio-60s-720p-decoded-0000.png",
+      "bytes": 1857798,
+      "sha256": "cce3efd404913fd5085ca65a43088757cb8b0fe8f00cd2492d26a2c3878fb2b9",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-with-approved-audio-60s-720p-decoded-0180.png",
+      "bytes": 1861483,
+      "sha256": "dc018ad22e20a042b4b0c9c2df8228bd587dda093f2215e430e767b7919322c8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-with-approved-audio-60s-720p-decoded-0600.png",
+      "bytes": 1860777,
+      "sha256": "f6f7647823dc407dcfb939603b43fc323ff04034536661c75b76085c68e188f7",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-with-approved-audio-60s-720p-decoded-0960.png",
+      "bytes": 1857114,
+      "sha256": "c93c475f22665ddcfdb0853920fc5c8221d26d59eca2c5a24b9591f9a31a7b45",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-with-approved-audio-60s-720p-decoded-1320.png",
+      "bytes": 1860514,
+      "sha256": "7d4755da46fcd7e2a1f5adef68a94d73913764b9245543e19f3f82c6242b256f",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-with-approved-audio-60s-720p-decoded-1799.png",
+      "bytes": 1857343,
+      "sha256": "66d3cf730063e35d3aa3fc43ab6aecd8acd05c1528ab1ed0bdd21dc1a04514d5",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/Empty-Junction-v5-with-approved-audio-60s-720p.mp4",
+      "bytes": 19088276,
+      "sha256": "f7f82235de707f597d37c5477d0d2f01d52bbca6ef3f2e5006f554b80b950220",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/README.md",
+      "bytes": 5342,
+      "sha256": "40da313ded817376f553dc082d62236cf3033661beba2d42c981ab873654b947",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/analytic-validation.json",
+      "bytes": 737,
+      "sha256": "1e3de3feae27276d3235d0ee208211fb73c4340e9c9571e0c33c0db5b3d0d3f8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/apertures.json",
+      "bytes": 8096,
+      "sha256": "3404dc64a5de7cadfc06f441fd739dbb5893c44798694eace077e147307f3b9f",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/cloud-direction-check.json",
+      "bytes": 354,
+      "sha256": "ad5942e313dbbf1ca4fda1598f040bf6b4be1601ebc111c5d590a8b9cea47d5d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/cloud-texture-reconstructed.png",
+      "bytes": 568953,
+      "sha256": "3fd014ef39833aa0eaf7da23590828b75e559f9b62bc03f719973970658efdf0",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/clouds-06.png",
+      "bytes": 3071526,
+      "sha256": "a0d3939f9c4e8c9675ba5595f0a2223389fac3acae7035984b3a129451cb3971",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/clouds-20.png",
+      "bytes": 3064755,
+      "sha256": "ef48bbe01c9b84d5c5097bc5de5c54e4b6b3166a070ff879e481ace40df26e19",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/clouds-44.png",
+      "bytes": 3071296,
+      "sha256": "e8e7fd9c7fca608b01e0dbf953635c7cc78edfd431917568159d8fcfbc4f709d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/comparison-decoded-12s.png",
+      "bytes": 1118093,
+      "sha256": "6a80bd5ddb0d8efb6e5d297f3f016849022ee72c0fd381cc4794dfeae026f611",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/delivery-v5.json",
+      "bytes": 5125,
+      "sha256": "e5b53d2d12b70b4585fd358944b2b6ed1e79e26bdfae49d724797b0194cc47cd",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot.json",
+      "bytes": 1683,
+      "sha256": "66578c657429870fc10ae55dc3a23f2f43d7b26333e132ebd5b291d7bb72b02e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot/music/empty-junction-animation-v1/render_junction.py",
+      "bytes": 12293,
+      "sha256": "c641b02956bf329a5661bc4867367e4584644f614c1fa7768c91e8548b8e67e9",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot/music/empty-junction-animation-v2/render_junction_v2.py",
+      "bytes": 5348,
+      "sha256": "2c1e48b2f590b89b41edfe30de3043ba563857f34ce6f7bc349599f3510dff32",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot/music/empty-junction-animation-v3/render_junction_v3.py",
+      "bytes": 7859,
+      "sha256": "bf63787ef3ee3e7d53460a12400cc4225183fa123ca5ecd7cb1621485d75563d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot/music/empty-junction-animation-v4/artwork-v3.png",
+      "bytes": 3353792,
+      "sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot/music/empty-junction-animation-v4/build_plan.py",
+      "bytes": 9406,
+      "sha256": "1857be03b9e811c128750f42d8bdd0fc00ec3b33791a1b393daf50324e4260b3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot/music/empty-junction-animation-v4/render_junction_v4.py",
+      "bytes": 9798,
+      "sha256": "8dd11ccbe7adb1073703bb3090490adba2835146742a5d9881ac3a9770d0b79d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot/music/empty-junction-animation-v4/scene-plan-v4.json",
+      "bytes": 34635,
+      "sha256": "9862aeff07ce7b1531ef16da4ff2219d4a2f572e64d2876096534afa525e7f86",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot/music/farpoint-animation-v1/render_farpoint.py",
+      "bytes": 17027,
+      "sha256": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot/music/saltline-animation-v1/dust_transport.py",
+      "bytes": 3185,
+      "sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot/music/saltline-animation-v1/periodic_transport.py",
+      "bytes": 1600,
+      "sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot/scripts/ambient_effects.py",
+      "bytes": 1640,
+      "sha256": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot/scripts/render_floodplain.py",
+      "bytes": 12017,
+      "sha256": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/dependency-snapshot/scripts/water_surface.py",
+      "bytes": 3156,
+      "sha256": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/gallery-source-crop.png",
+      "bytes": 187578,
+      "sha256": "7f4f5d0a60b19f7b24b7d1935874b0fe6c75e940ff3b28de657c305d9f087d75",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/gallery-temporal.png",
+      "bytes": 482156,
+      "sha256": "bf959f781ae0c926e450f48ef4af626e199dd49be8271803ba3c9d281c494350",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/hall-source-crop.png",
+      "bytes": 121420,
+      "sha256": "e6d8d5c6902b4468af3e5c527d872e1ff78f68c438bba1366cc61db779aa8956",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/hall-temporal.png",
+      "bytes": 317408,
+      "sha256": "3741c3b67417f40a469292daf4e19fae9c06dc96342272c1bc55631bf6b61c3c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/history/lossy-encoding/render-crf16.py",
+      "bytes": 13312,
+      "sha256": "95b456ccd415bafcf58363371d0ccc32961491e9302f8c0c9251aa8080740f54",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/history/lossy-encoding/render-record.json",
+      "bytes": 373,
+      "sha256": "eb52f99a7e614df09c7d41b1d9e08a11b7a4823cb83bab4b7dbfd3580d63d823",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/history/mast-occlusion-correction/render-before-guard.py",
+      "bytes": 12825,
+      "sha256": "28ef6f6467c68cf27fdeb60c9da15a8a5f295034677af444bc5e32864a0409eb",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/history/records-before-v5/AGENTS.md",
+      "bytes": 91301,
+      "sha256": "5f02c23062d910b9b4cfca9b0f645267559bd17124318f25e63147a380361c21",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/history/records-before-v5/PRODUCTION_PIPELINE.md",
+      "bytes": 43423,
+      "sha256": "bedb8d2375fe0095064cb84c9d14edc6f7159895f35997f6b6445c089e057d43",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/history/records-before-v5/creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "bytes": 61656,
+      "sha256": "91085412909d5e7e1ba4f4bca26d3a1db7aa59b1cefc71f6126fde1f5549189b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/history/records-before-v5/final/11-empty-junction/README.md",
+      "bytes": 3514,
+      "sha256": "8bb7a3551e9f4578bb0d385a5fbc3176b926affc40759de7c1d81387556b91f9",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/history/records-before-v5/final/11-empty-junction/manifest.json",
+      "bytes": 16706,
+      "sha256": "cdd569241614465eaf214d2246578067f14378519978b338eca4078de811f1dc",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/history/transport-correction/render-before-flow-fix.py",
+      "bytes": 13075,
+      "sha256": "de5aab2b208d748bf57ef52fecce22005c37f414e83adc010ade4366d84f5ccd",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/history/white-core-correction/render-before-core-fix.py",
+      "bytes": 12658,
+      "sha256": "63412e5d9c4eeeafb97154e172b4e54f8ba4e2a1104c0ab284d300a323fa2417",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/initial-encoding-source-controls.json",
+      "bytes": 743,
+      "sha256": "5df8e76a127265dd0de30e5358f637a33c39d45ad45b4461e91c402c43115a6e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/cabin_exhaust.png",
+      "bytes": 4508,
+      "sha256": "4176bd1e65666a32010c7384e20f8d1ffd7569006c9d9892112c6c165d53cd1b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/clouds.png",
+      "bytes": 6718,
+      "sha256": "2236bf18917aed82b2d251a43a12f0973e23c3cad9f0ded10d988ddefccb4c58",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/far_mist.png",
+      "bytes": 3885,
+      "sha256": "3ec9efc10c12dd8c8bd169cc44b29b2624ff651765540a0e6456faffaaf9cfdc",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/middle_mist.png",
+      "bytes": 5645,
+      "sha256": "52dc354fb9f680d92283c0ffa8297cecad7fa9fcd845bb83f40884675f28f65a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/practical_door_lamp.png",
+      "bytes": 18018,
+      "sha256": "b365f1ffbfce571a96496005a7c26044655d3d494e630d5636cb260aa8376b50",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/practical_hall_practical.png",
+      "bytes": 9812,
+      "sha256": "7c35b08fdccceda3c5578c61776a508aef32dd61568d18c3f69381ca53218328",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/practical_roof_amber.png",
+      "bytes": 3062,
+      "sha256": "f0b1250875c714f53a0d0dbfb339b4215fdf6b62a684fe8642fae5b4e56aa057",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/practical_upper_door_lamp.png",
+      "bytes": 4769,
+      "sha256": "84dc4132b73e6521c04a02b1b1f6fad3bbe84d07ffe89391104a799ddccd5546",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/practical_yard_signal.png",
+      "bytes": 2458,
+      "sha256": "009e1c2063d5d20366a016c20e5f771c84c53c07397daf945ffe7d3a10f41158",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_cabin.png",
+      "bytes": 1818,
+      "sha256": "6e699a112253889da61fcfe8da2fd4c2e3749bfd3d7f6bb008f58cb6ba2e9895",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_gallery_0.png",
+      "bytes": 1883,
+      "sha256": "4a6ec7a5f4d1d16f0a1f541ef41360f2b6a3c061f0add1f38f7fb6c54051c3fb",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_gallery_1.png",
+      "bytes": 2014,
+      "sha256": "d3e44a666aedd04ec681f6af4adadbf8d5d61176b8bfa1b769ab65f147972823",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_gallery_2.png",
+      "bytes": 2077,
+      "sha256": "c8011940498f0ea9fa3fb62f667f7eebbdf79f334e6d833dc013d8d6eafc3a80",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_gallery_3.png",
+      "bytes": 1947,
+      "sha256": "1d629ee4a59e3a132d1280efef5f0ec8066ddb5bac84a5d528de816140d86f58",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_gallery_4.png",
+      "bytes": 1929,
+      "sha256": "98c4f9b5b2d5cee00c80f9df1eb31ccf3443d8c05c047b55328a76eca4aec2f2",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_gallery_5.png",
+      "bytes": 1835,
+      "sha256": "8270ef76e0cfe47dd168cd1433bd108052d92bcc59a018c3dda40ddf4c0dc555",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_gallery_6.png",
+      "bytes": 1848,
+      "sha256": "ebecce64c8f5605527b4a659657a388d5a899c6ea9a841ab06bcd69a9b700439",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_gallery_7.png",
+      "bytes": 1879,
+      "sha256": "371a0dacdcc36ec6c1866355d4999dfba4434dfc73748ae381d5222074b9eee8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_gallery_8.png",
+      "bytes": 1857,
+      "sha256": "7e122623084c23d7b459c59803bc487034761e4e4219054a7a858a4d85785f28",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_hall_0.png",
+      "bytes": 1753,
+      "sha256": "8e37c1114f54ad3e312a7a90d85a75b6ea7c0250f5d6d125087189ef485548f7",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_hall_1.png",
+      "bytes": 1769,
+      "sha256": "ea95294bb33ff01887278df190f147362da0aa994f913a5d530779cdc7d5387c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_hall_2.png",
+      "bytes": 1728,
+      "sha256": "44bf4e803b38c0011a8c8270fe3d0fb5c788c0bd8f12aa3f87d61c35cc0df34f",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_hall_3.png",
+      "bytes": 1716,
+      "sha256": "c74567e404af81b69166158ff82b855efcf594b0382df60742e36c8825e7a64c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_hall_4.png",
+      "bytes": 1708,
+      "sha256": "d4c36c2bd49fda99bf42bdfce70d989250571ad526120c2dcc0377194d6d2340",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_hall_5.png",
+      "bytes": 1710,
+      "sha256": "f619942a6a9db466890356185e1779cbfc05e20d46d939ca1a8d4f79ca1621b5",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_hall_6.png",
+      "bytes": 1695,
+      "sha256": "663077ef9311cfa85f98f01be47847191b7e579ef138a4f7ac3be8e732b471b2",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_hall_7.png",
+      "bytes": 1770,
+      "sha256": "45ecf20890102fcce79c54e5475851ac7c3e411eaa5d31a7baf6af19e5fa8f5c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_hall_8.png",
+      "bytes": 1710,
+      "sha256": "b7973f29ec3457db84f95feb4bb872e8ed0f443f40c23b4d572bfa26f6a03104",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_upper_left.png",
+      "bytes": 1874,
+      "sha256": "2b717ce3a55ed7fe19d8b5d2a3881fba556ca52af46082e65c9d7cad58060b28",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/window_upper_right.png",
+      "bytes": 1864,
+      "sha256": "1748dca5c81822d47e526830fb24a547b2ebd9a1aa5a9d3b0c82ba624187e0d7",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/masks/yard_powder.png",
+      "bytes": 8890,
+      "sha256": "497b4bb2bc609a57ac05f8ee6f36381833b8d2e85691e29fca48915c8c9442cd",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/mist-06.png",
+      "bytes": 3077965,
+      "sha256": "d9d845bc3bcd7d6546c4c740f0486dd043c80857b931db723a9baaf4a6459225",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/mist-20.png",
+      "bytes": 3078240,
+      "sha256": "7e65e2054b34790cf7b666b69b5ed161219cfb0b4369578ac13f2ab2395b3ce4",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/mist-44.png",
+      "bytes": 3078221,
+      "sha256": "611179afddaf73c6b4a964964bf810feda6e71e5363063baa698cfb4b2e9a9b5",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/preservation-check.json",
+      "bytes": 614,
+      "sha256": "d751a314c4a8511d031eac9108dac87c26be4a4fb89b583b360473c0ac8ae81a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/record-integration.json",
+      "bytes": 318,
+      "sha256": "c5be7b535dfd1addef490da3ad0270beb7fe8e553f788f5966fea3daea6e731f",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/render-record.json",
+      "bytes": 373,
+      "sha256": "65ec1d59e391b4ae8e81b853a179b44d8731955538d01f926d834f503dc3c660",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/render_v5.py",
+      "bytes": 13310,
+      "sha256": "17ed66e1cb34679f0f3bcf8fe0b46c10d97d6703c435925ab57b3e3ad88c4ce8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/sample-00.png",
+      "bytes": 3061361,
+      "sha256": "bd8c5e88cee06640d27c5cb2bffdeadb36f244858da385a3d0a45432c5a47d08",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/sample-06.png",
+      "bytes": 3069219,
+      "sha256": "b713768ae478822439efa9702be326e340585442d9d211c9d64a512a2f4e99f4",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/sample-12.png",
+      "bytes": 3053875,
+      "sha256": "24c2caae5cf4190b4c6e11e1e71657043f298130932a2b0b7e21ccb8e8e4fc51",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/sample-20.png",
+      "bytes": 3062569,
+      "sha256": "ff4616386cdaeaebb8438c8dc6e48f71b9402d86350e5dee822a13f6b15bae85",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/sample-32.png",
+      "bytes": 3056441,
+      "sha256": "64a86108d068e78ff0243f737cd3564e939e647dc4d7e2f80a10bf7a3ef505c8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/sample-44.png",
+      "bytes": 3069351,
+      "sha256": "74cfca0f213c5a075d6441d0ec0a20d2cd8cda24576c1ffddd334997307e8181",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/sample-56.png",
+      "bytes": 3036422,
+      "sha256": "97ddcd07b6241baf502faabdaf776d915e2948db9ac65ceca9f1d8a6f5ff2db7",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/sky-mask-check.png",
+      "bytes": 597402,
+      "sha256": "b0ffa1885ceab300788dd9429ea74dfa2f41b7b87273b3954cfaf0deb8656bc7",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/sky-source-crop.png",
+      "bytes": 1277007,
+      "sha256": "de625590bbf07f1d87dfabb01e64315ea591ca5d0fb3d0aee6f8274f6dd05abd",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/update_records.cjs",
+      "bytes": 6180,
+      "sha256": "d4ed243babfd03f38666333880e09711bc72c66a8fc216e2d9ac2971e06d1658",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/upper-source-crop.png",
+      "bytes": 80413,
+      "sha256": "4ab43bef4203714adb2bc36e3b7febc1e2031f5a14f3b550ce2157ba3e5decff",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/user-feedback.json",
+      "bytes": 436,
+      "sha256": "dbf15ae3054701d176f6f7696fa11b94fad16e22e06f46d6afc68f6a36d7c506",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/validate_v5.py",
+      "bytes": 7417,
+      "sha256": "a0ba1ab281ca3e899ebe4450d7ef9543b9e1c0a67b60b61bbb878f6cd17360fe",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/valley-grid.png",
+      "bytes": 794127,
+      "sha256": "2e4db6d8249e70edc4df67d83ce509af7e6be918f6face0ee813e8cedc9b9b28",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/valley-temporal.png",
+      "bytes": 2003906,
+      "sha256": "eef23ce15d45b29ea7923075603ac45d95bacc090c6eddad29c25264762e3f93",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/visual-review.json",
+      "bytes": 2069,
+      "sha256": "b0632cd7a365a4aea7cdb8c4995b629105b82993b76c501562f9e01b6a0a772c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/white-core-validation.json",
+      "bytes": 1141,
+      "sha256": "0273003e9689f0a19c7361bf7d29aa3bb39c6e4292a341bf68396bddbfa4a979",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/window-mask-overlay.png",
+      "bytes": 3076589,
+      "sha256": "d2053b376dfe383bf829e22bcfc04a876a4b8c4db1134535526155abb7aadd48",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/windows-06.png",
+      "bytes": 3078875,
+      "sha256": "b1a7805247ed07cd0d007022cc73f99892524f47703bb9c121d5687255f0e1f3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/windows-20.png",
+      "bytes": 3078718,
+      "sha256": "48429e8084d854024dc0dccd156df47aa0cdb4ceb1a39bd6c3cef96c1210ff32",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-animation-v5/windows-44.png",
+      "bytes": 3078790,
+      "sha256": "f3f3027ae0bb52d899ea2f444bce55162f0a2aabce704d9ad47de80fbb34f4ed",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/.gitignore",
+      "bytes": 202,
+      "sha256": "8a496002b470e5310ab6d183f947942633097472687a7006588684a6d807637a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/README.md",
+      "bytes": 7819,
+      "sha256": "89410cb1e024ba8c020f29a42412d71ab8e5a9e9f26b9425fad3efe9dd23828d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/audio-verify.cjs",
+      "bytes": 3152,
+      "sha256": "aba8330b87b01df1e77bfc73ec27ccb202f1cc4ffabed5d9a020568201ef9e84",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/build-intermittent-wind-v2.cjs",
+      "bytes": 6593,
+      "sha256": "c4d4c6f128485ac5b308651b84c5016b93e6d5fb767d5916d8c003f41a4ac8fa",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/build-review.cjs",
+      "bytes": 8938,
+      "sha256": "3af9935090e4d48915598c6946917dd4f114f5d6bb41b853788308b9ae27d1f5",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/cabin-machinery-sfx-prompt-v1.txt",
+      "bytes": 912,
+      "sha256": "bd3390b15706578d7eff8c9d13b7cd997af16720327dc3006a2af87533bc2170",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/Empty-Junction-check-01-wind-60s-v1.mp3.decode-loudness.log",
+      "bytes": 1182,
+      "sha256": "52f10ecebe4b5064293dd59e5cda9c4a86f792fb199b1e0a30aa663434691d53",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/Empty-Junction-check-02-train-60s-v1.mp3.decode-loudness.log",
+      "bytes": 1183,
+      "sha256": "e527fa0125c51db4215dfdd33f68dc2ed9061fdb37c24f525961f74775f4638d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/Empty-Junction-check-03-grit-and-wind-60s-v1.mp3.decode-loudness.log",
+      "bytes": 1191,
+      "sha256": "a9a5c98005affbc69407a00beaad449d241d6e2e7042f176c98595941bb590b8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/README.md",
+      "bytes": 4461,
+      "sha256": "8913661b2341c03d3f8b6b5450b01c1c5546664a74f8aa2363f478d7742f3a31",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/The-Empty-Junction-1-Hour-SFX-only-v1.flac.decode-loudness.log",
+      "bytes": 1135,
+      "sha256": "7732565826c99c37996438eff4048c3278e9ffd444c4d996071466c3b58d7d7c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/The-Empty-Junction-1-Hour-final-SFX-v1.flac.decode-loudness.log",
+      "bytes": 1137,
+      "sha256": "95909c1a82f8c5aff7fd8179e09bd6434e4d2d9beee61eaaf06b4cc12f128bc3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/The-Empty-Junction-1-Hour-final-SFX-v1.mp3.decode-loudness.log",
+      "bytes": 1213,
+      "sha256": "4e8947a0134246ab63612cd1ce9261f0b69be7bdbd07e3ead76c50f5c0a3a965",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/build-final.cjs",
+      "bytes": 11982,
+      "sha256": "5871f719ea54f9cdd23a61edc08250ecb0885af3e0db1878c8ed92157901459d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/delivery-paths.json",
+      "bytes": 1094,
+      "sha256": "a7c5315fd7d7fe67cd07678252ae09f1baf1ec7a51e5cd52fd3b82d7feee2f3a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/delivery-validation.json",
+      "bytes": 5572,
+      "sha256": "8cbcc487f3573a90323434ac49298eeca2b0ed5c93356e2e290362084c56a7a3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/example-sections.json",
+      "bytes": 2810,
+      "sha256": "1f63171227c8582ee4fe50be59c0c7fd2f458cdb94b9ff940b6e48a07f299a17",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/export-delivery.ps1",
+      "bytes": 2526,
+      "sha256": "48a3ea402c5d14ef2c75692fe9c87705e50ff8bb764be8eb2f58d1f1ea0c3741",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/mix-recipe.json",
+      "bytes": 8787,
+      "sha256": "c4abd00d90d6bc333ab327180475d31f3fa68f50f4124a0a28412504c61ebd23",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/previous-release-README.md",
+      "bytes": 3314,
+      "sha256": "aa155482719646b3bb3e125bac47b3cbfb8e672b891ca8ead7ffab79c414929a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/previous-release-manifest.json",
+      "bytes": 11326,
+      "sha256": "1ecaef36cb6d7a12b1cae39ee6600bd0df7f18cf9054e927435c820669287f40",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/release-integration.json",
+      "bytes": 379,
+      "sha256": "5dba1752b52d2bd5b75acb996e37d2f9af57bd345e681f7a3f0777820685e014",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/update-release.cjs",
+      "bytes": 4061,
+      "sha256": "aebe570a4d20fac64e7b382bc5cf1c2ea38546d0294e2ddb382ea3e175815c61",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v2/Empty-Junction-check-01-wind-60s-v2.mp3.decode-loudness.log",
+      "bytes": 1182,
+      "sha256": "ee0ed952805b092a33a09df156cbce12777c116c29b29f6ba68d60c44ba33377",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v2/Empty-Junction-check-02-train-60s-v2.mp3.decode-loudness.log",
+      "bytes": 1183,
+      "sha256": "8cfb2d83e87d3c2513e8dd11ddc56c3d13d54ec0b37ca2a303884d7fbb26abf9",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v2/Empty-Junction-check-03-grit-and-wind-60s-v2.mp3.decode-loudness.log",
+      "bytes": 1191,
+      "sha256": "7fd16cb77436828156dd39c664836a37f901f102f96bfdc9d18b7dc385f154b5",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v2/README.md",
+      "bytes": 2894,
+      "sha256": "6f03ab3e0a153f36eefde5424194b01025fae4f530b28f40a98d88e53b119bcc",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v2/The-Empty-Junction-1-Hour-SFX-only-v2.flac.decode-loudness.log",
+      "bytes": 1135,
+      "sha256": "3a988db146203dd9eea734bdf318b24b236639aef85965b1d6e6932c0c641479",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v2/The-Empty-Junction-1-Hour-final-SFX-v2.flac.decode-loudness.log",
+      "bytes": 1137,
+      "sha256": "8598b15210903f739fd64e34ebc4adc2e358642e90cf8f813eb8797f6749828f",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v2/The-Empty-Junction-1-Hour-final-SFX-v2.mp3.decode-loudness.log",
+      "bytes": 1213,
+      "sha256": "71c72756255a3b928c9bc9e7b1b620673dd44b55767afcb06d5ac8b934470af7",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v2/delivery-validation.json",
+      "bytes": 5570,
+      "sha256": "b4e237503dd6da5d0ed9b38078f8611a36532604e2b2cac2ddc1fe74db97cb80",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v2/example-sections.json",
+      "bytes": 2809,
+      "sha256": "9938a446b5ebdbb180248218488438e99481cc34d30d3f8a63d82c211ac7ef20",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v2/export-delivery.ps1",
+      "bytes": 2526,
+      "sha256": "48a3ea402c5d14ef2c75692fe9c87705e50ff8bb764be8eb2f58d1f1ea0c3741",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v2/mix-recipe.json",
+      "bytes": 8867,
+      "sha256": "9960da1442a1a31ca665e51295c635af1f02ad93f9ccac836cea42d76d428eab",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v2/revision-comparison.json",
+      "bytes": 769,
+      "sha256": "1af0d6efd80e4fee713e036914217d1ce19ef5b34114052eb9e73f8ea9969374",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/Empty-Junction-check-01-wind-60s-v3.mp3.decode-loudness.log",
+      "bytes": 1182,
+      "sha256": "4f1c4334ba9948ea79ae88366daf767b4a1a69dd4d2513d67b5cefcc76be19a9",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/Empty-Junction-check-02-train-60s-v3.mp3.decode-loudness.log",
+      "bytes": 1183,
+      "sha256": "01b6d31e301901763a088a15c76b3679eda3d5ad1d2ad498ccf690ad975b0a21",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/Empty-Junction-check-03-grit-and-wind-60s-v3.mp3.decode-loudness.log",
+      "bytes": 1191,
+      "sha256": "8ee86cd4ec143ca459ac4dc5839ff4193f58fd4cb13c259f261e33866fc09a91",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/README.md",
+      "bytes": 3434,
+      "sha256": "7732a3a48367b8616b160f20934ce7cb22baaab80b14a0426e3ee58f624d4365",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/The-Empty-Junction-1-Hour-SFX-only-v3.flac.decode-loudness.log",
+      "bytes": 1135,
+      "sha256": "0662f45dc45030a88f268de5919badf1aa18ff210bb90cb01f094a8dd36281d3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/The-Empty-Junction-1-Hour-final-SFX-v3.flac.decode-loudness.log",
+      "bytes": 1137,
+      "sha256": "528ee40e660f91e536ae3667d1a779e135112a47208db92a3d493df317b6cd11",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/The-Empty-Junction-1-Hour-final-SFX-v3.mp3.decode-loudness.log",
+      "bytes": 1213,
+      "sha256": "313f15a26c2969474c1c20a22ec50f1a91f89f595419c61d40b2047506bd11c3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/delivery-paths.json",
+      "bytes": 1094,
+      "sha256": "a2979382cf32f9cbd55898b74c33517a3920b0f6edddc185c0a0ca47787000d8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/delivery-validation.json",
+      "bytes": 5566,
+      "sha256": "9f0ffe4f104d63324073a282a62df3248b321fc26fff31223b85ec6b10e22d0c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/example-sections.json",
+      "bytes": 2807,
+      "sha256": "82fcaaf718bec751d31b72491487bdab39b971121271377c7f1844761232e22f",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/export-delivery.ps1",
+      "bytes": 2526,
+      "sha256": "48a3ea402c5d14ef2c75692fe9c87705e50ff8bb764be8eb2f58d1f1ea0c3741",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/mix-recipe.json",
+      "bytes": 8933,
+      "sha256": "45a38549fb859e18d45fc09b70622f9ce48013290de1608b2261b7bf7d6f980a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/previous-release-README.md",
+      "bytes": 3360,
+      "sha256": "b142733bf2095c4f98320587d8fa6b12380a293a9bb82eed03b65778130afd70",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/previous-release-manifest.json",
+      "bytes": 13100,
+      "sha256": "b9e340bba3fd2e123432afd501dd64fb1283f23c54045ac37d5dc508d2924ed5",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/release-integration.json",
+      "bytes": 379,
+      "sha256": "5dba1752b52d2bd5b75acb996e37d2f9af57bd345e681f7a3f0777820685e014",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/revision-comparison.json",
+      "bytes": 769,
+      "sha256": "1af0d6efd80e4fee713e036914217d1ce19ef5b34114052eb9e73f8ea9969374",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/user-approval-2026-10-31.json",
+      "bytes": 809,
+      "sha256": "fa1e2602d1673a69ae7f870d1c6e81f5dc64dd40de56610dede5e25e0dc347bf",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-train-option-v1/Empty-Junction-train-option-audition-90s-v1.mp3.decode-loudness.log",
+      "bytes": 1190,
+      "sha256": "a92b40fc185465f8df4549ce24b1ab41d6969845472ad02646abf18f209d02da",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-train-option-v1/README.md",
+      "bytes": 3166,
+      "sha256": "51a077221766471f3783a4cce2d5c482c8a12198853ebf2190f7b52575452f04",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-train-option-v1/The-Empty-Junction-1-Hour-train-option-v1.flac.decode-loudness.log",
+      "bytes": 1143,
+      "sha256": "f4e935851fd10dab87eda585516bb39d72ada557ed6d16eea97622dd51abb2be",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-train-option-v1/The-Empty-Junction-1-Hour-train-option-v1.mp3.decode-loudness.log",
+      "bytes": 1219,
+      "sha256": "07dec4a7337b2a2b4ac5b2004900dddad00d6e532612c961c855c9299825f63e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-train-option-v1/build-train-option.cjs",
+      "bytes": 10155,
+      "sha256": "7ca8351334a39d8d50c28f1503ee45d6628675c1f89c6e134c4f6131aa55e502",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-train-option-v1/delivery-paths.json",
+      "bytes": 831,
+      "sha256": "3a4e0aa62bc2fa545b3ad6a23948dc6ab8344ad4b6f584391c8a9a3867bbd65b",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-train-option-v1/delivery-validation.json",
+      "bytes": 2396,
+      "sha256": "2c2e835c701a196dfb11bc71cd29072f143f8b1d5be634cb8ea6837e89c56017",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-train-option-v1/export-delivery.ps1",
+      "bytes": 2526,
+      "sha256": "48a3ea402c5d14ef2c75692fe9c87705e50ff8bb764be8eb2f58d1f1ea0c3741",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-train-option-v1/mix-recipe.json",
+      "bytes": 2460,
+      "sha256": "0a94397d3a9e0c35aa4da02d7f5694e03dfbd2b20f55e2a1920f4fe860cdb310",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-v1/Empty-Junction-B-to-A-return-join-60s-v1.mp3.decode-loudness.log",
+      "bytes": 1187,
+      "sha256": "0292bbf03f2262042d39285f70116c57f7daa82310ee154a27e7c51ad20b69cc",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-v1/README.md",
+      "bytes": 3310,
+      "sha256": "c713d3cf8a226d546fd959d849e019f527804c59d6841266707703e1b376d771",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-v1/The-Empty-Junction-1-Hour-v1.flac.decode-loudness.log",
+      "bytes": 1117,
+      "sha256": "b44b521747bc7c885946137110b9688092a896b9ea2eaf3c5aec7abc8c159d8a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-v1/The-Empty-Junction-1-Hour-v1.mp3.decode-loudness.log",
+      "bytes": 1193,
+      "sha256": "bd018842e4feae70c3f576017f0587c194aebcc88de9d5ef184476493a038f3f",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-v1/build-hour.cjs",
+      "bytes": 12361,
+      "sha256": "3bcbd889b846f095485fb639c0bc711b1ca1cb9ca0bb51064630175a958aa86e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-v1/delivery-paths.json",
+      "bytes": 792,
+      "sha256": "32f944a3b022d72a5dbfbc138c7a1bc7367dff9fd7e655a62e20700261829f95",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-v1/delivery-validation.json",
+      "bytes": 2499,
+      "sha256": "c2b563574832b89ff87062ae01324d231a2b15c1b2bba976d17b01d1f123c004",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-v1/export-delivery.ps1",
+      "bytes": 2526,
+      "sha256": "48a3ea402c5d14ef2c75692fe9c87705e50ff8bb764be8eb2f58d1f1ea0c3741",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-v1/mix-recipe.json",
+      "bytes": 10539,
+      "sha256": "6927b607b2b8d12cceab9113590254f1a93b21a6a0b10293c0abab752a89dfc9",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-v1/render-checks.json",
+      "bytes": 190,
+      "sha256": "cdbd25267b49e8333b1b8f71c4b13936de1c533b34b12ea8e55ca90aad011dc7",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/delivery-hour-v1/request.json",
+      "bytes": 493,
+      "sha256": "9ba315af735c650229efd55ceed8bdef1c7ea2cd63ff0f5502d8d532018552d9",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/distant-train-sfx-prompt-v1.txt",
+      "bytes": 949,
+      "sha256": "87620b8d5ec73ceb23a84f094ea28f0dab053d50741847415af2050112e2d58c",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/feedback-2026-10-31.json",
+      "bytes": 676,
+      "sha256": "b58b27b30509ec140eaaf056395c204f381a1fec7e3b3e01dd4cdfaccb13d098",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/feedback-distant-train-2026-10-31.json",
+      "bytes": 861,
+      "sha256": "6fb10d59870ee2e792b9429f1e23d718f2dda04f35286599d4ff51dd01894259",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/feedback-wind-radio-revision-2026-10-31.json",
+      "bytes": 1204,
+      "sha256": "337599a7dad6b87de0d459215418bab725137bd15b8f3ddda078d18471de62f4",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/grit-feedback-2026-10-31.json",
+      "bytes": 654,
+      "sha256": "f03be956dc7f4acfcb677840167e80210cfc2794367ff8c6edc414df1dabd98a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/history/build-final-before-parameters-2026-10-31.cjs",
+      "bytes": 10942,
+      "sha256": "bfb812c91040c8916153dec232ca1ed5c46ffcfa54d9f11bde19daf6753bdf4e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/history/update-release-before-parameters-2026-10-31.cjs",
+      "bytes": 3307,
+      "sha256": "fdde188658b8146b9a98cc0fd2ec4d1fefb0ba42a474a5d16d989827e5113840",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/measurement-logs-v2.json",
+      "bytes": 5362,
+      "sha256": "4a3deeb2b052d0b14d78a8cae75bd959e42003cae24102a196593276fb7ba687",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/measurement-logs.json",
+      "bytes": 15108,
+      "sha256": "bb3e59862f3ed55440f6ef089380a04208a1803e54e0535fc9d7c676ab574633",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/mineral-grit-sfx-prompt-v1.txt",
+      "bytes": 233,
+      "sha256": "69038ef9bf461d8b4de5e966a7c7e4fe18331c99719be2aa72bec4f5c0f1e362",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/mix-recipe-v2.json",
+      "bytes": 1629,
+      "sha256": "1b2ca01eafebdfd70a6b1d7264d8cdf192286888c3bb62c1515c4510d65d78d9",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/mix-recipe.json",
+      "bytes": 3576,
+      "sha256": "4f9d6609fd80210407c7093ddda9b004761ca42a3c314a675be6f77a4936c1f0",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/radio-sounds-prompt-v1.txt",
+      "bytes": 659,
+      "sha256": "c8ec04b558bd7e57a31787f7541d3c26a1d9ffd711293219d279d63fe12a0616",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/radio-sounds-prompt-v2.txt",
+      "bytes": 665,
+      "sha256": "eaa055341c79ac90c05bae2ffe6bc20926228160b3fff3f3cd3212308a1ec136",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/radio-station-prompt-v3.txt",
+      "bytes": 1266,
+      "sha256": "0a8500b5d7579480a5aa998413815aeae2759d9aded3cd554ab19acf9ec669c4",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-A-B-dry-v1.mp3",
+      "bytes": 10801196,
+      "sha256": "abeafe61337df3463a4726efb0279cc9b5e1905a17eeb386f2c0fbcaa19ceaa2",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-A-B-intermittent-wind-v2.mp3",
+      "bytes": 10801196,
+      "sha256": "896df2affed2222ab84d81c1a78ff66a901c1f3b0da7c0172b06bfb443f15d8d",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-A-B-soft-wind-v1.mp3",
+      "bytes": 10801196,
+      "sha256": "becaec8760bdfbd016a510a09569a1e7c3a6e80884da97a70af2c51047a986ba",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-B-to-A-return-join-60s-v1.mp3",
+      "bytes": 1441196,
+      "sha256": "a9a0da89772638df74201a9d2bbee0c87dfc5fdd6257396cda225d18fd6d670d",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-check-01-wind-60s-v1.mp3",
+      "bytes": 1441196,
+      "sha256": "0567d29d8d7883949ccaa5a0d3b2e81d65698f2248b14643f9a40bc7a63d77ec",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-check-01-wind-60s-v2.mp3",
+      "bytes": 1441196,
+      "sha256": "0567d29d8d7883949ccaa5a0d3b2e81d65698f2248b14643f9a40bc7a63d77ec",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-check-01-wind-60s-v3.mp3",
+      "bytes": 1441196,
+      "sha256": "0567d29d8d7883949ccaa5a0d3b2e81d65698f2248b14643f9a40bc7a63d77ec",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-check-02-train-60s-v1.mp3",
+      "bytes": 1441196,
+      "sha256": "a6b455d16f17cd93edb95fd7d001456fa5431d382cd0c1b3ca2c335d38deed4e",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-check-02-train-60s-v2.mp3",
+      "bytes": 1441196,
+      "sha256": "a6b455d16f17cd93edb95fd7d001456fa5431d382cd0c1b3ca2c335d38deed4e",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-check-02-train-60s-v3.mp3",
+      "bytes": 1441196,
+      "sha256": "a6b455d16f17cd93edb95fd7d001456fa5431d382cd0c1b3ca2c335d38deed4e",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-check-03-grit-and-wind-60s-v1.mp3",
+      "bytes": 1441196,
+      "sha256": "71123068041ac7e8851466e5a71a71f913ace7800ee0de456f7db2f1044149ea",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-check-03-grit-and-wind-60s-v2.mp3",
+      "bytes": 1441196,
+      "sha256": "639f9e8f1288164fc4c6eeea5bf896be4e4040d00e8bdf59457090563f9d13dd",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-check-03-grit-and-wind-60s-v3.mp3",
+      "bytes": 1441196,
+      "sha256": "a777538d85e20a7ba220db87bed9306d41e8d0ba578cbf7bc1e2c148ae758ca7",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-music-handover-60s-v1.mp3",
+      "bytes": 1441196,
+      "sha256": "0e54c08ecbbe71fdd304ccbde4cda4b09b280875540110443595b88fcd212e9f",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/review/Empty-Junction-train-option-audition-90s-v1.mp3",
+      "bytes": 2161196,
+      "sha256": "0d72b56a4b60858031a4bc3e8a8866d93afded2eb52a5df453253d52b4b49cfd",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/sources/Distant_freight_trai_#4-1793489393057.mp3",
+      "bytes": 601389,
+      "sha256": "ec88e61ec6a720af5cf479c425f38a3864fe279ebfdc5cf0ea63b14915a6649e",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/sources/Fine_dry_mineral_gri_#2-1793489678825.mp3",
+      "bytes": 289197,
+      "sha256": "1babf4e01c5d788e3b07fc89dd673e90dd2fe2e57db5ab26b60d3cf07bec2340",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/sources/Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "bytes": 6063165,
+      "sha256": "1401cad7b6537ae069a958e0f1f170eb974bf606a2f5b043ea32a3b648efc567",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/sources/Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "bytes": 6093871,
+      "sha256": "0e82babcee59a6843da6c06ec5675f5066b2248fe1c8450f886dbd0d1bc2f3e5",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/sources/Soft_wind_moving_thr_#4-1793463971195.mp3",
+      "bytes": 721197,
+      "sha256": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34",
+      "storage": "lfs"
+    },
+    {
+      "path": "music/empty-junction-music-v1/validation-v2.json",
+      "bytes": 2410,
+      "sha256": "e2646b75f84707ef9684a90f56863f27a171aa0f574ad759e2e58193d15ba4fa",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/validation.json",
+      "bytes": 3944,
+      "sha256": "a2f62b78f5085f46744954a3cc88a77f386e67696dc308cd4cd3fc6b4a5fb26a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-music-v1/visual-sfx-direction-2026-10-31.txt",
+      "bytes": 3525,
+      "sha256": "169ab81a0476e57972eeee9ef65533bd12612a22e950c91bc492f393280e205a",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/README.md",
+      "bytes": 4040,
+      "sha256": "cb5af3d51716dec20e8e49957b8d1896f2ba9b504e80ce7933d911c0a9308e80",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/artwork-v3.png",
+      "bytes": 3353792,
+      "sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/comparison-large.png",
+      "bytes": 1842749,
+      "sha256": "e3c981068267d3b61b87a769f02a2b3a8d4b192a4b01800f742f38e187af6c50",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/comparison-phone-size.png",
+      "bytes": 283420,
+      "sha256": "34b22fb9c17344c26da20f40111bc9ef046820727b751b3f12790fd8f9a0b3c0",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/manifest.json",
+      "bytes": 8501,
+      "sha256": "4e6d12990ff39c70427f404633cf1ffbdd7de5bc983341006b91776206048377",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/original-art-junction-master.png",
+      "bytes": 2595763,
+      "sha256": "a8744550f2c0b8ebf09646917a071530b3a1d43f5703d954eb0dcd5990706b09",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/original-art-scene-master.png",
+      "bytes": 2629928,
+      "sha256": "ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/original-branded-control.jpg",
+      "bytes": 340096,
+      "sha256": "6b4ecae87451cb96a5b72d6517b696331070f45af8731ab15ad98a192f74a326",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/prepare-assets.cjs",
+      "bytes": 7207,
+      "sha256": "04571c06ffe627c373f49cd5e56dbec7f74def165ad1d976b1a26caeef333983",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/previous-release-README.md",
+      "bytes": 2941,
+      "sha256": "780e7a1f2a3f077b350a67197b22050a82ab30910a359f8c64e5001a04d5adf5",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/previous-release-manifest.json",
+      "bytes": 9064,
+      "sha256": "332bd868fc048dd40d7822bcea25d744915e8f9edd9e742b4f0cabe218d9d65e",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/previous-release-youtube-title.txt",
+      "bytes": 59,
+      "sha256": "6c12acf7a9fba58f30ceb741b5d41301d48135e12c5f116da4e9d6c192070832",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/prompts/artwork-v3.txt",
+      "bytes": 1775,
+      "sha256": "bf5621735c3646889adcb4a36f8c8763538d5075eb481e62886ffe754d8e9888",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/prompts/thumbnail-junction.txt",
+      "bytes": 1098,
+      "sha256": "f3a402fb149692f87a0f700888088e328b5abf40ae2a0217516a155fba0aa43d",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/release-integration.json",
+      "bytes": 1182,
+      "sha256": "a2d390f8be6e50a9c6fa384b8bd835bef986130f40d8aad7f7ade236e8307dcb",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/revised-art-junction-master.png",
+      "bytes": 3123206,
+      "sha256": "61dfb78794be4222d54b36f624811623056c7137a8c91dc25299a990633d6fc3",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/thumbnail-original-junction-v1.jpg",
+      "bytes": 327829,
+      "sha256": "8343b0244712b9afb66277f68c977040b950eb8c262a96486726dd6e2251debf",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/thumbnail-original-scene-v1.jpg",
+      "bytes": 328235,
+      "sha256": "7ddcbbd910f6dae70d936c9115a85ba7e3bb6c5e285a042632774bcdf1339414",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/thumbnail-revised-junction-v1.jpg",
+      "bytes": 469562,
+      "sha256": "8ca8c1590fbc6abf93f694f8419bc0db80c82173e84cc6c89655b7d0dac37a92",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/thumbnail-revised-scene-v1.jpg",
+      "bytes": 488934,
+      "sha256": "0b3e0b27a95cf3cd7ac1dc0853e402cf696cd98f19458f0551ac3134adb45b71",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/update-release.cjs",
+      "bytes": 6170,
+      "sha256": "58a789161aed31ff48a75e4a556f2fc00ef1131963e528bad61d7f79a6708e89",
+      "storage": "git"
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/youtube-title.txt",
+      "bytes": 74,
+      "sha256": "64dfad24df592111fe9729536fac84567b8a8990b4bf6b31551012364b94b057",
+      "storage": "git"
+    }
+  ],
+  "image_files_verified": 226,
+  "lfs_files": 28,
+  "bytes": 466100650,
+  "excluded": [
+    "Hour-long exports and duplicated delivery media",
+    "Raw PCM/render caches and Python bytecode",
+    "Derived repeated-cycle videos",
+    "Aborted/internal encoding trial videos; code and diagnostic history retained",
+    "Unrelated Rainline, Shoreless, Farpoint and Spirewatch working files"
+  ],
+  "remote_verified": false
+}

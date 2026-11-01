@@ -128,3 +128,16 @@ music/spirewatch-animation-v8/remote-backup-verification.json
 
 # Post-push receipt for the Spirewatch publication pack.
 /music/spirewatch-upload-backup-2026-10-27/remote-backup-verification.json
+
+# Empty Junction checkpoint requested 2026-11-01.
+!music/empty-junction-animation-v4/Empty-Junction-v4-wind-minute-720p.mp4
+!music/empty-junction-animation-v4/Empty-Junction-v4-quiet-minute-720p.mp4
+!music/empty-junction-animation-v4/Empty-Junction-v4-with-approved-audio-4min-720p.mp4
+!music/empty-junction-animation-v4/cabin_exhaust-v4-isolated-8s.mp4
+!music/empty-junction-animation-v4/yard_powder-v4-isolated-8s.mp4
+!music/empty-junction-animation-v5/Empty-Junction-v5-60s-720p.mp4
+!music/empty-junction-animation-v5/Empty-Junction-v5-with-approved-audio-60s-720p.mp4
+!music/empty-junction-animation-v5/Empty-Junction-v4-v5-details-20s.mp4
+!music/empty-junction-music-v1/sources/Signal_Cabin_Wait_2026-10-31T161557.mp4
+!music/empty-junction-music-v1/sources/Quiet_Signal_Cabin_2026-10-31T161557.mp4
+/music/empty-junction-backup-2026-11-01/remote-backup-verification.json

@@ -3,7 +3,7 @@
   "creative_concept_id": 17,
   "title": "The Empty Junction",
   "date": "2026-09-29",
-  "status": "release artwork/thumbnail package accepted; publication and music briefs prepared; animation and audio not produced",
+  "status": "V4 rejected visually. V5 rebuilt windows/clouds/mist preview delivered for review; approved audio V3 unchanged.",
   "user_approved": true,
   "generator": "built-in image_gen",
   "selection": {
@@ -67,9 +67,9 @@
   },
   "caption": "BETWEEN DISTANT HOMES",
   "youtube_metadata": {
-    "status": "publication drafts; no unsupported soundtrack, runtime or resolution claims",
+    "status": "User-requested narrative title saved locally; publication not performed.",
     "title_file": "youtube-title.txt",
-    "title_sha256": "6c12acf7a9fba58f30ceb741b5d41301d48135e12c5f116da4e9d6c192070832",
+    "title_sha256": "64dfad24df592111fe9729536fac84567b8a8990b4bf6b31551012364b94b057",
     "description_file": "description.txt",
     "description_sha256": "5bb549832f5e870766161e409bbd39b7527bc67c691e0a0ef71ddd4713523655",
     "tags_file": "youtube-tags.txt",
@@ -84,10 +84,13 @@
     "sources": [
       "https://support.google.com/youtube/answer/146402?hl=en",
       "https://support.google.com/youtube/answer/12948449?hl=en"
-    ]
+    ],
+    "title_characters": 71,
+    "title_updated": "2026-10-31",
+    "previous_title_record": "music/empty-junction-visual-revision-v1/previous-release-youtube-title.txt"
   },
   "music_preparation": {
-    "status": "V3 research-informed prompts prepared; no audio generated",
+    "status": "Written prompt history retained; user-supplied long music variants and wind now have a separate one-hour delivery record. Actual supplied generation settings not verified.",
     "current_version": 3,
     "files": [
       {
@@ -171,32 +174,192 @@
     }
   },
   "video": null,
-  "audio": null,
-  "resolution_note": "Native artwork 1672x941; v3 preview 1280x720; 4K awaits complete-preview acceptance.",
+  "audio": {
+    "version": "one-hour-final-sfx-v3",
+    "status": "V3 music/wind/train/grit mix chosen by user after quieter-grit checks; locked for the new motion preview. Continuous full-hour listening not reported.",
+    "grit_source_gain_db": -3.3,
+    "grit_change_from_v1_db": -7.5,
+    "duration_seconds": 3600,
+    "recipe": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/mix-recipe.json",
+    "validation": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/delivery-validation.json",
+    "paths": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/delivery-paths.json",
+    "examples": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/example-sections.json",
+    "outputs": [
+      {
+        "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-final-SFX-v3.flac",
+        "bytes": 553177040,
+        "sha256": "84a773c68ca1a8d1115c76e2edcc914f8c955c5f60cb31436b1c5718b4982f09",
+        "matches_validated_output": true
+      },
+      {
+        "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-final-SFX-v3.mp3",
+        "bytes": 86401196,
+        "sha256": "0d7fcd4ff3557136025a384832481038ee6759aaf982648781930b21e5ca1cd6",
+        "matches_validated_output": true
+      },
+      {
+        "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-SFX-only-v3.flac",
+        "bytes": 247924801,
+        "sha256": "71a3f66bca5e93a2462cfa695793c03fbbacf92a3989f45b41ac03cef074d234",
+        "matches_validated_output": true
+      }
+    ],
+    "radio_included": false,
+    "compressor_included": false,
+    "user_balance_and_full_length_approved": false,
+    "previous_delivery": {
+      "version": "one-hour-final-sfx-v1",
+      "status": "User-requested full music + wind + distant train + mineral grit combination delivered; three in-context checks and separate SFX-only stem ready. User balance/full-session approval pending.",
+      "duration_seconds": 3600,
+      "recipe": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/mix-recipe.json",
+      "validation": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/delivery-validation.json",
+      "paths": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/delivery-paths.json",
+      "examples": "music/empty-junction-music-v1/delivery-hour-final-sfx-v1/example-sections.json",
+      "outputs": [
+        {
+          "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-final-SFX-v1.flac",
+          "bytes": 555262253,
+          "sha256": "3060360291688070f80e75782d5d4337ccee662037a5005fe4936b107c57f148",
+          "matches_validated_output": true
+        },
+        {
+          "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-final-SFX-v1.mp3",
+          "bytes": 86401196,
+          "sha256": "c2c8ba258448050af54a5e6337296290f86a8bcbee86704c5e83c957dee48606",
+          "matches_validated_output": true
+        },
+        {
+          "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-SFX-only-v1.flac",
+          "bytes": 250023766,
+          "sha256": "e8aed553706bdbabfa8cdfd1564c5790b506d42e196b0d3ca9f5337bab9e92e7",
+          "matches_validated_output": true
+        }
+      ],
+      "radio_included": false,
+      "compressor_included": false,
+      "user_balance_and_full_length_approved": false,
+      "previous_delivery": {
+        "status": "One-hour music and intermittent wind delivered locally; full listening approval not inferred.",
+        "duration_seconds": 3600,
+        "recipe": "music/empty-junction-music-v1/delivery-hour-v1/mix-recipe.json",
+        "validation": "music/empty-junction-music-v1/delivery-hour-v1/delivery-validation.json",
+        "paths": "music/empty-junction-music-v1/delivery-hour-v1/delivery-paths.json",
+        "radio_included": false,
+        "user_full_length_approved": false
+      },
+      "earlier_option": "music/empty-junction-music-v1/delivery-hour-train-option-v1/README.md"
+    },
+    "earlier_option": "music/empty-junction-music-v1/delivery-hour-train-option-v1/README.md",
+    "user_current_mix_approved": true,
+    "user_balance_approved": true,
+    "full_hour_continuous_listening_reported": false,
+    "approval_record": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/user-approval-2026-10-31.json"
+  },
+  "resolution_note": "Source 1672x941; V5 review 1280x720/30 fps. Final 4K/hour video pending visual approval.",
   "approval": {
     "date": "2026-09-29",
     "feedback": "love it, commit and push everyting",
     "scope": "Current release artwork/thumbnail package 11-14 accepted. Music and motion remain unproduced proposals; no audio, animation or upload approval implied."
   },
   "animation": {
-    "version": "v3",
-    "date": "2026-10-07",
-    "status": "V3 work in progress; user says it still needs work; Git backup requested",
-    "record": "music/empty-junction-animation-v3/delivery-v3.json",
-    "preview": "music/empty-junction-animation-v3/empty-junction-v3-preview-60s.mp4",
-    "preview_sha256": "16c547cb62e41440e35f06b82ff68afb79bf85a42ce0cc30f7161163783778ef",
-    "repeat_review": "music/empty-junction-animation-v3/empty-junction-v3-three-loops-180s.mp4",
-    "repeat_review_sha256": "6fd70d1f5f53e03849d616d3a7d035a1364fe676dd9e59fda592427bbbdd54c9",
+    "version": "v5",
+    "status": "Rebuilt visual review candidate; user verdict pending.",
+    "source": "music/empty-junction-animation-v4/artwork-v3.png",
+    "source_sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+    "record": "music/empty-junction-animation-v5/delivery-v5.json",
+    "preview": "music/empty-junction-animation-v5/Empty-Junction-v5-60s-720p.mp4",
+    "preview_sha256": "b930e881dfaafc367b72189d53b7aa202865d1e553ce13749073978a79f2c56b",
+    "combined_preview": "music/empty-junction-animation-v5/Empty-Junction-v5-with-approved-audio-60s-720p.mp4",
+    "combined_preview_sha256": "f7f82235de707f597d37c5477d0d2f01d52bbca6ef3f2e5006f554b80b950220",
     "duration_seconds": 60,
-    "fps": 30,
     "dimensions": [
       1280,
       720
     ],
-    "silent": true,
-    "seam_checks_passed": true,
+    "fps": 30,
     "user_approved": false,
     "master_4k": null,
-    "backup_record": "music/empty-junction-animation-v3/backup-manifest.json"
+    "quiet_units_and_final_scheduled_assembly_pending": true,
+    "previous_animation": {
+      "version": "v4",
+      "status": "V4 rejected by user for poor window masking, clouds and mist; retained as history.",
+      "source": "music/empty-junction-animation-v4/artwork-v3.png",
+      "source_sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+      "record": "music/empty-junction-animation-v4/delivery-v4.json",
+      "preview": "music/empty-junction-animation-v4/Empty-Junction-v4-wind-minute-720p.mp4",
+      "preview_sha256": "b21fdc0d70afd3d1142a1c1d8e9be7b423365775f1a8a930477cd90682a60533",
+      "duration_seconds": 60,
+      "fps": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "silent": true,
+      "delivery_cycle_seconds": 180,
+      "scheduled_cycle": "music/empty-junction-animation-v4/Empty-Junction-v4-scheduled-cycle-180s-720p.mp4",
+      "scheduled_cycle_sha256": "fa9eb82578b42c5f9266a7ff8ed876c959ad2bd813161312b63ea49ae206dbd8",
+      "repeat_review": "music/empty-junction-animation-v4/Empty-Junction-v4-three-cycles-540s-720p.mp4",
+      "combined_preview": "music/empty-junction-animation-v4/Empty-Junction-v4-with-approved-audio-4min-720p.mp4",
+      "combined_preview_sha256": "0cc7ae800d10fe76367a538e8cca12044f7fdb4ebfd206a3cdeeacd3403e7eee",
+      "combined_preview_seconds": 240,
+      "source_protection_and_seam_checks_passed": true,
+      "user_approved": false,
+      "master_4k": null,
+      "previous_animation": {
+        "version": "v3",
+        "date": "2026-10-07",
+        "status": "V3 work in progress; user says it still needs work; Git backup requested",
+        "record": "music/empty-junction-animation-v3/delivery-v3.json",
+        "preview": "music/empty-junction-animation-v3/empty-junction-v3-preview-60s.mp4",
+        "preview_sha256": "16c547cb62e41440e35f06b82ff68afb79bf85a42ce0cc30f7161163783778ef",
+        "repeat_review": "music/empty-junction-animation-v3/empty-junction-v3-three-loops-180s.mp4",
+        "repeat_review_sha256": "6fd70d1f5f53e03849d616d3a7d035a1364fe676dd9e59fda592427bbbdd54c9",
+        "duration_seconds": 60,
+        "fps": 30,
+        "dimensions": [
+          1280,
+          720
+        ],
+        "silent": true,
+        "seam_checks_passed": true,
+        "user_approved": false,
+        "master_4k": null,
+        "backup_record": "music/empty-junction-animation-v3/backup-manifest.json"
+      }
+    }
+  },
+  "visual_revision": {
+    "date": "2026-10-31",
+    "package": "music/empty-junction-visual-revision-v1/README.md",
+    "manifest": "music/empty-junction-visual-revision-v1/manifest.json",
+    "artwork_candidate": "music/empty-junction-visual-revision-v1/artwork-v3.png",
+    "artwork_candidate_sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+    "thumbnail_candidates": [
+      {
+        "id": "A",
+        "path": "music/empty-junction-visual-revision-v1/thumbnail-original-scene-v1.jpg",
+        "sha256": "7ddcbbd910f6dae70d936c9115a85ba7e3bb6c5e285a042632774bcdf1339414"
+      },
+      {
+        "id": "B",
+        "path": "music/empty-junction-visual-revision-v1/thumbnail-original-junction-v1.jpg",
+        "sha256": "8343b0244712b9afb66277f68c977040b950eb8c262a96486726dd6e2251debf"
+      },
+      {
+        "id": "C",
+        "path": "music/empty-junction-visual-revision-v1/thumbnail-revised-scene-v1.jpg",
+        "sha256": "0b3e0b27a95cf3cd7ac1dc0853e402cf696cd98f19458f0551ac3134adb45b71"
+      },
+      {
+        "id": "D",
+        "path": "music/empty-junction-visual-revision-v1/thumbnail-revised-junction-v1.jpg",
+        "sha256": "8ca8c1590fbc6abf93f694f8419bc0db80c82173e84cc6c89655b7d0dac37a92"
+      }
+    ],
+    "user_approved": false,
+    "status": "New returned artwork and thumbnails await visual selection; existing approved art/thumbnail are unchanged.",
+    "animation_note": "Current animation uses original artwork. New composition requires fresh mask mapping; not remapped or animated in this task.",
+    "artwork_selected_for_animation_work": true,
+    "animation_candidate": "music/empty-junction-animation-v5/README.md"
   }
 }

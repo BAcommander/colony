@@ -194,3 +194,44 @@ music/spirewatch-upload-backup-2026-10-27/** -text
 
 # Channel research 2026-10-30: public snapshots and notes; preserve bytes.
 /creative/music/channel-research-2026-10-30/** -text
+
+# Exact Junction source/records and selected LFS media, 2026-11-01.
+music/empty-junction-animation-v4/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/empty-junction-animation-v5/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/empty-junction-music-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/empty-junction-visual-revision-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/empty-junction-backup-2026-11-01/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+music/empty-junction-animation-v4/Empty-Junction-v4-wind-minute-720p.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-animation-v4/Empty-Junction-v4-quiet-minute-720p.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-animation-v4/Empty-Junction-v4-with-approved-audio-4min-720p.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-animation-v4/cabin_exhaust-v4-isolated-8s.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-animation-v4/yard_powder-v4-isolated-8s.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-animation-v5/Empty-Junction-v5-60s-720p.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-animation-v5/Empty-Junction-v5-with-approved-audio-60s-720p.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-animation-v5/Empty-Junction-v4-v5-details-20s.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/sources/Signal_Cabin_Wait_2026-10-31T161557.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/sources/Quiet_Signal_Cabin_2026-10-31T161557.mp4 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/sources/Distant_freight_trai_#4-1793489393057.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/sources/Fine_dry_mineral_gri_#2-1793489678825.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/sources/Soft_wind_moving_thr_#4-1793463971195.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-A-B-dry-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-A-B-intermittent-wind-v2.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-A-B-soft-wind-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-B-to-A-return-join-60s-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-check-01-wind-60s-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-check-01-wind-60s-v2.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-check-01-wind-60s-v3.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-check-02-train-60s-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-check-02-train-60s-v2.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-check-02-train-60s-v3.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-check-03-grit-and-wind-60s-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-check-03-grit-and-wind-60s-v2.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-check-03-grit-and-wind-60s-v3.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-music-handover-60s-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+music/empty-junction-music-v1/review/Empty-Junction-train-option-audition-90s-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+final/11-empty-junction/manifest.json -text
+final/11-empty-junction/youtube-title.txt -text
+
+# Preserve historical document line endings and raw FFmpeg logs without whitespace rewriting.
+music/empty-junction-animation-v[45]/history/records-before-v*/** -whitespace
+music/empty-junction-music-v1/**/*.log -diff -whitespace

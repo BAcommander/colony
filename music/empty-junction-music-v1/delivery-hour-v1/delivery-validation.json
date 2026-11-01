@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "duration_seconds": 3600,
+  "expected_frames_per_channel": 172800000,
+  "source_hashes_unchanged": true,
+  "recipe_fingerprint_sha256": "fe6bece954277b4ec5549c112399caf4db3db6f0af7d18fff739ca67717b1968",
+  "render_checks": {
+    "expected_frames": 172800000,
+    "raw_sample_peak_dbfs": -10.19142397850545,
+    "wind_off_samples_checked": 230400000,
+    "wind_off_max_difference_from_dry": 0,
+    "raw_bytes": 1382400000
+  },
+  "outputs": [
+    {
+      "file": "media/The-Empty-Junction-1-Hour-v1.flac",
+      "bytes": 547616722,
+      "sha256": "d583902ca5a4b87a09535c7a2d847306221c17ffcd3f725c3ada70f5f3548f80",
+      "decoded_frames": 172800000,
+      "duration_seconds": 3600,
+      "all_samples_finite": true,
+      "full_scale_samples": 0,
+      "sample_peak_dbfs": -10.19142230485188,
+      "integrated_lufs": -22.9,
+      "lra_lu": 2.2,
+      "true_peak_dbtp": -10.2,
+      "full_sample_recipe_comparison": {
+        "performed": true,
+        "max_absolute_error": 1.1897282092832029e-7,
+        "snr_db": 121.1899248579459
+      }
+    },
+    {
+      "file": "media/The-Empty-Junction-1-Hour-v1.mp3",
+      "bytes": 86401196,
+      "sha256": "6cd644af5dac3f6923d5c29cd78eca1d7dc0e3c7b66b566faa5df96e3901ca78",
+      "decoded_frames": 172800000,
+      "duration_seconds": 3600,
+      "all_samples_finite": true,
+      "full_scale_samples": 0,
+      "sample_peak_dbfs": -10.444672227516092,
+      "integrated_lufs": -23.1,
+      "lra_lu": 2.2,
+      "true_peak_dbtp": -10.4,
+      "full_sample_recipe_comparison": {
+        "performed": true,
+        "max_absolute_error": 0.013254106044769287,
+        "snr_db": 30.277053976350295
+      }
+    }
+  ],
+  "return_join_excerpt": {
+    "file": "../review/Empty-Junction-B-to-A-return-join-60s-v1.mp3",
+    "bytes": 1441196,
+    "sha256": "a9a0da89772638df74201a9d2bbee0c87dfc5fdd6257396cda225d18fd6d670d",
+    "decoded_frames": 2880000,
+    "duration_seconds": 60,
+    "all_samples_finite": true,
+    "full_scale_samples": 0,
+    "sample_peak_dbfs": -12.400751744842331,
+    "integrated_lufs": -23.1,
+    "lra_lu": 2.6,
+    "true_peak_dbtp": -12.4,
+    "full_sample_recipe_comparison": {
+      "performed": true,
+      "max_absolute_error": 0.0195862278342247,
+      "snr_db": 30.3669195491625
+    },
+    "full_mix_range_seconds": [
+      408,
+      468
+    ],
+    "crossfade_at_excerpt_seconds": [
+      20,
+      32
+    ]
+  },
+  "assistant_listening_performed": false,
+  "user_full_length_listening_approval": false
+}

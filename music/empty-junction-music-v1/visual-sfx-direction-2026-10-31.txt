@@ -1,0 +1,19 @@
+PROPOSED JUNCTION VISUAL AND SECOND-SFX DIRECTION — 2026-10-31
+
+Scope: user asks for advice on scene/name/thumbnail/composition based on prior learning, plus one more meaningful environmental effect. No new artwork, thumbnail, music, SFX generation or publication performed. One-hour delivery remains unchanged.
+
+Evidence inspected: final/11-empty-junction/artwork-v2.png and thumbnail-v1.jpg, scene/publication records, creative/music/channel-research-2026-10-30/README.md and PLAN.md, music/thumbnail-text-evidence-2026-10-21/README.md. Past channel study is observational; no Studio CTR/retention or successful thumbnail test supplied. The screenshot's before/after VPH decline did not prove typography caused it. Do not claim a tested winning style or guaranteed CTR lift.
+
+Current scene already offers the exterior view suggested in the research. Strong elements are rails leading into depth, warm cabin door and inhabited windows against pale alien mineral spires. Current thumbnail's large multilevel title/branding hides much of the upper-left landscape. A high density of small fixtures and foreground gravel competes at listing size. These are visual judgments, not performance measurements.
+
+Recommended first pass: use the current clean plate for a scene-only thumbnail and a single-word JUNCTION alternative; retain the original branded design as control. Keep crop/brightness identical when testing typography. Inspect at approximately 240px wide. Hold video title fixed during a thumbnail-only test. Source art and approved thumbnail remain preserved.
+
+If a separate composition revision is subsequently requested: pull the viewpoint back enough to reveal the cabin's whole silhouette on the left third; reduce uninformative foreground gravel; preserve rails as the route into the scene; give the distant mineral skyline a clearer silhouette. Concentrate warm emphasis at cabin door and freight-hall opening, with other practicals less dominant. This is a new composition hypothesis and a separate test from typography, not a prerequisite to release. Do not globally darken or brighten the established plate.
+
+Name recommendation: keep The Empty Junction. Proposed video title: The Empty Junction — Waiting for the Next Train | 1 Hour Sci-Fi Ambient. Do not add a 4K claim until a corresponding final video exists. No rename or metadata replacement applied.
+
+Second SFX proposal: a short operating cycle of cabin utility/compressor equipment, motivated by the visible ventilation grille and animated condensation. This is fictional world-building, not a claim that the artwork documents a real pneumatic signalling system. Distinct relay engagement, motor body and short valve release provide a contrast to broad wind without speech or another radio variation. Generate an isolated 20–30 second test using cabin-machinery-sfx-prompt-v1.txt; actual model/UI settings and cost are the user's choice. Later audition rare cycles in wind-off passages, at irregular intervals, with the original music/wind mix as control. No fixed gain chosen before receiving the source.
+
+Primary YouTube guidance checked 2026-10-31:
+https://support.google.com/youtube/answer/12340300?hl=en — accurate succinct titles, readable uncluttered thumbnail design, composition and audience data.
+https://support.google.com/youtube/answer/16391400?hl=en — native concurrent title/thumbnail tests, up to three options, results based on watch time; inconclusive results possible. Specific account feature availability not verified.

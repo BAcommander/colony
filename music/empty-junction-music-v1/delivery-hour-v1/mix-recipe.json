@@ -1,0 +1,424 @@
+{
+  "date": "2026-10-31",
+  "duration_seconds": 3600,
+  "sample_rate": 48000,
+  "channels": 2,
+  "sources": [
+    {
+      "file": "Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "sha256": "0e82babcee59a6843da6c06ec5675f5066b2248fe1c8450f886dbd0d1bc2f3e5",
+      "bytes": 6093871,
+      "measured_input_lufs": -13.87,
+      "measured_input_true_peak_dbtp": -2.13,
+      "measured_input_lra_lu": 2.8,
+      "measurement": "FFmpeg loudnorm analysis input statistics, 2026-10-31; analysis output discarded"
+    },
+    {
+      "file": "Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "sha256": "1401cad7b6537ae069a958e0f1f170eb974bf606a2f5b043ea32a3b648efc567",
+      "bytes": 6063165,
+      "measured_input_lufs": -13.24,
+      "measured_input_true_peak_dbtp": -1.89,
+      "measured_input_lra_lu": 1.8,
+      "measurement": "FFmpeg loudnorm analysis input statistics, 2026-10-31; analysis output discarded"
+    },
+    {
+      "file": "Soft_wind_moving_thr_#4-1793463971195.mp3",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Soft_wind_moving_thr_#4-1793463971195.mp3",
+      "sha256": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34",
+      "bytes": 721197,
+      "measured_input_lufs": -42.85,
+      "measured_input_true_peak_dbtp": -24.68,
+      "measured_input_lra_lu": 3.2,
+      "measurement": "FFmpeg loudnorm analysis input statistics, 2026-10-31; analysis output discarded"
+    }
+  ],
+  "music_gain_db": [
+    -9.13,
+    -9.76
+  ],
+  "schedule": [
+    {
+      "source_index": 0,
+      "source": "Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "source_in_seconds": 0,
+      "source_out_seconds": 224,
+      "output_start_seconds": 0,
+      "output_end_seconds": 224,
+      "natural_segment_end_seconds": 224,
+      "fade_in_seconds": 0,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 1,
+      "source": "Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 230,
+      "output_start_seconds": 212,
+      "output_end_seconds": 440,
+      "natural_segment_end_seconds": 440,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 0,
+      "source": "Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 224,
+      "output_start_seconds": 428,
+      "output_end_seconds": 650,
+      "natural_segment_end_seconds": 650,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 1,
+      "source": "Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 230,
+      "output_start_seconds": 638,
+      "output_end_seconds": 866,
+      "natural_segment_end_seconds": 866,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 0,
+      "source": "Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 224,
+      "output_start_seconds": 854,
+      "output_end_seconds": 1076,
+      "natural_segment_end_seconds": 1076,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 1,
+      "source": "Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 230,
+      "output_start_seconds": 1064,
+      "output_end_seconds": 1292,
+      "natural_segment_end_seconds": 1292,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 0,
+      "source": "Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 224,
+      "output_start_seconds": 1280,
+      "output_end_seconds": 1502,
+      "natural_segment_end_seconds": 1502,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 1,
+      "source": "Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 230,
+      "output_start_seconds": 1490,
+      "output_end_seconds": 1718,
+      "natural_segment_end_seconds": 1718,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 0,
+      "source": "Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 224,
+      "output_start_seconds": 1706,
+      "output_end_seconds": 1928,
+      "natural_segment_end_seconds": 1928,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 1,
+      "source": "Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 230,
+      "output_start_seconds": 1916,
+      "output_end_seconds": 2144,
+      "natural_segment_end_seconds": 2144,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 0,
+      "source": "Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 224,
+      "output_start_seconds": 2132,
+      "output_end_seconds": 2354,
+      "natural_segment_end_seconds": 2354,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 1,
+      "source": "Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 230,
+      "output_start_seconds": 2342,
+      "output_end_seconds": 2570,
+      "natural_segment_end_seconds": 2570,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 0,
+      "source": "Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 224,
+      "output_start_seconds": 2558,
+      "output_end_seconds": 2780,
+      "natural_segment_end_seconds": 2780,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 1,
+      "source": "Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 230,
+      "output_start_seconds": 2768,
+      "output_end_seconds": 2996,
+      "natural_segment_end_seconds": 2996,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 0,
+      "source": "Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 224,
+      "output_start_seconds": 2984,
+      "output_end_seconds": 3206,
+      "natural_segment_end_seconds": 3206,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 1,
+      "source": "Quiet_Signal_Cabin_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 230,
+      "output_start_seconds": 3194,
+      "output_end_seconds": 3422,
+      "natural_segment_end_seconds": 3422,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 12
+    },
+    {
+      "source_index": 0,
+      "source": "Signal_Cabin_Wait_2026-10-31T161557.mp4",
+      "source_in_seconds": 2,
+      "source_out_seconds": 224,
+      "output_start_seconds": 3410,
+      "output_end_seconds": 3600,
+      "natural_segment_end_seconds": 3632,
+      "fade_in_seconds": 12,
+      "fade_out_seconds": 0
+    }
+  ],
+  "music_crossfade": {
+    "duration_seconds": 12,
+    "curve": "equal-power cosine/sine",
+    "first_A_to_B": "Retains existing preview timing at 212–224 seconds",
+    "B_to_A": "New return join: B source 218–230 seconds overlaps A source 2–14 seconds. Both generated closing fades excluded for repeated playback."
+  },
+  "wind": {
+    "source_index": 2,
+    "gain_db": 7.850000000000001,
+    "source_trim_seconds": [
+      1,
+      29
+    ],
+    "loop_period_seconds": 24,
+    "tail_head_overlap_seconds": 4,
+    "tail_head_curve": "equal-power cosine/sine",
+    "active_windows_seconds": [
+      [
+        0,
+        60
+      ],
+      [
+        180,
+        240
+      ],
+      [
+        360,
+        420
+      ],
+      [
+        540,
+        600
+      ],
+      [
+        720,
+        780
+      ],
+      [
+        900,
+        960
+      ],
+      [
+        1080,
+        1140
+      ],
+      [
+        1260,
+        1320
+      ],
+      [
+        1440,
+        1500
+      ],
+      [
+        1620,
+        1680
+      ],
+      [
+        1800,
+        1860
+      ],
+      [
+        1980,
+        2040
+      ],
+      [
+        2160,
+        2220
+      ],
+      [
+        2340,
+        2400
+      ],
+      [
+        2520,
+        2580
+      ],
+      [
+        2700,
+        2760
+      ],
+      [
+        2880,
+        2940
+      ],
+      [
+        3060,
+        3120
+      ],
+      [
+        3240,
+        3300
+      ],
+      [
+        3420,
+        3480
+      ]
+    ],
+    "off_windows_seconds": [
+      [
+        60,
+        180
+      ],
+      [
+        240,
+        360
+      ],
+      [
+        420,
+        540
+      ],
+      [
+        600,
+        720
+      ],
+      [
+        780,
+        900
+      ],
+      [
+        960,
+        1080
+      ],
+      [
+        1140,
+        1260
+      ],
+      [
+        1320,
+        1440
+      ],
+      [
+        1500,
+        1620
+      ],
+      [
+        1680,
+        1800
+      ],
+      [
+        1860,
+        1980
+      ],
+      [
+        2040,
+        2160
+      ],
+      [
+        2220,
+        2340
+      ],
+      [
+        2400,
+        2520
+      ],
+      [
+        2580,
+        2700
+      ],
+      [
+        2760,
+        2880
+      ],
+      [
+        2940,
+        3060
+      ],
+      [
+        3120,
+        3240
+      ],
+      [
+        3300,
+        3420
+      ],
+      [
+        3480,
+        3600
+      ]
+    ],
+    "fade_in_seconds": 5,
+    "fade_out_seconds": 8,
+    "fades_inside_each_active_minute": true,
+    "note": "Wind timing runs on the global clock independently of music handovers; short wind source still repeats."
+  },
+  "opening": "Only the first music source generated entrance; no added production intro fade.",
+  "closing_fade_seconds": 20,
+  "added_eq_compression_limiting_pitch_shift_time_stretch": false,
+  "radio_included": false,
+  "paid_generation_performed": false,
+  "authorization": "User requested one-hour ambience after provisional positive Junction feedback and one-minute-on/two-minute-off wind instruction. Radio experimentation stopped.",
+  "assistant_review": "Technical validation, no assistant listening verdict or full-length artistic approval.",
+  "recipe_fingerprint_sha256": "fe6bece954277b4ec5549c112399caf4db3db6f0af7d18fff739ca67717b1968"
+}

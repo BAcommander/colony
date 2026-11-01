@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-31",
+  "status": "integrated locally",
+  "title": "The Empty Junction — Waiting for the Next Train | 1 Hour Sci-Fi Ambient",
+  "title_characters": 71,
+  "modified_files": [
+    {
+      "path": "final/11-empty-junction/youtube-title.txt",
+      "sha256": "64dfad24df592111fe9729536fac84567b8a8990b4bf6b31551012364b94b057"
+    },
+    {
+      "path": "final/11-empty-junction/manifest.json",
+      "sha256": "1ecaef36cb6d7a12b1cae39ee6600bd0df7f18cf9054e927435c820669287f40"
+    },
+    {
+      "path": "final/11-empty-junction/README.md",
+      "sha256": "aa155482719646b3bb3e125bac47b3cbfb8e672b891ca8ead7ffab79c414929a"
+    }
+  ],
+  "original_art_and_thumbnail_unchanged": true,
+  "protected_hashes": {
+    "artwork-v2.png": "ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be",
+    "thumbnail-v1.png": "758903af8063ffdc6eb4252b43ba648522735eaeb80559eb947c976d0b5ca6b9",
+    "thumbnail-v1.jpg": "6b4ecae87451cb96a5b72d6517b696331070f45af8731ab15ad98a192f74a326"
+  },
+  "new_art_user_approved": false,
+  "existing_animation_unchanged": true,
+  "existing_hour_audio_unchanged": true,
+  "published": false,
+  "committed": false,
+  "pushed": false
+}

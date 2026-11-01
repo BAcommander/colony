@@ -1,0 +1,22 @@
+{
+  "method": "Native temporal stills, enlarged source/mask/peak-dim crops, actual decoded 720p full-composition frames and matching V4/V5 encoded detail comparison at twelve seconds",
+  "continuous_playback": false,
+  "user_approved": false,
+  "source_unchanged": true,
+  "observations": [
+    "Initial aperture coverage left strips at the top/bottom of some panes; the complete perspective apertures were expanded against source detail.",
+    "Source warm-colour gating missed white lamp cores; a separate bright-core gate was added and the five observed failures now have full coverage.",
+    "Initial sky sampling carried rock fragments; corrected sky segmentation was inspected against the photographed silhouettes.",
+    "Conservative scanline texture extension smeared real cloud detail into stripes; rejected and replaced with two-dimensional atmospheric extension.",
+    "Equal continuously crossfaded fields repeated at thirty seconds and could hover around the same texture position; replaced with sustained forward travel and brief phase renewal.",
+    "Far and middle mist have separate flow speed and ridgeline occlusion. Foreground utility mast details are excluded.",
+    "Latest unamplified full-composition and enlarged temporal stills retain photographed building, rail and rock structure. Playback quality remains for user review.",
+    "Decoded comparison inspected: left V4 and right V5 have matching time, crop and scale with readable labels; window cores dim with their panes and mist has broader broken coverage.",
+    "The initial lossy encoding introduced a small loop brightness step despite continuous source frames. The delivered QP0 minute passes regional/quiet-neighbour seams and six exact native-to-decoded YUV controls."
+  ],
+  "limitations": [
+    "Cloud phase renewal is a procedural crossfade and can soften or double cloud detail briefly.",
+    "Mist is a two-dimensional optical approximation, not simulated volumetric fluid.",
+    "Numerical checks and still inspection do not establish a drastic perceptual improvement."
+  ]
+}

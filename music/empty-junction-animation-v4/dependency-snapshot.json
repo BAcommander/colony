@@ -1,0 +1,13 @@
+{
+  "music/empty-junction-animation-v4/render_junction_v4.py": "dependency-snapshot/music/empty-junction-animation-v4/render_junction_v4.py",
+  "music/empty-junction-animation-v4/build_plan.py": "dependency-snapshot/music/empty-junction-animation-v4/build_plan.py",
+  "music/empty-junction-animation-v1/render_junction.py": "dependency-snapshot/music/empty-junction-animation-v1/render_junction.py",
+  "music/empty-junction-animation-v2/render_junction_v2.py": "dependency-snapshot/music/empty-junction-animation-v2/render_junction_v2.py",
+  "music/empty-junction-animation-v3/render_junction_v3.py": "dependency-snapshot/music/empty-junction-animation-v3/render_junction_v3.py",
+  "scripts/ambient_effects.py": "dependency-snapshot/scripts/ambient_effects.py",
+  "scripts/render_floodplain.py": "dependency-snapshot/scripts/render_floodplain.py",
+  "scripts/water_surface.py": "dependency-snapshot/scripts/water_surface.py",
+  "music/saltline-animation-v1/dust_transport.py": "dependency-snapshot/music/saltline-animation-v1/dust_transport.py",
+  "music/saltline-animation-v1/periodic_transport.py": "dependency-snapshot/music/saltline-animation-v1/periodic_transport.py",
+  "music/farpoint-animation-v1/render_farpoint.py": "dependency-snapshot/music/farpoint-animation-v1/render_farpoint.py"
+}

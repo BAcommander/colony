@@ -1,0 +1,75 @@
+{
+  "all_selected_white_cores_fully_covered": true,
+  "controls": [
+    {
+      "region": [
+        1290,
+        405,
+        1310,
+        432
+      ],
+      "brightest_source_rgb": [
+        255,
+        235,
+        170
+      ],
+      "mask_coverage": 1.0
+    },
+    {
+      "region": [
+        1312,
+        402,
+        1332,
+        430
+      ],
+      "brightest_source_rgb": [
+        255,
+        255,
+        255
+      ],
+      "mask_coverage": 1.0
+    },
+    {
+      "region": [
+        1360,
+        398,
+        1383,
+        426
+      ],
+      "brightest_source_rgb": [
+        255,
+        255,
+        247
+      ],
+      "mask_coverage": 1.0
+    },
+    {
+      "region": [
+        1413,
+        393,
+        1435,
+        422
+      ],
+      "brightest_source_rgb": [
+        255,
+        255,
+        246
+      ],
+      "mask_coverage": 1.0
+    },
+    {
+      "region": [
+        1036,
+        436,
+        1056,
+        452
+      ],
+      "brightest_source_rgb": [
+        255,
+        247,
+        228
+      ],
+      "mask_coverage": 1.0
+    }
+  ]
+}

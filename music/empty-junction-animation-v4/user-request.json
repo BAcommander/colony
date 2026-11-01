@@ -1,0 +1,10 @@
+{
+  "exact_user_request": "lets go",
+  "context": "User accepts the V3 music/wind/train/grit mix. Assistant proposes locking audio and bringing the revised scene/animation to the same point; user authorizes proceeding.",
+  "target_artwork": "music/empty-junction-visual-revision-v1/artwork-v3.png",
+  "target_artwork_sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+  "audio_approval": "music/empty-junction-music-v1/delivery-hour-final-sfx-v3/user-approval-2026-10-31.json",
+  "authorization": "Remap and execute the revised scene's local animation and combined review preview. Preserve old art/animation and chosen audio.",
+  "new_motion_user_approved": false,
+  "publishing_or_remote_backup_performed": false
+}

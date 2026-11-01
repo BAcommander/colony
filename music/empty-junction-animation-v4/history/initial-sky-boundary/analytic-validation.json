@@ -1,0 +1,91 @@
+{
+  "fingerprint": {
+    "files": {
+      "music/empty-junction-animation-v4/artwork-v3.png": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+      "music/empty-junction-animation-v4/scene-plan-v4.json": "88535ae0f2f4dcb881b830a1a6ecfbb26b665f00adcc277322c80e24fedcbda2",
+      "music/empty-junction-animation-v4/render_junction_v4.py": "97c8cccc772e9688279f847edf49a8d6f34e7c08740463353f2db9a44dd0cb8d",
+      "music/empty-junction-animation-v4/build_plan.py": "e26d1fe7f56caa832ab97fbdb8b75a9e1bfc44a457a507c8bac78bf1ad270fc5",
+      "music/empty-junction-animation-v1/render_junction.py": "c641b02956bf329a5661bc4867367e4584644f614c1fa7768c91e8548b8e67e9",
+      "music/empty-junction-animation-v2/render_junction_v2.py": "2c1e48b2f590b89b41edfe30de3043ba563857f34ce6f7bc349599f3510dff32",
+      "music/empty-junction-animation-v3/render_junction_v3.py": "bf63787ef3ee3e7d53460a12400cc4225183fa123ca5ecd7cb1621485d75563d",
+      "scripts/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+      "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+      "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+      "music/saltline-animation-v1/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "music/saltline-animation-v1/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music/farpoint-animation-v1/render_farpoint.py": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04"
+    },
+    "masks": {
+      "sky_clouds": "9c147f57f25f9dbcee157ab11379dad993c3838be8c257fdc3270b7e021aaa6c",
+      "far_mist": "ee334c4a185b8caa7ca3549b4d72ae91ff5f3ec32b797447474082de66bd694f",
+      "middle_mist": "77dc7114226cb30a2e1318c7d44bca940edb6b30831e96e2d38048ae98f7bdc9",
+      "light_hall_left": "30ba3a76be663cda76fdc23bd237659a1a894ac64027661ad0a4486bdcfc030e",
+      "light_hall_middle": "641fec03df9c00911456ea8d9f4f408ccf89ccb3eed2477dd047a0ec14ded2c1",
+      "light_hall_right": "191a468edd6bddf2de731d0cde0d111db5bc75ce3d797cbad9524edf5b089a59",
+      "light_gallery_left": "bb53303403b6e05b5cd9937d50103576b1bf74dbc0fc30d80054a4ffffdbad96",
+      "light_gallery_middle": "c4be2a547df52935b850dd1e83c95a60d03dc7b9f99d86bf9f67cc3c789fb9c5",
+      "light_gallery_right": "c520f29efc27be5bd9b0b80d57e931e69c24446c3deed2b3736966099bab9bec",
+      "light_gallery_far": "50ffa2462d5afefc8e8bcd713b8430e830af0dfe642e0c247c232da55fe70fe8",
+      "light_upper_left": "48c37da183045a94d0fef943aeca0f2e0c309dc9236a3fda8e17c4d7ee37660e",
+      "light_upper_right": "a4a9e17709566577e40d4d83c6ab8e09a7290a827cb17eb7fbeab615d8bf49fd",
+      "light_cabin_window": "5f7e4f92c15fa9df3594c3ecb308181abc33bc74086cb8ffd014fb7b6475894a",
+      "light_door_lamp": "5b4be976a86af945bd0d491ccb14a2bc9886b86886292e4ba2a87244e5f8ae13",
+      "light_roof_amber": "b9d1dfb55d59808ed7c902e97f5ba662bf7fa898f53dcd71d5f3e104f8f22175",
+      "light_yard_signal": "810a9399dde45f31036478d56c7efdfaa8e899a36af32a60232a86b1f7c5ebef",
+      "light_hall_practical": "284c18fb8ae69370c1a3b3007ba49e533bdd428caf72ec24e67ca91bd3aa651c",
+      "light_upper_door_lamp": "cfd551dc7c7d15305808616aafafca2ce5dc6a9ca30d4f72afd213e66c7536de",
+      "terrain_flow": "4062cbef5caeb6034a807c7ada2ff56b71e670e4a7d7f2cc3922d679cdbcf3a3",
+      "cabin_exhaust": "d142755c72236d8d238d647e430d03f8a4a6499d9a1fcbf36fdf4af10a7c78a8",
+      "yard_powder": "2153fdd1f0bfabf7767733a42788b956b06084b1f4652029995672ca1eb6f438"
+    },
+    "runtime": {
+      "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+      "numpy": "2.4.4",
+      "opencv": "5.0.0"
+    },
+    "duration": 60,
+    "source": {
+      "path": "music/empty-junction-animation-v4/artwork-v3.png",
+      "sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  },
+  "layer_checks": {
+    "yard_powder": {
+      "periodic_state": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sample_mae": 0.09908320754766464,
+      "pass": true
+    },
+    "cabin_exhaust": {
+      "periodic_state": true,
+      "seam_mae": 0.09887097775936127,
+      "ordinary_max_sample_mae": 0.14354339241981506,
+      "pass": true
+    },
+    "pass_weather": {
+      "periodic_state": true,
+      "seam_mae": 0.027062786743044853,
+      "ordinary_max_sample_mae": 0.03020680509507656,
+      "pass": true
+    },
+    "habitation": {
+      "periodic_state": true,
+      "seam_mae": 0.0,
+      "ordinary_max_sample_mae": 0.28932514786720276,
+      "pass": true
+    },
+    "sky_clouds": {
+      "periodic_state": true,
+      "seam_mae": 0.012000495567917824,
+      "ordinary_max_sample_mae": 0.013058868236839771,
+      "pass": true
+    }
+  },
+  "distinct_0_20_40": true,
+  "protected_pixels": "Asserted for every native frame",
+  "user_approved": false
+}

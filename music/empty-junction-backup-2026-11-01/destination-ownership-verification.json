@@ -1,0 +1,16 @@
+{
+  "authenticated_login": "BAcommander",
+  "repository": "BAcommander/colony",
+  "owner": "BAcommander",
+  "private": false,
+  "permissions": {
+    "admin": true,
+    "maintain": true,
+    "push": true,
+    "triage": true,
+    "pull": true
+  },
+  "authenticated_user_is_owner": true,
+  "remote": "https://github.com/BAcommander/colony.git",
+  "operation": "Read-only API check; no commit or upload"
+}

@@ -1,0 +1,16 @@
+{
+  "interval_seconds": 10,
+  "native_roi": [
+    850,
+    155,
+    1100,
+    205
+  ],
+  "estimated_shift_xy": [
+    9.826592097561857,
+    -0.09368763812685543
+  ],
+  "correlation_response": 0.9715572369194031,
+  "half_minute_duplicate": false,
+  "interpretation": "Texture tracking diagnostic, not a perceptual motion-quality score."
+}

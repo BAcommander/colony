@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-31",
+  "option": "Occasional distant train over existing one-hour music/wind",
+  "duration_seconds": 3600,
+  "sample_rate": 48000,
+  "channels": 2,
+  "base": {
+    "file": "G:\\AI\\colony\\music\\empty-junction-music-v1\\delivery-hour-v1\\media\\The-Empty-Junction-1-Hour-v1.flac",
+    "sha256": "d583902ca5a4b87a09535c7a2d847306221c17ffcd3f725c3ada70f5f3548f80",
+    "recipe": "../delivery-hour-v1/mix-recipe.json"
+  },
+  "train": {
+    "file": "../sources/Distant_freight_trai_#4-1793489393057.mp3",
+    "original_path": "C:\\Users\\jazzs\\Downloads\\Distant_freight_trai_#4-1793489393057.mp3",
+    "sha256": "ec88e61ec6a720af5cf479c425f38a3864fe279ebfdc5cf0ea63b14915a6649e",
+    "source_frames": 1200000,
+    "source_seconds": 25,
+    "source_measurements": {
+      "integrated_lufs": -39.5,
+      "lra_lu": 9.7,
+      "true_peak_dbtp": -20.3,
+      "method": "FFmpeg ebur128 analysis, not assistant listening"
+    },
+    "gain_db": 4.5,
+    "nominal_isolated_lufs": -35,
+    "fade_in_seconds": 3,
+    "fade_out_seconds": 6,
+    "events": [
+      {
+        "start_seconds": 125,
+        "end_seconds": 150,
+        "start_frame": 6000000
+      },
+      {
+        "start_seconds": 622,
+        "end_seconds": 647,
+        "start_frame": 29856000
+      },
+      {
+        "start_seconds": 1164,
+        "end_seconds": 1189,
+        "start_frame": 55872000
+      },
+      {
+        "start_seconds": 1697,
+        "end_seconds": 1722,
+        "start_frame": 81456000
+      },
+      {
+        "start_seconds": 2251,
+        "end_seconds": 2276,
+        "start_frame": 108048000
+      },
+      {
+        "start_seconds": 2782,
+        "end_seconds": 2807,
+        "start_frame": 133536000
+      },
+      {
+        "start_seconds": 3320,
+        "end_seconds": 3345,
+        "start_frame": 159360000
+      }
+    ]
+  },
+  "wind": "Existing one-minute-on/two-minute-off schedule unchanged; every train event lies wholly within a wind-off window.",
+  "added_eq_compression_limiting_pitch_shift_time_stretch": false,
+  "additional_opening_or_closing_fade": false,
+  "status": "Optional mix for listening comparison; original mix remains available. No artistic approval inferred.",
+  "actual_generation_settings_and_prompt": "Not verified; user supplied the file. Earlier proposed duration was 12 seconds; supplied file actually contains approximately 25 seconds.",
+  "paid_generation_performed": false,
+  "assistant_listening_performed": false
+}

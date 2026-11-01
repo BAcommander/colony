@@ -1,0 +1,256 @@
+{
+  "date": "2026-10-31",
+  "scene": "The Empty Junction",
+  "catalog_number": 11,
+  "generator": "built-in image_gen",
+  "new_generation_count": 3,
+  "paid_api_used": false,
+  "generated": [
+    {
+      "file": "artwork-v3.png",
+      "original_generated_path": "C:\\Users\\jazzs\\.codex\\generated_images\\01a192a2-705f-7391-80a2-74e52ec3e7ea\\exec-69c9684b-d571-4e2b-8f5b-98db55c84c9a.png",
+      "prompt": "prompts/artwork-v3.txt",
+      "original_bytes_preserved": true,
+      "references": [
+        {
+          "path": "G:\\AI\\colony\\final\\11-empty-junction\\artwork-v2.png",
+          "sha256": "ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be"
+        }
+      ]
+    },
+    {
+      "file": "original-art-junction-master.png",
+      "original_generated_path": "C:\\Users\\jazzs\\.codex\\generated_images\\01a192a2-705f-7391-80a2-74e52ec3e7ea\\exec-88698694-7882-4f84-a04c-a4e05fa3e7ea.png",
+      "prompt": "prompts/thumbnail-junction.txt",
+      "original_bytes_preserved": true,
+      "references": [
+        {
+          "path": "G:\\AI\\colony\\final\\11-empty-junction\\artwork-v2.png",
+          "sha256": "ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be"
+        },
+        {
+          "path": "G:\\AI\\colony\\final\\01-ringfall-observatory\\thumbnail-v1.png",
+          "sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede"
+        }
+      ]
+    },
+    {
+      "file": "revised-art-junction-master.png",
+      "original_generated_path": "C:\\Users\\jazzs\\.codex\\generated_images\\01a192a2-705f-7391-80a2-74e52ec3e7ea\\exec-57ff77fe-3e44-4c13-ad02-09c8bf91c9b8.png",
+      "prompt": "prompts/thumbnail-junction.txt",
+      "original_bytes_preserved": true,
+      "references": [
+        {
+          "path": "G:\\AI\\colony\\music\\empty-junction-visual-revision-v1\\artwork-v3.png",
+          "sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8"
+        },
+        {
+          "path": "G:\\AI\\colony\\final\\01-ringfall-observatory\\thumbnail-v1.png",
+          "sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "A",
+      "label": "Original scene",
+      "master": "original-art-scene-master.png",
+      "file": "thumbnail-original-scene-v1.jpg"
+    },
+    {
+      "id": "B",
+      "label": "Original + JUNCTION",
+      "master": "original-art-junction-master.png",
+      "file": "thumbnail-original-junction-v1.jpg"
+    },
+    {
+      "id": "C",
+      "label": "Revised scene",
+      "master": "artwork-v3.png",
+      "file": "thumbnail-revised-scene-v1.jpg"
+    },
+    {
+      "id": "D",
+      "label": "Revised + JUNCTION",
+      "master": "revised-art-junction-master.png",
+      "file": "thumbnail-revised-junction-v1.jpg"
+    }
+  ],
+  "assets": [
+    {
+      "file": "artwork-v3.png",
+      "bytes": 3353792,
+      "sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "file": "comparison-large.png",
+      "bytes": 1842749,
+      "sha256": "e3c981068267d3b61b87a769f02a2b3a8d4b192a4b01800f742f38e187af6c50",
+      "dimensions": {
+        "width": 1296,
+        "height": 812
+      }
+    },
+    {
+      "file": "comparison-phone-size.png",
+      "bytes": 283420,
+      "sha256": "34b22fb9c17344c26da20f40111bc9ef046820727b751b3f12790fd8f9a0b3c0",
+      "dimensions": {
+        "width": 496,
+        "height": 336
+      }
+    },
+    {
+      "file": "original-art-junction-master.png",
+      "bytes": 2595763,
+      "sha256": "a8744550f2c0b8ebf09646917a071530b3a1d43f5703d954eb0dcd5990706b09",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "file": "original-art-scene-master.png",
+      "bytes": 2629928,
+      "sha256": "ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "file": "original-branded-control.jpg",
+      "bytes": 340096,
+      "sha256": "6b4ecae87451cb96a5b72d6517b696331070f45af8731ab15ad98a192f74a326",
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "file": "prepare-assets.cjs",
+      "bytes": 7207,
+      "sha256": "04571c06ffe627c373f49cd5e56dbec7f74def165ad1d976b1a26caeef333983"
+    },
+    {
+      "file": "revised-art-junction-master.png",
+      "bytes": 3123206,
+      "sha256": "61dfb78794be4222d54b36f624811623056c7137a8c91dc25299a990633d6fc3",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      }
+    },
+    {
+      "file": "thumbnail-original-junction-v1.jpg",
+      "bytes": 327829,
+      "sha256": "8343b0244712b9afb66277f68c977040b950eb8c262a96486726dd6e2251debf",
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "file": "thumbnail-original-scene-v1.jpg",
+      "bytes": 328235,
+      "sha256": "7ddcbbd910f6dae70d936c9115a85ba7e3bb6c5e285a042632774bcdf1339414",
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "file": "thumbnail-revised-junction-v1.jpg",
+      "bytes": 469562,
+      "sha256": "8ca8c1590fbc6abf93f694f8419bc0db80c82173e84cc6c89655b7d0dac37a92",
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "file": "thumbnail-revised-scene-v1.jpg",
+      "bytes": 488934,
+      "sha256": "0b3e0b27a95cf3cd7ac1dc0853e402cf696cd98f19458f0551ac3134adb45b71",
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "file": "youtube-title.txt",
+      "bytes": 74,
+      "sha256": "64dfad24df592111fe9729536fac84567b8a8990b4bf6b31551012364b94b057"
+    }
+  ],
+  "title": "The Empty Junction — Waiting for the Next Train | 1 Hour Sci-Fi Ambient",
+  "typography_drift": {
+    "original": {
+      "same_dimensions": true,
+      "excluded_normalized_rectangle": [
+        0.35,
+        0.02,
+        0.75,
+        0.2
+      ],
+      "pixel_identical_outside_title": false,
+      "changed_pixel_fraction_outside_title": 0.9954418163683594,
+      "mean_absolute_rgb_difference_8bit": 6.304202242511262,
+      "psnr_db": 28.306750112616115,
+      "outside_region_mean_luma": [
+        64.43028170841099,
+        66.21310597066906
+      ],
+      "note": "Generated title edits are visual candidates, not a strictly controlled typography-only experiment."
+    },
+    "revised": {
+      "same_dimensions": true,
+      "excluded_normalized_rectangle": [
+        0.35,
+        0.02,
+        0.75,
+        0.2
+      ],
+      "pixel_identical_outside_title": false,
+      "changed_pixel_fraction_outside_title": 0.9978476385676863,
+      "mean_absolute_rgb_difference_8bit": 9.914952038829275,
+      "psnr_db": 24.4510870245368,
+      "outside_region_mean_luma": [
+        74.28302910317036,
+        75.64737301986338
+      ],
+      "note": "Generated title edits are visual candidates, not a strictly controlled typography-only experiment."
+    }
+  },
+  "review": {
+    "method": "Full returned stills and local phone-size/contact sheets inspected by assistant; user review pending.",
+    "artwork_candidate": "New complete-cabin composition, fewer near gravel areas and larger exposed mineral skyline. Warm cabin and freight hall retained. Some bright minor yard practicals remain. Rail turnout geometry and fine fittings need review before animation.",
+    "title_candidates": "JUNCTION correctly spelled; no header, logo, subtitle, number or underline. Scene details can drift during generated title edits.",
+    "historical_assets_preserved": true,
+    "new_art_user_approved": false,
+    "new_thumbnails_user_approved": false,
+    "animation": "Existing v3 animation still uses original artwork. New composition requires fresh mask mapping; not remapped or rendered by this request.",
+    "audio": "Existing one-hour delivery unchanged.",
+    "performance": "No CTR lift, native test result or visual acceptance inferred."
+  },
+  "validation": {
+    "all_four_jpegs_decoded": true,
+    "all_four_jpegs_1280x720": true,
+    "all_four_jpegs_under_2MB": true
+  },
+  "prompts": [
+    {
+      "file": "prompts/artwork-v3.txt",
+      "sha256": "bf5621735c3646889adcb4a36f8c8763538d5075eb481e62886ffe754d8e9888"
+    },
+    {
+      "file": "prompts/thumbnail-junction.txt",
+      "sha256": "f3a402fb149692f87a0f700888088e328b5abf40ae2a0217516a155fba0aa43d"
+    }
+  ]
+}

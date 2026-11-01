@@ -1,0 +1,23 @@
+{
+  "status": "current records updated locally",
+  "modified_files": [
+    "final/11-empty-junction/manifest.json",
+    "final/11-empty-junction/README.md",
+    "AGENTS.md",
+    "PRODUCTION_PIPELINE.md",
+    "creative/ANIMATION_KNOWLEDGE_BANK.md"
+  ],
+  "protected_assets_unchanged": true,
+  "protected_hashes": {
+    "G:\\AI\\colony\\final\\11-empty-junction\\artwork-v2.png": "ed7b02777c1dcc35504bc0628739688b56515f09ece89d58f299f2dd6013a4be",
+    "G:\\AI\\colony\\final\\11-empty-junction\\thumbnail-v1.png": "758903af8063ffdc6eb4252b43ba648522735eaeb80559eb947c976d0b5ca6b9",
+    "G:\\AI\\colony\\final\\11-empty-junction\\thumbnail-v1.jpg": "6b4ecae87451cb96a5b72d6517b696331070f45af8731ab15ad98a192f74a326",
+    "G:\\AI\\colony\\music\\empty-junction-animation-v3\\empty-junction-v3-preview-60s.mp4": "16c547cb62e41440e35f06b82ff68afb79bf85a42ce0cc30f7161163783778ef"
+  },
+  "user_motion_approved": false,
+  "user_audio_current_mix_approved": true,
+  "final_4k_or_hour_video_created": false,
+  "published": false,
+  "committed": false,
+  "pushed": false
+}

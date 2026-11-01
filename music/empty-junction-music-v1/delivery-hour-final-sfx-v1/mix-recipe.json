@@ -1,0 +1,422 @@
+{
+  "date": "2026-10-31",
+  "duration_seconds": 3600,
+  "sample_rate": 48000,
+  "channels": 2,
+  "base": {
+    "file": "G:\\AI\\colony\\music\\empty-junction-music-v1\\delivery-hour-train-option-v1\\media\\The-Empty-Junction-1-Hour-train-option-v1.flac",
+    "sha256": "a68aee72fbe4e3bf746693dc0a19e992d5a156ef7366982c7951d3efca6587bb",
+    "recipe": "../delivery-hour-train-option-v1/mix-recipe.json"
+  },
+  "grit": {
+    "file": "../sources/Fine_dry_mineral_gri_#2-1793489678825.mp3",
+    "original_path": "C:\\Users\\jazzs\\Downloads\\Fine_dry_mineral_gri_#2-1793489678825.mp3",
+    "sha256": "1babf4e01c5d788e3b07fc89dd673e90dd2fe2e57db5ab26b60d3cf07bec2340",
+    "source_frames": 576000,
+    "source_seconds": 12,
+    "source_measurements": {
+      "integrated_lufs": -41.2,
+      "lra_lu": 4.2,
+      "true_peak_dbtp": -20.9,
+      "method": "FFmpeg ebur128 analysis"
+    },
+    "gain_db": 4.2,
+    "nominal_isolated_lufs_before_fades": -37,
+    "fade_in_seconds": 1,
+    "fade_out_seconds": 2.5,
+    "also_follows_wind_envelope": true,
+    "events": [
+      {
+        "start_seconds": 198,
+        "end_seconds": 210,
+        "start_frame": 9504000
+      },
+      {
+        "start_seconds": 226,
+        "end_seconds": 238,
+        "start_frame": 10848000
+      },
+      {
+        "start_seconds": 374,
+        "end_seconds": 386,
+        "start_frame": 17952000
+      },
+      {
+        "start_seconds": 747,
+        "end_seconds": 759,
+        "start_frame": 35856000
+      },
+      {
+        "start_seconds": 916,
+        "end_seconds": 928,
+        "start_frame": 43968000
+      },
+      {
+        "start_seconds": 938,
+        "end_seconds": 950,
+        "start_frame": 45024000
+      },
+      {
+        "start_seconds": 1282,
+        "end_seconds": 1294,
+        "start_frame": 61536000
+      },
+      {
+        "start_seconds": 1453,
+        "end_seconds": 1465,
+        "start_frame": 69744000
+      },
+      {
+        "start_seconds": 1479,
+        "end_seconds": 1491,
+        "start_frame": 70992000
+      },
+      {
+        "start_seconds": 1831,
+        "end_seconds": 1843,
+        "start_frame": 87888000
+      },
+      {
+        "start_seconds": 1996,
+        "end_seconds": 2008,
+        "start_frame": 95808000
+      },
+      {
+        "start_seconds": 2021,
+        "end_seconds": 2033,
+        "start_frame": 97008000
+      },
+      {
+        "start_seconds": 2367,
+        "end_seconds": 2379,
+        "start_frame": 113616000
+      },
+      {
+        "start_seconds": 2534,
+        "end_seconds": 2546,
+        "start_frame": 121632000
+      },
+      {
+        "start_seconds": 2899,
+        "end_seconds": 2911,
+        "start_frame": 139152000
+      },
+      {
+        "start_seconds": 2924,
+        "end_seconds": 2936,
+        "start_frame": 140352000
+      },
+      {
+        "start_seconds": 3088,
+        "end_seconds": 3100,
+        "start_frame": 148224000
+      },
+      {
+        "start_seconds": 3437,
+        "end_seconds": 3449,
+        "start_frame": 164976000
+      },
+      {
+        "start_seconds": 3460,
+        "end_seconds": 3472,
+        "start_frame": 166080000
+      }
+    ]
+  },
+  "wind": {
+    "source_index": 2,
+    "gain_db": 7.850000000000001,
+    "source_trim_seconds": [
+      1,
+      29
+    ],
+    "loop_period_seconds": 24,
+    "tail_head_overlap_seconds": 4,
+    "tail_head_curve": "equal-power cosine/sine",
+    "active_windows_seconds": [
+      [
+        0,
+        60
+      ],
+      [
+        180,
+        240
+      ],
+      [
+        360,
+        420
+      ],
+      [
+        540,
+        600
+      ],
+      [
+        720,
+        780
+      ],
+      [
+        900,
+        960
+      ],
+      [
+        1080,
+        1140
+      ],
+      [
+        1260,
+        1320
+      ],
+      [
+        1440,
+        1500
+      ],
+      [
+        1620,
+        1680
+      ],
+      [
+        1800,
+        1860
+      ],
+      [
+        1980,
+        2040
+      ],
+      [
+        2160,
+        2220
+      ],
+      [
+        2340,
+        2400
+      ],
+      [
+        2520,
+        2580
+      ],
+      [
+        2700,
+        2760
+      ],
+      [
+        2880,
+        2940
+      ],
+      [
+        3060,
+        3120
+      ],
+      [
+        3240,
+        3300
+      ],
+      [
+        3420,
+        3480
+      ]
+    ],
+    "off_windows_seconds": [
+      [
+        60,
+        180
+      ],
+      [
+        240,
+        360
+      ],
+      [
+        420,
+        540
+      ],
+      [
+        600,
+        720
+      ],
+      [
+        780,
+        900
+      ],
+      [
+        960,
+        1080
+      ],
+      [
+        1140,
+        1260
+      ],
+      [
+        1320,
+        1440
+      ],
+      [
+        1500,
+        1620
+      ],
+      [
+        1680,
+        1800
+      ],
+      [
+        1860,
+        1980
+      ],
+      [
+        2040,
+        2160
+      ],
+      [
+        2220,
+        2340
+      ],
+      [
+        2400,
+        2520
+      ],
+      [
+        2580,
+        2700
+      ],
+      [
+        2760,
+        2880
+      ],
+      [
+        2940,
+        3060
+      ],
+      [
+        3120,
+        3240
+      ],
+      [
+        3300,
+        3420
+      ],
+      [
+        3480,
+        3600
+      ]
+    ],
+    "fade_in_seconds": 5,
+    "fade_out_seconds": 8,
+    "fades_inside_each_active_minute": true,
+    "note": "Wind timing runs on the global clock independently of music handovers; short wind source still repeats."
+  },
+  "train": {
+    "file": "../sources/Distant_freight_trai_#4-1793489393057.mp3",
+    "original_path": "C:\\Users\\jazzs\\Downloads\\Distant_freight_trai_#4-1793489393057.mp3",
+    "sha256": "ec88e61ec6a720af5cf479c425f38a3864fe279ebfdc5cf0ea63b14915a6649e",
+    "source_frames": 1200000,
+    "source_seconds": 25,
+    "source_measurements": {
+      "integrated_lufs": -39.5,
+      "lra_lu": 9.7,
+      "true_peak_dbtp": -20.3,
+      "method": "FFmpeg ebur128 analysis, not assistant listening"
+    },
+    "gain_db": 4.5,
+    "nominal_isolated_lufs": -35,
+    "fade_in_seconds": 3,
+    "fade_out_seconds": 6,
+    "events": [
+      {
+        "start_seconds": 125,
+        "end_seconds": 150,
+        "start_frame": 6000000
+      },
+      {
+        "start_seconds": 622,
+        "end_seconds": 647,
+        "start_frame": 29856000
+      },
+      {
+        "start_seconds": 1164,
+        "end_seconds": 1189,
+        "start_frame": 55872000
+      },
+      {
+        "start_seconds": 1697,
+        "end_seconds": 1722,
+        "start_frame": 81456000
+      },
+      {
+        "start_seconds": 2251,
+        "end_seconds": 2276,
+        "start_frame": 108048000
+      },
+      {
+        "start_seconds": 2782,
+        "end_seconds": 2807,
+        "start_frame": 133536000
+      },
+      {
+        "start_seconds": 3320,
+        "end_seconds": 3345,
+        "start_frame": 159360000
+      }
+    ]
+  },
+  "music_and_existing_effects": "Previous lossless one-hour train-option mix retained; only grit is added. Original music gains/handovers and twenty-second closing fade remain.",
+  "sfx_stem": "Separate one-hour wind + train + grit stem, at the same gains/envelopes. No music. Do not add it to the already combined full mix.",
+  "added_eq_compression_limiting_pitch_shift_time_stretch": false,
+  "additional_opening_or_closing_fade": false,
+  "radio_or_compressor_included": false,
+  "examples": [
+    {
+      "id": "01-wind",
+      "label": "Wind with music, then wind fades out",
+      "start": 15,
+      "duration": 60,
+      "events_at_excerpt_seconds": {
+        "wind": [
+          0,
+          45
+        ]
+      },
+      "file": "Empty-Junction-check-01-wind-60s-v1.mp3"
+    },
+    {
+      "id": "02-train",
+      "label": "Train with music, wind absent",
+      "start": 105,
+      "duration": 60,
+      "events_at_excerpt_seconds": {
+        "train": [
+          [
+            20,
+            45
+          ]
+        ]
+      },
+      "file": "Empty-Junction-check-02-train-60s-v1.mp3"
+    },
+    {
+      "id": "03-grit",
+      "label": "Wind and grit with music",
+      "start": 185,
+      "duration": 60,
+      "events_at_excerpt_seconds": {
+        "grit": [
+          [
+            13,
+            25
+          ],
+          [
+            41,
+            53
+          ]
+        ],
+        "wind": [
+          0,
+          55
+        ]
+      },
+      "file": "Empty-Junction-check-03-grit-and-wind-60s-v1.mp3"
+    }
+  ],
+  "authorization": "User requests final SFX combination using the supplied sources, and example sections containing each effect to check.",
+  "approval": "Final requested combination delivered for user balance checks; artistic/full-session approval pending.",
+  "actual_generation_settings_and_prompt": "Supplied audio; exact generation controls, model and prompt not verified.",
+  "paid_generation_performed": false,
+  "assistant_listening_performed": false
+}

@@ -1,0 +1,16 @@
+{
+  "status": "assistant still-based review complete; user playback pending",
+  "source": "artwork-v3.png",
+  "source_sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+  "method": "Inspected native source grid/details, fresh mask overlay, multiple unamplified 720p temporal composites, source-scale principal-effect detail sheet, and decoded wind/quiet 720p pictures. No continuous playback claimed.",
+  "findings": [
+    "Initial sky samples exposed pale bands around mineral silhouettes. Initial diagnostics retained; source-relative cloud differences and wider inward feather remove the visible replacement boundary in inspected corrected samples.",
+    "The existing cabin grille supplies the plume origin. Source fittings and antenna occlusion are freshly mapped, with expanding concentrations travelling left/up across the facade/roof region.",
+    "Ground powder follows separate near-approach and right-yard routes with warm source-light tint where appropriate; it is omitted in the quiet unit.",
+    "The wind and quiet units share the rest of the scene exactly outside the powder mask at native resolution. Selected gallery/upper-room apertures and practical fixtures show independent changes in inspected temporal states.",
+    "Rock, rail, building and wagon geometry stays fixed; no person, moving train or new prop added. Broad mineral skyline and the whole cabin remain visible."
+  ],
+  "limits": "Sampled stills and source-conversion checks do not establish natural motion or sufficient activity at normal-speed playback. The user's verdict on the complete motion and combined preview remains pending.",
+  "user_motion_approved": false,
+  "audio_balance_approved_separately": true
+}

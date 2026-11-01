@@ -1,0 +1,16 @@
+{
+  "music/empty-junction-animation-v4/artwork-v3.png": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+  "music/empty-junction-animation-v4/scene-plan-v4.json": "9862aeff07ce7b1531ef16da4ff2219d4a2f572e64d2876096534afa525e7f86",
+  "music/empty-junction-animation-v4/render_junction_v4.py": "8dd11ccbe7adb1073703bb3090490adba2835146742a5d9881ac3a9770d0b79d",
+  "music/empty-junction-animation-v4/build_plan.py": "1857be03b9e811c128750f42d8bdd0fc00ec3b33791a1b393daf50324e4260b3",
+  "music/empty-junction-animation-v1/render_junction.py": "c641b02956bf329a5661bc4867367e4584644f614c1fa7768c91e8548b8e67e9",
+  "music/empty-junction-animation-v2/render_junction_v2.py": "2c1e48b2f590b89b41edfe30de3043ba563857f34ce6f7bc349599f3510dff32",
+  "music/empty-junction-animation-v3/render_junction_v3.py": "bf63787ef3ee3e7d53460a12400cc4225183fa123ca5ecd7cb1621485d75563d",
+  "scripts/ambient_effects.py": "f53e53cc1611c60af87fb5efb37f84e62c83cd656a00ef9786347cf216359ccc",
+  "scripts/render_floodplain.py": "83eaefc42836f7bde3a61a1837f0ab5e1546a8c5c2ce91c740669691582b81a3",
+  "scripts/water_surface.py": "6d82d765248b1501648459170fcec5e7fdab4414a282ace5d564cb57db8c17a4",
+  "music/saltline-animation-v1/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+  "music/saltline-animation-v1/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+  "music/farpoint-animation-v1/render_farpoint.py": "cd85c9f3242e0fcca3271aabd6ab4350240b4220a807ad984bb1a1f0d24c4d04",
+  "music/empty-junction-animation-v5/render_v5.py": "17ed66e1cb34679f0f3bcf8fe0b46c10d97d6703c435925ab57b3e3ad88c4ce8"
+}

@@ -1,0 +1,167 @@
+{
+  "status": "Technically checked visual review candidate; user verdict pending",
+  "clips": [
+    {
+      "file": "Empty-Junction-v5-60s-720p.mp4",
+      "sha256": "b930e881dfaafc367b72189d53b7aa202865d1e553ce13749073978a79f2c56b",
+      "frames": 1800,
+      "all_frames_decoded": true,
+      "all_timestamps_checked": true,
+      "regional_seams": {
+        "clouds": {
+          "seam_mae": 0.05898599981807205,
+          "neighbour_max": 0.06746218793156201,
+          "ordinary_max": 0.25513464045801737
+        },
+        "mist": {
+          "seam_mae": 0.031397610447346486,
+          "neighbour_max": 0.03743323762773609,
+          "ordinary_max": 0.07877188107807723
+        },
+        "windows": {
+          "seam_mae": 0.0,
+          "neighbour_max": 0.0,
+          "ordinary_max": 0.32195943912860325
+        },
+        "combined": {
+          "seam_mae": 0.042338239832712926,
+          "neighbour_max": 0.046764481731320334,
+          "ordinary_max": 0.17066933721318392
+        }
+      },
+      "exact_repetition": false,
+      "direct_source_controls": [
+        {
+          "frame": 0,
+          "yuv_rmse": 0.0,
+          "direct_native_to_decoded_yuv_exact": true,
+          "qp": 0
+        },
+        {
+          "frame": 179,
+          "yuv_rmse": 0.0,
+          "direct_native_to_decoded_yuv_exact": true,
+          "qp": 0
+        },
+        {
+          "frame": 600,
+          "yuv_rmse": 0.0,
+          "direct_native_to_decoded_yuv_exact": true,
+          "qp": 0
+        },
+        {
+          "frame": 960,
+          "yuv_rmse": 0.0,
+          "direct_native_to_decoded_yuv_exact": true,
+          "qp": 0
+        },
+        {
+          "frame": 1320,
+          "yuv_rmse": 0.0,
+          "direct_native_to_decoded_yuv_exact": true,
+          "qp": 0
+        },
+        {
+          "frame": 1799,
+          "yuv_rmse": 0.0,
+          "direct_native_to_decoded_yuv_exact": true,
+          "qp": 0
+        }
+      ]
+    },
+    {
+      "file": "Empty-Junction-v5-two-loops-120s-720p.mp4",
+      "sha256": "14a86dafdb4a28ff584857a8755910b2f05eafa314dc1a37ca006057e1894990",
+      "frames": 3600,
+      "all_frames_decoded": true,
+      "all_timestamps_checked": true,
+      "regional_seams": {
+        "clouds": {
+          "seam_mae": 0.05898599981807205,
+          "neighbour_max": 0.06746218793156201,
+          "ordinary_max": 0.25513464045801737
+        },
+        "mist": {
+          "seam_mae": 0.031397610447346486,
+          "neighbour_max": 0.03743323762773609,
+          "ordinary_max": 0.07877188107807723
+        },
+        "windows": {
+          "seam_mae": 0.0,
+          "neighbour_max": 0.0,
+          "ordinary_max": 0.32195943912860325
+        },
+        "combined": {
+          "seam_mae": 0.042338239832712926,
+          "neighbour_max": 0.046764481731320334,
+          "ordinary_max": 0.17066933721318392
+        }
+      },
+      "exact_repetition": true
+    },
+    {
+      "file": "Empty-Junction-v5-with-approved-audio-60s-720p.mp4",
+      "sha256": "f7f82235de707f597d37c5477d0d2f01d52bbca6ef3f2e5006f554b80b950220",
+      "frames": 1800,
+      "all_frames_decoded": true,
+      "all_timestamps_checked": true,
+      "regional_seams": {
+        "clouds": {
+          "seam_mae": 0.05898599981807205,
+          "neighbour_max": 0.06746218793156201,
+          "ordinary_max": 0.25513464045801737
+        },
+        "mist": {
+          "seam_mae": 0.031397610447346486,
+          "neighbour_max": 0.03743323762773609,
+          "ordinary_max": 0.07877188107807723
+        },
+        "windows": {
+          "seam_mae": 0.0,
+          "neighbour_max": 0.0,
+          "ordinary_max": 0.32195943912860325
+        },
+        "combined": {
+          "seam_mae": 0.042338239832712926,
+          "neighbour_max": 0.046764481731320334,
+          "ordinary_max": 0.17066933721318392
+        }
+      },
+      "exact_repetition": false,
+      "audio": {
+        "approved_source_sha256": "84a773c68ca1a8d1115c76e2edcc914f8c955c5f60cb31436b1c5718b4982f09",
+        "seconds": 60,
+        "full_sample_comparison_snr_db": 37.52034002279375,
+        "unchanged_mix_gain_eq_fades": true,
+        "no_clipping": true
+      }
+    }
+  ],
+  "comparison": {
+    "file": "Empty-Junction-v4-v5-details-20s.mp4",
+    "sha256": "0c756c29c9cb7b17efd17b76e41f191b9d0c597a09df7a094d5f84a7cb2c228b",
+    "all_600_frames_decoded": true,
+    "same_time_and_crop": true
+  },
+  "source_sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "preview_dimensions": [
+    1280,
+    720
+  ],
+  "retained_layers": [
+    "cabin_exhaust",
+    "yard_powder"
+  ],
+  "replaced_layers": [
+    "all window apertures",
+    "cloud extraction/transport",
+    "far/middle mist; old terrain stripe removed"
+  ],
+  "user_approved": false,
+  "assistant_inspection": "Native/decoded temporal stills and enlarged comparisons; not continuous playback",
+  "full_final_4k_hour_created": false
+}

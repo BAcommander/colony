@@ -1,0 +1,9 @@
+Use case: precise-object-edit.
+Asset type: clean, text-free 16:9 landscape artwork for The Empty Junction ambient scene.
+Image 1 is the existing scene to revise, not a style-only reference. Recompose this same destination as a photographic cinematic exterior. The warm working station is the main subject and the immense pale alien mineral spires supply scale.
+
+Pull the viewpoint back and slightly raise the framing enough to reveal the complete small signal cabin on the left third, with breathing room around its entire curved-roof silhouette. Keep its corrugated metal construction, warm narrow door window, short entrance steps, ventilation grilles, utility fittings and antennas recognizable. Reduce empty foreground gravel. Retain strong, physically coherent paired railway lines curving from the lower foreground into the freight hall, with a believable turnout and continuous rail geometry.
+
+Retain the inhabited freight hall, parked freight wagons and elevated warm-windowed passage toward the right hillside. Make the distant eroded mineral skyline read clearly in layered depth, without turning it into an unrelated landscape. Preserve the blue-grey dusk, pale mineral terrain and restrained amber practical lighting. Concentrate the warm emphasis at the cabin doorway and freight-hall opening; subordinate other little yard lamps. Keep enough midtone detail to read at thumbnail size rather than darkening the whole scene.
+
+Maintain realistic industrial materials, grounded foundations, quiet waiting atmosphere and the source's photographic character. No people, added trains or vehicles, planets, new story props, neon, dramatic weather, text, logos, typography, borders or watermarks. Output one finished clean scene, landscape 16:9, not a collage or mockup.

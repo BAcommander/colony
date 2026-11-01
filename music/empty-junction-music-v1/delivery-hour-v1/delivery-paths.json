@@ -1,0 +1,21 @@
+{
+  "status": "delivered",
+  "duration_seconds": 3600,
+  "outputs": [
+    {
+      "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-v1.flac",
+      "bytes": 547616722,
+      "sha256": "d583902ca5a4b87a09535c7a2d847306221c17ffcd3f725c3ada70f5f3548f80",
+      "matches_validated_output": true
+    },
+    {
+      "path": "G:\\AI\\colony\\exports\\11-empty-junction\\The-Empty-Junction-1-Hour-v1.mp3",
+      "bytes": 86401196,
+      "sha256": "6cd644af5dac3f6923d5c29cd78eca1d7dc0e3c7b66b566faa5df96e3901ca78",
+      "matches_validated_output": true
+    }
+  ],
+  "source_validation": "G:\\AI\\colony\\music\\empty-junction-music-v1\\delivery-hour-v1\\delivery-validation.json",
+  "local_delivery_only": true,
+  "remote_backup_performed": false
+}

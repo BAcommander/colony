@@ -1,0 +1,184 @@
+{
+  "status": "passed",
+  "duration_seconds": 3600,
+  "source_hashes_unchanged": true,
+  "render_checks": {
+    "frames": 172800000,
+    "all_samples_finite": true,
+    "full_scale_samples": 0,
+    "full_mix_peak_dbfs": -10.161839033679243,
+    "sfx_stem_peak_dbfs": -16.43675144977978,
+    "outside_grit_samples_checked": 323712000,
+    "outside_grit_max_difference_from_previous_mix": 0,
+    "sfx_silent_gap_samples_checked": 213600000,
+    "sfx_silent_gap_max_absolute_sample": 0
+  },
+  "outputs": [
+    {
+      "file": "media/The-Empty-Junction-1-Hour-final-SFX-v3.flac",
+      "sha256": "84a773c68ca1a8d1115c76e2edcc914f8c955c5f60cb31436b1c5718b4982f09",
+      "bytes": 553177040,
+      "decoded_frames": 172800000,
+      "duration_seconds": 3600,
+      "all_samples_finite": true,
+      "full_scale_samples": 0,
+      "sample_peak_dbfs": -10.161839033679243,
+      "integrated_lufs": -22.9,
+      "lra_lu": 2.3,
+      "true_peak_dbtp": -10.2,
+      "full_sample_recipe_comparison": {
+        "performed": true,
+        "max_absolute_error": 1.1897145668626763e-7,
+        "snr_db": 133.1698795022853
+      },
+      "kind": "full mix"
+    },
+    {
+      "file": "media/The-Empty-Junction-1-Hour-final-SFX-v3.mp3",
+      "sha256": "0d7fcd4ff3557136025a384832481038ee6759aaf982648781930b21e5ca1cd6",
+      "bytes": 86401196,
+      "decoded_frames": 172800000,
+      "duration_seconds": 3600,
+      "all_samples_finite": true,
+      "full_scale_samples": 0,
+      "sample_peak_dbfs": -10.42468923289389,
+      "integrated_lufs": -23.1,
+      "lra_lu": 2.2,
+      "true_peak_dbtp": -10.4,
+      "full_sample_recipe_comparison": {
+        "performed": true,
+        "max_absolute_error": 0.017870977520942688,
+        "snr_db": 30.21560292887203
+      },
+      "kind": "full mix"
+    },
+    {
+      "file": "media/The-Empty-Junction-1-Hour-SFX-only-v3.flac",
+      "sha256": "71a3f66bca5e93a2462cfa695793c03fbbacf92a3989f45b41ac03cef074d234",
+      "bytes": 247924801,
+      "decoded_frames": 172800000,
+      "duration_seconds": 3600,
+      "all_samples_finite": true,
+      "full_scale_samples": 0,
+      "sample_peak_dbfs": -16.436747155979013,
+      "integrated_lufs": -35.5,
+      "lra_lu": 9.4,
+      "true_peak_dbtp": -16.4,
+      "full_sample_recipe_comparison": {
+        "performed": true,
+        "max_absolute_error": 1.1897282092832029e-7,
+        "snr_db": 106.5198690527258
+      },
+      "kind": "SFX-only stem"
+    }
+  ],
+  "examples": [
+    {
+      "id": "01-wind",
+      "label": "Wind with music, then wind fades out",
+      "start": 15,
+      "duration": 60,
+      "events_at_excerpt_seconds": {
+        "wind": [
+          0,
+          45
+        ]
+      },
+      "file": "Empty-Junction-check-01-wind-60s-v3.mp3",
+      "validation": {
+        "file": "../review/Empty-Junction-check-01-wind-60s-v3.mp3",
+        "sha256": "0567d29d8d7883949ccaa5a0d3b2e81d65698f2248b14643f9a40bc7a63d77ec",
+        "bytes": 1441196,
+        "decoded_frames": 2880000,
+        "duration_seconds": 60,
+        "all_samples_finite": true,
+        "full_scale_samples": 0,
+        "sample_peak_dbfs": -11.308194148996247,
+        "integrated_lufs": -23,
+        "lra_lu": 3,
+        "true_peak_dbtp": -11.3,
+        "full_sample_recipe_comparison": {
+          "performed": true,
+          "max_absolute_error": 0.022402718663215637,
+          "snr_db": 30.05456202956685
+        }
+      }
+    },
+    {
+      "id": "02-train",
+      "label": "Train with music, wind absent",
+      "start": 105,
+      "duration": 60,
+      "events_at_excerpt_seconds": {
+        "train": [
+          [
+            20,
+            45
+          ]
+        ]
+      },
+      "file": "Empty-Junction-check-02-train-60s-v3.mp3",
+      "validation": {
+        "file": "../review/Empty-Junction-check-02-train-60s-v3.mp3",
+        "sha256": "a6b455d16f17cd93edb95fd7d001456fa5431d382cd0c1b3ca2c335d38deed4e",
+        "bytes": 1441196,
+        "decoded_frames": 2880000,
+        "duration_seconds": 60,
+        "all_samples_finite": true,
+        "full_scale_samples": 0,
+        "sample_peak_dbfs": -13.111050603241242,
+        "integrated_lufs": -23.4,
+        "lra_lu": 2.2,
+        "true_peak_dbtp": -13.1,
+        "full_sample_recipe_comparison": {
+          "performed": true,
+          "max_absolute_error": 0.006992697715759277,
+          "snr_db": 30.4072280741266
+        }
+      }
+    },
+    {
+      "id": "03-grit",
+      "label": "Wind and grit with music",
+      "start": 185,
+      "duration": 60,
+      "events_at_excerpt_seconds": {
+        "grit": [
+          [
+            13,
+            25
+          ],
+          [
+            41,
+            53
+          ]
+        ],
+        "wind": [
+          0,
+          55
+        ]
+      },
+      "file": "Empty-Junction-check-03-grit-and-wind-60s-v3.mp3",
+      "validation": {
+        "file": "../review/Empty-Junction-check-03-grit-and-wind-60s-v3.mp3",
+        "sha256": "a777538d85e20a7ba220db87bed9306d41e8d0ba578cbf7bc1e2c148ae758ca7",
+        "bytes": 1441196,
+        "decoded_frames": 2880000,
+        "duration_seconds": 60,
+        "all_samples_finite": true,
+        "full_scale_samples": 0,
+        "sample_peak_dbfs": -10.409181199891723,
+        "integrated_lufs": -22.5,
+        "lra_lu": 1.7,
+        "true_peak_dbtp": -10.4,
+        "full_sample_recipe_comparison": {
+          "performed": true,
+          "max_absolute_error": 0.01519148051738739,
+          "snr_db": 29.7640727522976
+        }
+      }
+    }
+  ],
+  "assistant_listening_performed": false,
+  "user_balance_and_full_length_approval": false
+}

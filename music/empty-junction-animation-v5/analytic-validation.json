@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "clouds": {
+      "periodic": true,
+      "seam_mae": 0.0032679697020543824,
+      "sample_max_mae": 0.004138086497278846
+    },
+    "mist": {
+      "periodic": true,
+      "seam_mae": 0.00032986896765631595,
+      "sample_max_mae": 0.00038770726449008234
+    },
+    "windows": {
+      "periodic": true,
+      "seam_mae": 0.0,
+      "sample_max_mae": 0.0006294416845901828
+    },
+    "None": {
+      "periodic": true,
+      "seam_mae": 0.004369651546507075,
+      "sample_max_mae": 0.007453301401508796
+    }
+  },
+  "source_sha256": "44bd1465510494ed91bc54c9461cb77da590179cb708c6dd21fcd6a6b51f8ba8",
+  "protected_pixels": "Asserted every native rendered frame",
+  "user_approved": false
+}

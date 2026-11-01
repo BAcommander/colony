@@ -1,0 +1,7 @@
+{
+  "expected_frames": 172800000,
+  "raw_sample_peak_dbfs": -10.19142397850545,
+  "wind_off_samples_checked": 230400000,
+  "wind_off_max_difference_from_dry": 0,
+  "raw_bytes": 1382400000
+}
