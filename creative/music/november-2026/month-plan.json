@@ -121,14 +121,43 @@
       "long_requested_seconds": 480,
       "actual_model": null,
       "actual_cost_shown": null,
-      "generated_files": [],
-      "selected_pilot": null,
+      "generated_files": [
+        {
+          "title": "Shelter on the Ice Plain",
+          "path": "music/below-the-snowline-production-2026-11-01/sources/Shelter_on_the_Ice_Plain_2026-11-01T232735.mp4",
+          "sha256": "59345a428c9c8dd2eaeed31ef5c44e7e3e7cd996e89cd8708ce8453614b801d8",
+          "duration_seconds": 300
+        },
+        {
+          "title": "Outpost on the Ice",
+          "path": "music/below-the-snowline-production-2026-11-01/sources/Outpost_on_the_Ice_2026-11-01T232735.mp4",
+          "sha256": "43ab763290108aa95a88b09ec43bd14169adecab34e05c52078f2d8e6e49a6eb",
+          "duration_seconds": 300
+        }
+      ],
+      "selected_pilot": "User-reported liked30s seed; exact file unknown",
       "sfx_file": null,
       "sfx_gain_db": null,
       "sfx_schedule": null,
       "long_session_feedback": null,
       "release_date": null,
-      "status": "brief prepared, ungenerated"
+      "status": "Nine-minute paired music loop approved; animation/thumbnail review, SFX and full-length assembly pending",
+      "actual_source_durations_seconds": [
+        300,
+        300
+      ],
+      "audio_delivery": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/Below-the-Snowline-paired-loop-9min-v1.flac",
+      "audio_approval": {
+        "date": "2026-11-01",
+        "verbatim": "ok i think we're good push the track into the repo. and maybe update everything else about the iceline one?",
+        "scope": "Accepts delivered nine-minute paired music loop and authorizes repository commit/push and related scene record updates. Does not approve pending animation/thumbnail or imply a full-hour delivery.",
+        "master_path": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\paired-loop-v1\\Below-the-Snowline-paired-loop-9min-v1.flac",
+        "master_sha256": "987b1509075da8a9202f24a6b765f4e2b6d88d90cb90c28bdaf8719af77b252b",
+        "duration_seconds": 540,
+        "assistant_listening": false
+      },
+      "generation_provenance_note": "Exact model, prompt, settings, seed and cost unverified; prepared V3 durations are historical proposals",
+      "actual_loop_seconds": 540
     },
     {
       "order": 4,

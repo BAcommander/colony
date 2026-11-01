@@ -1,0 +1,79 @@
+{
+  "branch": "codex/empty-junction-backup-2026-11-01",
+  "remote": "https://github.com/BAcommander/colony.git",
+  "source_and_record_directories": [
+    "music/below-the-snowline-production-2026-11-01",
+    "music/hoth-reference-analysis-2026-11-01"
+  ],
+  "shared_files": [
+    ".gitattributes",
+    "AGENTS.md",
+    "PRODUCTION_PIPELINE.md",
+    "final/README.md",
+    "final/13-below-the-snowline/README.md",
+    "final/13-below-the-snowline/description.txt",
+    "final/13-below-the-snowline/youtube-title.txt",
+    "final/13-below-the-snowline/youtube-tags.txt",
+    "final/13-below-the-snowline/music/README.md",
+    "final/13-below-the-snowline/music/generation-record.json",
+    "creative/music/november-2026/README.md",
+    "creative/music/november-2026/month-plan.json"
+  ],
+  "media": [
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/Below-the-Snowline-paired-loop-9min-v1.flac",
+      "sha256": "987b1509075da8a9202f24a6b765f4e2b6d88d90cb90c28bdaf8719af77b252b",
+      "bytes": 77189149,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/Below-the-Snowline-paired-loop-9min-v1.mp3",
+      "sha256": "e81beb635c121b5f68e43c889f0ab6df2eb4e3094f7b3595eba060792c4ead93",
+      "bytes": 12961196,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/Outpost-to-Shelter-loop-boundary-60s.mp3",
+      "sha256": "7d31178de74cf8c4ed78404bf4e8374fce76ab40c790cb20e45c9429b72026ca",
+      "bytes": 1441196,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/Shelter-to-Outpost-transition-60s.mp3",
+      "sha256": "e48cf9c7fb2690e7dba9f34862cc80f6f582e8e5aa917dbcf755d7d53e6bc062",
+      "bytes": 1441196,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/sources/Frozen_Expanse_2026-11-01T232117.mp4",
+      "sha256": "f3427e4c0dea1895a561d9dfdb66a5c2ea40de814a6092c7b7f9d881cedac745",
+      "bytes": 1509336,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/sources/Frozen_Outpost_2026-11-01T232117.mp4",
+      "sha256": "67382e6f4145074f8ea403a6f106687710a16fb21435fc17fd2e2a85a0f6e613",
+      "bytes": 1491660,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/sources/Outpost_on_the_Ice_2026-11-01T232735.mp4",
+      "sha256": "43ab763290108aa95a88b09ec43bd14169adecab34e05c52078f2d8e6e49a6eb",
+      "bytes": 7494198,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/sources/Shelter_on_the_Ice_Plain_2026-11-01T232735.mp4",
+      "sha256": "59345a428c9c8dd2eaeed31ef5c44e7e3e7cd996e89cd8708ce8453614b801d8",
+      "bytes": 7468573,
+      "storage": "lfs"
+    }
+  ],
+  "excluded": [
+    "all cache directories including official Hoth reference audio",
+    "unrelated untracked media",
+    "full-hour renders (none created)"
+  ],
+  "authority": "User accepts paired track and explicitly requests push plus scene record updates",
+  "scope": "Approved9min master, listening copy, both join checks, four supplied source files including earlier60s intake, analysis/prompts/provenance and updated scene records"
+}

@@ -26,7 +26,7 @@ Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subs
 | [10 - Farpoint Station](10-nightward-station/) | [Selected artwork](10-nightward-station/artwork-v3-close-world-leds.png); no video yet | [JPEG](10-nightward-station/thumbnail-v2.jpg) |
 | [11 - The Empty Junction](11-empty-junction/) | [Selected v2 artwork](11-empty-junction/artwork-v2.png); no video yet | [JPEG](11-empty-junction/thumbnail-v1.jpg) |
 | [12 - Deepwell Station](12-deepwell-station/) | [Selected v2 artwork](12-deepwell-station/artwork-v2.png); no video yet | [JPEG](12-deepwell-station/thumbnail-v1.jpg) |
-| [13 - Below the Snowline](13-below-the-snowline/) | [Selected v2 artwork](13-below-the-snowline/artwork-v2.png); no video yet | [JPEG](13-below-the-snowline/thumbnail-v1.jpg) |
+| [13 - Below the Snowline](13-below-the-snowline/) | [Current v5 artwork](13-below-the-snowline/ice-planet-retheme-v3/artwork-v5.png); [v2 animation](../music/below-the-snowline-animation-v2/README.md); [approved9min music](../music/below-the-snowline-production-2026-11-01/paired-loop-v1/README.md) | [Latest candidate](../music/below-the-snowline-animation-v2/thumbnail-v2.jpg), review pending; [earlier approved JPEG](13-below-the-snowline/thumbnail-v1.jpg) |
 | [14 - Crater Rim Survey](14-crater-rim-survey/) | [Selected v2 artwork](14-crater-rim-survey/artwork-v2.png); no video yet | [JPEG](14-crater-rim-survey/thumbnail-v1.jpg) |
 | [15 - Cyberpunk Apartment](15-cyberpunk-apartment/) | [10 seconds, 4K/60fps V3](15-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-4K.mp4) | Pending |
 

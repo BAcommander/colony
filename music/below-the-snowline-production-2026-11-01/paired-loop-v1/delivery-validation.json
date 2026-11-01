@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "outputs": [
+    {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\paired-loop-v1\\Below-the-Snowline-paired-loop-9min-v1.flac",
+      "sha256": "987b1509075da8a9202f24a6b765f4e2b6d88d90cb90c28bdaf8719af77b252b",
+      "duration_seconds": 540.0,
+      "decoded_frames_per_channel": 25920000,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -8.632322545835732,
+      "all_samples_recipe_snr_db": 117.55886019207308,
+      "max_absolute_recipe_error": 1.1897598284349442e-07
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\paired-loop-v1\\Below-the-Snowline-paired-loop-9min-v1.mp3",
+      "sha256": "e81beb635c121b5f68e43c889f0ab6df2eb4e3094f7b3595eba060792c4ead93",
+      "duration_seconds": 540.0,
+      "decoded_frames_per_channel": 25920000,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -8.885344059408398,
+      "all_samples_recipe_snr_db": 30.38719927696436,
+      "max_absolute_recipe_error": 0.018326178193092346
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\paired-loop-v1\\Shelter-to-Outpost-transition-60s.mp3",
+      "sha256": "e48cf9c7fb2690e7dba9f34862cc80f6f582e8e5aa917dbcf755d7d53e6bc062",
+      "duration_seconds": 60.0,
+      "decoded_frames_per_channel": 2880000,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -9.195559905254187,
+      "all_samples_recipe_snr_db": 30.3855503886121,
+      "max_absolute_recipe_error": 0.012447148561477661
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\paired-loop-v1\\Outpost-to-Shelter-loop-boundary-60s.mp3",
+      "sha256": "7d31178de74cf8c4ed78404bf4e8374fce76ab40c790cb20e45c9429b72026ca",
+      "duration_seconds": 60.0,
+      "decoded_frames_per_channel": 2880000,
+      "finite_unclipped": true,
+      "sample_peak_dbfs": -9.020979714568334,
+      "all_samples_recipe_snr_db": 30.386731275274215,
+      "max_absolute_recipe_error": 0.011959314346313477
+    }
+  ],
+  "master_levels": {
+    "integrated_lufs": -23.19,
+    "loudness_range_lu": 11.4,
+    "true_peak_dbtp": -8.63
+  },
+  "raw_join_checks": [
+    {
+      "sample_index": 0,
+      "rms_sample_step": 0.004224153701358459,
+      "nearby_step_p99_9": 0.009027586041807211,
+      "passed": true
+    },
+    {
+      "sample_index": 12000000,
+      "rms_sample_step": 0.004833960720753804,
+      "nearby_step_p99_9": 0.00938159227016609,
+      "passed": true
+    },
+    {
+      "sample_index": 12960000,
+      "rms_sample_step": 0.0019945276705062606,
+      "nearby_step_p99_9": 0.009233835261909504,
+      "passed": true
+    },
+    {
+      "sample_index": 24960000,
+      "rms_sample_step": 0.0023942557588139306,
+      "nearby_step_p99_9": 0.004345360656479046,
+      "passed": true
+    }
+  ],
+  "decoded_flac_join_checks": [
+    {
+      "sample_index": 0,
+      "rms_sample_step": 0.00422412786124469,
+      "nearby_step_p99_9": 0.009027581554715119,
+      "passed": true
+    },
+    {
+      "sample_index": 12000000,
+      "rms_sample_step": 0.004833895527891351,
+      "nearby_step_p99_9": 0.009381499347746753,
+      "passed": true
+    },
+    {
+      "sample_index": 12960000,
+      "rms_sample_step": 0.00199454878800974,
+      "nearby_step_p99_9": 0.009233866203796766,
+      "passed": true
+    },
+    {
+      "sample_index": 24960000,
+      "rms_sample_step": 0.002394254115637322,
+      "nearby_step_p99_9": 0.004345379819396811,
+      "passed": true
+    }
+  ],
+  "decoded_master_tail_head_vs_expected_max_error": 1.1897282092832029e-07,
+  "all_original_hashes_unchanged": true,
+  "full_source_and_output_audio_decode": true,
+  "assistant_listening": false,
+  "musical_approval": "User accepts delivered pair; see user-approval.json. Technical checks do not imply assistant listening."
+}

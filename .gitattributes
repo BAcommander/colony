@@ -295,3 +295,14 @@ music/sfx-library/previews/wind-soft-exterior-01.mp3 filter=lfs diff=lfs merge=l
 music/empty-junction-animation-v6/history/records-before-v6/** -whitespace
 music/deepwell-final-hour-v1/source-snapshot/** -whitespace
 music/empty-junction-final-hour-v1/source-snapshot/** -whitespace
+
+# Approved Below the Snowline music and source history.
+music/below-the-snowline-production-2026-11-01/paired-loop-v1/Below-the-Snowline-paired-loop-9min-v1.flac filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-production-2026-11-01/paired-loop-v1/Below-the-Snowline-paired-loop-9min-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-production-2026-11-01/paired-loop-v1/Outpost-to-Shelter-loop-boundary-60s.mp3 filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-production-2026-11-01/paired-loop-v1/Shelter-to-Outpost-transition-60s.mp3 filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-production-2026-11-01/sources/Frozen_Expanse_2026-11-01T232117.mp4 filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-production-2026-11-01/sources/Frozen_Outpost_2026-11-01T232117.mp4 filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-production-2026-11-01/sources/Outpost_on_the_Ice_2026-11-01T232735.mp4 filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-production-2026-11-01/sources/Shelter_on_the_Ice_Plain_2026-11-01T232735.mp4 filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-production-2026-11-01/history/** -whitespace

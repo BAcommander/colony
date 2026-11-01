@@ -1,0 +1,6 @@
+cache/
+sources/*.mp4
+
+paired-loop-v1/*.mp3
+paired-loop-v1/*.flac
+__pycache__/

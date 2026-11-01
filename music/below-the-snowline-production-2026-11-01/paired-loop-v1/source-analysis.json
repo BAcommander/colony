@@ -1,0 +1,514 @@
+{
+  "shelter-full": {
+    "schema_version": 1,
+    "title": "Shelter_on_the_Ice_Plain_2026-11-01T232735",
+    "created_at_utc": "2026-11-01T23:39:24.921245+00:00",
+    "source": {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\sources\\Shelter_on_the_Ice_Plain_2026-11-01T232735.mp4",
+      "sha256": "59345a428c9c8dd2eaeed31ef5c44e7e3e7cd996e89cd8708ce8453614b801d8",
+      "bytes": 7468573,
+      "metadata": {
+        "scope": "supplied local file"
+      }
+    },
+    "method": {
+      "resolution_seconds": 1,
+      "spectrum": "Hann-window stereo power, 8192 samples / 50% overlap, resampled 48 kHz",
+      "loudness": "FFmpeg ebur128 true peak",
+      "script_sha256": "0b863c8569e11f36a41b6c20cffea20db3dbd7917889fabd75a75c642a3c55d6",
+      "numpy_version": "2.4.4",
+      "ffmpeg_version": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    },
+    "limitations": [
+      "Signal measurements only; no assistant listening or instrument/vocal identification.",
+      "Spectral energy percentages are not perceived loudness percentages.",
+      "RMS is an unweighted level measure; LUFS/LRA/true peak are measured separately by FFmpeg.",
+      "Recurrence suggests similar patterns, not proven loops; stationary drones can look repetitive.",
+      "Change markers identify places to audition, not confirmed musical transitions.",
+      "Analysis cannot establish why a listener enjoys a track or predict retention/CTR."
+    ],
+    "measurements": {
+      "decoded_duration_seconds": 300.0,
+      "analysis_sample_rate": 48000,
+      "analysis_channels": 2,
+      "overall_rms_dbfs": -17.70342912778769,
+      "sample_peak_dbfs": -0.9876732464906751,
+      "rms_dbfs_p5_p50_p95": [
+        -37.27554230941403,
+        -19.163076327016775,
+        -13.418064909260844
+      ],
+      "rms_p95_minus_p5_db": 23.857477400153186,
+      "band_energy_percent": {
+        "Below 80 Hz": 0.04444246241251534,
+        "80\u00e2\u20ac\u201c250 Hz": 33.430038251547195,
+        "250 Hz\u00e2\u20ac\u201c1 kHz": 63.23927418362603,
+        "1\u00e2\u20ac\u201c4 kHz": 3.2845692717411947,
+        "4\u00e2\u20ac\u201c12 kHz": 0.0016352489175970378,
+        "12\u00e2\u20ac\u201c24 kHz": 4.058175545062468e-05
+      },
+      "stereo_correlation": 0.2867791295676894,
+      "side_energy_percent": 35.71117333886382,
+      "recurrence_candidates": [],
+      "audition_markers": [
+        {
+          "time_seconds": 5,
+          "change_score": 3.236
+        },
+        {
+          "time_seconds": 58,
+          "change_score": 2.171
+        },
+        {
+          "time_seconds": 94,
+          "change_score": 1.623
+        },
+        {
+          "time_seconds": 148,
+          "change_score": 1.664
+        },
+        {
+          "time_seconds": 193,
+          "change_score": 1.6
+        },
+        {
+          "time_seconds": 237,
+          "change_score": 1.529
+        },
+        {
+          "time_seconds": 269,
+          "change_score": 0.592
+        },
+        {
+          "time_seconds": 299,
+          "change_score": 3.238
+        }
+      ],
+      "integrated_lufs": -14.6,
+      "loudness_range_lu": 13.0,
+      "true_peak_dbtp": -1.0
+    }
+  },
+  "shelter-body": {
+    "schema_version": 1,
+    "title": "shelter-body",
+    "created_at_utc": "2026-11-01T23:40:08.037943+00:00",
+    "source": {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\cache\\shelter-body.flac",
+      "sha256": "4cb598a0c4a9b9687f491427522c60c126b065f31781d6640b84af37d4d1c871",
+      "bytes": 40336182,
+      "metadata": {
+        "scope": "supplied local file"
+      }
+    },
+    "method": {
+      "resolution_seconds": 1,
+      "spectrum": "Hann-window stereo power, 8192 samples / 50% overlap, resampled 48 kHz",
+      "loudness": "FFmpeg ebur128 true peak",
+      "script_sha256": "0b863c8569e11f36a41b6c20cffea20db3dbd7917889fabd75a75c642a3c55d6",
+      "numpy_version": "2.4.4",
+      "ffmpeg_version": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    },
+    "limitations": [
+      "Signal measurements only; no assistant listening or instrument/vocal identification.",
+      "Spectral energy percentages are not perceived loudness percentages.",
+      "RMS is an unweighted level measure; LUFS/LRA/true peak are measured separately by FFmpeg.",
+      "Recurrence suggests similar patterns, not proven loops; stationary drones can look repetitive.",
+      "Change markers identify places to audition, not confirmed musical transitions.",
+      "Analysis cannot establish why a listener enjoys a track or predict retention/CTR."
+    ],
+    "measurements": {
+      "decoded_duration_seconds": 240.0,
+      "analysis_sample_rate": 48000,
+      "analysis_channels": 2,
+      "overall_rms_dbfs": -17.11676102492831,
+      "sample_peak_dbfs": -0.987672666423809,
+      "rms_dbfs_p5_p50_p95": [
+        -26.626246486442618,
+        -18.419074019152227,
+        -13.197475264247917
+      ],
+      "rms_p95_minus_p5_db": 13.428771222194701,
+      "band_energy_percent": {
+        "Below 80 Hz": 0.04721962283350849,
+        "80\u00e2\u20ac\u201c250 Hz": 34.071847525236294,
+        "250 Hz\u00e2\u20ac\u201c1 kHz": 62.36738904523588,
+        "1\u00e2\u20ac\u201c4 kHz": 3.5118702247704694,
+        "4\u00e2\u20ac\u201c12 kHz": 0.0016342516929778665,
+        "12\u00e2\u20ac\u201c24 kHz": 3.933023088231164e-05
+      },
+      "stereo_correlation": 0.29104701211516487,
+      "side_energy_percent": 35.48664090968469,
+      "recurrence_candidates": [
+        {
+          "lag_seconds": 112,
+          "feature_autocorrelation": 0.1807,
+          "overlap_seconds": 128,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 112.11775,
+              "waveform_correlation": 0.1069
+            },
+            {
+              "start_seconds": 60.0,
+              "matched_lag_seconds": 115.0,
+              "waveform_correlation": 0.26727
+            },
+            {
+              "start_seconds": 116.0,
+              "matched_lag_seconds": 111.705,
+              "waveform_correlation": 0.12017
+            }
+          ]
+        },
+        {
+          "lag_seconds": 104,
+          "feature_autocorrelation": 0.1625,
+          "overlap_seconds": 136,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 103.24712,
+              "waveform_correlation": 0.06948
+            },
+            {
+              "start_seconds": 64.0,
+              "matched_lag_seconds": 104.75888,
+              "waveform_correlation": 0.18053
+            },
+            {
+              "start_seconds": 124.0,
+              "matched_lag_seconds": 104.00912,
+              "waveform_correlation": 0.15288
+            }
+          ]
+        },
+        {
+          "lag_seconds": 44,
+          "feature_autocorrelation": 0.1541,
+          "overlap_seconds": 196,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 44.10113,
+              "waveform_correlation": 0.11835
+            },
+            {
+              "start_seconds": 94.0,
+              "matched_lag_seconds": 41.00375,
+              "waveform_correlation": 0.08575
+            },
+            {
+              "start_seconds": 184.0,
+              "matched_lag_seconds": 44.05987,
+              "waveform_correlation": 0.13457
+            }
+          ]
+        }
+      ],
+      "audition_markers": [
+        {
+          "time_seconds": 28,
+          "change_score": 2.171
+        },
+        {
+          "time_seconds": 64,
+          "change_score": 1.623
+        },
+        {
+          "time_seconds": 118,
+          "change_score": 1.664
+        },
+        {
+          "time_seconds": 163,
+          "change_score": 1.6
+        },
+        {
+          "time_seconds": 207,
+          "change_score": 1.529
+        },
+        {
+          "time_seconds": 239,
+          "change_score": 0.592
+        }
+      ],
+      "integrated_lufs": -14.5,
+      "loudness_range_lu": 10.2,
+      "true_peak_dbtp": -1.0
+    }
+  },
+  "outpost-full": {
+    "schema_version": 1,
+    "title": "Outpost_on_the_Ice_2026-11-01T232735",
+    "created_at_utc": "2026-11-01T23:39:27.645528+00:00",
+    "source": {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\sources\\Outpost_on_the_Ice_2026-11-01T232735.mp4",
+      "sha256": "43ab763290108aa95a88b09ec43bd14169adecab34e05c52078f2d8e6e49a6eb",
+      "bytes": 7494198,
+      "metadata": {
+        "scope": "supplied local file"
+      }
+    },
+    "method": {
+      "resolution_seconds": 1,
+      "spectrum": "Hann-window stereo power, 8192 samples / 50% overlap, resampled 48 kHz",
+      "loudness": "FFmpeg ebur128 true peak",
+      "script_sha256": "0b863c8569e11f36a41b6c20cffea20db3dbd7917889fabd75a75c642a3c55d6",
+      "numpy_version": "2.4.4",
+      "ffmpeg_version": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    },
+    "limitations": [
+      "Signal measurements only; no assistant listening or instrument/vocal identification.",
+      "Spectral energy percentages are not perceived loudness percentages.",
+      "RMS is an unweighted level measure; LUFS/LRA/true peak are measured separately by FFmpeg.",
+      "Recurrence suggests similar patterns, not proven loops; stationary drones can look repetitive.",
+      "Change markers identify places to audition, not confirmed musical transitions.",
+      "Analysis cannot establish why a listener enjoys a track or predict retention/CTR."
+    ],
+    "measurements": {
+      "decoded_duration_seconds": 300.0,
+      "analysis_sample_rate": 48000,
+      "analysis_channels": 2,
+      "overall_rms_dbfs": -18.34930017230423,
+      "sample_peak_dbfs": -0.6323202116215281,
+      "rms_dbfs_p5_p50_p95": [
+        -39.89068235044874,
+        -21.67171836609131,
+        -13.812839225896372
+      ],
+      "rms_p95_minus_p5_db": 26.07784312455237,
+      "band_energy_percent": {
+        "Below 80 Hz": 0.08956178967591048,
+        "80\u00e2\u20ac\u201c250 Hz": 31.9458399021922,
+        "250 Hz\u00e2\u20ac\u201c1 kHz": 67.49978564041821,
+        "1\u00e2\u20ac\u201c4 kHz": 0.4644628442058613,
+        "4\u00e2\u20ac\u201c12 kHz": 0.0003258488811900904,
+        "12\u00e2\u20ac\u201c24 kHz": 2.3974626626877216e-05
+      },
+      "stereo_correlation": 0.2318052007969024,
+      "side_energy_percent": 38.45163653358204,
+      "recurrence_candidates": [
+        {
+          "lag_seconds": 90,
+          "feature_autocorrelation": 0.2419,
+          "overlap_seconds": 210,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 92.97387,
+              "waveform_correlation": 0.0736
+            },
+            {
+              "start_seconds": 101.0,
+              "matched_lag_seconds": 87.0035,
+              "waveform_correlation": 0.09616
+            },
+            {
+              "start_seconds": 198.0,
+              "matched_lag_seconds": 92.33088,
+              "waveform_correlation": 0.06161
+            }
+          ]
+        }
+      ],
+      "audition_markers": [
+        {
+          "time_seconds": 5,
+          "change_score": 2.884
+        },
+        {
+          "time_seconds": 65,
+          "change_score": 1.459
+        },
+        {
+          "time_seconds": 104,
+          "change_score": 2.773
+        },
+        {
+          "time_seconds": 134,
+          "change_score": 1.408
+        },
+        {
+          "time_seconds": 169,
+          "change_score": 1.222
+        },
+        {
+          "time_seconds": 216,
+          "change_score": 2.231
+        },
+        {
+          "time_seconds": 261,
+          "change_score": 1.31
+        },
+        {
+          "time_seconds": 299,
+          "change_score": 3.861
+        }
+      ],
+      "integrated_lufs": -15.4,
+      "loudness_range_lu": 13.5,
+      "true_peak_dbtp": -0.6
+    }
+  },
+  "outpost-body": {
+    "schema_version": 1,
+    "title": "outpost-body",
+    "created_at_utc": "2026-11-01T23:40:11.076134+00:00",
+    "source": {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\cache\\outpost-body.flac",
+      "sha256": "3ea10deb2ce2f21c275bb91135909d81329361b5f32c32c97ec0fa0e9970f6da",
+      "bytes": 38075863,
+      "metadata": {
+        "scope": "supplied local file"
+      }
+    },
+    "method": {
+      "resolution_seconds": 1,
+      "spectrum": "Hann-window stereo power, 8192 samples / 50% overlap, resampled 48 kHz",
+      "loudness": "FFmpeg ebur128 true peak",
+      "script_sha256": "0b863c8569e11f36a41b6c20cffea20db3dbd7917889fabd75a75c642a3c55d6",
+      "numpy_version": "2.4.4",
+      "ffmpeg_version": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    },
+    "limitations": [
+      "Signal measurements only; no assistant listening or instrument/vocal identification.",
+      "Spectral energy percentages are not perceived loudness percentages.",
+      "RMS is an unweighted level measure; LUFS/LRA/true peak are measured separately by FFmpeg.",
+      "Recurrence suggests similar patterns, not proven loops; stationary drones can look repetitive.",
+      "Change markers identify places to audition, not confirmed musical transitions.",
+      "Analysis cannot establish why a listener enjoys a track or predict retention/CTR."
+    ],
+    "measurements": {
+      "decoded_duration_seconds": 240.0,
+      "analysis_sample_rate": 48000,
+      "analysis_channels": 2,
+      "overall_rms_dbfs": -17.683213327904067,
+      "sample_peak_dbfs": -0.6323202116215281,
+      "rms_dbfs_p5_p50_p95": [
+        -29.873754342058206,
+        -17.93183152526982,
+        -13.58927085794645
+      ],
+      "rms_p95_minus_p5_db": 16.284483484111753,
+      "band_energy_percent": {
+        "Below 80 Hz": 0.0860123212038537,
+        "80\u00e2\u20ac\u201c250 Hz": 31.325893131398544,
+        "250 Hz\u00e2\u20ac\u201c1 kHz": 68.1192853753141,
+        "1\u00e2\u20ac\u201c4 kHz": 0.468479139398069,
+        "4\u00e2\u20ac\u201c12 kHz": 0.0003071738428832807,
+        "12\u00e2\u20ac\u201c24 kHz": 2.285884253808918e-05
+      },
+      "stereo_correlation": 0.23462898146062786,
+      "side_energy_percent": 38.31643738222542,
+      "recurrence_candidates": [
+        {
+          "lag_seconds": 110,
+          "feature_autocorrelation": 0.2844,
+          "overlap_seconds": 130,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 110.03538,
+              "waveform_correlation": 0.08388
+            },
+            {
+              "start_seconds": 61.0,
+              "matched_lag_seconds": 112.49462,
+              "waveform_correlation": 0.07889
+            },
+            {
+              "start_seconds": 118.0,
+              "matched_lag_seconds": 108.06925,
+              "waveform_correlation": 0.12183
+            }
+          ]
+        },
+        {
+          "lag_seconds": 90,
+          "feature_autocorrelation": 0.2053,
+          "overlap_seconds": 150,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 90.0015,
+              "waveform_correlation": 0.19006
+            },
+            {
+              "start_seconds": 71.0,
+              "matched_lag_seconds": 87.0035,
+              "waveform_correlation": 0.09616
+            },
+            {
+              "start_seconds": 138.0,
+              "matched_lag_seconds": 91.991,
+              "waveform_correlation": 0.17004
+            }
+          ]
+        },
+        {
+          "lag_seconds": 118,
+          "feature_autocorrelation": 0.1915,
+          "overlap_seconds": 122,
+          "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+          "waveform_checks": [
+            {
+              "start_seconds": 4.0,
+              "matched_lag_seconds": 120.45725,
+              "waveform_correlation": 0.07499
+            },
+            {
+              "start_seconds": 57.0,
+              "matched_lag_seconds": 115.3765,
+              "waveform_correlation": 0.06698
+            },
+            {
+              "start_seconds": 110.0,
+              "matched_lag_seconds": 115.94988,
+              "waveform_correlation": 0.11926
+            }
+          ]
+        }
+      ],
+      "audition_markers": [
+        {
+          "time_seconds": 5,
+          "change_score": 0.871
+        },
+        {
+          "time_seconds": 35,
+          "change_score": 1.459
+        },
+        {
+          "time_seconds": 74,
+          "change_score": 2.773
+        },
+        {
+          "time_seconds": 104,
+          "change_score": 1.408
+        },
+        {
+          "time_seconds": 139,
+          "change_score": 1.222
+        },
+        {
+          "time_seconds": 186,
+          "change_score": 2.231
+        },
+        {
+          "time_seconds": 231,
+          "change_score": 1.31
+        }
+      ],
+      "integrated_lufs": -15.0,
+      "loudness_range_lu": 11.8,
+      "true_peak_dbtp": -0.6
+    }
+  }
+}

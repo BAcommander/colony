@@ -1,5 +1,8 @@
 # November 2026 — four ambient soundtrack briefs
 
+Below the Snowline update(2026-11-01): [nine-minute paired soundtrack approved](../../../music/below-the-snowline-production-2026-11-01/paired-loop-v1/README.md), from two supplied five-minute extensions. The user prefers the overall Hoth/SWTOR atmosphere. Exact generation wording remains unverified. Earlier proposed pilot durations below are historical; animation/thumbnail/SFX and full-length assembly remain pending.
+
+
 Current update (2026-11-01): Junction and Deepwell now have supplied music, accepted mixes and completed exports; their actual generation wording/settings remain unconfirmed. The historical ungenerated status below describes the original brief-preparation checkpoint, not the current production state. [New learnings and four duration-free review drafts](../../../music/prompt-learnings-2026-11-01/README.md), [SFX library](../../../music/sfx-library/index.html). Review drafts are ungenerated and do not replace canonical V3 prompts.
 
 User-confirmed lineup, 2026-10-30: **11 The Empty Junction, 12 Deepwell Station, 13 Below the Snowline, 14 Crater Rim Survey**. This is the working order, not assigned publication dates or a new automation.

@@ -1,0 +1,50 @@
+# Ambient Colony - final exports
+
+Catalog 15 — [Cyberpunk Apartment](15-cyberpunk-apartment/README.md) was imported on 2026-10-25 with its existing V3 loop, source and reproduction notes. Its Colony thumbnail, metadata, music and final assembly are pending.
+
+Planning and next actions: [production pipeline and release tracker](../PRODUCTION_PIPELINE.md). This separates completed assets from remaining motion, music, assembly, review and backup work.
+
+Three original approved video packages (01-03), Floodplain (04) with an accepted animation look and verified one-hour 4K Colony export, Saltline (05) with an accepted v5 look and technically verified two-hour 4K Colony export awaiting combined review, and accepted clean artwork for 06-07 with new thumbnails pending review. Packages 08-10 have selected artwork, thumbnails pending review, metadata and music prompts. Packages 11-14 have user-approved artwork/thumbnail packages (2026-09-29), metadata and music/motion briefs. Number 06 now has an accepted v3 animation look, verified twenty-second 4K master and finished two-hour Colony export awaiting combined review; animations for 07-14 have not been produced. Exact image prompts, provenance and current approval scope are recorded per package.
+
+Packages 04-05 also contain revised text-free `artwork-v2-animation.png` candidates with the stronger thumbnail lighting. Their `animation-prep-v1/` folders contain source-coordinate draft masks, scene plans and production briefs; the 04 preparation is now historical (see its current assembly-v1 package); 05 has the current v7 minute-long delivery in music/saltline-animation-v1. Original selected artwork and thumbnails remain unchanged.
+
+All packages 01-14 include `description.txt` and `youtube-tags.txt` for copying into YouTube Studio. The search-tag list is comma-separated and below 500 characters per video. Read [DESCRIPTION_STYLE.md](DESCRIPTION_STYLE.md) for the shared voice, approved sign-off and metadata conventions.
+
+Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subscribe-v1/README.md). Green-screen and transparent exports are local review files until accepted; the source renderer, fonts and production notes are portable.
+
+| Package | Loop | Thumbnail |
+| --- | --- | --- |
+| [01 - Ringfall Observatory](01-ringfall-observatory/) | [20 seconds, 4K](01-ringfall-observatory/video-4k.mp4) | [JPEG](01-ringfall-observatory/thumbnail-v1.jpg) |
+| [02 - Basalt Transmission](02-basalt-transmission/) | [20 seconds, 4K](02-basalt-transmission/video-4k.mp4) | [JPEG](02-basalt-transmission/thumbnail-v1.jpg) |
+| [03 - Glacier Sanctuary](03-glacier-sanctuary/) | [60 seconds, 4K](03-glacier-sanctuary/video-4k.mp4) | [JPEG](03-glacier-sanctuary/thumbnail-v1.jpg) |
+| [04 - Floodplain Keeper](04-floodplain-keeper/) | [20 seconds, 4K](04-floodplain-keeper/video-4k-v2.mp4); [one-hour export](04-floodplain-keeper/assembly-v1/README.md) | [JPEG](04-floodplain-keeper/thumbnail-v1.jpg) |
+| [05 - Saltline Receiver](05-saltline-receiver/) | [60 seconds, 4K v7](05-saltline-receiver/video-4k-v7-60s.mp4); [two-hour export](05-saltline-receiver/assembly-v1/README.md) | [JPEG](05-saltline-receiver/thumbnail-v1.jpg) |
+| [06 - The Last Cable Station](06-last-cable-station/) | [Final edit v3](06-last-cable-station/artwork-v3-final.png); no video yet | [JPEG](06-last-cable-station/thumbnail-v1.jpg) |
+| [07 - Icebound Weather Post](07-icebound-weather-post/) | [Final edit v3](07-icebound-weather-post/artwork-v3-final.png); no video yet | [JPEG](07-icebound-weather-post/thumbnail-v1.jpg) |
+| [08 - Rainline Relay](08-rainline-relay/) | [Selected artwork](08-rainline-relay/artwork-v1.png); no video yet | [JPEG](08-rainline-relay/thumbnail-v1.jpg) |
+| [09 - The Shoreless Colony](09-offshore-night-office/) | [Selected artwork](09-offshore-night-office/artwork-v1.png); no video yet | [JPEG](09-offshore-night-office/thumbnail-v2.jpg) |
+| [10 - Farpoint Station](10-nightward-station/) | [Selected artwork](10-nightward-station/artwork-v3-close-world-leds.png); no video yet | [JPEG](10-nightward-station/thumbnail-v2.jpg) |
+| [11 - The Empty Junction](11-empty-junction/) | [Selected v2 artwork](11-empty-junction/artwork-v2.png); no video yet | [JPEG](11-empty-junction/thumbnail-v1.jpg) |
+| [12 - Deepwell Station](12-deepwell-station/) | [Selected v2 artwork](12-deepwell-station/artwork-v2.png); no video yet | [JPEG](12-deepwell-station/thumbnail-v1.jpg) |
+| [13 - Below the Snowline](13-below-the-snowline/) | [Selected v2 artwork](13-below-the-snowline/artwork-v2.png); no video yet | [JPEG](13-below-the-snowline/thumbnail-v1.jpg) |
+| [14 - Crater Rim Survey](14-crater-rim-survey/) | [Selected v2 artwork](14-crater-rim-survey/artwork-v2.png); no video yet | [JPEG](14-crater-rim-survey/thumbnail-v1.jpg) |
+| [15 - Cyberpunk Apartment](15-cyberpunk-apartment/) | [10 seconds, 4K/60fps V3](15-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-4K.mp4) | Pending |
+
+The short masters listed here are 3840x2160, 30 fps and silent, with upscaled source artwork. Long music-video exports are tracked separately through each assembly package and the local inventory. Approved copied media retain their original production paths. Saltline v7 is a new requested delivery with a separate pending visual-review status.
+
+Read [THUMBNAIL_STYLE.md](THUMBNAIL_STYLE.md) before producing the next thumbnail. The user approved this set on 2026-09-25: "man they look awesome". PNGs are the generated masters; JPEGs are 1280x720 exports. `catalog.json` indexes the packages.
+
+After cloning with Git LFS installed, run `git lfs pull`. Video paths use exact LFS rules. Saltline v7 is included by explicit commit/push request, with its visual review still pending; review previews remain local ignored files. Compare hashes in each package's `manifest.json`; `remote-backup.json` records independent remote download verification once completed. Drafts, caches and long repeated videos are excluded.
+
+![Ringfall Observatory](01-ringfall-observatory/thumbnail-v1.jpg)
+
+![Basalt Transmission](02-basalt-transmission/thumbnail-v1.jpg)
+
+![Glacier Sanctuary](03-glacier-sanctuary/thumbnail-v1.jpg)
+
+Long upload videos and soundtrack repeats now live in the ignored `../exports/` folder. See [storage policy](../EXPORTS.md) and [local inventory](local-export-inventory.json). The short tracked masters listed above stay here.
+
+Packages 04-14 also contain suggested `youtube-title.txt` and `music/` with one-minute test prompts, longer-piece prompts and manual generation/listening instructions. Floodplain now has a delivered one-hour soundtrack and assembled video; other preparation-only scenes retain their own pending audio status.
+
+
+Release numbering 11-14 maps to creative concepts 17-20 respectively: The Empty Junction, Deepwell Station, Below the Snowline and Crater Rim Survey. Creative IDs are permanent provenance paths, not public catalog numbers. Each new package also includes a proposed motion brief; no masks or renderer adapters have been built.

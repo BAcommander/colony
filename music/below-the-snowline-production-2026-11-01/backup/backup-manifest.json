@@ -1,0 +1,336 @@
+{
+  "branch": "codex/empty-junction-backup-2026-11-01",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "5502712396ebe6c9b34f2d5b78a36f3d5a6670b4281294ba8a784e678002cd1a",
+      "bytes": 27387,
+      "storage": "git"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "c7103f097cd47d962b5dce2246aa32d5b87c0d052da321edc80ddc995891f370",
+      "bytes": 108062,
+      "storage": "git"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "sha256": "00cd3b4f4614fdf248ddc8c21b40b198b70518cf8cb8deae0e94f79da06271d1",
+      "bytes": 45504,
+      "storage": "git"
+    },
+    {
+      "path": "creative/music/november-2026/README.md",
+      "sha256": "44b61a659c4e9dd967081e168e8dae4785e751aa16bc09735800cb41c519e546",
+      "bytes": 5500,
+      "storage": "git"
+    },
+    {
+      "path": "creative/music/november-2026/month-plan.json",
+      "sha256": "8f8cffb7b07ba2f24b3018eeb643bc9e5d4582a8250680ba0f7e083e4b9613fb",
+      "bytes": 7981,
+      "storage": "git"
+    },
+    {
+      "path": "final/13-below-the-snowline/README.md",
+      "sha256": "0c183f375d7515e7f0451b53b853b8b6e9340fd2f2d0215c3875a9c4847af739",
+      "bytes": 2550,
+      "storage": "git"
+    },
+    {
+      "path": "final/13-below-the-snowline/description.txt",
+      "sha256": "66f9c5586f9030c8f33a8acfde1d3ae1b6fade1b8a1110f2dcded1999cdd6271",
+      "bytes": 662,
+      "storage": "git"
+    },
+    {
+      "path": "final/13-below-the-snowline/music/README.md",
+      "sha256": "4737e8cc1795fe7bed295621aecfbb949243eb6e66fd2f2709e237892a28d22e",
+      "bytes": 2358,
+      "storage": "git"
+    },
+    {
+      "path": "final/13-below-the-snowline/music/generation-record.json",
+      "sha256": "1f0910696fdaaf23c86585a0890155f79c33303483cc9ee8edd703948a8aa980",
+      "bytes": 2429,
+      "storage": "git"
+    },
+    {
+      "path": "final/13-below-the-snowline/youtube-tags.txt",
+      "sha256": "c0457b73d51b5ac29a33d37a0dcbdfbe460ed930505877311b896a93aeaf693e",
+      "bytes": 278,
+      "storage": "git"
+    },
+    {
+      "path": "final/13-below-the-snowline/youtube-title.txt",
+      "sha256": "3bfe35956647e97fda45d942d5dd60be4c7e56ae05e4802fb27d13a684ab7a11",
+      "bytes": 65,
+      "storage": "git"
+    },
+    {
+      "path": "final/README.md",
+      "sha256": "222298d2b1a214ea596465f3a6ab27dd6e9a0e8bd9dc884c8478933b22499447",
+      "bytes": 7332,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/.gitignore",
+      "sha256": "470fe6867bcbb6837e984673912ea3e15d8662e8efd74a61d08bfbc6956ba01c",
+      "bytes": 78,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/README.md",
+      "sha256": "af29209cecb68b91c8438529abaeeb998239f6aae3ce7ef54ee4b7cc7f482d46",
+      "bytes": 2666,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/backup/.gitignore",
+      "sha256": "bcef6b9a00bf502aba74ca94f406a802b820f7d7acb8cd9971aa387784148a50",
+      "bytes": 39,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/backup/selection.json",
+      "sha256": "2ca73f20dc3f1f2f391079a817009847bd2eebd387fe86ca5558f1561e751b3f",
+      "bytes": 3330,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/backup/verify_remote.py",
+      "sha256": "5095a6dc28ca3dbec323258c5eecf1377d30d0d93adbf463cbcaf61f626e5f4f",
+      "bytes": 1702,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/history/before-approved-soundtrack/AGENTS.md",
+      "sha256": "13f027b4a11c60c945b616b4634197cb62ab25f3285d75f0199566088b8b9e33",
+      "bytes": 106974,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/history/before-approved-soundtrack/PRODUCTION_PIPELINE.md",
+      "sha256": "936ce2b21e15c0b3d98c5a5849f9c2519e5ae31da7be01b20fc06fef6af448ea",
+      "bytes": 45484,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/history/before-approved-soundtrack/creative/music/november-2026/README.md",
+      "sha256": "d3f2320c59965fec6dea4bc420b138e296d1822f0cb89ef6172c013d05f83b4b",
+      "bytes": 5074,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/history/before-approved-soundtrack/creative/music/november-2026/month-plan.json",
+      "sha256": "3dd4235eca798abd6aeb8dba8ce52c227ef1f06627bd2be16bff5929ba8b2406",
+      "bytes": 6126,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/history/before-approved-soundtrack/final/13-below-the-snowline/README.md",
+      "sha256": "b63cc258e5adee059183852b52f7633949b516b10f2597c58db42aaaea63ca72",
+      "bytes": 2682,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/history/before-approved-soundtrack/final/13-below-the-snowline/description.txt",
+      "sha256": "4b61096c07664e54584675a6b0c3f4f9c354cb2b520e09466dc88b3bde1d1c18",
+      "bytes": 510,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/history/before-approved-soundtrack/final/13-below-the-snowline/music/README.md",
+      "sha256": "3e14a3d0f097ebc70969340d5625d3eb9a832c69e1eb91e8c55f694b43e07060",
+      "bytes": 3523,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/history/before-approved-soundtrack/final/13-below-the-snowline/music/generation-record.json",
+      "sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c",
+      "bytes": 603,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/history/before-approved-soundtrack/final/13-below-the-snowline/youtube-tags.txt",
+      "sha256": "2d1e8c8e78eec9358e83d2d823ddafd9e981bcb20893d694f0354a53477d1fe4",
+      "bytes": 296,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/history/before-approved-soundtrack/final/13-below-the-snowline/youtube-title.txt",
+      "sha256": "92284e56442afb5a60f851b7b8aff08fd4aad474b7153feaace76b2fdee4790d",
+      "bytes": 57,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/history/before-approved-soundtrack/final/README.md",
+      "sha256": "65297a37add1cea72976c701e1d4f7f232ab12a9ce3585435be9f96ae7ac3cda",
+      "bytes": 7047,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/history/before-approved-soundtrack/music/below-the-snowline-production-2026-11-01/README.md",
+      "sha256": "9e7b18c5a9841762efe307a39be621e72734d2e01259506e0631eac6116b2643",
+      "bytes": 2278,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/history/before-approved-soundtrack/music/below-the-snowline-production-2026-11-01/paired-loop-v1/README.md",
+      "sha256": "d60c86aeab7f63faeda884a3d5526a25df5b8c999d278f7af3badfdba4cf7ae0",
+      "bytes": 4252,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/Below-the-Snowline-paired-loop-9min-v1.flac",
+      "sha256": "987b1509075da8a9202f24a6b765f4e2b6d88d90cb90c28bdaf8719af77b252b",
+      "bytes": 77189149,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/Below-the-Snowline-paired-loop-9min-v1.mp3",
+      "sha256": "e81beb635c121b5f68e43c889f0ab6df2eb4e3094f7b3595eba060792c4ead93",
+      "bytes": 12961196,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/Outpost-to-Shelter-loop-boundary-60s.mp3",
+      "sha256": "7d31178de74cf8c4ed78404bf4e8374fce76ab40c790cb20e45c9429b72026ca",
+      "bytes": 1441196,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/README.md",
+      "sha256": "adba94961eb697fbe67301b186fcee917e708562e100d049e285555d98ff12c7",
+      "bytes": 4726,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/Shelter-to-Outpost-transition-60s.mp3",
+      "sha256": "e48cf9c7fb2690e7dba9f34862cc80f6f582e8e5aa917dbcf755d7d53e6bc062",
+      "bytes": 1441196,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/analysis/outpost-body.json",
+      "sha256": "c3bd0908479d6db48312fe811216c03c3405391b95177b2a23b3ce92760433ef",
+      "bytes": 118133,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/analysis/outpost-full.json",
+      "sha256": "a92450b20158bd35eeb4b0932245868deec8ac1ba16e94a2b06d4f02efec298e",
+      "bytes": 145096,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/analysis/shelter-body.json",
+      "sha256": "5d52f02878d0e05f0921d8d722869e214e5aeb92b113ce2f2e9bd8cdab8a765c",
+      "bytes": 117882,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/analysis/shelter-full.json",
+      "sha256": "f34f47ce92d69a22d40b9fdc396acc9f11457948be843de8b1414d074062b408",
+      "bytes": 144168,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/build.py",
+      "sha256": "cb742d08154940503e7e31801456f29c79b20e13b237aac53d0696ff59e5b147",
+      "bytes": 7983,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/delivery-validation.json",
+      "sha256": "b6b75b693295d1c073d162c34c24cd72329ea52c32b939c050a51edd46ae4912",
+      "bytes": 3842,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/mix-recipe.json",
+      "sha256": "9d429c84d6fff672a10aecc5906dd4d52356976068ed9cb96503386467791906",
+      "bytes": 3047,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/source-analysis.json",
+      "sha256": "077a330501ecd7ddab2f4c957c56179e8a41253516cb45f7c60f0d89a7d99fa5",
+      "bytes": 17852,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/user-approval.json",
+      "sha256": "93ae94326fa7fb7859a466323615bf0f3d65f77f132dd06d990188dc93889155",
+      "bytes": 653,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/prepare_backup.py",
+      "sha256": "3d6af50f5305f566a2fcba48c47295ef868da40ef59a9689e5545eda5cf1b5e8",
+      "bytes": 3583,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/sample-intake.json",
+      "sha256": "f37a636d786ae88382217d72e33eda81fc315a248075fbb12a04b57204b267cc",
+      "bytes": 11232,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/sources/Frozen_Expanse_2026-11-01T232117.mp4",
+      "sha256": "f3427e4c0dea1895a561d9dfdb66a5c2ea40de814a6092c7b7f9d881cedac745",
+      "bytes": 1509336,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/sources/Frozen_Outpost_2026-11-01T232117.mp4",
+      "sha256": "67382e6f4145074f8ea403a6f106687710a16fb21435fc17fd2e2a85a0f6e613",
+      "bytes": 1491660,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/sources/Outpost_on_the_Ice_2026-11-01T232735.mp4",
+      "sha256": "43ab763290108aa95a88b09ec43bd14169adecab34e05c52078f2d8e6e49a6eb",
+      "bytes": 7494198,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/sources/Shelter_on_the_Ice_Plain_2026-11-01T232735.mp4",
+      "sha256": "59345a428c9c8dd2eaeed31ef5c44e7e3e7cd996e89cd8708ce8453614b801d8",
+      "bytes": 7468573,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-production-2026-11-01/update_release.py",
+      "sha256": "b3377ee4901eb185369963509c281105fc191ebb7b740b77b8cebb0d6fa6d399",
+      "bytes": 14191,
+      "storage": "git"
+    },
+    {
+      "path": "music/hoth-reference-analysis-2026-11-01/.gitignore",
+      "sha256": "c2e96c83bf636bce02ba317c77b9670ceeb39718d88b3632f61e9a29951364fc",
+      "bytes": 8,
+      "storage": "git"
+    },
+    {
+      "path": "music/hoth-reference-analysis-2026-11-01/README.md",
+      "sha256": "382ae044358147d3b1c032f7daf88b7f772c020f2858b8e17c1c383abf803f2a",
+      "bytes": 3463,
+      "storage": "git"
+    },
+    {
+      "path": "music/hoth-reference-analysis-2026-11-01/below-the-snowline-reference-test-prompt.txt",
+      "sha256": "5f01abbde456134b4747b202676d52a6bf38226d79ea5ab0b918cb571ae7d77d",
+      "bytes": 1281,
+      "storage": "git"
+    },
+    {
+      "path": "music/hoth-reference-analysis-2026-11-01/measurements.json",
+      "sha256": "698b5e30b5958d0bd18c0ad26c62d4a2f04ca107c25182815b7d8472cc97237d",
+      "bytes": 9228,
+      "storage": "git"
+    }
+  ],
+  "note": "Hash values for ordinary Git files describe staged blobs after line-ending handling. Manifest omits itself to avoid circular hash."
+}

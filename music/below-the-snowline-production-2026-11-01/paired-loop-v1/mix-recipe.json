@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-01",
+  "user_request": "Analyse and pair both five-minute tracks into a potentially loopable ten-minute file",
+  "duration_preference": "Natural transitions, roughly 9–10 minutes (recommended)",
+  "status": "User-approved paired music loop",
+  "sources": [
+    {
+      "title": "shelter",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Shelter_on_the_Ice_Plain_2026-11-01T232735.mp4",
+      "copy_path": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\sources\\Shelter_on_the_Ice_Plain_2026-11-01T232735.mp4",
+      "source_sha256": "59345a428c9c8dd2eaeed31ef5c44e7e3e7cd996e89cd8708ce8453614b801d8",
+      "source_seconds": 300,
+      "selected_source_range_seconds": [
+        4,
+        294
+      ],
+      "gain_db": -8.5,
+      "gain_basis": "Fixed gain toward -23 LUFS over source 30–270s; no dynamic normalization"
+    },
+    {
+      "title": "outpost",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Outpost_on_the_Ice_2026-11-01T232735.mp4",
+      "copy_path": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\sources\\Outpost_on_the_Ice_2026-11-01T232735.mp4",
+      "source_sha256": "43ab763290108aa95a88b09ec43bd14169adecab34e05c52078f2d8e6e49a6eb",
+      "source_seconds": 300,
+      "selected_source_range_seconds": [
+        4,
+        294
+      ],
+      "gain_db": -8.0,
+      "gain_basis": "Fixed gain toward -23 LUFS over source 30–270s; no dynamic normalization"
+    }
+  ],
+  "duration_seconds": 540,
+  "sample_rate": 48000,
+  "channels": 2,
+  "start_phase": "Shelter source24s: starts inside the active music to make a circular loop",
+  "timeline": [
+    {
+      "range_seconds": [
+        0,
+        250
+      ],
+      "content": "Shelter source24–274s"
+    },
+    {
+      "range_seconds": [
+        250,
+        270
+      ],
+      "content": "Shelter274–294s into Outpost4–24s"
+    },
+    {
+      "range_seconds": [
+        270,
+        520
+      ],
+      "content": "Outpost24–274s"
+    },
+    {
+      "range_seconds": [
+        520,
+        540
+      ],
+      "content": "Outpost274–294s into Shelter4–24s; continues at file start"
+    }
+  ],
+  "crossfade": "20s equal-power cosine/sine at both joins",
+  "duration_arithmetic": "600s minus 20s total source-edge trims minus two20s overlaps =540s",
+  "processing": "Fixed gains, edge trims and crossfades only; no EQ, compression, pitch changes, time stretch, SFX or added opening/closing fade",
+  "trim_reason": "Remove first4s near-silence and last6s deep terminal fade; incoming quiet heads are covered by preceding tails. Musical suitability remains a listening decision.",
+  "assistant_listening": false,
+  "user_join_approval": true,
+  "preview_timing": "Both60s excerpts crossfade at0:20–0:40; boundary excerpt crosses actual file end/start at0:40",
+  "playback_note": "FLAC is the gapless assembly master. A player may insert pauses between repeated files; use gapless playback or concatenate decoded audio. MP3 is a listening copy.",
+  "approval_record": "user-approval.json"
+}

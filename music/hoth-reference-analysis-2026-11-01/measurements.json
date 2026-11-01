@@ -1,0 +1,296 @@
+{
+  "title": "Hoth, The Frozen Wastes",
+  "artist_from_embedded_tags": "Wilbert Roget, II",
+  "official_source_page": "https://www.swtor.com/info/news/news-article/20111201",
+  "official_download": "https://cdn-www.swtor.com/sites/all/files/en/misc/music/20111220_bt30/TOR_20_02_hoth_the_frozen_wastes.mp3",
+  "source_sha256": "c9156f9c82eada97419ee0e5f9ddd170d43f2fb8db1cbd78221db478dd0defd8",
+  "scope": "Complete official download; decoded 386.0636875 seconds",
+  "user_preference": "The overall atmosphere across the track",
+  "method": {
+    "resolution_seconds": 1,
+    "spectrum": "Hann-window stereo power, 8192 samples / 50% overlap, resampled 48 kHz",
+    "loudness": "FFmpeg ebur128 true peak",
+    "script_sha256": "0b863c8569e11f36a41b6c20cffea20db3dbd7917889fabd75a75c642a3c55d6",
+    "numpy_version": "2.4.4",
+    "ffmpeg_version": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "limitations": [
+    "Signal measurements only; no assistant listening or instrument/vocal identification.",
+    "Spectral energy percentages are not perceived loudness percentages.",
+    "RMS is an unweighted level measure; LUFS/LRA/true peak are measured separately by FFmpeg.",
+    "Recurrence suggests similar patterns, not proven loops; stationary drones can look repetitive.",
+    "Change markers identify places to audition, not confirmed musical transitions.",
+    "Analysis cannot establish why a listener enjoys a track or predict retention/CTR."
+  ],
+  "full": {
+    "decoded_duration_seconds": 386.0636875,
+    "analysis_sample_rate": 48000,
+    "analysis_channels": 2,
+    "overall_rms_dbfs": -22.265445953949442,
+    "sample_peak_dbfs": -0.12558694440964616,
+    "rms_dbfs_p5_p50_p95": [
+      -46.17803725784013,
+      -25.53053187113452,
+      -17.02757134100123
+    ],
+    "rms_p95_minus_p5_db": 29.1504659168389,
+    "band_energy_percent": {
+      "Below 80 Hz": 8.318297193674052,
+      "80–250 Hz": 42.61816627568316,
+      "250 Hz–1 kHz": 42.98041222453286,
+      "1–4 kHz": 5.936605503895389,
+      "4–12 kHz": 0.1437656512091089,
+      "12–24 kHz": 0.002753151005433151
+    },
+    "stereo_correlation": 0.2141598111857527,
+    "side_energy_percent": 39.30528971405211,
+    "recurrence_candidates": [
+      {
+        "lag_seconds": 135,
+        "feature_autocorrelation": 0.2386,
+        "overlap_seconds": 251,
+        "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+        "waveform_checks": [
+          {
+            "start_seconds": 4.0,
+            "matched_lag_seconds": 136.43312,
+            "waveform_correlation": 0.03509
+          },
+          {
+            "start_seconds": 121.532,
+            "matched_lag_seconds": 136.26063,
+            "waveform_correlation": 0.01948
+          },
+          {
+            "start_seconds": 239.064,
+            "matched_lag_seconds": 133.1615,
+            "waveform_correlation": 0.00959
+          }
+        ]
+      },
+      {
+        "lag_seconds": 129,
+        "feature_autocorrelation": 0.2265,
+        "overlap_seconds": 257,
+        "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+        "waveform_checks": [
+          {
+            "start_seconds": 4.0,
+            "matched_lag_seconds": 129.03825,
+            "waveform_correlation": 0.03177
+          },
+          {
+            "start_seconds": 124.532,
+            "matched_lag_seconds": 129.70513,
+            "waveform_correlation": 0.01645
+          },
+          {
+            "start_seconds": 245.064,
+            "matched_lag_seconds": 130.07012,
+            "waveform_correlation": 0.01096
+          }
+        ]
+      },
+      {
+        "lag_seconds": 122,
+        "feature_autocorrelation": 0.1717,
+        "overlap_seconds": 264,
+        "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+        "waveform_checks": [
+          {
+            "start_seconds": 4.0,
+            "matched_lag_seconds": 124.79112,
+            "waveform_correlation": 0.0444
+          },
+          {
+            "start_seconds": 128.032,
+            "matched_lag_seconds": 124.85513,
+            "waveform_correlation": 0.01032
+          },
+          {
+            "start_seconds": 252.064,
+            "matched_lag_seconds": 120.54913,
+            "waveform_correlation": 0.01111
+          }
+        ]
+      }
+    ],
+    "audition_markers": [
+      {
+        "time_seconds": 5,
+        "change_score": 6.108
+      },
+      {
+        "time_seconds": 38,
+        "change_score": 3.396
+      },
+      {
+        "time_seconds": 118,
+        "change_score": 3.351
+      },
+      {
+        "time_seconds": 163,
+        "change_score": 2.785
+      },
+      {
+        "time_seconds": 193,
+        "change_score": 3.184
+      },
+      {
+        "time_seconds": 241,
+        "change_score": 3.517
+      },
+      {
+        "time_seconds": 320,
+        "change_score": 2.919
+      },
+      {
+        "time_seconds": 384,
+        "change_score": 5.467
+      }
+    ],
+    "integrated_lufs": -18.7,
+    "loudness_range_lu": 18.2,
+    "true_peak_dbtp": -0.1
+  },
+  "interior_20_to_360_seconds": {
+    "decoded_duration_seconds": 340.0,
+    "analysis_sample_rate": 48000,
+    "analysis_channels": 2,
+    "overall_rms_dbfs": -22.24967199357922,
+    "sample_peak_dbfs": -0.12558694440964616,
+    "rms_dbfs_p5_p50_p95": [
+      -45.25036997465096,
+      -26.324658260485037,
+      -16.799736952370118
+    ],
+    "rms_p95_minus_p5_db": 28.45063302228084,
+    "band_energy_percent": {
+      "Below 80 Hz": 9.363182307554135,
+      "80–250 Hz": 43.25606777343815,
+      "250 Hz–1 kHz": 41.161950094404034,
+      "1–4 kHz": 6.072489794130509,
+      "4–12 kHz": 0.1435873999586266,
+      "12–24 kHz": 0.002722630514551029
+    },
+    "stereo_correlation": 0.200499412595675,
+    "side_energy_percent": 39.987664780464165,
+    "recurrence_candidates": [
+      {
+        "lag_seconds": 126,
+        "feature_autocorrelation": 0.2595,
+        "overlap_seconds": 214,
+        "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+        "waveform_checks": [
+          {
+            "start_seconds": 4.0,
+            "matched_lag_seconds": 128.99138,
+            "waveform_correlation": 0.05674
+          },
+          {
+            "start_seconds": 103.0,
+            "matched_lag_seconds": 126.79375,
+            "waveform_correlation": 0.02036
+          },
+          {
+            "start_seconds": 202.0,
+            "matched_lag_seconds": 128.46125,
+            "waveform_correlation": 0.04994
+          }
+        ]
+      },
+      {
+        "lag_seconds": 135,
+        "feature_autocorrelation": 0.2102,
+        "overlap_seconds": 205,
+        "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+        "waveform_checks": [
+          {
+            "start_seconds": 4.0,
+            "matched_lag_seconds": 137.07975,
+            "waveform_correlation": 0.04914
+          },
+          {
+            "start_seconds": 98.5,
+            "matched_lag_seconds": 137.26975,
+            "waveform_correlation": 0.01761
+          },
+          {
+            "start_seconds": 193.0,
+            "matched_lag_seconds": 137.5565,
+            "waveform_correlation": 0.01488
+          }
+        ]
+      },
+      {
+        "lag_seconds": 112,
+        "feature_autocorrelation": 0.1971,
+        "overlap_seconds": 228,
+        "status": "sampled waveform similarity only; review listening and timing before claiming a full loop",
+        "waveform_checks": [
+          {
+            "start_seconds": 4.0,
+            "matched_lag_seconds": 113.4015,
+            "waveform_correlation": 0.05199
+          },
+          {
+            "start_seconds": 110.0,
+            "matched_lag_seconds": 114.17975,
+            "waveform_correlation": 0.00799
+          },
+          {
+            "start_seconds": 216.0,
+            "matched_lag_seconds": 113.56137,
+            "waveform_correlation": 0.01954
+          }
+        ]
+      },
+      {
+        "lag_seconds": 105,
+        "feature_autocorrelation": 0.1527,
+        "overlap_seconds": 235,
+        "status": "candidate; audition required"
+      }
+    ],
+    "audition_markers": [
+      {
+        "time_seconds": 18,
+        "change_score": 3.396
+      },
+      {
+        "time_seconds": 61,
+        "change_score": 2.089
+      },
+      {
+        "time_seconds": 98,
+        "change_score": 3.351
+      },
+      {
+        "time_seconds": 143,
+        "change_score": 2.785
+      },
+      {
+        "time_seconds": 173,
+        "change_score": 3.184
+      },
+      {
+        "time_seconds": 221,
+        "change_score": 3.517
+      },
+      {
+        "time_seconds": 267,
+        "change_score": 1.43
+      },
+      {
+        "time_seconds": 300,
+        "change_score": 2.919
+      }
+    ],
+    "integrated_lufs": -18.6,
+    "loudness_range_lu": 18.8,
+    "true_peak_dbtp": -0.1
+  },
+  "assistant_listened": false,
+  "instrument_identification": "Not performed",
+  "media_policy": "Official reference recording and derived audio stay in ignored cache; not production assets"
+}

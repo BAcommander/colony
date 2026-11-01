@@ -1,18 +1,46 @@
 {
-  "status": "not generated",
+  "status": "User-approved nine-minute paired loop delivered",
   "date_prepared": "2026-09-29",
   "provider": "ElevenLabs Music",
   "settings_observed": null,
   "price_observed": null,
   "short_test_files": [],
-  "selected_test": null,
-  "long_export": null,
-  "user_feedback": null,
-  "audio_approval": false,
-  "local_join_review": null,
-  "delivery_duration_seconds": null,
-  "current_prompt_version": "v3",
+  "selected_test": {
+    "user_report": "Liked30s seed; exact file not supplied"
+  },
+  "long_export": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/Below-the-Snowline-paired-loop-9min-v1.flac",
+  "user_feedback": {
+    "date": "2026-11-01",
+    "verbatim": "ok i think we're good push the track into the repo. and maybe update everything else about the iceline one?",
+    "scope": "Accepts delivered nine-minute paired music loop and authorizes repository commit/push and related scene record updates. Does not approve pending animation/thumbnail or imply a full-hour delivery.",
+    "master_path": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\paired-loop-v1\\Below-the-Snowline-paired-loop-9min-v1.flac",
+    "master_sha256": "987b1509075da8a9202f24a6b765f4e2b6d88d90cb90c28bdaf8719af77b252b",
+    "duration_seconds": 540,
+    "assistant_listening": false
+  },
+  "audio_approval": true,
+  "local_join_review": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\paired-loop-v1\\README.md",
+  "delivery_duration_seconds": 540,
+  "current_prompt_version": "Exact generation prompt unverified; earlier V3 proposal and later Hoth test draft retained",
   "v3_date_prepared": "2026-10-30",
   "v3_status": "research-informed proposal; not generated",
-  "v3_scope": "User confirms November scene lineup; short pilot, owned-reference long prompt and separate ambience proposal."
+  "v3_scope": "User confirms November scene lineup; short pilot, owned-reference long prompt and separate ambience proposal.",
+  "updated": "2026-11-01",
+  "actual_generated_files": [
+    {
+      "title": "Shelter on the Ice Plain",
+      "path": "music/below-the-snowline-production-2026-11-01/sources/Shelter_on_the_Ice_Plain_2026-11-01T232735.mp4",
+      "sha256": "59345a428c9c8dd2eaeed31ef5c44e7e3e7cd996e89cd8708ce8453614b801d8",
+      "duration_seconds": 300
+    },
+    {
+      "title": "Outpost on the Ice",
+      "path": "music/below-the-snowline-production-2026-11-01/sources/Outpost_on_the_Ice_2026-11-01T232735.mp4",
+      "sha256": "43ab763290108aa95a88b09ec43bd14169adecab34e05c52078f2d8e6e49a6eb",
+      "duration_seconds": 300
+    }
+  ],
+  "generation_settings_verified": false,
+  "sfx_status": "Not added or approved",
+  "video_status": "V2 preview remains awaiting review; no final combined video"
 }
