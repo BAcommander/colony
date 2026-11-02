@@ -2,6 +2,10 @@
 
 Read [the consolidated learning guide](LEARNINGS.md) before a new scene, music brief or mix. It connects the detailed knowledge banks, identifies superseded ideas and flags newer production records on other branches. Check the latest accepted scene state before treating an old preparation checkpoint as unfinished work.
 
+## Plan the thumbnail while choosing the scene
+
+Use [the current packaging workflow](PACKAGING_WORKFLOW.md). Write the scene's invitation in one sentence and identify a dominant subject that survives a phone-size preview. Keep alien identity clear. Compare image-led/no-text candidates with the historical identity instead of assuming approved branding maximizes clicks. Keep the current source/thumbnail/title, exact variant hashes and a test hypothesis. The November 2 Rainline A/B/C plan remains proposed; early Junction1.2% CTR from9 views does not establish its cause. Save impressions/traffic-source CTR and watch-time/retention context when testing, then carry supported results into the next video.
+
 ## Start with the knowledge bank
 
 Read [ANIMATION_KNOWLEDGE_BANK.md](ANIMATION_KNOWLEDGE_BANK.md) before choosing effects. Its per-video entries include recent Floodplain, Saltline, Cable Station, Icebound and Rainline feedback, source links, reusable methods and failed approaches. Record relevant examples in the planning template. The detailed Basalt commands below remain scene-specific.

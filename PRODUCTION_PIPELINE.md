@@ -175,6 +175,7 @@ Exit: a selected soundtrack with an accepted join treatment. No fixed drone-note
 - [ ] Verify full-file decoding, runtime, video/audio stream properties, timestamp continuity and the actual assembly joins. Record encoding settings and hashes.
 - [ ] Review the beginning, middle, end and joins in the combined video. Record the real extent of the user's listening/playback review.
 - [ ] Check current thumbnail and title. Add accurate music and duration wording to the description/tags only after the actual upload is known.
+- [ ] Apply the [packaging workflow](creative/PACKAGING_WORKFLOW.md): one legible scene invitation and dominant subject at phone size; retain exact current/variant assets and title. Record the hypothesis and impressions/traffic-source/watch-time context for any test. Proposed alternatives and visual approval do not establish a CTR improvement.
 - [ ] Mark ready for upload only when the combined release passes review. Record published URL/date only after publication is verified.
 
 Exit: a completed upload file and checked publication package. No upload/publishing action is started by this document.

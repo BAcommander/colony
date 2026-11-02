@@ -173,3 +173,6 @@ creative/brand/intro-v3/tool-source-snapshot/colony/assets/fonts/OFL.txt -text w
 /scripts/test_snowline_environment.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /scripts/test_snowline_radio_session.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /scripts/test_restore_snowline_session.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve supplied packaging evidence and its exact hash records.
+/creative/packaging/2026-11-02-feed-review/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

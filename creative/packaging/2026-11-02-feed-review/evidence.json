@@ -1,0 +1,110 @@
+{
+  "review_date": "2026-11-02",
+  "evidence_type": "User-supplied screenshots; visible figures manually transcribed, no Analytics API/export",
+  "user_question_verbatim": "what learnings can we take obviously... my thumbnails aren't pulling people in?",
+  "user_backup_request_verbatim": "i want you to commit and push all the learnings here, so we can keep improving future videos",
+  "screenshots": [
+    {
+      "file": "evidence/chrome_2fwEVKQtbl.png",
+      "original_supplied_path": "C:/Users/john/Documents/ShareX/Screenshots/2026-11/chrome_2fwEVKQtbl.png",
+      "bytes": 1350896,
+      "sha256": "6dd3b6de4d0574c8fe94880d2db624cd6e9429f0be3b3d97d8c103bd1fa603ff",
+      "dimensions": [
+        435,
+        2370
+      ],
+      "role": "Personalized feed: visual comparison; no competitor CTR data",
+      "capture_time_utc": null
+    },
+    {
+      "file": "evidence/chrome_wwRKkYZV48.png",
+      "original_supplied_path": "C:/Users/john/Documents/ShareX/Screenshots/2026-11/chrome_wwRKkYZV48.png",
+      "bytes": 154544,
+      "sha256": "d31e9d1e06ccf22e0e059ea3275ec22ccf4b0e2151c0279a8ecbd5ce7e784765",
+      "dimensions": [
+        338,
+        514
+      ],
+      "role": "Junction Studio early performance card",
+      "capture_time_utc": null
+    }
+  ],
+  "junction_card": {
+    "visible_title": "The Empty Junction - Waiting for the Next Train | 1 Hour Sci-Fi...",
+    "first_hours": 7,
+    "first_minutes": 59,
+    "views": 9,
+    "engaged_views": 9,
+    "thumbnail_ctr_percent": 1.2,
+    "average_view_duration": "25:39",
+    "ranking_by_views": {
+      "rank": 3,
+      "comparison_set_size": 10
+    },
+    "likes": 1,
+    "comments": 0,
+    "average_view_duration_comparison_indicator": "downward; comparison baseline not supplied",
+    "impressions": null,
+    "ctr_by_traffic_source": null,
+    "retention_curve": null,
+    "video_url": null,
+    "exact_uploaded_thumbnail_sha256": null,
+    "publication_datetime": null
+  },
+  "interpretation_limits": [
+    "Screenshot is one personalized feed, not all audience exposure.",
+    "Competitor public view counts do not disclose impressions or CTR and differ in upload age/audience.",
+    "Nine early views do not establish stable performance, thumbnail causality or all-day acceptance.",
+    "Views divided by CTR must not be treated as the actual registered impressions count.",
+    "25:39 AVD with a downward comparison indicator does not establish strong retention.",
+    "Earlier branded identity approval was visual approval, not measured CTR evidence.",
+    "Junction is already lighter in text; removal alone has not demonstrated a win."
+  ],
+  "working_design_hypotheses": [
+    "Dominant subject and readable emotional invitation at phone size.",
+    "Glacier: give warm shelter more image priority relative to lettering.",
+    "Rainline: choose the warm room or rainy colony as hero instead of competing details.",
+    "Junction: test a warm train/platform focus with cold alien terrain still clear.",
+    "Retain muted-colour options; test hierarchy/local contrast before blanket saturation or brightness changes.",
+    "Use accurate experiential title wording; original destination names support the invitation."
+  ],
+  "proposed_test": {
+    "scene": "Rainline Relay",
+    "state": "proposed; no variants generated, selected, uploaded or tested",
+    "variants": [
+      {
+        "id": "A",
+        "description": "Current thumbnail control"
+      },
+      {
+        "id": "B",
+        "description": "Warm-room-led, exterior rain readable, no text"
+      },
+      {
+        "id": "C",
+        "description": "Rainy-alien-colony-led, no text"
+      }
+    ],
+    "title": "Hold current title fixed; actual current published title must be verified before test",
+    "comparison": "Concurrent native thumbnail-only test if available; watch-time-share outcome, including inconclusive, retained",
+    "causal_scope": "Whole thumbnail presentation; framing and text change together",
+    "outcome": null,
+    "user_selected_variant": null
+  },
+  "next_data": [
+    "Actual impressions",
+    "CTR by available Browse/Suggested/Search source",
+    "Comparable upload-age measurement windows",
+    "Watch time and average view duration",
+    "First30-60-second retention and longer retention curve",
+    "Native test result and exact asset/title/date provenance"
+  ],
+  "sources_checked_in_preceding_discussion": "2026-11-02",
+  "primary_sources": [
+    "https://support.google.com/youtube/answer/7628154?hl=en",
+    "https://support.google.com/youtube/answer/9314486",
+    "https://support.google.com/youtube/answer/12340300?hl=en",
+    "https://support.google.com/youtube/answer/16391400?hl=en"
+  ],
+  "public_actions_performed": []
+}

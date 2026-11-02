@@ -16,6 +16,7 @@ The aim is a convincing place someone wants to stay, with sound they want to kee
 | Production method | [Animation workflow](ANIMATION_WORKFLOW.md) and [next-scene runbook](NEXT_SCENE_RUNBOOK.md) | Freeze, preview, review, render, validate and assemble |
 | Believable worlds | [Art-direction guide](concepts/ALIEN_COLONY_ART_DIRECTION.md) | Physical realism, alien identity, source atmosphere and prompt corrections |
 | Thumbnail identity | [Thumbnail style](../final/THUMBNAIL_STYLE.md) | Approved series identity and its history; newer sparse-text tests are separate candidates |
+| Packaging improvement | [Thumbnail/title workflow](PACKAGING_WORKFLOW.md) and [November 2 feed review](packaging/2026-11-02-feed-review/README.md) | Phone-size hierarchy, emotional invitation, exact early metrics and proposed controlled tests |
 | Exploration | [Brainstorm collection](brainstorm/README.md) and [Christmas tests](brainstorm/2026-10-27-christmas-tests/README.md) | Exact concepts, prompts, images, concerns and selection state |
 | November music | [Brief pack](music/november-2026/README.md) | Preserved V3 briefs and preparation-stage tracker; see the status correction below |
 | Production status | [Production tracker](../PRODUCTION_PIPELINE.md) and scene records | Delivery/approval scope; check the branch and date before using a status |
@@ -86,6 +87,12 @@ These are user-directed design judgments and documented observations, not measur
 - Apply the current opening once during assembly; keep clean loop masters. Preserve the 0:05–0:20 audio entrance without stacking it over an old baked fade. The current visual opening needs its full 22-second budget. For streams it sits outside the repeating playlist.
 
 ## Packaging and performance
+
+**November 2 feed review:** [exact screenshots, facts and hypotheses](packaging/2026-11-02-feed-review/README.md) are now preserved. The user's Junction Studio card shows first7h59,9 views,1.2% CTR,25:39 average view duration and rank3/10 by views. Impressions/traffic sources remain unknown; the average-duration comparison arrow points down. Early figures do not isolate thumbnail causality or establish strong retention. Competitor public views are not CTR benchmarks.
+
+For future candidates, prioritize one dominant subject and a readable invitation to stay: shelter, quiet waiting, isolation or wonder. In this supplied feed, Glacier's title competes with its warm dome; Rainline's many details compete with each other. Junction already uses lighter text, so removing words alone is an unproven fix. Muted palettes can retain strong silhouettes and atmosphere; increasing saturation/brightness is a separate hypothesis. Original place names can support an accurate experiential title rather than carrying the whole pitch. These are design judgments to test, not measured performance gains.
+
+Use [the current packaging workflow](PACKAGING_WORKFLOW.md) before the next thumbnail. Proposed Rainline test: A current, B warm-room-led without text, C rainy-colony-led without text; same title, concurrent comparison where available, actual watch-time-share result and sufficient exposure. Changes in framing/text test the thumbnail presentation as a whole. This chat has not generated these Rainline alternatives or started that test; preserve current assets and record missing data, inconclusive results and subsequent user selection. Earlier identity approval remains visual approval.
 
 The approved branded thumbnails remain an identity reference. Later scene-only/one-word candidates test a different presentation; they do not automatically replace approved releases. Use the current final-scene plate, preserve important planet/location cues, and check at phone size. If image, lighting and text all change, call it a package comparison rather than a typography-only test.
 

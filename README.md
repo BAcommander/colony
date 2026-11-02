@@ -14,6 +14,7 @@ Ringfall v9b, Basalt v6 and Glacier's accepted slow-water treatment remain histo
 
 - [Final packages](final/README.md): scene artwork, thumbnails, music and delivery records; acceptance and media availability are scene-specific.
 - [Approved thumbnail style](final/THUMBNAIL_STYLE.md): design rules, reusable prompt and exact generation history.
+- [Thumbnail/title improvement workflow](creative/PACKAGING_WORKFLOW.md): scene hierarchy, phone-size review, controlled tests and performance evidence.
 
 - [AGENTS.md](AGENTS.md): current authority and working instructions.
 - [Project context](PROJECT.md): creative decisions and history.
