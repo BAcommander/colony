@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "decoded_seconds": 3600,
+  "sample_frames_per_channel": 172800000,
+  "full_audio_correlation": 0.9999014214951946,
+  "encoding_snr_db": 37.00119104774756,
+  "gain_difference_db": -0.01410969655880136,
+  "sample_peak_dbfs": -9.434975306054016,
+  "first4_seconds_peak": 0.0,
+  "same_opening_audio_graph": "[0:a:0]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,volume=0.00dB[a0];[a0]alimiter=limit=0.8414:level=0:latency=1[intro_mix];[intro_mix]afade=t=in:st=5:d=15:curve=hsin[aout]",
+  "patch_diagnostics": [
+    {
+      "second": 30,
+      "expected_correlation": 0.999945828302763
+    },
+    {
+      "second": 1194,
+      "expected_correlation": 0.9999135566534197
+    },
+    {
+      "second": 1196,
+      "expected_correlation": 0.9998622962769225
+    },
+    {
+      "second": 1200,
+      "expected_correlation": 0.9999794268920186
+    },
+    {
+      "second": 1214,
+      "expected_correlation": 0.9999906443052691
+    },
+    {
+      "second": 3540,
+      "expected_correlation": 0.9995167277399805
+    }
+  ],
+  "all_samples_finite_unclipped": true,
+  "closing_fade_retained": true,
+  "assistant_listening": false
+}

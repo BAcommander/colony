@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-02",
+  "evidence": "User-supplied YouTube Studio screenshot; live claim page not accessed",
+  "claimed_title": "Good Energy",
+  "displayed_artist": "Flowstate",
+  "claimant": "WMG",
+  "on_behalf_of": "Netz & Schnabel",
+  "claimed_video_interval_seconds": [
+    1194,
+    1215
+  ],
+  "impact_displayed": "Potential limitation on your ways to earn",
+  "claim_validity": "Unknown; no claimant reference audio comparison performed",
+  "primary_music_source": "Waterworks Gallery",
+  "primary_source_interval_seconds": [
+    30,
+    51
+  ],
+  "secondary_source": "Sheltered Replenishment tail for1194–1196s only, source218–220s",
+  "sfx_overlaps": [
+    {
+      "start": 1150,
+      "effect": "water",
+      "end": 1205
+    }
+  ],
+  "source_timing_basis": "Saved hour mix recipe; intro changes gain only and does not shift soundtrack",
+  "uploaded_file_identity": "Screenshot alone cannot confirm uploaded file hash; mapping assumes delivered Deepwell master",
+  "plan_and_generation_evidence": "Requested from user",
+  "external_contact_or_dispute_submitted": false,
+  "youtube_video_modified": false,
+  "assistant_listening": false,
+  "screenshot_evidence": {
+    "path": "evidence/claim-screenshot.png",
+    "sha256": "3cd033aea42a0d660851e73fe09317ddc1c69ab283c4ea2549b9ce9de920c0bb"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "outputs": [
+    {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-wind-review-2026-11-02\\Below-the-Snowline-music-and-wind-9min-v1.flac",
+      "sha256": "6880b2810585caa8d459319a7ae337ff1f3dac98cf0249afb14d48127da19212",
+      "seconds": 540.0,
+      "all_samples_finite_unclipped": true,
+      "recipe_snr_db": 122.4182788451156,
+      "max_recipe_error": 1.1894735507667065e-07,
+      "sample_peak_dbfs": -8.632322545835732
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-wind-review-2026-11-02\\Below-the-Snowline-music-and-wind-9min-v1.mp3",
+      "sha256": "3351638df3fe6b4e355e2e0d18d0cebcee0408d621bb854784d9771a44bc7b44",
+      "seconds": 540.0,
+      "all_samples_finite_unclipped": true,
+      "recipe_snr_db": 30.13978189533121,
+      "max_recipe_error": 0.01832611858844757,
+      "sample_peak_dbfs": -8.885344059408398
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-wind-review-2026-11-02\\Below-the-Snowline-wind-stem-9min-v1.flac",
+      "sha256": "2f32a11c83c7b7de33ea0b30da2596eb7c3203048d64e656d771a277fb94cff6",
+      "seconds": 540.0,
+      "all_samples_finite_unclipped": true,
+      "recipe_snr_db": 103.2695227353106,
+      "max_recipe_error": 1.1897463991772383e-07,
+      "sample_peak_dbfs": -19.844243938300895
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-wind-review-2026-11-02\\Below-the-Snowline-wind-in-scene-2min-v1.mp4",
+      "sha256": "01617c3fe45bfec5d6b7debe07724db3217faaff052f99dc6517e411a8d707eb",
+      "seconds": 120.0,
+      "all_samples_finite_unclipped": true,
+      "recipe_snr_db": 37.31782733865746,
+      "max_recipe_error": 0.06192710995674133,
+      "sample_peak_dbfs": -9.436923017306967,
+      "video_packets_match_repeated_original": true,
+      "full_audio_video_decode": true,
+      "frames": 3600,
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-wind-review-2026-11-02\\Below-the-Snowline-music-and-wind-scene-9min-v1.mp4",
+      "sha256": "c19ae1199472cbed9f989f4fe404c5da3b718d9f6bb4d02df1e2deea4cafcf43",
+      "seconds": 540.0,
+      "all_samples_finite_unclipped": true,
+      "recipe_snr_db": 39.35953854537812,
+      "max_recipe_error": 0.06192710995674133,
+      "sample_peak_dbfs": -8.639017688694087,
+      "video_packets_match_repeated_original": true,
+      "full_audio_video_decode": true,
+      "frames": 16200,
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  ],
+  "all_wind_off_samples_identical_to_approved_music": true,
+  "approved_music_boundary_preserved": true,
+  "wind_cycle_sample_step": 0.002981944794337504,
+  "wind_cycle_step_p99_9": 0.004263122215268029,
+  "all_audio_samples_compared": true,
+  "full_video_decode_and_packet_comparison": true,
+  "user_balance_review": "Pending",
+  "assistant_listening": false
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "date": "2026-11-02",
+  "output": "G:\\AI\\colony\\exports\\12-deepwell-station\\Deepwell-Station-1-Hour-4K-v2-audio-revised.mp4",
+  "sha256": "662a46e805d59708787f452e51c67d9a647b5c766cad71a224c74276a54f8c8c",
+  "bytes": 16644387474,
+  "seconds": 3600,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "frames": 108000,
+  "video_packets_identical_to_original": true,
+  "complete_audio_decode_and_recipe_comparison_passed": true,
+  "replacement_occurrences": 10,
+  "audio_approval": "user-approval.json",
+  "source_audio_sha256": "d8ffe475229a47af5c5cdf51a7d807d6cd377e13d7f858b2b1ca2d27ef61bbed",
+  "original_preserved": true,
+  "uploaded": false,
+  "youtube_claim_check": "Pending on new upload; no clearance claimed",
+  "assistant_listening": false
+}

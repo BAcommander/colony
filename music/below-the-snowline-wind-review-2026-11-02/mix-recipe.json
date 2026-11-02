@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-02",
+  "user_request": "Add wind to Below the Snowline music to hear it in the scene",
+  "status": "Listening candidate; new wind balance not approved",
+  "music": {
+    "path": "G:\\AI\\colony\\music\\below-the-snowline-production-2026-11-01\\paired-loop-v1\\Below-the-Snowline-paired-loop-9min-v1.flac",
+    "sha256": "987b1509075da8a9202f24a6b765f4e2b6d88d90cb90c28bdaf8719af77b252b",
+    "gain_db": 0,
+    "approval": "Existing nine-minute pair unchanged"
+  },
+  "wind": {
+    "path": "G:\\AI\\colony\\music\\sfx-library\\assets\\wind-soft-exterior-01.mp3",
+    "sha256": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34",
+    "source_seconds": 30,
+    "source_gain_db": 4.85,
+    "gain_basis": "Previously accepted Deepwell wind level; starting point only for this scene",
+    "source_trim_seconds": [
+      1,
+      29
+    ],
+    "source_overlap_seconds": 4,
+    "source_cycle_seconds": 24,
+    "events_seconds": [
+      [
+        20,
+        80
+      ],
+      [
+        200,
+        260
+      ],
+      [
+        380,
+        440
+      ]
+    ],
+    "event_duration_seconds": 60,
+    "quiet_gap_seconds": 120,
+    "fade_in_seconds": 8,
+    "fade_out_seconds": 12,
+    "phase": "Global frame clock modulo24s"
+  },
+  "video": {
+    "path": "G:\\AI\\colony\\music\\below-the-snowline-animation-v2\\Below-the-Snowline-v2-preview-20s.mp4",
+    "sha256": "8c45915b623a26a4968938c3ae1615ab02640563773d96aa868b3d8bbd641df3",
+    "seconds": 20,
+    "repeat": "Existing20s V2 pictures repeated; no new animation or wind-synced visual change",
+    "review_status": "Existing V2 artistic review still pending"
+  },
+  "outputs": {
+    "seconds": 540,
+    "sample_rate": 48000,
+    "channels": 2,
+    "opening_or_closing_fade_added": false,
+    "loop_boundary": "Wind absent at both edges; approved music boundary retained"
+  },
+  "assistant_listening": false,
+  "no_paid_generation": true,
+  "originals_preserved": true
+}

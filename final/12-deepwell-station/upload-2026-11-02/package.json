@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-02",
+  "status": "Ready for user reupload; fresh YouTube checks pending",
+  "video": {
+    "status": "passed",
+    "date": "2026-11-02",
+    "output": "G:\\AI\\colony\\exports\\12-deepwell-station\\Deepwell-Station-1-Hour-4K-v2-audio-revised.mp4",
+    "sha256": "662a46e805d59708787f452e51c67d9a647b5c766cad71a224c74276a54f8c8c",
+    "bytes": 16644387474,
+    "seconds": 3600,
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "fps": 30,
+    "frames": 108000,
+    "video_packets_identical_to_original": true,
+    "complete_audio_decode_and_recipe_comparison_passed": true,
+    "replacement_occurrences": 10,
+    "audio_approval": "user-approval.json",
+    "source_audio_sha256": "d8ffe475229a47af5c5cdf51a7d807d6cd377e13d7f858b2b1ca2d27ef61bbed",
+    "original_preserved": true,
+    "uploaded": false,
+    "youtube_claim_check": "Pending on new upload; no clearance claimed",
+    "assistant_listening": false
+  },
+  "files": {
+    "description.txt": "6c09ad9345a0e0fc53345fa4e928bcb78dfd6908c39cbd5daac6a18d8b5cc389",
+    "thumbnail-recommended.jpg": "3bf37d2e2d3baa91e3b8417338249d7f9c151adba1771bf3f534f26a631d9ddb",
+    "upload-notes.txt": "9f2084035920a17ca71382803203e28730dac6d4f73069999ee724cb77253545",
+    "youtube-tags.txt": "c52c37977192c7507132a9f9214a846d6509f9a678ea1386e80da723c476bc3e",
+    "youtube-title.txt": "47c71b46158bc2c1d64efb650be7ee05acfe3380389f9087ccc60b69c8d15f8b"
+  },
+  "title_description_tags_unchanged": true,
+  "thumbnail": "Existing recommended one-word candidate; no new selection inferred",
+  "uploaded": false,
+  "old_youtube_upload_modified": false
+}

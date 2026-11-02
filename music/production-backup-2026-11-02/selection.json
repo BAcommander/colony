@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-02",
+  "authority": "User: commit and push",
+  "branch": "codex/empty-junction-backup-2026-11-01",
+  "directories": [
+    "music/below-the-snowline-wind-review-2026-11-02",
+    "music/deepwell-claim-review-2026-11-02",
+    "music/production-backup-2026-11-02",
+    "final/12-deepwell-station/upload-2026-11-02"
+  ],
+  "shared_files": [
+    ".gitattributes",
+    "AGENTS.md",
+    "PRODUCTION_PIPELINE.md",
+    "final/12-deepwell-station/README.md",
+    "final/13-below-the-snowline/README.md"
+  ],
+  "media": [
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-music-and-wind-9min-v1.flac",
+      "sha256": "6880b2810585caa8d459319a7ae337ff1f3dac98cf0249afb14d48127da19212",
+      "bytes": 83326639
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-music-and-wind-9min-v1.mp3",
+      "sha256": "3351638df3fe6b4e355e2e0d18d0cebcee0408d621bb854784d9771a44bc7b44",
+      "bytes": 12961196
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-music-and-wind-scene-9min-v1.mp4",
+      "sha256": "c19ae1199472cbed9f989f4fe404c5da3b718d9f6bb4d02df1e2deea4cafcf43",
+      "bytes": 500479107
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-wind-in-scene-2min-v1.mp4",
+      "sha256": "01617c3fe45bfec5d6b7debe07724db3217faaff052f99dc6517e411a8d707eb",
+      "bytes": 111217384
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-wind-stem-9min-v1.flac",
+      "sha256": "2f32a11c83c7b7de33ea0b30da2596eb7c3203048d64e656d771a277fb94cff6",
+      "bytes": 31461585
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/replacement-v1/Deepwell-after-replacement-75s.mp3",
+      "sha256": "6e9b4f67a2fbf733064717fb2f5289658a6647c294c630eb28026974700b42b5",
+      "bytes": 1801196
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/replacement-v1/Deepwell-before-replacement-75s.mp3",
+      "sha256": "74bb0af28bb8af91a2adeb46dda4ebfdc95c9df894bc4e8f9d8f011a64ccecc4",
+      "bytes": 1801196
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/replacement-v1/Deepwell-first-occurrence-after-75s.mp3",
+      "sha256": "5117caa1a86420968b8e6b79fcae4ae8ddbb49799baf3e6ee7e0420d2519026c",
+      "bytes": 1801196
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/replacement-v1/Waterworks-Gallery-reworked-source-v1.flac",
+      "sha256": "9f751e75166badced51a33348ac8ed5fd35750f0701adcf58c7955fd5100aed6",
+      "bytes": 34905094
+    }
+  ],
+  "full_hour_exports_included": false,
+  "unrelated_untracked_files_included": false
+}

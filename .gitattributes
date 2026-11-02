@@ -306,3 +306,14 @@ music/below-the-snowline-production-2026-11-01/sources/Frozen_Outpost_2026-11-01
 music/below-the-snowline-production-2026-11-01/sources/Outpost_on_the_Ice_2026-11-01T232735.mp4 filter=lfs diff=lfs merge=lfs -text
 music/below-the-snowline-production-2026-11-01/sources/Shelter_on_the_Ice_Plain_2026-11-01T232735.mp4 filter=lfs diff=lfs merge=lfs -text
 music/below-the-snowline-production-2026-11-01/history/** -whitespace
+
+# 2026-11-02 production source and review media.
+music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-music-and-wind-9min-v1.flac filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-music-and-wind-9min-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-music-and-wind-scene-9min-v1.mp4 filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-wind-in-scene-2min-v1.mp4 filter=lfs diff=lfs merge=lfs -text
+music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-wind-stem-9min-v1.flac filter=lfs diff=lfs merge=lfs -text
+music/deepwell-claim-review-2026-11-02/replacement-v1/Deepwell-after-replacement-75s.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-claim-review-2026-11-02/replacement-v1/Deepwell-before-replacement-75s.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-claim-review-2026-11-02/replacement-v1/Deepwell-first-occurrence-after-75s.mp3 filter=lfs diff=lfs merge=lfs -text
+music/deepwell-claim-review-2026-11-02/replacement-v1/Waterworks-Gallery-reworked-source-v1.flac filter=lfs diff=lfs merge=lfs -text

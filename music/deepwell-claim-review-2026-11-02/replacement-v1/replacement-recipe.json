@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-02",
+  "user_request": "the better solution would be to rework those20seconds",
+  "status": "User-approved replacement audio; revised video delivered; fresh YouTube checks pending",
+  "source": "G:\\AI\\colony\\music\\deepwell-production-2026-11-01\\sources\\Waterworks_Gallery_2026-11-01T171541.mp4",
+  "source_sha256": "5a6b9b4b11283cd5fd5438fac1ba40588bd7f39eb53e4953bb8ac524a0828728",
+  "source_patch_seconds": [
+    24,
+    57
+  ],
+  "fully_replaced_source_interval_seconds": [
+    30,
+    51
+  ],
+  "donor_source_seconds": [
+    90,
+    123
+  ],
+  "donor_fixed_gain_db": -0.7531246674086252,
+  "crossfade_handles_seconds": 6,
+  "old_claimed_source_weight_in_core": 0,
+  "hour_events": [
+    {
+      "start": 24,
+      "end": 57,
+      "replacement_core_start": 30,
+      "replacement_core_end": 51
+    },
+    {
+      "start": 412,
+      "end": 445,
+      "replacement_core_start": 418,
+      "replacement_core_end": 439
+    },
+    {
+      "start": 800,
+      "end": 833,
+      "replacement_core_start": 806,
+      "replacement_core_end": 827
+    },
+    {
+      "start": 1188,
+      "end": 1221,
+      "replacement_core_start": 1194,
+      "replacement_core_end": 1215
+    },
+    {
+      "start": 1576,
+      "end": 1609,
+      "replacement_core_start": 1582,
+      "replacement_core_end": 1603
+    },
+    {
+      "start": 1964,
+      "end": 1997,
+      "replacement_core_start": 1970,
+      "replacement_core_end": 1991
+    },
+    {
+      "start": 2352,
+      "end": 2385,
+      "replacement_core_start": 2358,
+      "replacement_core_end": 2379
+    },
+    {
+      "start": 2740,
+      "end": 2773,
+      "replacement_core_start": 2746,
+      "replacement_core_end": 2767
+    },
+    {
+      "start": 3128,
+      "end": 3161,
+      "replacement_core_start": 3134,
+      "replacement_core_end": 3155
+    },
+    {
+      "start": 3516,
+      "end": 3549,
+      "replacement_core_start": 3522,
+      "replacement_core_end": 3543
+    }
+  ],
+  "occurrences_replaced": 10,
+  "existing_source_gains_sfx_schedule_joins_duration_and_closing_fade_preserved": true,
+  "hour_audio_path": "G:\\AI\\colony\\exports\\12-deepwell-station\\Deepwell-Station-1-Hour-claim-rework-v1.flac",
+  "originals_preserved": true,
+  "new_video_muxed": true,
+  "no_pitch_or_speed_change": true,
+  "new_generation": false,
+  "claim_clearance": "Unverified; replacing the primary music source does not prove which component triggered the match or guarantee clearance",
+  "assistant_listening": false,
+  "approval": {
+    "date": "2026-11-02",
+    "verbatim": "yeah that sounds good, lets update the full deepwell video with the new audio so i can reupload it",
+    "scope": "Accepts replacement excerpt and authorizes a revised full video for user reupload",
+    "audio_sha256": "d8ffe475229a47af5c5cdf51a7d807d6cd377e13d7f858b2b1ca2d27ef61bbed"
+  },
+  "video_delivery": "G:\\AI\\colony\\exports\\12-deepwell-station\\Deepwell-Station-1-Hour-4K-v2-audio-revised.mp4"
+}

@@ -1,5 +1,8 @@
 # 13 — Below the Snowline
 
+Wind-in-scene audition(2026-11-02): [two-minute and full nine-minute scene previews](../../music/below-the-snowline-wind-review-2026-11-02/README.md) pair the approved music with the saved wind at the accepted Deepwell starting level. One-minute passages/two-minute gaps. Technical checks pass; new wind balance remains awaiting user review.
+
+
 ## Current production — 2026-11-01
 
 The user has accepted the nine-minute paired soundtrack, **Shelter on the Ice Plain / Outpost on the Ice**, and requested commit/push and updated scene records. The public scene name remains Below the Snowline; “iceline” in the request refers to this project.

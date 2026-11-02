@@ -1,6 +1,9 @@
 # 12 — Deepwell Station
 
-Current delivery (2026-11-01): [one-hour 4K video](../../exports/12-deepwell-station/Deepwell-Station-1-Hour-4K-v1.mp4), with selected V4 motion, both accepted music tracks, water/wind/pump and current once-only opening. [Production recipe and validation](../../music/deepwell-final-hour-v1/README.md). User called V4 decent and requested this full version. Final combined playback review remains pending. Native source remains 1672x941; output is Lanczos upscaled to 4K.
+Current delivery(2026-11-02): [revised one-hour4K video](../../exports/12-deepwell-station/Deepwell-Station-1-Hour-4K-v2-audio-revised.mp4) with user-approved replacement audio after the reported Good Energy/Flowstate Content ID claim. All108,000 picture packets and timestamps match the original; only audio is re-encoded with the same opening gain. Waterworks30–51s replaced in all10 occurrences, with6s crossfade handles. [Validation and recipe](../../music/deepwell-claim-review-2026-11-02/video-v2/README.md) · [Reupload package](upload-2026-11-02/). Original retained. No upload or fresh YouTube clearance yet.
+
+
+Previous delivery (2026-11-01; superseded for reupload): [one-hour 4K video](../../exports/12-deepwell-station/Deepwell-Station-1-Hour-4K-v1.mp4), with selected V4 motion, both accepted music tracks, water/wind/pump and current once-only opening. [Production recipe and validation](../../music/deepwell-final-hour-v1/README.md). User called V4 decent and requested this full version. Final combined playback review remains pending. Native source remains 1672x941; output is Lanczos upscaled to 4K.
 
 ## Earlier preparation history
 

@@ -1,0 +1,289 @@
+{
+  "branch": "codex/empty-junction-backup-2026-11-01",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "d63c8fd2c8ff4ed0f7731692fa9e2fae02b15c5745011bb28ca0b9de0322a965",
+      "bytes": 28603,
+      "storage": "git"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "71151a8805ee11921c44991dddc08bbd6dacc17bde9152dc89d19435fab6d146",
+      "bytes": 109027,
+      "storage": "git"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "sha256": "33e99879ad6ce2ac495875e9bffebdb75ecf135742dbc6b6be000e5bd9e52172",
+      "bytes": 45424,
+      "storage": "git"
+    },
+    {
+      "path": "final/12-deepwell-station/README.md",
+      "sha256": "ae53281dfc8f3063fdc2ffd6a27ec68faa76f35770e36867b61e25ffd4653259",
+      "bytes": 4666,
+      "storage": "git"
+    },
+    {
+      "path": "final/12-deepwell-station/upload-2026-11-02/description.txt",
+      "sha256": "6c09ad9345a0e0fc53345fa4e928bcb78dfd6908c39cbd5daac6a18d8b5cc389",
+      "bytes": 767,
+      "storage": "git"
+    },
+    {
+      "path": "final/12-deepwell-station/upload-2026-11-02/package.json",
+      "sha256": "bdf01e4f589bea00617bf8e000fc4c9a2df0da40476ad8540a1ea7c8606feef9",
+      "bytes": 1616,
+      "storage": "git"
+    },
+    {
+      "path": "final/12-deepwell-station/upload-2026-11-02/thumbnail-recommended.jpg",
+      "sha256": "3bf37d2e2d3baa91e3b8417338249d7f9c151adba1771bf3f534f26a631d9ddb",
+      "bytes": 292831,
+      "storage": "git"
+    },
+    {
+      "path": "final/12-deepwell-station/upload-2026-11-02/upload-notes.txt",
+      "sha256": "9f2084035920a17ca71382803203e28730dac6d4f73069999ee724cb77253545",
+      "bytes": 919,
+      "storage": "git"
+    },
+    {
+      "path": "final/12-deepwell-station/upload-2026-11-02/youtube-tags.txt",
+      "sha256": "c52c37977192c7507132a9f9214a846d6509f9a678ea1386e80da723c476bc3e",
+      "bytes": 296,
+      "storage": "git"
+    },
+    {
+      "path": "final/12-deepwell-station/upload-2026-11-02/youtube-title.txt",
+      "sha256": "47c71b46158bc2c1d64efb650be7ee05acfe3380389f9087ccc60b69c8d15f8b",
+      "bytes": 67,
+      "storage": "git"
+    },
+    {
+      "path": "final/13-below-the-snowline/README.md",
+      "sha256": "1a0520c193975db7e731ae94ad701fe1aadfcab517bd079983c71f25f53db73b",
+      "bytes": 2894,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/.gitignore",
+      "sha256": "c87796fd7cc31c819a351ff53f40c07abcc4cd46d357789bf40e7cf5b8b8bc05",
+      "bytes": 39,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-music-and-wind-9min-v1.flac",
+      "sha256": "6880b2810585caa8d459319a7ae337ff1f3dac98cf0249afb14d48127da19212",
+      "bytes": 83326639,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-music-and-wind-9min-v1.mp3",
+      "sha256": "3351638df3fe6b4e355e2e0d18d0cebcee0408d621bb854784d9771a44bc7b44",
+      "bytes": 12961196,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-music-and-wind-scene-9min-v1.mp4",
+      "sha256": "c19ae1199472cbed9f989f4fe404c5da3b718d9f6bb4d02df1e2deea4cafcf43",
+      "bytes": 500479107,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-wind-in-scene-2min-v1.mp4",
+      "sha256": "01617c3fe45bfec5d6b7debe07724db3217faaff052f99dc6517e411a8d707eb",
+      "bytes": 111217384,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/Below-the-Snowline-wind-stem-9min-v1.flac",
+      "sha256": "2f32a11c83c7b7de33ea0b30da2596eb7c3203048d64e656d771a277fb94cff6",
+      "bytes": 31461585,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/README.md",
+      "sha256": "308d572f0d5834ec9368f48357c0d29e324969dfd53d14a17271bbdd7df71d62",
+      "bytes": 2370,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/build.py",
+      "sha256": "b6217f09783c9d2ef47cdcb38c17eb102e7d641460ee23acc7ce746818922a73",
+      "bytes": 7022,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/delivery-validation.json",
+      "sha256": "c836293b3cfb57180ce2df254c135b93c959d4d4936833ee5f1469a7f083beeb",
+      "bytes": 2897,
+      "storage": "git"
+    },
+    {
+      "path": "music/below-the-snowline-wind-review-2026-11-02/mix-recipe.json",
+      "sha256": "40a2e1c1d294b0df48577662ad099015faa4c9d0b3af50caa64b58607f8202a6",
+      "bytes": 1952,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/.gitignore",
+      "sha256": "27db4b2bb62e6e6b2a6366c81e335582bb8d85731ae00316026d498c70e378d9",
+      "bytes": 50,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/CURRENT-DELIVERY.txt",
+      "sha256": "19005dfb44be9aa9c06ae40559dd80303f47eef40b0b07db64ea49d324d239d6",
+      "bytes": 240,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/README.md",
+      "sha256": "59626cb81d6ebefa6b45c2d9afb459e07374880d9b5c586cc1b0e3c29a674916",
+      "bytes": 3915,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/claim-record.json",
+      "sha256": "58e06a344252435f4efe7dae16f9c3fb82b9d9541e24ee44d1866058b10747f7",
+      "bytes": 1314,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/evidence/claim-screenshot.png",
+      "sha256": "3cd033aea42a0d660851e73fe09317ddc1c69ab283c4ea2549b9ce9de920c0bb",
+      "bytes": 130430,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/export_video.py",
+      "sha256": "f6aa5bd8087655d6ef28c35f9e72f01ba328a6546ff1edd7be4388d4eafa4261",
+      "bytes": 6897,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/record_video.py",
+      "sha256": "04f327a7e0185b8c2459252358af8652af5e99152fd732b01216a4510bfca7d4",
+      "bytes": 5860,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/replacement-v1/Deepwell-after-replacement-75s.mp3",
+      "sha256": "6e9b4f67a2fbf733064717fb2f5289658a6647c294c630eb28026974700b42b5",
+      "bytes": 1801196,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/replacement-v1/Deepwell-before-replacement-75s.mp3",
+      "sha256": "74bb0af28bb8af91a2adeb46dda4ebfdc95c9df894bc4e8f9d8f011a64ccecc4",
+      "bytes": 1801196,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/replacement-v1/Deepwell-first-occurrence-after-75s.mp3",
+      "sha256": "5117caa1a86420968b8e6b79fcae4ae8ddbb49799baf3e6ee7e0420d2519026c",
+      "bytes": 1801196,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/replacement-v1/Waterworks-Gallery-reworked-source-v1.flac",
+      "sha256": "9f751e75166badced51a33348ac8ed5fd35750f0701adcf58c7955fd5100aed6",
+      "bytes": 34905094,
+      "storage": "lfs"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/replacement-v1/replacement-recipe.json",
+      "sha256": "f1bd3a7fbdce44265c67319a415cf746df99e259f4c6589a0f8ffe35005a123a",
+      "bytes": 2961,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/replacement-v1/validation.json",
+      "sha256": "ecc3178c749bcc5bfa7aea6b625a55263f76883591139bab3e4050322293b43f",
+      "bytes": 2205,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/rework.py",
+      "sha256": "e4b2fc190b77acce254924ceb6fd678a8668f0a846861033a8a8bfd1bb076c79",
+      "bytes": 7766,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/video-v2/README.md",
+      "sha256": "708e5c115c3f1a375a5c851bf6fa4cec0f09a9776ef2daaf1ab759e9579d83d9",
+      "bytes": 1991,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/video-v2/assembly-settings.json",
+      "sha256": "eb318d9892a59af70c804ae05d4476750f93299cecbfd53d79bf2f8fc0c78116",
+      "bytes": 1965,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/video-v2/audio-validation.json",
+      "sha256": "199677ee5243ae4adf8853ac5eca24370a004fb3526daf1a5ddff4fd2beddfa6",
+      "bytes": 1161,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/video-v2/delivery-validation.json",
+      "sha256": "e3a144ece5c7a071c321e454322bc017399b4012894c64039770a9bb57af3620",
+      "bytes": 788,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/video-v2/previous-release-README.md",
+      "sha256": "76b8569b157883ed7d58f212e4f8119c1821086353dfded6ae51264a1237f0aa",
+      "bytes": 4018,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/video-v2/user-approval.json",
+      "sha256": "a7390f33bd71379cac245a395b62acd355db4f915d4e723b967d5c52d8e0bc8e",
+      "bytes": 325,
+      "storage": "git"
+    },
+    {
+      "path": "music/deepwell-claim-review-2026-11-02/video-v2/video-validation.json",
+      "sha256": "1d4278f5a5531c0a943983981c0f3ec8cd1ac109f2a92c7c5eae5af9a100f0c2",
+      "bytes": 4301,
+      "storage": "git"
+    },
+    {
+      "path": "music/production-backup-2026-11-02/.gitignore",
+      "sha256": "bcef6b9a00bf502aba74ca94f406a802b820f7d7acb8cd9971aa387784148a50",
+      "bytes": 39,
+      "storage": "git"
+    },
+    {
+      "path": "music/production-backup-2026-11-02/README.md",
+      "sha256": "2e0905016ce7c11e01de7367148492173232d2bda77a9f8e4a82206d2b854ffa",
+      "bytes": 1369,
+      "storage": "git"
+    },
+    {
+      "path": "music/production-backup-2026-11-02/prepare.py",
+      "sha256": "d63bdc1101c3dd535cec1cb172a8e4c33b19c944775bd766b6faa051622fbd31",
+      "bytes": 6086,
+      "storage": "git"
+    },
+    {
+      "path": "music/production-backup-2026-11-02/selection.json",
+      "sha256": "806dccdae8623de8f88eb3c42194e255f91fc7a7c3fb894c3efc028a5f9ae1a7",
+      "bytes": 2705,
+      "storage": "git"
+    },
+    {
+      "path": "music/production-backup-2026-11-02/verify_remote.py",
+      "sha256": "622aff0b9b02b91bbf9256a26631779c57b3861e27955bbbac5336852e781c10",
+      "bytes": 1792,
+      "storage": "git"
+    }
+  ],
+  "self_hash_omitted": true,
+  "git_hash_scope": "Staged bytes after Git line-ending normalization"
+}

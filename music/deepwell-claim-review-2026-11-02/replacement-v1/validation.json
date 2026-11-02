@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "source_boundary_checks": [
+    {
+      "source_seconds": 24,
+      "sample_step": 0.006058478056667518,
+      "nearby_step_p99_9": 0.021436972528814987
+    },
+    {
+      "source_seconds": 30,
+      "sample_step": 0.0047301587453521116,
+      "nearby_step_p99_9": 0.033284487392267116
+    },
+    {
+      "source_seconds": 51,
+      "sample_step": 0.0026289069804218464,
+      "nearby_step_p99_9": 0.01615739170138073
+    },
+    {
+      "source_seconds": 57,
+      "sample_step": 0.01098741274541361,
+      "nearby_step_p99_9": 0.017067261618252758
+    }
+  ],
+  "output_files": [
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-claim-review-2026-11-02\\replacement-v1\\Waterworks-Gallery-reworked-source-v1.flac",
+      "sha256": "9f751e75166badced51a33348ac8ed5fd35750f0701adcf58c7955fd5100aed6",
+      "seconds": 240.0
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-claim-review-2026-11-02\\replacement-v1\\Deepwell-before-replacement-75s.mp3",
+      "sha256": "74bb0af28bb8af91a2adeb46dda4ebfdc95c9df894bc4e8f9d8f011a64ccecc4",
+      "seconds": 75.0
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-claim-review-2026-11-02\\replacement-v1\\Deepwell-after-replacement-75s.mp3",
+      "sha256": "6e9b4f67a2fbf733064717fb2f5289658a6647c294c630eb28026974700b42b5",
+      "seconds": 75.0
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\deepwell-claim-review-2026-11-02\\replacement-v1\\Deepwell-first-occurrence-after-75s.mp3",
+      "sha256": "5117caa1a86420968b8e6b79fcae4ae8ddbb49799baf3e6ee7e0420d2519026c",
+      "seconds": 75.0
+    },
+    {
+      "path": "G:\\AI\\colony\\exports\\12-deepwell-station\\Deepwell-Station-1-Hour-claim-rework-v1.flac",
+      "sha256": "d8ffe475229a47af5c5cdf51a7d807d6cd377e13d7f858b2b1ca2d27ef61bbed",
+      "seconds": 3600,
+      "recipe_max_error": 1.1891825124621391e-07,
+      "outside_patch_windows_max_error": 0.0,
+      "sample_peak_dbfs": -9.41231992212913,
+      "full_decode": true
+    }
+  ],
+  "all_unaffected_hour_samples_exact": true,
+  "all_hour_samples_compared": true,
+  "claim_check_performed": false,
+  "user_review_pending": false,
+  "user_approval_record": "../video-v2/user-approval.json"
+}
