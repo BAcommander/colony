@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-02",
+  "recorded_at_utc": "2026-11-02T11:13:34.441062+00:00",
+  "question": "Is this +3 dB atmosphere level enough? The clip starts at the first wind plateau; the music and radio source levels are unchanged.",
+  "answer_verbatim": "Enough\u2014keep this level",
+  "scope": "Accepts the environment-v2 wind/ventilation balance (+3dB each versus v1) as the setting to retain for Below the Snowline.",
+  "review_context": "66-second plateau excerpt, source0:54\u20132:00, supplied at the corresponding full-copy gain.",
+  "does_not_establish": [
+    "a full nine-minute or all-day listening verdict",
+    "new approval of all radio events or animation",
+    "publication or a final long video",
+    "a universal SFX preset for other scenes"
+  ],
+  "recipe_path": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\environment-session-v2\\recipe.json",
+  "recipe_sha256": "330a8a1a561a86bc74e7d5ce0c8ecb537773137b8d011ceed25eda0f821d7659",
+  "files": [
+    {
+      "path": "C:/Colony/exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/Snowline-radio-wind-and-ventilation-9min-v2.flac",
+      "sha256": "5bfe568b14289108328fb0a43c0725de91071416e0a8d759a252d274017dc06a"
+    },
+    {
+      "path": "C:/Colony/exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/Snowline-radio-wind-and-ventilation-9min-v2.mp3",
+      "sha256": "36dcc5c4751e874f79431618af020c4b5f24729357a83182de5d9429e85300c7"
+    },
+    {
+      "path": "C:/Colony/exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/Snowline-environment-v2-plateau-check-66s.mp3",
+      "sha256": "00eee617a257fea8ce908b1f84686751cb2a2455df446ba61bd75c0bd0554958"
+    }
+  ],
+  "assistant_listening": false,
+  "audio_files_modified": false,
+  "commit_or_push_performed": false
+}

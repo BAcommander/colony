@@ -1,0 +1,11 @@
+{
+  "all_decoded_stereo_frames": 25920000,
+  "maximum_lossless_mix_recipe_error": 1.1914794061703565e-07,
+  "maximum_music_error_while_radio_is_zero": 0.0,
+  "decoded_radio_zero_frames": 22098584,
+  "all14_packets_hash_verified_and_distinct": true,
+  "approved_music_hash_unchanged": true,
+  "schedule_tests_passed": 2,
+  "assistant_listening": false,
+  "user_full_session_review": "pending"
+}

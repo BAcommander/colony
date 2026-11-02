@@ -1,0 +1,1125 @@
+{
+  "schema": 1,
+  "created_at_utc": "2026-11-02T12:07:03.261843+00:00",
+  "scope": "All current local Snowline receiver and environment authored test files plus exact restored own music, wind, artwork and restoration provenance. No external reference recordings.",
+  "source_production_commit": "aa62e427e3f6386217e90229c063820c8f54ccae",
+  "runtime": {
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.4.3",
+    "scipy": "1.18.1",
+    "imageio-ffmpeg": "0.6.0"
+  },
+  "archive": {
+    "file": "snowline-session-media.zip",
+    "bytes": 1534145513,
+    "sha256": "8f3b40fac6a434a7120e5d9697bf1bdfcc26e12356d9d4c5252eae43ae9b9165"
+  },
+  "members": [
+    {
+      "path": "exports/restored-snowline-2026-11-02/artwork-v5.png",
+      "bytes": 2284812,
+      "sha256": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f"
+    },
+    {
+      "path": "exports/restored-snowline-2026-11-02/Below-the-Snowline-paired-loop-9min-v1.flac",
+      "bytes": 77189149,
+      "sha256": "987b1509075da8a9202f24a6b765f4e2b6d88d90cb90c28bdaf8719af77b252b"
+    },
+    {
+      "path": "exports/restored-snowline-2026-11-02/Below-the-Snowline-paired-loop-9min-v1.mp3",
+      "bytes": 12961196,
+      "sha256": "e81beb635c121b5f68e43c889f0ab6df2eb4e3094f7b3595eba060792c4ead93"
+    },
+    {
+      "path": "exports/restored-snowline-2026-11-02/restoration.json",
+      "bytes": 1185,
+      "sha256": "5de180be073bfce779b2c061e978e64bc3747cacba1088835c2c39e1dbec0fc9"
+    },
+    {
+      "path": "exports/restored-snowline-2026-11-02/wind-soft-exterior-01.mp3",
+      "bytes": 721197,
+      "sha256": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v1/full-mix-listening-pass-1.mp3",
+      "bytes": 12961196,
+      "sha256": "4ed0350c8ae45dbd1bd9a2f06f6fbbd7e0ee6ff1112a246d796b9b33db3bc251"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v1/full-mix-listening-pass-2.mp3",
+      "bytes": 12961196,
+      "sha256": "441a0f1dccf6749367fb6e7b9f52530d837d93f2507a78e5048ec0ff4842df45"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v1/full-mix-meter/loudness-log.txt",
+      "bytes": 1125,
+      "sha256": "956f67c9e97fcfa00cd1235512bb19f404d0d8144fa12959f395a72315d264ca"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v1/full-mix-meter/pass-1/loudness-log.txt",
+      "bytes": 1171,
+      "sha256": "cdf5ba6105011d4db5d599b6e83a0eb7186a8f63c0972d0a4eacc32bf8a71dd0"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v1/full-mix-meter/pass-2/loudness-log.txt",
+      "bytes": 1171,
+      "sha256": "2598abd71585adc36cd71906699dd9479a9abbf772cb57b8b66206bf5f6002de"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v1/full-sample-validation.json",
+      "bytes": 516,
+      "sha256": "16e48e0ccf83ef22fca32b87a9a7802f5b3586bbb65728f0e45cf7ff37a13dd7"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v1/recipe.json",
+      "bytes": 5525,
+      "sha256": "113f7f4d2663925f401949d3ad6fbc7b38f58526e0048d4dcda508b641784513"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v1/Snowline-exterior-wind-9min-v1.flac",
+      "bytes": 17164141,
+      "sha256": "dcafa26fbcecf35dadb8178c12f0a60435120aaf69297f57c853727aacb1570e"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v1/Snowline-radio-wind-and-ventilation-2min-preview-v1.mp3",
+      "bytes": 2881196,
+      "sha256": "d29cde9adae35f093b8c8b60f2314843c87c150fea0c12e92899c4bbfdb8383a"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v1/Snowline-radio-wind-and-ventilation-9min-v1.flac",
+      "bytes": 77709318,
+      "sha256": "8fe97d62092c8efb14c73471d2f0d5b5827fe66201a6cfa6328ea8992a694eaa"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v1/Snowline-radio-wind-and-ventilation-9min-v1.mp3",
+      "bytes": 12961196,
+      "sha256": "441a0f1dccf6749367fb6e7b9f52530d837d93f2507a78e5048ec0ff4842df45"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v1/Snowline-ventilation-9min-v1.flac",
+      "bytes": 35166520,
+      "sha256": "73f041941c20dd2dc95ec4cc7d0feea985f92b98a17b401ca90ed275d3cd14e4"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/full-mix-listening-pass-1.mp3",
+      "bytes": 12961196,
+      "sha256": "1727cb278c41fb1dd0933141ffa892131531565d7cacb1c885fd90f1d5c0c95d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/full-mix-listening-pass-2.mp3",
+      "bytes": 12961196,
+      "sha256": "36dcc5c4751e874f79431618af020c4b5f24729357a83182de5d9429e85300c7"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/full-mix-meter/loudness-log.txt",
+      "bytes": 1125,
+      "sha256": "bd377c4a4f7cbbf7f9d0856a038f46771915f8f34b6a021198bc2fcc8a2dafe8"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/full-mix-meter/pass-1/loudness-log.txt",
+      "bytes": 1171,
+      "sha256": "46721e8a294b872b18ff53e16b43337a034f4725c87f96e24472e9fb111789eb"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/full-mix-meter/pass-2/loudness-log.txt",
+      "bytes": 1171,
+      "sha256": "17321304aee96509e30ccc8ef2eb67b2b08d49f541bc437308a6405da0f6d8a9"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/full-sample-validation.json",
+      "bytes": 447,
+      "sha256": "5dc6c5e390e04c813ef08a4db99d46737c5456e32ea058c0976da6da46d17843"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/recipe.json",
+      "bytes": 4509,
+      "sha256": "330a8a1a561a86bc74e7d5ce0c8ecb537773137b8d011ceed25eda0f821d7659"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/Snowline-environment-v1-plateau-check-66s.mp3",
+      "bytes": 1585196,
+      "sha256": "06439777215340412ee8fc9722534b6eaa944292d517edeef5f0a98eaa4bf106"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/Snowline-environment-v2-plateau-check-66s.mp3",
+      "bytes": 1585196,
+      "sha256": "00eee617a257fea8ce908b1f84686751cb2a2455df446ba61bd75c0bd0554958"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/Snowline-exterior-wind-9min-v2.flac",
+      "bytes": 19046443,
+      "sha256": "52ebe62946ecfdcb5ad01ae560c5e9a24d0e88f979a22bc3429de6bf1fcc9b18"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/Snowline-radio-wind-and-ventilation-9min-v2.flac",
+      "bytes": 77808162,
+      "sha256": "5bfe568b14289108328fb0a43c0725de91071416e0a8d759a252d274017dc06a"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/Snowline-radio-wind-and-ventilation-9min-v2.mp3",
+      "bytes": 12961196,
+      "sha256": "36dcc5c4751e874f79431618af020c4b5f24729357a83182de5d9429e85300c7"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/environment-session-v2/Snowline-ventilation-9min-v2.flac",
+      "bytes": 38344786,
+      "sha256": "36939090e8896854d9d5c874984912bdba427d3ff5c67799ba260a3a48a2f312"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/cue-sheet.txt",
+      "bytes": 591,
+      "sha256": "223e9ae9e0c80af31cc4104d8bfad104801ca6ed54dcaa38642c8f6ca98602e1"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/full-mix-listening-pass-1.mp3",
+      "bytes": 12961196,
+      "sha256": "744fa6c4f8ac9eb0fd6ac76061d57b053dc73a0c6203b45409c0a52efb463cdd"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/full-mix-listening-pass-2.mp3",
+      "bytes": 12961196,
+      "sha256": "393b844bde7941fecdb3b3e2d5db637ef8237f667e421e21d28cb35485faf3af"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/full-mix-meter/loudness-log.txt",
+      "bytes": 1107,
+      "sha256": "178d947a7e5729f892c1267c844bfe9bbd235fa8a6a7fe38c927b18ae60932b7"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/full-mix-meter/pass-1/loudness-log.txt",
+      "bytes": 1164,
+      "sha256": "d1915dea16beab3b5b6566386ce17a660c280b6822a3cee90c3b77ccd6aebcd8"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/full-mix-meter/pass-2/loudness-log.txt",
+      "bytes": 1164,
+      "sha256": "fce3966cc6921cff5e402f3248944b71285125b688ba0a8681a8bbe5274eb3d3"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/full-sample-validation.json",
+      "bytes": 405,
+      "sha256": "c3ca03cc8b025714450a456099126cca9ad16c1a3fb92ebb2b4889d438f06af3"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-01.wav",
+      "bytes": 1909968,
+      "sha256": "ce161659db1f997513eba96d4824d21e6d718ed215a43ef2e73525b622d60fc7"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-02.wav",
+      "bytes": 2129778,
+      "sha256": "a880bcf377bae54bd7d37d8a972bd8f730d6d3620e5740cede38d56c58ddaa4d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-03.wav",
+      "bytes": 1966542,
+      "sha256": "36cef8dd236b92214756c5025ea44348aba409ca8f7c7bf973cdac843f4b0cf0"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-04.wav",
+      "bytes": 1825848,
+      "sha256": "3982682ee6e8fccbfc7e4ad4bda67ff261b81fff9af5d490169ab637167b54ff"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-05.wav",
+      "bytes": 1337490,
+      "sha256": "08c77de9eea443ddb4a220bc9d93849cd18b926e45f52522f44266b4ffb8e340"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-06.wav",
+      "bytes": 1572018,
+      "sha256": "6bfbc826e74c95b2715f435cbe4034762f4d1e1ce7dd756400ed7eb71b22c05b"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-07.wav",
+      "bytes": 1617978,
+      "sha256": "17d9862166491fcb3395dd8dd169f60de267f3df35602f4b93f687a2826cbf36"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-08.wav",
+      "bytes": 2073546,
+      "sha256": "1c2f0c4893ca9b0575b39116d6469075142c249939f6b4f9d7a2d31869f0dd2d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-09.wav",
+      "bytes": 1700100,
+      "sha256": "56dec3505a0b8b5a96bd3d1b9005dee7793f5e4e4ae71a575237ab4717d854e0"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-10.wav",
+      "bytes": 1408650,
+      "sha256": "4e924838f101d2ae4a7772fedcfd89d32d69a827d632e2be6f1057cfc4a262e0"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-11.wav",
+      "bytes": 1402518,
+      "sha256": "08a0c2b4816552b7e4cf216743446509dc64eaf3081794698f264e9acf1a703e"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-12.wav",
+      "bytes": 1167744,
+      "sha256": "368a48e9160500b46f03c5bff7f46ea556fcf12429cc6118f4a03134effc9890"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-13.wav",
+      "bytes": 1695654,
+      "sha256": "865d9da5d40b2d5beee1b2af1f5fc08a13727215c056f3e96b2ef9b13a011eac"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/packets/packet-14.wav",
+      "bytes": 1294068,
+      "sha256": "d41dd3042a49efc7ba588e1b5d358d22d5cc8b44dc1ad4247c1b63402cd52935"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/recipe.json",
+      "bytes": 15979,
+      "sha256": "66e367c65b5435b3af6ae184e1b77dad6896676474de2a8827d27aa648700288"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/Snowline-music-and-radio-9min-v1.flac",
+      "bytes": 77569667,
+      "sha256": "aede078175e433ad6be6fc8ad8970ac95b6a2c69311322f53bc10fa770642b1d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/Snowline-music-and-radio-9min-v1.mp3",
+      "bytes": 12961196,
+      "sha256": "393b844bde7941fecdb3b3e2d5db637ef8237f667e421e21d28cb35485faf3af"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/full-session-v1/Snowline-radio-score-9min-v1.flac",
+      "bytes": 11671113,
+      "sha256": "a0ad900a82451ad2444c219716bae22d244e55e0db4eaedf98cb882be7b6abe6"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v1/carrier.wav",
+      "bytes": 19296102,
+      "sha256": "5d0d0265ae0cacb588c5b2290fe419477f9dc2bb2f4ebb3fac054f499822582b"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v1/music-only-measurements/loudness-log.txt",
+      "bytes": 1135,
+      "sha256": "abfc1699d6343fdecaf565bd52bd92cdd463455c0c9e60de65c8895edf4ad80a"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v1/music-only-prematch.wav",
+      "bytes": 17280102,
+      "sha256": "67c43fc90b423d7a7448d10e3babeca8d10b0ca293a5fd795fcd7afb38269ef7"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v1/music-only.mp3",
+      "bytes": 1441196,
+      "sha256": "e3ef368af3e0090a048212258ba86e82446855724ab416e4555ce929eb523c80"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v1/nonverbal-activity.wav",
+      "bytes": 19296102,
+      "sha256": "76c6f8276e9727f1dbeb48f53d2666af35bbc9981f18bc548aeec1c8676eb72e"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v1/receiver-idle.mp3",
+      "bytes": 1609388,
+      "sha256": "2bbb2947be33c5aa3398f551840057c6cc8f1e5bc2998a2fececc925a084f19e"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v1/receiver-three-repeat-review.mp3",
+      "bytes": 4825196,
+      "sha256": "4bcc4e51bf4fceab81f3fd332b2d6cec31ba84c32db75c821bb2bf971e7240d5"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v1/receiver-with-activity.mp3",
+      "bytes": 1609388,
+      "sha256": "79c399e1cea67ebf80c30fc57bf080847af0a8fdf7e95cb1edaad63237823fd8"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v1/receiver-with-activity.wav",
+      "bytes": 19296102,
+      "sha256": "559404cf504c92ff01f47e624216a803d5dd9b38aff41d861ffbdf47f1695873"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v1/static.wav",
+      "bytes": 19296102,
+      "sha256": "02ba70573566c7908fa66d3ef2a82cb681661ceea9a84dbc4dbe88c7438851f2"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/carrier.wav",
+      "bytes": 19296102,
+      "sha256": "5d0d0265ae0cacb588c5b2290fe419477f9dc2bb2f4ebb3fac054f499822582b"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-only-match-pass-1.mp3",
+      "bytes": 1441196,
+      "sha256": "e3ef368af3e0090a048212258ba86e82446855724ab416e4555ce929eb523c80"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-only-match-pass-2.mp3",
+      "bytes": 1441196,
+      "sha256": "e7713af547b9e6fbc29cbdf71407dbcefac617b942c8a113b28304b25a313195"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-only-measurements/loudness-log.txt",
+      "bytes": 1106,
+      "sha256": "b0b7df3a875b38ffa1e334f00666e4105c499c05bb883d235e52e97c559f62b7"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-only-measurements/pass-1/loudness-log.txt",
+      "bytes": 1148,
+      "sha256": "5fb756927de41b30c54ce4a1fca472c566f97215a098d707579bac0f48aff700"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-only-measurements/pass-2/loudness-log.txt",
+      "bytes": 1148,
+      "sha256": "ddc697dc23800aaab43d9556f433748c11d99c1285eaab5567d35471de97f18e"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-only-prematch.wav",
+      "bytes": 17280102,
+      "sha256": "67c43fc90b423d7a7448d10e3babeca8d10b0ca293a5fd795fcd7afb38269ef7"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-only.mp3",
+      "bytes": 1441196,
+      "sha256": "e7713af547b9e6fbc29cbdf71407dbcefac617b942c8a113b28304b25a313195"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-clearer-match-pass-1.mp3",
+      "bytes": 1441196,
+      "sha256": "24f10a974a6dd8540efc0e3a2ed540ed071d55523c3335fac9a7d2048244adca"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-clearer-match-pass-2.mp3",
+      "bytes": 1441196,
+      "sha256": "88e3a32eb2ad993df8121108aec1f49c0ac7452dc9570b7f2037a7821c8fee10"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-clearer-measurements/loudness-log.txt",
+      "bytes": 1115,
+      "sha256": "c328fd2ee9515f8bb72dfe944ee766b1ec64e3a2bb5427d8a3cbd004562a41bb"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-clearer-measurements/pass-1/loudness-log.txt",
+      "bytes": 1157,
+      "sha256": "d11173ff9fed768999465226a1e40935198fd493423e8d41140e6e9cf3cd1268"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-clearer-measurements/pass-2/loudness-log.txt",
+      "bytes": 1157,
+      "sha256": "e39266e3896f22fa062ee92d0467ef8f219dd6a6dd8a5d75d5db15107b7f1627"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-clearer-prematch.wav",
+      "bytes": 17280102,
+      "sha256": "1cb762270610b4a5b14a0c9ece3b81bc4af2ae8735be2b287b9537bdb4e0b46a"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-clearer.mp3",
+      "bytes": 1441196,
+      "sha256": "88e3a32eb2ad993df8121108aec1f49c0ac7452dc9570b7f2037a7821c8fee10"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-quiet-match-pass-1.mp3",
+      "bytes": 1441196,
+      "sha256": "a79c993541b7b01ee800a4c73e2e0e2af2d5a6e6eff94710f35c6139f7aeb00d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-quiet-match-pass-2.mp3",
+      "bytes": 1441196,
+      "sha256": "158b3f0fd432493e65244fe50689a3b29aa8dede5f7bafece69537911a9ef88c"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-quiet-measurements/loudness-log.txt",
+      "bytes": 1113,
+      "sha256": "1614115aeb4b84d1382f1539c25d18bd4f0c68d50986152443bfed89b257b807"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-quiet-measurements/pass-1/loudness-log.txt",
+      "bytes": 1155,
+      "sha256": "55427c987fde1dc497729928bdb691ae8e495f26889a9ac1ad0abe75adc8dede"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-quiet-measurements/pass-2/loudness-log.txt",
+      "bytes": 1155,
+      "sha256": "443bcbb50dce6eb76a2d19a4d58fdd544f55f41997ac30f68ba7799b97809d54"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-quiet-prematch.wav",
+      "bytes": 17280102,
+      "sha256": "ec4c5d7b4a8148b396f950d6fe89e8fb58953ff4cda157f7c12df156d58c02a5"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/music-radio-quiet.mp3",
+      "bytes": 1441196,
+      "sha256": "158b3f0fd432493e65244fe50689a3b29aa8dede5f7bafece69537911a9ef88c"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/nonverbal-activity.wav",
+      "bytes": 19296102,
+      "sha256": "76c6f8276e9727f1dbeb48f53d2666af35bbc9981f18bc548aeec1c8676eb72e"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/receiver-idle.mp3",
+      "bytes": 1609388,
+      "sha256": "2bbb2947be33c5aa3398f551840057c6cc8f1e5bc2998a2fececc925a084f19e"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/receiver-three-repeat-review.mp3",
+      "bytes": 4825196,
+      "sha256": "4bcc4e51bf4fceab81f3fd332b2d6cec31ba84c32db75c821bb2bf971e7240d5"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/receiver-with-activity.mp3",
+      "bytes": 1609388,
+      "sha256": "79c399e1cea67ebf80c30fc57bf080847af0a8fdf7e95cb1edaad63237823fd8"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/receiver-with-activity.wav",
+      "bytes": 19296102,
+      "sha256": "559404cf504c92ff01f47e624216a803d5dd9b38aff41d861ffbdf47f1695873"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/recipe.json",
+      "bytes": 6208,
+      "sha256": "78eb61ba1abdb5ed315b549dcf9bd8ae16f0f535251f4b19982669a63d7c5ff1"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v2/static.wav",
+      "bytes": 19296102,
+      "sha256": "02ba70573566c7908fa66d3ef2a82cb681661ceea9a84dbc4dbe88c7438851f2"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/beeps.wav",
+      "bytes": 19296102,
+      "sha256": "ae246a8e986307cd7921c28cc9c9a5a42670af9c9c2f8ec3e91c207123c17c1f"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/carrier.wav",
+      "bytes": 19296102,
+      "sha256": "54e7172aefc2f230949dad6c70663909a2ea70bbb63abb1b188be6f9376e07d1"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/chatter-and-beeps.mp3",
+      "bytes": 1609388,
+      "sha256": "8859532be7651296a1e01743adbc18c5f46ae16217148e19323e63c05717e39d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-clearer-meter/loudness-log.txt",
+      "bytes": 1115,
+      "sha256": "50402000df37a4d22257072c0f4b822bea8f4206b95f164dd02b61b67940566d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-clearer-meter/pass-1/loudness-log.txt",
+      "bytes": 1151,
+      "sha256": "22c135184cfa4aada5a56b1bfb78f531446c8e8f574b4743d77ec7fbc9caba9d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-clearer-meter/pass-2/loudness-log.txt",
+      "bytes": 1151,
+      "sha256": "5d8ebbcee061d10d9d6b864e9978de50da44dbac82c28521e8bf8a886a8632f8"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-clearer-pass-1.mp3",
+      "bytes": 1441196,
+      "sha256": "9fde52b35c8923ec6130962a75c3d38b88fa640e2001ac3199020cc31f1e8e02"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-clearer-pass-2.mp3",
+      "bytes": 1441196,
+      "sha256": "327ee24edb997a524923555ab580885b80097c61e5a5a67d40b5e2fb7f0df9b9"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-clearer-prematch.wav",
+      "bytes": 17280102,
+      "sha256": "df70f51cd3afaf2015992e2fdc106c421164e30dbdf9d3020f38881595f08ec1"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-clearer.mp3",
+      "bytes": 1441196,
+      "sha256": "327ee24edb997a524923555ab580885b80097c61e5a5a67d40b5e2fb7f0df9b9"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-quiet-meter/loudness-log.txt",
+      "bytes": 1113,
+      "sha256": "2eb3169be8970bca09a8f0590ae7639b056a39c3207cf42223afdb6eb9112d48"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-quiet-meter/pass-1/loudness-log.txt",
+      "bytes": 1149,
+      "sha256": "586fef33945c84d7202728ee19dfeda27db475a3e9eba771f6e281484cc4a4d9"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-quiet-meter/pass-2/loudness-log.txt",
+      "bytes": 1149,
+      "sha256": "58635270e385caa34c483c5de58145ceb1ffb7265132d190ba2d2425b1d50d46"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-quiet-pass-1.mp3",
+      "bytes": 1441196,
+      "sha256": "cb3b85048a0d4c5c3fffe697d29faa358c816bc0d8da7d14e65fbb594d52e0bf"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-quiet-pass-2.mp3",
+      "bytes": 1441196,
+      "sha256": "8c0d40b40ad5ba23392f8a74d662463da89443fc2f97514e4c8d5f39256090ad"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-quiet-prematch.wav",
+      "bytes": 17280102,
+      "sha256": "21c96f1592e7a46a4132ff9db121c3769720acfd3aac725bd136588df74313d4"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-comms-quiet.mp3",
+      "bytes": 1441196,
+      "sha256": "8c0d40b40ad5ba23392f8a74d662463da89443fc2f97514e4c8d5f39256090ad"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-only-meter/loudness-log.txt",
+      "bytes": 1106,
+      "sha256": "7f6c7b6dd07356422a1924b7946e3fdcb14f29bf4783c4470e207beac2c284b4"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-only-meter/pass-1/loudness-log.txt",
+      "bytes": 1142,
+      "sha256": "efbc05dc22f6ee1efebc502784245f2cb846c44bd07d056f7dbc791b343df9a1"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-only-meter/pass-2/loudness-log.txt",
+      "bytes": 1142,
+      "sha256": "4f4d952633095743951f387f5f96c80766ec4ff3f7de2d115462100f08c5fe9d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-only-pass-1.mp3",
+      "bytes": 1441196,
+      "sha256": "e3ef368af3e0090a048212258ba86e82446855724ab416e4555ce929eb523c80"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-only-pass-2.mp3",
+      "bytes": 1441196,
+      "sha256": "e7713af547b9e6fbc29cbdf71407dbcefac617b942c8a113b28304b25a313195"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-only-prematch.wav",
+      "bytes": 17280102,
+      "sha256": "67c43fc90b423d7a7448d10e3babeca8d10b0ca293a5fd795fcd7afb38269ef7"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/music-only.mp3",
+      "bytes": 1441196,
+      "sha256": "e7713af547b9e6fbc29cbdf71407dbcefac617b942c8a113b28304b25a313195"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/receiver-comms-three-repeat-review.mp3",
+      "bytes": 4825196,
+      "sha256": "735307ccb342ac72e75f2ace38875a57e34a2a092ea08c0a5ba2519422587f7b"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/receiver-comms.mp3",
+      "bytes": 1609388,
+      "sha256": "4a5a53ddb4b559ceb7cc3552c67c1ce673592cae57806eeff485bb99c55fb55b"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/receiver-comms.wav",
+      "bytes": 19296102,
+      "sha256": "a41e0e2e8755e0d2ad2914345be59a1b3452c546cb898151da2110d646fbe323"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/recipe.json",
+      "bytes": 10656,
+      "sha256": "4ba03e342869f46df2c1294c781ac42ba33648af186e60d12c747ade5a136346"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/static.wav",
+      "bytes": 19296102,
+      "sha256": "b70da456461d3310041734696ec2fc96e245160aadbccb718eb380cd276f758e"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v3/transmissions.wav",
+      "bytes": 19296102,
+      "sha256": "39354343512f959ef8012342266e824afbe455b746edccf310e9bec9fe0301f4"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/beeps.wav",
+      "bytes": 19296102,
+      "sha256": "5dced4a37b5a8887d91bab1777047f4522baafa8c9a88da22c20118f87496443"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/carrier.wav",
+      "bytes": 19296102,
+      "sha256": "1b1277faf474ce4399c669234abf743e741bf3efc5bb5401e5d2b0c6a3c08bf8"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/clicks.wav",
+      "bytes": 19296102,
+      "sha256": "2a3fb4d695365dcfef783946d923d9fa9fb21a750aa1c5141db62aa2d4385e3d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-clearer-meter/loudness-log.txt",
+      "bytes": 1115,
+      "sha256": "cdc3a2abedf3b60f2a9d20d19e660f140c298d5efb1ade34a7e8e256a2f2f692"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-clearer-meter/pass-1/loudness-log.txt",
+      "bytes": 1151,
+      "sha256": "bc9d17db5097c2a7ee841834e1378d749830b5f41bf3f146512ff88abc09874a"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-clearer-meter/pass-2/loudness-log.txt",
+      "bytes": 1151,
+      "sha256": "edc8dc242f763f4c3e3323bc51bed556ac2cbe3d9eb9abcfe26421bc460b75d3"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-clearer-pass-1.mp3",
+      "bytes": 1609388,
+      "sha256": "10b214d40248f96a7429d35618c84bae9d20b96e2b584f5c6e7b9b9c91d4fa2a"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-clearer-pass-2.mp3",
+      "bytes": 1609388,
+      "sha256": "28b4627985a0202721a83eccc7aa1abe348f87f64042277d5c00680ab96a09ee"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-clearer-prematch.wav",
+      "bytes": 19296102,
+      "sha256": "5aa398c27f110606a930ab7ab13bbc3c029cc24efc8d52a621f1de9b7d1a9bba"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-clearer.mp3",
+      "bytes": 1609388,
+      "sha256": "28b4627985a0202721a83eccc7aa1abe348f87f64042277d5c00680ab96a09ee"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-quiet-meter/loudness-log.txt",
+      "bytes": 1113,
+      "sha256": "89a2b8c8bdcffdcd6d15a2c72fc6942fcce1d2ff4d4272aaa13b8feb23ac65fa"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-quiet-meter/pass-1/loudness-log.txt",
+      "bytes": 1149,
+      "sha256": "21ae1f42fce9b3f52cc57f85b4dcf1f21208c92726f666d7b85933a2c9e47a3a"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-quiet-meter/pass-2/loudness-log.txt",
+      "bytes": 1149,
+      "sha256": "40b1d52ee062988ea85d36a8ff8b10b9b3ae85f72e167837abdc5755a7c352fc"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-quiet-pass-1.mp3",
+      "bytes": 1609388,
+      "sha256": "0af97ef0d326b549742bc21899dfd921c730ffbc9f7ad1ae6065730a86099dbf"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-quiet-pass-2.mp3",
+      "bytes": 1609388,
+      "sha256": "ec0d855511c2eae1f9fd970a1c1bee930f711ee2b6117db4a9534f4551e3b9d2"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-quiet-prematch.wav",
+      "bytes": 19296102,
+      "sha256": "ffeb6afd92937d323d99b0de697727ea90572e251705fc4c6815f6a1474263cf"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-gated-quiet.mp3",
+      "bytes": 1609388,
+      "sha256": "ec0d855511c2eae1f9fd970a1c1bee930f711ee2b6117db4a9534f4551e3b9d2"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-only-meter/loudness-log.txt",
+      "bytes": 1106,
+      "sha256": "2c877fdf20ea7d507da0081c98f3e3ef45f34f791f7860be2bb17286f4d79cea"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-only-meter/pass-1/loudness-log.txt",
+      "bytes": 1142,
+      "sha256": "4e90ae10694ea9fdb48c0fc3a64b3df7e4b8b399136d6bcdb5146a9ca5b26c07"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-only-meter/pass-2/loudness-log.txt",
+      "bytes": 1142,
+      "sha256": "8cf5e69bf722c0db9930385d0ca64b1746e1b5fc85661a3b3118ba68f9037ec2"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-only-pass-1.mp3",
+      "bytes": 1609388,
+      "sha256": "7a7d89492b4feaf9aecc07d47bd8ce5797e363af942f48021ab84892ce8c15f8"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-only-pass-2.mp3",
+      "bytes": 1609388,
+      "sha256": "b7a6e43a162af65809dae01f0881d8604e94d5934a97d7743d236c0607184be5"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-only-prematch.wav",
+      "bytes": 19296102,
+      "sha256": "00bd1db4c12213dd46a59879b900fa3213dafd169ef7843a5f6388d5eb101b5a"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/music-only.mp3",
+      "bytes": 1609388,
+      "sha256": "b7a6e43a162af65809dae01f0881d8604e94d5934a97d7743d236c0607184be5"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/receiver-gated-three-repeat-review.mp3",
+      "bytes": 4825196,
+      "sha256": "8861e7c3606a57944961654a6ba245e05c5949e302cd3c24edf14ba68f59a733"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/receiver-gated.mp3",
+      "bytes": 1609388,
+      "sha256": "57ffb9f28ca601f8a925c08ad029c5f55e0377b373898d6bf44a7d7960f082dc"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/receiver-gated.wav",
+      "bytes": 19296102,
+      "sha256": "3e38678e2e7ddcf99973ff0004c3ad5b626fb729fbb64d46015f762bf6d97664"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/recipe.json",
+      "bytes": 7807,
+      "sha256": "329c85b2d3d25c32f363acbf32b6592b7290f0272d4eeef03d332d15a2a2f11a"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/static.wav",
+      "bytes": 19296102,
+      "sha256": "e168cced6a876d19358d5630693402b107fdaab5aa077e3c1d99d35348bb6718"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/v4/transmissions.wav",
+      "bytes": 19296102,
+      "sha256": "44588b7aed28e270430c929a26d04364410630486ad26b73c66f111ca0d8f63a"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v1/voice-01.wav",
+      "bytes": 471358,
+      "sha256": "95fe61443b4693820ae067169e10ad0d4b6994a2f7ede3a47596a35ca432ceaf"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v1/voice-02.wav",
+      "bytes": 631198,
+      "sha256": "a8d905c4bbd01e5e0a9bb0ec5a1680764fd0a6fbec48b13fa2e74e0bef65af71"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v1/voice-03.wav",
+      "bytes": 390394,
+      "sha256": "48991371b8b69e52f908f78886f792f544dd35311a55c64589d7d9650a7fdfe8"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v1/voice-04.wav",
+      "bytes": 694234,
+      "sha256": "935a8dfb2ccee6514a57ab4e9b643c6bb4d4a1b048ac461131975717a5745510"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v1/voice-05.wav",
+      "bytes": 445054,
+      "sha256": "e04c5b404430f84ec50a96105a277ba8d00a5917e371ddcadaf4a3b7ad610047"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v1/voice-06.wav",
+      "bytes": 443122,
+      "sha256": "a8f6d7416e755b6ee38509695c43666cb31b0f84a16dd8f740aecc93ca06de60"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v1/voice-sources.json",
+      "bytes": 1695,
+      "sha256": "a4cd706874c5c5fe6c366e28603704a1879aef244d3b5d4525fcacdf4047674d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-01.wav",
+      "bytes": 471358,
+      "sha256": "95fe61443b4693820ae067169e10ad0d4b6994a2f7ede3a47596a35ca432ceaf"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-02.wav",
+      "bytes": 631198,
+      "sha256": "a8d905c4bbd01e5e0a9bb0ec5a1680764fd0a6fbec48b13fa2e74e0bef65af71"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-03.wav",
+      "bytes": 390394,
+      "sha256": "48991371b8b69e52f908f78886f792f544dd35311a55c64589d7d9650a7fdfe8"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-04.wav",
+      "bytes": 694234,
+      "sha256": "935a8dfb2ccee6514a57ab4e9b643c6bb4d4a1b048ac461131975717a5745510"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-05.wav",
+      "bytes": 445054,
+      "sha256": "e04c5b404430f84ec50a96105a277ba8d00a5917e371ddcadaf4a3b7ad610047"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-06.wav",
+      "bytes": 443122,
+      "sha256": "a8f6d7416e755b6ee38509695c43666cb31b0f84a16dd8f740aecc93ca06de60"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-07.wav",
+      "bytes": 543358,
+      "sha256": "99d6fd113adc8aa969a2fa3d34e583eabf1af31b4159c4b0bc743c93bd565ad8"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-08.wav",
+      "bytes": 550174,
+      "sha256": "50122ce0a2002f055964465caf12d6aef6dbdae6832948cef9aa990288e80a91"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-09.wav",
+      "bytes": 620212,
+      "sha256": "ace716c7071e2b7faea09102fa3a3ba33fb74fe28a055f766124ec14131b1fee"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-10.wav",
+      "bytes": 615358,
+      "sha256": "d4e1a26c2799aa69ee7290fc8198e4d207a834b17c503a3dbf58143c9344d8eb"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-11.wav",
+      "bytes": 476998,
+      "sha256": "7bc2a7049c1317cefa880a9caf963bb5bb5c0d886d7b1932ea965dea4950e5d8"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-12.wav",
+      "bytes": 690946,
+      "sha256": "63e5baf3b9073e2ec743461e78c8a2302698353617c714a949924ed1f7abd9a7"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-13.wav",
+      "bytes": 546718,
+      "sha256": "aca8a2300fc73dea5218b7feefdfac36e61d108996fd87655246772242bd4bf9"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-14.wav",
+      "bytes": 557686,
+      "sha256": "638fc6b3545a99a87dcf5b2148587748ca072fe1b5cea380c3a8b233df636c96"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/voices-v2/voice-sources.json",
+      "bytes": 3741,
+      "sha256": "b532cc0ff71dafa8f30860d9f67a50280ad5749d67981686b52c91e118c8b135"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/A-approved-v2-90s-check.mp3",
+      "bytes": 2161196,
+      "sha256": "7a3d0ecb2b80f14d2ae09c2f337aabdf83d7818a8dae9feaf361ab38a8f10bfc"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/B-wind-only/full-mix-listening-pass-1.mp3",
+      "bytes": 12961196,
+      "sha256": "e2bf2679c81401017545f1a70a59129a9a0d351f0854f3d1b27542fed24c33ca"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/B-wind-only/full-mix-listening-pass-2.mp3",
+      "bytes": 12961196,
+      "sha256": "ea63c18b2b95c82bfaf5cd130c9550a3eb2c56825e37c02e6b9e2713141b2268"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/B-wind-only/full-mix-meter/loudness-log.txt",
+      "bytes": 1123,
+      "sha256": "ee1423d638be3671ea41cd25354f1abf1e0018f321164affb2312da909275bf2"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/B-wind-only/full-mix-meter/pass-1/loudness-log.txt",
+      "bytes": 1179,
+      "sha256": "84eded6feb3b464d0df5196f193e8ed045011ccff5a9bc99df71e99bcccece34"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/B-wind-only/full-mix-meter/pass-2/loudness-log.txt",
+      "bytes": 1179,
+      "sha256": "a63d056c69562c6c7f42ae8b251a00cc1a46fb687d94d4711f6a1b68b5e327d6"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/B-wind-only/Snowline-wind-variation-9min-test.flac",
+      "bytes": 77803452,
+      "sha256": "eba4df026d579af0cd6e2ff7dd671713b45a3ba03873e3cb46550d9ab6a478cc"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/B-wind-only/Snowline-wind-variation-9min-test.mp3",
+      "bytes": 12961196,
+      "sha256": "ea63c18b2b95c82bfaf5cd130c9550a3eb2c56825e37c02e6b9e2713141b2268"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/B-wind-only-90s-check.mp3",
+      "bytes": 2161196,
+      "sha256": "0216f405ba20e9cf31aa861fdaedab490f7559f911e867806b0e117ceb224a85"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/C-wind-and-creaks/full-mix-listening-pass-1.mp3",
+      "bytes": 12961196,
+      "sha256": "4c943187d1e38268b99c5b97d763d10e0f72c7f19a036f767580f11b0bcced28"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/C-wind-and-creaks/full-mix-listening-pass-2.mp3",
+      "bytes": 12961196,
+      "sha256": "e4b6250542556c606a171669b665cca0c0f680a1f8ec624cf1fc393f40f3de4c"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/C-wind-and-creaks/full-mix-meter/loudness-log.txt",
+      "bytes": 1130,
+      "sha256": "aac6f532a088a723d442eff79e78dea610837aa04052157b9f12cd1e9bf5a68a"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/C-wind-and-creaks/full-mix-meter/pass-1/loudness-log.txt",
+      "bytes": 1185,
+      "sha256": "6804e750b4c6cf9842d60848d5b1187b2efdaf989ac5409f8532289601aafa8b"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/C-wind-and-creaks/full-mix-meter/pass-2/loudness-log.txt",
+      "bytes": 1185,
+      "sha256": "beff277dd4a1ea068c5e1c21ba24a679e8db18ac8630b6e1ee67f42c472cd7d4"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/C-wind-and-creaks/Snowline-wind-and-creaks-9min-test.flac",
+      "bytes": 77838067,
+      "sha256": "7a35810331ff9c3c54af6e5f457c96ac680698a023b16648eb380903872b4591"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/C-wind-and-creaks/Snowline-wind-and-creaks-9min-test.mp3",
+      "bytes": 12961196,
+      "sha256": "e4b6250542556c606a171669b665cca0c0f680a1f8ec624cf1fc393f40f3de4c"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/C-wind-and-creaks-90s-check.mp3",
+      "bytes": 2161196,
+      "sha256": "1704336f1b8b9166f480f30347af8e980593c2c5016c7626e605f9d7bd0ef4cc"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/recipe.json",
+      "bytes": 24953,
+      "sha256": "1bb34117033b4ceeff6efb161cb0b550e9f8e8e178a2b5f5d9e0a6599f658671"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/settling-creak-1.wav",
+      "bytes": 486822,
+      "sha256": "58a54b204e07017db457282b6b8ad56a4aecdecdd3781db18d71b5960ec2ab53"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/settling-creak-2.wav",
+      "bytes": 630822,
+      "sha256": "0676f8c6f0628c7e6a50a949600c447b84ecabc50a0755d0a203273eca969ffb"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/Snowline-two-creaks-9min-test.flac",
+      "bytes": 522137,
+      "sha256": "07c6e0b63b322e2e7385e764a1a5d182ac207db3f4be116c6d0b21320b600c62"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v1/Snowline-varied-wind-9min-test.flac",
+      "bytes": 18324222,
+      "sha256": "e5ca8f50b1f470a383e48b0ed7e9144b5b8018b95243b489108fd4ac72fc2337"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/A-approved-v2-90s-check.mp3",
+      "bytes": 2161196,
+      "sha256": "7a3d0ecb2b80f14d2ae09c2f337aabdf83d7818a8dae9feaf361ab38a8f10bfc"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/B-wind-only/full-mix-listening-pass-1.mp3",
+      "bytes": 12961196,
+      "sha256": "e2bf2679c81401017545f1a70a59129a9a0d351f0854f3d1b27542fed24c33ca"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/B-wind-only/full-mix-listening-pass-2.mp3",
+      "bytes": 12961196,
+      "sha256": "ea63c18b2b95c82bfaf5cd130c9550a3eb2c56825e37c02e6b9e2713141b2268"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/B-wind-only/full-mix-meter/loudness-log.txt",
+      "bytes": 1123,
+      "sha256": "1bb0c1100d44ed6ad6a1be30e438a9c727b6111e2e12d22ffc9861c0b67c6fd2"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/B-wind-only/full-mix-meter/pass-1/loudness-log.txt",
+      "bytes": 1179,
+      "sha256": "668e91a5f8194e107e0c599538a6934a583a814d01bbacc421c6e6056bd3a89d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/B-wind-only/full-mix-meter/pass-2/loudness-log.txt",
+      "bytes": 1179,
+      "sha256": "cc4f00cdc5c0f73c2ec2af8a6aa13d231498e662905e8b91e9b67b216008eb50"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/B-wind-only/Snowline-wind-variation-9min-test.flac",
+      "bytes": 77803452,
+      "sha256": "eba4df026d579af0cd6e2ff7dd671713b45a3ba03873e3cb46550d9ab6a478cc"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/B-wind-only/Snowline-wind-variation-9min-test.mp3",
+      "bytes": 12961196,
+      "sha256": "ea63c18b2b95c82bfaf5cd130c9550a3eb2c56825e37c02e6b9e2713141b2268"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/B-wind-only-90s-check.mp3",
+      "bytes": 2161196,
+      "sha256": "0216f405ba20e9cf31aa861fdaedab490f7559f911e867806b0e117ceb224a85"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/C-wind-and-creaks/full-mix-listening-pass-1.mp3",
+      "bytes": 12961196,
+      "sha256": "45d5164d9335264c06845c32a336dcecfa63d2f925e88078b2914c8f6fcf8d92"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/C-wind-and-creaks/full-mix-listening-pass-2.mp3",
+      "bytes": 12961196,
+      "sha256": "b6503601aa5648efea21a02767436290ffb75cbcb4b8ba95e4eaf920186d837d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/C-wind-and-creaks/full-mix-meter/loudness-log.txt",
+      "bytes": 1130,
+      "sha256": "42814c597691c9ed562c66cf2b664eacf61f863c8ea23a206dd0aa9555dfe34a"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/C-wind-and-creaks/full-mix-meter/pass-1/loudness-log.txt",
+      "bytes": 1185,
+      "sha256": "c55563e98b5ddd1aaaf67b2d0bca7acc59ef9b92feb1cf17ad6230f9069c47bf"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/C-wind-and-creaks/full-mix-meter/pass-2/loudness-log.txt",
+      "bytes": 1185,
+      "sha256": "e374299701822941ec43e529f8662115eb0d0e02fcb37ea6c555ba3b72cc1447"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/C-wind-and-creaks/Snowline-wind-and-creaks-9min-test.flac",
+      "bytes": 77862692,
+      "sha256": "84ff47fcdc926237fbdd2554f75b48d3208d3b149b89e256bb1e683f0af55621"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/C-wind-and-creaks/Snowline-wind-and-creaks-9min-test.mp3",
+      "bytes": 12961196,
+      "sha256": "b6503601aa5648efea21a02767436290ffb75cbcb4b8ba95e4eaf920186d837d"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/C-wind-and-creaks-90s-check.mp3",
+      "bytes": 2161196,
+      "sha256": "158f27fe9de8e16fe8183cf1e5f2832c33991a4247e58377d5d66f545765b97a"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/full-sample-validation.json",
+      "bytes": 1986,
+      "sha256": "f71c14c6c7cb8e77d476e0261cc86d413f562ddbee5c62cc02841c7d6edae557"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/recipe.json",
+      "bytes": 24959,
+      "sha256": "85fd49a5b08b1e678b173b55a3c903b5d6736cbd6496334f2f80350d98af2f74"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/settling-creak-1.wav",
+      "bytes": 486822,
+      "sha256": "a230a8ef55a92681d210018962a99d66264d6bfd4cb0a08bf326228d314fcafe"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/settling-creak-2.wav",
+      "bytes": 630822,
+      "sha256": "435711f5cdda125395baeb1297150a1ba46eb835ff38399cd9ed46e1657e3d00"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/Snowline-two-creaks-9min-test.flac",
+      "bytes": 590991,
+      "sha256": "ad3910d24571f06d5e869ee7bd87f573467db8520090765132d561ae4a6073b0"
+    },
+    {
+      "path": "exports/sfx/snowline-receiver-2026-11-02/wind-creak-test-v2/Snowline-varied-wind-9min-test.flac",
+      "bytes": 18324222,
+      "sha256": "e5ca8f50b1f470a383e48b0ed7e9144b5b8018b95243b489108fd4ac72fc2337"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dDYH-75RJWA",
+  "title": "WINTER WATCH — Remote Forest Outpost | Dark Ambient Music 2026-11-02 08:52",
+  "channel": "Ambient Outpost",
+  "webpage_url": "https://www.youtube.com/watch?v=dDYH-75RJWA",
+  "duration": null,
+  "is_live": true,
+  "live_status": "is_live",
+  "format_id": "234",
+  "retrieved_at_utc": "2026-11-02T08:52:05.275896+00:00",
+  "scope": "bounded live DVR excerpt; not the whole stream",
+  "requested_sample_seconds": 600,
+  "approximate_start_seconds_behind_live": 615.0,
+  "live_start_index": -123
+}

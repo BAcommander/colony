@@ -1,0 +1,78 @@
+{
+  "clips": [
+    {
+      "file": "residual-focus-original.mp3",
+      "sha256": "30da73b6b7e062508205941f00220b5538438b1da96703a9b58aa685d2aa0066",
+      "decoded_seconds": 30.0,
+      "finite": true,
+      "sample_peak": 0.29474538564682007,
+      "samples_at_or_above_full_scale": 0
+    },
+    {
+      "file": "residual-focus-tone-reduced-boosted.mp3",
+      "sha256": "e85c17561956c2bb11428439f438d9d9d2d68239ada5ad835281b6d06dc0be9a",
+      "decoded_seconds": 30.0,
+      "finite": true,
+      "sample_peak": 0.6230073571205139,
+      "samples_at_or_above_full_scale": 0
+    },
+    {
+      "file": "residual-focus-tone-reduced-same-gain.mp3",
+      "sha256": "6bc635175445494cd7fc46cf3e4543ebad0e280a6a66507dd7e9e5aa21f58349",
+      "decoded_seconds": 30.0,
+      "finite": true,
+      "sample_peak": 0.1561313271522522,
+      "samples_at_or_above_full_scale": 0
+    },
+    {
+      "file": "steady-texture-original.mp3",
+      "sha256": "886268cb8b0679c7fb63a3f4abd2a2e1f205d88e5b10da8c5e58a3e09682aa43",
+      "decoded_seconds": 30.0,
+      "finite": true,
+      "sample_peak": 0.2883343994617462,
+      "samples_at_or_above_full_scale": 0
+    },
+    {
+      "file": "steady-texture-tone-reduced-boosted.mp3",
+      "sha256": "e3dd044bb22ce767570af00b9954618c0ec777187437f446575f3382cc85b4a6",
+      "decoded_seconds": 30.0,
+      "finite": true,
+      "sample_peak": 0.4896831810474396,
+      "samples_at_or_above_full_scale": 0
+    },
+    {
+      "file": "steady-texture-tone-reduced-same-gain.mp3",
+      "sha256": "5123251e1ebef94d285a0d2499249695841cc11218454b0b4270300bb3e0d591",
+      "decoded_seconds": 30.0,
+      "finite": true,
+      "sample_peak": 0.12316607683897018,
+      "samples_at_or_above_full_scale": 0
+    },
+    {
+      "file": "transient-focus-original.mp3",
+      "sha256": "78bd4ad3305a580e92c0635c4cba43b2475311281b539b61b32a10086704f885",
+      "decoded_seconds": 30.0,
+      "finite": true,
+      "sample_peak": 0.4500967860221863,
+      "samples_at_or_above_full_scale": 0
+    },
+    {
+      "file": "transient-focus-tone-reduced-boosted.mp3",
+      "sha256": "96d5ba5b250de1bc6cdff91467afc8f6f9c9ff7acf67b4dcd0a9b19eb3ae6758",
+      "decoded_seconds": 30.0,
+      "finite": true,
+      "sample_peak": 0.602940559387207,
+      "samples_at_or_above_full_scale": 0
+    },
+    {
+      "file": "transient-focus-tone-reduced-same-gain.mp3",
+      "sha256": "038d7a18138fca9e873008976a390a7d27501d0cc96613e2834760bc3f18051a",
+      "decoded_seconds": 30.0,
+      "finite": true,
+      "sample_peak": 0.15187133848667145,
+      "samples_at_or_above_full_scale": 0
+    }
+  ],
+  "all_passed": true,
+  "note": "Full file decode, duration, finite samples and sample peak only; no audible-quality or semantic-source verdict."
+}

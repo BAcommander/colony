@@ -1,0 +1,25 @@
+{
+  "source_commit": "aa62e427e3f6386217e90229c063820c8f54ccae",
+  "restoration": "git lfs fetch of two exact paths; byte/hash verification against committed LFS pointers; full audio decode",
+  "approved_music_modified": false,
+  "files": [
+    {
+      "path": "C:/Colony/exports/restored-snowline-2026-11-02/Below-the-Snowline-paired-loop-9min-v1.mp3",
+      "sha256": "e81beb635c121b5f68e43c889f0ab6df2eb4e3094f7b3595eba060792c4ead93",
+      "bytes": 12961196,
+      "decoded_seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.3595280647277832,
+      "source_git_path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/Below-the-Snowline-paired-loop-9min-v1.mp3"
+    },
+    {
+      "path": "C:/Colony/exports/restored-snowline-2026-11-02/Below-the-Snowline-paired-loop-9min-v1.flac",
+      "sha256": "987b1509075da8a9202f24a6b765f4e2b6d88d90cb90c28bdaf8719af77b252b",
+      "bytes": 77189149,
+      "decoded_seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.3701552152633667,
+      "source_git_path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/Below-the-Snowline-paired-loop-9min-v1.flac"
+    }
+  ]
+}

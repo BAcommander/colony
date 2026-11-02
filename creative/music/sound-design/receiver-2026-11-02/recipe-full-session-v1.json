@@ -1,0 +1,426 @@
+{
+  "date": "2026-11-02",
+  "seconds": 540,
+  "sample_rate": 48000,
+  "seed": 13540,
+  "music": {
+    "path": "C:\\Colony\\exports\\restored-snowline-2026-11-02\\Below-the-Snowline-paired-loop-9min-v1.flac",
+    "sha256": "987b1509075da8a9202f24a6b765f4e2b6d88d90cb90c28bdaf8719af77b252b",
+    "lossless_mix_music_gain": 1.0,
+    "master_modified": false
+  },
+  "radio_source_gain": 0.2498415319125578,
+  "same_gain_as_v4_clearer_before_whole_mix_matching": true,
+  "voice_processing": "Same radio_voice chain and design gain as v3/v4;14 distinct phonetic source recordings used once each.",
+  "voice_sources": {
+    "paid_service": false,
+    "words": "Fourteen distinct invented phonetic phrases; no meaningful dialogue or franchise recordings",
+    "source": "Local Windows System.Speech installed voices",
+    "sources": [
+      {
+        "file": "voice-01.wav",
+        "sha256": "95fe61443b4693820ae067169e10ad0d4b6994a2f7ede3a47596a35ca432ceaf",
+        "voice": "Microsoft George",
+        "rate": 0,
+        "text": "Vesha nara, sovek talun. Kesh varo, nesh tavan."
+      },
+      {
+        "file": "voice-02.wav",
+        "sha256": "a8d905c4bbd01e5e0a9bb0ec5a1680764fd0a6fbec48b13fa2e74e0bef65af71",
+        "voice": "Microsoft Hazel Desktop",
+        "rate": 0,
+        "text": "Sha veran. Talo nesh, mena darok. Vesh taren."
+      },
+      {
+        "file": "voice-03.wav",
+        "sha256": "48991371b8b69e52f908f78886f792f544dd35311a55c64589d7d9650a7fdfe8",
+        "voice": "Microsoft George",
+        "rate": 1,
+        "text": "Nera. Kesh valun, shora ven. Daro sovek talan."
+      },
+      {
+        "file": "voice-04.wav",
+        "sha256": "935a8dfb2ccee6514a57ab4e9b643c6bb4d4a1b048ac461131975717a5745510",
+        "voice": "Microsoft Hazel Desktop",
+        "rate": -1,
+        "text": "Sova kesh. Vena shoran, tavi melun. Nesh varo."
+      },
+      {
+        "file": "voice-05.wav",
+        "sha256": "e04c5b404430f84ec50a96105a277ba8d00a5917e371ddcadaf4a3b7ad610047",
+        "voice": "Microsoft George",
+        "rate": -1,
+        "text": "Talan veresh, nora shan. Vesha valun."
+      },
+      {
+        "file": "voice-06.wav",
+        "sha256": "a8f6d7416e755b6ee38509695c43666cb31b0f84a16dd8f740aecc93ca06de60",
+        "voice": "Microsoft Hazel Desktop",
+        "rate": 1,
+        "text": "Kora nesh, taven saro. Mena, sha vesh."
+      },
+      {
+        "sha256": "99d6fd113adc8aa969a2fa3d34e583eabf1af31b4159c4b0bc743c93bd565ad8",
+        "voice": "Microsoft George",
+        "rate": 0,
+        "text": "Shava nesh. Doran vela, sevan torak. Nesh valun.",
+        "file": "voice-07.wav"
+      },
+      {
+        "sha256": "50122ce0a2002f055964465caf12d6aef6dbdae6832948cef9aa990288e80a91",
+        "voice": "Microsoft Hazel Desktop",
+        "rate": 1,
+        "text": "Mera shovan. Kela nesh, tora van. Vesh dalun.",
+        "file": "voice-08.wav"
+      },
+      {
+        "sha256": "ace716c7071e2b7faea09102fa3a3ba33fb74fe28a055f766124ec14131b1fee",
+        "voice": "Microsoft George",
+        "rate": -1,
+        "text": "Kesh varena. Dalan shora, navik tal. Sovan nesh.",
+        "file": "voice-09.wav"
+      },
+      {
+        "sha256": "d4e1a26c2799aa69ee7290fc8198e4d207a834b17c503a3dbf58143c9344d8eb",
+        "voice": "Microsoft Hazel Desktop",
+        "rate": 0,
+        "text": "Talun vera, shen malok. Nara vesh. Sela tavan.",
+        "file": "voice-10.wav"
+      },
+      {
+        "sha256": "7bc2a7049c1317cefa880a9caf963bb5bb5c0d886d7b1932ea965dea4950e5d8",
+        "voice": "Microsoft George",
+        "rate": 1,
+        "text": "Saro nesh, kelan voru. Sha daren. Nesh valok.",
+        "file": "voice-11.wav"
+      },
+      {
+        "sha256": "63e5baf3b9073e2ec743461e78c8a2302698353617c714a949924ed1f7abd9a7",
+        "voice": "Microsoft Hazel Desktop",
+        "rate": -1,
+        "text": "Vena shalun. Meran tora, kesh valen. Shora ven.",
+        "file": "voice-12.wav"
+      },
+      {
+        "sha256": "aca8a2300fc73dea5218b7feefdfac36e61d108996fd87655246772242bd4bf9",
+        "voice": "Microsoft George",
+        "rate": 0,
+        "text": "Daro shen. Velan kora, nesh tavi. Sovan taro.",
+        "file": "voice-13.wav"
+      },
+      {
+        "sha256": "638fc6b3545a99a87dcf5b2148587748ca072fe1b5cea380c3a8b233df636c96",
+        "voice": "Microsoft Hazel Desktop",
+        "rate": 1,
+        "text": "Sha melun, vena torak. Kesh daren. Talo vesh.",
+        "file": "voice-14.wav"
+      }
+    ]
+  },
+  "events": [
+    {
+      "voice_index": 9,
+      "open_seconds": 23.4,
+      "lead_seconds": 0.43089453634945174,
+      "voice_seconds": 5.670166666666667,
+      "tail_seconds": 0.4504168114584385,
+      "voice_start_seconds": 23.83089453634945,
+      "close_seconds": 30.031479166666664,
+      "source_file": "voice-10.wav",
+      "source_sha256": "d4e1a26c2799aa69ee7290fc8198e4d207a834b17c503a3dbf58143c9344d8eb",
+      "packet_file": "packets/packet-01.wav",
+      "packet_sha256": "ce161659db1f997513eba96d4824d21e6d718ed215a43ef2e73525b622d60fc7",
+      "acknowledgement": {
+        "frequency_hz": 680,
+        "double": true,
+        "offset_seconds": 6.302208333333334
+      }
+    },
+    {
+      "voice_index": 11,
+      "open_seconds": 65.62218888174712,
+      "lead_seconds": 0.5075569786068121,
+      "voice_seconds": 6.376291666666667,
+      "tail_seconds": 0.43086714109282076,
+      "voice_start_seconds": 66.12974586035394,
+      "close_seconds": 73.01689721508045,
+      "source_file": "voice-12.wav",
+      "source_sha256": "63e5baf3b9073e2ec743461e78c8a2302698353617c714a949924ed1f7abd9a7",
+      "packet_file": "packets/packet-02.wav",
+      "packet_sha256": "a880bcf377bae54bd7d37d8a972bd8f730d6d3620e5740cede38d56c58ddaa4d",
+      "acknowledgement": null
+    },
+    {
+      "voice_index": 1,
+      "open_seconds": 108.55179691542737,
+      "lead_seconds": 0.49379512622036936,
+      "voice_seconds": 5.852375,
+      "tail_seconds": 0.40174313040227694,
+      "voice_start_seconds": 109.04559204164774,
+      "close_seconds": 115.37971358209404,
+      "source_file": "voice-02.wav",
+      "source_sha256": "a8d905c4bbd01e5e0a9bb0ec5a1680764fd0a6fbec48b13fa2e74e0bef65af71",
+      "packet_file": "packets/packet-03.wav",
+      "packet_sha256": "36cef8dd236b92214756c5025ea44348aba409ca8f7c7bf973cdac843f4b0cf0",
+      "acknowledgement": null
+    },
+    {
+      "voice_index": 8,
+      "open_seconds": 134.0863974344807,
+      "lead_seconds": 0.3524122012927877,
+      "voice_seconds": 5.430354166666667,
+      "tail_seconds": 0.4766294585124815,
+      "voice_start_seconds": 134.43880963577348,
+      "close_seconds": 140.42579326781402,
+      "source_file": "voice-09.wav",
+      "source_sha256": "ace716c7071e2b7faea09102fa3a3ba33fb74fe28a055f766124ec14131b1fee",
+      "packet_file": "packets/packet-04.wav",
+      "packet_sha256": "3982682ee6e8fccbfc7e4ad4bda67ff261b81fff9af5d490169ab637167b54ff",
+      "acknowledgement": null
+    },
+    {
+      "voice_index": 5,
+      "open_seconds": 173.43428749788032,
+      "lead_seconds": 0.3318655856750371,
+      "voice_seconds": 3.9226875,
+      "tail_seconds": 0.3091563595769891,
+      "voice_start_seconds": 173.76615308355537,
+      "close_seconds": 178.07799583121366,
+      "source_file": "voice-06.wav",
+      "source_sha256": "a8f6d7416e755b6ee38509695c43666cb31b0f84a16dd8f740aecc93ca06de60",
+      "packet_file": "packets/packet-05.wav",
+      "packet_sha256": "08c77de9eea443ddb4a220bc9d93849cd18b926e45f52522f44266b4ffb8e340",
+      "acknowledgement": null
+    },
+    {
+      "voice_index": 12,
+      "open_seconds": 236.20013587511616,
+      "lead_seconds": 0.3117941506302099,
+      "voice_seconds": 4.787729166666667,
+      "tail_seconds": 0.27852532855396045,
+      "voice_start_seconds": 236.51193002574638,
+      "close_seconds": 241.65817754178283,
+      "source_file": "voice-13.wav",
+      "source_sha256": "aca8a2300fc73dea5218b7feefdfac36e61d108996fd87655246772242bd4bf9",
+      "packet_file": "packets/packet-06.wav",
+      "packet_sha256": "6bfbc826e74c95b2715f435cbe4034762f4d1e1ce7dd756400ed7eb71b22c05b",
+      "acknowledgement": null
+    },
+    {
+      "voice_index": 6,
+      "open_seconds": 276.6510287308409,
+      "lead_seconds": 0.42622059646816457,
+      "voice_seconds": 4.85925,
+      "tail_seconds": 0.25216452630837,
+      "voice_start_seconds": 277.07724932730906,
+      "close_seconds": 282.26865373084087,
+      "source_file": "voice-07.wav",
+      "source_sha256": "99d6fd113adc8aa969a2fa3d34e583eabf1af31b4159c4b0bc743c93bd565ad8",
+      "packet_file": "packets/packet-07.wav",
+      "packet_sha256": "17d9862166491fcb3395dd8dd169f60de267f3df35602f4b93f687a2826cbf36",
+      "acknowledgement": null
+    },
+    {
+      "voice_index": 3,
+      "open_seconds": 312.7253155900774,
+      "lead_seconds": 0.37351825131003635,
+      "voice_seconds": 6.4277291666666665,
+      "tail_seconds": 0.31820329921145657,
+      "voice_start_seconds": 313.09883384138743,
+      "close_seconds": 319.9247739234107,
+      "source_file": "voice-04.wav",
+      "source_sha256": "935a8dfb2ccee6514a57ab4e9b643c6bb4d4a1b048ac461131975717a5745510",
+      "packet_file": "packets/packet-08.wav",
+      "packet_sha256": "1c2f0c4893ca9b0575b39116d6469075142c249939f6b4f9d7a2d31869f0dd2d",
+      "acknowledgement": {
+        "frequency_hz": 1020,
+        "double": false,
+        "offset_seconds": 6.983770833333334
+      }
+    },
+    {
+      "voice_index": 13,
+      "open_seconds": 356.84377332204133,
+      "lead_seconds": 0.35917707695841333,
+      "voice_seconds": 5.148979166666667,
+      "tail_seconds": 0.31460642788575643,
+      "voice_start_seconds": 357.20295039899975,
+      "close_seconds": 362.74654415537464,
+      "source_file": "voice-14.wav",
+      "source_sha256": "638fc6b3545a99a87dcf5b2148587748ca072fe1b5cea380c3a8b233df636c96",
+      "packet_file": "packets/packet-09.wav",
+      "packet_sha256": "56dec3505a0b8b5a96bd3d1b9005dee7793f5e4e4ae71a575237ab4717d854e0",
+      "acknowledgement": null
+    },
+    {
+      "voice_index": 0,
+      "open_seconds": 385.8943901068062,
+      "lead_seconds": 0.48262656360445577,
+      "voice_seconds": 4.084854166666666,
+      "tail_seconds": 0.24330420067702074,
+      "voice_start_seconds": 386.3770166704107,
+      "close_seconds": 390.78518177347286,
+      "source_file": "voice-01.wav",
+      "source_sha256": "95fe61443b4693820ae067169e10ad0d4b6994a2f7ede3a47596a35ca432ceaf",
+      "packet_file": "packets/packet-10.wav",
+      "packet_sha256": "4e924838f101d2ae4a7772fedcfd89d32d69a827d632e2be6f1057cfc4a262e0",
+      "acknowledgement": null
+    },
+    {
+      "voice_index": 10,
+      "open_seconds": 408.8131788648247,
+      "lead_seconds": 0.24238760427546155,
+      "voice_seconds": 4.2024375,
+      "tail_seconds": 0.3446790004197255,
+      "voice_start_seconds": 409.05556646910014,
+      "close_seconds": 413.6826788648247,
+      "source_file": "voice-11.wav",
+      "source_sha256": "7bc2a7049c1317cefa880a9caf963bb5bb5c0d886d7b1932ea965dea4950e5d8",
+      "packet_file": "packets/packet-11.wav",
+      "packet_sha256": "08a0c2b4816552b7e4cf216743446509dc64eaf3081794698f264e9acf1a703e",
+      "acknowledgement": {
+        "frequency_hz": 1020,
+        "double": false,
+        "offset_seconds": 4.649520833333334
+      }
+    },
+    {
+      "voice_index": 2,
+      "open_seconds": 442.0321034664552,
+      "lead_seconds": 0.2962195689630803,
+      "voice_seconds": 3.3428958333333334,
+      "tail_seconds": 0.3351885460995189,
+      "voice_start_seconds": 442.3283230354183,
+      "close_seconds": 446.0864159664552,
+      "source_file": "voice-03.wav",
+      "source_sha256": "48991371b8b69e52f908f78886f792f544dd35311a55c64589d7d9650a7fdfe8",
+      "packet_file": "packets/packet-12.wav",
+      "packet_sha256": "368a48e9160500b46f03c5bff7f46ea556fcf12429cc6118f4a03134effc9890",
+      "acknowledgement": {
+        "frequency_hz": 680,
+        "double": false,
+        "offset_seconds": 3.8503125
+      }
+    },
+    {
+      "voice_index": 7,
+      "open_seconds": 469.04739471865315,
+      "lead_seconds": 0.4062359108734298,
+      "voice_seconds": 5.0908541666666665,
+      "tail_seconds": 0.3102439402386907,
+      "voice_start_seconds": 469.4536306295266,
+      "close_seconds": 474.9347280519865,
+      "source_file": "voice-08.wav",
+      "source_sha256": "50122ce0a2002f055964465caf12d6aef6dbdae6832948cef9aa990288e80a91",
+      "packet_file": "packets/packet-13.wav",
+      "packet_sha256": "865d9da5d40b2d5beee1b2af1f5fc08a13727215c056f3e96b2ef9b13a011eac",
+      "acknowledgement": null
+    },
+    {
+      "voice_index": 4,
+      "open_seconds": 509.02058333333343,
+      "lead_seconds": 0.4076224897816061,
+      "voice_seconds": 3.6794166666666666,
+      "tail_seconds": 0.32590669201806927,
+      "voice_start_seconds": 509.42820582311504,
+      "close_seconds": 513.5135208333335,
+      "source_file": "voice-05.wav",
+      "source_sha256": "e04c5b404430f84ec50a96105a277ba8d00a5917e371ddcadaf4a3b7ad610047",
+      "packet_file": "packets/packet-14.wav",
+      "packet_sha256": "d41dd3042a49efc7ba588e1b5d358d22d5cc8b44dc1ad4247c1b63402cd52935",
+      "acknowledgement": {
+        "frequency_hz": 1020,
+        "double": false,
+        "offset_seconds": 4.280833333333334
+      }
+    }
+  ],
+  "silent_fraction": 0.8514630015432099,
+  "radio_sample_peak": 0.31472793221473694,
+  "quiet_gap_min_max_seconds": [
+    18.027997091351835,
+    58.122140043902505
+  ],
+  "quiet_gap_std_seconds": 9.965786638167717,
+  "short_loop_tiled": false,
+  "opening_or_closing_fade_added": false,
+  "new_music_generated": false,
+  "acknowledgement_events": 5,
+  "metering": {
+    "lossless_mix": {
+      "integrated_lufs": -23.1,
+      "loudness_range_lu": 11.3,
+      "true_peak_dbtp": -8.1
+    },
+    "listening_copy": {
+      "integrated_lufs": -23.0,
+      "loudness_range_lu": 11.3,
+      "true_peak_dbtp": -8.0
+    },
+    "matching_passes": [
+      {
+        "gain_db": 0.10000000000000142,
+        "measured": {
+          "integrated_lufs": -23.3,
+          "loudness_range_lu": 11.3,
+          "true_peak_dbtp": -8.3
+        }
+      },
+      {
+        "gain_db": 0.40000000000000213,
+        "measured": {
+          "integrated_lufs": -23.0,
+          "loudness_range_lu": 11.3,
+          "true_peak_dbtp": -8.0
+        }
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "file": "Snowline-radio-score-9min-v1.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.3147280216217041,
+      "sha256": "a0ad900a82451ad2444c219716bae22d244e55e0db4eaedf98cb882be7b6abe6",
+      "bytes": 11671113
+    },
+    {
+      "file": "Snowline-music-and-radio-9min-v1.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.39169490337371826,
+      "sha256": "aede078175e433ad6be6fc8ad8970ac95b6a2c69311322f53bc10fa770642b1d",
+      "bytes": 77569667
+    },
+    {
+      "file": "Snowline-music-and-radio-9min-v1.mp3",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.39980775117874146,
+      "sha256": "393b844bde7941fecdb3b3e2d5db637ef8237f667e421e21d28cb35485faf3af",
+      "bytes": 12961196
+    }
+  ],
+  "assistant_listening": false,
+  "user_full_session_review": "pending",
+  "scope": "A single9-minute radio arrangement. Future repetition of this whole arrangement repeats its events; this is not an infinitely unique radio generator.",
+  "implementation": [
+    {
+      "path": "C:\\Colony\\scripts\\build_snowline_radio_session.py",
+      "sha256": "82828e94f86a04a768fffdd4305226e18f7defde7a0c145b606029ad38abc748"
+    },
+    {
+      "path": "C:\\Colony\\scripts\\generate_polar_comms.py",
+      "sha256": "2f20448c3b0fd5c67fe6f91c253b308ce7a99301483ea20e245e2fe8ae2503bd"
+    },
+    {
+      "path": "C:\\Colony\\scripts\\refine_receiver_events.py",
+      "sha256": "4806585c2ee8f84615eb5d7e105327fb66d0b9f1f68ca9e40b1ae8605c2768c9"
+    },
+    {
+      "path": "C:\\Colony\\scripts\\extend_receiver_voices.ps1",
+      "sha256": "509df31bbb003841b904de488ecb90101e7365d24ed9b67b9f8328543ec3543d"
+    }
+  ]
+}

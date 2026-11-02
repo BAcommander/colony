@@ -1,0 +1,733 @@
+{
+  "date": "2026-11-02",
+  "user_request": "Test wind variation and two quiet settling creaks; retain approved v2 as comparison.",
+  "test_only": true,
+  "approved_preset_replaced": false,
+  "seconds": 540,
+  "wind_originals_available": 1,
+  "wind_method": "Overlap9\u201314s original-rate source sections with unequal3.5\u20135.3s advances; same1800Hz placement filter; match each baseline wind passage RMS.",
+  "new_field_recordings_or_paid_generations": false,
+  "source_fragments_can_recur": true,
+  "fixed24_second_cycle_tiled": false,
+  "wind_passages": [
+    {
+      "start_seconds": 42.0,
+      "duration_seconds": 72.0,
+      "fade_in_seconds": 12.0,
+      "fade_out_seconds": 16.0,
+      "source_grains": [
+        {
+          "destination_seconds": -12.0,
+          "source_start_seconds": 14.042166666666667,
+          "length_seconds": 9.569375
+        },
+        {
+          "destination_seconds": -7.394520833333333,
+          "source_start_seconds": 16.1376875,
+          "length_seconds": 9.4091875
+        },
+        {
+          "destination_seconds": -3.8481875,
+          "source_start_seconds": 17.449666666666666,
+          "length_seconds": 10.659166666666666
+        },
+        {
+          "destination_seconds": 1.099375,
+          "source_start_seconds": 14.966125,
+          "length_seconds": 12.9545625
+        },
+        {
+          "destination_seconds": 6.215770833333333,
+          "source_start_seconds": 11.593979166666667,
+          "length_seconds": 10.277291666666667
+        },
+        {
+          "destination_seconds": 9.804083333333333,
+          "source_start_seconds": 4.194687500000001,
+          "length_seconds": 10.996145833333333
+        },
+        {
+          "destination_seconds": 14.456375,
+          "source_start_seconds": 7.63775,
+          "length_seconds": 13.2311875
+        },
+        {
+          "destination_seconds": 19.088166666666666,
+          "source_start_seconds": 12.2090625,
+          "length_seconds": 12.466708333333333
+        },
+        {
+          "destination_seconds": 24.0904375,
+          "source_start_seconds": 5.555395833333334,
+          "length_seconds": 10.4216875
+        },
+        {
+          "destination_seconds": 27.87377083333333,
+          "source_start_seconds": 4.3349166666666665,
+          "length_seconds": 9.042416666666666
+        },
+        {
+          "destination_seconds": 32.062979166666665,
+          "source_start_seconds": 16.524958333333334,
+          "length_seconds": 11.56975
+        },
+        {
+          "destination_seconds": 36.181354166666665,
+          "source_start_seconds": 6.0825625,
+          "length_seconds": 13.786291666666667
+        },
+        {
+          "destination_seconds": 40.696,
+          "source_start_seconds": 7.986979166666667,
+          "length_seconds": 12.029666666666667
+        },
+        {
+          "destination_seconds": 45.4415625,
+          "source_start_seconds": 12.0693125,
+          "length_seconds": 10.920854166666667
+        },
+        {
+          "destination_seconds": 50.21404166666667,
+          "source_start_seconds": 7.7144375,
+          "length_seconds": 11.945
+        },
+        {
+          "destination_seconds": 54.269625,
+          "source_start_seconds": 16.311541666666667,
+          "length_seconds": 10.905270833333333
+        },
+        {
+          "destination_seconds": 59.06497916666667,
+          "source_start_seconds": 13.254458333333334,
+          "length_seconds": 11.956375
+        },
+        {
+          "destination_seconds": 63.961354166666666,
+          "source_start_seconds": 13.663479166666667,
+          "length_seconds": 13.710291666666667
+        },
+        {
+          "destination_seconds": 68.598875,
+          "source_start_seconds": 7.457041666666667,
+          "length_seconds": 10.88425
+        }
+      ],
+      "seed": 13600,
+      "calibration_gain": 2.313991411913749,
+      "baseline_rms_dbfs": -38.41167401104633,
+      "new_rms_dbfs": -38.41167401070538,
+      "rms_difference_db": 3.409418331030895e-10,
+      "baseline_peak": 0.12332749366760254,
+      "new_peak": 0.1130538359284401,
+      "filter": "Same second-order1800Hz low-pass as baseline",
+      "pitch_or_playback_rate_change": false
+    },
+    {
+      "start_seconds": 169.0,
+      "duration_seconds": 58.0,
+      "fade_in_seconds": 11.0,
+      "fade_out_seconds": 17.0,
+      "source_grains": [
+        {
+          "destination_seconds": -12.0,
+          "source_start_seconds": 1.3964375,
+          "length_seconds": 13.806333333333333
+        },
+        {
+          "destination_seconds": -7.285895833333333,
+          "source_start_seconds": 10.690041666666668,
+          "length_seconds": 11.99575
+        },
+        {
+          "destination_seconds": -2.851354166666667,
+          "source_start_seconds": 13.3254375,
+          "length_seconds": 13.029416666666666
+        },
+        {
+          "destination_seconds": 1.0556666666666668,
+          "source_start_seconds": 7.514291666666667,
+          "length_seconds": 13.3304375
+        },
+        {
+          "destination_seconds": 4.909583333333333,
+          "source_start_seconds": 2.665,
+          "length_seconds": 12.3275625
+        },
+        {
+          "destination_seconds": 9.073020833333333,
+          "source_start_seconds": 11.380104166666667,
+          "length_seconds": 11.365166666666667
+        },
+        {
+          "destination_seconds": 13.725645833333333,
+          "source_start_seconds": 5.9278125,
+          "length_seconds": 11.745625
+        },
+        {
+          "destination_seconds": 18.455979166666665,
+          "source_start_seconds": 15.874666666666666,
+          "length_seconds": 12.248729166666667
+        },
+        {
+          "destination_seconds": 22.144375,
+          "source_start_seconds": 2.2527708333333334,
+          "length_seconds": 11.504416666666666
+        },
+        {
+          "destination_seconds": 25.654583333333335,
+          "source_start_seconds": 4.868145833333333,
+          "length_seconds": 11.810041666666667
+        },
+        {
+          "destination_seconds": 30.228729166666668,
+          "source_start_seconds": 3.5582083333333334,
+          "length_seconds": 12.434354166666667
+        },
+        {
+          "destination_seconds": 35.25910416666667,
+          "source_start_seconds": 1.303625,
+          "length_seconds": 13.981354166666666
+        },
+        {
+          "destination_seconds": 40.114583333333336,
+          "source_start_seconds": 18.1853125,
+          "length_seconds": 10.168770833333333
+        },
+        {
+          "destination_seconds": 44.96929166666666,
+          "source_start_seconds": 7.515895833333333,
+          "length_seconds": 11.027958333333334
+        },
+        {
+          "destination_seconds": 49.535270833333335,
+          "source_start_seconds": 8.272583333333333,
+          "length_seconds": 13.326270833333334
+        },
+        {
+          "destination_seconds": 53.47229166666666,
+          "source_start_seconds": 11.95975,
+          "length_seconds": 9.321458333333334
+        },
+        {
+          "destination_seconds": 57.04929166666667,
+          "source_start_seconds": 5.461229166666667,
+          "length_seconds": 13.712291666666667
+        }
+      ],
+      "seed": 13620,
+      "calibration_gain": 2.540168139927748,
+      "baseline_rms_dbfs": -38.6024618166379,
+      "new_rms_dbfs": -38.602461816720734,
+      "rms_difference_db": -8.283090773998955e-11,
+      "baseline_peak": 0.12178540229797363,
+      "new_peak": 0.09630114585161209,
+      "filter": "Same second-order1800Hz low-pass as baseline",
+      "pitch_or_playback_rate_change": false
+    },
+    {
+      "start_seconds": 298.0,
+      "duration_seconds": 83.0,
+      "fade_in_seconds": 15.0,
+      "fade_out_seconds": 20.0,
+      "source_grains": [
+        {
+          "destination_seconds": -12.0,
+          "source_start_seconds": 1.2655,
+          "length_seconds": 11.422854166666667
+        },
+        {
+          "destination_seconds": -7.630416666666667,
+          "source_start_seconds": 15.050645833333334,
+          "length_seconds": 10.261166666666666
+        },
+        {
+          "destination_seconds": -3.191708333333333,
+          "source_start_seconds": 14.481395833333334,
+          "length_seconds": 10.919958333333334
+        },
+        {
+          "destination_seconds": 2.089770833333333,
+          "source_start_seconds": 5.291416666666667,
+          "length_seconds": 13.321770833333334
+        },
+        {
+          "destination_seconds": 5.734,
+          "source_start_seconds": 14.322958333333334,
+          "length_seconds": 9.840875
+        },
+        {
+          "destination_seconds": 10.938229166666666,
+          "source_start_seconds": 4.0763125,
+          "length_seconds": 9.034958333333334
+        },
+        {
+          "destination_seconds": 15.575645833333333,
+          "source_start_seconds": 18.224375,
+          "length_seconds": 9.971666666666666
+        },
+        {
+          "destination_seconds": 19.605604166666666,
+          "source_start_seconds": 8.5765625,
+          "length_seconds": 11.225833333333334
+        },
+        {
+          "destination_seconds": 23.215625,
+          "source_start_seconds": 18.021270833333332,
+          "length_seconds": 10.1449375
+        },
+        {
+          "destination_seconds": 28.176666666666666,
+          "source_start_seconds": 15.9323125,
+          "length_seconds": 13.058833333333334
+        },
+        {
+          "destination_seconds": 31.9049375,
+          "source_start_seconds": 4.546354166666667,
+          "length_seconds": 10.543083333333334
+        },
+        {
+          "destination_seconds": 36.104166666666664,
+          "source_start_seconds": 1.00825,
+          "length_seconds": 13.044333333333332
+        },
+        {
+          "destination_seconds": 40.80979166666667,
+          "source_start_seconds": 18.075791666666667,
+          "length_seconds": 9.233416666666667
+        },
+        {
+          "destination_seconds": 44.65622916666667,
+          "source_start_seconds": 8.988708333333333,
+          "length_seconds": 12.750625
+        },
+        {
+          "destination_seconds": 49.82375,
+          "source_start_seconds": 2.2214166666666664,
+          "length_seconds": 13.590208333333333
+        },
+        {
+          "destination_seconds": 54.037645833333336,
+          "source_start_seconds": 1.6859583333333332,
+          "length_seconds": 12.973229166666666
+        },
+        {
+          "destination_seconds": 58.34610416666667,
+          "source_start_seconds": 13.901208333333333,
+          "length_seconds": 12.588604166666666
+        },
+        {
+          "destination_seconds": 61.89416666666666,
+          "source_start_seconds": 14.505979166666666,
+          "length_seconds": 13.204041666666667
+        },
+        {
+          "destination_seconds": 65.4244375,
+          "source_start_seconds": 8.14275,
+          "length_seconds": 12.379083333333334
+        },
+        {
+          "destination_seconds": 70.37083333333334,
+          "source_start_seconds": 5.433708333333334,
+          "length_seconds": 10.368604166666668
+        },
+        {
+          "destination_seconds": 75.02852083333333,
+          "source_start_seconds": 5.531145833333333,
+          "length_seconds": 11.978666666666667
+        },
+        {
+          "destination_seconds": 79.00141666666667,
+          "source_start_seconds": 13.876166666666666,
+          "length_seconds": 12.812583333333333
+        }
+      ],
+      "seed": 13640,
+      "calibration_gain": 2.512081183647127,
+      "baseline_rms_dbfs": -38.55866431276813,
+      "new_rms_dbfs": -38.55866431284257,
+      "rms_difference_db": -7.444029445343343e-11,
+      "baseline_peak": 0.13161027431488037,
+      "new_peak": 0.11587372422218323,
+      "filter": "Same second-order1800Hz low-pass as baseline",
+      "pitch_or_playback_rate_change": false
+    },
+    {
+      "start_seconds": 438.0,
+      "duration_seconds": 69.0,
+      "fade_in_seconds": 12.0,
+      "fade_out_seconds": 19.0,
+      "source_grains": [
+        {
+          "destination_seconds": -12.0,
+          "source_start_seconds": 5.728625,
+          "length_seconds": 13.054854166666667
+        },
+        {
+          "destination_seconds": -7.2016875,
+          "source_start_seconds": 4.135625,
+          "length_seconds": 9.2298125
+        },
+        {
+          "destination_seconds": -2.1492708333333335,
+          "source_start_seconds": 13.521,
+          "length_seconds": 13.918145833333334
+        },
+        {
+          "destination_seconds": 2.02325,
+          "source_start_seconds": 14.781666666666666,
+          "length_seconds": 10.8069375
+        },
+        {
+          "destination_seconds": 5.673020833333333,
+          "source_start_seconds": 14.9555,
+          "length_seconds": 9.970979166666666
+        },
+        {
+          "destination_seconds": 9.501583333333333,
+          "source_start_seconds": 9.5391875,
+          "length_seconds": 11.189104166666667
+        },
+        {
+          "destination_seconds": 13.184645833333333,
+          "source_start_seconds": 8.798375,
+          "length_seconds": 11.759145833333333
+        },
+        {
+          "destination_seconds": 18.235895833333334,
+          "source_start_seconds": 5.807104166666667,
+          "length_seconds": 12.542
+        },
+        {
+          "destination_seconds": 22.845458333333333,
+          "source_start_seconds": 4.3128125,
+          "length_seconds": 10.8395
+        },
+        {
+          "destination_seconds": 27.314895833333335,
+          "source_start_seconds": 18.2201875,
+          "length_seconds": 9.401520833333333
+        },
+        {
+          "destination_seconds": 31.852291666666666,
+          "source_start_seconds": 2.5050833333333333,
+          "length_seconds": 9.4868125
+        },
+        {
+          "destination_seconds": 36.635666666666665,
+          "source_start_seconds": 6.663583333333333,
+          "length_seconds": 9.806145833333334
+        },
+        {
+          "destination_seconds": 40.22410416666666,
+          "source_start_seconds": 2.75075,
+          "length_seconds": 11.189854166666667
+        },
+        {
+          "destination_seconds": 45.39366666666667,
+          "source_start_seconds": 15.1111875,
+          "length_seconds": 10.374270833333334
+        },
+        {
+          "destination_seconds": 49.39233333333333,
+          "source_start_seconds": 1.3179791666666667,
+          "length_seconds": 12.129270833333333
+        },
+        {
+          "destination_seconds": 53.920375,
+          "source_start_seconds": 3.1829791666666667,
+          "length_seconds": 11.934666666666667
+        },
+        {
+          "destination_seconds": 58.6140625,
+          "source_start_seconds": 9.718604166666667,
+          "length_seconds": 12.125979166666667
+        },
+        {
+          "destination_seconds": 63.4713125,
+          "source_start_seconds": 2.909375,
+          "length_seconds": 10.333020833333334
+        },
+        {
+          "destination_seconds": 67.08764583333334,
+          "source_start_seconds": 15.161104166666666,
+          "length_seconds": 10.090395833333334
+        }
+      ],
+      "seed": 13660,
+      "calibration_gain": 2.387102598310224,
+      "baseline_rms_dbfs": -38.74985641744831,
+      "new_rms_dbfs": -38.7498564175776,
+      "rms_difference_db": -1.2927774016709574e-10,
+      "baseline_peak": 0.1193321943283081,
+      "new_peak": 0.1096578985452652,
+      "filter": "Same second-order1800Hz low-pass as baseline",
+      "pitch_or_playback_rate_change": false
+    }
+  ],
+  "sampled_lag24_checks": [
+    {
+      "passage_start_seconds": 42.0,
+      "sample_start_seconds": 56.0,
+      "window_seconds": 6,
+      "lag_seconds": 24,
+      "baseline_waveform_correlation": 0.9996317977459657,
+      "variant_waveform_correlation": 0.014472413002100669
+    },
+    {
+      "passage_start_seconds": 169.0,
+      "sample_start_seconds": 182.0,
+      "window_seconds": 6,
+      "lag_seconds": 24,
+      "baseline_waveform_correlation": 0.9994735158259631,
+      "variant_waveform_correlation": -0.015236603893870255
+    },
+    {
+      "passage_start_seconds": 298.0,
+      "sample_start_seconds": 315.0,
+      "window_seconds": 6,
+      "lag_seconds": 24,
+      "baseline_waveform_correlation": 0.9999205662910161,
+      "variant_waveform_correlation": 0.0037024956804054825
+    },
+    {
+      "passage_start_seconds": 438.0,
+      "sample_start_seconds": 452.0,
+      "window_seconds": 6,
+      "lag_seconds": 24,
+      "baseline_waveform_correlation": 0.9994778775521552,
+      "variant_waveform_correlation": 0.01251225265439465
+    }
+  ],
+  "wind_level_scope": "Per-passage RMS matched; this does not establish equal perceived loudness or identical peak timing.",
+  "creak_events": [
+    {
+      "seed": 13691,
+      "duration_seconds": 1.69,
+      "intended_source": "Quiet frame/pipe contact settling; original procedural friction/resonance study",
+      "rms_dbfs": -53.39118109666872,
+      "sample_peak": 0.020606350153684616,
+      "position": "right window frame",
+      "recorded_foley": false,
+      "perceived_material_and_realism": "requires listening",
+      "start_seconds": 91.0
+    },
+    {
+      "seed": 13692,
+      "duration_seconds": 2.19,
+      "intended_source": "Quiet frame/pipe contact settling; original procedural friction/resonance study",
+      "rms_dbfs": -53.64931728720598,
+      "sample_peak": 0.020180214196443558,
+      "position": "left lower pipe/frame",
+      "recorded_foley": false,
+      "perceived_material_and_realism": "requires listening",
+      "start_seconds": 338.0
+    }
+  ],
+  "music_radio_and_ventilation_levels_changed": false,
+  "candidate_B": "Wind variation only; isolates wind change.",
+  "candidate_C": "Same B mix plus two creaks; isolates added details.",
+  "sources": [
+    {
+      "path": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\environment-session-v2\\Snowline-radio-wind-and-ventilation-9min-v2.flac",
+      "sha256": "5bfe568b14289108328fb0a43c0725de91071416e0a8d759a252d274017dc06a"
+    },
+    {
+      "path": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\environment-session-v2\\Snowline-exterior-wind-9min-v2.flac",
+      "sha256": "52ebe62946ecfdcb5ad01ae560c5e9a24d0e88f979a22bc3429de6bf1fcc9b18"
+    },
+    {
+      "path": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\environment-session-v2\\Snowline-ventilation-9min-v2.flac",
+      "sha256": "36939090e8896854d9d5c874984912bdba427d3ff5c67799ba260a3a48a2f312"
+    },
+    {
+      "path": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\full-session-v1\\Snowline-music-and-radio-9min-v1.flac",
+      "sha256": "aede078175e433ad6be6fc8ad8970ac95b6a2c69311322f53bc10fa770642b1d"
+    },
+    {
+      "path": "C:\\Colony\\exports\\restored-snowline-2026-11-02\\wind-soft-exterior-01.mp3",
+      "sha256": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34"
+    }
+  ],
+  "candidates": {
+    "B-wind-only": {
+      "lossless": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\wind-creak-test-v2\\B-wind-only\\Snowline-wind-variation-9min-test.flac",
+      "listening": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\wind-creak-test-v2\\B-wind-only\\Snowline-wind-variation-9min-test.mp3",
+      "metering": {
+        "lossless_mix": {
+          "integrated_lufs": -23.2,
+          "loudness_range_lu": 10.5,
+          "true_peak_dbtp": -8.1
+        },
+        "listening_copy": {
+          "integrated_lufs": -23.0,
+          "loudness_range_lu": 10.5,
+          "true_peak_dbtp": -8.0
+        },
+        "matching_passes": [
+          {
+            "gain_db": 0.1999999999999993,
+            "measured": {
+              "integrated_lufs": -23.2,
+              "loudness_range_lu": 10.5,
+              "true_peak_dbtp": -8.2
+            }
+          },
+          {
+            "gain_db": 0.3999999999999986,
+            "measured": {
+              "integrated_lufs": -23.0,
+              "loudness_range_lu": 10.5,
+              "true_peak_dbtp": -8.0
+            }
+          }
+        ]
+      },
+      "short_check": "B-wind-only-90s-check.mp3",
+      "preview_source_start_seconds": 54,
+      "preview_seconds": 90
+    },
+    "C-wind-and-creaks": {
+      "lossless": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\wind-creak-test-v2\\C-wind-and-creaks\\Snowline-wind-and-creaks-9min-test.flac",
+      "listening": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\wind-creak-test-v2\\C-wind-and-creaks\\Snowline-wind-and-creaks-9min-test.mp3",
+      "metering": {
+        "lossless_mix": {
+          "integrated_lufs": -23.2,
+          "loudness_range_lu": 10.5,
+          "true_peak_dbtp": -8.1
+        },
+        "listening_copy": {
+          "integrated_lufs": -23.0,
+          "loudness_range_lu": 10.5,
+          "true_peak_dbtp": -8.0
+        },
+        "matching_passes": [
+          {
+            "gain_db": 0.1999999999999993,
+            "measured": {
+              "integrated_lufs": -23.2,
+              "loudness_range_lu": 10.5,
+              "true_peak_dbtp": -8.2
+            }
+          },
+          {
+            "gain_db": 0.3999999999999986,
+            "measured": {
+              "integrated_lufs": -23.0,
+              "loudness_range_lu": 10.5,
+              "true_peak_dbtp": -8.0
+            }
+          }
+        ]
+      },
+      "short_check": "C-wind-and-creaks-90s-check.mp3",
+      "preview_source_start_seconds": 54,
+      "preview_seconds": 90
+    }
+  },
+  "outputs": [
+    {
+      "file": "Snowline-varied-wind-9min-test.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.11587381362915039,
+      "sha256": "e5ca8f50b1f470a383e48b0ed7e9144b5b8018b95243b489108fd4ac72fc2337",
+      "bytes": 18324222
+    },
+    {
+      "file": "settling-creak-1.wav",
+      "seconds": 1.69,
+      "finite": true,
+      "sample_peak": 0.020606279373168945,
+      "sha256": "a230a8ef55a92681d210018962a99d66264d6bfd4cb0a08bf326228d314fcafe",
+      "bytes": 486822
+    },
+    {
+      "file": "settling-creak-2.wav",
+      "seconds": 2.19,
+      "finite": true,
+      "sample_peak": 0.020180106163024902,
+      "sha256": "435711f5cdda125395baeb1297150a1ba46eb835ff38399cd9ed46e1657e3d00",
+      "bytes": 630822
+    },
+    {
+      "file": "Snowline-two-creaks-9min-test.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.020606279373168945,
+      "sha256": "ad3910d24571f06d5e869ee7bd87f573467db8520090765132d561ae4a6073b0",
+      "bytes": 590991
+    },
+    {
+      "file": "B-wind-only/Snowline-wind-variation-9min-test.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.39277327060699463,
+      "sha256": "eba4df026d579af0cd6e2ff7dd671713b45a3ba03873e3cb46550d9ab6a478cc",
+      "bytes": 77803452
+    },
+    {
+      "file": "B-wind-only/Snowline-wind-variation-9min-test.mp3",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.3988495469093323,
+      "sha256": "ea63c18b2b95c82bfaf5cd130c9550a3eb2c56825e37c02e6b9e2713141b2268",
+      "bytes": 12961196
+    },
+    {
+      "file": "B-wind-only-90s-check.mp3",
+      "seconds": 90.0,
+      "finite": true,
+      "sample_peak": 0.36256858706474304,
+      "sha256": "0216f405ba20e9cf31aa861fdaedab490f7559f911e867806b0e117ceb224a85",
+      "bytes": 2161196
+    },
+    {
+      "file": "C-wind-and-creaks/Snowline-wind-and-creaks-9min-test.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.39277327060699463,
+      "sha256": "84ff47fcdc926237fbdd2554f75b48d3208d3b149b89e256bb1e683f0af55621",
+      "bytes": 77862692
+    },
+    {
+      "file": "C-wind-and-creaks/Snowline-wind-and-creaks-9min-test.mp3",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.3988495469093323,
+      "sha256": "b6503601aa5648efea21a02767436290ffb75cbcb4b8ba95e4eaf920186d837d",
+      "bytes": 12961196
+    },
+    {
+      "file": "C-wind-and-creaks-90s-check.mp3",
+      "seconds": 90.0,
+      "finite": true,
+      "sample_peak": 0.36256858706474304,
+      "sha256": "158f27fe9de8e16fe8183cf1e5f2832c33991a4247e58377d5d66f545765b97a",
+      "bytes": 2161196
+    },
+    {
+      "file": "A-approved-v2-90s-check.mp3",
+      "seconds": 90.0,
+      "finite": true,
+      "sample_peak": 0.3618614375591278,
+      "sha256": "7a3d0ecb2b80f14d2ae09c2f337aabdf83d7818a8dae9feaf361ab38a8f10bfc",
+      "bytes": 2161196
+    }
+  ],
+  "assistant_listening": false,
+  "user_test_feedback": "pending",
+  "implementation": [
+    {
+      "path": "C:\\Colony\\scripts\\render_snowline_wind_and_creaks.py",
+      "sha256": "4658d1b4f1b9d8c298053f97a3beccacc82f687402adc7eb726b3e445fdbf073"
+    },
+    {
+      "path": "C:\\Colony\\scripts\\build_snowline_environment.py",
+      "sha256": "63e44464b47c8f9eb95ce4d19fd74feb2a37342a396e3b571a003bec3fd22b15"
+    },
+    {
+      "path": "C:\\Colony\\scripts\\build_snowline_radio_session.py",
+      "sha256": "82828e94f86a04a768fffdd4305226e18f7defde7a0c145b606029ad38abc748"
+    }
+  ]
+}

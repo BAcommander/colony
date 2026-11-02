@@ -148,3 +148,28 @@ creative/brand/intro-v3/tool-source-snapshot/colony/assets/fonts/OFL.txt -text w
 /creative/concepts/four-worlds-vibe-studies-2026-10-27.txt -text
 /creative/concepts/photographic-locations-2026-10-27.txt -text
 /creative/concepts/source-first-location-studies-2026-10-27.txt -text
+
+# Portable Snowline audio checkpoint and byte-bound research records.
+/music/snowline-sound-design-2026-11-02/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/snowline-sound-design-2026-11-02/snowline-session-media.zip filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/creative/music/sound-design/receiver-2026-11-02/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/creative/music/reference-analysis/nonmusical-2026-11-02/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/analyze_radio_texture.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/radio_texture_report.html -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/diagnose_ambient_texture.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/generate_receiver_texture.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/make_receiver_voices.ps1 -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/generate_polar_comms.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/extend_receiver_voices.ps1 -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/refine_receiver_events.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/build_snowline_radio_session.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/build_snowline_environment.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/rebalance_snowline_environment.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/render_snowline_wind_and_creaks.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/restore_snowline_session.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/test_ambient_texture.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/test_radio_texture.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/test_receiver_texture.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/test_snowline_environment.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/test_snowline_radio_session.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/test_restore_snowline_session.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

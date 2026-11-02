@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-02",
+  "target": "Below the Snowline; Hoth/SWTOR-inspired music and original receiver SFX",
+  "first_prototype": {
+    "file": "exports/sfx/snowline-receiver-2026-11-02/v1/receiver-with-activity.mp3",
+    "user_feedback_verbatim": "too much static, needs more indistinct chatter, can we have some random beeps, and can we take any more influence from the song we diagnosed earlier? imagine your a tripple A sound designer.",
+    "state": "Rejected as noise-heavy; asks for more indistinct chatter, irregular beeps and reference influence."
+  },
+  "v3": {
+    "state": "Voice blur sufficient; density and continuous static rejected.",
+    "source_character_question_pending": false,
+    "voice_source": "Local Windows System.Speech; invented phonetic phrases, not actual radio or film audio.",
+    "stems_to_master_maximum_error": 3.5762786865234375e-07,
+    "hiss_rms_delta_db_vs_initial_stem": -10.176896454889263,
+    "approved_music_hash_unchanged": true,
+    "assistant_listening": false,
+    "user_feedback_verbatim": "voices are blured enough but are too often, the static is probably too consistent, like a real radio it should cut in an out with some radio clicks? did you add anything else from the sample like beeping or wave forms for the static? lets try and improve this more"
+  },
+  "v4": {
+    "state": "Rendered and supplied for review; not approved.",
+    "voice_processing_and_source_gain_preserved": true,
+    "transmissions": 3,
+    "acknowledgements": 2,
+    "source_silent_fraction": 0.7433541666666666,
+    "source_silence_peak": 0,
+    "five_decoded_stems_reconstruct_master_maximum_error": 2.384185791015625e-07,
+    "decoded_delivered_files": 11,
+    "all_three_audition_lufs": [
+      -23.0,
+      -23.0,
+      -23.0
+    ],
+    "reference_beeps_confirmed": false,
+    "assistant_listening": false
+  },
+  "full_session_v1": {
+    "user_request": "Try this over the full9-minute Snowline track, with transmissions spaced more randomly instead of the same short loop repeating; asks for other suitable ice-planet SFX.",
+    "state": "Rendered and supplied; full-session review pending.",
+    "unique_phrases_used_once": 14,
+    "quiet_gap_seconds": [
+      18.027997091351835,
+      58.122140043902505
+    ],
+    "radio_silent_fraction": 0.8514630015432099,
+    "other_sfx_added": false,
+    "other_layer_preference_question": "Optional; pending at record time."
+  },
+  "environment_session_v1": {
+    "date": "2026-11-02",
+    "user_choice_verbatim": "Exterior wind and quiet ventilation",
+    "status": "User reports added atmosphere too quiet.",
+    "radio_music_parent_preserved": true,
+    "wind_source_original_preserved": true,
+    "separate_stems": true,
+    "no_paid_generation": true,
+    "assistant_listening": false,
+    "balance_question_pending": false,
+    "user_feedback_verbatim": "Added atmosphere is too quiet"
+  },
+  "environment_session_v2": {
+    "date": "2026-11-02",
+    "wind_change_db": 3,
+    "ventilation_change_db": 3,
+    "status": "User accepts atmosphere balance and asks to keep this level.",
+    "music_radio_parent_preserved": true,
+    "source_timing_filters_and_textures_preserved": true,
+    "aggregate_feedback_not_individual_layer_preference": true,
+    "balance_question_pending": false,
+    "assistant_listening": false,
+    "user_feedback_verbatim": "Enough\u2014keep this level",
+    "approval_record": "environment-v2-balance-approval.json",
+    "approval_scope": "Wind/ventilation balance; full-session listening and final combined review not inferred."
+  },
+  "included_layer_audit": {
+    "date": "2026-11-02",
+    "question": "Are all ambient-style SFX in this mix; anything else to add/change/improve?",
+    "current_approved_balance_files_hash_verified": true,
+    "included": [
+      "14 unique blurred voice transmissions",
+      "receiver opening/closing clicks",
+      "gated hiss and slow carrier movement",
+      "5 acknowledgement events",
+      "4 exterior wind passages",
+      "quiet room ventilation"
+    ],
+    "not_added": [
+      "thermal/structural settling",
+      "distant door/servo activity",
+      "dedicated snow/ice detail",
+      "atmospheric receiver whistlers"
+    ],
+    "next_candidates": [
+      "wind source variety: actual24-second texture remains a repetition risk",
+      "listener-viewpoint and spatial review",
+      "two quiet building creaks or one distant utility event as a separate candidate"
+    ],
+    "audio_or_approval_changed": false,
+    "assistant_listening": false
+  },
+  "wind_creak_test": {
+    "date": "2026-11-02",
+    "user_request_verbatim": "ok lets do the test",
+    "state": "User says creak needs work and suggests ElevenLabs; no A/B/C winner selected.",
+    "A": "Approved V2 unchanged",
+    "B": "Resequenced/overlapped wind from the sole original file, matched per-passage RMS",
+    "C": "Same B plus two procedural settling-creak candidates at91/338s",
+    "new_field_recordings_or_paid_generation": false,
+    "approved_preset_replaced": false,
+    "user_selection_question_pending": false,
+    "assistant_listening": false,
+    "user_feedback_verbatim": "i feel like th creek needs work should we try and generate it from elevel labs?",
+    "wind_variant_preference": "unknown",
+    "creak_state": "Needs revision, not accepted"
+  },
+  "elevenlabs_creak_next_step": {
+    "status": "Prompt/settings prepared; generation/output pending user manual workflow",
+    "prompt": "elevenlabs-settling-creak-v1.txt",
+    "snow_prompt_separate_optional": true,
+    "credits_spent": 0
+  }
+}

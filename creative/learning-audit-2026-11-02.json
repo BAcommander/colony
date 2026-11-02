@@ -1,0 +1,91 @@
+{
+  "created_at_utc": "2026-11-02T09:44:46.265694+00:00",
+  "purpose": "Consolidate practical learning and identify document/branch drift; no production-tree merge or new generation.",
+  "checkout_branch": "codex/concept-brainstorms-2026-10-27",
+  "checkout_head": "d8ff47daf8d6fa9bd301db264e8a61b4a1bb80eb",
+  "newer_fetched_branch": "origin/codex/empty-junction-backup-2026-11-01",
+  "source_scope": "Pinned existing fetched Git records, plus current local learning/evidence files. This is not a fresh remote-head check or a complete media restore.",
+  "cross_branch_sources": [
+    {
+      "commit": "aa62e427e3f6386217e90229c063820c8f54ccae",
+      "path": "creative/MUSIC_WORKFLOW.md",
+      "git_blob": "47f44d25b6e60fd70b9c11e3536a9a45cf55d79c",
+      "sha256": "c88fcfbe52585a9b059c6fc3aa070ff538d327aca37c5862a11b04ecb64940d8",
+      "bytes": 39957,
+      "link": "https://github.com/BAcommander/colony/blob/aa62e427e3f6386217e90229c063820c8f54ccae/creative/MUSIC_WORKFLOW.md"
+    },
+    {
+      "commit": "aa62e427e3f6386217e90229c063820c8f54ccae",
+      "path": "creative/music/november-2026/README.md",
+      "git_blob": "7bd445f596fcc5aa9fd07f7f9f98f346b94944f9",
+      "sha256": "44b61a659c4e9dd967081e168e8dae4785e751aa16bc09735800cb41c519e546",
+      "bytes": 5500,
+      "link": "https://github.com/BAcommander/colony/blob/aa62e427e3f6386217e90229c063820c8f54ccae/creative/music/november-2026/README.md"
+    },
+    {
+      "commit": "aa62e427e3f6386217e90229c063820c8f54ccae",
+      "path": "music/prompt-learnings-2026-11-01/README.md",
+      "git_blob": "5f2381a6336f5d1e57833b885c74f9e589d6c06f",
+      "sha256": "1007407e27d1da63c0a64c1702479a0e8979ddb8b2f6c20f7c5f02c1618aed5d",
+      "bytes": 7029,
+      "link": "https://github.com/BAcommander/colony/blob/aa62e427e3f6386217e90229c063820c8f54ccae/music/prompt-learnings-2026-11-01/README.md"
+    },
+    {
+      "commit": "aa62e427e3f6386217e90229c063820c8f54ccae",
+      "path": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/README.md",
+      "git_blob": "e214e8a52f4e2d24e77424fc836cd7c5ac01c529",
+      "sha256": "adba94961eb697fbe67301b186fcee917e708562e100d049e285555d98ff12c7",
+      "bytes": 4726,
+      "link": "https://github.com/BAcommander/colony/blob/aa62e427e3f6386217e90229c063820c8f54ccae/music/below-the-snowline-production-2026-11-01/paired-loop-v1/README.md"
+    },
+    {
+      "commit": "aa62e427e3f6386217e90229c063820c8f54ccae",
+      "path": "creative/music/channel-research-2026-10-30/PLAN.md",
+      "git_blob": "43986e11ec25b555b308ea9c0ad514919236668c",
+      "sha256": "ca3195e2b2c816617f51e1c0d33415aad6e2a671a6444ef28e8f4615e73c7ab3",
+      "bytes": 8834,
+      "link": "https://github.com/BAcommander/colony/blob/aa62e427e3f6386217e90229c063820c8f54ccae/creative/music/channel-research-2026-10-30/PLAN.md"
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "creative/MUSIC_WORKFLOW.md",
+      "sha256": "da7b33f58bc492584aad01bed6096e8645b9eb5135a2233823816ae04030a7f8"
+    },
+    {
+      "path": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "sha256": "2907777514e81aec3d0729b5031559ba20bbdc214d01af3a0319a6ec4af73a8d"
+    },
+    {
+      "path": "creative/ANIMATION_WORKFLOW.md",
+      "sha256": "b63fcbdfd3b0adf8014cab8a38dc790a6a768dda573bf82b3b8f6246e7c97e50"
+    },
+    {
+      "path": "creative/concepts/ALIEN_COLONY_ART_DIRECTION.md",
+      "sha256": "f2ac470ad88f81badee631a2d11daf2c6f9683de0f10240c6a78187372b33469"
+    },
+    {
+      "path": "final/THUMBNAIL_STYLE.md",
+      "sha256": "2136e2ed07bb1322a720ff665c4f1e8cf17dcbb3719be49eab38d5a412f8383a"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-christmas-tests/README.md",
+      "sha256": "b5811db30e2e5d8bc013fe13c7fa4a996fa7cd002406e1674bafae323dbdd04e"
+    },
+    {
+      "path": "creative/music/reference-analysis/comparison-2026-10-30/feedback-2026-10-30/README.md",
+      "sha256": "92fffa3035bc8ea58a497d7fe740e46a30cfd1bc1509cdcb3a99bdd50b66fb5f"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/README.md",
+      "sha256": "41bc27334a78412c3920de79e2fd0fd3be5e52fc2cd41b11c71f59cdb84c3aa3"
+    }
+  ],
+  "corrections": [
+    "Root README no-music/three-package blanket statements removed.",
+    "Local November preparation checkpoint identified as historical against later accepted-mix/export records.",
+    "Latest radio-like reference listening report does not supersede Junction radio/static rejection.",
+    "Later review drafts are not adopted production prompts; exact executed generation settings remain unconfirmed."
+  ],
+  "no_commit_push_generation_or_schedule_created": true
+}

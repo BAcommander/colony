@@ -1,0 +1,8 @@
+{
+  "received_date": "2026-11-02",
+  "inspected_file": "exports/reference-analysis/nonmusical-2026-11-02/inspection-v1/residual-focus-tone-reduced-boosted.mp3",
+  "processing_gain_db": 12,
+  "question": "Does that tone-reduced clip bring forward the non-musical sound you mean?",
+  "answer_verbatim": "I hear radio static, but its lounder than you expect, very undistinquished chatter, a rising and lowering tone cutting through the static, almost like a wave form. can we build any kind of tool to anylize it more?",
+  "evidence_status": "User listening report of a processed, boosted aid; no confirmed physical radio/speech source or original SFX level."
+}

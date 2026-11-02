@@ -1,5 +1,7 @@
 # November 2026 — four ambient soundtrack briefs
 
+**Status reconciliation, 2026-11-02:** this file and local `month-plan.json` retain the October 30 preparation checkpoint. Later November 1 records on fetched `origin/codex/empty-junction-backup-2026-11-01` (`aa62e427e3f6386217e90229c063820c8f54ccae`) record supplied music, accepted mixes and exports for Junction/Deepwell, and an approved nine-minute Snowline pair. [The learning guide](../../LEARNINGS.md) links those commit-pinned records and the current test sequence. Do not interpret “ungenerated” below as a direction to restart accepted work. No canonical prompt bytes, scene masters or production/media tree are changed by this reconciliation; actual generation wording/settings remain unverified.
+
 User-confirmed lineup, 2026-10-30: **11 The Empty Junction, 12 Deepwell Station, 13 Below the Snowline, 14 Crater Rim Survey**. This is the working order, not assigned publication dates or a new automation.
 
 [Research and sources](RESEARCH.md) · [Common V3 framework](prompt-framework-v3.txt) · [Generation/acceptance tracker](month-plan.json)

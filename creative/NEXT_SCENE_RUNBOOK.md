@@ -1,5 +1,7 @@
 # Ambient Colony: next-scene runbook
 
+Read [the consolidated learning guide](LEARNINGS.md) before a new scene, music brief or mix. It connects the detailed knowledge banks, identifies superseded ideas and flags newer production records on other branches. Check the latest accepted scene state before treating an old preparation checkpoint as unfinished work.
+
 ## Start with the knowledge bank
 
 Read [ANIMATION_KNOWLEDGE_BANK.md](ANIMATION_KNOWLEDGE_BANK.md) before choosing effects. Its per-video entries include recent Floodplain, Saltline, Cable Station, Icebound and Rainline feedback, source links, reusable methods and failed approaches. Record relevant examples in the planning template. The detailed Basalt commands below remain scene-specific.

@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-02",
+  "user_choice": "Exterior wind and quiet ventilation",
+  "seconds": 540,
+  "parent_mix": {
+    "path": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\full-session-v1\\Snowline-music-and-radio-9min-v1.flac",
+    "sha256": "aede078175e433ad6be6fc8ad8970ac95b6a2c69311322f53bc10fa770642b1d",
+    "mix_gain": 1.0,
+    "radio_schedule_or_event_gains_changed": false
+  },
+  "wind_source": {
+    "path": "C:\\Colony\\exports\\restored-snowline-2026-11-02\\wind-soft-exterior-01.mp3",
+    "sha256": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34",
+    "original_modified": false
+  },
+  "wind": {
+    "source_gain_db": 4.85,
+    "gain_basis": "Earlier Deepwell/Snowline audition starting level; new scene balance pending",
+    "distance_filter": "Second-order1800Hz low-pass, periodic source context; artistic closed-glazing approximation",
+    "source_trim_seconds": [
+      1,
+      29
+    ],
+    "source_overlap_seconds": 4,
+    "prepared_source_cycle_seconds": 24,
+    "source_cycle_repeats": true,
+    "full_envelope_repeats_every24s": false,
+    "events": [
+      {
+        "start_seconds": 42.0,
+        "duration_seconds": 72.0,
+        "fade_in_seconds": 12.0,
+        "fade_out_seconds": 16.0,
+        "source_phase_seconds": 3.7
+      },
+      {
+        "start_seconds": 169.0,
+        "duration_seconds": 58.0,
+        "fade_in_seconds": 11.0,
+        "fade_out_seconds": 17.0,
+        "source_phase_seconds": 14.2
+      },
+      {
+        "start_seconds": 298.0,
+        "duration_seconds": 83.0,
+        "fade_in_seconds": 15.0,
+        "fade_out_seconds": 20.0,
+        "source_phase_seconds": 8.1
+      },
+      {
+        "start_seconds": 438.0,
+        "duration_seconds": 69.0,
+        "fade_in_seconds": 12.0,
+        "fade_out_seconds": 19.0,
+        "source_phase_seconds": 20.6
+      }
+    ],
+    "rms_dbfs": -44.39669988135969
+  },
+  "ventilation": {
+    "seed": 1348,
+    "construction": "Original periodic band-shaped noise, no recording or voice model",
+    "synthesis_rate_hz": 12000,
+    "delivery_rate_hz": 48000,
+    "nominal_band_hz": [
+      140,
+      950
+    ],
+    "target_rms_dbfs": -48,
+    "actual_rms_dbfs": -48.00000000454205,
+    "slow_level_cycles_in_full_source": [
+      2,
+      5
+    ],
+    "added_tonal_oscillators": false,
+    "seam_step": 8.002016693353653e-05,
+    "ordinary_step_p99": 0.0008868112345226109,
+    "bandwidth_note": "12kHz synthesis is sufficient for this deliberately low-frequency air layer; wrap-aware upsampling to48kHz."
+  },
+  "outputs": [
+    {
+      "file": "Snowline-exterior-wind-9min-v1.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.09317290782928467,
+      "sha256": "dcafa26fbcecf35dadb8178c12f0a60435120aaf69297f57c853727aacb1570e",
+      "bytes": 17164141
+    },
+    {
+      "file": "Snowline-ventilation-9min-v1.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.020193934440612793,
+      "sha256": "73f041941c20dd2dc95ec4cc7d0feea985f92b98a17b401ca90ed275d3cd14e4",
+      "bytes": 35166520
+    },
+    {
+      "file": "Snowline-radio-wind-and-ventilation-9min-v1.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.39236879348754883,
+      "sha256": "8fe97d62092c8efb14c73471d2f0d5b5827fe66201a6cfa6328ea8992a694eaa",
+      "bytes": 77709318
+    },
+    {
+      "file": "Snowline-radio-wind-and-ventilation-9min-v1.mp3",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.39807429909706116,
+      "sha256": "441a0f1dccf6749367fb6e7b9f52530d837d93f2507a78e5048ec0ff4842df45",
+      "bytes": 12961196
+    },
+    {
+      "file": "Snowline-radio-wind-and-ventilation-2min-preview-v1.mp3",
+      "seconds": 120.0,
+      "finite": true,
+      "sample_peak": 0.36108869314193726,
+      "sha256": "d29cde9adae35f093b8c8b60f2314843c87c150fea0c12e92899c4bbfdb8383a",
+      "bytes": 2881196
+    }
+  ],
+  "metering": {
+    "lossless_mix": {
+      "integrated_lufs": -23.1,
+      "loudness_range_lu": 11.1,
+      "true_peak_dbtp": -8.1
+    },
+    "listening_copy": {
+      "integrated_lufs": -23.0,
+      "loudness_range_lu": 11.1,
+      "true_peak_dbtp": -8.0
+    },
+    "matching_passes": [
+      {
+        "gain_db": 0.10000000000000142,
+        "measured": {
+          "integrated_lufs": -23.3,
+          "loudness_range_lu": 11.1,
+          "true_peak_dbtp": -8.3
+        }
+      },
+      {
+        "gain_db": 0.40000000000000213,
+        "measured": {
+          "integrated_lufs": -23.0,
+          "loudness_range_lu": 11.1,
+          "true_peak_dbtp": -8.0
+        }
+      }
+    ]
+  },
+  "preview": {
+    "seconds": 120,
+    "same_whole_mix_gain_as_full_listening_copy": true,
+    "separately_normalized": false
+  },
+  "processing": "Additive stems only. No compression, limiter, music EQ/time/pitch change or production intro/fade added.",
+  "assistant_listening": false,
+  "user_environment_balance_review": "pending",
+  "paid_generation": false,
+  "reference_recordings_used": false,
+  "implementation": [
+    {
+      "path": "C:\\Colony\\scripts\\build_snowline_environment.py",
+      "sha256": "63e44464b47c8f9eb95ce4d19fd74feb2a37342a396e3b571a003bec3fd22b15"
+    },
+    {
+      "path": "C:\\Colony\\scripts\\generate_receiver_texture.py",
+      "sha256": "783e873a48ca6b0573294b17b00329fec2fce24fd1aedc030f73f91f85c0974f"
+    },
+    {
+      "path": "C:\\Colony\\scripts\\build_snowline_radio_session.py",
+      "sha256": "82828e94f86a04a768fffdd4305226e18f7defde7a0c145b606029ad38abc748"
+    }
+  ]
+}

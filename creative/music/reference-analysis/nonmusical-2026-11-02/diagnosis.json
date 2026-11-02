@@ -1,0 +1,198 @@
+{
+  "source": "C:\\Colony\\exports\\reference-analysis\\nonmusical-2026-11-02\\current-10min\\reference-sample.m4a",
+  "source_sha256": "6ba9caecdca380dd6f23f11b1776c5599d1e7510d10d537f39b94b6801a759a6",
+  "decoded_seconds": 600.003625,
+  "method": {
+    "sample_rate": 16000,
+    "fft_size": 2048,
+    "hop": 512,
+    "median_kernels": [
+      31,
+      31
+    ],
+    "soft_mask_margin": 2,
+    "stereo_mask": "shared across channels",
+    "reference": "https://www.audiolabs-erlangen.de/resources/2014-ISMIR-ExtHPSep/"
+  },
+  "limitations": [
+    "No assistant listening or semantic sound-source recognition.",
+    "Harmonic/residual/transient separation classifies spectrogram shapes, not music versus effects.",
+    "Noise may be synthesized texture, musical reverb, environmental sound or codec artefacts. Musical material can leak into every output.",
+    "Do not infer a percentage of actual non-musical sound from these masks or the extracted waveform levels.",
+    "Boosted listening aids are intentionally louder; only the same-gain pair preserves the original comparison level.",
+    "16 kHz analysis limits bandwidth to 8 kHz. Windows identify candidate inspection regions, not verified events.",
+    "This fresh ten-minute live DVR sample cannot establish the content of the whole broadcast or the earlier October recording."
+  ],
+  "maximum_reconstruction_error": 8.940696716308594e-08,
+  "mask_weighted_spectral_allocation_not_sfx_percent": {
+    "sustained": 0.6566970348358154,
+    "residual": 0.2856387197971344,
+    "transient": 0.05766425281763077
+  },
+  "original_spectral_flatness_p5_p50_p95": {
+    "40-160Hz": [
+      0.20048807859420778,
+      0.40597762167453766,
+      0.5998440772294998
+    ],
+    "160-500Hz": [
+      0.14216409027576446,
+      0.2887214422225952,
+      0.45461153984069824
+    ],
+    "500-2000Hz": [
+      0.12775568217039107,
+      0.2364831566810608,
+      0.43018771559000024
+    ],
+    "2000-8000Hz": [
+      0.019131122529506682,
+      0.03842144086956978,
+      0.1631079249083997
+    ]
+  },
+  "component_measurements": {
+    "original": {
+      "rms_dbfs": -23.966157425880247,
+      "sample_peak_dbfs": -6.022514132692217,
+      "one_second_rms_p5_p50_p95_dbfs": [
+        -27.316022365721086,
+        -24.496143885840898,
+        -21.29310506855078
+      ],
+      "stereo_correlation": 0.24785015008623465,
+      "spectral_energy_percent": {
+        "0-80Hz": 33.81425094604492,
+        "80-250Hz": 34.37757110595703,
+        "250-1000Hz": 28.00213050842285,
+        "1000-4000Hz": 3.7782773971557617,
+        "4000-8001Hz": 0.027776021510362625
+      }
+    },
+    "sustained": {
+      "rms_dbfs": -27.130264979103412,
+      "sample_peak_dbfs": -8.160501559388711,
+      "one_second_rms_p5_p50_p95_dbfs": [
+        -32.16625152147321,
+        -27.977253667492455,
+        -24.081651694765185
+      ],
+      "stereo_correlation": 0.34938763560675373,
+      "spectral_energy_percent": {
+        "0-80Hz": 34.99471664428711,
+        "80-250Hz": 35.66565704345703,
+        "250-1000Hz": 26.977039337158203,
+        "1000-4000Hz": 2.3574018478393555,
+        "4000-8001Hz": 0.005188080482184887
+      }
+    },
+    "residual": {
+      "rms_dbfs": -33.65322636571854,
+      "sample_peak_dbfs": -16.56654940507034,
+      "one_second_rms_p5_p50_p95_dbfs": [
+        -36.205060498225194,
+        -34.020738104087975,
+        -30.918149201484404
+      ],
+      "stereo_correlation": 0.10784122685489349,
+      "spectral_energy_percent": {
+        "0-80Hz": 32.7715950012207,
+        "80-250Hz": 31.140087127685547,
+        "250-1000Hz": 29.065717697143555,
+        "1000-4000Hz": 6.941310882568359,
+        "4000-8001Hz": 0.08129344880580902
+      }
+    },
+    "transient": {
+      "rms_dbfs": -44.246205878598424,
+      "sample_peak_dbfs": -25.279478133623652,
+      "one_second_rms_p5_p50_p95_dbfs": [
+        -46.810257649083375,
+        -44.68043405605069,
+        -41.47068324558987
+      ],
+      "stereo_correlation": 0.12095347005432812,
+      "spectral_energy_percent": {
+        "0-80Hz": 31.74860382080078,
+        "80-250Hz": 30.003873825073242,
+        "250-1000Hz": 29.0899600982666,
+        "1000-4000Hz": 9.049310684204102,
+        "4000-8001Hz": 0.10824762284755707
+      }
+    }
+  },
+  "clips": [
+    {
+      "selection": "residual-focus",
+      "start_seconds_in_recording": 358,
+      "duration_seconds": 30,
+      "mode": "original",
+      "gain_db": 0,
+      "file": "residual-focus-original.mp3"
+    },
+    {
+      "selection": "residual-focus",
+      "start_seconds_in_recording": 358,
+      "duration_seconds": 30,
+      "mode": "tone-reduced-same-gain",
+      "gain_db": 0,
+      "file": "residual-focus-tone-reduced-same-gain.mp3"
+    },
+    {
+      "selection": "residual-focus",
+      "start_seconds_in_recording": 358,
+      "duration_seconds": 30,
+      "mode": "tone-reduced-boosted",
+      "gain_db": 12.0,
+      "file": "residual-focus-tone-reduced-boosted.mp3"
+    },
+    {
+      "selection": "transient-focus",
+      "start_seconds_in_recording": 344,
+      "duration_seconds": 30,
+      "mode": "original",
+      "gain_db": 0,
+      "file": "transient-focus-original.mp3"
+    },
+    {
+      "selection": "transient-focus",
+      "start_seconds_in_recording": 344,
+      "duration_seconds": 30,
+      "mode": "tone-reduced-same-gain",
+      "gain_db": 0,
+      "file": "transient-focus-tone-reduced-same-gain.mp3"
+    },
+    {
+      "selection": "transient-focus",
+      "start_seconds_in_recording": 344,
+      "duration_seconds": 30,
+      "mode": "tone-reduced-boosted",
+      "gain_db": 12.0,
+      "file": "transient-focus-tone-reduced-boosted.mp3"
+    },
+    {
+      "selection": "steady-texture",
+      "start_seconds_in_recording": 80,
+      "duration_seconds": 30,
+      "mode": "original",
+      "gain_db": 0,
+      "file": "steady-texture-original.mp3"
+    },
+    {
+      "selection": "steady-texture",
+      "start_seconds_in_recording": 80,
+      "duration_seconds": 30,
+      "mode": "tone-reduced-same-gain",
+      "gain_db": 0,
+      "file": "steady-texture-tone-reduced-same-gain.mp3"
+    },
+    {
+      "selection": "steady-texture",
+      "start_seconds_in_recording": 80,
+      "duration_seconds": 30,
+      "mode": "tone-reduced-boosted",
+      "gain_db": 12.0,
+      "file": "steady-texture-tone-reduced-boosted.mp3"
+    }
+  ]
+}

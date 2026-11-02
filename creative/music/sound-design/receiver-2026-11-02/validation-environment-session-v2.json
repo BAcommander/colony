@@ -1,0 +1,11 @@
+{
+  "stereo_frames_compared": 25920000,
+  "maximum_wind_3db_gain_error": 1.1912712533524578e-07,
+  "maximum_ventilation_3db_gain_error": 1.1912712533524578e-07,
+  "maximum_lossless_mix_recipe_error": 0.0,
+  "parent_music_radio_and_source_stem_hashes_unchanged": true,
+  "six_output_files_fully_decoded": true,
+  "source_timing_filters_or_textures_changed": false,
+  "assistant_listening": false,
+  "user_v2_balance_review": "pending"
+}

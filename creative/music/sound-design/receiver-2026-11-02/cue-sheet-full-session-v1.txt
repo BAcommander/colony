@@ -1,0 +1,17 @@
+Snowline: nine-minute radio cue sheet
+Times refer to the complete approved music.
+
+0:23.83  voice-10.wav  5.67s  acknowledgement
+1:06.13  voice-12.wav  6.38s
+1:49.05  voice-02.wav  5.85s
+2:14.44  voice-09.wav  5.43s
+2:53.77  voice-06.wav  3.92s
+3:56.51  voice-13.wav  4.79s
+4:37.08  voice-07.wav  4.86s
+5:13.10  voice-04.wav  6.43s  acknowledgement
+5:57.20  voice-14.wav  5.15s
+6:26.38  voice-01.wav  4.08s
+6:49.06  voice-11.wav  4.20s  acknowledgement
+7:22.33  voice-03.wav  3.34s  acknowledgement
+7:49.45  voice-08.wav  5.09s
+8:29.43  voice-05.wav  3.68s  acknowledgement

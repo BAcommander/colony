@@ -1,0 +1,52 @@
+{
+  "prepared_at_utc": "2026-11-02T11:57:20.891349+00:00",
+  "date": "2026-11-02",
+  "user_feedback_verbatim": "i feel like th creek needs work should we try and generate it from elevel labs?",
+  "followup_question_verbatim": "should the prompt include snow drifts or sounds?",
+  "status": "Prepared manual-use prompts and settings only; no generation or paid action",
+  "approved_current_mix": "Environment V2 remains current",
+  "wind_variant_preference": "unknown",
+  "prompts": [
+    {
+      "file": "elevenlabs-settling-creak-v1.txt",
+      "characters": 296,
+      "sha256": "af24c09393b24fa616a65e37baa7a81fc6d40f6609436947cfc0ceddd3d7cf65",
+      "role": "Next isolated creak test",
+      "proposed_settings": {
+        "workflow": "Sound Effects",
+        "seconds": 4,
+        "looping": false,
+        "prompt_influence": "UI default for first batch",
+        "format": "WAV48kHz if offered"
+      },
+      "actual_model": null,
+      "actual_settings": null,
+      "actual_cost": null,
+      "generated_file": null
+    },
+    {
+      "file": "elevenlabs-spindrift-detail-v1.txt",
+      "characters": 257,
+      "sha256": "9ba8061032fae112148f50c02f988c385be7792c60063353789c46d4c32b2710",
+      "role": "Optional later separate grain-detail proposal, not selected",
+      "proposed_settings": {
+        "workflow": "Sound Effects",
+        "seconds": 6,
+        "looping": false,
+        "prompt_influence": "UI default for first batch",
+        "format": "WAV48kHz if offered"
+      },
+      "actual_model": null,
+      "actual_settings": null,
+      "actual_cost": null,
+      "generated_file": null
+    }
+  ],
+  "source_docs": [
+    "https://elevenlabs.io/docs/overview/capabilities/sound-effects",
+    "https://elevenlabs.io/docs/eleven-creative/playground/sound-effects"
+  ],
+  "official_docs_checked": "2026-11-02",
+  "credit_spend": 0,
+  "external_audio_uploaded": false
+}

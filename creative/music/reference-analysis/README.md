@@ -40,3 +40,7 @@ External reference recordings stay under ignored exports. Preserve compact resul
 The six comparison reports and full timelines are also archived in [the Git-ready comparison](comparison-2026-10-30/comparison.html). Source audio and unlabelled listening clips remain local. User explicitly requests commit/push on 2026-10-30; see backup-2026-10-30.json for remote evidence.
 
 Implementation: [analyser](../../../scripts/analyze_ambient_audio.py), [report template](../../../scripts/ambient_audio_report.html), [regression checks](../../../scripts/test_ambient_audio.py).
+
+## Non-musical texture investigation, 2 November 2026
+
+[Fresh ten-minute WINTER WATCH inspection](nonmusical-2026-11-02/README.md) adds sustained-tone reduction and residual/transient listening aids. The user describes radio-like static, indistinct chatter and a rising/lowering tone in the +12 dB aid. A follow-up tone/texture inspector now tracks candidate narrow tones and level envelopes and provides same-gain audio comparisons; launch it with `Inspect Radio Texture.cmd`. These are spectral-structure views, not isolated environmental stems or sound-source recognition. Exact measurements, feedback, provenance and checks are saved; original and processed audio remain local under ignored exports. The separate diagnostic scripts require SciPy in addition to the analyser's dependencies.
