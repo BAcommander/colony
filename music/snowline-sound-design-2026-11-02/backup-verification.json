@@ -1,0 +1,43 @@
+{
+  "verified_at_utc": "2026-11-02T12:37:27.388737+00:00",
+  "branch": "codex/concept-brainstorms-2026-10-27",
+  "content_commit": "ddda506d8231238d8fa36e57fea703767bfc14b7",
+  "remote_branch_advertisement": "ddda506d8231238d8fa36e57fea703767bfc14b7",
+  "remote": "https://github.com/BAcommander/colony.git",
+  "git_content_check": {
+    "manifest_files": 75,
+    "all_commit_blob_ids_and_sha256_match": true,
+    "method": "Read committed Git blobs matching the exact advertised remote commit and the staged-content manifest."
+  },
+  "media": {
+    "archive_file": "music/snowline-sound-design-2026-11-02/snowline-session-media.zip",
+    "sha256": "8f3b40fac6a434a7120e5d9697bf1bdfcc26e12356d9d4c5252eae43ae9b9165",
+    "bytes": 1534145513,
+    "fresh_remote_download": true,
+    "fresh_lfs_storage_was_empty": true,
+    "fetch_command": "git -c lfs.storage=<fresh-empty-directory> lfs fetch --include=music/snowline-sound-design-2026-11-02/snowline-session-media.zip origin ddda506d8231238d8fa36e57fea703767bfc14b7",
+    "restored_file_count": 221,
+    "uncompressed_bytes": 1742074971,
+    "all_restored_member_sha256_match": true,
+    "independent_restore_root": "C:\\Colony\\.local\\snowline-remote-verify-2026-11-02\\restored-workflow",
+    "second_verify_only_run_skips_all_files": true
+  },
+  "checks": {
+    "signal_schedule_tests_passed": 11,
+    "restore_safety_tests_passed": 3,
+    "secret_pattern_scan": "pass",
+    "git_diff_check": "pass"
+  },
+  "current_state": {
+    "accepted": "Environment V2 atmosphere balance",
+    "creak": "Procedural source needs revision; manual ElevenLabs isolated-creak brief prepared, no generation",
+    "wind_variant_selection": "unknown",
+    "snow_grain_prompt": "optional separate proposal, not selected"
+  },
+  "exclusions": [
+    "External WINTER WATCH recordings and derived reference audition audio",
+    "Local environments/caches",
+    "Unrelated branch production trees"
+  ],
+  "scope_note": "This verifies portable backup/restore, not full-session artistic approval or assistant listening. The subsequent receipt commit is verified against the remote branch separately after pushing."
+}
