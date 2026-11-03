@@ -1,6 +1,10 @@
 # Resume Snowline: current two-hour V5 and reusable sound assets
 
+**Superseded by [the V6 snow continuation](../snowline-snow-2026-11-03/RESUME.md).** This271-file checkpoint and receipt remain unchanged historical media scope; the continuation preserves all68later snow exports and reuses these base pack bytes. The launcher now restores both plus November2 dependencies.
+
 Checkpoint 2026-11-03, branch `codex/concept-brainstorms-2026-10-27`. The user explicitly requested commit/push of everything from this sound-design session, including the supplied creak and lessons for future videos. Shared main is unchanged.
+
+Later on November3, the user supplied a snow-grain source and found its first short audition barely audible. [Local+6dB/+9dB follow-up tests](../../creative/music/sound-design/receiver-2026-11-02/README.md#optional-snow-grain-audition--2026-11-03) are subsequent candidate work, outside this fixed271-file backup/receipt. They have not changed the full two-hour V5 described here.
 
 ## Pull and restore on the other machine
 

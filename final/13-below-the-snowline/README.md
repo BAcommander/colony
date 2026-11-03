@@ -1,5 +1,7 @@
 # 13 — Below the Snowline
 
+**Latest audio: full two-hour V6 with both snow takes**,24irregular wind-linked passages at the requested lower level. [Current delivery and cross-machine handoff](../../music/snowline-snow-2026-11-03/RESUME.md). Full-session/new-take listening remains pending; older V5/preparation statements below are history. AnimationV2 already exists on the November production branch and needs review; no4K assembly yet.
+
 [Current audio handoff and complete media backup](../../music/snowline-sound-design-2026-11-03/RESUME.md) includes two-hour V5, supplied creak, sparse radio and revised wind; full-session listening remains pending.
 
 **Audio update2026-11-03:** [the two-hour soundtrack and current SFX settings](../../creative/music/sound-design/receiver-2026-11-02/README.md#current-two-hour-mix--2026-11-03) are delivered locally, with complete decode/source checks and full listening review pending. This is audio only. The September packaging checkpoint below is historical; consult latest scene/branch records for later ice-planet art/animation before assembly.

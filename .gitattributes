@@ -190,6 +190,13 @@ creative/brand/intro-v3/tool-source-snapshot/colony/assets/fonts/OFL.txt -text w
 /scripts/audition_snowline_wind_gain.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /scripts/audition_snowline_radio_gain.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /scripts/apply_snowline_final_balance.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/audition_snowline_snow_grains.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/rebalance_snowline_snow_grains.py -text
+/scripts/build_snowline_snow_two_hour_mix.py -text
+/scripts/restore_snowline_snow_session.py -text
+/scripts/test_snowline_snow_backup.py -text
+/music/snowline-snow-2026-11-03/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/snowline-snow-2026-11-03/snow-delta-*.bin filter=lfs diff=lfs merge=lfs -text
 /music/sfx-library/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /music/sfx-library/assets/grit-mineral-soft-01.mp3 filter=lfs diff=lfs merge=lfs -text
 /music/sfx-library/assets/pump-distant-circulation-01.mp3 filter=lfs diff=lfs merge=lfs -text

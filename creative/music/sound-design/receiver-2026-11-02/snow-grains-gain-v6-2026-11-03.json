@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-03",
+  "user_feedback_verbatim": "go down 1 more DB, then add this one too, add it to our assets folder for reusing, then regerated the 2 hour doing snow about every 5 minutes or what makes the most sense? then commit and push everything from today",
+  "scope": "Louder short snow auditions only; full two-hour V5 unchanged",
+  "parent_review": "exports/13-below-the-snowline/level-tests/snow-grains-v1/review.json",
+  "parent_review_sha256": "eae81a43d49ec14c6c9d20ca7a142261e29c077cb52e2ef2f5f2d2c5513a57f8",
+  "current_master": {
+    "file": "exports/13-below-the-snowline/audio-2h-v5/Below-the-Snowline-2-Hours-unfaded-master-v5.flac",
+    "sha256": "4b4843823fbd032e3368f6945d94a600b8b97062b56779b15f9f48b3953b60c4"
+  },
+  "source": {
+    "original_path": "C:\\Users\\john\\Downloads\\Fine_dry_snow_grains_#2-1793724361485.mp3",
+    "preserved_file": "source-originals/supplied-snow-grains.mp3",
+    "sha256": "58bb38ca9b8447b0cbdd1a389a756896244d7e54198517af4afdd9d6ab98346e",
+    "bytes": 241389,
+    "decoded_seconds": 10.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "format": "User-supplied192kbps MP3; not a lossless original",
+    "sample_peak": 0.04675781726837158,
+    "rms_dbfs": -51.26268729677883,
+    "related_brief": "creative/music/sound-design/receiver-2026-11-02/elevenlabs-spindrift-detail-v1.txt",
+    "executed_prompt_model_settings_cost": null
+  },
+  "source_window_seconds": [
+    1615.0,
+    1675.0
+  ],
+  "seconds": 60.0,
+  "snow_event": {
+    "start_in_clip_seconds": 24.0,
+    "end_in_clip_seconds": 34.0,
+    "complete_take": true,
+    "looped": false,
+    "pitch_or_time_edit": false,
+    "lowpass_hz": 2800,
+    "lowpass_order": 2,
+    "zero_phase_filter": true,
+    "edge_fades_seconds": [
+      0.02,
+      0.08
+    ],
+    "source_gain_after_filter_db": 14.10120983877147,
+    "target_event_rms_db_vs_wind": -9.0,
+    "peak_margin_db_vs_local_wind": -3.0,
+    "peak_guard_limited": true,
+    "actual_event_rms_db_vs_wind": -12.4326698499504,
+    "actual_peak_db_vs_wind": -3.0000000756801217,
+    "calibration": "Provisional source-specific audition starting point; not a universal/approved balance"
+  },
+  "variants": [
+    {
+      "snow_increment_db_vs_first_test": 2.0,
+      "amplitude_multiplier": 1.2589254117941673,
+      "source_gain_after_filter_db": 16.10120983877147,
+      "event_rms_db_vs_wind_analytical": -10.4326698499504,
+      "initial_wind_peak_constraint_reapplied": false,
+      "limiter_compressor_or_normalization_added": false,
+      "validation": {
+        "frames": 2880000,
+        "snow_gain_max_error": 1.1912416046644392e-07,
+        "exact_new_mix_sum_error": 0.0,
+        "difference_outside_snow_event": 0.0,
+        "lossless_playback_gain_max_error": 1.1903895795733338e-07
+      },
+      "outputs": [
+        {
+          "frames": 2880000,
+          "seconds": 60.0,
+          "sample_peak": 0.11038804054260254,
+          "finite": true,
+          "sha256": "f267bc74b91bc9daf895f35794b627747da3892071b0aa682a598fde8e3092b4",
+          "bytes": 1159043,
+          "file": "plus2dB/snow-adjusted-60s.flac"
+        },
+        {
+          "frames": 2880000,
+          "seconds": 60.0,
+          "sample_peak": 0.3715193271636963,
+          "finite": true,
+          "sha256": "c34a2f1a775135cff05649236c3a0757f17bb951c7d6f69a587fc523b39822ea",
+          "bytes": 8777719,
+          "file": "plus2dB/mix-unfaded-60s.flac"
+        },
+        {
+          "frames": 2880000,
+          "seconds": 60.0,
+          "sample_peak": 0.38902854919433594,
+          "finite": true,
+          "sha256": "e071941dccec635e4f9e31f2759db78e418c2b5600cc992e8d9c9d96e72ac510",
+          "bytes": 8827279,
+          "file": "plus2dB/Snow-plus2dB-60s.flac"
+        },
+        {
+          "frames": 2880000,
+          "seconds": 60.0,
+          "sample_peak": 0.3766734004020691,
+          "finite": true,
+          "sha256": "96d7565b2aa9b7d894a2f46e31dda132763dfc583bbc92beaeaf0a6596ee5306",
+          "bytes": 1441196,
+          "file": "plus2dB/Snow-plus2dB-60s.mp3"
+        },
+        {
+          "frames": 960000,
+          "seconds": 20.0,
+          "sample_peak": 0.31164368987083435,
+          "finite": true,
+          "sha256": "5a3fbf601fefb982e37d41a2def17e9cdd26d279cebc1c9c5b53b0ef9e479044",
+          "bytes": 481580,
+          "file": "plus2dB/Snow-plus2dB-focus-20s.mp3"
+        }
+      ],
+      "loudness": {
+        "integrated_lufs": -24.7,
+        "loudness_range_lu": 9.5,
+        "true_peak_dbtp": -8.5
+      }
+    }
+  ],
+  "whole_listening_gain_db": 0.4,
+  "independent_normalization": false,
+  "focus_excerpt": {
+    "start_in_minute_seconds": 20,
+    "seconds": 20,
+    "snow_in_focus_seconds": [
+      4.0,
+      14.0
+    ],
+    "stronger_middle_approximately_seconds": [
+      9,
+      11
+    ],
+    "creak_in_focus": false
+  },
+  "unchanged": [
+    "music",
+    "wind",
+    "ventilation",
+    "creak",
+    "radio",
+    "timing",
+    "snow filtering and edges"
+  ],
+  "level_note": "Latest requested1dB reduction from+3 to+2dB versus first snow placement; authorized for full V6.",
+  "assistant_listening": false,
+  "user_preference": null,
+  "full_two_hour_updated": false,
+  "new_paid_calls": 0,
+  "backup_scope": "Local additions after the earlier verified backup",
+  "implementation_sha256": "c5411eafcfe6214a14cf7944b4893893c0182639ee8a6eed4322c36686966d4e",
+  "revision_reference": {
+    "previous_gain_db_vs_first_test": 3,
+    "delta_db": -1,
+    "new_gain_db_vs_first_test": 2,
+    "max_minus1db_error_vs_plus3_stem": 1.1867544359679336e-07,
+    "selected_for_full_two_hour_render": true
+  }
+}

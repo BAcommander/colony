@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created": "2026-11-01",
-  "scope": "Seven original sources, deduplicated by hash. Six prior scene-accepted sources plus the supplied Snowline creak selected for V5; full-session listening pending.",
+  "scope": "Nine unique original sources with scene-specific history: six earlier sources, the selected frame creak and two snow takes included in full Snowline V6. Full-session listening pending.",
   "preview_policy": "Preview copies use constant gain toward−24LUFS, limited for peak headroom. They are audition-only. Reuse original source_file with scene-specific gains.",
   "reuse_policy": "Check location, distance, plateau level, event duration and quiet gaps in the actual composition before adopting. Keep gains and frequency separate.",
   "entries": [
@@ -415,6 +415,206 @@
       "general_favourite": false,
       "assistant_listening": false,
       "provenance": "Original bytes supplied by user after a manual ElevenLabs creak workflow. Executed generator details unknown; source is an MP3, not a lossless WAV original."
+    },
+    {
+      "id": "snow-grains-ledge-01",
+      "title": "Snow grains across a metal ledge",
+      "category": "Snow",
+      "description": "User-supplied ten-second take intended as fine dry snow grains skimming an exterior metal ledge. Candidate for sparse gust-linked surface detail in Snowline; material description is design intent.",
+      "usages": [
+        {
+          "scene": "Below the Snowline — short trial only",
+          "source_gain_db": 14.10120983877147,
+          "event_seconds": 10,
+          "fade_seconds": [
+            0.02,
+            0.08
+          ],
+          "recipe": "creative/music/sound-design/receiver-2026-11-02/snow-grains-audition-2026-11-03.json",
+          "status": "User found initial snow level barely/no audible; source-character preference unknown",
+          "processing": "2800Hz second-order zero-phase low-pass, complete take retained, no looping/pitch/time change."
+        },
+        {
+          "scene": "Below the Snowline — snow+6dB short test",
+          "source_gain_db": 20.10120983877147,
+          "event_seconds": 10,
+          "fade_seconds": [
+            0.02,
+            0.08
+          ],
+          "recipe": "creative/music/sound-design/receiver-2026-11-02/snow-grains-gain-v2-2026-11-03.json",
+          "status": "Level candidate; user comparison pending, not in full two-hour V5",
+          "processing": "Same initial2800Hz filter/stereo/timing; only previously encoded snow stem gain raised. No new peak cap/normalization."
+        },
+        {
+          "scene": "Below the Snowline — snow+9dB short test",
+          "source_gain_db": 23.10120983877147,
+          "event_seconds": 10,
+          "fade_seconds": [
+            0.02,
+            0.08
+          ],
+          "recipe": "creative/music/sound-design/receiver-2026-11-02/snow-grains-gain-v2-2026-11-03.json",
+          "status": "Level candidate; user comparison pending, not in full two-hour V5",
+          "processing": "Same initial2800Hz filter/stereo/timing; only previously encoded snow stem gain raised. No new peak cap/normalization."
+        },
+        {
+          "scene": "Below the Snowline — snow+7dB short test",
+          "source_gain_db": 21.10120983877147,
+          "event_seconds": 10,
+          "fade_seconds": [
+            0.02,
+            0.08
+          ],
+          "recipe": "creative/music/sound-design/receiver-2026-11-02/snow-grains-gain-v3-2026-11-03.json",
+          "status": "Requested2dB reduction interpreted against+9dB; prior reference not explicitly identified. New level unapproved; full V5 unchanged.",
+          "processing": "Same filter, stereo, take, event timing and playback gain; only snow level changed."
+        },
+        {
+          "scene": "Below the Snowline — snow+5dB short test",
+          "source_gain_db": 19.10120983877147,
+          "event_seconds": 10,
+          "fade_seconds": [
+            0.02,
+            0.08
+          ],
+          "recipe": "creative/music/sound-design/receiver-2026-11-02/snow-grains-gain-v4-2026-11-03.json",
+          "status": "User requests+5dB after+7dB still too loud; short-trial review pending. Full V5 unchanged.",
+          "processing": "Same filter/stereo/complete take/timing/playback gain; snow2dB below previous+7dB."
+        },
+        {
+          "scene": "Below the Snowline — snow+3dB short test",
+          "source_gain_db": 17.10120983877147,
+          "event_seconds": 10,
+          "fade_seconds": [
+            0.02,
+            0.08
+          ],
+          "recipe": "creative/music/sound-design/receiver-2026-11-02/snow-grains-gain-v5-2026-11-03.json",
+          "status": "Another2dB reduction from+5dB; review pending, full V5 unchanged.",
+          "processing": "Existing filtering/stereo/complete take/timing/playback gain unchanged; snow gain only."
+        },
+        {
+          "scene": "Below the Snowline — full two-hour V6",
+          "source_gain_db": 16.10120983877147,
+          "event_seconds": 10,
+          "fade_seconds": [
+            0.02,
+            0.08
+          ],
+          "recipe": "creative/music/sound-design/receiver-2026-11-02/two-hour-with-snow-v6-2026-11-03.json",
+          "status": "User requested1dB reduction and full render;12uses/24total alternating passages; full-session review pending."
+        }
+      ],
+      "reuse_notes": [
+        "One supplied10-second MP3 take; the prepared optional brief suggested6seconds, so actual exported duration differs.",
+        "Short test places the full take at0:24–0:34 of the26:55–27:55 V5 window; wind full outer envelope0:06–0:45 and creak0:10; no radio in this minute.",
+        "Provisional calibration aims9dB below local wind by event-wide RMS, constrained3dB below its sample peak. Peak guard results in12.43dB lower event-wide RMS; not a universal or accepted preset.",
+        "All existing layers/times and+0.4dB playback gain are preserved; no independent whole-mix normalization.",
+        "The generation filename resembles the saved brief but does not confirm exact provider/model/prompt/settings/cost.",
+        "Browser preview is gain-adjusted raw source. In-scene gain follows the sheltered-viewpoint filter; these are different listening contexts.",
+        "This newly supplied source and audition are local additions after the verified Nov3 backup; that earlier receipt does not cover them.",
+        "User found the first level barely/no audible. New+6dB and+9dB candidates are both relative to that first placement, not consecutive adjustments; neither is accepted yet. Whole-mix gain and all other layers remain fixed.",
+        "Latest trial is+7dB versus first placement, assuming “maybe2DB too loud” refers to first-presented+9dB. User did not explicitly name6or9; this is a stated assumption, not confirmed preference.",
+        "Latest explicit level request:+5dB versus first snow test,2dB below preceding+7dB. Keep as a trial until listening verdict; not added to the full two-hour mix.",
+        "Latest snow trial:+3dB versus first placement, another2dB below+5dB. This is a new audition, not full-mix acceptance.",
+        "Current fullV6 uses+2dB versus firstplacement,1dB below preceding+3dB. Two sources alternate12uses each every4–6minutes inside selected wind plateaus. Prior tests are history, not additional gains to apply."
+      ],
+      "aliases": [
+        "C:/Users/john/Downloads/Fine_dry_snow_grains_#2-1793724361485.mp3"
+      ],
+      "related_prompt": {
+        "path": "prompts/snow-grains-ledge-01.txt",
+        "original_path": "creative/music/sound-design/receiver-2026-11-02/elevenlabs-spindrift-detail-v1.txt",
+        "sha256": "9ba8061032fae112148f50c02f988c385be7792c60063353789c46d4c32b2710",
+        "actual_generation_prompt_confirmed": false,
+        "scope": "Prepared optional snow-grain brief, not proof of the executed generation wording/settings."
+      },
+      "source_file": "assets/snow-grains-ledge-01.mp3",
+      "source_sha256": "58bb38ca9b8447b0cbdd1a389a756896244d7e54198517af4afdd9d6ab98346e",
+      "source_bytes": 241389,
+      "original_project_path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/source-originals/supplied-snow-grains.mp3",
+      "duration_seconds": 10,
+      "sample_rate": 48000,
+      "channels": 2,
+      "measurements": {
+        "lufs": -43.9,
+        "lra_lu": 10.7,
+        "true_peak_dbtp": -26.6
+      },
+      "preview_file": "previews/snow-grains-ledge-01.mp3",
+      "preview_gain_db": 19.9,
+      "preview_measurements": {
+        "lufs": -24.4,
+        "lra_lu": 10.5,
+        "true_peak_dbtp": -7.0
+      },
+      "preview_sha256": "0fffcc5b6ec9bd380ced8583805cb2349211d42efec7cd8af4f9e359830df157",
+      "approval": "Selected for full Snowline V6 at+2dB; full-session review pending",
+      "general_favourite": false,
+      "assistant_listening": false,
+      "provenance": "Original MP3 bytes supplied by user for the proposed snow-grain trial. Executed generation details unknown. No new paid calls by assistant.",
+      "current_level_test_record": "creative/music/sound-design/receiver-2026-11-02/two-hour-with-snow-v6-2026-11-03.json"
+    },
+    {
+      "id": "snow-grains-ledge-02",
+      "title": "Snow grains across a metal ledge — take2",
+      "category": "Snow",
+      "description": "Second user-supplied ten-second take intended as dry snow grains across an exterior ledge. Used alternately with take1 in Snowline V6.",
+      "usages": [
+        {
+          "scene": "Below the Snowline — full two-hour V6",
+          "source_gain_db": 11.255821357521103,
+          "event_seconds": 10,
+          "fade_seconds": [
+            0.02,
+            0.08
+          ],
+          "recipe": "creative/music/sound-design/receiver-2026-11-02/two-hour-with-snow-v6-2026-11-03.json",
+          "status": "Included by explicit user request;12uses alternated with take1. New-take/full-session listening pending."
+        }
+      ],
+      "reuse_notes": [
+        "Exact original MP3 bytes preserved. This is a second distinct take, not a variation made from take1.",
+        "Same2800Hz second-order zero-phase low-pass and20/80ms edges as take1; event-wide RMS matched to the newly reduced take1.",
+        "Matching RMS is only a starting calibration; it does not establish equal perceived loudness or acceptance.",
+        "Irregular4–6minute snow starts, wind-plateau placement,6s clearance from radio and creaks. Both ten-second takes reused12times, not24independent recordings.",
+        "Related brief is not confirmed exact executed prompt/model/settings/cost. Browser-preview gain is not the mix gain."
+      ],
+      "aliases": [
+        "C:/Users/john/Downloads/Fine_dry_snow_grains_#3-1793725515565.mp3"
+      ],
+      "related_prompt": {
+        "path": "prompts/snow-grains-ledge-02.txt",
+        "original_path": "creative/music/sound-design/receiver-2026-11-02/elevenlabs-spindrift-detail-v1.txt",
+        "sha256": "9ba8061032fae112148f50c02f988c385be7792c60063353789c46d4c32b2710",
+        "actual_generation_prompt_confirmed": false,
+        "scope": "Related prepared snow-grain brief only; actual executed generation details unknown."
+      },
+      "source_file": "assets/snow-grains-ledge-02.mp3",
+      "source_sha256": "91b720bfa80a6aeda743cf8419ca1e01105cca460e071ad162f24e2cf50fb562",
+      "source_bytes": 241389,
+      "original_project_path": "exports/13-below-the-snowline/audio-2h-v6/source-originals/supplied-snow-grains-02.mp3",
+      "duration_seconds": 10,
+      "sample_rate": 48000,
+      "channels": 2,
+      "measurements": {
+        "lufs": -47.0,
+        "lra_lu": 4.5,
+        "true_peak_dbtp": -29.4
+      },
+      "preview_file": "previews/snow-grains-ledge-02.mp3",
+      "preview_gain_db": 23.0,
+      "preview_measurements": {
+        "lufs": -24.4,
+        "lra_lu": 4.6,
+        "true_peak_dbtp": -6.7
+      },
+      "preview_sha256": "e940910e920ddad1c3cfb383475c7678c3d75448ba2047f676dabeccfef2b3e3",
+      "approval": "Included in Snowline V6 by request; listening review pending",
+      "general_favourite": false,
+      "assistant_listening": false,
+      "provenance": "Original MP3 supplied by user. Actual generator model/prompt/settings/cost unknown. No paid calls by assistant."
     }
   ],
   "updated": "2026-11-03",

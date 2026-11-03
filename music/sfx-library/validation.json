@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "date": "2026-11-03",
-  "unique_sources": 7,
+  "unique_sources": 9,
   "all_catalogue_source_preview_and_prompt_hashes_match": true,
   "all_catalogue_media_paths_exist": true,
   "source_comparison": "Six imported originals/previews match the production-branch catalogue; new creak matches supplied original.",

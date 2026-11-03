@@ -1,6 +1,18 @@
 # Snowline sound design: settings and lessons to reuse
 
-Updated 2026-11-03. The user requested the selected minute-test settings across the full two-hour V5. Full-session listening remains pending. These are source-specific settings, not universal ambient mix defaults.
+**Current fullV6:** user requests another1dB reduction and the new take in a full two-hour mix. First source is+2dB versus the initial snow placement; second source receives its own post-filter gain to match that reduced event-wide RMS.24passages total, alternating two sources12times each, irregular4–6minute starts inside wind plateaus with6s radio/creak clearance. [Current recipe](two-hour-with-snow-v6-2026-11-03.json) and [restore guide](../../../../music/snowline-snow-2026-11-03/RESUME.md). Full/new-take listening pending; later trial paragraphs below are history.
+
+Updated 2026-11-03. The user requested the selected levels and both snow sources across the full two-hour V6. Full-session listening remains pending. These are source-specific settings, not universal ambient mix defaults.
+
+**Later optional snow test:** the user supplied a10-second snow-grain take. [Current A/B audition](README.md#optional-snow-grain-audition--2026-11-03) places it once during a wind plateau; V5 remains unchanged and user review is pending. It is now a distinct candidate in the source library. The prepared brief's6-second suggestion does not establish actual executed settings. Calibrate a new source after its viewpoint filter, track RMS and transient peak constraints separately, and preserve the comparison's playback gain. New candidate media are local and not covered by the earlier backup receipt.
+
+**Snow level feedback:** user then says the first test is barely audible or inaudible. Its conservative peak relationship to wind was not enough to establish audibility in the mix. [New+6dB/+9dB trials](snow-grains-gain-v2-2026-11-03.json) change snow gain only, preserving the viewpoint filter, existing layers, timing and fixed playback gain. Both boosts are relative to the first test. Do not reapply the original peak cap after a requested boost, which would undo it; check full-mix sample/true-peak headroom instead. Review a short contextual close-up without independently normalizing it. This feedback establishes a problem with the first balance, not the preferred new gain or the cause of every masked detail. Both new levels and source character still await listening.
+
+Earlier snow revision: the user then says “maybe2DB too loud now.” The [current+7dB trial](snow-grains-gain-v3-2026-11-03.json) assumes the first-presented+9dB version as reference and reduces only snow2dB. Keep this reference assumption explicit because6and9were both offered; no final preference or full-session acceptance is inferred.
+
+Earlier snow level: the user explicitly requests [a+5dB trial](snow-grains-gain-v4-2026-11-03.json), another2dB below+7. This resolves the cumulative trial level; it does not establish final acceptance or authorize adding snow to full V5. Preserve the same short-window mix and playback gain.
+
+Latest snow trial: [current+3dB](snow-grains-gain-v5-2026-11-03.json) is another2dB below+5dB, following the user’s next request. Filtering, timing and playback gain remain fixed. Full two-hour V5 remains unchanged; acceptance of this new level is pending.
 
 ## Current mix
 
@@ -10,11 +22,13 @@ Updated 2026-11-03. The user requested the selected minute-test settings across 
 | Radio | 47 calls; voice entrances 122–176 seconds apart. Fourteen existing blurred phonetic packets reused in varied orders. | −1.5 dB versus V4, tested as −1 dB then −0.5 dB. Chatter, clicks, gated static, tuning/carrier and acknowledgements move together. Original packet gain 0.24984153 becomes analytically 0.21021545. |
 | Exterior wind | 80 passages; 22–31 seconds fully off between passages; 69.89% scheduled coverage including fades. | +2 dB to the whole wind stem versus V4. Retains the earlier up-to-10% crest lift near full outer envelope, unequal overlapping 9–14-second sections and 1800 Hz sheltered-viewpoint filtering. One original 30-second recording; fragments recur. |
 | Ventilation | Quiet interior air; existing 540-second source repeats. | Unchanged from the accepted environment V2 balance. |
-| Frame creaks | 24 events across two hours, mostly roughly 4–6 minutes apart. One supplied four-second take with two existing right/left balances. | +4 dB versus two-hour V1; cumulative ×1.91772076 versus first supplied-creak placement. V5 retains V4 creaks. Original MP3 is preserved in the [SFX library](../../../../music/sfx-library/README.md). |
+| Frame creaks | 24 events across two hours, mostly roughly 4–6 minutes apart. One supplied four-second take with two existing right/left balances. | +4 dB versus two-hour V1; cumulative ×1.91772076 versus first supplied-creak placement. V6 retains V4/V5 creaks. Original MP3 is preserved in the [SFX library](../../../../music/sfx-library/README.md). |
+
+Snow adds24ten-second events, not a continuous hiss. Timing and occasional contact detail are design choices for the sheltered viewpoint, not measured ice-planet acoustics. User feedback rejected the first near-inaudible balance and several stronger trials; do not infer a universal source gain from that ladder. Prepared6s brief and supplied10s recordings remain distinct. Matching a new take after filtering avoids blindly copying raw-source gain, but still needs listening.
 
 The effects have a complete two-hour schedule; the 18-minute composite is not tiled. Scheduling does not create new voice takes, wind recordings or music. See [current machine-readable settings](snowline-working-mix-current.json), [all event times](cue-sheet-two-hour-2026-11-03.txt) and [V5 full checks](two-hour-balanced-v5-2026-11-03.json).
 
-The listening MP3 has fixed **+0.4 dB** overall gain, no baked opening and one 20-second closing fade. It measures −23.1 LUFS, 10.2 LU LRA and −7.5 dBTP. The separate lossless master is the unfaded unity-stem sum: apply +0.4 dB once to match the listening copy, and apply the current intro/closing once during assembly. The master already includes every SFX layer. Do not add them again.
+The listening MP3 has fixed **+0.4 dB** overall gain, no baked opening and one 20-second closing fade. It measures −23.0 LUFS, 10.2 LU LRA and −7.5 dBTP. The separate lossless master is the unfaded unity-stem sum: apply +0.4 dB once to match the listening copy, and apply the current intro/closing once during assembly. The master already includes every SFX layer. Do not add them again.
 
 ## What changed through listening
 

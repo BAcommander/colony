@@ -1,21 +1,21 @@
 {
   "date": "2026-11-03",
   "scene": "Below the Snowline",
-  "status": "Full two-hour V5 delivered with the tested wind+2dB/radio-1.5dB balance and V4 creaks; full-session listening review pending",
-  "authorization_verbatim": "so can we get the full 2 hour mix now?",
-  "recipe": "two-hour-balanced-v5-2026-11-03.json",
+  "status": "Full two-hour V6 with both snow takes delivered; requested levels applied, full-session/new-take listening pending",
+  "authorization_verbatim": "go down 1 more DB, then add this one too, add it to our assets folder for reusing, then regerated the 2 hour doing snow about every 5 minutes or what makes the most sense? then commit and push everything from today",
+  "recipe": "two-hour-with-snow-v6-2026-11-03.json",
   "duration_seconds": 7200,
   "mp3": {
-    "file": "exports/13-below-the-snowline/audio-2h-v5/Below-the-Snowline-2-Hours-v5.mp3",
-    "sha256": "aa19b58ed32c32bad07d7b19973f1bac615f8a4441ce54c0c8783f44b42d2d3e",
+    "file": "exports/13-below-the-snowline/audio-2h-v6/Below-the-Snowline-2-Hours-v6.mp3",
+    "sha256": "0c1e97b58cd353834aa58412ed6c6ac4324fa14512d4e15bdf0a5b706489c83f",
     "listening_gain_db": 0.4,
     "opening_fade": false,
     "closing_fade_seconds": 20
   },
   "lossless_assembly_master": {
-    "file": "exports/13-below-the-snowline/audio-2h-v5/Below-the-Snowline-2-Hours-unfaded-master-v5.flac",
-    "sha256": "4b4843823fbd032e3368f6945d94a600b8b97062b56779b15f9f48b3953b60c4",
-    "gain_basis": "Unity music/radio/wind/vent/creak stems, without the listening copy+0.4dB gain",
+    "file": "exports/13-below-the-snowline/audio-2h-v6/Below-the-Snowline-2-Hours-unfaded-master-v6.flac",
+    "sha256": "6c46365081e88d55b198387ea0b53259b7a90b12181e279ddb6dc12e8f474257",
+    "gain_basis": "Unity V5-plus-snow sum; contains all six layers, no playback+0.4dB or opening/closing fades",
     "opening_or_closing_fades": false,
     "assembly": "To match the listening level, apply+0.4dB once. Apply the current intro entrance and closing fade once during assembly; no second SFX overlay."
   },
@@ -63,7 +63,7 @@
   "new_paid_calls": 0,
   "assistant_listening": false,
   "full_two_hour_user_verdict": null,
-  "backup_scope": "All November3 exports packaged in music/snowline-sound-design-2026-11-03; exact original creak in music/sfx-library/assets/creak-painted-steel-frame-01.mp3. See backup-verification.json for remote evidence; November2 dependency archive unchanged.",
+  "backup_scope": "Snow continuation package music/snowline-snow-2026-11-03 preserves every post-checkpoint export; earlier271-file package unchanged. See latest backup-verification.json for remote evidence.",
   "pending_adjustments": {},
   "selected_review_records": [
     "wind-plus2db-level-test-2026-11-03.json",
@@ -78,12 +78,79 @@
     "reference_excerpt_max_sample_errors": [
       0.0,
       0.0
-    ]
+    ],
+    "snow_gain_db_vs_first_trial": 2
   },
   "listening_loudness": {
-    "integrated_lufs": -23.1,
+    "integrated_lufs": -23.0,
     "loudness_range_lu": 10.2,
     "true_peak_dbtp": -7.5
   },
-  "reuse_notes": "REUSE.md"
+  "reuse_notes": "REUSE.md",
+  "candidate_auditions": [],
+  "parent_before_snow": {
+    "recipe": "two-hour-balanced-v5-2026-11-03.json",
+    "master": {
+      "file": "exports/13-below-the-snowline/audio-2h-v5/Below-the-Snowline-2-Hours-unfaded-master-v5.flac",
+      "sha256": "4b4843823fbd032e3368f6945d94a600b8b97062b56779b15f9f48b3953b60c4",
+      "gain_basis": "Unity music/radio/wind/vent/creak stems, without the listening copy+0.4dB gain",
+      "opening_or_closing_fades": false,
+      "assembly": "To match the listening level, apply+0.4dB once. Apply the current intro entrance and closing fade once during assembly; no second SFX overlay."
+    },
+    "mp3": {
+      "file": "exports/13-below-the-snowline/audio-2h-v5/Below-the-Snowline-2-Hours-v5.mp3",
+      "sha256": "aa19b58ed32c32bad07d7b19973f1bac615f8a4441ce54c0c8783f44b42d2d3e",
+      "listening_gain_db": 0.4,
+      "opening_fade": false,
+      "closing_fade_seconds": 20
+    }
+  },
+  "snow": {
+    "count": 24,
+    "source_takes": 2,
+    "uses_per_take": [
+      12,
+      12
+    ],
+    "source_take_1_gain_db_vs_first_trial": 2,
+    "source_take_1_gain_db_after_filter": 16.10120983877147,
+    "source_take_2_gain_db_after_filter": 11.255821357521103,
+    "source_take_2_rms_match_db": 8.606103826547557e-09,
+    "onset_intervals_seconds": [
+      243.46622916666684,
+      359.87802083333327
+    ],
+    "mean_onset_interval_seconds": 295.3778197463768,
+    "all_inside_selected_wind_plateaus": true,
+    "radio_creak_clearance_seconds": 6,
+    "coverage_seconds": 240,
+    "applied_to_full_two_hour_mix": true,
+    "source_character_and_full_session_review_pending": true
+  },
+  "source_stems": [
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-music-2h-v1.flac",
+      "sha256": "1291e4dc92bd1d3844f025fbfcd28e53f7fb77062544a2cb643ae731098b091a"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v5/stems/Snowline-radio-minus1p5dB-2h-v5.flac",
+      "sha256": "9457b23f3a717f0005c094b6b9e5459775d1c7d9a7ba5224c35cc05bef80fcd6"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v5/stems/Snowline-wind-plus2dB-2h-v5.flac",
+      "sha256": "5acae85bbe3f0aa61a098d3410e51d5bfcd8cad03d6992530e46b42788857b3a"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-ventilation-2h-v1.flac",
+      "sha256": "e785abb7cae6130232355092c90942ac6ff35c57fe0e38b8aa42849598afd5ee"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v4/stems/Snowline-creaks-2h-v4.flac",
+      "sha256": "5a3b1145b8f306a2d9e4cb66d48f44c8390b557b37652249480ba259d3444d0f"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v6/Snowline-snow-2h-v6.flac",
+      "sha256": "d220f9f4f60df2f71c2f7b0dc1c271523ce0caa9bb92885adf55a75117688adb"
+    }
+  ]
 }

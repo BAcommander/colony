@@ -1,5 +1,7 @@
 # 13 — Below the Snowline soundtrack preparation
 
+**Latest audio: full two-hour V6 with both snow takes**,24irregular wind-linked passages at the requested lower level. [Current delivery and cross-machine handoff](../../../music/snowline-snow-2026-11-03/RESUME.md). Full-session/new-take listening remains pending; older V5/preparation statements below are history. AnimationV2 already exists on the November production branch and needs review; no4K assembly yet.
+
 [Current audio handoff and complete media backup](../../../music/snowline-sound-design-2026-11-03/RESUME.md) includes two-hour V5, supplied creak, sparse radio and revised wind; full-session listening remains pending.
 
 Latest full soundtrack is [V5, two hours](../../../creative/music/sound-design/receiver-2026-11-02/README.md#current-two-hour-mix--2026-11-03): selected wind+2dB/radio-1.5dB test balance is applied, retaining current V4 creaks and original timing. Complete source/mix/MP3 checks pass; full-session listening and video assembly remain pending. The older preparation notes below are historical.

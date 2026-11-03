@@ -1,10 +1,20 @@
 # Ambient Colony: lessons to carry into the next video
 
+**Current Snowline V6:** both original snow takes are in the reusable library and the new full two-hour mix. User selected another1dB reduction from+3 to+2 versus first placement; the second take is separately matched after filtering.24wind-linked passages alternate sources every4–6minutes, keeping6s clear of radio/creaks. [Current settings/lessons](music/sound-design/receiver-2026-11-02/REUSE.md) · [Complete continuation backup and restore](../music/snowline-snow-2026-11-03/RESUME.md). V5 remains preserved; preceding “current” audition wording below is chronological history. Full-session/new-take listening pending.
+
 Updated 2026-11-03. Start here for decisions; follow the linked records for exact prompts, assets, measurements and feedback. Covers the September/October production work, November 1 follow-ups and November 2 reference investigation and November 3 Snowline listening revisions. This guide consolidates learning, not release approval or a new production schedule.
 
 The aim is a convincing place someone wants to stay, with sound they want to keep playing. A scene needs a distinct identity, readable motion and a comfortable mix. None of those is established by a technical pass alone.
 
 **Current sound-design checkpoint:** [Snowline reuse notes](music/sound-design/receiver-2026-11-02/REUSE.md) consolidate the selected V5 levels, random call/wind scheduling, source provenance and controlled listening method. [Portable backup](../music/snowline-sound-design-2026-11-03/RESUME.md) restores every November 3 export and the [SFX library](../music/sfx-library/README.md) includes the original creak. Full two-hour listening remains pending. Historical audition states below are a chronology, not additional gains to apply.
+
+**Later snow-grain trial:** [the supplied10-second source and A/B](music/sound-design/receiver-2026-11-02/README.md#optional-snow-grain-audition--2026-11-03) are now a local candidate. Calibrate the actual source after any viewpoint filter; event-average RMS and isolated transient peaks may impose different gains. Keep the same current V5 window/playback gain, a separate new stem and silence outside its event. Source duration differs from the prepared brief; executed generation details remain unknown. The test does not establish snow realism or preferred balance without user listening, and has not changed full V5 or its verified backup.
+
+**Snow audibility correction:** the first candidate was barely/no audible to the user. A conservative peak ratio to wind is not proof of useful presence. [Same-window+6dB/+9dB tests](music/sound-design/receiver-2026-11-02/snow-grains-gain-v2-2026-11-03.json) now change only snow gain, with fixed playback level and no reapplied initial peak cap. Both await listening; no new preferred setting is inferred.
+
+**Snow calibration history:** after louder comparisons and the+7dB test, the user explicitly asks for [one more test at+5dB](music/sound-design/receiver-2026-11-02/snow-grains-gain-v4-2026-11-03.json) versus the initial placement. Keep each adjustment tied to its stated reference, and treat a requested test level separately from an accepted final mix. Full V5 remains unchanged.
+
+Current optional snow trial is now[+3dB versus the first placement](music/sound-design/receiver-2026-11-02/snow-grains-gain-v5-2026-11-03.json), another2dB below+5dB. This updates only the trial level; full V5 remains unchanged and the new listening verdict is pending.
 
 ## Where the detailed learning lives
 

@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-03",
+  "authorization_verbatim": "go down 1 more DB, then add this one too, add it to our assets folder for reusing, then regerated the 2 hour doing snow about every 5 minutes or what makes the most sense? then commit and push everything from today",
+  "branch": "codex/concept-brainstorms-2026-10-27",
+  "prior_head": "1d37f301a6f30e964eeb2c95242386b2753b93f4",
+  "scope": "Every post-checkpoint export plus all uncommitted snow assets/trials/tools/feedback/learnings from today. Previously backed271media files unchanged; base bytes reused exactly. Both original snow files and previews included as ordinary Git assets. Shared main preserved.",
+  "staged_content_before_this_manifest": [
+    {
+      "path": ".gitattributes",
+      "staged_blob_bytes": 18062,
+      "staged_blob_sha256": "7b70670bd407bee88bc4053a1163193767d0da58c50ead6eae4456f61a1523a4",
+      "working_bytes": 18274,
+      "working_sha256": "5226d9ba77e48cc24d9fde64584ddb8d7f0db6e7d8d49b463bd2ed7b34a22520",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "AGENTS.md",
+      "staged_blob_bytes": 103704,
+      "staged_blob_sha256": "4854ad8bfbba98c3f43e1c81eae72da6bb72fc5749d11488dc8fcd0aba71c9e3",
+      "working_bytes": 103929,
+      "working_sha256": "1cbfc89e50f3d648dad4d5e3dc00f7772247d2bfb87b100cf2c75c1a5e66f168",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "staged_blob_bytes": 32958,
+      "staged_blob_sha256": "054d95a320a319fe5356ca21017d8be1032be874473525ae52f0a1c92fdd6cd3",
+      "working_bytes": 33170,
+      "working_sha256": "da94c81d101d7bc54fbfadbf0c5e68edc5eb6f7c07bc07039c1efb20d95f1419",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "Resume Snowline.cmd",
+      "staged_blob_bytes": 622,
+      "staged_blob_sha256": "e9703ffbd93e8a4ad50f98558f138264f8bb4ec18e0394302084a3214e5cd1ad",
+      "working_bytes": 622,
+      "working_sha256": "e9703ffbd93e8a4ad50f98558f138264f8bb4ec18e0394302084a3214e5cd1ad",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "creative/LEARNINGS.md",
+      "staged_blob_bytes": 32468,
+      "staged_blob_sha256": "f980f78100685316474fdfb46cf4905463bfc9ca221d985dcd4ff873b5c228f2",
+      "working_bytes": 32621,
+      "working_sha256": "b8a5b9daec7dac0b0b1858ecf1c33eaf9ef8527f024efa865f5f3dfe0946e504",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "creative/MUSIC_WORKFLOW.md",
+      "staged_blob_bytes": 35204,
+      "staged_blob_sha256": "2b7b503476ba99e477bde74ba71801721b7928dd006ede78928a3d55c428976b",
+      "working_bytes": 35382,
+      "working_sha256": "796a7af509aa5c70b0858cc80c2873340db4a354d4ec56c65e754f729b74c33c",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/README.md",
+      "staged_blob_bytes": 55114,
+      "staged_blob_sha256": "9fa9fafc06ae106e9661bcb0e35a66dd3b35ee9e8ac90c64c732f21fa63b391e",
+      "working_bytes": 55114,
+      "working_sha256": "9fa9fafc06ae106e9661bcb0e35a66dd3b35ee9e8ac90c64c732f21fa63b391e",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/REUSE.md",
+      "staged_blob_bytes": 9757,
+      "staged_blob_sha256": "c5fefa445bebdb793d44f08170d0af45f00effb6a9c227b9878645bdd0150c15",
+      "working_bytes": 9757,
+      "working_sha256": "c5fefa445bebdb793d44f08170d0af45f00effb6a9c227b9878645bdd0150c15",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/cue-sheet-snow-two-hour-v6-2026-11-03.txt",
+      "staged_blob_bytes": 1186,
+      "staged_blob_sha256": "3f55e037e9e04bf246a016b1de06e0650a94acc1e6661fb1ffb4bee2b4a843aa",
+      "working_bytes": 1186,
+      "working_sha256": "3f55e037e9e04bf246a016b1de06e0650a94acc1e6661fb1ffb4bee2b4a843aa",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/snow-grains-audition-2026-11-03.json",
+      "staged_blob_bytes": 6176,
+      "staged_blob_sha256": "b99343166dc9763b0b95c80fac8738c74bc72a440d4b8da31c1680534658533b",
+      "working_bytes": 6176,
+      "working_sha256": "b99343166dc9763b0b95c80fac8738c74bc72a440d4b8da31c1680534658533b",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/snow-grains-gain-v2-2026-11-03.json",
+      "staged_blob_bytes": 7793,
+      "staged_blob_sha256": "0dd9cbddbd6b70cf6a7795909059b9e946a742ed787c74ef2928753ceea60975",
+      "working_bytes": 7793,
+      "working_sha256": "0dd9cbddbd6b70cf6a7795909059b9e946a742ed787c74ef2928753ceea60975",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/snow-grains-gain-v3-2026-11-03.json",
+      "staged_blob_bytes": 5856,
+      "staged_blob_sha256": "5872af621afa5f58da315e4907ddb1eacb855f4cb4041f078e3b95e77c42ffcc",
+      "working_bytes": 5856,
+      "working_sha256": "5872af621afa5f58da315e4907ddb1eacb855f4cb4041f078e3b95e77c42ffcc",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/snow-grains-gain-v4-2026-11-03.json",
+      "staged_blob_bytes": 5921,
+      "staged_blob_sha256": "2ab2066b613ba02fcdb20bb820b2060d7b7b75bf87f15bd41b500988a34dca75",
+      "working_bytes": 5921,
+      "working_sha256": "2ab2066b613ba02fcdb20bb820b2060d7b7b75bf87f15bd41b500988a34dca75",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/snow-grains-gain-v5-2026-11-03.json",
+      "staged_blob_bytes": 5759,
+      "staged_blob_sha256": "614d36374103d12c4c78b83e115ffa3561ce659810c1471c55ff73f1fd4a3fa2",
+      "working_bytes": 5759,
+      "working_sha256": "614d36374103d12c4c78b83e115ffa3561ce659810c1471c55ff73f1fd4a3fa2",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/snow-grains-gain-v6-2026-11-03.json",
+      "staged_blob_bytes": 5765,
+      "staged_blob_sha256": "284afca1307c3303d6f83a2e91fda2b38e465fae450feaff00dfd4fa1a4e297f",
+      "working_bytes": 5765,
+      "working_sha256": "284afca1307c3303d6f83a2e91fda2b38e465fae450feaff00dfd4fa1a4e297f",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/snowline-working-mix-current.json",
+      "staged_blob_bytes": 6438,
+      "staged_blob_sha256": "63e9790f54857e74c8d3bab46be3bd289b74cded21e2024e1a2e004bcfcc395f",
+      "working_bytes": 6438,
+      "working_sha256": "63e9790f54857e74c8d3bab46be3bd289b74cded21e2024e1a2e004bcfcc395f",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/two-hour-with-snow-v6-2026-11-03.json",
+      "staged_blob_bytes": 11166,
+      "staged_blob_sha256": "653bd3db04f037b18f4f00e748fc3c8a068b5f2ac2f0a9aa16ae79eca37cebbd",
+      "working_bytes": 11166,
+      "working_sha256": "653bd3db04f037b18f4f00e748fc3c8a068b5f2ac2f0a9aa16ae79eca37cebbd",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "final/13-below-the-snowline/README.md",
+      "staged_blob_bytes": 2617,
+      "staged_blob_sha256": "fccd442418aa0f8b5c461fe7160be4f0c691ed5ec3e9c8d07607e22972f1fa7f",
+      "working_bytes": 2635,
+      "working_sha256": "8099f02818ec94f85b31d071946f066945d826fbb8590d202261fb56d269bedc",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "final/13-below-the-snowline/music/README.md",
+      "staged_blob_bytes": 5226,
+      "staged_blob_sha256": "4f7a92454ec28bc19f227719d86a8afd46b6977f57a35fe25ec96abcb50c551c",
+      "working_bytes": 5269,
+      "working_sha256": "4237518d4fcd68eb881ec07593a2cfbc4f46d60ab6f80c85431f1f4d8cce9a19",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/sfx-library/README.md",
+      "staged_blob_bytes": 3777,
+      "staged_blob_sha256": "07cb77cb1faa8a39f30108538849247f85afb05efcf0a54444ccd28688a45692",
+      "working_bytes": 3777,
+      "working_sha256": "07cb77cb1faa8a39f30108538849247f85afb05efcf0a54444ccd28688a45692",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/sfx-library/assets/snow-grains-ledge-01.mp3",
+      "staged_blob_bytes": 241389,
+      "staged_blob_sha256": "58bb38ca9b8447b0cbdd1a389a756896244d7e54198517af4afdd9d6ab98346e",
+      "working_bytes": 241389,
+      "working_sha256": "58bb38ca9b8447b0cbdd1a389a756896244d7e54198517af4afdd9d6ab98346e",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/sfx-library/assets/snow-grains-ledge-02.mp3",
+      "staged_blob_bytes": 241389,
+      "staged_blob_sha256": "91b720bfa80a6aeda743cf8419ca1e01105cca460e071ad162f24e2cf50fb562",
+      "working_bytes": 241389,
+      "working_sha256": "91b720bfa80a6aeda743cf8419ca1e01105cca460e071ad162f24e2cf50fb562",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/sfx-library/build_library.py",
+      "staged_blob_bytes": 14844,
+      "staged_blob_sha256": "a558e5491a9c3c8db50621d5a1412559d8d19fb0469a5dba8d481214751368e9",
+      "working_bytes": 14844,
+      "working_sha256": "a558e5491a9c3c8db50621d5a1412559d8d19fb0469a5dba8d481214751368e9",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/sfx-library/catalog.json",
+      "staged_blob_bytes": 30942,
+      "staged_blob_sha256": "8c97d5c10bee4f65898c42f6571b8195d610d7318a163860dde67afc3c432cf9",
+      "working_bytes": 30942,
+      "working_sha256": "8c97d5c10bee4f65898c42f6571b8195d610d7318a163860dde67afc3c432cf9",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/sfx-library/index.html",
+      "staged_blob_bytes": 22956,
+      "staged_blob_sha256": "3cc377f6253794f44aca7fd3f0917d70fc0b1d5d14d41ce6dd457d40bc25dc66",
+      "working_bytes": 22956,
+      "working_sha256": "3cc377f6253794f44aca7fd3f0917d70fc0b1d5d14d41ce6dd457d40bc25dc66",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/sfx-library/previews/snow-grains-ledge-01.mp3",
+      "staged_blob_bytes": 241388,
+      "staged_blob_sha256": "0fffcc5b6ec9bd380ced8583805cb2349211d42efec7cd8af4f9e359830df157",
+      "working_bytes": 241388,
+      "working_sha256": "0fffcc5b6ec9bd380ced8583805cb2349211d42efec7cd8af4f9e359830df157",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/sfx-library/previews/snow-grains-ledge-02.mp3",
+      "staged_blob_bytes": 241388,
+      "staged_blob_sha256": "e940910e920ddad1c3cfb383475c7678c3d75448ba2047f676dabeccfef2b3e3",
+      "working_bytes": 241388,
+      "working_sha256": "e940910e920ddad1c3cfb383475c7678c3d75448ba2047f676dabeccfef2b3e3",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/sfx-library/prompts/snow-grains-ledge-01.txt",
+      "staged_blob_bytes": 258,
+      "staged_blob_sha256": "9ba8061032fae112148f50c02f988c385be7792c60063353789c46d4c32b2710",
+      "working_bytes": 258,
+      "working_sha256": "9ba8061032fae112148f50c02f988c385be7792c60063353789c46d4c32b2710",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/sfx-library/prompts/snow-grains-ledge-02.txt",
+      "staged_blob_bytes": 258,
+      "staged_blob_sha256": "9ba8061032fae112148f50c02f988c385be7792c60063353789c46d4c32b2710",
+      "working_bytes": 258,
+      "working_sha256": "9ba8061032fae112148f50c02f988c385be7792c60063353789c46d4c32b2710",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/sfx-library/validation.json",
+      "staged_blob_bytes": 354,
+      "staged_blob_sha256": "4b7d8a2f09991a88f3a97ae943348390c19e254b21aa7728227c6aae719140a3",
+      "working_bytes": 354,
+      "working_sha256": "4b7d8a2f09991a88f3a97ae943348390c19e254b21aa7728227c6aae719140a3",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/snowline-snow-2026-11-03/.gitignore",
+      "staged_blob_bytes": 19,
+      "staged_blob_sha256": "5520358d29c7dd6ab4a284611f989549b07cd0b463525d33382afd4d552b9449",
+      "working_bytes": 19,
+      "working_sha256": "5520358d29c7dd6ab4a284611f989549b07cd0b463525d33382afd4d552b9449",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/snowline-snow-2026-11-03/RESUME.md",
+      "staged_blob_bytes": 5776,
+      "staged_blob_sha256": "b809c55a9ab4d15c003427f63e79412c24aabfb4feee5204d05e86d72f5d0e34",
+      "working_bytes": 5776,
+      "working_sha256": "b809c55a9ab4d15c003427f63e79412c24aabfb4feee5204d05e86d72f5d0e34",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/snowline-snow-2026-11-03/build_media.py",
+      "staged_blob_bytes": 7304,
+      "staged_blob_sha256": "dea2a8ea6306d31ebab75f1e29ea90152ffcc0d26c207b31012f57431c8696c4",
+      "working_bytes": 7304,
+      "working_sha256": "dea2a8ea6306d31ebab75f1e29ea90152ffcc0d26c207b31012f57431c8696c4",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/snowline-snow-2026-11-03/media-index.json.gz",
+      "staged_blob_bytes": 6399467,
+      "staged_blob_sha256": "23c5d7864e96e91a4e6248e2016ae741f3e8823b26bb7d806d0f5857d279341f",
+      "working_bytes": 6399467,
+      "working_sha256": "23c5d7864e96e91a4e6248e2016ae741f3e8823b26bb7d806d0f5857d279341f",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/snowline-snow-2026-11-03/media-manifest.json",
+      "staged_blob_bytes": 18260,
+      "staged_blob_sha256": "1437bda12422da4fc5690471775a28b0869e4b7d277e632481e3a53ab33e148e",
+      "working_bytes": 18260,
+      "working_sha256": "1437bda12422da4fc5690471775a28b0869e4b7d277e632481e3a53ab33e148e",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "music/snowline-snow-2026-11-03/snow-delta-001.bin",
+      "staged_blob_bytes": 134,
+      "staged_blob_sha256": "883e5c7941daecb3b532fce6a2257dcc4967e54ac51ae761087a9fdf1fd3acda",
+      "working_bytes": 150864785,
+      "working_sha256": "3a7f15ba013af28bded1b8733f0b8e9f392e9ebf8263d5a208e99ac53f8aba76",
+      "storage": "Git LFS"
+    },
+    {
+      "path": "music/snowline-sound-design-2026-11-03/RESUME.md",
+      "staged_blob_bytes": 7162,
+      "staged_blob_sha256": "a0656e90b2613c2bc5e3c20f49ad512634bddc7eac708bd989cb04a1fccd69f1",
+      "working_bytes": 7162,
+      "working_sha256": "a0656e90b2613c2bc5e3c20f49ad512634bddc7eac708bd989cb04a1fccd69f1",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "scripts/audition_snowline_snow_grains.py",
+      "staged_blob_bytes": 9892,
+      "staged_blob_sha256": "7ebad7aa0ffdd4d124ef9bd17ae2ed7cb706d8237cb7fed15fdddf551ced69bb",
+      "working_bytes": 9892,
+      "working_sha256": "7ebad7aa0ffdd4d124ef9bd17ae2ed7cb706d8237cb7fed15fdddf551ced69bb",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "scripts/build_snowline_snow_two_hour_mix.py",
+      "staged_blob_bytes": 14641,
+      "staged_blob_sha256": "566d35552477d5ed3d20d4398d553989fee2e0b3f75909f87af667739a88feb9",
+      "working_bytes": 14641,
+      "working_sha256": "566d35552477d5ed3d20d4398d553989fee2e0b3f75909f87af667739a88feb9",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "scripts/rebalance_snowline_snow_grains.py",
+      "staged_blob_bytes": 7167,
+      "staged_blob_sha256": "c5411eafcfe6214a14cf7944b4893893c0182639ee8a6eed4322c36686966d4e",
+      "working_bytes": 7167,
+      "working_sha256": "c5411eafcfe6214a14cf7944b4893893c0182639ee8a6eed4322c36686966d4e",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "scripts/restore_snowline_snow_session.py",
+      "staged_blob_bytes": 3377,
+      "staged_blob_sha256": "15180622d22700c9418023c165b9f1c977bd205525ad5e20cf8d458c72add551",
+      "working_bytes": 3377,
+      "working_sha256": "15180622d22700c9418023c165b9f1c977bd205525ad5e20cf8d458c72add551",
+      "storage": "ordinary Git"
+    },
+    {
+      "path": "scripts/test_snowline_snow_backup.py",
+      "staged_blob_bytes": 4437,
+      "staged_blob_sha256": "435c31fa674c4f867cdcd8d42dab1769a303610f9ef592def2f5c161727a77c6",
+      "working_bytes": 4437,
+      "working_sha256": "435c31fa674c4f867cdcd8d42dab1769a303610f9ef592def2f5c161727a77c6",
+      "storage": "ordinary Git"
+    }
+  ],
+  "this_manifest_and_later_receipt": "Self hashes intentionally omitted; remote receipt records exact content commit and restored byte checks.",
+  "new_media_files": 68,
+  "new_original_bytes": 1404360837,
+  "new_payload_bytes": 150864785,
+  "checks": {
+    "four_incremental_backup_tests": "passed",
+    "full_local_restore_files": 68,
+    "all_local_restored_hashes_match": true,
+    "earlier271base_members_hash_verified_unchanged": true,
+    "full_render_frames_verified": 345600000,
+    "exact_v6_equals_v5_plus_snow": true,
+    "exact_preservation_outside_snow_events": true,
+    "full_mp3_decode": "passed finite/unclipped/exact7200s",
+    "all9library_source_preview_prompt_hashes": "passed",
+    "all_staged_lfs_pointers_and_hash_bound_bytes": "passed",
+    "sensitive_token_pattern_scan": "no matches",
+    "remote_verification": "pending; see backup-verification.json after push"
+  },
+  "full_two_hour_user_review": "pending",
+  "new_take_in_mix_user_review": "pending",
+  "assistant_listening": false,
+  "new_paid_calls": 0,
+  "excluded": "No export under the established three roots is omitted: earlier271in base, all68laterfiles in continuation. External downloaded reference recordings remain excluded as before."
+}
