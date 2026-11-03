@@ -1,4 +1,8 @@
-# Resume Snowline sound design
+# Historical Snowline checkpoint — November 2
+
+**Current continuation:** use [the November 3 resume guide](../snowline-sound-design-2026-11-03/RESUME.md) for the full two-hour V5, supplied creak, all later auditions and current settings. The root launcher now restores both packages. The November 2 archive remains unchanged and supplies earlier dependencies. The manual creak-generation next step below was completed by a user-supplied export on November 3; do not treat it as a pending required generation.
+
+## Historical state and original archive instructions
 
 Checkpoint: 2026-11-02. This package restores the exact audio needed to continue this chat's workflow on another machine. The Git branch is `codex/concept-brainstorms-2026-10-27`. The later November production branch was read for provenance; its production tree was not merged into this branch.
 

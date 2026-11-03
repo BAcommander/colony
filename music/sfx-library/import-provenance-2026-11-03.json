@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-03",
+  "source_commit": "aa62e427e3f6386217e90229c063820c8f54ccae",
+  "source_branch": "codex/empty-junction-backup-2026-11-01",
+  "scope": "Imported original SFX library and exact six original/preview pairs; no production-tree merge. Catalogue adds Snowline usage and one user-supplied creak. Original library importer preserved in history/.",
+  "imported_media": [
+    {
+      "path": "music/sfx-library/assets/wind-soft-exterior-01.mp3",
+      "bytes": 721197,
+      "sha256": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34"
+    },
+    {
+      "path": "music/sfx-library/previews/wind-soft-exterior-01.mp3",
+      "bytes": 721196,
+      "sha256": "f712c160831374ab1093e8f638a4c61538067a12bb3e2d84bbea2e84686c70ef"
+    },
+    {
+      "path": "music/sfx-library/assets/water-soft-ripples-01.mp3",
+      "bytes": 721197,
+      "sha256": "7ad78fbee2c965c4ec6e4372d38898b89d5fd77bd4dc3d2adf2b987bf9a7b2c2"
+    },
+    {
+      "path": "music/sfx-library/previews/water-soft-ripples-01.mp3",
+      "bytes": 721196,
+      "sha256": "83aed7e1f82f6819c9b448d9fcd636995d356544c870b17121b8de29f089d5ff"
+    },
+    {
+      "path": "music/sfx-library/assets/train-distant-freight-01.mp3",
+      "bytes": 601389,
+      "sha256": "ec88e61ec6a720af5cf479c425f38a3864fe279ebfdc5cf0ea63b14915a6649e"
+    },
+    {
+      "path": "music/sfx-library/previews/train-distant-freight-01.mp3",
+      "bytes": 601388,
+      "sha256": "43c30c27defff10f23ef2ae3bb786c48f9ab6bb8b31b0695d329dc35caf16c41"
+    },
+    {
+      "path": "music/sfx-library/assets/grit-mineral-soft-01.mp3",
+      "bytes": 289197,
+      "sha256": "1babf4e01c5d788e3b07fc89dd673e90dd2fe2e57db5ab26b60d3cf07bec2340"
+    },
+    {
+      "path": "music/sfx-library/previews/grit-mineral-soft-01.mp3",
+      "bytes": 289196,
+      "sha256": "0ade55b9059a8ccc795c977d6c141c324380fada2c58bc782a1125f39e8d5ab2"
+    },
+    {
+      "path": "music/sfx-library/assets/pump-distant-circulation-01.mp3",
+      "bytes": 481581,
+      "sha256": "c939da31dc0d2b3a1451a32368ad7216e2c7885f74e43a0bde3152d75a3c8e1f"
+    },
+    {
+      "path": "music/sfx-library/previews/pump-distant-circulation-01.mp3",
+      "bytes": 481580,
+      "sha256": "0690a4ed48ffb3c712d6f81f2e040c80e49a91170143df8febd28c4872574284"
+    },
+    {
+      "path": "music/sfx-library/assets/rain-sheltered-gentle-01.mp3",
+      "bytes": 721197,
+      "sha256": "60aea98d54ac02c6da1d0a3b22f882c7cd2071346e5f069275aded21d2f1a826"
+    },
+    {
+      "path": "music/sfx-library/previews/rain-sheltered-gentle-01.mp3",
+      "bytes": 721196,
+      "sha256": "fbee6f2d52c5b86146dde0539df2b93a3902ff56a403db03a63e7dc62adda719"
+    }
+  ],
+  "new_source_sha256": "8d126f0c72a3b2e991ba7e56347da2364d191823c12077d0e61d3eccf77f8ea6",
+  "all_imported_media_hashes_verified": true
+}

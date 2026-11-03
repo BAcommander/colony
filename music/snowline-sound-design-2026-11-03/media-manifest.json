@@ -1,0 +1,1415 @@
+{
+  "format": "snowline-content-chunks-v1",
+  "date": "2026-11-03",
+  "scope": "Every file under the three listed November3 export roots, including earlier mixes, stems, short tests and the interrupted internal-path check. No audio re-encoding.",
+  "source_roots": [
+    "exports/sfx/snowline-creak-2026-11-03/",
+    "exports/sfx/snowline-18min-2026-11-03/",
+    "exports/13-below-the-snowline/"
+  ],
+  "file_count": 271,
+  "original_bytes": 11396047312,
+  "unique_chunk_count": 2264383,
+  "index": {
+    "file": "media-index.json.gz",
+    "bytes": 27883431,
+    "sha256": "5b3bc7d3240550e0b16fd1f5ce40cf74bd7e923db236123080a5bf04aa78e7c0"
+  },
+  "packs": [
+    {
+      "file": "media-001.bin",
+      "bytes": 536870731,
+      "sha256": "61bdfa26ea781923b86638a752f3343952d95ec558eb76589c73c85f720d4c42"
+    },
+    {
+      "file": "media-002.bin",
+      "bytes": 536870887,
+      "sha256": "1f4284f1bbefe36418b53ff67cce2e621d7d9aaecb5396c9333d0b2144efe12c"
+    },
+    {
+      "file": "media-003.bin",
+      "bytes": 536870156,
+      "sha256": "399a4302a19c6713580ebe1e0e42de2a0d4ff27aded43a96ebb32336ef764790"
+    },
+    {
+      "file": "media-004.bin",
+      "bytes": 536870758,
+      "sha256": "55819ac1ef061940b9c9447c08c459c4218951be32e82a1e5a2f04954b16dca8"
+    },
+    {
+      "file": "media-005.bin",
+      "bytes": 536869137,
+      "sha256": "37a8b3d06383b65088cb2ab9e0dde7fd9bc69f5a9f62385d9bfdf89dad078b37"
+    },
+    {
+      "file": "media-006.bin",
+      "bytes": 536870589,
+      "sha256": "e810e08a4e57ffc44faacdc6b4537b5c60d5ee4c7d65b2b9827ee9d2115381b2"
+    },
+    {
+      "file": "media-007.bin",
+      "bytes": 516945687,
+      "sha256": "7d9e8a2d75e0afd0f7346e6f0c5f88ad715efaf7f81ec66da78adc67ffe913da"
+    }
+  ],
+  "members": [
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/creaks/creak-1.flac",
+      "bytes": 522980,
+      "sha256": "114d6f5c7511ec6bdb463fce9554d62c853ab46f60e690ce406b2c3b862332cb"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/creaks/creak-2.flac",
+      "bytes": 516266,
+      "sha256": "9602ee77d80a9c97b82f680e9961e20665c812c4019f7ba1fe728f74a1322c18"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/creaks/opening18min-creaks-plus10.flac",
+      "bytes": 2257215,
+      "sha256": "4b9d98a9bda3e26708eb8e015cd2b3330708702add3734a629f86ffd315f2448"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-01.flac",
+      "bytes": 789308,
+      "sha256": "d99e0e14b374610d77102c38a16d0d4b3349cb6e7ae7d244d4d8cffe07137292"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-02.flac",
+      "bytes": 887031,
+      "sha256": "4c163b27236c28780ed5596ec374b96e052727f7dbe62027b5f079e5e0d0458f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-03.flac",
+      "bytes": 842172,
+      "sha256": "1a3fd4dd644f48dfb0dc0572ada2e497abbd733ec80e0fe7efb333253eb14633"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-04.flac",
+      "bytes": 761616,
+      "sha256": "90a792f1bc3b9bc5ef24a18a2d2bbe5dbf83c6610f785d2aeb15114cdb247468"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-05.flac",
+      "bytes": 572999,
+      "sha256": "3d9bf1a5fc3f16a4b50297e4e22908c016fa4c64f7a347ea3cf9a880672f4fbe"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-06.flac",
+      "bytes": 674283,
+      "sha256": "ccf21d0471a05213257b1436bffde83b3cea1445d6a1e6635bda2633dd0860ca"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-07.flac",
+      "bytes": 693339,
+      "sha256": "d5014ee4e4cfe21226649a000c5f22c880ba1ca7f8110de95fb347cb44d0b498"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-08.flac",
+      "bytes": 862334,
+      "sha256": "cd4343fb77ea8b9eebe36793d42f23db3edf22385117f13de8fa66bc6d8bb4c4"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-09.flac",
+      "bytes": 718349,
+      "sha256": "2bb54a9463a2788e28fc230d9641b07a5350c5efbeeb2ee87a63b99c89031cea"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-10.flac",
+      "bytes": 620735,
+      "sha256": "ddd40522fed18286cc524b3bc961f6d5b7afa29a800975008a7a0a262261f3a8"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-11.flac",
+      "bytes": 604899,
+      "sha256": "aaff2c21f821b099185262d312fece9126d45297b6cd6055b4955b74d75b5e93"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-12.flac",
+      "bytes": 494470,
+      "sha256": "9cbb7e66360769d85819e8c3e40f00e3ec6127ec6927c48b365691ad7f3ade82"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-13.flac",
+      "bytes": 703478,
+      "sha256": "a90c082abb6c835314524af3d315e1bbce92c35e0580f9c47237e404567cffe8"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/radio/packet-14.flac",
+      "bytes": 562915,
+      "sha256": "75fc09434b1f48c4080c6cae94d6f1fb22af7821884448b05a7b98517d1bda73"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-013.flac",
+      "bytes": 3483633,
+      "sha256": "320bb7310b7724994b59fb407b94751985078c915cf7b48b410a78402c7f1c4c"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-014.flac",
+      "bytes": 4223515,
+      "sha256": "d7983d76c74fe7f34dee22d100c91810657b73cd0b7ab495ba89e4a94b1f0f18"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-015.flac",
+      "bytes": 4642097,
+      "sha256": "7a26c0a44befee7d17deb800d926e422434b1b73286d87d8a647a613e86ed454"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-016.flac",
+      "bytes": 3764570,
+      "sha256": "48700647edb85ae8648b1cabdc35281172b6e50270fff06c4ae516c21054fd8a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-017.flac",
+      "bytes": 3922204,
+      "sha256": "97f4782d1f491b99700fb4995ce35a81036b74b34671c56ad7e46d27fe79c91d"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-018.flac",
+      "bytes": 3443487,
+      "sha256": "7388cd23f4b2b9987993a9b6ca3cddc05583bfef6de663f1c442d5e26ce45499"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-019.flac",
+      "bytes": 4357223,
+      "sha256": "fc9723188812d0ba456e35dda79cdbdb951bb1f3589c1d71e73abfa8567d0fd9"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-020.flac",
+      "bytes": 3377573,
+      "sha256": "bcb8b5ca30e65108a469563a5736b82724957435795d7ff8643f50372c3b9c09"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-021.flac",
+      "bytes": 3065584,
+      "sha256": "fe9131ce65198657ef2e053ad6cbc098afbd83c2f9649f738b96096d08fbc74b"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-022.flac",
+      "bytes": 4380741,
+      "sha256": "df31c5a1907254fe053953e76b385740db3f90fa51a3a20affcb7cfeae343bba"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-023.flac",
+      "bytes": 4282596,
+      "sha256": "9580b183edaf22855a0dd4d2ea749764abf6344d521fee9cb0bcaf50ed67f659"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-024.flac",
+      "bytes": 4792231,
+      "sha256": "d48f849ae3112726bb4cf390426f88ea04353b3439615cd58746e5e9c8ea8813"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-025.flac",
+      "bytes": 4172272,
+      "sha256": "c8787b7a96b7fe8c8954d777e30df265c4a862eb3ceb6c249b7e80fa8f5342a9"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-026.flac",
+      "bytes": 4685200,
+      "sha256": "ef751705677dbabc54101588782f66ccbc4b61ac89dd317c3c0e91cf38a45d27"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-027.flac",
+      "bytes": 3391488,
+      "sha256": "cdb072d91a43c6c4db034502b66eee8dcc34f09e7fb8dd02e420b578c106bf29"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-028.flac",
+      "bytes": 3861895,
+      "sha256": "7180b6308a6c5de0af43b5379b3f733e98a9d699490b391d1c38663bcadeb68a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-029.flac",
+      "bytes": 4256952,
+      "sha256": "d9d16519901ac5c94c8d1e255fd1701f6c1fe8a0be1aaac01ef08b0e7a78dac6"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-030.flac",
+      "bytes": 3220880,
+      "sha256": "00954b0fa065cab68e3682e44699aa4a8a75aa3de6b1ccda9db9ea556a91655a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-031.flac",
+      "bytes": 4357263,
+      "sha256": "ea14681be19b311b19b946dc6c8b18d2bff94457a14048f0065e3fcef93438e3"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-032.flac",
+      "bytes": 4443515,
+      "sha256": "ff37f33cd3cc17057f502c96415ffae50fa117adc926dd3b8255ea545d7965f0"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-033.flac",
+      "bytes": 3646012,
+      "sha256": "e521c78d7a2410eb6a7d569ee70e5f278a8aed049e9367f2f1ff8a97c279a3ac"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-034.flac",
+      "bytes": 3224169,
+      "sha256": "3944fd0ba74d36faa4f2911de10e3bc807dd1e5cf8ad9641b1d7362a0c6bae96"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-035.flac",
+      "bytes": 4054407,
+      "sha256": "554bd97acf0393ffb260a409c8175a496e03f1333a8dbc7831eb218bc8fca0c6"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-036.flac",
+      "bytes": 3678794,
+      "sha256": "380d0dc620b9ec2300fa3dc7196845203a18f7a0c476094f4d7674b809c3af5c"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-037.flac",
+      "bytes": 3499744,
+      "sha256": "0f4c4f87bf3bf9d4e9b097f8b225d24b483caf40ac929a82d932006eec967a10"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-038.flac",
+      "bytes": 4199581,
+      "sha256": "a823edd03665fc1840ec1e005a03f64cdbdbc25d0eac3d97329d39053d35b6b7"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-039.flac",
+      "bytes": 4664031,
+      "sha256": "84f833c388d38e9f12ceac7d175c879f90030244a5daecdf7d5c6567a591e027"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-040.flac",
+      "bytes": 4825601,
+      "sha256": "54c449a5c59ba5861d6813c544f13fd72067ab038e89b2ca30392ce607186a7a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-041.flac",
+      "bytes": 4325376,
+      "sha256": "97ff444f197f10b0ba02f51a65e04fe96a0243ba756c1e4001b1c890022e3c9f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-042.flac",
+      "bytes": 3393856,
+      "sha256": "b158ac39faa94ac4cfee4ba9642913543bf5d8e3ff8932bf73ea5b95c49fedef"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-043.flac",
+      "bytes": 4492969,
+      "sha256": "12546b8b19a972e512d90270de72d115e42c3207b2ca7b3b44750ea2adfff003"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-044.flac",
+      "bytes": 3599509,
+      "sha256": "ed95e31882ae283a6f9746e1b4c5778c27601a27510171dc7d8ee0159838ed76"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-045.flac",
+      "bytes": 3826547,
+      "sha256": "5f3852913485982120f2e06dea4068ec574f453c4ab795bcad39476988d543ed"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-046.flac",
+      "bytes": 4629183,
+      "sha256": "0262ed03b09444125bf27edc996aeab3b61f33f7716ed1a123502bedf478d7a5"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-047.flac",
+      "bytes": 4401220,
+      "sha256": "dcde4c435038d544445c9442c57ada30eec408eab7e392ae71b92574e5bf4a53"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-048.flac",
+      "bytes": 4126188,
+      "sha256": "8db1e797722ace4d1ae2c0328aa8900b89b3cb893a9bb567dae40b6b8848e4ef"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-049.flac",
+      "bytes": 4299380,
+      "sha256": "d92e5267fae7fc0890937072c18f8fb42af18579738a9803a0888d46c815391b"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-050.flac",
+      "bytes": 3745132,
+      "sha256": "3d56cf772e3665d3e988c3af66a8765eb6331e3198670ad467a960bae30b1394"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-051.flac",
+      "bytes": 4531258,
+      "sha256": "f4eaa081aef544cedfa7b1acfba9f4f05e2eaf0dc952e07110d1967f5e4477b9"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-052.flac",
+      "bytes": 4480176,
+      "sha256": "4bfd9bbe59eac2e6567556a6e2d4da031e31b08e2a9ed58120bdf129902eb31e"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-053.flac",
+      "bytes": 3149834,
+      "sha256": "5b39a9457d1eab9834cf94a71154d6ad58ebc08944c5b6d6d6ff3e5c91e02209"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-054.flac",
+      "bytes": 3303034,
+      "sha256": "90c6a08c70b4b765db66c89a80c7ced48c3bb118f2e18f127d96c4b2ed5ad6ac"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-055.flac",
+      "bytes": 3755297,
+      "sha256": "3a4d1d0ed5171a9960dd74da52e08945ed3728fede0677ddb4d7e702d058bbd7"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-056.flac",
+      "bytes": 4371344,
+      "sha256": "f0b7c106677125ec14901880f4b01c46bfabc4b737264aaac29c37dcb6cde3f0"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-057.flac",
+      "bytes": 4758002,
+      "sha256": "10ea82ba15f88f22f315892c3b8bdf4573e1443a504af7083048417d8c0ffd41"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-058.flac",
+      "bytes": 4895678,
+      "sha256": "bdcdb8918337e10e046af05309d9be4793e001a5a82dc1972e6bd391a53f1b32"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-059.flac",
+      "bytes": 4752217,
+      "sha256": "6e47a1c7a3cd5ad3f1aa009027c338da4ecac521e6828e00838399802312171a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-060.flac",
+      "bytes": 4815848,
+      "sha256": "fda989340a70969d40ee3f343e5e40e88b58302eac287567aa7ccee261546523"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-061.flac",
+      "bytes": 3948181,
+      "sha256": "f33984609fc035de0448283ea88f40f16cbde6a87a52c32609e710cf7ccf4216"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-062.flac",
+      "bytes": 3139671,
+      "sha256": "8523f42d4daef62beba5b81d628bc4915e40ab6a1b31874f7bec192977a14b99"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-063.flac",
+      "bytes": 4629189,
+      "sha256": "c372ba2148c303042bc08c785d541e5b52eb38bb44484eb869f0c6848d41014a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-064.flac",
+      "bytes": 4773606,
+      "sha256": "82ee5b302293db5fbac24b5d0c95bd57fe8103bf8552ea785ebbe2d43f5107fb"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-065.flac",
+      "bytes": 3812837,
+      "sha256": "5cdc7ff1b74844030f12c3aab8d2251fefc5e3006f4d7a20749f09f5b0dd8f9f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-066.flac",
+      "bytes": 4062601,
+      "sha256": "9139bfd7920cfb499b9a641a59807b4854b2cfceda2853d8a83d77bc9d9ac61b"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-067.flac",
+      "bytes": 3828024,
+      "sha256": "15c53dc22353b49852705faa0d977787f159f2461d972ded8992825beef479d3"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-068.flac",
+      "bytes": 3651285,
+      "sha256": "fefb74d49675ad60f4e9ae59f0cdd37cdaab0d229f1be8ba67529d36dfa1a4c0"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-069.flac",
+      "bytes": 4007320,
+      "sha256": "e4ae8c7d53adb124fc9a6409db4d1c82d5d28c9f64b68481d4a18175bcf2cac1"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-070.flac",
+      "bytes": 4289469,
+      "sha256": "4c2fdfbef753654beea0a1f6ce25adc877b0d376c0c45dfa553a48ba012a224f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-071.flac",
+      "bytes": 4722688,
+      "sha256": "0bb317d2753977728e0189e39e6dd56e975c3fe0fd333e0121d2cf28b4eb4e02"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-072.flac",
+      "bytes": 3540237,
+      "sha256": "869aa7f140fbe15a63b805730928394b3e7673e5fbb104b9b6814657f28ee78f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-073.flac",
+      "bytes": 3527415,
+      "sha256": "9dee3576314fd2a740ab7a80319a4174348a76d72754bde80b3e57d3e0b0196e"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-074.flac",
+      "bytes": 3509688,
+      "sha256": "6dfec2a899090bc40d5a78e00d7b36a2a63dc5d662bec6afd3d7cb802e5b9d05"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-075.flac",
+      "bytes": 4786988,
+      "sha256": "c28bdfbaddd6b0cd3cef154b4e579d4f8cf1ef8ae28ff5d799109c41c2c1c273"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-076.flac",
+      "bytes": 4651458,
+      "sha256": "354f7ed0fe0ad65d500f52b1b31c87696bb3ab328bec03d9eec682d62cd66b2b"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-077.flac",
+      "bytes": 3380842,
+      "sha256": "e2e9cdd4032331e7739bac2f191539cdd5ef8e9d1f722885aa98c166555af554"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-078.flac",
+      "bytes": 4319277,
+      "sha256": "0acfbe52dcd7b6551a62fbdaac5543c2e21379251822477354a84567b36c6935"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-079.flac",
+      "bytes": 3539997,
+      "sha256": "5d82d363ce35cc8759e0b8f2e2c450c8e992fa1e2084fa126a195feb912c6f3d"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/source-assets/wind/wind-080.flac",
+      "bytes": 3802328,
+      "sha256": "d1c4653b8736ba69f0b8927451c00ef91b93d956b57ca4e846a092ac5c399270"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/stems/Snowline-music-2h-v1.flac",
+      "bytes": 1029218343,
+      "sha256": "1291e4dc92bd1d3844f025fbfcd28e53f7fb77062544a2cb643ae731098b091a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/stems/Snowline-radio-2h-v1.flac",
+      "bytes": 30128842,
+      "sha256": "21f511134af4e68c181f7ddbe3cb1ccb38b69e70de48c0d4772e62ebee1f663f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1-internal-path-check/stems/Snowline-ventilation-2h-v1.flac",
+      "bytes": 511202402,
+      "sha256": "e785abb7cae6130232355092c90942ac6ff35c57fe0e38b8aa42849598afd5ee"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/Below-the-Snowline-2-Hours-unfaded-master-v1.flac",
+      "bytes": 1034897425,
+      "sha256": "672b3a22ee140021d7594aada0b4cc8c3dd03c045f39cd523f9283b317b5b56e"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/Below-the-Snowline-2-Hours-v1.mp3",
+      "bytes": 172801196,
+      "sha256": "231114bcc900318e102b4ee0424e2cda4d358e35dde5fac16f0d574cf9bb5906"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/Creak-plus10-percent-90s-check.mp3",
+      "bytes": 2161196,
+      "sha256": "ce4183d8de2a9f39b648cbae42540c601decc2744d2c00f77ee6c70a36c870de"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/cue-sheet.txt",
+      "bytes": 3233,
+      "sha256": "8c37f1874d2236c7dc92a0947c5c5d9b7cfd37099d7c4fa8aa32b5a49569adca"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/meter/loudness-log.txt",
+      "bytes": 1164,
+      "sha256": "a3dd20911c684ef1f79a2b3655db9ecc285ea9266ca690c080b049196f08d16d"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/recipe.json",
+      "bytes": 381790,
+      "sha256": "53513c9bcc6678069d77d0fe76d8cfe78230e5f4318f9a7b9efb485faa130e24"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/creaks/creak-1.flac",
+      "bytes": 522980,
+      "sha256": "114d6f5c7511ec6bdb463fce9554d62c853ab46f60e690ce406b2c3b862332cb"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/creaks/creak-2.flac",
+      "bytes": 516266,
+      "sha256": "9602ee77d80a9c97b82f680e9961e20665c812c4019f7ba1fe728f74a1322c18"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/creaks/opening18min-creaks-plus10.flac",
+      "bytes": 2257215,
+      "sha256": "4b9d98a9bda3e26708eb8e015cd2b3330708702add3734a629f86ffd315f2448"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-01.flac",
+      "bytes": 789308,
+      "sha256": "d99e0e14b374610d77102c38a16d0d4b3349cb6e7ae7d244d4d8cffe07137292"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-02.flac",
+      "bytes": 887031,
+      "sha256": "4c163b27236c28780ed5596ec374b96e052727f7dbe62027b5f079e5e0d0458f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-03.flac",
+      "bytes": 842172,
+      "sha256": "1a3fd4dd644f48dfb0dc0572ada2e497abbd733ec80e0fe7efb333253eb14633"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-04.flac",
+      "bytes": 761616,
+      "sha256": "90a792f1bc3b9bc5ef24a18a2d2bbe5dbf83c6610f785d2aeb15114cdb247468"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-05.flac",
+      "bytes": 572999,
+      "sha256": "3d9bf1a5fc3f16a4b50297e4e22908c016fa4c64f7a347ea3cf9a880672f4fbe"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-06.flac",
+      "bytes": 674283,
+      "sha256": "ccf21d0471a05213257b1436bffde83b3cea1445d6a1e6635bda2633dd0860ca"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-07.flac",
+      "bytes": 693339,
+      "sha256": "d5014ee4e4cfe21226649a000c5f22c880ba1ca7f8110de95fb347cb44d0b498"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-08.flac",
+      "bytes": 862334,
+      "sha256": "cd4343fb77ea8b9eebe36793d42f23db3edf22385117f13de8fa66bc6d8bb4c4"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-09.flac",
+      "bytes": 718349,
+      "sha256": "2bb54a9463a2788e28fc230d9641b07a5350c5efbeeb2ee87a63b99c89031cea"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-10.flac",
+      "bytes": 620735,
+      "sha256": "ddd40522fed18286cc524b3bc961f6d5b7afa29a800975008a7a0a262261f3a8"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-11.flac",
+      "bytes": 604899,
+      "sha256": "aaff2c21f821b099185262d312fece9126d45297b6cd6055b4955b74d75b5e93"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-12.flac",
+      "bytes": 494470,
+      "sha256": "9cbb7e66360769d85819e8c3e40f00e3ec6127ec6927c48b365691ad7f3ade82"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-13.flac",
+      "bytes": 703478,
+      "sha256": "a90c082abb6c835314524af3d315e1bbce92c35e0580f9c47237e404567cffe8"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/radio/packet-14.flac",
+      "bytes": 562915,
+      "sha256": "75fc09434b1f48c4080c6cae94d6f1fb22af7821884448b05a7b98517d1bda73"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-013.flac",
+      "bytes": 3483633,
+      "sha256": "320bb7310b7724994b59fb407b94751985078c915cf7b48b410a78402c7f1c4c"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-014.flac",
+      "bytes": 4223515,
+      "sha256": "d7983d76c74fe7f34dee22d100c91810657b73cd0b7ab495ba89e4a94b1f0f18"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-015.flac",
+      "bytes": 4642097,
+      "sha256": "7a26c0a44befee7d17deb800d926e422434b1b73286d87d8a647a613e86ed454"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-016.flac",
+      "bytes": 3764570,
+      "sha256": "48700647edb85ae8648b1cabdc35281172b6e50270fff06c4ae516c21054fd8a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-017.flac",
+      "bytes": 3922204,
+      "sha256": "97f4782d1f491b99700fb4995ce35a81036b74b34671c56ad7e46d27fe79c91d"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-018.flac",
+      "bytes": 3443487,
+      "sha256": "7388cd23f4b2b9987993a9b6ca3cddc05583bfef6de663f1c442d5e26ce45499"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-019.flac",
+      "bytes": 4357223,
+      "sha256": "fc9723188812d0ba456e35dda79cdbdb951bb1f3589c1d71e73abfa8567d0fd9"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-020.flac",
+      "bytes": 3377573,
+      "sha256": "bcb8b5ca30e65108a469563a5736b82724957435795d7ff8643f50372c3b9c09"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-021.flac",
+      "bytes": 3065584,
+      "sha256": "fe9131ce65198657ef2e053ad6cbc098afbd83c2f9649f738b96096d08fbc74b"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-022.flac",
+      "bytes": 4380741,
+      "sha256": "df31c5a1907254fe053953e76b385740db3f90fa51a3a20affcb7cfeae343bba"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-023.flac",
+      "bytes": 4282596,
+      "sha256": "9580b183edaf22855a0dd4d2ea749764abf6344d521fee9cb0bcaf50ed67f659"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-024.flac",
+      "bytes": 4792231,
+      "sha256": "d48f849ae3112726bb4cf390426f88ea04353b3439615cd58746e5e9c8ea8813"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-025.flac",
+      "bytes": 4172272,
+      "sha256": "c8787b7a96b7fe8c8954d777e30df265c4a862eb3ceb6c249b7e80fa8f5342a9"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-026.flac",
+      "bytes": 4685200,
+      "sha256": "ef751705677dbabc54101588782f66ccbc4b61ac89dd317c3c0e91cf38a45d27"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-027.flac",
+      "bytes": 3391488,
+      "sha256": "cdb072d91a43c6c4db034502b66eee8dcc34f09e7fb8dd02e420b578c106bf29"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-028.flac",
+      "bytes": 3861895,
+      "sha256": "7180b6308a6c5de0af43b5379b3f733e98a9d699490b391d1c38663bcadeb68a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-029.flac",
+      "bytes": 4256952,
+      "sha256": "d9d16519901ac5c94c8d1e255fd1701f6c1fe8a0be1aaac01ef08b0e7a78dac6"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-030.flac",
+      "bytes": 3220880,
+      "sha256": "00954b0fa065cab68e3682e44699aa4a8a75aa3de6b1ccda9db9ea556a91655a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-031.flac",
+      "bytes": 4357263,
+      "sha256": "ea14681be19b311b19b946dc6c8b18d2bff94457a14048f0065e3fcef93438e3"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-032.flac",
+      "bytes": 4443515,
+      "sha256": "ff37f33cd3cc17057f502c96415ffae50fa117adc926dd3b8255ea545d7965f0"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-033.flac",
+      "bytes": 3646012,
+      "sha256": "e521c78d7a2410eb6a7d569ee70e5f278a8aed049e9367f2f1ff8a97c279a3ac"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-034.flac",
+      "bytes": 3224169,
+      "sha256": "3944fd0ba74d36faa4f2911de10e3bc807dd1e5cf8ad9641b1d7362a0c6bae96"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-035.flac",
+      "bytes": 4054407,
+      "sha256": "554bd97acf0393ffb260a409c8175a496e03f1333a8dbc7831eb218bc8fca0c6"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-036.flac",
+      "bytes": 3678794,
+      "sha256": "380d0dc620b9ec2300fa3dc7196845203a18f7a0c476094f4d7674b809c3af5c"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-037.flac",
+      "bytes": 3499744,
+      "sha256": "0f4c4f87bf3bf9d4e9b097f8b225d24b483caf40ac929a82d932006eec967a10"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-038.flac",
+      "bytes": 4199581,
+      "sha256": "a823edd03665fc1840ec1e005a03f64cdbdbc25d0eac3d97329d39053d35b6b7"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-039.flac",
+      "bytes": 4664031,
+      "sha256": "84f833c388d38e9f12ceac7d175c879f90030244a5daecdf7d5c6567a591e027"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-040.flac",
+      "bytes": 4825601,
+      "sha256": "54c449a5c59ba5861d6813c544f13fd72067ab038e89b2ca30392ce607186a7a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-041.flac",
+      "bytes": 4325376,
+      "sha256": "97ff444f197f10b0ba02f51a65e04fe96a0243ba756c1e4001b1c890022e3c9f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-042.flac",
+      "bytes": 3393856,
+      "sha256": "b158ac39faa94ac4cfee4ba9642913543bf5d8e3ff8932bf73ea5b95c49fedef"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-043.flac",
+      "bytes": 4492969,
+      "sha256": "12546b8b19a972e512d90270de72d115e42c3207b2ca7b3b44750ea2adfff003"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-044.flac",
+      "bytes": 3599509,
+      "sha256": "ed95e31882ae283a6f9746e1b4c5778c27601a27510171dc7d8ee0159838ed76"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-045.flac",
+      "bytes": 3826547,
+      "sha256": "5f3852913485982120f2e06dea4068ec574f453c4ab795bcad39476988d543ed"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-046.flac",
+      "bytes": 4629183,
+      "sha256": "0262ed03b09444125bf27edc996aeab3b61f33f7716ed1a123502bedf478d7a5"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-047.flac",
+      "bytes": 4401220,
+      "sha256": "dcde4c435038d544445c9442c57ada30eec408eab7e392ae71b92574e5bf4a53"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-048.flac",
+      "bytes": 4126188,
+      "sha256": "8db1e797722ace4d1ae2c0328aa8900b89b3cb893a9bb567dae40b6b8848e4ef"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-049.flac",
+      "bytes": 4299380,
+      "sha256": "d92e5267fae7fc0890937072c18f8fb42af18579738a9803a0888d46c815391b"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-050.flac",
+      "bytes": 3745132,
+      "sha256": "3d56cf772e3665d3e988c3af66a8765eb6331e3198670ad467a960bae30b1394"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-051.flac",
+      "bytes": 4531258,
+      "sha256": "f4eaa081aef544cedfa7b1acfba9f4f05e2eaf0dc952e07110d1967f5e4477b9"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-052.flac",
+      "bytes": 4480176,
+      "sha256": "4bfd9bbe59eac2e6567556a6e2d4da031e31b08e2a9ed58120bdf129902eb31e"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-053.flac",
+      "bytes": 3149834,
+      "sha256": "5b39a9457d1eab9834cf94a71154d6ad58ebc08944c5b6d6d6ff3e5c91e02209"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-054.flac",
+      "bytes": 3303034,
+      "sha256": "90c6a08c70b4b765db66c89a80c7ced48c3bb118f2e18f127d96c4b2ed5ad6ac"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-055.flac",
+      "bytes": 3755297,
+      "sha256": "3a4d1d0ed5171a9960dd74da52e08945ed3728fede0677ddb4d7e702d058bbd7"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-056.flac",
+      "bytes": 4371344,
+      "sha256": "f0b7c106677125ec14901880f4b01c46bfabc4b737264aaac29c37dcb6cde3f0"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-057.flac",
+      "bytes": 4758002,
+      "sha256": "10ea82ba15f88f22f315892c3b8bdf4573e1443a504af7083048417d8c0ffd41"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-058.flac",
+      "bytes": 4895678,
+      "sha256": "bdcdb8918337e10e046af05309d9be4793e001a5a82dc1972e6bd391a53f1b32"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-059.flac",
+      "bytes": 4752217,
+      "sha256": "6e47a1c7a3cd5ad3f1aa009027c338da4ecac521e6828e00838399802312171a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-060.flac",
+      "bytes": 4815848,
+      "sha256": "fda989340a70969d40ee3f343e5e40e88b58302eac287567aa7ccee261546523"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-061.flac",
+      "bytes": 3948181,
+      "sha256": "f33984609fc035de0448283ea88f40f16cbde6a87a52c32609e710cf7ccf4216"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-062.flac",
+      "bytes": 3139671,
+      "sha256": "8523f42d4daef62beba5b81d628bc4915e40ab6a1b31874f7bec192977a14b99"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-063.flac",
+      "bytes": 4629189,
+      "sha256": "c372ba2148c303042bc08c785d541e5b52eb38bb44484eb869f0c6848d41014a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-064.flac",
+      "bytes": 4773606,
+      "sha256": "82ee5b302293db5fbac24b5d0c95bd57fe8103bf8552ea785ebbe2d43f5107fb"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-065.flac",
+      "bytes": 3812837,
+      "sha256": "5cdc7ff1b74844030f12c3aab8d2251fefc5e3006f4d7a20749f09f5b0dd8f9f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-066.flac",
+      "bytes": 4062601,
+      "sha256": "9139bfd7920cfb499b9a641a59807b4854b2cfceda2853d8a83d77bc9d9ac61b"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-067.flac",
+      "bytes": 3828024,
+      "sha256": "15c53dc22353b49852705faa0d977787f159f2461d972ded8992825beef479d3"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-068.flac",
+      "bytes": 3651285,
+      "sha256": "fefb74d49675ad60f4e9ae59f0cdd37cdaab0d229f1be8ba67529d36dfa1a4c0"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-069.flac",
+      "bytes": 4007320,
+      "sha256": "e4ae8c7d53adb124fc9a6409db4d1c82d5d28c9f64b68481d4a18175bcf2cac1"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-070.flac",
+      "bytes": 4289469,
+      "sha256": "4c2fdfbef753654beea0a1f6ce25adc877b0d376c0c45dfa553a48ba012a224f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-071.flac",
+      "bytes": 4722688,
+      "sha256": "0bb317d2753977728e0189e39e6dd56e975c3fe0fd333e0121d2cf28b4eb4e02"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-072.flac",
+      "bytes": 3540237,
+      "sha256": "869aa7f140fbe15a63b805730928394b3e7673e5fbb104b9b6814657f28ee78f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-073.flac",
+      "bytes": 3527415,
+      "sha256": "9dee3576314fd2a740ab7a80319a4174348a76d72754bde80b3e57d3e0b0196e"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-074.flac",
+      "bytes": 3509688,
+      "sha256": "6dfec2a899090bc40d5a78e00d7b36a2a63dc5d662bec6afd3d7cb802e5b9d05"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-075.flac",
+      "bytes": 4786988,
+      "sha256": "c28bdfbaddd6b0cd3cef154b4e579d4f8cf1ef8ae28ff5d799109c41c2c1c273"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-076.flac",
+      "bytes": 4651458,
+      "sha256": "354f7ed0fe0ad65d500f52b1b31c87696bb3ab328bec03d9eec682d62cd66b2b"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-077.flac",
+      "bytes": 3380842,
+      "sha256": "e2e9cdd4032331e7739bac2f191539cdd5ef8e9d1f722885aa98c166555af554"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-078.flac",
+      "bytes": 4319277,
+      "sha256": "0acfbe52dcd7b6551a62fbdaac5543c2e21379251822477354a84567b36c6935"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-079.flac",
+      "bytes": 3539997,
+      "sha256": "5d82d363ce35cc8759e0b8f2e2c450c8e992fa1e2084fa126a195feb912c6f3d"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/source-assets/wind/wind-080.flac",
+      "bytes": 3802328,
+      "sha256": "d1c4653b8736ba69f0b8927451c00ef91b93d956b57ca4e846a092ac5c399270"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-creaks-2h-v1.flac",
+      "bytes": 13655204,
+      "sha256": "7096d5202d3515a2b9ac0664a46a993617c3396c3b4e65b2b39d2cdcc75b3d9c"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-music-2h-v1.flac",
+      "bytes": 1029218343,
+      "sha256": "1291e4dc92bd1d3844f025fbfcd28e53f7fb77062544a2cb643ae731098b091a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-radio-2h-v1.flac",
+      "bytes": 33683766,
+      "sha256": "359eb05da8df4760aa53bbb0fa3c0d86f05410565913eefed80b170afda49f3f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-ventilation-2h-v1.flac",
+      "bytes": 511202402,
+      "sha256": "e785abb7cae6130232355092c90942ac6ff35c57fe0e38b8aa42849598afd5ee"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-wind-2h-v1.flac",
+      "bytes": 325514940,
+      "sha256": "45e20634d0f21d7254b3e1f4b37c3ef73b4236ca1fd7d1502e20171c92c5d233"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v2/Below-the-Snowline-2-Hours-unfaded-master-v2.flac",
+      "bytes": 1034968216,
+      "sha256": "27f910850a42348ee23b9c42ab73474affe86f7d386516fc715443ee712cae78"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v2/Below-the-Snowline-2-Hours-v2.mp3",
+      "bytes": 172801196,
+      "sha256": "cabbed6a2281fbf10bf5e9028d8cb8fc147dbec10d84ea167f418e950b358990"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v2/Creak-plus-1dB-30s-check.mp3",
+      "bytes": 721196,
+      "sha256": "46463a9e6ad6cf1deda3b340e91a77a0129314298234974e4ab7708508e6e78f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v2/meter/loudness-log.txt",
+      "bytes": 1164,
+      "sha256": "b873663978066329e504363f7f96bb60e0332aa4739f1df594383b6c97d11252"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v2/recipe.json",
+      "bytes": 4154,
+      "sha256": "e2f892272c1818da25d6ecf1873ab97f1cd16ab961686380203fb87ffe7f69e6"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v2/stems/Snowline-creaks-2h-v2.flac",
+      "bytes": 13850006,
+      "sha256": "53883b7550b3f9bc7e2edb872690657152b0a4bd23e73159efd0092458844ae5"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v3/Below-the-Snowline-2-Hours-unfaded-master-v3.flac",
+      "bytes": 1035043264,
+      "sha256": "d780f6c6138c7c466fe39bc71d7adeabdabaa03dd1baed9041acb42e73850d5c"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v3/Below-the-Snowline-2-Hours-v3.mp3",
+      "bytes": 172801196,
+      "sha256": "de01b3a4b1540c42eb00536b140d2276aa1fd305a2f8e03d887b7d16ef3140ef"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v3/Creak-plus-1dB-30s-check.mp3",
+      "bytes": 721196,
+      "sha256": "67a68e619b50a8e313d8418ebde70ee8af3b93fc8a2548fb3e66a53cc79b721c"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v3/meter/loudness-log.txt",
+      "bytes": 1164,
+      "sha256": "b5b99bbd0ef510255fa16e8f6bc57df17a22aba9c727033df49a637157c0050c"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v3/recipe.json",
+      "bytes": 4643,
+      "sha256": "5b958b6a29d6f96366f953bfaf2cc118f036da68b2fd4f4bd72fb25ac6431406"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v3/stems/Snowline-creaks-2h-v3.flac",
+      "bytes": 14042951,
+      "sha256": "7c6d7e1cf7ae9cff67cbf22832375b44735c5be2969aff97f3a083ef7771b76a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v4/Below-the-Snowline-2-Hours-unfaded-master-v4.flac",
+      "bytes": 1035208407,
+      "sha256": "505992935f9ee5d388b62e5fd13b7935f32f19bfabe704e7704019b162fd94ef"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v4/Below-the-Snowline-2-Hours-v4.mp3",
+      "bytes": 172801196,
+      "sha256": "15745a9441b8d9770c66bf9326cc78662bdb8b8f18339ac669f94922a5c99afa"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v4/Creak-plus-2dB-30s-check.mp3",
+      "bytes": 721196,
+      "sha256": "7dc911f6e6ac90bb423863c18578d23ac178390c9e34a6adcfe363ca272c69b1"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v4/meter/loudness-log.txt",
+      "bytes": 1164,
+      "sha256": "0e0e5968d481793f33dca4c0e27cd374fc06cdbdb335b840affacdd17d7da3cc"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v4/recipe.json",
+      "bytes": 4204,
+      "sha256": "f7c2001b271fc258c26e54055e8067343957e7c1d4436ff0c61d9364c3f2fb94"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v4/stems/Snowline-creaks-2h-v4.flac",
+      "bytes": 14421427,
+      "sha256": "5a3b1145b8f306a2d9e4cb66d48f44c8390b557b37652249480ba259d3444d0f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v4/wind-level-check/Previous-creak-level-same-wind-60s.flac",
+      "bytes": 8771160,
+      "sha256": "d19afe3d8b22f4325733166a447538e6692487a119cccd02bc8ccebf0404d415"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v4/wind-level-check/Previous-creak-level-same-wind-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "2f43d0ff888d63efab63e268d342025aabf507718110045ad5798bc68f6afdf4"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v4/wind-level-check/Wind-and-creak-plus2dB-60s.flac",
+      "bytes": 8778636,
+      "sha256": "610e462254395e0e8fbb27e56e2127a1c8b176708db124e23c8f671c1dcf347b"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v4/wind-level-check/Wind-and-creak-plus2dB-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "38a99ec9ea8fb897e1a83ad8502423fcc686aa80fb1afd7846a3acaa68b30ae5"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v4/wind-level-check/review.json",
+      "bytes": 5348,
+      "sha256": "52ed3ed5a264cc1ddc8a4200b0eb7f4ec87adfccb644fe3ffc1877d100265a97"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v5/Below-the-Snowline-2-Hours-unfaded-master-v5.flac",
+      "bytes": 1035657907,
+      "sha256": "4b4843823fbd032e3368f6945d94a600b8b97062b56779b15f9f48b3953b60c4"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v5/Below-the-Snowline-2-Hours-v5.mp3",
+      "bytes": 172801196,
+      "sha256": "aa19b58ed32c32bad07d7b19973f1bac615f8a4441ce54c0c8783f44b42d2d3e"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v5/cue-sheet.txt",
+      "bytes": 3233,
+      "sha256": "8c37f1874d2236c7dc92a0947c5c5d9b7cfd37099d7c4fa8aa32b5a49569adca"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v5/meter/loudness-log.txt",
+      "bytes": 1164,
+      "sha256": "2eab3c26e37af8c2421011eca2642d8ae22d5015e5de88203a4bf287310c35b6"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v5/recipe.json",
+      "bytes": 5982,
+      "sha256": "3c7bf9226b4d49886bf5e03f1945d300e991c46469fa1dab9a183a2b12628e06"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v5/references/radio-minus1db-step.flac",
+      "bytes": 33170184,
+      "sha256": "13e6b70e72b3095efaa75d654a13ea921ee30062e10a0544d48c056629d9d592"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v5/stems/Snowline-radio-minus1p5dB-2h-v5.flac",
+      "bytes": 32915389,
+      "sha256": "9457b23f3a717f0005c094b6b9e5459775d1c7d9a7ba5224c35cc05bef80fcd6"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v5/stems/Snowline-wind-plus2dB-2h-v5.flac",
+      "bytes": 348637925,
+      "sha256": "5acae85bbe3f0aa61a098d3410e51d5bfcd8cad03d6992530e46b42788857b3a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-context-wind-plus2db-v1/Radio-in-context-60s.flac",
+      "bytes": 9095348,
+      "sha256": "d3c2ee1e3cb5227946804f669fa9037b5df741462670b07f2cd0793df1ad3945"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-context-wind-plus2db-v1/Radio-in-context-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "de379dcbb9c20ea736767f7d4732da01dc7dc0fa6a52b3d0c8d6a338f7a818f4"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-context-wind-plus2db-v1/meter/loudness-log.txt",
+      "bytes": 1183,
+      "sha256": "1c0e0cf891a2f4be4bb0e99fa5d0cba8de77a312e454b9d1e15ab0db9eabc2dd"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-context-wind-plus2db-v1/review.json",
+      "bytes": 4321,
+      "sha256": "98d71d18c02b16c462ede7d2340b08fbf9e8082ab5e77a851d6a9fbd49a60b5e"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-context-wind-plus2db-v1/same-minute-wind-adjusted-unfaded.flac",
+      "bytes": 9047163,
+      "sha256": "06e64709b26f46b69b8c2ef7ce93ad6bcc522b8fdabb72cfeff35e5e59f1195b"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-context-wind-plus2db-v1/wind-only-adjusted.flac",
+      "bytes": 4439362,
+      "sha256": "7e44ee4657c496c6b21615e2dcbf05d783a9bd6a396a3fdbe41cf1d97b1c3a01"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1db-wind-plus2db-v1/Radio-minus1dB-in-context-60s.flac",
+      "bytes": 9092968,
+      "sha256": "c0a3f80f10141b8e05e85b98a8a0ad3edca5fa8892bad042c96e1735a36784f5"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1db-wind-plus2db-v1/Radio-minus1dB-in-context-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "8de775dab365b08f3bf8b9996b49aa4c19192a948ae31db861dbc5022af1f044"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1db-wind-plus2db-v1/meter/loudness-log.txt",
+      "bytes": 1193,
+      "sha256": "87905f15d25868d16575e297265eb9a4dfc3169ce3629f0a2063196521c608d2"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1db-wind-plus2db-v1/radio-adjusted-unfaded-context.flac",
+      "bytes": 9044770,
+      "sha256": "e6579ecdde1f7276746c0e04958a51568a14e1c610f776bc8bdeb5dc92bd1c28"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1db-wind-plus2db-v1/radio-adjusted.flac",
+      "bytes": 788197,
+      "sha256": "30e72801fad9fcbe3ccdce2294015a0657acf84d1dca202681df6bdfc36ba092"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1db-wind-plus2db-v1/review.json",
+      "bytes": 3441,
+      "sha256": "6daf4d7aba1c120de7c972ae52507241127df2bed406f58b18d517e3ab360589"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1p5db-wind-plus2db-v1/Radio-minus1dB-in-context-60s.flac",
+      "bytes": 9092014,
+      "sha256": "0c35bddc3cfca605239946e2f4bc7616139db3c23e90fffbf4c065053c61b7c6"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1p5db-wind-plus2db-v1/Radio-minus1dB-in-context-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "ffa67d57cc1fc5d2f3fd52a01429899eb67e27a45e497750dc15367ea21cbaf8"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1p5db-wind-plus2db-v1/Radio-minus1p5dB-in-context-60s.flac",
+      "bytes": 9092014,
+      "sha256": "0c35bddc3cfca605239946e2f4bc7616139db3c23e90fffbf4c065053c61b7c6"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1p5db-wind-plus2db-v1/Radio-minus1p5dB-in-context-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "ffa67d57cc1fc5d2f3fd52a01429899eb67e27a45e497750dc15367ea21cbaf8"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1p5db-wind-plus2db-v1/meter/loudness-log.txt",
+      "bytes": 1195,
+      "sha256": "82a6d8d06eac654ceb2a2248a9c4ac899c766f204d9e34e0559a702de4b52b01"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1p5db-wind-plus2db-v1/radio-adjusted-unfaded-context.flac",
+      "bytes": 9043809,
+      "sha256": "2c373405eaa89cf696463f02ac781d7f8424b83c1c8286cc903c5e315189fc3a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1p5db-wind-plus2db-v1/radio-adjusted.flac",
+      "bytes": 781375,
+      "sha256": "4dc983cc831fcd1062e9a5cd14356cf6d55271edce41d25e9c85889e791ce8e3"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/radio-minus1p5db-wind-plus2db-v1/review.json",
+      "bytes": 3710,
+      "sha256": "a626c3242c2a501cf13b41440a0f84fc9dbfe8f6333a7ea56f903ba9190765da"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/wind-plus2db-v1/Wind-plus2dB-creak-unchanged-60s.flac",
+      "bytes": 8786707,
+      "sha256": "eb1377b2dfb15812a726be4e0f43049619f1223ee2cc296850325402b2ddaee6"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/wind-plus2db-v1/Wind-plus2dB-creak-unchanged-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "ef3323f4897d42ae34e0ccded93db020755687d2b4214fb97fa5d4f2ea992f9f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/wind-plus2db-v1/meter/loudness-log.txt",
+      "bytes": 1181,
+      "sha256": "67a62b32bd8c15cc89c00cb7cdee57fd2bd4a8823876cebc5f5226a42f3bbfb3"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/wind-plus2db-v1/review.json",
+      "bytes": 3672,
+      "sha256": "0d3cb1f02dca2845cb05e7048ccf1fae96dff79177e202e8d199a7ff4753c888"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/wind-plus2db-v1/same-minute-wind-adjusted-unfaded.flac",
+      "bytes": 8736451,
+      "sha256": "823365dcf0aebea6e836ba38ec5e855b180c2e45928ebe2a7c6dd6d798adcd97"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/wind-plus2db-v1/wind-only-adjusted.flac",
+      "bytes": 4236310,
+      "sha256": "22a4eba5b2c02fbea0f9702d606538a472b52f239886da2422e0e894cb04d91b"
+    },
+    {
+      "path": "exports/sfx/snowline-18min-2026-11-03/v1/Snowline-18min-sparse-radio-stronger-wind-v1.flac",
+      "bytes": 155123538,
+      "sha256": "e0dfdc4f49db57eeddc9eeb4108d7377eea6e985de9d3e6acd53a44a33d36cd7"
+    },
+    {
+      "path": "exports/sfx/snowline-18min-2026-11-03/v1/Snowline-18min-sparse-radio-stronger-wind-v1.mp3",
+      "bytes": 25921196,
+      "sha256": "d103867c1bd19a18430b39cbdc74b2723447e456617bac5e1460f4699208d3e8"
+    },
+    {
+      "path": "exports/sfx/snowline-18min-2026-11-03/v1/Snowline-creaks-18min-v1.flac",
+      "bytes": 2230043,
+      "sha256": "66ad5d4f5da868afe3a08e66b04105e874436101326a6d8c315622e262b8cfb0"
+    },
+    {
+      "path": "exports/sfx/snowline-18min-2026-11-03/v1/Snowline-music-18min-v1.flac",
+      "bytes": 154289284,
+      "sha256": "074b001b7770171ee8a2568c558826cc501e4fd0b75302a0aa8248aa06fdad74"
+    },
+    {
+      "path": "exports/sfx/snowline-18min-2026-11-03/v1/Snowline-radio-18min-v1.flac",
+      "bytes": 5078504,
+      "sha256": "3367652f7a59244c99e4e8302f98adb639101715e7ff0fe2bed827d755014781"
+    },
+    {
+      "path": "exports/sfx/snowline-18min-2026-11-03/v1/Snowline-ventilation-18min-v1.flac",
+      "bytes": 76683462,
+      "sha256": "3ba638fcdf61c534356e7bac6359dae9e7ae6a79c129b8d39b6f720fbb1810dc"
+    },
+    {
+      "path": "exports/sfx/snowline-18min-2026-11-03/v1/Snowline-wind-18min-v1.flac",
+      "bytes": 50123817,
+      "sha256": "7e735f89f974626635518b3b1b2fab1d10664209dcea376836db0be9c69a9d93"
+    },
+    {
+      "path": "exports/sfx/snowline-18min-2026-11-03/v1/Snowline-wind-unlifted-18min-v1.flac",
+      "bytes": 48702601,
+      "sha256": "e43bb9ae7061a5d961788b98ca82aaab2ff551092be81e61ea369a0bbb5088fc"
+    },
+    {
+      "path": "exports/sfx/snowline-18min-2026-11-03/v1/cue-sheet.txt",
+      "bytes": 380,
+      "sha256": "e34229e202a8095835c2322e2deb18de555d77fe8892040d14285cc9c4c61814"
+    },
+    {
+      "path": "exports/sfx/snowline-18min-2026-11-03/v1/meter/loudness-log.txt",
+      "bytes": 1167,
+      "sha256": "ad4c9904bdf06b0c4fc87d8decaaa7e2bc198ae399d280256421738642a76271"
+    },
+    {
+      "path": "exports/sfx/snowline-18min-2026-11-03/v1/recipe.json",
+      "bytes": 54577,
+      "sha256": "b98c3dbf693bf5fa9ef4774365aa6b59666708fc66c35ebf9d4a9842d8da4ccc"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v1/B-no-creaks-90s-check.mp3",
+      "bytes": 2161196,
+      "sha256": "0216f405ba20e9cf31aa861fdaedab490f7559f911e867806b0e117ceb224a85"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v1/C-old-procedural-90s-check.mp3",
+      "bytes": 2161196,
+      "sha256": "158f27fe9de8e16fe8183cf1e5f2832c33991a4247e58377d5d66f545765b97a"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v1/D-supplied-creak-90s-check.mp3",
+      "bytes": 2161196,
+      "sha256": "1897139eb3fc8358c9c2c3ed56134f680114b834da12486fe9739e1a0414e75e"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v1/D-supplied-creak-second-event-30s.mp3",
+      "bytes": 721196,
+      "sha256": "11d438ca7d407f7ede43726f00ec32c1a7a874d03dbc1f649200d9f2085564c0"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v1/Snowline-B-plus-supplied-creak-9min-v1.flac",
+      "bytes": 77857615,
+      "sha256": "f57438c8a8649913e12bf2acb5385424889f0c1952f7f374f780921c133bd1b3"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v1/Snowline-B-plus-supplied-creak-9min-v1.mp3",
+      "bytes": 12961196,
+      "sha256": "a0aeca8a48fcc91cf3f0a3d751eca115fb47c82b397b9dacf201d62915538284"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v1/Snowline-supplied-creak-stem-9min-v1.flac",
+      "bytes": 1104181,
+      "sha256": "2c9e7ad07239233e0dc56b8e2975c545cd7ee1530751dccec9614eab7686494a"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v1/meter/loudness-log.txt",
+      "bytes": 1170,
+      "sha256": "84ff042bc0319f032b07c3990a859c652562bfd60b901acf1d15a3006e06d04a"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v1/placed-creak-1.wav",
+      "bytes": 1152102,
+      "sha256": "149a81c8e4b3db8ff0acabdf8c0f5628600f11931f83830aa2414e01cabe4547"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v1/placed-creak-2.wav",
+      "bytes": 1152102,
+      "sha256": "282be27b7137f006a5a4e239a9ae6733d0dee920781937752ccc4cea3fe16a7e"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v1/recipe.json",
+      "bytes": 5541,
+      "sha256": "6939313b313bcd440f8efc88c7d1e0be0d715f44314283b9ba81467a194ff854"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v1/source-originals/supplied-frame-creak.mp3",
+      "bytes": 97389,
+      "sha256": "8d126f0c72a3b2e991ba7e56347da2364d191823c12077d0e61d3eccf77f8ea6"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v2/D-supplied-creak-v2-90s-check.mp3",
+      "bytes": 2161196,
+      "sha256": "6ec9ed5165fab56289c3e12bbba4e425e5f0b43a478a95002bf887ba1aa480f1"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v2/D-supplied-creak-v2-second-event-30s.mp3",
+      "bytes": 721196,
+      "sha256": "13f46df162b36d8f47f5997df092fd6ee6e51d7b32dc27570340120bd023cb34"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v2/Snowline-B-plus-supplied-creak-9min-v2.flac",
+      "bytes": 77862392,
+      "sha256": "56ea362e87b4a846d8922a54705537274cf2c7358e108c11e5041a2f287303a7"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v2/Snowline-B-plus-supplied-creak-9min-v2.mp3",
+      "bytes": 12961196,
+      "sha256": "5a606eeb4395d5527f1e7a9a47a65d0d40602c1eee8bf273010f0fac03549594"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v2/Snowline-supplied-creak-stem-9min-v2.flac",
+      "bytes": 1117580,
+      "sha256": "88acda1652428ca481936a557edcfaf84dd525a59bb4aed5b88cc203e5e7af1f"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v2/meter/loudness-log.txt",
+      "bytes": 1170,
+      "sha256": "a2b2849d48e53db0776506a619496b0bb323d44127135eca13a0875885c6fc1d"
+    },
+    {
+      "path": "exports/sfx/snowline-creak-2026-11-03/audition-v2/recipe.json",
+      "bytes": 3275,
+      "sha256": "9e23f35027e928cc2d8c9b1f0030cd1dc2d988bf1723119bd66b67acd2b030c2"
+    }
+  ],
+  "builder_sha256": "bdb903e3786997e34c239f8de53d7d354399db4a5cf0629072dfa6ec94babd93",
+  "restore_script_sha256": "7300b45161d85e8dac88cdd5434d54e6a9aaa9e508a8954f9af8e6268459a2fe",
+  "older_dependency_checkpoint": "music/snowline-sound-design-2026-11-02/media-manifest.json"
+}

@@ -1,5 +1,9 @@
 # 13 — Below the Snowline
 
+[Current audio handoff and complete media backup](../../music/snowline-sound-design-2026-11-03/RESUME.md) includes two-hour V5, supplied creak, sparse radio and revised wind; full-session listening remains pending.
+
+**Audio update2026-11-03:** [the two-hour soundtrack and current SFX settings](../../creative/music/sound-design/receiver-2026-11-02/README.md#current-two-hour-mix--2026-11-03) are delivered locally, with complete decode/source checks and full listening review pending. This is audio only. The September packaging checkpoint below is historical; consult latest scene/branch records for later ice-planet art/animation before assembly.
+
 Prepared 2026-09-29. The user selected the current v2 concept for release packaging. User approved the presented package on 2026-09-29: "love it, commit and push everyting". Preserve the approved thumbnail v1. Publication copy remains ready for soundtrack/runtime details once produced. No animation or audio exists for this package.
 
 - Clean source: [artwork-v2.png](artwork-v2.png), a byte-identical copy of creative concept 19-below-the-snowline/concept-v2.png.

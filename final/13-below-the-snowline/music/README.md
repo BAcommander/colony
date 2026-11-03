@@ -1,5 +1,11 @@
 # 13 — Below the Snowline soundtrack preparation
 
+[Current audio handoff and complete media backup](../../../music/snowline-sound-design-2026-11-03/RESUME.md) includes two-hour V5, supplied creak, sparse radio and revised wind; full-session listening remains pending.
+
+Latest full soundtrack is [V5, two hours](../../../creative/music/sound-design/receiver-2026-11-02/README.md#current-two-hour-mix--2026-11-03): selected wind+2dB/radio-1.5dB test balance is applied, retaining current V4 creaks and original timing. Complete source/mix/MP3 checks pass; full-session listening and video assembly remain pending. The older preparation notes below are historical.
+
+**Current audio2026-11-03:** the approved nine-minute paired music restored from the November1 production branch now underlies a delivered two-hour Snowline mix. [Current audio, SFX working settings and exact delivery checks](../../../creative/music/sound-design/receiver-2026-11-02/README.md#current-two-hour-mix--2026-11-03) record the latest user-requested sparse radio, stronger wind crests and another10%creak increase. Full two-hour listening/video review remains pending. The V3 preparation text below is historical; supplied audio does not establish the exact executed prompt/model/settings, and this note does not regenerate music or change canonical prompt bytes.
+
 V3 prepared 2026-10-30 after ambient-practice research and the user's listening ratings, for the confirmed November lineup. Proposed musical direction only; no V3 audio generated, evaluated or approved. V1/V2 from 2026-09-29 remain history. [Research and month pack](../../../creative/music/november-2026/README.md).
 
 Read [the shared music workflow](../../../creative/MUSIC_WORKFLOW.md). The user runs any ElevenLabs generations manually after checking the actual displayed cost and available controls. Do not use a paid API or plugin.

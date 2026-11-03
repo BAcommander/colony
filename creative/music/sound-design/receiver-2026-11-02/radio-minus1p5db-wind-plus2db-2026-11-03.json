@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-03",
+  "user_request": "can we try another 0.5 down on the radio",
+  "parent_review": "exports/13-below-the-snowline/level-tests/radio-minus1db-wind-plus2db-v1/review.json",
+  "parent_review_sha256": "6daf4d7aba1c120de7c972ae52507241127df2bed406f58b18d517e3ab360589",
+  "source_window_seconds": [
+    195.0,
+    255.0
+  ],
+  "seconds": 60.0,
+  "radio_increment_db_vs_previous_review": -0.5,
+  "radio_total_increment_db_vs_v4": -1.5,
+  "radio_amplitude_multiplier": 0.9440608762859234,
+  "wind_increment_db_vs_v4": 2.0,
+  "wind_creak_music_ventilation_and_all_timings_unchanged": true,
+  "whole_listening_gain_db": 0.3999999999999986,
+  "independent_normalization": false,
+  "events_in_window": {
+    "radio": [
+      {
+        "start_in_clip_seconds": 9.569104166666676,
+        "end_in_clip_seconds": 16.200583333333327,
+        "voice_at_clip_seconds": 10.0,
+        "acknowledgement": {
+          "frequency_hz": 680,
+          "double": true,
+          "offset_seconds": 6.302208333333334
+        }
+      }
+    ],
+    "wind": [
+      {
+        "start_in_clip_seconds": -7.0,
+        "end_in_clip_seconds": 65.0,
+        "fade_in_ends_in_clip_seconds": 7.0,
+        "fade_out_starts_in_clip_seconds": 46.0
+      }
+    ],
+    "creaks": []
+  },
+  "radio_voice_at_clip_seconds": [
+    10.0
+  ],
+  "wind_full_outer_envelope_seconds": [
+    [
+      7.0,
+      46.0
+    ]
+  ],
+  "radio_component_file": "exports/13-below-the-snowline/level-tests/radio-minus1p5db-wind-plus2db-v1/radio-adjusted.flac",
+  "unfaded_excerpt_file": "exports/13-below-the-snowline/level-tests/radio-minus1p5db-wind-plus2db-v1/radio-adjusted-unfaded-context.flac",
+  "validation": {
+    "frames": 2880000,
+    "max_radio_gain_error": 1.1908297455412442e-07,
+    "radio_only_delta_error": 0.0,
+    "max_mix_change_outside_radio": 0.0,
+    "lossless_reference_playback_gain_error": 1.190389579590681e-07
+  },
+  "outputs": [
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.04478716850280762,
+      "finite": true,
+      "sha256": "4dc983cc831fcd1062e9a5cd14356cf6d55271edce41d25e9c85889e791ce8e3",
+      "bytes": 781375,
+      "file": "radio-adjusted.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.3570396900177002,
+      "finite": true,
+      "sha256": "2c373405eaa89cf696463f02ac781d7f8424b83c1c8286cc903c5e315189fc3a",
+      "bytes": 9043809,
+      "file": "radio-adjusted-unfaded-context.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.37386655807495117,
+      "finite": true,
+      "sha256": "0c35bddc3cfca605239946e2f4bc7616139db3c23e90fffbf4c065053c61b7c6",
+      "bytes": 9092014,
+      "file": "Radio-minus1p5dB-in-context-60s.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.3628215193748474,
+      "finite": true,
+      "sha256": "ffa67d57cc1fc5d2f3fd52a01429899eb67e27a45e497750dc15367ea21cbaf8",
+      "bytes": 1441196,
+      "file": "Radio-minus1p5dB-in-context-60s.mp3"
+    }
+  ],
+  "measured_excerpt_loudness": {
+    "integrated_lufs": -22.2,
+    "loudness_range_lu": 5.4,
+    "true_peak_dbtp": -8.8
+  },
+  "full_two_hour_mix_updated": false,
+  "assistant_listening": false,
+  "user_verdict": null,
+  "implementation_sha256": "da7cd5de8810342f19ccaf3ecda8fe95afb442522071efd4e5de9b2fc2a19ef2",
+  "implementation_snapshot": "creative/music/sound-design/receiver-2026-11-02/history/audition-radio-gain-through-minus1p5.py",
+  "display_filename_note": "Byte-identical aliases name the cumulative-1.5dB radio setting; audio not reprocessed."
+}

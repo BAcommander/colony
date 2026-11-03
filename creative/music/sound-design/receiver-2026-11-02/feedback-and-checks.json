@@ -113,9 +113,452 @@
     "creak_state": "Needs revision, not accepted"
   },
   "elevenlabs_creak_next_step": {
-    "status": "Prompt/settings prepared; generation/output pending user manual workflow",
+    "status": "User supplies one MP3 on Nov3; source preserved and controlled D audition rendered; listening selection pending",
     "prompt": "elevenlabs-settling-creak-v1.txt",
     "snow_prompt_separate_optional": true,
-    "credits_spent": 0
+    "credits_spent": 0,
+    "supplied_source_record": "supplied-creak-audition-2026-11-03.json",
+    "actual_prompt_model_settings_and_user_generation_cost": null
+  },
+  "supplied_creak_audition_2026_11_03": {
+    "user_message_verbatim": "ehres your creek sfx",
+    "source_sha256": "8d126f0c72a3b2e991ba7e56347da2364d191823c12077d0e61d3eccf77f8ea6",
+    "decoded_seconds": 4,
+    "base": "B wind-variation-only test, unchanged at unity",
+    "positions_seconds": [
+      91,
+      338
+    ],
+    "same_supplied_take_used_twice": true,
+    "placement": "right then left; balance and gain only, short source-edge fades",
+    "actual_source_gains_db": [
+      -16.00671184318266,
+      -16.804393062991224
+    ],
+    "full_mp3_lufs": -23,
+    "preview_gain_held_fixed_to_B": true,
+    "full_frames_checked": 25920000,
+    "max_recipe_difference": 0,
+    "max_difference_outside_events": 0,
+    "fully_decoded_outputs": 10,
+    "approved_v2_preset_replaced": false,
+    "wind_variant_preference": "unknown",
+    "assistant_listening": false,
+    "user_selection": null,
+    "new_paid_calls_by_assistant": 0,
+    "source_model_prompt_cost": "not supplied",
+    "new_media_backup": "Local exports; not part of Nov2 Git LFS archive",
+    "user_feedback_verbatim": "i think it could be like 10% louder"
+  },
+  "supplied_creak_gain_v2_2026_11_03": {
+    "user_feedback_verbatim": "i think it could be like 10% louder",
+    "amplitude_multiplier": 1.1,
+    "change_db": 0.8278537031645016,
+    "only_creak_changed": true,
+    "timing_and_balance_preserved": true,
+    "listening_gain_preserved_db": 0.3999999999999986,
+    "validation": {
+      "files_fully_decoded": 5,
+      "gain_check": {
+        "frames": 25920000,
+        "amplitude_multiplier": 1.1,
+        "max_gain_error": 1.0728836059847868e-07
+      },
+      "mix_check": {
+        "frames": 25920000,
+        "max_recipe_error": 0.0,
+        "max_outside_event_difference": 0.0
+      }
+    },
+    "recipe": "supplied-creak-gain-v2-2026-11-03.json",
+    "user_revised_level_verdict": null,
+    "approved_environment_v2_replaced": false,
+    "assistant_listening": false
+  },
+  "radio_wind_density_2026_11_03": {
+    "user_feedback_verbatim": "the radio chatter seems too frequent maybe and the wind not frequent enough, and you break down how they currently work for me",
+    "status": "Current radio density feels too frequent; wind not frequent enough; explanation requested",
+    "source_record": "radio-wind-density-review-2026-11-03.json",
+    "current_calls": 14,
+    "current_wind_passages": 4,
+    "schedule_changed": false,
+    "proposed_next_test": "7radio calls,6wind passages, shorter wind-off gaps; peak and other source levels held fixed",
+    "new_test_rendered": true,
+    "superseded_proposed_9min_density": "User now requests18min and chatter every2-3min; actual new arrangement has7calls/18min and12wind passages",
+    "current_trial_record": "recipe-18min-sparse-radio-2026-11-03.json"
+  },
+  "session_18min_2026_11_03": {
+    "user_request_verbatim": "ok can we try a new mix, that when the wind reaches maximum it's like a bit louder, can we cut the chatter down to about once every 2-3 minutes, and can we make an 18 minute version i can listen to next?",
+    "state": "Rendered and technically checked; user18-minute listening review pending",
+    "seconds": 1080,
+    "radio_calls": 7,
+    "voice_intervals_seconds": [
+      158,
+      149,
+      168,
+      137,
+      176,
+      152
+    ],
+    "wind_passages": 12,
+    "wind_off_gaps_seconds": [
+      27,
+      23,
+      28,
+      25,
+      31,
+      24,
+      26,
+      22,
+      30,
+      25,
+      24
+    ],
+    "wind_peak_region_multiplier": 1.1,
+    "wind_peak_lift_interpretation": "Assistant chooses10% amplitude near full envelope as the initial meaning of a bit louder; not yet accepted",
+    "wind_scheduled_coverage_seconds": 767,
+    "creaks": 4,
+    "previous_creak10percent_increase_retained": true,
+    "whole_mix_gain_unchanged_db": 0.3999999999999986,
+    "audio_checks": {
+      "music_repeat": {
+        "frames": 51840000,
+        "exact_two_copies": true,
+        "max_sample_difference": 0.0
+      },
+      "ventilation_repeat": {
+        "frames": 51840000,
+        "exact_two_copies": true,
+        "max_sample_difference": 0.0
+      },
+      "radio_silence": {
+        "frames": 51840000,
+        "max_signal_outside_events": 0.0
+      },
+      "creak_silence": {
+        "frames": 51840000,
+        "max_signal_outside_events": 0.0
+      },
+      "wind_peak_gain": {
+        "frames": 51840000,
+        "max_gain_error": 1.189764222871148e-07,
+        "max_quieter_buildup_difference": 0.0,
+        "max_multiplier": 1.1
+      },
+      "complete_mix": {
+        "frames": 51840000,
+        "max_sum_error": 0.0,
+        "source_gains": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "loudness": {
+      "integrated_lufs": -23.0,
+      "loudness_range_lu": 10.5,
+      "true_peak_dbtp": -8.1
+    },
+    "assistant_listening": false,
+    "user_review": null,
+    "approved_preset_replaced": false,
+    "new_media_backup": "Local exports; outside November2 archive",
+    "recipe": "recipe-18min-sparse-radio-2026-11-03.json"
+  },
+  "two_hour_2026_11_03": {
+    "user_request_verbatim": "can the creaks be 10% lounder and can we make a full 2 hour mix",
+    "status": "User authorizes latest18-minute direction for a two-hour extension, with another10%creak increase. Delivery checks passed; full listening verdict pending.",
+    "seconds": 7200,
+    "recipe": "two-hour-delivery-2026-11-03.json",
+    "working_preset": "snowline-working-mix-current.json",
+    "radio_calls": 47,
+    "radio_interval_seconds": [
+      122,
+      176
+    ],
+    "wind_passages": 80,
+    "creaks": 24,
+    "creak_multiplier_vs18min": 1.1,
+    "cumulative_creak_multiplier_vs_initial_supplied_audition": 1.21,
+    "validation": {
+      "frames": 345600000,
+      "seconds": 7200.0,
+      "max_five_stem_sum_error": 0.0,
+      "all_stem_pcm_hashes_match_source_plan": true,
+      "all_samples_finite": true,
+      "sample_peaks": [
+        0.3701552152633667,
+        0.07863223552703857,
+        0.12746119499206543,
+        0.02852475643157959,
+        0.04817080497741699,
+        0.40616869926452637
+      ],
+      "pcm_sha256": [
+        "90d6bf82980f40bedb5d881bc022c49c6b91d404fe0a2e2bfa89cc9945d495a7",
+        "4fda7ef064b6facd2b107e04b3990efd111dbf7d0660d41b39cfd3614ab0c9f8",
+        "ff5349e26e4ab457ed8afdca3b9e6795b278239b27e0430afcb4c6d19e7c452a",
+        "5ba1ebaddf6fabfb51391a27c16ef10138e832c8d3a2c5b2cd629090520e544d",
+        "79d131b9e83be8f32d6345ea9e3470b4953ef550a1cfefb3614597296353f210",
+        "71ff15c5bda1c82ef9a1781c1f0023024bec6e0915057da961d3af180f2bb347"
+      ],
+      "opening18min_creak_only_change": {
+        "frames": 51840000,
+        "max_creak_only_revision_error": 0.0,
+        "max_change_outside_creaks": 0.0
+      },
+      "creak_gain": {
+        "frames": 51840000,
+        "amplitude_multiplier": 1.1,
+        "max_gain_error": 1.0728836059847868e-07
+      }
+    },
+    "mp3_check": {
+      "frames": 345600000,
+      "seconds": 7200.0,
+      "sample_peak": 0.4126041531562805,
+      "finite": true,
+      "sha256": "231114bcc900318e102b4ee0424e2cda4d358e35dde5fac16f0d574cf9bb5906",
+      "bytes": 172801196
+    },
+    "loudness": {
+      "integrated_lufs": -23.1,
+      "loudness_range_lu": 10.5,
+      "true_peak_dbtp": -7.7
+    },
+    "full_user_review": null,
+    "assistant_listening": false,
+    "new_video": false,
+    "new_media_remote_backup": false
+  },
+  "two_hour_creak_plus1db_v2_2026_11_03": {
+    "user_feedback_verbatim": "creak still is too quiet, go up another db",
+    "gain_db": 1,
+    "amplitude_multiplier": 1.1220184543019633,
+    "recipe": "two-hour-creak-plus1db-v2-2026-11-03.json",
+    "same_radio_wind_music_ventilation_and_event_timing": true,
+    "validation": {
+      "frames": 345600000,
+      "all_samples_finite": true,
+      "amplitude_multiplier": 1.1220184543019633,
+      "max_creak_gain_error": 1.1898437762922903e-07,
+      "max_creak_only_mix_error": 0.0,
+      "max_mix_difference_outside_creaks": 0.0,
+      "lossless_mix_sample_peak": 0.40616869926452637
+    },
+    "user_revised_level_verdict": null,
+    "assistant_listening": false,
+    "current_delivery": {
+      "file": "exports/13-below-the-snowline/audio-2h-v2/Below-the-Snowline-2-Hours-v2.mp3",
+      "sha256": "cabbed6a2281fbf10bf5e9028d8cb8fc147dbec10d84ea167f418e950b358990",
+      "listening_gain_db": 0.4,
+      "opening_fade": false,
+      "closing_fade_seconds": 20
+    },
+    "user_followup_verbatim": "yeah that seems better, but go another 1 dec louder",
+    "comparative_verdict": "Seems better; user requests another1dB. No full-session acceptance inferred."
+  },
+  "two_hour_creak_plus1db_v3_2026_11_03": {
+    "user_feedback_verbatim": "yeah that seems better, but go another 1 dec louder",
+    "interpreted_increment_db": 1,
+    "increment_reference": "Two-hour V2",
+    "recipe": "two-hour-creak-plus1db-v3-2026-11-03.json",
+    "validation": {
+      "frames": 345600000,
+      "all_samples_finite": true,
+      "amplitude_multiplier": 1.1220184543019633,
+      "max_creak_gain_error": 1.1898437762922903e-07,
+      "max_creak_only_mix_error": 0.0,
+      "max_mix_difference_outside_creaks": 0.0,
+      "lossless_mix_sample_peak": 0.40616869926452637
+    },
+    "loudness": {
+      "integrated_lufs": -23.1,
+      "loudness_range_lu": 10.5,
+      "true_peak_dbtp": -7.7
+    },
+    "user_revised_level_verdict": null,
+    "assistant_listening": false,
+    "current_delivery": {
+      "file": "exports/13-below-the-snowline/audio-2h-v3/Below-the-Snowline-2-Hours-v3.mp3",
+      "sha256": "de01b3a4b1540c42eb00536b140d2276aa1fd305a2f8e03d887b7d16ef3140ef",
+      "listening_gain_db": 0.4,
+      "opening_fade": false,
+      "closing_fade_seconds": 20
+    }
+  },
+  "two_hour_creak_plus2db_v4_2026_11_03": {
+    "user_feedback_verbatim": "lets do another +2db on the creak, then give me a section with wind to figure out the levels",
+    "increment_db": 2,
+    "reference": "Two-hour V3",
+    "recipe": "two-hour-creak-plus2db-v4-2026-11-03.json",
+    "validation": {
+      "frames": 345600000,
+      "all_samples_finite": true,
+      "amplitude_multiplier": 1.2589254117941673,
+      "max_creak_gain_error": 1.1912416046644392e-07,
+      "max_creak_only_mix_error": 0.0,
+      "max_mix_difference_outside_creaks": 0.0,
+      "lossless_mix_sample_peak": 0.40616869926452637
+    },
+    "loudness": {
+      "integrated_lufs": -23.1,
+      "loudness_range_lu": 10.5,
+      "true_peak_dbtp": -7.7
+    },
+    "wind_review_record": "wind-creak-level-check-v4-2026-11-03.json",
+    "wind_changed": false,
+    "user_revised_level_verdict": null,
+    "assistant_listening": false,
+    "current_delivery": {
+      "file": "exports/13-below-the-snowline/audio-2h-v4/Below-the-Snowline-2-Hours-v4.mp3",
+      "sha256": "15745a9441b8d9770c66bf9326cc78662bdb8b8f18339ac669f94922a5c99afa",
+      "listening_gain_db": 0.4,
+      "opening_fade": false,
+      "closing_fade_seconds": 20
+    }
+  },
+  "wind_plus2db_level_test_2026_11_03": {
+    "user_feedback_verbatim": "lets do +2 db on the wind and try the same 1 minute sample again",
+    "wind_increment_db": 2,
+    "same_one_minute_window": true,
+    "other_layers_unchanged": true,
+    "review_record": "wind-plus2db-level-test-2026-11-03.json",
+    "validation": {
+      "frames": 2880000,
+      "old_source_sum_error": 0.0,
+      "wind_gain_error": 1.1912416046644392e-07,
+      "wind_only_mix_delta_error": 0.0,
+      "lossless_reference_playback_gain_error": 1.190389579590681e-07
+    },
+    "measured_excerpt_loudness": {
+      "integrated_lufs": -24.7,
+      "loudness_range_lu": 9.5,
+      "true_peak_dbtp": -8.5
+    },
+    "full_two_hour_update": false,
+    "user_balance_verdict": null,
+    "assistant_listening": false
+  },
+  "radio_context_2026_11_03": {
+    "user_request_verbatim": "now finally let me hear a section with radio chatter",
+    "record": "radio-context-wind-plus2db-2026-11-03.json",
+    "current_radio_gain_preserved": true,
+    "current_wind_test_gain_db": 2,
+    "seconds": 60,
+    "radio_voice_seconds": [
+      10
+    ],
+    "full_two_hour_updated": false,
+    "validation": {
+      "frames": 2880000,
+      "old_source_sum_error": 0.0,
+      "wind_gain_error": 1.1912416046644392e-07,
+      "wind_only_mix_delta_error": 0.0,
+      "lossless_reference_playback_gain_error": 1.190389579590681e-07
+    },
+    "assistant_listening": false,
+    "user_verdict": null
+  },
+  "radio_minus1db_2026_11_03": {
+    "user_feedback_verbatim": "can the radio be 1 db quieter",
+    "radio_increment_db": -1,
+    "same_window": true,
+    "wind_gain_vs_v4_db": 2,
+    "creak_music_ventilation_and_timing_unchanged": true,
+    "review_record": "radio-minus1db-wind-plus2db-2026-11-03.json",
+    "validation": {
+      "frames": 2880000,
+      "max_radio_gain_error": 1.19229562592707e-07,
+      "radio_only_delta_error": 0.0,
+      "max_mix_change_outside_radio": 0.0,
+      "lossless_reference_playback_gain_error": 1.190389579590681e-07
+    },
+    "full_two_hour_updated": false,
+    "user_verdict": null,
+    "assistant_listening": false
+  },
+  "radio_minus1p5db_2026_11_03": {
+    "user_feedback_verbatim": "can we try another 0.5 down on the radio",
+    "radio_latest_increment_db": -0.5,
+    "radio_total_gain_vs_v4_db": -1.5,
+    "wind_gain_vs_v4_db": 2,
+    "same_window_and_other_layers": true,
+    "review_record": "radio-minus1p5db-wind-plus2db-2026-11-03.json",
+    "validation": {
+      "frames": 2880000,
+      "max_radio_gain_error": 1.1908297455412442e-07,
+      "radio_only_delta_error": 0.0,
+      "max_mix_change_outside_radio": 0.0,
+      "lossless_reference_playback_gain_error": 1.190389579590681e-07
+    },
+    "full_two_hour_updated": false,
+    "user_verdict": null,
+    "assistant_listening": false
+  },
+  "full_two_hour_balanced_v5_2026_11_03": {
+    "user_request_verbatim": "so can we get the full 2 hour mix now?",
+    "status": "User requests full mix after the level tests; selected settings implemented, full-session verdict pending",
+    "wind_gain_vs_v4_db": 2,
+    "radio_gain_vs_v4_db": -1.5,
+    "creaks_unchanged_from_v4": true,
+    "recipe": "two-hour-balanced-v5-2026-11-03.json",
+    "validation": {
+      "frames": 345600000,
+      "seconds": 7200.0,
+      "all_samples_finite": true,
+      "max_radio_minus1db_error": 1.1930725994646618e-07,
+      "max_radio_additional_minus0p5db_error": 1.1908297455412442e-07,
+      "max_wind_plus2db_error": 1.1912416046644392e-07,
+      "max_radio_or_wind_signal_outside_original_windows": 0.0,
+      "max_five_stem_sum_error": 0.0,
+      "sample_peaks": [
+        0.3701552152633667,
+        0.06616091728210449,
+        0.16046416759490967,
+        0.02852475643157959,
+        0.07634532451629639,
+        0.07863223552703857,
+        0.07008111476898193,
+        0.12746119499206543,
+        0.41316354274749756
+      ]
+    },
+    "exact_reference_excerpt_matches": [
+      {
+        "source_start_seconds": 195,
+        "seconds": 60,
+        "reference": "exports/13-below-the-snowline/level-tests/radio-minus1p5db-wind-plus2db-v1/radio-adjusted-unfaded-context.flac",
+        "reference_sha256": "2c373405eaa89cf696463f02ac781d7f8424b83c1c8286cc903c5e315189fc3a",
+        "max_sample_error": 0.0
+      },
+      {
+        "source_start_seconds": 1615,
+        "seconds": 60,
+        "reference": "exports/13-below-the-snowline/level-tests/wind-plus2db-v1/same-minute-wind-adjusted-unfaded.flac",
+        "reference_sha256": "823365dcf0aebea6e836ba38ec5e855b180c2e45928ebe2a7c6dd6d798adcd97",
+        "max_sample_error": 0.0
+      }
+    ],
+    "mp3_check": {
+      "frames": 345600000,
+      "seconds": 7200.0,
+      "sample_peak": 0.41927775740623474,
+      "finite": true,
+      "sha256": "aa19b58ed32c32bad07d7b19973f1bac615f8a4441ce54c0c8783f44b42d2d3e",
+      "bytes": 172801196
+    },
+    "loudness": {
+      "integrated_lufs": -23.1,
+      "loudness_range_lu": 10.2,
+      "true_peak_dbtp": -7.5
+    },
+    "full_user_verdict": null,
+    "assistant_listening": false,
+    "new_video": false,
+    "new_media_remote_backup": false
   }
 }

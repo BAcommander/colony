@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-03",
+  "user_feedback_verbatim": "the radio chatter seems too frequent maybe and the wind not frequent enough, and you break down how they currently work for me",
+  "current_audition": "exports/sfx/snowline-creak-2026-11-03/audition-v2/",
+  "audition_actually_heard": "Not specified: user may be judging the90-second preview or full9-minute file",
+  "radio": {
+    "calls": 14,
+    "voice_durations_seconds_range": [
+      3.3428958333333334,
+      6.4277291666666665
+    ],
+    "packet_seconds_range": [
+      4.0543124999999804,
+      7.394708333333327
+    ],
+    "total_packet_seconds": 80.20997916666663,
+    "quiet_gap_range_seconds": [
+      18.027997091351835,
+      58.122140043902505
+    ],
+    "voice_onset_interval_mean_seconds": 37.353639329751196,
+    "voice_onsets_seconds": [
+      23.83089453634945,
+      66.12974586035394,
+      109.04559204164774,
+      134.43880963577348,
+      173.76615308355537,
+      236.51193002574638,
+      277.07724932730906,
+      313.09883384138743,
+      357.20295039899975,
+      386.3770166704107,
+      409.05556646910014,
+      442.3283230354183,
+      469.4536306295266,
+      509.42820582311504
+    ],
+    "acknowledgement_packets": 5,
+    "prearranged_and_baked": true,
+    "live_randomisation": false,
+    "radio_silent_fraction": 0.8514630015432099
+  },
+  "wind": {
+    "passages": [
+      {
+        "start_seconds": 42.0,
+        "duration_seconds": 72.0,
+        "fade_in_seconds": 12.0,
+        "fade_out_seconds": 16.0
+      },
+      {
+        "start_seconds": 169.0,
+        "duration_seconds": 58.0,
+        "fade_in_seconds": 11.0,
+        "fade_out_seconds": 17.0
+      },
+      {
+        "start_seconds": 298.0,
+        "duration_seconds": 83.0,
+        "fade_in_seconds": 15.0,
+        "fade_out_seconds": 20.0
+      },
+      {
+        "start_seconds": 438.0,
+        "duration_seconds": 69.0,
+        "fade_in_seconds": 12.0,
+        "fade_out_seconds": 19.0
+      }
+    ],
+    "scheduled_total_seconds": 282,
+    "scheduled_percent_of_9_minutes": 52.22222222222223,
+    "total_seconds_outside_entrance_exit_fades": 160,
+    "outside_fades_percent": 29.629629629629626,
+    "off_gaps_seconds": [
+      55,
+      71,
+      57
+    ],
+    "initial_silence_seconds": 42,
+    "final_silence_seconds": 33,
+    "internal_texture": "B uses unequal overlapping9-14s sections from sole30-second original",
+    "four_passage_timing_unchanged_by_texture_revision": true,
+    "filter": "Second-order1800Hz low-pass; closed-glazing approximation",
+    "audible_duration_not_established_by_schedule": true
+  },
+  "preview": {
+    "source_start_seconds": 54,
+    "seconds": 90,
+    "radio_voice_onsets_seconds_within_preview": [
+      12.129745860353935,
+      55.04559204164774,
+      80.43880963577348
+    ],
+    "wind_from_preview_start_until_seconds": 60,
+    "wind_silent_final_seconds": 30
+  },
+  "other_layers": {
+    "ventilation": "Continuous quiet interior air throughout540s",
+    "creaks": {
+      "times_seconds": [
+        91,
+        338
+      ],
+      "same_take_used_twice": true,
+      "latest_amplitude_multiplier_vs_first_supplied_audition": 1.1
+    }
+  },
+  "interpretation": "User reports radio too frequent and wind not frequent enough. Many short entrances can be intrusive even though the radio stem is silent85% of the time; wind coverage includes long fades. This is a scene-specific listening hypothesis, not assistant listening.",
+  "proposed_next_test": {
+    "state": "Proposed only; no audio altered by breakdown",
+    "radio_calls": 7,
+    "wind_passages": 6,
+    "wind_quiet_gaps_seconds_range": [
+      20,
+      35
+    ],
+    "keep_peak_levels_and_music_ventilation_creak_gains_fixed": true,
+    "scope": "Test event density separately from gain; exact new durations/times require a fitting arrangement"
+  },
+  "audio_changed": false,
+  "assistant_listening": false,
+  "user_acceptance_of_current_density": false
+}

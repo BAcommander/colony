@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-03",
+  "scene": "Below the Snowline",
+  "status": "Full two-hour V5 delivered with the tested wind+2dB/radio-1.5dB balance and V4 creaks; full-session listening review pending",
+  "authorization_verbatim": "so can we get the full 2 hour mix now?",
+  "recipe": "two-hour-balanced-v5-2026-11-03.json",
+  "duration_seconds": 7200,
+  "mp3": {
+    "file": "exports/13-below-the-snowline/audio-2h-v5/Below-the-Snowline-2-Hours-v5.mp3",
+    "sha256": "aa19b58ed32c32bad07d7b19973f1bac615f8a4441ce54c0c8783f44b42d2d3e",
+    "listening_gain_db": 0.4,
+    "opening_fade": false,
+    "closing_fade_seconds": 20
+  },
+  "lossless_assembly_master": {
+    "file": "exports/13-below-the-snowline/audio-2h-v5/Below-the-Snowline-2-Hours-unfaded-master-v5.flac",
+    "sha256": "4b4843823fbd032e3368f6945d94a600b8b97062b56779b15f9f48b3953b60c4",
+    "gain_basis": "Unity music/radio/wind/vent/creak stems, without the listening copy+0.4dB gain",
+    "opening_or_closing_fades": false,
+    "assembly": "To match the listening level, apply+0.4dB once. Apply the current intro entrance and closing fade once during assembly; no second SFX overlay."
+  },
+  "radio": {
+    "count": 47,
+    "voice_onset_intervals_seconds": [
+      122,
+      176
+    ],
+    "source_phrases": 14,
+    "full_source_rms_normalization": false,
+    "base_packet_gain_before_balance": 0.2498415319125578,
+    "gain_db_vs_v4": -1.5,
+    "gain_steps_db": [
+      -1,
+      -0.5
+    ],
+    "effective_packet_gain_analytical": 0.21021545113241913
+  },
+  "wind": {
+    "passages": 80,
+    "off_gaps_seconds": [
+      22,
+      31
+    ],
+    "peak_region_extra_amplitude_multiplier": 1.1,
+    "same_single_original_recording": true,
+    "overall_gain_db_vs_v4": 2,
+    "overall_amplitude_multiplier": 1.2589254117941673
+  },
+  "creaks": {
+    "count": 24,
+    "additional_multiplier_vs18min": 1.743382511707225,
+    "cumulative_multiplier_vs_first_supplied_audition": 1.9177207628779473,
+    "source_take_count": 1,
+    "additional_gain_db_vs_two_hour_v1": 4,
+    "additional_multiplier_vs_two_hour_v1": 1.5848931924611136,
+    "latest_increment_db": 2,
+    "latest_increment_reference": "Two-hour V3"
+  },
+  "source_music_repeat_seconds": 540,
+  "composite_effect_schedule_repeat": false,
+  "prior_approved_balance_reference": "snowline-ambience-preset-current.json",
+  "prior_accepted_assets_preserved": true,
+  "new_paid_calls": 0,
+  "assistant_listening": false,
+  "full_two_hour_user_verdict": null,
+  "backup_scope": "All November3 exports packaged in music/snowline-sound-design-2026-11-03; exact original creak in music/sfx-library/assets/creak-painted-steel-frame-01.mp3. See backup-verification.json for remote evidence; November2 dependency archive unchanged.",
+  "pending_adjustments": {},
+  "selected_review_records": [
+    "wind-plus2db-level-test-2026-11-03.json",
+    "radio-minus1p5db-wind-plus2db-2026-11-03.json"
+  ],
+  "applied_review_settings": {
+    "wind_gain_db_vs_v4": 2,
+    "radio_gain_db_vs_v4": -1.5,
+    "creaks_vs_v4_db": 0,
+    "applied_to_full_two_hour_mix": true,
+    "authorized_by_full_mix_request": true,
+    "reference_excerpt_max_sample_errors": [
+      0.0,
+      0.0
+    ]
+  },
+  "listening_loudness": {
+    "integrated_lufs": -23.1,
+    "loudness_range_lu": 10.2,
+    "true_peak_dbtp": -7.5
+  },
+  "reuse_notes": "REUSE.md"
+}

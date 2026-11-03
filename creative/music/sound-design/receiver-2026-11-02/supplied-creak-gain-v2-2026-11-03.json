@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-03",
+  "user_feedback_verbatim": "i think it could be like 10% louder",
+  "change": "Only creak stem amplitude multiplied; same source, timing, balance and B base",
+  "creak_amplitude_multiplier": 1.1,
+  "creak_change_db": 0.8278537031645016,
+  "prior_recipe_file": "C:\\Colony\\exports\\sfx\\snowline-creak-2026-11-03\\audition-v1\\recipe.json",
+  "prior_recipe_sha256": "6939313b313bcd440f8efc88c7d1e0be0d715f44314283b9ba81467a194ff854",
+  "prior_stem_file": "C:\\Colony\\exports\\sfx\\snowline-creak-2026-11-03\\audition-v1\\Snowline-supplied-creak-stem-9min-v1.flac",
+  "prior_stem_sha256": "2c9e7ad07239233e0dc56b8e2975c545cd7ee1530751dccec9614eab7686494a",
+  "base": {
+    "file": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\wind-creak-test-v2\\B-wind-only\\Snowline-wind-variation-9min-test.flac",
+    "sha256": "eba4df026d579af0cd6e2ff7dd671713b45a3ba03873e3cb46550d9ab6a478cc",
+    "gain": 1
+  },
+  "event_positions_seconds": [
+    91.0,
+    338.0
+  ],
+  "listening_copy_gain_db": 0.3999999999999986,
+  "whole_mix_renormalized": false,
+  "preview": {
+    "start_seconds": 54,
+    "seconds": 90,
+    "creak_at_seconds": 37
+  },
+  "second_preview": {
+    "start_seconds": 326,
+    "seconds": 30,
+    "creak_at_seconds": 12
+  },
+  "gain_check": {
+    "frames": 25920000,
+    "amplitude_multiplier": 1.1,
+    "max_gain_error": 1.0728836059847868e-07
+  },
+  "mix_preservation_check": {
+    "frames": 25920000,
+    "max_recipe_error": 0.0,
+    "max_outside_event_difference": 0.0
+  },
+  "metering": {
+    "integrated_lufs": -23.0,
+    "loudness_range_lu": 10.5,
+    "true_peak_dbtp": -8.0
+  },
+  "outputs": [
+    {
+      "file": "Snowline-supplied-creak-stem-9min-v2.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.04379165172576904,
+      "sha256": "88acda1652428ca481936a557edcfaf84dd525a59bb4aed5b88cc203e5e7af1f",
+      "bytes": 1117580
+    },
+    {
+      "file": "Snowline-B-plus-supplied-creak-9min-v2.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.39277327060699463,
+      "sha256": "56ea362e87b4a846d8922a54705537274cf2c7358e108c11e5041a2f287303a7",
+      "bytes": 77862392
+    },
+    {
+      "file": "Snowline-B-plus-supplied-creak-9min-v2.mp3",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.3988495469093323,
+      "sha256": "5a606eeb4395d5527f1e7a9a47a65d0d40602c1eee8bf273010f0fac03549594",
+      "bytes": 12961196
+    },
+    {
+      "file": "D-supplied-creak-v2-90s-check.mp3",
+      "seconds": 90.0,
+      "finite": true,
+      "sample_peak": 0.36256858706474304,
+      "sha256": "6ec9ed5165fab56289c3e12bbba4e425e5f0b43a478a95002bf887ba1aa480f1",
+      "bytes": 2161196
+    },
+    {
+      "file": "D-supplied-creak-v2-second-event-30s.mp3",
+      "seconds": 30.0,
+      "finite": true,
+      "sample_peak": 0.38838064670562744,
+      "sha256": "13f46df162b36d8f47f5997df092fd6ee6e51d7b32dc27570340120bd023cb34",
+      "bytes": 721196
+    }
+  ],
+  "approved_v2_environment_replaced": false,
+  "user_v2_level_review": null,
+  "assistant_listening": false,
+  "implementation_sha256": "4c849e294723a277c480ec6b8c1ad21edc02238848eaaa2cd12bb2a47e0f30b8"
+}
