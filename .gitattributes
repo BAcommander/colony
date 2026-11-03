@@ -317,3 +317,64 @@ music/deepwell-claim-review-2026-11-02/replacement-v1/Deepwell-after-replacement
 music/deepwell-claim-review-2026-11-02/replacement-v1/Deepwell-before-replacement-75s.mp3 filter=lfs diff=lfs merge=lfs -text
 music/deepwell-claim-review-2026-11-02/replacement-v1/Deepwell-first-occurrence-after-75s.mp3 filter=lfs diff=lfs merge=lfs -text
 music/deepwell-claim-review-2026-11-02/replacement-v1/Waterworks-Gallery-reworked-source-v1.flac filter=lfs diff=lfs merge=lfs -text
+
+# Imported Snowline sound-design/media rules,2026-11-03.
+# Portable Snowline audio checkpoint and byte-bound research records.
+/music/snowline-sound-design-2026-11-02/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/snowline-sound-design-2026-11-02/snowline-session-media.zip filter=lfs diff=lfs merge=lfs -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/creative/music/sound-design/receiver-2026-11-02/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/creative/music/reference-analysis/nonmusical-2026-11-02/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/analyze_radio_texture.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/radio_texture_report.html -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/diagnose_ambient_texture.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/generate_receiver_texture.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/make_receiver_voices.ps1 -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/generate_polar_comms.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/extend_receiver_voices.ps1 -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/refine_receiver_events.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/build_snowline_radio_session.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/build_snowline_environment.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/rebalance_snowline_environment.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/render_snowline_wind_and_creaks.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/restore_snowline_session.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/test_ambient_texture.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/test_radio_texture.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/test_receiver_texture.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/test_snowline_environment.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/test_snowline_radio_session.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/test_restore_snowline_session.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve supplied packaging evidence and its exact hash records.
+/creative/packaging/2026-11-02-feed-review/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Complete November3 Snowline media backup; preserve hash-bound source bytes.
+/music/snowline-sound-design-2026-11-03/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/snowline-sound-design-2026-11-03/media-*.bin filter=lfs diff=lfs merge=lfs -text
+/scripts/restore_snowline_nov3.py -text
+/scripts/test_restore_snowline_nov3.py -text
+/scripts/audition_snowline_supplied_creak.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/rebalance_snowline_creak.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/build_snowline_18min_audition.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/build_snowline_two_hour_mix.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/adjust_snowline_two_hour_creaks.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/audition_snowline_wind_gain.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/audition_snowline_radio_gain.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/apply_snowline_final_balance.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/audition_snowline_snow_grains.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/scripts/rebalance_snowline_snow_grains.py -text
+/scripts/build_snowline_snow_two_hour_mix.py -text
+/scripts/restore_snowline_snow_session.py -text
+/scripts/test_snowline_snow_backup.py -text
+/music/snowline-snow-2026-11-03/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/snowline-snow-2026-11-03/snow-delta-*.bin filter=lfs diff=lfs merge=lfs -text
+/music/sfx-library/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/sfx-library/assets/grit-mineral-soft-01.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/sfx-library/assets/pump-distant-circulation-01.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/sfx-library/assets/rain-sheltered-gentle-01.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/sfx-library/assets/train-distant-freight-01.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/sfx-library/assets/water-soft-ripples-01.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/sfx-library/assets/wind-soft-exterior-01.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/sfx-library/previews/grit-mineral-soft-01.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/sfx-library/previews/pump-distant-circulation-01.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/sfx-library/previews/rain-sheltered-gentle-01.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/sfx-library/previews/train-distant-freight-01.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/sfx-library/previews/water-soft-ripples-01.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/sfx-library/previews/wind-soft-exterior-01.mp3 filter=lfs diff=lfs merge=lfs -text

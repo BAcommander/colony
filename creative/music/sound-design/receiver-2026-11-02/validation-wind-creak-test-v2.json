@@ -1,0 +1,54 @@
+{
+  "frames_compared": 25920000,
+  "maximum_B_minus_A_wind_replacement_error": 0.0,
+  "maximum_C_minus_B_creak_addition_error": 0.0,
+  "maximum_C_minus_B_error_while_creaks_zero": 0.0,
+  "decoded_creak_nonzero_frames": 184934,
+  "all_source_and_approved_baseline_hashes_unchanged": true,
+  "eleven_delivered_files_decode_duration_finite_peak_checks_pass": true,
+  "current_output_and_implementation_hashes_match": true,
+  "wind_passage_rms_match_db": [
+    3.409418331030895e-10,
+    -8.283090773998955e-11,
+    -7.444029445343343e-11,
+    -1.2927774016709574e-10
+  ],
+  "sampled_24s_repeat_checks": [
+    {
+      "passage_start_seconds": 42.0,
+      "sample_start_seconds": 56.0,
+      "window_seconds": 6,
+      "lag_seconds": 24,
+      "baseline_waveform_correlation": 0.9996317977459657,
+      "variant_waveform_correlation": 0.014472413002100669
+    },
+    {
+      "passage_start_seconds": 169.0,
+      "sample_start_seconds": 182.0,
+      "window_seconds": 6,
+      "lag_seconds": 24,
+      "baseline_waveform_correlation": 0.9994735158259631,
+      "variant_waveform_correlation": -0.015236603893870255
+    },
+    {
+      "passage_start_seconds": 298.0,
+      "sample_start_seconds": 315.0,
+      "window_seconds": 6,
+      "lag_seconds": 24,
+      "baseline_waveform_correlation": 0.9999205662910161,
+      "variant_waveform_correlation": 0.0037024956804054825
+    },
+    {
+      "passage_start_seconds": 438.0,
+      "sample_start_seconds": 452.0,
+      "window_seconds": 6,
+      "lag_seconds": 24,
+      "baseline_waveform_correlation": 0.9994778775521552,
+      "variant_waveform_correlation": 0.01251225265439465
+    }
+  ],
+  "limitation": "Four sampled6-second lag checks reduce confidence in the old fixed24s recurrence at those positions; they are not an exhaustive no-repetition or listening-quality proof.",
+  "approved_preset_replaced": false,
+  "user_test_selection": "pending",
+  "assistant_listening": false
+}

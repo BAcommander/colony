@@ -1,0 +1,345 @@
+{
+  "seed": 1313,
+  "seconds": 67.0,
+  "sample_rate": 48000,
+  "revision": "less static; speech cadence from local synthetic phonetic phrases; irregular soft equipment beeps",
+  "hiss_gain_relative_to_initial_stem_before_overall_gain": 0.16,
+  "carrier_gain_relative_to_initial_stem_before_overall_gain": 0.42,
+  "common_design_gain": 1.9290834186383634,
+  "events": [
+    {
+      "kind": "transmission",
+      "source": "voice-01.wav",
+      "voice": "Microsoft George",
+      "start_seconds": 4.4,
+      "duration_seconds": 4.084854166666666
+    },
+    {
+      "kind": "acknowledgement",
+      "start_seconds": 9.14952894619583,
+      "frequency_hz": 680.0,
+      "duration_seconds": 0.07266666666666667,
+      "double": false
+    },
+    {
+      "kind": "transmission",
+      "source": "voice-02.wav",
+      "voice": "Microsoft Hazel Desktop",
+      "start_seconds": 14.0,
+      "duration_seconds": 5.852375
+    },
+    {
+      "kind": "acknowledgement",
+      "start_seconds": 24.462579172760883,
+      "frequency_hz": 1020.0,
+      "duration_seconds": 0.2565208333333333,
+      "double": true
+    },
+    {
+      "kind": "transmission",
+      "source": "voice-03.wav",
+      "voice": "Microsoft George",
+      "start_seconds": 24.7,
+      "duration_seconds": 3.3428958333333334
+    },
+    {
+      "kind": "acknowledgement",
+      "start_seconds": 32.037360211771556,
+      "frequency_hz": 840.0,
+      "duration_seconds": 0.0729375,
+      "double": false
+    },
+    {
+      "kind": "transmission",
+      "source": "voice-04.wav",
+      "voice": "Microsoft Hazel Desktop",
+      "start_seconds": 35.8,
+      "duration_seconds": 6.4277291666666665
+    },
+    {
+      "kind": "transmission",
+      "source": "voice-05.wav",
+      "voice": "Microsoft George",
+      "start_seconds": 46.2,
+      "duration_seconds": 3.6794166666666666
+    },
+    {
+      "kind": "acknowledgement",
+      "start_seconds": 48.24791898659349,
+      "frequency_hz": 840.0,
+      "duration_seconds": 0.10085416666666666,
+      "double": false
+    },
+    {
+      "kind": "transmission",
+      "source": "voice-06.wav",
+      "voice": "Microsoft Hazel Desktop",
+      "start_seconds": 56.4,
+      "duration_seconds": 3.9226875
+    },
+    {
+      "kind": "acknowledgement",
+      "start_seconds": 63.79306027572292,
+      "frequency_hz": 680.0,
+      "duration_seconds": 0.21108333333333335,
+      "double": true
+    }
+  ],
+  "voice_provenance": {
+    "paid_service": false,
+    "words": "Invented phonetic phrases, no meaningful dialogue or franchise lines",
+    "sources": [
+      {
+        "file": "voice-01.wav",
+        "sha256": "95fe61443b4693820ae067169e10ad0d4b6994a2f7ede3a47596a35ca432ceaf",
+        "voice": "Microsoft George",
+        "rate": 0,
+        "text": "Vesha nara, sovek talun. Kesh varo, nesh tavan."
+      },
+      {
+        "file": "voice-02.wav",
+        "sha256": "a8d905c4bbd01e5e0a9bb0ec5a1680764fd0a6fbec48b13fa2e74e0bef65af71",
+        "voice": "Microsoft Hazel Desktop",
+        "rate": 0,
+        "text": "Sha veran. Talo nesh, mena darok. Vesh taren."
+      },
+      {
+        "file": "voice-03.wav",
+        "sha256": "48991371b8b69e52f908f78886f792f544dd35311a55c64589d7d9650a7fdfe8",
+        "voice": "Microsoft George",
+        "rate": 1,
+        "text": "Nera. Kesh valun, shora ven. Daro sovek talan."
+      },
+      {
+        "file": "voice-04.wav",
+        "sha256": "935a8dfb2ccee6514a57ab4e9b643c6bb4d4a1b048ac461131975717a5745510",
+        "voice": "Microsoft Hazel Desktop",
+        "rate": -1,
+        "text": "Sova kesh. Vena shoran, tavi melun. Nesh varo."
+      },
+      {
+        "file": "voice-05.wav",
+        "sha256": "e04c5b404430f84ec50a96105a277ba8d00a5917e371ddcadaf4a3b7ad610047",
+        "voice": "Microsoft George",
+        "rate": -1,
+        "text": "Talan veresh, nora shan. Vesha valun."
+      },
+      {
+        "file": "voice-06.wav",
+        "sha256": "a8f6d7416e755b6ee38509695c43666cb31b0f84a16dd8f740aecc93ca06de60",
+        "voice": "Microsoft Hazel Desktop",
+        "rate": 1,
+        "text": "Kora nesh, taven saro. Mena, sha vesh."
+      }
+    ],
+    "source": "Local Windows System.Speech installed voices"
+  },
+  "notes": [
+    "Original effect: no extracted reference/franchise audio or cloned voice.",
+    "Invented phonetic text avoids meaningful dialogue; perceived intelligibility/realism still needs listening.",
+    "Reference influence is the user-described static/activity/slow-tone relationship and measured dark spectral character, not a verified replica.",
+    "No assistant listening verdict or AAA-quality certification."
+  ],
+  "source_files": [
+    {
+      "path": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\v2\\static.wav",
+      "sha256": "02ba70573566c7908fa66d3ef2a82cb681661ceea9a84dbc4dbe88c7438851f2"
+    },
+    {
+      "path": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\v2\\carrier.wav",
+      "sha256": "5d0d0265ae0cacb588c5b2290fe419477f9dc2bb2f4ebb3fac054f499822582b"
+    },
+    {
+      "path": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\voices-v1\\voice-sources.json",
+      "sha256": "a4cd706874c5c5fe6c366e28603704a1879aef244d3b5d4525fcacdf4047674d"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "static.wav",
+      "seconds": 67.0,
+      "sample_peak": 0.11251664161682129,
+      "finite": true,
+      "sha256": "b70da456461d3310041734696ec2fc96e245160aadbccb718eb380cd276f758e"
+    },
+    {
+      "file": "carrier.wav",
+      "seconds": 67.0,
+      "sample_peak": 0.02170705795288086,
+      "finite": true,
+      "sha256": "54e7172aefc2f230949dad6c70663909a2ea70bbb63abb1b188be6f9376e07d1"
+    },
+    {
+      "file": "transmissions.wav",
+      "seconds": 67.0,
+      "sample_peak": 0.2888035774230957,
+      "finite": true,
+      "sha256": "39354343512f959ef8012342266e824afbe455b746edccf310e9bec9fe0301f4"
+    },
+    {
+      "file": "beeps.wav",
+      "seconds": 67.0,
+      "sample_peak": 0.022393465042114258,
+      "finite": true,
+      "sha256": "ae246a8e986307cd7921c28cc9c9a5a42670af9c9c2f8ec3e91c207123c17c1f"
+    },
+    {
+      "file": "receiver-comms.wav",
+      "seconds": 67.0,
+      "sample_peak": 0.3166466951370239,
+      "finite": true,
+      "sha256": "a41e0e2e8755e0d2ad2914345be59a1b3452c546cb898151da2110d646fbe323"
+    },
+    {
+      "file": "receiver-comms.mp3",
+      "seconds": 67.0,
+      "sample_peak": 0.3053434491157532,
+      "finite": true,
+      "sha256": "4a5a53ddb4b559ceb7cc3552c67c1ce673592cae57806eeff485bb99c55fb55b"
+    },
+    {
+      "file": "chatter-and-beeps.mp3",
+      "seconds": 67.0,
+      "sample_peak": 0.2800755798816681,
+      "finite": true,
+      "sha256": "8859532be7651296a1e01743adbc18c5f46ae16217148e19323e63c05717e39d"
+    },
+    {
+      "file": "receiver-comms-three-repeat-review.mp3",
+      "seconds": 201.0,
+      "sample_peak": 0.30837810039520264,
+      "finite": true,
+      "sha256": "735307ccb342ac72e75f2ace38875a57e34a2a092ea08c0a5ba2519422587f7b"
+    },
+    {
+      "file": "music-only.mp3",
+      "seconds": 60.0,
+      "sample_peak": 0.3008481562137604,
+      "finite": true,
+      "sha256": "e7713af547b9e6fbc29cbdf71407dbcefac617b942c8a113b28304b25a313195"
+    },
+    {
+      "file": "music-comms-quiet.mp3",
+      "seconds": 60.0,
+      "sample_peak": 0.3044852912425995,
+      "finite": true,
+      "sha256": "8c0d40b40ad5ba23392f8a74d662463da89443fc2f97514e4c8d5f39256090ad"
+    },
+    {
+      "file": "music-comms-clearer.mp3",
+      "seconds": 60.0,
+      "sample_peak": 0.31281578540802,
+      "finite": true,
+      "sha256": "327ee24edb997a524923555ab580885b80097c61e5a5a67d40b5e2fb7f0df9b9"
+    }
+  ],
+  "auditions": [
+    {
+      "file": "music-only.mp3",
+      "relative_effect_rms_db": null,
+      "effect_gain": 0.0,
+      "matching_passes": [
+        {
+          "gain_db": -1.0,
+          "measurements": {
+            "integrated_lufs": -23.3,
+            "loudness_range_lu": 8.2,
+            "true_peak_dbtp": -10.7
+          }
+        },
+        {
+          "gain_db": -0.6999999999999993,
+          "measurements": {
+            "integrated_lufs": -23.0,
+            "loudness_range_lu": 8.2,
+            "true_peak_dbtp": -10.4
+          }
+        }
+      ],
+      "measured": {
+        "integrated_lufs": -23.0,
+        "loudness_range_lu": 8.2,
+        "true_peak_dbtp": -10.4
+      }
+    },
+    {
+      "file": "music-comms-quiet.mp3",
+      "relative_effect_rms_db": -20,
+      "effect_gain": 0.12521738622445472,
+      "matching_passes": [
+        {
+          "gain_db": -1.0,
+          "measurements": {
+            "integrated_lufs": -23.3,
+            "loudness_range_lu": 8.1,
+            "true_peak_dbtp": -10.6
+          }
+        },
+        {
+          "gain_db": -0.6999999999999993,
+          "measurements": {
+            "integrated_lufs": -23.0,
+            "loudness_range_lu": 8.1,
+            "true_peak_dbtp": -10.3
+          }
+        }
+      ],
+      "measured": {
+        "integrated_lufs": -23.0,
+        "loudness_range_lu": 8.1,
+        "true_peak_dbtp": -10.3
+      }
+    },
+    {
+      "file": "music-comms-clearer.mp3",
+      "relative_effect_rms_db": -14,
+      "effect_gain": 0.2498415319125578,
+      "matching_passes": [
+        {
+          "gain_db": -1.1000000000000014,
+          "measurements": {
+            "integrated_lufs": -23.3,
+            "loudness_range_lu": 7.9,
+            "true_peak_dbtp": -10.4
+          }
+        },
+        {
+          "gain_db": -0.8000000000000007,
+          "measurements": {
+            "integrated_lufs": -23.0,
+            "loudness_range_lu": 7.9,
+            "true_peak_dbtp": -10.1
+          }
+        }
+      ],
+      "measured": {
+        "integrated_lufs": -23.0,
+        "loudness_range_lu": 7.9,
+        "true_peak_dbtp": -10.1
+      }
+    }
+  ],
+  "music": {
+    "path": "C:\\Colony\\exports\\restored-snowline-2026-11-02\\Below-the-Snowline-paired-loop-9min-v1.flac",
+    "sha256": "987b1509075da8a9202f24a6b765f4e2b6d88d90cb90c28bdaf8719af77b252b",
+    "excerpt_start_seconds": 90,
+    "excerpt_seconds": 60,
+    "approved_master_modified": false
+  },
+  "circular_join_step": 0.010880358517169952,
+  "ordinary_step_p99": 0.026004508137702942,
+  "implementation": [
+    {
+      "path": "C:\\Colony\\scripts\\generate_polar_comms.py",
+      "sha256": "2f20448c3b0fd5c67fe6f91c253b308ce7a99301483ea20e245e2fe8ae2503bd"
+    },
+    {
+      "path": "C:\\Colony\\scripts\\generate_receiver_texture.py",
+      "sha256": "783e873a48ca6b0573294b17b00329fec2fce24fd1aedc030f73f91f85c0974f"
+    },
+    {
+      "path": "C:\\Colony\\scripts\\make_receiver_voices.ps1",
+      "sha256": "d576de7ffafb8b303f5a4cd31b05f08f84baaf376ae954afed7b9f302923453e"
+    }
+  ]
+}

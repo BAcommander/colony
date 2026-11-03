@@ -1,0 +1,93 @@
+{
+  "created_at_utc": "2026-11-02T17:39:30.395166+00:00",
+  "branch": "codex/concept-brainstorms-2026-10-27",
+  "parent_commit": "bc8ba91f07d9aeb114e27aa68967189c67915542",
+  "scope": "November2 thumbnail/feed learning, original screenshot evidence, structured facts and proposed test, reusable packaging workflow/template and production entry-point updates. This scope file itself and later receipt are excluded from the list.",
+  "checks": [
+    "Local Markdown targets exist",
+    "Evidence/template JSON parse",
+    "Both original screenshots copied byte-for-byte, PNG decode and SHA256 verified",
+    "Unknown metrics and unrun test remain explicitly unset",
+    "Staged secret-pattern scan passed"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes_in_git": 15131,
+      "sha256_in_git": "bc571c8ea1d338e94746f964b7ccdab256ae4794176a969ffc2495754e0d5e11",
+      "git_blob": "36e91c116fc46572a58c221d900aecbd78bf5e25"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes_in_git": 80677,
+      "sha256_in_git": "bd149b45ec759a4a1d3757e6873197c8bbd332be4da542d5c8007b699de769c8",
+      "git_blob": "4e4126e3f02cf5ac97de555331f777c39a8c9d7a"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "bytes_in_git": 32873,
+      "sha256_in_git": "587f3c88395ff90360d937c4341b67372bb07980be31898b97633c790d90577c",
+      "git_blob": "8bb9cce26673376f9f3b6e9991ab0f856c23df03"
+    },
+    {
+      "path": "README.md",
+      "bytes_in_git": 2716,
+      "sha256_in_git": "3a36006277b33927e78e1f720d19769bdeddf3b5cda148ecbe8b1b695a0a52fc",
+      "git_blob": "8cc885ab2bf950fa823c3a544ec3aab464d56a4a"
+    },
+    {
+      "path": "creative/LEARNINGS.md",
+      "bytes_in_git": 20987,
+      "sha256_in_git": "0fdf19c0a485f06a689cc65cfa38eb4d7ed407b2a6370b6179d77074d9d5ef8a",
+      "git_blob": "f3974e516ffac17e140610dbd8b0144c61f44d5f"
+    },
+    {
+      "path": "creative/NEXT_SCENE_RUNBOOK.md",
+      "bytes_in_git": 9438,
+      "sha256_in_git": "40c65c2130f6ee736c1ec460ab7fb899fb3ca2a5902ecdfcd6700a7ad297ba4e",
+      "git_blob": "1504ce7b3c2db3d0dbeb1fc80a2b51d706a3df95"
+    },
+    {
+      "path": "creative/PACKAGING_WORKFLOW.md",
+      "bytes_in_git": 6135,
+      "sha256_in_git": "88e799f43aff505e3dd011190eefadb0bb08826db0ca3b56592b874e079178fa",
+      "git_blob": "f975d5931033b7237c2438b65392f05bb0cd18a3"
+    },
+    {
+      "path": "creative/packaging/2026-11-02-feed-review/README.md",
+      "bytes_in_git": 6977,
+      "sha256_in_git": "a3e5c43b8f751113e0de64c7ebfa0cdb4ab9f08a22c127454df530527eb14a9b",
+      "git_blob": "2f501ff705e6476265f861e8a9d43bab8c4bf1bb"
+    },
+    {
+      "path": "creative/packaging/2026-11-02-feed-review/evidence.json",
+      "bytes_in_git": 4824,
+      "sha256_in_git": "bc426458059f59f42a99575208d5c677e7e81a5e5db181e8a3d213745decce29",
+      "git_blob": "786372f2bc67b0f2c006033a20ed8758176ce41c"
+    },
+    {
+      "path": "creative/packaging/2026-11-02-feed-review/evidence/chrome_2fwEVKQtbl.png",
+      "bytes_in_git": 1350896,
+      "sha256_in_git": "6dd3b6de4d0574c8fe94880d2db624cd6e9429f0be3b3d97d8c103bd1fa603ff",
+      "git_blob": "f55ab0505fab24b5c2e1397f9e63b64185c70afb"
+    },
+    {
+      "path": "creative/packaging/2026-11-02-feed-review/evidence/chrome_wwRKkYZV48.png",
+      "bytes_in_git": 154544,
+      "sha256_in_git": "d31e9d1e06ccf22e0e059ea3275ec22ccf4b0e2151c0279a8ecbd5ce7e784765",
+      "git_blob": "5806685ecbf7fc3e40dd45262557fd4bfe0d8432"
+    },
+    {
+      "path": "creative/packaging/test-record-template.json",
+      "bytes_in_git": 1194,
+      "sha256_in_git": "3ecdcbd0ea025e2fd6880b5e3a7b7097f93365647d478bfa4b2788a1850ae821",
+      "git_blob": "67cb3fc7473bc4f381c6a7d7d71a7052e85fc064"
+    },
+    {
+      "path": "final/THUMBNAIL_STYLE.md",
+      "bytes_in_git": 9015,
+      "sha256_in_git": "fa1311427b220698617a244a741f6c5114d8f942feaf67436563ba459ae25d2e",
+      "git_blob": "4f88678cdfef19ec681d0328be08cb054cb30d14"
+    }
+  ]
+}

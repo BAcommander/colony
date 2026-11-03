@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-02",
+  "user_feedback_verbatim": "Added atmosphere is too quiet",
+  "change": "Raise both atmosphere stems3dB; preserve their ratio, source waveforms and timing",
+  "wind_gain_change_db": 3,
+  "ventilation_gain_change_db": 3,
+  "effective_wind_gain_db": 7.85,
+  "effective_ventilation_rms_dbfs": -45.00000000454205,
+  "music_radio_parent": {
+    "path": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\full-session-v1\\Snowline-music-and-radio-9min-v1.flac",
+    "sha256": "aede078175e433ad6be6fc8ad8970ac95b6a2c69311322f53bc10fa770642b1d",
+    "mix_gain": 1.0,
+    "radio_schedule_or_event_gains_changed": false
+  },
+  "parent_environment_recipe": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\environment-session-v1\\recipe.json",
+  "parent_environment_recipe_sha256": "113f7f4d2663925f401949d3ad6fbc7b38f58526e0048d4dcda508b641784513",
+  "source_stems": [
+    {
+      "path": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\environment-session-v1\\Snowline-exterior-wind-9min-v1.flac",
+      "sha256": "dcafa26fbcecf35dadb8178c12f0a60435120aaf69297f57c853727aacb1570e"
+    },
+    {
+      "path": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\environment-session-v1\\Snowline-ventilation-9min-v1.flac",
+      "sha256": "73f041941c20dd2dc95ec4cc7d0feea985f92b98a17b401ca90ed275d3cd14e4"
+    }
+  ],
+  "seconds": 540,
+  "sample_rate": 48000,
+  "outputs": [
+    {
+      "file": "Snowline-exterior-wind-9min-v2.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.13161027431488037,
+      "sha256": "52ebe62946ecfdcb5ad01ae560c5e9a24d0e88f979a22bc3429de6bf1fcc9b18",
+      "bytes": 19046443
+    },
+    {
+      "file": "Snowline-ventilation-9min-v2.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.02852475643157959,
+      "sha256": "36939090e8896854d9d5c874984912bdba427d3ff5c67799ba260a3a48a2f312",
+      "bytes": 38344786
+    },
+    {
+      "file": "Snowline-radio-wind-and-ventilation-9min-v2.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.39277327060699463,
+      "sha256": "5bfe568b14289108328fb0a43c0725de91071416e0a8d759a252d274017dc06a",
+      "bytes": 77808162
+    },
+    {
+      "file": "Snowline-radio-wind-and-ventilation-9min-v2.mp3",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.3988495469093323,
+      "sha256": "36dcc5c4751e874f79431618af020c4b5f24729357a83182de5d9429e85300c7",
+      "bytes": 12961196
+    },
+    {
+      "file": "Snowline-environment-v2-plateau-check-66s.mp3",
+      "seconds": 66.0,
+      "finite": true,
+      "sample_peak": 0.3618614375591278,
+      "sha256": "00eee617a257fea8ce908b1f84686751cb2a2455df446ba61bd75c0bd0554958",
+      "bytes": 1585196
+    },
+    {
+      "file": "Snowline-environment-v1-plateau-check-66s.mp3",
+      "seconds": 66.0,
+      "finite": true,
+      "sample_peak": 0.36108869314193726,
+      "sha256": "06439777215340412ee8fc9722534b6eaa944292d517edeef5f0a98eaa4bf106",
+      "bytes": 1585196
+    }
+  ],
+  "metering": {
+    "lossless_mix": {
+      "integrated_lufs": -23.2,
+      "loudness_range_lu": 10.7,
+      "true_peak_dbtp": -8.1
+    },
+    "listening_copy": {
+      "integrated_lufs": -23.0,
+      "loudness_range_lu": 10.7,
+      "true_peak_dbtp": -8.0
+    },
+    "matching_passes": [
+      {
+        "gain_db": 0.1999999999999993,
+        "measured": {
+          "integrated_lufs": -23.2,
+          "loudness_range_lu": 10.6,
+          "true_peak_dbtp": -8.2
+        }
+      },
+      {
+        "gain_db": 0.3999999999999986,
+        "measured": {
+          "integrated_lufs": -23.0,
+          "loudness_range_lu": 10.7,
+          "true_peak_dbtp": -8.0
+        }
+      }
+    ]
+  },
+  "previews": {
+    "recording_start_seconds": 54,
+    "duration_seconds": 66,
+    "new_and_baseline_same_source_window": true,
+    "each_uses_its_full_listening_copy_gain": true,
+    "separately_normalized": false
+  },
+  "timing_filter_or_texture_changes": false,
+  "new_generation_or_paid_service": false,
+  "source_master_or_prior_version_modified": false,
+  "assistant_listening": false,
+  "user_v2_balance_review": "pending",
+  "implementation": [
+    {
+      "path": "C:\\Colony\\scripts\\rebalance_snowline_environment.py",
+      "sha256": "2a379bc44e224974b2548032cb5b51c087caee60b261809a2cb4e1aa2dfd6569"
+    },
+    {
+      "path": "C:\\Colony\\scripts\\build_snowline_radio_session.py",
+      "sha256": "82828e94f86a04a768fffdd4305226e18f7defde7a0c145b606029ad38abc748"
+    }
+  ]
+}

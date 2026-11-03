@@ -1,21 +1,25 @@
 # Ambient Colony — SFX library
 
-[Open the searchable listening library](index.html). Six source sounds: soft exterior wind, gentle water, distant freight, fine mineral grit, circulation pump and sheltered rain.
+[Open the searchable listening library](index.html). Nine original sources: exterior wind, gentle water, distant freight, mineral grit, circulation pump, sheltered rain, the supplied painted-steel frame creak and two distinct supplied snow-grain takes.
 
-Original source files are byte-preserved in assets/. The library deduplicates identical source hashes, so the wind used in Junction and Deepwell is one sound with two usage records. Existing project sources remain untouched. The catalogue is local; no commit, push or remote backup is implied.
+Original bytes live in `assets/`, with SHA-256, duration, provenance, related briefs, scene-specific gains and feedback in [catalog.json](catalog.json). Six source/preview pairs were imported exactly from production commit `aa62e427e3f6386217e90229c063820c8f54ccae`; its larger production tree was not merged. The new four-second [creak original](assets/creak-painted-steel-frame-01.mp3) matches the supplied MP3 exactly, SHA-256 `8d126f0c72a3b2e991ba7e56347da2364d191823c12077d0e61d3eccf77f8ea6`.
 
-Preview copies are adjusted by constant gain toward −24 LUFS for browsing, with peak headroom. They are not mix presets. Use the original source and consult the scene-specific gain, fades, event duration, recipe and feedback. No new effect was generated and no original audio was processed in place.
+The six earlier sources retain their recorded scene acceptance. The creak and later Snowline wind settings were selected for the two-hour V5 render; full-session listening remains pending. No universal favourite or gain default is inferred. One source reused with two balances remains one take. Material descriptions record intended use, not assistant identification of the recording.
 
-Acceptance means the user accepted that source in a particular composition. It does not imply that every source works everywhere or has a universal favourite rating. Source descriptions reflect the intended use and saved brief, not assistant identification of every sound in the recording. Related briefs are preserved with exact hashes; the actual generator wording/model/settings remain unconfirmed where not documented.
+The [ten-second snow-grain source](assets/snow-grains-ledge-01.mp3) was the first snow candidate, SHA-256`58bb38ca9b8447b0cbdd1a389a756896244d7e54198517af4afdd9d6ab98346e`. [Short A/B test and source-specific calibration](../../creative/music/sound-design/receiver-2026-11-02/snow-grains-audition-2026-11-03.json) await user listening. It is now included in fullV6 at+2dB versus its initial placement, following the user’s gain revisions. Full V5 is preserved.
 
-Before reusing a sound, check:
+Previews use constant gain toward −24 LUFS with peak headroom. They are browsing aids, not mix presets. Source and preview files are included for portable listening. Use the original and consult the scene recipe before mixing. Refresh the existing catalogue page with `python music/sfx-library/build_library.py --refresh`; `--validate` checks original/preview/prompt hashes. The default importer and its historical snapshot describe the initial six-source build and should not be rerun over the catalogue.
 
-1. Does the source belong to this location, viewpoint and distance?
-2. Is it comfortable at its loudest point while the music is quiet?
-3. Is the event long enough to be felt? Distinguish source duration, loop period, event duration and fade duration.
-4. Does it need quiet gaps? Vary event placement separately from music, without claiming this removes musical repetition.
-5. Can an existing accepted sound meet the need before generating another?
+Before reusing a source:
 
-When adding a sound, preserve its original bytes, SHA-256, duration, provenance and any confirmed exact prompt. Separate related prompt drafts from verified generation prompts. Add scene-specific uses and exact feedback; keep candidate/rejected/accepted states distinct. Rejected approaches can be recorded without promoting their files into the accepted set. Do not silently update established project recipes when the library changes.
+1. Match the location, listener viewpoint and distance.
+2. Audition full sustained peaks and quiet music, preserving the comparison's whole-mix gain.
+3. Separate source length, prepared repeat period, event duration, fades, spacing and gain.
+4. Arrange useful quiet gaps without normalizing sparse events louder.
+5. Check an existing source before generating another; keep the complete take and natural tail.
 
-The current six sources are modest in size and are copied once for portability. Previews are regenerable and ignored by Git. Any future backup should explicitly verify both catalogue and original audio scope; nothing is remotely backed up merely because it appears here.
+[Snowline's reusable notes](../../creative/music/sound-design/receiver-2026-11-02/REUSE.md) record the final radio/wind/creak balance and exact gain chain. The related ElevenLabs prompt is a prepared brief; executed prompt/model/settings/cost were not supplied. Add those details only when confirmed.
+
+[Portable session backup](../snowline-sound-design-2026-11-03/RESUME.md) includes the full audio history and restore commands. Actual remote evidence belongs in its `backup-verification.json`; catalogue presence alone does not establish remote backup.
+
+The [second snow original](assets/snow-grains-ledge-02.mp3) is241,389bytes, SHA-256`91b720bfa80a6aeda743cf8419ca1e01105cca460e071ad162f24e2cf50fb562`. Both10s takes alternate12uses each in V6, with irregular4–6minute starts tied to wind plateaus and6s clearance from radio/creaks. The second take has its own post-filter RMS calibration; this does not establish equal perceived loudness or final acceptance. Full/new-take listening remains pending. [Current backup/resume](../snowline-snow-2026-11-03/RESUME.md) covers both sources, all trials and V6; consult its verification receipt for actual remote evidence.

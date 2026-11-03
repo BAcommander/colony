@@ -1,5 +1,7 @@
 # Ambient Colony - approved thumbnail style v1
 
+**Current improvement guidance, 2026-11-02:** consult [the packaging workflow](../creative/PACKAGING_WORKFLOW.md) and [feed review with source screenshots](../creative/packaging/2026-11-02-feed-review/README.md) before making future candidates. The established title/brand hierarchy below is a preserved visual identity, not a CTR-proven requirement. Explore a dominant scene subject and an immediate invitation at phone size, including no-text/sparse-text alternatives. Junction already uses lighter text; no universal text-removal or brightness fix is established. The proposed controlled Rainline comparison is ungenerated/unrun. Preserve approved historical thumbnails and record actual test outcomes before promoting a replacement.
+
 Approved 2026-09-25. User feedback: "man they look awesome". The three finished PNGs in this directory are the visual authority. This guide records the reusable direction; it is not a promise of identical results from a fresh generation.
 
 ## Identity

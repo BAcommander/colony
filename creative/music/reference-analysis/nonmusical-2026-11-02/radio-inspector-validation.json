@@ -1,0 +1,303 @@
+{
+  "created_at_utc": "2026-11-02T09:31:38.895578+00:00",
+  "status": "local; uncommitted; no assistant listening verdict",
+  "report_path": "exports/reference-analysis/nonmusical-2026-11-02/radio-inspector-v2/analysis.json",
+  "report_sha256": "be2fc214107ab8c31dff12b6c77a50f6f6c7766a3b31894d723468dc00ea578c",
+  "source_sha256": "6ba9caecdca380dd6f23f11b1776c5599d1e7510d10d537f39b94b6801a759a6",
+  "start_seconds_in_recording": 358.0,
+  "decoded_seconds": 60.0,
+  "method": {
+    "sample_rate_hz": 16000,
+    "fft_size": 8192,
+    "hop_samples": 2048,
+    "frequency_bin_hz": 1.953125,
+    "time_step_seconds": 0.128,
+    "local_contrast_threshold_db": 10.0,
+    "contrast_median_width_bins": 65,
+    "minimum_candidate_seconds": 3.0,
+    "search_band_hz": [
+      80,
+      3500
+    ],
+    "track_linking": "greedy nearest eligible previous-frame peak; no gaps",
+    "filtered_candidate_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "envelope_candidate_screen": "6+ cycles, prominence >=6 dB, near-peak power fraction >=.2; three disjoint-section sinusoid fits with phase coherence >=.9, each variance ratio >=.3 and amplitude/mean >=.08; heuristic only",
+    "filter_width_sigma_hz": 6.0,
+    "maximum_complementary_reconstruction_error": 5.960464477539063e-08
+  },
+  "retained_ridge_fragments_not_sound_count": 75,
+  "strongest_tracks": [
+    {
+      "id": 1,
+      "start_seconds": 19.328,
+      "end_seconds": 59.52,
+      "duration_seconds": 40.192,
+      "frequency_p5_p50_p95_hz": [
+        129.79474943713285,
+        130.88767387489497,
+        131.99443998746574
+      ],
+      "level_p5_p95_span_db": 13.914308547973633,
+      "median_local_contrast_db": 20.14556884765625,
+      "frequency_span_over_four_bins": false
+    },
+    {
+      "id": 2,
+      "start_seconds": 34.304,
+      "end_seconds": 59.52,
+      "duration_seconds": 25.216,
+      "frequency_p5_p50_p95_hz": [
+        194.1155893553514,
+        196.04351656744257,
+        198.1667332642246
+      ],
+      "level_p5_p95_span_db": 14.336491203308107,
+      "median_local_contrast_db": 19.036643981933594,
+      "frequency_span_over_four_bins": false
+    },
+    {
+      "id": 3,
+      "start_seconds": 3.072,
+      "end_seconds": 28.16,
+      "duration_seconds": 25.088,
+      "frequency_p5_p50_p95_hz": [
+        194.77315525291488,
+        195.82192279631272,
+        197.87046835990623
+      ],
+      "level_p5_p95_span_db": 7.957545471191402,
+      "median_local_contrast_db": 18.171306610107422,
+      "frequency_span_over_four_bins": false
+    },
+    {
+      "id": 4,
+      "start_seconds": 38.016,
+      "end_seconds": 59.52,
+      "duration_seconds": 21.504,
+      "frequency_p5_p50_p95_hz": [
+        96.44053358351812,
+        97.50623561558314,
+        98.98651514668018
+      ],
+      "level_p5_p95_span_db": 11.19340209960938,
+      "median_local_contrast_db": 18.34014129638672,
+      "frequency_span_over_four_bins": false
+    },
+    {
+      "id": 5,
+      "start_seconds": 33.536,
+      "end_seconds": 51.584,
+      "duration_seconds": 18.048000000000002,
+      "frequency_p5_p50_p95_hz": [
+        390.3905472776387,
+        393.20546272210777,
+        397.6957771315938
+      ],
+      "level_p5_p95_span_db": 8.454613113403319,
+      "median_local_contrast_db": 18.009206771850586,
+      "frequency_span_over_four_bins": false
+    },
+    {
+      "id": 6,
+      "start_seconds": 14.975999999999999,
+      "end_seconds": 24.448,
+      "duration_seconds": 9.472,
+      "frequency_p5_p50_p95_hz": [
+        153.57617724803276,
+        155.83361557219177,
+        156.67827860743273
+      ],
+      "level_p5_p95_span_db": 10.118693923950197,
+      "median_local_contrast_db": 21.228286743164062,
+      "frequency_span_over_four_bins": false
+    },
+    {
+      "id": 7,
+      "start_seconds": 0.512,
+      "end_seconds": 11.264,
+      "duration_seconds": 10.752,
+      "frequency_p5_p50_p95_hz": [
+        130.19700348377228,
+        131.25111546833068,
+        132.2187108336948
+      ],
+      "level_p5_p95_span_db": 9.503060150146489,
+      "median_local_contrast_db": 18.223018646240234,
+      "frequency_span_over_four_bins": false
+    },
+    {
+      "id": 8,
+      "start_seconds": 25.088,
+      "end_seconds": 35.839999999999996,
+      "duration_seconds": 10.752,
+      "frequency_p5_p50_p95_hz": [
+        230.30210415890906,
+        233.8093929574825,
+        236.7227596027078
+      ],
+      "level_p5_p95_span_db": 11.325341796875001,
+      "median_local_contrast_db": 17.771793365478516,
+      "frequency_span_over_four_bins": false
+    }
+  ],
+  "band_statistics": [
+    {
+      "band_hz": [
+        40,
+        250
+      ],
+      "rms_dbfs": -25.686268626877116,
+      "level_p5_p50_p95_dbfs": [
+        -30.189345845907347,
+        -26.3930970058904,
+        -22.217517656942047
+      ],
+      "envelope_rate_candidates_not_loop_or_speech_detection": []
+    },
+    {
+      "band_hz": [
+        250,
+        1000
+      ],
+      "rms_dbfs": -30.984484005127637,
+      "level_p5_p50_p95_dbfs": [
+        -34.34850769357294,
+        -31.551570337107947,
+        -28.282412838636468
+      ],
+      "envelope_rate_candidates_not_loop_or_speech_detection": []
+    },
+    {
+      "band_hz": [
+        1000,
+        3500
+      ],
+      "rms_dbfs": -41.81212819609141,
+      "level_p5_p50_p95_dbfs": [
+        -43.77359808538854,
+        -42.08204044901246,
+        -39.94921850012918
+      ],
+      "envelope_rate_candidates_not_loop_or_speech_detection": []
+    },
+    {
+      "band_hz": [
+        3500,
+        7500
+      ],
+      "rms_dbfs": -63.96984947066031,
+      "level_p5_p50_p95_dbfs": [
+        -65.2996190514507,
+        -64.32658434038605,
+        -62.10489240057073
+      ],
+      "envelope_rate_candidates_not_loop_or_speech_detection": []
+    }
+  ],
+  "encoded_clip_validation": [
+    {
+      "file": "original.mp3",
+      "decoded_seconds": 60.0,
+      "finite": true,
+      "sample_peak": 0.29474538564682007,
+      "sha256": "c997b5790d80759ed3a9ec81dedd1d9f089f8f90b7d8e197b31a1603b9f3b0a7"
+    },
+    {
+      "file": "tracked-lines.mp3",
+      "decoded_seconds": 60.0,
+      "finite": true,
+      "sample_peak": 0.1577327847480774,
+      "sha256": "e6be34cdf4e2cbc3314075f89df389690dee8d952f9e9b001dab990fbc90c80f"
+    },
+    {
+      "file": "tracked-lines-inspection-boost.mp3",
+      "decoded_seconds": 60.0,
+      "finite": true,
+      "sample_peak": 0.6278695464134216,
+      "sha256": "11385c08f9650ce0690a744fbf3b3ace8655a186ade8f8f9b9320df3fbd00f18"
+    },
+    {
+      "file": "lines-reduced.mp3",
+      "decoded_seconds": 60.0,
+      "finite": true,
+      "sample_peak": 0.2727971076965332,
+      "sha256": "5a5bb74035b2148ef9097af4b27012037fa51d4bb9e9f563f3c3cec6c3705fab"
+    },
+    {
+      "file": "lines-reduced-inspection-boost.mp3",
+      "decoded_seconds": 60.0,
+      "finite": true,
+      "sample_peak": 0.7597271203994751,
+      "sha256": "3baae0bfd4d1d94e37c23e399982a487ac50a647728981c194b54c3f7e263e46"
+    },
+    {
+      "file": "radio-band.mp3",
+      "decoded_seconds": 60.0,
+      "finite": true,
+      "sample_peak": 0.1604803204536438,
+      "sha256": "b0e440fcc03b8aacdf1045fc41be6e38f21d3da11e503e5c7ddf1f4e2ebab59d"
+    },
+    {
+      "file": "radio-band-inspection-boost.mp3",
+      "decoded_seconds": 60.0,
+      "finite": true,
+      "sample_peak": 0.6398752927780151,
+      "sha256": "b835a673f4005430112b4e3e91f1e5209eb75d7656fcbb227a0c7d5a436368ab"
+    }
+  ],
+  "tests": {
+    "command": ".local/audio-analysis/Scripts/python.exe -m unittest discover -s scripts -p test_radio_texture.py -v",
+    "passed": 3,
+    "failed": 0,
+    "meaningful_cases": [
+      "noisy up/down frequency sweep with known trajectory",
+      "amplitude-modulated fixed tone distinguished from pitch motion; opposite-polarity stereo and complementary reconstruction",
+      "broadband noise negative control for continuous tones and consistent modulation"
+    ]
+  },
+  "browser_checks": [
+    "rendered spectrogram at default browser widths",
+    "original MP3 metadata duration60/readyState4/errorNone",
+    "source selection and disclosed boost",
+    "return to original resets boost",
+    "zoom range control",
+    "highlight seeks to19.328s",
+    "rapid filter/boost/original switching preserves19.328s after correction",
+    "no console errors observed"
+  ],
+  "not_verified": [
+    "native file-picker and drag/drop launcher UI",
+    "assistant listening or semantic source identity",
+    "match of any candidate to the particular tone the user means",
+    "physical radio, intelligible speech or exact original SFX balance",
+    "whole-stream modulation or looping"
+  ],
+  "supersedes": "radio-inspector-v1 prominence-only envelope candidates; not reliable periodicity evidence",
+  "implementation_files": [
+    {
+      "path": "scripts/analyze_radio_texture.py",
+      "sha256": "0ea86eb7af45265b4f3719bc670bee03fe725345a8cb621011d9e380e47bff68"
+    },
+    {
+      "path": "scripts/radio_texture_report.html",
+      "sha256": "86f3351c8e7dff2cd8dae7b00ce72fec5ebebcdd02f0a9af16b2d36a731deee1"
+    },
+    {
+      "path": "scripts/test_radio_texture.py",
+      "sha256": "12c90b0aa8de9078a6f9dce8102d2d6eb541eda5d2924e838eff6807658c538e"
+    },
+    {
+      "path": "Inspect Radio Texture.cmd",
+      "sha256": "1ce75341e911de0908dd9cdc5c28b4a89ddd3053b4e43a5157854b4fe2a4cdda"
+    }
+  ]
+}

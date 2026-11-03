@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "status": "proposed",
+  "scene": null,
+  "video_id_or_url": null,
+  "hypothesis": null,
+  "baseline": {
+    "current_published_title": null,
+    "current_thumbnail_file": null,
+    "current_thumbnail_sha256": null,
+    "clean_source_file": null,
+    "clean_source_sha256": null,
+    "verified_date": null
+  },
+  "comparison_method": null,
+  "variables_changed": [],
+  "variables_held_fixed": [],
+  "variants": [],
+  "test_start": null,
+  "test_end": null,
+  "measurement_windows": [],
+  "metric_fields_to_record": [
+    "upload_age_and_date_range",
+    "registered_impressions",
+    "views_from_impressions_if_available",
+    "views",
+    "ctr_overall_and_by_available_traffic_source",
+    "watch_time",
+    "average_view_duration",
+    "first_30_to_60_second_retention",
+    "retention_curve_source"
+  ],
+  "native_test_result": {
+    "reported_outcome": null,
+    "watch_time_share_by_variant": null,
+    "winner_if_reported": null,
+    "report_file_and_sha256": null
+  },
+  "exact_user_feedback": [],
+  "user_selected_variant": null,
+  "interpretation_and_limits": null,
+  "lesson_for_next_scene": null,
+  "next_unresolved_check": null,
+  "public_change_applied": false
+}

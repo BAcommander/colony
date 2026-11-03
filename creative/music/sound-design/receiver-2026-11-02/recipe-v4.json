@@ -1,0 +1,274 @@
+{
+  "revision": "v4 sparse receiver: three original v3 transmissions, gated static/carrier, six clicks, two acknowledgements",
+  "sample_rate": 48000,
+  "seconds": 67.0,
+  "events": [
+    {
+      "kind": "receiver_open_click",
+      "start_seconds": 6.8,
+      "duration_seconds": 0.07
+    },
+    {
+      "kind": "transmission",
+      "source_v3_index": 0,
+      "start_seconds": 7.1,
+      "duration_seconds": 4.084854166666666,
+      "receiver_open_seconds": 6.8,
+      "receiver_close_seconds": 11.464854166666665,
+      "copied_voice_maximum_error": 0.0
+    },
+    {
+      "kind": "receiver_close_click",
+      "start_seconds": 11.439854166666665,
+      "duration_seconds": 0.07
+    },
+    {
+      "kind": "receiver_open_click",
+      "start_seconds": 31.499999999999996,
+      "duration_seconds": 0.07
+    },
+    {
+      "kind": "receiver_acknowledgement",
+      "start_seconds": 31.83,
+      "frequency_hz": 840,
+      "double": false,
+      "duration_seconds": 0.09
+    },
+    {
+      "kind": "transmission",
+      "source_v3_index": 3,
+      "start_seconds": 32.3,
+      "duration_seconds": 6.4277291666666665,
+      "receiver_open_seconds": 31.499999999999996,
+      "receiver_close_seconds": 39.05772916666666,
+      "copied_voice_maximum_error": 0.0
+    },
+    {
+      "kind": "receiver_close_click",
+      "start_seconds": 39.03272916666666,
+      "duration_seconds": 0.07
+    },
+    {
+      "kind": "receiver_open_click",
+      "start_seconds": 55.5,
+      "duration_seconds": 0.07
+    },
+    {
+      "kind": "transmission",
+      "source_v3_index": 5,
+      "start_seconds": 55.85,
+      "duration_seconds": 3.9226875,
+      "receiver_open_seconds": 55.5,
+      "receiver_close_seconds": 60.29268750000001,
+      "copied_voice_maximum_error": 0.0
+    },
+    {
+      "kind": "receiver_acknowledgement",
+      "start_seconds": 59.99,
+      "frequency_hz": 680,
+      "double": true,
+      "duration_seconds": 0.217
+    },
+    {
+      "kind": "receiver_close_click",
+      "start_seconds": 60.26768750000001,
+      "duration_seconds": 0.07
+    }
+  ],
+  "receiver_windows_seconds": [
+    [
+      6.8,
+      11.464854166666665
+    ],
+    [
+      31.499999999999996,
+      39.05772916666666
+    ],
+    [
+      55.5,
+      60.29268750000001
+    ]
+  ],
+  "silent_fraction": 0.7433541666666666,
+  "maximum_signal_in_silent_regions": 0.0,
+  "preserved_voice_gain": true,
+  "global_source_normalization": false,
+  "source_parent": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\v3",
+  "source_recipe_sha256": "4ba03e342869f46df2c1294c781ac42ba33648af186e60d12c747ade5a136346",
+  "influence": "User-described radio texture, dark noise and slow carrier movement. No reference recording is used and reference beep identity was never confirmed.",
+  "assistant_listening": false,
+  "outputs": [
+    {
+      "file": "static.wav",
+      "seconds": 67.0,
+      "sample_peak": 0.05410206317901611,
+      "finite": true,
+      "sha256": "e168cced6a876d19358d5630693402b107fdaab5aa077e3c1d99d35348bb6718"
+    },
+    {
+      "file": "carrier.wav",
+      "seconds": 67.0,
+      "sample_peak": 0.02037978172302246,
+      "finite": true,
+      "sha256": "1b1277faf474ce4399c669234abf743e741bf3efc5bb5401e5d2b0c6a3c08bf8"
+    },
+    {
+      "file": "transmissions.wav",
+      "seconds": 67.0,
+      "sample_peak": 0.28151702880859375,
+      "finite": true,
+      "sha256": "44588b7aed28e270430c929a26d04364410630486ad26b73c66f111ca0d8f63a"
+    },
+    {
+      "file": "beeps.wav",
+      "seconds": 67.0,
+      "sample_peak": 0.011608362197875977,
+      "finite": true,
+      "sha256": "5dced4a37b5a8887d91bab1777047f4522baafa8c9a88da22c20118f87496443"
+    },
+    {
+      "file": "clicks.wav",
+      "seconds": 67.0,
+      "sample_peak": 0.01848006248474121,
+      "finite": true,
+      "sha256": "2a3fb4d695365dcfef783946d923d9fa9fb21a750aa1c5141db62aa2d4385e3d"
+    },
+    {
+      "file": "receiver-gated.wav",
+      "seconds": 67.0,
+      "sample_peak": 0.29635393619537354,
+      "finite": true,
+      "sha256": "3e38678e2e7ddcf99973ff0004c3ad5b626fb729fbb64d46015f762bf6d97664"
+    },
+    {
+      "file": "receiver-gated.mp3",
+      "seconds": 67.0,
+      "sample_peak": 0.28840646147727966,
+      "finite": true,
+      "sha256": "57ffb9f28ca601f8a925c08ad029c5f55e0377b373898d6bf44a7d7960f082dc"
+    },
+    {
+      "file": "receiver-gated-three-repeat-review.mp3",
+      "seconds": 201.0,
+      "sample_peak": 0.28875043988227844,
+      "finite": true,
+      "sha256": "8861e7c3606a57944961654a6ba245e05c5949e302cd3c24edf14ba68f59a733"
+    },
+    {
+      "file": "music-only.mp3",
+      "seconds": 67.0,
+      "sample_peak": 0.30365487933158875,
+      "finite": true,
+      "sha256": "b7a6e43a162af65809dae01f0881d8604e94d5934a97d7743d236c0607184be5"
+    },
+    {
+      "file": "music-gated-quiet.mp3",
+      "seconds": 67.0,
+      "sample_peak": 0.30365487933158875,
+      "finite": true,
+      "sha256": "ec0d855511c2eae1f9fd970a1c1bee930f711ee2b6117db4a9534f4551e3b9d2"
+    },
+    {
+      "file": "music-gated-clearer.mp3",
+      "seconds": 67.0,
+      "sample_peak": 0.3008481562137604,
+      "finite": true,
+      "sha256": "28b4627985a0202721a83eccc7aa1abe348f87f64042277d5c00680ab96a09ee"
+    }
+  ],
+  "auditions": [
+    {
+      "file": "music-only.mp3",
+      "effect_source_gain": 0.0,
+      "same_source_gain_as_v3": true,
+      "matching_passes": [
+        {
+          "gain_db": -0.8000000000000007,
+          "measurements": {
+            "integrated_lufs": -23.2,
+            "loudness_range_lu": 8.3,
+            "true_peak_dbtp": -10.5
+          }
+        },
+        {
+          "gain_db": -0.6000000000000014,
+          "measurements": {
+            "integrated_lufs": -23.0,
+            "loudness_range_lu": 8.3,
+            "true_peak_dbtp": -10.3
+          }
+        }
+      ],
+      "measured": {
+        "integrated_lufs": -23.0,
+        "loudness_range_lu": 8.3,
+        "true_peak_dbtp": -10.3
+      }
+    },
+    {
+      "file": "music-gated-quiet.mp3",
+      "effect_source_gain": 0.12521738622445472,
+      "same_source_gain_as_v3": true,
+      "matching_passes": [
+        {
+          "gain_db": -0.8000000000000007,
+          "measurements": {
+            "integrated_lufs": -23.2,
+            "loudness_range_lu": 8.3,
+            "true_peak_dbtp": -10.5
+          }
+        },
+        {
+          "gain_db": -0.6000000000000014,
+          "measurements": {
+            "integrated_lufs": -23.0,
+            "loudness_range_lu": 8.3,
+            "true_peak_dbtp": -10.3
+          }
+        }
+      ],
+      "measured": {
+        "integrated_lufs": -23.0,
+        "loudness_range_lu": 8.3,
+        "true_peak_dbtp": -10.3
+      }
+    },
+    {
+      "file": "music-gated-clearer.mp3",
+      "effect_source_gain": 0.2498415319125578,
+      "same_source_gain_as_v3": true,
+      "matching_passes": [
+        {
+          "gain_db": -0.8999999999999986,
+          "measurements": {
+            "integrated_lufs": -23.2,
+            "loudness_range_lu": 8.3,
+            "true_peak_dbtp": -10.6
+          }
+        },
+        {
+          "gain_db": -0.6999999999999993,
+          "measurements": {
+            "integrated_lufs": -23.0,
+            "loudness_range_lu": 8.3,
+            "true_peak_dbtp": -10.4
+          }
+        }
+      ],
+      "measured": {
+        "integrated_lufs": -23.0,
+        "loudness_range_lu": 8.3,
+        "true_peak_dbtp": -10.4
+      }
+    }
+  ],
+  "music": {
+    "path": "C:\\Colony\\exports\\restored-snowline-2026-11-02\\Below-the-Snowline-paired-loop-9min-v1.flac",
+    "sha256": "987b1509075da8a9202f24a6b765f4e2b6d88d90cb90c28bdaf8719af77b252b",
+    "start_seconds": 90,
+    "seconds": 67.0,
+    "master_modified": false
+  },
+  "renderer_sha256": "4806585c2ee8f84615eb5d7e105327fb66d0b9f1f68ca9e40b1ae8605c2768c9",
+  "circular_join_step": 0.0
+}

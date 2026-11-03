@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-03",
+  "user_request": "so can we get the full 2 hour mix now?",
+  "seconds": 7200,
+  "short_test_settings_authorized_for_full_mix": true,
+  "parent_recipe": "exports/13-below-the-snowline/audio-2h-v4/recipe.json",
+  "parent_recipe_sha256": "f7c2001b271fc258c26e54055e8067343957e7c1d4436ff0c61d9364c3f2fb94",
+  "wind_gain_db_vs_v4": 2,
+  "wind_amplitude_multiplier": 1.2589254117941673,
+  "radio_gain_db_vs_v4": -1.5,
+  "radio_gain_steps_db": [
+    -1,
+    -0.5
+  ],
+  "radio_amplitude_multiplier_total": 0.8413951416451951,
+  "music_ventilation_creaks_unchanged": true,
+  "all_event_timing_unchanged": true,
+  "counts": {
+    "radio_calls": 47,
+    "wind_passages": 80,
+    "creaks": 24
+  },
+  "master_file": "Below-the-Snowline-2-Hours-unfaded-master-v5.flac",
+  "source_stems": [
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-music-2h-v1.flac",
+      "sha256": "1291e4dc92bd1d3844f025fbfcd28e53f7fb77062544a2cb643ae731098b091a"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v5/stems/Snowline-radio-minus1p5dB-2h-v5.flac",
+      "sha256": "9457b23f3a717f0005c094b6b9e5459775d1c7d9a7ba5224c35cc05bef80fcd6"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v5/stems/Snowline-wind-plus2dB-2h-v5.flac",
+      "sha256": "5acae85bbe3f0aa61a098d3410e51d5bfcd8cad03d6992530e46b42788857b3a"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-ventilation-2h-v1.flac",
+      "sha256": "e785abb7cae6130232355092c90942ac6ff35c57fe0e38b8aa42849598afd5ee"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v4/stems/Snowline-creaks-2h-v4.flac",
+      "sha256": "5a3b1145b8f306a2d9e4cb66d48f44c8390b557b37652249480ba259d3444d0f"
+    }
+  ],
+  "original_sources": [
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-music-2h-v1.flac",
+      "sha256": "1291e4dc92bd1d3844f025fbfcd28e53f7fb77062544a2cb643ae731098b091a"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-radio-2h-v1.flac",
+      "sha256": "359eb05da8df4760aa53bbb0fa3c0d86f05410565913eefed80b170afda49f3f"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-wind-2h-v1.flac",
+      "sha256": "45e20634d0f21d7254b3e1f4b37c3ef73b4236ca1fd7d1502e20171c92c5d233"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-ventilation-2h-v1.flac",
+      "sha256": "e785abb7cae6130232355092c90942ac6ff35c57fe0e38b8aa42849598afd5ee"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v4/stems/Snowline-creaks-2h-v4.flac",
+      "sha256": "5a3b1145b8f306a2d9e4cb66d48f44c8390b557b37652249480ba259d3444d0f"
+    }
+  ],
+  "validation": {
+    "frames": 345600000,
+    "seconds": 7200.0,
+    "all_samples_finite": true,
+    "max_radio_minus1db_error": 1.1930725994646618e-07,
+    "max_radio_additional_minus0p5db_error": 1.1908297455412442e-07,
+    "max_wind_plus2db_error": 1.1912416046644392e-07,
+    "max_radio_or_wind_signal_outside_original_windows": 0.0,
+    "max_five_stem_sum_error": 0.0,
+    "sample_peaks": [
+      0.3701552152633667,
+      0.06616091728210449,
+      0.16046416759490967,
+      0.02852475643157959,
+      0.07634532451629639,
+      0.07863223552703857,
+      0.07008111476898193,
+      0.12746119499206543,
+      0.41316354274749756
+    ]
+  },
+  "tested_excerpt_matches": [
+    {
+      "source_start_seconds": 195,
+      "seconds": 60,
+      "reference": "exports/13-below-the-snowline/level-tests/radio-minus1p5db-wind-plus2db-v1/radio-adjusted-unfaded-context.flac",
+      "reference_sha256": "2c373405eaa89cf696463f02ac781d7f8424b83c1c8286cc903c5e315189fc3a",
+      "max_sample_error": 0.0
+    },
+    {
+      "source_start_seconds": 1615,
+      "seconds": 60,
+      "reference": "exports/13-below-the-snowline/level-tests/wind-plus2db-v1/same-minute-wind-adjusted-unfaded.flac",
+      "reference_sha256": "823365dcf0aebea6e836ba38ec5e855b180c2e45928ebe2a7c6dd6d798adcd97",
+      "max_sample_error": 0.0
+    }
+  ],
+  "mp3_check": {
+    "frames": 345600000,
+    "seconds": 7200.0,
+    "sample_peak": 0.41927775740623474,
+    "finite": true,
+    "sha256": "aa19b58ed32c32bad07d7b19973f1bac615f8a4441ce54c0c8783f44b42d2d3e",
+    "bytes": 172801196
+  },
+  "listening_loudness": {
+    "integrated_lufs": -23.1,
+    "loudness_range_lu": 10.2,
+    "true_peak_dbtp": -7.5
+  },
+  "delivery_processing": {
+    "lossless_master": "Unfaded, unity stems; use for assembly and apply opening/closing once.",
+    "mp3": "Same+0.4dB listening gain; no baked opening fade; one20s closing fade.",
+    "listening_gain_db": 0.3999999999999986,
+    "opening_fade_added": false,
+    "closing_fade_seconds": 20
+  },
+  "whole_mix_renormalized": false,
+  "outputs": [
+    {
+      "file": "stems/Snowline-radio-minus1p5dB-2h-v5.flac",
+      "seconds": 7200,
+      "sha256": "9457b23f3a717f0005c094b6b9e5459775d1c7d9a7ba5224c35cc05bef80fcd6",
+      "bytes": 32915389
+    },
+    {
+      "file": "stems/Snowline-wind-plus2dB-2h-v5.flac",
+      "seconds": 7200,
+      "sha256": "5acae85bbe3f0aa61a098d3410e51d5bfcd8cad03d6992530e46b42788857b3a",
+      "bytes": 348637925
+    },
+    {
+      "file": "Below-the-Snowline-2-Hours-unfaded-master-v5.flac",
+      "seconds": 7200,
+      "sha256": "4b4843823fbd032e3368f6945d94a600b8b97062b56779b15f9f48b3953b60c4",
+      "bytes": 1035657907
+    },
+    {
+      "file": "Below-the-Snowline-2-Hours-v5.mp3",
+      "seconds": 7200,
+      "sha256": "aa19b58ed32c32bad07d7b19973f1bac615f8a4441ce54c0c8783f44b42d2d3e",
+      "bytes": 172801196
+    }
+  ],
+  "new_paid_calls": 0,
+  "assistant_listening": false,
+  "full_two_hour_user_verdict": null,
+  "new_video_assembled": false,
+  "implementation_sha256": "d88b579cd3cb745576c66bdd189f44b981aa2f84ce7f52897e6a3796ccf9e6c8"
+}

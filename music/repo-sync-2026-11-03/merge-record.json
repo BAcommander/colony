@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-03",
+  "old_head": "aa62e427e3f6386217e90229c063820c8f54ccae",
+  "incoming": "2829fd64dc61a4e44bcd3522263015efb3ad3d31",
+  "conflicts_resolved": [
+    ".gitattributes",
+    "PRODUCTION_PIPELINE.md",
+    "creative/MUSIC_WORKFLOW.md",
+    "creative/music/november-2026/README.md",
+    "final/13-below-the-snowline/README.md",
+    "final/13-below-the-snowline/music/README.md",
+    "music/sfx-library/README.md",
+    "music/sfx-library/build_library.py",
+    "music/sfx-library/catalog.json",
+    "music/sfx-library/index.html",
+    "music/sfx-library/validation.json"
+  ],
+  "resolution": "Keep production visuals/deliveries; use latest remote SFX catalog and V6 audio; combine workflow learnings; retain both media-rule sets",
+  "push_authorized": false
+}

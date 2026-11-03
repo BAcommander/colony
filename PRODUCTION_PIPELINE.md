@@ -60,7 +60,7 @@ Packages 01–14 have artwork, thumbnails, descriptions and search tags in [fina
 | 10 | [Farpoint Station](final/10-nightward-station/README.md) | Latest v6 minute rendered to verified 4K using preserved effects; authorized for final assembly | Unfolding Warmth selected, join approved; one-hour soundtrack verified | One-hour 4K Colony export delivered and technically verified; full combined review/upload checks pending |
 | 11 | [The Empty Junction](final/11-empty-junction/README.md) | V6 visuals accepted; one-hour 4K v2 delivered and fully checked | Revised V4 audio: 25 wind passages, 9 trains, 24 grit events; original levels retained | User reports uploading (2026-11-01); public URL/completion not yet verified |
 | 12 | [Deepwell Station](final/12-deepwell-station/README.md) | V4 retained; revised hour has identical video packets | Claim passage replaced in all10 repeats; user accepts revised audio | Revised1h4K v2 ready for reupload; fresh YouTube checks pending |
-| 13 | [Below the Snowline](final/13-below-the-snowline/README.md) | V2 scene reused in2min/9min wind auditions; artistic review pending | Approved9min music; wind+4.85dB candidate with60s on/120s off | Review wind-in-scene balance and thumbnail; full-length4K assembly pending |
+| 13 | [Below the Snowline](final/13-below-the-snowline/README.md) | Existing20s720p V2 animation preserved; artistic review pending | Current2h V6 with radio, wind, creaks, ventilation and both snow takes; full listening pending | [Latest handoff](music/snowline-snow-2026-11-03/RESUME.md); restore media, review animation, then4K assembly |
 | 14 | [Crater Rim Survey](final/14-crater-rim-survey/README.md) | No motion implementation; v2 selected for packaging | Short/long prompts ready; no audio | Thumbnail approved; use motion-brief.md to plan principal effects |
 | 15 | [Cyberpunk Apartment](final/15-cyberpunk-apartment/README.md) | Existing 10-second 4K/60fps silent V3 imported unchanged | No soundtrack yet | Confirm public title; prepare Colony thumbnail/metadata and choose music/runtime |
 
@@ -196,6 +196,7 @@ Exit: a selected soundtrack with an accepted join treatment. No fixed drone-note
 - [ ] Verify full-file decoding, runtime, video/audio stream properties, timestamp continuity and the actual assembly joins. Record encoding settings and hashes.
 - [ ] Review the beginning, middle, end and joins in the combined video. Record the real extent of the user's listening/playback review.
 - [ ] Check current thumbnail and title. Add accurate music and duration wording to the description/tags only after the actual upload is known.
+- [ ] Apply the [packaging workflow](creative/PACKAGING_WORKFLOW.md): one legible scene invitation and dominant subject at phone size; retain exact current/variant assets and title. Record the hypothesis and impressions/traffic-source/watch-time context for any test. Proposed alternatives and visual approval do not establish a CTR improvement.
 - [ ] Mark ready for upload only when the combined release passes review. Record published URL/date only after publication is verified.
 
 Exit: a completed upload file and checked publication package. No upload/publishing action is started by this document.

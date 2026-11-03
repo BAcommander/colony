@@ -1,0 +1,192 @@
+{
+  "date": "2026-11-03",
+  "scope": "Short A/B audition only; existing full two-hour V5 unchanged",
+  "source": {
+    "original_path": "C:\\Users\\john\\Downloads\\Fine_dry_snow_grains_#2-1793724361485.mp3",
+    "preserved_file": "source-originals/supplied-snow-grains.mp3",
+    "sha256": "58bb38ca9b8447b0cbdd1a389a756896244d7e54198517af4afdd9d6ab98346e",
+    "bytes": 241389,
+    "decoded_seconds": 10.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "format": "User-supplied192kbps MP3; not a lossless original",
+    "sample_peak": 0.04675781726837158,
+    "rms_dbfs": -51.26268729677883,
+    "related_brief": "creative/music/sound-design/receiver-2026-11-02/elevenlabs-spindrift-detail-v1.txt",
+    "executed_prompt_model_settings_cost": null
+  },
+  "current_master": {
+    "file": "exports/13-below-the-snowline/audio-2h-v5/Below-the-Snowline-2-Hours-unfaded-master-v5.flac",
+    "sha256": "4b4843823fbd032e3368f6945d94a600b8b97062b56779b15f9f48b3953b60c4"
+  },
+  "source_window_seconds": [
+    1615.0,
+    1675.0
+  ],
+  "seconds": 60.0,
+  "snow_event": {
+    "start_in_clip_seconds": 24.0,
+    "end_in_clip_seconds": 34.0,
+    "complete_take": true,
+    "looped": false,
+    "pitch_or_time_edit": false,
+    "lowpass_hz": 2800,
+    "lowpass_order": 2,
+    "zero_phase_filter": true,
+    "edge_fades_seconds": [
+      0.02,
+      0.08
+    ],
+    "source_gain_after_filter_db": 14.10120983877147,
+    "target_event_rms_db_vs_wind": -9.0,
+    "peak_margin_db_vs_local_wind": -3.0,
+    "peak_guard_limited": true,
+    "actual_event_rms_db_vs_wind": -12.4326698499504,
+    "actual_peak_db_vs_wind": -3.0000000756801217,
+    "calibration": "Provisional source-specific audition starting point; not a universal/approved balance"
+  },
+  "existing_events_in_clip": {
+    "wind_full_outer_envelope_seconds": [
+      6,
+      45
+    ],
+    "creak_start_seconds": 10,
+    "radio_calls": 0
+  },
+  "unchanged": [
+    "music",
+    "wind",
+    "ventilation",
+    "creak",
+    "radio",
+    "existing event timing"
+  ],
+  "whole_listening_gain_db": 0.4,
+  "independent_normalization": false,
+  "validation": {
+    "frames": 2880000,
+    "current_v5_reference_error": 0.0,
+    "exact_new_mix_sum_error": 0.0,
+    "difference_outside_snow_event": 0.0,
+    "lossless_playback_gain_errors": [
+      1.1903895795733338e-07,
+      1.1903895795733338e-07
+    ],
+    "all_outputs_fully_decoded": true
+  },
+  "loudness": {
+    "A-current-v5": {
+      "integrated_lufs": -24.7,
+      "loudness_range_lu": 9.5,
+      "true_peak_dbtp": -8.5
+    },
+    "B-with-snow-grains": {
+      "integrated_lufs": -24.7,
+      "loudness_range_lu": 9.5,
+      "true_peak_dbtp": -8.5
+    }
+  },
+  "outputs": [
+    {
+      "frames": 480000,
+      "seconds": 10.0,
+      "sample_peak": 0.04675781726837158,
+      "finite": true,
+      "sha256": "58bb38ca9b8447b0cbdd1a389a756896244d7e54198517af4afdd9d6ab98346e",
+      "bytes": 241389,
+      "file": "source-originals/supplied-snow-grains.mp3"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.08768439292907715,
+      "finite": true,
+      "sha256": "6535e754e7ee765b15f1f041fd624bcc8bbe60985d8e445c468dd5dd28f81458",
+      "bytes": 1117914,
+      "file": "Snow-grains-only-60s.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.3715193271636963,
+      "finite": true,
+      "sha256": "823365dcf0aebea6e836ba38ec5e855b180c2e45928ebe2a7c6dd6d798adcd97",
+      "bytes": 8736451,
+      "file": "A-current-v5-unfaded-60s.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.3715193271636963,
+      "finite": true,
+      "sha256": "9fa4cae90052edde4bd86bda76f66d8efc05e65439f74051158225f2d1f5c3c1",
+      "bytes": 8769519,
+      "file": "B-snow-grains-unfaded-60s.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.38902854919433594,
+      "finite": true,
+      "sha256": "eb1377b2dfb15812a726be4e0f43049619f1223ee2cc296850325402b2ddaee6",
+      "bytes": 8786707,
+      "file": "A-current-v5-60s.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.3766734004020691,
+      "finite": true,
+      "sha256": "ef3323f4897d42ae34e0ccded93db020755687d2b4214fb97fa5d4f2ea992f9f",
+      "bytes": 1441196,
+      "file": "A-current-v5-60s.mp3"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.38902854919433594,
+      "finite": true,
+      "sha256": "ecc847a2950c9dff7f7b0aa5017f2a33904f5454e22ada8c4186f5eacce06eda",
+      "bytes": 8818956,
+      "file": "B-with-snow-grains-60s.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.3766734004020691,
+      "finite": true,
+      "sha256": "f0098f08e613c9745fa4e71c4465822a0a3774e62e3013aaf53e5938ec194818",
+      "bytes": 1441196,
+      "file": "B-with-snow-grains-60s.mp3"
+    }
+  ],
+  "new_paid_calls": 0,
+  "assistant_listening": false,
+  "snow_user_verdict": "i can barely hear it / not at all",
+  "full_two_hour_updated": false,
+  "implementation_sha256": "7ebad7aa0ffdd4d124ef9bd17ae2ed7cb706d8237cb7fed15fdddf551ced69bb",
+  "library_source": {
+    "file": "music/sfx-library/assets/snow-grains-ledge-01.mp3",
+    "sha256": "58bb38ca9b8447b0cbdd1a389a756896244d7e54198517af4afdd9d6ab98346e",
+    "status": "candidate; audition only"
+  },
+  "library_preview": {
+    "file": "music/sfx-library/previews/snow-grains-ledge-01.mp3",
+    "gain_db": 19.9,
+    "measurements": {
+      "lufs": -24.4,
+      "lra_lu": 10.5,
+      "true_peak_dbtp": -7.0
+    },
+    "validation": {
+      "frames": 480000,
+      "seconds": 10.0,
+      "sample_peak": 0.44723981618881226,
+      "finite": true,
+      "sha256": "0fffcc5b6ec9bd380ced8583805cb2349211d42efec7cd8af4f9e359830df157",
+      "bytes": 241388
+    }
+  },
+  "backup_scope": "Local additions after the verified November3 backup; not covered by that earlier receipt.",
+  "follow_up_record": "snow-grains-gain-v2-2026-11-03.json"
+}

@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-03",
+  "user_request": "can the radio be 1 db quieter",
+  "parent_review": "exports/13-below-the-snowline/level-tests/radio-context-wind-plus2db-v1/review.json",
+  "parent_review_sha256": "98d71d18c02b16c462ede7d2340b08fbf9e8082ab5e77a851d6a9fbd49a60b5e",
+  "source_window_seconds": [
+    195.0,
+    255.0
+  ],
+  "seconds": 60.0,
+  "radio_increment_db_vs_previous_review": -1.0,
+  "radio_total_increment_db_vs_v4": -1.0,
+  "radio_amplitude_multiplier": 0.8912509381337456,
+  "wind_increment_db_vs_v4": 2.0,
+  "wind_creak_music_ventilation_and_all_timings_unchanged": true,
+  "whole_listening_gain_db": 0.3999999999999986,
+  "independent_normalization": false,
+  "events_in_window": {
+    "radio": [
+      {
+        "start_in_clip_seconds": 9.569104166666676,
+        "end_in_clip_seconds": 16.200583333333327,
+        "voice_at_clip_seconds": 10.0,
+        "acknowledgement": {
+          "frequency_hz": 680,
+          "double": true,
+          "offset_seconds": 6.302208333333334
+        }
+      }
+    ],
+    "wind": [
+      {
+        "start_in_clip_seconds": -7.0,
+        "end_in_clip_seconds": 65.0,
+        "fade_in_ends_in_clip_seconds": 7.0,
+        "fade_out_starts_in_clip_seconds": 46.0
+      }
+    ],
+    "creaks": []
+  },
+  "radio_voice_at_clip_seconds": [
+    10.0
+  ],
+  "wind_full_outer_envelope_seconds": [
+    [
+      7.0,
+      46.0
+    ]
+  ],
+  "radio_component_file": "exports/13-below-the-snowline/level-tests/radio-minus1db-wind-plus2db-v1/radio-adjusted.flac",
+  "unfaded_excerpt_file": "exports/13-below-the-snowline/level-tests/radio-minus1db-wind-plus2db-v1/radio-adjusted-unfaded-context.flac",
+  "validation": {
+    "frames": 2880000,
+    "max_radio_gain_error": 1.19229562592707e-07,
+    "radio_only_delta_error": 0.0,
+    "max_mix_change_outside_radio": 0.0,
+    "lossless_reference_playback_gain_error": 1.190389579590681e-07
+  },
+  "outputs": [
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.04744088649749756,
+      "finite": true,
+      "sha256": "30e72801fad9fcbe3ccdce2294015a0657acf84d1dca202681df6bdfc36ba092",
+      "bytes": 788197,
+      "file": "radio-adjusted.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.3570396900177002,
+      "finite": true,
+      "sha256": "e6579ecdde1f7276746c0e04958a51568a14e1c610f776bc8bdeb5dc92bd1c28",
+      "bytes": 9044770,
+      "file": "radio-adjusted-unfaded-context.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.37386655807495117,
+      "finite": true,
+      "sha256": "c0a3f80f10141b8e05e85b98a8a0ad3edca5fa8892bad042c96e1735a36784f5",
+      "bytes": 9092968,
+      "file": "Radio-minus1dB-in-context-60s.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.3628215193748474,
+      "finite": true,
+      "sha256": "8de775dab365b08f3bf8b9996b49aa4c19192a948ae31db861dbc5022af1f044",
+      "bytes": 1441196,
+      "file": "Radio-minus1dB-in-context-60s.mp3"
+    }
+  ],
+  "measured_excerpt_loudness": {
+    "integrated_lufs": -22.2,
+    "loudness_range_lu": 5.4,
+    "true_peak_dbtp": -8.8
+  },
+  "full_two_hour_mix_updated": false,
+  "assistant_listening": false,
+  "user_verdict": null,
+  "implementation_sha256": "da7cd5de8810342f19ccaf3ecda8fe95afb442522071efd4e5de9b2fc2a19ef2"
+}

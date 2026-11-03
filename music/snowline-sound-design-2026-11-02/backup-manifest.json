@@ -1,0 +1,471 @@
+{
+  "created_at_utc": "2026-11-02T12:09:57.997869+00:00",
+  "branch": "codex/concept-brainstorms-2026-10-27",
+  "parent_commit": "d8ff47daf8d6fa9bd301db264e8a61b4a1bb80eb",
+  "scope": "All current Nov2 workflow, tools, research records, prompts and portable own-audio archive. This index records staged bytes before adding this manifest itself.",
+  "checks": {
+    "targeted_signal_schedule_tests": 11,
+    "restore_safety_tests": 3,
+    "all_pass": true,
+    "current_working_media_verified": 221,
+    "secret_pattern_scan": "pass",
+    "staged_diff_check": "pass"
+  },
+  "exclusions": [
+    "Downloaded WINTER WATCH reference audio and derived audition clips",
+    "Machine-local Python environments and caches",
+    "Unrelated production trees on other branches"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "git_blob": "a06dfe293959f73a409b61ee527126f19275c76e",
+      "git_content_bytes": 14947,
+      "git_content_sha256": "3d06f818ad0c48f6520c9c6a56fa86ccbca94cd15ca950a04390820c55a16e3e"
+    },
+    {
+      "path": "AGENTS.md",
+      "git_blob": "de4a36e35d2598d8bcd5848a052bb201abe6df99",
+      "git_content_bytes": 79226,
+      "git_content_sha256": "315f21f36b3e9506512eebe207b77287592a173a0a30ac0de83c1a49a20332b9"
+    },
+    {
+      "path": "Inspect Radio Texture.cmd",
+      "git_blob": "f13ac1c7450a5a2877536ae0c09d89c71716ee5a",
+      "git_content_bytes": 427,
+      "git_content_sha256": "1ce75341e911de0908dd9cdc5c28b4a89ddd3053b4e43a5157854b4fe2a4cdda"
+    },
+    {
+      "path": "README.md",
+      "git_blob": "b2f0f46731b069c60d616629ada6d8f7f9dddf52",
+      "git_content_bytes": 2563,
+      "git_content_sha256": "c898a36b0cee20f70a023a75892407452544ddaefe22a8a3b7915d4f7872c340"
+    },
+    {
+      "path": "Resume Snowline.cmd",
+      "git_blob": "f520b1ed4d46b98e0da871a9dc45e032cdb89bfd",
+      "git_content_bytes": 421,
+      "git_content_sha256": "42c5a1e0c023c17ede82e449b0979d81ed5af4181745e9d3cbf24c4551c511a0"
+    },
+    {
+      "path": "creative/LEARNINGS.md",
+      "git_blob": "7e87cfe228d936ed5abd08a8cb8c24d1a1cbbda0",
+      "git_content_bytes": 19053,
+      "git_content_sha256": "7bd3b82b8502ffd342eb8d6f7164bafb7b9c3524a59a3c8418a8fa67f3418ae0"
+    },
+    {
+      "path": "creative/MUSIC_WORKFLOW.md",
+      "git_blob": "165b2eb3069f7860a152b06b2b9328c8ac8d5c61",
+      "git_content_bytes": 32539,
+      "git_content_sha256": "d471f8b428c0533eb004866393b7db3c7e0a572ecf4f76973e921a01607e6474"
+    },
+    {
+      "path": "creative/NEXT_SCENE_RUNBOOK.md",
+      "git_blob": "d3a18628fe5ab8f1544fdcf8566b2caa0c72d8ed",
+      "git_content_bytes": 8730,
+      "git_content_sha256": "0f4dcf93bb97a7e3652f436808e1920bee90f6b0724dacd7b66441a8cca9fb9c"
+    },
+    {
+      "path": "creative/learning-audit-2026-11-02.json",
+      "git_blob": "77a919233eecf9a36dbe556223b423fe633daabf",
+      "git_content_bytes": 4629,
+      "git_content_sha256": "c5bb020790d6bd41076bede5d25f389676bb763341395564204e5edcdae34376"
+    },
+    {
+      "path": "creative/music/november-2026/README.md",
+      "git_blob": "4a07c6338dffcfb8e2e167402c0a40a5fd790822",
+      "git_content_bytes": 5251,
+      "git_content_sha256": "43c384a27041c5ceec7cf54637d0c6c5f73e338beb375c6b815fee1b683712cd"
+    },
+    {
+      "path": "creative/music/reference-analysis/README.md",
+      "git_blob": "0b586779633acbe1cf84d5de2e36ca6b7171bb89",
+      "git_content_bytes": 5240,
+      "git_content_sha256": "1c17183755a94e3bcc00911a7cc5867fb16536a6b180e9d050cb35f05ebde5ee"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/README.md",
+      "git_blob": "65c990ff272fae80f39eb245dbf7d8f092e36127",
+      "git_content_bytes": 11737,
+      "git_content_sha256": "01a1552216c88d34152f3bde579a022468d52f5a9bde5630e083290c742ddab8"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/capture-metadata.json",
+      "git_blob": "ec4ce305cb82d7c6fd4de4589832bc1062e2b2b5",
+      "git_content_bytes": 549,
+      "git_content_sha256": "a1914fe260552ef4b30ecce635c36f17704bad9b90e6af458164ee4911fcdb83"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/clip-validation.json",
+      "git_blob": "ea12dcb6f0e1a54f5183d3d960aca216bee89d93",
+      "git_content_bytes": 2830,
+      "git_content_sha256": "6caede9404b85d12de6ff22aa320836cec13a3ced1c0a231fd7626252bbab232"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/creator-metadata.json",
+      "git_blob": "40c27a0064bced3df232f0afb2ea96ab71beac07",
+      "git_content_bytes": 889,
+      "git_content_sha256": "4daf0f9d0a2d3449cade645b1e337a5eee06a41814e8f3c9f1602d4c0520fb8a"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/diagnosis.json",
+      "git_blob": "b26d922fb31f8fefb93c269f03909830ddf28e5d",
+      "git_content_bytes": 6332,
+      "git_content_sha256": "cc31b79c98fa6aa96065eedf5551916d990e60e4309f6e0e621940df691dac80"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/listening-feedback.json",
+      "git_blob": "8c7afcdf00d8cc57cef5773f50e376c6f30dbf8d",
+      "git_content_bytes": 659,
+      "git_content_sha256": "64e9d6fd37b38b74d527419081fce2578cc24dc228cc495b35b29ea4fff95633"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/radio-inspector-validation.json",
+      "git_blob": "0d53b693d1b7f8d5ccf8a14fc44e60e58c79780d",
+      "git_content_bytes": 9368,
+      "git_content_sha256": "6c024e5c741e8d042e46ce08442b8c2e83243a46fa299ee483694556e822f301"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/reports/README.md",
+      "git_blob": "bcb05f8693c83c2f0daa1450e52e1d963d7825e0",
+      "git_content_bytes": 333,
+      "git_content_sha256": "5b20c1dbcc84d964f4f10604635d34a41c4abd339e30be6ce767ef88500e170f"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/reports/inspection-v1/clip-validation.json",
+      "git_blob": "ea12dcb6f0e1a54f5183d3d960aca216bee89d93",
+      "git_content_bytes": 2830,
+      "git_content_sha256": "6caede9404b85d12de6ff22aa320836cec13a3ced1c0a231fd7626252bbab232"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/reports/inspection-v1/diagnosis.json",
+      "git_blob": "b26d922fb31f8fefb93c269f03909830ddf28e5d",
+      "git_content_bytes": 6332,
+      "git_content_sha256": "cc31b79c98fa6aa96065eedf5551916d990e60e4309f6e0e621940df691dac80"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/reports/radio-inspector-v1/analysis.json",
+      "git_blob": "5f7563caad4c1607a66dc1bf6608d0813ee2f44b",
+      "git_content_bytes": 685626,
+      "git_content_sha256": "d82c0a689d606edf7cb100c3d15351a46c4c5a7444c4d7085f32addb37efad6f"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/reports/radio-inspector-v2/analysis.json",
+      "git_blob": "de5035f08beae51cd7fcb1ca909c51f27ba7c663",
+      "git_content_bytes": 678048,
+      "git_content_sha256": "be2fc214107ab8c31dff12b6c77a50f6f6c7766a3b31894d723468dc00ea578c"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/reports/radio-inspector-v2/inspect.html",
+      "git_blob": "a84c7a70ca4adfa73ada02c044cd0b52be640367",
+      "git_content_bytes": 517985,
+      "git_content_sha256": "37d42186e28778f0e2e45a87cf4963821ab8d159d086a17cf985c9ad2d66d3cd"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/reports/radio-inspector-v2/inspector-preview.png",
+      "git_blob": "1c6a02965765ef18e985f6f115164b416b34824a",
+      "git_content_bytes": 126319,
+      "git_content_sha256": "f086358b46b2b204bed4634536a20178f4633921b37c6c342750f062eb63e28e"
+    },
+    {
+      "path": "creative/music/reference-analysis/nonmusical-2026-11-02/validation.json",
+      "git_blob": "ad3a27de497d75c0022810ac81b61ef88c2f0a4b",
+      "git_content_bytes": 1380,
+      "git_content_sha256": "61ef358032888a71ca12e75944de14bccc32a40f699fcf051c4c182d3823fb14"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/README.md",
+      "git_blob": "96308c5febbee9b5b4d4357a9b88dc5e713fe16f",
+      "git_content_bytes": 23701,
+      "git_content_sha256": "fe298547ac795ae2c1661ada802ecb7e9a208d8f66b6586b151d62cfd00713da"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/cue-sheet-full-session-v1.txt",
+      "git_blob": "62a9d1c65cd19ffcc7ddb14b91c76f8de414bb44",
+      "git_content_bytes": 591,
+      "git_content_sha256": "223e9ae9e0c80af31cc4104d8bfad104801ca6ed54dcaa38642c8f6ca98602e1"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/elevenlabs-creak-test-preparation.json",
+      "git_blob": "b606b3eca385e11c5e686f412c0bb7d2343529f0",
+      "git_content_bytes": 1892,
+      "git_content_sha256": "a183891119dddaa533a8a0c8f04383f0171e59ddb1815debc10961ea952a5f57"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/elevenlabs-garbled-transmission.txt",
+      "git_blob": "afb5fdadc2189447c7c9b3df585a859f5606b493",
+      "git_content_bytes": 351,
+      "git_content_sha256": "de4ebd29252fbdf08a0bcf42c65fe4a607775bc0acd479a2b3e037dddb5177f4"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/elevenlabs-receiver-bed.txt",
+      "git_blob": "ae35a9d4971d0c20277ce6efe0cf8f53eb8b035a",
+      "git_content_bytes": 390,
+      "git_content_sha256": "0fba540a978fafdf0355595fadcdbf10fca8190a3f886077f4d987d7d9a5db7e"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/elevenlabs-settling-creak-v1.txt",
+      "git_blob": "082eb3b86931cdb4c248be8adcef1418050cb731",
+      "git_content_bytes": 297,
+      "git_content_sha256": "af24c09393b24fa616a65e37baa7a81fc6d40f6609436947cfc0ceddd3d7cf65"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/elevenlabs-spindrift-detail-v1.txt",
+      "git_blob": "e3b0d113c2d09bba89ffc480ccc047220a3494ed",
+      "git_content_bytes": 258,
+      "git_content_sha256": "9ba8061032fae112148f50c02f988c385be7792c60063353789c46d4c32b2710"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/environment-v2-balance-approval.json",
+      "git_blob": "f3324f2e38de87241b7b134beb12c44b951493d7",
+      "git_content_bytes": 1787,
+      "git_content_sha256": "e37acdb7e737ce19fa8975be91b1c40174dd43e7bdd34edb6d82e8bd5169a315"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/feedback-and-checks.json",
+      "git_blob": "abc5544573d936f9af752ce9e34d695fa40a5c00",
+      "git_content_bytes": 5539,
+      "git_content_sha256": "c219a72b5f65eec16a4ee9eb1f5e1b3f958cb64fc9dbbca979f4e2c26d8fffb7"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/history/render-wind-creaks-internal-v1.py",
+      "git_blob": "3663d6a59f75376c29dbb7d1d41e103c926e859b",
+      "git_content_bytes": 12217,
+      "git_content_sha256": "0b7bd22e68ca190175bf40e9f5c74a5337bfb11919240d76116fd68a2d35d170"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/history/wind-creak-internal-v1.json",
+      "git_blob": "241e78e94a7dec5919884b75761fbaa535074df1",
+      "git_content_bytes": 395,
+      "git_content_sha256": "52e30a1ce7842f407a3a12ae22ec61a6058b8287e877dc9e9f6f86fb53fdd297"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/ice-planet-layer-plan.md",
+      "git_blob": "77b6044f2901948ee5c4353291a6d6c1396f454f",
+      "git_content_bytes": 8791,
+      "git_content_sha256": "76e20cd107e6e53020321fc0be54039529776542bc1fe445ffd9e3a8731914c1"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/recipe-environment-session-v1.json",
+      "git_blob": "9862d44f2c2dd59543b8029e9387101daf287e26",
+      "git_content_bytes": 5525,
+      "git_content_sha256": "113f7f4d2663925f401949d3ad6fbc7b38f58526e0048d4dcda508b641784513"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/recipe-environment-session-v2.json",
+      "git_blob": "0b45d0bd787f8148dd01ca036873219953ea6b34",
+      "git_content_bytes": 4509,
+      "git_content_sha256": "330a8a1a561a86bc74e7d5ce0c8ecb537773137b8d011ceed25eda0f821d7659"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/recipe-full-session-v1.json",
+      "git_blob": "ae11458d90fe20fb36bc106828aa5f094792ecba",
+      "git_content_bytes": 15979,
+      "git_content_sha256": "66e367c65b5435b3af6ae184e1b77dad6896676474de2a8827d27aa648700288"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/recipe-v2.json",
+      "git_blob": "746ea89a2f372be8d6407c775b7aad324fcf01ab",
+      "git_content_bytes": 6208,
+      "git_content_sha256": "78eb61ba1abdb5ed315b549dcf9bd8ae16f0f535251f4b19982669a63d7c5ff1"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/recipe-v3.json",
+      "git_blob": "7e24e519b4fff0cdf72379b79d8930d205a000c1",
+      "git_content_bytes": 10656,
+      "git_content_sha256": "4ba03e342869f46df2c1294c781ac42ba33648af186e60d12c747ade5a136346"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/recipe-v4.json",
+      "git_blob": "ba0bd36203a5e8aabbd687878cc07c003d339438",
+      "git_content_bytes": 7807,
+      "git_content_sha256": "329c85b2d3d25c32f363acbf32b6592b7290f0272d4eeef03d332d15a2a2f11a"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/recipe-wind-creak-test-v2.json",
+      "git_blob": "636f0a82490ca25960acc60d9ddf1c1bc7d1a80f",
+      "git_content_bytes": 24959,
+      "git_content_sha256": "85fd49a5b08b1e678b173b55a3c903b5d6736cbd6496334f2f80350d98af2f74"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/restoration.json",
+      "git_blob": "59a7906ca11def0195a58ab0ae3dea2cd5e15383",
+      "git_content_bytes": 1185,
+      "git_content_sha256": "5de180be073bfce779b2c061e978e64bc3747cacba1088835c2c39e1dbec0fc9"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/snowline-ambience-preset-current.json",
+      "git_blob": "94a11bc5f4cc803747b0237dff5bfe4f56abfde7",
+      "git_content_bytes": 2519,
+      "git_content_sha256": "4a1eec5b370f7953d8a2a658529388464de02c14e5874c05fe0e60a0865b573f"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/validation-environment-session-v1.json",
+      "git_blob": "7496477c906552659bd9f12c8166a2731a173784",
+      "git_content_bytes": 516,
+      "git_content_sha256": "16e48e0ccf83ef22fca32b87a9a7802f5b3586bbb65728f0e45cf7ff37a13dd7"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/validation-environment-session-v2.json",
+      "git_blob": "a07d20a05076d325785e25e978279fff66b7af6f",
+      "git_content_bytes": 447,
+      "git_content_sha256": "5dc6c5e390e04c813ef08a4db99d46737c5456e32ea058c0976da6da46d17843"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/validation-full-session-v1.json",
+      "git_blob": "315e17435e44c2b9549a660a9af9cc694eaf82fd",
+      "git_content_bytes": 405,
+      "git_content_sha256": "c3ca03cc8b025714450a456099126cca9ad16c1a3fb92ebb2b4889d438f06af3"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/validation-wind-creak-test-v2.json",
+      "git_blob": "683e3db1e3df9e6570c596cd840579dd2f02d65a",
+      "git_content_bytes": 1986,
+      "git_content_sha256": "f71c14c6c7cb8e77d476e0261cc86d413f562ddbee5c62cc02841c7d6edae557"
+    },
+    {
+      "path": "creative/music/sound-design/receiver-2026-11-02/wind-and-creaks-test.md",
+      "git_blob": "ea26dbc526f3d2e35d95693ff119e0ff8889eb51",
+      "git_content_bytes": 8069,
+      "git_content_sha256": "8ac71d817b5f25e992267a18d372fea85fc38d6f730666c05b3918ae091064be"
+    },
+    {
+      "path": "music/snowline-sound-design-2026-11-02/RESUME.md",
+      "git_blob": "8d435597fb5b8a0659b542dc4a9638ecb6a6399e",
+      "git_content_bytes": 7523,
+      "git_content_sha256": "b83d521d28a6b603be18addfe1c08a5ccff362597f0af06409f90ae2ee69e6ee"
+    },
+    {
+      "path": "music/snowline-sound-design-2026-11-02/media-manifest.json",
+      "git_blob": "a41011f0f97d6e6424143813857c3ed684ce6bac",
+      "git_content_bytes": 50183,
+      "git_content_sha256": "41e3bf7ff9bdad476f419d75170f77f5c0cbc360153abb58f4e248b5f85f1586"
+    },
+    {
+      "path": "music/snowline-sound-design-2026-11-02/requirements-audio.txt",
+      "git_blob": "5be631610df43842deb6a7f1b02aa5a279854601",
+      "git_content_bytes": 49,
+      "git_content_sha256": "d406e04e5375cdd5fc1c70348c73afb78da1ba6d46610764be696712f2712c9e"
+    },
+    {
+      "path": "music/snowline-sound-design-2026-11-02/snowline-session-media.zip",
+      "git_blob": "0f8e184a87d570073aec45b25169f648834a5bdf",
+      "git_content_bytes": 135,
+      "git_content_sha256": "a360c4f6cd555009107b88283379e7073ac54927a79555b43cfbf614b72bf3ea"
+    },
+    {
+      "path": "scripts/analyze_radio_texture.py",
+      "git_blob": "47bdd6a11872280b9f78d02cc0d8f07590ff8e7a",
+      "git_content_bytes": 18495,
+      "git_content_sha256": "0ea86eb7af45265b4f3719bc670bee03fe725345a8cb621011d9e380e47bff68"
+    },
+    {
+      "path": "scripts/build_snowline_environment.py",
+      "git_blob": "a9211e46c01927700f6956ad2ee24045bd35080a",
+      "git_content_bytes": 8462,
+      "git_content_sha256": "63e44464b47c8f9eb95ce4d19fd74feb2a37342a396e3b571a003bec3fd22b15"
+    },
+    {
+      "path": "scripts/build_snowline_radio_session.py",
+      "git_blob": "b89e9682b372a99f4b8f631feee2eb8d79a3392b",
+      "git_content_bytes": 11268,
+      "git_content_sha256": "82828e94f86a04a768fffdd4305226e18f7defde7a0c145b606029ad38abc748"
+    },
+    {
+      "path": "scripts/diagnose_ambient_texture.py",
+      "git_blob": "7492c3cf125bcbcf33a806dbdbf4c6700e102057",
+      "git_content_bytes": 8741,
+      "git_content_sha256": "8e377d901aa6a64e0e50389aedc851068f398a01fc9318ab674b83dcac2cb769"
+    },
+    {
+      "path": "scripts/extend_receiver_voices.ps1",
+      "git_blob": "a5d69862a8b8a3334d5c740c97a8a4d2a0209b8e",
+      "git_content_bytes": 3239,
+      "git_content_sha256": "509df31bbb003841b904de488ecb90101e7365d24ed9b67b9f8328543ec3543d"
+    },
+    {
+      "path": "scripts/generate_polar_comms.py",
+      "git_blob": "19a099c2443d8404545c65d2f20c8bfe5d6c3488",
+      "git_content_bytes": 10599,
+      "git_content_sha256": "2f20448c3b0fd5c67fe6f91c253b308ce7a99301483ea20e245e2fe8ae2503bd"
+    },
+    {
+      "path": "scripts/generate_receiver_texture.py",
+      "git_blob": "c1915758129d7127250eeb4054da6eb8a856addc",
+      "git_content_bytes": 10578,
+      "git_content_sha256": "783e873a48ca6b0573294b17b00329fec2fce24fd1aedc030f73f91f85c0974f"
+    },
+    {
+      "path": "scripts/make_receiver_voices.ps1",
+      "git_blob": "29f4f4ea9429e800b7aa1fad98e1cd2ad10ce5b6",
+      "git_content_bytes": 2537,
+      "git_content_sha256": "d576de7ffafb8b303f5a4cd31b05f08f84baaf376ae954afed7b9f302923453e"
+    },
+    {
+      "path": "scripts/radio_texture_report.html",
+      "git_blob": "b1d17034ac2d45569c769bf80c8ad821786b6fa9",
+      "git_content_bytes": 17401,
+      "git_content_sha256": "86f3351c8e7dff2cd8dae7b00ce72fec5ebebcdd02f0a9af16b2d36a731deee1"
+    },
+    {
+      "path": "scripts/rebalance_snowline_environment.py",
+      "git_blob": "f23b3f6c828f77979a4c743ea1242ba0c3526876",
+      "git_content_bytes": 5055,
+      "git_content_sha256": "2a379bc44e224974b2548032cb5b51c087caee60b261809a2cb4e1aa2dfd6569"
+    },
+    {
+      "path": "scripts/refine_receiver_events.py",
+      "git_blob": "17766b7847582eb8292794577d377a617b1e5962",
+      "git_content_bytes": 9339,
+      "git_content_sha256": "4806585c2ee8f84615eb5d7e105327fb66d0b9f1f68ca9e40b1ae8605c2768c9"
+    },
+    {
+      "path": "scripts/render_snowline_wind_and_creaks.py",
+      "git_blob": "507b2405a702ceb577103cbabeb18f2eacf8384d",
+      "git_content_bytes": 12465,
+      "git_content_sha256": "4658d1b4f1b9d8c298053f97a3beccacc82f687402adc7eb726b3e445fdbf073"
+    },
+    {
+      "path": "scripts/restore_snowline_session.py",
+      "git_blob": "edbc9e2db7cfdf13f19b7b817edc5180cbdcc46e",
+      "git_content_bytes": 4300,
+      "git_content_sha256": "205ae0c7f29d66cbe686046ff091d0e1d0a9f1f8eefa699fa54640e1f34d6749"
+    },
+    {
+      "path": "scripts/test_ambient_texture.py",
+      "git_blob": "632b6b39d8a5e557277526496b5a64eece52d9db",
+      "git_content_bytes": 1151,
+      "git_content_sha256": "806c296ec191b4c655f677d36bdd77742b64195787c11dad8ccbe966fc0490ee"
+    },
+    {
+      "path": "scripts/test_radio_texture.py",
+      "git_blob": "75769de325ef0a01fb73e7943a582adf55eae8de",
+      "git_content_bytes": 2510,
+      "git_content_sha256": "12c90b0aa8de9078a6f9dce8102d2d6eb541eda5d2924e838eff6807658c538e"
+    },
+    {
+      "path": "scripts/test_receiver_texture.py",
+      "git_blob": "a567e03ae1f114ac650d6408009eb61bff7e3d30",
+      "git_content_bytes": 1353,
+      "git_content_sha256": "565cb7c1f36d5acc8cfdb6a3b8084baea5fb3a924bbd7fd62f0d5d8f36fc8526"
+    },
+    {
+      "path": "scripts/test_restore_snowline_session.py",
+      "git_blob": "52c01ccc2a3607be5b5c4bd317b3140b9808614e",
+      "git_content_bytes": 2777,
+      "git_content_sha256": "67bcb880854e871ae18b3e0acc0ce5935c94b19a556b71db7e5e3ca9b185448e"
+    },
+    {
+      "path": "scripts/test_snowline_environment.py",
+      "git_blob": "bf46e2370656027e5b6f285f5705ec8f180d8f32",
+      "git_content_bytes": 1236,
+      "git_content_sha256": "c89f2b906b7ea2c45c706325f5a409523aa135eeda87bb343237c28950552a24"
+    },
+    {
+      "path": "scripts/test_snowline_radio_session.py",
+      "git_blob": "4220274543b67c0ea737f0c0c902a2d50dcd63b7",
+      "git_content_bytes": 1201,
+      "git_content_sha256": "336e89b612aab6efa268b628879b613f28169a02dab51feee5f536809a58617c"
+    }
+  ]
+}

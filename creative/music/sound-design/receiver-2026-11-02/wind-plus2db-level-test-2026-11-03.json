@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-03",
+  "user_request": "lets do +2 db on the wind and try the same 1 minute sample again",
+  "parent_recipe": "exports/13-below-the-snowline/audio-2h-v4/recipe.json",
+  "scope": "One-minute level test only; existing full two-hour V4 files unchanged",
+  "source_window_seconds": [
+    1615.0,
+    1675.0
+  ],
+  "seconds": 60.0,
+  "wind_increment_db_vs_v4": 2.0,
+  "wind_amplitude_multiplier": 1.2589254117941673,
+  "same_wind_envelope_and_timing": true,
+  "same_creak_music_radio_ventilation": true,
+  "wind_gain_applies_to_entire_stem_in_window": true,
+  "whole_listening_gain_db": 0.3999999999999986,
+  "independent_normalization": false,
+  "wind_full_outer_envelope_seconds": [
+    6,
+    45
+  ],
+  "creak_at_clip_seconds": 10,
+  "radio_stem_peak_in_window": 0.0,
+  "validation": {
+    "frames": 2880000,
+    "old_source_sum_error": 0.0,
+    "wind_gain_error": 1.1912416046644392e-07,
+    "wind_only_mix_delta_error": 0.0,
+    "lossless_reference_playback_gain_error": 1.190389579590681e-07
+  },
+  "sources": [
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-music-2h-v1.flac",
+      "sha256": "1291e4dc92bd1d3844f025fbfcd28e53f7fb77062544a2cb643ae731098b091a"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-radio-2h-v1.flac",
+      "sha256": "359eb05da8df4760aa53bbb0fa3c0d86f05410565913eefed80b170afda49f3f"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-wind-2h-v1.flac",
+      "sha256": "45e20634d0f21d7254b3e1f4b37c3ef73b4236ca1fd7d1502e20171c92c5d233"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-ventilation-2h-v1.flac",
+      "sha256": "e785abb7cae6130232355092c90942ac6ff35c57fe0e38b8aa42849598afd5ee"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v4/stems/Snowline-creaks-2h-v4.flac",
+      "sha256": "5a3b1145b8f306a2d9e4cb66d48f44c8390b557b37652249480ba259d3444d0f"
+    }
+  ],
+  "source_master_sha256": "505992935f9ee5d388b62e5fd13b7935f32f19bfabe704e7704019b162fd94ef",
+  "outputs": [
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.16046416759490967,
+      "finite": true,
+      "sha256": "22a4eba5b2c02fbea0f9702d606538a472b52f239886da2422e0e894cb04d91b",
+      "bytes": 4236310,
+      "file": "wind-only-adjusted.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.3715193271636963,
+      "finite": true,
+      "sha256": "823365dcf0aebea6e836ba38ec5e855b180c2e45928ebe2a7c6dd6d798adcd97",
+      "bytes": 8736451,
+      "file": "same-minute-wind-adjusted-unfaded.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.38902854919433594,
+      "finite": true,
+      "sha256": "eb1377b2dfb15812a726be4e0f43049619f1223ee2cc296850325402b2ddaee6",
+      "bytes": 8786707,
+      "file": "Wind-plus2dB-creak-unchanged-60s.flac"
+    },
+    {
+      "frames": 2880000,
+      "seconds": 60.0,
+      "sample_peak": 0.3766734004020691,
+      "finite": true,
+      "sha256": "ef3323f4897d42ae34e0ccded93db020755687d2b4214fb97fa5d4f2ea992f9f",
+      "bytes": 1441196,
+      "file": "Wind-plus2dB-creak-unchanged-60s.mp3"
+    }
+  ],
+  "measured_excerpt_loudness": {
+    "integrated_lufs": -24.7,
+    "loudness_range_lu": 9.5,
+    "true_peak_dbtp": -8.5
+  },
+  "assistant_listening": false,
+  "user_balance_verdict": null,
+  "full_two_hour_mix_updated": false,
+  "new_paid_calls": 0,
+  "implementation_sha256": "52ab2c8d322a9a92d4bd77767785edc8546f4bd204333ce7808403deac5aed35"
+}

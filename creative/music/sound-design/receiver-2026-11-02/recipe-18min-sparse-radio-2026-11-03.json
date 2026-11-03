@@ -1,0 +1,1547 @@
+{
+  "date": "2026-11-03",
+  "seconds": 1080,
+  "user_request": "ok can we try a new mix, that when the wind reaches maximum it's like a bit louder, can we cut the chatter down to about once every 2-3 minutes, and can we make an 18 minute version i can listen to next?",
+  "test_only": true,
+  "current_accepted_preset_replaced": false,
+  "music": {
+    "source_sha256": "987b1509075da8a9202f24a6b765f4e2b6d88d90cb90c28bdaf8719af77b252b",
+    "exact9min_circular_source_repeated_twice": true,
+    "gain": 1,
+    "new_music_or_fades": false
+  },
+  "ventilation": {
+    "source_sha256": "36939090e8896854d9d5c874984912bdba427d3ff5c67799ba260a3a48a2f312",
+    "exact9min_source_repeated_twice": true,
+    "gain": 1
+  },
+  "radio": {
+    "events": [
+      {
+        "voice_start_seconds": 47,
+        "start_seconds": 46.517375,
+        "end_seconds": 51.408166666666666,
+        "packet_file": "exports\\sfx\\snowline-receiver-2026-11-02\\full-session-v1\\packets\\packet-10.wav",
+        "packet_sha256": "4e924838f101d2ae4a7772fedcfd89d32d69a827d632e2be6f1057cfc4a262e0",
+        "source_phrase_sha256": "95fe61443b4693820ae067169e10ad0d4b6994a2f7ede3a47596a35ca432ceaf",
+        "source_gain": 0.2498415319125578,
+        "acknowledgement": null
+      },
+      {
+        "voice_start_seconds": 205,
+        "start_seconds": 204.56910416666668,
+        "end_seconds": 211.20058333333333,
+        "packet_file": "exports\\sfx\\snowline-receiver-2026-11-02\\full-session-v1\\packets\\packet-01.wav",
+        "packet_sha256": "ce161659db1f997513eba96d4824d21e6d718ed215a43ef2e73525b622d60fc7",
+        "source_phrase_sha256": "d4e1a26c2799aa69ee7290fc8198e4d207a834b17c503a3dbf58143c9344d8eb",
+        "source_gain": 0.2498415319125578,
+        "acknowledgement": {
+          "frequency_hz": 680,
+          "double": true,
+          "offset_seconds": 6.302208333333334
+        }
+      },
+      {
+        "voice_start_seconds": 354,
+        "start_seconds": 353.57377083333336,
+        "end_seconds": 359.19139583333333,
+        "packet_file": "exports\\sfx\\snowline-receiver-2026-11-02\\full-session-v1\\packets\\packet-07.wav",
+        "packet_sha256": "17d9862166491fcb3395dd8dd169f60de267f3df35602f4b93f687a2826cbf36",
+        "source_phrase_sha256": "99d6fd113adc8aa969a2fa3d34e583eabf1af31b4159c4b0bc743c93bd565ad8",
+        "source_gain": 0.2498415319125578,
+        "acknowledgement": null
+      },
+      {
+        "voice_start_seconds": 522,
+        "start_seconds": 521.5937708333333,
+        "end_seconds": 527.4811041666667,
+        "packet_file": "exports\\sfx\\snowline-receiver-2026-11-02\\full-session-v1\\packets\\packet-13.wav",
+        "packet_sha256": "865d9da5d40b2d5beee1b2af1f5fc08a13727215c056f3e96b2ef9b13a011eac",
+        "source_phrase_sha256": "50122ce0a2002f055964465caf12d6aef6dbdae6832948cef9aa990288e80a91",
+        "source_gain": 0.2498415319125578,
+        "acknowledgement": null
+      },
+      {
+        "voice_start_seconds": 659,
+        "start_seconds": 658.592375,
+        "end_seconds": 663.0853125,
+        "packet_file": "exports\\sfx\\snowline-receiver-2026-11-02\\full-session-v1\\packets\\packet-14.wav",
+        "packet_sha256": "d41dd3042a49efc7ba588e1b5d358d22d5cc8b44dc1ad4247c1b63402cd52935",
+        "source_phrase_sha256": "e04c5b404430f84ec50a96105a277ba8d00a5917e371ddcadaf4a3b7ad610047",
+        "source_gain": 0.2498415319125578,
+        "acknowledgement": {
+          "frequency_hz": 1020,
+          "double": false,
+          "offset_seconds": 4.280833333333334
+        }
+      },
+      {
+        "voice_start_seconds": 835,
+        "start_seconds": 834.5062083333333,
+        "end_seconds": 841.334125,
+        "packet_file": "exports\\sfx\\snowline-receiver-2026-11-02\\full-session-v1\\packets\\packet-03.wav",
+        "packet_sha256": "36cef8dd236b92214756c5025ea44348aba409ca8f7c7bf973cdac843f4b0cf0",
+        "source_phrase_sha256": "a8d905c4bbd01e5e0a9bb0ec5a1680764fd0a6fbec48b13fa2e74e0bef65af71",
+        "source_gain": 0.2498415319125578,
+        "acknowledgement": null
+      },
+      {
+        "voice_start_seconds": 987,
+        "start_seconds": 986.6408333333334,
+        "end_seconds": 992.5436041666667,
+        "packet_file": "exports\\sfx\\snowline-receiver-2026-11-02\\full-session-v1\\packets\\packet-09.wav",
+        "packet_sha256": "56dec3505a0b8b5a96bd3d1b9005dee7793f5e4e4ae71a575237ab4717d854e0",
+        "source_phrase_sha256": "638fc6b3545a99a87dcf5b2148587748ca072fe1b5cea380c3a8b233df636c96",
+        "source_gain": 0.2498415319125578,
+        "acknowledgement": null
+      }
+    ],
+    "count": 7,
+    "voice_onset_intervals_seconds": [
+      158,
+      149,
+      168,
+      137,
+      176,
+      152
+    ],
+    "same_per_event_source_gain": true,
+    "source_rms_renormalized": false,
+    "independent18min_schedule": true,
+    "unique_source_phrases": 7,
+    "acknowledgement_packets": 2
+  },
+  "wind": {
+    "events": [
+      {
+        "start_seconds": 15,
+        "end_seconds": 80,
+        "duration_seconds": 65,
+        "fade_in_seconds": 12,
+        "fade_out_seconds": 17,
+        "seed": 183100,
+        "grains": [
+          {
+            "destination_seconds": -12.0,
+            "source_start_seconds": 3.3629166666666666,
+            "length_seconds": 10.948125
+          },
+          {
+            "destination_seconds": -6.804791666666667,
+            "source_start_seconds": 5.506958333333333,
+            "length_seconds": 11.6593125
+          },
+          {
+            "destination_seconds": -2.472770833333333,
+            "source_start_seconds": 10.3965,
+            "length_seconds": 10.323583333333334
+          },
+          {
+            "destination_seconds": 1.399125,
+            "source_start_seconds": 8.280854166666668,
+            "length_seconds": 9.319666666666667
+          },
+          {
+            "destination_seconds": 5.832645833333333,
+            "source_start_seconds": 5.0758125,
+            "length_seconds": 12.365
+          },
+          {
+            "destination_seconds": 9.440479166666666,
+            "source_start_seconds": 4.498208333333333,
+            "length_seconds": 12.296833333333334
+          },
+          {
+            "destination_seconds": 14.6849375,
+            "source_start_seconds": 8.958625,
+            "length_seconds": 11.8851875
+          },
+          {
+            "destination_seconds": 18.898416666666666,
+            "source_start_seconds": 3.8732291666666665,
+            "length_seconds": 11.544166666666667
+          },
+          {
+            "destination_seconds": 24.067541666666667,
+            "source_start_seconds": 7.999145833333333,
+            "length_seconds": 13.757333333333333
+          },
+          {
+            "destination_seconds": 28.549958333333333,
+            "source_start_seconds": 6.0162708333333335,
+            "length_seconds": 12.4495625
+          },
+          {
+            "destination_seconds": 33.273375,
+            "source_start_seconds": 13.119770833333334,
+            "length_seconds": 10.6410625
+          },
+          {
+            "destination_seconds": 38.25877083333334,
+            "source_start_seconds": 9.968479166666667,
+            "length_seconds": 12.218770833333334
+          },
+          {
+            "destination_seconds": 42.29897916666667,
+            "source_start_seconds": 7.5326875,
+            "length_seconds": 11.031895833333333
+          },
+          {
+            "destination_seconds": 47.52345833333333,
+            "source_start_seconds": 2.1675833333333334,
+            "length_seconds": 12.649354166666667
+          },
+          {
+            "destination_seconds": 52.62414583333333,
+            "source_start_seconds": 3.7474583333333333,
+            "length_seconds": 12.792625
+          },
+          {
+            "destination_seconds": 57.74608333333333,
+            "source_start_seconds": 12.41925,
+            "length_seconds": 12.235166666666666
+          },
+          {
+            "destination_seconds": 61.34908333333333,
+            "source_start_seconds": 10.5553125,
+            "length_seconds": 12.87025
+          }
+        ],
+        "source_calibration_gain": 2.141814461298239,
+        "crest_guard_linear_gain": 1.0,
+        "unlifted_peak": 0.11492378264665604,
+        "unlifted_outside_fades_rms": 0.013595621847287345
+      },
+      {
+        "start_seconds": 107,
+        "end_seconds": 165,
+        "duration_seconds": 58,
+        "fade_in_seconds": 10,
+        "fade_out_seconds": 16,
+        "seed": 183111,
+        "grains": [
+          {
+            "destination_seconds": -12.0,
+            "source_start_seconds": 4.767625,
+            "length_seconds": 12.11825
+          },
+          {
+            "destination_seconds": -7.022583333333333,
+            "source_start_seconds": 9.786916666666666,
+            "length_seconds": 13.722354166666667
+          },
+          {
+            "destination_seconds": -2.6655,
+            "source_start_seconds": 15.667520833333333,
+            "length_seconds": 9.18475
+          },
+          {
+            "destination_seconds": 0.8493541666666666,
+            "source_start_seconds": 2.382833333333333,
+            "length_seconds": 11.8024375
+          },
+          {
+            "destination_seconds": 5.705770833333333,
+            "source_start_seconds": 9.77025,
+            "length_seconds": 13.888
+          },
+          {
+            "destination_seconds": 10.162645833333332,
+            "source_start_seconds": 15.4366875,
+            "length_seconds": 13.316791666666667
+          },
+          {
+            "destination_seconds": 14.20125,
+            "source_start_seconds": 1.97825,
+            "length_seconds": 11.0634375
+          },
+          {
+            "destination_seconds": 18.202208333333335,
+            "source_start_seconds": 10.435125,
+            "length_seconds": 10.916604166666668
+          },
+          {
+            "destination_seconds": 23.1098125,
+            "source_start_seconds": 14.547604166666666,
+            "length_seconds": 11.05725
+          },
+          {
+            "destination_seconds": 26.764416666666666,
+            "source_start_seconds": 4.9863333333333335,
+            "length_seconds": 12.8321875
+          },
+          {
+            "destination_seconds": 31.8465,
+            "source_start_seconds": 16.283708333333333,
+            "length_seconds": 10.9694375
+          },
+          {
+            "destination_seconds": 36.7624375,
+            "source_start_seconds": 14.741729166666667,
+            "length_seconds": 13.546520833333334
+          },
+          {
+            "destination_seconds": 41.8511875,
+            "source_start_seconds": 6.857479166666667,
+            "length_seconds": 13.11025
+          },
+          {
+            "destination_seconds": 46.42358333333333,
+            "source_start_seconds": 14.655270833333333,
+            "length_seconds": 12.161625
+          },
+          {
+            "destination_seconds": 50.532125,
+            "source_start_seconds": 14.305583333333333,
+            "length_seconds": 11.7578125
+          },
+          {
+            "destination_seconds": 54.596916666666665,
+            "source_start_seconds": 12.854770833333333,
+            "length_seconds": 10.400125
+          }
+        ],
+        "source_calibration_gain": 2.307337327076181,
+        "crest_guard_linear_gain": 1.0,
+        "unlifted_peak": 0.11384565383195877,
+        "unlifted_outside_fades_rms": 0.013595621846466814
+      },
+      {
+        "start_seconds": 188,
+        "end_seconds": 260,
+        "duration_seconds": 72,
+        "fade_in_seconds": 14,
+        "fade_out_seconds": 19,
+        "seed": 183120,
+        "grains": [
+          {
+            "destination_seconds": -12.0,
+            "source_start_seconds": 6.0480625,
+            "length_seconds": 11.331458333333334
+          },
+          {
+            "destination_seconds": -7.949645833333333,
+            "source_start_seconds": 15.248416666666667,
+            "length_seconds": 10.0016875
+          },
+          {
+            "destination_seconds": -3.9968333333333335,
+            "source_start_seconds": 12.559520833333334,
+            "length_seconds": 12.656583333333334
+          },
+          {
+            "destination_seconds": 0.317,
+            "source_start_seconds": 12.66625,
+            "length_seconds": 10.780625
+          },
+          {
+            "destination_seconds": 4.467875,
+            "source_start_seconds": 10.599125,
+            "length_seconds": 11.464145833333333
+          },
+          {
+            "destination_seconds": 8.457583333333334,
+            "source_start_seconds": 13.775333333333334,
+            "length_seconds": 9.0693125
+          },
+          {
+            "destination_seconds": 12.351895833333334,
+            "source_start_seconds": 6.480916666666666,
+            "length_seconds": 11.781875
+          },
+          {
+            "destination_seconds": 16.489708333333333,
+            "source_start_seconds": 12.856833333333332,
+            "length_seconds": 13.8183125
+          },
+          {
+            "destination_seconds": 21.026541666666667,
+            "source_start_seconds": 6.79125,
+            "length_seconds": 9.069020833333333
+          },
+          {
+            "destination_seconds": 25.5885,
+            "source_start_seconds": 10.652729166666667,
+            "length_seconds": 13.687416666666667
+          },
+          {
+            "destination_seconds": 29.39225,
+            "source_start_seconds": 1.3697083333333333,
+            "length_seconds": 9.617041666666667
+          },
+          {
+            "destination_seconds": 33.56675,
+            "source_start_seconds": 3.2109791666666667,
+            "length_seconds": 11.809729166666667
+          },
+          {
+            "destination_seconds": 37.5095,
+            "source_start_seconds": 12.096,
+            "length_seconds": 10.5843125
+          },
+          {
+            "destination_seconds": 42.205708333333334,
+            "source_start_seconds": 2.3642916666666665,
+            "length_seconds": 10.258270833333333
+          },
+          {
+            "destination_seconds": 46.9868125,
+            "source_start_seconds": 6.67275,
+            "length_seconds": 12.558520833333333
+          },
+          {
+            "destination_seconds": 51.194625,
+            "source_start_seconds": 16.4673125,
+            "length_seconds": 9.570708333333334
+          },
+          {
+            "destination_seconds": 55.740833333333335,
+            "source_start_seconds": 11.123,
+            "length_seconds": 10.487020833333334
+          },
+          {
+            "destination_seconds": 59.653375,
+            "source_start_seconds": 14.7444375,
+            "length_seconds": 10.2145625
+          },
+          {
+            "destination_seconds": 63.423791666666666,
+            "source_start_seconds": 10.606395833333334,
+            "length_seconds": 10.958604166666667
+          },
+          {
+            "destination_seconds": 67.0765625,
+            "source_start_seconds": 8.407666666666668,
+            "length_seconds": 9.2621875
+          },
+          {
+            "destination_seconds": 70.62897916666667,
+            "source_start_seconds": 16.215541666666667,
+            "length_seconds": 11.712125
+          }
+        ],
+        "source_calibration_gain": 2.2122084656059737,
+        "crest_guard_linear_gain": 1.0,
+        "unlifted_peak": 0.10974598675966263,
+        "unlifted_outside_fades_rms": 0.01359562184759896
+      },
+      {
+        "start_seconds": 288,
+        "end_seconds": 349,
+        "duration_seconds": 61,
+        "fade_in_seconds": 11,
+        "fade_out_seconds": 17,
+        "seed": 183130,
+        "grains": [
+          {
+            "destination_seconds": -12.0,
+            "source_start_seconds": 16.1545,
+            "length_seconds": 11.621854166666667
+          },
+          {
+            "destination_seconds": -7.584125,
+            "source_start_seconds": 8.719375,
+            "length_seconds": 12.36175
+          },
+          {
+            "destination_seconds": -2.834229166666667,
+            "source_start_seconds": 1.1013333333333333,
+            "length_seconds": 11.413145833333333
+          },
+          {
+            "destination_seconds": 1.5636875,
+            "source_start_seconds": 17.293416666666666,
+            "length_seconds": 9.0770625
+          },
+          {
+            "destination_seconds": 5.174604166666667,
+            "source_start_seconds": 2.0350208333333333,
+            "length_seconds": 9.536166666666666
+          },
+          {
+            "destination_seconds": 10.254416666666666,
+            "source_start_seconds": 17.392541666666666,
+            "length_seconds": 10.175895833333334
+          },
+          {
+            "destination_seconds": 14.8586875,
+            "source_start_seconds": 12.668958333333334,
+            "length_seconds": 11.8673125
+          },
+          {
+            "destination_seconds": 19.483604166666666,
+            "source_start_seconds": 8.973666666666666,
+            "length_seconds": 12.8209375
+          },
+          {
+            "destination_seconds": 23.106,
+            "source_start_seconds": 15.0184375,
+            "length_seconds": 12.9276875
+          },
+          {
+            "destination_seconds": 27.176625,
+            "source_start_seconds": 14.062395833333333,
+            "length_seconds": 12.818291666666667
+          },
+          {
+            "destination_seconds": 30.9025625,
+            "source_start_seconds": 12.596875,
+            "length_seconds": 9.4015
+          },
+          {
+            "destination_seconds": 35.59258333333333,
+            "source_start_seconds": 12.861895833333334,
+            "length_seconds": 10.93375
+          },
+          {
+            "destination_seconds": 39.63152083333333,
+            "source_start_seconds": 18.326416666666667,
+            "length_seconds": 9.701708333333332
+          },
+          {
+            "destination_seconds": 44.77514583333333,
+            "source_start_seconds": 12.2525625,
+            "length_seconds": 13.243791666666667
+          },
+          {
+            "destination_seconds": 49.377625,
+            "source_start_seconds": 12.01425,
+            "length_seconds": 10.8210625
+          },
+          {
+            "destination_seconds": 53.917229166666665,
+            "source_start_seconds": 1.3921666666666668,
+            "length_seconds": 12.689083333333333
+          },
+          {
+            "destination_seconds": 58.191854166666666,
+            "source_start_seconds": 2.8775625,
+            "length_seconds": 11.3153125
+          }
+        ],
+        "source_calibration_gain": 2.2781263477044065,
+        "crest_guard_linear_gain": 1.0,
+        "unlifted_peak": 0.11039887368679047,
+        "unlifted_outside_fades_rms": 0.013595621848124769
+      },
+      {
+        "start_seconds": 374,
+        "end_seconds": 442,
+        "duration_seconds": 68,
+        "fade_in_seconds": 13,
+        "fade_out_seconds": 18,
+        "seed": 183140,
+        "grains": [
+          {
+            "destination_seconds": -12.0,
+            "source_start_seconds": 7.085833333333333,
+            "length_seconds": 13.450770833333333
+          },
+          {
+            "destination_seconds": -7.365729166666667,
+            "source_start_seconds": 14.766541666666667,
+            "length_seconds": 10.675520833333334
+          },
+          {
+            "destination_seconds": -3.1245208333333334,
+            "source_start_seconds": 5.1284375,
+            "length_seconds": 10.814166666666667
+          },
+          {
+            "destination_seconds": 0.86475,
+            "source_start_seconds": 6.988,
+            "length_seconds": 11.678604166666666
+          },
+          {
+            "destination_seconds": 5.5094375,
+            "source_start_seconds": 8.619375,
+            "length_seconds": 13.090583333333333
+          },
+          {
+            "destination_seconds": 9.254645833333333,
+            "source_start_seconds": 5.7346875,
+            "length_seconds": 10.622229166666667
+          },
+          {
+            "destination_seconds": 14.2783125,
+            "source_start_seconds": 4.5319375,
+            "length_seconds": 10.473145833333334
+          },
+          {
+            "destination_seconds": 18.6949375,
+            "source_start_seconds": 17.625854166666667,
+            "length_seconds": 9.319729166666667
+          },
+          {
+            "destination_seconds": 22.363729166666666,
+            "source_start_seconds": 17.506333333333334,
+            "length_seconds": 10.6171875
+          },
+          {
+            "destination_seconds": 26.329708333333333,
+            "source_start_seconds": 1.2392708333333333,
+            "length_seconds": 13.918229166666666
+          },
+          {
+            "destination_seconds": 30.885770833333332,
+            "source_start_seconds": 13.6865,
+            "length_seconds": 10.803729166666667
+          },
+          {
+            "destination_seconds": 34.97058333333333,
+            "source_start_seconds": 13.408479166666666,
+            "length_seconds": 12.152416666666667
+          },
+          {
+            "destination_seconds": 40.070541666666664,
+            "source_start_seconds": 13.019708333333334,
+            "length_seconds": 10.414666666666667
+          },
+          {
+            "destination_seconds": 43.9220625,
+            "source_start_seconds": 6.8008125,
+            "length_seconds": 9.032645833333333
+          },
+          {
+            "destination_seconds": 47.946583333333336,
+            "source_start_seconds": 8.417770833333332,
+            "length_seconds": 9.095479166666667
+          },
+          {
+            "destination_seconds": 52.181270833333336,
+            "source_start_seconds": 11.028041666666667,
+            "length_seconds": 10.724729166666666
+          },
+          {
+            "destination_seconds": 57.1698125,
+            "source_start_seconds": 2.5610625000000002,
+            "length_seconds": 13.7974375
+          },
+          {
+            "destination_seconds": 61.6636875,
+            "source_start_seconds": 12.388020833333334,
+            "length_seconds": 11.108895833333333
+          },
+          {
+            "destination_seconds": 65.34175,
+            "source_start_seconds": 2.776125,
+            "length_seconds": 13.738145833333334
+          }
+        ],
+        "source_calibration_gain": 2.4380001991377527,
+        "crest_guard_linear_gain": 1.0,
+        "unlifted_peak": 0.09776425361633301,
+        "unlifted_outside_fades_rms": 0.01359562184688792
+      },
+      {
+        "start_seconds": 473,
+        "end_seconds": 530,
+        "duration_seconds": 57,
+        "fade_in_seconds": 10,
+        "fade_out_seconds": 16,
+        "seed": 183150,
+        "grains": [
+          {
+            "destination_seconds": -12.0,
+            "source_start_seconds": 10.77625,
+            "length_seconds": 11.829604166666666
+          },
+          {
+            "destination_seconds": -7.32725,
+            "source_start_seconds": 3.907395833333333,
+            "length_seconds": 12.584520833333332
+          },
+          {
+            "destination_seconds": -2.7985,
+            "source_start_seconds": 15.4406875,
+            "length_seconds": 11.221979166666667
+          },
+          {
+            "destination_seconds": 2.34425,
+            "source_start_seconds": 11.075958333333332,
+            "length_seconds": 9.130125
+          },
+          {
+            "destination_seconds": 7.278125,
+            "source_start_seconds": 7.7375,
+            "length_seconds": 11.156958333333334
+          },
+          {
+            "destination_seconds": 11.899104166666667,
+            "source_start_seconds": 3.451041666666667,
+            "length_seconds": 11.507333333333333
+          },
+          {
+            "destination_seconds": 15.631395833333332,
+            "source_start_seconds": 11.939916666666667,
+            "length_seconds": 11.0235
+          },
+          {
+            "destination_seconds": 20.153625,
+            "source_start_seconds": 17.4,
+            "length_seconds": 10.166583333333334
+          },
+          {
+            "destination_seconds": 24.6231875,
+            "source_start_seconds": 6.5033125,
+            "length_seconds": 11.1453125
+          },
+          {
+            "destination_seconds": 28.350229166666665,
+            "source_start_seconds": 6.115291666666667,
+            "length_seconds": 11.36125
+          },
+          {
+            "destination_seconds": 33.48758333333333,
+            "source_start_seconds": 14.953604166666667,
+            "length_seconds": 11.49125
+          },
+          {
+            "destination_seconds": 38.450916666666664,
+            "source_start_seconds": 12.791375,
+            "length_seconds": 10.35825
+          },
+          {
+            "destination_seconds": 43.36572916666667,
+            "source_start_seconds": 2.5807708333333332,
+            "length_seconds": 12.3394375
+          },
+          {
+            "destination_seconds": 47.793166666666664,
+            "source_start_seconds": 9.915375,
+            "length_seconds": 9.6085
+          },
+          {
+            "destination_seconds": 52.08164583333333,
+            "source_start_seconds": 6.919416666666667,
+            "length_seconds": 9.710875
+          }
+        ],
+        "source_calibration_gain": 2.507628078302364,
+        "crest_guard_linear_gain": 1.0,
+        "unlifted_peak": 0.10836425423622131,
+        "unlifted_outside_fades_rms": 0.013595621847346312
+      },
+      {
+        "start_seconds": 554,
+        "end_seconds": 626,
+        "duration_seconds": 72,
+        "fade_in_seconds": 14,
+        "fade_out_seconds": 19,
+        "seed": 183161,
+        "grains": [
+          {
+            "destination_seconds": -12.0,
+            "source_start_seconds": 1.2869375,
+            "length_seconds": 11.904291666666667
+          },
+          {
+            "destination_seconds": -6.885625,
+            "source_start_seconds": 10.7855625,
+            "length_seconds": 12.66575
+          },
+          {
+            "destination_seconds": -1.76525,
+            "source_start_seconds": 10.5645625,
+            "length_seconds": 10.608145833333333
+          },
+          {
+            "destination_seconds": 3.0818541666666666,
+            "source_start_seconds": 18.079083333333333,
+            "length_seconds": 10.275479166666667
+          },
+          {
+            "destination_seconds": 7.7759583333333335,
+            "source_start_seconds": 8.530104166666668,
+            "length_seconds": 9.483729166666667
+          },
+          {
+            "destination_seconds": 12.454479166666667,
+            "source_start_seconds": 9.3839375,
+            "length_seconds": 10.765833333333333
+          },
+          {
+            "destination_seconds": 16.548395833333334,
+            "source_start_seconds": 12.592625,
+            "length_seconds": 12.7025
+          },
+          {
+            "destination_seconds": 21.724,
+            "source_start_seconds": 2.0729791666666664,
+            "length_seconds": 12.685270833333334
+          },
+          {
+            "destination_seconds": 26.75275,
+            "source_start_seconds": 7.5568125,
+            "length_seconds": 13.15125
+          },
+          {
+            "destination_seconds": 30.955916666666667,
+            "source_start_seconds": 13.993270833333334,
+            "length_seconds": 11.232520833333334
+          },
+          {
+            "destination_seconds": 35.610125,
+            "source_start_seconds": 15.976479166666667,
+            "length_seconds": 11.059979166666666
+          },
+          {
+            "destination_seconds": 39.224916666666665,
+            "source_start_seconds": 10.516375,
+            "length_seconds": 11.4324375
+          },
+          {
+            "destination_seconds": 43.14270833333333,
+            "source_start_seconds": 13.3819375,
+            "length_seconds": 11.647
+          },
+          {
+            "destination_seconds": 48.360479166666664,
+            "source_start_seconds": 6.5578125,
+            "length_seconds": 9.8811875
+          },
+          {
+            "destination_seconds": 51.971291666666666,
+            "source_start_seconds": 12.2579375,
+            "length_seconds": 10.339645833333334
+          },
+          {
+            "destination_seconds": 56.0185,
+            "source_start_seconds": 2.6175208333333333,
+            "length_seconds": 12.696583333333333
+          },
+          {
+            "destination_seconds": 59.60816666666667,
+            "source_start_seconds": 3.6004583333333335,
+            "length_seconds": 10.835979166666666
+          },
+          {
+            "destination_seconds": 63.85210416666666,
+            "source_start_seconds": 16.161749999999998,
+            "length_seconds": 11.105291666666666
+          },
+          {
+            "destination_seconds": 68.9820625,
+            "source_start_seconds": 4.149625,
+            "length_seconds": 13.686770833333334
+          }
+        ],
+        "source_calibration_gain": 2.177481736705254,
+        "crest_guard_linear_gain": 1.0,
+        "unlifted_peak": 0.11374212801456451,
+        "unlifted_outside_fades_rms": 0.013595621847553557
+      },
+      {
+        "start_seconds": 652,
+        "end_seconds": 716,
+        "duration_seconds": 64,
+        "fade_in_seconds": 12,
+        "fade_out_seconds": 18,
+        "seed": 183170,
+        "grains": [
+          {
+            "destination_seconds": -12.0,
+            "source_start_seconds": 15.705791666666666,
+            "length_seconds": 12.085583333333334
+          },
+          {
+            "destination_seconds": -8.4545,
+            "source_start_seconds": 7.143416666666667,
+            "length_seconds": 9.286208333333333
+          },
+          {
+            "destination_seconds": -4.348291666666666,
+            "source_start_seconds": 8.090270833333333,
+            "length_seconds": 9.4925625
+          },
+          {
+            "destination_seconds": 0.09933333333333333,
+            "source_start_seconds": 1.7997291666666668,
+            "length_seconds": 11.145020833333334
+          },
+          {
+            "destination_seconds": 5.155395833333333,
+            "source_start_seconds": 15.291583333333334,
+            "length_seconds": 10.97775
+          },
+          {
+            "destination_seconds": 8.873375,
+            "source_start_seconds": 16.270520833333336,
+            "length_seconds": 11.213520833333334
+          },
+          {
+            "destination_seconds": 13.845625,
+            "source_start_seconds": 5.427145833333333,
+            "length_seconds": 10.310875
+          },
+          {
+            "destination_seconds": 18.062104166666668,
+            "source_start_seconds": 13.677125,
+            "length_seconds": 9.970791666666667
+          },
+          {
+            "destination_seconds": 23.195208333333333,
+            "source_start_seconds": 5.7817083333333334,
+            "length_seconds": 13.053020833333333
+          },
+          {
+            "destination_seconds": 28.451125,
+            "source_start_seconds": 6.381333333333333,
+            "length_seconds": 12.307479166666667
+          },
+          {
+            "destination_seconds": 31.9945625,
+            "source_start_seconds": 7.315458333333333,
+            "length_seconds": 9.576625
+          },
+          {
+            "destination_seconds": 35.548770833333336,
+            "source_start_seconds": 2.9245,
+            "length_seconds": 13.789958333333333
+          },
+          {
+            "destination_seconds": 39.90464583333333,
+            "source_start_seconds": 17.9138125,
+            "length_seconds": 9.752416666666667
+          },
+          {
+            "destination_seconds": 44.864020833333335,
+            "source_start_seconds": 9.3873125,
+            "length_seconds": 13.78175
+          },
+          {
+            "destination_seconds": 49.03329166666666,
+            "source_start_seconds": 4.963895833333334,
+            "length_seconds": 9.6738125
+          },
+          {
+            "destination_seconds": 53.369104166666666,
+            "source_start_seconds": 13.6505,
+            "length_seconds": 12.673395833333334
+          },
+          {
+            "destination_seconds": 57.36022916666667,
+            "source_start_seconds": 8.0790625,
+            "length_seconds": 13.048166666666667
+          },
+          {
+            "destination_seconds": 61.97710416666666,
+            "source_start_seconds": 15.126875,
+            "length_seconds": 11.645958333333333
+          }
+        ],
+        "source_calibration_gain": 2.559361261507939,
+        "crest_guard_linear_gain": 1.0,
+        "unlifted_peak": 0.10228542238473892,
+        "unlifted_outside_fades_rms": 0.013595621847270804
+      },
+      {
+        "start_seconds": 738,
+        "end_seconds": 807,
+        "duration_seconds": 69,
+        "fade_in_seconds": 13,
+        "fade_out_seconds": 18,
+        "seed": 183180,
+        "grains": [
+          {
+            "destination_seconds": -12.0,
+            "source_start_seconds": 2.4802708333333334,
+            "length_seconds": 11.083916666666667
+          },
+          {
+            "destination_seconds": -8.2420625,
+            "source_start_seconds": 9.786729166666667,
+            "length_seconds": 10.9495625
+          },
+          {
+            "destination_seconds": -3.7945,
+            "source_start_seconds": 12.241875,
+            "length_seconds": 9.137729166666666
+          },
+          {
+            "destination_seconds": 0.22883333333333333,
+            "source_start_seconds": 16.2518125,
+            "length_seconds": 11.3079375
+          },
+          {
+            "destination_seconds": 4.410958333333333,
+            "source_start_seconds": 8.042416666666668,
+            "length_seconds": 11.969479166666666
+          },
+          {
+            "destination_seconds": 8.145604166666667,
+            "source_start_seconds": 11.022395833333333,
+            "length_seconds": 10.788020833333333
+          },
+          {
+            "destination_seconds": 12.649541666666666,
+            "source_start_seconds": 11.391625,
+            "length_seconds": 13.948666666666666
+          },
+          {
+            "destination_seconds": 16.2005,
+            "source_start_seconds": 2.607895833333333,
+            "length_seconds": 13.9876875
+          },
+          {
+            "destination_seconds": 19.799125,
+            "source_start_seconds": 8.995145833333332,
+            "length_seconds": 11.658395833333334
+          },
+          {
+            "destination_seconds": 23.774854166666668,
+            "source_start_seconds": 10.547958333333334,
+            "length_seconds": 13.413729166666666
+          },
+          {
+            "destination_seconds": 28.692416666666666,
+            "source_start_seconds": 17.713166666666666,
+            "length_seconds": 10.093645833333333
+          },
+          {
+            "destination_seconds": 32.42089583333333,
+            "source_start_seconds": 10.8295625,
+            "length_seconds": 13.629229166666667
+          },
+          {
+            "destination_seconds": 36.220708333333334,
+            "source_start_seconds": 11.623520833333334,
+            "length_seconds": 11.01825
+          },
+          {
+            "destination_seconds": 41.3988125,
+            "source_start_seconds": 9.695104166666667,
+            "length_seconds": 11.538479166666667
+          },
+          {
+            "destination_seconds": 46.563520833333335,
+            "source_start_seconds": 12.078041666666667,
+            "length_seconds": 12.406375
+          },
+          {
+            "destination_seconds": 51.08860416666667,
+            "source_start_seconds": 16.8828125,
+            "length_seconds": 11.038
+          },
+          {
+            "destination_seconds": 55.00095833333334,
+            "source_start_seconds": 11.0394375,
+            "length_seconds": 10.9484375
+          },
+          {
+            "destination_seconds": 59.5761875,
+            "source_start_seconds": 1.1213541666666667,
+            "length_seconds": 11.309625
+          },
+          {
+            "destination_seconds": 64.84866666666667,
+            "source_start_seconds": 16.561,
+            "length_seconds": 9.425916666666666
+          }
+        ],
+        "source_calibration_gain": 1.9779100597298136,
+        "crest_guard_linear_gain": 1.0,
+        "unlifted_peak": 0.11159157007932663,
+        "unlifted_outside_fades_rms": 0.013595621847457337
+      },
+      {
+        "start_seconds": 837,
+        "end_seconds": 895,
+        "duration_seconds": 58,
+        "fade_in_seconds": 11,
+        "fade_out_seconds": 17,
+        "seed": 183190,
+        "grains": [
+          {
+            "destination_seconds": -12.0,
+            "source_start_seconds": 14.701520833333333,
+            "length_seconds": 10.103020833333334
+          },
+          {
+            "destination_seconds": -8.142729166666667,
+            "source_start_seconds": 7.921104166666667,
+            "length_seconds": 11.3810625
+          },
+          {
+            "destination_seconds": -3.900541666666667,
+            "source_start_seconds": 8.022604166666667,
+            "length_seconds": 11.6336875
+          },
+          {
+            "destination_seconds": 1.3225833333333334,
+            "source_start_seconds": 13.537583333333334,
+            "length_seconds": 11.409479166666667
+          },
+          {
+            "destination_seconds": 4.8980625,
+            "source_start_seconds": 14.015854166666667,
+            "length_seconds": 11.032458333333333
+          },
+          {
+            "destination_seconds": 8.6013125,
+            "source_start_seconds": 14.315833333333334,
+            "length_seconds": 13.572875
+          },
+          {
+            "destination_seconds": 12.40575,
+            "source_start_seconds": 10.262833333333333,
+            "length_seconds": 9.4885
+          },
+          {
+            "destination_seconds": 16.554,
+            "source_start_seconds": 13.272375,
+            "length_seconds": 10.020125
+          },
+          {
+            "destination_seconds": 21.4086875,
+            "source_start_seconds": 13.868520833333333,
+            "length_seconds": 10.596020833333334
+          },
+          {
+            "destination_seconds": 25.985083333333332,
+            "source_start_seconds": 6.402875,
+            "length_seconds": 13.453229166666667
+          },
+          {
+            "destination_seconds": 29.767104166666666,
+            "source_start_seconds": 2.220625,
+            "length_seconds": 9.382083333333334
+          },
+          {
+            "destination_seconds": 34.048833333333334,
+            "source_start_seconds": 6.063666666666666,
+            "length_seconds": 13.123833333333334
+          },
+          {
+            "destination_seconds": 37.942125,
+            "source_start_seconds": 15.390333333333333,
+            "length_seconds": 13.3806875
+          },
+          {
+            "destination_seconds": 41.92454166666667,
+            "source_start_seconds": 3.2569375,
+            "length_seconds": 12.279875
+          },
+          {
+            "destination_seconds": 46.93185416666667,
+            "source_start_seconds": 3.077916666666667,
+            "length_seconds": 13.6626875
+          },
+          {
+            "destination_seconds": 51.32091666666667,
+            "source_start_seconds": 14.499916666666667,
+            "length_seconds": 9.6611875
+          },
+          {
+            "destination_seconds": 56.149458333333335,
+            "source_start_seconds": 5.696583333333334,
+            "length_seconds": 13.626645833333333
+          }
+        ],
+        "source_calibration_gain": 2.28587084046649,
+        "crest_guard_linear_gain": 1.0,
+        "unlifted_peak": 0.09819845855236053,
+        "unlifted_outside_fades_rms": 0.0135956218480997
+      },
+      {
+        "start_seconds": 920,
+        "end_seconds": 994,
+        "duration_seconds": 74,
+        "fade_in_seconds": 14,
+        "fade_out_seconds": 20,
+        "seed": 183201,
+        "grains": [
+          {
+            "destination_seconds": -12.0,
+            "source_start_seconds": 12.7153125,
+            "length_seconds": 9.682958333333334
+          },
+          {
+            "destination_seconds": -7.196625,
+            "source_start_seconds": 1.164375,
+            "length_seconds": 13.945875
+          },
+          {
+            "destination_seconds": -2.722125,
+            "source_start_seconds": 8.877020833333333,
+            "length_seconds": 12.2455625
+          },
+          {
+            "destination_seconds": 0.8216875,
+            "source_start_seconds": 7.136166666666667,
+            "length_seconds": 13.766875
+          },
+          {
+            "destination_seconds": 5.616041666666667,
+            "source_start_seconds": 6.115166666666667,
+            "length_seconds": 10.52975
+          },
+          {
+            "destination_seconds": 9.792083333333334,
+            "source_start_seconds": 2.2367708333333334,
+            "length_seconds": 13.519416666666666
+          },
+          {
+            "destination_seconds": 14.756125,
+            "source_start_seconds": 8.1006875,
+            "length_seconds": 13.346875
+          },
+          {
+            "destination_seconds": 18.5630625,
+            "source_start_seconds": 8.123791666666666,
+            "length_seconds": 12.6456875
+          },
+          {
+            "destination_seconds": 23.610354166666667,
+            "source_start_seconds": 2.8436666666666666,
+            "length_seconds": 9.604583333333334
+          },
+          {
+            "destination_seconds": 28.715520833333333,
+            "source_start_seconds": 8.583,
+            "length_seconds": 12.581333333333333
+          },
+          {
+            "destination_seconds": 32.854104166666666,
+            "source_start_seconds": 10.038625,
+            "length_seconds": 13.329229166666666
+          },
+          {
+            "destination_seconds": 37.909104166666665,
+            "source_start_seconds": 3.069354166666667,
+            "length_seconds": 9.599958333333333
+          },
+          {
+            "destination_seconds": 42.09291666666667,
+            "source_start_seconds": 9.976541666666666,
+            "length_seconds": 9.547583333333334
+          },
+          {
+            "destination_seconds": 46.53814583333333,
+            "source_start_seconds": 10.25575,
+            "length_seconds": 11.952875
+          },
+          {
+            "destination_seconds": 50.99304166666667,
+            "source_start_seconds": 15.425854166666667,
+            "length_seconds": 13.3444375
+          },
+          {
+            "destination_seconds": 54.913645833333334,
+            "source_start_seconds": 9.125416666666666,
+            "length_seconds": 13.615395833333332
+          },
+          {
+            "destination_seconds": 59.70735416666667,
+            "source_start_seconds": 2.3126041666666666,
+            "length_seconds": 10.4955625
+          },
+          {
+            "destination_seconds": 63.87020833333333,
+            "source_start_seconds": 15.300875,
+            "length_seconds": 10.522354166666666
+          },
+          {
+            "destination_seconds": 68.7095,
+            "source_start_seconds": 7.4193125,
+            "length_seconds": 9.2805
+          },
+          {
+            "destination_seconds": 73.08827083333334,
+            "source_start_seconds": 10.559104166666666,
+            "length_seconds": 13.8729375
+          }
+        ],
+        "source_calibration_gain": 1.9693564249171465,
+        "crest_guard_linear_gain": 1.0,
+        "unlifted_peak": 0.10470616817474365,
+        "unlifted_outside_fades_rms": 0.013595621847251115
+      },
+      {
+        "start_seconds": 1018,
+        "end_seconds": 1067,
+        "duration_seconds": 49,
+        "fade_in_seconds": 10,
+        "fade_out_seconds": 15,
+        "seed": 183210,
+        "grains": [
+          {
+            "destination_seconds": -12.0,
+            "source_start_seconds": 2.726354166666667,
+            "length_seconds": 13.0965625
+          },
+          {
+            "destination_seconds": -8.378854166666667,
+            "source_start_seconds": 9.806375,
+            "length_seconds": 11.889125
+          },
+          {
+            "destination_seconds": -4.5448125,
+            "source_start_seconds": 16.434541666666668,
+            "length_seconds": 11.909520833333334
+          },
+          {
+            "destination_seconds": -0.9228125,
+            "source_start_seconds": 11.691041666666667,
+            "length_seconds": 10.809458333333334
+          },
+          {
+            "destination_seconds": 2.625395833333333,
+            "source_start_seconds": 5.212645833333333,
+            "length_seconds": 12.3071875
+          },
+          {
+            "destination_seconds": 7.213208333333333,
+            "source_start_seconds": 14.400583333333334,
+            "length_seconds": 12.654041666666666
+          },
+          {
+            "destination_seconds": 11.007708333333333,
+            "source_start_seconds": 7.557916666666666,
+            "length_seconds": 12.317104166666667
+          },
+          {
+            "destination_seconds": 15.434854166666666,
+            "source_start_seconds": 7.5923541666666665,
+            "length_seconds": 11.697979166666666
+          },
+          {
+            "destination_seconds": 20.718708333333332,
+            "source_start_seconds": 3.2962708333333333,
+            "length_seconds": 9.579125
+          },
+          {
+            "destination_seconds": 25.050604166666666,
+            "source_start_seconds": 16.367541666666668,
+            "length_seconds": 9.665666666666667
+          },
+          {
+            "destination_seconds": 29.430833333333332,
+            "source_start_seconds": 15.619416666666666,
+            "length_seconds": 9.486854166666667
+          },
+          {
+            "destination_seconds": 33.246229166666666,
+            "source_start_seconds": 3.15325,
+            "length_seconds": 9.396041666666667
+          },
+          {
+            "destination_seconds": 38.06735416666667,
+            "source_start_seconds": 13.10025,
+            "length_seconds": 12.076645833333334
+          },
+          {
+            "destination_seconds": 42.107958333333336,
+            "source_start_seconds": 3.842604166666667,
+            "length_seconds": 11.448666666666666
+          },
+          {
+            "destination_seconds": 46.29089583333333,
+            "source_start_seconds": 1.20525,
+            "length_seconds": 10.5963125
+          }
+        ],
+        "source_calibration_gain": 2.259095003986669,
+        "crest_guard_linear_gain": 1.0,
+        "unlifted_peak": 0.08817079663276672,
+        "unlifted_outside_fades_rms": 0.013595621846916645
+      }
+    ],
+    "count": 12,
+    "off_gaps_seconds": [
+      27,
+      23,
+      28,
+      25,
+      31,
+      24,
+      26,
+      22,
+      30,
+      25,
+      24
+    ],
+    "coverage_seconds_including_fades": 767,
+    "reference_core_rms": 0.013595621847146184,
+    "reference_sample_peak": 0.11587381362915039,
+    "same_source_and1800hz_filter": true,
+    "one_original_source_only": true,
+    "source_fragments_can_recur": true,
+    "nine_min_composite_not_tiled": true,
+    "peak_region_max_amplitude_multiplier": 1.1,
+    "peak_region_max_lift_db": 0.8278537031645016,
+    "lift_shape": "Smooth rise from0 extra gain at outer-envelope<=0.6 to10% extra at envelope1; independently varying source texture remains.",
+    "meaning_of10percent": "Amplitude relative to the same new wind assembly without peak lift; not a perceived-loudness claim or exact comparison of different-waveform old/new global peaks."
+  },
+  "creaks": {
+    "events": [
+      {
+        "start_seconds": 91,
+        "end_seconds": 95.0,
+        "source_stem_start_seconds": 91,
+        "additional_gain": 1,
+        "same_single_supplied_take_reused": true
+      },
+      {
+        "start_seconds": 338,
+        "end_seconds": 342.0,
+        "source_stem_start_seconds": 338,
+        "additional_gain": 1,
+        "same_single_supplied_take_reused": true
+      },
+      {
+        "start_seconds": 704,
+        "end_seconds": 708.0,
+        "source_stem_start_seconds": 91,
+        "additional_gain": 1,
+        "same_single_supplied_take_reused": true
+      },
+      {
+        "start_seconds": 1007,
+        "end_seconds": 1011.0,
+        "source_stem_start_seconds": 338,
+        "additional_gain": 1,
+        "same_single_supplied_take_reused": true
+      }
+    ],
+    "source_sha256": "88acda1652428ca481936a557edcfaf84dd525a59bb4aed5b88cc203e5e7af1f",
+    "requested_previous10percent_increase_retained": true,
+    "new_gain": 1
+  },
+  "whole_listening_gain_db": 0.3999999999999986,
+  "whole_mix_renormalized": false,
+  "sources": [
+    {
+      "file": "exports\\restored-snowline-2026-11-02\\Below-the-Snowline-paired-loop-9min-v1.flac",
+      "sha256": "987b1509075da8a9202f24a6b765f4e2b6d88d90cb90c28bdaf8719af77b252b"
+    },
+    {
+      "file": "exports\\restored-snowline-2026-11-02\\wind-soft-exterior-01.mp3",
+      "sha256": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34"
+    },
+    {
+      "file": "exports\\sfx\\snowline-receiver-2026-11-02\\environment-session-v2\\Snowline-ventilation-9min-v2.flac",
+      "sha256": "36939090e8896854d9d5c874984912bdba427d3ff5c67799ba260a3a48a2f312"
+    },
+    {
+      "file": "exports\\sfx\\snowline-receiver-2026-11-02\\wind-creak-test-v2\\Snowline-varied-wind-9min-test.flac",
+      "sha256": "e5ca8f50b1f470a383e48b0ed7e9144b5b8018b95243b489108fd4ac72fc2337"
+    },
+    {
+      "file": "exports\\sfx\\snowline-creak-2026-11-03\\audition-v2\\Snowline-supplied-creak-stem-9min-v2.flac",
+      "sha256": "88acda1652428ca481936a557edcfaf84dd525a59bb4aed5b88cc203e5e7af1f"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "Snowline-music-18min-v1.flac",
+      "seconds": 1080.0,
+      "finite": true,
+      "sample_peak": 0.3701552152633667,
+      "sha256": "074b001b7770171ee8a2568c558826cc501e4fd0b75302a0aa8248aa06fdad74",
+      "bytes": 154289284
+    },
+    {
+      "file": "Snowline-ventilation-18min-v1.flac",
+      "seconds": 1080.0,
+      "finite": true,
+      "sample_peak": 0.02852475643157959,
+      "sha256": "3ba638fcdf61c534356e7bac6359dae9e7ae6a79c129b8d39b6f720fbb1810dc",
+      "bytes": 76683462
+    },
+    {
+      "file": "Snowline-radio-18min-v1.flac",
+      "seconds": 1080.0,
+      "finite": true,
+      "sample_peak": 0.07863223552703857,
+      "sha256": "3367652f7a59244c99e4e8302f98adb639101715e7ff0fe2bed827d755014781",
+      "bytes": 5078504
+    },
+    {
+      "file": "Snowline-wind-unlifted-18min-v1.flac",
+      "seconds": 1080.0,
+      "finite": true,
+      "sample_peak": 0.11492383480072021,
+      "sha256": "e43bb9ae7061a5d961788b98ca82aaab2ff551092be81e61ea369a0bbb5088fc",
+      "bytes": 48702601
+    },
+    {
+      "file": "Snowline-wind-18min-v1.flac",
+      "seconds": 1080.0,
+      "finite": true,
+      "sample_peak": 0.12641632556915283,
+      "sha256": "7e735f89f974626635518b3b1b2fab1d10664209dcea376836db0be9c69a9d93",
+      "bytes": 50123817
+    },
+    {
+      "file": "Snowline-creaks-18min-v1.flac",
+      "seconds": 1080.0,
+      "finite": true,
+      "sample_peak": 0.04379165172576904,
+      "sha256": "66ad5d4f5da868afe3a08e66b04105e874436101326a6d8c315622e262b8cfb0",
+      "bytes": 2230043
+    },
+    {
+      "file": "Snowline-18min-sparse-radio-stronger-wind-v1.flac",
+      "seconds": 1080.0,
+      "finite": true,
+      "sample_peak": 0.3917292356491089,
+      "sha256": "e0dfdc4f49db57eeddc9eeb4108d7377eea6e985de9d3e6acd53a44a33d36cd7",
+      "bytes": 155123538
+    },
+    {
+      "file": "Snowline-18min-sparse-radio-stronger-wind-v1.mp3",
+      "seconds": 1080.0,
+      "finite": true,
+      "sample_peak": 0.3956660032272339,
+      "sha256": "d103867c1bd19a18430b39cbdc74b2723447e456617bac5e1460f4699208d3e8",
+      "bytes": 25921196
+    }
+  ],
+  "validation": {
+    "music_repeat": {
+      "frames": 51840000,
+      "exact_two_copies": true,
+      "max_sample_difference": 0.0
+    },
+    "ventilation_repeat": {
+      "frames": 51840000,
+      "exact_two_copies": true,
+      "max_sample_difference": 0.0
+    },
+    "radio_silence": {
+      "frames": 51840000,
+      "max_signal_outside_events": 0.0
+    },
+    "creak_silence": {
+      "frames": 51840000,
+      "max_signal_outside_events": 0.0
+    },
+    "wind_peak_gain": {
+      "frames": 51840000,
+      "max_gain_error": 1.189764222871148e-07,
+      "max_quieter_buildup_difference": 0.0,
+      "max_multiplier": 1.1
+    },
+    "complete_mix": {
+      "frames": 51840000,
+      "max_sum_error": 0.0,
+      "source_gains": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "listening_loudness": {
+    "integrated_lufs": -23.0,
+    "loudness_range_lu": 10.5,
+    "true_peak_dbtp": -8.1
+  },
+  "assistant_listening": false,
+  "user_review": null,
+  "new_paid_calls": 0,
+  "implementation_sha256": "ded7767a5e3ac1d2c30b73c15693c39e33246a3048564b6be1d39b35c14e1d91"
+}

@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-03",
+  "user_feedback_verbatim": "creak still is too quiet, go up another db",
+  "seconds": 7200,
+  "parent_recipe": "exports/13-below-the-snowline/audio-2h-v1/recipe.json",
+  "parent_recipe_sha256": "53513c9bcc6678069d77d0fe76d8cfe78230e5f4318f9a7b9efb485faa130e24",
+  "creak_additional_gain_db": 1.0,
+  "creak_additional_amplitude_multiplier": 1.1220184543019633,
+  "same_music_radio_wind_ventilation_and_all_event_timing": true,
+  "master_file": "Below-the-Snowline-2-Hours-unfaded-master-v2.flac",
+  "source_stems": [
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-music-2h-v1.flac",
+      "sha256": "1291e4dc92bd1d3844f025fbfcd28e53f7fb77062544a2cb643ae731098b091a"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-radio-2h-v1.flac",
+      "sha256": "359eb05da8df4760aa53bbb0fa3c0d86f05410565913eefed80b170afda49f3f"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-wind-2h-v1.flac",
+      "sha256": "45e20634d0f21d7254b3e1f4b37c3ef73b4236ca1fd7d1502e20171c92c5d233"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-ventilation-2h-v1.flac",
+      "sha256": "e785abb7cae6130232355092c90942ac6ff35c57fe0e38b8aa42849598afd5ee"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v2/stems/Snowline-creaks-2h-v2.flac",
+      "sha256": "53883b7550b3f9bc7e2edb872690657152b0a4bd23e73159efd0092458844ae5"
+    }
+  ],
+  "previous_master": {
+    "file": "exports/13-below-the-snowline/audio-2h-v1/Below-the-Snowline-2-Hours-unfaded-master-v1.flac",
+    "sha256": "672b3a22ee140021d7594aada0b4cc8c3dd03c045f39cd523f9283b317b5b56e"
+  },
+  "validation": {
+    "frames": 345600000,
+    "all_samples_finite": true,
+    "amplitude_multiplier": 1.1220184543019633,
+    "max_creak_gain_error": 1.1898437762922903e-07,
+    "max_creak_only_mix_error": 0.0,
+    "max_mix_difference_outside_creaks": 0.0,
+    "lossless_mix_sample_peak": 0.40616869926452637
+  },
+  "mp3_check": {
+    "frames": 345600000,
+    "seconds": 7200.0,
+    "sample_peak": 0.4126041531562805,
+    "finite": true,
+    "sha256": "cabbed6a2281fbf10bf5e9028d8cb8fc147dbec10d84ea167f418e950b358990",
+    "bytes": 172801196
+  },
+  "preview_check": {
+    "frames": 1440000,
+    "seconds": 30.0,
+    "sample_peak": 0.33786875009536743,
+    "finite": true,
+    "sha256": "46463a9e6ad6cf1deda3b340e91a77a0129314298234974e4ab7708508e6e78f",
+    "bytes": 721196
+  },
+  "preview": {
+    "source_start_seconds": 83,
+    "seconds": 30,
+    "first_creak_seconds": 8
+  },
+  "delivery_processing": {
+    "lossless_master": "Unfaded, unity stems; use for assembly and apply opening/closing once.",
+    "mp3": "Same+0.4dB listening gain; no baked opening fade; one20s closing fade.",
+    "listening_gain_db": 0.3999999999999986,
+    "opening_fade_added": false,
+    "closing_fade_seconds": 20
+  },
+  "whole_mix_renormalized": false,
+  "listening_loudness": {
+    "integrated_lufs": -23.1,
+    "loudness_range_lu": 10.5,
+    "true_peak_dbtp": -7.7
+  },
+  "outputs": [
+    {
+      "file": "stems/Snowline-creaks-2h-v2.flac",
+      "seconds": 7200,
+      "sha256": "53883b7550b3f9bc7e2edb872690657152b0a4bd23e73159efd0092458844ae5",
+      "bytes": 13850006
+    },
+    {
+      "file": "Below-the-Snowline-2-Hours-unfaded-master-v2.flac",
+      "seconds": 7200,
+      "sha256": "27f910850a42348ee23b9c42ab73474affe86f7d386516fc715443ee712cae78",
+      "bytes": 1034968216
+    },
+    {
+      "file": "Below-the-Snowline-2-Hours-v2.mp3",
+      "seconds": 7200,
+      "sha256": "cabbed6a2281fbf10bf5e9028d8cb8fc147dbec10d84ea167f418e950b358990",
+      "bytes": 172801196
+    },
+    {
+      "file": "Creak-plus-1dB-30s-check.mp3",
+      "seconds": 30,
+      "sha256": "46463a9e6ad6cf1deda3b340e91a77a0129314298234974e4ab7708508e6e78f",
+      "bytes": 721196
+    }
+  ],
+  "user_review": null,
+  "assistant_listening": false,
+  "new_paid_calls": 0,
+  "implementation_sha256": "43a240428bf81cb18b92c44bf5322a3022b1ac89cdd79312e0db080fc36e8730"
+}

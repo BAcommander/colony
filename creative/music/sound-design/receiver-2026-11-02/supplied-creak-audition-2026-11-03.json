@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-03",
+  "test_only": true,
+  "approved_v2_preset_replaced": false,
+  "user_message": "ehres your creek sfx",
+  "source": {
+    "original_path": "C:\\Users\\john\\Downloads\\A_painted_steel_wind_#2-1793697394592.mp3",
+    "preserved_file": "source-originals/supplied-frame-creak.mp3",
+    "sha256": "8d126f0c72a3b2e991ba7e56347da2364d191823c12077d0e61d3eccf77f8ea6",
+    "decoded_seconds": 4.0,
+    "format": "Supplied MP3, 48kHz stereo; not a lossless WAV original",
+    "executed_prompt_model_settings_and_cost": null
+  },
+  "base": {
+    "file": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\wind-creak-test-v2\\B-wind-only\\Snowline-wind-variation-9min-test.flac",
+    "sha256": "eba4df026d579af0cd6e2ff7dd671713b45a3ba03873e3cb46550d9ab6a478cc",
+    "gain": 1
+  },
+  "events": [
+    {
+      "start_seconds": 91.0,
+      "duration_seconds": 4.0,
+      "source": "source-originals/supplied-frame-creak.mp3",
+      "same_take_reused": true,
+      "position": "right window frame",
+      "channel_balance_gains": [
+        0.8354308941546476,
+        1.1410763432356164
+      ],
+      "source_gain_db": -16.00671184318266,
+      "rms_dbfs": -53.999999997641424,
+      "sample_peak": 0.03899078816175461,
+      "file": "placed-creak-1.wav"
+    },
+    {
+      "start_seconds": 338.0,
+      "duration_seconds": 4.0,
+      "source": "source-originals/supplied-frame-creak.mp3",
+      "same_take_reused": true,
+      "position": "left lower frame/pipe",
+      "channel_balance_gains": [
+        1.1410763432356164,
+        0.8354308941546476
+      ],
+      "source_gain_db": -16.804393062991224,
+      "rms_dbfs": -54.73682492343982,
+      "sample_peak": 0.03981071710586548,
+      "file": "placed-creak-2.wav"
+    }
+  ],
+  "different_generated_takes": false,
+  "processing": {
+    "complete_take_retained": true,
+    "edge_fades_seconds": [
+      0.01,
+      0.08
+    ],
+    "body_target_dbfs": -54,
+    "peak_guard_dbfs": -28,
+    "gain_only_and_channel_balance": true,
+    "eq_compression_pitch_time_change": false
+  },
+  "listening_copy_gain_db": 0.3999999999999986,
+  "comparison_gain_held_fixed": true,
+  "preview": {
+    "start_seconds": 54,
+    "seconds": 90,
+    "first_creak_seconds_in_preview": 37
+  },
+  "second_preview": {
+    "start_seconds": 326,
+    "seconds": 30,
+    "creak_seconds_in_preview": 12
+  },
+  "loudness": {
+    "integrated_lufs": -23.0,
+    "loudness_range_lu": 10.5,
+    "true_peak_dbtp": -8.0
+  },
+  "full_sample_difference_check": {
+    "frames": 25920000,
+    "max_recipe_error": 0.0,
+    "max_outside_event_difference": 0.0
+  },
+  "outputs": [
+    {
+      "file": "source-originals/supplied-frame-creak.mp3",
+      "seconds": 4.0,
+      "finite": true,
+      "sample_peak": 0.24149322509765625,
+      "sha256": "8d126f0c72a3b2e991ba7e56347da2364d191823c12077d0e61d3eccf77f8ea6",
+      "bytes": 97389
+    },
+    {
+      "file": "Snowline-supplied-creak-stem-9min-v1.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.0398106575012207,
+      "sha256": "2c9e7ad07239233e0dc56b8e2975c545cd7ee1530751dccec9614eab7686494a",
+      "bytes": 1104181
+    },
+    {
+      "file": "Snowline-B-plus-supplied-creak-9min-v1.flac",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.39277327060699463,
+      "sha256": "f57438c8a8649913e12bf2acb5385424889f0c1952f7f374f780921c133bd1b3",
+      "bytes": 77857615
+    },
+    {
+      "file": "Snowline-B-plus-supplied-creak-9min-v1.mp3",
+      "seconds": 540.0,
+      "finite": true,
+      "sample_peak": 0.3988495469093323,
+      "sha256": "a0aeca8a48fcc91cf3f0a3d751eca115fb47c82b397b9dacf201d62915538284",
+      "bytes": 12961196
+    },
+    {
+      "file": "B-no-creaks-90s-check.mp3",
+      "seconds": 90.0,
+      "finite": true,
+      "sample_peak": 0.36256858706474304,
+      "sha256": "0216f405ba20e9cf31aa861fdaedab490f7559f911e867806b0e117ceb224a85",
+      "bytes": 2161196
+    },
+    {
+      "file": "C-old-procedural-90s-check.mp3",
+      "seconds": 90.0,
+      "finite": true,
+      "sample_peak": 0.36256858706474304,
+      "sha256": "158f27fe9de8e16fe8183cf1e5f2832c33991a4247e58377d5d66f545765b97a",
+      "bytes": 2161196
+    },
+    {
+      "file": "D-supplied-creak-90s-check.mp3",
+      "seconds": 90.0,
+      "finite": true,
+      "sample_peak": 0.36256858706474304,
+      "sha256": "1897139eb3fc8358c9c2c3ed56134f680114b834da12486fe9739e1a0414e75e",
+      "bytes": 2161196
+    },
+    {
+      "file": "D-supplied-creak-second-event-30s.mp3",
+      "seconds": 30.0,
+      "finite": true,
+      "sample_peak": 0.38838064670562744,
+      "sha256": "11d438ca7d407f7ede43726f00ec32c1a7a874d03dbc1f649200d9f2085564c0",
+      "bytes": 721196
+    },
+    {
+      "file": "placed-creak-1.wav",
+      "seconds": 4.0,
+      "finite": true,
+      "sample_peak": 0.03899073600769043,
+      "sha256": "149a81c8e4b3db8ff0acabdf8c0f5628600f11931f83830aa2414e01cabe4547",
+      "bytes": 1152102
+    },
+    {
+      "file": "placed-creak-2.wav",
+      "seconds": 4.0,
+      "finite": true,
+      "sample_peak": 0.0398106575012207,
+      "sha256": "282be27b7137f006a5a4e239a9ae6733d0dee920781937752ccc4cea3fe16a7e",
+      "bytes": 1152102
+    }
+  ],
+  "assistant_listening": false,
+  "user_selection": null,
+  "new_paid_calls_by_assistant": 0,
+  "implementation_sha256": "a29de2947c3708133d5e76a5b3f445d2ee1fc68535b85e09592bf21b9de69081"
+}

@@ -1,0 +1,341 @@
+{
+  "date": "2026-11-03",
+  "user_request": "go down1moreDB, add this take, regenerate2hours with snow about every5minutes, commit/push everything today",
+  "seconds": 7200,
+  "parent_master": {
+    "file": "exports/13-below-the-snowline/audio-2h-v5/Below-the-Snowline-2-Hours-unfaded-master-v5.flac",
+    "sha256": "4b4843823fbd032e3368f6945d94a600b8b97062b56779b15f9f48b3953b60c4"
+  },
+  "prior_source_stems": [
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-music-2h-v1.flac",
+      "sha256": "1291e4dc92bd1d3844f025fbfcd28e53f7fb77062544a2cb643ae731098b091a"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v5/stems/Snowline-radio-minus1p5dB-2h-v5.flac",
+      "sha256": "9457b23f3a717f0005c094b6b9e5459775d1c7d9a7ba5224c35cc05bef80fcd6"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v5/stems/Snowline-wind-plus2dB-2h-v5.flac",
+      "sha256": "5acae85bbe3f0aa61a098d3410e51d5bfcd8cad03d6992530e46b42788857b3a"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v1/stems/Snowline-ventilation-2h-v1.flac",
+      "sha256": "e785abb7cae6130232355092c90942ac6ff35c57fe0e38b8aa42849598afd5ee"
+    },
+    {
+      "file": "exports/13-below-the-snowline/audio-2h-v4/stems/Snowline-creaks-2h-v4.flac",
+      "sha256": "5a3b1145b8f306a2d9e4cb66d48f44c8390b557b37652249480ba259d3444d0f"
+    }
+  ],
+  "first_take_gain_db_vs_initial_snow_trial": 2,
+  "delta_db_vs_previous_plus3_trial": -1,
+  "first_take_prepared_stem": {
+    "file": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v6/plus2dB/snow-adjusted-60s.flac",
+    "sha256": "f267bc74b91bc9daf895f35794b627747da3892071b0aa682a598fde8e3092b4"
+  },
+  "sources": [
+    {
+      "file": "source-originals/supplied-snow-grains-01.mp3",
+      "sha256": "58bb38ca9b8447b0cbdd1a389a756896244d7e54198517af4afdd9d6ab98346e",
+      "bytes": 241389,
+      "decoded_seconds": 10
+    },
+    {
+      "file": "source-originals/supplied-snow-grains-02.mp3",
+      "sha256": "91b720bfa80a6aeda743cf8419ca1e01105cca460e071ad162f24e2cf50fb562",
+      "bytes": 241389,
+      "decoded_seconds": 10
+    }
+  ],
+  "new_take_processing": {
+    "lowpass_hz": 2800,
+    "order": 2,
+    "zero_phase": true,
+    "edge_fades_seconds": [
+      0.02,
+      0.08
+    ],
+    "gain_after_filter_db": 11.255821357521103,
+    "rms_match_to_reduced_first_take_db": 8.606103826547557e-09,
+    "note": "Provisional event-wide RMS match, not proof of equal perceived loudness; no copied raw-source gain."
+  },
+  "schedule": {
+    "seed": 113032,
+    "count": 24,
+    "onset_intervals_seconds": [
+      243.46622916666684,
+      359.87802083333327
+    ],
+    "mean_interval_seconds": 295.3778197463768,
+    "all_inside_wind_plateaus": true,
+    "radio_and_creak_clearance_seconds": 6,
+    "source_takes_alternate": true,
+    "backtracking_states": 25,
+    "coverage_seconds": 240
+  },
+  "events": [
+    {
+      "start_seconds": 224.78270833333335,
+      "end_seconds": 234.78270833333335,
+      "wind_event_index": 2,
+      "take_index": 0,
+      "source_file": "source-assets/snow-take-01-placed-level.flac"
+    },
+    {
+      "start_seconds": 498.68575,
+      "end_seconds": 508.68575,
+      "wind_event_index": 5,
+      "take_index": 1,
+      "source_file": "source-assets/snow-take-02-placed-level.flac"
+    },
+    {
+      "start_seconds": 768.93875,
+      "end_seconds": 778.93875,
+      "wind_event_index": 8,
+      "take_index": 0,
+      "source_file": "source-assets/snow-take-01-placed-level.flac"
+    },
+    {
+      "start_seconds": 1103.2172708333333,
+      "end_seconds": 1113.2172708333333,
+      "wind_event_index": 12,
+      "take_index": 1,
+      "source_file": "source-assets/snow-take-02-placed-level.flac"
+    },
+    {
+      "start_seconds": 1381.3685208333334,
+      "end_seconds": 1391.3685208333334,
+      "wind_event_index": 15,
+      "take_index": 0,
+      "source_file": "source-assets/snow-take-01-placed-level.flac"
+    },
+    {
+      "start_seconds": 1639.6139375,
+      "end_seconds": 1649.6139375,
+      "wind_event_index": 18,
+      "take_index": 1,
+      "source_file": "source-assets/snow-take-02-placed-level.flac"
+    },
+    {
+      "start_seconds": 1967.516125,
+      "end_seconds": 1977.516125,
+      "wind_event_index": 22,
+      "take_index": 0,
+      "source_file": "source-assets/snow-take-01-placed-level.flac"
+    },
+    {
+      "start_seconds": 2266.4945,
+      "end_seconds": 2276.4945,
+      "wind_event_index": 25,
+      "take_index": 1,
+      "source_file": "source-assets/snow-take-02-placed-level.flac"
+    },
+    {
+      "start_seconds": 2608.15725,
+      "end_seconds": 2618.15725,
+      "wind_event_index": 29,
+      "take_index": 0,
+      "source_file": "source-assets/snow-take-01-placed-level.flac"
+    },
+    {
+      "start_seconds": 2886.6506875,
+      "end_seconds": 2896.6506875,
+      "wind_event_index": 32,
+      "take_index": 1,
+      "source_file": "source-assets/snow-take-02-placed-level.flac"
+    },
+    {
+      "start_seconds": 3130.116916666667,
+      "end_seconds": 3140.116916666667,
+      "wind_event_index": 35,
+      "take_index": 0,
+      "source_file": "source-assets/snow-take-01-placed-level.flac"
+    },
+    {
+      "start_seconds": 3489.9949375,
+      "end_seconds": 3499.9949375,
+      "wind_event_index": 39,
+      "take_index": 1,
+      "source_file": "source-assets/snow-take-02-placed-level.flac"
+    },
+    {
+      "start_seconds": 3769.610875,
+      "end_seconds": 3779.610875,
+      "wind_event_index": 42,
+      "take_index": 0,
+      "source_file": "source-assets/snow-take-01-placed-level.flac"
+    },
+    {
+      "start_seconds": 4042.4307083333333,
+      "end_seconds": 4052.4307083333333,
+      "wind_event_index": 45,
+      "take_index": 1,
+      "source_file": "source-assets/snow-take-02-placed-level.flac"
+    },
+    {
+      "start_seconds": 4330.535416666667,
+      "end_seconds": 4340.535416666667,
+      "wind_event_index": 48,
+      "take_index": 0,
+      "source_file": "source-assets/snow-take-01-placed-level.flac"
+    },
+    {
+      "start_seconds": 4596.806125,
+      "end_seconds": 4606.806125,
+      "wind_event_index": 51,
+      "take_index": 1,
+      "source_file": "source-assets/snow-take-02-placed-level.flac"
+    },
+    {
+      "start_seconds": 4923.831854166667,
+      "end_seconds": 4933.831854166667,
+      "wind_event_index": 55,
+      "take_index": 0,
+      "source_file": "source-assets/snow-take-01-placed-level.flac"
+    },
+    {
+      "start_seconds": 5219.037854166667,
+      "end_seconds": 5229.037854166667,
+      "wind_event_index": 58,
+      "take_index": 1,
+      "source_file": "source-assets/snow-take-02-placed-level.flac"
+    },
+    {
+      "start_seconds": 5573.925854166667,
+      "end_seconds": 5583.925854166667,
+      "wind_event_index": 62,
+      "take_index": 0,
+      "source_file": "source-assets/snow-take-01-placed-level.flac"
+    },
+    {
+      "start_seconds": 5880.123041666667,
+      "end_seconds": 5890.123041666667,
+      "wind_event_index": 65,
+      "take_index": 1,
+      "source_file": "source-assets/snow-take-02-placed-level.flac"
+    },
+    {
+      "start_seconds": 6226.923125,
+      "end_seconds": 6236.923125,
+      "wind_event_index": 69,
+      "take_index": 0,
+      "source_file": "source-assets/snow-take-01-placed-level.flac"
+    },
+    {
+      "start_seconds": 6484.032833333334,
+      "end_seconds": 6494.032833333334,
+      "wind_event_index": 72,
+      "take_index": 1,
+      "source_file": "source-assets/snow-take-02-placed-level.flac"
+    },
+    {
+      "start_seconds": 6740.297666666666,
+      "end_seconds": 6750.297666666666,
+      "wind_event_index": 75,
+      "take_index": 0,
+      "source_file": "source-assets/snow-take-01-placed-level.flac"
+    },
+    {
+      "start_seconds": 7018.4725625,
+      "end_seconds": 7028.4725625,
+      "wind_event_index": 78,
+      "take_index": 1,
+      "source_file": "source-assets/snow-take-02-placed-level.flac"
+    }
+  ],
+  "validation": {
+    "frames": 345600000,
+    "seconds": 7200.0,
+    "exact_base_plus_snow_error": 0.0,
+    "difference_outside_snow_events": 0.0,
+    "snow_pcm_matches_event_plan": true,
+    "all_samples_finite": true,
+    "maximum_sample_peak": 0.41316354274749756
+  },
+  "counts": {
+    "radio_calls": 47,
+    "wind_passages": 80,
+    "creaks": 24,
+    "snow_passages": 24,
+    "snow_source_takes": 2
+  },
+  "source_take_uses": [
+    12,
+    12
+  ],
+  "original_five_layers_unchanged": true,
+  "delivery_processing": {
+    "listening_gain_db": 0.4,
+    "mp3_opening_fade": false,
+    "mp3_closing_fade_seconds": 20,
+    "lossless_master": "Unity V5-plus-snow sum, no playback gain or opening/closing fades. Apply+0.4dB once to match listening level; intro/closing once during assembly, no extra SFX."
+  },
+  "previews": [
+    {
+      "file": "Snow-take-01-in-full-mix-20s.mp3",
+      "source_start_seconds": 220.78270833333335,
+      "snow_at_seconds": 4,
+      "take_index": 0,
+      "validation": {
+        "frames": 960000,
+        "seconds": 20.0,
+        "sample_peak": 0.3684931695461273,
+        "finite": true,
+        "sha256": "cd3ee859c1368670498b01d0a41c14c65aadd5bcbdce0135c4016fe19d78fc68",
+        "bytes": 481580
+      }
+    },
+    {
+      "file": "Snow-take-02-in-full-mix-20s.mp3",
+      "source_start_seconds": 494.68575,
+      "snow_at_seconds": 4,
+      "take_index": 1,
+      "validation": {
+        "frames": 960000,
+        "seconds": 20.0,
+        "sample_peak": 0.3736357092857361,
+        "finite": true,
+        "sha256": "77e5df9b17c2cbcca94be951614cb00044c33b909001be68f54f56cb0d02978c",
+        "bytes": 481580
+      }
+    }
+  ],
+  "mp3_check": {
+    "frames": 345600000,
+    "seconds": 7200.0,
+    "sample_peak": 0.41927775740623474,
+    "finite": true,
+    "sha256": "0c1e97b58cd353834aa58412ed6c6ac4324fa14512d4e15bdf0a5b706489c83f",
+    "bytes": 172801196
+  },
+  "listening_loudness": {
+    "integrated_lufs": -23.0,
+    "loudness_range_lu": 10.2,
+    "true_peak_dbtp": -7.5
+  },
+  "outputs": [
+    {
+      "file": "Snowline-snow-2h-v6.flac",
+      "bytes": 26885765,
+      "sha256": "d220f9f4f60df2f71c2f7b0dc1c271523ce0caa9bb92885adf55a75117688adb"
+    },
+    {
+      "file": "Below-the-Snowline-2-Hours-unfaded-master-v6.flac",
+      "bytes": 1036931449,
+      "sha256": "6c46365081e88d55b198387ea0b53259b7a90b12181e279ddb6dc12e8f474257"
+    },
+    {
+      "file": "Below-the-Snowline-2-Hours-v6.mp3",
+      "bytes": 172801196,
+      "sha256": "0c1e97b58cd353834aa58412ed6c6ac4324fa14512d4e15bdf0a5b706489c83f"
+    }
+  ],
+  "full_two_hour_user_verdict": null,
+  "new_take_in_mix_user_verdict": null,
+  "executed_generation_prompt_model_settings_cost": null,
+  "assistant_listening": false,
+  "new_paid_calls": 0,
+  "video_assembled": false,
+  "implementation_sha256": "566d35552477d5ed3d20d4398d553989fee2e0b3f75909f87af667739a88feb9"
+}

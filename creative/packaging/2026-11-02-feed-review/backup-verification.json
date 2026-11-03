@@ -1,0 +1,35 @@
+{
+  "verified_at_utc": "2026-11-02T17:40:47.792047+00:00",
+  "branch": "codex/concept-brainstorms-2026-10-27",
+  "content_commit": "73fce46d05e4e910e74ba7523b6f5fa6b23577e2",
+  "remote_branch_advertisement": "73fce46d05e4e910e74ba7523b6f5fa6b23577e2",
+  "method": "Fetch the remote branch into a new empty bare partial repository, retrieve every file listed in backup-scope.json from that commit and compare byte sizes and SHA256. No original local Git object cache used by the verification repository.",
+  "fresh_remote_fetch_commit": "73fce46d05e4e910e74ba7523b6f5fa6b23577e2",
+  "manifest_files_verified": 13,
+  "all_remote_bytes_match": true,
+  "screenshot_count": 2,
+  "checks": [
+    "Both original PNGs decode and match supplied bytes/hashes",
+    "Evidence and template JSON valid",
+    "Linked local Markdown targets exist",
+    "Staged diff check passed",
+    "Secret-pattern scan passed",
+    "Proposed test and unknown metrics retain explicit unset status"
+  ],
+  "files": [
+    ".gitattributes",
+    "AGENTS.md",
+    "PRODUCTION_PIPELINE.md",
+    "README.md",
+    "creative/LEARNINGS.md",
+    "creative/NEXT_SCENE_RUNBOOK.md",
+    "creative/PACKAGING_WORKFLOW.md",
+    "creative/packaging/2026-11-02-feed-review/README.md",
+    "creative/packaging/2026-11-02-feed-review/evidence.json",
+    "creative/packaging/2026-11-02-feed-review/evidence/chrome_2fwEVKQtbl.png",
+    "creative/packaging/2026-11-02-feed-review/evidence/chrome_wwRKkYZV48.png",
+    "creative/packaging/test-record-template.json",
+    "final/THUMBNAIL_STYLE.md"
+  ],
+  "scope_note": "Backup verification does not establish CTR improvement, audience preference, replacement approval or a completed thumbnail test. The subsequent receipt commit is checked against the remote separately after push."
+}

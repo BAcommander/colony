@@ -1,14 +1,9 @@
 {
   "status": "passed",
-  "unique_sources": 6,
-  "all_source_copies_hash_exact": true,
-  "all_original_sources_fully_decoded_finite_unclipped_during_import": true,
-  "all_previews_measured_with_peak_headroom": true,
-  "preview_lufs_actual_range": [
-    -24.8,
-    -24.2
-  ],
-  "preview_note": "Constant gain toward−24LUFS, limited by source true-peak headroom; MP3 measurement difference up to0.6LU allowed versus actual gain prediction. Rain intentionally stays below target.",
+  "date": "2026-11-03",
+  "unique_sources": 9,
+  "all_catalogue_source_preview_and_prompt_hashes_match": true,
   "all_catalogue_media_paths_exist": true,
+  "source_comparison": "Six imported originals/previews match the production-branch catalogue; new creak matches supplied original.",
   "assistant_listening": false
 }

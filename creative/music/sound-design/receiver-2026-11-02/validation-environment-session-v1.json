@@ -1,0 +1,13 @@
+{
+  "decoded_stereo_frames_compared": 25920000,
+  "maximum_lossless_additive_recipe_error": 0.0,
+  "decoded_wind_silent_frames": 12388590,
+  "parent_music_radio_hash_unchanged": true,
+  "original_wind_hash_unchanged": true,
+  "output_and_implementation_hashes_match": true,
+  "source_mix_or_radio_gain_changes": false,
+  "new_signal_checks_passed": 2,
+  "five_output_files_pass_complete_decode_duration_finite_and_peak_checks": true,
+  "assistant_listening": false,
+  "user_balance_review": "pending"
+}

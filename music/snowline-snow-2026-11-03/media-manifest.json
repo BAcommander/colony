@@ -1,0 +1,408 @@
+{
+  "format": "snowline-content-chunks-v1",
+  "continuation_format": "snowline-snow-delta-v1",
+  "date": "2026-11-03",
+  "file_count": 68,
+  "unique_chunk_count": 688903,
+  "original_bytes": 1404360837,
+  "packs": [
+    {
+      "file": "base-001.bin",
+      "bytes": 536870731,
+      "sha256": "61bdfa26ea781923b86638a752f3343952d95ec558eb76589c73c85f720d4c42",
+      "repository_file": "music/snowline-sound-design-2026-11-03/media-001.bin"
+    },
+    {
+      "file": "base-002.bin",
+      "bytes": 536870887,
+      "sha256": "1f4284f1bbefe36418b53ff67cce2e621d7d9aaecb5396c9333d0b2144efe12c",
+      "repository_file": "music/snowline-sound-design-2026-11-03/media-002.bin"
+    },
+    {
+      "file": "base-004.bin",
+      "bytes": 536870758,
+      "sha256": "55819ac1ef061940b9c9447c08c459c4218951be32e82a1e5a2f04954b16dca8",
+      "repository_file": "music/snowline-sound-design-2026-11-03/media-004.bin"
+    },
+    {
+      "file": "base-005.bin",
+      "bytes": 536869137,
+      "sha256": "37a8b3d06383b65088cb2ab9e0dde7fd9bc69f5a9f62385d9bfdf89dad078b37",
+      "repository_file": "music/snowline-sound-design-2026-11-03/media-005.bin"
+    },
+    {
+      "file": "base-006.bin",
+      "bytes": 536870589,
+      "sha256": "e810e08a4e57ffc44faacdc6b4537b5c60d5ee4c7d65b2b9827ee9d2115381b2",
+      "repository_file": "music/snowline-sound-design-2026-11-03/media-006.bin"
+    },
+    {
+      "file": "base-007.bin",
+      "bytes": 516945687,
+      "sha256": "7d9e8a2d75e0afd0f7346e6f0c5f88ad715efaf7f81ec66da78adc67ffe913da",
+      "repository_file": "music/snowline-sound-design-2026-11-03/media-007.bin"
+    },
+    {
+      "file": "snow-delta-001.bin",
+      "repository_file": "music/snowline-snow-2026-11-03/snow-delta-001.bin",
+      "bytes": 150864785,
+      "sha256": "3a7f15ba013af28bded1b8733f0b8e9f392e9ebf8263d5a208e99ac53f8aba76"
+    }
+  ],
+  "index": {
+    "file": "media-index.json.gz",
+    "repository_file": "music/snowline-snow-2026-11-03/media-index.json.gz",
+    "bytes": 6399467,
+    "sha256": "23c5d7864e96e91a4e6248e2016ae741f3e8823b26bb7d806d0f5857d279341f"
+  },
+  "members": [
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/Below-the-Snowline-2-Hours-unfaded-master-v6.flac",
+      "bytes": 1036931449,
+      "sha256": "6c46365081e88d55b198387ea0b53259b7a90b12181e279ddb6dc12e8f474257"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/Below-the-Snowline-2-Hours-v6.mp3",
+      "bytes": 172801196,
+      "sha256": "0c1e97b58cd353834aa58412ed6c6ac4324fa14512d4e15bdf0a5b706489c83f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/Snow-take-01-in-full-mix-20s.mp3",
+      "bytes": 481580,
+      "sha256": "cd3ee859c1368670498b01d0a41c14c65aadd5bcbdce0135c4016fe19d78fc68"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/Snow-take-02-in-full-mix-20s.mp3",
+      "bytes": 481580,
+      "sha256": "77e5df9b17c2cbcca94be951614cb00044c33b909001be68f54f56cb0d02978c"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/Snowline-snow-2h-v6.flac",
+      "bytes": 26885765,
+      "sha256": "d220f9f4f60df2f71c2f7b0dc1c271523ce0caa9bb92885adf55a75117688adb"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/meter-library-preview02/loudness-log.txt",
+      "bytes": 1137,
+      "sha256": "84a148d23d5f229ca6c56b499887b819ec497b9be4fbda49567666017ea8ebbb"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/meter-library-source02/loudness-log.txt",
+      "bytes": 1136,
+      "sha256": "2356fa49a3c71c128e70e3dd260f7377e9b6c33bee71abf22478345602c1d7ec"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/meter/loudness-log.txt",
+      "bytes": 1164,
+      "sha256": "dfeb99da53fb5d06303d4262e3b6ae4469643f29d38444d3e6fbdab5705288d2"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/recipe.json",
+      "bytes": 11166,
+      "sha256": "653bd3db04f037b18f4f00e748fc3c8a068b5f2ac2f0a9aa16ae79eca37cebbd"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/snow-cue-sheet.txt",
+      "bytes": 1186,
+      "sha256": "3f55e037e9e04bf246a016b1de06e0650a94acc1e6661fb1ffb4bee2b4a843aa"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/source-assets/snow-take-01-placed-level.flac",
+      "bytes": 1149227,
+      "sha256": "5db614462a797ee52aba28b01190e897619c9684bdcc8cec8b851de9a2665000"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/source-assets/snow-take-02-placed-level.flac",
+      "bytes": 996697,
+      "sha256": "16e378d4445e8aabe941d69d321e7d3d64df917560d527f5f8bd360a0ea898ac"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/source-originals/supplied-snow-grains-01.mp3",
+      "bytes": 241389,
+      "sha256": "58bb38ca9b8447b0cbdd1a389a756896244d7e54198517af4afdd9d6ab98346e"
+    },
+    {
+      "path": "exports/13-below-the-snowline/audio-2h-v6/source-originals/supplied-snow-grains-02.mp3",
+      "bytes": 241389,
+      "sha256": "91b720bfa80a6aeda743cf8419ca1e01105cca460e071ad162f24e2cf50fb562"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v2/plus6dB/Snow-plus6dB-60s.flac",
+      "bytes": 8848833,
+      "sha256": "9703d8191c65e5ea6f87ceab3a36b7b7b0630951de31918c57710964af377dd3"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v2/plus6dB/Snow-plus6dB-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "acbd6e8de05ad97943e8e97046082bdf820724102d5ea5146d25d4340bf62944"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v2/plus6dB/Snow-plus6dB-focus-20s.mp3",
+      "bytes": 481580,
+      "sha256": "714baa7b55a5e43388d189cbc08540e75714b463526070fcd86c6cc0be8bde3e"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v2/plus6dB/meter/loudness-log.txt",
+      "bytes": 1177,
+      "sha256": "305ce78ac9480859c6ba9d24e22c8c107a8df36ed14368ec63c1920c738ff8b7"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v2/plus6dB/mix-unfaded-60s.flac",
+      "bytes": 8799259,
+      "sha256": "99abead356538ef95103f2a40bb888fc780ee7af3deb31a2d352d07870ec2bf0"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v2/plus6dB/snow-adjusted-60s.flac",
+      "bytes": 1237171,
+      "sha256": "4e6326e2d477c8e2f88346e30e2066b3b0d82d9cf310ff958d292b4007c9e417"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v2/plus9dB/Snow-plus9dB-60s.flac",
+      "bytes": 8868142,
+      "sha256": "5f3795e09ab443e3e185c9e42c6ad0ec197f2eae71ebc0d6b83e6cb005f77550"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v2/plus9dB/Snow-plus9dB-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "1d502f868994133ee5b10a89e97f64e95fb40fcb47defc82a09a6fa196c34f88"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v2/plus9dB/Snow-plus9dB-focus-20s.mp3",
+      "bytes": 481580,
+      "sha256": "ec0d9b07005782534604d35fc493f71077cb70414e230a103ea8861d76d5557f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v2/plus9dB/meter/loudness-log.txt",
+      "bytes": 1177,
+      "sha256": "940f1a34efa9aae5b11b48f43a96c356704665164bdc2f179d6fb11e6b5e87b0"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v2/plus9dB/mix-unfaded-60s.flac",
+      "bytes": 8818858,
+      "sha256": "fafc75e9b737ef0e38d2dcbb50613db20ce63229d2398c2d38dbdc43d31f6568"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v2/plus9dB/snow-adjusted-60s.flac",
+      "bytes": 1296288,
+      "sha256": "1e8b2735373305596d66ed45664300f522690af3edd7b98a37e3843ac42b5fe0"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v2/review.json",
+      "bytes": 7793,
+      "sha256": "0dd9cbddbd6b70cf6a7795909059b9e946a742ed787c74ef2928753ceea60975"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v3/plus7dB/Snow-plus7dB-60s.flac",
+      "bytes": 8855132,
+      "sha256": "8df75c3fec9403b720ddf6d27f50f0fafa466ecdafda5035e5afa1d25733b20b"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v3/plus7dB/Snow-plus7dB-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "9beb172cb87d7109524f658964d8ff5de4b4e3b0a93349a541671585c3b3f379"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v3/plus7dB/Snow-plus7dB-focus-20s.mp3",
+      "bytes": 481580,
+      "sha256": "0250838067293abfbbcec406db2fb3eac48b0e0f369c0c007361a8c18a972f7c"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v3/plus7dB/meter/loudness-log.txt",
+      "bytes": 1177,
+      "sha256": "48bbd4bd3c6bb2037ed4270d6818863b4b217746e398445ace96c2761163c9cd"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v3/plus7dB/mix-unfaded-60s.flac",
+      "bytes": 8805622,
+      "sha256": "5b97f8240ad689ac0fb076406320c2e688878574cb32781e1875150bd7a5aea6"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v3/plus7dB/snow-adjusted-60s.flac",
+      "bytes": 1256739,
+      "sha256": "08968dc98142b64eba13496a7e47af0a027908d6b2e24b802f28cdaf23962d27"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v3/review.json",
+      "bytes": 5856,
+      "sha256": "5872af621afa5f58da315e4907ddb1eacb855f4cb4041f078e3b95e77c42ffcc"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v4/plus5dB/Snow-plus5dB-60s.flac",
+      "bytes": 8842549,
+      "sha256": "8be642bb89c3ec7fc7fbc9f01fca1cf7d647a7166d99e40a076a5e414f2decfa"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v4/plus5dB/Snow-plus5dB-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "379cf2e5e93f08018514d9c95fce53c20d95269a41e1821c2a36178e5fe1e2b1"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v4/plus5dB/Snow-plus5dB-focus-20s.mp3",
+      "bytes": 481580,
+      "sha256": "bb2d75a793b9d0f4db0afac80b1cfea4fa15e9ae9e38f43b8be92209f3f612be"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v4/plus5dB/meter/loudness-log.txt",
+      "bytes": 1177,
+      "sha256": "80a88ae108ef14e9a299c72ee5f00d9a27409edd0ae0d3bed27bc0c19ce8c941"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v4/plus5dB/mix-unfaded-60s.flac",
+      "bytes": 8793178,
+      "sha256": "ee7c62e101f1ab1ad4c19610d0c362c8c91611aa8e59c6a26db9b007d1cce7bc"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v4/plus5dB/snow-adjusted-60s.flac",
+      "bytes": 1217791,
+      "sha256": "e70b42639e68d56d5d3f50d0fdffcbadcc055a4a2dbb3247acb645d35244d75c"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v4/review.json",
+      "bytes": 5921,
+      "sha256": "2ab2066b613ba02fcdb20bb820b2060d7b7b75bf87f15bd41b500988a34dca75"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v5/plus3dB/Snow-plus3dB-60s.flac",
+      "bytes": 8831836,
+      "sha256": "298d1b16fefd7d4161223db153268f51fe958377d5d196b76e536eb3dfd801ae"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v5/plus3dB/Snow-plus3dB-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "a93d439aca6d95de535e2d714162ce848755a7437ce24a56c5181a8249fd3448"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v5/plus3dB/Snow-plus3dB-focus-20s.mp3",
+      "bytes": 481580,
+      "sha256": "3167e8827dcf30f275a961414332a6806e78527ddc231bdbb702317c64b154fa"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v5/plus3dB/meter/loudness-log.txt",
+      "bytes": 1177,
+      "sha256": "c7ef755dda8089516cbe520c93d3ddc7ac424ca319f398168af724f9db63bdbd"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v5/plus3dB/mix-unfaded-60s.flac",
+      "bytes": 8782434,
+      "sha256": "e630d2865659be1bbeb9928d6d4504acc97c603b7542a4876f1a4bc6c8fd5671"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v5/plus3dB/snow-adjusted-60s.flac",
+      "bytes": 1178093,
+      "sha256": "a5dd4fd319de3546b4da13f51cb9d97e2006959d8f72d695fc942971d3047202"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v5/review.json",
+      "bytes": 5759,
+      "sha256": "614d36374103d12c4c78b83e115ffa3561ce659810c1471c55ff73f1fd4a3fa2"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v6/plus2dB/Snow-plus2dB-60s.flac",
+      "bytes": 8827279,
+      "sha256": "e071941dccec635e4f9e31f2759db78e418c2b5600cc992e8d9c9d96e72ac510"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v6/plus2dB/Snow-plus2dB-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "96d7565b2aa9b7d894a2f46e31dda132763dfc583bbc92beaeaf0a6596ee5306"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v6/plus2dB/Snow-plus2dB-focus-20s.mp3",
+      "bytes": 481580,
+      "sha256": "5a3fbf601fefb982e37d41a2def17e9cdd26d279cebc1c9c5b53b0ef9e479044"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v6/plus2dB/meter/loudness-log.txt",
+      "bytes": 1177,
+      "sha256": "9dde8e27564fed89e2606f67c7dab5757a2f8a82dd626291e4173ce989bb61ec"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v6/plus2dB/mix-unfaded-60s.flac",
+      "bytes": 8777719,
+      "sha256": "c34a2f1a775135cff05649236c3a0757f17bb951c7d6f69a587fc523b39822ea"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v6/plus2dB/snow-adjusted-60s.flac",
+      "bytes": 1159043,
+      "sha256": "f267bc74b91bc9daf895f35794b627747da3892071b0aa682a598fde8e3092b4"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-gain-v6/review.json",
+      "bytes": 5765,
+      "sha256": "284afca1307c3303d6f83a2e91fda2b38e465fae450feaff00dfd4fa1a4e297f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/A-current-v5-60s.flac",
+      "bytes": 8786707,
+      "sha256": "eb1377b2dfb15812a726be4e0f43049619f1223ee2cc296850325402b2ddaee6"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/A-current-v5-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "ef3323f4897d42ae34e0ccded93db020755687d2b4214fb97fa5d4f2ea992f9f"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/A-current-v5-unfaded-60s.flac",
+      "bytes": 8736451,
+      "sha256": "823365dcf0aebea6e836ba38ec5e855b180c2e45928ebe2a7c6dd6d798adcd97"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/B-snow-grains-unfaded-60s.flac",
+      "bytes": 8769519,
+      "sha256": "9fa4cae90052edde4bd86bda76f66d8efc05e65439f74051158225f2d1f5c3c1"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/B-with-snow-grains-60s.flac",
+      "bytes": 8818956,
+      "sha256": "ecc847a2950c9dff7f7b0aa5017f2a33904f5454e22ada8c4186f5eacce06eda"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/B-with-snow-grains-60s.mp3",
+      "bytes": 1441196,
+      "sha256": "f0098f08e613c9745fa4e71c4465822a0a3774e62e3013aaf53e5938ec194818"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/Snow-grains-only-60s.flac",
+      "bytes": 1117914,
+      "sha256": "6535e754e7ee765b15f1f041fd624bcc8bbe60985d8e445c468dd5dd28f81458"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/meter-A-current-v5/loudness-log.txt",
+      "bytes": 1164,
+      "sha256": "7416aecdd81714e623acbec39f924e3171565167e5f8dd478dd199536f3ef756"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/meter-B-with-snow-grains/loudness-log.txt",
+      "bytes": 1170,
+      "sha256": "ebf1c49d8a163591563a16f4cfe4712e5c178062b59cfc13418e0321957dfd2a"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/meter-library-preview/loudness-log.txt",
+      "bytes": 1127,
+      "sha256": "0d77e1f9ec75a6b56143bd850e34764159d6fd4b3be6e4f5b315227b3dde93ee"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/meter-library-source/loudness-log.txt",
+      "bytes": 1126,
+      "sha256": "555f1f873b824339ef5e7578e7a76b19c66ff687c3ccf6e2e1cc91de551788e3"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/review.json",
+      "bytes": 6083,
+      "sha256": "eae81a43d49ec14c6c9d20ca7a142261e29c077cb52e2ef2f5f2d2c5513a57f8"
+    },
+    {
+      "path": "exports/13-below-the-snowline/level-tests/snow-grains-v1/source-originals/supplied-snow-grains.mp3",
+      "bytes": 241389,
+      "sha256": "58bb38ca9b8447b0cbdd1a389a756896244d7e54198517af4afdd9d6ab98346e"
+    }
+  ],
+  "scope": "Every new export after the earlier271-file checkpoint, including all snow trials and fullV6. All earlier members were verified unchanged. No audio re-encoding.",
+  "base_manifest": {
+    "file": "music/snowline-sound-design-2026-11-03/media-manifest.json",
+    "sha256": "45c643628433e85c653a363730947a9f300c7d3f9bf91daad40f47165243af47"
+  },
+  "new_payload_bytes": 150864785,
+  "builder_sha256": "dea2a8ea6306d31ebab75f1e29ea90152ffcc0d26c207b31012f57431c8696c4",
+  "restore_script_sha256": "15180622d22700c9418023c165b9f1c977bd205525ad5e20cf8d458c72add551"
+}

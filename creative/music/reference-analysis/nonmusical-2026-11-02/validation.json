@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-02",
+  "status": "local; uncommitted; no semantic source confirmation",
+  "dependencies": {
+    "numpy": "2.4.3",
+    "scipy": "1.18.1",
+    "imageio_ffmpeg": "0.6.0"
+  },
+  "tests": {
+    "command": ".local/audio-analysis/Scripts/python.exe -m unittest discover -s scripts -p test_ambient_texture.py -v",
+    "passed": 2,
+    "failed": 0,
+    "scope": [
+      "known tone routing, sum reconstruction and opposite-polarity stereo preservation",
+      "random stereo noise residual routing, finite output, reconstruction and spectral flatness"
+    ]
+  },
+  "encoded_clip_checks": {
+    "files": 9,
+    "complete_decode": true,
+    "decoded_seconds_each": 30.0,
+    "all_samples_finite": true,
+    "all_sample_peaks_below_full_scale": true,
+    "listening_verdict": null
+  },
+  "implementation_files": [
+    {
+      "path": "scripts/diagnose_ambient_texture.py",
+      "sha256": "8e377d901aa6a64e0e50389aedc851068f398a01fc9318ab674b83dcac2cb769"
+    },
+    {
+      "path": "scripts/test_ambient_texture.py",
+      "sha256": "806c296ec191b4c655f677d36bdd77742b64195787c11dad8ccbe966fc0490ee"
+    }
+  ],
+  "method_source": "https://www.audiolabs-erlangen.de/resources/2014-ISMIR-ExtHPSep/",
+  "user_feedback": "See listening-feedback.json; original inspection check preceded this feedback.",
+  "no_source_identity_or_music_effects_percentage_established": true
+}

@@ -1,0 +1,70 @@
+{
+  "scene": "Below the Snowline",
+  "catalog_id": "13",
+  "current_environment_version": 2,
+  "status": "User-approved atmosphere balance",
+  "approval_record": "environment-v2-balance-approval.json",
+  "recipe": "recipe-environment-session-v2.json",
+  "music_radio_parent": {
+    "path": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\full-session-v1\\Snowline-music-and-radio-9min-v1.flac",
+    "sha256": "aede078175e433ad6be6fc8ad8970ac95b6a2c69311322f53bc10fa770642b1d",
+    "mix_gain": 1.0,
+    "radio_schedule_or_event_gains_changed": false
+  },
+  "wind": {
+    "source_sha256": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34",
+    "effective_source_gain_db": 7.85,
+    "distance_filter": "Second-order1800Hz low-pass, periodic source context; artistic closed-glazing approximation",
+    "source_trim_seconds": [
+      1,
+      29
+    ],
+    "source_overlap_seconds": 4,
+    "prepared_source_cycle_seconds": 24,
+    "events": [
+      {
+        "start_seconds": 42.0,
+        "duration_seconds": 72.0,
+        "fade_in_seconds": 12.0,
+        "fade_out_seconds": 16.0,
+        "source_phase_seconds": 3.7
+      },
+      {
+        "start_seconds": 169.0,
+        "duration_seconds": 58.0,
+        "fade_in_seconds": 11.0,
+        "fade_out_seconds": 17.0,
+        "source_phase_seconds": 14.2
+      },
+      {
+        "start_seconds": 298.0,
+        "duration_seconds": 83.0,
+        "fade_in_seconds": 15.0,
+        "fade_out_seconds": 20.0,
+        "source_phase_seconds": 8.1
+      },
+      {
+        "start_seconds": 438.0,
+        "duration_seconds": 69.0,
+        "fade_in_seconds": 12.0,
+        "fade_out_seconds": 19.0,
+        "source_phase_seconds": 20.6
+      }
+    ],
+    "rendered_stem": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\environment-session-v2\\Snowline-exterior-wind-9min-v2.flac"
+  },
+  "ventilation": {
+    "rms_dbfs": -45.0,
+    "seed": 1348,
+    "nominal_band_hz": [
+      140,
+      950
+    ],
+    "seconds": 540,
+    "rendered_stem": "C:\\Colony\\exports\\sfx\\snowline-receiver-2026-11-02\\environment-session-v2\\Snowline-ventilation-9min-v2.flac"
+  },
+  "listening_copy_target_lufs": -23,
+  "use": "Reuse approved lossless mix or its separate stems with the recorded parent and source gains. Do not add the same SFX again to the premixed file. Future longer radio arrangements should keep these relative gains instead of tiling the9-minute event score automatically.",
+  "source_specific": true,
+  "global_app_defaults_changed": false
+}
