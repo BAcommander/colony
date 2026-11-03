@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-03T13:24:39.528907+00:00",
+  "status": "passed",
+  "content_commit": "40e5d9d0820e06e2b153916a2aff2dcbb2585515",
+  "remote_branch": "codex/concept-brainstorms-2026-10-27",
+  "fresh_remote_advertisement_matched": "40e5d9d0820e06e2b153916a2aff2dcbb2585515",
+  "fresh_git_repository": "C:\\Colony\\.local\\snowline-nov3-remote-verify\\git-remote.git",
+  "git_blobs_verified": 84,
+  "all_changed_git_blobs_match_staged_manifest": true,
+  "fresh_lfs_storage": "C:\\Colony\\.local\\snowline-nov3-remote-verify\\lfs",
+  "shared_or_local_lfs_objects_used": false,
+  "lfs_objects_independently_downloaded_and_sha256_verified": 19,
+  "lfs_bytes_verified": 3745239455,
+  "creak_original_verified_from_fresh_remote_git": {
+    "bytes": 97389,
+    "sha256": "8d126f0c72a3b2e991ba7e56347da2364d191823c12077d0e61d3eccf77f8ea6"
+  },
+  "remote_media_restoration": {
+    "files_verified": 271,
+    "files_restored": 271,
+    "original_bytes": 11396047312,
+    "package_bytes": 3766051376,
+    "root": "C:\\Colony\\.local\\snowline-nov3-remote-verify\\restored",
+    "all_file_hashes_match": true
+  },
+  "latest_mp3_sha256": "aa19b58ed32c32bad07d7b19973f1bac615f8a4441ce54c0c8783f44b42d2d3e",
+  "latest_unfaded_master_sha256": "4b4843823fbd032e3368f6945d94a600b8b97062b56779b15f9f48b3953b60c4",
+  "older_dependencies": "Unchanged November2 archive already independently restored/verified in its backup-verification.json; all221dependencies also restored locally alongside this271-file checkpoint before commit.",
+  "working_tree_clean_after_content_commit": true,
+  "shared_main_modified": false,
+  "full_two_hour_user_listening": "pending",
+  "assistant_listening": false,
+  "new_paid_generations": 0
+}
