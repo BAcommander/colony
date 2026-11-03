@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-03T17:28:28.467504+00:00",
+  "status": "passed",
+  "content_commit": "a1ded191b4148fbdc1e1d2aceb88a651bc9ab230",
+  "remote_branch": "codex/concept-brainstorms-2026-10-27",
+  "fresh_remote_advertisement_matched": "a1ded191b4148fbdc1e1d2aceb88a651bc9ab230",
+  "fresh_git_repository": "C:\\Colony\\.local\\snow-v6-remote-verify\\git-remote.git",
+  "changed_git_blobs_verified": 43,
+  "required_base_git_blobs_also_fetched": 2,
+  "all_changed_git_blobs_match_staged_manifest": true,
+  "fresh_new_lfs_storage": "C:\\Colony\\.local\\snow-v6-remote-verify\\lfs",
+  "new_delta_objects_downloaded_and_sha256_verified": [
+    {
+      "sha256": "3a7f15ba013af28bded1b8733f0b8e9f392e9ebf8263d5a208e99ac53f8aba76",
+      "bytes": 150864785
+    }
+  ],
+  "base_objects_reused_from_previously_verified_remote_download": [
+    {
+      "sha256": "61bdfa26ea781923b86638a752f3343952d95ec558eb76589c73c85f720d4c42",
+      "bytes": 536870731,
+      "source": "previous independently downloaded remote LFS cache"
+    },
+    {
+      "sha256": "1f4284f1bbefe36418b53ff67cce2e621d7d9aaecb5396c9333d0b2144efe12c",
+      "bytes": 536870887,
+      "source": "previous independently downloaded remote LFS cache"
+    },
+    {
+      "sha256": "55819ac1ef061940b9c9447c08c459c4218951be32e82a1e5a2f04954b16dca8",
+      "bytes": 536870758,
+      "source": "previous independently downloaded remote LFS cache"
+    },
+    {
+      "sha256": "37a8b3d06383b65088cb2ab9e0dde7fd9bc69f5a9f62385d9bfdf89dad078b37",
+      "bytes": 536869137,
+      "source": "previous independently downloaded remote LFS cache"
+    },
+    {
+      "sha256": "e810e08a4e57ffc44faacdc6b4537b5c60d5ee4c7d65b2b9827ee9d2115381b2",
+      "bytes": 536870589,
+      "source": "previous independently downloaded remote LFS cache"
+    },
+    {
+      "sha256": "7d9e8a2d75e0afd0f7346e6f0c5f88ad715efaf7f81ec66da78adc67ffe913da",
+      "bytes": 516945687,
+      "source": "previous independently downloaded remote LFS cache"
+    }
+  ],
+  "base_cache_source": "C:\\Colony\\.local\\snowline-nov3-remote-verify\\lfs",
+  "base_prior_verification_receipt": "music/snowline-sound-design-2026-11-03/backup-verification.json",
+  "normal_working_tree_base_media_used_for_remote_restore": false,
+  "both_new_original_snow_assets_verified_from_remote_git": true,
+  "all68new_files_restored": {
+    "files_verified": 68,
+    "files_restored": 68,
+    "original_bytes": 1404360837,
+    "package_bytes": 3358562041,
+    "root": "C:\\Colony\\.local\\snow-v6-remote-verify\\restored",
+    "all_file_hashes_match": true
+  },
+  "earlier271base_members_verified_unchanged_before_commit": true,
+  "latest_mp3_sha256": "0c1e97b58cd353834aa58412ed6c6ac4324fa14512d4e15bdf0a5b706489c83f",
+  "latest_unfaded_master_sha256": "6c46365081e88d55b198387ea0b53259b7a90b12181e279ddb6dc12e8f474257",
+  "full_render_sample_frames_verified": 345600000,
+  "shared_main_modified": false,
+  "user_full_session_and_new_take_listening": "pending",
+  "assistant_listening": false,
+  "new_paid_generations": 0
+}
