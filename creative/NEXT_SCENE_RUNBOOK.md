@@ -29,6 +29,8 @@ Clone the repo with Git LFS installed, then run `git lfs pull`. The Basalt maste
 
 ## Produce efficiently
 
+Put three decisions in the scene brief before rendering: which features move at each depth, which source and output silhouettes must stay clean, and where the listener sits. For weather that can be seen and heard, sketch the shared cue times before the mix. Reuse the methods from the [weather animation notes](ANIMATION_KNOWLEDGE_BANK.md#weather-depth-occlusion-and-joins--2026-11-04) and [sound workflow](MUSIC_WORKFLOW.md#design-weather-and-sound-together). Save what worked and what the user rejected in the relevant shared guide once review establishes it.
+
 1. Read AGENTS.md, ANIMATION_WORKFLOW.md, and the accepted scene manifest. Preserve/hash the new still. Record source-space coordinates, layer order, masks and protected geometry. No automatic transfer of scene-specific coordinates.
 2. Choose concrete visible actions by depth: sky cloud edge moves right, distant low wind tongue crosses a valley, near smoke remains supporting, windows have separate schedules. Avoid percentage improvement promises.
 3. Render eight-second isolated principal-motion tests at 720p/30fps, full composition, actual speed. Build coherent shape transport before adjusting speed, then opacity. Source high-pass shimmer is not equivalent to moving broad clouds. Purely enlarging a mask over blank sky adds no subject to move.

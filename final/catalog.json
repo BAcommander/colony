@@ -196,7 +196,7 @@
     "title": "Crater Rim Survey",
     "catalog_number": "14",
     "creative_concept_id": 20,
-    "status": "release artwork/thumbnail package accepted; publication and music briefs prepared; animation and audio not produced",
+    "status": "Artwork and thumbnail accepted; first clouds and basin haze preview awaits playback review; soundtrack pending.",
     "artwork": "artwork-v2.png",
     "duration_seconds": null,
     "video": null,
@@ -206,7 +206,14 @@
     "suggested_title": "youtube-title.txt",
     "music_prompt": "music/elevenlabs-prompt-v1.txt",
     "motion_brief": "motion-brief.md",
-    "thumbnail_user_approved": true
+    "thumbnail_user_approved": true,
+    "animation_preview": {
+      "folder": "../../music/crater-rim-animation-v1",
+      "video": "Crater-Rim-Survey-clouds-and-haze-v1-8s.mp4",
+      "duration_seconds": 8,
+      "fps": 30,
+      "user_approved": false
+    }
   },
   {
     "folder": "15-beneath-a-crimson-sky",

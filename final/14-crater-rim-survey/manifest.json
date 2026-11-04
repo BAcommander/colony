@@ -3,7 +3,7 @@
   "creative_concept_id": 20,
   "title": "Crater Rim Survey",
   "date": "2026-09-29",
-  "status": "release artwork/thumbnail package accepted; publication and music briefs prepared; animation and audio not produced",
+  "status": "Artwork and thumbnail accepted; first clouds and basin haze preview awaits playback review; soundtrack pending.",
   "user_approved": true,
   "generator": "built-in image_gen",
   "selection": {
@@ -149,11 +149,25 @@
     "prior_manifest_snapshot": "final/14-crater-rim-survey/music/music-preparation-before-v3.json"
   },
   "motion_preparation": {
-    "status": "written proposal only; no masks or implementation",
+    "status": "Eight-second principal motion preview rendered; periodic cycle pending.",
     "brief": {
       "path": "final/14-crater-rim-survey/motion-brief.md",
       "sha256": "fcfa81fe417091609e26368d693519203a98edb95e00e19d7d51db410263babb",
       "bytes": 1340
+    },
+    "preview": {
+      "path": "../../music/crater-rim-animation-v1/Crater-Rim-Survey-clouds-and-haze-v1-8s.mp4",
+      "sha256": "6146e20bf49613f339906721549557abe900071fa41b75d6a91fcf7432e8de8e",
+      "duration_seconds": 8,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "audio": false,
+      "user_review": "pending",
+      "plan": "../../music/crater-rim-animation-v1/scene-plan.json",
+      "delivery_record": "../../music/crater-rim-animation-v1/delivery.json"
     }
   },
   "video": null,

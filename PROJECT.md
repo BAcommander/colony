@@ -27,6 +27,7 @@ Ringfall v9b and Basalt v6 remain approved references. AGENTS.md holds working i
 - Tagline: Sci-fi soundscapes for sleep, focus and study.
 - Store original artwork, music and animations with their production notes. Ringfall has a generated one-hour listening master (long-form evaluation pending); Basalt has a reference analysis and test prompt. See creative/MUSIC_WORKFLOW.md.
 - Quiet remote environments, detailed retro-industrial equipment, warm inhabited shelters against vast landscapes, photorealistic framing and visible but calm movement.
+- Each scene brief specifies visible motion by depth, protected geometry and the listener's position. Use the [next-scene runbook](creative/NEXT_SCENE_RUNBOOK.md) and carry validated animation and sound decisions back into the [shared learning guide](creative/LEARNINGS.md).
 - Prioritize free local MP4 production from this chat. No paid plugins, cloud video services, API fees or purchased credits.
 
 ## Accepted reference packages

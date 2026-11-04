@@ -27,7 +27,7 @@ Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subs
 | [11 - The Empty Junction](11-empty-junction/) | [Selected v2 artwork](11-empty-junction/artwork-v2.png); no video yet | [JPEG](11-empty-junction/thumbnail-v1.jpg) |
 | [12 - Deepwell Station](12-deepwell-station/) | [Selected v2 artwork](12-deepwell-station/artwork-v2.png); no video yet | [JPEG](12-deepwell-station/thumbnail-v1.jpg) |
 | [13 - Below the Snowline](13-below-the-snowline/) | [Current v5 artwork](13-below-the-snowline/ice-planet-retheme-v3/artwork-v5.png); [v2 animation](../music/below-the-snowline-animation-v2/README.md); [approved9min music](../music/below-the-snowline-production-2026-11-01/paired-loop-v1/README.md) | [Latest candidate](../music/below-the-snowline-animation-v2/thumbnail-v2.jpg), review pending; [earlier approved JPEG](13-below-the-snowline/thumbnail-v1.jpg) |
-| [14 - Crater Rim Survey](14-crater-rim-survey/) | [Selected v2 artwork](14-crater-rim-survey/artwork-v2.png); no video yet | [JPEG](14-crater-rim-survey/thumbnail-v1.jpg) |
+| [14 - Crater Rim Survey](14-crater-rim-survey/) | [Eight-second 720p clouds and haze preview](../music/crater-rim-animation-v1/README.md) | [JPEG](14-crater-rim-survey/thumbnail-v1.jpg) |
 | [15 - Beneath a Crimson Sky](15-beneath-a-crimson-sky/) | [60-second synced storm with sound](../music/beneath-a-crimson-sky-synced-storm/skies-of-baal-synced-storm-60s.mp4) | [Skies of Baal draft](15-beneath-a-crimson-sky/thumbnail-warhammer-v1.jpg) |
 | [16 - Cyberpunk Apartment](16-cyberpunk-apartment/) | [10 seconds, 4K/60fps V3](16-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-4K.mp4) | Pending |
 
@@ -48,4 +48,4 @@ Long upload videos and soundtrack repeats now live in the ignored `../exports/` 
 Packages 04-14 also contain suggested `youtube-title.txt` and `music/` with one-minute test prompts, longer-piece prompts and manual generation/listening instructions. Floodplain now has a delivered one-hour soundtrack and assembled video; other preparation-only scenes retain their own pending audio status.
 
 
-Release numbering 11-14 maps to creative concepts 17-20 respectively: The Empty Junction, Deepwell Station, Below the Snowline and Crater Rim Survey. Creative IDs are permanent provenance paths, not public catalog numbers. Each new package also includes a proposed motion brief; no masks or renderer adapters have been built.
+Release numbering 11-14 maps to creative concepts 17-20 respectively: The Empty Junction, Deepwell Station, Below the Snowline and Crater Rim Survey. Creative IDs are permanent provenance paths, not public catalog numbers. The original motion briefs record the proposals; the [production tracker](../PRODUCTION_PIPELINE.md) records the latest previews and renders.

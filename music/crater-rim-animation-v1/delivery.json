@@ -1,0 +1,45 @@
+{
+  "source_sha256": "ffb509afd49853590d7b01a521288b3d5cca47f7758feaa50136feabc4241734",
+  "settings_sha256": "bd99c1a81bfbad2551566a8334a8494b5898c1efdc24ea7c5bd5d3cd7eb4d686",
+  "renderer_sha256": "c812c47147021816c54be5bf2f64f1fe24aafe65268f1559f9b5637c6e9b0e20",
+  "transport_dependency_sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+  "minimum_horizontal_cloud_map_slope": 0.2939453125,
+  "all_active_cloud_source_taps_inside_safe_sky": true,
+  "preview_seconds": 8,
+  "fps": 30,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "loop": false,
+  "clips": {
+    "combined": {
+      "path": "Crater-Rim-Survey-clouds-and-haze-v1-8s.mp4",
+      "bytes": 256721,
+      "sha256": "6146e20bf49613f339906721549557abe900071fa41b75d6a91fcf7432e8de8e",
+      "protected_pixels_exact_before_resize_and_encode": true,
+      "decoded_frames": 240,
+      "sequential_timestamps": true,
+      "audio": false
+    },
+    "clouds": {
+      "path": "Crater-Rim-Survey-clouds-isolated-v1-8s.mp4",
+      "bytes": 243292,
+      "sha256": "6a8ab99cfffa90b58aba98e1e66abd9164e1179ac33a160c353747054c1ad038",
+      "protected_pixels_exact_before_resize_and_encode": true,
+      "decoded_frames": 240,
+      "sequential_timestamps": true,
+      "audio": false
+    },
+    "haze": {
+      "path": "Crater-Rim-Survey-haze-isolated-v1-8s.mp4",
+      "bytes": 239733,
+      "sha256": "ee377d32925433fe631d87007f1ce6d467c80833f3134ec771e25338a886f519",
+      "protected_pixels_exact_before_resize_and_encode": true,
+      "decoded_frames": 240,
+      "sequential_timestamps": true,
+      "audio": false
+    }
+  },
+  "user_review": "pending"
+}
