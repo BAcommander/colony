@@ -30,6 +30,7 @@ Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subs
 | [14 - Crater Rim Survey](14-crater-rim-survey/) | [Eight-second 720p clouds and haze preview](../music/crater-rim-animation-v1/README.md) | [JPEG](14-crater-rim-survey/thumbnail-v1.jpg) |
 | [15 - Beneath a Crimson Sky](15-beneath-a-crimson-sky/) | [60-second synced storm with sound](../music/beneath-a-crimson-sky-synced-storm/skies-of-baal-synced-storm-60s.mp4) | [Skies of Baal draft](15-beneath-a-crimson-sky/thumbnail-warhammer-v1.jpg) |
 | [16 - Cyberpunk Apartment](16-cyberpunk-apartment/) | [10 seconds, 4K/60fps V3](16-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-4K.mp4) | Pending |
+| [17 - The Gate Camp After Sunset](17-gate-camp/) | [Eight-second V2 water and light test](../music/gate-camp-animation-v2/README.md) | [The Way Home draft](../creative/brainstorm/2026-10-27-three-worlds/e1-gate-camp/thumbnail-v1.jpg) |
 
 The short masters listed here are 3840x2160, 30 fps and silent, with upscaled source artwork. Long music-video exports are tracked separately through each assembly package and the local inventory. Approved copied media retain their original production paths. Saltline v7 is a new requested delivery with a separate pending visual-review status.
 

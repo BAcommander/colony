@@ -1,0 +1,23 @@
+{
+  "path": "Gate-Camp-water-and-light-v2-8s.mp4",
+  "sha256": "88f9c92ce4985efb43842bc1a5305606152b80bb7eb423776086d48b6ff216bd",
+  "bytes": 400558,
+  "source_sha256": "384fefe650ce8420b166a6fc55cc9f50bd878ec8379b514def985c8313cd9f08",
+  "settings_sha256": "4a4ab2be9c2f624a9fd61f4f0fe99a725d306b6d707b26eb9271cc3af3a2af0a",
+  "renderer_sha256": "22b58fd75c2d371b30250051abad38c9aaf62e7f5bf45845f5f36efda0b227e8",
+  "v1_settings_sha256": "5f3945d783f06600c590fc844c28b2ca19d19949fe163e6d89e706ab5c4a2a85",
+  "v1_renderer_sha256": "a86eb6f66dfa43a1f0a1d67060932b8b9bc922570ca57cb54a9e07f170f3ebf0",
+  "decoded_frames": 240,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "audio": false,
+  "loop": false,
+  "all_protected_pixels_exact_before_encode": true,
+  "source_taps_inside_aperture": true,
+  "minimum_warp_jacobian": 0.3726074993610382,
+  "peak_blue_lift_on_landing_codes": 14,
+  "user_review": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "path": "Gate-Camp-portal-v1-8s.mp4",
+  "sha256": "b7897bc8fb73ec9fc44cfdacea232ddb8955d559abe9ca73f30ba4e23348be39",
+  "bytes": 390833,
+  "source_sha256": "384fefe650ce8420b166a6fc55cc9f50bd878ec8379b514def985c8313cd9f08",
+  "settings_sha256": "5f3945d783f06600c590fc844c28b2ca19d19949fe163e6d89e706ab5c4a2a85",
+  "renderer_sha256": "a86eb6f66dfa43a1f0a1d67060932b8b9bc922570ca57cb54a9e07f170f3ebf0",
+  "decoded_frames": 240,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "audio": false,
+  "loop": false,
+  "sequential_timestamps": true,
+  "minimum_warp_jacobian": 0.3726074993610382,
+  "active_source_taps_inside_aperture": true,
+  "outside_mask_exact_before_resize_and_encode": true,
+  "user_review": "pending"
+}

@@ -1,0 +1,24 @@
+{
+  "surface": {
+    "fine_detail_retention": 0.88,
+    "fine_detail_blur_px": 2.8,
+    "base_gain": 0.90,
+    "rolling_gain": 0.115,
+    "highlight_mix": 0.13,
+    "highlight_rgb": [181, 222, 247]
+  },
+  "light_bands": [
+    {"direction_degrees": 63, "wavelength_px": 116, "period_seconds": 5.4, "curve_px": 16, "weight": 0.66},
+    {"direction_degrees": 128, "wavelength_px": 82, "period_seconds": 7.3, "curve_px": 10, "weight": 0.34}
+  ],
+  "spill": {
+    "roi": [1094, 432, 1383, 499],
+    "stone_polygons": [
+      [[1146,437],[1242,437],[1241,449],[1229,450],[1228,463],[1141,463]],
+      [[1100,473],[1197,472],[1215,475],[1201,491],[1100,492]],
+      [[1322,438],[1375,437],[1376,447],[1322,448]]
+    ],
+    "rgb_lift": [2.0, 7.0, 15.0],
+    "feather_px": 6
+  }
+}

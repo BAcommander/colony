@@ -412,3 +412,7 @@ music/deepwell-claim-review-2026-11-02/replacement-v1/Waterworks-Gallery-reworke
 /music/beneath-a-crimson-sky-synced-storm/settings.json -text
 /music/crater-rim-animation-v1/scene-plan.json -text
 /music/crater-rim-animation-v1/render_preview.py -text
+/music/gate-camp-animation-v1/scene-plan.json -text
+/music/gate-camp-animation-v1/render_portal.py -text
+/music/gate-camp-animation-v2/look-settings.json -text
+/music/gate-camp-animation-v2/render_water_light.py -text

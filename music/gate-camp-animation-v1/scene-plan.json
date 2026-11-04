@@ -1,0 +1,26 @@
+{
+  "source": "creative/brainstorm/2026-10-27-three-worlds/e1-gate-camp/concept-v1.png",
+  "source_sha256": "384fefe650ce8420b166a6fc55cc9f50bd878ec8379b514def985c8313cd9f08",
+  "source_dimensions": [1672, 941],
+  "preview_dimensions": [1280, 720],
+  "preview_seconds": 8,
+  "fps": 30,
+  "portal_roi": [1098, 101, 1416, 435],
+  "aperture": [
+    [1107,260],[1114,218],[1127,184],[1148,154],[1174,132],[1205,116],
+    [1237,108],[1270,107],[1304,113],[1336,130],[1362,152],[1381,180],
+    [1397,210],[1406,244],[1409,275],[1404,310],[1394,347],[1377,380],
+    [1350,408],[1320,429],[1304,429],[1304,425],[1292,425],[1292,429],
+    [1272,429],[1272,425],[1262,425],[1262,429],[1189,429],[1161,413],
+    [1137,386],[1120,358],[1110,330],[1106,298]
+  ],
+  "rim_inset_px": 3,
+  "rim_feather_px": 9,
+  "warp_taper_px": 76,
+  "drift_px_per_second": [1.1, -1.8],
+  "waves": [
+    {"wavelength_px": 104, "direction_degrees": 57, "speed_px_per_second": 24, "displacement_px": 5.3, "phase_radians": 0.55},
+    {"wavelength_px": 72, "direction_degrees": 151, "speed_px_per_second": 18, "displacement_px": 3.0, "phase_radians": 1.3},
+    {"wavelength_px": 47, "direction_degrees": 17, "speed_px_per_second": 16, "displacement_px": 1.25, "phase_radians": 2.0}
+  ]
+}
