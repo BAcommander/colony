@@ -398,3 +398,4 @@ music/deepwell-claim-review-2026-11-02/replacement-v1/Waterworks-Gallery-reworke
 /music/production-backup-2026-11-04-v6/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /music/below-the-snowline-animation-v6/Below-the-Snowline-v6-with-V6-audio-2min.mp4 filter=lfs diff=lfs merge=lfs -text
 /music/below-the-snowline-animation-v6/Snowline-V6-review-audio-2min.flac filter=lfs diff=lfs merge=lfs -text
+/final/13-below-the-snowline/packaging-2026-11-04/*.txt text eol=lf

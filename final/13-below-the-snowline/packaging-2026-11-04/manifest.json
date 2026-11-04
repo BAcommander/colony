@@ -1,0 +1,399 @@
+{
+  "date": "2026-11-04",
+  "status": "Packaging draft for user review",
+  "approved_review_commit": "ce32a933d298da357f3a42a791f6b46143972b3e",
+  "reference_frame": {
+    "path": "music/below-the-snowline-animation-v6/decoded-1440.png",
+    "bytes": 1240834,
+    "sha256": "5a8cfba194abd12543e1100caec07c69f5ded2f31b605825c36637565dfeb74c",
+    "width": 1280,
+    "height": 720,
+    "frame": 1440,
+    "seconds": 48
+  },
+  "generation": {
+    "mode": "built-in imagegen",
+    "prompt": {
+      "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-prompt.txt",
+      "bytes": 1334,
+      "sha256": "b8fcb3dc00235351da1cda44dcf476e4250a7ec442c6f2d31a3f25b07ae343f2"
+    },
+    "visible_text": "SNOWLINE"
+  },
+  "thumbnail": {
+    "master": {
+      "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-v3.png",
+      "bytes": 2544993,
+      "sha256": "a39300c9eb36c1ff453828b658c478fe78e581b971ba31bb217c144ca4abf86f",
+      "width": 1672,
+      "height": 941
+    },
+    "upload": {
+      "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-v3.jpg",
+      "bytes": 392210,
+      "sha256": "c55ddc426236295e8ebb8afef38a8c70daf6f18c4e4b0ae5733b083526cacbc7",
+      "width": 1280,
+      "height": 720
+    },
+    "feed_review_width_px": 200,
+    "visual_review": "Title legible at feed size. The amber room, bridge, cannon, dish and shuttle read clearly. Generative rendering changes fine details and contrast."
+  },
+  "title": "Hoth-Inspired Snowstorm Ambience | Below the Snowline",
+  "copy_files": [
+    {
+      "path": "final/13-below-the-snowline/youtube-title.txt",
+      "bytes": 54,
+      "sha256": "3d729c62c1ce6893ef4636c06a85dcd0113bbd29d7ea97cffde3ef46ead0c225"
+    },
+    {
+      "path": "final/13-below-the-snowline/description.txt",
+      "bytes": 743,
+      "sha256": "81d9e07fc769b96f71749e6277514139c9405cdd846c7d1c584f6ecbca269831"
+    },
+    {
+      "path": "final/13-below-the-snowline/youtube-tags.txt",
+      "bytes": 282,
+      "sha256": "e2751a6a6fdc6ad71f156d66c70a2827d635898104fd66ca6185ae467862062d"
+    }
+  ],
+  "title_characters": 53,
+  "tag_characters": 281,
+  "final_runtime_and_resolution": "Fill in after final video assembly.",
+  "title_comparison": {
+    "alternate": "Below the Snowline | Hoth-Inspired Snowstorm Ambience",
+    "test": "Title only; use the same thumbnail for both versions."
+  },
+  "thumbnail_comparison": {
+    "test": "YouTube Studio Thumbnail only; keep the Hoth-first title fixed. Review watch time share and treat an inconclusive result as inconclusive.",
+    "default": "B",
+    "title": "Hoth-Inspired Snowstorm Ambience | Below the Snowline",
+    "feed_preview": {
+      "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-test-preview-final.png",
+      "bytes": 62131,
+      "sha256": "57620ed9708af624a5dd719be454cc055c1fde6663a2aaa9983e08f7e861b7f2",
+      "width": 656,
+      "height": 166
+    },
+    "feed_review_width_px": 200,
+    "variants": [
+      {
+        "id": "A",
+        "name": "SNOWLINE",
+        "upload": {
+          "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-v3.jpg",
+          "bytes": 392210,
+          "sha256": "c55ddc426236295e8ebb8afef38a8c70daf6f18c4e4b0ae5733b083526cacbc7",
+          "width": 1280,
+          "height": 720
+        },
+        "change": "Current thumbnail baseline."
+      },
+      {
+        "id": "B",
+        "name": "No text",
+        "upload": {
+          "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-b-clean.jpg",
+          "bytes": 385727,
+          "sha256": "365632b221aaee097f145ef54373a1ff8af99397fa488dfd5371a1294c53004a",
+          "width": 1280,
+          "height": 720
+        },
+        "change": "Same composition; remove the lettering using a confined sky patch."
+      },
+      {
+        "id": "C",
+        "name": "HOTH / Star Wars Inspired",
+        "upload": {
+          "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-hoth-left-aligned.jpg",
+          "bytes": 392033,
+          "sha256": "827a315877c8abfca21e937593df84c19818e000dc5c3185b273cea7ec397752",
+          "width": 1280,
+          "height": 720
+        },
+        "visible_text": [
+          "HOTH",
+          "STAR WARS INSPIRED"
+        ],
+        "change": "Same wide framing as B with a condensed ivory title and a stronger, left-aligned Star Wars caption.",
+        "design_finalist": 2
+      }
+    ],
+    "sky_patch": {
+      "mode": "Built-in imagegen, then a feathered patch blended into the original thumbnail master before export.",
+      "prompt": {
+        "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-b-clean-prompt.txt",
+        "bytes": 1003,
+        "sha256": "63bf214b972b28bea85d74649a228d71f2f68977bcca8ef706c71675b5339bf0"
+      },
+      "generated_source": {
+        "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-b-sky-source.png",
+        "bytes": 2470378,
+        "sha256": "3c0910da040c7ed9a6000dbdb89466b402aea1633de04d607a9f6a595591a507",
+        "width": 1672,
+        "height": 941
+      },
+      "source_region_xyxy": [
+        940,
+        117,
+        1468,
+        240
+      ],
+      "feather_pixels": 18
+    },
+    "status": "Three new full JPEGs and 200 px layouts inspected. No performance measured.",
+    "retained_framing_test": {
+      "status": "Alternate for a separate framing test.",
+      "crop": {
+        "id": "C",
+        "name": "Closer outpost",
+        "upload": {
+          "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-c-outpost.jpg",
+          "bytes": 332894,
+          "sha256": "a1450b733693f1e1dbefde4c755a67348f888cb8cf4506e9c94eb74a8aa80284",
+          "width": 1280,
+          "height": 720
+        },
+        "change": "Reframe B around the lit bridge and outpost.",
+        "crop_xywh_on_1280x720_clean_frame": [
+          280,
+          28,
+          944,
+          531
+        ]
+      },
+      "preview": {
+        "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-test-preview.png",
+        "bytes": 107869,
+        "sha256": "e5eefdbba96385edd2372b773bd26d373b92e459b4ebe20ce27025b37145b959",
+        "width": 656,
+        "height": 166
+      }
+    },
+    "retained_wide_type_draft": {
+      "status": "Superseded after user flagged the type as inconsistent with prior thumbnails.",
+      "variant": {
+        "id": "C",
+        "name": "HOTH / Inspired by Star Wars",
+        "upload": {
+          "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-c-hoth.jpg",
+          "bytes": 394007,
+          "sha256": "dd05a7139a33a74fba313a762fe13a73ebe0aaa901395e72de44a6f8f952d1ad",
+          "width": 1280,
+          "height": 720
+        },
+        "visible_text": [
+          "HOTH",
+          "INSPIRED BY STAR WARS"
+        ],
+        "change": "Same wide framing as B, with a two-line Star Wars cue. This compares the full text treatment, including scale and wording.",
+        "typography_patch": {
+          "mode": "Built-in imagegen, then a feathered patch from the selected pass onto B's clean master.",
+          "prompts": {
+            "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-c-hoth-prompts.txt",
+            "bytes": 2619,
+            "sha256": "cab746ff2c457ecdfd8b05a0f205091fa61c9eb1f940984935983efc8c2c3a96"
+          },
+          "passes": [
+            {
+              "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-c-hoth-type-v1.png",
+              "bytes": 2348860,
+              "sha256": "2845233cf4e60db7c7e12aec216c6b6fafa9e252a7651fa5d967aaf06aa4f46c",
+              "width": 1672,
+              "height": 941
+            },
+            {
+              "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-c-hoth-type-v2.png",
+              "bytes": 2283036,
+              "sha256": "314fc4f44f9c2a3cbf16e2c34e82f934c610c3247801db427b932fde1fc9efb9",
+              "width": 1671,
+              "height": 941
+            }
+          ],
+          "selected_pass": 2,
+          "resize_selected_to": [
+            1672,
+            941
+          ],
+          "source_region_xyxy": [
+            855,
+            116,
+            1405,
+            267
+          ],
+          "feather_pixels": 17
+        },
+        "verification": "Decoded pixels outside the title patch and its export margin exactly match B."
+      },
+      "preview": {
+        "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-test-preview-hoth.png",
+        "bytes": 61596,
+        "sha256": "2ad7f2cc37da6c63ba416e94020465b3c720e82e260c757fb2b5a9b03015f5b9",
+        "width": 656,
+        "height": 166
+      }
+    },
+    "retained_first_colony_draft": {
+      "status": "Superseded after user requested better caption alignment.",
+      "variant": {
+        "id": "C",
+        "name": "HOTH / Inspired by Star Wars",
+        "upload": {
+          "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-c-hoth-colony.jpg",
+          "bytes": 388507,
+          "sha256": "ca4cad0092708adbe6106bbe0728ec9cd5ea55f2b66d53e0361badad91ff147a",
+          "width": 1280,
+          "height": 720
+        },
+        "visible_text": [
+          "HOTH",
+          "INSPIRED BY STAR WARS"
+        ],
+        "change": "Match the existing Ambient Colony title and caption style with condensed ivory letters, spaced caption and amber rule.",
+        "typography_patch": {
+          "mode": "Built-in imagegen with Ringfall and Glacier as typography references. Feathered into the clean master.",
+          "prompt": {
+            "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-c-hoth-colony-prompt.txt",
+            "bytes": 1826,
+            "sha256": "ab5b836018c3b12692b0b524a77f75cde2fb6a934c1f6682efdc93792a3b00c5"
+          },
+          "source": {
+            "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-c-hoth-type-colony.png",
+            "bytes": 2439192,
+            "sha256": "82967d2cdf716cc16e44516264291c063c632a315b37ff7bb243be590a6f6451",
+            "width": 1672,
+            "height": 941
+          },
+          "style_references": [
+            {
+              "path": "final/01-ringfall-observatory/thumbnail-v1.png",
+              "bytes": 2266562,
+              "sha256": "b78248b8fb31ab82050a0b3de0f5460637b97a2874a4aa30bd1ed8d8bdddcede",
+              "width": 1672,
+              "height": 941
+            },
+            {
+              "path": "final/03-glacier-sanctuary/thumbnail-v1.jpg",
+              "bytes": 479020,
+              "sha256": "c262e5acd74f933e915e8ea7dd453ad1ab7823ec5538022f418c6747698a385d",
+              "width": 1280,
+              "height": 720
+            }
+          ],
+          "source_region_xyxy": [
+            963,
+            103,
+            1524,
+            271
+          ],
+          "feather_pixels": 18,
+          "shuttle_protection": "Suppress the patch between x=1167 and x=1261 above y=120, feathering the exclusion over six pixels."
+        },
+        "verification": "Decoded JPEG pixels outside the title patch and export margin exactly match B. HOTH reads at 200 px. The smaller Star Wars caption is secondary at that scale."
+      },
+      "preview": {
+        "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-test-preview-colony.png",
+        "bytes": 61739,
+        "sha256": "d5bb7554e676cfb064d8d732a79320aa4de3fa08ffd644aff31bba4a22a1f7bf",
+        "width": 656,
+        "height": 166
+      }
+    },
+    "hoth_design_finalists": {
+      "selected_for_C": 2,
+      "selection_reason": "The aligned type block suits the established channel style. The shorter caption reads best at feed size.",
+      "preview": {
+        "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-hoth-finalists.png",
+        "bytes": 203394,
+        "sha256": "75a63d1217ffbf98225a71d5ac3986010e00cf06c823b6f00347d89a535d24e1",
+        "width": 1004,
+        "height": 380
+      },
+      "prompts": {
+        "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-hoth-finalist-prompts.txt",
+        "bytes": 5692,
+        "sha256": "4e6852252387b9747dc11dde542f772cf8fbc8eff6266ffd6bb16874a19072a5"
+      },
+      "mode": "Built-in imagegen with Ringfall and the earlier Hoth draft as type references. Each title patch was feathered into the same clean master.",
+      "typography_region_xyxy": [
+        953,
+        104,
+        1446,
+        323
+      ],
+      "feather_pixels": 18,
+      "shuttle_exclusion": "Suppress the patch between x=1167 and x=1261 above y=120, feathering the exclusion over six pixels.",
+      "verification": "JPEGs decode at 1280x720. Decoded pixels outside the text area and export margin exactly match B.",
+      "finalists": [
+        {
+          "number": 1,
+          "layout": "centered",
+          "upload": {
+            "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-hoth-centered.jpg",
+            "bytes": 389905,
+            "sha256": "545745b448d930d92eb3a3fabbf29f4baeece3eab0b4d76ad23bee0dbf33f0f1",
+            "width": 1280,
+            "height": 720
+          },
+          "generated_source": {
+            "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-hoth-centered-source.png",
+            "bytes": 2395201,
+            "sha256": "eedc69b7cbb6560b5140c3aeb925f78fb37b0660372f3adf61ae4a5d3eec52ea",
+            "width": 1672,
+            "height": 941
+          },
+          "visible_text": [
+            "HOTH",
+            "INSPIRED BY STAR WARS"
+          ],
+          "layout_notes": "Caption and amber rule centered under HOTH."
+        },
+        {
+          "number": 2,
+          "layout": "left-aligned",
+          "upload": {
+            "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-hoth-left-aligned.jpg",
+            "bytes": 392033,
+            "sha256": "827a315877c8abfca21e937593df84c19818e000dc5c3185b273cea7ec397752",
+            "width": 1280,
+            "height": 720
+          },
+          "generated_source": {
+            "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-hoth-left-aligned-source.png",
+            "bytes": 2413329,
+            "sha256": "56a98d6262f23e945d7c32477d856f4a73ca0d93105cba5427a02e35df7410c5",
+            "width": 1672,
+            "height": 941
+          },
+          "visible_text": [
+            "HOTH",
+            "STAR WARS INSPIRED"
+          ],
+          "layout_notes": "Both lines and the amber rule share a left edge. Shorter caption with the strongest letter weight at 200 px."
+        },
+        {
+          "number": 3,
+          "layout": "eyebrow",
+          "upload": {
+            "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-hoth-eyebrow.jpg",
+            "bytes": 388422,
+            "sha256": "8e1bcc38e49c051abe00819a2d0fddf295ef28194c60820213793f2a3e916e3e",
+            "width": 1280,
+            "height": 720
+          },
+          "generated_source": {
+            "path": "final/13-below-the-snowline/packaging-2026-11-04/thumbnail-hoth-eyebrow-source.png",
+            "bytes": 2448960,
+            "sha256": "e87b1998b9c32889b20010c6507886a2dec90d5a7a082e9c0c9dfa3a0b5f98d1",
+            "width": 1672,
+            "height": 941
+          },
+          "visible_text": [
+            "INSPIRED BY STAR WARS",
+            "HOTH"
+          ],
+          "layout_notes": "Centered franchise cue above a larger HOTH."
+        }
+      ]
+    }
+  }
+}
