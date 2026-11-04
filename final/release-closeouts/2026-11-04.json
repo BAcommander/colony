@@ -1,0 +1,865 @@
+{
+  "date": "2026-11-04",
+  "scope": "User confirmed 11 released videos, from Ringfall Observatory through The Empty Junction.",
+  "release_archive_status": "The recorded release export folders for 01\u201311 were absent in this checkout. Exact-upload archives remain to be verified separately.",
+  "scenes": [
+    {
+      "scene": "01-ringfall-observatory",
+      "draft_files_removed": 11,
+      "scratch_repositories_removed": 0,
+      "bytes_reclaimed": 216933981,
+      "expected_local_export_directory_present": false,
+      "exact_upload_archive_status": "Unverified from this checkout. No approved uploads or original media were retired."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "draft_files_removed": 22,
+      "scratch_repositories_removed": 0,
+      "bytes_reclaimed": 5588882843,
+      "expected_local_export_directory_present": false,
+      "exact_upload_archive_status": "Unverified from this checkout. No approved uploads or original media were retired."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "draft_files_removed": 32,
+      "scratch_repositories_removed": 0,
+      "bytes_reclaimed": 139246373,
+      "expected_local_export_directory_present": false,
+      "exact_upload_archive_status": "Unverified from this checkout. No approved uploads or original media were retired."
+    },
+    {
+      "scene": "04-floodplain-keeper",
+      "draft_files_removed": 0,
+      "scratch_repositories_removed": 0,
+      "bytes_reclaimed": 0,
+      "expected_local_export_directory_present": false,
+      "exact_upload_archive_status": "Unverified from this checkout. No approved uploads or original media were retired."
+    },
+    {
+      "scene": "05-saltline-receiver",
+      "draft_files_removed": 0,
+      "scratch_repositories_removed": 0,
+      "bytes_reclaimed": 0,
+      "expected_local_export_directory_present": false,
+      "exact_upload_archive_status": "Unverified from this checkout. No approved uploads or original media were retired."
+    },
+    {
+      "scene": "06-last-cable-station",
+      "draft_files_removed": 0,
+      "scratch_repositories_removed": 0,
+      "bytes_reclaimed": 0,
+      "expected_local_export_directory_present": false,
+      "exact_upload_archive_status": "Unverified from this checkout. No approved uploads or original media were retired."
+    },
+    {
+      "scene": "07-icebound-weather-post",
+      "draft_files_removed": 0,
+      "scratch_repositories_removed": 0,
+      "bytes_reclaimed": 0,
+      "expected_local_export_directory_present": false,
+      "exact_upload_archive_status": "Unverified from this checkout. No approved uploads or original media were retired."
+    },
+    {
+      "scene": "08-rainline-relay",
+      "draft_files_removed": 0,
+      "scratch_repositories_removed": 0,
+      "bytes_reclaimed": 0,
+      "expected_local_export_directory_present": false,
+      "exact_upload_archive_status": "Unverified from this checkout. No approved uploads or original media were retired."
+    },
+    {
+      "scene": "09-offshore-night-office",
+      "draft_files_removed": 0,
+      "scratch_repositories_removed": 0,
+      "bytes_reclaimed": 0,
+      "expected_local_export_directory_present": false,
+      "exact_upload_archive_status": "Unverified from this checkout. No approved uploads or original media were retired."
+    },
+    {
+      "scene": "10-nightward-station",
+      "draft_files_removed": 37,
+      "scratch_repositories_removed": 1,
+      "bytes_reclaimed": 393161101,
+      "expected_local_export_directory_present": false,
+      "exact_upload_archive_status": "Unverified from this checkout. No approved uploads or original media were retired."
+    },
+    {
+      "scene": "11-empty-junction",
+      "draft_files_removed": 20,
+      "scratch_repositories_removed": 1,
+      "bytes_reclaimed": 191996179,
+      "expected_local_export_directory_present": false,
+      "exact_upload_archive_status": "Unverified from this checkout. No approved uploads or original media were retired."
+    }
+  ],
+  "bytes_reclaimed": 6530220477,
+  "checkout_logical_bytes_after_cleanup": 66692974527,
+  "removed_local_drafts": [
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v1-20min-4k.mp4",
+      "bytes": 204551356,
+      "evidence": "Every video packet matches 60 repetitions of creative/basalt-transmission/animation/baseline-v1-loop-4k.mp4."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v1b-20min-4k.mp4",
+      "bytes": 664036456,
+      "evidence": "Every video packet matches 60 repetitions of creative/basalt-transmission/animation/baseline-v1b-loop-4k.mp4, whose bytes match retained creative/basalt-transmission/animation/baseline-v1-loop-4k-master.mp4."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v2-20min-4k.mp4",
+      "bytes": 1381581376,
+      "evidence": "Every video packet matches 60 repetitions of creative/basalt-transmission/animation/baseline-v2-loop-4k.mp4. That short loop has the same SHA-256 as retained creative/basalt-transmission/animation/baseline-v2-loop-4k-master.mp4."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v3-20min-4k.mp4",
+      "bytes": 3165710896,
+      "evidence": "Every video packet matches 60 repetitions of creative/basalt-transmission/animation/baseline-v3-loop-4k.mp4. That short loop has the same SHA-256 as retained creative/basalt-transmission/animation/baseline-v3-loop-4k-master.mp4."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/final-v11/glacier-sanctuary-v11-two-loop-check-720p.mp4",
+      "bytes": 68966966,
+      "evidence": "Every video packet matches 2 repetitions of creative/glacier-sanctuary/animation/final-v11/glacier-sanctuary-v11-60s-720p.mp4."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v6/farpoint-station-v6-three-loops-180s.mp4",
+      "bytes": 114134583,
+      "evidence": "Every video packet matches 3 repetitions of music/farpoint-animation-v6/farpoint-station-v6-preview-60s.mp4."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v3/empty-junction-v3-three-loops-180s.mp4",
+      "bytes": 42586071,
+      "evidence": "Every video packet matches 3 repetitions of music/empty-junction-animation-v3/empty-junction-v3-preview-60s.mp4."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v2-loop-4k.mp4",
+      "bytes": 23027257,
+      "evidence": "SHA-256 matches retained short loop creative/basalt-transmission/animation/baseline-v2-loop-4k-master.mp4."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v3-loop-4k.mp4",
+      "bytes": 52762749,
+      "evidence": "SHA-256 matches retained short loop creative/basalt-transmission/animation/baseline-v3-loop-4k-master.mp4."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v1b-loop-4k.mp4",
+      "bytes": 11068175,
+      "evidence": "SHA-256 matches retained canonical short master creative/basalt-transmission/animation/baseline-v1-loop-4k-master.mp4."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v1-preview.mp4",
+      "bytes": 1701883,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v1-v2-comparison.mp4",
+      "bytes": 718994,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v2-preview.mp4",
+      "bytes": 3101056,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v2-v3-comparison.mp4",
+      "bytes": 788151,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v3-preview.mp4",
+      "bytes": 6831534,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v3-v4-comparison.mp4",
+      "bytes": 891442,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/baseline-v4-preview.mp4",
+      "bytes": 15674310,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/review-v5/combined.mp4",
+      "bytes": 4732217,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/review-v5/far_haze.mp4",
+      "bytes": 847058,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/review-v5/plain_wind.mp4",
+      "bytes": 593685,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/review-v5/sky_clouds.mp4",
+      "bytes": 4119283,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/review-v6/far_haze.mp4",
+      "bytes": 2305892,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/review-v6/plain_wind.mp4",
+      "bytes": 2145662,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/review-v6/sky_clouds.mp4",
+      "bytes": 9046230,
+      "evidence": "Local motion comparison or isolated test. Renderer, settings, short loops and current v6 preview remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v1/atmosphere.mp4",
+      "bytes": 1485437,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v1/combined.mp4",
+      "bytes": 1841394,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v1/water.mp4",
+      "bytes": 992563,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v10/combined.mp4",
+      "bytes": 4455783,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v10/water.mp4",
+      "bytes": 1294245,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v2/combined.mp4",
+      "bytes": 3165354,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v2/mist.mp4",
+      "bytes": 1591130,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v2/roof_lights.mp4",
+      "bytes": 794453,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v2/water.mp4",
+      "bytes": 1623998,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v3/combined.mp4",
+      "bytes": 4628364,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v3/exterior_lights.mp4",
+      "bytes": 755060,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v3/mist.mp4",
+      "bytes": 2173749,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v3/water.mp4",
+      "bytes": 2445318,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v4/combined.mp4",
+      "bytes": 4287040,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v4/exterior_lights.mp4",
+      "bytes": 1198989,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v4/water.mp4",
+      "bytes": 1663960,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v5/combined.mp4",
+      "bytes": 3989102,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v5/dome_light.mp4",
+      "bytes": 759673,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v5/water.mp4",
+      "bytes": 1257155,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v6/combined.mp4",
+      "bytes": 3851575,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v6/exterior_lights.mp4",
+      "bytes": 1468119,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v6/water.mp4",
+      "bytes": 681431,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v7/combined.mp4",
+      "bytes": 4332814,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v7/foreground_snow.mp4",
+      "bytes": 1094132,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v7/water.mp4",
+      "bytes": 723566,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v8/water.mp4",
+      "bytes": 1852032,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v8b/combined.mp4",
+      "bytes": 5260630,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v8b/water.mp4",
+      "bytes": 2113581,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v9/combined.mp4",
+      "bytes": 4861592,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/review-v9/water.mp4",
+      "bytes": 1711957,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "03-glacier-sanctuary",
+      "path": "creative/glacier-sanctuary/animation/water-v5-v6-comparison/water.mp4",
+      "bytes": 1925211,
+      "evidence": "Earlier generated motion review output. Approved v11 master, v11 one-minute preview, renderer and diagnostics remain."
+    },
+    {
+      "scene": "01-ringfall-observatory",
+      "path": "creative/ringfall/animation/drafts/ringfall-loop-v1.mp4",
+      "bytes": 3823830,
+      "evidence": "README identifies this as an early encoding experiment. Source art, renderer and approved v9b remain."
+    },
+    {
+      "scene": "01-ringfall-observatory",
+      "path": "creative/ringfall/animation/drafts/ringfall-loop-v2.mp4",
+      "bytes": 57515678,
+      "evidence": "README identifies this as an early encoding experiment. Source art, renderer and approved v9b remain."
+    },
+    {
+      "scene": "01-ringfall-observatory",
+      "path": "creative/ringfall/animation/drafts/ringfall-loop-v3.mp4",
+      "bytes": 132867662,
+      "evidence": "README identifies this as an early encoding experiment. Source art, renderer and approved v9b remain."
+    },
+    {
+      "scene": "01-ringfall-observatory",
+      "path": "creative/ringfall/animation/drafts/ringfall-loop.mp4",
+      "bytes": 4997359,
+      "evidence": "README identifies this as an early encoding experiment. Source art, renderer and approved v9b remain."
+    },
+    {
+      "scene": "01-ringfall-observatory",
+      "path": "creative/ringfall/animation/ringfall-ambient-v7-preview.mp4",
+      "bytes": 2253593,
+      "evidence": "Superseded or derived motion preview. Keep the approved master, v9b short preview, scene records and source assets."
+    },
+    {
+      "scene": "01-ringfall-observatory",
+      "path": "creative/ringfall/animation/ringfall-ambient-v7b-preview.mp4",
+      "bytes": 2254326,
+      "evidence": "Superseded or derived motion preview. Keep the approved master, v9b short preview, scene records and source assets."
+    },
+    {
+      "scene": "01-ringfall-observatory",
+      "path": "creative/ringfall/animation/ringfall-ambient-v8-20s-preview.mp4",
+      "bytes": 3887199,
+      "evidence": "Superseded or derived motion preview. Keep the approved master, v9b short preview, scene records and source assets."
+    },
+    {
+      "scene": "01-ringfall-observatory",
+      "path": "creative/ringfall/animation/ringfall-ambient-v9-20s-preview.mp4",
+      "bytes": 4688564,
+      "evidence": "Superseded or derived motion preview. Keep the approved master, v9b short preview, scene records and source assets."
+    },
+    {
+      "scene": "01-ringfall-observatory",
+      "path": "creative/ringfall/animation/ringfall-v5-pipeline-check-preview.mp4",
+      "bytes": 886658,
+      "evidence": "Superseded or derived motion preview. Keep the approved master, v9b short preview, scene records and source assets."
+    },
+    {
+      "scene": "01-ringfall-observatory",
+      "path": "creative/ringfall/animation/ringfall-v6-b-preview.mp4",
+      "bytes": 3048543,
+      "evidence": "Superseded or derived motion preview. Keep the approved master, v9b short preview, scene records and source assets."
+    },
+    {
+      "scene": "01-ringfall-observatory",
+      "path": "creative/ringfall/animation/ringfall-v9b-original-comparison.mp4",
+      "bytes": 710569,
+      "evidence": "Superseded or derived motion preview. Keep the approved master, v9b short preview, scene records and source assets."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v1/__pycache__/finish_records.cpython-313.pyc",
+      "bytes": 14721,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v1/__pycache__/render_junction.cpython-313.pyc",
+      "bytes": 29525,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v1/empty-junction-v1-preview-60s.mp4",
+      "bytes": 8960749,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v1/empty-junction-v1-three-loops-180s.mp4",
+      "bytes": 26880577,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v1/habitation-v1-isolated-10s.mp4",
+      "bytes": 1276182,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v1/pass_weather-v1-isolated-10s.mp4",
+      "bytes": 1494856,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v1/sky_clouds-v1-isolated-10s.mp4",
+      "bytes": 1520069,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v2/__pycache__/render_junction_v2.cpython-313.pyc",
+      "bytes": 13678,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v2/empty-junction-v2-preview-60s.mp4",
+      "bytes": 11225944,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v2/empty-junction-v2-three-loops-180s.mp4",
+      "bytes": 33676194,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v2/habitation-v2-isolated-10s.mp4",
+      "bytes": 1285397,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v2/pass_weather-v2-isolated-10s.mp4",
+      "bytes": 1598441,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v2/sky_clouds-v2-isolated-10s.mp4",
+      "bytes": 1779064,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v3/__pycache__/audit_delivery.cpython-313.pyc",
+      "bytes": 6632,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v3/__pycache__/finish_records.cpython-313.pyc",
+      "bytes": 13607,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v3/__pycache__/render_junction_v3.cpython-313.pyc",
+      "bytes": 20903,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v3/cabin_exhaust-v3-isolated-10s.mp4",
+      "bytes": 1280361,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v3/terrain_flow-v3-isolated-10s.mp4",
+      "bytes": 1334710,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "11-empty-junction",
+      "path": "music/empty-junction-animation-v3/yard_powder-v3-isolated-10s.mp4",
+      "bytes": 1506544,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v1/__pycache__/render_farpoint.cpython-313.pyc",
+      "bytes": 36756,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v1/clouds-isolated-v1-8s.mp4",
+      "bytes": 911291,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v1/farpoint-station-v1-preview-20s.mp4",
+      "bytes": 2638581,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v1/farpoint-station-v1-three-loops-60s.mp4",
+      "bytes": 7914105,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v1/habitation-isolated-v1-8s.mp4",
+      "bytes": 489343,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v1/veil-isolated-v1-8s.mp4",
+      "bytes": 462940,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v2/__pycache__/render_farpoint_v2.cpython-313.pyc",
+      "bytes": 12409,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v2/farpoint-v2-full-scene-motion-test-8s.mp4",
+      "bytes": 1474981,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v2/farpoint-v2-planet-motion-test-8s.mp4",
+      "bytes": 1417203,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v3/__pycache__/render_farpoint_v3.cpython-313.pyc",
+      "bytes": 24710,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v3/farpoint-v3-detail-preview-12s.mp4",
+      "bytes": 2687116,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v3/habitation-v3-isolated-8s.mp4",
+      "bytes": 534850,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v3/new_atmosphere-v3-isolated-8s.mp4",
+      "bytes": 767874,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v4/__pycache__/audit_delivery.cpython-313.pyc",
+      "bytes": 5285,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v4/__pycache__/finish_records.cpython-313.pyc",
+      "bytes": 14349,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v4/__pycache__/render_farpoint_v4.cpython-313.pyc",
+      "bytes": 38030,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v4/aurora_storms-v4-isolated-8s.mp4",
+      "bytes": 882092,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v4/farpoint-station-v4-preview-60s.mp4",
+      "bytes": 15437564,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v4/farpoint-station-v4-three-loops-180s.mp4",
+      "bytes": 46311022,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v4/habitation-v4-corrected-isolated-8s.mp4",
+      "bytes": 535175,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v4/habitation-v4-isolated-8s.mp4",
+      "bytes": 524359,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v4/planet_activity-v4-isolated-8s.mp4",
+      "bytes": 1813457,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v4/stars_reflections-v4-corrected-isolated-8s.mp4",
+      "bytes": 481940,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v4/stars_reflections-v4-isolated-8s.mp4",
+      "bytes": 482205,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v5/__pycache__/audit_delivery.cpython-313.pyc",
+      "bytes": 5547,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v5/__pycache__/finish_records.cpython-313.pyc",
+      "bytes": 13852,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v5/__pycache__/render_farpoint_v5.cpython-313.pyc",
+      "bytes": 22070,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v5/expanded_weather-v5-isolated-10s.mp4",
+      "bytes": 4993518,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v5/farpoint-station-v5-preview-60s.mp4",
+      "bytes": 35929892,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v5/farpoint-station-v5-three-loops-180s.mp4",
+      "bytes": 107787934,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v5/stars-v5-isolated-10s.mp4",
+      "bytes": 879267,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v6/__pycache__/audit_delivery.cpython-313.pyc",
+      "bytes": 9915,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v6/__pycache__/finish_records.cpython-313.pyc",
+      "bytes": 18283,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v6/__pycache__/render_farpoint_v6.cpython-313.pyc",
+      "bytes": 28921,
+      "evidence": "Regenerable Python bytecode cache."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v6/cabinet_leds-v6-isolated-10s.mp4",
+      "bytes": 871325,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "10-nightward-station",
+      "path": "music/farpoint-animation-v6/stars-v6-isolated-10s.mp4",
+      "bytes": 1227286,
+      "evidence": "Superseded animation test generated by retained versioned renderer. Current checkpoint and feedback remain."
+    },
+    {
+      "scene": "02-basalt-transmission",
+      "path": "creative/basalt-transmission/animation/basalt-v6-three-loop-check-720p.mp4",
+      "bytes": 32647181,
+      "evidence": "Verified 1,800 silent video packets comprising three identical 600-packet repeats. Approved 4K master and v6 short preview retained."
+    }
+  ],
+  "removed_duplicate_backup_scratch": [
+    {
+      "path": ".local/empty-junction-backup/remote-ee4986434523.git",
+      "scene": "11-empty-junction",
+      "bytes": 55491954,
+      "files": 33,
+      "commit": "ee498643452339ba2fe1de5dac63d18544cffe17",
+      "identical_git_objects_present": 1369
+    },
+    {
+      "path": ".local/farpoint-backup/remote-ef75dc435027.git",
+      "scene": "10-nightward-station",
+      "bytes": 41341071,
+      "files": 101,
+      "commit": "ef75dc435027ad82beac6361d35b024e50157731",
+      "identical_git_objects_present": 172
+    }
+  ],
+  "retained_current_masters_and_previews_sha256": {
+    "creative/ringfall/animation/ringfall-ambient-v9b-20s-final.mp4": "eb723ce79517a8a5659e92709e69d70339a8e318cb68214111c259e15c05f8d2",
+    "creative/basalt-transmission/animation/baseline-v6-loop-4k-master.mp4": "6275bbce0504903fceeaa4b00a7e3b13bc3b07b6fe18f8515877097e8cfbee0c",
+    "creative/glacier-sanctuary/animation/final-v11/glacier-sanctuary-v11-60s-4k.mp4": "b2743ceabd8a75f2117dc41282800d394db2733c58ddc69ca473fb0039840022",
+    "music/farpoint-animation-v6/farpoint-station-v6-preview-60s.mp4": "4844bfd1a5e64d6c33b1438741182af073721eb4b1488e500f0d4b68d3eb5a7d",
+    "music/empty-junction-animation-v3/empty-junction-v3-preview-60s.mp4": "16c547cb62e41440e35f06b82ff68afb79bf85a42ce0cc30f7161163783778ef"
+  },
+  "retained_categories": [
+    "tracked Git and LFS assets",
+    "distinct short masters",
+    "original music and SFX",
+    "generation source files",
+    "release packaging",
+    "verification receipts",
+    "unfinished scenes"
+  ]
+}

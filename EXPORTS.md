@@ -12,11 +12,20 @@ Keep code, prompts, settings, thumbnails, descriptions, feedback, validation and
 
 For future final deliveries use `exports/<scene>/`. Keep tracked manifests beside scene documentation under `final/<scene>/`. A moved export must be selected again if an editor still references its old path. The existing `final` folders now contain production packages and short masters, not the long upload files.
 
+## Close out a published video
+
+Once the published video plays correctly, record its URL and exact upload file in the scene manifest and start the closeout.
+
+1. **Keep the release and its inputs.** Save the exact uploaded video, approved short visual master and soundtrack, source artwork, original music and SFX, and the live title, thumbnail and description. Keep the build recipe, prompts, masks, settings, release notes and useful feedback. Keep assets for any active thumbnail test or replacement.
+2. **Verify the archive.** Keep one recoverable release package. Record the archive location, file sizes and SHA-256 hashes in the scene manifest. Restore and check the archive before clearing a local copy of an approved or unique asset. A published stream or a Git push of the recipe does not back up the exact upload file.
+3. **Inventory and clear local drafts.** List exact paths and sizes for that scene's reproducible test renders, repeated loop previews, rejected audition mixes, intermediate files, caches and verified duplicates. Confirm they are local and ignored, and check that the approved build and any open review can run without those copies. Keep useful settings and representative evidence of creative decisions before clearing the bulk drafts.
+4. **Save a short closeout record.** Record the publication URL, retained package and restore instructions, removed paths and bytes reclaimed in the scene's delivery notes. Keep tracked history and use the separate procedure below to prune the local LFS cache.
+
 ## Restore verification and cleanup
 
 - Run each backup verification in its own folder under `.local/restore-scratch/`. When a script owns the scratch folder, use a temporary directory or explicit success cleanup. Put the receipt outside the scratch folder and record the source commit, asset sizes and SHA-256 results before removing the verified copy.
 - After a successful check, remove that run's checkout, extracted media and private LFS cache. Keep a failed run only while diagnosing it. Check that the resolved path is the exact run folder under the intended scratch root and that no transfer or restore is active.
-- Keep one working copy of the approved master and the original music and SFX. Archive originals and long masters separately, with the archive location, file sizes and SHA-256 in the scene manifest. Verify a restore from that archive before retiring its local copy. Keep one short review preview and the build recipe in Git by default.
+- While a scene is active, keep one working copy of the approved master and the original music and SFX. Archive originals and long masters separately, with the archive location, file sizes and SHA-256 in the scene manifest. Verify a restore from that archive before retiring its local copy. Keep one short review preview and the build recipe in Git by default.
 - Treat `.git/lfs/tmp` as transfer scratch and `.git/lfs/objects` as the local object store. For the object store, run `git lfs prune --dry-run --verify-remote --verify-unreachable` first. If every candidate verifies and the store belongs to this checkout, rerun without `--dry-run` to prune. Preserve any object that fails the remote check.
 
 ## Download only the scene you need

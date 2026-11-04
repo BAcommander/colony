@@ -4,6 +4,20 @@ V3 prepared 2026-10-30 after ambient-practice research and the user's listening 
 
 Read [the shared music workflow](../../../creative/MUSIC_WORKFLOW.md). The user runs any ElevenLabs generations manually after checking the actual displayed cost and available controls. Do not use a paid API or plugin.
 
+## V4 listening proposal from Snowline
+
+On 2026-11-04 the user called the Snowline musical ideas the best so far and said earlier tracks could feel repetitive and boring. The [saved Hoth brief](../../../music/hoth-reference-analysis-2026-11-01/below-the-snowline-reference-test-prompt.txt) calls for exposed passages, fuller sustained textures and occasional melodic fragments. The [approved Snowline music](../../../music/below-the-snowline-production-2026-11-01/paired-loop-v1/README.md) combines two related pieces. Both had substantial level variation after excluding their edges. The exact generation prompts and settings are unverified, so the user's preference supports testing that direction without establishing which ingredient caused it.
+
+The Crater Rim V3 continuation asks the piece to settle back toward the same density. V4 gives the scene more room to move between sparse and full textures, with quiet stretches, staggered changes in the voices and familiar harmony returning in a different voicing or register. The landscape is morning light, a warm room and an open basin. The exterior air remains a separate mix layer.
+
+1. Start with [Survey Room](elevenlabs-crater-room-v4.txt). For a comparison, use the [duration-free V3 review draft](../../../music/prompt-learnings-2026-11-01/review-drafts/14-crater-rim-survey-music-v4-review.txt) at the same settings and length. Aim for two minutes in the generation settings. Level-match the dry exports and listen unlabelled for a familiar swell or phrase coming back, sudden peaks, and whether the quieter passages make the fuller ones feel earned. One export per prompt is a first listen, since variation can also come from the generation.
+2. If Survey Room earns a longer test, pair it with [Across the Basin](elevenlabs-crater-basin-v4.txt). Try two complementary passages of roughly five minutes, subject to the available settings. Keep the first closer and warmer and the second wider and more exposed. Record the actual prompt, settings and source files. Choose overlap points by listening to the exports, then audition both joins and three repeats.
+3. Compare the preferred dry arrangement with the same music plus distant basin air. Follow the work-session listening gate before extending the mix. The eventual repeat length comes from the arrangement and joins.
+
+These V4 prompts are ungenerated review candidates. The V3 workflow below remains the comparison reference.
+
+## V3 workflow
+
 1. Use elevenlabs-prompt-v3.txt in the Music description field, not lyrics. Choose instrumental output and aim for 120 seconds/two variants if supported.
 2. Listen at comfortable matched volume and choose a test; revise the specific defect if neither works.
 3. Use the selected own test as an audio reference, if the current interface offers it, with elevenlabs-long-version-v3.txt; aim for about eight minutes/one variant. A reference guides feel and palette, not exact continuation.
