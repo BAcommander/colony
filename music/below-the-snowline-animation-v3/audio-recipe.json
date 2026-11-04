@@ -1,0 +1,10 @@
+{
+  "source": "exports/13-below-the-snowline/audio-2h-v6/Below-the-Snowline-2-Hours-unfaded-master-v6.flac",
+  "source_sha256_from_verified_restore": "6c46365081e88d55b198387ea0b53259b7a90b12181e279ddb6dc12e8f474257",
+  "start_seconds": 180,
+  "duration_seconds": 120,
+  "ffmpeg_filter": "volume=0.4dB,afade=t=in:st=0:d=0.5,afade=t=out:st=118:d=2",
+  "output": "Snowline-V6-review-audio-2min.flac",
+  "format": "24-bit 48 kHz stereo FLAC",
+  "new_sfx_layers_added": 0
+}

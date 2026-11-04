@@ -1,0 +1,186 @@
+{
+  "cloud_geometry": {
+    "landmarks": {
+      "right mountain peak": {
+        "native_xy": [
+          1482,
+          141
+        ],
+        "destination_weight": 0.0,
+        "source_valid": false
+      },
+      "right ice wall": {
+        "native_xy": [
+          1595,
+          112
+        ],
+        "destination_weight": 0.0,
+        "source_valid": false
+      },
+      "left ice wall": {
+        "native_xy": [
+          714,
+          136
+        ],
+        "destination_weight": 0.0,
+        "source_valid": false
+      },
+      "central mountain peak": {
+        "native_xy": [
+          1150,
+          225
+        ],
+        "destination_weight": 0.0,
+        "source_valid": false
+      },
+      "radar dish": {
+        "native_xy": [
+          850,
+          190
+        ],
+        "destination_weight": 0.0,
+        "source_valid": false
+      },
+      "cannon": {
+        "native_xy": [
+          750,
+          182
+        ],
+        "destination_weight": 0.0,
+        "source_valid": false
+      },
+      "window frost": {
+        "native_xy": [
+          1350,
+          8
+        ],
+        "destination_weight": 0.0,
+        "source_valid": false
+      }
+    },
+    "all_pixels_outside_cloud_mask_exact_at_10_phases": true,
+    "moving_sky_mean_changes": [
+      0.0,
+      4.703710079193115,
+      7.801150798797607,
+      7.165293216705322,
+      2.725294828414917,
+      6.021514415740967,
+      7.644891262054443,
+      3.560187339782715,
+      6.644484996795654,
+      7.658339500427246
+    ]
+  },
+  "fog_seams": [
+    {
+      "seed": 100,
+      "row_wrap_max": 0.02659037709236145,
+      "ordinary_row_max": 0.04666122794151306,
+      "column_wrap_max": 0.024171113967895508,
+      "ordinary_column_max": 0.029440224170684814
+    },
+    {
+      "seed": 101,
+      "row_wrap_max": 0.019609451293945312,
+      "ordinary_row_max": 0.05587655305862427,
+      "column_wrap_max": 0.024505048990249634,
+      "ordinary_column_max": 0.03819650411605835
+    },
+    {
+      "seed": 102,
+      "row_wrap_max": 0.0380273163318634,
+      "ordinary_row_max": 0.04867976903915405,
+      "column_wrap_max": 0.035749346017837524,
+      "ordinary_column_max": 0.03967165946960449
+    },
+    {
+      "seed": 63,
+      "row_wrap_max": 0.036221086978912354,
+      "ordinary_row_max": 0.03958335518836975,
+      "column_wrap_max": 0.025010496377944946,
+      "ordinary_column_max": 0.03265255689620972
+    },
+    {
+      "seed": 34,
+      "row_wrap_max": 0.05431872606277466,
+      "ordinary_row_max": 0.07432019710540771,
+      "column_wrap_max": 0.025788962841033936,
+      "ordinary_column_max": 0.03323930501937866
+    }
+  ],
+  "console_materials": {
+    "original_rgb_ratios_preserved": true,
+    "worst_channel_scale_spread": 1.1920928955078125e-07,
+    "physical_lens_count": 4
+  },
+  "shuttle": {
+    "master_sha256": "3a046f2cc4a57b90edf4332c358727f3d176490d3ecc78892610f4ab42d42ac2",
+    "rgba": true,
+    "original_alpha_preserved_in_master": true,
+    "compositing": "premultiplied-alpha resampling, subpixel translation and atmospheric colour blending",
+    "tool": "built-in image_gen",
+    "prompt": "assets/shuttle-prompt.txt"
+  },
+  "hardware": {
+    "mapped_beacons": [
+      {
+        "name": "dish feed mast tip",
+        "xy": [
+          857,
+          172
+        ],
+        "color": [
+          252,
+          75,
+          44
+        ],
+        "period": 6.8,
+        "phase": 0,
+        "peak": 0.78
+      },
+      {
+        "name": "dish support status",
+        "xy": [
+          835,
+          223
+        ],
+        "color": [
+          244,
+          163,
+          59
+        ],
+        "period": 9.1,
+        "phase": 2.5,
+        "peak": 0.38
+      },
+      {
+        "name": "right roof sensor mast",
+        "xy": [
+          1553,
+          293
+        ],
+        "color": [
+          246,
+          78,
+          48
+        ],
+        "period": 7.7,
+        "phase": 3.2,
+        "peak": 0.65
+      }
+    ],
+    "cannon_cycles": [
+      [
+        31,
+        56
+      ],
+      [
+        88,
+        113
+      ]
+    ],
+    "charging_only_no_firing": true
+  },
+  "limits": "Geometry/material/texture checks and temporal still inspection; artistic approval requires user review."
+}

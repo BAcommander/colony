@@ -1,0 +1,35 @@
+{
+  "source": "G:\\AI\\colony\\exports\\spirewatch\\Illuminated-Horizon-and-Stillness-2-Hours-v1.flac",
+  "source_region_seconds": [
+    30,
+    40
+  ],
+  "duration_seconds": 10,
+  "gain_db": 0,
+  "fade_in_seconds": 0.1,
+  "fade_out_start_seconds": 8,
+  "fade_out_seconds": 2,
+  "sample_rate": 48000,
+  "channels": 2,
+  "selection": "Opening music excerpt after the published intro; user listening review pending",
+  "outputs": [
+    {
+      "file": "Spirewatch-Outro-10s-v1.wav",
+      "bytes": 2880102,
+      "sha256": "25ab3683de6807d6ffcb64d19041ab53b87fd19a872a1dad0b547c2ef85c180b",
+      "decoded_frames": 480000,
+      "seconds": 10.0,
+      "peak_dbfs": -8.990737915039062,
+      "full_decode_passed": true
+    },
+    {
+      "file": "Spirewatch-Outro-10s-v1.mp3",
+      "bytes": 402324,
+      "sha256": "9a8521f125d8b6cfa9fe4b8b1eaba3b8c5e46974ac1549b762d66e660691677d",
+      "decoded_frames": 480000,
+      "seconds": 10.0,
+      "peak_dbfs": -8.990503311157227,
+      "full_decode_passed": true
+    }
+  ]
+}

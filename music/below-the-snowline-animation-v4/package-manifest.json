@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-03",
+  "status": "checks passed; user review pending",
+  "source_art_byte_exact_to_v3": true,
+  "audio_excerpt_byte_exact_to_v3": true,
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 22,
+      "sha256": "63bf471691b40e7498ba895b6b13e2acd73ce1de1c9d2fd52c44e4db4410c299"
+    },
+    {
+      "file": "assets/generation.json",
+      "bytes": 475,
+      "sha256": "f13af03ed4a71767b8a9a8cdaba2ed6b419ec7c9e6d4083acc1af2eec3b7d118"
+    },
+    {
+      "file": "assets/lambda-shuttle-master.png",
+      "bytes": 1558351,
+      "sha256": "3a046f2cc4a57b90edf4332c358727f3d176490d3ecc78892610f4ab42d42ac2"
+    },
+    {
+      "file": "assets/shuttle-prompt.txt",
+      "bytes": 1354,
+      "sha256": "808530ec73a3b16e2cca155d189bf50907f12feca7bdb6526688224060c284ff"
+    },
+    {
+      "file": "audio-recipe.json",
+      "bytes": 478,
+      "sha256": "deabe1b8d61a222f9664f177b51d02be59cc3c13a50f0a730c4813b1216f4280"
+    },
+    {
+      "file": "audit_repairs.py",
+      "bytes": 3211,
+      "sha256": "18da268bcf96e589415948a41235f14b0f7efd604e89b7c4e32f47945a2e57dd"
+    },
+    {
+      "file": "Below-the-Snowline-v4-with-V6-audio-2min.mp4",
+      "bytes": 97793839,
+      "sha256": "8b1d0285d9539ac96272f6b12bfb90dbaf04b9827fa20ce9678eea7f77a69c96"
+    },
+    {
+      "file": "cloud-mask-review.png",
+      "bytes": 1422054,
+      "sha256": "7bbce3c052ae6380bbdc29102d6b54dac33f9d66202c9bb103c7480658c8497e"
+    },
+    {
+      "file": "decoded-0000.png",
+      "bytes": 1245344,
+      "sha256": "701104c89f18cc238455bbe82f7b62c4281c9cf49f1b0e06209c541066e02f0c"
+    },
+    {
+      "file": "decoded-1050.png",
+      "bytes": 1237049,
+      "sha256": "a11651ffd6d5faeb493bfbafe591534f0bd66da10d7ebdd2e0acd42a81747eb4"
+    },
+    {
+      "file": "decoded-1440.png",
+      "bytes": 1241656,
+      "sha256": "d70041d357b99420f5c8dc4c7d25d4558f9c256f934532dcfa4db736b0d70759"
+    },
+    {
+      "file": "decoded-2160.png",
+      "bytes": 1242549,
+      "sha256": "c0ed79854a65ec1a92a12aeb7efb074a52e2fbf513f2d43f84df8afa8b63e9d7"
+    },
+    {
+      "file": "decoded-2880.png",
+      "bytes": 1245747,
+      "sha256": "f232e81a77024a15be64c30e8c536c6f3d09d061ad162a32a3784fd37563e4bf"
+    },
+    {
+      "file": "decoded-3599.png",
+      "bytes": 1228944,
+      "sha256": "b5d6da859ebbf37def70cb339430cd46e85973d93d6a557f2e65404111cb1c39"
+    },
+    {
+      "file": "delivery-validation.json",
+      "bytes": 5572,
+      "sha256": "c98d89c13ee4578aa1c2a6980f72f5290cf7e885d2034bd79a549d425910c109"
+    },
+    {
+      "file": "events.json",
+      "bytes": 667,
+      "sha256": "0a528c4e704d5bb495ac70819a061cefcbea4a1b5bf1ac4d12ae33898864d8a6"
+    },
+    {
+      "file": "feedback/console.png",
+      "bytes": 90579,
+      "sha256": "70abc710a3bbbb398a69ee7a9000718de5c35113d7cf444d8541666222a0a9bf"
+    },
+    {
+      "file": "feedback/fog-line.png",
+      "bytes": 149278,
+      "sha256": "54ae78e0d6ca25505c9c5ea3edca226da24d54c52b7e062da020b0a9aa26afd9"
+    },
+    {
+      "file": "feedback/mountain-sky-ripping.png",
+      "bytes": 185161,
+      "sha256": "ad0962c43c0dd858f930be8546c15af33a680562b819eede6230e6b50086603b"
+    },
+    {
+      "file": "feedback/shuttle.png",
+      "bytes": 88714,
+      "sha256": "e41c188f06e3c953c2e7ffd487d46c0d9b58d3f86eceb216848f0a38726039ec"
+    },
+    {
+      "file": "finish_review.py",
+      "bytes": 6303,
+      "sha256": "8191d46d26627290257c86afa49b512a448ff56c9fa207d86bcd1f880e3a7605"
+    },
+    {
+      "file": "geometry-v4.json",
+      "bytes": 5886,
+      "sha256": "2e24385b99b5b96c14ba51cdc9bc9173040fdb51fe68b61efbdf9ec8d69d2f56"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4144,
+      "sha256": "9612c2a38ce3fb6f8cf2d8c59e91e1ccc34475824c74541686ca9a7b4f319770"
+    },
+    {
+      "file": "render-results.json",
+      "bytes": 855,
+      "sha256": "957229fcbc5605f3a5b753ebbc439c7151c5004cb89f003b72b33ea0398b043f"
+    },
+    {
+      "file": "render_v4.py",
+      "bytes": 19017,
+      "sha256": "70f0bed6a8f4327d5c29862b036eb6aaf48ae1af7d8d2737419911b9bc5d83d1"
+    },
+    {
+      "file": "repair-validation.json",
+      "bytes": 4412,
+      "sha256": "6d707593a199f7304e1d40d2e0be1a4cf42616cf467e593fbdaa6fb961464694"
+    },
+    {
+      "file": "sample-000.png",
+      "bytes": 1418209,
+      "sha256": "3bd91dd7ca4e74b209e627b2c8b01f7bfb159f9e5d7961057baf9e342d2857dd"
+    },
+    {
+      "file": "sample-018.png",
+      "bytes": 1406040,
+      "sha256": "a7e3332d3cf1f0e3ba6514032dc5b18b078366fa28fcf6c54ae8d89b96a07b7c"
+    },
+    {
+      "file": "sample-035.png",
+      "bytes": 1411152,
+      "sha256": "9f4a1de252f54da6062cb9701c7417855fb97e3faaf9ca582fe4bcbef177cce4"
+    },
+    {
+      "file": "sample-048.png",
+      "bytes": 1412146,
+      "sha256": "1cacc4716831677c59d8eddadf4631551cc04a5565649765b1caa22af04d6f6b"
+    },
+    {
+      "file": "sample-072.png",
+      "bytes": 1414142,
+      "sha256": "080b311fc82fd70a725ff2a9173d41a5c721d67cbe6984bc855ab4f015448ac5"
+    },
+    {
+      "file": "sample-096.png",
+      "bytes": 1417497,
+      "sha256": "45e68693d47c4b773f8d3ab51abfc5ef5560d67dfec7f98abb99575cb0c196cb"
+    },
+    {
+      "file": "sample-119.png",
+      "bytes": 1401798,
+      "sha256": "7174174b3b47b8c98b18f7b625595871bda0090f9fd381152bd381b5dc1c226d"
+    },
+    {
+      "file": "Snowline-V6-review-audio-2min.flac",
+      "bytes": 17603974,
+      "sha256": "bcc4b87c2a8239bc8fb92525718555a8bf2df6c6a5670f7f8f6423ba6b320eaf"
+    },
+    {
+      "file": "source.png",
+      "bytes": 2284812,
+      "sha256": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f"
+    },
+    {
+      "file": "temporal-contact-sheet.jpg",
+      "bytes": 396558,
+      "sha256": "3addf805dbb34c18d4f56222ac237fd6f8e26d7a2f0ca280f55e7c8046a0dc17"
+    },
+    {
+      "file": "v2-scene.json",
+      "bytes": 15015,
+      "sha256": "9aace7b806561de023c663cf63561980356de2a9edf461c59187f9b5d5040aef"
+    }
+  ]
+}

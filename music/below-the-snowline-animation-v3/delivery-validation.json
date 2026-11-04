@@ -1,0 +1,167 @@
+{
+  "video": "Below-the-Snowline-v3-with-V6-audio-2min.mp4",
+  "sha256": "70f935c778c31291eafe541c741c8d355ac605f43c1b68ec72684723ec15f92f",
+  "bytes": 119342927,
+  "seconds": 120,
+  "decoded_frames": 3600,
+  "timestamps_passed": true,
+  "bt709": true,
+  "protected_pixels_unchanged_at_checked_times": true,
+  "native_picture_checks": {
+    "0": {
+      "native_to_decoded_psnr_db": 39.959289113592156,
+      "mean_absolute_error": 1.6972851753234863
+    },
+    "1050": {
+      "native_to_decoded_psnr_db": 40.07527791538011,
+      "mean_absolute_error": 1.685721516609192
+    },
+    "1440": {
+      "native_to_decoded_psnr_db": 40.04972408118823,
+      "mean_absolute_error": 1.686645269393921
+    },
+    "2160": {
+      "native_to_decoded_psnr_db": 40.01685218544074,
+      "mean_absolute_error": 1.690666913986206
+    },
+    "2880": {
+      "native_to_decoded_psnr_db": 39.87658944543614,
+      "mean_absolute_error": 1.6991666555404663
+    },
+    "3599": {
+      "native_to_decoded_psnr_db": 39.953394479016616,
+      "mean_absolute_error": 1.6799793243408203
+    }
+  },
+  "segment_joins": [
+    {
+      "frame": 600,
+      "join_vs_neighbour_max": 0.802602632150555,
+      "regions": [
+        {
+          "region": "exterior",
+          "join_mae": 0.1660873015873016,
+          "nearby_max_mae": 0.21086263736263736
+        },
+        {
+          "region": "controls",
+          "join_mae": 0.08613535736875395,
+          "nearby_max_mae": 0.0934661606578115
+        },
+        {
+          "region": "bridge",
+          "join_mae": 0.20624,
+          "nearby_max_mae": 0.22942666666666667
+        }
+      ]
+    },
+    {
+      "frame": 1200,
+      "join_vs_neighbour_max": 0.65445205994575,
+      "regions": [
+        {
+          "region": "exterior",
+          "join_mae": 0.15176373626373627,
+          "nearby_max_mae": 0.2342216117216117
+        },
+        {
+          "region": "controls",
+          "join_mae": 0.06779253636938647,
+          "nearby_max_mae": 0.08691967109424414
+        },
+        {
+          "region": "bridge",
+          "join_mae": 0.26282666666666665,
+          "nearby_max_mae": 0.30946666666666667
+        }
+      ]
+    },
+    {
+      "frame": 1800,
+      "join_vs_neighbour_max": 0.6575055265986575,
+      "regions": [
+        {
+          "region": "exterior",
+          "join_mae": 0.15154273504273505,
+          "nearby_max_mae": 0.23236019536019537
+        },
+        {
+          "region": "controls",
+          "join_mae": 0.05282732447817837,
+          "nearby_max_mae": 0.08041745730550284
+        },
+        {
+          "region": "bridge",
+          "join_mae": 0.26781333333333335,
+          "nearby_max_mae": 0.2809066666666667
+        }
+      ]
+    },
+    {
+      "frame": 2400,
+      "join_vs_neighbour_max": 0.5334930506419725,
+      "regions": [
+        {
+          "region": "exterior",
+          "join_mae": 0.07087362637362637,
+          "nearby_max_mae": 0.14003052503052504
+        },
+        {
+          "region": "controls",
+          "join_mae": 0.06796331435800126,
+          "nearby_max_mae": 0.08569892473118279
+        },
+        {
+          "region": "bridge",
+          "join_mae": 0.03456,
+          "nearby_max_mae": 0.049146666666666665
+        }
+      ]
+    },
+    {
+      "frame": 3000,
+      "join_vs_neighbour_max": 0.37078726678811486,
+      "regions": [
+        {
+          "region": "exterior",
+          "join_mae": 0.0513998778998779,
+          "nearby_max_mae": 0.14675885225885227
+        },
+        {
+          "region": "controls",
+          "join_mae": 0.05259962049335863,
+          "nearby_max_mae": 0.06950031625553448
+        },
+        {
+          "region": "bridge",
+          "join_mae": 0.04053333333333333,
+          "nearby_max_mae": 0.05128
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "source_master": "exports/13-below-the-snowline/audio-2h-v6/Below-the-Snowline-2-Hours-unfaded-master-v6.flac",
+    "source_start_seconds": 180,
+    "source_end_seconds": 300,
+    "gain_db": 0.4,
+    "preview_fades_seconds": [
+      0.5,
+      2
+    ],
+    "all_six_layers_already_in_master": true,
+    "decoded_expected_frames": 5760000,
+    "aac_correlation": 0.9999889701387575,
+    "aac_snr_db": 46.466129221321175,
+    "peak_linear": 0.41548287868499756
+  },
+  "review": "Decoded/temporal stills and technical checks; no continuous playback or listening verdict; new motion pending user review",
+  "loop_status": "Continuous 120 seconds; not a final seamless-loop claim",
+  "fingerprints": {
+    "source.png": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+    "v2-scene.json": "9aace7b806561de023c663cf63561980356de2a9edf461c59187f9b5d5040aef",
+    "render_v3.py": "706c30121048c6ee458bd61068b063e9783ccf689de88a005acf892b54f3d93b",
+    "events.json": "0a528c4e704d5bb495ac70819a061cefcbea4a1b5bf1ac4d12ae33898864d8a6",
+    "Snowline-V6-review-audio-2min.flac": "bcc4b87c2a8239bc8fb92525718555a8bf2df6c6a5670f7f8f6423ba6b320eaf"
+  }
+}

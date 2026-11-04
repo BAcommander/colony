@@ -1,6 +1,6 @@
 # November 2026 — four ambient soundtrack briefs
 
-Merged production update(2026-11-03): current Snowline audio is the [two-hour V6 with both snow takes](../../../music/snowline-snow-2026-11-03/RESUME.md). November1/2 production records and existing V2 animation are now present in the same checkout. Historical preparation and earlier audition notes below are retained; do not restart accepted music or add SFX twice.
+Merged production update(2026-11-03): current Snowline audio is the [two-hour V6 with both snow takes](../../../music/snowline-snow-2026-11-03/RESUME.md). November1/2 production records and existing V2 animation are now present in the same checkout. The current [V5 two-minute animation/V6-audio candidate](../../../music/below-the-snowline-animation-v5/README.md) replaces V4’s internally tearing sky transport, strengthens cannon charge and adds fiery shuttle engines with physical offscreen exits. Independent sky and delivery checks passed; user review pending. Historical preparation and earlier audition notes below are retained; do not restart accepted music or add SFX twice.
 
 
 Below the Snowline update(2026-11-01): [nine-minute paired soundtrack approved](../../../music/below-the-snowline-production-2026-11-01/paired-loop-v1/README.md), from two supplied five-minute extensions. The user prefers the overall Hoth/SWTOR atmosphere. Exact generation wording remains unverified. Earlier proposed pilot durations below are historical; animation/thumbnail/SFX and full-length assembly remain pending.

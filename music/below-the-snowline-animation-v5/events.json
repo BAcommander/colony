@@ -1,0 +1,65 @@
+{
+  "audio_source_start_seconds": 180,
+  "preview_seconds": 120,
+  "wind": [
+    {
+      "start": 8,
+      "end": 80,
+      "rise": 14,
+      "fall": 19
+    },
+    {
+      "start": 108,
+      "end": 169,
+      "rise": 11,
+      "fall": 17
+    }
+  ],
+  "snow_event": [
+    44.78270833333335,
+    54.78270833333335
+  ],
+  "radio_voice_onset_seconds": 25,
+  "shuttles": [
+    [
+      -5,
+      70
+    ],
+    [
+      70,
+      118
+    ]
+  ],
+  "bridge_walkers": [
+    [
+      7,
+      69
+    ],
+    [
+      75,
+      119
+    ]
+  ],
+  "note": "Continuous 120-second preview; independent animation timings, no final-loop claim.",
+  "flight_paths": {
+    "native_x_endpoints": [
+      -120,
+      1780
+    ],
+    "opacity": "constant; source alpha and physical occlusion only",
+    "first_y": "101-4*sin(pi*q)",
+    "second_y": "112-4*sin(pi*q)",
+    "first_width_output_px": 50,
+    "second_width_output_px": 40
+  },
+  "cannon_charge_cycles": [
+    [
+      31,
+      56
+    ],
+    [
+      88,
+      113
+    ]
+  ]
+}

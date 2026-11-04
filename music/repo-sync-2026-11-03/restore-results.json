@@ -1,0 +1,27 @@
+{
+  "reader": "read-only memory mapping for pack random reads; original integrity checks retained",
+  "nov3": {
+    "files_verified": 271,
+    "files_restored": 186,
+    "original_bytes": 11396047312,
+    "package_bytes": 3766051376,
+    "root": "G:\\AI\\colony",
+    "all_file_hashes_match": true
+  },
+  "snow": {
+    "files_verified": 68,
+    "files_restored": 68,
+    "original_bytes": 1404360837,
+    "package_bytes": 3358562041,
+    "root": "G:\\AI\\colony",
+    "all_file_hashes_match": true
+  },
+  "nov2": {
+    "files_verified": 221,
+    "files_restored": 221,
+    "uncompressed_bytes": 1742074971,
+    "archive_sha256": "8f3b40fac6a434a7120e5d9697bf1bdfcc26e12356d9d4c5252eae43ae9b9165",
+    "root": "G:\\AI\\colony"
+  },
+  "status": "completed; all restored file hashes verified"
+}

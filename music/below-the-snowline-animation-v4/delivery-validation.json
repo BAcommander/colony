@@ -1,0 +1,172 @@
+{
+  "video": "Below-the-Snowline-v4-with-V6-audio-2min.mp4",
+  "sha256": "8b1d0285d9539ac96272f6b12bfb90dbaf04b9827fa20ce9678eea7f77a69c96",
+  "bytes": 97793839,
+  "seconds": 120,
+  "decoded_frames": 3600,
+  "timestamps_passed": true,
+  "bt709": true,
+  "protected_pixels_unchanged_at_checked_times": true,
+  "native_picture_checks": {
+    "0": {
+      "native_to_decoded_psnr_db": 40.058330555484496,
+      "mean_absolute_error": 1.6934559345245361
+    },
+    "1050": {
+      "native_to_decoded_psnr_db": 40.099302968521755,
+      "mean_absolute_error": 1.6846076250076294
+    },
+    "1440": {
+      "native_to_decoded_psnr_db": 40.04114202335263,
+      "mean_absolute_error": 1.6881510019302368
+    },
+    "2160": {
+      "native_to_decoded_psnr_db": 40.035422673737074,
+      "mean_absolute_error": 1.6935138702392578
+    },
+    "2880": {
+      "native_to_decoded_psnr_db": 40.03527851019588,
+      "mean_absolute_error": 1.696603775024414
+    },
+    "3599": {
+      "native_to_decoded_psnr_db": 40.1468092986137,
+      "mean_absolute_error": 1.6777173280715942
+    }
+  },
+  "segment_joins": [
+    {
+      "frame": 600,
+      "join_vs_neighbour_max": 0.8830853163264529,
+      "regions": [
+        {
+          "region": "exterior",
+          "join_mae": 0.13375396825396826,
+          "nearby_max_mae": 0.15354395604395604
+        },
+        {
+          "region": "controls",
+          "join_mae": 0.07221378874130298,
+          "nearby_max_mae": 0.08070841239721695
+        },
+        {
+          "region": "bridge",
+          "join_mae": 0.20624,
+          "nearby_max_mae": 0.22942666666666667
+        }
+      ]
+    },
+    {
+      "frame": 1200,
+      "join_vs_neighbour_max": 0.7947074305079858,
+      "regions": [
+        {
+          "region": "exterior",
+          "join_mae": 0.1278968253968254,
+          "nearby_max_mae": 0.16252747252747252
+        },
+        {
+          "region": "controls",
+          "join_mae": 0.062492093611638204,
+          "nearby_max_mae": 0.06756483238456673
+        },
+        {
+          "region": "bridge",
+          "join_mae": 0.26282666666666665,
+          "nearby_max_mae": 0.30946666666666667
+        }
+      ]
+    },
+    {
+      "frame": 1800,
+      "join_vs_neighbour_max": 0.8028047316741624,
+      "regions": [
+        {
+          "region": "exterior",
+          "join_mae": 0.12984249084249083,
+          "nearby_max_mae": 0.16291819291819293
+        },
+        {
+          "region": "controls",
+          "join_mae": 0.04704617330803289,
+          "nearby_max_mae": 0.05441492726122707
+        },
+        {
+          "region": "bridge",
+          "join_mae": 0.26781333333333335,
+          "nearby_max_mae": 0.2809066666666667
+        }
+      ]
+    },
+    {
+      "frame": 2400,
+      "join_vs_neighbour_max": 0.6149735101898759,
+      "regions": [
+        {
+          "region": "exterior",
+          "join_mae": 0.0431001221001221,
+          "nearby_max_mae": 0.07304029304029304
+        },
+        {
+          "region": "controls",
+          "join_mae": 0.050037950664136625,
+          "nearby_max_mae": 0.05609740670461733
+        },
+        {
+          "region": "bridge",
+          "join_mae": 0.03456,
+          "nearby_max_mae": 0.049146666666666665
+        }
+      ]
+    },
+    {
+      "frame": 3000,
+      "join_vs_neighbour_max": 0.4693264014466546,
+      "regions": [
+        {
+          "region": "exterior",
+          "join_mae": 0.031925518925518925,
+          "nearby_max_mae": 0.07508913308913309
+        },
+        {
+          "region": "controls",
+          "join_mae": 0.05471220746363061,
+          "nearby_max_mae": 0.06312460468058191
+        },
+        {
+          "region": "bridge",
+          "join_mae": 0.04053333333333333,
+          "nearby_max_mae": 0.05128
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "source_master": "exports/13-below-the-snowline/audio-2h-v6/Below-the-Snowline-2-Hours-unfaded-master-v6.flac",
+    "source_start_seconds": 180,
+    "source_end_seconds": 300,
+    "gain_db": 0.4,
+    "preview_fades_seconds": [
+      0.5,
+      2
+    ],
+    "all_six_layers_already_in_master": true,
+    "decoded_expected_frames": 5760000,
+    "aac_correlation": 0.9999889701387575,
+    "aac_snr_db": 46.466129221321175,
+    "peak_linear": 0.41548287868499756
+  },
+  "review": "Decoded/temporal stills and technical checks; no continuous playback or listening verdict; new motion pending user review",
+  "loop_status": "Continuous 120 seconds; not a final seamless-loop claim",
+  "targeted_repair_checks": "repair-validation.json",
+  "fingerprints": {
+    "source.png": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+    "v2-scene.json": "9aace7b806561de023c663cf63561980356de2a9edf461c59187f9b5d5040aef",
+    "render_v4.py": "70f0bed6a8f4327d5c29862b036eb6aaf48ae1af7d8d2737419911b9bc5d83d1",
+    "events.json": "0a528c4e704d5bb495ac70819a061cefcbea4a1b5bf1ac4d12ae33898864d8a6",
+    "geometry-v4.json": "2e24385b99b5b96c14ba51cdc9bc9173040fdb51fe68b61efbdf9ec8d69d2f56",
+    "assets/lambda-shuttle-master.png": "3a046f2cc4a57b90edf4332c358727f3d176490d3ecc78892610f4ab42d42ac2",
+    "assets/shuttle-prompt.txt": "808530ec73a3b16e2cca155d189bf50907f12feca7bdb6526688224060c284ff",
+    "repair-validation.json": "6d707593a199f7304e1d40d2e0be1a4cf42616cf467e593fbdaa6fb961464694",
+    "Snowline-V6-review-audio-2min.flac": "bcc4b87c2a8239bc8fb92525718555a8bf2df6c6a5670f7f8f6423ba6b320eaf"
+  }
+}
