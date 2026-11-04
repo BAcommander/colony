@@ -10,5 +10,6 @@ The Skies of Baal concept moved into catalog slot #15 on 2026-11-04, after Crate
 - [Angelic ElevenLabs prompt](elevenlabs-skies-of-baal-angelic-v2.txt) for a quiet vigil with luminous string harmonics and a very distant wordless choir. Draft for manual generation and listening review. [Previous prompt](elevenlabs-skies-of-baal.txt) · [Earlier music briefs](../../creative/live/skies-of-baal/music/README.md)
 - [Baal weather research and SFX shortlist](weather-and-sfx.md), with a first audition plan for exterior wind, dry grit and distant thunder.
 - [Skies of Baal thumbnail draft](thumbnail-warhammer-v1.jpg) with the caption “WARHAMMER 40,000 INSPIRED”. [Imagegen prompt](thumbnail-warhammer-prompt-v1.txt) and [PNG master](thumbnail-warhammer-v1.png).
+- [Crimson sentry thumbnail mockup](thumbnail-sentry-mockup-v1.png) for review. The [phone comparison](thumbnail-sentry-phone-check-v1.png) shows the original on the left and the sentry on the right at 168 pixels wide each. [Imagegen prompt](thumbnail-sentry-mockup-prompt-v1.txt)
 - [Existing release copy](../../creative/live/skies-of-baal/release-v2/README.txt). The soundtrack, thumbnail review, 4K animation, assembly and release date are pending.
 - [Scene history](../../creative/live/skies-of-baal/README.md) and [catalog manifest](manifest.json).
