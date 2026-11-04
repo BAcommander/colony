@@ -207,6 +207,7 @@ Exit: a completed upload file and checked publication package. No upload/publish
 - [ ] Commit source art, exact prompts, config, masks, renderer/dependencies, metadata, thumbnails, reports and feedback.
 - [ ] Track approved short masters under the existing explicit policy; use narrow Git LFS rules where needed. Verify remote LFS content, not just pointer upload.
 - [ ] Keep long audio/video exports under ignored `exports/`; record locations/hashes and reproduction steps in the repo. Arrange separate backup for these files and original music exports.
+- [ ] Keep restore checks under `.local/restore-scratch/`. Save the verification receipt outside the run directory, then remove the successful run's temporary checkout, extracted media and private LFS cache. See [restore verification and cleanup](EXPORTS.md#restore-verification-and-cleanup).
 - [ ] Confirm clean Git status and local/remote agreement before saying the tracked work is pushed.
 
 Exit: tracked production work is pushed; local-only media is explicitly identified. A clone does not restore ignored exports, models or runtime caches. See [EXPORTS.md](EXPORTS.md) and [remote short-master verification](final/remote-backup.json).

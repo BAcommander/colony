@@ -1,6 +1,6 @@
 # Ambient Colony
 
-**Resume Snowline sound design on another machine:** [pull, restore audio and continue the ElevenLabs creak test](music/snowline-sound-design-2026-11-02/RESUME.md). This checkpoint includes exact prompts, current decisions, local tools and a Git LFS audio archive.
+**Resume Snowline sound design on another machine:** [pull main and restore the two-hour V6 session](music/snowline-snow-2026-11-03/RESUME.md). The guide lists the exact LFS media paths and restore commands.
 
 Sci-fi soundscapes for sleep, focus and study. [YouTube channel](https://www.youtube.com/@ambientcolony).
 
@@ -26,4 +26,4 @@ Ringfall v9b, Basalt v6 and Glacier's accepted slow-water treatment remain histo
 
 ## Storage and tools
 
-Produce local MP4s using Python, NumPy, OpenCV and FFmpeg. Source artwork, code, masks, settings and reports are versioned where selected for backup. Selected large media use exact-path Git LFS rules; restore those files with `git lfs pull`. Drafts, repeated previews, caches and local model weights generally stay out of Git; individual backup manifests define exceptions. Music analysis, generation records, accepted mixes and long-form assembly now have their own workflows. Ignored recordings and long exports are not remotely backed up by a code push.
+Produce local MP4s using Python, NumPy, OpenCV and FFmpeg. Source artwork, code, masks, settings and reports are versioned where selected for backup. Selected large media use exact-path Git LFS rules. Fetch only the scene you need using the paths in its resume guide. Follow the [media storage and cleanup procedure](EXPORTS.md) for temporary restore checks, verified cache pruning and separate backups of original recordings and long exports.

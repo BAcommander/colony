@@ -4,7 +4,7 @@ Current continuation,2026-11-03. The user requested another1dB snow reduction, r
 
 ## Pull and restore
 
-On this branch, from the Colony checkout:
+From the Colony checkout on `main`, pull the code and fetch the Snowline media paths:
 
 ```powershell
 git pull --ff-only
@@ -14,7 +14,7 @@ python scripts/restore_snowline_nov3.py
 python scripts/restore_snowline_snow_session.py
 ```
 
-**Resume Snowline.cmd** runs all three restores and opens this guide. Preserve local work before switching branches; if needed, `git fetch origin` then `git switch codex/concept-brainstorms-2026-10-27`. Python3.11+ and Git LFS suffice to restore/listen. The two new original snow MP3s are small ordinary Git assets, directly available after pulling.
+**Resume Snowline.cmd** runs all three restores and opens this guide after the media fetch. Python 3.11+ and Git LFS suffice to restore and listen. The two original snow MP3s are ordinary Git assets, directly available after pulling. See [media storage and cleanup](../../EXPORTS.md) for on-demand LFS setup on a second machine.
 
 Restores skip identical files, verify package and per-file hashes, and refuse different existing files. For a separate restore, pass `--root C:/an-empty-folder` to each script. `--verify-only` audits a completed restore. The snow continuation links its verified base packs into a temporary workspace and uses the same byte-checked restore engine; it does not modify the base media. A copy fallback supports filesystems without hard links.
 
@@ -46,4 +46,4 @@ Four new backup tests cover shared-byte reuse/round trips/idempotence, conflicti
 
 ## Animation status
 
-The November production branch already has [Snowline animation V2](https://github.com/BAcommander/colony/blob/aa62e427e3f6386217e90229c063820c8f54ccae/music/below-the-snowline-animation-v2/README.md):20-second720p loop with snow/mist/steam, monitor/base/room activity and corrected dish masking. It needs user review; there is no4K/full-video assembly. That production tree was not merged here. Do not use this checkout's historical “no animation” preparation status to assume the V2 work is missing.
+The [Snowline scene package](../../final/13-below-the-snowline/README.md) tracks the current animation and packaging on main. This guide covers the audio restore.
