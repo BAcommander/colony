@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-04",
+  "authority": "User: perfect, commit and push",
+  "branch": "main",
+  "expected_scope": [
+    ".gitattributes",
+    ".gitignore",
+    "AGENTS.md",
+    "creative/music/november-2026/README.md",
+    "final/13-below-the-snowline/README.md",
+    "music/below-the-snowline-animation-v6/.gitignore",
+    "music/below-the-snowline-animation-v6/Below-the-Snowline-v6-with-V6-audio-2min.mp4",
+    "music/below-the-snowline-animation-v6/README.md",
+    "music/below-the-snowline-animation-v6/Snowline-V6-review-audio-2min.flac",
+    "music/below-the-snowline-animation-v6/assets/generation.json",
+    "music/below-the-snowline-animation-v6/assets/lambda-shuttle-master.png",
+    "music/below-the-snowline-animation-v6/assets/shuttle-prompt.txt",
+    "music/below-the-snowline-animation-v6/audio-recipe.json",
+    "music/below-the-snowline-animation-v6/audit_flight.py",
+    "music/below-the-snowline-animation-v6/decoded-0000.png",
+    "music/below-the-snowline-animation-v6/decoded-1050.png",
+    "music/below-the-snowline-animation-v6/decoded-1440.png",
+    "music/below-the-snowline-animation-v6/decoded-2160.png",
+    "music/below-the-snowline-animation-v6/decoded-2880.png",
+    "music/below-the-snowline-animation-v6/decoded-3599.png",
+    "music/below-the-snowline-animation-v6/delivery-validation.json",
+    "music/below-the-snowline-animation-v6/encoded-cliff-review.jpg",
+    "music/below-the-snowline-animation-v6/encoded-occlusion-validation.json",
+    "music/below-the-snowline-animation-v6/events.json",
+    "music/below-the-snowline-animation-v6/finish_review.py",
+    "music/below-the-snowline-animation-v6/flight-occlusion-contact-sheet.png",
+    "music/below-the-snowline-animation-v6/geometry-v6.json",
+    "music/below-the-snowline-animation-v6/package-manifest.json",
+    "music/below-the-snowline-animation-v6/render-results.json",
+    "music/below-the-snowline-animation-v6/render_v6.py",
+    "music/below-the-snowline-animation-v6/repair-validation.json",
+    "music/below-the-snowline-animation-v6/reported-cliff-occlusion.png",
+    "music/below-the-snowline-animation-v6/sample-000.png",
+    "music/below-the-snowline-animation-v6/sample-018.png",
+    "music/below-the-snowline-animation-v6/sample-035.png",
+    "music/below-the-snowline-animation-v6/sample-048.png",
+    "music/below-the-snowline-animation-v6/sample-072.png",
+    "music/below-the-snowline-animation-v6/sample-096.png",
+    "music/below-the-snowline-animation-v6/sample-119.png",
+    "music/below-the-snowline-animation-v6/source.png",
+    "music/below-the-snowline-animation-v6/temporal-contact-sheet.jpg",
+    "music/below-the-snowline-animation-v6/user-approval.json",
+    "music/below-the-snowline-animation-v6/v2-scene.json",
+    "music/production-backup-2026-11-04-v6/.gitignore",
+    "music/production-backup-2026-11-04-v6/README.txt",
+    "music/production-backup-2026-11-04-v6/backup-manifest.json",
+    "music/production-backup-2026-11-04-v6/selection.json"
+  ],
+  "media": [
+    {
+      "path": "music/below-the-snowline-animation-v6/Below-the-Snowline-v6-with-V6-audio-2min.mp4",
+      "bytes": 92161273,
+      "sha256": "56ccaf966d1bb7461415469a0ac85694f6e194b58c9c3403a8f0dae3d79f7e94"
+    },
+    {
+      "path": "music/below-the-snowline-animation-v6/Snowline-V6-review-audio-2min.flac",
+      "bytes": 17603974,
+      "sha256": "bcc4b87c2a8239bc8fb92525718555a8bf2df6c6a5670f7f8f6423ba6b320eaf"
+    }
+  ],
+  "excluded": [
+    "cache and __pycache__ directories",
+    "full-length exports",
+    "unrelated old auditions and render-parts"
+  ],
+  "approved_two_minute_preview": true,
+  "publication_inferred": false
+}

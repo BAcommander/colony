@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "generation_calls": 1,
+  "prompt_file": "shuttle-prompt.txt",
+  "file": "lambda-shuttle-master.png",
+  "source_returned_file": "C:/Users/jazzs/.codex/generated_images/01a192a2-705f-7391-80a2-74e52ec3e7ea/exec-cf367d57-e157-43a5-8425-743cfc05c54b.png",
+  "sha256": "3a046f2cc4a57b90edf4332c358727f3d176490d3ecc78892610f4ab42d42ac2",
+  "original_alpha_preserved": true,
+  "cost_unverified": true
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "part": 0,
+    "seconds_to_render": 63.31,
+    "sha256": "f9291550ae3a4563100816d5c87aa5ceb8a8cb5d1d40064e1993a7befaed5277"
+  },
+  {
+    "part": 3,
+    "seconds_to_render": 63.23,
+    "sha256": "a5510c6d678336b1428391d8bada89b279695d1bca504083a9b5656be7d884bb"
+  },
+  {
+    "part": 1,
+    "seconds_to_render": 63.93,
+    "sha256": "096baf67004fe9beb5594c213f596c0df14165a5648e8a7d7b8128147d596892"
+  },
+  {
+    "part": 2,
+    "seconds_to_render": 64.25,
+    "sha256": "5b01db2e7915baa5ff9c932994273d8c270ab2dffda7a0ded54968939e3e71b2"
+  },
+  {
+    "part": 5,
+    "seconds_to_render": 55.96,
+    "sha256": "8a68be08a3f34745a10cf9f8af8cb45727cffd684517a94838fd0955748ca171"
+  },
+  {
+    "part": 4,
+    "seconds_to_render": 55.99,
+    "sha256": "80a0f6face942c42549146d4cf539ab8eae2b0917d66b3622cd99410181f44c6"
+  }
+]

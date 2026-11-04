@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "frames": [
+    {
+      "seconds": 27.5,
+      "edge_crop_native_to_decoded_psnr_db": 42.39364013344751
+    },
+    {
+      "seconds": 28.5,
+      "edge_crop_native_to_decoded_psnr_db": 42.3562275663883
+    },
+    {
+      "seconds": 97,
+      "edge_crop_native_to_decoded_psnr_db": 42.16745125051556
+    }
+  ],
+  "review": "Decoded cliff crops inspected separately from full delivery checks; not continuous playback"
+}

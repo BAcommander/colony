@@ -1,0 +1,248 @@
+{
+  "status": "passed",
+  "checks": "independent targeted native-source geometry and isolated rendering; not continuous video playback",
+  "source_trace_native_xy": [
+    [
+      708.0,
+      56.0
+    ],
+    [
+      707.0,
+      60.0
+    ],
+    [
+      706.0,
+      64.0
+    ],
+    [
+      705.0,
+      68.0
+    ],
+    [
+      705.0,
+      72.0
+    ],
+    [
+      704.0,
+      76.0
+    ],
+    [
+      702.0,
+      80.0
+    ],
+    [
+      702.0,
+      84.0
+    ],
+    [
+      701.0,
+      88.0
+    ],
+    [
+      698.0,
+      92.0
+    ],
+    [
+      698.0,
+      96.0
+    ],
+    [
+      699.0,
+      100.0
+    ],
+    [
+      699.0,
+      104.0
+    ],
+    [
+      706.0,
+      108.0
+    ],
+    [
+      711.0,
+      112.0
+    ],
+    [
+      714.0,
+      116.0
+    ],
+    [
+      719.0,
+      120.0
+    ],
+    [
+      720.0,
+      124.0
+    ],
+    [
+      720.0,
+      128.0
+    ],
+    [
+      722.0,
+      132.0
+    ],
+    [
+      725.0,
+      136.0
+    ],
+    [
+      728.0,
+      140.0
+    ],
+    [
+      729.0,
+      144.0
+    ],
+    [
+      733.0,
+      148.0
+    ],
+    [
+      733.0,
+      152.0
+    ],
+    [
+      735.0,
+      156.0
+    ],
+    [
+      739.0,
+      160.0
+    ],
+    [
+      739.0,
+      164.0
+    ],
+    [
+      743.0,
+      168.0
+    ]
+  ],
+  "rock_interior_margin_native_px": 2,
+  "protected_rock_pixels": 2734,
+  "crossing_frames_per_version": 152,
+  "cliff_crossing_windows_seconds": [
+    [
+      27,
+      30
+    ],
+    [
+      96,
+      98
+    ]
+  ],
+  "protected_rock_changes": {
+    "v5": {
+      "max_rgb_change": 72.06522369384766,
+      "changed_pixels_max": 50
+    },
+    "v6": {
+      "max_rgb_change": 0.0,
+      "changed_pixels_max": 0
+    }
+  },
+  "old_mask_positive_control_detected": true,
+  "flight_endpoints": [
+    {
+      "time": -4.966666666666667,
+      "reverse": false,
+      "changed_pixels": 0
+    },
+    {
+      "time": 69.96666666666667,
+      "reverse": false,
+      "changed_pixels": 0
+    },
+    {
+      "time": 70.03333333333333,
+      "reverse": true,
+      "changed_pixels": 0
+    },
+    {
+      "time": 117.96666666666667,
+      "reverse": true,
+      "changed_pixels": 0
+    }
+  ],
+  "emission_colour_checks": [
+    {
+      "version": "v5",
+      "reverse": false,
+      "emission_rgb_sum": [
+        28520.586680202632,
+        20503.997148988965,
+        13625.81147462128
+      ]
+    },
+    {
+      "version": "v5",
+      "reverse": true,
+      "emission_rgb_sum": [
+        26197.41821427757,
+        19309.141283651075,
+        13162.845033806676
+      ]
+    },
+    {
+      "version": "v6",
+      "reverse": false,
+      "emission_rgb_sum": [
+        17725.804599207273,
+        24376.05390190529,
+        28520.586680202632
+      ]
+    },
+    {
+      "version": "v6",
+      "reverse": true,
+      "emission_rgb_sum": [
+        16873.251470058756,
+        22670.781629866084,
+        26197.41821427757
+      ]
+    }
+  ],
+  "non_shuttle_frame_checks": [
+    {
+      "time": 0,
+      "changed_pixels": 0
+    },
+    {
+      "time": 27.5,
+      "changed_pixels": 0
+    },
+    {
+      "time": 48,
+      "changed_pixels": 0
+    },
+    {
+      "time": 97,
+      "changed_pixels": 0
+    },
+    {
+      "time": 108,
+      "changed_pixels": 0
+    }
+  ],
+  "source_inputs_unchanged": {
+    "source.png": true,
+    "Snowline-V6-review-audio-2min.flac": true,
+    "assets/lambda-shuttle-master.png": true,
+    "assets/shuttle-prompt.txt": true,
+    "audio-recipe.json": true,
+    "v2-scene.json": true
+  },
+  "pose_unchanged": true,
+  "flight_schedule_unchanged": true,
+  "event_metadata": {
+    "all_preexisting_fields_semantically_equal": true,
+    "added_provenance_fields": [
+      "shuttle_revision"
+    ],
+    "byte_identical": false
+  },
+  "contact_sheet": "flight-occlusion-contact-sheet.png",
+  "visual_review": "Source/V5/V6 paired stills inspected at 27,28,29,30,96,97,98 and40 seconds. V6 follows the snowy cliff edge and both engine directions appear blue-white. No continuous playback performed.",
+  "limits": "Mask edge follows a manually inspected source with a soft 1-2 native-pixel snowy lip. Numeric zero-change checks cover conservative rock interior; inspect the diagnostic edge images for artistic appearance."
+}
