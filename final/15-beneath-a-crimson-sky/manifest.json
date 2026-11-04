@@ -1,0 +1,110 @@
+{
+  "catalog_number": "15",
+  "title": "Beneath a Crimson Sky",
+  "working_alias": "Skies of Baal",
+  "catalog_date": "2026-11-04",
+  "status": "numbered release in preparation",
+  "artwork": {
+    "path": "../../creative/live/skies-of-baal/artwork-rebuild-v1/beneath-a-crimson-sky-v12-native.png",
+    "sha256": "bbcb566dac5704b0a046c2c7769f3a73bd0f092851d723988489d627eb12e0b5",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "animation_preview": {
+    "path": "../../music/beneath-a-crimson-sky-synced-storm/skies-of-baal-synced-storm-60s.mp4",
+    "sha256": "20577a2aee6a048b15f8d1c7d9bb951eb4a13b952412cc48bdfe7dd45d0b50da",
+    "bytes": 19098431,
+    "duration_seconds": 60,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "audio": true,
+    "status": "synced storm candidate for review",
+    "delivery_record": "../../music/beneath-a-crimson-sky-synced-storm/delivery.json",
+    "settings": "../../music/beneath-a-crimson-sky-synced-storm/settings.json"
+  },
+  "previous_animation_preview": {
+    "path": "../../music/beneath-a-crimson-sky-animation-v2/beneath-a-crimson-sky-v2-preview-60s.mp4",
+    "sha256": "0587d9d7d81e0d23b113448de22f6b0cd913cc622e23cba7d23c192f1468c87f",
+    "duration_seconds": 60,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "audio": false,
+    "status": "checkpoint needs further review",
+    "delivery_record": "../../music/beneath-a-crimson-sky-animation-v2/delivery-v2.json"
+  },
+  "release_copy": "../../creative/live/skies-of-baal/release-v2/README.txt",
+  "music_briefs": "../../creative/live/skies-of-baal/music/README.md",
+  "pending": [
+    "thumbnail review",
+    "approved animation and 4K master",
+    "soundtrack",
+    "assembly",
+    "publication"
+  ],
+  "thumbnail": {
+    "status": "draft for review",
+    "method": "built-in imagegen",
+    "edit_source": "../../creative/live/skies-of-baal/artwork-rebuild-v1/beneath-a-crimson-sky-v12-native.png",
+    "visible_text": [
+      "SKIES OF BAAL",
+      "WARHAMMER 40,000 INSPIRED"
+    ],
+    "master": {
+      "path": "thumbnail-warhammer-v1.png",
+      "bytes": 2453205,
+      "sha256": "8b50345fe94b4a5c8af9efb20df83fe146f00c23d7f83435f343c2f7f90519b0",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "upload": {
+      "path": "thumbnail-warhammer-v1.jpg",
+      "bytes": 378736,
+      "sha256": "7ca59cb9ec756a4aa837f1dba5bc25d5782579763b2501ed966f794199dc8335",
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    "prompt": {
+      "path": "thumbnail-warhammer-prompt-v1.txt",
+      "bytes": 1252,
+      "sha256": "e476cf52aa01b6bb8c937e66eb6561f6d421222f9bf4258fc680e5f97c7ac5de"
+    }
+  },
+  "music_prompt": {
+    "path": "elevenlabs-skies-of-baal-angelic-v2.txt",
+    "bytes": 1372,
+    "sha256": "24c334fb2e5d3f22fd7e072103874f04b6edd34574ebd49296f6e1aad184f577",
+    "status": "draft for manual generation and listening review"
+  },
+  "weather_and_sfx": "weather-and-sfx.md",
+  "previous_music_prompt": {
+    "path": "elevenlabs-skies-of-baal.txt",
+    "bytes": 1245,
+    "sha256": "2440dc79e10ac6051a63f26d3c89c410c682fe62a123cf21d1fb1eb8f939cce3",
+    "status": "draft for manual generation and listening review"
+  },
+  "dry_gusts_preview": {
+    "path": "../../music/beneath-a-crimson-sky-animation-v3/beneath-a-crimson-sky-v3-dry-gusts-60s.mp4",
+    "sha256": "599fdae025943ae836b5d6e60678207eb6c8b96f1aef41f7360667fcf0daa7e1",
+    "duration_seconds": 60,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "audio": false,
+    "status": "dry-gust candidate for review",
+    "delivery_record": "../../music/beneath-a-crimson-sky-animation-v3/delivery-v3.json"
+  }
+}

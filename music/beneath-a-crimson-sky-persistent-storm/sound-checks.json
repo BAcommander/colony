@@ -1,0 +1,55 @@
+{
+  "sample_rate": 48000,
+  "frames": 2880000,
+  "channels": 2,
+  "no_music": true,
+  "cues": [
+    {
+      "flash_s": 8.4,
+      "delay_s": 2.5,
+      "thunder_start_s": 10.9,
+      "tail_s": 9.7,
+      "relative_level": 0.62
+    },
+    {
+      "flash_s": 16.7,
+      "delay_s": 3.2,
+      "thunder_start_s": 19.9,
+      "tail_s": 9.1,
+      "relative_level": 0.39
+    },
+    {
+      "flash_s": 26.4,
+      "delay_s": 1.8,
+      "thunder_start_s": 28.2,
+      "tail_s": 12.3,
+      "relative_level": 1.0
+    },
+    {
+      "flash_s": 33.2,
+      "delay_s": 3.3,
+      "thunder_start_s": 36.5,
+      "tail_s": 9.8,
+      "relative_level": 0.52
+    },
+    {
+      "flash_s": 50.6,
+      "delay_s": 1.9,
+      "thunder_start_s": 52.5,
+      "tail_s": 11.1,
+      "relative_level": 0.87
+    },
+    {
+      "flash_s": 56.2,
+      "delay_s": 2.8,
+      "thunder_start_s": 59.0,
+      "tail_s": 9.2,
+      "relative_level": 0.42
+    }
+  ],
+  "mix_peak_dbfs": -10.8,
+  "thunder_peak_dbfs": -11.54,
+  "wind_grit_peak_dbfs": -15.88,
+  "join_step": 0.0011447565630078316,
+  "synthesized_thunder": true
+}

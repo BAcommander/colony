@@ -1,0 +1,27 @@
+{
+  "sha256": "8bdee2029fb8d685b661e2d43e117cbe1a62187159c8e1e43010c7e748a5954b",
+  "bytes": 19840189,
+  "source_sha256": "0073af717e57b3f59cd4a05af24cbf790c5caaf1123f0ce99e743dd99ecbd53e",
+  "effects_audio_sha256": "14f0fc4d4a0c1dad80745c99f23affe6114ea906d8b50ae38bfb435bca1f790d",
+  "frames": 1800,
+  "fps": 30,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "all_frames_and_audio_decoded": true,
+  "sequential_timestamps": true,
+  "new_dust_loop_states_equal": true,
+  "shelter_pixels_checked_before_encode": true,
+  "minimum_upper_opening_share_above_7_5_percent_opacity": 0.8145720208536378,
+  "strike_starts_seconds": [
+    26.4,
+    50.6
+  ],
+  "strike_active_frames": [
+    93,
+    102
+  ],
+  "audio_peak_dbfs": -10.8,
+  "user_review": "pending"
+}

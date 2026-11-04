@@ -1,0 +1,22 @@
+{
+  "frames": 1800,
+  "seconds": 60,
+  "fps": 30,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "audio": false,
+  "all_decoded_frames_match_expected_overlay": true,
+  "sequential_video_timestamps": true,
+  "unchanged_outside_overlay": true,
+  "terrain_mask_protection_checked": true,
+  "periodic_opacity": true,
+  "dust_join_step_mean_opacity": 5.926288395130541e-06,
+  "max_luma_code_change": 24,
+  "max_sampled_pixels_changed_by_four_codes": 4710,
+  "source_sha256": "0587d9d7d81e0d23b113448de22f6b0cd913cc622e23cba7d23c192f1468c87f",
+  "sha256": "599fdae025943ae836b5d6e60678207eb6c8b96f1aef41f7360667fcf0daa7e1",
+  "bytes": 52299638,
+  "user_review": "pending"
+}

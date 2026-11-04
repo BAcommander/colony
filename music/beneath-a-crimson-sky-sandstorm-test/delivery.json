@@ -1,0 +1,18 @@
+{
+  "source_sha256": "599fdae025943ae836b5d6e60678207eb6c8b96f1aef41f7360667fcf0daa7e1",
+  "sha256": "0073af717e57b3f59cd4a05af24cbf790c5caaf1123f0ce99e743dd99ecbd53e",
+  "bytes": 56433126,
+  "frames": 1800,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "audio": false,
+  "all_decoded_frames_match_composite": true,
+  "sequential_video_timestamps": true,
+  "shelter_mask_luma_protection_checked": true,
+  "clear_source_frames_including_loop_boundary": 631,
+  "max_sampled_pixels_changed_by_four_luma_codes": 56648,
+  "user_review": "pending"
+}

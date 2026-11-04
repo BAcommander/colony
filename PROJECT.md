@@ -13,7 +13,7 @@ Last updated: 2026-09-26.
 
 ## Current authority
 
-Catalog 15 import (2026-10-25): user requested adding the existing Cyberpunk Apartment animation at the end of the numbered list. final/15-cyberpunk-apartment/ contains the byte-verified ten-second 4K/60fps silent V3, 1080p copy, clean/original art, repair assets, source scripts and historical reports. Working title retained; no new render or playback review. Thumbnail, metadata, music and long-form assembly pending. Original YouTube files retained. Exact-path LFS/ignore rules prepare both short videos for tracking, but no commit/push/remote backup was performed. Spirewatch and the live special remain unnumbered.
+Catalog order (2026-11-04): [Beneath a Crimson Sky](final/15-beneath-a-crimson-sky/README.md), originally developed as Skies of Baal, is #15. [Cyberpunk Apartment](final/16-cyberpunk-apartment/README.md) moves from #15 to #16 with its imported 4K and 1080p V3 loops, artwork, source records and music drafts. Spirewatch remains unnumbered.
 
 Glacier Sanctuary v10 was accepted: "ok i think we can go with this, extend it out into the 60 second loop ij 4k?" V11 is the requested sixty-second 3840x2160, 30 fps, silent delivery. See creative/glacier-sanctuary/animation/README.md for output and verification status. Its source remains 1672x941, so 4K is upscaled. Preserve the accepted water method, distant snow/fog, vent smoke and light effects; no foreground snow.
 

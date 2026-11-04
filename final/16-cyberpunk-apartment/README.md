@@ -1,6 +1,6 @@
-# 15 — Cyberpunk Apartment
+# 16 — Cyberpunk Apartment
 
-Imported into Ambient Colony on 2026-10-25 at the user's request, appended after 14 — Crater Rim Survey. Cyberpunk Apartment is the existing working title; final public naming and publication packaging remain open. Spirewatch and Beneath a Crimson Sky remain unnumbered.
+Imported into Ambient Colony on 2026-10-25. On 2026-11-04 the user moved it to #16 after [Beneath a Crimson Sky](../15-beneath-a-crimson-sky/README.md). Cyberpunk Apartment remains the working title.
 
 - [4K V3 loop](animation-v3/Cyberpunk-Apartment-V3-4K.mp4): ten seconds, 60 fps, silent, 3840 × 2160.
 - [1080p V3 loop](animation-v3/Cyberpunk-Apartment-V3-1080p.mp4): ten seconds, 60 fps, silent.
@@ -14,9 +14,20 @@ V3 removes four hovering cars, uses irregular ground traffic, traveling sign lig
 
 ## Status and remaining work
 
-The user selected this existing animation for addition to the Colony catalog. That does not establish approval of a final public title, thumbnail, soundtrack, long-form assembly or upload. No music, Colony thumbnail, description, search tags or music prompts have been prepared for this package. Next: confirm the public title, prepare Colony packaging, select music and the eventual upload runtime. Apply the established Colony opening once during later assembly; do not bake it into every loop.
+The user selected this existing animation for addition to the Colony catalog. The public title, thumbnail, description, search tags, soundtrack and runtime are pending. Apply the established Colony opening once during later assembly.
 
 Prior verification/playback statements in animation-v3 are historical records from the original September delivery, not new playback claims from this import. This migration verifies hashes and file relationships. No new creative review or rendering was performed.
+
+## Music drafts
+
+These two prompts use the contrast between exposed and fuller passages from the [Snowline listening proposal for Crater Rim](../14-crater-rim-survey/music/README.md). The apartment's palette is warm analogue tones close to the listener and cooler sustained harmonics out beyond the glass. Give the music its own pacing across many repeats of the ten-second visual loop.
+
+- [Amber Room](music/elevenlabs-amber-room.txt) is the closer passage. Warm, rounded synth voices gather into fuller harmony, then thin out at different speeds.
+- [City Through Glass](music/elevenlabs-city-through-glass.txt) is the wider passage. A cooler sustained layer expands slowly, then gives way to a little warmth from the room.
+
+Start with one dry pilot per prompt at the same length and settings. Compare them at matched listening levels for contrast, comfort and how soon a swell or fragment becomes predictable. If both work, try two passages of roughly five minutes using the actual generation settings. Audition both joins and three repeats before the work-session listen. Treat rain heard through the glass as a separate layer and compare the same music with and without it.
+
+Both prompts are drafts for manual generation and listening review. Record the exact text, settings and source files when testing.
 
 ## Reproduction and storage
 

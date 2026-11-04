@@ -1,0 +1,54 @@
+{
+  "sha256": "20577a2aee6a048b15f8d1c7d9bb951eb4a13b952412cc48bdfe7dd45d0b50da",
+  "bytes": 19098431,
+  "source_sha256": "0073af717e57b3f59cd4a05af24cbf790c5caaf1123f0ce99e743dd99ecbd53e",
+  "effects_audio_sha256": "52e946a73eaf3817152ba8283e206cd4b1f2ebde2d2a412ab10973d9c6e4687d",
+  "frames": 1800,
+  "fps": 30,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "all_frames_and_audio_decoded": true,
+  "sequential_timestamps": true,
+  "new_dust_loop_states_equal": true,
+  "shelter_pixels_checked_before_encode": true,
+  "minimum_upper_opening_share_above_7_5_percent_opacity": 0.9883626490926811,
+  "strike_starts_seconds": [
+    26.4,
+    50.6
+  ],
+  "strike_active_frames": [
+    93,
+    102
+  ],
+  "audio_peak_dbfs": -10.39,
+  "user_review": "pending",
+  "settings_sha256": "55ed1627a1a761d18e9f6b86fca73db28cec8e3fc0722d7350b78f8580a405fd",
+  "synchronized_squalls": [
+    {
+      "rise_start": 21.7,
+      "crest": 26.4,
+      "hold_end": 28.2,
+      "clears": 34.5,
+      "thunder_start": 28.2,
+      "cloud_edge_y": 211
+    },
+    {
+      "rise_start": 46.3,
+      "crest": 50.6,
+      "hold_end": 52.5,
+      "clears": 59.1,
+      "thunder_start": 52.5,
+      "cloud_edge_y": 207
+    }
+  ],
+  "dust_speeds_preview_px_per_second": [
+    36.0,
+    88.8,
+    180.16666666666666
+  ],
+  "cloud_tips_hidden_in_both_strikes": true,
+  "audio_source_thunder_sha256": "c9994536dd2f100cf91b46f248db2a5dd0bb2156a04123d54653f38d3d1bbcb3",
+  "audio_source_wind_grit_sha256": "1650ff91a575c7b3dd6200f0e7411f80555fd6f067902d8ec349b50015008027"
+}

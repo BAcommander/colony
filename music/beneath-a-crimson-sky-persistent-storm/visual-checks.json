@@ -1,0 +1,25 @@
+{
+  "source_sha256": "0073af717e57b3f59cd4a05af24cbf790c5caaf1123f0ce99e743dd99ecbd53e",
+  "video_sha256": "37fde9243096572ab86e55ca1ad84b1e57513f4f8961a159be23116a065ccadb",
+  "frames": 1800,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "all_frames_verified": true,
+  "storm_loop_states_equal": true,
+  "sampled_shelter_pixels_unchanged": true,
+  "minimum_sampled_pixels_above_12_percent_veil": 35297,
+  "maximum_sampled_pixels_above_12_percent_veil": 71699,
+  "new_flash_seconds": [
+    16.7,
+    26.4,
+    43.8,
+    50.6
+  ],
+  "new_visible_channel_seconds": [
+    26.4,
+    50.6
+  ]
+}

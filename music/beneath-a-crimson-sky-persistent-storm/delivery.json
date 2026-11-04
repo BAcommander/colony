@@ -1,0 +1,15 @@
+{
+  "sha256": "509576132fc4e3e280c86d3e399fcb39e586cfd1d2f2620c0ee7c0ed23d58204",
+  "bytes": 13112534,
+  "seconds": 60,
+  "video_frames": 1800,
+  "fps": 30,
+  "audio_channels": 2,
+  "audio_sample_rate": 48000,
+  "decoded_aac_samples_per_channel_including_padding": 2880512,
+  "aac_decoded_peak_dbfs": -10.8,
+  "user_review": "pending",
+  "video_psnr_db_vs_validated_silent_master": 48.89727,
+  "all_1800_delivery_frames_decoded_and_sequential": true,
+  "audio_matches_verified_lossless_picture_mux": true
+}

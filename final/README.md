@@ -1,6 +1,6 @@
 # Ambient Colony - final exports
 
-Catalog 15 — [Cyberpunk Apartment](15-cyberpunk-apartment/README.md) was imported on 2026-10-25 with its existing V3 loop, source and reproduction notes. Its Colony thumbnail, metadata, music and final assembly are pending.
+Catalog #15 is [Beneath a Crimson Sky](15-beneath-a-crimson-sky/README.md), the Skies of Baal project. [Cyberpunk Apartment](16-cyberpunk-apartment/README.md) moves to #16 with its existing V3 loop and soundtrack prompt drafts.
 
 Planning and next actions: [production pipeline and release tracker](../PRODUCTION_PIPELINE.md). This separates completed assets from remaining motion, music, assembly, review and backup work.
 
@@ -28,7 +28,8 @@ Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subs
 | [12 - Deepwell Station](12-deepwell-station/) | [Selected v2 artwork](12-deepwell-station/artwork-v2.png); no video yet | [JPEG](12-deepwell-station/thumbnail-v1.jpg) |
 | [13 - Below the Snowline](13-below-the-snowline/) | [Current v5 artwork](13-below-the-snowline/ice-planet-retheme-v3/artwork-v5.png); [v2 animation](../music/below-the-snowline-animation-v2/README.md); [approved9min music](../music/below-the-snowline-production-2026-11-01/paired-loop-v1/README.md) | [Latest candidate](../music/below-the-snowline-animation-v2/thumbnail-v2.jpg), review pending; [earlier approved JPEG](13-below-the-snowline/thumbnail-v1.jpg) |
 | [14 - Crater Rim Survey](14-crater-rim-survey/) | [Selected v2 artwork](14-crater-rim-survey/artwork-v2.png); no video yet | [JPEG](14-crater-rim-survey/thumbnail-v1.jpg) |
-| [15 - Cyberpunk Apartment](15-cyberpunk-apartment/) | [10 seconds, 4K/60fps V3](15-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-4K.mp4) | Pending |
+| [15 - Beneath a Crimson Sky](15-beneath-a-crimson-sky/) | [60-second synced storm with sound](../music/beneath-a-crimson-sky-synced-storm/skies-of-baal-synced-storm-60s.mp4) | [Skies of Baal draft](15-beneath-a-crimson-sky/thumbnail-warhammer-v1.jpg) |
+| [16 - Cyberpunk Apartment](16-cyberpunk-apartment/) | [10 seconds, 4K/60fps V3](16-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-4K.mp4) | Pending |
 
 The short masters listed here are 3840x2160, 30 fps and silent, with upscaled source artwork. Long music-video exports are tracked separately through each assembly package and the local inventory. Approved copied media retain their original production paths. Saltline v7 is a new requested delivery with a separate pending visual-review status.
 

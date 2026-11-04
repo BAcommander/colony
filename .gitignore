@@ -104,8 +104,8 @@ __pycache__/
 music/spirewatch-animation-v8/remote-backup-verification.json
 
 # Catalog 15 existing short loops imported at user request (2026-10-25).
-!final/15-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-4K.mp4
-!final/15-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-1080p.mp4
+!final/16-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-4K.mp4
+!final/16-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-1080p.mp4
 
 # Snowline requested preview backup; repeats and isolated tests stay local.
 !music/below-the-snowline-animation-v1/Below-the-Snowline-v1-preview-20s.mp4
@@ -149,3 +149,14 @@ music/spirewatch-animation-v8/remote-backup-verification.json
 
 # Approved Snowline V6 review master.
 !/music/below-the-snowline-animation-v6/Below-the-Snowline-v6-with-V6-audio-2min.mp4
+
+# Skies of Baal: back up the review versions, not render scratch or long exports.
+!/music/beneath-a-crimson-sky-animation-v3/beneath-a-crimson-sky-v3-dry-gusts-60s.mp4
+!/music/beneath-a-crimson-sky-sandstorm-test/beneath-a-crimson-sky-sandstorm-test-60s.mp4
+!/music/beneath-a-crimson-sky-persistent-storm/skies-of-baal-persistent-storm-audition-60s.mp4
+!/music/beneath-a-crimson-sky-persistent-storm/rolling-thunder.wav
+!/music/beneath-a-crimson-sky-persistent-storm/storm-wind-grit.wav
+!/music/beneath-a-crimson-sky-persistent-storm/storm-audition-mix.wav
+!/music/beneath-a-crimson-sky-full-storm/skies-of-baal-full-opening-storm-60s.mp4
+!/music/beneath-a-crimson-sky-synced-storm/skies-of-baal-synced-storm-60s.mp4
+!/music/beneath-a-crimson-sky-synced-storm/synced-storm-effects.wav

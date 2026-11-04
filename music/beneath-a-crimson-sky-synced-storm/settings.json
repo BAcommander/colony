@@ -1,0 +1,16 @@
+{
+  "loop_seconds": 60,
+  "dust_layers": [
+    {"name": "distant bank", "grid_width": 36, "width_per_cell": 60, "height_per_cell": 44, "laps": 1, "strength": 0.23},
+    {"name": "middle sheets", "grid_width": 144, "width_per_cell": 37, "height_per_cell": 22, "laps": 1, "strength": 0.24},
+    {"name": "near ribbons", "grid_width": 235, "width_per_cell": 23, "height_per_cell": 10, "laps": 2, "strength": 0.35}
+  ],
+  "front_grit_laps": [9, 10, 11, 12, 13, 14],
+  "squalls": [
+    {"rise_start": 21.7, "crest": 26.4, "hold_end": 28.2, "clears": 34.5, "thunder_start": 28.2, "cloud_edge_y": 211},
+    {"rise_start": 46.3, "crest": 50.6, "hold_end": 52.5, "clears": 59.1, "thunder_start": 52.5, "cloud_edge_y": 207}
+  ],
+  "wind_grit_gain_floor_db": -0.6,
+  "wind_grit_gain_crest_db": 2.6,
+  "cloud_edge_feather_px": 39
+}

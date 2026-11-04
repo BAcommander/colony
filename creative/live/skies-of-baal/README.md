@@ -1,10 +1,10 @@
-# Beneath a Crimson Sky — first Ambient Colony live special
+# Beneath a Crimson Sky
 
 Updated 2026-10-08. **The user selected Beneath a Crimson Sky and generic fortress-monastery release copy.** Current public text is in [release-v2](release-v2/README.txt). All title variants, descriptions and tags use the selected name and generic setting. The user invoked the revised prompt with "make the animation". [Animation v2](../../../music/beneath-a-crimson-sky-animation-v2/README.md) delivers the complete silent 60-second 720p preview and exact 180-second review on rebuilt v12 art. Full-preview acceptance and the matching upscaled 4K animation remain pending. Historical v1 is preserved.
 
 **A light kept burning beneath a vast evening sky.** A sheltered terrace overlooks an ancient fortress-monastery, red desert plains and a half-buried gateway. Warm rooms and distant weather offer a quiet setting for reading, reflection and rest.
 
-Release remains **after catalog 10, Farpoint Station**, as a separate unnumbered live special. Catalog 11 remains The Empty Junction. The directory slug stays unchanged for existing links. Earlier names, research and exact generation records remain internal provenance; release-v1 is historical and must not supply current upload copy. The naming request alone did not revise the image, and the later realism rebuild is not visual originality clearance; naming/text changes are not legal clearance.
+On 2026-11-04 the user moved the Skies of Baal project into [catalog slot #15](../../../final/15-beneath-a-crimson-sky/README.md) under the selected public name. The earlier unnumbered live special plan is historical. The Skies of Baal directory holds the source artwork, generation records and earlier release plans.
 
 ## Current artwork rebuild
 

@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-04",
+  "status": "work in progress; latest preview awaits playback review",
+  "current_preview": "music/beneath-a-crimson-sky-synced-storm/skies-of-baal-synced-storm-60s.mp4",
+  "render_input_lfs_paths": [
+    "music/beneath-a-crimson-sky-sandstorm-test/beneath-a-crimson-sky-sandstorm-test-60s.mp4",
+    "music/beneath-a-crimson-sky-persistent-storm/storm-wind-grit.wav",
+    "music/beneath-a-crimson-sky-persistent-storm/rolling-thunder.wav"
+  ],
+  "lfs_assets": [
+    {
+      "path": "music/beneath-a-crimson-sky-animation-v3/beneath-a-crimson-sky-v3-dry-gusts-60s.mp4",
+      "bytes": 52299638,
+      "sha256": "599fdae025943ae836b5d6e60678207eb6c8b96f1aef41f7360667fcf0daa7e1"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-sandstorm-test/beneath-a-crimson-sky-sandstorm-test-60s.mp4",
+      "bytes": 56433126,
+      "sha256": "0073af717e57b3f59cd4a05af24cbf790c5caaf1123f0ce99e743dd99ecbd53e"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-persistent-storm/rolling-thunder.wav",
+      "bytes": 11520044,
+      "sha256": "c9994536dd2f100cf91b46f248db2a5dd0bb2156a04123d54653f38d3d1bbcb3"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-persistent-storm/skies-of-baal-persistent-storm-audition-60s.mp4",
+      "bytes": 13112534,
+      "sha256": "509576132fc4e3e280c86d3e399fcb39e586cfd1d2f2620c0ee7c0ed23d58204"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-persistent-storm/storm-audition-mix.wav",
+      "bytes": 11520044,
+      "sha256": "14f0fc4d4a0c1dad80745c99f23affe6114ea906d8b50ae38bfb435bca1f790d"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-persistent-storm/storm-wind-grit.wav",
+      "bytes": 11520044,
+      "sha256": "1650ff91a575c7b3dd6200f0e7411f80555fd6f067902d8ec349b50015008027"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-full-storm/skies-of-baal-full-opening-storm-60s.mp4",
+      "bytes": 19840189,
+      "sha256": "8bdee2029fb8d685b661e2d43e117cbe1a62187159c8e1e43010c7e748a5954b"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-synced-storm/skies-of-baal-synced-storm-60s.mp4",
+      "bytes": 19098431,
+      "sha256": "20577a2aee6a048b15f8d1c7d9bb951eb4a13b952412cc48bdfe7dd45d0b50da"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-synced-storm/synced-storm-effects.wav",
+      "bytes": 11520044,
+      "sha256": "52e946a73eaf3817152ba8283e206cd4b1f2ebde2d2a412ab10973d9c6e4687d"
+    }
+  ],
+  "settings": {
+    "path": "music/beneath-a-crimson-sky-synced-storm/settings.json",
+    "bytes": 820,
+    "sha256": "55ed1627a1a761d18e9f6b86fca73db28cec8e3fc0722d7350b78f8580a405fd"
+  },
+  "dependencies": {
+    "python": "3.13",
+    "numpy": "existing audio-analysis environment",
+    "opencv": "existing audio-analysis environment",
+    "imageio-ffmpeg": "FFmpeg 7.1 from the existing environment"
+  }
+}
