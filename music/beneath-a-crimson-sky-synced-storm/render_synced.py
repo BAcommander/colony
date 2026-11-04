@@ -46,14 +46,18 @@ class SyncedStorm(previous.FullStorm):
         assert all(self.occlusion_checks)
 
     def dust(self, t):
-        t %= LENGTH
+        t = float(t) % LENGTH
         phase = t/LENGTH
         angle = phase * 2*np.pi
         surge = float(squall(t))
         veil = np.zeros_like(self.dx)
         for i, (field, spec) in enumerate(zip(self.fields, SETTINGS["dust_layers"])):
-            u = self.dx/spec["width_per_cell"] - phase * spec["laps"] * spec["grid_width"]
-            v = self.dy/spec["height_per_cell"] + .36*np.sin(u*2*np.pi/12 + angle) + .18*np.sin(angle*(i+1) + self.dx/217)
+            u = (self.dx/spec["width_per_cell"] - phase * spec["laps"] * spec["grid_width"]) % spec["grid_width"]
+            # A whole number of curl cycles per noise tile keeps vertical sampling
+            # continuous as that tile wraps back into the start of the minute.
+            curl_cycles = round(spec["grid_width"]/12)
+            v = self.dy/spec["height_per_cell"] + .36*np.sin(u*(2*np.pi*curl_cycles/spec["grid_width"]) + angle)
+            v += .18*np.sin(angle*(i+1) + self.dx/217)
             texture = cv2.remap(field, u, v, cv2.INTER_CUBIC, borderMode=cv2.BORDER_WRAP)
             texture = previous.smooth((texture-.16)/.70)
             if i == 0:
@@ -86,6 +90,19 @@ class SyncedStorm(previous.FullStorm):
             alpha = int((9+29*power)*(.61+.52*surge)*(.52+1.45*veil[iy,ix]))
             cv2.line(grit, (ix-(4+int(size*7)),iy-1), (ix,iy), alpha, 1, cv2.LINE_AA)
         return veil, grit.astype(np.float32)*(self.mask/255)
+
+    @staticmethod
+    def inherited_dust_gain(t):
+        # Only the new periodic depth layers carry the join; keep the legacy
+        # near-surface texture in the body of the preview.
+        return float(previous.smooth((t-1)/4)*previous.smooth((59-t)/4))
+
+    def loop_check(self):
+        snapshots = [self.dust(i/previous.FPS)[0] for i in range(-4,5)]
+        steps = [float(np.abs(b-a).mean()) for a,b in zip(snapshots,snapshots[1:])]
+        ratio = steps[3]/max(steps[:3]+steps[4:])
+        assert ratio < 1.20, steps
+        return {"dust_loop_join_mean_opacity_step": steps[3], "dust_loop_join_vs_nearby_max": ratio}
 
 
 def read_stem(name):
@@ -122,4 +139,6 @@ def write_mix():
 
 if __name__ == "__main__":
     assert not OUTPUT.exists()
-    previous.main(SyncedStorm, OUTPUT, MIX, write_mix())
+    previous.cv2.setNumThreads(1)
+    metadata = write_mix() | SyncedStorm().loop_check()
+    previous.main(SyncedStorm, OUTPUT, MIX, metadata)

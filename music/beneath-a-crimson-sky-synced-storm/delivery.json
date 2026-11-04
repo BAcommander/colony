@@ -1,6 +1,6 @@
 {
-  "sha256": "20577a2aee6a048b15f8d1c7d9bb951eb4a13b952412cc48bdfe7dd45d0b50da",
-  "bytes": 19098431,
+  "sha256": "fbfc11d9f0ab66930d2276f7a28c81be941fd21514383bfa59005d9788229e65",
+  "bytes": 22789325,
   "source_sha256": "0073af717e57b3f59cd4a05af24cbf790c5caaf1123f0ce99e743dd99ecbd53e",
   "effects_audio_sha256": "52e946a73eaf3817152ba8283e206cd4b1f2ebde2d2a412ab10973d9c6e4687d",
   "frames": 1800,
@@ -13,7 +13,7 @@
   "sequential_timestamps": true,
   "new_dust_loop_states_equal": true,
   "shelter_pixels_checked_before_encode": true,
-  "minimum_upper_opening_share_above_7_5_percent_opacity": 0.9883626490926811,
+  "minimum_upper_opening_share_above_7_5_percent_opacity": 0.9906676876904751,
   "strike_starts_seconds": [
     26.4,
     50.6
@@ -50,5 +50,7 @@
   ],
   "cloud_tips_hidden_in_both_strikes": true,
   "audio_source_thunder_sha256": "c9994536dd2f100cf91b46f248db2a5dd0bb2156a04123d54653f38d3d1bbcb3",
-  "audio_source_wind_grit_sha256": "1650ff91a575c7b3dd6200f0e7411f80555fd6f067902d8ec349b50015008027"
+  "audio_source_wind_grit_sha256": "1650ff91a575c7b3dd6200f0e7411f80555fd6f067902d8ec349b50015008027",
+  "dust_loop_join_mean_opacity_step": 0.008442710153758526,
+  "dust_loop_join_vs_nearby_max": 0.9972109789789393
 }

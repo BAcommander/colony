@@ -171,7 +171,8 @@ def main(storm_factory=FullStorm, output=OUTPUT, audio_path=AUDIO, metadata=None
                 if -.15 <= t-at <= .85:
                     old_line.fill(0)
                     old_glow *= .52
-            lower = composite(base, previous_veil*.74, previous_grit*.67, old_glow, old_line)
+            lower_gain = storm.inherited_dust_gain(t) if hasattr(storm, "inherited_dust_gain") else 1
+            lower = composite(base, previous_veil*(.74*lower_gain), previous_grit*(.67*lower_gain), old_glow, old_line)
             veil, grit = storm.dust(t)
             strike = storm.lightning(t)
             if strike is not None:
