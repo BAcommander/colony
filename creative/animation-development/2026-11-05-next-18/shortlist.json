@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-05",
+  "slot_under_discussion": 18,
+  "catalog_assignment": null,
+  "status": "existing_art_review_and_proposal_only",
+  "method": "Assistant inspected four native clean plates and the top three thumbnail JPEGs; ranking is creative judgment, not measured CTR.",
+  "candidates": [
+    {
+      "rank": 1,
+      "review_id": "H1",
+      "selection_status": "recommended",
+      "assets": [
+        {
+          "path": "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/concept-v1.png",
+          "sha256": "2f67c4dfcce4b3989ec30377918f4ec80509ff9bef87eeca871a6523fb4abc90",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 2322420
+        },
+        {
+          "path": "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/thumbnail-v1.jpg",
+          "sha256": "b95ee4a1cf95f6e33b3f218ab0b717463dea9714d13c0a9360b97ce4961a9054",
+          "dimensions": [
+            1280,
+            720
+          ],
+          "bytes": 402831
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "review_id": "B1",
+      "selection_status": "alternative",
+      "assets": [
+        {
+          "path": "creative/concepts/four-worlds-2026-10-27/b1-last-coffee/concept-v1.png",
+          "sha256": "cae5a4d7f0cb90219724693caabdab312299869e16b1e8a079d3907dfafe7a90",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 2233271
+        },
+        {
+          "path": "creative/concepts/four-worlds-2026-10-27/b1-last-coffee/thumbnail-v1.jpg",
+          "sha256": "0248b9fb00161658f746d5d1bee761f0934accc9a5e024c318bcc54434c1508f",
+          "dimensions": [
+            1280,
+            720
+          ],
+          "bytes": 286387
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "review_id": "J1",
+      "selection_status": "alternative",
+      "assets": [
+        {
+          "path": "creative/brainstorm/2026-10-27-retro-worlds/j1-tos-bridge/concept-v1.png",
+          "sha256": "6a204e5ee42b10746f626911642b30367bd0a8a9bdd1c2b72c29bbf1162588f8",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 1985757
+        },
+        {
+          "path": "creative/brainstorm/2026-10-27-retro-worlds/j1-tos-bridge/thumbnail-v1.jpg",
+          "sha256": "62173a6a326ab681e40293677515062f4cbe0ad3047fce8d7f82866cb9cef7e3",
+          "dimensions": [
+            1280,
+            720
+          ],
+          "bytes": 283840
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "review_id": "F2",
+      "selection_status": "reserve",
+      "assets": [
+        {
+          "path": "creative/brainstorm/2026-10-27-three-worlds/f2-third-watch/concept-v1.png",
+          "sha256": "3f8854c473b6d724ddbdcfb954dd4986c37ef77b3bc36c58d91659f639984fbe",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "bytes": 2064817
+        },
+        {
+          "path": "creative/brainstorm/2026-10-27-three-worlds/f2-third-watch/thumbnail-v1.jpg",
+          "sha256": "6a2f3dbafa4fee80388731bdb3a73c5eb31099d0aaafaa2d5da85c785ec55bbf",
+          "dimensions": [
+            1280,
+            720
+          ],
+          "bytes": 295798
+        }
+      ]
+    }
+  ],
+  "primary_sources_checked": [
+    "https://www.backtothefuture.com/movies/production-notes-1985",
+    "https://www.startrek.com/news/visiting-the-original-series-set-tour"
+  ],
+  "generation_or_animation_performed": false
+}
