@@ -1,4 +1,20 @@
-# Ambient Colony animation knowledge bank
+# Ambient Colony animation knowledge bank
+
+## Scenes16/17 first visual drafts —2026-11-05
+
+[The paired review](animation-development/2026-11-05-16-17/review.html) contains actual60s720p drafts: city60fps, Gate Camp30fps. All twelve candidates per scene have a first-pass treatment, with the canopy free edge fixed and city rooftop emission replaced by gap mist where no actual outlet was visible. These are user-review candidates, not approved production references. Complete implementation/cue and technical records live with each renderer.
+
+Source geometry seeds are starting points, not safe masks. The city legacy water polygons included foreground rooftops/bridge details; retrace against native crops and keep a ferry north of the tower roof. Its first rover placement equivalent was corrected for Gate Camp: follow the clear approach rather than parking on the rocky shoulder. A moving object's allowed volume must include its body above the road, then subtract actual foreground occluders; a ground-only mask can slice its roof off. Random traffic birth times need a minimum headway and a reserved longer-vehicle gap; keep equal lane speeds to prevent accidental overtaking.
+
+Keep source repair and animation separate. Built-in imagegen supplied confined cleanup fields and a transparent rover. Consume only the relevant mug/leaf/line/scrub footprints, preserve original pixels elsewhere, and resample sprite colour premultiplied by alpha. The original gate art and city masters remain unchanged. Portable FFmpeg, explicit BT.709 conversion/tags and native-first processing replace machine-bound paths and ambiguous historical conversion.
+
+Periodic water is now implemented with14/15/20 wave cycles and11/8 broad highlight cycles per60s, bounded drift and source-tap/Jacobian checks. Carry the same moving field into stone and ring materials, preserving warm practicals. Gusts drive canopy folds, taut-line/scrub response and depth-separated haze; export that exact cue for later cloth/wind sound. A visually busy showcase minute is not a long-session event plan.600s attention clocks remain unimplemented, and no previous scene gain or listening approval transfers. Detail crops change display size only; actual loop-join pictures are checked against the encoded tail/head source.
+
+## Scene16/17 development preparation — 2026-11-05
+
+[The paired development pack](animation-development/2026-11-05-16-17/README.md) separates existing effects from real upgrades and new candidates. CityV3 already includes sliding bead marks, so the proposed upgrade is optical refraction/trails/merges, not a claim that glass rain is missing. Its normalized10s clock also governs full-route traffic: a naive duration extension changes physical speeds. GateV2 is only an8s test, with unbounded linear drift and5.4/7.3s highlight periods; it needs an actual periodic build. Retiming and source-geometry seed records are saved, not implemented.
+
+Inspect the clean art before choosing extras: Gate Camp's mug visibly has two handles. Repair a confined patch and freeze its new source before production. Move source silhouettes such as leaves/free straps only when a clean revealed background can be supplied; a texture warp over the whole object is not a clean replacement. First builds should prove coordinated city sign/receiver/traffic behaviour and gate water/interactive-light/canopy behaviour at normal size. Stretch transit/rover ideas come after those fundamentals earn acceptance.
 
 Crater Rim long-session continuation (2026-11-05): preserve V5 appearance after positive feedback, but separate60s weather phase from a proposed600s attention clock before extending it. Calling the inherited minute renderer alone would repeat the same lamp dips, glints and vehicle passages every minute. Keep Scene.duration=60 because it also controls inherited weather construction; add absolute-time overrides for lamp/glare/traffic activation, carrying the clock across chunks. The explicit draft has two lamp clusters, three sunbreaks and four rover passages per ten minutes, all quiet at the long-cycle join. [Resume guide, source hashes, implementation notes and unbuilt schedule](../music/crater-rim-animation-v5/LONG_VERSION.md). Music/final runtime/4K and new-schedule playback remain pending.
 

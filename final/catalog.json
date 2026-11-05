@@ -246,7 +246,7 @@
     "title": "Cyberpunk Apartment",
     "catalog_number": "16",
     "title_status": "working title",
-    "status": "Existing V3 silent animation and two soundtrack prompt drafts. Colony packaging, audio and assembly pending.",
+    "status": "V4 complete sixty-second720p/60fps silent first visual draft, including twelve candidate treatments; user review pending. Audio/4K/long schedule pending.",
     "artwork": "artwork-v3.png",
     "animation_source": "animation-v3/clean-apartment.png",
     "duration_seconds": 10,
@@ -261,14 +261,22 @@
     "companion_music_prompt": "music/elevenlabs-city-through-glass.txt",
     "audio": null,
     "import_date": "2026-10-25",
-    "manifest": "manifest.json"
+    "manifest": "manifest.json",
+    "animation_development": "ANIMATION_DEVELOPMENT.md",
+    "animation_preview": {
+      "folder": "../../music/cyberpunk-apartment-animation-v4",
+      "video": "Cyberpunk-Apartment-V4-first-draft-60s.mp4",
+      "duration_seconds": 60,
+      "fps": 60,
+      "user_approved": false
+    }
   },
   {
     "folder": "17-gate-camp",
     "title": "The Gate Camp After Sunset",
     "catalog_number": "17",
     "title_status": "working title",
-    "status": "E1 selected for production; V1 look received positive feedback; V2 water and light preview awaits review.",
+    "status": "V3 complete sixty-second720p/30fps silent first visual draft, including twelve candidate treatments; user review pending. Audio/4K/long schedule pending.",
     "artwork": "../../creative/brainstorm/2026-10-27-three-worlds/e1-gate-camp/concept-v1.png",
     "thumbnail": "../../creative/brainstorm/2026-10-27-three-worlds/e1-gate-camp/thumbnail-v1.jpg",
     "thumbnail_status": "existing E1 draft",
@@ -276,13 +284,24 @@
     "audio": null,
     "duration_seconds": null,
     "animation_preview": {
-      "folder": "../../music/gate-camp-animation-v2",
-      "video": "Gate-Camp-water-and-light-v2-8s.mp4",
-      "duration_seconds": 8,
+      "folder": "../../music/gate-camp-animation-v3",
+      "video": "Gate-Camp-V3-first-draft-60s.mp4",
+      "duration_seconds": 60,
       "fps": 30,
       "user_approved": false
     },
     "production_brief": "README.md",
-    "portal_research": "portal-research.md"
+    "portal_research": "portal-research.md",
+    "animation_development": "ANIMATION_DEVELOPMENT.md",
+    "animation_history_previews": [
+      {
+        "folder": "../../music/gate-camp-animation-v2",
+        "video": "Gate-Camp-water-and-light-v2-8s.mp4",
+        "duration_seconds": 8,
+        "fps": 30,
+        "user_approved": false
+      }
+    ],
+    "animation_source": "../../music/gate-camp-animation-v3/artwork-v2-mug-repair.png"
   }
 ]

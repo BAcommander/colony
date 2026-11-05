@@ -1,0 +1,61 @@
+{
+  "source": "Gate-Camp-V3-first-draft-60s.mp4",
+  "reviews": [
+    {
+      "path": "Gate-water-and-steps-detail.mp4",
+      "sha256": "a5b87266f18b04c707148f8e4d1f09183055676320a4607789d6ad06eaa83f41",
+      "source_sha256": "4255f0fbeb80170cb58895e6f28900f7aad06fdfa8889716efc4f3d5c4d8a3b8",
+      "scene_start_seconds": 4,
+      "seconds": 14,
+      "decoded_frames": 420,
+      "encoded_crop_xywh": [
+        784,
+        24,
+        356,
+        398
+      ],
+      "display_scale": 2,
+      "time_or_effect_strength_altered": false
+    },
+    {
+      "path": "Gate-canopy-and-wind-detail.mp4",
+      "sha256": "630296746cd08a17a39ce1def0811039b5b9ba7a3b611e1991a57903ff1785f9",
+      "source_sha256": "4255f0fbeb80170cb58895e6f28900f7aad06fdfa8889716efc4f3d5c4d8a3b8",
+      "scene_start_seconds": 8,
+      "seconds": 16,
+      "decoded_frames": 480,
+      "encoded_crop_xywh": [
+        0,
+        0,
+        726,
+        478
+      ],
+      "display_scale": 2,
+      "time_or_effect_strength_altered": false
+    },
+    {
+      "path": "Gate-rover-approach-detail.mp4",
+      "sha256": "b85d2dc27ebc7b72556aa32bb35da81157fdd590cda8358046864da98513ce06",
+      "source_sha256": "4255f0fbeb80170cb58895e6f28900f7aad06fdfa8889716efc4f3d5c4d8a3b8",
+      "scene_start_seconds": 7,
+      "seconds": 20,
+      "decoded_frames": 600,
+      "encoded_crop_xywh": [
+        826,
+        406,
+        452,
+        220
+      ],
+      "display_scale": 2,
+      "time_or_effect_strength_altered": false
+    },
+    {
+      "path": "Gate-loop-join-10s.mp4",
+      "sha256": "ebd07356b587c3d8eb0386a9fd24f2a1e3266774440f106e443c0bdcf1de1130",
+      "seconds": 10,
+      "decoded_frames": 300,
+      "exact_encoded_picture_sequence": "scene55-60 then0-5",
+      "all_decoded_yuv_hashes_match_source": true
+    }
+  ]
+}

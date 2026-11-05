@@ -1,0 +1,350 @@
+{
+  "schema_type": "scene_development_backlog_not_renderer_settings",
+  "date": "2026-11-05",
+  "status": "planned_no_new_animation_rendered",
+  "catalog_number": 17,
+  "slug": "gate-camp",
+  "title": "The Gate Camp After Sunset",
+  "source": {
+    "path": "creative/brainstorm/2026-10-27-three-worlds/e1-gate-camp/concept-v1.png",
+    "sha256": "384fefe650ce8420b166a6fc55cc9f50bd878ec8379b514def985c8313cd9f08",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "existing_renderer": {
+    "path": "music/gate-camp-animation-v2/render_water_light.py",
+    "sha256": "22b58fd75c2d371b30250051abad38c9aaf62e7f5bf45845f5f36efda0b227e8"
+  },
+  "existing_preview": "music/gate-camp-animation-v2/Gate-Camp-water-and-light-v2-8s.mp4",
+  "concept_anchors_are_approximate_not_finished_masks": true,
+  "proposed_preview": {
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "seconds": 60,
+    "unique_frames": 1800,
+    "audio": false
+  },
+  "long_session": {
+    "attention_cycle_seconds": 600,
+    "status": "proposed_not_implemented",
+    "keep_physical_speeds_independent_of_cycle_duration": true
+  },
+  "principal_actions": [
+    "G01",
+    "G02",
+    "G03",
+    "G04",
+    "G05"
+  ],
+  "first_proof_pack": [
+    "G01",
+    "G02",
+    "G05"
+  ],
+  "candidates": [
+    {
+      "id": "G01",
+      "title": "A steady watery portal with broad rolling motion",
+      "state": "upgrade_existing",
+      "priority": 1,
+      "planning_anchor_native": [
+        1261,
+        263
+      ],
+      "action": "The open surface rolls slowly with darker pockets and pearl-blue highlights, retaining fine texture underneath.",
+      "method": "Convert V2 into a real60s periodic surface with bounded source-valid deformation and matched boundary velocity. Avoid a spinning texture or repeated activation burst.",
+      "acceptance": "Broad motion reads in the full scene without glitter noise, ring deformation or a detectable reset.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "G02",
+        "G08"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "G02",
+      "title": "Portal light that reaches the surrounding set",
+      "state": "upgrade_existing",
+      "priority": 1,
+      "planning_anchor_native": [
+        1202,
+        472
+      ],
+      "action": "The same surface wave lights stair treads, rail edges and nearby stone; a restrained blue rim reaches appropriate camp objects.",
+      "method": "Use the portal emission field for hand-mapped receiver masks with material/facing/falloff differences. The warm lantern remains the foreground counterlight.",
+      "acceptance": "Blue movement is visible on real surfaces at720p, follows the portal and does not wash the whole frame blue.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "G01",
+        "G08"
+      ],
+      "prerequisite_candidates": [
+        "G01"
+      ]
+    },
+    {
+      "id": "G03",
+      "title": "Cloud layers crossing the alien sky",
+      "state": "new_candidate",
+      "priority": 1,
+      "planning_anchor_native": [
+        669,
+        268
+      ],
+      "action": "Cloud edges travel behind spires and in front of selected distant haze while the large world and small moon stay fixed.",
+      "method": "Separate source-safe sky runs and planet/spire exclusions; advect coherent texture and hide local renewals.",
+      "acceptance": "Recognizable travel is visible across the open sky; neither world nor rock fragments enter moving samples.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "G04"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "G04",
+      "title": "Wind in depth: basin air and low ground streamers",
+      "state": "new_candidate",
+      "priority": 1,
+      "planning_anchor_native": [
+        1067,
+        607
+      ],
+      "action": "Distant basin haze moves slowly while an occasional nearer dry-air tongue crosses the approach around the rocks.",
+      "method": "Depth-specific sizes/speeds and shared gust cues; stone, steps, path lamps and the camp chair occlude the ground layer.",
+      "acceptance": "Far and near movement are both readable, with no straight fog boundary or opaque band across the valley.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "G05",
+        "G06"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "G05",
+      "title": "Canopy fabric breathing between its supports",
+      "state": "new_candidate",
+      "priority": 1,
+      "planning_anchor_native": [
+        340,
+        76
+      ],
+      "action": "A soft gust lifts the broad cloth folds while seams, poles and fixed attachments hold their positions.",
+      "method": "Start with a source-bound mesh deformation of interior cloth folds. Free-edge movement requires a clean revealed sky patch and a separate test.",
+      "acceptance": "A broad fold visibly responds to wind without dragging poles, stretching seams or revealing a duplicate cloth edge.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "G04"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "G06",
+      "title": "A loose strap and selected scrub responding to gusts",
+      "state": "conditional_experiment",
+      "priority": 3,
+      "planning_anchor_native": [
+        522,
+        276
+      ],
+      "action": "A verified loose strap twitches and one small scrub clump leans with stronger gusts.",
+      "method": "Distinguish free webbing from taut guy lines. Separate movable tips over clean background where silhouettes move; keep the motion subordinate to the canopy.",
+      "acceptance": "The same gust drives cloth and vegetation; tensioned lines remain believable and no original silhouette is doubled.",
+      "asset_requirement": "Requires precise movable-element isolation; omit a component that cannot be cleanly reconstructed.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "G04",
+        "G05"
+      ],
+      "prerequisite_candidates": [
+        "G04",
+        "G05"
+      ]
+    },
+    {
+      "id": "G07",
+      "title": "Warm lantern and path-light presence",
+      "state": "upgrade_candidate",
+      "priority": 2,
+      "planning_anchor_native": [
+        182,
+        208
+      ],
+      "action": "Keep a strong warm place to sit, with a rare short practical-light dip and attached spill on canvas, case and ground.",
+      "method": "Trace complete white cores and local lit surfaces. Most path lights stay steady; any lamp event uses a long independent clock.",
+      "acceptance": "Warm core and spill respond together without fire-like flicker on an electric lantern or synchronized path flashing.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "G02"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "G08",
+      "title": "Blue surface reflections on the ring and rail hardware",
+      "state": "new_candidate",
+      "priority": 2,
+      "planning_anchor_native": [
+        1407,
+        334
+      ],
+      "action": "Portal ripples add moving cool highlights to the inner ring lip, rails and appropriate carved metal.",
+      "method": "Tight material/facing masks driven by G01. Preserve the already-open gate state and steady warm chevron identity.",
+      "acceptance": "Metal reads as lit metal with stationary carvings; no floating halo, moving glyphs or mechanical redial every minute.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "G01",
+        "G02"
+      ],
+      "prerequisite_candidates": [
+        "G01",
+        "G02"
+      ]
+    },
+    {
+      "id": "G09",
+      "title": "Live survey map on the laptop",
+      "state": "new_candidate",
+      "priority": 2,
+      "planning_anchor_native": [
+        71,
+        548
+      ],
+      "action": "A small route marker, restrained scan and occasional status-line refresh animate the existing map.",
+      "method": "Perspective-map inside the current screen; retain its original map texture and bezel. Use expedition telemetry rather than a prominent decorative waveform.",
+      "acceptance": "Readable activity stays inside the angled display; no laptop, keyboard or floor movement.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "G10"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "G10",
+      "title": "A radio receive indicator on the real device",
+      "state": "new_candidate",
+      "priority": 2,
+      "planning_anchor_native": [
+        243,
+        576
+      ],
+      "action": "A source-mounted receive indicator and small meter acknowledge occasional communications.",
+      "method": "Select a real screen/lens on the device; use short held acknowledgements on a long event clock, optionally linked to a later radio SFX audition.",
+      "acceptance": "Light is attached to hardware and survives720p; no random key sparkle or mandatory chatter.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "G09"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "G11",
+      "title": "Mug steam after a small geometry repair",
+      "state": "new_candidate",
+      "priority": 2,
+      "planning_anchor_native": [
+        352,
+        625
+      ],
+      "action": "A few fine warm wisps rise from a correctly formed mug and disperse into the open air.",
+      "method": "Repair the duplicated handle first, freeze the new plate/hash, then trace cup/rim and use irregular source-anchored steam.",
+      "acceptance": "One coherent mug handle, correct rim attachment, visible quiet steam and no changes outside the repair/effect masks.",
+      "asset_requirement": "The existing source has handles on both sides; prepare a confined repair before this effect or any final plate lock.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "G05"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "G12",
+      "title": "A rare expedition rover near the approach",
+      "state": "stretch_experiment",
+      "priority": 3,
+      "planning_anchor_native": [
+        1292,
+        598
+      ],
+      "action": "A small wheeled survey rover makes a quiet approach along verified clear ground and settles by the expedition staging area.",
+      "method": "Requires a convincing asset, projected wheel contact/suspension, local shadows and solid rock/rail/chair occlusion. Keep it a rare narrative beat.",
+      "acceptance": "The rover sits on the uneven ground at the right scale and never cuts through steps or railings; the gate remains the main subject.",
+      "asset_requirement": "New reviewed rover asset and source-space ground/occlusion setup. Do after the base environment is accepted; defer human portal crossings.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "G01",
+        "G02",
+        "G04"
+      ],
+      "prerequisite_candidates": [
+        "G01",
+        "G02",
+        "G04"
+      ]
+    }
+  ],
+  "knowledge_reuse": [
+    {
+      "scene": "Crater Rim V5",
+      "evidence": "music/crater-rim-animation-v5/README.md",
+      "use": "Normal-size readability, bright bounded emitter cores/longer holds, source-linked spill, true road placement and premultiplied tiny-asset edges.",
+      "limit": "Positive V5 feedback; no transferable numeric gains or automatic approval for a new source."
+    },
+    {
+      "scene": "Crater Rim long-version handoff",
+      "evidence": "music/crater-rim-animation-v5/LONG_VERSION.md",
+      "use": "Separate absolute attention clock from a shorter environmental phase; keep event clocks continuous across chunks.",
+      "limit": "The600s schedule is a proposal, not implemented long-animation evidence."
+    },
+    {
+      "scene": "Snowline V6",
+      "evidence": "music/below-the-snowline-animation-v6/README.md",
+      "use": "Source and destination occlusion, source-tap checks, full structure context and matching light core/spill.",
+      "limit": "New scene geometry needs new masks; scene approval does not transfer."
+    },
+    {
+      "scene": "Baal synced storm",
+      "evidence": "music/beneath-a-crimson-sky-synced-storm/README.md",
+      "use": "Different depth speeds and one cue envelope shared by visible weather and sound.",
+      "limit": "Borrow the method, not sandstorm density, strike count or source-specific levels."
+    },
+    {
+      "scene": "Rainline V5 and Shoreless V3",
+      "evidence": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "use": "Inward glass masks, surface-preserving motion and restrained mapped display activity.",
+      "limit": "Source-specific techniques; Shoreless rejected the large waveform, and isolated numeric checks are not playback approval."
+    }
+  ],
+  "gates": [
+    "Audit the exact original art and current encoded baseline; freeze hashes before any source repair.",
+    "Trace both sampled-source support and output protection, plus solid foreground occluders. Planning pins are not effect masks.",
+    "Eight-to-twelve-second isolated tests at full composition and actual frame rate, followed by one combined visible core pass.",
+    "Inspect unamplified720p at1x plus native crops; then an A/B with matching viewpoint and disclosed timing changes.",
+    "No camera drift, whole-scene dissolve, geometry wobble, synchronized skyline/room exposure or unmotivated repeated dramatic events.",
+    "Build a genuine60s environmental cycle and a separate600s attention clock; validate states/velocity/occlusion at joins and across chunks.",
+    "Decode every frame and timestamp, compare native-to-encoded controls and regional seam steps, and keep user playback acceptance separate.",
+    "Render accepted native-frame effects directly to4K with explicitBT709/TV handling and disclosed source upscaling; current intro once at assembly."
+  ],
+  "not_done": [
+    "No new source repair or asset generation",
+    "No new motion previews",
+    "No soundtrack or SFX generation",
+    "No4K/long-form production",
+    "No commit or push for this planning task"
+  ],
+  "geometry_seed_file": "creative/animation-development/2026-11-05-16-17/geometry-seeds.json",
+  "proposed_new_work_folder": "music/gate-camp-animation-v3/",
+  "current_source_and_master_preserved": true
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-05",
+  "status": "passed",
+  "scenes": [
+    {
+      "number": 16,
+      "candidates": 12,
+      "native_anchors_within_source": true,
+      "source_and_existing_renderer_hashes_match": true,
+      "build_prerequisites_acyclic": true,
+      "new_motion_rendered": false
+    },
+    {
+      "number": 17,
+      "candidates": 12,
+      "native_anchors_within_source": true,
+      "source_and_existing_renderer_hashes_match": true,
+      "build_prerequisites_acyclic": true,
+      "new_motion_rendered": false
+    }
+  ],
+  "html_source_map": {
+    "candidate_details": 24,
+    "all_ids_unique": true,
+    "all_local_links_and_images_exist": true,
+    "all_candidate_pin_targets_exist": true,
+    "javascript_required": false
+  },
+  "current_source_images_and_masters_unchanged": true,
+  "baseline_source_audit": "baseline-audit.json",
+  "review_limit": "Source and actual decoded baseline stills inspected; no new animations or user artistic approvals inferred."
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "first-visual-draft-settings-v1",
+  "source": "music/gate-camp-animation-v3/artwork-v2-mug-repair.png",
+  "fps": 30,
+  "environment_period_seconds": 60,
+  "review_schedule": "showcase60",
+  "review_not_production_event_frequency": true,
+  "water_wave_cycles_per_minute": [14,15,20],
+  "water_highlight_cycles_per_minute": [11,8],
+  "bounded_drift_native_px": [10.5042,-17.1887],
+  "portal_light_rgb_lift": [5,21,39],
+  "wind_gusts_seconds": [[9,4,6,6],[35,6,6,7]],
+  "canopy_displacement_native_px": 2.7,
+  "lantern_dip_seconds": [26.4,26.75,53.2],
+  "radio_receive_seconds": [15,43],
+  "rover_review_enter_park_reverse_seconds": [7,18,32,44],
+  "production_attention_period_seconds": 600,
+  "production_schedule_status": "not_implemented_or_approved",
+  "audio": false
+}

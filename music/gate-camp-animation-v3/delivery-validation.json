@@ -1,0 +1,264 @@
+{
+  "status": "technical_checks_passed_user_visual_review_pending",
+  "path": "music/gate-camp-animation-v3/Gate-Camp-V3-first-draft-60s.mp4",
+  "sha256": "4255f0fbeb80170cb58895e6f28900f7aad06fdfa8889716efc4f3d5c4d8a3b8",
+  "bytes": 37552905,
+  "seconds": 60,
+  "fps": 30,
+  "decoded_frames": 1800,
+  "unique_decoded_frame_hashes": 1800,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "audio": false,
+  "explicit_bt709_tv": true,
+  "native_yuv_exact_controls": [
+    0,
+    1,
+    105,
+    300,
+    450,
+    540,
+    616,
+    796,
+    1080,
+    1290,
+    1419,
+    1600,
+    1650,
+    1798,
+    1799
+  ],
+  "source_protection_checked_every_frame_during_encode": true,
+  "independent_native_protection_states": 241,
+  "protected_pixel_changes": 0,
+  "source_sampling_states": 241,
+  "minimum_sampled_cloud_or_portal_jacobian": 0.2833390533924103,
+  "regional_encoded_joins": [
+    {
+      "region": "portal_water",
+      "join_rgb_mae": 0.6768572505376106,
+      "nearby_steps_rgb_mae": [
+        0.6784460652818114,
+        0.6845279003258917,
+        0.6808773213322397,
+        0.6839958321324849
+      ],
+      "gate": 1.463697430554016,
+      "pass": true
+    },
+    {
+      "region": "portal_steps_light",
+      "join_rgb_mae": 0.17530453466410217,
+      "nearby_steps_rgb_mae": [
+        0.16962104278213858,
+        0.17715860061340125,
+        0.17686402938781168,
+        0.1760149711493476
+      ],
+      "gate": 0.6011696210427822,
+      "pass": true
+    },
+    {
+      "region": "inner_ring_light",
+      "join_rgb_mae": 0.12139958319622683,
+      "nearby_steps_rgb_mae": [
+        0.1261489525063069,
+        0.12598442470110782,
+        0.1242733355270374,
+        0.12327520017549633
+      ],
+      "gate": 0.5144532192607217,
+      "pass": true
+    },
+    {
+      "region": "clouds",
+      "join_rgb_mae": 0.054420505200594355,
+      "nearby_steps_rgb_mae": [
+        0.055906389301634475,
+        0.013837295690936106,
+        0.016499504705299654,
+        0.02089524517087667
+      ],
+      "gate": 0.3950408618127786,
+      "pass": true
+    },
+    {
+      "region": "far_basin",
+      "join_rgb_mae": 0.012921316649757637,
+      "nearby_steps_rgb_mae": [
+        0.012752226355540526,
+        0.005763160861233232,
+        0.010920414834855147,
+        0.018670386653139442
+      ],
+      "gate": 0.33173965731033705,
+      "pass": true
+    },
+    {
+      "region": "near_ground",
+      "join_rgb_mae": 0.00414634720946121,
+      "nearby_steps_rgb_mae": [
+        0.00574834499493486,
+        0.003824377066302291,
+        0.004947346102198035,
+        0.004232729442991652
+      ],
+      "gate": 0.30977218649138927,
+      "pass": true
+    },
+    {
+      "region": "canopy",
+      "join_rgb_mae": 0.009628506444275967,
+      "nearby_steps_rgb_mae": [
+        0.008575520175216915,
+        0.00880296520933367,
+        0.0076488922584449495,
+        0.00872715019796142
+      ],
+      "gate": 0.31496504085586724,
+      "pass": true
+    },
+    {
+      "region": "rope",
+      "join_rgb_mae": 0.25707460492466006,
+      "nearby_steps_rgb_mae": [
+        0.1932194046306505,
+        0.09472620360161706,
+        0.2476111723631018,
+        0.32919882396177874
+      ],
+      "gate": 0.8596380007350239,
+      "pass": true
+    },
+    {
+      "region": "scrub",
+      "join_rgb_mae": 0.013285024154589372,
+      "nearby_steps_rgb_mae": [
+        0.022705314009661835,
+        0.005072463768115942,
+        0.009903381642512078,
+        0.004347826086956522
+      ],
+      "gate": 0.3385990338164251,
+      "pass": true
+    },
+    {
+      "region": "cup_steam",
+      "join_rgb_mae": 0.010058568882098294,
+      "nearby_steps_rgb_mae": [
+        0.015406162464985995,
+        0.0142602495543672,
+        0.014514896867838044,
+        0.012605042016806723
+      ],
+      "gate": 0.3261904761904762,
+      "pass": true
+    },
+    {
+      "region": "lantern_0",
+      "join_rgb_mae": 0.0,
+      "nearby_steps_rgb_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gate": 0.3,
+      "pass": true
+    },
+    {
+      "region": "lantern_1",
+      "join_rgb_mae": 0.004483235560642915,
+      "nearby_steps_rgb_mae": [
+        0.004731244336338055,
+        0.004426002766251729,
+        0.003748748032622693,
+        0.0037582868316878904
+      ],
+      "gate": 0.3080431153717747,
+      "pass": true
+    },
+    {
+      "region": "lantern_2",
+      "join_rgb_mae": 0.0,
+      "nearby_steps_rgb_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gate": 0.3,
+      "pass": true
+    },
+    {
+      "region": "foreground_blue_rim",
+      "join_rgb_mae": 0.015917602996254682,
+      "nearby_steps_rgb_mae": [
+        0.011503477795612628,
+        0.016051364365971106,
+        0.019261637239165328,
+        0.022338148742643126
+      ],
+      "gate": 0.3379748528624933,
+      "pass": true
+    },
+    {
+      "region": "laptop",
+      "join_rgb_mae": 0.015976563679743892,
+      "nearby_steps_rgb_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gate": 0.3,
+      "pass": true
+    },
+    {
+      "region": "radio",
+      "join_rgb_mae": 0.0,
+      "nearby_steps_rgb_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gate": 0.3,
+      "pass": true
+    },
+    {
+      "region": "rover",
+      "join_rgb_mae": 0.002960546190562504,
+      "nearby_steps_rgb_mae": [
+        0.003314430720629742,
+        0.002416772400459187,
+        0.0034352693406527013,
+        0.0030123341705723433
+      ],
+      "gate": 0.30583995787910956,
+      "pass": true
+    }
+  ],
+  "native_endpoint_identity": true,
+  "input_hashes": {
+    "music/gate-camp-animation-v3/artwork-v2-mug-repair.png": "2ab1c625a93e293b23e1c973ca86b98f70e12ca33c9a4cbd1f85f94ed472be00",
+    "music/gate-camp-animation-v3/settings.json": "cbf8a66f5755828d2f1f4d57b0bc5676516f01589764d61cceeb78c7fa276327",
+    "music/scene-animation-core/core.py": "fbcf466ee4e286e0e68578336a4cb2d3b2a8bd5f8d7b1fd7f61bff1a9b984bf0",
+    "music/gate-camp-animation-v3/render.py": "7d962e8ff0db692b281ab0dbaca0292909dcf1c1671b5b77e0d6b8c71d8b337e",
+    "creative/animation-development/2026-11-05-16-17/geometry-seeds.json": "08f6a393abd3e996c3b3fe0fff397dd4bf33d2930f6871ea98d7ffd85114394d",
+    "music/scene16-17-first-draft-assets/gate-motion-background.png": "24c93d197e8d38312321da94ee4247f2619964e3ec450acd4222e305333366cf",
+    "music/scene16-17-first-draft-assets/gate-rope-mask.png": "2dd0064548d9f2575405472a242932688cae69b7477af7a3f3d4c091f5c9511b",
+    "music/scene16-17-first-draft-assets/gate-scrub-mask.png": "9647e6e3140915ea71602d1a67ddd5fc7e874b86ef744ebf22547a2386ff9384",
+    "music/scene16-17-first-draft-assets/expedition-rover-sprite.png": "f9f8f562a6425d7c1e8863fd365b3b6f3b1790ef0434ef1668971590e31cabe3"
+  },
+  "runtime": {
+    "python": "3.13.14",
+    "numpy": "2.4.3",
+    "opencv": "5.0.0",
+    "ffmpeg_path": "C:\\Users\\john\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "ffmpeg_sha256": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3"
+  },
+  "inspection_limit": "Native and colour-aware decoded temporal stills inspected separately; no assistant continuous-playback or artistic approval inferred. Showcase minute is not an accepted ten-minute or long-session schedule."
+}

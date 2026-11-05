@@ -1,0 +1,154 @@
+{
+  "scene": {
+    "catalog_number": 17,
+    "title": "The Gate Camp After Sunset",
+    "version": "V3",
+    "folder": "music/gate-camp-animation-v3",
+    "video": "Gate-Camp-V3-first-draft-60s.mp4",
+    "fps": 30,
+    "seconds": 60,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "user_approved": false,
+    "audio": false,
+    "technical_validation": "delivery-validation.json",
+    "details": [
+      {
+        "path": "Gate-water-and-steps-detail.mp4",
+        "sha256": "a5b87266f18b04c707148f8e4d1f09183055676320a4607789d6ad06eaa83f41",
+        "source_sha256": "4255f0fbeb80170cb58895e6f28900f7aad06fdfa8889716efc4f3d5c4d8a3b8",
+        "scene_start_seconds": 4,
+        "seconds": 14,
+        "decoded_frames": 420,
+        "encoded_crop_xywh": [
+          784,
+          24,
+          356,
+          398
+        ],
+        "display_scale": 2,
+        "time_or_effect_strength_altered": false
+      },
+      {
+        "path": "Gate-canopy-and-wind-detail.mp4",
+        "sha256": "630296746cd08a17a39ce1def0811039b5b9ba7a3b611e1991a57903ff1785f9",
+        "source_sha256": "4255f0fbeb80170cb58895e6f28900f7aad06fdfa8889716efc4f3d5c4d8a3b8",
+        "scene_start_seconds": 8,
+        "seconds": 16,
+        "decoded_frames": 480,
+        "encoded_crop_xywh": [
+          0,
+          0,
+          726,
+          478
+        ],
+        "display_scale": 2,
+        "time_or_effect_strength_altered": false
+      },
+      {
+        "path": "Gate-rover-approach-detail.mp4",
+        "sha256": "b85d2dc27ebc7b72556aa32bb35da81157fdd590cda8358046864da98513ce06",
+        "source_sha256": "4255f0fbeb80170cb58895e6f28900f7aad06fdfa8889716efc4f3d5c4d8a3b8",
+        "scene_start_seconds": 7,
+        "seconds": 20,
+        "decoded_frames": 600,
+        "encoded_crop_xywh": [
+          826,
+          406,
+          452,
+          220
+        ],
+        "display_scale": 2,
+        "time_or_effect_strength_altered": false
+      },
+      {
+        "path": "Gate-loop-join-10s.mp4",
+        "sha256": "ebd07356b587c3d8eb0386a9fd24f2a1e3266774440f106e443c0bdcf1de1130",
+        "seconds": 10,
+        "decoded_frames": 300,
+        "exact_encoded_picture_sequence": "scene55-60 then0-5",
+        "all_decoded_yuv_hashes_match_source": true
+      }
+    ],
+    "implementation": [
+      {
+        "id": "G01",
+        "status": "first_pass_for_visual_review",
+        "implementation": "True sixty-second periodic water with14/15/20 wave cycles,11/8 broad highlight cycles and bounded smooth drift."
+      },
+      {
+        "id": "G02",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Shared moving portal fronts projected onto actual steps and landing; subdued foreground blue rim."
+      },
+      {
+        "id": "G03",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Local source-cloud renewal in clear runs around fixed world bodies, ring, canopy and spires."
+      },
+      {
+        "id": "G04",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Separate far-basin air and near-ground streamers at different speeds, coupled to the gust envelope."
+      },
+      {
+        "id": "G05",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Broad interior cloth folds move and shade locally; outline, posts and joints remain fixed."
+      },
+      {
+        "id": "G06",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Original taut guyline vibrates with fixed endpoints; one selected scrub clump leans with the gust."
+      },
+      {
+        "id": "G07",
+        "status": "first_pass_for_visual_review",
+        "implementation": "A few main-lantern dips with linked canvas/case response; path lamps stay predominantly steady."
+      },
+      {
+        "id": "G08",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Cool inner-ring material response from the same portal fronts; warm chevrons do not redial."
+      },
+      {
+        "id": "G09",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Perspective-mapped laptop route marker and modest status-line updates over the original map."
+      },
+      {
+        "id": "G10",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Small radio receive indicators at two review cues."
+      },
+      {
+        "id": "G11",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Confined left-handle mug repair, then light steam from the existing rim."
+      },
+      {
+        "id": "G12",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Generated RGBA expedition rover approaches on clear ground, parks, then reverses out; no gate crossing."
+      }
+    ]
+  },
+  "review_timing": "Shared wind rises:9\u201325s and35\u201354s. Rover:enters7\u201318s, parks18\u201332s and reverses out32\u201344s. Radio:15s and43s. Lantern dips:26.4/26.75s and53.2s. Water and interactive light continue throughout.",
+  "caveats": "The canopy uses interior folds; its free edge is intentionally fixed. The rover is an experiment, with a brief stationary hold and a reverse exit. Taut-line vibration is deliberately much smaller than cloth motion. The source mug has only its left handle repaired in a confined patch; the original source is preserved.",
+  "cues": {
+    "mode": "visual_showcase_60_seconds_not_long_session",
+    "production_attention_period_seconds": 600,
+    "production_schedule_status": "not_implemented",
+    "visual_settings": "settings.json",
+    "future_sfx": [
+      "Wind uses exactly the shared wind_gusts_seconds envelope in settings.json.",
+      "Selected cloth rustle follows canopy gust intensity; not a continuous loud flapping loop.",
+      "Separate original low gate resonance and restrained liquid movement, auditioned under the score.",
+      "Optional rover motor only on moving sections; do not play during its parking hold.",
+      "Radio sound remains a later sparse long-schedule decision, informed by Snowline feedback."
+    ],
+    "no_audio_generated_or_gains_approved": true
+  }
+}

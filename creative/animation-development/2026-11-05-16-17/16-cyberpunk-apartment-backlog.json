@@ -1,0 +1,345 @@
+{
+  "schema_type": "scene_development_backlog_not_renderer_settings",
+  "date": "2026-11-05",
+  "status": "planned_no_new_animation_rendered",
+  "catalog_number": 16,
+  "slug": "cyberpunk-apartment",
+  "title": "Cyberpunk Apartment",
+  "source": {
+    "path": "final/16-cyberpunk-apartment/artwork-v3.png",
+    "sha256": "3ae5b38ec7c6c5fa31d1df38a6659c39efdec5b717bfa199b0b839a1c0fc634d",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "existing_renderer": {
+    "path": "final/16-cyberpunk-apartment/animation-v3/render.py",
+    "sha256": "fac10843f65cd3078a022f65c5549f815d0b93801d59fdd5facaf9213a9911d5"
+  },
+  "existing_preview": "final/16-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-1080p.mp4",
+  "concept_anchors_are_approximate_not_finished_masks": true,
+  "proposed_preview": {
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 60,
+    "seconds": 60,
+    "unique_frames": 3600,
+    "audio": false
+  },
+  "long_session": {
+    "attention_cycle_seconds": 600,
+    "status": "proposed_not_implemented",
+    "keep_physical_speeds_independent_of_cycle_duration": true
+  },
+  "principal_actions": [
+    "A01",
+    "A02",
+    "A04",
+    "A05",
+    "A06"
+  ],
+  "first_proof_pack": [
+    "A04",
+    "A02",
+    "A05"
+  ],
+  "candidates": [
+    {
+      "id": "A01",
+      "title": "Cloud banks travelling between the towers",
+      "state": "upgrade_existing",
+      "priority": 1,
+      "planning_anchor_native": [
+        826,
+        208
+      ],
+      "action": "Move coherent cloud shapes across several skyline depths, with clear gaps and near towers staying sharp.",
+      "method": "Source-texture transport and separately renewed gap mist; preserve both source taps and destination silhouettes. V3 has translating density patterns, not a complete source-cloud transport pass.",
+      "acceptance": "A recognizable cloud edge moves at full-scene720p without dragging a tower or producing a flat fog stripe.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "A04"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "A02",
+      "title": "Convincing irregular road traffic",
+      "state": "upgrade_existing",
+      "priority": 1,
+      "planning_anchor_native": [
+        1162,
+        596
+      ],
+      "action": "Clear vehicle bodies and distinct head/tail lights follow the existing near and elevated roads, with pairs, gaps and safe headways.",
+      "method": "Replace normalized10s whole-route travel with source-space speed and explicit event births/occlusion. Perspective-scaled silhouettes, premultiplied edges, contact/reflection response. Preserve the removed hovering-car repairs.",
+      "acceptance": "Traffic reads as vehicles on asphalt at normal size; no overtaking collisions, curb-following errors, floating lights or repeating short tile.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "A05"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "A03",
+      "title": "A rare commuter shuttle on the elevated road",
+      "state": "new_candidate",
+      "priority": 2,
+      "planning_anchor_native": [
+        1182,
+        390
+      ],
+      "action": "One longer illuminated bus crosses the existing elevated roadway, briefly disappearing behind towers.",
+      "method": "Road vehicle, not a new railway or aircraft. Low-contrast body with a few attached windows and wet-road response; one passage in a proposed3-5min interval.",
+      "acceptance": "The body remains aligned with the road and correctly occluded, and the larger transit moment feels occasional.",
+      "asset_requirement": "New small vehicle asset or a carefully projected procedural body; inspect its geometry before a full pass.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "A02",
+        "A05"
+      ],
+      "prerequisite_candidates": [
+        "A02",
+        "A05"
+      ]
+    },
+    {
+      "id": "A04",
+      "title": "Independent sign programmes with local light spill",
+      "state": "upgrade_existing",
+      "priority": 1,
+      "planning_anchor_native": [
+        1131,
+        354
+      ],
+      "action": "A few existing large signs have readable travelling heads, dimmer holds and different rhythms.",
+      "method": "Map complete existing emitters including white cores; preserve glyphs. Give each sign its own schedule and drive nearby haze and surfaces from that same signal.",
+      "acceptance": "At least two signs visibly change in the full scene; city exposure and building edges remain fixed.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "A05"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "A05",
+      "title": "Reflections that belong to each light source",
+      "state": "upgrade_existing",
+      "priority": 1,
+      "planning_anchor_native": [
+        1204,
+        535
+      ],
+      "action": "Selected sign and traffic changes echo in the river, wet roads and the cool floor strip.",
+      "method": "One emission signal per source with separate perspective-mapped receiver masks; calm source-detail-preserving water motion. Retain warm furniture reflections.",
+      "acceptance": "Colour, timing and apparent source position agree; river motion has no shoreline tearing or broad floor wobble.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "A02",
+        "A04"
+      ],
+      "prerequisite_candidates": [
+        "A02",
+        "A04"
+      ]
+    },
+    {
+      "id": "A06",
+      "title": "Refractive droplets with trails and occasional merging",
+      "state": "upgrade_existing",
+      "priority": 1,
+      "planning_anchor_native": [
+        1040,
+        185
+      ],
+      "action": "Several readable close glass drops bead, stick and slide while finer rain stays outside.",
+      "method": "Replace a few flat bead marks with local source-valid refraction, a narrow highlight and a fading wet trail; selected merge events need continuous volume/paths.",
+      "acceptance": "Drops survive normal-size viewing; refraction never samples a frame or interior object and trails do not cover the view.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "A01"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "A07",
+      "title": "Ventilation vapour in the lower city",
+      "state": "new_candidate",
+      "priority": 2,
+      "planning_anchor_native": [
+        1410,
+        410
+      ],
+      "action": "Two anchored exhaust plumes rise from verified rooftop outlets, then drift into the existing street mist.",
+      "method": "Choose actual flues in the source before drawing anchors; broad overlapping wisps, wind-linked drift and building occlusion.",
+      "acceptance": "Plumes clearly leave their outlets and stay behind intervening masonry; no emission from an invented antenna.",
+      "asset_requirement": "Trace actual visible outlets first; if no convincing outlet is present, retain this as gap mist instead.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "A01"
+      ],
+      "prerequisite_candidates": [
+        "A01"
+      ]
+    },
+    {
+      "id": "A08",
+      "title": "Better cup steam against the dark sofa",
+      "state": "upgrade_existing",
+      "priority": 2,
+      "planning_anchor_native": [
+        608,
+        702
+      ],
+      "action": "Soft uneven wisps leave the existing cup, separate and disperse rather than drawing a repeating corkscrew.",
+      "method": "Keep the cup and table fixed; broaden the useful vapour footprint and vary density independently of the neon programmes.",
+      "acceptance": "Visible but quiet at720p, attached to the liquid surface, with no repeated spiral or smoke-like plume.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "A10"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "A09",
+      "title": "Occupied windows and existing mast lights",
+      "state": "upgrade_and_candidate",
+      "priority": 2,
+      "planning_anchor_native": [
+        443,
+        358
+      ],
+      "action": "A few complete apartment windows hold different occupied states; selected existing mast lights have readable small bright centres.",
+      "method": "Trace larger real panes and hardware instead of scattering random dots. Most windows stay steady; source-mounted beacon halos remain bounded.",
+      "acceptance": "Window states are local and independently held; no whole-district breathing or lights placed in haze.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "A04"
+      ],
+      "prerequisite_candidates": [
+        "A04"
+      ]
+    },
+    {
+      "id": "A10",
+      "title": "One warm practical with coupled reflections",
+      "state": "new_candidate",
+      "priority": 2,
+      "planning_anchor_native": [
+        706,
+        720
+      ],
+      "action": "The table lamp has an occasional gentle hesitation, shared by its nearby pool and marble reflection.",
+      "method": "Reuse the Crater lamp core/spill method with new source geometry. Include the white bulb; keep most room lighting steady and use a long attention clock.",
+      "acceptance": "Core, nearby table and warm reflected contribution dip together; no room-wide exposure change or constant flicker.",
+      "asset_requirement": "Existing clean plate; new source masks must be traced at native size.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "A08"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "A11",
+      "title": "A few leaves moving in indoor ventilation",
+      "state": "conditional_experiment",
+      "priority": 3,
+      "planning_anchor_native": [
+        277,
+        400
+      ],
+      "action": "Only selected leaf tips bend gently from their attachments while stems, pot and sofa remain anchored.",
+      "method": "Use isolated leaf elements over a clean background; do not warp the whole plant or smear the scene behind it. A constrained test earns inclusion.",
+      "acceptance": "No doubled original leaf, rubbery edge or displaced pot; the movement is subtle and credible at source scale.",
+      "asset_requirement": "Requires leaf separation and a clean revealed background patch; existing V3 deliberately keeps the plant static.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "A10"
+      ],
+      "prerequisite_candidates": []
+    },
+    {
+      "id": "A12",
+      "title": "An occasional river service ferry",
+      "state": "stretch_experiment",
+      "priority": 3,
+      "planning_anchor_native": [
+        1322,
+        568
+      ],
+      "action": "A small utility boat crosses a verified open-water route with a narrow wake and a soft reflected light.",
+      "method": "Map a true water corridor, bridge/building occlusion and perspective before making an asset. Keep the passage sparse over several minutes.",
+      "acceptance": "A solid hull sits on water with a restrained wake; no crossing dry terraces, emerging through a bridge or bright floating dot.",
+      "asset_requirement": "New vessel asset plus independently reviewed water/occlusion masks; optional after the main city pass is accepted.",
+      "implemented_in_this_task": false,
+      "coupled_with": [
+        "A05"
+      ],
+      "prerequisite_candidates": [
+        "A05"
+      ]
+    }
+  ],
+  "knowledge_reuse": [
+    {
+      "scene": "Crater Rim V5",
+      "evidence": "music/crater-rim-animation-v5/README.md",
+      "use": "Normal-size readability, bright bounded emitter cores/longer holds, source-linked spill, true road placement and premultiplied tiny-asset edges.",
+      "limit": "Positive V5 feedback; no transferable numeric gains or automatic approval for a new source."
+    },
+    {
+      "scene": "Crater Rim long-version handoff",
+      "evidence": "music/crater-rim-animation-v5/LONG_VERSION.md",
+      "use": "Separate absolute attention clock from a shorter environmental phase; keep event clocks continuous across chunks.",
+      "limit": "The600s schedule is a proposal, not implemented long-animation evidence."
+    },
+    {
+      "scene": "Snowline V6",
+      "evidence": "music/below-the-snowline-animation-v6/README.md",
+      "use": "Source and destination occlusion, source-tap checks, full structure context and matching light core/spill.",
+      "limit": "New scene geometry needs new masks; scene approval does not transfer."
+    },
+    {
+      "scene": "Baal synced storm",
+      "evidence": "music/beneath-a-crimson-sky-synced-storm/README.md",
+      "use": "Different depth speeds and one cue envelope shared by visible weather and sound.",
+      "limit": "Borrow the method, not sandstorm density, strike count or source-specific levels."
+    },
+    {
+      "scene": "Rainline V5 and Shoreless V3",
+      "evidence": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "use": "Inward glass masks, surface-preserving motion and restrained mapped display activity.",
+      "limit": "Source-specific techniques; Shoreless rejected the large waveform, and isolated numeric checks are not playback approval."
+    }
+  ],
+  "gates": [
+    "Audit the exact original art and current encoded baseline; freeze hashes before any source repair.",
+    "Trace both sampled-source support and output protection, plus solid foreground occluders. Planning pins are not effect masks.",
+    "Eight-to-twelve-second isolated tests at full composition and actual frame rate, followed by one combined visible core pass.",
+    "Inspect unamplified720p at1x plus native crops; then an A/B with matching viewpoint and disclosed timing changes.",
+    "No camera drift, whole-scene dissolve, geometry wobble, synchronized skyline/room exposure or unmotivated repeated dramatic events.",
+    "Build a genuine60s environmental cycle and a separate600s attention clock; validate states/velocity/occlusion at joins and across chunks.",
+    "Decode every frame and timestamp, compare native-to-encoded controls and regional seam steps, and keep user playback acceptance separate.",
+    "Render accepted native-frame effects directly to4K with explicitBT709/TV handling and disclosed source upscaling; current intro once at assembly."
+  ],
+  "not_done": [
+    "No new source repair or asset generation",
+    "No new motion previews",
+    "No soundtrack or SFX generation",
+    "No4K/long-form production",
+    "No commit or push for this planning task"
+  ],
+  "geometry_seed_file": "creative/animation-development/2026-11-05-16-17/geometry-seeds.json",
+  "proposed_new_work_folder": "music/cyberpunk-apartment-animation-v4/",
+  "current_source_and_master_preserved": true
+}

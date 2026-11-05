@@ -1,0 +1,12 @@
+{
+  "mode": "built-in image_gen",
+  "request": {
+    "prompt": "Use case: precise-object-edit. Edit target: the provided full wide alien gate-camp image. Produce a CLEAN BACKPLATE for a procedural animation, keeping the exact framing, perspective, colour, sharpness, object positions and 16:9 composition. Make only these three removals: (1) The white enamel mug in the bottom-left foreground currently has two handles. Remove ONLY its LEFT handle, reconstructing the small dark background/case area behind it. Keep the mug body, black rim, RIGHT handle and shadow exactly as they are. (2) Remove the thin diagonal black guy-line below its small adjuster on the middle-left, running roughly from native x528/y285 down to x565/y620; preserve the vertical tent post, upper rigging, adjuster, chair and landscape, reconstructing the sky/land behind that narrow line. (3) Remove one small tan scrub clump near native x770/y560 just right of the chair and left of the central foreground boulder; reconstruct the gravel immediately behind it. These are source-space coordinates in the 1672x941 reference and are descriptive guides. Preserve ALL other scene content, particularly the gate, water surface, stairs, railing, worlds, lantern, laptop, chair, and light positions. Do not add objects or text. We will composite only confined repair patches from this returned image.",
+    "referenced_image_paths": [
+      "C:/Colony/music/scene16-17-first-draft-assets/gate-source-reference.png"
+    ],
+    "transparent_background": false
+  },
+  "returned_path": "C:\\Users\\john\\.codex\\generated_images\\01a11569-0e03-7520-8947-ce396d150bba\\exec-679cdf51-4801-4c9d-89af-4f3e175bceef.png",
+  "inspected_returned_image": true
+}

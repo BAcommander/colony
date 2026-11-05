@@ -1,0 +1,61 @@
+{
+  "source": "Cyberpunk-Apartment-V4-first-draft-60s.mp4",
+  "reviews": [
+    {
+      "path": "City-neon-and-traffic-detail.mp4",
+      "sha256": "9ee25b5fa0ddea840024c50373400b3200f4bbf57e5f5bb250a224c953469c4a",
+      "source_sha256": "51361ce441e10e1a5f3aa9e74d1bd404efdd7b84d6bb3234cf8e54e86cb95321",
+      "scene_start_seconds": 10,
+      "seconds": 16,
+      "decoded_frames": 960,
+      "encoded_crop_xywh": [
+        624,
+        110,
+        566,
+        310
+      ],
+      "display_scale": 2,
+      "time_or_effect_strength_altered": false
+    },
+    {
+      "path": "City-cup-lamp-and-leaves-detail.mp4",
+      "sha256": "6ed62873240ea78a51d3a744f51f256a1cceed00a6abb6893986673f5ea8513e",
+      "source_sha256": "51361ce441e10e1a5f3aa9e74d1bd404efdd7b84d6bb3234cf8e54e86cb95321",
+      "scene_start_seconds": 18,
+      "seconds": 10,
+      "decoded_frames": 600,
+      "encoded_crop_xywh": [
+        92,
+        230,
+        510,
+        418
+      ],
+      "display_scale": 2,
+      "time_or_effect_strength_altered": false
+    },
+    {
+      "path": "City-ferry-and-glass-detail.mp4",
+      "sha256": "f4ae5009658407763bea723504ec9359aab2a8c8ac548130446fc3cd02a5d291",
+      "source_sha256": "51361ce441e10e1a5f3aa9e74d1bd404efdd7b84d6bb3234cf8e54e86cb95321",
+      "scene_start_seconds": 37,
+      "seconds": 12,
+      "decoded_frames": 720,
+      "encoded_crop_xywh": [
+        776,
+        356,
+        180,
+        72
+      ],
+      "display_scale": 2,
+      "time_or_effect_strength_altered": false
+    },
+    {
+      "path": "City-loop-join-10s.mp4",
+      "sha256": "19616027cf1deb39a7c69093b22702f0701e2d1466aa7cf9f53f5e17113ad50c",
+      "seconds": 10,
+      "decoded_frames": 600,
+      "exact_encoded_picture_sequence": "scene55-60 then0-5",
+      "all_decoded_yuv_hashes_match_source": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "authority": "User: commit and push everything, then investigate animation18.",
+  "branch": "main",
+  "include": "All authored scene16/17 plans, current minutes and linked detail/join reviews, generated assets/provenance, code/settings/validation and shared learnings.",
+  "media": [
+    "music/cyberpunk-apartment-animation-v4/City-cup-lamp-and-leaves-detail.mp4",
+    "music/cyberpunk-apartment-animation-v4/City-ferry-and-glass-detail.mp4",
+    "music/cyberpunk-apartment-animation-v4/City-loop-join-10s.mp4",
+    "music/cyberpunk-apartment-animation-v4/City-neon-and-traffic-detail.mp4",
+    "music/cyberpunk-apartment-animation-v4/Cyberpunk-Apartment-V4-first-draft-60s.mp4",
+    "music/gate-camp-animation-v3/Gate-Camp-V3-first-draft-60s.mp4",
+    "music/gate-camp-animation-v3/Gate-canopy-and-wind-detail.mp4",
+    "music/gate-camp-animation-v3/Gate-loop-join-10s.mp4",
+    "music/gate-camp-animation-v3/Gate-rover-approach-detail.mp4",
+    "music/gate-camp-animation-v3/Gate-water-and-steps-detail.mp4"
+  ],
+  "excluded_local": "Gate-proof-8s, superseded city proofs, .local render history/caches and Python bytecode; no full-length exports in this task.",
+  "artistic_review": "pending; backup is not approval",
+  "future18": "Investigate after this checkpoint is pushed; no release18 assignment yet."
+}

@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-05",
+  "scenes": [
+    {
+      "catalog_number": 16,
+      "artwork": "final/16-cyberpunk-apartment/artwork-v3.png",
+      "artwork_sha256": "3ae5b38ec7c6c5fa31d1df38a6659c39efdec5b717bfa199b0b839a1c0fc634d",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "existing_preview": "final/16-cyberpunk-apartment/animation-v3/Cyberpunk-Apartment-V3-1080p.mp4",
+      "preview_sha256": "c27dcc8abba8d9c98359a28942277dcfdce8ff7748cf18b42f7f773f892b1c54",
+      "decoded_frames": 600,
+      "fps": 60,
+      "all_timestamps_sequential": true,
+      "audio": false,
+      "sample_frame": 210,
+      "sample_seconds": 3.5,
+      "sample_image": "baseline-16.jpg",
+      "stream_metadata": [
+        "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1920x1080, 5109 kb/s, 60 fps, 60 tbr, 15360 tbn (default)"
+      ],
+      "review_limit": "Source and decoded temporal stills inspected, not continuous playback; this is existing footage, not a new animation."
+    },
+    {
+      "catalog_number": 17,
+      "artwork": "creative/brainstorm/2026-10-27-three-worlds/e1-gate-camp/concept-v1.png",
+      "artwork_sha256": "384fefe650ce8420b166a6fc55cc9f50bd878ec8379b514def985c8313cd9f08",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "existing_preview": "music/gate-camp-animation-v2/Gate-Camp-water-and-light-v2-8s.mp4",
+      "preview_sha256": "88f9c92ce4985efb43842bc1a5305606152b80bb7eb423776086d48b6ff216bd",
+      "decoded_frames": 240,
+      "fps": 30,
+      "all_timestamps_sequential": true,
+      "audio": false,
+      "sample_frame": 105,
+      "sample_seconds": 3.5,
+      "sample_image": "baseline-17.jpg",
+      "stream_metadata": [
+        "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1280x720, 396 kb/s, 30 fps, 30 tbr, 15360 tbn (default)"
+      ],
+      "review_limit": "Source and decoded temporal stills inspected, not continuous playback; this is existing footage, not a new animation."
+    }
+  ]
+}

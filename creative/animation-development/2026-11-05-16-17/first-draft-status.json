@@ -1,0 +1,281 @@
+{
+  "date": "2026-11-05",
+  "status": "both_complete_first_drafts_for_user_visual_review",
+  "scenes": [
+    {
+      "catalog_number": 16,
+      "title": "Cyberpunk Apartment",
+      "version": "V4",
+      "folder": "music/cyberpunk-apartment-animation-v4",
+      "video": "Cyberpunk-Apartment-V4-first-draft-60s.mp4",
+      "fps": 60,
+      "seconds": 60,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "user_approved": false,
+      "audio": false,
+      "technical_validation": "delivery-validation.json",
+      "details": [
+        {
+          "path": "City-neon-and-traffic-detail.mp4",
+          "sha256": "9ee25b5fa0ddea840024c50373400b3200f4bbf57e5f5bb250a224c953469c4a",
+          "source_sha256": "51361ce441e10e1a5f3aa9e74d1bd404efdd7b84d6bb3234cf8e54e86cb95321",
+          "scene_start_seconds": 10,
+          "seconds": 16,
+          "decoded_frames": 960,
+          "encoded_crop_xywh": [
+            624,
+            110,
+            566,
+            310
+          ],
+          "display_scale": 2,
+          "time_or_effect_strength_altered": false
+        },
+        {
+          "path": "City-cup-lamp-and-leaves-detail.mp4",
+          "sha256": "6ed62873240ea78a51d3a744f51f256a1cceed00a6abb6893986673f5ea8513e",
+          "source_sha256": "51361ce441e10e1a5f3aa9e74d1bd404efdd7b84d6bb3234cf8e54e86cb95321",
+          "scene_start_seconds": 18,
+          "seconds": 10,
+          "decoded_frames": 600,
+          "encoded_crop_xywh": [
+            92,
+            230,
+            510,
+            418
+          ],
+          "display_scale": 2,
+          "time_or_effect_strength_altered": false
+        },
+        {
+          "path": "City-ferry-and-glass-detail.mp4",
+          "sha256": "f4ae5009658407763bea723504ec9359aab2a8c8ac548130446fc3cd02a5d291",
+          "source_sha256": "51361ce441e10e1a5f3aa9e74d1bd404efdd7b84d6bb3234cf8e54e86cb95321",
+          "scene_start_seconds": 37,
+          "seconds": 12,
+          "decoded_frames": 720,
+          "encoded_crop_xywh": [
+            776,
+            356,
+            180,
+            72
+          ],
+          "display_scale": 2,
+          "time_or_effect_strength_altered": false
+        },
+        {
+          "path": "City-loop-join-10s.mp4",
+          "sha256": "19616027cf1deb39a7c69093b22702f0701e2d1466aa7cf9f53f5e17113ad50c",
+          "seconds": 10,
+          "decoded_frames": 600,
+          "exact_encoded_picture_sequence": "scene55-60 then0-5",
+          "all_decoded_yuv_hashes_match_source": true
+        }
+      ],
+      "implementation": [
+        {
+          "id": "A01",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Source-cloud local renewal plus separate moving gap mist."
+        },
+        {
+          "id": "A02",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Six source-road lanes, solid cars, separate physical speeds and filtered minimum headways."
+        },
+        {
+          "id": "A03",
+          "status": "first_pass_for_visual_review",
+          "implementation": "One longer commuter bus on the existing upper road, sharing the lane speed and a reserved birth gap."
+        },
+        {
+          "id": "A04",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Ten independent source-emitter programmes, including bright cores, and bounded local glow."
+        },
+        {
+          "id": "A05",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Source-bound water movement, selected sign-linked river/floor response and small vehicle wet-road streaks."
+        },
+        {
+          "id": "A06",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Exterior rain, optically refractive glass beads, sliding/holding tracks and one explicit two-drop merge."
+        },
+        {
+          "id": "A07",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Gap wisps substituted for rooftop emission: no unambiguous vent grille was available on this source."
+        },
+        {
+          "id": "A08",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Seeded, overlapping cup wisps against the dark sofa."
+        },
+        {
+          "id": "A09",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Held occupancy groups and existing red-core mast modulation; many windows remain steady."
+        },
+        {
+          "id": "A10",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Brief coupled table-lamp core/table-reflection dips in linear light."
+        },
+        {
+          "id": "A11",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Two original leaf cutouts moving over confined generated clean background."
+        },
+        {
+          "id": "A12",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Small service ferry on retraced open water north of the foreground tower roof, with narrow wake."
+        }
+      ]
+    },
+    {
+      "catalog_number": 17,
+      "title": "The Gate Camp After Sunset",
+      "version": "V3",
+      "folder": "music/gate-camp-animation-v3",
+      "video": "Gate-Camp-V3-first-draft-60s.mp4",
+      "fps": 30,
+      "seconds": 60,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "user_approved": false,
+      "audio": false,
+      "technical_validation": "delivery-validation.json",
+      "details": [
+        {
+          "path": "Gate-water-and-steps-detail.mp4",
+          "sha256": "a5b87266f18b04c707148f8e4d1f09183055676320a4607789d6ad06eaa83f41",
+          "source_sha256": "4255f0fbeb80170cb58895e6f28900f7aad06fdfa8889716efc4f3d5c4d8a3b8",
+          "scene_start_seconds": 4,
+          "seconds": 14,
+          "decoded_frames": 420,
+          "encoded_crop_xywh": [
+            784,
+            24,
+            356,
+            398
+          ],
+          "display_scale": 2,
+          "time_or_effect_strength_altered": false
+        },
+        {
+          "path": "Gate-canopy-and-wind-detail.mp4",
+          "sha256": "630296746cd08a17a39ce1def0811039b5b9ba7a3b611e1991a57903ff1785f9",
+          "source_sha256": "4255f0fbeb80170cb58895e6f28900f7aad06fdfa8889716efc4f3d5c4d8a3b8",
+          "scene_start_seconds": 8,
+          "seconds": 16,
+          "decoded_frames": 480,
+          "encoded_crop_xywh": [
+            0,
+            0,
+            726,
+            478
+          ],
+          "display_scale": 2,
+          "time_or_effect_strength_altered": false
+        },
+        {
+          "path": "Gate-rover-approach-detail.mp4",
+          "sha256": "b85d2dc27ebc7b72556aa32bb35da81157fdd590cda8358046864da98513ce06",
+          "source_sha256": "4255f0fbeb80170cb58895e6f28900f7aad06fdfa8889716efc4f3d5c4d8a3b8",
+          "scene_start_seconds": 7,
+          "seconds": 20,
+          "decoded_frames": 600,
+          "encoded_crop_xywh": [
+            826,
+            406,
+            452,
+            220
+          ],
+          "display_scale": 2,
+          "time_or_effect_strength_altered": false
+        },
+        {
+          "path": "Gate-loop-join-10s.mp4",
+          "sha256": "ebd07356b587c3d8eb0386a9fd24f2a1e3266774440f106e443c0bdcf1de1130",
+          "seconds": 10,
+          "decoded_frames": 300,
+          "exact_encoded_picture_sequence": "scene55-60 then0-5",
+          "all_decoded_yuv_hashes_match_source": true
+        }
+      ],
+      "implementation": [
+        {
+          "id": "G01",
+          "status": "first_pass_for_visual_review",
+          "implementation": "True sixty-second periodic water with14/15/20 wave cycles,11/8 broad highlight cycles and bounded smooth drift."
+        },
+        {
+          "id": "G02",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Shared moving portal fronts projected onto actual steps and landing; subdued foreground blue rim."
+        },
+        {
+          "id": "G03",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Local source-cloud renewal in clear runs around fixed world bodies, ring, canopy and spires."
+        },
+        {
+          "id": "G04",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Separate far-basin air and near-ground streamers at different speeds, coupled to the gust envelope."
+        },
+        {
+          "id": "G05",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Broad interior cloth folds move and shade locally; outline, posts and joints remain fixed."
+        },
+        {
+          "id": "G06",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Original taut guyline vibrates with fixed endpoints; one selected scrub clump leans with the gust."
+        },
+        {
+          "id": "G07",
+          "status": "first_pass_for_visual_review",
+          "implementation": "A few main-lantern dips with linked canvas/case response; path lamps stay predominantly steady."
+        },
+        {
+          "id": "G08",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Cool inner-ring material response from the same portal fronts; warm chevrons do not redial."
+        },
+        {
+          "id": "G09",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Perspective-mapped laptop route marker and modest status-line updates over the original map."
+        },
+        {
+          "id": "G10",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Small radio receive indicators at two review cues."
+        },
+        {
+          "id": "G11",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Confined left-handle mug repair, then light steam from the existing rim."
+        },
+        {
+          "id": "G12",
+          "status": "first_pass_for_visual_review",
+          "implementation": "Generated RGBA expedition rover approaches on clear ground, parks, then reverses out; no gate crossing."
+        }
+      ]
+    }
+  ],
+  "long_session_status": "600s attention schedule unimplemented; these are showcase review minutes",
+  "source_and_previous_masters_preserved": true,
+  "commit_push_requested": false
+}

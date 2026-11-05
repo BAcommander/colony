@@ -1,0 +1,542 @@
+{
+  "status": "technical_checks_passed_user_visual_review_pending",
+  "path": "music/cyberpunk-apartment-animation-v4/Cyberpunk-Apartment-V4-first-draft-60s.mp4",
+  "sha256": "51361ce441e10e1a5f3aa9e74d1bd404efdd7b84d6bb3234cf8e54e86cb95321",
+  "bytes": 34535096,
+  "seconds": 60,
+  "fps": 60,
+  "decoded_frames": 3600,
+  "unique_decoded_frame_hashes": 3600,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "audio": false,
+  "explicit_bt709_tv": true,
+  "native_yuv_exact_controls": [
+    0,
+    1,
+    210,
+    600,
+    900,
+    1080,
+    1233,
+    1593,
+    2160,
+    2580,
+    2838,
+    3201,
+    3300,
+    3598,
+    3599
+  ],
+  "source_protection_checked_every_frame_during_encode": true,
+  "independent_native_protection_states": 241,
+  "protected_pixel_changes": 0,
+  "source_sampling_states": 241,
+  "minimum_sampled_cloud_or_portal_jacobian": 0.7839431762695312,
+  "regional_encoded_joins": [
+    {
+      "region": "clouds",
+      "join_rgb_mae": 0.05465386651932684,
+      "nearby_steps_rgb_mae": [
+        0.06043235030043511,
+        0.056012155535603285,
+        0.06487556691300043,
+        0.06257338213965052
+      ],
+      "gate": 0.4102884637521007,
+      "pass": true
+    },
+    {
+      "region": "gap_mist",
+      "join_rgb_mae": 0.05058174897482685,
+      "nearby_steps_rgb_mae": [
+        0.05662487491906528,
+        0.05109188298310672,
+        0.06241293385916377,
+        0.06137304530382404
+      ],
+      "gate": 0.4061019875605784,
+      "pass": true
+    },
+    {
+      "region": "water",
+      "join_rgb_mae": 0.09277624234541809,
+      "nearby_steps_rgb_mae": [
+        0.1055112989757763,
+        0.104752614750989,
+        0.12306941960656803,
+        0.11293556603262342
+      ],
+      "gate": 0.5092180133311657,
+      "pass": true
+    },
+    {
+      "region": "floor_reflection",
+      "join_rgb_mae": 0.01623155505107832,
+      "nearby_steps_rgb_mae": [
+        0.01301551267499054,
+        0.01532349602724177,
+        0.011369655694286796,
+        0.012031782065834279
+      ],
+      "gate": 0.326049943246311,
+      "pass": true
+    },
+    {
+      "region": "sign_0",
+      "join_rgb_mae": 0.030729166666666665,
+      "nearby_steps_rgb_mae": [
+        0.0390625,
+        0.029166666666666667,
+        0.034895833333333334,
+        0.043229166666666666
+      ],
+      "gate": 0.3734895833333333,
+      "pass": true
+    },
+    {
+      "region": "sign_haze_0",
+      "join_rgb_mae": 0.01658374792703151,
+      "nearby_steps_rgb_mae": [
+        0.014556845402616547,
+        0.01695227565874332,
+        0.025612677353970888,
+        0.02377003869541183
+      ],
+      "gate": 0.3435415515017505,
+      "pass": true
+    },
+    {
+      "region": "sign_1",
+      "join_rgb_mae": 0.2849691797060218,
+      "nearby_steps_rgb_mae": [
+        0.4006638217164533,
+        0.24751066856330015,
+        0.8008534850640113,
+        0.6149834044570887
+      ],
+      "gate": 1.6614509246088192,
+      "pass": true
+    },
+    {
+      "region": "sign_haze_1",
+      "join_rgb_mae": 0.17193635048563752,
+      "nearby_steps_rgb_mae": [
+        0.5211820624095888,
+        0.3465592064476131,
+        0.5226286422814631,
+        0.5658193841702831
+      ],
+      "gate": 1.2618929530894811,
+      "pass": true
+    },
+    {
+      "region": "sign_2",
+      "join_rgb_mae": 0.2148962148962149,
+      "nearby_steps_rgb_mae": [
+        0.2104192104192104,
+        0.164021164021164,
+        0.20634920634920634,
+        0.22466422466422467
+      ],
+      "gate": 0.681929181929182,
+      "pass": true
+    },
+    {
+      "region": "sign_haze_2",
+      "join_rgb_mae": 0.1063327889675195,
+      "nearby_steps_rgb_mae": [
+        0.1110506260206859,
+        0.08746144075485393,
+        0.10542551261114136,
+        0.1128651787334422
+      ],
+      "gate": 0.4918708038468517,
+      "pass": true
+    },
+    {
+      "region": "sign_3",
+      "join_rgb_mae": 0.18196994991652754,
+      "nearby_steps_rgb_mae": [
+        0.16583194212576516,
+        0.2159154145798553,
+        0.22370617696160267,
+        0.14023372287145242
+      ],
+      "gate": 0.6803005008347245,
+      "pass": true
+    },
+    {
+      "region": "sign_haze_3",
+      "join_rgb_mae": 0.5730540470649081,
+      "nearby_steps_rgb_mae": [
+        0.5797776053788467,
+        0.669511249030256,
+        0.5337470907680373,
+        0.6017584690974916
+      ],
+      "gate": 1.4381691233514353,
+      "pass": true
+    },
+    {
+      "region": "sign_4",
+      "join_rgb_mae": 0.10061242344706911,
+      "nearby_steps_rgb_mae": [
+        0.0621172353455818,
+        0.0542432195975503,
+        0.23184601924759404,
+        0.12773403324584426
+      ],
+      "gate": 0.6941382327209098,
+      "pass": true
+    },
+    {
+      "region": "sign_haze_4",
+      "join_rgb_mae": 0.0581039755351682,
+      "nearby_steps_rgb_mae": [
+        0.05581039755351682,
+        0.07161060142711519,
+        0.077217125382263,
+        0.05530071355759429
+      ],
+      "gate": 0.43126911314984706,
+      "pass": true
+    },
+    {
+      "region": "sign_5",
+      "join_rgb_mae": 0.0718954248366013,
+      "nearby_steps_rgb_mae": [
+        0.06993464052287582,
+        0.11895424836601307,
+        0.10718954248366012,
+        0.11633986928104575
+      ],
+      "gate": 0.5022222222222222,
+      "pass": true
+    },
+    {
+      "region": "sign_haze_5",
+      "join_rgb_mae": 0.02734277902063137,
+      "nearby_steps_rgb_mae": [
+        0.026597066865523242,
+        0.04523987074322645,
+        0.04797414864528959,
+        0.04673129505344271
+      ],
+      "gate": 0.3815560526969923,
+      "pass": true
+    },
+    {
+      "region": "sign_6",
+      "join_rgb_mae": 0.2255892255892256,
+      "nearby_steps_rgb_mae": [
+        0.24017957351290684,
+        0.22671156004489337,
+        0.30078563411896747,
+        0.27048260381593714
+      ],
+      "gate": 0.8113355780022447,
+      "pass": true
+    },
+    {
+      "region": "sign_haze_6",
+      "join_rgb_mae": 0.0922824302134647,
+      "nearby_steps_rgb_mae": [
+        0.08243021346469623,
+        0.07717569786535304,
+        0.11559934318555008,
+        0.1090311986863711
+      ],
+      "gate": 0.49651888341543515,
+      "pass": true
+    },
+    {
+      "region": "sign_7",
+      "join_rgb_mae": 0.11566265060240964,
+      "nearby_steps_rgb_mae": [
+        0.11967871485943775,
+        0.09477911646586346,
+        0.1357429718875502,
+        0.10441767068273092
+      ],
+      "gate": 0.5307630522088354,
+      "pass": true
+    },
+    {
+      "region": "sign_haze_7",
+      "join_rgb_mae": 0.14705001497454329,
+      "nearby_steps_rgb_mae": [
+        0.13536987121892782,
+        0.2168313866427074,
+        0.11949685534591195,
+        0.08954776879305182
+      ],
+      "gate": 0.6686133572926025,
+      "pass": true
+    },
+    {
+      "region": "sign_8",
+      "join_rgb_mae": 0.3048973143759874,
+      "nearby_steps_rgb_mae": [
+        0.2717219589257504,
+        0.16113744075829384,
+        0.5450236966824644,
+        0.41390205371248023
+      ],
+      "gate": 1.2265402843601896,
+      "pass": true
+    },
+    {
+      "region": "sign_haze_8",
+      "join_rgb_mae": 0.13717026378896882,
+      "nearby_steps_rgb_mae": [
+        0.1539568345323741,
+        0.14820143884892087,
+        0.1683453237410072,
+        0.16115107913669063
+      ],
+      "gate": 0.5861870503597122,
+      "pass": true
+    },
+    {
+      "region": "sign_9",
+      "join_rgb_mae": 0.052948255114320095,
+      "nearby_steps_rgb_mae": [
+        0.07099879663056559,
+        0.044524669073405534,
+        0.04091456077015644,
+        0.06377858002406739
+      ],
+      "gate": 0.4206979542719615,
+      "pass": true
+    },
+    {
+      "region": "sign_haze_9",
+      "join_rgb_mae": 0.019831223628691982,
+      "nearby_steps_rgb_mae": [
+        0.032067510548523206,
+        0.024050632911392405,
+        0.02278481012658228,
+        0.026160337552742614
+      ],
+      "gate": 0.3545147679324894,
+      "pass": true
+    },
+    {
+      "region": "windows_0",
+      "join_rgb_mae": 0.6153846153846154,
+      "nearby_steps_rgb_mae": [
+        0.46153846153846156,
+        0.0,
+        0.41025641025641024,
+        0.3333333333333333
+      ],
+      "gate": 1.0846153846153845,
+      "pass": true
+    },
+    {
+      "region": "windows_1",
+      "join_rgb_mae": 0.0,
+      "nearby_steps_rgb_mae": [
+        0.0,
+        0.024691358024691357,
+        0.19753086419753085,
+        0.09876543209876543
+      ],
+      "gate": 0.6358024691358024,
+      "pass": true
+    },
+    {
+      "region": "windows_2",
+      "join_rgb_mae": 0.0,
+      "nearby_steps_rgb_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gate": 0.3,
+      "pass": true
+    },
+    {
+      "region": "windows_3",
+      "join_rgb_mae": 0.0,
+      "nearby_steps_rgb_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gate": 0.3,
+      "pass": true
+    },
+    {
+      "region": "windows_4",
+      "join_rgb_mae": 0.0,
+      "nearby_steps_rgb_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gate": 0.3,
+      "pass": true
+    },
+    {
+      "region": "beacon_3",
+      "join_rgb_mae": 3.5,
+      "nearby_steps_rgb_mae": [
+        0.0,
+        0.0,
+        1.3333333333333333,
+        1.5
+      ],
+      "gate": 7.949999999999999,
+      "pass": true,
+      "extended_baseline": "all ordinary steps within first/last second; no seam included",
+      "extended_steps": 118,
+      "extended_max_rgb_mae": 4.5
+    },
+    {
+      "region": "beacon_5",
+      "join_rgb_mae": 0.0,
+      "nearby_steps_rgb_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gate": 0.3,
+      "pass": true
+    },
+    {
+      "region": "traffic",
+      "join_rgb_mae": 0.29459213815042035,
+      "nearby_steps_rgb_mae": [
+        0.30843368931303494,
+        0.251912444141483,
+        0.3189237294554268,
+        0.2882867530106794
+      ],
+      "gate": 0.8421703400742255,
+      "pass": true
+    },
+    {
+      "region": "ferry",
+      "join_rgb_mae": 0.035677428866283355,
+      "nearby_steps_rgb_mae": [
+        0.030222615361934248,
+        0.044228217602830605,
+        0.05292643373138729,
+        0.03995282323455698
+      ],
+      "gate": 0.3899749373433584,
+      "pass": true
+    },
+    {
+      "region": "rain",
+      "join_rgb_mae": 0.0645221320843585,
+      "nearby_steps_rgb_mae": [
+        0.06688372215579907,
+        0.06427510383420781,
+        0.06723038513351054,
+        0.06631144004294998
+      ],
+      "gate": 0.4142916547269679,
+      "pass": true
+    },
+    {
+      "region": "cup_steam",
+      "join_rgb_mae": 0.00936026936026936,
+      "nearby_steps_rgb_mae": [
+        0.008013468013468014,
+        0.007811447811447812,
+        0.009292929292929294,
+        0.01063973063973064
+      ],
+      "gate": 0.3180875420875421,
+      "pass": true
+    },
+    {
+      "region": "gap_wisps_45",
+      "join_rgb_mae": 0.022344658708295072,
+      "nearby_steps_rgb_mae": [
+        0.030303030303030304,
+        0.02509947964493419,
+        0.012855831037649219,
+        0.017447199265381085
+      ],
+      "gate": 0.3515151515151515,
+      "pass": true
+    },
+    {
+      "region": "gap_wisps_46",
+      "join_rgb_mae": 0.04678068410462777,
+      "nearby_steps_rgb_mae": [
+        0.04896042924211938,
+        0.04560697518443997,
+        0.04443326626425218,
+        0.03437290409121395
+      ],
+      "gate": 0.38323272971160294,
+      "pass": true
+    },
+    {
+      "region": "table_lamp",
+      "join_rgb_mae": 0.0,
+      "nearby_steps_rgb_mae": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gate": 0.3,
+      "pass": true
+    },
+    {
+      "region": "leaf_0",
+      "join_rgb_mae": 0.0,
+      "nearby_steps_rgb_mae": [
+        0.0,
+        0.007080305571082542,
+        0.026644307806968512,
+        0.01155207751071362
+      ],
+      "gate": 0.3452953232718465,
+      "pass": true
+    },
+    {
+      "region": "leaf_1",
+      "join_rgb_mae": 0.009453781512605041,
+      "nearby_steps_rgb_mae": [
+        0.013130252100840336,
+        0.00507703081232493,
+        0.008053221288515405,
+        0.007878151260504201
+      ],
+      "gate": 0.32232142857142854,
+      "pass": true
+    }
+  ],
+  "native_endpoint_identity": true,
+  "input_hashes": {
+    "final/16-cyberpunk-apartment/artwork-v3.png": "3ae5b38ec7c6c5fa31d1df38a6659c39efdec5b717bfa199b0b839a1c0fc634d",
+    "music/cyberpunk-apartment-animation-v4/settings.json": "945c6f84beaf2d3467c539df9135b17b433f9397a9223ff30928bcf6dc343d88",
+    "music/scene-animation-core/core.py": "fbcf466ee4e286e0e68578336a4cb2d3b2a8bd5f8d7b1fd7f61bff1a9b984bf0",
+    "music/cyberpunk-apartment-animation-v4/render.py": "f709394988c46c984dd43646b14c9fb3d4eefd26ca7cb307d2497bd05209cff3",
+    "creative/animation-development/2026-11-05-16-17/geometry-seeds.json": "08f6a393abd3e996c3b3fe0fff397dd4bf33d2930f6871ea98d7ffd85114394d",
+    "music/scene16-17-first-draft-assets/city-plant-background-aligned.png": "db0779f5e8f5da50bc649a2a116b273879a033d78db9d1239b2e1e6503995ea2",
+    "music/scene16-17-first-draft-assets/city-leaf-1-mask.png": "44345695d8595980f5b31a42c18ab15d41dfb68409b60c0aabe653a23db0a277",
+    "music/scene16-17-first-draft-assets/city-leaf-2-mask.png": "966dfd2e517c92588baed2be3f2eafcd4d45014ca1f5d32d3ad8479ffe0e92f3"
+  },
+  "runtime": {
+    "python": "3.13.14",
+    "numpy": "2.4.3",
+    "opencv": "5.0.0",
+    "ffmpeg_path": "C:\\Users\\john\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "ffmpeg_sha256": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3"
+  },
+  "inspection_limit": "Native and colour-aware decoded temporal stills inspected separately; no assistant continuous-playback or artistic approval inferred. Showcase minute is not an accepted ten-minute or long-session schedule."
+}

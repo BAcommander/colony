@@ -1,0 +1,12 @@
+{
+  "mode": "built-in image_gen",
+  "request": {
+    "prompt": "Use case: precise-object-edit. Edit target: this exact close crop of a rainy futuristic apartment. Make a clean animation BACKPLATE by removing only the large broad-leaf foreground houseplant and its stems. Reconstruct the wall/painting, the buildings and window behind it in the existing warm-left/cool-right lighting and camera perspective. Keep the trailing vine at the right, the window frame, the warm lamp and cabinet, the sofa/backrest at the bottom and the city architecture unchanged. Do not add another plant or furniture, do not change the framing. This image is a tightly cropped 300x245 source region: preserve the composition so isolated original leaves can be animated over it.",
+    "referenced_image_paths": [
+      "C:/Colony/music/scene16-17-first-draft-assets/city-plant-source.png"
+    ],
+    "transparent_background": false
+  },
+  "returned_path": "C:\\Users\\john\\.codex\\generated_images\\01a11569-0e03-7520-8947-ce396d150bba\\exec-1590b4b7-8a7c-4cdc-a27c-05c9e00fada7.png",
+  "inspected_returned_image": true
+}

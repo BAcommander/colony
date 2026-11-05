@@ -1,0 +1,224 @@
+{
+  "status": "implementation_design_not_executed",
+  "existing_duration": 10,
+  "proposed_environment_seconds": 60,
+  "proposed_attention_seconds": 600,
+  "source_renderer": "final/16-cyberpunk-apartment/animation-v3/render.py",
+  "existing_routes": [
+    {
+      "route": 1,
+      "native_waypoints": [
+        [
+          876,
+          331
+        ],
+        [
+          1010,
+          354
+        ],
+        [
+          1150,
+          380
+        ],
+        [
+          1275,
+          402
+        ],
+        [
+          1400,
+          424
+        ],
+        [
+          1537,
+          452
+        ]
+      ],
+      "legacy_vehicle_count": 12,
+      "direction": 1,
+      "nominal_native_route_length": 672.028,
+      "legacy_whole_route_seconds": 10,
+      "nominal_native_px_per_second": 67.203
+    },
+    {
+      "route": 2,
+      "native_waypoints": [
+        [
+          876,
+          334
+        ],
+        [
+          1010,
+          357
+        ],
+        [
+          1150,
+          383
+        ],
+        [
+          1275,
+          405
+        ],
+        [
+          1400,
+          427
+        ],
+        [
+          1537,
+          455
+        ]
+      ],
+      "legacy_vehicle_count": 10,
+      "direction": -1,
+      "nominal_native_route_length": 672.028,
+      "legacy_whole_route_seconds": 10,
+      "nominal_native_px_per_second": 67.203
+    },
+    {
+      "route": 3,
+      "native_waypoints": [
+        [
+          681,
+          454
+        ],
+        [
+          814,
+          458
+        ],
+        [
+          963,
+          463
+        ],
+        [
+          1120,
+          466
+        ],
+        [
+          1265,
+          469
+        ]
+      ],
+      "legacy_vehicle_count": 14,
+      "direction": 1,
+      "nominal_native_route_length": 584.204,
+      "legacy_whole_route_seconds": 10,
+      "nominal_native_px_per_second": 58.42
+    },
+    {
+      "route": 4,
+      "native_waypoints": [
+        [
+          681,
+          458
+        ],
+        [
+          814,
+          462
+        ],
+        [
+          963,
+          467
+        ],
+        [
+          1120,
+          470
+        ],
+        [
+          1265,
+          473
+        ]
+      ],
+      "legacy_vehicle_count": 11,
+      "direction": -1,
+      "nominal_native_route_length": 584.204,
+      "legacy_whole_route_seconds": 10,
+      "nominal_native_px_per_second": 58.42
+    },
+    {
+      "route": 5,
+      "native_waypoints": [
+        [
+          1080,
+          568
+        ],
+        [
+          1114,
+          579
+        ],
+        [
+          1154,
+          596
+        ],
+        [
+          1203,
+          616
+        ],
+        [
+          1266,
+          641
+        ],
+        [
+          1500,
+          752
+        ],
+        [
+          1770,
+          884
+        ]
+      ],
+      "legacy_vehicle_count": 20,
+      "direction": 1,
+      "nominal_native_route_length": 759.433,
+      "legacy_whole_route_seconds": 10,
+      "nominal_native_px_per_second": 75.943
+    },
+    {
+      "route": 6,
+      "native_waypoints": [
+        [
+          1080,
+          572
+        ],
+        [
+          1114,
+          583
+        ],
+        [
+          1154,
+          600
+        ],
+        [
+          1203,
+          620
+        ],
+        [
+          1266,
+          645
+        ],
+        [
+          1460,
+          738
+        ],
+        [
+          1700,
+          850
+        ]
+      ],
+      "legacy_vehicle_count": 17,
+      "direction": -1,
+      "nominal_native_route_length": 679.888,
+      "legacy_whole_route_seconds": 10,
+      "nominal_native_px_per_second": 67.989
+    }
+  ],
+  "critical_pitfall": "Legacy vehicle_distance advances every identity through a complete route per normalized10s cycle. Making DURATION=60 alone slows it by six; do not treat this as irregular long traffic.",
+  "retime_categories": {
+    "traffic": "Use absolute source-space speed and event emission, preserving safe headways and solid occlusion; tune rate by viewing, not by the master loop duration.",
+    "rain": "Preserve physical fall/slant speeds and vary lifetimes/emission. Integer fast weather periods may repeat underneath a genuinely unique longer full scene.",
+    "neon": "Use independent programmes/holds and driver fields for each selected sign and its receivers.",
+    "windows": "Replace short sine modulation where appropriate with independently held occupation states over the attention clock.",
+    "steam": "Keep source root and natural rise rate; vary emitted wisps instead of slowing the whole effect.",
+    "water": "Separate physical wave/reflection rates from source signal timing and master period."
+  },
+  "new_render_path": "Native1672x941 coordinates/effects, then one direct output resize; portable imageio-ffmpeg binary, explicitRGB-to-BT709/TV conversion and full tags. Retain existing4K/60fpsV3 unchanged.",
+  "frame_rate": "Proposed720p and4K review/delivery retain60fps, with explicit review if a later change is needed."
+}

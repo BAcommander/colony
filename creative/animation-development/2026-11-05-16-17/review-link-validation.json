@@ -1,0 +1,26 @@
+{
+  "geometry": {
+    "city": {
+      "foreground_tower_roof_and_face": true,
+      "fixed_river_boat": true,
+      "minimum_car_headway_seconds": [
+        0.9707651138305664,
+        2.415287971496582,
+        1.1856346130371094,
+        1.0175275802612305,
+        0.8251724243164062,
+        1.2780609130859375
+      ],
+      "active_source_qualified_mast_cores": 2,
+      "inactive_seed_anchors": 4
+    },
+    "gate": {
+      "fixed_planet": true,
+      "fixed_small_moon": true,
+      "fixed_support_pole": true,
+      "mug_patch_outside_roi_exact": true
+    }
+  },
+  "review_links_checked": 16,
+  "missing": []
+}

@@ -1,0 +1,168 @@
+{
+  "gate_original": "creative/brainstorm/2026-10-27-three-worlds/e1-gate-camp/concept-v1.png",
+  "gate_repaired": "music/gate-camp-animation-v3/artwork-v2-mug-repair.png",
+  "mug_patch_roi": [
+    280,
+    600,
+    321,
+    680
+  ],
+  "mug_original_pixels_outside_patch_exact": true,
+  "city_leaf_roi": [
+    125,
+    300,
+    425,
+    545
+  ],
+  "city_leaf_anchors": [
+    [
+      229,
+      401
+    ],
+    [
+      302,
+      383
+    ]
+  ],
+  "gate_rope_roi": [
+    517,
+    280,
+    576,
+    623
+  ],
+  "gate_rope_anchor": [
+    565,
+    618
+  ],
+  "gate_scrub_roi": [
+    737,
+    535,
+    810,
+    594
+  ],
+  "gate_scrub_anchor": [
+    775,
+    584
+  ],
+  "rover_raw_alpha_range": [
+    0,
+    254
+  ],
+  "rover_crop_xyxy": [
+    92,
+    41,
+    1458,
+    982
+  ],
+  "generated_images_used": "Built-in image_gen; exact requests in *_generation.json files. Only confined cleanup/element footprints consume backplates.",
+  "assets": [
+    {
+      "path": "music/scene16-17-first-draft-assets/city-leaf-1-mask.png",
+      "bytes": 1643,
+      "sha256": "44345695d8595980f5b31a42c18ab15d41dfb68409b60c0aabe653a23db0a277",
+      "dimensions": [
+        300,
+        245
+      ]
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/city-leaf-2-mask.png",
+      "bytes": 2221,
+      "sha256": "966dfd2e517c92588baed2be3f2eafcd4d45014ca1f5d32d3ad8479ffe0e92f3",
+      "dimensions": [
+        300,
+        245
+      ]
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/city-plant-background-aligned.png",
+      "bytes": 2579634,
+      "sha256": "db0779f5e8f5da50bc649a2a116b273879a033d78db9d1239b2e1e6503995ea2",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/city-plant-source.png",
+      "bytes": 134629,
+      "sha256": "f6cf1caa432b4b712fe44eda3b49e6e37bd7a6e4002f53d10a97a0e35bd6811b",
+      "dimensions": [
+        300,
+        245
+      ]
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/expedition-rover-raw.png",
+      "bytes": 2206453,
+      "sha256": "301a5279adb2f39349f5690a0c6fe46897af9a31d2147695db740ab9024fb859",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/expedition-rover-sprite.png",
+      "bytes": 2007302,
+      "sha256": "f9f8f562a6425d7c1e8863fd365b3b6f3b1790ef0434ef1668971590e31cabe3",
+      "dimensions": [
+        1366,
+        941
+      ]
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/gate-clean-backplate.png",
+      "bytes": 2402248,
+      "sha256": "bd13ec38f22d0004d8a54e685e82612f1d49374666a8680094a0d901a0af288a",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/gate-motion-background.png",
+      "bytes": 2318455,
+      "sha256": "24c93d197e8d38312321da94ee4247f2619964e3ec450acd4222e305333366cf",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/gate-rope-mask.png",
+      "bytes": 1152,
+      "sha256": "2dd0064548d9f2575405472a242932688cae69b7477af7a3f3d4c091f5c9511b",
+      "dimensions": [
+        59,
+        343
+      ]
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/gate-scrub-mask.png",
+      "bytes": 420,
+      "sha256": "9647e6e3140915ea71602d1a67ddd5fc7e874b86ef744ebf22547a2386ff9384",
+      "dimensions": [
+        73,
+        59
+      ]
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/gate-source-reference.png",
+      "bytes": 2451727,
+      "sha256": "948cce5748f59db5d8c474c3ba59962c083ae7e8fb79c9fb6736a55f4f667c3c",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/plant-clean-backplate.png",
+      "bytes": 2503893,
+      "sha256": "d083bd420919e1572035382de82614010483b3f8ebb98855642f5aabe23c10d8",
+      "dimensions": [
+        1388,
+        1133
+      ]
+    }
+  ]
+}

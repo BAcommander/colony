@@ -1,0 +1,18 @@
+{
+  "schema": "first-visual-draft-settings-v1",
+  "source": "final/16-cyberpunk-apartment/artwork-v3.png",
+  "fps": 60,
+  "environment_period_seconds": 60,
+  "review_schedule": "showcase60",
+  "review_not_production_event_frequency": true,
+  "cloud_speed_native_px_s": -4,
+  "traffic_speed_native_px_s": [38, 38, 28, 28, 65, 65],
+  "bus_start_seconds": 8,
+  "ferry_start_seconds": 33,
+  "lamp_dip_seconds": [20.4, 20.72, 47.15],
+  "lamp_dip_depth": [0.58, 0.33, 0.30],
+  "leaf_rotation_degrees": 0.85,
+  "production_attention_period_seconds": 600,
+  "production_schedule_status": "not_implemented_or_approved",
+  "audio": false
+}

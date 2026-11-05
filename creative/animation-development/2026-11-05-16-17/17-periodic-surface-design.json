@@ -1,0 +1,70 @@
+{
+  "status": "provisional_algorithm_design_not_implemented_or_approved",
+  "proposed_seconds": 60,
+  "waves": [
+    {
+      "wavelength_px": 104,
+      "original_speed_px_per_second": 24,
+      "candidate_integer_cycles_per60s": 14,
+      "candidate_speed_px_per_second": 24.266666666666666,
+      "displacement_px_unchanged_initially": 5.3
+    },
+    {
+      "wavelength_px": 72,
+      "original_speed_px_per_second": 18,
+      "candidate_integer_cycles_per60s": 15,
+      "candidate_speed_px_per_second": 18.0,
+      "displacement_px_unchanged_initially": 3.0
+    },
+    {
+      "wavelength_px": 47,
+      "original_speed_px_per_second": 16,
+      "candidate_integer_cycles_per60s": 20,
+      "candidate_speed_px_per_second": 15.666666666666666,
+      "displacement_px_unchanged_initially": 1.25
+    }
+  ],
+  "highlight_bands": [
+    {
+      "original_period_seconds": 5.4,
+      "candidate_integer_cycles_per60s": 11,
+      "candidate_period_seconds": 5.454545454545454
+    },
+    {
+      "original_period_seconds": 7.3,
+      "candidate_integer_cycles_per60s": 8,
+      "candidate_period_seconds": 7.5
+    }
+  ],
+  "linear_drift_problem": "V1 adds drift*t to the source map; extending eight seconds without bounding it risks source sampling and warp folding and does not close a60s loop.",
+  "candidate_bounded_drift": {
+    "method": "A low-frequency harmonic offset plus the forward travelling wave fields; compare its water-like motion with V2 before choosing it.",
+    "x_amplitude_px": 10.504226244065093,
+    "y_amplitude_px": -17.188733853924695,
+    "equation": "offset = original_drift_rate *60/(2*pi) *sin(2*pi*t/60)",
+    "not_approval": "If the slow offset reads as obvious back-and-forth image motion, reject it and test locally renewed source-valid surface fields. Never reverse or dissolve the whole scene."
+  },
+  "source_protection": "Keep ring/rail/landing pixels out of sampled water texture and preserve the traced rim inset. Audit all interpolated source taps and the full warp Jacobian throughout the actual period, then compare encoded ordinary steps and the join.",
+  "interactive_light": "Reuse a surface emission field across separate stone/metal/canvas receiver masks with facing and falloff. A source-specific historical15-code V2 landing-lift cap is not a universal readability limit.",
+  "candidate_receiver_regions_native_xyxy": {
+    "stairs_and_landing": [
+      1050,
+      430,
+      1385,
+      550
+    ],
+    "inner_ring_and_rails": [
+      1040,
+      35,
+      1495,
+      480
+    ],
+    "restrained_cup_case_rims": [
+      285,
+      585,
+      425,
+      690
+    ]
+  },
+  "source_repair": "Fix the dual-handle mug in a confined new plate before production; retain the original and prove untouched source areas exact. Geometry source pin locations are not finished masks."
+}

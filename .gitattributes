@@ -429,3 +429,25 @@ music/deepwell-claim-review-2026-11-02/replacement-v1/Waterworks-Gallery-reworke
 /music/production-backup-2026-11-05-crater-rim/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /music/crater-rim-animation-v5/Crater-Rim-Survey-v5-60s-loop.mp4 filter=lfs diff=lfs merge=lfs -text
 /music/crater-rim-animation-v5/Crater-Rim-Survey-v4-vs-v5-normal-size-20s.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Source-bound scene16/17 development records and generator.
+/creative/animation-development/2026-11-05-16-17/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/final/16-cyberpunk-apartment/ANIMATION_DEVELOPMENT.md -text
+/final/17-gate-camp/ANIMATION_DEVELOPMENT.md -text
+
+# Requested scene16/17 checkpoint: preserve fingerprinted bytes.
+/music/cyberpunk-apartment-animation-v4/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/gate-camp-animation-v3/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/scene-animation-core/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/scene16-17-first-draft-assets/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/production-backup-2026-11-05-scenes16-17/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/cyberpunk-apartment-animation-v4/City-cup-lamp-and-leaves-detail.mp4 filter=lfs diff=lfs merge=lfs -text
+/music/cyberpunk-apartment-animation-v4/City-ferry-and-glass-detail.mp4 filter=lfs diff=lfs merge=lfs -text
+/music/cyberpunk-apartment-animation-v4/City-loop-join-10s.mp4 filter=lfs diff=lfs merge=lfs -text
+/music/cyberpunk-apartment-animation-v4/City-neon-and-traffic-detail.mp4 filter=lfs diff=lfs merge=lfs -text
+/music/cyberpunk-apartment-animation-v4/Cyberpunk-Apartment-V4-first-draft-60s.mp4 filter=lfs diff=lfs merge=lfs -text
+/music/gate-camp-animation-v3/Gate-Camp-V3-first-draft-60s.mp4 filter=lfs diff=lfs merge=lfs -text
+/music/gate-camp-animation-v3/Gate-canopy-and-wind-detail.mp4 filter=lfs diff=lfs merge=lfs -text
+/music/gate-camp-animation-v3/Gate-loop-join-10s.mp4 filter=lfs diff=lfs merge=lfs -text
+/music/gate-camp-animation-v3/Gate-rover-approach-detail.mp4 filter=lfs diff=lfs merge=lfs -text
+/music/gate-camp-animation-v3/Gate-water-and-steps-detail.mp4 filter=lfs diff=lfs merge=lfs -text

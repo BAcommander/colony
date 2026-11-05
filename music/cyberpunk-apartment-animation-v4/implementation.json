@@ -1,0 +1,152 @@
+{
+  "scene": {
+    "catalog_number": 16,
+    "title": "Cyberpunk Apartment",
+    "version": "V4",
+    "folder": "music/cyberpunk-apartment-animation-v4",
+    "video": "Cyberpunk-Apartment-V4-first-draft-60s.mp4",
+    "fps": 60,
+    "seconds": 60,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "user_approved": false,
+    "audio": false,
+    "technical_validation": "delivery-validation.json",
+    "details": [
+      {
+        "path": "City-neon-and-traffic-detail.mp4",
+        "sha256": "9ee25b5fa0ddea840024c50373400b3200f4bbf57e5f5bb250a224c953469c4a",
+        "source_sha256": "51361ce441e10e1a5f3aa9e74d1bd404efdd7b84d6bb3234cf8e54e86cb95321",
+        "scene_start_seconds": 10,
+        "seconds": 16,
+        "decoded_frames": 960,
+        "encoded_crop_xywh": [
+          624,
+          110,
+          566,
+          310
+        ],
+        "display_scale": 2,
+        "time_or_effect_strength_altered": false
+      },
+      {
+        "path": "City-cup-lamp-and-leaves-detail.mp4",
+        "sha256": "6ed62873240ea78a51d3a744f51f256a1cceed00a6abb6893986673f5ea8513e",
+        "source_sha256": "51361ce441e10e1a5f3aa9e74d1bd404efdd7b84d6bb3234cf8e54e86cb95321",
+        "scene_start_seconds": 18,
+        "seconds": 10,
+        "decoded_frames": 600,
+        "encoded_crop_xywh": [
+          92,
+          230,
+          510,
+          418
+        ],
+        "display_scale": 2,
+        "time_or_effect_strength_altered": false
+      },
+      {
+        "path": "City-ferry-and-glass-detail.mp4",
+        "sha256": "f4ae5009658407763bea723504ec9359aab2a8c8ac548130446fc3cd02a5d291",
+        "source_sha256": "51361ce441e10e1a5f3aa9e74d1bd404efdd7b84d6bb3234cf8e54e86cb95321",
+        "scene_start_seconds": 37,
+        "seconds": 12,
+        "decoded_frames": 720,
+        "encoded_crop_xywh": [
+          776,
+          356,
+          180,
+          72
+        ],
+        "display_scale": 2,
+        "time_or_effect_strength_altered": false
+      },
+      {
+        "path": "City-loop-join-10s.mp4",
+        "sha256": "19616027cf1deb39a7c69093b22702f0701e2d1466aa7cf9f53f5e17113ad50c",
+        "seconds": 10,
+        "decoded_frames": 600,
+        "exact_encoded_picture_sequence": "scene55-60 then0-5",
+        "all_decoded_yuv_hashes_match_source": true
+      }
+    ],
+    "implementation": [
+      {
+        "id": "A01",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Source-cloud local renewal plus separate moving gap mist."
+      },
+      {
+        "id": "A02",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Six source-road lanes, solid cars, separate physical speeds and filtered minimum headways."
+      },
+      {
+        "id": "A03",
+        "status": "first_pass_for_visual_review",
+        "implementation": "One longer commuter bus on the existing upper road, sharing the lane speed and a reserved birth gap."
+      },
+      {
+        "id": "A04",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Ten independent source-emitter programmes, including bright cores, and bounded local glow."
+      },
+      {
+        "id": "A05",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Source-bound water movement, selected sign-linked river/floor response and small vehicle wet-road streaks."
+      },
+      {
+        "id": "A06",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Exterior rain, optically refractive glass beads, sliding/holding tracks and one explicit two-drop merge."
+      },
+      {
+        "id": "A07",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Gap wisps substituted for rooftop emission: no unambiguous vent grille was available on this source."
+      },
+      {
+        "id": "A08",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Seeded, overlapping cup wisps against the dark sofa."
+      },
+      {
+        "id": "A09",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Held occupancy groups and existing red-core mast modulation; many windows remain steady."
+      },
+      {
+        "id": "A10",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Brief coupled table-lamp core/table-reflection dips in linear light."
+      },
+      {
+        "id": "A11",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Two original leaf cutouts moving over confined generated clean background."
+      },
+      {
+        "id": "A12",
+        "status": "first_pass_for_visual_review",
+        "implementation": "Small service ferry on retraced open water north of the foreground tower roof, with narrow wake."
+      }
+    ]
+  },
+  "review_timing": "Bus:8\u201326s. Lamp dips:20.4/20.72s and47.15s. Ferry:approximately37\u201352s, behind the central foreground tower line. Signs, rain, traffic, water, steam and leaf motion continue through the minute.",
+  "caveats": "The two leaves, procedural bus and tiny ferry are included as experiments. Gap mist replaces an unsupported rooftop-vent claim. Water masks were retraced after the legacy seeds caught rooftops/bridge pixels. A minimum headway filter and bus reservation replace raw random births; random times alone do not guarantee safe spacing.",
+  "cues": {
+    "mode": "visual_showcase_60_seconds_not_long_session",
+    "production_attention_period_seconds": 600,
+    "production_schedule_status": "not_implemented",
+    "visual_settings": "settings.json",
+    "future_sfx": [
+      "Rain filtered through closed glass; quiet room air.",
+      "Optional distant low road/bus wash, tied to the same transit clock.",
+      "No automatic sounds for lights, laptop, steam or leaves; no sharp horn."
+    ],
+    "no_audio_generated_or_gains_approved": true
+  }
+}

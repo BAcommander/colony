@@ -1,0 +1,12 @@
+{
+  "mode": "built-in image_gen",
+  "request": {
+    "prompt": "Use case: photorealistic-natural. Asset type: transparent RGBA cutout for a source-composited science-fiction animation. Generate ONE small, believable six-wheeled expedition survey rover, facing toward the LEFT in a front-left three-quarter view, camera slightly above roof height, so we see the front, side and wheels contacting an implied ground plane. Broad compact utilitarian chassis, six dark rubber/metal off-road wheels with visible suspension, matte warm grey/olive panels, subtle weathering, a short instrument mast and two tiny practical lamps. Real miniature/film-prop photographic realism, crisp coherent engineering, original understated near-future exploration equipment. The reference image is LIGHTING AND CAMERA STYLE ONLY: dusk blue from the right and a little soft amber from the left, suitable for the gravel approach by that gate. Isolate the whole vehicle with generous transparent margins. No background, no terrain, no stars, no text, no weapons, no crew, no additional vehicle, no smoke, no hard baked drop shadow. Preserve genuine alpha transparency.",
+    "referenced_image_paths": [
+      "C:/Colony/music/scene16-17-first-draft-assets/gate-source-reference.png"
+    ],
+    "transparent_background": true
+  },
+  "returned_path": "C:\\Users\\john\\.codex\\generated_images\\01a11569-0e03-7520-8947-ce396d150bba\\exec-76664550-3e7f-4360-842b-7db88b58ad4d.png",
+  "inspected_returned_image": true
+}

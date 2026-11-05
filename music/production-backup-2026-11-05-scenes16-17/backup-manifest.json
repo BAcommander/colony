@@ -1,0 +1,1063 @@
+{
+  "date": "2026-11-05",
+  "branch": "main",
+  "selection": "music/production-backup-2026-11-05-scenes16-17/selection.json",
+  "manifest_self_excluded": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 41299,
+      "sha256": "89a0a0b2d4f7aba9c48ea07c45ba7656c2515418f288bc1939dfae1e172b720b",
+      "git_blob_bytes": 40874,
+      "git_blob_sha256": "fbdc31e3ceaf0b1c66902504b0e3b922a874baf5be6b095ce91f37265450196d",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 12299,
+      "sha256": "3d547394858391d36a982be927d73f1717c87afd1f3399fada6a1492cc11ea48",
+      "git_blob_bytes": 12130,
+      "git_blob_sha256": "52e2c955ac2ddd119d4aedba3114d516ccf1ae6061c4485d57d14b2716548084",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 169001,
+      "sha256": "9e1b883361a42be95b23a1a95a1a32a8e553c2d94e0fac5861ef50227b4bcae6",
+      "git_blob_bytes": 169001,
+      "git_blob_sha256": "9e1b883361a42be95b23a1a95a1a32a8e553c2d94e0fac5861ef50227b4bcae6",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "EXPORTS.md",
+      "bytes": 5833,
+      "sha256": "74aa06784617381058d91089489a4b481d7f9d29a54d56198d0d44c151835fdb",
+      "git_blob_bytes": 5788,
+      "git_blob_sha256": "a31c4ef770761fd3c5bde78f10e5600ad2b3c1a2e7f6ed9eb6d7c70b6126acd9",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "bytes": 48310,
+      "sha256": "d31576284878fc026b78130bef97954573e0dcb6c4528b754f81483fe7ee6504",
+      "git_blob_bytes": 48310,
+      "git_blob_sha256": "d31576284878fc026b78130bef97954573e0dcb6c4528b754f81483fe7ee6504",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "bytes": 75313,
+      "sha256": "2402cd3bbaef15342ad684a4fa191de1ade2bbcb4a9eef386321a1625617f512",
+      "git_blob_bytes": 75313,
+      "git_blob_sha256": "2402cd3bbaef15342ad684a4fa191de1ade2bbcb4a9eef386321a1625617f512",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/ANIMATION_WORKFLOW.md",
+      "bytes": 15394,
+      "sha256": "b63fcbdfd3b0adf8014cab8a38dc790a6a768dda573bf82b3b8f6246e7c97e50",
+      "git_blob_bytes": 15295,
+      "git_blob_sha256": "203f594c61651dcbce9dc4942663ce0f4ad501d027a21c85575e92fc323ab2be",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "creative/MUSIC_WORKFLOW.md",
+      "bytes": 49147,
+      "sha256": "ba51c42ffb9aa83ccf0b0f497f27b33a8692d30e6d2f42b63b3331144a536d60",
+      "git_blob_bytes": 48917,
+      "git_blob_sha256": "7453fbe0fb2125b04ad8a61e3715f1ae4c20b5725fd84e897ef236eccface7e0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "creative/NEXT_SCENE_RUNBOOK.md",
+      "bytes": 10070,
+      "sha256": "69480cd0a30b3e033a4c80d12942fa35c46bd22d156f7225aa7fb0d9c65b7f83",
+      "git_blob_bytes": 10001,
+      "git_blob_sha256": "83732c0889c520753dafa4ac95cdda7905a52f9e57bf25744b4301c6790b8374",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/16-cyberpunk-apartment-backlog.json",
+      "bytes": 15411,
+      "sha256": "6d6f0ddf6824426499ad6544dc3001d264b79273654ce892e412b01df3b6c53c",
+      "git_blob_bytes": 15411,
+      "git_blob_sha256": "6d6f0ddf6824426499ad6544dc3001d264b79273654ce892e412b01df3b6c53c",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/16-retiming-design.json",
+      "bytes": 4972,
+      "sha256": "5c5e6e7c1468cb16d99b85c67a59316e011545922769a449294000f1cd7b2006",
+      "git_blob_bytes": 4972,
+      "git_blob_sha256": "5c5e6e7c1468cb16d99b85c67a59316e011545922769a449294000f1cd7b2006",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/17-gate-camp-backlog.json",
+      "bytes": 15238,
+      "sha256": "8539df74ef8de262675f0c2a18e9b29a0dfcfd9f16549772224b417fd370b9ac",
+      "git_blob_bytes": 15238,
+      "git_blob_sha256": "8539df74ef8de262675f0c2a18e9b29a0dfcfd9f16549772224b417fd370b9ac",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/17-periodic-surface-design.json",
+      "bytes": 2820,
+      "sha256": "ab5707e42fb71c8b220a4fa8a5829d153ac9f052fe40a14bf21f4e82c7a26180",
+      "git_blob_bytes": 2820,
+      "git_blob_sha256": "ab5707e42fb71c8b220a4fa8a5829d153ac9f052fe40a14bf21f4e82c7a26180",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/README.md",
+      "bytes": 2910,
+      "sha256": "c865bc80628b58522655de351c228b6b5e7570ae5d05f757c9c2851b0e50a9b7",
+      "git_blob_bytes": 2910,
+      "git_blob_sha256": "c865bc80628b58522655de351c228b6b5e7570ae5d05f757c9c2851b0e50a9b7",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/baseline-16.jpg",
+      "bytes": 317778,
+      "sha256": "2067cd7abf0844c6d78b9dd9be463d8625a754fab38ec871a21e0b68ef8532ab",
+      "git_blob_bytes": 317778,
+      "git_blob_sha256": "2067cd7abf0844c6d78b9dd9be463d8625a754fab38ec871a21e0b68ef8532ab",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/baseline-17.jpg",
+      "bytes": 259668,
+      "sha256": "1db401b766048178bb1ad5eb6be5200cdb86e023eb4ac7bd19f21e5903186098",
+      "git_blob_bytes": 259668,
+      "git_blob_sha256": "1db401b766048178bb1ad5eb6be5200cdb86e023eb4ac7bd19f21e5903186098",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/baseline-audit.json",
+      "bytes": 2103,
+      "sha256": "150bd11180fcbe2e0c96cac6072855d8bff63bf87acead08a6b1702d2b04fb8e",
+      "git_blob_bytes": 2103,
+      "git_blob_sha256": "150bd11180fcbe2e0c96cac6072855d8bff63bf87acead08a6b1702d2b04fb8e",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/build_development_pack.py",
+      "bytes": 20558,
+      "sha256": "df9bf35b9efbdb9441632c001cb5f684b50be97a862e43e4c20cc2e5bf8967f0",
+      "git_blob_bytes": 20558,
+      "git_blob_sha256": "df9bf35b9efbdb9441632c001cb5f684b50be97a862e43e4c20cc2e5bf8967f0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/first-draft-status.json",
+      "bytes": 10348,
+      "sha256": "1af5f465428987be457d4a72fb22d5c464e6171c467f3fc3d3952a2ce043f714",
+      "git_blob_bytes": 10348,
+      "git_blob_sha256": "1af5f465428987be457d4a72fb22d5c464e6171c467f3fc3d3952a2ce043f714",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/gate-cup-geometry.jpg",
+      "bytes": 40707,
+      "sha256": "a54167e52f59239e5b3f5acc77d0a0853ea7f5e32b0bd0556998c15e8b0e543c",
+      "git_blob_bytes": 40707,
+      "git_blob_sha256": "a54167e52f59239e5b3f5acc77d0a0853ea7f5e32b0bd0556998c15e8b0e543c",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/geometry-seeds.json",
+      "bytes": 9487,
+      "sha256": "08f6a393abd3e996c3b3fe0fff397dd4bf33d2930f6871ea98d7ffd85114394d",
+      "git_blob_bytes": 9487,
+      "git_blob_sha256": "08f6a393abd3e996c3b3fe0fff397dd4bf33d2930f6871ea98d7ffd85114394d",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/index.html",
+      "bytes": 25213,
+      "sha256": "def0a5fbeebe96ec4c0028c68993d0d1c6df29ec5955f005805b5c17171ab4c3",
+      "git_blob_bytes": 25213,
+      "git_blob_sha256": "def0a5fbeebe96ec4c0028c68993d0d1c6df29ec5955f005805b5c17171ab4c3",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/planning-validation.json",
+      "bytes": 982,
+      "sha256": "06d20d5a63df59db6a5fc732c60f215d071adcb3fd20a7f09253b1b5ca38ea5e",
+      "git_blob_bytes": 982,
+      "git_blob_sha256": "06d20d5a63df59db6a5fc732c60f215d071adcb3fd20a7f09253b1b5ca38ea5e",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/review-link-validation.json",
+      "bytes": 646,
+      "sha256": "686e62de646a75318e7adba5371246fcd26d9e336ff6de26c381daf6cbcf9928",
+      "git_blob_bytes": 646,
+      "git_blob_sha256": "686e62de646a75318e7adba5371246fcd26d9e336ff6de26c381daf6cbcf9928",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/review.html",
+      "bytes": 8613,
+      "sha256": "f9217916061e05258bb65d0f43d2368901ee912468e03dd486c5b56354da9792",
+      "git_blob_bytes": 8613,
+      "git_blob_sha256": "f9217916061e05258bb65d0f43d2368901ee912468e03dd486c5b56354da9792",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-16-17/shared-production-rules.json",
+      "bytes": 1664,
+      "sha256": "fb7d56dd3744a72f523ab9fca217f196c2c6ed07ac0783e29f64e0e7204ec796",
+      "git_blob_bytes": 1664,
+      "git_blob_sha256": "fb7d56dd3744a72f523ab9fca217f196c2c6ed07ac0783e29f64e0e7204ec796",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-three-worlds/e1-gate-camp/concept-v1.png",
+      "bytes": 2551695,
+      "sha256": "384fefe650ce8420b166a6fc55cc9f50bd878ec8379b514def985c8313cd9f08",
+      "git_blob_bytes": 2551695,
+      "git_blob_sha256": "384fefe650ce8420b166a6fc55cc9f50bd878ec8379b514def985c8313cd9f08",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/16-cyberpunk-apartment/ANIMATION_DEVELOPMENT.md",
+      "bytes": 14486,
+      "sha256": "c31cc6add6fcdaaca8d14421d3b18bf6503ddbefa0d4c24b5927ec9c5adce3d2",
+      "git_blob_bytes": 14486,
+      "git_blob_sha256": "c31cc6add6fcdaaca8d14421d3b18bf6503ddbefa0d4c24b5927ec9c5adce3d2",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/16-cyberpunk-apartment/README.md",
+      "bytes": 4865,
+      "sha256": "61fa995a7df1a16400b5870b20286b2dfdc86493dfa1f1e66f6460f21fcb5567",
+      "git_blob_bytes": 4865,
+      "git_blob_sha256": "61fa995a7df1a16400b5870b20286b2dfdc86493dfa1f1e66f6460f21fcb5567",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/16-cyberpunk-apartment/artwork-v3.png",
+      "bytes": 2584033,
+      "sha256": "3ae5b38ec7c6c5fa31d1df38a6659c39efdec5b717bfa199b0b839a1c0fc634d",
+      "git_blob_bytes": 2584033,
+      "git_blob_sha256": "3ae5b38ec7c6c5fa31d1df38a6659c39efdec5b717bfa199b0b839a1c0fc634d",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/16-cyberpunk-apartment/manifest.json",
+      "bytes": 9626,
+      "sha256": "630570ac3b82f8bfb00ef3e3001f7df3b5931fd0cabd3f68835995ce4894fd75",
+      "git_blob_bytes": 9626,
+      "git_blob_sha256": "630570ac3b82f8bfb00ef3e3001f7df3b5931fd0cabd3f68835995ce4894fd75",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/17-gate-camp/ANIMATION_DEVELOPMENT.md",
+      "bytes": 14122,
+      "sha256": "9d2daa563f8cd8223fe5c65b850e887bc866369e3e12585b5037f0f866f5f9a9",
+      "git_blob_bytes": 14122,
+      "git_blob_sha256": "9d2daa563f8cd8223fe5c65b850e887bc866369e3e12585b5037f0f866f5f9a9",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/17-gate-camp/README.md",
+      "bytes": 3290,
+      "sha256": "3376184a69911c8d098a344b68087c89df6e2fd0812dd85110dfd6a1c1f03c8e",
+      "git_blob_bytes": 3290,
+      "git_blob_sha256": "3376184a69911c8d098a344b68087c89df6e2fd0812dd85110dfd6a1c1f03c8e",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/README.md",
+      "bytes": 8029,
+      "sha256": "65478c0e3e3c67b9503eb0aae774a0bf2accc2da2bb3a61609c4ea4ebdd053a9",
+      "git_blob_bytes": 7977,
+      "git_blob_sha256": "49adee1e9768221473817a6ea0053367968d01ac11fab370503de382df79230b",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "final/catalog.json",
+      "bytes": 12364,
+      "sha256": "ca68e7392e086ca1523abc522a1a0c8e1f79d331dac0cfdd34ea34d61ab7cb84",
+      "git_blob_bytes": 12364,
+      "git_blob_sha256": "ca68e7392e086ca1523abc522a1a0c8e1f79d331dac0cfdd34ea34d61ab7cb84",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/City-cup-lamp-and-leaves-detail.mp4",
+      "bytes": 4767518,
+      "sha256": "6ed62873240ea78a51d3a744f51f256a1cceed00a6abb6893986673f5ea8513e",
+      "git_blob_bytes": 132,
+      "git_blob_sha256": "c0821338b5556a36f26d3462816363f5defaab06a02a3c75cbc6f34cace0f253",
+      "storage": "git-lfs",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/City-ferry-and-glass-detail.mp4",
+      "bytes": 1341756,
+      "sha256": "f4ae5009658407763bea723504ec9359aab2a8c8ac548130446fc3cd02a5d291",
+      "git_blob_bytes": 132,
+      "git_blob_sha256": "d14f5b6b58361288de8af4a804966daadd4bdc08a564c8518e48259490239ae8",
+      "storage": "git-lfs",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/City-loop-join-10s.mp4",
+      "bytes": 6209807,
+      "sha256": "19616027cf1deb39a7c69093b22702f0701e2d1466aa7cf9f53f5e17113ad50c",
+      "git_blob_bytes": 132,
+      "git_blob_sha256": "c3c2767f4301a15e815034ea05e97bff8443d35e3d368736de9f518aa9ece016",
+      "storage": "git-lfs",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/City-neon-and-traffic-detail.mp4",
+      "bytes": 18077898,
+      "sha256": "9ee25b5fa0ddea840024c50373400b3200f4bbf57e5f5bb250a224c953469c4a",
+      "git_blob_bytes": 133,
+      "git_blob_sha256": "db7cbc969b23e60e1ed8b5f14828a3591a86c5bff1a1d0bc5a5b860662cef5ca",
+      "storage": "git-lfs",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/Cyberpunk-Apartment-V4-first-draft-60s.mp4",
+      "bytes": 34535096,
+      "sha256": "51361ce441e10e1a5f3aa9e74d1bd404efdd7b84d6bb3234cf8e54e86cb95321",
+      "git_blob_bytes": 133,
+      "git_blob_sha256": "4a813579964716c8c8e3344317af6bd2f35d531b08489239d3a90a72f0fab35d",
+      "storage": "git-lfs",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/README.md",
+      "bytes": 4223,
+      "sha256": "12e9239bb6ddcfbfc0c2cfe88950ebb3f7b6ed7fc5dbabc9664a4819701859f0",
+      "git_blob_bytes": 4223,
+      "git_blob_sha256": "12e9239bb6ddcfbfc0c2cfe88950ebb3f7b6ed7fc5dbabc9664a4819701859f0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/delivery-validation.json",
+      "bytes": 14418,
+      "sha256": "cba254f25f0ba19a3fed099d52254059b963add1061fae17c8d28fb4253e06f5",
+      "git_blob_bytes": 14418,
+      "git_blob_sha256": "cba254f25f0ba19a3fed099d52254059b963add1061fae17c8d28fb4253e06f5",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/detail-review-validation.json",
+      "bytes": 1889,
+      "sha256": "312a6e27dfc2691c8421e4917cadb12642ceee33059a6aae370e24864e714496",
+      "git_blob_bytes": 1889,
+      "git_blob_sha256": "312a6e27dfc2691c8421e4917cadb12642ceee33059a6aae370e24864e714496",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/evidence/combined-00.00s.png",
+      "bytes": 1467480,
+      "sha256": "c8b7eca6203f9052df122f967a64135822c94a03f2e3a2babd3db92743daf074",
+      "git_blob_bytes": 1467480,
+      "git_blob_sha256": "c8b7eca6203f9052df122f967a64135822c94a03f2e3a2babd3db92743daf074",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/evidence/combined-10.00s.png",
+      "bytes": 1468108,
+      "sha256": "b6096dd4b0d2432c765fc8898d5dace8f9631b2a7d5bba609865bd6a6f4ed44c",
+      "git_blob_bytes": 1468108,
+      "git_blob_sha256": "b6096dd4b0d2432c765fc8898d5dace8f9631b2a7d5bba609865bd6a6f4ed44c",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/evidence/combined-20.55s.png",
+      "bytes": 1466777,
+      "sha256": "d10ecff69bc95f232da13d504cccedbd58ddfab0feb65ebe78643ca36f9955d0",
+      "git_blob_bytes": 1466777,
+      "git_blob_sha256": "d10ecff69bc95f232da13d504cccedbd58ddfab0feb65ebe78643ca36f9955d0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/evidence/combined-36.00s.png",
+      "bytes": 1467760,
+      "sha256": "6e492aa16c5368e44d6514e84aeb621f6172c0c6e03e76d04f2c66def5dc02dd",
+      "git_blob_bytes": 1467760,
+      "git_blob_sha256": "6e492aa16c5368e44d6514e84aeb621f6172c0c6e03e76d04f2c66def5dc02dd",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/evidence/combined-47.30s.png",
+      "bytes": 1467846,
+      "sha256": "54f67671b240f1503fef1a41a96b3ce2dc82a4cc194eaabd451943ca844021f1",
+      "git_blob_bytes": 1467846,
+      "git_blob_sha256": "54f67671b240f1503fef1a41a96b3ce2dc82a4cc194eaabd451943ca844021f1",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/evidence/combined-55.00s.png",
+      "bytes": 1467921,
+      "sha256": "3de599bdeffef5157dae6f9b17deb6d4d24294a4a3fcca2c28c476d4429ccd31",
+      "git_blob_bytes": 1467921,
+      "git_blob_sha256": "3de599bdeffef5157dae6f9b17deb6d4d24294a4a3fcca2c28c476d4429ccd31",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/evidence/decoded-13.00s.png",
+      "bytes": 1313781,
+      "sha256": "ca6864947199a08c39c61c7e270dc61b6d96d7fdca965b47a846037a2de4768f",
+      "git_blob_bytes": 1313781,
+      "git_blob_sha256": "ca6864947199a08c39c61c7e270dc61b6d96d7fdca965b47a846037a2de4768f",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/evidence/decoded-20.55s.png",
+      "bytes": 1312515,
+      "sha256": "aca06ab8f37f02b4b834b2b87263f6271abdf5e2bbe21beeb75ee5b912eb80ed",
+      "git_blob_bytes": 1312515,
+      "git_blob_sha256": "aca06ab8f37f02b4b834b2b87263f6271abdf5e2bbe21beeb75ee5b912eb80ed",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/evidence/decoded-43.00s.png",
+      "bytes": 1313783,
+      "sha256": "939627ee1900279d2063ba1a5e722a154cabb641afeccc5bbf696c64c1c47818",
+      "git_blob_bytes": 1313783,
+      "git_blob_sha256": "939627ee1900279d2063ba1a5e722a154cabb641afeccc5bbf696c64c1c47818",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/evidence/decoded-47.30s.png",
+      "bytes": 1313487,
+      "sha256": "413aecabd4def9b2df299c934d0133ad2b7224f006639ecdfad9ff9d9a19e1cd",
+      "git_blob_bytes": 1313487,
+      "git_blob_sha256": "413aecabd4def9b2df299c934d0133ad2b7224f006639ecdfad9ff9d9a19e1cd",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/evidence/mask-overlay.png",
+      "bytes": 2432715,
+      "sha256": "c44f15f66b05e7fdf2cf05e1b33a7e4620901309631bbc72e5c308eead2b5b63",
+      "git_blob_bytes": 2432715,
+      "git_blob_sha256": "c44f15f66b05e7fdf2cf05e1b33a7e4620901309631bbc72e5c308eead2b5b63",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/implementation.json",
+      "bytes": 5829,
+      "sha256": "f98a3b0b2f4a9cd894efcb99302b93c3da760e04e059075bda1485ca95dd12a0",
+      "git_blob_bytes": 5829,
+      "git_blob_sha256": "f98a3b0b2f4a9cd894efcb99302b93c3da760e04e059075bda1485ca95dd12a0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/internal-proof-history.json",
+      "bytes": 498,
+      "sha256": "ed2433c97754b10f53e6fb524159d09cefd54e97447f0e1939b74c5faa1639c0",
+      "git_blob_bytes": 498,
+      "git_blob_sha256": "ed2433c97754b10f53e6fb524159d09cefd54e97447f0e1939b74c5faa1639c0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/loop-review-input.txt",
+      "bytes": 102,
+      "sha256": "a1086f23f54a8952b380642c7749bc9d1024da5d63d07b70b0ad7f73b0edc8c5",
+      "git_blob_bytes": 102,
+      "git_blob_sha256": "a1086f23f54a8952b380642c7749bc9d1024da5d63d07b70b0ad7f73b0edc8c5",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/render.py",
+      "bytes": 17422,
+      "sha256": "f709394988c46c984dd43646b14c9fb3d4eefd26ca7cb307d2497bd05209cff3",
+      "git_blob_bytes": 17422,
+      "git_blob_sha256": "f709394988c46c984dd43646b14c9fb3d4eefd26ca7cb307d2497bd05209cff3",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/settings.json",
+      "bytes": 630,
+      "sha256": "945c6f84beaf2d3467c539df9135b17b433f9397a9223ff30928bcf6dc343d88",
+      "git_blob_bytes": 630,
+      "git_blob_sha256": "945c6f84beaf2d3467c539df9135b17b433f9397a9223ff30928bcf6dc343d88",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/cyberpunk-apartment-animation-v4/source-geometry-validation.json",
+      "bytes": 342,
+      "sha256": "e9c84bdd8d4f3374f835956d6e0f1495538438bf98ccb662340c4a7599044325",
+      "git_blob_bytes": 342,
+      "git_blob_sha256": "e9c84bdd8d4f3374f835956d6e0f1495538438bf98ccb662340c4a7599044325",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/Gate-Camp-V3-first-draft-60s.mp4",
+      "bytes": 37552905,
+      "sha256": "4255f0fbeb80170cb58895e6f28900f7aad06fdfa8889716efc4f3d5c4d8a3b8",
+      "git_blob_bytes": 133,
+      "git_blob_sha256": "b0e1cfd529423f324b1348b37fd84eb6d1466752a260ed020a925b4df1e4865b",
+      "storage": "git-lfs",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/gate-camp-animation-v3/Gate-canopy-and-wind-detail.mp4",
+      "bytes": 6054037,
+      "sha256": "630296746cd08a17a39ce1def0811039b5b9ba7a3b611e1991a57903ff1785f9",
+      "git_blob_bytes": 132,
+      "git_blob_sha256": "8fa4d6e333d51eec1164745d3442d3ca2d853466975226c17e8fe63d6abe8cbf",
+      "storage": "git-lfs",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/gate-camp-animation-v3/Gate-loop-join-10s.mp4",
+      "bytes": 5754908,
+      "sha256": "ebd07356b587c3d8eb0386a9fd24f2a1e3266774440f106e443c0bdcf1de1130",
+      "git_blob_bytes": 132,
+      "git_blob_sha256": "171d35722797f089f7851a92e6cbc0ecf51456aeb70819cc16735fb37e0e3dee",
+      "storage": "git-lfs",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/gate-camp-animation-v3/Gate-rover-approach-detail.mp4",
+      "bytes": 3743376,
+      "sha256": "b85d2dc27ebc7b72556aa32bb35da81157fdd590cda8358046864da98513ce06",
+      "git_blob_bytes": 132,
+      "git_blob_sha256": "95eeb04caa42e7c700361543fd815fa8d8b7ec005b7def01711e00ae395e9818",
+      "storage": "git-lfs",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/gate-camp-animation-v3/Gate-water-and-steps-detail.mp4",
+      "bytes": 25534396,
+      "sha256": "a5b87266f18b04c707148f8e4d1f09183055676320a4607789d6ad06eaa83f41",
+      "git_blob_bytes": 133,
+      "git_blob_sha256": "d67e9784eaae3dc8e32842583d3bfc049cabb3b3fca0e836983934b5c8718568",
+      "storage": "git-lfs",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/gate-camp-animation-v3/README.md",
+      "bytes": 4257,
+      "sha256": "4d573d1a86d169a6b3acfccdefdafa10e165eb239c2dfd757fe1ecfb8ad35c85",
+      "git_blob_bytes": 4257,
+      "git_blob_sha256": "4d573d1a86d169a6b3acfccdefdafa10e165eb239c2dfd757fe1ecfb8ad35c85",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/artwork-v2-mug-repair.png",
+      "bytes": 2451159,
+      "sha256": "2ab1c625a93e293b23e1c973ca86b98f70e12ca33c9a4cbd1f85f94ed472be00",
+      "git_blob_bytes": 2451159,
+      "git_blob_sha256": "2ab1c625a93e293b23e1c973ca86b98f70e12ca33c9a4cbd1f85f94ed472be00",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/delivery-validation.json",
+      "bytes": 7663,
+      "sha256": "f28b9e851629bd1070f836ae96306669e4022eff925480cb33b1192ac13d4a53",
+      "git_blob_bytes": 7663,
+      "git_blob_sha256": "f28b9e851629bd1070f836ae96306669e4022eff925480cb33b1192ac13d4a53",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/detail-review-validation.json",
+      "bytes": 1867,
+      "sha256": "96df3f1be618ecc0e692c61a8033c75dfac9988078a8285f960b321cb35fee1b",
+      "git_blob_bytes": 1867,
+      "git_blob_sha256": "96df3f1be618ecc0e692c61a8033c75dfac9988078a8285f960b321cb35fee1b",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/evidence/combined-00.00s.png",
+      "bytes": 1394503,
+      "sha256": "a21e05d4ba7a34cebb8fecd764e23a5a11d105ccab23247df658b9e2f98b280c",
+      "git_blob_bytes": 1394503,
+      "git_blob_sha256": "a21e05d4ba7a34cebb8fecd764e23a5a11d105ccab23247df658b9e2f98b280c",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/evidence/combined-12.00s.png",
+      "bytes": 1392842,
+      "sha256": "bda7128ebbabf91e3904ba35acc82ba6f79865bcfbbc77f7593eb4993e4424e3",
+      "git_blob_bytes": 1392842,
+      "git_blob_sha256": "bda7128ebbabf91e3904ba35acc82ba6f79865bcfbbc77f7593eb4993e4424e3",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/evidence/combined-18.00s.png",
+      "bytes": 1392910,
+      "sha256": "35dc83d72323a3f4a0e421181560bed1d7c123685ac82e4baa139076ad2d1cbd",
+      "git_blob_bytes": 1392910,
+      "git_blob_sha256": "35dc83d72323a3f4a0e421181560bed1d7c123685ac82e4baa139076ad2d1cbd",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/evidence/combined-26.55s.png",
+      "bytes": 1394071,
+      "sha256": "288702c5ec91a446a3df85e4799421c108097bf0d147e60ee09fd7436f1ee67a",
+      "git_blob_bytes": 1394071,
+      "git_blob_sha256": "288702c5ec91a446a3df85e4799421c108097bf0d147e60ee09fd7436f1ee67a",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/evidence/combined-38.00s.png",
+      "bytes": 1393197,
+      "sha256": "6bdc8be495e9587416ed5e8a58a295e2a7489c1b5dc51f6d3dffaf9aba1daa63",
+      "git_blob_bytes": 1393197,
+      "git_blob_sha256": "6bdc8be495e9587416ed5e8a58a295e2a7489c1b5dc51f6d3dffaf9aba1daa63",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/evidence/combined-53.35s.png",
+      "bytes": 1394084,
+      "sha256": "0fed26190cc8269a13f7b966f25d973e9d777f49174ef02c585cf93a3ed16046",
+      "git_blob_bytes": 1394084,
+      "git_blob_sha256": "0fed26190cc8269a13f7b966f25d973e9d777f49174ef02c585cf93a3ed16046",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/evidence/decoded-13.00s.png",
+      "bytes": 1233644,
+      "sha256": "dca1be07ca328b01cdac72eeb92b76c03dac904ab65fbcfc9d5858fb30ecf5b8",
+      "git_blob_bytes": 1233644,
+      "git_blob_sha256": "dca1be07ca328b01cdac72eeb92b76c03dac904ab65fbcfc9d5858fb30ecf5b8",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/evidence/decoded-18.00s.png",
+      "bytes": 1234730,
+      "sha256": "ace768d65d8dc2708495a68329b08317efe3e06e2760c81aef49bb68ce3efa9a",
+      "git_blob_bytes": 1234730,
+      "git_blob_sha256": "ace768d65d8dc2708495a68329b08317efe3e06e2760c81aef49bb68ce3efa9a",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/evidence/decoded-26.53s.png",
+      "bytes": 1234820,
+      "sha256": "c24bb874935aa690560cab5c224fbfcdf820957fa0ce27435cafd41762b586c4",
+      "git_blob_bytes": 1234820,
+      "git_blob_sha256": "c24bb874935aa690560cab5c224fbfcdf820957fa0ce27435cafd41762b586c4",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/evidence/decoded-43.00s.png",
+      "bytes": 1234377,
+      "sha256": "4a36d83f70cd5da7b566a2291570e086fa899adcba90f0f17dc471daf3356b29",
+      "git_blob_bytes": 1234377,
+      "git_blob_sha256": "4a36d83f70cd5da7b566a2291570e086fa899adcba90f0f17dc471daf3356b29",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/evidence/mask-overlay.png",
+      "bytes": 2393714,
+      "sha256": "728c5a610046be77228aeb6f69804ec6911e97027df1c88f3ad9234cd8c2294d",
+      "git_blob_bytes": 2393714,
+      "git_blob_sha256": "728c5a610046be77228aeb6f69804ec6911e97027df1c88f3ad9234cd8c2294d",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/implementation.json",
+      "bytes": 6133,
+      "sha256": "66e284711a229e3b57500e809451a9faae0d826d554e4e6b8abf877f57bcdd5d",
+      "git_blob_bytes": 6133,
+      "git_blob_sha256": "66e284711a229e3b57500e809451a9faae0d826d554e4e6b8abf877f57bcdd5d",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/loop-review-input.txt",
+      "bytes": 82,
+      "sha256": "0c2a076ff63b484b9c0e6d176ca5b049248b43c9bba885d3c9eaf2577c9c09a9",
+      "git_blob_bytes": 82,
+      "git_blob_sha256": "0c2a076ff63b484b9c0e6d176ca5b049248b43c9bba885d3c9eaf2577c9c09a9",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/render.py",
+      "bytes": 15034,
+      "sha256": "7d962e8ff0db692b281ab0dbaca0292909dcf1c1671b5b77e0d6b8c71d8b337e",
+      "git_blob_bytes": 15034,
+      "git_blob_sha256": "7d962e8ff0db692b281ab0dbaca0292909dcf1c1671b5b77e0d6b8c71d8b337e",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/settings.json",
+      "bytes": 786,
+      "sha256": "cbf8a66f5755828d2f1f4d57b0bc5676516f01589764d61cceeb78c7fa276327",
+      "git_blob_bytes": 786,
+      "git_blob_sha256": "cbf8a66f5755828d2f1f4d57b0bc5676516f01589764d61cceeb78c7fa276327",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/gate-camp-animation-v3/source-geometry-validation.json",
+      "bytes": 130,
+      "sha256": "a30e35100cd154fffc161f5e42e3b516a6e86680b504ab6b2d0f091f4d73bdff",
+      "git_blob_bytes": 130,
+      "git_blob_sha256": "a30e35100cd154fffc161f5e42e3b516a6e86680b504ab6b2d0f091f4d73bdff",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/production-backup-2026-11-05-scenes16-17/README.md",
+      "bytes": 1777,
+      "sha256": "19b1292dc3d8465d67f763057e0727b58adc96a2d022bcf9fdb0ff823299ccd1",
+      "git_blob_bytes": 1777,
+      "git_blob_sha256": "19b1292dc3d8465d67f763057e0727b58adc96a2d022bcf9fdb0ff823299ccd1",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/production-backup-2026-11-05-scenes16-17/build_manifest.py",
+      "bytes": 3319,
+      "sha256": "25b1e30da87ce2794aa9ebd6f24da99a16b35d4837cabbd6c652b7ac421861e4",
+      "git_blob_bytes": 3319,
+      "git_blob_sha256": "25b1e30da87ce2794aa9ebd6f24da99a16b35d4837cabbd6c652b7ac421861e4",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/production-backup-2026-11-05-scenes16-17/prepare_backup.py",
+      "bytes": 3361,
+      "sha256": "97bf2eb28808a3204c1a9be9b0b49349cc88ef218be64e1bb5cbca0b9209c2b4",
+      "git_blob_bytes": 3361,
+      "git_blob_sha256": "97bf2eb28808a3204c1a9be9b0b49349cc88ef218be64e1bb5cbca0b9209c2b4",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/production-backup-2026-11-05-scenes16-17/selection-policy.json",
+      "bytes": 1337,
+      "sha256": "1a9afb61d262380c884d018a2fbb5e61205a4e6cb5900dc856e66e1b23df7521",
+      "git_blob_bytes": 1337,
+      "git_blob_sha256": "1a9afb61d262380c884d018a2fbb5e61205a4e6cb5900dc856e66e1b23df7521",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/production-backup-2026-11-05-scenes16-17/selection.json",
+      "bytes": 8092,
+      "sha256": "3687fe7885f936ce7685d028e8056a2c1c8fdfad027be00af36bf59c0ddd3ff3",
+      "git_blob_bytes": 8092,
+      "git_blob_sha256": "3687fe7885f936ce7685d028e8056a2c1c8fdfad027be00af36bf59c0ddd3ff3",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/production-backup-2026-11-05-scenes16-17/verify_remote.py",
+      "bytes": 6924,
+      "sha256": "7db2861b4319353ea97f78659b6c3f335197c6c29a22875b4420a6a44659b1ed",
+      "git_blob_bytes": 6924,
+      "git_blob_sha256": "7db2861b4319353ea97f78659b6c3f335197c6c29a22875b4420a6a44659b1ed",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene-animation-core/README.md",
+      "bytes": 1569,
+      "sha256": "781856b90f11812f4ae5d783f8876ece98fdc80efdb53e1c54479186941662f6",
+      "git_blob_bytes": 1569,
+      "git_blob_sha256": "781856b90f11812f4ae5d783f8876ece98fdc80efdb53e1c54479186941662f6",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene-animation-core/build_delivery_pack.py",
+      "bytes": 20527,
+      "sha256": "a9c20baaa83e4232526437e93c4b7a6441527134115a4ec763d423cd671dc34a",
+      "git_blob_bytes": 20527,
+      "git_blob_sha256": "a9c20baaa83e4232526437e93c4b7a6441527134115a4ec763d423cd671dc34a",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene-animation-core/core.py",
+      "bytes": 10524,
+      "sha256": "fbcf466ee4e286e0e68578336a4cb2d3b2a8bd5f8d7b1fd7f61bff1a9b984bf0",
+      "git_blob_bytes": 10524,
+      "git_blob_sha256": "fbcf466ee4e286e0e68578336a4cb2d3b2a8bd5f8d7b1fd7f61bff1a9b984bf0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene-animation-core/make_reviews.py",
+      "bytes": 2967,
+      "sha256": "332bcfc58e2794294641f17be95ee4180174a2bc5607c79d301fc17f97219b81",
+      "git_blob_bytes": 2967,
+      "git_blob_sha256": "332bcfc58e2794294641f17be95ee4180174a2bc5607c79d301fc17f97219b81",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene-animation-core/requirements.txt",
+      "bytes": 83,
+      "sha256": "d3030f14f83776823ba7500c56ee5213e5acb2b931d776ad0bbb56bab9904b93",
+      "git_blob_bytes": 83,
+      "git_blob_sha256": "d3030f14f83776823ba7500c56ee5213e5acb2b931d776ad0bbb56bab9904b93",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene-animation-core/validate_geometry.py",
+      "bytes": 2582,
+      "sha256": "ce1f169c157db4d2f944ab7345ee5bb9b247746c6aed6e84d34487ab04e4eaaf",
+      "git_blob_bytes": 2582,
+      "git_blob_sha256": "ce1f169c157db4d2f944ab7345ee5bb9b247746c6aed6e84d34487ab04e4eaaf",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene-animation-core/validate_review.py",
+      "bytes": 6773,
+      "sha256": "32fb77f74dbd9b6c1bf1174f86198ccdbf7afebe8721462274826834f65256bb",
+      "git_blob_bytes": 6773,
+      "git_blob_sha256": "32fb77f74dbd9b6c1bf1174f86198ccdbf7afebe8721462274826834f65256bb",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/README.md",
+      "bytes": 1440,
+      "sha256": "a253d55e81f34753c865a164886edac83dd6f25e253015235444e7d4e6973ee4",
+      "git_blob_bytes": 1440,
+      "git_blob_sha256": "a253d55e81f34753c865a164886edac83dd6f25e253015235444e7d4e6973ee4",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/asset-preparation.json",
+      "bytes": 3977,
+      "sha256": "28620fd8c1ce039fd4958c37eec23dd9f4d4515925c2a5ee76ab990a65ae34a2",
+      "git_blob_bytes": 3977,
+      "git_blob_sha256": "28620fd8c1ce039fd4958c37eec23dd9f4d4515925c2a5ee76ab990a65ae34a2",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/city-leaf-1-mask.png",
+      "bytes": 1643,
+      "sha256": "44345695d8595980f5b31a42c18ab15d41dfb68409b60c0aabe653a23db0a277",
+      "git_blob_bytes": 1643,
+      "git_blob_sha256": "44345695d8595980f5b31a42c18ab15d41dfb68409b60c0aabe653a23db0a277",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/city-leaf-2-mask.png",
+      "bytes": 2221,
+      "sha256": "966dfd2e517c92588baed2be3f2eafcd4d45014ca1f5d32d3ad8479ffe0e92f3",
+      "git_blob_bytes": 2221,
+      "git_blob_sha256": "966dfd2e517c92588baed2be3f2eafcd4d45014ca1f5d32d3ad8479ffe0e92f3",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/city-plant-background-aligned.png",
+      "bytes": 2579634,
+      "sha256": "db0779f5e8f5da50bc649a2a116b273879a033d78db9d1239b2e1e6503995ea2",
+      "git_blob_bytes": 2579634,
+      "git_blob_sha256": "db0779f5e8f5da50bc649a2a116b273879a033d78db9d1239b2e1e6503995ea2",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/city-plant-source.png",
+      "bytes": 134629,
+      "sha256": "f6cf1caa432b4b712fe44eda3b49e6e37bd7a6e4002f53d10a97a0e35bd6811b",
+      "git_blob_bytes": 134629,
+      "git_blob_sha256": "f6cf1caa432b4b712fe44eda3b49e6e37bd7a6e4002f53d10a97a0e35bd6811b",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/expedition-rover-raw.png",
+      "bytes": 2206453,
+      "sha256": "301a5279adb2f39349f5690a0c6fe46897af9a31d2147695db740ab9024fb859",
+      "git_blob_bytes": 2206453,
+      "git_blob_sha256": "301a5279adb2f39349f5690a0c6fe46897af9a31d2147695db740ab9024fb859",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/expedition-rover-sprite.png",
+      "bytes": 2007302,
+      "sha256": "f9f8f562a6425d7c1e8863fd365b3b6f3b1790ef0434ef1668971590e31cabe3",
+      "git_blob_bytes": 2007302,
+      "git_blob_sha256": "f9f8f562a6425d7c1e8863fd365b3b6f3b1790ef0434ef1668971590e31cabe3",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/gate-clean-backplate.png",
+      "bytes": 2402248,
+      "sha256": "bd13ec38f22d0004d8a54e685e82612f1d49374666a8680094a0d901a0af288a",
+      "git_blob_bytes": 2402248,
+      "git_blob_sha256": "bd13ec38f22d0004d8a54e685e82612f1d49374666a8680094a0d901a0af288a",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/gate-motion-background.png",
+      "bytes": 2318455,
+      "sha256": "24c93d197e8d38312321da94ee4247f2619964e3ec450acd4222e305333366cf",
+      "git_blob_bytes": 2318455,
+      "git_blob_sha256": "24c93d197e8d38312321da94ee4247f2619964e3ec450acd4222e305333366cf",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/gate-rope-mask.png",
+      "bytes": 1152,
+      "sha256": "2dd0064548d9f2575405472a242932688cae69b7477af7a3f3d4c091f5c9511b",
+      "git_blob_bytes": 1152,
+      "git_blob_sha256": "2dd0064548d9f2575405472a242932688cae69b7477af7a3f3d4c091f5c9511b",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/gate-scrub-mask.png",
+      "bytes": 420,
+      "sha256": "9647e6e3140915ea71602d1a67ddd5fc7e874b86ef744ebf22547a2386ff9384",
+      "git_blob_bytes": 420,
+      "git_blob_sha256": "9647e6e3140915ea71602d1a67ddd5fc7e874b86ef744ebf22547a2386ff9384",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/gate-source-reference.png",
+      "bytes": 2451727,
+      "sha256": "948cce5748f59db5d8c474c3ba59962c083ae7e8fb79c9fb6736a55f4f667c3c",
+      "git_blob_bytes": 2451727,
+      "git_blob_sha256": "948cce5748f59db5d8c474c3ba59962c083ae7e8fb79c9fb6736a55f4f667c3c",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/gate_clean-generation.json",
+      "bytes": 1717,
+      "sha256": "3d5b1298f41815c90395b78d96dbee5ceeb760ae72ef8c90abc748043cabfdfc",
+      "git_blob_bytes": 1717,
+      "git_blob_sha256": "3d5b1298f41815c90395b78d96dbee5ceeb760ae72ef8c90abc748043cabfdfc",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/mug-repair-review.png",
+      "bytes": 184487,
+      "sha256": "0e2db328826f28f8dd402fcb19677e7cc686951f57929451fc454748b246ecaa",
+      "git_blob_bytes": 184487,
+      "git_blob_sha256": "0e2db328826f28f8dd402fcb19677e7cc686951f57929451fc454748b246ecaa",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/plant-clean-backplate.png",
+      "bytes": 2503893,
+      "sha256": "d083bd420919e1572035382de82614010483b3f8ebb98855642f5aabe23c10d8",
+      "git_blob_bytes": 2503893,
+      "git_blob_sha256": "d083bd420919e1572035382de82614010483b3f8ebb98855642f5aabe23c10d8",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/plant_clean-generation.json",
+      "bytes": 1101,
+      "sha256": "7ad8083eeb4059b9d4aba85ef0f9acd9689fd1f8a38b5c727d258b95940b4035",
+      "git_blob_bytes": 1101,
+      "git_blob_sha256": "7ad8083eeb4059b9d4aba85ef0f9acd9689fd1f8a38b5c727d258b95940b4035",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/prepare_assets.py",
+      "bytes": 4466,
+      "sha256": "e398baf73d093994b25743a5366b29415109700a7a91bf3edbcbe51f3280d273",
+      "git_blob_bytes": 4466,
+      "git_blob_sha256": "e398baf73d093994b25743a5366b29415109700a7a91bf3edbcbe51f3280d273",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/scene16-17-first-draft-assets/rover_asset-generation.json",
+      "bytes": 1490,
+      "sha256": "7c94eacabd3adc64a729a6b57f786766ce7526f9cc5e6060034d8049d1ef7180",
+      "git_blob_bytes": 1490,
+      "git_blob_sha256": "7c94eacabd3adc64a729a6b57f786766ce7526f9cc5e6060034d8049d1ef7180",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    }
+  ],
+  "lfs_media_bytes": 143571697,
+  "ordinary_git_bytes": 57963024
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-05",
+  "status": "proposed_design_rules",
+  "source_space": [
+    1672,
+    941
+  ],
+  "paired_visual_clocks": {
+    "environment": "60s planned, physical speeds preserved",
+    "attention": "600s planned, sparse held events"
+  },
+  "coupling_graphs": {
+    "16": {
+      "sign_signal": [
+        "mapped emitter",
+        "local haze",
+        "wet road",
+        "river reflection",
+        "cool floor contribution"
+      ],
+      "weather_gust": [
+        "exterior rain/mist",
+        "selected glass runoff",
+        "later sheltered rain audio"
+      ],
+      "transit": [
+        "grounded vehicle",
+        "wet-road reflection",
+        "later distant filtered rumble if selected"
+      ]
+    },
+    "17": {
+      "gate_surface": [
+        "contained water motion",
+        "inner ring/rails",
+        "stairs and landing",
+        "restrained camp-object rim",
+        "later original low resonant gate sound"
+      ],
+      "wind_gust": [
+        "canopy folds",
+        "basin/ground haze",
+        "optional loose strap/scrub",
+        "later wind and canvas rustle"
+      ],
+      "practical": [
+        "white lantern core",
+        "local canvas/case/ground spill"
+      ],
+      "telemetry": [
+        "laptop/radio indicators",
+        "optional later sparse unintelligible receive sound"
+      ]
+    }
+  },
+  "storage": "Keep current sources/masters intact, retain short accepted reviews and recipes, leave repeated/intermediate/long media under ignored local paths.",
+  "acceptance": "No quality percentage or best-yet certification. Judge visibility, believable cause/effect, source geometry and long-session comfort."
+}

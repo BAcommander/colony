@@ -3,7 +3,7 @@
   "title": "Cyberpunk Apartment",
   "title_status": "working title",
   "date": "2026-10-25",
-  "status": "Existing V3 silent animation imported at user request; Colony packaging, music and assembly pending",
+  "status": "V4 full-minute silent first visual draft delivered; user artistic review, audio/4K/long schedule pending; V3 imported master retained.",
   "selection": {
     "scope": "User requested bringing the existing animation into Colony and appending it to the numbered list. No publication or remote-backup approval implied.",
     "feedback": "could we move it over, what number would make sense for it to become, like add at the end of the colony current list"
@@ -201,5 +201,27 @@
   "adaptations": [
     "Working render.py and prepare_art.py gain overwrite refusal; original scripts preserved in source-snapshot."
   ],
-  "backup_status": "Local import only; no commit or push performed"
+  "backup_status": "Local import only; no commit or push performed",
+  "animation_development": {
+    "date": "2026-11-05",
+    "status": "V4 first visual draft built and technically verified; user review pending.",
+    "brief": "ANIMATION_DEVELOPMENT.md",
+    "brief_sha256": "404fce6068aafed7bed369bb1205af98dd44de68842952958b15b9f2323b136d",
+    "backlog": "creative/animation-development/2026-11-05-16-17/16-cyberpunk-apartment-backlog.json",
+    "baseline_audit": "creative/animation-development/2026-11-05-16-17/baseline-audit.json",
+    "candidate_count": 12,
+    "first_proof_pack": [
+      "A04",
+      "A02",
+      "A05"
+    ],
+    "proposed_review_seconds": 60,
+    "proposed_review_fps": 60,
+    "source_art_unchanged": true
+  },
+  "current_animation_preview": {
+    "folder": "../../music/cyberpunk-apartment-animation-v4",
+    "video": "Cyberpunk-Apartment-V4-first-draft-60s.mp4",
+    "validation": "delivery-validation.json"
+  }
 }
