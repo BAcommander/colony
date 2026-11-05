@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "completed_date": "2026-11-05",
+  "started_date": "2026-11-04",
+  "output": "G:\\AI\\colony\\exports\\13-below-the-snowline\\Below-the-Snowline-2-Hours-4K-v1.mp4",
+  "bytes": 40270588234,
+  "sha256": "e1fd2b2c93dd993e84e06cea480f8daaf605f11207bca10d3022237fd0bc470a",
+  "seconds": 7200,
+  "frames": 216000,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "native_artwork_dimensions": [
+    1672,
+    941
+  ],
+  "native_render_then_upscale": "Native scene rendering followed by Lanczos4K; see visual/master-validation.json",
+  "colony_full_video_audio_decode": true,
+  "video_validation": "video-validation.json",
+  "audio_validation": "audio-validation.json",
+  "opening": "Actual Colony v3, Below the Snowline; once, graphics clear by22s, silence to5/fade to20",
+  "closing_audio_fade_seconds": 20,
+  "clean_units": 59,
+  "source_audio_unchanged": true,
+  "approved_visual_basis": "V6 two-minute preview",
+  "longform_motion": "Periodic production adaptation described and checked in visual/",
+  "full_combined_user_review": "pending",
+  "assistant_review": "Technical checks and decoded temporal stills; no continuous playback or full listening",
+  "remote_backup": false
+}

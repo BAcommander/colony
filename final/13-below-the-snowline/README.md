@@ -1,8 +1,11 @@
 # 13 — Below the Snowline
 
+Current delivery (2026-11-05): [two-hour 4K final video](../../exports/13-below-the-snowline/Below-the-Snowline-2-Hours-4K-v1.mp4), built from the approved V6 scene and full V6 audio with the actual Colony intro once. Exact 7200 seconds, 3840×2160, 30 fps and 216,000 frames. Native 1672×941 artwork is rendered directly then Lanczos upscaled. Full decode, all timestamps/repeated picture payloads and complete audio comparison passed. [Production notes and verification](../../music/below-the-snowline-final-two-hours-v1/README.md) · [Delivery record](final-video-v1.json). Full combined user review/upload checks remain pending.
+
+
 ## Current production —2026-11-03
 
-The November3 sound-design branch is now merged with the existing production work in this checkout. The current soundtrack is **two-hour V6 with both snow takes**; the latest approved animation preview is **V6**, a continuous two-minute720p review with the current V6 soundtrack. V2 remains preserved history. No4K/two-hour video has been assembled.
+The November3 sound-design branch is now merged with the existing production work in this checkout. The current soundtrack is **two-hour V6 with both snow takes**; the latest approved animation preview is **V6**, a continuous two-minute720p review with the current V6 soundtrack. V2 remains preserved history. The final two-hour 4K video is now delivered above.
 
 - [Latest audio and restore instructions](../../music/snowline-snow-2026-11-03/RESUME.md): music,47radio calls,80wind passages,24creaks,ventilation and24snow passages alternating two takes. Requested snow level reduction is already applied. Full-session/new-take listening remains pending.
 - [Current working sound settings](../../creative/music/sound-design/receiver-2026-11-02/snowline-working-mix-current.json) and [cue sheet](../../creative/music/sound-design/receiver-2026-11-02/cue-sheet-snow-two-hour-v6-2026-11-03.txt).
@@ -12,6 +15,8 @@ The November3 sound-design branch is now merged with the existing production wor
 
 ## Next
 
-The V6 two-minute combined preview is approved. Full-length V6 audio review and final video assembly remain separate. The test uses3:00–5:00 of the V6 master, +0.4dB once, and short review-only entry/exit fades; it is not a seamless final-loop delivery. Assemble the requested full video only after the scene is ready. The V6 unfaded FLAC master already contains all six layers; apply+0.4dB playback gain once and the current Colony intro/closing once. Do not stack the old wind audition onto V6 or reapply historical gain adjustments.
+Review the finished two-hour video, select the upload thumbnail, then run YouTube's upload checks. The final export already contains the full V6 music and all six sound layers, +0.4 dB playback gain once, the current Colony opening once and a 20-second closing fade. No further audio assembly is needed.
 
-The [November 4 packaging draft](packaging-2026-11-04/README.md) pairs the V3 thumbnail with the revised [title](youtube-title.txt), [description](description.txt) and [tags](youtube-tags.txt). The title says Hoth-inspired, and the description names Star Wars. Add the verified runtime and resolution after final assembly. Catalog 13 maps to creative concept 19.
+The earlier approved two-minute preview remains available above. It uses 3:00–5:00 of the V6 master with short review fades; the final video uses the complete soundtrack and a separately validated 120-second visual loop.
+
+The [November 4 packaging draft](packaging-2026-11-04/README.md) pairs the V3 thumbnail candidate with the revised [title](youtube-title.txt), [description](description.txt) and [tags](youtube-tags.txt). The title says Hoth-inspired, and the description names Star Wars. The verified final runtime is 2:00:00 at 3840×2160/30fps. Catalog 13 maps to creative concept 19.

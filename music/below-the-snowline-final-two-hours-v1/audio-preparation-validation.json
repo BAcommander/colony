@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "source": {
+    "path": "G:\\AI\\colony\\exports\\13-below-the-snowline\\audio-2h-v6\\Below-the-Snowline-2-Hours-unfaded-master-v6.flac",
+    "bytes": 1036931449,
+    "sha256": "6c46365081e88d55b198387ea0b53259b7a90b12181e279ddb6dc12e8f474257",
+    "kind": "Original unity-gain, unfaded V6 master; all six existing layers already present"
+  },
+  "output": {
+    "path": "G:\\AI\\colony\\music\\below-the-snowline-final-two-hours-v1\\cache\\Snowline-V6-2-Hours-assembly-audio.flac",
+    "bytes": 1026918798,
+    "sha256": "2166ce22dfa7f7fea60ad7f42e455205c3262f1906d7f746ff91c5fad1afd67d",
+    "seconds": 7200,
+    "sample_frames": 345600000,
+    "sample_rate": 48000,
+    "channels": 2,
+    "codec": "flac",
+    "bits_per_sample": 24
+  },
+  "processing": {
+    "gain_db": 0.4,
+    "closing_fade_start_seconds": 7180,
+    "closing_fade_seconds": 20,
+    "closing_curve": "tri",
+    "opening_fade_applied": false,
+    "new_sfx_added": false,
+    "normalization_or_compression": false,
+    "ffmpeg_filter": "volume=0.4dB:precision=double,afade=t=out:st=7180:d=20:curve=tri"
+  },
+  "verification": {
+    "all_source_and_output_samples_decoded": true,
+    "finite": true,
+    "unclipped": true,
+    "reference": "Independent numpy float64 multiplication of decoded original source by 10**(0.4/20), then sample-indexed linear closing envelope.",
+    "max_absolute_sample_error": 1.1897642466715541e-07,
+    "tolerance": 1.3113021850585939e-07,
+    "quantization_snr_db": 118.14407802521995,
+    "prepared_peak_dbfs": -7.277558421342551,
+    "source_peak_dbfs": -7.677560145861553,
+    "bounded_processing_block_seconds": 1,
+    "source_hash_unchanged": true,
+    "diagnostic_windows": [
+      {
+        "second": 0,
+        "expected_rms": 0.0571056868281013,
+        "prepared_rms": 0.05710568688730755,
+        "maximum_sample_error": 1.18975876331473e-07
+      },
+      {
+        "second": 4,
+        "expected_rms": 0.08014492520280939,
+        "prepared_rms": 0.08014492515874555,
+        "maximum_sample_error": 1.18975876331473e-07
+      },
+      {
+        "second": 5,
+        "expected_rms": 0.04894008145975912,
+        "prepared_rms": 0.0489400815185258,
+        "maximum_sample_error": 1.1897477966704706e-07
+      },
+      {
+        "second": 19,
+        "expected_rms": 0.022881874778698515,
+        "prepared_rms": 0.022881874797015214,
+        "maximum_sample_error": 1.18975876331473e-07
+      },
+      {
+        "second": 20,
+        "expected_rms": 0.024774992227650526,
+        "prepared_rms": 0.024774992129346442,
+        "maximum_sample_error": 1.1897611173691813e-07
+      },
+      {
+        "second": 7179,
+        "expected_rms": 0.0359146593799985,
+        "prepared_rms": 0.03591465924210119,
+        "maximum_sample_error": 1.1897556340210308e-07
+      },
+      {
+        "second": 7180,
+        "expected_rms": 0.08319436527489776,
+        "prepared_rms": 0.08319436535223099,
+        "maximum_sample_error": 1.1897498826581032e-07
+      },
+      {
+        "second": 7190,
+        "expected_rms": 0.013355608451770229,
+        "prepared_rms": 0.013355608259365949,
+        "maximum_sample_error": 1.1897591012388631e-07
+      },
+      {
+        "second": 7199,
+        "expected_rms": 0.000591614059253107,
+        "prepared_rms": 0.0005916140643973499,
+        "maximum_sample_error": 1.1897600442757443e-07
+      }
+    ],
+    "assistant_listening_performed": false
+  }
+}

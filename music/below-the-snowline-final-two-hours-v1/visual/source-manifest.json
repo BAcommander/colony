@@ -1,0 +1,61 @@
+{
+  "status": "frozen",
+  "source_version": "approved V6",
+  "files": [
+    {
+      "file": "render_v6.py",
+      "source": "G:\\AI\\colony\\music\\below-the-snowline-animation-v6\\render_v6.py",
+      "sha256": "b714aba34254bb35380232121dc874f196110bfec0182db6e0f629421a4095e7",
+      "bytes": 21572
+    },
+    {
+      "file": "source.png",
+      "source": "G:\\AI\\colony\\music\\below-the-snowline-animation-v6\\source.png",
+      "sha256": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+      "bytes": 2284812
+    },
+    {
+      "file": "v2-scene.json",
+      "source": "G:\\AI\\colony\\music\\below-the-snowline-animation-v6\\v2-scene.json",
+      "sha256": "9aace7b806561de023c663cf63561980356de2a9edf461c59187f9b5d5040aef",
+      "bytes": 15015
+    },
+    {
+      "file": "geometry-v6.json",
+      "source": "G:\\AI\\colony\\music\\below-the-snowline-animation-v6\\geometry-v6.json",
+      "sha256": "620e97091c254dff52528dff9df771538cd08410186377c9d515b0a87795ab9e",
+      "bytes": 10557
+    },
+    {
+      "file": "events.json",
+      "source": "G:\\AI\\colony\\music\\below-the-snowline-animation-v6\\events.json",
+      "sha256": "2eef1cd299c1b7e07f5f229c1cb748014c9774da9a1a539960758d5dc0fec20c",
+      "bytes": 1144
+    },
+    {
+      "file": "assets/lambda-shuttle-master.png",
+      "source": "G:\\AI\\colony\\music\\below-the-snowline-animation-v6\\assets\\lambda-shuttle-master.png",
+      "sha256": "3a046f2cc4a57b90edf4332c358727f3d176490d3ecc78892610f4ab42d42ac2",
+      "bytes": 1558351
+    },
+    {
+      "file": "user-approval.json",
+      "source": "G:\\AI\\colony\\music\\below-the-snowline-animation-v6\\user-approval.json",
+      "sha256": "4df69674616fd0984fa6368b943983c5be3ebe3b567209fe56c3cf80eae328e7",
+      "bytes": 382
+    },
+    {
+      "file": "audit_flight.py",
+      "source": "G:\\AI\\colony\\music\\below-the-snowline-animation-v6\\audit_flight.py",
+      "sha256": "0f688149a3d5f2f454f292029f6451fb95ef1a46b01a5dd2345b7acda6c992cf",
+      "bytes": 8334
+    }
+  ],
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "generated_renderer_sha256": "3a4927cde0d85fdb6d30068ac48271b769b7e6d5bf9f84d6a5469d0fccb6cba6",
+  "period_seconds": 120,
+  "reference_phase_seconds": 48
+}

@@ -1,0 +1,358 @@
+{
+  "status": "local production inventory",
+  "completed_date": "2026-11-05",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 266,
+      "sha256": "b2573ddbd2f068ba00a5c5ca40b087a9c3e1fde86d54490f4f182e5af533e90d"
+    },
+    {
+      "path": "assemble_with_colony.py",
+      "bytes": 8438,
+      "sha256": "f80fe169800ad2e6a266820ef1ef15587a08bd06c2503ad897051a231245a0e7"
+    },
+    {
+      "path": "assembly-progress.json",
+      "bytes": 171,
+      "sha256": "9942671f0cdf8247b0c2ff4c85a087c68f41bb2705bac50aa965b0d3985811ce"
+    },
+    {
+      "path": "assembly-result.json",
+      "bytes": 999,
+      "sha256": "47e2f9a24e51b507b6b8ec6a8ae6d7cad4e8cf624389fdf7b2d9856ae2957221"
+    },
+    {
+      "path": "assembly-settings.json",
+      "bytes": 5708,
+      "sha256": "196f27f204a3b5aa9c188114b69e37188f5e72a264353628056ccc0c3d3118d3"
+    },
+    {
+      "path": "audio-preparation-validation.json",
+      "bytes": 3523,
+      "sha256": "38addfff694587e3a5aa33cfe4a1e63883aaef987d5e127d6dbec22543b73e63"
+    },
+    {
+      "path": "audio-validation.json",
+      "bytes": 4033,
+      "sha256": "5009ddf26a507d14e260068a7378cc1feca8aa1a05f75b7e0cb266a84bf6428f"
+    },
+    {
+      "path": "Below-the-Snowline-final-opening-and-loop-2m15s-720p.mp4",
+      "bytes": 16238131,
+      "sha256": "a80ca84c6f0283b62d03c480d5434a25b2972840b9feb2f671af1b0995314e8b"
+    },
+    {
+      "path": "colony-export.json",
+      "bytes": 3358,
+      "sha256": "2239145c87e978efc5515203ccd3fb72953466d6362ee2d195ac0a17f8333e7b"
+    },
+    {
+      "path": "container-hash.json",
+      "bytes": 277,
+      "sha256": "a3b281e0c23bb8d36b6fc7950cc7abb909cbe87553c1f2368f81fa9b6280995b"
+    },
+    {
+      "path": "delivery-validation.json",
+      "bytes": 1243,
+      "sha256": "19317bce9647aa1fc2b4b1a91dea23cac464ff89692cee4006c28ab2dccd1bf6"
+    },
+    {
+      "path": "evidence/all-video-packets.sha256",
+      "bytes": 24192330,
+      "sha256": "7be8991687a24a61388aff917dfd7239c6e3a8048257583fb8a796747675e1d0"
+    },
+    {
+      "path": "evidence/appearance-control.jpg",
+      "bytes": 288181,
+      "sha256": "fd6bb2c909e679ce860d8c7104cc5e804dbda1ea985d105ef62ad5bcaaeb943b"
+    },
+    {
+      "path": "evidence/before-color-tags.framemd5",
+      "bytes": 288216,
+      "sha256": "e88e41d142af2decae8d0476b329396c12b613ebc6a875e433aaced623b9cd6b"
+    },
+    {
+      "path": "evidence/copy-manifest.json",
+      "bytes": 2698,
+      "sha256": "c39dc2f316aba1ab03a1b4dc174ebf8319e1f88cd5e84d4ad67100004a6ce8bd"
+    },
+    {
+      "path": "evidence/decoded4K-contact-sheet.jpg",
+      "bytes": 583605,
+      "sha256": "e99c56edd5b7b2309302e642f158e92ddf61dc3d5c49f3d2e8bc7b8efbfc8749"
+    },
+    {
+      "path": "evidence/first-clean-frames.md5",
+      "bytes": 291826,
+      "sha256": "05496d5ee0cb2b7e21b1cae2b876386b6cc3ed89cd46301adb7d2f75760f1d91"
+    },
+    {
+      "path": "evidence/master-4K.framemd5",
+      "bytes": 288216,
+      "sha256": "e88e41d142af2decae8d0476b329396c12b613ebc6a875e433aaced623b9cd6b"
+    },
+    {
+      "path": "evidence/master-frames.md5",
+      "bytes": 291826,
+      "sha256": "05496d5ee0cb2b7e21b1cae2b876386b6cc3ed89cd46301adb7d2f75760f1d91"
+    },
+    {
+      "path": "evidence/native-controls-4K.framemd5",
+      "bytes": 2376,
+      "sha256": "d1707f3d695e12cbc5a1ae65013da70497a64d858098ecde116d069e2f210373"
+    },
+    {
+      "path": "evidence/opening-frames.md5",
+      "bytes": 291826,
+      "sha256": "b43b134024aea1800173d5388c6c35469b40c94e9084fe0fca2af283b9955b99"
+    },
+    {
+      "path": "evidence/seam-upper-scene.png",
+      "bytes": 2074118,
+      "sha256": "f16eb7a8d5c4dbb1be282875a89ae2720ab5fe2e656064212e190cfb19f5d247"
+    },
+    {
+      "path": "final-contact-sheet.jpg",
+      "bytes": 1053207,
+      "sha256": "81285f9a6b75d6bb1a4f7bf03064e5039fe313988758486cb033b6f805f2a334"
+    },
+    {
+      "path": "final-still-001.png",
+      "bytes": 505973,
+      "sha256": "11570a4b002135ca8ba75fa9b4ded5ac1d164c367485bc29d3dca11a947e4bae"
+    },
+    {
+      "path": "final-still-006.png",
+      "bytes": 519761,
+      "sha256": "093be5e044271c7c6f701101802a419d82ac54b8c932026f6ffde17a832a409d"
+    },
+    {
+      "path": "final-still-013.png",
+      "bytes": 944586,
+      "sha256": "738bae389f4bc89a4597c25c1d9eb5d9b11dd46c66576b206617f6bd96070ee2"
+    },
+    {
+      "path": "final-still-016.png",
+      "bytes": 1182708,
+      "sha256": "a1fe37a2ed456a74d30220a4ecbdb121275b0a0a2def407d2e866895e2ca419e"
+    },
+    {
+      "path": "final-still-019.png",
+      "bytes": 1344795,
+      "sha256": "db7077d518d056f129121a36448c5102b755dd20151922408e6967358722567a"
+    },
+    {
+      "path": "final-still-023.png",
+      "bytes": 1381302,
+      "sha256": "d693e9013ca5ca72b02238b67f74022d657d62fd9bbab876c14ccc01922c7d95"
+    },
+    {
+      "path": "final-still-028.png",
+      "bytes": 1383557,
+      "sha256": "c52c8a283bfaf099f477ecf859b21a430a90000191e4e7f8cb2448092d356cab"
+    },
+    {
+      "path": "final-still-048.png",
+      "bytes": 1389242,
+      "sha256": "aa27c2b32d43c11c68af64e2413c22059c555774e42544354c1c8618404a30b9"
+    },
+    {
+      "path": "final-still-097.png",
+      "bytes": 1392844,
+      "sha256": "1b1e14b17f18cafd4cf4855ea122965ee1ba85118ba49e66b1fb5fe8afe348f6"
+    },
+    {
+      "path": "final-still-119.png",
+      "bytes": 1380049,
+      "sha256": "c692a147c1afe0d1dd2805f94609c25d34a01ea32feccf975d5b82b8262fbd6f"
+    },
+    {
+      "path": "final-still-120.png",
+      "bytes": 1379774,
+      "sha256": "44dc5466ec602a817160aa6098ba950ee1c73bcbed249510cd6ba3072d70d506"
+    },
+    {
+      "path": "final-still-121.png",
+      "bytes": 1380143,
+      "sha256": "a67ca1b1631c905c285e5a5bead73162ded1e170ac45eabb7c3efcdc9246b608"
+    },
+    {
+      "path": "master-verification-reuse.json",
+      "bytes": 458,
+      "sha256": "48eab087bcf1c9ef54454d4ad1a75857f18599165cc59b5499a33f8bebd087f5"
+    },
+    {
+      "path": "prepare_audio.py",
+      "bytes": 8750,
+      "sha256": "d08e36def190e72e08e09191c7a48286f04bc4a6d74e5e54a39e38f441c28cd0"
+    },
+    {
+      "path": "production-plan.json",
+      "bytes": 943,
+      "sha256": "8172f22af2c96a4c1f17015337d3fb6dd7bc5a81546724caf3d4ce5ada740b10"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4101,
+      "sha256": "28021830309b302357b7b81bbf2d0067d3ec58b0964aa1647a7faaab2b0f891e"
+    },
+    {
+      "path": "record-update.json",
+      "bytes": 548,
+      "sha256": "10b8f9105fb9810bc4f4ed82604973d37627748e195f77a09e1e48bb08b0d85c"
+    },
+    {
+      "path": "record_delivery.py",
+      "bytes": 10676,
+      "sha256": "9372ac8b1d785a8f8aa11bc64d3ab460156ae436415517b9947a9b1f3b33d68d"
+    },
+    {
+      "path": "review-preview-validation.json",
+      "bytes": 543,
+      "sha256": "3ae4ab7f750206941c0e0852c3b900aad320d4239f8438f2d72a180aa99e5234"
+    },
+    {
+      "path": "verify_final.py",
+      "bytes": 11107,
+      "sha256": "9587690260bcb78c7529fe02dcc23abcc22009d251a76400551032914dcd9d1c"
+    },
+    {
+      "path": "video-validation.json",
+      "bytes": 4422,
+      "sha256": "6d54a07ca1b15a5f67af0cb34ba43206a59e707a9e3f4b4bca98e988ebe85574"
+    },
+    {
+      "path": "visual/benchmark.json",
+      "bytes": 1439,
+      "sha256": "99a00fd6b37b901b5956438b20155f7efde058cc424f505803112b1285745229"
+    },
+    {
+      "path": "visual/encode-receipt.json",
+      "bytes": 9095,
+      "sha256": "9f82733ff938bb771604f031f48e333d8a05b9476d1f625fedf5a7d6f1f68d94"
+    },
+    {
+      "path": "visual/master-validation.json",
+      "bytes": 8988,
+      "sha256": "28492073eb61955d95abe1ac883295463eaa65906528fbd84b2e2b1dab54cc63"
+    },
+    {
+      "path": "visual/metadata-repair.json",
+      "bytes": 1523,
+      "sha256": "f2edf40adca0b260d835a6d9458c7a75e719d4a5de9b1e8861b8293688e193bd"
+    },
+    {
+      "path": "visual/native-validation.json",
+      "bytes": 3020,
+      "sha256": "00d21d4f3858e569935e4e5b6c3bfe9961883eddf8fbf3406af23df58399d0e3"
+    },
+    {
+      "path": "visual/prepare_native.py",
+      "bytes": 8341,
+      "sha256": "885022c634f1a39b5a819c6c40f210e361ab42a154832e3db0ee4fdb52df5423"
+    },
+    {
+      "path": "visual/production.py",
+      "bytes": 13009,
+      "sha256": "8d4b96a93749f678a5653bd6437360669c08cccb4625c555a3096bb472176118"
+    },
+    {
+      "path": "visual/README.md",
+      "bytes": 5389,
+      "sha256": "421401ed8fa21d95dc48bf58c4304f3c0804b03ea7f9fa877965c7e5638c299e"
+    },
+    {
+      "path": "visual/render_native.py",
+      "bytes": 21359,
+      "sha256": "3a4927cde0d85fdb6d30068ac48271b769b7e6d5bf9f84d6a5469d0fccb6cba6"
+    },
+    {
+      "path": "visual/repair_color_tags.py",
+      "bytes": 2403,
+      "sha256": "1356cb3c2b131e607fc7dbae8d805d1c7de9e9571fd5910ebfd56dcd58b68fa3"
+    },
+    {
+      "path": "visual/source-manifest.json",
+      "bytes": 2292,
+      "sha256": "a866f9396dc3ac4e99bfd239d5ead45ec88ebbd7edac24dc36bf0007280e88e5"
+    },
+    {
+      "path": "visual/source-snapshot/assets/lambda-shuttle-master.png",
+      "bytes": 1558351,
+      "sha256": "3a046f2cc4a57b90edf4332c358727f3d176490d3ecc78892610f4ab42d42ac2"
+    },
+    {
+      "path": "visual/source-snapshot/audit_flight.py",
+      "bytes": 8334,
+      "sha256": "0f688149a3d5f2f454f292029f6451fb95ef1a46b01a5dd2345b7acda6c992cf"
+    },
+    {
+      "path": "visual/source-snapshot/events.json",
+      "bytes": 1144,
+      "sha256": "2eef1cd299c1b7e07f5f229c1cb748014c9774da9a1a539960758d5dc0fec20c"
+    },
+    {
+      "path": "visual/source-snapshot/geometry-v6.json",
+      "bytes": 10557,
+      "sha256": "620e97091c254dff52528dff9df771538cd08410186377c9d515b0a87795ab9e"
+    },
+    {
+      "path": "visual/source-snapshot/render_v6.py",
+      "bytes": 21572,
+      "sha256": "b714aba34254bb35380232121dc874f196110bfec0182db6e0f629421a4095e7"
+    },
+    {
+      "path": "visual/source-snapshot/source.png",
+      "bytes": 2284812,
+      "sha256": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f"
+    },
+    {
+      "path": "visual/source-snapshot/user-approval.json",
+      "bytes": 382,
+      "sha256": "4df69674616fd0984fa6368b943983c5be3ebe3b567209fe56c3cf80eae328e7"
+    },
+    {
+      "path": "visual/source-snapshot/v2-scene.json",
+      "bytes": 15015,
+      "sha256": "9aace7b806561de023c663cf63561980356de2a9edf461c59187f9b5d5040aef"
+    },
+    {
+      "path": "visual/verify_master.py",
+      "bytes": 5821,
+      "sha256": "f02781593977873e3b1785ec02de557b25fa84f77d228f08c4a1015679f27940"
+    },
+    {
+      "path": "visual/visual-inspection.json",
+      "bytes": 1344,
+      "sha256": "b63ef2345d2f3d6dfc18a5613fbbf97fd427fa753408d918c62e52f6c1a988bd"
+    },
+    {
+      "path": "visual-review.json",
+      "bytes": 528,
+      "sha256": "d9aa50cd07a4dc71f1505d0594ba036a9563480548fe96018683ed3b282e0711"
+    },
+    {
+      "path": "write_manifest.py",
+      "bytes": 1575,
+      "sha256": "193a3171ce39300a8399300447fa4a22deee83e778bd0333781f70a36047d83e"
+    }
+  ],
+  "file_count": 67,
+  "total_bytes": 64127147,
+  "final_delivery": {
+    "output": "G:\\AI\\colony\\exports\\13-below-the-snowline\\Below-the-Snowline-2-Hours-4K-v1.mp4",
+    "bytes": 40270588234,
+    "sha256": "e1fd2b2c93dd993e84e06cea480f8daaf605f11207bca10d3022237fd0bc470a",
+    "seconds": 7200,
+    "frames": 216000
+  },
+  "excluded_directories": [
+    "__pycache__",
+    "cache",
+    "masters",
+    "verification-cache"
+  ],
+  "media_and_sources": "Large final video, prepared audio and silent visual master are identified by their validation records. Original audio and approved scene remain at their existing locations.",
+  "remote_backup": false
+}

@@ -1,0 +1,66 @@
+{
+  "status": "all byte-identical",
+  "files": [
+    {
+      "original_path": "verification-cache/all-video-packets.sha256",
+      "preserved_path": "evidence/all-video-packets.sha256",
+      "bytes": 24192330,
+      "sha256": "7be8991687a24a61388aff917dfd7239c6e3a8048257583fb8a796747675e1d0"
+    },
+    {
+      "original_path": "verification-cache/first-clean-frames.md5",
+      "preserved_path": "evidence/first-clean-frames.md5",
+      "bytes": 291826,
+      "sha256": "05496d5ee0cb2b7e21b1cae2b876386b6cc3ed89cd46301adb7d2f75760f1d91"
+    },
+    {
+      "original_path": "verification-cache/master-frames.md5",
+      "preserved_path": "evidence/master-frames.md5",
+      "bytes": 291826,
+      "sha256": "05496d5ee0cb2b7e21b1cae2b876386b6cc3ed89cd46301adb7d2f75760f1d91"
+    },
+    {
+      "original_path": "verification-cache/opening-frames.md5",
+      "preserved_path": "evidence/opening-frames.md5",
+      "bytes": 291826,
+      "sha256": "b43b134024aea1800173d5388c6c35469b40c94e9084fe0fca2af283b9955b99"
+    },
+    {
+      "original_path": "visual/cache/before-color-tags.framemd5",
+      "preserved_path": "evidence/before-color-tags.framemd5",
+      "bytes": 288216,
+      "sha256": "e88e41d142af2decae8d0476b329396c12b613ebc6a875e433aaced623b9cd6b"
+    },
+    {
+      "original_path": "visual/cache/master-4K.framemd5",
+      "preserved_path": "evidence/master-4K.framemd5",
+      "bytes": 288216,
+      "sha256": "e88e41d142af2decae8d0476b329396c12b613ebc6a875e433aaced623b9cd6b"
+    },
+    {
+      "original_path": "visual/cache/native-controls-4K.framemd5",
+      "preserved_path": "evidence/native-controls-4K.framemd5",
+      "bytes": 2376,
+      "sha256": "d1707f3d695e12cbc5a1ae65013da70497a64d858098ecde116d069e2f210373"
+    },
+    {
+      "original_path": "visual/cache/appearance-control.jpg",
+      "preserved_path": "evidence/appearance-control.jpg",
+      "bytes": 288181,
+      "sha256": "fd6bb2c909e679ce860d8c7104cc5e804dbda1ea985d105ef62ad5bcaaeb943b"
+    },
+    {
+      "original_path": "visual/cache/seam-upper-scene.png",
+      "preserved_path": "evidence/seam-upper-scene.png",
+      "bytes": 2074118,
+      "sha256": "f16eb7a8d5c4dbb1be282875a89ae2720ab5fe2e656064212e190cfb19f5d247"
+    },
+    {
+      "original_path": "visual/cache/decoded4K-contact-sheet.jpg",
+      "preserved_path": "evidence/decoded4K-contact-sheet.jpg",
+      "bytes": 583605,
+      "sha256": "e99c56edd5b7b2309302e642f158e92ddf61dc3d5c49f3d2e8bc7b8efbfc8749"
+    }
+  ],
+  "reason": "Preserve the actual reviewed composites and raw audit records outside regenerable caches. Historical validation paths remain unchanged."
+}

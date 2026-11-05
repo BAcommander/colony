@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "output": "G:\\AI\\colony\\music\\below-the-snowline-final-two-hours-v1\\visual\\masters\\Snowline-v6-loop-120s-4K.mp4",
+  "before_sha256": "5c723438a5171900d39134c8331c386acecc1454226871febe73322d2b76b14d",
+  "after_sha256": "c1da088c92fcfdf65a54c3a63d9ab5252f0633b1b5551316bebc123c17339845",
+  "all_3600_decoded_pictures_and_timestamps_identical": true,
+  "complete_decode_both_before_and_after": true,
+  "color_metadata": {
+    "color_range": "tv",
+    "color_space": "bt709",
+    "color_transfer": "bt709",
+    "color_primaries": "bt709"
+  },
+  "master_framemd5_sha256": "e88e41d142af2decae8d0476b329396c12b613ebc6a875e433aaced623b9cd6b",
+  "command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-n",
+    "-i",
+    "G:\\AI\\colony\\music\\below-the-snowline-final-two-hours-v1\\visual\\masters\\Snowline-v6-loop-120s-4K.mp4",
+    "-map",
+    "0:v:0",
+    "-c",
+    "copy",
+    "-bsf:v",
+    "h264_metadata=video_full_range_flag=0:colour_primaries=1:transfer_characteristics=1:matrix_coefficients=1",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-color_range",
+    "tv",
+    "-movflags",
+    "+faststart",
+    "G:\\AI\\colony\\music\\below-the-snowline-final-two-hours-v1\\visual\\cache\\master-color-tagged.mp4"
+  ],
+  "elapsed_seconds": 60.51009654998779,
+  "retained_before_file": "G:\\AI\\colony\\music\\below-the-snowline-final-two-hours-v1\\visual\\cache\\master-before-color-tags.mp4"
+}

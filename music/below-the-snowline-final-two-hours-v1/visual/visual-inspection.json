@@ -1,0 +1,24 @@
+{
+  "method": "Visual inspection of native/source comparison, adjacent seam upper-scene strip, and six decoded4K contact-sheet frames. No continuous playback.",
+  "reviewed_files": [
+    {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-final-two-hours-v1\\visual\\cache\\appearance-control.jpg",
+      "sha256": "fd6bb2c909e679ce860d8c7104cc5e804dbda1ea985d105ef62ad5bcaaeb943b"
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-final-two-hours-v1\\visual\\cache\\seam-upper-scene.png",
+      "sha256": "f16eb7a8d5c4dbb1be282875a89ae2720ab5fe2e656064212e190cfb19f5d247"
+    },
+    {
+      "path": "G:\\AI\\colony\\music\\below-the-snowline-final-two-hours-v1\\visual\\cache\\decoded4K-contact-sheet.jpg",
+      "sha256": "e99c56edd5b7b2309302e642f158e92ddf61dc3d5c49f3d2e8bc7b8efbfc8749"
+    }
+  ],
+  "observations": [
+    "Approved composition, lens material, shuttle proportions and blue cannon/exhaust appearance retained.",
+    "No visible horizontal cloud tearing in inspected temporal samples.",
+    "Cliff/frost source silhouettes remain fixed; original physical flight occlusion is preserved."
+  ],
+  "technical_master_validation": "master-validation.json",
+  "user_approval": "V6 original is approved; no new separate user artistic verdict inferred for the production adaptation."
+}

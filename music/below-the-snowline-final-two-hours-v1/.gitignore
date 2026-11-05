@@ -1,0 +1,10 @@
+cache/
+masters/
+verification-cache/
+__pycache__/
+
+# Exact short masters selected for the November 5 production backup.
+!visual/masters/
+visual/masters/*
+!visual/masters/Snowline-v6-loop-120s-4K.mp4
+!Below-the-Snowline-final-opening-and-loop-2m15s-720p.mp4

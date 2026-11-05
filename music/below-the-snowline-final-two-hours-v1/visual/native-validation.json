@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "scope": "Native sampled analytic/source/occlusion/seam checks; final encoded review separate",
+  "native_source_exact": true,
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "period_seconds": 120,
+  "independent_map_samples": 241,
+  "minimum_backward_jacobian": 0.6468805358745158,
+  "minimum_bilinear_source_clearance_native_pixels": 4.196899890899658,
+  "maximum_map_one_frame_motion_native_pixels": 0.023802634328603745,
+  "cliff_crossing_frames": 152,
+  "protected_rock_exact": true,
+  "traffic_endpoints": [
+    {
+      "time": -4.966666666666667,
+      "changed_pixels": 0
+    },
+    {
+      "time": 69.96666666666667,
+      "changed_pixels": 0
+    },
+    {
+      "time": 70.03333333333333,
+      "changed_pixels": 0
+    },
+    {
+      "time": 117.96666666666667,
+      "changed_pixels": 0
+    }
+  ],
+  "engine_rgb_sums": [
+    [
+      30336.05737723914,
+      41808.96789070146,
+      48973.923011239254
+    ],
+    [
+      28482.04519855374,
+      37959.03854986111,
+      43669.09942788572
+    ]
+  ],
+  "snow_positive_velocity_lower_bound_native_px_s": [
+    24.02366529686106,
+    7.291323634434076
+  ],
+  "raw_layer_periodicity_max_rgb_error": {
+    "interior": 0.0,
+    "sky": 0.0,
+    "traffic": 0.0,
+    "hardware": 0.0
+  },
+  "seam_metrics": {
+    "full": {
+      "mean_abs_join": 0.08080815142871187,
+      "mean_abs_before": 0.08156682886813207,
+      "mean_abs_after": 0.08215919472141855,
+      "join_vs_neighbour": 0.9835557870633014,
+      "p99_join": 1.0
+    },
+    "sky": {
+      "mean_abs_join": 0.24217249417249417,
+      "mean_abs_before": 0.2312820512820513,
+      "mean_abs_after": 0.24811655011655012,
+      "join_vs_neighbour": 0.9760432911820521,
+      "p99_join": 7.0
+    },
+    "console": {
+      "mean_abs_join": 0.029752316127812442,
+      "mean_abs_before": 0.04252599735299679,
+      "mean_abs_after": 0.0591869918699187,
+      "join_vs_neighbour": 0.5026833631484794,
+      "p99_join": 1.0
+    },
+    "bridge": {
+      "mean_abs_join": 0.19715555555555556,
+      "mean_abs_before": 0.2083,
+      "mean_abs_after": 0.18905555555555556,
+      "join_vs_neighbour": 0.9464981063636848,
+      "p99_join": 5.0
+    },
+    "weather": {
+      "mean_abs_join": 0.11880725623582766,
+      "mean_abs_before": 0.11901814058956917,
+      "mean_abs_after": 0.1185391156462585,
+      "join_vs_neighbour": 0.9982281326804732,
+      "p99_join": 2.0
+    }
+  },
+  "outside_active_pixels_exact": true,
+  "source_and_renderer_hashes": {
+    "render_native.py": "3a4927cde0d85fdb6d30068ac48271b769b7e6d5bf9f84d6a5469d0fccb6cba6",
+    "prepare_native.py": "885022c634f1a39b5a819c6c40f210e361ab42a154832e3db0ee4fdb52df5423",
+    "source-manifest.json": "a866f9396dc3ac4e99bfd239d5ead45ec88ebbd7edac24dc36bf0007280e88e5"
+  },
+  "seconds_to_audit": 14.015096426010132,
+  "artistic_approval": "Approved V6 treatment retained; production adaptation technical and image review only"
+}

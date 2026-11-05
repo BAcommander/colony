@@ -1,0 +1,281 @@
+{
+  "status": "passed",
+  "output": "G:\\AI\\colony\\music\\below-the-snowline-final-two-hours-v1\\visual\\masters\\Snowline-v6-loop-120s-4K.mp4",
+  "sha256": "c1da088c92fcfdf65a54c3a63d9ab5252f0633b1b5551316bebc123c17339845",
+  "bytes": 667708094,
+  "seconds": 120,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "native_dimensions": [
+    1672,
+    941
+  ],
+  "fps": 30,
+  "frames": 3600,
+  "full_4K_decode": true,
+  "all_pts_dts_durations_exact": true,
+  "bt709_tv": true,
+  "lossless_native_to_4k_yuv_control_frames_exact": [
+    0,
+    1,
+    598,
+    599,
+    600,
+    601,
+    825,
+    1198,
+    1199,
+    1200,
+    1201,
+    1440,
+    1798,
+    1799,
+    1800,
+    1801,
+    2398,
+    2399,
+    2400,
+    2401,
+    2901,
+    2998,
+    2999,
+    3000,
+    3001,
+    3598,
+    3599
+  ],
+  "all_five_part_joins_and_loop_boundary_checked": true,
+  "decoded_join_metrics": [
+    {
+      "join_frame": 0,
+      "regions": {
+        "full": {
+          "join_mean_absolute_rgb_change": 0.09071940104166666,
+          "before": 0.09124421296296296,
+          "after": 0.09232602719907407,
+          "ratio_to_larger_neighbour": 0.9825983397515504
+        },
+        "sky": {
+          "join_mean_absolute_rgb_change": 0.2790134120300391,
+          "before": 0.26668106240552797,
+          "after": 0.2883786399225829,
+          "ratio_to_larger_neighbour": 0.9675245437905597
+        },
+        "console": {
+          "join_mean_absolute_rgb_change": 0.03773402817988805,
+          "before": 0.051283535996911794,
+          "after": 0.07255356108859294,
+          "ratio_to_larger_neighbour": 0.5200851290236764
+        },
+        "bridge": {
+          "join_mean_absolute_rgb_change": 0.19557785209959122,
+          "before": 0.20942028985507247,
+          "after": 0.18968784838350056,
+          "ratio_to_larger_neighbour": 0.9339011622748646
+        }
+      }
+    },
+    {
+      "join_frame": 600,
+      "regions": {
+        "full": {
+          "join_mean_absolute_rgb_change": 0.06880750868055556,
+          "before": 0.06815646701388889,
+          "after": 0.06987160011574074,
+          "ratio_to_larger_neighbour": 0.984770759029097
+        },
+        "sky": {
+          "join_mean_absolute_rgb_change": 0.18716060046226318,
+          "before": 0.19691771235714228,
+          "after": 0.19259899069875316,
+          "ratio_to_larger_neighbour": 0.9504508163431079
+        },
+        "console": {
+          "join_mean_absolute_rgb_change": 0.05937077784211542,
+          "before": 0.0569066460786206,
+          "after": 0.0629736859036222,
+          "ratio_to_larger_neighbour": 0.9427870862280343
+        },
+        "bridge": {
+          "join_mean_absolute_rgb_change": 0.08010033444816053,
+          "before": 0.09031958379784467,
+          "after": 0.0788926049795615,
+          "ratio_to_larger_neighbour": 0.8868545566755811
+        }
+      }
+    },
+    {
+      "join_frame": 1200,
+      "regions": {
+        "full": {
+          "join_mean_absolute_rgb_change": 0.07590747974537038,
+          "before": 0.07549732349537037,
+          "after": 0.07598271122685185,
+          "ratio_to_larger_neighbour": 0.9990098868510119
+        },
+        "sky": {
+          "join_mean_absolute_rgb_change": 0.2036437214584483,
+          "before": 0.2072986396026776,
+          "after": 0.20220414757231858,
+          "ratio_to_larger_neighbour": 0.9823688271604939
+        },
+        "console": {
+          "join_mean_absolute_rgb_change": 0.06364279740075919,
+          "before": 0.06148105256385511,
+          "after": 0.06030367367946986,
+          "ratio_to_larger_neighbour": 1.0351611552951028
+        },
+        "bridge": {
+          "join_mean_absolute_rgb_change": 0.24115570419918245,
+          "before": 0.26172426607209215,
+          "after": 0.26036789297658863,
+          "ratio_to_larger_neighbour": 0.9214113303989777
+        }
+      }
+    },
+    {
+      "join_frame": 1800,
+      "regions": {
+        "full": {
+          "join_mean_absolute_rgb_change": 0.0696629050925926,
+          "before": 0.07070999710648149,
+          "after": 0.07127025462962963,
+          "ratio_to_larger_neighbour": 0.9774471194835777
+        },
+        "sky": {
+          "join_mean_absolute_rgb_change": 0.14371745963194893,
+          "before": 0.14287770819837328,
+          "after": 0.15830514167806328,
+          "ratio_to_larger_neighbour": 0.907850863898151
+        },
+        "console": {
+          "join_mean_absolute_rgb_change": 0.03771472688670141,
+          "before": 0.05146368139998713,
+          "after": 0.07166570160200733,
+          "ratio_to_larger_neighbour": 0.526259089684891
+        },
+        "bridge": {
+          "join_mean_absolute_rgb_change": 0.1969156447417317,
+          "before": 0.1869751021924935,
+          "after": 0.17108881456707545,
+          "ratio_to_larger_neighbour": 1.0531650601212363
+        }
+      }
+    },
+    {
+      "join_frame": 2400,
+      "regions": {
+        "full": {
+          "join_mean_absolute_rgb_change": 0.029807219328703703,
+          "before": 0.029858579282407406,
+          "after": 0.030454644097222223,
+          "ratio_to_larger_neighbour": 0.978741345114666
+        },
+        "sky": {
+          "join_mean_absolute_rgb_change": 0.20829834369026767,
+          "before": 0.20677079584443006,
+          "after": 0.21279301326807265,
+          "ratio_to_larger_neighbour": 0.9788777389408801
+        },
+        "console": {
+          "join_mean_absolute_rgb_change": 0.057736601685646274,
+          "before": 0.05540757897445796,
+          "after": 0.06167406549572155,
+          "ratio_to_larger_neighbour": 0.9361568954725642
+        },
+        "bridge": {
+          "join_mean_absolute_rgb_change": 0.0404496469713861,
+          "before": 0.03695652173913044,
+          "after": 0.03409513192121888,
+          "ratio_to_larger_neighbour": 1.0945198592257415
+        }
+      }
+    },
+    {
+      "join_frame": 3000,
+      "regions": {
+        "full": {
+          "join_mean_absolute_rgb_change": 0.023473307291666665,
+          "before": 0.023451967592592594,
+          "after": 0.02373951099537037,
+          "ratio_to_larger_neighbour": 0.9887864706330463
+        },
+        "sky": {
+          "join_mean_absolute_rgb_change": 0.05235250365891696,
+          "before": 0.05340819117541208,
+          "after": 0.05519166326767277,
+          "ratio_to_larger_neighbour": 0.9485581799739168
+        },
+        "console": {
+          "join_mean_absolute_rgb_change": 0.05926783761178666,
+          "before": 0.05696454995818053,
+          "after": 0.0558708100109374,
+          "ratio_to_larger_neighbour": 1.0404337022814547
+        },
+        "bridge": {
+          "join_mean_absolute_rgb_change": 0.03314752879970271,
+          "before": 0.03448532144184318,
+          "after": 0.03463396506874768,
+          "ratio_to_larger_neighbour": 0.9570815450643776
+        }
+      }
+    }
+  ],
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 3840,
+        "height": 2160,
+        "has_b_frames": 0,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "r_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "duration": "120.000000",
+        "nb_frames": "3600",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.100 libx264"
+        }
+      }
+    ]
+  },
+  "raw_frame_hashes": "G:\\AI\\colony\\music\\below-the-snowline-final-two-hours-v1\\visual\\cache\\master-4K.framemd5",
+  "native_validation": "native-validation.json",
+  "source_snapshot": "source-manifest.json",
+  "renderer_sha256": "3a4927cde0d85fdb6d30068ac48271b769b7e6d5bf9f84d6a5469d0fccb6cba6",
+  "production_script_sha256": "8d4b96a93749f678a5653bd6437360669c08cccb4625c555a3096bb472176118",
+  "verification_script_sha256": "f02781593977873e3b1785ec02de557b25fa84f77d228f08c4a1015679f27940",
+  "verification_seconds": 23.147838354110718,
+  "inspection": "Technical decoding/native controls; decoded still inspection separately reported; no continuous playback claim"
+}

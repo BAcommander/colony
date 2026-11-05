@@ -1,0 +1,661 @@
+{
+  "date": "2026-11-05",
+  "branch": "main",
+  "self_excluded": "music/production-backup-2026-11-05-snowline/backup-manifest.json",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 38829,
+      "sha256": "831b727d5971504888675eb5bbd273fdcc7c669fc91b3e36cb42d195ba0687ee",
+      "storage": "git",
+      "git_blob_sha256": "16acada5856843237db6cd0d547d8465db451b77871aa93cf43b9687fcc6c851",
+      "git_blob_bytes": 38404,
+      "checkout_conversion": "CRLF normalized to LF by Git"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 157547,
+      "sha256": "846f65b014e8d0c5abcdf92f897492030d90d55ede62f64dbc8fb767582968de",
+      "storage": "git",
+      "git_blob_sha256": "846f65b014e8d0c5abcdf92f897492030d90d55ede62f64dbc8fb767582968de",
+      "git_blob_bytes": 157547
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "bytes": 48153,
+      "sha256": "4465366da6d1591fdd0bad742706a40e7bde50b953c53302794c26539bf4e969",
+      "storage": "git",
+      "git_blob_sha256": "e7dd6ffe5a0a6cd8da425228a0d17a9f7f9159f48748222bed244c57790aa4df",
+      "git_blob_bytes": 47907,
+      "checkout_conversion": "CRLF normalized to LF by Git"
+    },
+    {
+      "path": "creative/music/november-2026/README.md",
+      "bytes": 6699,
+      "sha256": "ace282a195ee406ba662c3389e2b89b75ec1532608b2233f15181e860ca49fe1",
+      "storage": "git",
+      "git_blob_sha256": "ace282a195ee406ba662c3389e2b89b75ec1532608b2233f15181e860ca49fe1",
+      "git_blob_bytes": 6699
+    },
+    {
+      "path": "final/13-below-the-snowline/README.md",
+      "bytes": 3840,
+      "sha256": "4df5ac7a59d65f0f9a37d3a005775c6c342e22d27f7d2d48bec0af098082461a",
+      "storage": "git",
+      "git_blob_sha256": "4df5ac7a59d65f0f9a37d3a005775c6c342e22d27f7d2d48bec0af098082461a",
+      "git_blob_bytes": 3840
+    },
+    {
+      "path": "final/13-below-the-snowline/description.txt",
+      "bytes": 795,
+      "sha256": "1d58de0638e8c0f73ad38159103aa55b92ba3b3a5678be7dde8a337904094e78",
+      "storage": "git",
+      "git_blob_sha256": "1d58de0638e8c0f73ad38159103aa55b92ba3b3a5678be7dde8a337904094e78",
+      "git_blob_bytes": 795
+    },
+    {
+      "path": "final/13-below-the-snowline/final-video-v1.json",
+      "bytes": 1592,
+      "sha256": "cc49d18587bcea9103014cbe71b8f38d38ce0c6e5ddbdbf2770d03fa48ecc6b5",
+      "storage": "git",
+      "git_blob_sha256": "cc49d18587bcea9103014cbe71b8f38d38ce0c6e5ddbdbf2770d03fa48ecc6b5",
+      "git_blob_bytes": 1592
+    },
+    {
+      "path": "final/13-below-the-snowline/packaging-2026-11-04/README.md",
+      "bytes": 3324,
+      "sha256": "3eebf2914767f9a3d612110059178f6496b921ff65d9b37a5d94cef06ee406c4",
+      "storage": "git",
+      "git_blob_sha256": "872a4b1f81fc9c028f0a871b6709c940aafe1e0649fc76cd53298df8b8924d40",
+      "git_blob_bytes": 3301,
+      "checkout_conversion": "CRLF normalized to LF by Git"
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/.gitignore",
+      "bytes": 266,
+      "sha256": "b2573ddbd2f068ba00a5c5ca40b087a9c3e1fde86d54490f4f182e5af533e90d",
+      "storage": "git",
+      "git_blob_sha256": "b2573ddbd2f068ba00a5c5ca40b087a9c3e1fde86d54490f4f182e5af533e90d",
+      "git_blob_bytes": 266
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/Below-the-Snowline-final-opening-and-loop-2m15s-720p.mp4",
+      "bytes": 16238131,
+      "sha256": "a80ca84c6f0283b62d03c480d5434a25b2972840b9feb2f671af1b0995314e8b",
+      "storage": "git-lfs",
+      "git_blob_sha256": "14ff03bf1491d05f592a1b6ed77c1188429b5a2bc95c38098083aeeed5f758b7",
+      "git_blob_bytes": 133
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/README.md",
+      "bytes": 4101,
+      "sha256": "28021830309b302357b7b81bbf2d0067d3ec58b0964aa1647a7faaab2b0f891e",
+      "storage": "git",
+      "git_blob_sha256": "28021830309b302357b7b81bbf2d0067d3ec58b0964aa1647a7faaab2b0f891e",
+      "git_blob_bytes": 4101
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/assemble_with_colony.py",
+      "bytes": 8438,
+      "sha256": "f80fe169800ad2e6a266820ef1ef15587a08bd06c2503ad897051a231245a0e7",
+      "storage": "git",
+      "git_blob_sha256": "f80fe169800ad2e6a266820ef1ef15587a08bd06c2503ad897051a231245a0e7",
+      "git_blob_bytes": 8438
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/assembly-progress.json",
+      "bytes": 171,
+      "sha256": "9942671f0cdf8247b0c2ff4c85a087c68f41bb2705bac50aa965b0d3985811ce",
+      "storage": "git",
+      "git_blob_sha256": "9942671f0cdf8247b0c2ff4c85a087c68f41bb2705bac50aa965b0d3985811ce",
+      "git_blob_bytes": 171
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/assembly-result.json",
+      "bytes": 999,
+      "sha256": "47e2f9a24e51b507b6b8ec6a8ae6d7cad4e8cf624389fdf7b2d9856ae2957221",
+      "storage": "git",
+      "git_blob_sha256": "47e2f9a24e51b507b6b8ec6a8ae6d7cad4e8cf624389fdf7b2d9856ae2957221",
+      "git_blob_bytes": 999
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/assembly-settings.json",
+      "bytes": 5708,
+      "sha256": "196f27f204a3b5aa9c188114b69e37188f5e72a264353628056ccc0c3d3118d3",
+      "storage": "git",
+      "git_blob_sha256": "196f27f204a3b5aa9c188114b69e37188f5e72a264353628056ccc0c3d3118d3",
+      "git_blob_bytes": 5708
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/audio-preparation-validation.json",
+      "bytes": 3523,
+      "sha256": "38addfff694587e3a5aa33cfe4a1e63883aaef987d5e127d6dbec22543b73e63",
+      "storage": "git",
+      "git_blob_sha256": "38addfff694587e3a5aa33cfe4a1e63883aaef987d5e127d6dbec22543b73e63",
+      "git_blob_bytes": 3523
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/audio-validation.json",
+      "bytes": 4033,
+      "sha256": "5009ddf26a507d14e260068a7378cc1feca8aa1a05f75b7e0cb266a84bf6428f",
+      "storage": "git",
+      "git_blob_sha256": "5009ddf26a507d14e260068a7378cc1feca8aa1a05f75b7e0cb266a84bf6428f",
+      "git_blob_bytes": 4033
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/colony-export.json",
+      "bytes": 3358,
+      "sha256": "2239145c87e978efc5515203ccd3fb72953466d6362ee2d195ac0a17f8333e7b",
+      "storage": "git",
+      "git_blob_sha256": "2239145c87e978efc5515203ccd3fb72953466d6362ee2d195ac0a17f8333e7b",
+      "git_blob_bytes": 3358
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/container-hash.json",
+      "bytes": 277,
+      "sha256": "a3b281e0c23bb8d36b6fc7950cc7abb909cbe87553c1f2368f81fa9b6280995b",
+      "storage": "git",
+      "git_blob_sha256": "a3b281e0c23bb8d36b6fc7950cc7abb909cbe87553c1f2368f81fa9b6280995b",
+      "git_blob_bytes": 277
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/delivery-validation.json",
+      "bytes": 1243,
+      "sha256": "19317bce9647aa1fc2b4b1a91dea23cac464ff89692cee4006c28ab2dccd1bf6",
+      "storage": "git",
+      "git_blob_sha256": "19317bce9647aa1fc2b4b1a91dea23cac464ff89692cee4006c28ab2dccd1bf6",
+      "git_blob_bytes": 1243
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/evidence/all-video-packets.sha256",
+      "bytes": 24192330,
+      "sha256": "7be8991687a24a61388aff917dfd7239c6e3a8048257583fb8a796747675e1d0",
+      "storage": "git",
+      "git_blob_sha256": "7be8991687a24a61388aff917dfd7239c6e3a8048257583fb8a796747675e1d0",
+      "git_blob_bytes": 24192330
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/evidence/appearance-control.jpg",
+      "bytes": 288181,
+      "sha256": "fd6bb2c909e679ce860d8c7104cc5e804dbda1ea985d105ef62ad5bcaaeb943b",
+      "storage": "git",
+      "git_blob_sha256": "fd6bb2c909e679ce860d8c7104cc5e804dbda1ea985d105ef62ad5bcaaeb943b",
+      "git_blob_bytes": 288181
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/evidence/before-color-tags.framemd5",
+      "bytes": 288216,
+      "sha256": "e88e41d142af2decae8d0476b329396c12b613ebc6a875e433aaced623b9cd6b",
+      "storage": "git",
+      "git_blob_sha256": "e88e41d142af2decae8d0476b329396c12b613ebc6a875e433aaced623b9cd6b",
+      "git_blob_bytes": 288216
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/evidence/copy-manifest.json",
+      "bytes": 2698,
+      "sha256": "c39dc2f316aba1ab03a1b4dc174ebf8319e1f88cd5e84d4ad67100004a6ce8bd",
+      "storage": "git",
+      "git_blob_sha256": "c39dc2f316aba1ab03a1b4dc174ebf8319e1f88cd5e84d4ad67100004a6ce8bd",
+      "git_blob_bytes": 2698
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/evidence/decoded4K-contact-sheet.jpg",
+      "bytes": 583605,
+      "sha256": "e99c56edd5b7b2309302e642f158e92ddf61dc3d5c49f3d2e8bc7b8efbfc8749",
+      "storage": "git",
+      "git_blob_sha256": "e99c56edd5b7b2309302e642f158e92ddf61dc3d5c49f3d2e8bc7b8efbfc8749",
+      "git_blob_bytes": 583605
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/evidence/first-clean-frames.md5",
+      "bytes": 291826,
+      "sha256": "05496d5ee0cb2b7e21b1cae2b876386b6cc3ed89cd46301adb7d2f75760f1d91",
+      "storage": "git",
+      "git_blob_sha256": "05496d5ee0cb2b7e21b1cae2b876386b6cc3ed89cd46301adb7d2f75760f1d91",
+      "git_blob_bytes": 291826
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/evidence/master-4K.framemd5",
+      "bytes": 288216,
+      "sha256": "e88e41d142af2decae8d0476b329396c12b613ebc6a875e433aaced623b9cd6b",
+      "storage": "git",
+      "git_blob_sha256": "e88e41d142af2decae8d0476b329396c12b613ebc6a875e433aaced623b9cd6b",
+      "git_blob_bytes": 288216
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/evidence/master-frames.md5",
+      "bytes": 291826,
+      "sha256": "05496d5ee0cb2b7e21b1cae2b876386b6cc3ed89cd46301adb7d2f75760f1d91",
+      "storage": "git",
+      "git_blob_sha256": "05496d5ee0cb2b7e21b1cae2b876386b6cc3ed89cd46301adb7d2f75760f1d91",
+      "git_blob_bytes": 291826
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/evidence/native-controls-4K.framemd5",
+      "bytes": 2376,
+      "sha256": "d1707f3d695e12cbc5a1ae65013da70497a64d858098ecde116d069e2f210373",
+      "storage": "git",
+      "git_blob_sha256": "d1707f3d695e12cbc5a1ae65013da70497a64d858098ecde116d069e2f210373",
+      "git_blob_bytes": 2376
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/evidence/opening-frames.md5",
+      "bytes": 291826,
+      "sha256": "b43b134024aea1800173d5388c6c35469b40c94e9084fe0fca2af283b9955b99",
+      "storage": "git",
+      "git_blob_sha256": "b43b134024aea1800173d5388c6c35469b40c94e9084fe0fca2af283b9955b99",
+      "git_blob_bytes": 291826
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/evidence/seam-upper-scene.png",
+      "bytes": 2074118,
+      "sha256": "f16eb7a8d5c4dbb1be282875a89ae2720ab5fe2e656064212e190cfb19f5d247",
+      "storage": "git",
+      "git_blob_sha256": "f16eb7a8d5c4dbb1be282875a89ae2720ab5fe2e656064212e190cfb19f5d247",
+      "git_blob_bytes": 2074118
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/final-contact-sheet.jpg",
+      "bytes": 1053207,
+      "sha256": "81285f9a6b75d6bb1a4f7bf03064e5039fe313988758486cb033b6f805f2a334",
+      "storage": "git",
+      "git_blob_sha256": "81285f9a6b75d6bb1a4f7bf03064e5039fe313988758486cb033b6f805f2a334",
+      "git_blob_bytes": 1053207
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/final-still-001.png",
+      "bytes": 505973,
+      "sha256": "11570a4b002135ca8ba75fa9b4ded5ac1d164c367485bc29d3dca11a947e4bae",
+      "storage": "git",
+      "git_blob_sha256": "11570a4b002135ca8ba75fa9b4ded5ac1d164c367485bc29d3dca11a947e4bae",
+      "git_blob_bytes": 505973
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/final-still-006.png",
+      "bytes": 519761,
+      "sha256": "093be5e044271c7c6f701101802a419d82ac54b8c932026f6ffde17a832a409d",
+      "storage": "git",
+      "git_blob_sha256": "093be5e044271c7c6f701101802a419d82ac54b8c932026f6ffde17a832a409d",
+      "git_blob_bytes": 519761
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/final-still-013.png",
+      "bytes": 944586,
+      "sha256": "738bae389f4bc89a4597c25c1d9eb5d9b11dd46c66576b206617f6bd96070ee2",
+      "storage": "git",
+      "git_blob_sha256": "738bae389f4bc89a4597c25c1d9eb5d9b11dd46c66576b206617f6bd96070ee2",
+      "git_blob_bytes": 944586
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/final-still-016.png",
+      "bytes": 1182708,
+      "sha256": "a1fe37a2ed456a74d30220a4ecbdb121275b0a0a2def407d2e866895e2ca419e",
+      "storage": "git",
+      "git_blob_sha256": "a1fe37a2ed456a74d30220a4ecbdb121275b0a0a2def407d2e866895e2ca419e",
+      "git_blob_bytes": 1182708
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/final-still-019.png",
+      "bytes": 1344795,
+      "sha256": "db7077d518d056f129121a36448c5102b755dd20151922408e6967358722567a",
+      "storage": "git",
+      "git_blob_sha256": "db7077d518d056f129121a36448c5102b755dd20151922408e6967358722567a",
+      "git_blob_bytes": 1344795
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/final-still-023.png",
+      "bytes": 1381302,
+      "sha256": "d693e9013ca5ca72b02238b67f74022d657d62fd9bbab876c14ccc01922c7d95",
+      "storage": "git",
+      "git_blob_sha256": "d693e9013ca5ca72b02238b67f74022d657d62fd9bbab876c14ccc01922c7d95",
+      "git_blob_bytes": 1381302
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/final-still-028.png",
+      "bytes": 1383557,
+      "sha256": "c52c8a283bfaf099f477ecf859b21a430a90000191e4e7f8cb2448092d356cab",
+      "storage": "git",
+      "git_blob_sha256": "c52c8a283bfaf099f477ecf859b21a430a90000191e4e7f8cb2448092d356cab",
+      "git_blob_bytes": 1383557
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/final-still-048.png",
+      "bytes": 1389242,
+      "sha256": "aa27c2b32d43c11c68af64e2413c22059c555774e42544354c1c8618404a30b9",
+      "storage": "git",
+      "git_blob_sha256": "aa27c2b32d43c11c68af64e2413c22059c555774e42544354c1c8618404a30b9",
+      "git_blob_bytes": 1389242
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/final-still-097.png",
+      "bytes": 1392844,
+      "sha256": "1b1e14b17f18cafd4cf4855ea122965ee1ba85118ba49e66b1fb5fe8afe348f6",
+      "storage": "git",
+      "git_blob_sha256": "1b1e14b17f18cafd4cf4855ea122965ee1ba85118ba49e66b1fb5fe8afe348f6",
+      "git_blob_bytes": 1392844
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/final-still-119.png",
+      "bytes": 1380049,
+      "sha256": "c692a147c1afe0d1dd2805f94609c25d34a01ea32feccf975d5b82b8262fbd6f",
+      "storage": "git",
+      "git_blob_sha256": "c692a147c1afe0d1dd2805f94609c25d34a01ea32feccf975d5b82b8262fbd6f",
+      "git_blob_bytes": 1380049
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/final-still-120.png",
+      "bytes": 1379774,
+      "sha256": "44dc5466ec602a817160aa6098ba950ee1c73bcbed249510cd6ba3072d70d506",
+      "storage": "git",
+      "git_blob_sha256": "44dc5466ec602a817160aa6098ba950ee1c73bcbed249510cd6ba3072d70d506",
+      "git_blob_bytes": 1379774
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/final-still-121.png",
+      "bytes": 1380143,
+      "sha256": "a67ca1b1631c905c285e5a5bead73162ded1e170ac45eabb7c3efcdc9246b608",
+      "storage": "git",
+      "git_blob_sha256": "a67ca1b1631c905c285e5a5bead73162ded1e170ac45eabb7c3efcdc9246b608",
+      "git_blob_bytes": 1380143
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/master-verification-reuse.json",
+      "bytes": 458,
+      "sha256": "48eab087bcf1c9ef54454d4ad1a75857f18599165cc59b5499a33f8bebd087f5",
+      "storage": "git",
+      "git_blob_sha256": "48eab087bcf1c9ef54454d4ad1a75857f18599165cc59b5499a33f8bebd087f5",
+      "git_blob_bytes": 458
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/prepare_audio.py",
+      "bytes": 8750,
+      "sha256": "d08e36def190e72e08e09191c7a48286f04bc4a6d74e5e54a39e38f441c28cd0",
+      "storage": "git",
+      "git_blob_sha256": "d08e36def190e72e08e09191c7a48286f04bc4a6d74e5e54a39e38f441c28cd0",
+      "git_blob_bytes": 8750
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/production-manifest.json",
+      "bytes": 11920,
+      "sha256": "853ef7ceffd0cada6d839438d53217d9c9612ad381b63a01da2b0bf6d26d73bb",
+      "storage": "git",
+      "git_blob_sha256": "853ef7ceffd0cada6d839438d53217d9c9612ad381b63a01da2b0bf6d26d73bb",
+      "git_blob_bytes": 11920
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/production-plan.json",
+      "bytes": 943,
+      "sha256": "8172f22af2c96a4c1f17015337d3fb6dd7bc5a81546724caf3d4ce5ada740b10",
+      "storage": "git",
+      "git_blob_sha256": "8172f22af2c96a4c1f17015337d3fb6dd7bc5a81546724caf3d4ce5ada740b10",
+      "git_blob_bytes": 943
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/record-update.json",
+      "bytes": 548,
+      "sha256": "10b8f9105fb9810bc4f4ed82604973d37627748e195f77a09e1e48bb08b0d85c",
+      "storage": "git",
+      "git_blob_sha256": "10b8f9105fb9810bc4f4ed82604973d37627748e195f77a09e1e48bb08b0d85c",
+      "git_blob_bytes": 548
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/record_delivery.py",
+      "bytes": 10676,
+      "sha256": "9372ac8b1d785a8f8aa11bc64d3ab460156ae436415517b9947a9b1f3b33d68d",
+      "storage": "git",
+      "git_blob_sha256": "9372ac8b1d785a8f8aa11bc64d3ab460156ae436415517b9947a9b1f3b33d68d",
+      "git_blob_bytes": 10676
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/review-preview-validation.json",
+      "bytes": 543,
+      "sha256": "3ae4ab7f750206941c0e0852c3b900aad320d4239f8438f2d72a180aa99e5234",
+      "storage": "git",
+      "git_blob_sha256": "3ae4ab7f750206941c0e0852c3b900aad320d4239f8438f2d72a180aa99e5234",
+      "git_blob_bytes": 543
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/verify_final.py",
+      "bytes": 11107,
+      "sha256": "9587690260bcb78c7529fe02dcc23abcc22009d251a76400551032914dcd9d1c",
+      "storage": "git",
+      "git_blob_sha256": "9587690260bcb78c7529fe02dcc23abcc22009d251a76400551032914dcd9d1c",
+      "git_blob_bytes": 11107
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/video-validation.json",
+      "bytes": 4422,
+      "sha256": "6d54a07ca1b15a5f67af0cb34ba43206a59e707a9e3f4b4bca98e988ebe85574",
+      "storage": "git",
+      "git_blob_sha256": "6d54a07ca1b15a5f67af0cb34ba43206a59e707a9e3f4b4bca98e988ebe85574",
+      "git_blob_bytes": 4422
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual-review.json",
+      "bytes": 528,
+      "sha256": "d9aa50cd07a4dc71f1505d0594ba036a9563480548fe96018683ed3b282e0711",
+      "storage": "git",
+      "git_blob_sha256": "d9aa50cd07a4dc71f1505d0594ba036a9563480548fe96018683ed3b282e0711",
+      "git_blob_bytes": 528
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/README.md",
+      "bytes": 5389,
+      "sha256": "421401ed8fa21d95dc48bf58c4304f3c0804b03ea7f9fa877965c7e5638c299e",
+      "storage": "git",
+      "git_blob_sha256": "421401ed8fa21d95dc48bf58c4304f3c0804b03ea7f9fa877965c7e5638c299e",
+      "git_blob_bytes": 5389
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/benchmark.json",
+      "bytes": 1439,
+      "sha256": "99a00fd6b37b901b5956438b20155f7efde058cc424f505803112b1285745229",
+      "storage": "git",
+      "git_blob_sha256": "99a00fd6b37b901b5956438b20155f7efde058cc424f505803112b1285745229",
+      "git_blob_bytes": 1439
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/encode-receipt.json",
+      "bytes": 9095,
+      "sha256": "9f82733ff938bb771604f031f48e333d8a05b9476d1f625fedf5a7d6f1f68d94",
+      "storage": "git",
+      "git_blob_sha256": "9f82733ff938bb771604f031f48e333d8a05b9476d1f625fedf5a7d6f1f68d94",
+      "git_blob_bytes": 9095
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/master-validation.json",
+      "bytes": 8988,
+      "sha256": "28492073eb61955d95abe1ac883295463eaa65906528fbd84b2e2b1dab54cc63",
+      "storage": "git",
+      "git_blob_sha256": "28492073eb61955d95abe1ac883295463eaa65906528fbd84b2e2b1dab54cc63",
+      "git_blob_bytes": 8988
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/masters/Snowline-v6-loop-120s-4K.mp4",
+      "bytes": 667708094,
+      "sha256": "c1da088c92fcfdf65a54c3a63d9ab5252f0633b1b5551316bebc123c17339845",
+      "storage": "git-lfs",
+      "git_blob_sha256": "125c636430ea221952e2b17e609666d35b3cd4bb63620fb5871f6281093aea7c",
+      "git_blob_bytes": 134
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/metadata-repair.json",
+      "bytes": 1523,
+      "sha256": "f2edf40adca0b260d835a6d9458c7a75e719d4a5de9b1e8861b8293688e193bd",
+      "storage": "git",
+      "git_blob_sha256": "f2edf40adca0b260d835a6d9458c7a75e719d4a5de9b1e8861b8293688e193bd",
+      "git_blob_bytes": 1523
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/native-validation.json",
+      "bytes": 3020,
+      "sha256": "00d21d4f3858e569935e4e5b6c3bfe9961883eddf8fbf3406af23df58399d0e3",
+      "storage": "git",
+      "git_blob_sha256": "00d21d4f3858e569935e4e5b6c3bfe9961883eddf8fbf3406af23df58399d0e3",
+      "git_blob_bytes": 3020
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/prepare_native.py",
+      "bytes": 8341,
+      "sha256": "885022c634f1a39b5a819c6c40f210e361ab42a154832e3db0ee4fdb52df5423",
+      "storage": "git",
+      "git_blob_sha256": "885022c634f1a39b5a819c6c40f210e361ab42a154832e3db0ee4fdb52df5423",
+      "git_blob_bytes": 8341
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/production.py",
+      "bytes": 13009,
+      "sha256": "8d4b96a93749f678a5653bd6437360669c08cccb4625c555a3096bb472176118",
+      "storage": "git",
+      "git_blob_sha256": "8d4b96a93749f678a5653bd6437360669c08cccb4625c555a3096bb472176118",
+      "git_blob_bytes": 13009
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/render_native.py",
+      "bytes": 21359,
+      "sha256": "3a4927cde0d85fdb6d30068ac48271b769b7e6d5bf9f84d6a5469d0fccb6cba6",
+      "storage": "git",
+      "git_blob_sha256": "3a4927cde0d85fdb6d30068ac48271b769b7e6d5bf9f84d6a5469d0fccb6cba6",
+      "git_blob_bytes": 21359
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/repair_color_tags.py",
+      "bytes": 2403,
+      "sha256": "1356cb3c2b131e607fc7dbae8d805d1c7de9e9571fd5910ebfd56dcd58b68fa3",
+      "storage": "git",
+      "git_blob_sha256": "1356cb3c2b131e607fc7dbae8d805d1c7de9e9571fd5910ebfd56dcd58b68fa3",
+      "git_blob_bytes": 2403
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/source-manifest.json",
+      "bytes": 2292,
+      "sha256": "a866f9396dc3ac4e99bfd239d5ead45ec88ebbd7edac24dc36bf0007280e88e5",
+      "storage": "git",
+      "git_blob_sha256": "a866f9396dc3ac4e99bfd239d5ead45ec88ebbd7edac24dc36bf0007280e88e5",
+      "git_blob_bytes": 2292
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/source-snapshot/assets/lambda-shuttle-master.png",
+      "bytes": 1558351,
+      "sha256": "3a046f2cc4a57b90edf4332c358727f3d176490d3ecc78892610f4ab42d42ac2",
+      "storage": "git",
+      "git_blob_sha256": "3a046f2cc4a57b90edf4332c358727f3d176490d3ecc78892610f4ab42d42ac2",
+      "git_blob_bytes": 1558351
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/source-snapshot/audit_flight.py",
+      "bytes": 8334,
+      "sha256": "0f688149a3d5f2f454f292029f6451fb95ef1a46b01a5dd2345b7acda6c992cf",
+      "storage": "git",
+      "git_blob_sha256": "0f688149a3d5f2f454f292029f6451fb95ef1a46b01a5dd2345b7acda6c992cf",
+      "git_blob_bytes": 8334
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/source-snapshot/events.json",
+      "bytes": 1144,
+      "sha256": "2eef1cd299c1b7e07f5f229c1cb748014c9774da9a1a539960758d5dc0fec20c",
+      "storage": "git",
+      "git_blob_sha256": "2eef1cd299c1b7e07f5f229c1cb748014c9774da9a1a539960758d5dc0fec20c",
+      "git_blob_bytes": 1144
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/source-snapshot/geometry-v6.json",
+      "bytes": 10557,
+      "sha256": "620e97091c254dff52528dff9df771538cd08410186377c9d515b0a87795ab9e",
+      "storage": "git",
+      "git_blob_sha256": "620e97091c254dff52528dff9df771538cd08410186377c9d515b0a87795ab9e",
+      "git_blob_bytes": 10557
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/source-snapshot/render_v6.py",
+      "bytes": 21572,
+      "sha256": "b714aba34254bb35380232121dc874f196110bfec0182db6e0f629421a4095e7",
+      "storage": "git",
+      "git_blob_sha256": "b714aba34254bb35380232121dc874f196110bfec0182db6e0f629421a4095e7",
+      "git_blob_bytes": 21572
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/source-snapshot/source.png",
+      "bytes": 2284812,
+      "sha256": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+      "storage": "git",
+      "git_blob_sha256": "2007d8121670a25c44e93caedec2bf1d80f7c5a8ef8ee6bd03e3579b1568516f",
+      "git_blob_bytes": 2284812
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/source-snapshot/user-approval.json",
+      "bytes": 382,
+      "sha256": "4df69674616fd0984fa6368b943983c5be3ebe3b567209fe56c3cf80eae328e7",
+      "storage": "git",
+      "git_blob_sha256": "4df69674616fd0984fa6368b943983c5be3ebe3b567209fe56c3cf80eae328e7",
+      "git_blob_bytes": 382
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/source-snapshot/v2-scene.json",
+      "bytes": 15015,
+      "sha256": "9aace7b806561de023c663cf63561980356de2a9edf461c59187f9b5d5040aef",
+      "storage": "git",
+      "git_blob_sha256": "9aace7b806561de023c663cf63561980356de2a9edf461c59187f9b5d5040aef",
+      "git_blob_bytes": 15015
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/verify_master.py",
+      "bytes": 5821,
+      "sha256": "f02781593977873e3b1785ec02de557b25fa84f77d228f08c4a1015679f27940",
+      "storage": "git",
+      "git_blob_sha256": "f02781593977873e3b1785ec02de557b25fa84f77d228f08c4a1015679f27940",
+      "git_blob_bytes": 5821
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/visual/visual-inspection.json",
+      "bytes": 1344,
+      "sha256": "b63ef2345d2f3d6dfc18a5613fbbf97fd427fa753408d918c62e52f6c1a988bd",
+      "storage": "git",
+      "git_blob_sha256": "b63ef2345d2f3d6dfc18a5613fbbf97fd427fa753408d918c62e52f6c1a988bd",
+      "git_blob_bytes": 1344
+    },
+    {
+      "path": "music/below-the-snowline-final-two-hours-v1/write_manifest.py",
+      "bytes": 1575,
+      "sha256": "193a3171ce39300a8399300447fa4a22deee83e778bd0333781f70a36047d83e",
+      "storage": "git",
+      "git_blob_sha256": "193a3171ce39300a8399300447fa4a22deee83e778bd0333781f70a36047d83e",
+      "git_blob_bytes": 1575
+    },
+    {
+      "path": "music/production-backup-2026-11-05-snowline/.gitignore",
+      "bytes": 33,
+      "sha256": "b96b5f4e3421cddd1362875f06b8ab353918ce46da555fa478e7c7181589cee1",
+      "storage": "git",
+      "git_blob_sha256": "b96b5f4e3421cddd1362875f06b8ab353918ce46da555fa478e7c7181589cee1",
+      "git_blob_bytes": 33
+    },
+    {
+      "path": "music/production-backup-2026-11-05-snowline/README.txt",
+      "bytes": 975,
+      "sha256": "5ce22d1cb36c9c111f40f1dd186f9f0ce63a5ea19c2783cfb2f16b33dcd821aa",
+      "storage": "git",
+      "git_blob_sha256": "5ce22d1cb36c9c111f40f1dd186f9f0ce63a5ea19c2783cfb2f16b33dcd821aa",
+      "git_blob_bytes": 975
+    },
+    {
+      "path": "music/production-backup-2026-11-05-snowline/selection.json",
+      "bytes": 7033,
+      "sha256": "804673cbc0f46324c3cd2add380a59a60d91d4c8528a65540e00eb5274adc25b",
+      "storage": "git",
+      "git_blob_sha256": "804673cbc0f46324c3cd2add380a59a60d91d4c8528a65540e00eb5274adc25b",
+      "git_blob_bytes": 7033
+    },
+    {
+      "path": "music/production-backup-2026-11-05-snowline/verify_remote.py",
+      "bytes": 4977,
+      "sha256": "6dd09caffe961c5fdd9f948823a428be3c00410070d6d800d80464225150b3bc",
+      "storage": "git",
+      "git_blob_sha256": "6dd09caffe961c5fdd9f948823a428be3c00410070d6d800d80464225150b3bc",
+      "git_blob_bytes": 4977
+    }
+  ],
+  "count": 81,
+  "total_selected_working_bytes": 732120958,
+  "new_lfs_bytes": 683946225
+}

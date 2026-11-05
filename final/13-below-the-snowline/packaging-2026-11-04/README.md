@@ -2,7 +2,7 @@
 
 **Hoth-Inspired Snowstorm Ambience | Below the Snowline**
 
-The title leads with the Hoth inspiration and the sound of the scene so both are visible when the title is shortened in the feed. The first sentence of the description names Star Wars, then takes the viewer inside the monitoring room. The copy is ready to review alongside the thumbnail. [Title](../youtube-title.txt) · [Description and hashtags](../description.txt) · [Tags](../youtube-tags.txt)
+The title leads with the Hoth inspiration and the sound of the scene so both are visible when the title is shortened in the feed. The description names Star Wars, then takes the viewer inside the monitoring room. The copy is ready to review alongside the thumbnail. [Title](../youtube-title.txt) · [Description and hashtags](../description.txt) · [Tags](../youtube-tags.txt)
 
 **Title test:** Compare with **Below the Snowline | Hoth-Inspired Snowstorm Ambience** using the same thumbnail. Only the order changes, so the test asks whether leading with Hoth and the snowstorm works better than leading with the scene name. [YouTube Studio title testing](https://support.google.com/youtube/answer/16391400?hl=en) selects by watch time share.
 
@@ -20,4 +20,4 @@ Start with B as the fallback: it keeps the feeling of watching the storm from a 
 
 The Hoth layout review produced [three finalists](thumbnail-hoth-finalists.png). [Centered](thumbnail-hoth-centered.jpg) stacks the caption below HOTH on one axis. [Left aligned](thumbnail-hoth-left-aligned.jpg) uses a shorter, heavier caption and is the recommended C export. [Star Wars above](thumbnail-hoth-eyebrow.jpg) puts the inspiration line over a larger destination name. The video title already supplies the word Ambience.
 
-Packaging is ready for user review. Add the verified final runtime and resolution once the long video is assembled.
+Packaging is ready for user review. The [completed video](../../../exports/13-below-the-snowline/Below-the-Snowline-2-Hours-4K-v1.mp4) is verified at 2:00:00, 3840×2160 and 30 fps. Thumbnail selection and YouTube upload checks remain pending.

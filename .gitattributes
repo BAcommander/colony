@@ -416,3 +416,10 @@ music/deepwell-claim-review-2026-11-02/replacement-v1/Waterworks-Gallery-reworke
 /music/gate-camp-animation-v1/render_portal.py -text
 /music/gate-camp-animation-v2/look-settings.json -text
 /music/gate-camp-animation-v2/render_water_light.py -text
+
+# Snowline final production backup, 2026-11-05.
+/music/below-the-snowline-final-two-hours-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/production-backup-2026-11-05-snowline/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/below-the-snowline-final-two-hours-v1/visual/masters/Snowline-v6-loop-120s-4K.mp4 filter=lfs diff=lfs merge=lfs -text
+/music/below-the-snowline-final-two-hours-v1/Below-the-Snowline-final-opening-and-loop-2m15s-720p.mp4 filter=lfs diff=lfs merge=lfs -text
+/final/13-below-the-snowline/final-video-v1.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

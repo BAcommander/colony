@@ -1,0 +1,117 @@
+{
+  "status": "passed",
+  "seconds": 7200,
+  "sample_frames": 345600000,
+  "all_samples_finite": true,
+  "unclipped": true,
+  "peak_dbfs": -7.288367432666232,
+  "expected_input": "G:\\AI\\colony\\exports\\13-below-the-snowline\\audio-2h-v6\\Below-the-Snowline-2-Hours-unfaded-master-v6.flac",
+  "expected_graph": "[0:a:0]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,volume=0.40dB[a0];[a0]afade=t=out:st=7180:d=20:curve=tri[closing];[closing]alimiter=limit=0.8414:level=0:latency=1[intro_mix];[intro_mix]afade=t=in:st=5:d=15:curve=hsin[aout]",
+  "gain_db_once": 0.4,
+  "closing_fade_seconds_once": 20,
+  "opening_silence_to5_fade_to20_once": true,
+  "first_four_seconds_peak": 0.0,
+  "full_track_correlation": 0.9999838163097131,
+  "gain_difference_db": -0.007206594893035998,
+  "aac_snr_db": 44.81113105002449,
+  "diagnostic_windows": [
+    {
+      "second": 4,
+      "expected_rms": 0.0,
+      "aac_rms": 1.3405310365774771e-09,
+      "correlation": null,
+      "gain_difference_db": null,
+      "reference_silent": true,
+      "note": "Not applicable for a silent reference; actual RMS is preserved."
+    },
+    {
+      "second": 5,
+      "expected_rms": 0.00021919777695897754,
+      "aac_rms": 0.00021908469923798157,
+      "correlation": 0.999978345326153,
+      "gain_difference_db": -0.004481952531666301,
+      "reference_silent": false
+    },
+    {
+      "second": 10,
+      "expected_rms": 0.008250399106637617,
+      "aac_rms": 0.008233732625978525,
+      "correlation": 0.9999151887204764,
+      "gain_difference_db": -0.017563953423318866,
+      "reference_silent": false
+    },
+    {
+      "second": 15,
+      "expected_rms": 0.025901258211595425,
+      "aac_rms": 0.025871062010247196,
+      "correlation": 0.9999729692971268,
+      "gain_difference_db": -0.01013208992823245,
+      "reference_silent": false
+    },
+    {
+      "second": 19,
+      "expected_rms": 0.022798423605912107,
+      "aac_rms": 0.022762324538888226,
+      "correlation": 0.9999404888538195,
+      "gain_difference_db": -0.013764154039984744,
+      "reference_silent": false
+    },
+    {
+      "second": 20,
+      "expected_rms": 0.024774992465716027,
+      "aac_rms": 0.024725369147761394,
+      "correlation": 0.9999427718802684,
+      "gain_difference_db": -0.017414935712315123,
+      "reference_silent": false
+    },
+    {
+      "second": 180,
+      "expected_rms": 0.0860197332087759,
+      "aac_rms": 0.08595724926800702,
+      "correlation": 0.9999834598598349,
+      "gain_difference_db": -0.006311642752825291,
+      "reference_silent": false
+    },
+    {
+      "second": 224,
+      "expected_rms": 0.07524593565077294,
+      "aac_rms": 0.0751873412078627,
+      "correlation": 0.9999891606085952,
+      "gain_difference_db": -0.006766387077222117,
+      "reference_silent": false
+    },
+    {
+      "second": 498,
+      "expected_rms": 0.037454448471138865,
+      "aac_rms": 0.037406406543413914,
+      "correlation": 0.9999743210571155,
+      "gain_difference_db": -0.0111483348519919,
+      "reference_silent": false
+    },
+    {
+      "second": 7180,
+      "expected_rms": 0.08319436607166696,
+      "aac_rms": 0.08315206686429871,
+      "correlation": 0.9999934337536456,
+      "gain_difference_db": -0.004417362589776655,
+      "reference_silent": false
+    },
+    {
+      "second": 7190,
+      "expected_rms": 0.013355608581862912,
+      "aac_rms": 0.01331901299057285,
+      "correlation": 0.9998867569090659,
+      "gain_difference_db": -0.02383280045782484,
+      "reference_silent": false
+    },
+    {
+      "second": 7199,
+      "expected_rms": 0.0005916140648216046,
+      "aac_rms": 0.0005897627807097103,
+      "correlation": 0.9997879514309359,
+      "gain_difference_db": -0.027222579666887316,
+      "reference_silent": false
+    }
+  ],
+  "note": "Independent comparison to original unfaded master plus gain, closing and actual Colony opening/limiter. No full listening claim."
+}

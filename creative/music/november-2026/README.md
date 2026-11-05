@@ -1,5 +1,8 @@
 # November 2026 — four ambient soundtrack briefs
 
+Snowline final delivery (2026-11-05): [two-hour4K video and verification](../../../music/below-the-snowline-final-two-hours-v1/README.md) now available. Approved V6 visual treatment uses a native120-second periodic production loop; full V6 music/SFX, +0.4dB once, one Colony opening and one 20-second closing fade. Full decode, picture/timestamp and complete AAC comparison passed. Upload and combined user review are not inferred.
+
+
 Merged production update(2026-11-03): current Snowline audio is the [two-hour V6 with both snow takes](../../../music/snowline-snow-2026-11-03/RESUME.md). November1/2 production records and existing V2 animation are now present in the same checkout. The approved [V6 two-minute animation/V6-audio preview](../../../music/below-the-snowline-animation-v6/README.md) retains the V5 continuous sky and stronger cannon charge, improves shuttle occlusion against the actual cliff/frost edges and changes engines to matching blue-white. Targeted masking and delivery checks passed; user approval and commit/push authorization were received on November4. Historical preparation and earlier audition notes below are retained; do not restart accepted music or add SFX twice.
 
 

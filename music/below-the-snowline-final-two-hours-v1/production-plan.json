@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-04",
+  "user_request": "can you do that now?",
+  "authorized_task": "Build two-hour 4K Below the Snowline video from approved V6 animation and current V6 audio with smooth motion repeats and one Colony intro",
+  "branch": "main",
+  "approved_preview": "music/below-the-snowline-animation-v6/Below-the-Snowline-v6-with-V6-audio-2min.mp4",
+  "source_audio": {
+    "path": "G:\\AI\\colony\\exports\\13-below-the-snowline\\audio-2h-v6\\Below-the-Snowline-2-Hours-unfaded-master-v6.flac",
+    "bytes": 1036931449,
+    "sha256": "6c46365081e88d55b198387ea0b53259b7a90b12181e279ddb6dc12e8f474257",
+    "seconds": 7200,
+    "sample_rate": 48000,
+    "channels": 2,
+    "already_contains_all_six_layers": true
+  },
+  "playback_gain_db": 0.4,
+  "closing_fade_seconds": 20,
+  "opening": "Actual Colony v3, once; silence to5 then fade to20; graphics clear by22",
+  "no_publication_or_commit_push_inferred": true
+}

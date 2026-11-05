@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "path": "G:\\AI\\colony\\music\\below-the-snowline-final-two-hours-v1\\Below-the-Snowline-final-opening-and-loop-2m15s-720p.mp4",
+  "bytes": 16238131,
+  "sha256": "a80ca84c6f0283b62d03c480d5434a25b2972840b9feb2f671af1b0995314e8b",
+  "seconds": 135,
+  "frames": 4050,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "source": "First135seconds of actual final2h4KMP4",
+  "audio": "Stream-copied AAC from final output",
+  "full_decode": true,
+  "contains": "Once-only opening and first120s-loop transition"
+}
