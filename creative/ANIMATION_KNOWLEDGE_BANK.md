@@ -1,5 +1,16 @@
 # Ambient Colony animation knowledge bank
 
+## Back Before Dawn scene18 — 2026-11-05
+
+[The complete workshop draft](../music/back-before-dawn-animation-v1/README.md) uses the H1 DeLorean art unchanged, with nine effect groups over a two-minute review. Its independent visual audit caught two defects after the first broad numeric checks passed. A tree cutout boundary through a solid crown exposed inferred blue sky, and the broad car exclusion missed a small upper door fin. Preserve the failed setup as a lesson: masks can be numerically respected yet semantically wrong. Fix the actual small feature, not the whole scene.
+
+When a motion region cuts through solid foliage, keep that internal boundary fixed and use bounded original-source deformation, or prepare a genuinely complete isolated silhouette. Generated cleanup can change pixels underneath and should never become an accidental whole-plate replacement. Verify the original local source palette for a source-only warp and inspect native crops. Name small fixed geometry such as fins independently in the protection audit; the corrected workshop fin passes all240 targeted weather states. First-cutout settings/reports and generated sky are retained as rejected history.
+
+The moving sedan keeps its body, headlamps, shadow and wet-road response attached. Determine reflection anchors from real emissive lenses on the RGBA source rather than guessed floating glows. Include a tall enough visible vehicle volume above the road, then subtract the hero occluder. Workshop electronics alter source emitters and nearby material receivers, while a complete white work-lamp core and bonnet reflection share one linear-light dip. A lidded bench vessel supplies no steam.
+
+Scene18 turns the separate clock proposal into executable settings:60s physical fields,120s review attention and sparse600s production attention. Carry absolute cue time through minute and later render boundaries; the review sedan crosses t60 without restarting. Both clocks have native controls, but native passes are not full production playback. Retain exact review clips, input hashes, settings and a short continuation check. Do not reuse scene-specific Snowline gain or frequency choices. [Detailed saved lessons and cue sheet](../music/back-before-dawn-animation-v1/documentation/LEARNINGS.md).
+
+
 ## Scenes16/17 first visual drafts —2026-11-05
 
 [The paired review](animation-development/2026-11-05-16-17/review.html) contains actual60s720p drafts: city60fps, Gate Camp30fps. All twelve candidates per scene have a first-pass treatment, with the canopy free edge fixed and city rooftop emission replaced by gap mist where no actual outlet was visible. These are user-review candidates, not approved production references. Complete implementation/cue and technical records live with each renderer.

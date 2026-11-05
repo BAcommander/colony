@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-05",
+  "source": "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/concept-v1.png",
+  "source_dimensions": [1672, 941],
+  "inspection": "Full native source plus 3x coordinate crops of CRT/cabin/lamp/road/rear and 5x workbench detail. Diagnostic only; no source pixels edited.",
+  "source_assessment": {
+    "major_body_repair_required_for_first_static_car_draft": false,
+    "car_geometry": "Visible car body, two near-side wheels, open door and support surfaces are coherent enough to preserve in a first draft. Keep wheels, door, hood and body fixed. No claim of screen-accurate prop reconstruction.",
+    "rear_equipment": "Illustrative machinery and blue canister; do not invent continuous exhaust, boiling coolant or electrical arcing from these parts.",
+    "workbench_vessel": "The silver object around x428,y278 is a lidded cylindrical vessel/thermos-like prop, not a verified open cup. Do not add cup steam to this source without a new intentional asset decision.",
+    "other_source_concerns": "Background house/vehicle detail is naturally small and soft. Interior tools are static. The car's physical door/hinge detail remains illustrative; avoid global animated deformation that amplifies it. Existing front/side lamps are steady sources rather than assumed flashing indicators."
+  },
+  "screen": {
+    "instrument_roi": [109, 246, 254, 317],
+    "glass_quad": [[153, 259], [195, 259], [198, 299], [155, 299]],
+    "active_trace_roi": [158, 265, 194, 293],
+    "method": "Perspective-map a restrained cyan phosphor trace inside the actual glass. Preserve bezel, knobs, internal grid/labels and black glass. No large replacement screen."
+  },
+  "cabin_emitter_rois": [
+    {"name": "main_multicolour_panel", "roi": [1005, 352, 1103, 383]},
+    {"name": "red_vertical_bank", "roi": [1099, 357, 1123, 384]},
+    {"name": "lower_amber_bank", "roi": [1039, 384, 1087, 424]},
+    {"name": "upper_yellow_bank", "roi": [1117, 336, 1176, 362]},
+    {"name": "seat_side_bank", "roi": [1179, 394, 1197, 428]},
+    {"name": "low_red_pillar_strip", "roi": [973, 488, 987, 517]},
+    {"name": "door_courtesy_lens", "roi": [995, 141, 1020, 163], "note": "Mostly steady, source-attached amber lamp. Do not use it as a dancing ambient LED."}
+  ],
+  "emitter_mask_rule": "ROIs are reference bounds, not solid filled masks. Qualify original bright coloured emitters and white cores separately. Keep black panel gaps, switches, seat and structural edges intact. Couple separate signals only to adjacent facing materials; no whole-car colour wash.",
+  "main_work_lamp": {
+    "roi": [168, 19, 272, 84],
+    "white_core_center": [219, 74],
+    "white_core_radius": [43, 5],
+    "shade_polygon": [[199, 25], [237, 25], [257, 52], [264, 72], [259, 78], [178, 78], [175, 72], [181, 50]],
+    "note": "The white emitter is a thin oval at the shade opening. Couple that core, its warm pegboard/bench pool and the corresponding hood highlight in linear light. Do not dim unrelated workbench strip/daylight or change all reflections together.",
+    "hood_receiver_polygon": [[172, 438], [449, 408], [859, 425], [998, 454], [485, 551], [85, 490]],
+    "hood_receiver_note": "This identifies the hood plane for further source-bound warm-reflection qualification. Exclude headlight lenses, grille, body edge, windscreen and neutral/cool metal. Preserve brushed-metal texture. A full polygon-wide brightness wash is not justified."
+  },
+  "exterior": {
+    "conservative_right_rain_roi": [1457, 279, 1672, 590],
+    "conservative_right_rain_polygon": [[1460, 302], [1534, 285], [1670, 284], [1670, 538], [1640, 540], [1639, 580], [1484, 565], [1460, 550]],
+    "upper_clear_road_polygon": [[1449, 306], [1518, 290], [1600, 287], [1670, 286], [1670, 320], [1575, 337], [1500, 345], [1453, 338]],
+    "near_wet_road_polygon": [[1465, 390], [1667, 397], [1668, 539], [1640, 545], [1640, 580], [1474, 563], [1459, 550]],
+    "stable_streetlamp_core": [1589, 108],
+    "note": "These conservative visible road regions avoid the parked hero car, rear machinery, curb/vegetation band around y340-385 and the foreground red/dark prop at x1640+ below y540. Outer rain coverage can be broader only after tracing garage/car/tree/house silhouettes. Do not infer source water simply from the old broad bounds. Source streets remain fixed geometry; use local breakup and impact rings, not global swimming asphalt.",
+    "optional_far_vehicle_route": [[1434, 301], [1525, 288], [1689, 286]],
+    "route_status": "Candidate road centerline only. Must prove body extent, depth scale, roof/vegetation/parked-car occlusion and lens source coordinates before including a vehicle. Headlight wash cannot be a free floating moving glow."
+  },
+  "safe_extra_candidates": [
+    "A very sparse, soft dust-mote field inside the actual hanging lamp beam, with no sparks/firefly appearance.",
+    "Small source-qualified light response on the underside of the open door and nearby leather/metal, from cabin emitters that actually face those surfaces.",
+    "Gentle upper exterior foliage movement only over a clean revealed background with a fixed trunk/base and independently protected roof/house/car silhouettes."
+  ],
+  "do_not_animate_for_first_draft": [
+    "Gullwing door hinge or body/wheels",
+    "Rear machinery as unmotivated exhaust or lightning generator",
+    "Tools rattling or moving without contact/rigging",
+    "Front turn signals/headlights as continuous ambient pulses",
+    "The entire bonnet/garage/street as one wavy displacement field"
+  ],
+  "runtime_geometry_status": "Audit reference geometry, not a validated finished renderer mask. Trace/qualify the final effect masks and inspect native/normal-size decoded peaks before treating these bounds as runtime-safe."
+}

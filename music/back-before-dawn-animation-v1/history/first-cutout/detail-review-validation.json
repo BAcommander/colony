@@ -1,0 +1,117 @@
+{
+  "source": "music/back-before-dawn-animation-v1/Back-Before-Dawn-v1-first-draft-120s.mp4",
+  "source_sha256": "63545af586c6087f052f2daa85a0be52e17352868197cd527ae37de8480777b0",
+  "script_sha256": "fedfd83f461b43a1b279615df58eca7fc0d3993e61fb56d2b8704fed4f419b43",
+  "reviews": [
+    {
+      "path": "Back-Before-Dawn-Cabin-systems-and-reflections-detail.mp4",
+      "sha256": "c2018b22d25b9a17585d8348036cca592f25b1a12583bbc9e6e8fffb1f65b4a9",
+      "bytes": 435372,
+      "source_sha256": "63545af586c6087f052f2daa85a0be52e17352868197cd527ae37de8480777b0",
+      "scene_start_seconds": 73,
+      "seconds": 23,
+      "fps": 30,
+      "decoded_frames": 690,
+      "encoded_crop_xywh": [
+        734,
+        236,
+        206,
+        198
+      ],
+      "native_crop_xyxy": [
+        960,
+        310,
+        1230,
+        570
+      ],
+      "display_scale": 2,
+      "source_transform_controls": 3,
+      "speed_or_effect_strength_altered": false
+    },
+    {
+      "path": "Back-Before-Dawn-Workbench-scope-and-lamp-detail.mp4",
+      "sha256": "fef1d181ed9e48e95d9df60978702e14f52667d24e61e15f1375ba295bc86a45",
+      "bytes": 1093339,
+      "source_sha256": "63545af586c6087f052f2daa85a0be52e17352868197cd527ae37de8480777b0",
+      "scene_start_seconds": 23,
+      "seconds": 16,
+      "fps": 30,
+      "decoded_frames": 480,
+      "encoded_crop_xywh": [
+        86,
+        12,
+        194,
+        236
+      ],
+      "native_crop_xyxy": [
+        112,
+        16,
+        365,
+        325
+      ],
+      "display_scale": 2,
+      "source_transform_controls": 3,
+      "speed_or_effect_strength_altered": false
+    },
+    {
+      "path": "Back-Before-Dawn-Street-rain-and-passing-car-detail.mp4",
+      "sha256": "801cd4dd188a2f05e4a045d99c921a396f8455a6e5065a3c6e0da4787bd36df1",
+      "bytes": 8363867,
+      "source_sha256": "63545af586c6087f052f2daa85a0be52e17352868197cd527ae37de8480777b0",
+      "scene_start_seconds": 53,
+      "seconds": 23,
+      "fps": 30,
+      "decoded_frames": 690,
+      "encoded_crop_xywh": [
+        1086,
+        176,
+        194,
+        272
+      ],
+      "native_crop_xyxy": [
+        1418,
+        230,
+        1672,
+        585
+      ],
+      "display_scale": 2,
+      "source_transform_controls": 3,
+      "speed_or_effect_strength_altered": false
+    },
+    {
+      "path": "Back-Before-Dawn-Bonnet-and-practical-light-detail.mp4",
+      "sha256": "ea4ba1c332a3de116ac9884be72955214731bea7fec4b773dcb61c9d37c2909a",
+      "bytes": 913700,
+      "source_sha256": "63545af586c6087f052f2daa85a0be52e17352868197cd527ae37de8480777b0",
+      "scene_start_seconds": 24,
+      "seconds": 12,
+      "fps": 30,
+      "decoded_frames": 360,
+      "encoded_crop_xywh": [
+        60,
+        304,
+        704,
+        118
+      ],
+      "native_crop_xyxy": [
+        80,
+        398,
+        1000,
+        554
+      ],
+      "display_scale": 2,
+      "source_transform_controls": 3,
+      "speed_or_effect_strength_altered": false
+    },
+    {
+      "path": "Back-Before-Dawn-loop-join-10s.mp4",
+      "sha256": "ba5f9e62ca873dc32176596792c464c076a67a592aded3630d813715f0b2d78e",
+      "bytes": 2299592,
+      "source_sha256": "63545af586c6087f052f2daa85a0be52e17352868197cd527ae37de8480777b0",
+      "seconds": 10,
+      "decoded_frames": 300,
+      "exact_encoded_picture_sequence": "scene115\u2013120, then0\u20135",
+      "all_decoded_yuv_hashes_match_source": true
+    }
+  ]
+}

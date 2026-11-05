@@ -31,6 +31,7 @@ Channel graphic candidate: [ten-second subscribe overlay v1](channel-assets/subs
 | [15 - Beneath a Crimson Sky](15-beneath-a-crimson-sky/) | [60-second synced storm with sound](../music/beneath-a-crimson-sky-synced-storm/skies-of-baal-synced-storm-60s.mp4) | [Skies of Baal draft](15-beneath-a-crimson-sky/thumbnail-warhammer-v1.jpg) |
 | [16 - Cyberpunk Apartment](16-cyberpunk-apartment/) | [V4 full-minute 720p/60fps first draft](../music/cyberpunk-apartment-animation-v4/README.md), visual review pending; V3 master retained | Pending |
 | [17 - The Gate Camp After Sunset](17-gate-camp/) | [V3 full-minute 720p/30fps first draft](../music/gate-camp-animation-v3/README.md), visual review pending | [The Way Home draft](../creative/brainstorm/2026-10-27-three-worlds/e1-gate-camp/thumbnail-v1.jpg) |
+| [18 - Back Before Dawn](18-back-before-dawn/) | [120-second 720p/30fps first draft](../music/back-before-dawn-animation-v1/README.md), visual review pending | [Back Before Dawn draft](../creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/thumbnail-v1.jpg) |
 
 Production masters and draft reviews have different resolutions and frame rates; use each linked delivery record. Scenes 16/17 currently have silent 720p review minutes, not new 4K masters. Long music-video exports are tracked separately through each assembly package and the local inventory. Approved copied media retain their original production paths.
 

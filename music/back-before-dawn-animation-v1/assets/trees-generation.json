@@ -1,0 +1,7 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Edit target: the attached cropped photographic night suburban street, used only as a clean background for subtle animated tree branch silhouettes. Preserve the same framing, perspective, dusk-blue night exposure, overhead garage lintel, houses, rooflines, garage door, parked dark car, streetlamp pole and glowing lamp, and all hard architecture. Remove the tree canopy foliage and small branches from the upper portion of this crop (above the house roof apex and on both sides of the streetlamp), revealing a continuous soft dark blue-grey overcast night sky behind them. No new objects, no text, no people, no grading, no stars. This is a precise-object-edit background clean plate. Do not brighten the sky. Preserve the existing warm lights and houses. The output is a production backfill patch, not a new scene.",
+  "returned_path": "C:\\Users\\john\\.codex\\generated_images\\01a11569-0e03-7520-8947-ce396d150bba\\exec-a5ae7714-0422-4660-98c1-c5886c856a3b.png",
+  "workspace_target": "tree-clean-background.png",
+  "transparent_background": false
+}

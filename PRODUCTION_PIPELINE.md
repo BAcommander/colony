@@ -28,9 +28,40 @@ Source-first exploration, 2026-10-27: user replaces the franchise-to-existing-lo
 
 New still candidate, 2026-10-27: [The Brineward Station](creative/concepts/brineward-station/README.md), a brine-monitoring station among eroded mineral fins, applies the user's request for restrained photographic realism on a clearly alien world. User says v1 "looks good" and requests geometry fixes. V2 now has a recognizable closed entrance, aligned supported steps and continuous foreground paving; assistant inspected the full returned still, user v2 review pending. Both images and exact prompts/hashes preserved. [Ten additional location studies](creative/concepts/photographic-locations-2026-10-27.txt) are written proposals only. No release numbers assigned, existing round-03 backlog untouched, no animation/music/thumbnail produced. [Shared realism lessons](creative/concepts/ALIEN_COLONY_ART_DIRECTION.md#photographic-restraint-reference-2026-10-27) updated with colour/hierarchy observations. Next gate is v2 still review.
 
-Last updated: 2026-10-25. This is the live work queue for the first fifteen numbered releases. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
+Last updated: 2026-11-05. This is the live work queue for numbered releases through scene 18. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
 
 Before any animation plan or revision, consult the [animation knowledge bank](creative/ANIMATION_KNOWLEDGE_BANK.md). It links lessons from videos 01â€“09 to the source implementations, separates accepted results from candidates, and records what to reuse or avoid. Capture the selected examples in the scene plan and update the bank after meaningful feedback.
+
+## Release calendar
+
+Ambient Colony releases on **Mondays and Thursdays**. The user confirmed this cadence on 5 November 2026 and supplied a YouTube Studio screenshot (`chrome_wevX0lDNgh.png`). Record the date and status shown in Studio separately from production readiness and planned slots. The screenshot does not show a release time.
+
+| Studio date (2026) | Release | Status shown |
+| --- | --- | --- |
+| Sat 26 Sep | #01 Ringfall Observatory | Published; earlier Saturday exception |
+| Mon 28 Sep | #02 Basalt Transmission | Published |
+| Thu 1 Oct | #03 Glacier Sanctuary | Published |
+| Mon 5 Oct | #04 Floodplain Keeper | Published |
+| Thu 8 Oct | #05 Saltline Receiver | Published |
+| Mon 12 Oct | #06 The Last Cable Station | Published |
+| Thu 15 Oct | #07 Icebound Weather Post | Published |
+| Mon 19 Oct | #09 Shoreless Colony | Published |
+| Thu 22 Oct | #08 Rainline Relay | Published |
+| Mon 26 Oct | #10 Farpoint Station | Published |
+| Thu 29 Oct | Spirewatch (unnumbered) | Premiered |
+| Mon 2 Nov | #11 The Empty Junction | Published |
+| Thu 5 Nov | #12 Deepwell Station | Published |
+| Mon 9 Nov | #13 Below the Snowline / Hoth | Scheduled |
+
+The next available slots, **if the current order holds**, are planning dates only:
+
+| Planning slot (2026) | Release |
+| --- | --- |
+| Thu 12 Nov | #14 Crater Rim Survey |
+| Mon 16 Nov | #15 Beneath a Crimson Sky |
+| Thu 19 Nov | #16 Cyberpunk Apartment |
+| Mon 23 Nov | #17 The Gate Camp After Sunset |
+| Thu 26 Nov | #18 Back Before Dawn |
 
 ## Where we are
 
@@ -58,13 +89,14 @@ Packages 01â€“14 have artwork, thumbnails, descriptions and search tags in 
 | 08 | [Rainline Relay](final/08-rainline-relay/README.md) | Latest twenty-second v5 rendered unchanged to verified 4K; user authorized final assembly | Music transition and quieter v3 rain mix approved; one-hour soundtrack verified | One-hour 4K Colony export delivered and technically verified; review combined video and upload checks |
 | 09 | [The Shoreless Colony](final/09-offshore-night-office/README.md) | Latest genuine sixty-second v3 rendered unchanged to verified 4K; authorized for final assembly | Music join and quieter water v2 approved; two-hour soundtrack verified | Two-hour 4K Colony export delivered and technically verified; full combined review/upload checks pending |
 | 10 | [Farpoint Station](final/10-nightward-station/README.md) | Latest v6 minute rendered to verified 4K using preserved effects; authorized for final assembly | Unfolding Warmth selected, join approved; one-hour soundtrack verified | One-hour 4K Colony export delivered and technically verified; full combined review/upload checks pending |
-| 11 | [The Empty Junction](final/11-empty-junction/README.md) | V6 visuals accepted; one-hour 4K v2 delivered and fully checked | Revised V4 audio: 25 wind passages, 9 trains, 24 grit events; original levels retained | User reports uploading (2026-11-01); public URL/completion not yet verified |
-| 12 | [Deepwell Station](final/12-deepwell-station/README.md) | V4 retained; revised hour has identical video packets | Claim passage replaced in all10 repeats; user accepts revised audio | Revised1h4K v2 ready for reupload; fresh YouTube checks pending |
-| 13 | [Below the Snowline](final/13-below-the-snowline/README.md) | Approved V6 treatment; native120s periodic master with cliff masking and blue engines | Full2h V6, all six layers retained; gain/fades applied once | [Two-hour4K final delivered and verified](music/below-the-snowline-final-two-hours-v1/README.md); combined review/upload checks pending |
+| 11 | [The Empty Junction](final/11-empty-junction/README.md) | V6 visuals accepted; one-hour 4K v2 delivered and fully checked | Revised V4 audio: 25 wind passages, 9 trains, 24 grit events; original levels retained | Studio shows public from Mon 2 Nov 2026 |
+| 12 | [Deepwell Station](final/12-deepwell-station/README.md) | V4 retained; revised hour has identical video packets | Claim passage replaced in all10 repeats; user accepts revised audio | Studio shows public from Thu 5 Nov 2026; exact uploaded file and claim status not verified by the screenshot |
+| 13 | [Below the Snowline](final/13-below-the-snowline/README.md) | Approved V6 treatment; native120s periodic master with cliff masking and blue engines | Full2h V6, all six layers retained; gain/fades applied once | Studio shows the Hoth release scheduled for Mon 9 Nov 2026; [two-hour 4K delivery](music/below-the-snowline-final-two-hours-v1/README.md) technically verified |
 | 14 | [Crater Rim Survey](final/14-crater-rim-survey/README.md) | [V5 final-round minute and comparison](music/crater-rim-animation-v5/README.md): positive V5 feedback; [long-version recipe](music/crater-rim-animation-v5/LONG_VERSION.md) and proposed600s event schedule saved | Short/long prompts ready; sheltered wind and room-air audition planned | Implement/review the600s attention schedule; select soundtrack/runtime; render matching upscaled4K |
 | 15 | [Beneath a Crimson Sky](final/15-beneath-a-crimson-sky/README.md) | [60-second synced storm](music/beneath-a-crimson-sky-synced-storm/README.md) with three dust depths and cloud-masked strikes | Angelic ElevenLabs prompt; wind, grit and thunder audition ready | Review storm intensity and thumbnail, then audition the score under the effects |
 | 16 | [Cyberpunk Apartment](final/16-cyberpunk-apartment/README.md) | V4 complete60s720p60 first visual draft; twelve candidate treatments | Two companion music prompts drafted; no new audio | Review full minute, bus/ferry/leaf experiments and detail clips before long schedule/4K |
 | 17 | [The Gate Camp After Sunset](final/17-gate-camp/README.md) | V3 complete60s720p30 first visual draft; periodic water, camp wind/light and rover | Shared wind/cloth/gate cue sheet saved; no new audio | Review full minute, portal/canopy/rover details before long schedule/4K |
+| 18 | [Back Before Dawn](final/18-back-before-dawn/README.md) | [120s720p30 visual draft](music/back-before-dawn-animation-v1/README.md), source-safe corrections and full technical checks passed | Gust/vehicle/practical cue sheet; no soundtrack or SFX mix yet | Review full motion and details, then audition implemented600s schedule, audio and 4K |
 
 01â€“03 long exports are listed in [the local inventory](final/local-export-inventory.json); their existence does not establish full-video review or publication. Basalt and Glacier claim reports and replacement checks are recorded in their music folders; complete replacement upload checks remain pending. Glacier's accepted look, technical delivery and full-export user review are separate facts. Ignored exports require separate media backup.
 

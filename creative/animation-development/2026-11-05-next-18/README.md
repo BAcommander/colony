@@ -1,6 +1,6 @@
 # Animation18 — candidate recommendation
 
-2026-11-05. The user asks what to develop after backing up the complete scene16/17 drafts. This is a recommendation from existing art, not an assigned release, approved thumbnail, new render or CTR result. Catalog17 remains the last selected numbered scene.
+2026-11-05. This records the original recommendation after backing up scene16/17. The user subsequently selects H1 for the animation; see the [current scene18 package](../../../final/18-back-before-dawn/README.md) and [complete visual draft](../../../music/back-before-dawn-animation-v1/review.html). The shortlist itself remains decision history, not a thumbnail approval or CTR result.
 
 ## Recommended: Back Before Dawn
 
@@ -50,4 +50,4 @@ F2, The Third Watch, was also inspected. It has a strong suspended-monitor/table
 
 ## Current decision
 
-Recommend H1 for discussion. User selection, any source repair, masks, animation, audio, public title/thumbnail and release18 catalog assignment remain pending. Nothing in16/17 is marked artistically approved by the backup request.
+H1 is selected as scene18, with **Back Before Dawn** as the working title. The complete visual draft is delivered for review. User artistic verdict, audio, public packaging and final runtime remain pending. Nothing in16/17 is marked artistically approved by the backup request.

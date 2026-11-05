@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-05",
+  "status": "both_actionable_source_audit_findings_corrected_in_reviewed_states",
+  "technical_record": "correction-validation.json",
+  "renderer_sha256": "54f0ebec26d479b3c205de2f425ee16f5aadb22e4ed57dba83af98eb9c8eccec",
+  "settings_sha256": "0740d7bf41a4a8abafc5315f69b95afd2258ffa50b4ce861ae9eea9cffb92a66",
+  "reviewed_crops": ["tree1-corrected-16.png", "tree1-corrected-80.png"],
+  "visual_observation": "The pale blue internal canopy chord visible in the original cutout implementation is absent in the corrected native temporal crops. The original-source bounded warp keeps the canopy treatment restrained. The fin weather test is independently clear at240 sampled states.",
+  "remaining_material_findings": [],
+  "lessons": [
+    "Use a complete physical silhouette for clean-background cutouts. A polygon cut through solid canopy can reveal a false sky seam even with smooth alpha and small displacement.",
+    "For small, dark, distant foliage, a bounded original-source warp with fixed artificial boundaries can preserve material continuity more reliably than a partial cutout reveal.",
+    "Protect small protrusions independently when the main hero contour misses them. Test effect-only frames against an independently traced source region, not just the renderer's broad allowed mask.",
+    "A local source-palette bound is a useful independent check for foreign-background injection in bounded remap effects; pair it with native temporal viewing."
+  ],
+  "limits": "No continuous playback, full-delivery frame audit or user artistic approval is claimed by this independent source audit. Final encoded delivery validation belongs to the root task."
+}

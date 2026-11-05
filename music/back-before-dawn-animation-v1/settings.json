@@ -1,0 +1,67 @@
+{
+  "source": "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/concept-v1.png",
+  "source_sha256": "2f67c4dfcce4b3989ec30377918f4ec80509ff9bef87eeca871a6523fb4abc90",
+  "fps": 30,
+  "review_seconds": 120,
+  "environment_period_seconds": 60,
+  "attention_mode": "review120",
+  "schedules": {
+    "review120": {
+      "period": 120,
+      "gusts": [[9,5,7,8],[65,6,11,10],[104,3,3,8]],
+      "lamp_dips": [[27.4,0.58],[27.76,0.30],[94.2,0.28]],
+      "panel_starts": [12,34,45,76,87,102],
+      "diagnostic_start": 78,
+      "passing_car_starts": [54]
+    },
+    "production600": {
+      "period": 600,
+      "gusts": [[45,10,20,15],[194,15,19,18],[361,12,24,20],[521,9,18,17]],
+      "lamp_dips": [[143.4,0.58],[143.76,0.30],[436.2,0.28]],
+      "panel_starts": [72,153,248,327,418,507],
+      "diagnostic_start": 382,
+      "passing_car_starts": [214,489]
+    }
+  },
+  "rain": {
+    "roi": [821,10,1672,582],
+    "opening": [[826,76],[1671,12],[1671,538],[1640,541],[1639,580],[1474,565],[1459,550],[1456,420],[1417,300],[1290,271],[1252,205],[1252,166],[1215,72]],
+    "hero_exclusion": [[42,534],[80,488],[370,419],[539,409],[620,352],[772,303],[838,286],[876,239],[863,206],[854,172],[833,121],[863,86],[938,99],[1007,108],[1256,132],[1265,160],[1255,184],[1094,185],[1071,204],[1061,244],[1089,261],[1164,265],[1230,271],[1263,244],[1319,254],[1337,278],[1372,295],[1390,277],[1434,271],[1454,316],[1475,394],[1474,568],[1440,627],[1360,694],[1296,686],[1124,759],[884,843],[716,853],[635,817],[510,772],[170,754],[89,698],[58,609]],
+    "fin_exclusion": [[929,113],[944,63],[975,62],[971,110]],
+    "families": [[170,10,4.5,0.10],[150,17,10,0.14],[75,26,18,0.16]],
+    "seed": 1818
+  },
+  "wet_road": {
+    "roi": [1440,282,1672,583],
+    "polygons": [[[1449,306],[1518,290],[1600,287],[1670,286],[1670,320],[1575,337],[1500,345],[1453,338]],[[1465,390],[1667,397],[1668,539],[1640,545],[1640,580],[1474,563],[1459,550]]],
+    "protected_parked_car": [[1608,255],[1671,255],[1671,295],[1649,296],[1624,292],[1610,285]],
+    "displacement_px": 0.75,
+    "ripple_interval_seconds": 0.22,
+    "ripple_life_seconds": 1.8
+  },
+  "cabin_banks": [
+    {"name":"main_multicolour","roi":[1005,352,1103,383],"depth":0.62,"hold":6.5},
+    {"name":"red_vertical","roi":[1099,357,1123,384],"depth":0.76,"hold":2.5},
+    {"name":"lower_amber","roi":[1039,384,1087,424],"depth":0.55,"hold":4.3},
+    {"name":"upper_yellow","roi":[1117,336,1176,362],"depth":0.43,"hold":5.5},
+    {"name":"seat_side","roi":[1179,394,1197,428],"depth":0.58,"hold":3.7},
+    {"name":"red_pillar","roi":[973,488,987,517],"depth":0.46,"hold":3.3}
+  ],
+  "scope": {"roi":[150,254,202,302],"glass_quad":[[153,259],[195,259],[198,299],[155,299]]},
+  "foliage": {
+    "roi":[1255,23,1672,254],
+    "polygons":[[[1397,38],[1422,28],[1444,29],[1460,49],[1473,66],[1474,83],[1455,88],[1430,84],[1410,72],[1394,59]],[[1623,44],[1668,32],[1670,98],[1655,119],[1620,105],[1605,81]]],
+    "anchors":[[1439,95],[1665,134]],
+    "displacement_native_px":[1.1,0.9],
+    "method":"Bounded original-source canopy deformation with fixed polygon boundaries. Generated clean-sky cutout attempt retained as rejected history, not consumed."
+  },
+  "passing_car": {
+    "start_xy":[1750,309],
+    "end_xy":[1400,332],
+    "duration_seconds":19,
+    "width_native_px":[40,46],
+    "roi":[1427,280,1672,352]
+  },
+  "physical_notes": "Parked hero, wheels and gullwing door stay structurally fixed. No steam from lidded bench vessel, unmotivated machinery exhaust, sparks, global exposure pulse or camera motion.",
+  "audio": false
+}

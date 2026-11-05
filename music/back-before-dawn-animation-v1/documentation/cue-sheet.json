@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-05",
+  "status": "Exact implemented visual settings; no sound or gains approved.",
+  "source": "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/concept-v1.png",
+  "source_sha256": "2f67c4dfcce4b3989ec30377918f4ec80509ff9bef87eeca871a6523fb4abc90",
+  "settings_path": "music/back-before-dawn-animation-v1/settings.json",
+  "settings_sha256": "0740d7bf41a4a8abafc5315f69b95afd2258ffa50b4ce861ae9eea9cffb92a66",
+  "environment_period_seconds": 60,
+  "default_attention_mode": "review120",
+  "schedule_tuple_units": {
+    "gusts": "onset,rise,hold,fall seconds",
+    "lamp_dips": "onset seconds,depth",
+    "panel_starts": "one start per cabin_banks index, seconds"
+  },
+  "lamp_envelope_seconds": {
+    "rise": 0.055,
+    "hold": 0.1,
+    "fall": 0.33
+  },
+  "diagnostic_duration_seconds": 12,
+  "passing_car_duration_seconds": 19,
+  "cabin_banks": [
+    {
+      "name": "main_multicolour",
+      "roi": [
+        1005,
+        352,
+        1103,
+        383
+      ],
+      "depth": 0.62,
+      "hold": 6.5
+    },
+    {
+      "name": "red_vertical",
+      "roi": [
+        1099,
+        357,
+        1123,
+        384
+      ],
+      "depth": 0.76,
+      "hold": 2.5
+    },
+    {
+      "name": "lower_amber",
+      "roi": [
+        1039,
+        384,
+        1087,
+        424
+      ],
+      "depth": 0.55,
+      "hold": 4.3
+    },
+    {
+      "name": "upper_yellow",
+      "roi": [
+        1117,
+        336,
+        1176,
+        362
+      ],
+      "depth": 0.43,
+      "hold": 5.5
+    },
+    {
+      "name": "seat_side",
+      "roi": [
+        1179,
+        394,
+        1197,
+        428
+      ],
+      "depth": 0.58,
+      "hold": 3.7
+    },
+    {
+      "name": "red_pillar",
+      "roi": [
+        973,
+        488,
+        987,
+        517
+      ],
+      "depth": 0.46,
+      "hold": 3.3
+    }
+  ],
+  "schedules": {
+    "review120": {
+      "period": 120,
+      "gusts": [
+        [
+          9,
+          5,
+          7,
+          8
+        ],
+        [
+          65,
+          6,
+          11,
+          10
+        ],
+        [
+          104,
+          3,
+          3,
+          8
+        ]
+      ],
+      "lamp_dips": [
+        [
+          27.4,
+          0.58
+        ],
+        [
+          27.76,
+          0.3
+        ],
+        [
+          94.2,
+          0.28
+        ]
+      ],
+      "panel_starts": [
+        12,
+        34,
+        45,
+        76,
+        87,
+        102
+      ],
+      "diagnostic_start": 78,
+      "passing_car_starts": [
+        54
+      ]
+    },
+    "production600": {
+      "period": 600,
+      "gusts": [
+        [
+          45,
+          10,
+          20,
+          15
+        ],
+        [
+          194,
+          15,
+          19,
+          18
+        ],
+        [
+          361,
+          12,
+          24,
+          20
+        ],
+        [
+          521,
+          9,
+          18,
+          17
+        ]
+      ],
+      "lamp_dips": [
+        [
+          143.4,
+          0.58
+        ],
+        [
+          143.76,
+          0.3
+        ],
+        [
+          436.2,
+          0.28
+        ]
+      ],
+      "panel_starts": [
+        72,
+        153,
+        248,
+        327,
+        418,
+        507
+      ],
+      "diagnostic_start": 382,
+      "passing_car_starts": [
+        214,
+        489
+      ]
+    }
+  },
+  "sound_policy": "Use actual visual visibility and source-attached events for later sound; not every light change needs a sound. No transferred Snowline gains.",
+  "production600_review_status": "Mode implemented; full ten-minute playback and music/SFX balance pending."
+}

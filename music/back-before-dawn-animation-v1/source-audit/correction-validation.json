@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "renderer_sha256": "54f0ebec26d479b3c205de2f425ee16f5aadb22e4ed57dba83af98eb9c8eccec",
+  "settings_sha256": "0740d7bf41a4a8abafc5315f69b95afd2258ffa50b4ce861ae9eea9cffb92a66",
+  "fin_roi": [
+    950,
+    67,
+    971,
+    75
+  ],
+  "weather_states": 240,
+  "fin_weather_changed_states": [],
+  "foliage_local_palette_checks": [
+    {
+      "seconds": 0,
+      "pixels_outside_original_local_palette": 0
+    },
+    {
+      "seconds": 9,
+      "pixels_outside_original_local_palette": 0
+    },
+    {
+      "seconds": 16,
+      "pixels_outside_original_local_palette": 0
+    },
+    {
+      "seconds": 23,
+      "pixels_outside_original_local_palette": 0
+    },
+    {
+      "seconds": 39,
+      "pixels_outside_original_local_palette": 0
+    },
+    {
+      "seconds": 60,
+      "pixels_outside_original_local_palette": 0
+    },
+    {
+      "seconds": 72,
+      "pixels_outside_original_local_palette": 0
+    },
+    {
+      "seconds": 80,
+      "pixels_outside_original_local_palette": 0
+    },
+    {
+      "seconds": 95,
+      "pixels_outside_original_local_palette": 0
+    },
+    {
+      "seconds": 111,
+      "pixels_outside_original_local_palette": 0
+    },
+    {
+      "seconds": 119.5,
+      "pixels_outside_original_local_palette": 0
+    }
+  ],
+  "limits": "Independent native geometry/palette tests and temporal stills; no continuous-playback or artistic approval claim."
+}

@@ -1,0 +1,61 @@
+{
+  "source": "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/concept-v1.png",
+  "source_sha256": "2f67c4dfcce4b3989ec30377918f4ec80509ff9bef87eeca871a6523fb4abc90",
+  "source_pixels_modified": false,
+  "annotated_output": "source-regions-annotated.png",
+  "numbered_regions": [
+    {
+      "number": 1,
+      "name": "CRT glass"
+    },
+    {
+      "number": 2,
+      "name": "main_multicolour_panel"
+    },
+    {
+      "number": 3,
+      "name": "red_vertical_bank"
+    },
+    {
+      "number": 4,
+      "name": "lower_amber_bank"
+    },
+    {
+      "number": 5,
+      "name": "upper_yellow_bank"
+    },
+    {
+      "number": 6,
+      "name": "seat_side_bank"
+    },
+    {
+      "number": 7,
+      "name": "low_red_pillar_strip"
+    },
+    {
+      "number": 8,
+      "name": "door_courtesy_lens"
+    },
+    {
+      "number": 9,
+      "name": "Hood receiver plane"
+    },
+    {
+      "number": 10,
+      "name": "conservative_right_rain_polygon"
+    },
+    {
+      "number": 11,
+      "name": "upper_clear_road_polygon"
+    },
+    {
+      "number": 12,
+      "name": "near_wet_road_polygon"
+    },
+    {
+      "number": 13,
+      "name": "Work-lamp shade"
+    }
+  ],
+  "note": "Planning/audit diagnostic only; original image remains unchanged."
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-05",
+  "scope": "Independent review of the first implemented renderer/settings, native temporal crops, mask overlay and decoded54-62s proof still. This is a pre-correction audit, not the final delivery verdict.",
+  "continuous_playback_performed": false,
+  "source_modified": false,
+  "renderer_or_assets_modified_by_auditor": false,
+  "actionable_findings": [
+    {
+      "id": "F01",
+      "priority": "material visual correction before delivery",
+      "area": "first upper exterior foliage cutout",
+      "evidence": ["tree1-original.png", "tree1-16.png", "tree1-80.png"],
+      "finding": "A pale blue polygon/curved chord appears inside the dark canopy along the artificial lower boundary of the selected cutout. The polygon cuts through solid foliage, and its movement reveals generated clean sky at that internal chord.",
+      "visibility": "Clear in native enlarged crops; faint at full720p.",
+      "recommendation": "Do not clear dense canopy to generated sky at an arbitrary interior polygon boundary. Use a source-bound deformation with the polygon boundary fixed/tapered, a complete physical branch extraction with a supported attachment, or keep this foliage static. Check the second cutout for the same cause.",
+      "lesson": "An output footprint and valid alpha range do not establish that a cutout follows a physical silhouette. Inspect every artificial boundary through the full motion range."
+    },
+    {
+      "id": "F02",
+      "priority": "small but real source-protection correction before delivery",
+      "area": "thin raised-door upper fin",
+      "evidence": ["fin-native-original.png", "fin-rain-mask-audit.png", "fin-native-rain-peak.png"],
+      "finding": "Rain mask includes actual dark brown/red fin material near native y68-74, above the main door/hero exclusion contour.",
+      "test_points": [
+        {"xy": [952,68], "rain_mask": 0.6457664966583252, "source_rgb": [32,20,10]},
+        {"xy": [960,68], "rain_mask": 1.0, "source_rgb": [30,24,26]},
+        {"xy": [963,70], "rain_mask": 1.0, "source_rgb": [26,21,22]},
+        {"xy": [965,72], "rain_mask": 1.0, "source_rgb": [26,22,22]}
+      ],
+      "independent_sample_test": {"roi": [950,67,971,75], "sample_step_seconds": 0.5, "range_seconds": [0,120], "states": 240, "states_with_rain_changes": 68, "maximum_changed_native_pixels_in_roi": 8},
+      "recommendation": "Subtract a separate protected fin silhouette from rain coverage, conservatively around [[929,113],[944,63],[975,62],[971,110]], refined against the native source. Recheck other small appendages and the complete hero outline.",
+      "lesson": "Trace the complete source structure, including small appendages. Broad union output-protection checks cannot catch leakage inside an overly broad allowed mask."
+    }
+  ],
+  "areas_without_material_problem_in_reviewed_states": [
+    "The passing sedan in the decoded proof sample sits plausibly on the far asphalt lane; visible body/roof fit its y285-346 mask volume. No obvious fade or clipping was seen in that sample.",
+    "The wet-road masks exclude the central curb/vegetation band and the original parked vehicle. Their small source deformation does not visibly move a fixed curb in reviewed states.",
+    "The oscilloscope glass mask is inset from its original instrument casing; no moving trace was seen on the bezel.",
+    "Cabin light receivers and hood practical response retain photographed material texture in the reviewed stills. No whole-car colour wash or global exposure pulse was seen."
+  ],
+  "limits": "These observations do not certify every frame, a loop join, continuous natural motion or user artistic approval. Root agent owns correction, rerender and final validation."
+}

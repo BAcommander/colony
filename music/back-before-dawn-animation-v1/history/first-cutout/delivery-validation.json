@@ -1,0 +1,2798 @@
+{
+  "status": "technical_checks_passed_user_visual_review_pending",
+  "path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-v1-first-draft-120s.mp4",
+  "sha256": "63545af586c6087f052f2daa85a0be52e17352868197cd527ae37de8480777b0",
+  "bytes": 28580179,
+  "seconds": 120,
+  "fps": 30,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "audio": false,
+  "decoded_frames": 3600,
+  "unique_decoded_frame_hashes": 3404,
+  "explicit_bt709_tv": true,
+  "native_yuv_exact_controls": [
+    0,
+    1,
+    105,
+    240,
+    420,
+    705,
+    826,
+    837,
+    1080,
+    1440,
+    1799,
+    1800,
+    1801,
+    2160,
+    2520,
+    2831,
+    2880,
+    3240,
+    3480,
+    3598,
+    3599
+  ],
+  "source_protection_checked_every_frame_during_encode": true,
+  "attention_mode": "review120",
+  "checked_duration_seconds": 120,
+  "independent_native_protection_states": 252,
+  "protected_pixel_changes": 0,
+  "native_endpoint_identity": true,
+  "differing_minute_pairs": [
+    {
+      "first_minute_t": 0,
+      "second_minute_t": 60,
+      "changed_native_pixels": 1330
+    },
+    {
+      "first_minute_t": 3,
+      "second_minute_t": 63,
+      "changed_native_pixels": 1466
+    },
+    {
+      "first_minute_t": 6,
+      "second_minute_t": 66,
+      "changed_native_pixels": 3805
+    },
+    {
+      "first_minute_t": 9,
+      "second_minute_t": 69,
+      "changed_native_pixels": 7386
+    },
+    {
+      "first_minute_t": 12,
+      "second_minute_t": 72,
+      "changed_native_pixels": 4367
+    },
+    {
+      "first_minute_t": 15,
+      "second_minute_t": 75,
+      "changed_native_pixels": 10665
+    },
+    {
+      "first_minute_t": 18,
+      "second_minute_t": 78,
+      "changed_native_pixels": 11138
+    },
+    {
+      "first_minute_t": 21,
+      "second_minute_t": 81,
+      "changed_native_pixels": 504
+    },
+    {
+      "first_minute_t": 24,
+      "second_minute_t": 84,
+      "changed_native_pixels": 2908
+    },
+    {
+      "first_minute_t": 27,
+      "second_minute_t": 87,
+      "changed_native_pixels": 5851
+    },
+    {
+      "first_minute_t": 30,
+      "second_minute_t": 90,
+      "changed_native_pixels": 10778
+    },
+    {
+      "first_minute_t": 36,
+      "second_minute_t": 96,
+      "changed_native_pixels": 50
+    },
+    {
+      "first_minute_t": 45,
+      "second_minute_t": 105,
+      "changed_native_pixels": 4875
+    },
+    {
+      "first_minute_t": 48,
+      "second_minute_t": 108,
+      "changed_native_pixels": 17815
+    },
+    {
+      "first_minute_t": 51,
+      "second_minute_t": 111,
+      "changed_native_pixels": 5402
+    },
+    {
+      "first_minute_t": 54,
+      "second_minute_t": 114,
+      "changed_native_pixels": 2901
+    },
+    {
+      "first_minute_t": 57,
+      "second_minute_t": 117,
+      "changed_native_pixels": 1887
+    }
+  ],
+  "isolated_phase_closure": [
+    {
+      "group": "foliage",
+      "endpoint_equal": true,
+      "native_join_mae": 1.9279432277922126e-05,
+      "native_first_ordinary_step_mae": 2.6482736645497427e-05
+    },
+    {
+      "group": "rain",
+      "endpoint_equal": true,
+      "native_join_mae": 0.015054270542552884,
+      "native_first_ordinary_step_mae": 0.014102586918460289
+    },
+    {
+      "group": "road",
+      "endpoint_equal": true,
+      "native_join_mae": 0.0006194841756114758,
+      "native_first_ordinary_step_mae": 0.0005889760629958627
+    },
+    {
+      "group": "drips",
+      "endpoint_equal": true,
+      "native_join_mae": 0.0,
+      "native_first_ordinary_step_mae": 0.0
+    },
+    {
+      "group": "cabin",
+      "endpoint_equal": true,
+      "native_join_mae": 0.0,
+      "native_first_ordinary_step_mae": 0.0
+    },
+    {
+      "group": "scope",
+      "endpoint_equal": true,
+      "native_join_mae": 0.0009915136600074236,
+      "native_first_ordinary_step_mae": 0.0008273206928053396
+    },
+    {
+      "group": "lamp",
+      "endpoint_equal": true,
+      "native_join_mae": 0.0,
+      "native_first_ordinary_step_mae": 0.0
+    },
+    {
+      "group": "dust",
+      "endpoint_equal": true,
+      "native_join_mae": 4.0253759701156085e-06,
+      "native_first_ordinary_step_mae": 3.60165218378765e-06
+    },
+    {
+      "group": "traffic",
+      "endpoint_equal": true,
+      "native_join_mae": 0.0,
+      "native_first_ordinary_step_mae": 0.0
+    }
+  ],
+  "renderer_audit_states": [
+    {
+      "t": 0.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8813555836677551,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 0.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.880796492099762,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 1.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8804579377174377,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 1.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8814756870269775,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 2.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8853848576545715,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 2.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8912279605865479,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 3.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8903759121894836,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 3.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8721724152565002,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 4.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8664166927337646,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 4.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8769060969352722,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 5.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8986467123031616,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 5.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9005854725837708,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 6.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8995367288589478,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 6.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8997797966003418,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 7.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9013795256614685,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 7.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8920081853866577,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 8.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.883384108543396,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 8.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.891779899597168,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 9.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8916497230529785,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 9.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8929826617240906,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 10.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.892735481262207,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 10.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8925098776817322,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 11.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8940368890762329,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 11.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9002657532691956,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 12.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9072440266609192,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 12.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9116360545158386,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 13.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9063605070114136,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 13.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8985644578933716,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 14.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9031639695167542,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 14.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9180296063423157,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 15.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9188703298568726,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 15.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8979070782661438,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 16.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8923964500427246,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 16.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9021105766296387,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 17.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9186233282089233,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 17.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8998652696609497,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 18.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8987728953361511,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 18.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8961488604545593,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 19.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8987452983856201,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 19.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9033299088478088,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 20.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9038329720497131,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 20.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.915721595287323,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 21.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9124886989593506,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 21.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9174721837043762,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 22.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9072988629341125,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 22.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.907902717590332,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 23.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9131889939308167,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 23.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9135823845863342,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 24.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9154537320137024,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 24.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9031667113304138,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 25.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.896560549736023,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 25.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9001355767250061,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 26.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9018805027008057,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 26.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9005798697471619,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 27.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9033230543136597,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 27.349999999999998,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9084365367889404,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 27.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9088857173919678,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 27.599999999999998,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9080045819282532,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 27.71,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.907281219959259,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 27.849999999999998,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.907694399356842,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 27.860000000000003,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9077213406562805,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 27.96,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9062374234199524,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 28.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9055411219596863,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 28.21,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9041851162910461,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 28.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9027007818222046,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 29.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9012570977210999,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 29.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8947570323944092,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 30.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8838456273078918,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 30.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8901272416114807,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 31.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8919237852096558,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 31.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9016162157058716,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 32.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9175399541854858,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 32.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9195520877838135,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 33.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9255441427230835,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 33.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9194313883781433,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 34.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9125620722770691,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 34.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9206230640411377,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 35.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9156075716018677,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 35.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9145690202713013,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 36.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9223366975784302,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 36.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9165399074554443,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 37.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9107161164283752,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 37.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.90315181016922,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 38.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8982865810394287,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 38.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8974629044532776,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 39.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8956566452980042,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 39.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8885384202003479,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 40.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8814249634742737,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 40.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8741159439086914,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 41.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.870233952999115,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 41.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8713948130607605,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 42.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.871019184589386,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 42.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8762739896774292,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 43.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.880159854888916,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 43.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8873785138130188,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 44.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8868963122367859,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 44.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.887361466884613,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 45.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.884440541267395,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 45.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8733506202697754,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 46.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8640781044960022,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 46.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8551458716392517,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 47.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8513054847717285,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 47.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8487445116043091,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 48.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8542795181274414,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 48.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8616285920143127,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 49.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8594635725021362,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 49.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8588101863861084,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 50.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8574143648147583,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 50.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8568492531776428,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 51.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.857579231262207,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 51.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8582865595817566,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 52.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8544847965240479,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 52.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8526338338851929,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 53.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.849927544593811,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 53.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8453789353370667,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 54.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8488343358039856,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 54.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8564614653587341,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 55.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8576725125312805,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 55.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8521552085876465,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 56.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8491101264953613,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 56.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8481059670448303,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 57.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8504615426063538,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 57.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8523555994033813,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 58.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8607755899429321,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 58.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8689736723899841,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 59.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8782530426979065,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 59.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8809856176376343,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 60.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8813555836677551,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 60.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.880796492099762,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 61.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8804579377174377,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 61.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8814756870269775,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 62.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8853848576545715,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 62.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8912279605865479,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 63.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8903759121894836,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 63.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8721724152565002,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 64.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8664166927337646,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 64.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8769060969352722,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 65.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8986467123031616,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 65.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9005854725837708,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 66.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8995367288589478,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 66.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8997797966003418,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 67.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9013795256614685,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 67.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8920081853866577,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 68.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.883384108543396,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 68.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.891779899597168,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 69.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8916497230529785,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 69.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8929826617240906,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 70.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.892735481262207,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 70.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8925098776817322,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 71.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8940368890762329,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 71.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9002657532691956,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 72.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9072440266609192,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 72.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9116360545158386,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 73.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9063605070114136,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 73.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8985644578933716,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 74.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9031639695167542,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 74.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9180296063423157,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 75.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9188703298568726,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 75.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8979070782661438,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 76.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8923964500427246,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 76.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9021105766296387,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 77.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9186233282089233,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 77.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8998652696609497,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 78.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8987728953361511,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 78.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8961488604545593,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 79.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8987452983856201,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 79.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9033299088478088,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 80.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9038329720497131,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 80.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.915721595287323,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 81.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9124886989593506,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 81.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9174721837043762,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 82.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9072988629341125,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 82.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.907902717590332,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 83.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9131889939308167,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 83.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9135823845863342,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 84.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9154537320137024,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 84.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9031667113304138,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 85.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.896560549736023,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 85.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9001355767250061,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 86.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9018805027008057,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 86.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9005798697471619,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 87.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9033230543136597,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 87.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9088857173919678,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 88.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9055411219596863,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 88.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9027007818222046,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 89.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9012570977210999,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 89.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8947570323944092,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 90.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8838456273078918,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 90.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8901272416114807,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 91.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8919237852096558,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 91.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9016162157058716,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 92.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9175399541854858,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 92.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9195520877838135,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 93.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9255441427230835,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 93.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9194313883781433,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 94.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9125620722770691,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 94.15,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9133347868919373,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 94.3,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9162827134132385,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 94.4,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9190033078193665,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 94.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9206230640411377,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 94.65,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.917596697807312,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 95.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9156075716018677,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 95.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9145690202713013,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 96.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9223366975784302,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 96.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9165399074554443,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 97.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.9107161164283752,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 97.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.90315181016922,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 98.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8982865810394287,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 98.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8974629044532776,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 99.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8956566452980042,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 99.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8885384202003479,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 100.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8814249634742737,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 100.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8741159439086914,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 101.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.870233952999115,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 101.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8713948130607605,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 102.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.871019184589386,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 102.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8762739896774292,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 103.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.880159854888916,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 103.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8873785138130188,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 104.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8868963122367859,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 104.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.887361466884613,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 105.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.884440541267395,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 105.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8733506202697754,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 106.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8640781044960022,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 106.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8551458716392517,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 107.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8513054847717285,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 107.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8487445116043091,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 108.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8542795181274414,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 108.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8616285920143127,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 109.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8594635725021362,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 109.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8588101863861084,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 110.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8574143648147583,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 110.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8568492531776428,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 111.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.857579231262207,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 111.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8582865595817566,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 112.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8544847965240479,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 112.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8526338338851929,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 113.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.849927544593811,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 113.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8453789353370667,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 114.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8488343358039856,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 114.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8564614653587341,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 115.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8576725125312805,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 115.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8521552085876465,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 116.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8491101264953613,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 116.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8481059670448303,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 117.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8504615426063538,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 117.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8523555994033813,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 118.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8607755899429321,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 118.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8689736723899841,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 119.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8782530426979065,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 119.5,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8809856176376343,
+        "required_assets_present": true
+      }
+    },
+    {
+      "t": 120.0,
+      "result": {
+        "road_source_taps_safe": true,
+        "minimum_road_jacobian": 0.8813555836677551,
+        "required_assets_present": true
+      }
+    }
+  ],
+  "independent_source_geometry_guards": [
+    {
+      "label": "hero_bonnet_interior_unchanged_by_weather",
+      "native_roi_xyxy": [
+        260,
+        440,
+        650,
+        475
+      ],
+      "isolated_groups": [
+        "rain",
+        "road",
+        "drips",
+        "traffic",
+        "foliage"
+      ],
+      "sampled_times": [
+        0,
+        16,
+        27.5,
+        57,
+        60,
+        68,
+        94.3,
+        111,
+        63.5
+      ],
+      "source_pixels_exact": true
+    },
+    {
+      "label": "hero_near_wheel_unchanged_by_weather",
+      "native_roi_xyxy": [
+        670,
+        660,
+        774,
+        790
+      ],
+      "isolated_groups": [
+        "rain",
+        "road",
+        "drips",
+        "traffic",
+        "foliage"
+      ],
+      "sampled_times": [
+        0,
+        16,
+        27.5,
+        57,
+        60,
+        68,
+        94.3,
+        111,
+        63.5
+      ],
+      "source_pixels_exact": true
+    },
+    {
+      "label": "hero_rear_quarter_excluded_from_exterior_weather",
+      "native_roi_xyxy": [
+        1377,
+        408,
+        1446,
+        490
+      ],
+      "isolated_groups": [
+        "rain",
+        "road",
+        "drips",
+        "traffic",
+        "foliage"
+      ],
+      "sampled_times": [
+        0,
+        16,
+        27.5,
+        57,
+        60,
+        68,
+        94.3,
+        111,
+        63.5
+      ],
+      "source_pixels_exact": true
+    },
+    {
+      "label": "background_parked_car_body_excluded_from_water_warp",
+      "native_roi_xyxy": [
+        1612,
+        254,
+        1670,
+        280
+      ],
+      "isolated_groups": [
+        "road"
+      ],
+      "sampled_times": [
+        0,
+        16,
+        27.5,
+        57,
+        60,
+        68,
+        94.3,
+        111,
+        63.5
+      ],
+      "source_pixels_exact": true
+    },
+    {
+      "label": "closed_bench_vessel_is_not_an_emitter",
+      "native_roi_xyxy": [
+        416,
+        249,
+        443,
+        291
+      ],
+      "isolated_groups": null,
+      "sampled_times": [
+        0,
+        16,
+        27.5,
+        57,
+        60,
+        68,
+        94.3,
+        111,
+        63.5
+      ],
+      "source_pixels_exact": true
+    }
+  ],
+  "input_hashes": {
+    "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/concept-v1.png": "2f67c4dfcce4b3989ec30377918f4ec80509ff9bef87eeca871a6523fb4abc90",
+    "music/back-before-dawn-animation-v1/settings.json": "37104c442b476716c859e6c68eff5c6e26d9bbe8da1a93f711706347f74ecedb",
+    "music/back-before-dawn-animation-v1/dependencies/core.py": "fbcf466ee4e286e0e68578336a4cb2d3b2a8bd5f8d7b1fd7f61bff1a9b984bf0",
+    "music/back-before-dawn-animation-v1/render.py": "9cca1603a2ff4c0a98ee07bc2faac4af06c87a1030b01d8d0ea3709581c81373",
+    "music/back-before-dawn-animation-v1/assets/tree-clean-background.png": "622d3de0a6ea0315fce0e6496348edc47db13c5c98e04ead8443d883f2e614f8",
+    "music/back-before-dawn-animation-v1/assets/passing-sedan.png": "5c2035881884398a157015cb9e89d8cc59d21821915be6a1de5498afe0f037b4",
+    "music/back-before-dawn-animation-v1/assets/passing-sedan.json": "df6b26f762a62006e644aea247c315d34f40ced68c9368d4c600cc0b777bb5c0"
+  },
+  "regional_encoded_boundaries": [
+    {
+      "region": "whole_composite",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.01679723709821701,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.01715024560689926,
+      "ordinary_p95_rgb_mae": 0.016795248072594405,
+      "gate_rgb_mae": 0.3291554175317287,
+      "pass": true
+    },
+    {
+      "region": "exterior_rain",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.1493045538663864,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.15081816911697388,
+      "ordinary_p95_rgb_mae": 0.14897133484482766,
+      "gate_rgb_mae": 0.5563908874988556,
+      "pass": true
+    },
+    {
+      "region": "wet_road",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.176076278090477,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.17774879932403564,
+      "ordinary_p95_rgb_mae": 0.17323824614286423,
+      "gate_rgb_mae": 0.6021729588508606,
+      "pass": true
+    },
+    {
+      "region": "cabin_main_multicolour",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "cabin_red_vertical",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "cabin_lower_amber",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "cabin_upper_yellow",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "cabin_seat_side",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "cabin_red_pillar",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "receiver_console_rim",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "receiver_door_recess",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "receiver_seat_edge",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "scope_glass",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.8010416626930237,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 1.349305510520935,
+      "ordinary_p95_rgb_mae": 1.1825694024562836,
+      "gate_rgb_mae": 2.5938193678855894,
+      "pass": true
+    },
+    {
+      "region": "work_lamp_core",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "work_lamp_pegboard",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.003111397149041295,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.007985408417880535,
+      "ordinary_p95_rgb_mae": 0.006251915916800499,
+      "gate_rgb_mae": 0.3135751943103969,
+      "pass": true
+    },
+    {
+      "region": "work_lamp_bench",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "bonnet_lamp_reflection",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "lamp_dust",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.059739552438259125,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.09932659566402435,
+      "ordinary_p95_rgb_mae": 0.08521365933120251,
+      "gate_rgb_mae": 0.4688552126288414,
+      "pass": true
+    },
+    {
+      "region": "foliage_0",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.26815295219421387,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.31676730513572693,
+      "ordinary_p95_rgb_mae": 0.2627109467983246,
+      "gate_rgb_mae": 0.8385044187307358,
+      "pass": true
+    },
+    {
+      "region": "foliage_1",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.18744906783103943,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.35196182131767273,
+      "ordinary_p95_rgb_mae": 0.3179299011826515,
+      "gate_rgb_mae": 0.8983350962400436,
+      "pass": true
+    },
+    {
+      "region": "passing_vehicle",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.2861518859863281,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.2890874147415161,
+      "ordinary_p95_rgb_mae": 0.2527249574661255,
+      "gate_rgb_mae": 0.7914486050605773,
+      "pass": true
+    },
+    {
+      "region": "passing_lamp_reflections",
+      "boundary": "120_to_0",
+      "join_rgb_mae": 0.17364397644996643,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.17531582713127136,
+      "ordinary_p95_rgb_mae": 0.16876593306660653,
+      "gate_rgb_mae": 0.5980369061231613,
+      "pass": true
+    },
+    {
+      "region": "whole_composite",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.018745658919215202,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.01990089751780033,
+      "ordinary_p95_rgb_mae": 0.018646194878965617,
+      "gate_rgb_mae": 0.33383152578026054,
+      "pass": true
+    },
+    {
+      "region": "exterior_rain",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.1676689237356186,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.17635849118232727,
+      "ordinary_p95_rgb_mae": 0.16735205054283142,
+      "gate_rgb_mae": 0.5998094350099563,
+      "pass": true
+    },
+    {
+      "region": "wet_road",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.24654629826545715,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.266748309135437,
+      "ordinary_p95_rgb_mae": 0.23633333966135978,
+      "gate_rgb_mae": 0.7534721255302429,
+      "pass": true
+    },
+    {
+      "region": "cabin_main_multicolour",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "cabin_red_vertical",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "cabin_lower_amber",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "cabin_upper_yellow",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "cabin_seat_side",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "cabin_red_pillar",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "receiver_console_rim",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "receiver_door_recess",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "receiver_seat_edge",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "scope_glass",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.8010416626930237,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 1.349305510520935,
+      "ordinary_p95_rgb_mae": 1.1825694024562836,
+      "gate_rgb_mae": 2.5938193678855894,
+      "pass": true
+    },
+    {
+      "region": "work_lamp_core",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "work_lamp_pegboard",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.003111397149041295,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.007985408417880535,
+      "ordinary_p95_rgb_mae": 0.006251915916800499,
+      "gate_rgb_mae": 0.3135751943103969,
+      "pass": true
+    },
+    {
+      "region": "work_lamp_bench",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "bonnet_lamp_reflection",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.0,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.0,
+      "ordinary_p95_rgb_mae": 0.0,
+      "gate_rgb_mae": 0.3,
+      "pass": true
+    },
+    {
+      "region": "lamp_dust",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.059739552438259125,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.09932659566402435,
+      "ordinary_p95_rgb_mae": 0.08521365933120251,
+      "gate_rgb_mae": 0.4688552126288414,
+      "pass": true
+    },
+    {
+      "region": "foliage_0",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.26815295219421387,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.31676730513572693,
+      "ordinary_p95_rgb_mae": 0.2627109467983246,
+      "gate_rgb_mae": 0.8385044187307358,
+      "pass": true
+    },
+    {
+      "region": "foliage_1",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.18744906783103943,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.35196182131767273,
+      "ordinary_p95_rgb_mae": 0.3179299011826515,
+      "gate_rgb_mae": 0.8983350962400436,
+      "pass": true
+    },
+    {
+      "region": "passing_vehicle",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.5153371691703796,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.6030206084251404,
+      "ordinary_p95_rgb_mae": 0.4796872958540916,
+      "gate_rgb_mae": 1.3251350343227386,
+      "pass": true
+    },
+    {
+      "region": "passing_lamp_reflections",
+      "boundary": "59_60_internal_no_reset",
+      "join_rgb_mae": 0.24573609232902527,
+      "ordinary_steps": 58,
+      "ordinary_max_rgb_mae": 0.26653993129730225,
+      "ordinary_p95_rgb_mae": 0.23633660674095153,
+      "gate_rgb_mae": 0.7531178832054137,
+      "pass": true
+    }
+  ],
+  "runtime": {
+    "python": "3.13.14",
+    "numpy": "2.4.3",
+    "opencv": "5.0.0",
+    "ffmpeg": "C:\\Users\\john\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "ffmpeg_sha256": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3"
+  },
+  "validator_sha256": "4d30178c64c6073a75d00bc25858deb7452b6bc4bca87c0f7a1c4414e3a65fc3",
+  "inspection_limit": "Technical delivery is checked independently; native/decoded still inspection and user full-speed artistic review remain distinct. No assistant continuous-playback approval is inferred."
+}

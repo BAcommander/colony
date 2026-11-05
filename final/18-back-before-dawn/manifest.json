@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "catalog_number": 18,
+  "working_title": "Back Before Dawn",
+  "title_status": "working title; public packaging pending",
+  "date": "2026-11-05",
+  "status": "Complete120s silent720p30 visual draft technically verified; user artistic review, full600s schedule review, audio and4K pending.",
+  "selection": {
+    "authority": "User asks to do all animation for18 and save everything learnt today.",
+    "source_review_id": "H1",
+    "selected_for_animation": true,
+    "new_animation_user_approved": false,
+    "exact_prop_or_set_fidelity_claimed": false
+  },
+  "source": {
+    "path": "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/concept-v1.png",
+    "sha256": "2f67c4dfcce4b3989ec30377918f4ec80509ff9bef87eeca871a6523fb4abc90",
+    "bytes": 2322420,
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "source_policy": "Original clean concept preserved; any later repair must be a new confined sibling with unrelated-pixel validation.",
+  "thumbnail_candidate": {
+    "path": "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/thumbnail-v1.jpg",
+    "sha256": "b95ee4a1cf95f6e33b3f218ab0b717463dea9714d13c0a9360b97ce4961a9054",
+    "bytes": 402831,
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  "thumbnail_status": "Existing brainstorm candidate, not a newly approved packaging design. Do not use as the animation plate.",
+  "animation": {
+    "folder": "music/back-before-dawn-animation-v1",
+    "renderer": "render.py",
+    "intended_preview": {
+      "path": "Back-Before-Dawn-v1-first-draft-120s.mp4",
+      "seconds": 120,
+      "fps": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "audio": false,
+      "source_dimensions": [
+        1672,
+        941
+      ]
+    },
+    "clocks": {
+      "environment_seconds": 60,
+      "attention_review_seconds": 120,
+      "production_attention_seconds": 600,
+      "production_attention_status": "Implemented via --attention-mode production600; full600s playback and user acceptance pending."
+    },
+    "delivery": {
+      "status": "technical_checks_passed_user_visual_review_pending",
+      "path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-v1-first-draft-120s.mp4",
+      "sha256": "05c616ad83fa21cdb30f4789d7740c877726a6a16106a81fe5338af0f69d367c",
+      "bytes": 28503181,
+      "seconds": 120,
+      "fps": 30,
+      "decoded_frames": 3600,
+      "validation": "music/back-before-dawn-animation-v1/delivery-validation.json",
+      "validation_sha256": "495ca55ef09a6b9545b2158f5ee6708e1e805c583b5c79f695b93c8af2d1c91f",
+      "input_hashes_current": true,
+      "user_visual_verdict": "pending"
+    },
+    "effect_groups": [
+      "foliage",
+      "rain",
+      "road",
+      "drips",
+      "cabin",
+      "scope",
+      "lamp",
+      "dust",
+      "traffic"
+    ],
+    "settings": {
+      "path": "music/back-before-dawn-animation-v1/settings.json",
+      "sha256": "0740d7bf41a4a8abafc5315f69b95afd2258ffa50b4ce861ae9eea9cffb92a66"
+    },
+    "support_assets": {
+      "manifest": "music/back-before-dawn-animation-v1/assets/asset-manifest.json",
+      "manifest_sha256": "ac7ce29818a2e83c7bd15a9a75e6dfd366b0502a113510a1e1854a5d35a4e3c3",
+      "usage": "Generated RGBA1980s sedan with measured actual headlamp centroids is consumed. Generated tree-clean sky is retained as a rejected experiment, not consumed by the current renderer. Foliage uses fixed-boundary original-source deformation with source-tap/Jacobian audit. Whole hero source untouched."
+    },
+    "cue_sheet": "music/back-before-dawn-animation-v1/documentation/cue-sheet.json",
+    "physical_omissions": [
+      "No steam from lidded bench vessel.",
+      "No unmotivated rear exhaust, sparks or time-travel burst.",
+      "Parked hero body, wheels and gullwing door remain fixed."
+    ],
+    "native_checks": {
+      "path": "music/back-before-dawn-animation-v1/native-validation.json",
+      "report_sha256": "ebe54fe14b0f4edc20b659772f1df8209219f00823cf2d5b78816844aab928bb",
+      "status": "native_checks_passed_encoded_review_pending",
+      "input_hashes_current": true,
+      "input_files_checked": 6,
+      "stale_inputs": []
+    },
+    "production_attention_native_checks": {
+      "path": "music/back-before-dawn-animation-v1/native-validation-production600.json",
+      "report_sha256": "060110cd2c9e6d551799c2489f9f7ef67fc11f916c32067b42f3da27b774cfd8",
+      "status": "native_checks_passed_encoded_review_pending",
+      "input_hashes_current": true,
+      "input_files_checked": 6,
+      "stale_inputs": [],
+      "full_encoded600s_review": "pending",
+      "user_visual_verdict": "pending"
+    },
+    "semantic_source_checks": {
+      "path": "music/back-before-dawn-animation-v1/source-audit/correction-validation.json",
+      "report_sha256": "85225597ce5d93c8875f30c6409830160c77878ec4ef5e92a646a8e64a965214",
+      "status": "passed",
+      "renderer_settings_current": true,
+      "scope": "Dedicated small-fin rain guard and original-local-palette foliage checks; supplements broad allowed-mask protection."
+    }
+  },
+  "audio": {
+    "status": "not generated or mixed in this animation build",
+    "sfx_gains_approved": false
+  },
+  "production_4k": {
+    "status": "not rendered",
+    "native_source_upscale_disclosure_required": true
+  },
+  "final_runtime_seconds": null,
+  "publication_url": null,
+  "backup": {
+    "checkpoint_branch": "main",
+    "file_inventory": "../../music/back-before-dawn-animation-v1/backup-manifest.json",
+    "restore_guide": "../../music/back-before-dawn-animation-v1/CONTINUE.md",
+    "prior_concept_backup_is_separate": true
+  },
+  "documents": {
+    "build_brief": "../../music/back-before-dawn-animation-v1/documentation/BUILD_BRIEF.md",
+    "learnings": "../../music/back-before-dawn-animation-v1/documentation/LEARNINGS.md",
+    "sound_and_cues": "../../music/back-before-dawn-animation-v1/documentation/SOUND_AND_CUES.md"
+  }
+}

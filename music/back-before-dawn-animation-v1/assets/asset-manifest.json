@@ -1,0 +1,51 @@
+{
+  "mode": "Built-in imagegen with exact requests preserved in *-generation.json",
+  "assets": [
+    {
+      "path": "passing-sedan-raw.png",
+      "bytes": 1211258,
+      "sha256": "a0f394c6f8e0b9f6815da14db9076d1417137adf2759c8dca149bea309d762a8",
+      "dimensions": [
+        1774,
+        887
+      ]
+    },
+    {
+      "path": "passing-sedan.png",
+      "bytes": 1147771,
+      "sha256": "5c2035881884398a157015cb9e89d8cc59d21821915be6a1de5498afe0f037b4",
+      "dimensions": [
+        1641,
+        691
+      ]
+    },
+    {
+      "path": "sedan-headlamp-review.png",
+      "bytes": 1147582,
+      "sha256": "6cb2fc17c281f11326416452a942dba1ca14a820e6d1281bd103840989d5c656",
+      "dimensions": [
+        1641,
+        691
+      ]
+    },
+    {
+      "path": "tree-background-reference.png",
+      "bytes": 115238,
+      "sha256": "b86de2c7342d17c0fd20691f0c2c74ebec1d5fcd14e36ecd2fdf678fc9ef5015",
+      "dimensions": [
+        417,
+        231
+      ]
+    },
+    {
+      "path": "tree-clean-background.png",
+      "bytes": 1562036,
+      "sha256": "622d3de0a6ea0315fce0e6496348edc47db13c5c98e04ead8443d883f2e614f8",
+      "dimensions": [
+        1685,
+        933
+      ]
+    }
+  ],
+  "clean_tree_background_usage": "Retained as a rejected experiment. Final foliage uses bounded original-source warping; no generated sky is consumed. The original cutout introduced an internal blue chord; see source-audit/correction-validation.json."
+}

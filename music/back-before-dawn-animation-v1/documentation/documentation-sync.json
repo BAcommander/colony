@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-05",
+  "settings_sha256": "0740d7bf41a4a8abafc5315f69b95afd2258ffa50b4ce861ae9eea9cffb92a66",
+  "native_inputs_current": true,
+  "production600_native_inputs_current": true,
+  "semantic_fin_palette_checks_current": true,
+  "encoded_delivery_verified": true,
+  "manifest_sha256": "81e1b94faff797d50116f10748ccad10f662a8ea64416317a939d1185f6572b1",
+  "cue_sheet_sha256": "d56d5dd6cd858dc4712ef29b161c322d47356bb55277ce8969bed3faa89396a0",
+  "user_visual_verdict": "pending",
+  "production600_full_playback": "pending"
+}

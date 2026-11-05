@@ -1,0 +1,7 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Create a photorealistic compositing sprite of one ordinary mid-1980s four-door blue-grey sedan, original unbranded design, nothing futuristic. Three-quarter front-left view, car heading toward image LEFT, seen slightly from above at street level from a raised garage viewpoint. Four correct road wheels (the two near wheels clearly visible), wheels planted on one flat baseline, sensible axles, warm-white low headlights, modest chrome trim, dark windows, plain body. Full car including bumpers and wheels, generous transparent margin. Cool dim blue dusk illumination with restrained highlights, realistic maintained paint and ordinary scale. No motion blur, no words/logos, no plate characters, no people, no scenery, no floor or opaque background. Genuine RGBA transparent background. This is a small distant passing background car for a night workshop animation, not the hero car. Keep headlamp fixtures visible and consistent with the facing-left front.",
+  "returned_path": "C:\\Users\\john\\.codex\\generated_images\\01a11569-0e03-7520-8947-ce396d150bba\\exec-7a2862f8-b36d-47b7-b8a0-1ef60a1933fc.png",
+  "workspace_target": "passing-sedan-raw.png",
+  "transparent_background": true
+}

@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-05",
+  "user_artistic_review": "pending",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "review_mode": "review120",
+  "review_seconds": 120,
+  "environment_period_seconds": 60,
+  "production_attention_mode": "production600",
+  "production_attention_seconds": 600,
+  "production_status": "Implemented and native-audited; no full600s playback, production4K or long-session approval inferred.",
+  "input_hashes": {
+    "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/concept-v1.png": "2f67c4dfcce4b3989ec30377918f4ec80509ff9bef87eeca871a6523fb4abc90",
+    "music/back-before-dawn-animation-v1/settings.json": "0740d7bf41a4a8abafc5315f69b95afd2258ffa50b4ce861ae9eea9cffb92a66",
+    "music/back-before-dawn-animation-v1/dependencies/core.py": "fbcf466ee4e286e0e68578336a4cb2d3b2a8bd5f8d7b1fd7f61bff1a9b984bf0",
+    "music/back-before-dawn-animation-v1/render.py": "54f0ebec26d479b3c205de2f425ee16f5aadb22e4ed57dba83af98eb9c8eccec",
+    "music/back-before-dawn-animation-v1/assets/passing-sedan.png": "5c2035881884398a157015cb9e89d8cc59d21821915be6a1de5498afe0f037b4",
+    "music/back-before-dawn-animation-v1/assets/passing-sedan.json": "df6b26f762a62006e644aea247c315d34f40ced68c9368d4c600cc0b777bb5c0"
+  },
+  "review_media": {
+    "path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-v1-first-draft-120s.mp4",
+    "sha256": "05c616ad83fa21cdb30f4789d7740c877726a6a16106a81fe5338af0f69d367c",
+    "bytes": 28503181
+  },
+  "native_review_controls": [
+    {
+      "absolute_seconds": 0,
+      "native_rgb_sha256": "ca630fa3b63f6ecaa062c30a0ddf870c8569739bc539112c46cd80576c65db0a"
+    },
+    {
+      "absolute_seconds": 16,
+      "native_rgb_sha256": "651fa2ce9d278b58de5ca8bf89443fc3717853c94873013f9959d5523fc1f9b5"
+    },
+    {
+      "absolute_seconds": 27.55,
+      "native_rgb_sha256": "a6fd85331659865cdc2cc0a64001d14ac319d18a292db8665b9d3d9c88cce7ef"
+    },
+    {
+      "absolute_seconds": 60,
+      "native_rgb_sha256": "29abfc381f480ff8e401ae9ecbb212955a4fba33b652cb37eac393f4b451a701"
+    },
+    {
+      "absolute_seconds": 80,
+      "native_rgb_sha256": "ace07ccf2c3b2b142d1de95ce55d284fd911538c6f4881a70e670d1a50a390e3"
+    },
+    {
+      "absolute_seconds": 94.35,
+      "native_rgb_sha256": "737d3a4b228601330bf0ccc7c39552500f1d090219d3b9e4707bba154dced20f"
+    },
+    {
+      "absolute_seconds": 119.9666666667,
+      "native_rgb_sha256": "1f6863681c635cffeb5fe697755cd866efa04a805b4e8477d82da29bca96b377"
+    }
+  ],
+  "native_production_controls": [
+    {
+      "absolute_seconds": 0,
+      "native_rgb_sha256": "ca630fa3b63f6ecaa062c30a0ddf870c8569739bc539112c46cd80576c65db0a"
+    },
+    {
+      "absolute_seconds": 143.55,
+      "native_rgb_sha256": "3698512a5990345426849bbfde707abd5e8681dd94b63e6571ae7094592ad569"
+    },
+    {
+      "absolute_seconds": 214,
+      "native_rgb_sha256": "d5c17c877b8a009348b6e2680dc379516246a97f59aba5bb835d04b5927afe5f"
+    },
+    {
+      "absolute_seconds": 227,
+      "native_rgb_sha256": "060f212ebb2166bfc5ccd18b3ef54084498504c2ba1fdfb438dd38f70da85470"
+    },
+    {
+      "absolute_seconds": 382,
+      "native_rgb_sha256": "d1c86cefecae152485969503f8702be9eb3c1771a52394897dd86b0c0a783228"
+    },
+    {
+      "absolute_seconds": 436.35,
+      "native_rgb_sha256": "b83944feeb5a1d76c43631945d54f918537a967d7fc64cd3c2fbd8fe118af828"
+    },
+    {
+      "absolute_seconds": 500,
+      "native_rgb_sha256": "214cd2d61be518c80bbb51953377244b810cf84faac10e4f6aaa92f75120217c"
+    },
+    {
+      "absolute_seconds": 599.9666666667,
+      "native_rgb_sha256": "1f6863681c635cffeb5fe697755cd866efa04a805b4e8477d82da29bca96b377"
+    }
+  ],
+  "schedule": {
+    "review120": {
+      "period": 120,
+      "gusts": [
+        [
+          9,
+          5,
+          7,
+          8
+        ],
+        [
+          65,
+          6,
+          11,
+          10
+        ],
+        [
+          104,
+          3,
+          3,
+          8
+        ]
+      ],
+      "lamp_dips": [
+        [
+          27.4,
+          0.58
+        ],
+        [
+          27.76,
+          0.3
+        ],
+        [
+          94.2,
+          0.28
+        ]
+      ],
+      "panel_starts": [
+        12,
+        34,
+        45,
+        76,
+        87,
+        102
+      ],
+      "diagnostic_start": 78,
+      "passing_car_starts": [
+        54
+      ]
+    },
+    "production600": {
+      "period": 600,
+      "gusts": [
+        [
+          45,
+          10,
+          20,
+          15
+        ],
+        [
+          194,
+          15,
+          19,
+          18
+        ],
+        [
+          361,
+          12,
+          24,
+          20
+        ],
+        [
+          521,
+          9,
+          18,
+          17
+        ]
+      ],
+      "lamp_dips": [
+        [
+          143.4,
+          0.58
+        ],
+        [
+          143.76,
+          0.3
+        ],
+        [
+          436.2,
+          0.28
+        ]
+      ],
+      "panel_starts": [
+        72,
+        153,
+        248,
+        327,
+        418,
+        507
+      ],
+      "diagnostic_start": 382,
+      "passing_car_starts": [
+        214,
+        489
+      ]
+    }
+  },
+  "phase_rule": "Carry absolute attention time across chunks; only physical environmental fields wrap at60. Do not scale physical velocities by requested output duration.",
+  "opening_rule": "Keep this clean visual master free of opening/title/audio. Apply current Colony intro once at final assembly.",
+  "storage_rule": "Keep source assets/current short review/recipe; long upload and regenerable repeats/caches stay local under EXPORTS.md."
+}

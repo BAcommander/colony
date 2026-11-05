@@ -303,5 +303,29 @@
       }
     ],
     "animation_source": "../../music/gate-camp-animation-v3/artwork-v2-mug-repair.png"
+  },
+  {
+    "folder": "18-back-before-dawn",
+    "title": "Back Before Dawn",
+    "catalog_number": "18",
+    "title_status": "working title",
+    "status": "Complete120s silent720p30 visual draft technically verified; user visual review pending. Sparse600s attention mode implemented/native-audited; full playback, audio and4K pending.",
+    "artwork": "../../creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/concept-v1.png",
+    "animation_source": "../../creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/concept-v1.png",
+    "thumbnail": "../../creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/thumbnail-v1.jpg",
+    "thumbnail_status": "existing H1 draft",
+    "video": null,
+    "audio": null,
+    "duration_seconds": null,
+    "animation_preview": {
+      "folder": "../../music/back-before-dawn-animation-v1",
+      "video": "Back-Before-Dawn-v1-first-draft-120s.mp4",
+      "duration_seconds": 120,
+      "fps": 30,
+      "user_approved": false
+    },
+    "animation_review": "../../music/back-before-dawn-animation-v1/review.html",
+    "manifest": "manifest.json",
+    "production_brief": "README.md"
   }
 ]

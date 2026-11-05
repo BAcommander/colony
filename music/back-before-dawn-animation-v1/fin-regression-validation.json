@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "historical_renderer_sha256": "9cca1603a2ff4c0a98ee07bc2faac4af06c87a1030b01d8d0ea3709581c81373",
+  "historical_settings_sha256": "37104c442b476716c859e6c68eff5c6e26d9bbe8da1a93f711706347f74ecedb",
+  "current_renderer_sha256": "54f0ebec26d479b3c205de2f425ee16f5aadb22e4ed57dba83af98eb9c8eccec",
+  "current_settings_sha256": "0740d7bf41a4a8abafc5315f69b95afd2258ffa50b4ce861ae9eea9cffb92a66",
+  "independent_fin_polygon": [
+    [
+      929,
+      113
+    ],
+    [
+      944,
+      63
+    ],
+    [
+      975,
+      62
+    ],
+    [
+      971,
+      110
+    ]
+  ],
+  "test_points": [
+    [
+      960,
+      68
+    ],
+    [
+      963,
+      70
+    ],
+    [
+      965,
+      72
+    ]
+  ],
+  "historical_allowed_fin_pixels": 266,
+  "corrected_allowed_fin_pixels": 0,
+  "historical_test_points_allowed": [
+    true,
+    true,
+    true
+  ],
+  "corrected_test_points_allowed": [
+    false,
+    false,
+    false
+  ],
+  "conclusion": "The new guard detects the rejected renderer rather than merely duplicating its allowed-footprint assumption. No historical media or source was modified."
+}

@@ -1,0 +1,852 @@
+{
+  "checkpoint": "Back Before Dawn scene 18 visual draft and production continuation",
+  "branch": "main",
+  "base_commit": "27b6d08dbc843280457bd763958d1de54afd21d8",
+  "manifest_self_excluded": true,
+  "continuation_dependencies_already_tracked": [
+    "EXPORTS.md",
+    "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/README.md",
+    "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/concept-v1.png",
+    "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/thumbnail-v1.jpg"
+  ],
+  "excluded_local_only": [
+    "superseded proof videos under .local/scene18-render-history",
+    "regenerable caches and Python environments"
+  ],
+  "lfs_media_bytes": 41603093,
+  "ordinary_git_bytes": 38165529,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 42315,
+      "sha256": "2aa63c38bc4bd5c1e042d04cec455d160a27ae10f85be99585a78e8d627bc046",
+      "git_blob_bytes": 41884,
+      "git_blob_sha256": "205a29782c33c8f6f2cf0d100856dd242c33cef96b3d4fa44b33a858e94b2af4",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 12897,
+      "sha256": "cd851e0b3f952ef1fbbfea244d711a1db22cd6e3a47d8a48ae9ff7ea7b22851b",
+      "git_blob_bytes": 12720,
+      "git_blob_sha256": "870b311d17ad22f142d44ad84addf52d0461eb2d00a971762b113e905f51fd78",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 171768,
+      "sha256": "74e86304c664f6ea199610f997f2f05651dbf180e94ff42cb80734c0f70502f5",
+      "git_blob_bytes": 171768,
+      "git_blob_sha256": "74e86304c664f6ea199610f997f2f05651dbf180e94ff42cb80734c0f70502f5",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "EXPORTS.md",
+      "bytes": 5833,
+      "sha256": "74aa06784617381058d91089489a4b481d7f9d29a54d56198d0d44c151835fdb",
+      "git_blob_bytes": 5788,
+      "git_blob_sha256": "a31c4ef770761fd3c5bde78f10e5600ad2b3c1a2e7f6ed9eb6d7c70b6126acd9",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "bytes": 50197,
+      "sha256": "773cdc7cd6fbc6514341add77b9ed12924c370f8f3b15ee764f507cdd00b8ebf",
+      "git_blob_bytes": 50197,
+      "git_blob_sha256": "773cdc7cd6fbc6514341add77b9ed12924c370f8f3b15ee764f507cdd00b8ebf",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "bytes": 77600,
+      "sha256": "444882e2e95fbceaf349a5d6fefb2956811290a83b86fbbaa436fcf340a75121",
+      "git_blob_bytes": 77600,
+      "git_blob_sha256": "444882e2e95fbceaf349a5d6fefb2956811290a83b86fbbaa436fcf340a75121",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "creative/animation-development/2026-11-05-next-18/README.md",
+      "bytes": 6848,
+      "sha256": "9c68a00ee1bbf30881dbbfe645b374a389fad26e5099c018ba79d1fddee21b3d",
+      "git_blob_bytes": 6848,
+      "git_blob_sha256": "9c68a00ee1bbf30881dbbfe645b374a389fad26e5099c018ba79d1fddee21b3d",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/README.md",
+      "bytes": 2755,
+      "sha256": "ec5b6f8073d07f61c9e769b16f80e5cae9f194b5f170f8075fcc4749b8225f3d",
+      "git_blob_bytes": 2755,
+      "git_blob_sha256": "ec5b6f8073d07f61c9e769b16f80e5cae9f194b5f170f8075fcc4749b8225f3d",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/concept-v1.png",
+      "bytes": 2322420,
+      "sha256": "2f67c4dfcce4b3989ec30377918f4ec80509ff9bef87eeca871a6523fb4abc90",
+      "git_blob_bytes": 2322420,
+      "git_blob_sha256": "2f67c4dfcce4b3989ec30377918f4ec80509ff9bef87eeca871a6523fb4abc90",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "creative/brainstorm/2026-10-27-retro-worlds/h1-workshop/thumbnail-v1.jpg",
+      "bytes": 402831,
+      "sha256": "b95ee4a1cf95f6e33b3f218ab0b717463dea9714d13c0a9360b97ce4961a9054",
+      "git_blob_bytes": 402831,
+      "git_blob_sha256": "b95ee4a1cf95f6e33b3f218ab0b717463dea9714d13c0a9360b97ce4961a9054",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "final/18-back-before-dawn/README.md",
+      "bytes": 6606,
+      "sha256": "b23b3bf74b2db8d6896c83530959446b40b1b7e95b7fc6d98506b8eb78709238",
+      "git_blob_bytes": 6606,
+      "git_blob_sha256": "b23b3bf74b2db8d6896c83530959446b40b1b7e95b7fc6d98506b8eb78709238",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "final/18-back-before-dawn/manifest.json",
+      "bytes": 6048,
+      "sha256": "81e1b94faff797d50116f10748ccad10f662a8ea64416317a939d1185f6572b1",
+      "git_blob_bytes": 6048,
+      "git_blob_sha256": "81e1b94faff797d50116f10748ccad10f662a8ea64416317a939d1185f6572b1",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "final/README.md",
+      "bytes": 8294,
+      "sha256": "725af4775ea6ca5f781b98d4107dac5024add9adca69b51357db43c5b6d3cfe7",
+      "git_blob_bytes": 8242,
+      "git_blob_sha256": "a821a628727b64ca61448158ce43a610a96d5b7a5ac161b257cb30201a225c2c",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "final/catalog.json",
+      "bytes": 13520,
+      "sha256": "78121f4a1f4c9ce35cf147730e25b3ce07ed86020eb7b5b2b1fc29f3f4b51ec6",
+      "git_blob_bytes": 13520,
+      "git_blob_sha256": "78121f4a1f4c9ce35cf147730e25b3ce07ed86020eb7b5b2b1fc29f3f4b51ec6",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-Bonnet-and-practical-light-detail.mp4",
+      "bytes": 913700,
+      "sha256": "ea4ba1c332a3de116ac9884be72955214731bea7fec4b773dcb61c9d37c2909a",
+      "git_blob_bytes": 131,
+      "git_blob_sha256": "67f711b69bcee3c5845ab46aaeb41edbf8ef51377adbe7724cb54f4bdbe342c0",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-Cabin-systems-and-reflections-detail.mp4",
+      "bytes": 435372,
+      "sha256": "c2018b22d25b9a17585d8348036cca592f25b1a12583bbc9e6e8fffb1f65b4a9",
+      "git_blob_bytes": 131,
+      "git_blob_sha256": "aa81912bbdb13f88dc5ff36e7521e5d8c773279bd1d896da4353444c5dbf690e",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-Street-rain-and-passing-car-detail.mp4",
+      "bytes": 8363867,
+      "sha256": "801cd4dd188a2f05e4a045d99c921a396f8455a6e5065a3c6e0da4787bd36df1",
+      "git_blob_bytes": 132,
+      "git_blob_sha256": "fd06a874ac4a8e4ce346cbe56e0b712cd45641a367d8fa109fdea249f92ea30f",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-Workbench-scope-and-lamp-detail.mp4",
+      "bytes": 1093339,
+      "sha256": "fef1d181ed9e48e95d9df60978702e14f52667d24e61e15f1375ba295bc86a45",
+      "git_blob_bytes": 132,
+      "git_blob_sha256": "2ecb26f6580d56d14c842de2bf4bb2886eb34724092059fc11b07209e699cff7",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-loop-join-10s.mp4",
+      "bytes": 2293634,
+      "sha256": "126dbb3a23dd6f60bb27dad24db928902c946348e2837fb0117d120237f11867",
+      "git_blob_bytes": 132,
+      "git_blob_sha256": "259e21aa0baf55668a0ba70fae4308aee0ed2378618af9c5c4136d7d474312f8",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-v1-first-draft-120s.mp4",
+      "bytes": 28503181,
+      "sha256": "05c616ad83fa21cdb30f4789d7740c877726a6a16106a81fe5338af0f69d367c",
+      "git_blob_bytes": 133,
+      "git_blob_sha256": "c4bdf3df734561794f4a38ac78d6de37ad73a55007c6f73606de77e12b4071e1",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/CONTINUE.md",
+      "bytes": 3919,
+      "sha256": "d71963f416c608288290a0345cf91b4e00dd0063cc2f2d00ce11fe1d7d308dfe",
+      "git_blob_bytes": 3919,
+      "git_blob_sha256": "d71963f416c608288290a0345cf91b4e00dd0063cc2f2d00ce11fe1d7d308dfe",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/README.md",
+      "bytes": 2943,
+      "sha256": "19c5b0261c8c0da08e56dee0ad32909432d7bad4dae8aca29595b03eb9da9ed3",
+      "git_blob_bytes": 2943,
+      "git_blob_sha256": "19c5b0261c8c0da08e56dee0ad32909432d7bad4dae8aca29595b03eb9da9ed3",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/assets/asset-manifest.json",
+      "bytes": 1496,
+      "sha256": "ac7ce29818a2e83c7bd15a9a75e6dfd366b0502a113510a1e1854a5d35a4e3c3",
+      "git_blob_bytes": 1496,
+      "git_blob_sha256": "ac7ce29818a2e83c7bd15a9a75e6dfd366b0502a113510a1e1854a5d35a4e3c3",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/assets/passing-sedan-raw.png",
+      "bytes": 1211258,
+      "sha256": "a0f394c6f8e0b9f6815da14db9076d1417137adf2759c8dca149bea309d762a8",
+      "git_blob_bytes": 1211258,
+      "git_blob_sha256": "a0f394c6f8e0b9f6815da14db9076d1417137adf2759c8dca149bea309d762a8",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/assets/passing-sedan.json",
+      "bytes": 731,
+      "sha256": "df6b26f762a62006e644aea247c315d34f40ced68c9368d4c600cc0b777bb5c0",
+      "git_blob_bytes": 731,
+      "git_blob_sha256": "df6b26f762a62006e644aea247c315d34f40ced68c9368d4c600cc0b777bb5c0",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/assets/passing-sedan.png",
+      "bytes": 1147771,
+      "sha256": "5c2035881884398a157015cb9e89d8cc59d21821915be6a1de5498afe0f037b4",
+      "git_blob_bytes": 1147771,
+      "git_blob_sha256": "5c2035881884398a157015cb9e89d8cc59d21821915be6a1de5498afe0f037b4",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/assets/sedan-generation.json",
+      "bytes": 1238,
+      "sha256": "b4eb22b2ac84063cef7a8e04073d44a4368b44a3de920d19615902f11fa216d0",
+      "git_blob_bytes": 1238,
+      "git_blob_sha256": "b4eb22b2ac84063cef7a8e04073d44a4368b44a3de920d19615902f11fa216d0",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/assets/sedan-headlamp-review.png",
+      "bytes": 1147582,
+      "sha256": "6cb2fc17c281f11326416452a942dba1ca14a820e6d1281bd103840989d5c656",
+      "git_blob_bytes": 1147582,
+      "git_blob_sha256": "6cb2fc17c281f11326416452a942dba1ca14a820e6d1281bd103840989d5c656",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/assets/tree-background-reference.png",
+      "bytes": 115238,
+      "sha256": "b86de2c7342d17c0fd20691f0c2c74ebec1d5fcd14e36ecd2fdf678fc9ef5015",
+      "git_blob_bytes": 115238,
+      "git_blob_sha256": "b86de2c7342d17c0fd20691f0c2c74ebec1d5fcd14e36ecd2fdf678fc9ef5015",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/assets/tree-clean-background.png",
+      "bytes": 1562036,
+      "sha256": "622d3de0a6ea0315fce0e6496348edc47db13c5c98e04ead8443d883f2e614f8",
+      "git_blob_bytes": 1562036,
+      "git_blob_sha256": "622d3de0a6ea0315fce0e6496348edc47db13c5c98e04ead8443d883f2e614f8",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/assets/trees-generation.json",
+      "bytes": 1101,
+      "sha256": "00f7c203b27a7c892729bd3461222aa132f4553a4effd0e301c76ba23445db19",
+      "git_blob_bytes": 1101,
+      "git_blob_sha256": "00f7c203b27a7c892729bd3461222aa132f4553a4effd0e301c76ba23445db19",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/continuation-checkpoint.json",
+      "bytes": 5728,
+      "sha256": "b5d1e180b262d1f9f819982dfa6f9f8ca6168dd0bab023318f27135ab928280c",
+      "git_blob_bytes": 5728,
+      "git_blob_sha256": "b5d1e180b262d1f9f819982dfa6f9f8ca6168dd0bab023318f27135ab928280c",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/delivery-validation.json",
+      "bytes": 97125,
+      "sha256": "495ca55ef09a6b9545b2158f5ee6708e1e805c583b5c79f695b93c8af2d1c91f",
+      "git_blob_bytes": 97125,
+      "git_blob_sha256": "495ca55ef09a6b9545b2158f5ee6708e1e805c583b5c79f695b93c8af2d1c91f",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/dependencies/core.py",
+      "bytes": 10524,
+      "sha256": "fbcf466ee4e286e0e68578336a4cb2d3b2a8bd5f8d7b1fd7f61bff1a9b984bf0",
+      "git_blob_bytes": 10524,
+      "git_blob_sha256": "fbcf466ee4e286e0e68578336a4cb2d3b2a8bd5f8d7b1fd7f61bff1a9b984bf0",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/detail-review-validation.json",
+      "bytes": 3536,
+      "sha256": "d284da4364a401f4a737e248e8a57a0b71a52e63b53e43917bb93c3bf9f9b3ff",
+      "git_blob_bytes": 3536,
+      "git_blob_sha256": "d284da4364a401f4a737e248e8a57a0b71a52e63b53e43917bb93c3bf9f9b3ff",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/documentation/BUILD_BRIEF.md",
+      "bytes": 8332,
+      "sha256": "f18bfa90504ca9daaa13d1374549ccac0fd75482981003b9b1aaed69f5cb859a",
+      "git_blob_bytes": 8332,
+      "git_blob_sha256": "f18bfa90504ca9daaa13d1374549ccac0fd75482981003b9b1aaed69f5cb859a",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/documentation/LEARNINGS.md",
+      "bytes": 8193,
+      "sha256": "c26907ca4c62ab08588acd766d76d469442005d301325f7a073d8163ca100425",
+      "git_blob_bytes": 8193,
+      "git_blob_sha256": "c26907ca4c62ab08588acd766d76d469442005d301325f7a073d8163ca100425",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/documentation/SOUND_AND_CUES.md",
+      "bytes": 3927,
+      "sha256": "9f45ee51827820730eb8bb600456caa73a8ec2cb4464c4bbdb32eb1fe572f844",
+      "git_blob_bytes": 3927,
+      "git_blob_sha256": "9f45ee51827820730eb8bb600456caa73a8ec2cb4464c4bbdb32eb1fe572f844",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/documentation/cue-sheet.json",
+      "bytes": 3759,
+      "sha256": "d56d5dd6cd858dc4712ef29b161c322d47356bb55277ce8969bed3faa89396a0",
+      "git_blob_bytes": 3759,
+      "git_blob_sha256": "d56d5dd6cd858dc4712ef29b161c322d47356bb55277ce8969bed3faa89396a0",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/documentation/documentation-sync.json",
+      "bytes": 550,
+      "sha256": "cc32550ca9c2f572cf3598c11765292641e08c707e27e123b137e1292666e277",
+      "git_blob_bytes": 550,
+      "git_blob_sha256": "cc32550ca9c2f572cf3598c11765292641e08c707e27e123b137e1292666e277",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/documentation/refresh_documentation.ps1",
+      "bytes": 12772,
+      "sha256": "2a0e35dd32b326fa23753b51a85fd6ed9379ca573e743a0601c56224a1846b8a",
+      "git_blob_bytes": 12772,
+      "git_blob_sha256": "2a0e35dd32b326fa23753b51a85fd6ed9379ca573e743a0601c56224a1846b8a",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/combined-00.00s.png",
+      "bytes": 1331209,
+      "sha256": "121328ffe23b3f58e3573fd261c13214ff89da30291d2e94db86abdc367e396c",
+      "git_blob_bytes": 1331209,
+      "git_blob_sha256": "121328ffe23b3f58e3573fd261c13214ff89da30291d2e94db86abdc367e396c",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/combined-111.00s.png",
+      "bytes": 1331141,
+      "sha256": "6ab5c39ee06ec3f4f60740e630254eaa1a3c692ef20cc5b0a047c7f78b080806",
+      "git_blob_bytes": 1331141,
+      "git_blob_sha256": "6ab5c39ee06ec3f4f60740e630254eaa1a3c692ef20cc5b0a047c7f78b080806",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/combined-16.00s.png",
+      "bytes": 1331044,
+      "sha256": "dd9ff96b4763eedac5433b6ad2bb6bb956deeef295254e4607c999696aa79033",
+      "git_blob_bytes": 1331044,
+      "git_blob_sha256": "dd9ff96b4763eedac5433b6ad2bb6bb956deeef295254e4607c999696aa79033",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/combined-27.55s.png",
+      "bytes": 1329337,
+      "sha256": "5668b27ad6fff75f4c32c7736c8fd76a00aae150d06c6d41977a1743c81cdaea",
+      "git_blob_bytes": 1329337,
+      "git_blob_sha256": "5668b27ad6fff75f4c32c7736c8fd76a00aae150d06c6d41977a1743c81cdaea",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/combined-60.00s.png",
+      "bytes": 1331389,
+      "sha256": "19589acedb12f69594e45d958cbb04ac04483faba1a8c04a9618891fc766cf46",
+      "git_blob_bytes": 1331389,
+      "git_blob_sha256": "19589acedb12f69594e45d958cbb04ac04483faba1a8c04a9618891fc766cf46",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/combined-80.00s.png",
+      "bytes": 1331280,
+      "sha256": "28bb89446d81d5c00702d6c9661aae8127064adecdcf643e16e1ce4646224585",
+      "git_blob_bytes": 1331280,
+      "git_blob_sha256": "28bb89446d81d5c00702d6c9661aae8127064adecdcf643e16e1ce4646224585",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/combined-94.35s.png",
+      "bytes": 1330388,
+      "sha256": "66404dab003bf028b75c6cddaebb929cf37f05c0edc58549cfd73c06fc6b498f",
+      "git_blob_bytes": 1330388,
+      "git_blob_sha256": "66404dab003bf028b75c6cddaebb929cf37f05c0edc58549cfd73c06fc6b498f",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/decoded-008.00s.png",
+      "bytes": 1214291,
+      "sha256": "a4370188dfdccf03f5b95277f4d3ef9e492f1af20a590713cdcec9bb3526b331",
+      "git_blob_bytes": 1214291,
+      "git_blob_sha256": "a4370188dfdccf03f5b95277f4d3ef9e492f1af20a590713cdcec9bb3526b331",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/decoded-023.50s.png",
+      "bytes": 1214323,
+      "sha256": "60aec3588f498602a8f98313ec17006209227e1ab0277d45ba05b7cf0207f676",
+      "git_blob_bytes": 1214323,
+      "git_blob_sha256": "60aec3588f498602a8f98313ec17006209227e1ab0277d45ba05b7cf0207f676",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/decoded-048.00s.png",
+      "bytes": 1213547,
+      "sha256": "60abfcc17c5737eb36d1d4f6d4ff10389b932bba024989cc4f3b8a512026f48d",
+      "git_blob_bytes": 1213547,
+      "git_blob_sha256": "60abfcc17c5737eb36d1d4f6d4ff10389b932bba024989cc4f3b8a512026f48d",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/decoded-060.00s.png",
+      "bytes": 1214351,
+      "sha256": "791db31cf1e558cd4b0acec45ee5a7ae329828a3cc6b44fb11772e3d56035b29",
+      "git_blob_bytes": 1214351,
+      "git_blob_sha256": "791db31cf1e558cd4b0acec45ee5a7ae329828a3cc6b44fb11772e3d56035b29",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/decoded-084.00s.png",
+      "bytes": 1214414,
+      "sha256": "76c8460437e26d84dd839f32ec5127d93c78791affe9c4744545208c16db4024",
+      "git_blob_bytes": 1214414,
+      "git_blob_sha256": "76c8460437e26d84dd839f32ec5127d93c78791affe9c4744545208c16db4024",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/decoded-108.00s.png",
+      "bytes": 1214230,
+      "sha256": "5e71e262ba006351e59041d5cc1e95215ae6b31a4efcad2c627310242e2d3fbf",
+      "git_blob_bytes": 1214230,
+      "git_blob_sha256": "5e71e262ba006351e59041d5cc1e95215ae6b31a4efcad2c627310242e2d3fbf",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/first-proof-decoded-60s.png",
+      "bytes": 1635858,
+      "sha256": "5af06689f126ba19e4dc8659c15af489de5e6d620316c0105eb3269c71b0804a",
+      "git_blob_bytes": 1635858,
+      "git_blob_sha256": "5af06689f126ba19e4dc8659c15af489de5e6d620316c0105eb3269c71b0804a",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/first-proof-street-detail.png",
+      "bytes": 361402,
+      "sha256": "35464fecbf710e3098dc1f9d3af897eeb7a370c04907d4e754f478bf173ebc4d",
+      "git_blob_bytes": 361402,
+      "git_blob_sha256": "35464fecbf710e3098dc1f9d3af897eeb7a370c04907d4e754f478bf173ebc4d",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/mask-overlay.png",
+      "bytes": 2244140,
+      "sha256": "9bb693bc28cdad11b501f26051a87c1caacbeb0315098253e2845077e8ac9313",
+      "git_blob_bytes": 2244140,
+      "git_blob_sha256": "9bb693bc28cdad11b501f26051a87c1caacbeb0315098253e2845077e8ac9313",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/evidence/parked-car-guard-source.png",
+      "bytes": 124570,
+      "sha256": "8f49d39e0b9a063bd47d71cc2e55e3ac5de00e2bcfe8949938757395d20ed036",
+      "git_blob_bytes": 124570,
+      "git_blob_sha256": "8f49d39e0b9a063bd47d71cc2e55e3ac5de00e2bcfe8949938757395d20ed036",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/fin-regression-validation.json",
+      "bytes": 1157,
+      "sha256": "a7db12434838aa84833dcc9522c59b101baff5b2e7c789cab7983ed6ff1fd528",
+      "git_blob_bytes": 1157,
+      "git_blob_sha256": "a7db12434838aa84833dcc9522c59b101baff5b2e7c789cab7983ed6ff1fd528",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/history/first-cutout/delivery-validation.json",
+      "bytes": 70978,
+      "sha256": "60d6bc5c52f84d95a2acba1f9097ce568c2f131cec0c7f1aad4db7730faf4f10",
+      "git_blob_bytes": 70978,
+      "git_blob_sha256": "60d6bc5c52f84d95a2acba1f9097ce568c2f131cec0c7f1aad4db7730faf4f10",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/history/first-cutout/detail-review-validation.json",
+      "bytes": 3536,
+      "sha256": "a25ddf9ad5660f6fb3ac00df595c99e1f55f8cdd71c4b343dfa456a7d3e4ca76",
+      "git_blob_bytes": 3536,
+      "git_blob_sha256": "a25ddf9ad5660f6fb3ac00df595c99e1f55f8cdd71c4b343dfa456a7d3e4ca76",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/history/first-cutout/disposition.json",
+      "bytes": 2902,
+      "sha256": "0409880f8777597ecc837e32631c1176490fc6986e99114bc600100e8e914dd4",
+      "git_blob_bytes": 2902,
+      "git_blob_sha256": "0409880f8777597ecc837e32631c1176490fc6986e99114bc600100e8e914dd4",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/history/first-cutout/native-validation-production600.json",
+      "bytes": 57404,
+      "sha256": "696e4512ad27d60ee337142660d0899f35c8da439d18c232529545977436c5d6",
+      "git_blob_bytes": 57404,
+      "git_blob_sha256": "696e4512ad27d60ee337142660d0899f35c8da439d18c232529545977436c5d6",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/history/first-cutout/native-validation.json",
+      "bytes": 55580,
+      "sha256": "6486f4020e96ebf1165449df54f1c18dae2aaa18879d39a1d92f7db8c4d5fb29",
+      "git_blob_bytes": 55580,
+      "git_blob_sha256": "6486f4020e96ebf1165449df54f1c18dae2aaa18879d39a1d92f7db8c4d5fb29",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/history/first-cutout/render.py",
+      "bytes": 19047,
+      "sha256": "9cca1603a2ff4c0a98ee07bc2faac4af06c87a1030b01d8d0ea3709581c81373",
+      "git_blob_bytes": 19047,
+      "git_blob_sha256": "9cca1603a2ff4c0a98ee07bc2faac4af06c87a1030b01d8d0ea3709581c81373",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/history/first-cutout/settings.json",
+      "bytes": 3347,
+      "sha256": "37104c442b476716c859e6c68eff5c6e26d9bbe8da1a93f711706347f74ecedb",
+      "git_blob_bytes": 3347,
+      "git_blob_sha256": "37104c442b476716c859e6c68eff5c6e26d9bbe8da1a93f711706347f74ecedb",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/loop-review-input.txt",
+      "bytes": 98,
+      "sha256": "6d71c6b0db9f36120e21cdac18559ccc3bfbf5374e14ffe7b939e87b9b4dab26",
+      "git_blob_bytes": 98,
+      "git_blob_sha256": "6d71c6b0db9f36120e21cdac18559ccc3bfbf5374e14ffe7b939e87b9b4dab26",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/make_reviews.py",
+      "bytes": 4968,
+      "sha256": "fedfd83f461b43a1b279615df58eca7fc0d3993e61fb56d2b8704fed4f419b43",
+      "git_blob_bytes": 4968,
+      "git_blob_sha256": "fedfd83f461b43a1b279615df58eca7fc0d3993e61fb56d2b8704fed4f419b43",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/native-validation-production600.json",
+      "bytes": 84023,
+      "sha256": "060110cd2c9e6d551799c2489f9f7ef67fc11f916c32067b42f3da27b774cfd8",
+      "git_blob_bytes": 84023,
+      "git_blob_sha256": "060110cd2c9e6d551799c2489f9f7ef67fc11f916c32067b42f3da27b774cfd8",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/native-validation.json",
+      "bytes": 82653,
+      "sha256": "ebe54fe14b0f4edc20b659772f1df8209219f00823cf2d5b78816844aab928bb",
+      "git_blob_bytes": 82653,
+      "git_blob_sha256": "ebe54fe14b0f4edc20b659772f1df8209219f00823cf2d5b78816844aab928bb",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/prepare_assets.py",
+      "bytes": 2643,
+      "sha256": "f4112db2286a428c8276b7a1d51daa571f80a31dc7f21ba1c61296aea1d286f0",
+      "git_blob_bytes": 2643,
+      "git_blob_sha256": "f4112db2286a428c8276b7a1d51daa571f80a31dc7f21ba1c61296aea1d286f0",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/publish_review.py",
+      "bytes": 13735,
+      "sha256": "8f18db3b2df05e4ebe9a6fcb529d98011317f8b0a1dc6a145a15aee7df808a03",
+      "git_blob_bytes": 13735,
+      "git_blob_sha256": "8f18db3b2df05e4ebe9a6fcb529d98011317f8b0a1dc6a145a15aee7df808a03",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/render.py",
+      "bytes": 20064,
+      "sha256": "54f0ebec26d479b3c205de2f425ee16f5aadb22e4ed57dba83af98eb9c8eccec",
+      "git_blob_bytes": 20064,
+      "git_blob_sha256": "54f0ebec26d479b3c205de2f425ee16f5aadb22e4ed57dba83af98eb9c8eccec",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/requirements.txt",
+      "bytes": 83,
+      "sha256": "d3030f14f83776823ba7500c56ee5213e5acb2b931d776ad0bbb56bab9904b93",
+      "git_blob_bytes": 83,
+      "git_blob_sha256": "d3030f14f83776823ba7500c56ee5213e5acb2b931d776ad0bbb56bab9904b93",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/review.html",
+      "bytes": 4022,
+      "sha256": "e88e714dd8cb3f6ec048b5a814ada6fcaae8475eaf1f5991a05700a038c2b37e",
+      "git_blob_bytes": 4022,
+      "git_blob_sha256": "e88e714dd8cb3f6ec048b5a814ada6fcaae8475eaf1f5991a05700a038c2b37e",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/save_checkpoint.py",
+      "bytes": 2365,
+      "sha256": "f5fb695adda0f0c45f20052f50431588f6e33bdb08f44e37476b5bf3ac615a15",
+      "git_blob_bytes": 2365,
+      "git_blob_sha256": "f5fb695adda0f0c45f20052f50431588f6e33bdb08f44e37476b5bf3ac615a15",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/settings.json",
+      "bytes": 3584,
+      "sha256": "0740d7bf41a4a8abafc5315f69b95afd2258ffa50b4ce861ae9eea9cffb92a66",
+      "git_blob_bytes": 3584,
+      "git_blob_sha256": "0740d7bf41a4a8abafc5315f69b95afd2258ffa50b4ce861ae9eea9cffb92a66",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/bench-native-detail.png",
+      "bytes": 326982,
+      "sha256": "3054c47e53ffce55cef230c38cede6c37647ca0af162ff03cb5b58fb7dd8dec3",
+      "git_blob_bytes": 326982,
+      "git_blob_sha256": "3054c47e53ffce55cef230c38cede6c37647ca0af162ff03cb5b58fb7dd8dec3",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/build_diagnostics.py",
+      "bytes": 1947,
+      "sha256": "8d9b317bfd655c569407c52cc38efc931067ddd771ef1d30fc7e7996d17fc1bf",
+      "git_blob_bytes": 1947,
+      "git_blob_sha256": "8d9b317bfd655c569407c52cc38efc931067ddd771ef1d30fc7e7996d17fc1bf",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/cabin-grid.png",
+      "bytes": 1294963,
+      "sha256": "cb74e4b5773b6186879272b774a0e2b190a02875cfa24184935d991d4e01ed72",
+      "git_blob_bytes": 1294963,
+      "git_blob_sha256": "cb74e4b5773b6186879272b774a0e2b190a02875cfa24184935d991d4e01ed72",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/check_corrections.py",
+      "bytes": 2268,
+      "sha256": "0ff464df91feb0532b844173a89a91b54080ee9d94d97751a05a3b0ea2d229aa",
+      "git_blob_bytes": 2268,
+      "git_blob_sha256": "0ff464df91feb0532b844173a89a91b54080ee9d94d97751a05a3b0ea2d229aa",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/correction-inspection.json",
+      "bytes": 1691,
+      "sha256": "ef506bbd0f3f14f4091f14b24489ae1ee7124acf5cd1f32a75a0db84eaa5997d",
+      "git_blob_bytes": 1691,
+      "git_blob_sha256": "ef506bbd0f3f14f4091f14b24489ae1ee7124acf5cd1f32a75a0db84eaa5997d",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/correction-validation.json",
+      "bytes": 1461,
+      "sha256": "85225597ce5d93c8875f30c6409830160c77878ec4ef5e92a646a8e64a965214",
+      "git_blob_bytes": 1461,
+      "git_blob_sha256": "85225597ce5d93c8875f30c6409830160c77878ec4ef5e92a646a8e64a965214",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/diagnostic-manifest.json",
+      "bytes": 1317,
+      "sha256": "8e3b9abcd8dc5b36638c6233c85bdab8567bd13a14db32e6f7451558798b1265",
+      "git_blob_bytes": 1317,
+      "git_blob_sha256": "8e3b9abcd8dc5b36638c6233c85bdab8567bd13a14db32e6f7451558798b1265",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/fin-native-original.png",
+      "bytes": 155726,
+      "sha256": "b3c1769700d62613c6e3affb24cff76eaaf79dcff119ad37658dafb28c8f5b4f",
+      "git_blob_bytes": 155726,
+      "git_blob_sha256": "b3c1769700d62613c6e3affb24cff76eaaf79dcff119ad37658dafb28c8f5b4f",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/fin-native-rain-peak.png",
+      "bytes": 156170,
+      "sha256": "b34a7f6e19fb60c70c94ca0a13cad1f9da6c885f20eb0bbc872c15ddd93b8adb",
+      "git_blob_bytes": 156170,
+      "git_blob_sha256": "b34a7f6e19fb60c70c94ca0a13cad1f9da6c885f20eb0bbc872c15ddd93b8adb",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/fin-rain-mask-audit.png",
+      "bytes": 94314,
+      "sha256": "f7e147a671fca12629a3553761a5f59f264d28a6d59acfec66d4f03b238ada85",
+      "git_blob_bytes": 94314,
+      "git_blob_sha256": "f7e147a671fca12629a3553761a5f59f264d28a6d59acfec66d4f03b238ada85",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/implemented-review-findings.json",
+      "bytes": 3731,
+      "sha256": "87fe90a241dc109b82a7989da39451f8b35c1dd4c7d94cdab007bc0a28fa56c6",
+      "git_blob_bytes": 3731,
+      "git_blob_sha256": "87fe90a241dc109b82a7989da39451f8b35c1dd4c7d94cdab007bc0a28fa56c6",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/lamp-grid.png",
+      "bytes": 205732,
+      "sha256": "1535f4f10c3f0ebff742ce7978bdfd41fd87a1a93c46f747568658200df7e2e9",
+      "git_blob_bytes": 205732,
+      "git_blob_sha256": "1535f4f10c3f0ebff742ce7978bdfd41fd87a1a93c46f747568658200df7e2e9",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/rear-grid.png",
+      "bytes": 1167542,
+      "sha256": "6f94c15c4a59388b77d868e03984402d3007b230e13d3c1532f7d565c861f19b",
+      "git_blob_bytes": 1167542,
+      "git_blob_sha256": "6f94c15c4a59388b77d868e03984402d3007b230e13d3c1532f7d565c861f19b",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/road-grid.png",
+      "bytes": 1691710,
+      "sha256": "e480068fee3e5760af23c8ba7257597de81c6b7e6c1e929236736635b265bf85",
+      "git_blob_bytes": 1691710,
+      "git_blob_sha256": "e480068fee3e5760af23c8ba7257597de81c6b7e6c1e929236736635b265bf85",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/scope-grid.png",
+      "bytes": 274243,
+      "sha256": "c88c63ea1acf4030db9e9e9dd5498dc7b526f39f3c586c63add7f0a2453ea1ea",
+      "git_blob_bytes": 274243,
+      "git_blob_sha256": "c88c63ea1acf4030db9e9e9dd5498dc7b526f39f3c586c63add7f0a2453ea1ea",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/source-geometry-audit.json",
+      "bytes": 5770,
+      "sha256": "55c5ae435b0dc4387611dd5ce65b455dd2cc4ef320564b5fa282fbf269d0626d",
+      "git_blob_bytes": 5770,
+      "git_blob_sha256": "55c5ae435b0dc4387611dd5ce65b455dd2cc4ef320564b5fa282fbf269d0626d",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/source-regions-annotated.png",
+      "bytes": 2280387,
+      "sha256": "fda573b73e5be1483a4dbe0de905e9cea1d2085997a1a3b17ed484f60e5976ed",
+      "git_blob_bytes": 2280387,
+      "git_blob_sha256": "fda573b73e5be1483a4dbe0de905e9cea1d2085997a1a3b17ed484f60e5976ed",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/tree1-0.png",
+      "bytes": 91557,
+      "sha256": "cfa77765ff273abafd9d5f60f0f09ab46b6e19eafec1c6082bea628600d94848",
+      "git_blob_bytes": 91557,
+      "git_blob_sha256": "cfa77765ff273abafd9d5f60f0f09ab46b6e19eafec1c6082bea628600d94848",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/tree1-16.png",
+      "bytes": 92965,
+      "sha256": "51d052849c751428c6bc9732c2c882e93730d5016e32355f24df72320ceb9e4a",
+      "git_blob_bytes": 92965,
+      "git_blob_sha256": "51d052849c751428c6bc9732c2c882e93730d5016e32355f24df72320ceb9e4a",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/tree1-60.png",
+      "bytes": 91557,
+      "sha256": "cfa77765ff273abafd9d5f60f0f09ab46b6e19eafec1c6082bea628600d94848",
+      "git_blob_bytes": 91557,
+      "git_blob_sha256": "cfa77765ff273abafd9d5f60f0f09ab46b6e19eafec1c6082bea628600d94848",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/tree1-80.png",
+      "bytes": 89322,
+      "sha256": "01b762d2c992357bc3f363ea3d00ed80ca36e2d3fe53f55366abcfedf2b546fa",
+      "git_blob_bytes": 89322,
+      "git_blob_sha256": "01b762d2c992357bc3f363ea3d00ed80ca36e2d3fe53f55366abcfedf2b546fa",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/tree1-corrected-16.png",
+      "bytes": 78970,
+      "sha256": "8cb5cd39cf81ee41c7b77566ca9ea036bb5b684df36c73afe1521f6ab7e79907",
+      "git_blob_bytes": 78970,
+      "git_blob_sha256": "8cb5cd39cf81ee41c7b77566ca9ea036bb5b684df36c73afe1521f6ab7e79907",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/tree1-corrected-80.png",
+      "bytes": 79284,
+      "sha256": "fd9b2ad13602c204b93232441c741769d455df28bd97f64beecd1bb4281c75ac",
+      "git_blob_bytes": 79284,
+      "git_blob_sha256": "fd9b2ad13602c204b93232441c741769d455df28bd97f64beecd1bb4281c75ac",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/source-audit/tree1-original.png",
+      "bytes": 79345,
+      "sha256": "96bddda2feac26b40b5a2632d0d9c15831f28a2a9a70277d3f5096c0790c6234",
+      "git_blob_bytes": 79345,
+      "git_blob_sha256": "96bddda2feac26b40b5a2632d0d9c15831f28a2a9a70277d3f5096c0790c6234",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/user-request.json",
+      "bytes": 528,
+      "sha256": "99d4bbbece2efc799e2ac6427b87791809b12cc7d0b5748ad1b8925cacf15e62",
+      "git_blob_bytes": 528,
+      "git_blob_sha256": "99d4bbbece2efc799e2ac6427b87791809b12cc7d0b5748ad1b8925cacf15e62",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/validate_delivery.py",
+      "bytes": 16748,
+      "sha256": "f63c21610cc2e8402379debd245089cc61bf4f1f33bbfa18b17daa95a7eba730",
+      "git_blob_bytes": 16748,
+      "git_blob_sha256": "f63c21610cc2e8402379debd245089cc61bf4f1f33bbfa18b17daa95a7eba730",
+      "storage": "ordinary-git"
+    },
+    {
+      "path": "music/back-before-dawn-animation-v1/verify_resume.py",
+      "bytes": 1210,
+      "sha256": "c5bf90433ea201f31d7ba8da86adf194d4584a7ffe6792e5c7b9bf10c99b1a08",
+      "git_blob_bytes": 1210,
+      "git_blob_sha256": "c5bf90433ea201f31d7ba8da86adf194d4584a7ffe6792e5c7b9bf10c99b1a08",
+      "storage": "ordinary-git"
+    }
+  ]
+}

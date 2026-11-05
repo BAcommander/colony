@@ -1,0 +1,53 @@
+{
+  "status": "superseded_internal_visual_checkpoint",
+  "issues": [
+    "Generated clean sky revealed at artificial internal tree-cutout chord.",
+    "Rain mask leaked onto the small raised-door fin at native960,68."
+  ],
+  "technical_checks_had_passed_but_artistic_geometry_review_caught_missing_guards": true,
+  "media_kept_local_ignored": [
+    {
+      "original_path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-Bonnet-and-practical-light-detail.mp4",
+      "bytes": 913700,
+      "sha256": "ea4ba1c332a3de116ac9884be72955214731bea7fec4b773dcb61c9d37c2909a",
+      "local_history_path": ".local/scene18-render-history/first-cutout/Back-Before-Dawn-Bonnet-and-practical-light-detail.mp4"
+    },
+    {
+      "original_path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-Cabin-systems-and-reflections-detail.mp4",
+      "bytes": 435372,
+      "sha256": "c2018b22d25b9a17585d8348036cca592f25b1a12583bbc9e6e8fffb1f65b4a9",
+      "local_history_path": ".local/scene18-render-history/first-cutout/Back-Before-Dawn-Cabin-systems-and-reflections-detail.mp4"
+    },
+    {
+      "original_path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-first-proof-54-62s.mp4",
+      "bytes": 2071412,
+      "sha256": "24de76a6c176b69ca9a131c0afe4741fad557aefbef339f820f9102a3c2cb9f6",
+      "local_history_path": ".local/scene18-render-history/first-cutout/Back-Before-Dawn-first-proof-54-62s.mp4"
+    },
+    {
+      "original_path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-loop-join-10s.mp4",
+      "bytes": 2299592,
+      "sha256": "ba5f9e62ca873dc32176596792c464c076a67a592aded3630d813715f0b2d78e",
+      "local_history_path": ".local/scene18-render-history/first-cutout/Back-Before-Dawn-loop-join-10s.mp4"
+    },
+    {
+      "original_path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-Street-rain-and-passing-car-detail.mp4",
+      "bytes": 8363867,
+      "sha256": "801cd4dd188a2f05e4a045d99c921a396f8455a6e5065a3c6e0da4787bd36df1",
+      "local_history_path": ".local/scene18-render-history/first-cutout/Back-Before-Dawn-Street-rain-and-passing-car-detail.mp4"
+    },
+    {
+      "original_path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-v1-first-draft-120s.mp4",
+      "bytes": 28580179,
+      "sha256": "63545af586c6087f052f2daa85a0be52e17352868197cd527ae37de8480777b0",
+      "local_history_path": ".local/scene18-render-history/first-cutout/Back-Before-Dawn-v1-first-draft-120s.mp4"
+    },
+    {
+      "original_path": "music/back-before-dawn-animation-v1/Back-Before-Dawn-Workbench-scope-and-lamp-detail.mp4",
+      "bytes": 1093339,
+      "sha256": "fef1d181ed9e48e95d9df60978702e14f52667d24e61e15f1375ba295bc86a45",
+      "local_history_path": ".local/scene18-render-history/first-cutout/Back-Before-Dawn-Workbench-scope-and-lamp-detail.mp4"
+    }
+  ],
+  "source_art_preserved": true
+}
