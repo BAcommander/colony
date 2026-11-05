@@ -648,14 +648,14 @@
     },
     {
       "path": "music/production-backup-2026-11-05-snowline/verify_remote.py",
-      "bytes": 4977,
-      "sha256": "6dd09caffe961c5fdd9f948823a428be3c00410070d6d800d80464225150b3bc",
+      "bytes": 5549,
+      "sha256": "0c825046c178be039736622544d651d4ab75da4d02b0366a17dee34abcc34b03",
       "storage": "git",
-      "git_blob_sha256": "6dd09caffe961c5fdd9f948823a428be3c00410070d6d800d80464225150b3bc",
-      "git_blob_bytes": 4977
+      "git_blob_sha256": "0c825046c178be039736622544d651d4ab75da4d02b0366a17dee34abcc34b03",
+      "git_blob_bytes": 5549
     }
   ],
   "count": 81,
-  "total_selected_working_bytes": 732120958,
+  "total_selected_working_bytes": 732121530,
   "new_lfs_bytes": 683946225
 }
