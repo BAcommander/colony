@@ -1,0 +1,1816 @@
+{
+  "source": "final/14-crater-rim-survey/artwork-v2.png",
+  "source_sha256": "ffb509afd49853590d7b01a521288b3d5cca47f7758feaa50136feabc4241734",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "preview_dimensions": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "sky_roi": [
+    200,
+    18,
+    1470,
+    186
+  ],
+  "cloud_safe_polygons": [
+    [
+      [
+        209,
+        105
+      ],
+      [
+        301,
+        86
+      ],
+      [
+        302,
+        174
+      ],
+      [
+        210,
+        175
+      ]
+    ],
+    [
+      [
+        355,
+        90
+      ],
+      [
+        488,
+        75
+      ],
+      [
+        680,
+        55
+      ],
+      [
+        866,
+        35
+      ],
+      [
+        954,
+        31
+      ],
+      [
+        1018,
+        54
+      ],
+      [
+        1086,
+        72
+      ],
+      [
+        1148,
+        87
+      ],
+      [
+        1148,
+        165
+      ],
+      [
+        1082,
+        166
+      ],
+      [
+        1020,
+        171
+      ],
+      [
+        957,
+        170
+      ],
+      [
+        899,
+        174
+      ],
+      [
+        820,
+        174
+      ],
+      [
+        765,
+        178
+      ],
+      [
+        709,
+        176
+      ],
+      [
+        658,
+        171
+      ],
+      [
+        613,
+        164
+      ],
+      [
+        556,
+        164
+      ],
+      [
+        492,
+        168
+      ],
+      [
+        429,
+        174
+      ],
+      [
+        355,
+        176
+      ]
+    ],
+    [
+      [
+        1208,
+        85
+      ],
+      [
+        1267,
+        102
+      ],
+      [
+        1335,
+        118
+      ],
+      [
+        1397,
+        138
+      ],
+      [
+        1451,
+        151
+      ],
+      [
+        1452,
+        160
+      ],
+      [
+        1402,
+        163
+      ],
+      [
+        1350,
+        167
+      ],
+      [
+        1295,
+        165
+      ],
+      [
+        1240,
+        168
+      ],
+      [
+        1208,
+        168
+      ]
+    ]
+  ],
+  "haze_roi": [
+    202,
+    316,
+    1586,
+    518
+  ],
+  "basin_polygon": [
+    [
+      209,
+      325
+    ],
+    [
+      301,
+      330
+    ],
+    [
+      355,
+      337
+    ],
+    [
+      415,
+      338
+    ],
+    [
+      510,
+      335
+    ],
+    [
+      635,
+      334
+    ],
+    [
+      760,
+      328
+    ],
+    [
+      900,
+      321
+    ],
+    [
+      1038,
+      322
+    ],
+    [
+      1144,
+      332
+    ],
+    [
+      1230,
+      334
+    ],
+    [
+      1342,
+      335
+    ],
+    [
+      1457,
+      343
+    ],
+    [
+      1550,
+      350
+    ],
+    [
+      1576,
+      372
+    ],
+    [
+      1554,
+      382
+    ],
+    [
+      1490,
+      388
+    ],
+    [
+      1437,
+      399
+    ],
+    [
+      1364,
+      402
+    ],
+    [
+      1310,
+      410
+    ],
+    [
+      1240,
+      412
+    ],
+    [
+      1180,
+      427
+    ],
+    [
+      1140,
+      442
+    ],
+    [
+      1097,
+      453
+    ],
+    [
+      1068,
+      470
+    ],
+    [
+      1026,
+      482
+    ],
+    [
+      989,
+      498
+    ],
+    [
+      935,
+      502
+    ],
+    [
+      880,
+      500
+    ],
+    [
+      823,
+      502
+    ],
+    [
+      765,
+      502
+    ],
+    [
+      714,
+      493
+    ],
+    [
+      670,
+      479
+    ],
+    [
+      628,
+      457
+    ],
+    [
+      579,
+      433
+    ],
+    [
+      539,
+      421
+    ],
+    [
+      498,
+      398
+    ],
+    [
+      462,
+      376
+    ],
+    [
+      424,
+      362
+    ],
+    [
+      385,
+      350
+    ],
+    [
+      355,
+      343
+    ],
+    [
+      303,
+      349
+    ],
+    [
+      244,
+      346
+    ],
+    [
+      208,
+      345
+    ]
+  ],
+  "window_apertures": [
+    [
+      [
+        208,
+        103
+      ],
+      [
+        302,
+        86
+      ],
+      [
+        304,
+        550
+      ],
+      [
+        210,
+        550
+      ]
+    ],
+    [
+      [
+        355,
+        88
+      ],
+      [
+        1147,
+        4
+      ],
+      [
+        1148,
+        625
+      ],
+      [
+        355,
+        585
+      ]
+    ],
+    [
+      [
+        1208,
+        0
+      ],
+      [
+        1671,
+        0
+      ],
+      [
+        1671,
+        661
+      ],
+      [
+        1208,
+        623
+      ]
+    ]
+  ],
+  "duration": 60,
+  "version": 4,
+  "date": "2026-11-05",
+  "clouds": {
+    "speed": 4.0,
+    "edge_taper": 520,
+    "phase_offsets": [
+      0,
+      19,
+      41
+    ],
+    "weight_power": 8,
+    "depth_phase": 6
+  },
+  "haze_sample_step": 2,
+  "haze_layers": [
+    {
+      "name": "far basin veil",
+      "seed": 914,
+      "speed": 5.6,
+      "lifetime": 60,
+      "optical_depth": 0.85,
+      "max_opacity": 0.32,
+      "color": [
+        211,
+        203,
+        190
+      ],
+      "gusts": [
+        {
+          "x": 440,
+          "y": 364,
+          "width": 185,
+          "height": 15,
+          "strength": 0.92,
+          "phase": 0,
+          "route_slope": 0.018
+        },
+        {
+          "x": 850,
+          "y": 361,
+          "width": 218,
+          "height": 16,
+          "strength": 0.92,
+          "phase": 0,
+          "route_slope": -0.006
+        },
+        {
+          "x": 1230,
+          "y": 369,
+          "width": 185,
+          "height": 13,
+          "strength": 0.92,
+          "phase": 0,
+          "route_slope": 0.018
+        }
+      ],
+      "loop_schedule": [
+        {
+          "gust_index": 0,
+          "birth_x": 272.0,
+          "age_at_zero": 8,
+          "fade_in": 14,
+          "fade_out": 14
+        },
+        {
+          "gust_index": 1,
+          "birth_x": 682.0,
+          "age_at_zero": 31,
+          "fade_in": 14,
+          "fade_out": 14
+        },
+        {
+          "gust_index": 2,
+          "birth_x": 1062.0,
+          "age_at_zero": 49,
+          "fade_in": 14,
+          "fade_out": 14
+        }
+      ]
+    },
+    {
+      "name": "middle basin streams",
+      "seed": 921,
+      "speed": 10.5,
+      "lifetime": 60,
+      "optical_depth": 0.85,
+      "max_opacity": 0.42,
+      "color": [
+        215,
+        201,
+        180
+      ],
+      "gusts": [
+        {
+          "x": 500,
+          "y": 414,
+          "width": 163,
+          "height": 22,
+          "strength": 0.92,
+          "phase": 0,
+          "route_slope": 0.06
+        },
+        {
+          "x": 770,
+          "y": 427,
+          "width": 181,
+          "height": 24,
+          "strength": 0.92,
+          "phase": 0,
+          "route_slope": -0.015
+        },
+        {
+          "x": 1075,
+          "y": 412,
+          "width": 150,
+          "height": 20,
+          "strength": 0.92,
+          "phase": 0,
+          "route_slope": -0.03
+        }
+      ],
+      "loop_schedule": [
+        {
+          "gust_index": 0,
+          "birth_x": 185.0,
+          "age_at_zero": 19,
+          "fade_in": 14,
+          "fade_out": 14
+        },
+        {
+          "gust_index": 1,
+          "birth_x": 455.0,
+          "age_at_zero": 41,
+          "fade_in": 14,
+          "fade_out": 14
+        },
+        {
+          "gust_index": 2,
+          "birth_x": 760.0,
+          "age_at_zero": 3,
+          "fade_in": 14,
+          "fade_out": 14
+        }
+      ]
+    },
+    {
+      "name": "near floor drift",
+      "seed": 937,
+      "speed": 17.0,
+      "lifetime": 60,
+      "optical_depth": 0.85,
+      "max_opacity": 0.38,
+      "color": [
+        207,
+        191,
+        168
+      ],
+      "gusts": [
+        {
+          "x": 715,
+          "y": 469,
+          "width": 127,
+          "height": 20,
+          "strength": 0.92,
+          "phase": 0,
+          "route_slope": -0.018
+        },
+        {
+          "x": 900,
+          "y": 478,
+          "width": 145,
+          "height": 21,
+          "strength": 0.92,
+          "phase": 0,
+          "route_slope": -0.04
+        }
+      ],
+      "loop_schedule": [
+        {
+          "gust_index": 0,
+          "birth_x": 205.0,
+          "age_at_zero": 13,
+          "fade_in": 14,
+          "fade_out": 14
+        },
+        {
+          "gust_index": 1,
+          "birth_x": 390.0,
+          "age_at_zero": 43,
+          "fade_in": 14,
+          "fade_out": 14
+        }
+      ]
+    }
+  ],
+  "shadows": {
+    "roi": [
+      202,
+      171,
+      1672,
+      626
+    ],
+    "strength": 0.18,
+    "sample_step": 4,
+    "plumes": [
+      {
+        "x_at_midlife": 570,
+        "y": 300,
+        "width": 215,
+        "height": 150,
+        "speed": 15,
+        "phase": 9
+      },
+      {
+        "x_at_midlife": 1120,
+        "y": 360,
+        "width": 265,
+        "height": 123,
+        "speed": 15,
+        "phase": 39
+      }
+    ]
+  },
+  "terrain_polygons": [
+    [
+      [
+        209,
+        177
+      ],
+      [
+        301,
+        177
+      ],
+      [
+        303,
+        546
+      ],
+      [
+        210,
+        546
+      ]
+    ],
+    [
+      [
+        355,
+        180
+      ],
+      [
+        481,
+        171
+      ],
+      [
+        556,
+        167
+      ],
+      [
+        612,
+        168
+      ],
+      [
+        657,
+        175
+      ],
+      [
+        711,
+        180
+      ],
+      [
+        765,
+        182
+      ],
+      [
+        821,
+        178
+      ],
+      [
+        900,
+        179
+      ],
+      [
+        960,
+        175
+      ],
+      [
+        1021,
+        176
+      ],
+      [
+        1083,
+        171
+      ],
+      [
+        1147,
+        171
+      ],
+      [
+        1147,
+        568
+      ],
+      [
+        1050,
+        555
+      ],
+      [
+        945,
+        532
+      ],
+      [
+        841,
+        505
+      ],
+      [
+        733,
+        473
+      ],
+      [
+        645,
+        459
+      ],
+      [
+        562,
+        427
+      ],
+      [
+        492,
+        399
+      ],
+      [
+        421,
+        364
+      ],
+      [
+        355,
+        348
+      ]
+    ],
+    [
+      [
+        1208,
+        174
+      ],
+      [
+        1280,
+        173
+      ],
+      [
+        1360,
+        172
+      ],
+      [
+        1430,
+        169
+      ],
+      [
+        1520,
+        163
+      ],
+      [
+        1600,
+        161
+      ],
+      [
+        1671,
+        159
+      ],
+      [
+        1671,
+        619
+      ],
+      [
+        1557,
+        614
+      ],
+      [
+        1455,
+        604
+      ],
+      [
+        1359,
+        591
+      ],
+      [
+        1256,
+        566
+      ],
+      [
+        1208,
+        548
+      ]
+    ]
+  ],
+  "survey_display": {
+    "roi": [
+      288,
+      493,
+      720,
+      690
+    ],
+    "radar_quad": [
+      [
+        638,
+        526
+      ],
+      [
+        701,
+        530
+      ],
+      [
+        680,
+        597
+      ],
+      [
+        618,
+        593
+      ]
+    ],
+    "telemetry_quad": [
+      [
+        616,
+        606
+      ],
+      [
+        676,
+        610
+      ],
+      [
+        658,
+        674
+      ],
+      [
+        596,
+        669
+      ]
+    ],
+    "map_quad": [
+      [
+        367,
+        506
+      ],
+      [
+        627,
+        518
+      ],
+      [
+        589,
+        666
+      ],
+      [
+        303,
+        649
+      ]
+    ],
+    "radar_period": 15,
+    "map_period": 30,
+    "radar_peak": [
+      76,
+      87,
+      73
+    ]
+  },
+  "colony_windows": [
+    {
+      "polygon": [
+        [
+          1469,
+          403
+        ],
+        [
+          1478,
+          403
+        ],
+        [
+          1478,
+          408
+        ],
+        [
+          1469,
+          409
+        ]
+      ],
+      "phase": 0
+    },
+    {
+      "polygon": [
+        [
+          1504,
+          404
+        ],
+        [
+          1511,
+          404
+        ],
+        [
+          1511,
+          410
+        ],
+        [
+          1504,
+          410
+        ]
+      ],
+      "phase": 23
+    },
+    {
+      "polygon": [
+        [
+          1543,
+          405
+        ],
+        [
+          1553,
+          405
+        ],
+        [
+          1553,
+          411
+        ],
+        [
+          1543,
+          411
+        ]
+      ],
+      "phase": 41
+    }
+  ],
+  "light_events": [
+    {
+      "time": 8,
+      "rise": 1.8,
+      "hold": 5.5,
+      "fall": 2.6
+    },
+    {
+      "time": 39,
+      "rise": 1.2,
+      "hold": 7,
+      "fall": 3
+    }
+  ],
+  "learning_sources": [
+    "creative/ANIMATION_KNOWLEDGE_BANK.md",
+    "creative/NEXT_SCENE_RUNBOOK.md",
+    "music/below-the-snowline-animation-v6/README.md",
+    "music/beneath-a-crimson-sky-synced-storm/README.md",
+    "music/saltline-animation-v1/periodic_transport.py"
+  ],
+  "design_notes": [
+    "V1 motion exists numerically but was too faint in full-scene user review. Broad basin transport and moving terrain-only shadow are the principal actions.",
+    "Forward source-cloud renewal is local to safe sky; the ring and mountain pixels cannot enter sampled source taps. Inspect possible renewal softness in playback.",
+    "Haze has three source-coordinate speeds, independently renewed local plumes and terrain/glass occlusion. Not a physical atmosphere simulation.",
+    "All exterior masks protect interior geometry. Survey indicators map to existing panels. No camera movement, global exposure sweep or whole-scene dissolve.",
+    "Warm daytime window changes are supporting details, not the principal motion. No music, generated SFX or opening title is baked into this silent review.",
+    "V3 user requests village activity and occasional desk-lamp flicker. Preserve all V2 layers outside the new source-mapped village and lamp footprints.",
+    "V4 user requests occasional sun glare, village/tower lights and road traffic. Keep V3 village and lamp animation unchanged outside the three new footprints; subdued daylight scale and physically anchored effects."
+  ],
+  "previous_delivery": "music/crater-rim-animation-v3/delivery.json",
+  "village": {
+    "roi": [
+      1280,
+      336,
+      1630,
+      474
+    ],
+    "plumes": [
+      {
+        "name": "upper roof flue",
+        "anchor": [
+          1466,
+          386
+        ],
+        "seed": 144,
+        "life": 10,
+        "birth_interval": 0.75,
+        "rise_speed": 3.8,
+        "drift_speed": 2.1,
+        "strength": 0.16,
+        "color": [
+          218,
+          211,
+          198
+        ],
+        "polygon": [
+          [
+            1462,
+            387
+          ],
+          [
+            1470,
+            387
+          ],
+          [
+            1500,
+            342
+          ],
+          [
+            1473,
+            339
+          ],
+          [
+            1456,
+            361
+          ]
+        ]
+      },
+      {
+        "name": "greenhouse warm air",
+        "anchor": [
+          1397,
+          419
+        ],
+        "seed": 192,
+        "life": 10,
+        "birth_interval": 0.75,
+        "rise_speed": 3.4,
+        "drift_speed": 1.8,
+        "strength": 0.135,
+        "color": [
+          215,
+          210,
+          199
+        ],
+        "polygon": [
+          [
+            1393,
+            420
+          ],
+          [
+            1401,
+            420
+          ],
+          [
+            1429,
+            379
+          ],
+          [
+            1408,
+            375
+          ],
+          [
+            1382,
+            393
+          ]
+        ]
+      }
+    ],
+    "walkers": [
+      {
+        "name": "front terrace",
+        "start_time": 3,
+        "seconds": 31,
+        "route": [
+          [
+            1471,
+            450.5
+          ],
+          [
+            1480,
+            450
+          ],
+          [
+            1495,
+            449.5
+          ],
+          [
+            1518,
+            449
+          ]
+        ],
+        "height": 5.5,
+        "color": [
+          67,
+          63,
+          54
+        ],
+        "clothes": [
+          123,
+          116,
+          94
+        ]
+      },
+      {
+        "name": "upper house path",
+        "start_time": 32,
+        "seconds": 23,
+        "route": [
+          [
+            1548,
+            417
+          ],
+          [
+            1533,
+            416.7
+          ],
+          [
+            1512,
+            416
+          ],
+          [
+            1492,
+            415.5
+          ]
+        ],
+        "height": 4.6,
+        "color": [
+          65,
+          61,
+          51
+        ],
+        "clothes": [
+          97,
+          105,
+          100
+        ]
+      }
+    ],
+    "walker_occluders": [
+      [
+        [
+          1474,
+          445
+        ],
+        [
+          1478,
+          445
+        ],
+        [
+          1479,
+          451
+        ],
+        [
+          1475,
+          451
+        ]
+      ],
+      [
+        [
+          1490,
+          445
+        ],
+        [
+          1493,
+          445
+        ],
+        [
+          1494,
+          449
+        ],
+        [
+          1490,
+          450
+        ]
+      ],
+      [
+        [
+          1512,
+          442
+        ],
+        [
+          1516,
+          442
+        ],
+        [
+          1517,
+          449
+        ],
+        [
+          1513,
+          449
+        ]
+      ]
+    ],
+    "notes": "Flue and greenhouse exhaust are source-specific artistic interpretations of small rooftop features. Tiny terrace figures use local hidden renewals; no new image generation."
+  },
+  "lamp": {
+    "roi": [
+      0,
+      380,
+      385,
+      700
+    ],
+    "core_polygon": [
+      [
+        108,
+        466
+      ],
+      [
+        110,
+        460
+      ],
+      [
+        122,
+        454
+      ],
+      [
+        143,
+        446
+      ],
+      [
+        166,
+        440
+      ],
+      [
+        184,
+        438
+      ],
+      [
+        191,
+        440
+      ],
+      [
+        194,
+        443
+      ],
+      [
+        191,
+        447
+      ],
+      [
+        180,
+        454
+      ],
+      [
+        158,
+        462
+      ],
+      [
+        136,
+        468
+      ],
+      [
+        117,
+        472
+      ],
+      [
+        109,
+        470
+      ]
+    ],
+    "wall_polygon": [
+      [
+        0,
+        448
+      ],
+      [
+        68,
+        439
+      ],
+      [
+        187,
+        473
+      ],
+      [
+        190,
+        571
+      ],
+      [
+        102,
+        588
+      ],
+      [
+        0,
+        575
+      ]
+    ],
+    "desk_polygon": [
+      [
+        0,
+        607
+      ],
+      [
+        61,
+        606
+      ],
+      [
+        98,
+        618
+      ],
+      [
+        219,
+        623
+      ],
+      [
+        283,
+        629
+      ],
+      [
+        354,
+        639
+      ],
+      [
+        370,
+        658
+      ],
+      [
+        318,
+        680
+      ],
+      [
+        241,
+        674
+      ],
+      [
+        181,
+        656
+      ],
+      [
+        137,
+        649
+      ],
+      [
+        72,
+        639
+      ],
+      [
+        0,
+        629
+      ]
+    ],
+    "chair_blocker": [
+      [
+        0,
+        619
+      ],
+      [
+        43,
+        624
+      ],
+      [
+        68,
+        624
+      ],
+      [
+        94,
+        634
+      ],
+      [
+        134,
+        636
+      ],
+      [
+        174,
+        654
+      ],
+      [
+        208,
+        682
+      ],
+      [
+        238,
+        700
+      ],
+      [
+        0,
+        700
+      ]
+    ],
+    "reflection_polygon": [
+      [
+        64,
+        569
+      ],
+      [
+        70,
+        569
+      ],
+      [
+        74,
+        616
+      ],
+      [
+        67,
+        619
+      ]
+    ],
+    "events": [
+      {
+        "time": 14.25,
+        "rise": 0.035,
+        "hold": 0.045,
+        "fall": 0.08,
+        "depth": 0.76
+      },
+      {
+        "time": 14.55,
+        "rise": 0.03,
+        "hold": 0.07,
+        "fall": 0.1,
+        "depth": 0.48
+      },
+      {
+        "time": 44.3,
+        "rise": 0.04,
+        "hold": 0.1,
+        "fall": 0.1,
+        "depth": 0.68
+      }
+    ],
+    "wall_contribution": 0.46,
+    "desk_contribution": 0.35,
+    "reflection_contribution": 0.3,
+    "notes": "Brief fixture-level power dips. Full white core included. Linear-light removal of lamp contribution; source daylight and exterior exposure retained."
+  },
+  "village_lights": {
+    "roi": [
+      1556,
+      324,
+      1596,
+      370
+    ],
+    "beacons": [
+      {
+        "anchor": [
+          1569.8,
+          334.5
+        ],
+        "color": [
+          255,
+          94,
+          62
+        ],
+        "radius": 1.05,
+        "times": [
+          7.4,
+          21.4,
+          38.2,
+          53.4
+        ]
+      },
+      {
+        "anchor": [
+          1584.2,
+          354.0
+        ],
+        "color": [
+          255,
+          178,
+          79
+        ],
+        "radius": 0.9,
+        "times": [
+          13.6,
+          33.8,
+          48.1
+        ]
+      },
+      {
+        "anchor": [
+          1581.0,
+          360.2
+        ],
+        "color": [
+          255,
+          97,
+          69
+        ],
+        "radius": 0.86,
+        "times": [
+          4.2,
+          27.6,
+          44.7
+        ]
+      }
+    ],
+    "rise": 0.16,
+    "hold": 0.65,
+    "fall": 0.48,
+    "halo_radius": 3.2,
+    "halo_strength": 0.12
+  },
+  "sun_glare": {
+    "roi": [
+      1344,
+      411,
+      1483,
+      450
+    ],
+    "glass_polygon": [
+      [
+        1350,
+        438
+      ],
+      [
+        1355,
+        428
+      ],
+      [
+        1370,
+        421
+      ],
+      [
+        1400,
+        417
+      ],
+      [
+        1439,
+        420
+      ],
+      [
+        1457,
+        426
+      ],
+      [
+        1474,
+        438
+      ],
+      [
+        1463,
+        447
+      ],
+      [
+        1382,
+        446
+      ],
+      [
+        1348,
+        444
+      ]
+    ],
+    "lobes": [
+      {
+        "center": [
+          1383,
+          425
+        ],
+        "radius": [
+          10,
+          3.1
+        ],
+        "angle": -15,
+        "gain": 1
+      },
+      {
+        "center": [
+          1421,
+          426.7
+        ],
+        "radius": [
+          8.4,
+          2.9
+        ],
+        "angle": 10,
+        "gain": 0.7
+      }
+    ],
+    "events": [
+      {
+        "time": 17,
+        "rise": 2.3,
+        "hold": 1.7,
+        "fall": 3.2,
+        "strength": 0.27
+      },
+      {
+        "time": 43,
+        "rise": 2.6,
+        "hold": 1.1,
+        "fall": 3.5,
+        "strength": 0.23
+      }
+    ],
+    "color": [
+      255,
+      245,
+      218
+    ],
+    "frame_preservation_thresholds": [
+      178,
+      228
+    ],
+    "notes": "Stationary pane-local specular reflection brightens during two soft sunbreaks, with additional attenuation from the existing passing terrain shadow. No moving flare or whole-frame exposure pulse."
+  },
+  "traffic": {
+    "roi": [
+      1472,
+      532,
+      1590,
+      653
+    ],
+    "road_polygon": [
+      [
+        1539,
+        551
+      ],
+      [
+        1524,
+        555
+      ],
+      [
+        1509,
+        559
+      ],
+      [
+        1497,
+        564
+      ],
+      [
+        1492,
+        570
+      ],
+      [
+        1492,
+        577
+      ],
+      [
+        1498,
+        585
+      ],
+      [
+        1509,
+        596
+      ],
+      [
+        1519,
+        605
+      ],
+      [
+        1523,
+        612
+      ],
+      [
+        1523,
+        621
+      ],
+      [
+        1528,
+        629
+      ],
+      [
+        1535,
+        637
+      ],
+      [
+        1542,
+        642
+      ],
+      [
+        1549,
+        638
+      ],
+      [
+        1546,
+        630
+      ],
+      [
+        1544,
+        620
+      ],
+      [
+        1546,
+        613
+      ],
+      [
+        1541,
+        605
+      ],
+      [
+        1530,
+        595
+      ],
+      [
+        1519,
+        586
+      ],
+      [
+        1512,
+        579
+      ],
+      [
+        1510,
+        573
+      ],
+      [
+        1513,
+        567
+      ],
+      [
+        1525,
+        561
+      ],
+      [
+        1539,
+        557
+      ]
+    ],
+    "ledge_blocker": [
+      [
+        1472,
+        639
+      ],
+      [
+        1590,
+        647
+      ],
+      [
+        1590,
+        653
+      ],
+      [
+        1472,
+        653
+      ]
+    ],
+    "route": [
+      [
+        1551,
+        545
+      ],
+      [
+        1537,
+        555
+      ],
+      [
+        1518,
+        561
+      ],
+      [
+        1506,
+        567
+      ],
+      [
+        1500,
+        574
+      ],
+      [
+        1503,
+        582
+      ],
+      [
+        1510,
+        589
+      ],
+      [
+        1520,
+        598
+      ],
+      [
+        1532,
+        608
+      ],
+      [
+        1533,
+        617
+      ],
+      [
+        1538,
+        627
+      ],
+      [
+        1541,
+        634
+      ],
+      [
+        1545,
+        649
+      ]
+    ],
+    "events": [
+      {
+        "time": 4,
+        "seconds": 25,
+        "reverse": false,
+        "body_color": [
+          199,
+          190,
+          165
+        ],
+        "roof_color": [
+          228,
+          218,
+          189
+        ]
+      },
+      {
+        "time": 32,
+        "seconds": 25,
+        "reverse": true,
+        "body_color": [
+          93,
+          105,
+          99
+        ],
+        "roof_color": [
+          149,
+          160,
+          146
+        ]
+      }
+    ],
+    "size_far": {
+      "length": 5.6,
+      "width": 2.5,
+      "height": 1.7
+    },
+    "size_near": {
+      "length": 8.4,
+      "width": 3.9,
+      "height": 2.7
+    },
+    "notes": "Two small utility rover passages. Arc-length sampled smooth asphalt centerline, perspective-scaled body, cab, wheels and contact shadow. Solid road/rock/foreground-shrub/ledge masks hide entrance and exit at full opacity. Initial route followed the inside curb after the turn and was corrected using source-scale coordinates. No floating headlight dots or fading vehicles."
+  }
+}

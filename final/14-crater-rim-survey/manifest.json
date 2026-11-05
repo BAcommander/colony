@@ -3,7 +3,7 @@
   "creative_concept_id": 20,
   "title": "Crater Rim Survey",
   "date": "2026-09-29",
-  "status": "Artwork and thumbnail accepted; first clouds and basin haze preview awaits playback review; soundtrack pending.",
+  "status": "V5 preserved after positive user feedback; longer-version continuation recipe saved, proposed timing unbuilt, music/runtime/4K pending.",
   "user_approved": true,
   "generator": "built-in image_gen",
   "selection": {
@@ -149,13 +149,29 @@
     "prior_manifest_snapshot": "final/14-crater-rim-survey/music/music-preparation-before-v3.json"
   },
   "motion_preparation": {
-    "status": "Eight-second principal motion preview rendered; periodic cycle pending.",
+    "status": "V5 final-round visibility candidate: broader/stronger greenhouse reflections, brighter longer tower beacons, clearer vehicle contrast and corrected alpha resampling. Prior layers/routes retained; user playback verdict pending.",
     "brief": {
       "path": "final/14-crater-rim-survey/motion-brief.md",
-      "sha256": "fcfa81fe417091609e26368d693519203a98edb95e00e19d7d51db410263babb",
-      "bytes": 1340
+      "sha256": "6cb4f2871dfc8134fe0bed359e65c4b6541e856aa01b40ec07f69eedda35cdfc",
+      "bytes": 4524
     },
     "preview": {
+      "path": "../../music/crater-rim-animation-v5/Crater-Rim-Survey-v5-60s-loop.mp4",
+      "sha256": "63553fc01d87c8e629d3f8268b511255877e14d155b2f0deb10481fe2a497be1",
+      "duration_seconds": 60,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "audio": false,
+      "user_review": "2026-11-05 positive feedback: ok brilliant; user requests preservation for the longer version. Full-length/4K and a new timing schedule are not approved by backup authority.",
+      "plan": "../../music/crater-rim-animation-v5/scene-plan.json",
+      "delivery_record": "../../music/crater-rim-animation-v5/delivery.json",
+      "repeat_review": "../../music/crater-rim-animation-v5/Crater-Rim-Survey-v5-3-loops-180s.mp4",
+      "normal_size_before_after": "../../music/crater-rim-animation-v5/Crater-Rim-Survey-v4-vs-v5-normal-size-20s.mp4"
+    },
+    "historical_v1_preview": {
       "path": "../../music/crater-rim-animation-v1/Crater-Rim-Survey-clouds-and-haze-v1-8s.mp4",
       "sha256": "6146e20bf49613f339906721549557abe900071fa41b75d6a91fcf7432e8de8e",
       "duration_seconds": 8,
@@ -165,17 +181,102 @@
       ],
       "fps": 30,
       "audio": false,
-      "user_review": "pending",
+      "user_review": "2026-11-05: user can barely see movement; too faint, substantial motion rework required",
       "plan": "../../music/crater-rim-animation-v1/scene-plan.json",
       "delivery_record": "../../music/crater-rim-animation-v1/delivery.json"
+    },
+    "layers": [
+      "forward source clouds",
+      "three-depth basin haze",
+      "terrain-only moving cloud shadows",
+      "perspective-mapped radar, telemetry and map target",
+      "three independent distant window holds",
+      "two locally renewed village ventilation plumes",
+      "two small terrace walkers with ground contact and planter occlusion",
+      "coupled white lamp core, shade lip, wall/desk spill and thermos-side reflection; two flicker clusters per minute",
+      "pane-local greenhouse sun reflections attenuated by passing cloud shadow",
+      "three source-anchored red/amber tower beacons",
+      "two perspective-scaled utility rover passages on the winding asphalt; full-opacity rock/vegetation/ledge occlusion"
+    ],
+    "source_unchanged": true,
+    "historical_v2_preview": {
+      "path": "../../music/crater-rim-animation-v2/Crater-Rim-Survey-v2-60s-loop.mp4",
+      "sha256": "3d403c69d0e01f3087f207bf8b07a9cf73f398d30f37ce5a761652098159f658",
+      "duration_seconds": 60,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "audio": false,
+      "user_review": "pending",
+      "plan": "../../music/crater-rim-animation-v2/scene-plan.json",
+      "delivery_record": "../../music/crater-rim-animation-v2/delivery.json",
+      "repeat_review": "../../music/crater-rim-animation-v2/Crater-Rim-Survey-v2-3-loops-180s.mp4"
+    },
+    "historical_v3_preview": {
+      "path": "../../music/crater-rim-animation-v3/Crater-Rim-Survey-v3-60s-loop.mp4",
+      "sha256": "ad9cef7ec4c7e3703aa29585490fdf5076ee8ac1f1fc278a3189436a61ee04b5",
+      "duration_seconds": 60,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "audio": false,
+      "user_review": "pending",
+      "plan": "../../music/crater-rim-animation-v3/scene-plan.json",
+      "delivery_record": "../../music/crater-rim-animation-v3/delivery.json",
+      "repeat_review": "../../music/crater-rim-animation-v3/Crater-Rim-Survey-v3-3-loops-180s.mp4"
+    },
+    "historical_v4_preview": {
+      "path": "../../music/crater-rim-animation-v4/Crater-Rim-Survey-v4-60s-loop.mp4",
+      "sha256": "0e285e4353778872899b354d3517d8c4f324ff170fe46fcec2f8f7612d93d56f",
+      "duration_seconds": 60,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": 30,
+      "audio": false,
+      "user_review": "2026-11-05: glints and beacons small/distant and hard to see; user requests stronger final-round treatment.",
+      "plan": "../../music/crater-rim-animation-v4/scene-plan.json",
+      "delivery_record": "../../music/crater-rim-animation-v4/delivery.json",
+      "repeat_review": "../../music/crater-rim-animation-v4/Crater-Rim-Survey-v4-3-loops-180s.mp4"
+    },
+    "visibility_polish": {
+      "beacons": "small bright centres, bounded coloured halos, 2.72s pulses at the V4 onset times",
+      "sunbreaks_seconds": [
+        [
+          17,
+          25.7
+        ],
+        [
+          43,
+          51.6
+        ]
+      ],
+      "traffic": "clearer pale/rust roofs and dark windscreens, slightly larger within road scale, premultiplied resampling; routes/times/occlusion unchanged",
+      "comparison": "first10s V4 then10s V5, both scene17-27s, full1280x720, all600pictures source-exact"
     }
   },
   "video": null,
   "audio": null,
-  "resolution_note": "Native clean source and generated thumbnail are 1672x941; no 4K video produced.",
+  "resolution_note": "Native clean source is 1672x941; current minute review is 1280x720, no 4K production master yet.",
   "approval": {
     "date": "2026-09-29",
     "feedback": "love it, commit and push everyting",
     "scope": "Current release artwork/thumbnail package 11-14 accepted. Music and motion remain unproduced proposals; no audio, animation or upload approval implied."
+  },
+  "long_version_preparation": {
+    "status": "Saved continuation recipe and deterministic600s draft schedule; long renderer not implemented.",
+    "guide": "music/crater-rim-animation-v5/LONG_VERSION.md",
+    "plan": "music/crater-rim-animation-v5/long-version-plan.json",
+    "plan_sha256": "1256dfab9b1c0a1ad65e1a77ea3484035c526d10eec232d1262218c62beaaa98",
+    "plan_validation": "music/crater-rim-animation-v5/continuation-plan-validation.json",
+    "requirements": "music/crater-rim-animation-v5/requirements-resume.txt",
+    "final_program_seconds": null,
+    "soundtrack_selected": false,
+    "backup_checkpoint": "music/production-backup-2026-11-05-crater-rim/README.md"
   }
 }

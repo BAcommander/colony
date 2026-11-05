@@ -1,0 +1,16 @@
+{
+  "python": "3.13.14",
+  "numpy": "2.4.3",
+  "opencv": "5.0.0",
+  "pillow": "12.1.1",
+  "imageio_ffmpeg": "0.6.0",
+  "ffmpeg": "7.1-essentials_build-www.gyan.dev",
+  "ffmpeg_binary": "ffmpeg-win-x86_64-v7.1.exe",
+  "ffmpeg_binary_sha256": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3",
+  "no_packages_installed_for_this_task": true,
+  "source_native_dimensions": [
+    1672,
+    941
+  ],
+  "preview_resize": "OpenCV INTER_AREA to1280x720; final4K still pending"
+}

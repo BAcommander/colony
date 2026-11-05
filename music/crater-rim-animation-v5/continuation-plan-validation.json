@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "long_renderer_implemented": false,
+  "long_schedule_playback_approved": false,
+  "v5_source_inputs_and_two_media_hashes_verified": true,
+  "baseline_native_frames_rendered": 6,
+  "plan_sha256": "1256dfab9b1c0a1ad65e1a77ea3484035c526d10eec232d1262218c62beaaa98",
+  "all_six_native_rgb_controls_exact": true,
+  "scene_manifest_plan_and_brief_hashes_valid": true,
+  "attention_windows_seconds": [
+    [
+      "lamp",
+      87.3,
+      87.46
+    ],
+    [
+      "lamp",
+      87.6,
+      87.79999999999998
+    ],
+    [
+      "lamp",
+      397.7,
+      397.94000000000005
+    ],
+    [
+      "glint",
+      48.2,
+      56.9
+    ],
+    [
+      "glint",
+      238.1,
+      246.7
+    ],
+    [
+      "glint",
+      473.6,
+      482.30000000000007
+    ],
+    [
+      "traffic",
+      52.0,
+      77.0
+    ],
+    [
+      "traffic",
+      197.5,
+      222.5
+    ],
+    [
+      "traffic",
+      351.0,
+      376.0
+    ],
+    [
+      "traffic",
+      511.5,
+      536.5
+    ]
+  ],
+  "quiet_600s_join_in_draft_schedule": true,
+  "final_runtime_and_soundtrack_pending": true
+}

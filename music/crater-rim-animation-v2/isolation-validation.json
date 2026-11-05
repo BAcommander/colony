@@ -1,0 +1,76 @@
+{
+  "frozen_inputs": {
+    "final/14-crater-rim-survey/artwork-v2.png": "ffb509afd49853590d7b01a521288b3d5cca47f7758feaa50136feabc4241734",
+    "music/crater-rim-animation-v2/scene-plan.json": "0489ce890c31348bb095191d43806c005efae3b7aabbaf4082f4910893a401c0",
+    "music/crater-rim-animation-v2/render_scene.py": "11133fa904df95ffa274848c67a6978bb9e4caa04b119a3fcaea0753cbf7826b",
+    "music/crater-rim-animation-v2/dependencies/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+    "music/crater-rim-animation-v2/dependencies/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379"
+  },
+  "verification_script_sha256": "da7d72107f6f52dd71cc051db6df5dd4f94a2bb6b0b0c9181afb2526198e0fc6",
+  "clips": [
+    {
+      "layer": "clouds",
+      "path": "Crater-Rim-Survey-v2-clouds-8s.mp4",
+      "sha256": "1e4d700fda7105dfcae0389b111540f4e0e5619d685d0d73d95263901e37e0c1",
+      "bytes": 1488309,
+      "decoded_frames": 240,
+      "sequential_timestamps": true,
+      "audio": false,
+      "start_scene_time": 5,
+      "direct_picture_control_indices": [
+        0,
+        150,
+        239
+      ],
+      "all_native_to_encoded_yuv_controls_exact": true
+    },
+    {
+      "layer": "haze",
+      "path": "Crater-Rim-Survey-v2-haze-8s.mp4",
+      "sha256": "87c3ef565a3dfaba37b49a155227091375e861d1f34fb8d73033915afa13e71a",
+      "bytes": 1778744,
+      "decoded_frames": 240,
+      "sequential_timestamps": true,
+      "audio": false,
+      "start_scene_time": 5,
+      "direct_picture_control_indices": [
+        0,
+        150,
+        239
+      ],
+      "all_native_to_encoded_yuv_controls_exact": true
+    },
+    {
+      "layer": "shadows",
+      "path": "Crater-Rim-Survey-v2-shadows-8s.mp4",
+      "sha256": "3cee7776004fd6b9f0bde93077d23e03a69fe4edfd056f52c597d789dd7fe3af",
+      "bytes": 2806863,
+      "decoded_frames": 240,
+      "sequential_timestamps": true,
+      "audio": false,
+      "start_scene_time": 5,
+      "direct_picture_control_indices": [
+        0,
+        150,
+        239
+      ],
+      "all_native_to_encoded_yuv_controls_exact": true
+    },
+    {
+      "layer": "survey",
+      "path": "Crater-Rim-Survey-v2-survey-8s.mp4",
+      "sha256": "6a87edb44cc4dd3cfec0756b36247e1eb99cf01c1ec4bf3e1f3650f9c1cb2585",
+      "bytes": 1066666,
+      "decoded_frames": 240,
+      "sequential_timestamps": true,
+      "audio": false,
+      "start_scene_time": 5,
+      "direct_picture_control_indices": [
+        0,
+        150,
+        239
+      ],
+      "all_native_to_encoded_yuv_controls_exact": true
+    }
+  ]
+}

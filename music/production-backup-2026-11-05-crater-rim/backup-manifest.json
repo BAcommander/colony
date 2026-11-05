@@ -1,0 +1,1306 @@
+{
+  "date": "2026-11-05",
+  "branch": "main",
+  "selection": "music/production-backup-2026-11-05-crater-rim/selection.json",
+  "manifest_self_excluded": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 39361,
+      "sha256": "e77d990609fc7d59acd9721adeb6c78d2b9d2bf72aaa5d346515204344fb22eb",
+      "git_blob_bytes": 38936,
+      "git_blob_sha256": "4dd29aad47b51a8b27105c5b9bcded0ef8e8681d3c646b68add6af72ef480acf",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 11486,
+      "sha256": "805cacb0ca687f1ecc8fa62e52f171deec4fb93632e19e9ede3a12e6a8b1bb7a",
+      "git_blob_bytes": 11317,
+      "git_blob_sha256": "52908e24938f901836edcba92f109f00cf12c757c43ca81b90370ff647958806",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 164722,
+      "sha256": "a878ad7a7b4ecc6a879a168e4104f631f6677f5a65d8d7030c5c248edde1a431",
+      "git_blob_bytes": 164722,
+      "git_blob_sha256": "a878ad7a7b4ecc6a879a168e4104f631f6677f5a65d8d7030c5c248edde1a431",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "EXPORTS.md",
+      "bytes": 5833,
+      "sha256": "74aa06784617381058d91089489a4b481d7f9d29a54d56198d0d44c151835fdb",
+      "git_blob_bytes": 5788,
+      "git_blob_sha256": "a31c4ef770761fd3c5bde78f10e5600ad2b3c1a2e7f6ed9eb6d7c70b6126acd9",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "bytes": 48040,
+      "sha256": "e5f720377b68169a4482aa9a828f2f7f221d3d3809464da12afe2b019727dc72",
+      "git_blob_bytes": 48040,
+      "git_blob_sha256": "e5f720377b68169a4482aa9a828f2f7f221d3d3809464da12afe2b019727dc72",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/ANIMATION_KNOWLEDGE_BANK.md",
+      "bytes": 71876,
+      "sha256": "7956c6a87707978625fb00b046929566ce1eed10cd251ca5807929f8672978e9",
+      "git_blob_bytes": 71876,
+      "git_blob_sha256": "7956c6a87707978625fb00b046929566ce1eed10cd251ca5807929f8672978e9",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "creative/ANIMATION_WORKFLOW.md",
+      "bytes": 15394,
+      "sha256": "b63fcbdfd3b0adf8014cab8a38dc790a6a768dda573bf82b3b8f6246e7c97e50",
+      "git_blob_bytes": 15295,
+      "git_blob_sha256": "203f594c61651dcbce9dc4942663ce0f4ad501d027a21c85575e92fc323ab2be",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "creative/LEARNINGS.md",
+      "bytes": 34613,
+      "sha256": "a7dab01552ea8a730219f83e97c03b15535ebae763d33b90b64fb13d215d8262",
+      "git_blob_bytes": 34458,
+      "git_blob_sha256": "03aa04fdba2ee8d67c25ad24c263bf4a30e9271c3efb2690dca9baf55ef8809c",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "creative/MUSIC_WORKFLOW.md",
+      "bytes": 49147,
+      "sha256": "ba51c42ffb9aa83ccf0b0f497f27b33a8692d30e6d2f42b63b3331144a536d60",
+      "git_blob_bytes": 48917,
+      "git_blob_sha256": "7453fbe0fb2125b04ad8a61e3715f1ae4c20b5725fd84e897ef236eccface7e0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "creative/NEXT_SCENE_RUNBOOK.md",
+      "bytes": 10070,
+      "sha256": "69480cd0a30b3e033a4c80d12942fa35c46bd22d156f7225aa7fb0d9c65b7f83",
+      "git_blob_bytes": 10001,
+      "git_blob_sha256": "83732c0889c520753dafa4ac95cdda7905a52f9e57bf25744b4301c6790b8374",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "final/14-crater-rim-survey/README.md",
+      "bytes": 2342,
+      "sha256": "e68ffcbe92eaf8d684a557cd3f4c8bdad8559199053639c66345d6828ebb15cb",
+      "git_blob_bytes": 2342,
+      "git_blob_sha256": "e68ffcbe92eaf8d684a557cd3f4c8bdad8559199053639c66345d6828ebb15cb",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/artwork-generation-v2.md",
+      "bytes": 3939,
+      "sha256": "575d688e2b030868e8c4a9130d5fcadded72c36d39271b076a2577f1185900dd",
+      "git_blob_bytes": 3939,
+      "git_blob_sha256": "575d688e2b030868e8c4a9130d5fcadded72c36d39271b076a2577f1185900dd",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/artwork-v2.png",
+      "bytes": 2303231,
+      "sha256": "ffb509afd49853590d7b01a521288b3d5cca47f7758feaa50136feabc4241734",
+      "git_blob_bytes": 2303231,
+      "git_blob_sha256": "ffb509afd49853590d7b01a521288b3d5cca47f7758feaa50136feabc4241734",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/description.txt",
+      "bytes": 519,
+      "sha256": "7f5f7210090c44f1de81e0ef6af5899ab315b8a5371dad8dad09d8d16019ff7e",
+      "git_blob_bytes": 519,
+      "git_blob_sha256": "7f5f7210090c44f1de81e0ef6af5899ab315b8a5371dad8dad09d8d16019ff7e",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/manifest.json",
+      "bytes": 13017,
+      "sha256": "5c3044d68c9755e8c79025ea3e5b9b11587e81c108f145409c90b8f40fe164e6",
+      "git_blob_bytes": 13017,
+      "git_blob_sha256": "5c3044d68c9755e8c79025ea3e5b9b11587e81c108f145409c90b8f40fe164e6",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/motion-brief.md",
+      "bytes": 4524,
+      "sha256": "6cb4f2871dfc8134fe0bed359e65c4b6541e856aa01b40ec07f69eedda35cdfc",
+      "git_blob_bytes": 4524,
+      "git_blob_sha256": "6cb4f2871dfc8134fe0bed359e65c4b6541e856aa01b40ec07f69eedda35cdfc",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/README.md",
+      "bytes": 5991,
+      "sha256": "4bce7b2f043299307a86baf7e5eec37a572e6b82bfa15ab828244b7a674e47c7",
+      "git_blob_bytes": 5991,
+      "git_blob_sha256": "4bce7b2f043299307a86baf7e5eec37a572e6b82bfa15ab828244b7a674e47c7",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/ambience-prompt-v3.txt",
+      "bytes": 385,
+      "sha256": "aa376c911ef58d9e17126ec3b9b8092304e90675327fa1401413c643d9d362cb",
+      "git_blob_bytes": 385,
+      "git_blob_sha256": "aa376c911ef58d9e17126ec3b9b8092304e90675327fa1401413c643d9d362cb",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-crater-basin-v4.txt",
+      "bytes": 1157,
+      "sha256": "f430d47b529cf5938df3990dda268ed150013dd00d46ef3c650cee57b812c93e",
+      "git_blob_bytes": 1157,
+      "git_blob_sha256": "f430d47b529cf5938df3990dda268ed150013dd00d46ef3c650cee57b812c93e",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-crater-room-v4.txt",
+      "bytes": 1207,
+      "sha256": "84dfcc823d9504491c62d106ae5e2c4c3eb7e4b9c4c9b9f67a085e635d04e8d8",
+      "git_blob_bytes": 1207,
+      "git_blob_sha256": "84dfcc823d9504491c62d106ae5e2c4c3eb7e4b9c4c9b9f67a085e635d04e8d8",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-long-version-v2.txt",
+      "bytes": 1060,
+      "sha256": "b8509854fd500fea184036c8c1857e70e95c91ed6dd387187c94c72c1c7a2040",
+      "git_blob_bytes": 1060,
+      "git_blob_sha256": "b8509854fd500fea184036c8c1857e70e95c91ed6dd387187c94c72c1c7a2040",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-long-version-v3.txt",
+      "bytes": 1119,
+      "sha256": "96cb67f58cd4fd9c7183371b3059ff4daeb207ebb82d3276e51fa5ce97294da4",
+      "git_blob_bytes": 1119,
+      "git_blob_sha256": "96cb67f58cd4fd9c7183371b3059ff4daeb207ebb82d3276e51fa5ce97294da4",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-long-version.txt",
+      "bytes": 2118,
+      "sha256": "40d41782a3ab2224f53eb02f791d28ec9744f162a77933e9c2a2f459f52d5208",
+      "git_blob_bytes": 2118,
+      "git_blob_sha256": "40d41782a3ab2224f53eb02f791d28ec9744f162a77933e9c2a2f459f52d5208",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-prompt-v1.txt",
+      "bytes": 1789,
+      "sha256": "687b1ee72532a4f2f9cc475b5ec8342032616e5693d9b1d957bb9c9ed992a090",
+      "git_blob_bytes": 1789,
+      "git_blob_sha256": "687b1ee72532a4f2f9cc475b5ec8342032616e5693d9b1d957bb9c9ed992a090",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-prompt-v2.txt",
+      "bytes": 1226,
+      "sha256": "d076cca02eee29f64f7267c206c8195ccee65fd56af17ba435ce1b02cfa7f0d2",
+      "git_blob_bytes": 1226,
+      "git_blob_sha256": "d076cca02eee29f64f7267c206c8195ccee65fd56af17ba435ce1b02cfa7f0d2",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-prompt-v3.txt",
+      "bytes": 1039,
+      "sha256": "3aed145203e044ca2f5f9218a0862809620d3c336cb7682159c005e7459a1557",
+      "git_blob_bytes": 1039,
+      "git_blob_sha256": "3aed145203e044ca2f5f9218a0862809620d3c336cb7682159c005e7459a1557",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/generation-record.json",
+      "bytes": 603,
+      "sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c",
+      "git_blob_bytes": 603,
+      "git_blob_sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/music-preparation-before-v3.json",
+      "bytes": 1103,
+      "sha256": "592aca9243e5820315ff081ac986251fe3a23bf69046c57e6605bd9ce6ba4f30",
+      "git_blob_bytes": 1103,
+      "git_blob_sha256": "592aca9243e5820315ff081ac986251fe3a23bf69046c57e6605bd9ce6ba4f30",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/prompt-manifest-v3.json",
+      "bytes": 1188,
+      "sha256": "7ae04507167769cc191e911aafd6e05de1c4cf4de680ed637eaa943e4eb6df21",
+      "git_blob_bytes": 1188,
+      "git_blob_sha256": "7ae04507167769cc191e911aafd6e05de1c4cf4de680ed637eaa943e4eb6df21",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/thumbnail-prompt-v1.md",
+      "bytes": 1957,
+      "sha256": "144bcf6e80641031b1d7a30ce04ca98bb96a0135408a261e3723b40cbeb6449a",
+      "git_blob_bytes": 1957,
+      "git_blob_sha256": "144bcf6e80641031b1d7a30ce04ca98bb96a0135408a261e3723b40cbeb6449a",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/thumbnail-v1.jpg",
+      "bytes": 333065,
+      "sha256": "3158cf9fffc8cd735ebde64e89210fcff1629e470cf13b1d1791c01045bfe6a0",
+      "git_blob_bytes": 333065,
+      "git_blob_sha256": "3158cf9fffc8cd735ebde64e89210fcff1629e470cf13b1d1791c01045bfe6a0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/thumbnail-v1.png",
+      "bytes": 2241972,
+      "sha256": "199c5930155e772af700866e4aa2aafa931ad1478d3a2875522c8943ab124543",
+      "git_blob_bytes": 2241972,
+      "git_blob_sha256": "199c5930155e772af700866e4aa2aafa931ad1478d3a2875522c8943ab124543",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/youtube-tags.txt",
+      "bytes": 302,
+      "sha256": "c7ea6663d38cc79cc517e17caec30a5f68454ffb74f8a49c4f7bd39680d7410c",
+      "git_blob_bytes": 302,
+      "git_blob_sha256": "c7ea6663d38cc79cc517e17caec30a5f68454ffb74f8a49c4f7bd39680d7410c",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/youtube-title.txt",
+      "bytes": 59,
+      "sha256": "270d8fb580862c63adc0c44e6225a2be2b6db01c3acb477e0939201c02551b70",
+      "git_blob_bytes": 59,
+      "git_blob_sha256": "270d8fb580862c63adc0c44e6225a2be2b6db01c3acb477e0939201c02551b70",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "final/README.md",
+      "bytes": 7961,
+      "sha256": "16e64296f3e587147b4b2aa940bb2d7165999e442dc709d560e50e7cdb83c6f7",
+      "git_blob_bytes": 7909,
+      "git_blob_sha256": "ce97536144cc416d6afe0f8dc14691f6ce4df4789e8e5804e0463a9122922517",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/crater-rim-animation-v1/README.md",
+      "bytes": 2621,
+      "sha256": "e9be690b8a3272aa20d88a8e6223b556563718da633abe06309b12ca47a6fb9b",
+      "git_blob_bytes": 2610,
+      "git_blob_sha256": "2c3d9f9946aa8b5e4a0719ba35a7dda51d732f553be1ab9d8e2e5e8014ba617f",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/crater-rim-animation-v2/README.md",
+      "bytes": 4212,
+      "sha256": "1343748dded64885efe72283e5bd76eb6057cc52b95b3664f56dbb4604194e44",
+      "git_blob_bytes": 4212,
+      "git_blob_sha256": "1343748dded64885efe72283e5bd76eb6057cc52b95b3664f56dbb4604194e44",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/analytic-validation.json",
+      "bytes": 3221,
+      "sha256": "4925df859c045264ef6b6d9530e991f26047aa7fdc9eb6e95a2ec808bb3ed6ae",
+      "git_blob_bytes": 3221,
+      "git_blob_sha256": "4925df859c045264ef6b6d9530e991f26047aa7fdc9eb6e95a2ec808bb3ed6ae",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/delivery.json",
+      "bytes": 6859,
+      "sha256": "7a4593bcbbee8c7fa02e65df2ac5d35a4c74ecaca1c7c5576d3620841c1f38ff",
+      "git_blob_bytes": 6859,
+      "git_blob_sha256": "7a4593bcbbee8c7fa02e65df2ac5d35a4c74ecaca1c7c5576d3620841c1f38ff",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/dependencies/dust_transport.py",
+      "bytes": 3185,
+      "sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "git_blob_bytes": 3185,
+      "git_blob_sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/dependencies/periodic_transport.py",
+      "bytes": 1600,
+      "sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "git_blob_bytes": 1600,
+      "git_blob_sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/history/initial-telemetry-reset/render_scene.py",
+      "bytes": 13586,
+      "sha256": "f075836c54a5e38df53e48f391d789e663f128634255d9affc3ff1062ec8ed39",
+      "git_blob_bytes": 13586,
+      "git_blob_sha256": "f075836c54a5e38df53e48f391d789e663f128634255d9affc3ff1062ec8ed39",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/history/initial-telemetry-reset/scene-plan.json",
+      "bytes": 14056,
+      "sha256": "637f4dcd4afdbe90dcff4ab598d91d63a1ae3d25adb2eb57f088931ff63853f7",
+      "git_blob_bytes": 14056,
+      "git_blob_sha256": "637f4dcd4afdbe90dcff4ab598d91d63a1ae3d25adb2eb57f088931ff63853f7",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/history/scene-plan-before-window-correction.json",
+      "bytes": 14056,
+      "sha256": "8d825bb8d3b7fe3b4b8ec52c8ad8af40b059fc8a1c2ac55ef447ab040b1f59a6",
+      "git_blob_bytes": 14056,
+      "git_blob_sha256": "8d825bb8d3b7fe3b4b8ec52c8ad8af40b059fc8a1c2ac55ef447ab040b1f59a6",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/inspection/decoded-028.00s.png",
+      "bytes": 1112757,
+      "sha256": "4ffc29d8580f60ec04a5fa3507f35ad6c1d22b06ea158b4050f00b2350033835",
+      "git_blob_bytes": 1112757,
+      "git_blob_sha256": "4ffc29d8580f60ec04a5fa3507f35ad6c1d22b06ea158b4050f00b2350033835",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/inspection/mask-overlay.png",
+      "bytes": 2114302,
+      "sha256": "38403010f9d3ba84d2ae12b42975f5278657e1428d0dcd1caf3aed1ebc923b32",
+      "git_blob_bytes": 2114302,
+      "git_blob_sha256": "38403010f9d3ba84d2ae12b42975f5278657e1428d0dcd1caf3aed1ebc923b32",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/isolation-validation.json",
+      "bytes": 2682,
+      "sha256": "5efc222f9d0e5b03eaa8ef175d222ce63d42b0ff3c5795a1524efe83271f232d",
+      "git_blob_bytes": 2682,
+      "git_blob_sha256": "5efc222f9d0e5b03eaa8ef175d222ce63d42b0ff3c5795a1524efe83271f232d",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/render_scene.py",
+      "bytes": 13684,
+      "sha256": "11133fa904df95ffa274848c67a6978bb9e4caa04b119a3fcaea0753cbf7826b",
+      "git_blob_bytes": 13684,
+      "git_blob_sha256": "11133fa904df95ffa274848c67a6978bb9e4caa04b119a3fcaea0753cbf7826b",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/runtime.json",
+      "bytes": 503,
+      "sha256": "73b2400692cdd14b35d2b003d0c525c1d429785a2159a1dbc7932bb945989148",
+      "git_blob_bytes": 503,
+      "git_blob_sha256": "73b2400692cdd14b35d2b003d0c525c1d429785a2159a1dbc7932bb945989148",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/scene-plan.json",
+      "bytes": 14056,
+      "sha256": "0489ce890c31348bb095191d43806c005efae3b7aabbaf4082f4910893a401c0",
+      "git_blob_bytes": 14056,
+      "git_blob_sha256": "0489ce890c31348bb095191d43806c005efae3b7aabbaf4082f4910893a401c0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/validate_delivery.py",
+      "bytes": 8822,
+      "sha256": "319f98629b3acb8ef251ca3bba5c49f064d34120a7141990745363571cc78592",
+      "git_blob_bytes": 8822,
+      "git_blob_sha256": "319f98629b3acb8ef251ca3bba5c49f064d34120a7141990745363571cc78592",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v2/verify_isolations.py",
+      "bytes": 1815,
+      "sha256": "da7d72107f6f52dd71cc051db6df5dd4f94a2bb6b0b0c9181afb2526198e0fc6",
+      "git_blob_bytes": 1815,
+      "git_blob_sha256": "da7d72107f6f52dd71cc051db6df5dd4f94a2bb6b0b0c9181afb2526198e0fc6",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/README.md",
+      "bytes": 3197,
+      "sha256": "3f7a635a67c3972413a9147e8280c167bdafbd2a621ef8b01dd71d4342b3fe87",
+      "git_blob_bytes": 3197,
+      "git_blob_sha256": "3f7a635a67c3972413a9147e8280c167bdafbd2a621ef8b01dd71d4342b3fe87",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/analytic-validation.json",
+      "bytes": 4326,
+      "sha256": "07d7fecfa466e3017dc72f922ad319132f3655ced065876483f99e9921913322",
+      "git_blob_bytes": 4326,
+      "git_blob_sha256": "07d7fecfa466e3017dc72f922ad319132f3655ced065876483f99e9921913322",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/check_retained_layers.py",
+      "bytes": 2125,
+      "sha256": "339c7c05133483acf59a74d0e6f7f5a121ee8626cc217d922e79bf7c1da2b3c2",
+      "git_blob_bytes": 2125,
+      "git_blob_sha256": "339c7c05133483acf59a74d0e6f7f5a121ee8626cc217d922e79bf7c1da2b3c2",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/delivery.json",
+      "bytes": 8634,
+      "sha256": "3212ee40fe709c5ffe1757c1893b1935df73b4e24538a02e288392acdc7fcb0f",
+      "git_blob_bytes": 8634,
+      "git_blob_sha256": "3212ee40fe709c5ffe1757c1893b1935df73b4e24538a02e288392acdc7fcb0f",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/dependencies/dust_transport.py",
+      "bytes": 3185,
+      "sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "git_blob_bytes": 3185,
+      "git_blob_sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/dependencies/periodic_transport.py",
+      "bytes": 1600,
+      "sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "git_blob_bytes": 1600,
+      "git_blob_sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/detail-review-validation.json",
+      "bytes": 1333,
+      "sha256": "596814a5155f24242bce271f5e9526b695a5ca2f6b401bdadfa5234d509bd8b2",
+      "git_blob_bytes": 1333,
+      "git_blob_sha256": "596814a5155f24242bce271f5e9526b695a5ca2f6b401bdadfa5234d509bd8b2",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/feedback/ChatGPT_H8S6kFfWf3.png",
+      "bytes": 396170,
+      "sha256": "8761daebd537133858cd93651e669bf92778f776228b57a142adf6491ae6c159",
+      "git_blob_bytes": 396170,
+      "git_blob_sha256": "8761daebd537133858cd93651e669bf92778f776228b57a142adf6491ae6c159",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/feedback/ChatGPT_StCLcadPnp.png",
+      "bytes": 408780,
+      "sha256": "f14885ec48849deaab31d36dcbe81e340d4aeefe9ae733c70d587f17214e4d9c",
+      "git_blob_bytes": 408780,
+      "git_blob_sha256": "f14885ec48849deaab31d36dcbe81e340d4aeefe9ae733c70d587f17214e4d9c",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/history/first-local-pass/render_scene.py",
+      "bytes": 9102,
+      "sha256": "1b0f216412c452a00d228f926066c96b9a0644fc44ffe4c66f5e0f2633e14e25",
+      "git_blob_bytes": 9102,
+      "git_blob_sha256": "1b0f216412c452a00d228f926066c96b9a0644fc44ffe4c66f5e0f2633e14e25",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/history/first-local-pass/scene-plan.json",
+      "bytes": 20952,
+      "sha256": "f3fb007fff0b9381c573c18ae2ce53c6735431f7ac85e2ff22f507ba8a774195",
+      "git_blob_bytes": 20952,
+      "git_blob_sha256": "f3fb007fff0b9381c573c18ae2ce53c6735431f7ac85e2ff22f507ba8a774195",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/inspection/decoded-lamp-detail.png",
+      "bytes": 550247,
+      "sha256": "75fd7bfc18e258ee516f3e2c496aac81bf40c48a8324e7b62b94902e0e107d3c",
+      "git_blob_bytes": 550247,
+      "git_blob_sha256": "75fd7bfc18e258ee516f3e2c496aac81bf40c48a8324e7b62b94902e0e107d3c",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/inspection/decoded-village-detail.png",
+      "bytes": 490495,
+      "sha256": "d11c7e1ca4850691f338177b45c3f631ab1b6744b9ec85df15f4d5df69581231",
+      "git_blob_bytes": 490495,
+      "git_blob_sha256": "d11c7e1ca4850691f338177b45c3f631ab1b6744b9ec85df15f4d5df69581231",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/inspection/lamp-mask-detail.png",
+      "bytes": 952595,
+      "sha256": "5c11d6420328fbf39788bb081a9f489a1809da8c149a34eb435e24ba1736f9c5",
+      "git_blob_bytes": 952595,
+      "git_blob_sha256": "5c11d6420328fbf39788bb081a9f489a1809da8c149a34eb435e24ba1736f9c5",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/inspection/village-mask-detail.png",
+      "bytes": 494243,
+      "sha256": "ace6e990b304ef909bf289bda1f30f0353b813bae230793a93795474e4dd7aa5",
+      "git_blob_bytes": 494243,
+      "git_blob_sha256": "ace6e990b304ef909bf289bda1f30f0353b813bae230793a93795474e4dd7aa5",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/make_detail_reviews.py",
+      "bytes": 2132,
+      "sha256": "08ede338c4d686cee687b2b9ffe66616b07ed5000155a7962ae4da7c760d488b",
+      "git_blob_bytes": 2132,
+      "git_blob_sha256": "08ede338c4d686cee687b2b9ffe66616b07ed5000155a7962ae4da7c760d488b",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/render_scene.py",
+      "bytes": 9208,
+      "sha256": "23b56c47214b8f0c8ca041c0c99103630bce4322f04efc12e55ea41a29d11a17",
+      "git_blob_bytes": 9208,
+      "git_blob_sha256": "23b56c47214b8f0c8ca041c0c99103630bce4322f04efc12e55ea41a29d11a17",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/retained-layer-validation.json",
+      "bytes": 1287,
+      "sha256": "2cf0111c0c19b0eba2c8987ee405e0839a992507d83172200a18d0256a524af1",
+      "git_blob_bytes": 1287,
+      "git_blob_sha256": "2cf0111c0c19b0eba2c8987ee405e0839a992507d83172200a18d0256a524af1",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/runtime.json",
+      "bytes": 503,
+      "sha256": "73b2400692cdd14b35d2b003d0c525c1d429785a2159a1dbc7932bb945989148",
+      "git_blob_bytes": 503,
+      "git_blob_sha256": "73b2400692cdd14b35d2b003d0c525c1d429785a2159a1dbc7932bb945989148",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/scene-plan.json",
+      "bytes": 20952,
+      "sha256": "15bb8938f2738aaf819ac2a1445bdbebbfd9958afd7754b04095293b50fa1b28",
+      "git_blob_bytes": 20952,
+      "git_blob_sha256": "15bb8938f2738aaf819ac2a1445bdbebbfd9958afd7754b04095293b50fa1b28",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/user-request.json",
+      "bytes": 791,
+      "sha256": "000770ddb04e0447fb7bad1aa2cc1d16096f09fb6615e02e9d2729685545fe11",
+      "git_blob_bytes": 791,
+      "git_blob_sha256": "000770ddb04e0447fb7bad1aa2cc1d16096f09fb6615e02e9d2729685545fe11",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/v2_renderer_snapshot.py",
+      "bytes": 13684,
+      "sha256": "11133fa904df95ffa274848c67a6978bb9e4caa04b119a3fcaea0753cbf7826b",
+      "git_blob_bytes": 13684,
+      "git_blob_sha256": "11133fa904df95ffa274848c67a6978bb9e4caa04b119a3fcaea0753cbf7826b",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v3/validate_delivery.py",
+      "bytes": 9014,
+      "sha256": "bc7f5633e964ee9baef5e7c1c500ec73b54dcc1cff54cdb833262d9422f52208",
+      "git_blob_bytes": 9014,
+      "git_blob_sha256": "bc7f5633e964ee9baef5e7c1c500ec73b54dcc1cff54cdb833262d9422f52208",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/README.md",
+      "bytes": 3864,
+      "sha256": "6214ddee919cd0f71c039bd8ca70b9868e7099cf5acbb3e9b59819b47d1e35e2",
+      "git_blob_bytes": 3864,
+      "git_blob_sha256": "6214ddee919cd0f71c039bd8ca70b9868e7099cf5acbb3e9b59819b47d1e35e2",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/analytic-validation.json",
+      "bytes": 5954,
+      "sha256": "fa0f11d9a9b491e6db549159a8bae18a244f49677baa2b8655ef11319906cfd0",
+      "git_blob_bytes": 5954,
+      "git_blob_sha256": "fa0f11d9a9b491e6db549159a8bae18a244f49677baa2b8655ef11319906cfd0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/check_retained_layers.py",
+      "bytes": 2189,
+      "sha256": "bed0a954eea2b1c39cef5cc1e84678a74129014cb0e8b1c3fea017b73cf56c47",
+      "git_blob_bytes": 2189,
+      "git_blob_sha256": "bed0a954eea2b1c39cef5cc1e84678a74129014cb0e8b1c3fea017b73cf56c47",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/delivery.json",
+      "bytes": 11227,
+      "sha256": "226831343892099acc1e03bb6239ab9e769d9698079fcb0e721891ccebb51ce7",
+      "git_blob_bytes": 11227,
+      "git_blob_sha256": "226831343892099acc1e03bb6239ab9e769d9698079fcb0e721891ccebb51ce7",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/dependencies/dust_transport.py",
+      "bytes": 3185,
+      "sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "git_blob_bytes": 3185,
+      "git_blob_sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/dependencies/periodic_transport.py",
+      "bytes": 1600,
+      "sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "git_blob_bytes": 1600,
+      "git_blob_sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/detail-review-validation.json",
+      "bytes": 1336,
+      "sha256": "eb78728503630d8da99831934d3590028a10455ff057074d39eae3d9388d1d84",
+      "git_blob_bytes": 1336,
+      "git_blob_sha256": "eb78728503630d8da99831934d3590028a10455ff057074d39eae3d9388d1d84",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/history/first-beacon-placement/beacon-peak-21.8.png",
+      "bytes": 61086,
+      "sha256": "6b8c8ce1dab062429b68bf83c95421a815fb642ab2598cc50c897c1a0cdac719",
+      "git_blob_bytes": 61086,
+      "git_blob_sha256": "6b8c8ce1dab062429b68bf83c95421a815fb642ab2598cc50c897c1a0cdac719",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/history/first-beacon-placement/complete-tower-coordinates.png",
+      "bytes": 302611,
+      "sha256": "605c17ccec6997eab4a123b55570b4ede16fa341c39ea076f5e9ef0655347aed",
+      "git_blob_bytes": 302611,
+      "git_blob_sha256": "605c17ccec6997eab4a123b55570b4ede16fa341c39ea076f5e9ef0655347aed",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/history/first-beacon-placement/scene-plan.json",
+      "bytes": 27172,
+      "sha256": "ed247f201c6ddfbabcd0b51dbb3268f0e5ba95b5f3f0bea8578da460eb432ba5",
+      "git_blob_bytes": 27172,
+      "git_blob_sha256": "ed247f201c6ddfbabcd0b51dbb3268f0e5ba95b5f3f0bea8578da460eb432ba5",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/history/first-road-route/render_scene.py",
+      "bytes": 10050,
+      "sha256": "e26a0b3baa2421d4ca8ed841ef11234049ad6a3e99becff4d9ad45519a67a6f0",
+      "git_blob_bytes": 10050,
+      "git_blob_sha256": "e26a0b3baa2421d4ca8ed841ef11234049ad6a3e99becff4d9ad45519a67a6f0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/history/first-road-route/road-route-review.png",
+      "bytes": 578338,
+      "sha256": "528e785d19eca1f87057eb52afa2d2cf011370c32a923d8ea573f9d30c878805",
+      "git_blob_bytes": 578338,
+      "git_blob_sha256": "528e785d19eca1f87057eb52afa2d2cf011370c32a923d8ea573f9d30c878805",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/history/first-road-route/scene-plan.json",
+      "bytes": 27048,
+      "sha256": "0c5dfd813a1db580e114f5df97de51701f6b2b3d66b244cbc362d2b9c7ef80be",
+      "git_blob_bytes": 27048,
+      "git_blob_sha256": "0c5dfd813a1db580e114f5df97de51701f6b2b3d66b244cbc362d2b9c7ef80be",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/history/first-road-route/traffic-19.00s.png",
+      "bytes": 337019,
+      "sha256": "fbbad8620777d3b803c4042060804d29a407519a20bd5ac21eee284e7e48dd19",
+      "git_blob_bytes": 337019,
+      "git_blob_sha256": "fbbad8620777d3b803c4042060804d29a407519a20bd5ac21eee284e7e48dd19",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/inspection/decoded-road-detail.png",
+      "bytes": 173063,
+      "sha256": "3232b9a559e66d519818e25de3d7c87d04343c4ca043c1c730d85deafdc93915",
+      "git_blob_bytes": 173063,
+      "git_blob_sha256": "3232b9a559e66d519818e25de3d7c87d04343c4ca043c1c730d85deafdc93915",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/inspection/decoded-village-detail.png",
+      "bytes": 847753,
+      "sha256": "18c056a0bff58606f8f5f8c312deb97ce60f049e5d1e85da903f1ebec0e6129f",
+      "git_blob_bytes": 847753,
+      "git_blob_sha256": "18c056a0bff58606f8f5f8c312deb97ce60f049e5d1e85da903f1ebec0e6129f",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/inspection/final-third-beacon.png",
+      "bytes": 108289,
+      "sha256": "fd93a0518642be7d1529a8764ac665ffbd9b658e8e950409da3d79556f4c5c89",
+      "git_blob_bytes": 108289,
+      "git_blob_sha256": "fd93a0518642be7d1529a8764ac665ffbd9b658e8e950409da3d79556f4c5c89",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/inspection/traffic-mask.png",
+      "bytes": 248236,
+      "sha256": "c90f634e6d33ee1f27e1b1508750d6bdd1f4804cf8d46323b19c8c7cd115298e",
+      "git_blob_bytes": 248236,
+      "git_blob_sha256": "c90f634e6d33ee1f27e1b1508750d6bdd1f4804cf8d46323b19c8c7cd115298e",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/make_detail_reviews.py",
+      "bytes": 2128,
+      "sha256": "beead943d55e9d55f4d47ae9fd0ac0c6eeb88486cc833c8ad3fcc61ba6b81e3d",
+      "git_blob_bytes": 2128,
+      "git_blob_sha256": "beead943d55e9d55f4d47ae9fd0ac0c6eeb88486cc833c8ad3fcc61ba6b81e3d",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/render_scene.py",
+      "bytes": 10050,
+      "sha256": "e26a0b3baa2421d4ca8ed841ef11234049ad6a3e99becff4d9ad45519a67a6f0",
+      "git_blob_bytes": 10050,
+      "git_blob_sha256": "e26a0b3baa2421d4ca8ed841ef11234049ad6a3e99becff4d9ad45519a67a6f0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/retained-layer-validation.json",
+      "bytes": 1456,
+      "sha256": "246ce4f068cdea4409a162893c9df0628b69239d8976776cc4edcc4a924c2b2b",
+      "git_blob_bytes": 1456,
+      "git_blob_sha256": "246ce4f068cdea4409a162893c9df0628b69239d8976776cc4edcc4a924c2b2b",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/runtime.json",
+      "bytes": 503,
+      "sha256": "73b2400692cdd14b35d2b003d0c525c1d429785a2159a1dbc7932bb945989148",
+      "git_blob_bytes": 503,
+      "git_blob_sha256": "73b2400692cdd14b35d2b003d0c525c1d429785a2159a1dbc7932bb945989148",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/scene-plan.json",
+      "bytes": 27172,
+      "sha256": "698ad56ab36bc66832588aa6a61180859e012028698472a3001178b3e6bca75e",
+      "git_blob_bytes": 27172,
+      "git_blob_sha256": "698ad56ab36bc66832588aa6a61180859e012028698472a3001178b3e6bca75e",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/user-request.json",
+      "bytes": 517,
+      "sha256": "93c92cc93fe1b9c0db3eef3e144f4772217365691d50710f4ba37ccbf9ceda2c",
+      "git_blob_bytes": 517,
+      "git_blob_sha256": "93c92cc93fe1b9c0db3eef3e144f4772217365691d50710f4ba37ccbf9ceda2c",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/v2_renderer_snapshot.py",
+      "bytes": 13684,
+      "sha256": "11133fa904df95ffa274848c67a6978bb9e4caa04b119a3fcaea0753cbf7826b",
+      "git_blob_bytes": 13684,
+      "git_blob_sha256": "11133fa904df95ffa274848c67a6978bb9e4caa04b119a3fcaea0753cbf7826b",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/v3_renderer_snapshot.py",
+      "bytes": 9208,
+      "sha256": "23b56c47214b8f0c8ca041c0c99103630bce4322f04efc12e55ea41a29d11a17",
+      "git_blob_bytes": 9208,
+      "git_blob_sha256": "23b56c47214b8f0c8ca041c0c99103630bce4322f04efc12e55ea41a29d11a17",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v4/validate_delivery.py",
+      "bytes": 9025,
+      "sha256": "3097450db13874e53ba1632a279d4cbcad55f92f87c8dab72475720e011bbf16",
+      "git_blob_bytes": 9025,
+      "git_blob_sha256": "3097450db13874e53ba1632a279d4cbcad55f92f87c8dab72475720e011bbf16",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/Crater-Rim-Survey-v4-vs-v5-normal-size-20s.mp4",
+      "bytes": 8227723,
+      "sha256": "f726bb5384c063d759395cd0e7ca8bb6516af5ecff3492b6639aa41c6fb16a20",
+      "git_blob_bytes": 132,
+      "git_blob_sha256": "da6882bb755e8ca6a2483811dd7144c8591dd9bdbc8a4deaff255c5b83b145fb",
+      "storage": "git-lfs",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/crater-rim-animation-v5/Crater-Rim-Survey-v5-60s-loop.mp4",
+      "bytes": 28466597,
+      "sha256": "63553fc01d87c8e629d3f8268b511255877e14d155b2f0deb10481fe2a497be1",
+      "git_blob_bytes": 133,
+      "git_blob_sha256": "639c753b9551115e3a89ea718ca78ac3ef6f81521074df0d0e6c9b8cb3d4b786",
+      "storage": "git-lfs",
+      "local_bytes_equal_git_blob": false
+    },
+    {
+      "path": "music/crater-rim-animation-v5/LONG_VERSION.md",
+      "bytes": 6651,
+      "sha256": "ae724d87639d4bf4ad7e717256b78ac91d2e49397b48eef5525e312c0ad4ebb9",
+      "git_blob_bytes": 6651,
+      "git_blob_sha256": "ae724d87639d4bf4ad7e717256b78ac91d2e49397b48eef5525e312c0ad4ebb9",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/README.md",
+      "bytes": 4648,
+      "sha256": "b8ac70bed86d23df315173afad45c81216f8d43f624c3c75b0fe10c042b7c510",
+      "git_blob_bytes": 4648,
+      "git_blob_sha256": "b8ac70bed86d23df315173afad45c81216f8d43f624c3c75b0fe10c042b7c510",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/analytic-validation.json",
+      "bytes": 5975,
+      "sha256": "29fbcaa5eee1d4d88a002d008545e5d42a1fad44f39a3d9cda53e68698d80976",
+      "git_blob_bytes": 5975,
+      "git_blob_sha256": "29fbcaa5eee1d4d88a002d008545e5d42a1fad44f39a3d9cda53e68698d80976",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/check_retained_layers.py",
+      "bytes": 2686,
+      "sha256": "0b7162d71e6afe10355803e78f97f22c96481883ff7691ea718d5f7d8b6aaccd",
+      "git_blob_bytes": 2686,
+      "git_blob_sha256": "0b7162d71e6afe10355803e78f97f22c96481883ff7691ea718d5f7d8b6aaccd",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/comparison-validation.json",
+      "bytes": 908,
+      "sha256": "925f28da345e14e74a8aca27c6d8d229f1d9b0c3c160d4eaffa307bdc2316b21",
+      "git_blob_bytes": 908,
+      "git_blob_sha256": "925f28da345e14e74a8aca27c6d8d229f1d9b0c3c160d4eaffa307bdc2316b21",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/continuation-plan-validation.json",
+      "bytes": 1150,
+      "sha256": "9f839bc83fb9836707266d6b1388fe968cda59dd07810a487f390a5f812ac679",
+      "git_blob_bytes": 1150,
+      "git_blob_sha256": "9f839bc83fb9836707266d6b1388fe968cda59dd07810a487f390a5f812ac679",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/delivery.json",
+      "bytes": 11244,
+      "sha256": "10f98682de840503384defea26359f72dc1e50cc51566232bb7a7acf8dc7941d",
+      "git_blob_bytes": 11244,
+      "git_blob_sha256": "10f98682de840503384defea26359f72dc1e50cc51566232bb7a7acf8dc7941d",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/dependencies/dust_transport.py",
+      "bytes": 3185,
+      "sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "git_blob_bytes": 3185,
+      "git_blob_sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/dependencies/periodic_transport.py",
+      "bytes": 1600,
+      "sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "git_blob_bytes": 1600,
+      "git_blob_sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/detail-review-validation.json",
+      "bytes": 1336,
+      "sha256": "2b38e873dc6a677120d7b2bb14f705c2a491d8425e557307b252826732831071",
+      "git_blob_bytes": 1336,
+      "git_blob_sha256": "2b38e873dc6a677120d7b2bb14f705c2a491d8425e557307b252826732831071",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/inspection/decoded-000.00s.png",
+      "bytes": 1110126,
+      "sha256": "592976626f770de793f742b185793103784ffb7c78bef3005af137251723bf3a",
+      "git_blob_bytes": 1110126,
+      "git_blob_sha256": "592976626f770de793f742b185793103784ffb7c78bef3005af137251723bf3a",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/inspection/decoded-014.30s.png",
+      "bytes": 1111126,
+      "sha256": "644b0d1f76fb110589e67f7e4b5c12c474e9794150f3768a68eef5c647fa0379",
+      "git_blob_bytes": 1111126,
+      "git_blob_sha256": "644b0d1f76fb110589e67f7e4b5c12c474e9794150f3768a68eef5c647fa0379",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/inspection/decoded-019.80s.png",
+      "bytes": 1115047,
+      "sha256": "bfdaa6e9d1ecffd38b08c7d6e8a5104f6432ed3fa8502229b4b7e8d9a63fd81d",
+      "git_blob_bytes": 1115047,
+      "git_blob_sha256": "bfdaa6e9d1ecffd38b08c7d6e8a5104f6432ed3fa8502229b4b7e8d9a63fd81d",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/inspection/decoded-021.80s.png",
+      "bytes": 1115644,
+      "sha256": "524fb5f7f17328b743a19d9a9c0170343c7293ef8e85629ada44ac1940dad237",
+      "git_blob_bytes": 1115644,
+      "git_blob_sha256": "524fb5f7f17328b743a19d9a9c0170343c7293ef8e85629ada44ac1940dad237",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/inspection/decoded-044.40s.png",
+      "bytes": 1109076,
+      "sha256": "65fe9ac228e3a6dc3bffe8b7411391a1673b65f646e8a3f82f4ded9055b2e77b",
+      "git_blob_bytes": 1109076,
+      "git_blob_sha256": "65fe9ac228e3a6dc3bffe8b7411391a1673b65f646e8a3f82f4ded9055b2e77b",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/inspection/decoded-048.50s.png",
+      "bytes": 1111558,
+      "sha256": "d2825eef6c4abce9d301f6e43f3e7adeb08b05daba50b690c6ecef51611c1c3c",
+      "git_blob_bytes": 1111558,
+      "git_blob_sha256": "d2825eef6c4abce9d301f6e43f3e7adeb08b05daba50b690c6ecef51611c1c3c",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/inspection/decoded-059.97s.png",
+      "bytes": 1110144,
+      "sha256": "8c71b9ecbfb019990e2b7b0a59c0bdc2489ef847cb2124603e0964f556054fd6",
+      "git_blob_bytes": 1110144,
+      "git_blob_sha256": "8c71b9ecbfb019990e2b7b0a59c0bdc2489ef847cb2124603e0964f556054fd6",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/inspection/sun_glare-mask.png",
+      "bytes": 101306,
+      "sha256": "e6afcfd9d0a90357a17153636bff4659c2b813f7e13956270f06d08bb874fa34",
+      "git_blob_bytes": 101306,
+      "git_blob_sha256": "e6afcfd9d0a90357a17153636bff4659c2b813f7e13956270f06d08bb874fa34",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/inspection/traffic-mask.png",
+      "bytes": 248236,
+      "sha256": "c90f634e6d33ee1f27e1b1508750d6bdd1f4804cf8d46323b19c8c7cd115298e",
+      "git_blob_bytes": 248236,
+      "git_blob_sha256": "c90f634e6d33ee1f27e1b1508750d6bdd1f4804cf8d46323b19c8c7cd115298e",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/inspection/village_lights-mask.png",
+      "bytes": 42258,
+      "sha256": "18dd91cd8e4a8f2596a58595a508bdaec043f55054a93e2a4d2f70cf56cf11f1",
+      "git_blob_bytes": 42258,
+      "git_blob_sha256": "18dd91cd8e4a8f2596a58595a508bdaec043f55054a93e2a4d2f70cf56cf11f1",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/long-version-plan.json",
+      "bytes": 10364,
+      "sha256": "1256dfab9b1c0a1ad65e1a77ea3484035c526d10eec232d1262218c62beaaa98",
+      "git_blob_bytes": 10364,
+      "git_blob_sha256": "1256dfab9b1c0a1ad65e1a77ea3484035c526d10eec232d1262218c62beaaa98",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/make_comparison_review.py",
+      "bytes": 2266,
+      "sha256": "8b18bd3fce73bdf7d556819fd9f7b1290bbff5fe6c33fc04fb14e66d15b4be0a",
+      "git_blob_bytes": 2266,
+      "git_blob_sha256": "8b18bd3fce73bdf7d556819fd9f7b1290bbff5fe6c33fc04fb14e66d15b4be0a",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/make_detail_reviews.py",
+      "bytes": 2158,
+      "sha256": "fbd70a0fecc630beb5c4ec8d8eeddd49d8faf26ea3f161fe284f85ada1b1a4d6",
+      "git_blob_bytes": 2158,
+      "git_blob_sha256": "fbd70a0fecc630beb5c4ec8d8eeddd49d8faf26ea3f161fe284f85ada1b1a4d6",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/render_scene.py",
+      "bytes": 11288,
+      "sha256": "0d0484047b807216ad2b3586072833e70fa1ea8d2f3be1382091c611089dba44",
+      "git_blob_bytes": 11288,
+      "git_blob_sha256": "0d0484047b807216ad2b3586072833e70fa1ea8d2f3be1382091c611089dba44",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/requirements-resume.txt",
+      "bytes": 83,
+      "sha256": "d3030f14f83776823ba7500c56ee5213e5acb2b931d776ad0bbb56bab9904b93",
+      "git_blob_bytes": 83,
+      "git_blob_sha256": "d3030f14f83776823ba7500c56ee5213e5acb2b931d776ad0bbb56bab9904b93",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/retained-layer-validation.json",
+      "bytes": 1435,
+      "sha256": "c629a7a9db2283de6892d9a985f4fd39b5e9523e0d285b38cf268455b601b5ff",
+      "git_blob_bytes": 1435,
+      "git_blob_sha256": "c629a7a9db2283de6892d9a985f4fd39b5e9523e0d285b38cf268455b601b5ff",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/runtime.json",
+      "bytes": 503,
+      "sha256": "73b2400692cdd14b35d2b003d0c525c1d429785a2159a1dbc7932bb945989148",
+      "git_blob_bytes": 503,
+      "git_blob_sha256": "73b2400692cdd14b35d2b003d0c525c1d429785a2159a1dbc7932bb945989148",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/scene-plan-v4-snapshot.json",
+      "bytes": 27172,
+      "sha256": "698ad56ab36bc66832588aa6a61180859e012028698472a3001178b3e6bca75e",
+      "git_blob_bytes": 27172,
+      "git_blob_sha256": "698ad56ab36bc66832588aa6a61180859e012028698472a3001178b3e6bca75e",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/scene-plan.json",
+      "bytes": 28080,
+      "sha256": "0b0787be1a5ca31580ee52b369cdbb9e7e34b00b90ceb83edd1df90734273bc5",
+      "git_blob_bytes": 28080,
+      "git_blob_sha256": "0b0787be1a5ca31580ee52b369cdbb9e7e34b00b90ceb83edd1df90734273bc5",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/user-request.json",
+      "bytes": 522,
+      "sha256": "782fd70fb1d956e431a9f91c0332087a6dbd60625ac4e9c8227413e867af0a79",
+      "git_blob_bytes": 522,
+      "git_blob_sha256": "782fd70fb1d956e431a9f91c0332087a6dbd60625ac4e9c8227413e867af0a79",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/v2_renderer_snapshot.py",
+      "bytes": 13684,
+      "sha256": "11133fa904df95ffa274848c67a6978bb9e4caa04b119a3fcaea0753cbf7826b",
+      "git_blob_bytes": 13684,
+      "git_blob_sha256": "11133fa904df95ffa274848c67a6978bb9e4caa04b119a3fcaea0753cbf7826b",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/v3_renderer_snapshot.py",
+      "bytes": 9208,
+      "sha256": "23b56c47214b8f0c8ca041c0c99103630bce4322f04efc12e55ea41a29d11a17",
+      "git_blob_bytes": 9208,
+      "git_blob_sha256": "23b56c47214b8f0c8ca041c0c99103630bce4322f04efc12e55ea41a29d11a17",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/v4_renderer_snapshot.py",
+      "bytes": 10050,
+      "sha256": "e26a0b3baa2421d4ca8ed841ef11234049ad6a3e99becff4d9ad45519a67a6f0",
+      "git_blob_bytes": 10050,
+      "git_blob_sha256": "e26a0b3baa2421d4ca8ed841ef11234049ad6a3e99becff4d9ad45519a67a6f0",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/validate_delivery.py",
+      "bytes": 9058,
+      "sha256": "50df51df0b620f197224fa1b9ee384ac883660b54a7daad415489ec4a6e409ff",
+      "git_blob_bytes": 9058,
+      "git_blob_sha256": "50df51df0b620f197224fa1b9ee384ac883660b54a7daad415489ec4a6e409ff",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/crater-rim-animation-v5/validate_long_version_plan.py",
+      "bytes": 3864,
+      "sha256": "4ecdf31845a8ccab7138c264d1cab0e0a9a023c54eea9130328a6ded5f8bbdec",
+      "git_blob_bytes": 3864,
+      "git_blob_sha256": "4ecdf31845a8ccab7138c264d1cab0e0a9a023c54eea9130328a6ded5f8bbdec",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/production-backup-2026-11-05-crater-rim/README.md",
+      "bytes": 1898,
+      "sha256": "6e99521e8409e6cccd60e80c4a33a58e19047a5ce1bea5989ba5e670ac60a265",
+      "git_blob_bytes": 1898,
+      "git_blob_sha256": "6e99521e8409e6cccd60e80c4a33a58e19047a5ce1bea5989ba5e670ac60a265",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/production-backup-2026-11-05-crater-rim/build_manifest.py",
+      "bytes": 3137,
+      "sha256": "70beb4714b07ea2639a4e60bf38db60248772161247a6aaf777795cd9fd23798",
+      "git_blob_bytes": 3137,
+      "git_blob_sha256": "70beb4714b07ea2639a4e60bf38db60248772161247a6aaf777795cd9fd23798",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/production-backup-2026-11-05-crater-rim/selection-policy.json",
+      "bytes": 2533,
+      "sha256": "7285f78744c6b2b84350e4733231030866c627c3519f2e83991f5221ef40a762",
+      "git_blob_bytes": 2533,
+      "git_blob_sha256": "7285f78744c6b2b84350e4733231030866c627c3519f2e83991f5221ef40a762",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/production-backup-2026-11-05-crater-rim/selection.json",
+      "bytes": 10746,
+      "sha256": "26b1aeddf26e5cc6aaf2236092dc0b6d0c599b1a1f6815821f9387b216417be2",
+      "git_blob_bytes": 10746,
+      "git_blob_sha256": "26b1aeddf26e5cc6aaf2236092dc0b6d0c599b1a1f6815821f9387b216417be2",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    },
+    {
+      "path": "music/production-backup-2026-11-05-crater-rim/verify_remote.py",
+      "bytes": 6882,
+      "sha256": "b76555aad1eeb6a007c02f73a5263dcdc03e825ee60f56fdf46afbf35f32cbd5",
+      "git_blob_bytes": 6882,
+      "git_blob_sha256": "b76555aad1eeb6a007c02f73a5263dcdc03e825ee60f56fdf46afbf35f32cbd5",
+      "storage": "ordinary-git",
+      "local_bytes_equal_git_blob": true
+    }
+  ],
+  "lfs_media_bytes": 36694320,
+  "ordinary_git_bytes": 23311330
+}

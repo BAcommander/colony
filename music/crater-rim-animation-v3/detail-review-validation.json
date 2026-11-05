@@ -1,0 +1,39 @@
+{
+  "source": "Crater-Rim-Survey-v3-60s-loop.mp4",
+  "source_sha256": "ad9cef7ec4c7e3703aa29585490fdf5076ee8ac1f1fc278a3189436a61ee04b5",
+  "clips": [
+    {
+      "path": "Crater-Rim-Survey-v3-village-detail-10s.mp4",
+      "sha256": "50af26ba74fbd8d285489e9aa519e84a697bef4d4a0718841e68934989b3c120",
+      "bytes": 6788202,
+      "source_start_seconds": 5,
+      "duration_seconds": 10,
+      "crop_720p_xywh": "328:148:952:250",
+      "display_dimensions": [
+        984,
+        444
+      ],
+      "decoded_frames": 300,
+      "sequential_timestamps": true,
+      "audio": false,
+      "note": "Enlarged crop for inspection; no new source detail or changed animation."
+    },
+    {
+      "path": "Crater-Rim-Survey-v3-lamp-detail-8s.mp4",
+      "sha256": "43583a669068ac0d56144d1fac9dfb85cfdc79627f0e17b17aed36c29d0e7123",
+      "bytes": 694940,
+      "source_start_seconds": 11,
+      "duration_seconds": 8,
+      "crop_720p_xywh": "300:250:0:290",
+      "display_dimensions": [
+        600,
+        500
+      ],
+      "decoded_frames": 240,
+      "sequential_timestamps": true,
+      "audio": false,
+      "note": "Enlarged crop for inspection; no new source detail or changed animation."
+    }
+  ],
+  "script_sha256": "08ede338c4d686cee687b2b9ffe66616b07ed5000155a7962ae4da7c760d488b"
+}

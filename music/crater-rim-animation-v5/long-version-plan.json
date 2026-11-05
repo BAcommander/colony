@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-05",
+  "status": "proposed_continuation_plan_not_implemented",
+  "catalog_number": 14,
+  "title": "Crater Rim Survey",
+  "user_feedback": {
+    "quote": "ok brilliant, are you happy with this now? is there anything else we could improve before we wrap it?",
+    "scope": "Positive feedback on V5; does not approve a new ten-minute schedule, audio or a 4K/full-length export."
+  },
+  "request": "Save all details needed for the longer version, then commit and push.",
+  "baseline": {
+    "version": 5,
+    "settings": "music/crater-rim-animation-v5/scene-plan.json",
+    "delivery": "music/crater-rim-animation-v5/delivery.json",
+    "native_dimensions": [
+      1672,
+      941
+    ],
+    "review_dimensions": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "weather_cycle_seconds": 60,
+    "reference_inputs": {
+      "final/14-crater-rim-survey/artwork-v2.png": "ffb509afd49853590d7b01a521288b3d5cca47f7758feaa50136feabc4241734",
+      "music/crater-rim-animation-v5/scene-plan.json": "0b0787be1a5ca31580ee52b369cdbb9e7e34b00b90ceb83edd1df90734273bc5",
+      "music/crater-rim-animation-v5/v2_renderer_snapshot.py": "11133fa904df95ffa274848c67a6978bb9e4caa04b119a3fcaea0753cbf7826b",
+      "music/crater-rim-animation-v5/dependencies/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "music/crater-rim-animation-v5/dependencies/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "music/crater-rim-animation-v5/v3_renderer_snapshot.py": "23b56c47214b8f0c8ca041c0c99103630bce4322f04efc12e55ea41a29d11a17",
+      "music/crater-rim-animation-v5/render_scene.py": "0d0484047b807216ad2b3586072833e70fa1ea8d2f3be1382091c611089dba44"
+    },
+    "reference_media": [
+      {
+        "path": "Crater-Rim-Survey-v5-60s-loop.mp4",
+        "bytes": 28466597,
+        "sha256": "63553fc01d87c8e629d3f8268b511255877e14d155b2f0deb10481fe2a497be1"
+      },
+      {
+        "path": "Crater-Rim-Survey-v4-vs-v5-normal-size-20s.mp4",
+        "sha256": "f726bb5384c063d759395cd0e7ca8bb6516af5ecff3492b6639aa41c6fb16a20"
+      }
+    ],
+    "native_resume_controls": [
+      {
+        "time_seconds": 0,
+        "rgb_sha256": "af9d79c2c37ac8e4fb17d0e70dacecc487d940903211de99612a8d970718d289"
+      },
+      {
+        "time_seconds": 14.3,
+        "rgb_sha256": "045cf7febabfc0ff0f482f56c6faf0d4c82eab928e87661b57c9dfc54c3ac8f4"
+      },
+      {
+        "time_seconds": 19.8,
+        "rgb_sha256": "fac3ce927207fbbc613adc8beb894317fe0a90c122369526e7a41d3b35cba269"
+      },
+      {
+        "time_seconds": 21.8,
+        "rgb_sha256": "162a7f06d115b8faa0c640d8e987336488057381b5dd66f4856939f4482865cb"
+      },
+      {
+        "time_seconds": 48.5,
+        "rgb_sha256": "fe32448afd9f7ae87a8556e70961f86d89740344cf1c71cd6e41fd91c9fb2148"
+      },
+      {
+        "time_seconds": 59.96666666666667,
+        "rgb_sha256": "1de322dcee4bda9daa4dffbc9d7363855d01a3a9e4a1ddc10690eece67945d5b"
+      }
+    ]
+  },
+  "duration": {
+    "proposed_visual_schedule_seconds": 600,
+    "proposed_visual_schedule_frames": 18000,
+    "initial_timing_audition_seconds": 600,
+    "final_program_seconds": null,
+    "final_runtime_confirmed": false,
+    "soundtrack_selected": false
+  },
+  "clock_design": {
+    "weather_phase": "absolute_scene_seconds % 60",
+    "attention_phase": "absolute_scene_seconds % 600",
+    "keep_existing_sixty_second_layers": [
+      "clouds",
+      "haze",
+      "shadows",
+      "survey",
+      "windows",
+      "village ventilation and terrace walkers",
+      "tower beacons"
+    ],
+    "override_absolute_clock_layers": [
+      "lamp power envelope",
+      "greenhouse glint envelope",
+      "traffic event activation"
+    ],
+    "do_not_change_scene_duration": "Keep Scene.duration=60; changing it before construction also changes existing cloud renewal and plume transport. Add a separate attention_cycle_seconds=600.",
+    "chunk_rendering": "Carry absolute scene time into every chunk. Do not reset attention events at minute or chunk boundaries."
+  },
+  "attention_events": {
+    "lamp_clusters": [
+      {
+        "start": 87.3,
+        "variant": "two_dip",
+        "source_event_indices": [
+          0,
+          1
+        ],
+        "relative_offsets": [
+          0,
+          0.3
+        ]
+      },
+      {
+        "start": 397.7,
+        "variant": "single_dip",
+        "source_event_indices": [
+          2
+        ],
+        "relative_offsets": [
+          0
+        ]
+      }
+    ],
+    "greenhouse_glints": [
+      {
+        "start": 48.2,
+        "source_variant_index": 0
+      },
+      {
+        "start": 238.1,
+        "source_variant_index": 1
+      },
+      {
+        "start": 473.6,
+        "source_variant_index": 0
+      }
+    ],
+    "traffic_passages": [
+      {
+        "start": 52.0,
+        "source_variant_index": 0
+      },
+      {
+        "start": 197.5,
+        "source_variant_index": 1
+      },
+      {
+        "start": 351.0,
+        "source_variant_index": 0
+      },
+      {
+        "start": 511.5,
+        "source_variant_index": 1
+      }
+    ],
+    "status": "Explicit deterministic draft; preserve V5 event shapes/gains/routes while changing event clock and onset only. Render/listen review may alter onsets. All attention layers quiet across the 600s join."
+  },
+  "implementation": {
+    "new_work_folder": "music/crater-rim-long-animation-v1/",
+    "preserve_v5": "Copy/freeze the V5 renderer, settings, dependencies and delivery fingerprint; do not edit the backed-up V5 candidate.",
+    "suggested_method": [
+      "Subclass the frozen V5 Scene. Set self.absolute_scene_seconds before calling super().frame(absolute_scene_seconds % 60).",
+      "Override lamp_amount to use the proposed 600s clusters and the original source event shapes/depths. Do not retain the automatic minute lamp events.",
+      "Override glare_amount to use the 600s glint onsets, then apply the unchanged shadow attenuation at weather_phase.",
+      "Replace only the traffic event list with the 600s onset list and original V5 colour/duration/direction variants. Override vehicle_state: test global age modulo600 first; if active, pass source_event.time+active_age to the frozen V5 vehicle_state so its local 25s route and depth remain unchanged. Return None outside that passage.",
+      "Keep masks, source geometry, source-space speeds, white beacon core/halo and daylight exposure exact. Keep the original small village walkers on their V3 minute timing unless review identifies that repeat as distracting.",
+      "Add an isolated attention-layer render and a full ten-minute 720p timing audition. This plan alone does not implement a long renderer."
+    ]
+  },
+  "audio": {
+    "status": "No Crater Rim soundtrack or SFX mix supplied/approved in current records.",
+    "prompt_directory": "final/14-crater-rim-survey/music/",
+    "current_listening_proposals": [
+      "elevenlabs-crater-room-v4.txt",
+      "elevenlabs-crater-basin-v4.txt"
+    ],
+    "workflow": "final/14-crater-rim-survey/music/README.md",
+    "perspective": "Warm enclosed survey room; exterior basin air behind glass.",
+    "proposed_sfx": [
+      "Quiet indoor ventilation/room air, separately controllable.",
+      "Intermittent distant exterior basin wind, shaped to visible haze activity and auditioned in context."
+    ],
+    "avoid_automatic_additions": [
+      "No automatic Hoth radio/creak/snow settings transfer.",
+      "Distant rovers, footsteps and mast beacons need not be audible through the closed room.",
+      "No rain/thunder or paid generation is authorized by this continuation plan."
+    ],
+    "mix_gate": "Save actual source exports, prompts/settings and hashes; choose joins by listening, level-match tests, approve the full timing/mix and record gains before long assembly."
+  },
+  "production": {
+    "target_dimensions": [
+      3840,
+      2160
+    ],
+    "source_detail_note": "Lanczos upscale native1672x941; never enlarge the encoded720p preview into production4K.",
+    "fps": 30,
+    "encoding": "H.264 QP0, YUV420p, explicit BT.709 primaries/transfer/matrix and TV range, matching source conversion.",
+    "clean_master": "Silent600s master or ten contiguous60s production chunks with absolute timing; no opening baked into a repeated unit.",
+    "opening": "Use the hash-verified current Colony export engine/intro once: graphics clear by22s; audio silence to5s/fade to20s. Check actual engine release before assembly.",
+    "closing": "Single requested closing fade, following the accepted soundtrack recipe; avoid repeated opening/closing fades within the cycle.",
+    "assembly": "Stream-copy accepted clean visual units for the confirmed runtime, with the opening rendered once. Verify final duration/timestamps, repeated pictures and full audio envelope.",
+    "storage": "Long4K masters, repeated exports and caches under ignored exports/14-crater-rim-survey/ or per-run .local; do not add long combined files to Git."
+  },
+  "validation": [
+    "Verify every backed-up V5 input SHA-256 before work.",
+    "At same weather phase compare all seven retained layers to V5; compare a fired long event to the corresponding V5 event local age, preserving shapes/gains.",
+    "Check quiet event states and source protection throughout; preserve non-folding safe sky taps and full emitter/fixture coverage.",
+    "Decode all18000frames/timestamps for a600s30fps master; check every event start/peak/end and every chunk boundary with direct native-to-YUV controls.",
+    "Compare last-to-first changes with ordinary neighbors for each layer and decoded composite; inspect a short continuous join review without duplicating a large master unnecessarily.",
+    "Review ten minutes at normal size/speed; look for distracting lamp, obvious vehicle repeats, soft/doubled cloud renewal or intrusive glints. Technical gates are not artistic approval.",
+    "After4K delivery, assemble with confirmed audio/runtime and verify complete final video/audio decode and soundtrack envelope."
+  ],
+  "remaining_inputs_before_production": [
+    "Confirm final program runtime.",
+    "Supply/select and approve the Crater Rim musical sources and sound-effect balance.",
+    "Implement and review the proposed longer event schedule.",
+    "Approve matching upscaled4K clean master before full-length assembly."
+  ]
+}

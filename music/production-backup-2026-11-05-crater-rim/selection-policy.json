@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-05",
+  "authority": "User: saves all the details we need to make the longer version, then commit and push",
+  "branch": "main",
+  "retained_lfs_reviews": [
+    "music/crater-rim-animation-v5/Crater-Rim-Survey-v5-60s-loop.mp4",
+    "music/crater-rim-animation-v5/Crater-Rim-Survey-v4-vs-v5-normal-size-20s.mp4"
+  ],
+  "representative_images": [
+    "music/crater-rim-animation-v2/inspection/mask-overlay.png",
+    "music/crater-rim-animation-v2/inspection/decoded-028.00s.png",
+    "music/crater-rim-animation-v3/inspection/lamp-mask-detail.png",
+    "music/crater-rim-animation-v3/inspection/village-mask-detail.png",
+    "music/crater-rim-animation-v3/inspection/decoded-lamp-detail.png",
+    "music/crater-rim-animation-v3/inspection/decoded-village-detail.png",
+    "music/crater-rim-animation-v3/feedback/ChatGPT_StCLcadPnp.png",
+    "music/crater-rim-animation-v3/feedback/ChatGPT_H8S6kFfWf3.png",
+    "music/crater-rim-animation-v4/history/first-road-route/road-route-review.png",
+    "music/crater-rim-animation-v4/history/first-road-route/traffic-19.00s.png",
+    "music/crater-rim-animation-v4/history/first-beacon-placement/beacon-peak-21.8.png",
+    "music/crater-rim-animation-v4/history/first-beacon-placement/complete-tower-coordinates.png",
+    "music/crater-rim-animation-v4/inspection/traffic-mask.png",
+    "music/crater-rim-animation-v4/inspection/decoded-road-detail.png",
+    "music/crater-rim-animation-v4/inspection/decoded-village-detail.png",
+    "music/crater-rim-animation-v4/inspection/final-third-beacon.png",
+    "music/crater-rim-animation-v5/inspection/decoded-000.00s.png",
+    "music/crater-rim-animation-v5/inspection/decoded-014.30s.png",
+    "music/crater-rim-animation-v5/inspection/decoded-019.80s.png",
+    "music/crater-rim-animation-v5/inspection/decoded-021.80s.png",
+    "music/crater-rim-animation-v5/inspection/decoded-044.40s.png",
+    "music/crater-rim-animation-v5/inspection/decoded-048.50s.png",
+    "music/crater-rim-animation-v5/inspection/decoded-059.97s.png",
+    "music/crater-rim-animation-v5/inspection/village_lights-mask.png",
+    "music/crater-rim-animation-v5/inspection/sun_glare-mask.png",
+    "music/crater-rim-animation-v5/inspection/traffic-mask.png"
+  ],
+  "retain_all_new_code_settings_reports_and_history_records": true,
+  "local_only": "Other MP4s, repeated reviews, most redundant PNG diagnostic frames, __pycache__, long outputs and caches. No deletions requested/performed.",
+  "source_art": "final/14-crater-rim-survey/artwork-v2.png"
+}

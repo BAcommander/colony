@@ -1,0 +1,32 @@
+{
+  "path": "Crater-Rim-Survey-v4-vs-v5-normal-size-20s.mp4",
+  "sha256": "f726bb5384c063d759395cd0e7ca8bb6516af5ecff3492b6639aa41c6fb16a20",
+  "bytes": 8227723,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "duration_seconds": 20,
+  "decoded_frames": 600,
+  "all_pictures_equal_to_source_segments": true,
+  "sequential_timestamps": true,
+  "audio": false,
+  "first_10_seconds": {
+    "version": 4,
+    "source_scene_time": [
+      17,
+      27
+    ],
+    "source_sha256": "0e285e4353778872899b354d3517d8c4f324ff170fe46fcec2f8f7612d93d56f"
+  },
+  "second_10_seconds": {
+    "version": 5,
+    "source_scene_time": [
+      17,
+      27
+    ],
+    "source_sha256": "63553fc01d87c8e629d3f8268b511255877e14d155b2f0deb10481fe2a497be1"
+  },
+  "no_zoom_or_effect_amplification_in_comparison": true,
+  "script_sha256": "8b18bd3fce73bdf7d556819fd9f7b1290bbff5fe6c33fc04fb14e66d15b4be0a"
+}

@@ -1,0 +1,216 @@
+{
+  "version": 2,
+  "date": "2026-11-05",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "dimensions": [
+    1280,
+    720
+  ],
+  "duration_seconds": 60,
+  "fps": 30,
+  "audio": false,
+  "encoding": "H.264 QP0, YUV420p BT.709 TV; source frames downsampled to 720p",
+  "frozen_inputs": {
+    "final/14-crater-rim-survey/artwork-v2.png": "ffb509afd49853590d7b01a521288b3d5cca47f7758feaa50136feabc4241734",
+    "music/crater-rim-animation-v2/scene-plan.json": "0489ce890c31348bb095191d43806c005efae3b7aabbaf4082f4910893a401c0",
+    "music/crater-rim-animation-v2/render_scene.py": "11133fa904df95ffa274848c67a6978bb9e4caa04b119a3fcaea0753cbf7826b",
+    "music/crater-rim-animation-v2/dependencies/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+    "music/crater-rim-animation-v2/dependencies/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379"
+  },
+  "analytic": {
+    "cloud_map_states": 480,
+    "minimum_active_horizontal_jacobian": 0.65380859375,
+    "all_bilinear_source_taps_inside_safe_sky": true,
+    "protected_native_pixels_exact": true,
+    "layers": {
+      "clouds": {
+        "periodic": true,
+        "native_seam_mae": 0.03008030168712139,
+        "neighbor_step_mae": [
+          0.029198694974184036,
+          0.03011992573738098
+        ],
+        "motion_coverage": {
+          "0": {
+            "mean_rgb_change_8s": 2.144728899002075,
+            "pixels_changed_above_2": 23955
+          },
+          "20": {
+            "mean_rgb_change_8s": 2.0416831970214844,
+            "pixels_changed_above_2": 22864
+          },
+          "40": {
+            "mean_rgb_change_8s": 2.160297393798828,
+            "pixels_changed_above_2": 24255
+          }
+        }
+      },
+      "haze": {
+        "periodic": true,
+        "native_seam_mae": 0.05094769969582558,
+        "neighbor_step_mae": [
+          0.050326764583587646,
+          0.051605161279439926
+        ],
+        "motion_coverage": {
+          "0": {
+            "mean_rgb_change_8s": 4.104291915893555,
+            "pixels_changed_above_2": 61423
+          },
+          "20": {
+            "mean_rgb_change_8s": 4.646600246429443,
+            "pixels_changed_above_2": 67530
+          },
+          "40": {
+            "mean_rgb_change_8s": 4.774841785430908,
+            "pixels_changed_above_2": 66380
+          }
+        }
+      },
+      "shadows": {
+        "periodic": true,
+        "native_seam_mae": 0.019186723977327347,
+        "neighbor_step_mae": [
+          0.018972892314195633,
+          0.019247092306613922
+        ],
+        "motion_coverage": {
+          "0": {
+            "mean_rgb_change_8s": 3.661588430404663,
+            "pixels_changed_above_2": 257835
+          },
+          "20": {
+            "mean_rgb_change_8s": 4.005344390869141,
+            "pixels_changed_above_2": 216343
+          },
+          "40": {
+            "mean_rgb_change_8s": 5.789595603942871,
+            "pixels_changed_above_2": 262226
+          }
+        }
+      },
+      "survey": {
+        "periodic": true,
+        "native_seam_mae": 0.026680441573262215,
+        "neighbor_step_mae": [
+          0.017651904374361038,
+          0.012897910550236702
+        ],
+        "motion_coverage": {
+          "0": {
+            "mean_rgb_change_8s": 0.3090231418609619,
+            "pixels_changed_above_2": 1041
+          },
+          "20": {
+            "mean_rgb_change_8s": 0.3321448266506195,
+            "pixels_changed_above_2": 1140
+          },
+          "40": {
+            "mean_rgb_change_8s": 0.30122360587120056,
+            "pixels_changed_above_2": 1027
+          }
+        }
+      },
+      "windows": {
+        "periodic": true,
+        "native_seam_mae": 0.0,
+        "neighbor_step_mae": [
+          0.0,
+          0.0
+        ],
+        "motion_coverage": {
+          "0": {
+            "mean_rgb_change_8s": 5.833333492279053,
+            "pixels_changed_above_2": 77
+          },
+          "20": {
+            "mean_rgb_change_8s": 11.69023609161377,
+            "pixels_changed_above_2": 133
+          },
+          "40": {
+            "mean_rgb_change_8s": 7.161616325378418,
+            "pixels_changed_above_2": 121
+          }
+        }
+      }
+    },
+    "distinct_0_20_40_second_states": true
+  },
+  "decoded": {
+    "decoded_frames": 1800,
+    "direct_native_to_encoded_yuv_controls": [
+      0,
+      1,
+      239,
+      240,
+      600,
+      840,
+      1200,
+      1560,
+      1798,
+      1799
+    ],
+    "all_direct_controls_pixel_exact": true,
+    "regional_seams": {
+      "clouds": {
+        "seam_luma_mae": 0.02516127936542034,
+        "nearby_step_max": 0.025466060265898705,
+        "normal_step_p99": 0.028226010501384735,
+        "normal_step_max": 0.02925887703895569
+      },
+      "haze": {
+        "seam_luma_mae": 0.06569700688123703,
+        "nearby_step_max": 0.06471773982048035,
+        "normal_step_p99": 0.09582459896802902,
+        "normal_step_max": 0.09785426408052444
+      },
+      "shadows": {
+        "seam_luma_mae": 0.02971002273261547,
+        "nearby_step_max": 0.029601864516735077,
+        "normal_step_p99": 0.03759082429111004,
+        "normal_step_max": 0.03843729570508003
+      },
+      "survey": {
+        "seam_luma_mae": 0.019840994849801064,
+        "nearby_step_max": 0.013066021725535393,
+        "normal_step_p99": 0.02371310096234083,
+        "normal_step_max": 0.02775665372610092
+      },
+      "windows": {
+        "seam_luma_mae": 0.0,
+        "nearby_step_max": 0.008771929889917374,
+        "normal_step_p99": 0.3335087817907332,
+        "normal_step_max": 0.44736841320991516
+      },
+      "combined": {
+        "seam_luma_mae": 0.02801443636417389,
+        "nearby_step_max": 0.02729654684662819,
+        "normal_step_p99": 0.0342409648001194,
+        "normal_step_max": 0.0348888523876667
+      }
+    }
+  },
+  "three_repeat_review": {
+    "duration_seconds": 180,
+    "decoded_frames": 5400,
+    "sequential_timestamps": true,
+    "all_decoded_repetitions_exact": true
+  },
+  "outputs": [
+    {
+      "path": "Crater-Rim-Survey-v2-60s-loop.mp4",
+      "bytes": 28072373,
+      "sha256": "3d403c69d0e01f3087f207bf8b07a9cf73f398d30f37ce5a761652098159f658"
+    },
+    {
+      "path": "Crater-Rim-Survey-v2-3-loops-180s.mp4",
+      "bytes": 84215471,
+      "sha256": "aaf21821a28f32d9ca5b55dc371716ce7f9f8c0705d998da720d38748f018cdd"
+    }
+  ],
+  "review_limits": "Native/mask/colour-correct decoded temporal stills inspected; no assistant continuous playback verdict. User artistic review pending.",
+  "status": "complete minute review candidate, not an approved 4K or full-length production master"
+}

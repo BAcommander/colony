@@ -1,0 +1,29 @@
+{
+  "sample_times_seconds": [
+    0,
+    7.97,
+    14.3,
+    19.8,
+    21.8,
+    25,
+    44.4,
+    45.1,
+    48.5,
+    56,
+    59.96666666666667
+  ],
+  "all_seven_retained_layers_pixel_exact": true,
+  "full_composite_outside_polished_effects_pixel_exact": true,
+  "vehicle_route_heading_timing_and_occlusion_masks_unchanged": true,
+  "v4_source_renderer_and_plan_snapshots_exact": true,
+  "frozen_inputs": {
+    "final/14-crater-rim-survey/artwork-v2.png": "ffb509afd49853590d7b01a521288b3d5cca47f7758feaa50136feabc4241734",
+    "music/crater-rim-animation-v5/scene-plan.json": "0b0787be1a5ca31580ee52b369cdbb9e7e34b00b90ceb83edd1df90734273bc5",
+    "music/crater-rim-animation-v5/v2_renderer_snapshot.py": "11133fa904df95ffa274848c67a6978bb9e4caa04b119a3fcaea0753cbf7826b",
+    "music/crater-rim-animation-v5/dependencies/dust_transport.py": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+    "music/crater-rim-animation-v5/dependencies/periodic_transport.py": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+    "music/crater-rim-animation-v5/v3_renderer_snapshot.py": "23b56c47214b8f0c8ca041c0c99103630bce4322f04efc12e55ea41a29d11a17",
+    "music/crater-rim-animation-v5/render_scene.py": "0d0484047b807216ad2b3586072833e70fa1ea8d2f3be1382091c611089dba44"
+  },
+  "verification_script_sha256": "0b7162d71e6afe10355803e78f97f22c96481883ff7691ea718d5f7d8b6aaccd"
+}
