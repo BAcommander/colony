@@ -1,6 +1,6 @@
 """Verify this checkpoint from remote Git and a fresh, scene-only LFS store."""
 from pathlib import Path
-import datetime,hashlib,json,os,shutil,subprocess,tempfile
+import datetime,hashlib,json,os,shutil,stat,subprocess,tempfile
 B=Path(__file__).resolve().parent;R=B.parents[1]
 def git(args,cwd=R,data=None):
     p=subprocess.run(['git',*args],cwd=cwd,input=data,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
@@ -65,7 +65,11 @@ def main():
     target.write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf-8')
     # This verified run folder is the only recursive removal target.
     assert scratch.resolve().parent==root and scratch.name.startswith('snowline-2026-11-05-') and scratch!=R.resolve()
-    shutil.rmtree(scratch)
+    def remove_readonly(function,path,exception):
+        assert Path(path).resolve().is_relative_to(scratch)
+        os.chmod(path,stat.S_IREAD|stat.S_IWRITE)
+        function(path)
+    shutil.rmtree(scratch,onerror=remove_readonly)
     assert not scratch.exists()
     receipt['scratch_removed']=True
     target.write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf-8')
