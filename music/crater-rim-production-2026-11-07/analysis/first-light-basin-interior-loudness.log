@@ -1,0 +1,41 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\jazzs\Downloads\First_Light_Basin_2026-11-07T160457.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf59.27.100
+  Duration: 00:05:04.40, start: 0.000000, bitrate: 197 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 960x540 [SAR 1:1 DAR 16:9], 2 kb/s, 10 fps, 10 tbr, 10240 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc59.37.100 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 194 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.100
+  Stream #0:0(und): Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.100 pcm_s16le
+      handler_name    : SoundHandler
+size=N/A time=00:00:24.00 bitrate=N/A speed=47.4x elapsed=0:00:00.50    size=N/A time=00:00:48.50 bitrate=N/A speed=47.5x elapsed=0:00:01.02    size=N/A time=00:01:13.80 bitrate=N/A speed=  48x elapsed=0:00:01.53    size=N/A time=00:01:37.90 bitrate=N/A speed=47.7x elapsed=0:00:02.05    size=N/A time=00:02:00.60 bitrate=N/A speed=46.9x elapsed=0:00:02.56    size=N/A time=00:02:23.00 bitrate=N/A speed=46.4x elapsed=0:00:03.08    size=N/A time=00:02:37.80 bitrate=N/A speed=43.8x elapsed=0:00:03.60    size=N/A time=00:02:52.50 bitrate=N/A speed=41.9x elapsed=0:00:04.11    size=N/A time=00:03:07.40 bitrate=N/A speed=40.5x elapsed=0:00:04.63    size=N/A time=00:03:21.50 bitrate=N/A speed=39.1x elapsed=0:00:05.14    size=N/A time=00:03:36.60 bitrate=N/A speed=38.3x elapsed=0:00:05.66    size=N/A time=00:03:50.90 bitrate=N/A speed=37.4x elapsed=0:00:06.17    size=N/A time=00:04:05.80 bitrate=N/A speed=36.7x elapsed=0:00:06.69    [Parsed_loudnorm_0 @ 000002792fa37700] 
+{
+	"input_i" : "-17.09",
+	"input_tp" : "-6.00",
+	"input_lra" : "1.80",
+	"input_thresh" : "-27.09",
+	"output_i" : "-22.91",
+	"output_tp" : "-11.92",
+	"output_lra" : "1.70",
+	"output_thresh" : "-32.91",
+	"normalization_type" : "dynamic",
+	"target_offset" : "-0.09"
+}
+[out#0/null @ 000002792d834e80] video:0KiB audio:195000KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:04:20.00 bitrate=N/A speed=36.2x elapsed=0:00:07.18    

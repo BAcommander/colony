@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "output": "G:\\AI\\colony\\music\\crater-rim-production-2026-11-07\\review\\Crater-Rim-V5-with-music-and-SFX-2min-v1.mp4",
+  "bytes": 59905748,
+  "sha256": "6cf988b0c097b1388054ffcbd068fe241387a2d93d328c9e9c47f33db7df7aa4",
+  "seconds": 120,
+  "frames": 3600,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "video_source": "G:\\AI\\colony\\music\\crater-rim-animation-v5\\Crater-Rim-Survey-v5-60s-loop.mp4",
+  "video_source_sha256": "63553fc01d87c8e629d3f8268b511255877e14d155b2f0deb10481fe2a497be1",
+  "all_video_packets_identical_to_two_source_copies": true,
+  "all_timestamps_checked": true,
+  "full_decode": true,
+  "audio": {
+    "file": "G:\\AI\\colony\\music\\crater-rim-production-2026-11-07\\review\\Crater-Rim-V5-with-music-and-SFX-2min-v1.mp4",
+    "bytes": 59905748,
+    "sha256": "6cf988b0c097b1388054ffcbd068fe241387a2d93d328c9e9c47f33db7df7aa4",
+    "seconds": 120,
+    "sample_frames": 5760000,
+    "all_finite": true,
+    "unclipped": true,
+    "peak_dbfs": -11.368868218655203,
+    "reference_max_error": 0.05411633849143982,
+    "reference_snr_db": 41.46053004011538,
+    "reference_correlation": 0.9999645662150283,
+    "last_stereo_sample": [
+      -5.684016173290729e-07,
+      1.3326537100510905e-06
+    ]
+  },
+  "full_hour_audio_window_seconds": [
+    20,
+    140
+  ],
+  "review_only_fades_seconds": [
+    0.5,
+    2
+  ],
+  "wind_enters_review_at_seconds": 25,
+  "first_wind_ends_review_at_seconds": 90,
+  "scope": "Existing V5 visual minute repeated for sound-balance audition. No new long animation, opening or final video export.",
+  "assistant_continuous_playback_or_listening": false,
+  "user_review": "pending"
+}

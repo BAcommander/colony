@@ -196,7 +196,7 @@
     "title": "Crater Rim Survey",
     "catalog_number": "14",
     "creative_concept_id": 20,
-    "status": "Artwork and thumbnail accepted; first clouds and basin haze preview awaits playback review; soundtrack pending.",
+    "status": "V5 visual minute received positive feedback. One-hour paired music, sheltered wind and room-air mix accepted November 7; long visual schedule and final video pending.",
     "artwork": "artwork-v2.png",
     "duration_seconds": null,
     "video": null,
@@ -208,11 +208,19 @@
     "motion_brief": "motion-brief.md",
     "thumbnail_user_approved": true,
     "animation_preview": {
-      "folder": "../../music/crater-rim-animation-v1",
-      "video": "Crater-Rim-Survey-clouds-and-haze-v1-8s.mp4",
-      "duration_seconds": 8,
+      "folder": "../../music/crater-rim-animation-v5",
+      "video": "Crater-Rim-Survey-v5-60s-loop.mp4",
+      "duration_seconds": 60,
       "fps": 30,
-      "user_approved": false
+      "user_feedback": "Positive V5 feedback; long schedule unbuilt"
+    },
+    "audio": {
+      "file": "../../exports/14-crater-rim-survey/audio-1h-v1/Crater-Rim-Survey-1-Hour-music-and-SFX-v1.mp3",
+      "lossless": "../../exports/14-crater-rim-survey/audio-1h-v1/Crater-Rim-Survey-1-Hour-music-and-SFX-v1.flac",
+      "duration_seconds": 3600,
+      "user_approved": true,
+      "production_package": "../../music/crater-rim-production-2026-11-07/README.md",
+      "approval_date": "2026-11-07"
     }
   },
   {

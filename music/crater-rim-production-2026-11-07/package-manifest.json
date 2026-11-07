@@ -1,0 +1,224 @@
+{
+  "date": "2026-11-07",
+  "purpose": "Accepted production package inventory; remote verification is separate",
+  "status": "User accepted presented mix; commit/push authorized",
+  "full_hour_output_fingerprints": "delivery-validation.json",
+  "user_approval": "user-approval.json",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 22,
+      "sha256": "63bf471691b40e7498ba895b6b13e2acd73ce1de1c9d2fd52c44e4db4410c299"
+    },
+    {
+      "path": "analysis/analyze_originals.py",
+      "bytes": 4328,
+      "sha256": "1439baa6edc8b27721583fb62dd27c270dfb69e24897ae4612f44eb97695c1cb"
+    },
+    {
+      "path": "analysis/first-light-basin-analysis.json",
+      "bytes": 10825,
+      "sha256": "3383f85e4049988294f4ccae21c9d7eac0542eebd8ca342f0c9db2641954e9b7"
+    },
+    {
+      "path": "analysis/first-light-basin-decode.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/first-light-basin-full-loudness.log",
+      "bytes": 2982,
+      "sha256": "0d61f7df18f16072602422a5ccd650645c7aa8825be85aca090471bf94fffcb5"
+    },
+    {
+      "path": "analysis/first-light-basin-interior-loudness.log",
+      "bytes": 2691,
+      "sha256": "223675d59d0ebaf82a8b9d9dcfa6b5228e3a1c831e6609c916ba6582a8f1862b"
+    },
+    {
+      "path": "analysis/first-light-basin-one-second-levels.json",
+      "bytes": 43248,
+      "sha256": "0555e0654463bdf955f99a60a88c06e5b2f508b88a435a6ae3e2b70912b672f6"
+    },
+    {
+      "path": "analysis/first-light-basin-probe.json",
+      "bytes": 3693,
+      "sha256": "3af65ba1bd52550bf9b81b9167130c7a94d528a8b13dbb71944b1926e28c4635"
+    },
+    {
+      "path": "analysis/first-light-basin-quarter-second-levels.json",
+      "bytes": 175024,
+      "sha256": "84fccf53f072b83bd2733215546b3ea23fbc7d3978d69c10e6e073e1cd800a56"
+    },
+    {
+      "path": "analysis/independent-stem-audit.json",
+      "bytes": 2684,
+      "sha256": "b7bb50a1ec6978f5ca32d5f1c20992b8747422b0c86c225a190bc79ccfcabb2d"
+    },
+    {
+      "path": "analysis/independent_stem_audit.py",
+      "bytes": 1321,
+      "sha256": "77648eb1dbdcadc78c74f9d3f705e9d95816a4984911e45d331fa0c9c24598b4"
+    },
+    {
+      "path": "analysis/join-candidate-measurements.json",
+      "bytes": 17063,
+      "sha256": "aaf39d7a542af57d0b60502116280b6ee291c4a9adb5d5c4db3a8ceaa2c66e32"
+    },
+    {
+      "path": "analysis/measure_join_candidates.py",
+      "bytes": 2980,
+      "sha256": "6c972d28627e0985ecadbe8f87cb5e9717f48e74995742e2343f26e510e9ef6f"
+    },
+    {
+      "path": "analysis/original-source-analysis.json",
+      "bytes": 23285,
+      "sha256": "e7e7c1cbf1890f800a71aa22dcf75b68967423a78a397eeb000697b19de7fe58"
+    },
+    {
+      "path": "analysis/recommended-arrangement.json",
+      "bytes": 1556,
+      "sha256": "99b70ee74d91912eb041ef765ea3a212df0d683d2da67db803680d0cc5e5c8da"
+    },
+    {
+      "path": "analysis/REPORT.md",
+      "bytes": 5031,
+      "sha256": "054736f0e4d50555db2e0c96609ad0ccc860433a2f767cb97a5ae6ee43440e77"
+    },
+    {
+      "path": "analysis/survey-room-analysis.json",
+      "bytes": 10827,
+      "sha256": "bf632b3250ea3598d8b571ef64c9c84905a5698f1bd8af20d6128ab6eb62b72f"
+    },
+    {
+      "path": "analysis/survey-room-decode.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/survey-room-full-loudness.log",
+      "bytes": 2991,
+      "sha256": "d98f02eea2a3742fb7898aab49db98bd1906b500514c93450d0cb527664fe7aa"
+    },
+    {
+      "path": "analysis/survey-room-interior-loudness.log",
+      "bytes": 2700,
+      "sha256": "2f6f5b812dd96dd323469b97d8ec8a52df601b3d1c7fa0c6476e789238b6e590"
+    },
+    {
+      "path": "analysis/survey-room-one-second-levels.json",
+      "bytes": 43271,
+      "sha256": "18b71b9ce2d1d9be4051000871e1e52d16b73f7f42c4683d8dd48631027ec0e5"
+    },
+    {
+      "path": "analysis/survey-room-probe.json",
+      "bytes": 3702,
+      "sha256": "a42ed991d68ba66c932ae4c52069724248f97710490f092b3e8c760834d5dc38"
+    },
+    {
+      "path": "analysis/survey-room-quarter-second-levels.json",
+      "bytes": 175040,
+      "sha256": "87d86cd0e224fe821279d579075f821c75d98355aa37e998446f1561127b7d68"
+    },
+    {
+      "path": "build_mix.py",
+      "bytes": 15687,
+      "sha256": "79c8a4a237f11ab49eb38deccf5a40558d879eacf3a6b1e95427c0db1690855e"
+    },
+    {
+      "path": "cue-sheet.txt",
+      "bytes": 1028,
+      "sha256": "11d30e4997c2ace827eee7a13291a8351ad9a3cffc6678fb4fff25eaf4124de7"
+    },
+    {
+      "path": "delivery-validation.json",
+      "bytes": 9642,
+      "sha256": "20565cc3150240116bcba765c35debcaad7a34aece83195d0daab1f8a4f5646a"
+    },
+    {
+      "path": "history/generation-record-before-intake.json",
+      "bytes": 603,
+      "sha256": "aed407141366b8cd1205d365090976fbbaa90d1059622b8c15c1e959016e277c"
+    },
+    {
+      "path": "make_scene_review.py",
+      "bytes": 2589,
+      "sha256": "de7a91cfd005cd1dde4c7d44058376905b17f7c3d5d56acaffd25e9ca017526c"
+    },
+    {
+      "path": "mix-recipe.json",
+      "bytes": 9772,
+      "sha256": "c40fbd9459d5d1add3edc4cc35238f55d96d3ce05ba2c5b74871ebfd211643b0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5493,
+      "sha256": "22627eade85b952bd550a80885056fe75bf2c25b66ed9133fa058111bfd1dad3"
+    },
+    {
+      "path": "rebuild.py",
+      "bytes": 3481,
+      "sha256": "b8481db61d3eb8eefcb08f3f4c77d8fc2eab52f21b1fe5ee48c3d15f057ba08f"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 29,
+      "sha256": "79701e1151c91d638727698421cef8de97b7a26b39b4237d11ad0ff49394b356"
+    },
+    {
+      "path": "review/Crater-Rim-Basin-to-Survey-Room-join-75s-v1.mp3",
+      "bytes": 1801196,
+      "sha256": "c6a45b719ba090ca2d56ad6c6bdc5f4b831c8d1e3d9afbe05ffba2e6007680e4"
+    },
+    {
+      "path": "review/Crater-Rim-full-pair-with-SFX-10min-v1.mp3",
+      "bytes": 14401196,
+      "sha256": "37ca7ca1b4f8402ac35d1837ee2c149520aceab4c83f1b513d91c602904afca9"
+    },
+    {
+      "path": "review/Crater-Rim-music-wind-room-air-check-2min-v1.mp3",
+      "bytes": 2881196,
+      "sha256": "caf7350353c47e70ea834b216244f4979b64136bfdae25ee111d3e133cef25cc"
+    },
+    {
+      "path": "review/Crater-Rim-Survey-Room-to-Basin-join-75s-v1.mp3",
+      "bytes": 1801196,
+      "sha256": "f17dd435f4758a4bafbe1eeea88911ae7787a0fe7a712b38a2b3eb026b77b998"
+    },
+    {
+      "path": "review/Crater-Rim-V5-with-music-and-SFX-2min-v1.mp4",
+      "bytes": 59905748,
+      "sha256": "6cf988b0c097b1388054ffcbd068fe241387a2d93d328c9e9c47f33db7df7aa4"
+    },
+    {
+      "path": "runtime-snapshot.json",
+      "bytes": 803,
+      "sha256": "35059b44d1c174f0a5739b5386399d656abcfc9b9a15607be34fe7b93d224c2c"
+    },
+    {
+      "path": "scene-review-validation.json",
+      "bytes": 1726,
+      "sha256": "f2ef71096656812a42220479c83afb6f6d04a2004a552f22eba58e9b18f0b2d5"
+    },
+    {
+      "path": "source-manifest.json",
+      "bytes": 1470,
+      "sha256": "cf9a5bce536ef69610cfed1f49b541d378fc5828a093e89b21b542af61f93d4f"
+    },
+    {
+      "path": "sources/First_Light_Basin_2026-11-07T160457.mp4",
+      "bytes": 7528572,
+      "sha256": "afa94de88a2f5d58f25528f1f14ad47c37bc90a55fb0fb15c9cd3debf9d2fe44"
+    },
+    {
+      "path": "sources/Survey_Room_at_First_Light_2026-11-07T160457.mp4",
+      "bytes": 7510087,
+      "sha256": "ba78a5d886eeef7c6cf355e1cf36ca25d56aaa6d672abd8cb5cb03cce4f53aab"
+    },
+    {
+      "path": "user-approval.json",
+      "bytes": 532,
+      "sha256": "99b412f2418cc13c4b415003778ab621154fb8698dc5fadd382be2beb7093f95"
+    }
+  ]
+}

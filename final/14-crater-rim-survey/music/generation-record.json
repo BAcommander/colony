@@ -1,5 +1,5 @@
 {
-  "status": "not generated",
+  "status": "Two supplied five-minute originals received; one-hour music/wind/room-air audition delivered",
   "date_prepared": "2026-09-29",
   "provider": "ElevenLabs Music",
   "settings_observed": null,
@@ -7,12 +7,37 @@
   "short_test_files": [],
   "selected_test": null,
   "long_export": null,
-  "user_feedback": null,
-  "audio_approval": false,
-  "local_join_review": null,
-  "delivery_duration_seconds": null,
-  "current_prompt_version": "v3",
+  "user_feedback": "ok i think that's decent commit and push it",
+  "audio_approval": true,
+  "local_join_review": [
+    "music/crater-rim-production-2026-11-07/review/Crater-Rim-Survey-Room-to-Basin-join-75s-v1.mp3",
+    "music/crater-rim-production-2026-11-07/review/Crater-Rim-Basin-to-Survey-Room-join-75s-v1.mp3"
+  ],
+  "delivery_duration_seconds": 3600,
+  "current_prompt_version": "v4 related candidates; actual executed text unconfirmed",
   "v3_date_prepared": "2026-10-30",
   "v3_status": "research-informed proposal; not generated",
-  "v3_scope": "User confirms November scene lineup; short pilot, owned-reference long prompt and separate ambience proposal."
+  "v3_scope": "User confirms November scene lineup; short pilot, owned-reference long prompt and separate ambience proposal.",
+  "date_received": "2026-11-07",
+  "original_exports": [
+    {
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Survey_Room_at_First_Light_2026-11-07T160457.mp4",
+      "preserved_path": "G:\\AI\\colony\\music\\crater-rim-production-2026-11-07\\sources\\Survey_Room_at_First_Light_2026-11-07T160457.mp4",
+      "bytes": 7510087,
+      "sha256": "ba78a5d886eeef7c6cf355e1cf36ca25d56aaa6d672abd8cb5cb03cce4f53aab",
+      "declared_audio_seconds": 300,
+      "container_seconds": 304.4
+    },
+    {
+      "original_path": "C:\\Users\\jazzs\\Downloads\\First_Light_Basin_2026-11-07T160457.mp4",
+      "preserved_path": "G:\\AI\\colony\\music\\crater-rim-production-2026-11-07\\sources\\First_Light_Basin_2026-11-07T160457.mp4",
+      "bytes": 7528572,
+      "sha256": "afa94de88a2f5d58f25528f1f14ad47c37bc90a55fb0fb15c9cd3debf9d2fe44",
+      "declared_audio_seconds": 300,
+      "container_seconds": 304.4
+    }
+  ],
+  "production_package": "music/crater-rim-production-2026-11-07",
+  "mix_recipe": "music/crater-rim-production-2026-11-07/mix-recipe.json",
+  "approval_record": "music/crater-rim-production-2026-11-07/user-approval.json"
 }

@@ -1,0 +1,23 @@
+{
+  "authority": "ok i think that's decent commit and push it",
+  "branch": "main",
+  "new_media_lfs": [
+    "music/crater-rim-production-2026-11-07/review/Crater-Rim-Basin-to-Survey-Room-join-75s-v1.mp3",
+    "music/crater-rim-production-2026-11-07/review/Crater-Rim-Survey-Room-to-Basin-join-75s-v1.mp3",
+    "music/crater-rim-production-2026-11-07/review/Crater-Rim-V5-with-music-and-SFX-2min-v1.mp4",
+    "music/crater-rim-production-2026-11-07/review/Crater-Rim-full-pair-with-SFX-10min-v1.mp3",
+    "music/crater-rim-production-2026-11-07/review/Crater-Rim-music-wind-room-air-check-2min-v1.mp3",
+    "music/crater-rim-production-2026-11-07/sources/First_Light_Basin_2026-11-07T160457.mp4",
+    "music/crater-rim-production-2026-11-07/sources/Survey_Room_at_First_Light_2026-11-07T160457.mp4"
+  ],
+  "existing_media_dependencies": [
+    "music/sfx-library/assets/wind-soft-exterior-01.mp3",
+    "music/crater-rim-animation-v5/Crater-Rim-Survey-v5-60s-loop.mp4"
+  ],
+  "local_only": [
+    "exports/14-crater-rim-survey/audio-1h-v1/",
+    ".local/crater-rim-audio-2026-11-07-v1/"
+  ],
+  "unrelated_work": "Preserved; not staged",
+  "no_files_deleted": true
+}

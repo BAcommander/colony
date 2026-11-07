@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-07",
+  "status": "measured candidate; listening approval pending",
+  "analysis_only": true,
+  "sample_rate": 48000,
+  "channels": 2,
+  "sources": {
+    "survey-room": {
+      "source": "C:/Users/jazzs/Downloads/Survey_Room_at_First_Light_2026-11-07T160457.mp4",
+      "source_start_seconds": 4.0,
+      "source_end_seconds": 294.0,
+      "fixed_gain_db": -6.3,
+      "interior_post_gain_lufs": -23.03,
+      "expected_standalone_post_gain_true_peak_dbtp": -10.87
+    },
+    "first-light-basin": {
+      "source": "C:/Users/jazzs/Downloads/First_Light_Basin_2026-11-07T160457.mp4",
+      "source_start_seconds": 4.0,
+      "source_end_seconds": 294.0,
+      "fixed_gain_db": -5.9,
+      "interior_post_gain_lufs": -22.99,
+      "expected_standalone_post_gain_true_peak_dbtp": -11.90
+    }
+  },
+  "handoffs": [
+    {"outgoing": "survey-room", "incoming": "first-light-basin", "overlap_seconds": 24.0, "outgoing_source_seconds": [270.0, 294.0], "incoming_source_seconds": [4.0, 28.0]},
+    {"outgoing": "first-light-basin", "incoming": "survey-room", "overlap_seconds": 30.0, "outgoing_source_seconds": [264.0, 294.0], "incoming_source_seconds": [4.0, 34.0]}
+  ],
+  "crossfade": "equal-power cosine outgoing / sine incoming",
+  "circular_AB_interval_seconds": 526.0,
+  "finite_AB_pair_duration_seconds": 556.0,
+  "no_audio_modifications_written_by_analysis": true,
+  "pcm_cache_paths": [],
+  "limitations": ["No listening performed", "No harmonic-compatibility verdict", "Loudness of final mixed programme must be measured separately"]
+}

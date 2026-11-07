@@ -1,0 +1,22 @@
+Crater Rim one-hour v1 wind cues — 2026-11-07
+Music and room air continue throughout; wind rises for12s, falls for18s.
+Full-hour wind times; the2min scene audition begins at hour0:20.
+
+01. 00:45–01:50 (65s), source phase 18.853s
+02. 03:48–04:59 (71s), source phase 3.520s
+03. 06:57–08:12 (75s), source phase 3.517s
+04. 10:35–11:35 (60s), source phase 22.106s
+05. 13:36–14:52 (76s), source phase 1.261s
+06. 17:07–18:15 (68s), source phase 21.778s
+07. 20:08–21:22 (74s), source phase 21.400s
+08. 23:47–24:47 (60s), source phase 3.856s
+09. 26:58–28:12 (74s), source phase 20.350s
+10. 30:39–31:42 (63s), source phase 20.792s
+11. 33:38–34:51 (73s), source phase 4.130s
+12. 37:11–38:18 (67s), source phase 7.111s
+13. 40:14–41:18 (64s), source phase 16.647s
+14. 43:19–44:24 (65s), source phase 4.278s
+15. 46:27–47:28 (61s), source phase 5.808s
+16. 49:54–51:10 (76s), source phase 19.695s
+17. 53:00–54:10 (70s), source phase 6.485s
+18. 56:35–57:40 (65s), source phase 21.459s

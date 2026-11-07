@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-07",
+  "user_message": "ok i think that's decent commit and push it",
+  "audio_mix_accepted": true,
+  "backup_authorized_on": "main",
+  "scope": "Presented Crater Rim music and SFX balance accepted; commit/push source, recipe and review checkpoint",
+  "accepted_full_mix_sha256": "333c0fe1b94ac899d0fa6a91ed009c693de312c791913a838662bf7433b5c994",
+  "accepted_full_mix_bytes": 484181535,
+  "full_hour_continuous_listening_not_asserted": true,
+  "long_animation_and_final_video_still_pending": true
+}

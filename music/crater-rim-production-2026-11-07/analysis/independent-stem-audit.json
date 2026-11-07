@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "execution_date": "2026-11-07",
+  "provenance": "Receipt saved from the completed independent read-only check; measured values below are the actual prior tool output, not inferred from the renderer. Exact execution time was not recorded.",
+  "auditor": "Independent sky_review sub-agent; no mixing-script or media edits",
+  "script": "G:/AI/colony/music/crater-rim-production-2026-11-07/analysis/independent_stem_audit.py",
+  "script_note": "Preserves the exact executed check logic, with a module description and formatting added when saving. Emits JSON to stdout only.",
+  "input_format": {
+    "sample_type": "little-endian IEEE float32",
+    "channels": 2,
+    "sample_rate": 48000,
+    "chunk_sample_frames": 480000,
+    "addition_precision": "NumPy float32",
+    "comparison": "numpy.array_equal; exact sample values, no tolerance"
+  },
+  "actual_cache_paths": {
+    "mix": "G:/AI/colony/.local/crater-rim-audio-2026-11-07-v1/mix-hour.f32",
+    "dry": "G:/AI/colony/.local/crater-rim-audio-2026-11-07-v1/dry-hour.f32",
+    "sfx": "G:/AI/colony/.local/crater-rim-audio-2026-11-07-v1/sfx-hour.f32",
+    "wind": "G:/AI/colony/.local/crater-rim-audio-2026-11-07-v1/wind-hour.f32",
+    "room": "G:/AI/colony/.local/crater-rim-audio-2026-11-07-v1/room-hour.f32"
+  },
+  "observed_results": {
+    "full_raw_stem_additivity_exact": true,
+    "mix_equals_float32_dry_plus_sfx_all_checked_frames": true,
+    "sfx_equals_float32_wind_plus_room_all_checked_frames": true,
+    "sample_frames_per_channel_checked": 172800000,
+    "duration_seconds_at_48000_hz": 3600,
+    "last_pcm_stereo_samples": {
+      "mix": [0.0, 0.0],
+      "dry": [0.0, -0.0],
+      "sfx": [0.0, 0.0],
+      "wind": [0.0, 0.0],
+      "room": [-0.0, -0.0]
+    },
+    "all_final_pcm_stereo_samples_equal_zero": true
+  },
+  "limitations": [
+    "Checks the completed rendered PCM caches; it does not independently reconstruct music cuts, source gains, envelopes or SFX synthesis from original sources.",
+    "Does not decode or compare exported FLAC/MP3 files. Those full-output-to-rendered-reference checks are performed separately by build_mix.py and recorded in delivery-validation.json.",
+    "The final-zero result applies to the audited PCM caches. Lossy MP3 encoding can produce a nonzero final decoded sample.",
+    "No source or cache content hashes were captured during this independent check; the actual input paths and observed arithmetic results are recorded without a retrospective hash claim.",
+    "No listening, perceived-balance judgment, harmonic-compatibility judgment or user approval is inferred."
+  ],
+  "assistant_listening": false,
+  "source_or_media_modified": false
+}

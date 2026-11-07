@@ -1,0 +1,309 @@
+{
+  "status": "passed",
+  "seconds": 3600,
+  "sample_frames_per_channel": 172800000,
+  "source_hashes_unchanged": true,
+  "outputs": [
+    {
+      "file": "G:\\AI\\colony\\exports\\14-crater-rim-survey\\audio-1h-v1\\Crater-Rim-Survey-1-Hour-dry-music-v1.flac",
+      "bytes": 482234140,
+      "sha256": "141bbc8a2e4eb26cabc3d069b49988eb41300c406e7a68268270d71fcf251259",
+      "seconds": 3600,
+      "sample_frames": 172800000,
+      "all_finite": true,
+      "unclipped": true,
+      "peak_dbfs": -10.8731858048192,
+      "reference_max_error": 1.1897515722614216e-07,
+      "reference_snr_db": 119.11210477464047,
+      "reference_correlation": 0.9999999999993846,
+      "last_stereo_sample": [
+        0.0,
+        0.0
+      ],
+      "stem": "dry"
+    },
+    {
+      "file": "G:\\AI\\colony\\exports\\14-crater-rim-survey\\audio-1h-v1\\Crater-Rim-Survey-1-Hour-music-and-SFX-v1.flac",
+      "bytes": 484181535,
+      "sha256": "333c0fe1b94ac899d0fa6a91ed009c693de312c791913a838662bf7433b5c994",
+      "seconds": 3600,
+      "sample_frames": 172800000,
+      "all_finite": true,
+      "unclipped": true,
+      "peak_dbfs": -9.905833851020558,
+      "reference_max_error": 1.1897463991772383e-07,
+      "reference_snr_db": 119.20521533563786,
+      "reference_correlation": 0.9999999999994009,
+      "last_stereo_sample": [
+        0.0,
+        0.0
+      ],
+      "stem": "mix"
+    },
+    {
+      "file": "G:\\AI\\colony\\exports\\14-crater-rim-survey\\audio-1h-v1\\Crater-Rim-Survey-1-Hour-music-and-SFX-v1.mp3",
+      "bytes": 86401196,
+      "sha256": "c97ad31398dd111a424b65bc5414ab7b43c850165b0265aaabe217a47d994ffd",
+      "seconds": 3600,
+      "sample_frames": 172800000,
+      "all_finite": true,
+      "unclipped": true,
+      "peak_dbfs": -10.168156237550862,
+      "reference_max_error": 0.009518682956695557,
+      "reference_snr_db": 30.432916269243478,
+      "reference_correlation": 0.9999979739421175,
+      "last_stereo_sample": [
+        -9.699926195594344e-09,
+        3.2517482040361756e-09
+      ],
+      "stem": "mix"
+    },
+    {
+      "file": "G:\\AI\\colony\\exports\\14-crater-rim-survey\\audio-1h-v1\\Crater-Rim-Survey-1-Hour-wind-only-v1.flac",
+      "bytes": 77147774,
+      "sha256": "06645d83214249d4e71e4b67ffd82311157a1e12c201b26fc6cb04f1fa92c306",
+      "seconds": 3600,
+      "sample_frames": 172800000,
+      "all_finite": true,
+      "unclipped": true,
+      "peak_dbfs": -19.635096297033286,
+      "reference_max_error": 1.1897623153345194e-07,
+      "reference_snr_db": 102.72308138296039,
+      "reference_correlation": 0.9999999999732923,
+      "last_stereo_sample": [
+        0.0,
+        0.0
+      ],
+      "stem": "wind"
+    },
+    {
+      "file": "G:\\AI\\colony\\exports\\14-crater-rim-survey\\audio-1h-v1\\Crater-Rim-Survey-1-Hour-SFX-only-v1.flac",
+      "bytes": 262489084,
+      "sha256": "3dd3700323cd2d532040957e033177d1635779f167b87a8360c60048ef73c618",
+      "seconds": 3600,
+      "sample_frames": 172800000,
+      "all_finite": true,
+      "unclipped": true,
+      "peak_dbfs": -19.16823020916884,
+      "reference_max_error": 1.1897282092832029e-07,
+      "reference_snr_db": 101.17009536418257,
+      "reference_correlation": 0.9999999999618149,
+      "last_stereo_sample": [
+        0.0,
+        0.0
+      ],
+      "stem": "sfx"
+    },
+    {
+      "file": "G:\\AI\\colony\\exports\\14-crater-rim-survey\\audio-1h-v1\\Crater-Rim-Survey-1-Hour-room-air-only-v1.flac",
+      "bytes": 247737995,
+      "sha256": "11655f037d355daf0e563297b4ce120c92948f6b3868388d4c6ca3763c07fb3d",
+      "seconds": 3600,
+      "sample_frames": 172800000,
+      "all_finite": true,
+      "unclipped": true,
+      "peak_dbfs": -30.522018867698716,
+      "reference_max_error": 1.1897282092832029e-07,
+      "reference_snr_db": 98.2646490178449,
+      "reference_correlation": 0.9999999999254433,
+      "last_stereo_sample": [
+        0.0,
+        0.0
+      ],
+      "stem": "room"
+    }
+  ],
+  "reviews": [
+    {
+      "file": "G:\\AI\\colony\\music\\crater-rim-production-2026-11-07\\review\\Crater-Rim-music-wind-room-air-check-2min-v1.mp3",
+      "bytes": 2881196,
+      "sha256": "caf7350353c47e70ea834b216244f4979b64136bfdae25ee111d3e133cef25cc",
+      "seconds": 120,
+      "sample_frames": 5760000,
+      "all_finite": true,
+      "unclipped": true,
+      "peak_dbfs": -11.600780321601986,
+      "reference_max_error": 0.00817805528640747,
+      "reference_snr_db": 30.42889755415361,
+      "reference_correlation": 0.9999976177860447,
+      "last_stereo_sample": [
+        -1.2433883966878057e-07,
+        4.924290806229692e-07
+      ],
+      "full_mix_start": 20,
+      "review_only_fades_seconds": [
+        0.5,
+        2
+      ],
+      "separate_normalization": false
+    },
+    {
+      "file": "G:\\AI\\colony\\music\\crater-rim-production-2026-11-07\\review\\Crater-Rim-Survey-Room-to-Basin-join-75s-v1.mp3",
+      "bytes": 1801196,
+      "sha256": "f17dd435f4758a4bafbe1eeea88911ae7787a0fe7a712b38a2b3eb026b77b998",
+      "seconds": 75,
+      "sample_frames": 3600000,
+      "all_finite": true,
+      "unclipped": true,
+      "peak_dbfs": -11.14936145253445,
+      "reference_max_error": 0.008989930152893066,
+      "reference_snr_db": 30.43702721588033,
+      "reference_correlation": 0.9999984150448271,
+      "last_stereo_sample": [
+        1.438613566051572e-07,
+        -7.363833560702915e-07
+      ],
+      "full_mix_start": 255,
+      "review_only_fades_seconds": [
+        0.5,
+        2
+      ],
+      "separate_normalization": false
+    },
+    {
+      "file": "G:\\AI\\colony\\music\\crater-rim-production-2026-11-07\\review\\Crater-Rim-Basin-to-Survey-Room-join-75s-v1.mp3",
+      "bytes": 1801196,
+      "sha256": "c6a45b719ba090ca2d56ad6c6bdc5f4b831c8d1e3d9afbe05ffba2e6007680e4",
+      "seconds": 75,
+      "sample_frames": 3600000,
+      "all_finite": true,
+      "unclipped": true,
+      "peak_dbfs": -12.173324507104883,
+      "reference_max_error": 0.007947474718093872,
+      "reference_snr_db": 30.44004007999648,
+      "reference_correlation": 0.9999986268247782,
+      "last_stereo_sample": [
+        -4.4404465882053046e-08,
+        1.9485788982365193e-07
+      ],
+      "full_mix_start": 515,
+      "review_only_fades_seconds": [
+        0.5,
+        2
+      ],
+      "separate_normalization": false
+    },
+    {
+      "file": "G:\\AI\\colony\\music\\crater-rim-production-2026-11-07\\review\\Crater-Rim-full-pair-with-SFX-10min-v1.mp3",
+      "bytes": 14401196,
+      "sha256": "37ca7ca1b4f8402ac35d1837ee2c149520aceab4c83f1b513d91c602904afca9",
+      "seconds": 600,
+      "sample_frames": 28800000,
+      "all_finite": true,
+      "unclipped": true,
+      "peak_dbfs": -10.168156237550862,
+      "reference_max_error": 0.009518682956695557,
+      "reference_snr_db": 30.432896939392172,
+      "reference_correlation": 0.9999979788167818,
+      "last_stereo_sample": [
+        9.317751192838841e-08,
+        -9.190951288928773e-08
+      ],
+      "full_mix_start": 0,
+      "review_only_fades_seconds": [
+        0.5,
+        2
+      ],
+      "separate_normalization": false
+    }
+  ],
+  "full_mix_measurements": {
+    "integrated_lufs": -22.98,
+    "lra_lu": 2.3,
+    "true_peak_dbtp": -9.9,
+    "measurement_only": true
+  },
+  "full_sample_reference_checks": true,
+  "music_continuous_coverage_minimum": 1,
+  "wind_off_frames_exact_zero": 113904000,
+  "repeated_dry_joins": [
+    {
+      "incoming_track": 1,
+      "start": 270,
+      "seconds": 24,
+      "equals_first_corresponding_join": true
+    },
+    {
+      "incoming_track": 0,
+      "start": 530,
+      "seconds": 30,
+      "equals_first_corresponding_join": true
+    },
+    {
+      "incoming_track": 1,
+      "start": 796,
+      "seconds": 24,
+      "equals_first_corresponding_join": true
+    },
+    {
+      "incoming_track": 0,
+      "start": 1056,
+      "seconds": 30,
+      "equals_first_corresponding_join": true
+    },
+    {
+      "incoming_track": 1,
+      "start": 1322,
+      "seconds": 24,
+      "equals_first_corresponding_join": true
+    },
+    {
+      "incoming_track": 0,
+      "start": 1582,
+      "seconds": 30,
+      "equals_first_corresponding_join": true
+    },
+    {
+      "incoming_track": 1,
+      "start": 1848,
+      "seconds": 24,
+      "equals_first_corresponding_join": true
+    },
+    {
+      "incoming_track": 0,
+      "start": 2108,
+      "seconds": 30,
+      "equals_first_corresponding_join": true
+    },
+    {
+      "incoming_track": 1,
+      "start": 2374,
+      "seconds": 24,
+      "equals_first_corresponding_join": true
+    },
+    {
+      "incoming_track": 0,
+      "start": 2634,
+      "seconds": 30,
+      "equals_first_corresponding_join": true
+    },
+    {
+      "incoming_track": 1,
+      "start": 2900,
+      "seconds": 24,
+      "equals_first_corresponding_join": true
+    },
+    {
+      "incoming_track": 0,
+      "start": 3160,
+      "seconds": 30,
+      "equals_first_corresponding_join": true
+    },
+    {
+      "incoming_track": 1,
+      "start": 3426,
+      "seconds": 24,
+      "equals_first_corresponding_join": true
+    }
+  ],
+  "raw_stem_peaks_dbfs": {
+    "mix": -9.905836280299713,
+    "dry": -10.873187615132519,
+    "sfx": -19.16823608969358,
+    "wind": -19.635096917558243,
+    "room": -30.522035710234974
+  },
+  "assistant_listening": false,
+  "user_join_balance_full_hour_review": "pending",
+  "video_full_length_created": false
+}

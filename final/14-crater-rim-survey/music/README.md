@@ -1,5 +1,7 @@
 # 14 — Crater Rim Survey soundtrack preparation
 
+Current audio — 2026-11-07: both supplied five-minute originals are arranged into a [one-hour music, sheltered wind and room-air audition](../../../music/crater-rim-production-2026-11-07/README.md). Full MP3/FLAC, separate stems, two dry joins, a ten-minute pair check and a two-minute V5 scene preview are delivered and technically checked. User accepted the presented audio on November 7 and requested commit/push; the long animation and final video remain pending. Earlier ungenerated statements below describe prior preparation.
+
 V3 prepared 2026-10-30 after ambient-practice research and the user's listening ratings, for the confirmed November lineup. Proposed musical direction only; no V3 audio generated, evaluated or approved. V1/V2 from 2026-09-29 remain history. [Research and month pack](../../../creative/music/november-2026/README.md).
 
 Read [the shared music workflow](../../../creative/MUSIC_WORKFLOW.md). The user runs any ElevenLabs generations manually after checking the actual displayed cost and available controls. Do not use a paid API or plugin.
@@ -39,7 +41,7 @@ The publication copy is a draft. Add accurate soundtrack wording and runtime onc
 
 ## Prompt versions
 
-Current: `elevenlabs-prompt-v3.txt` and `elevenlabs-long-version-v3.txt` (2026-10-30), with separate `ambience-prompt-v3.txt`. Read the November research and V3 workflow. V2 files from 2026-09-29 are preserved untested history. `elevenlabs-prompt-v1.txt` and `elevenlabs-long-version.txt` are preserved history. None of these scene prompt versions has been generated or heard.
+Current proposal: `elevenlabs-crater-room-v4.txt` and `elevenlabs-crater-basin-v4.txt`. The supplied November 7 exports followed this handoff; executed prompts remain unverified. Historical V3: `elevenlabs-prompt-v3.txt` and `elevenlabs-long-version-v3.txt` (2026-10-30), with separate `ambience-prompt-v3.txt`. Read the November research and V3 workflow. V2 files from 2026-09-29 are preserved untested history. `elevenlabs-prompt-v1.txt` and `elevenlabs-long-version.txt` are preserved history. Historical prompt generations were unverified at preparation; the two new supplied exports are preserved, with exact executed prompts still unconfirmed.
 
 Notes kept out of the prompt text on purpose:
 

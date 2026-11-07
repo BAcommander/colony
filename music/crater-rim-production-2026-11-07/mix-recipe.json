@@ -1,0 +1,403 @@
+{
+  "date": "2026-11-07",
+  "authority": "heres 2 files, can wework on making an hour long mix with sfx",
+  "duration_seconds": 3600,
+  "sample_rate": 48000,
+  "channels": 2,
+  "music_source_gains_db": [
+    -6.3,
+    -5.9
+  ],
+  "music_schedule": [
+    {
+      "index": 0,
+      "track": 0,
+      "start": 0,
+      "source_in": 0,
+      "source_out": 294,
+      "natural_end": 294,
+      "output_end": 294,
+      "fade_in": 0,
+      "fade_out": 24
+    },
+    {
+      "index": 1,
+      "track": 1,
+      "start": 270,
+      "source_in": 4,
+      "source_out": 294,
+      "natural_end": 560,
+      "output_end": 560,
+      "fade_in": 24,
+      "fade_out": 30
+    },
+    {
+      "index": 2,
+      "track": 0,
+      "start": 530,
+      "source_in": 4,
+      "source_out": 294,
+      "natural_end": 820,
+      "output_end": 820,
+      "fade_in": 30,
+      "fade_out": 24
+    },
+    {
+      "index": 3,
+      "track": 1,
+      "start": 796,
+      "source_in": 4,
+      "source_out": 294,
+      "natural_end": 1086,
+      "output_end": 1086,
+      "fade_in": 24,
+      "fade_out": 30
+    },
+    {
+      "index": 4,
+      "track": 0,
+      "start": 1056,
+      "source_in": 4,
+      "source_out": 294,
+      "natural_end": 1346,
+      "output_end": 1346,
+      "fade_in": 30,
+      "fade_out": 24
+    },
+    {
+      "index": 5,
+      "track": 1,
+      "start": 1322,
+      "source_in": 4,
+      "source_out": 294,
+      "natural_end": 1612,
+      "output_end": 1612,
+      "fade_in": 24,
+      "fade_out": 30
+    },
+    {
+      "index": 6,
+      "track": 0,
+      "start": 1582,
+      "source_in": 4,
+      "source_out": 294,
+      "natural_end": 1872,
+      "output_end": 1872,
+      "fade_in": 30,
+      "fade_out": 24
+    },
+    {
+      "index": 7,
+      "track": 1,
+      "start": 1848,
+      "source_in": 4,
+      "source_out": 294,
+      "natural_end": 2138,
+      "output_end": 2138,
+      "fade_in": 24,
+      "fade_out": 30
+    },
+    {
+      "index": 8,
+      "track": 0,
+      "start": 2108,
+      "source_in": 4,
+      "source_out": 294,
+      "natural_end": 2398,
+      "output_end": 2398,
+      "fade_in": 30,
+      "fade_out": 24
+    },
+    {
+      "index": 9,
+      "track": 1,
+      "start": 2374,
+      "source_in": 4,
+      "source_out": 294,
+      "natural_end": 2664,
+      "output_end": 2664,
+      "fade_in": 24,
+      "fade_out": 30
+    },
+    {
+      "index": 10,
+      "track": 0,
+      "start": 2634,
+      "source_in": 4,
+      "source_out": 294,
+      "natural_end": 2924,
+      "output_end": 2924,
+      "fade_in": 30,
+      "fade_out": 24
+    },
+    {
+      "index": 11,
+      "track": 1,
+      "start": 2900,
+      "source_in": 4,
+      "source_out": 294,
+      "natural_end": 3190,
+      "output_end": 3190,
+      "fade_in": 24,
+      "fade_out": 30
+    },
+    {
+      "index": 12,
+      "track": 0,
+      "start": 3160,
+      "source_in": 4,
+      "source_out": 294,
+      "natural_end": 3450,
+      "output_end": 3450,
+      "fade_in": 30,
+      "fade_out": 24
+    },
+    {
+      "index": 13,
+      "track": 1,
+      "start": 3426,
+      "source_in": 4,
+      "source_out": 294,
+      "natural_end": 3716,
+      "output_end": 3600,
+      "fade_in": 24,
+      "fade_out": 30
+    }
+  ],
+  "music_retained_region_seconds": [
+    4,
+    294
+  ],
+  "first_track_keeps_original_start": true,
+  "crossfade_seconds": {
+    "Room_to_Basin": 24,
+    "Basin_to_Room": 30
+  },
+  "crossfade_curve": "Equal-power cosine/sine, sample-indexed",
+  "subsequent_pair_period_seconds": 526,
+  "source_fingerprints": {
+    "G:\\AI\\colony\\music\\crater-rim-production-2026-11-07\\sources\\Survey_Room_at_First_Light_2026-11-07T160457.mp4": "ba78a5d886eeef7c6cf355e1cf36ca25d56aaa6d672abd8cb5cb03cce4f53aab",
+    "G:\\AI\\colony\\music\\crater-rim-production-2026-11-07\\sources\\First_Light_Basin_2026-11-07T160457.mp4": "afa94de88a2f5d58f25528f1f14ad47c37bc90a55fb0fb15c9cd3debf9d2fe44",
+    "G:\\AI\\colony\\music\\sfx-library\\assets\\wind-soft-exterior-01.mp3": "324470a6fa73b57ef021edca2ddd6f4c20a6319bd0148bc2ea0f4f71c8d19a34"
+  },
+  "wind_source": "G:\\AI\\colony\\music\\sfx-library\\assets\\wind-soft-exterior-01.mp3",
+  "wind": {
+    "original_trim_seconds": [
+      1,
+      29
+    ],
+    "equal_power_overlap_seconds": 4,
+    "prepared_period_seconds": 24,
+    "filter": "2nd-order 1800Hz low-pass, zero phase in three-cycle context; retain middle cycle",
+    "prepared_unscaled_measurements": {
+      "integrated_lufs": -43.48,
+      "lra_lu": 3.4,
+      "true_peak_dbtp": -24.84,
+      "measurement_only": true
+    },
+    "fixed_prepared_source_gain_db": 5.479999999999997,
+    "nominal_plateau_target_lufs": -38,
+    "gain_basis": "New scene audition, calibrated after shelter filtering; no normalization of sparse hour stem",
+    "original_source_modified": false
+  },
+  "wind_events": [
+    {
+      "start": 45,
+      "end": 110,
+      "duration": 65,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 18.853
+    },
+    {
+      "start": 228,
+      "end": 299,
+      "duration": 71,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 3.52
+    },
+    {
+      "start": 417,
+      "end": 492,
+      "duration": 75,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 3.517
+    },
+    {
+      "start": 635,
+      "end": 695,
+      "duration": 60,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 22.106
+    },
+    {
+      "start": 816,
+      "end": 892,
+      "duration": 76,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 1.261
+    },
+    {
+      "start": 1027,
+      "end": 1095,
+      "duration": 68,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 21.778
+    },
+    {
+      "start": 1208,
+      "end": 1282,
+      "duration": 74,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 21.4
+    },
+    {
+      "start": 1427,
+      "end": 1487,
+      "duration": 60,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 3.856
+    },
+    {
+      "start": 1618,
+      "end": 1692,
+      "duration": 74,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 20.35
+    },
+    {
+      "start": 1839,
+      "end": 1902,
+      "duration": 63,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 20.792
+    },
+    {
+      "start": 2018,
+      "end": 2091,
+      "duration": 73,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 4.13
+    },
+    {
+      "start": 2231,
+      "end": 2298,
+      "duration": 67,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 7.111
+    },
+    {
+      "start": 2414,
+      "end": 2478,
+      "duration": 64,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 16.647
+    },
+    {
+      "start": 2599,
+      "end": 2664,
+      "duration": 65,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 4.278
+    },
+    {
+      "start": 2787,
+      "end": 2848,
+      "duration": 61,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 5.808
+    },
+    {
+      "start": 2994,
+      "end": 3070,
+      "duration": 76,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 19.695
+    },
+    {
+      "start": 3180,
+      "end": 3250,
+      "duration": 70,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 6.485
+    },
+    {
+      "start": 3395,
+      "end": 3460,
+      "duration": 65,
+      "fade_in": 12,
+      "fade_out": 18,
+      "source_phase_seconds": 21.459
+    }
+  ],
+  "wind_event_count": 18,
+  "wind_off_gaps_seconds": [
+    118,
+    118,
+    143,
+    121,
+    135,
+    113,
+    145,
+    131,
+    147,
+    116,
+    140,
+    116,
+    121,
+    123,
+    146,
+    110,
+    145
+  ],
+  "room_air": {
+    "construction": "Original deterministic periodic band-shaped noise; no recorded machinery, voices or pitched oscillator",
+    "algorithm_reference": "scripts/build_snowline_environment.py make_ventilation and scripts/generate_receiver_texture.py noise; locally implemented with scene-specific period, seed and level",
+    "period_seconds": 197,
+    "seed": 140711,
+    "nominal_band_hz": [
+      140,
+      950
+    ],
+    "synthesis_rate": 12000,
+    "output_rate": 48000,
+    "target_stereo_rms_dbfs": -45,
+    "actual_stereo_rms_dbfs": -45.000000292665234,
+    "stereo": "Narrow image, unequal 31/47ms taps",
+    "level_modulation_cycles_per_period": [
+      2,
+      5
+    ],
+    "period_boundary_step": 0.0004641907289624214,
+    "ordinary_step_p99": 0.0012514898553490639,
+    "new_scene_balance_pending": true
+  },
+  "opening": "No Colony opening fade baked; first source natural entrance retained. Apply current opening once in later video assembly.",
+  "closing": "One sample-indexed 20s linear fade applied equally to all stems; final stereo sample zero",
+  "no_music_eq_compression_pitch_or_stretch": true,
+  "new_paid_generation": false,
+  "additional_sfx": [
+    "sheltered wind",
+    "quiet room air"
+  ],
+  "wind_modulation": ".92 + .05*sin(2*pi*event_time/31.7+.4) + .03*sin(2*pi*event_time/47.3+1.1)",
+  "audio_visual_sync": "This new hour cue sheet is for later long-animation integration. Current V5 review repeats existing visuals; no synchronization claim.",
+  "user_balance_and_join_review": "pending",
+  "assistant_listening": false
+}

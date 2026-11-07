@@ -461,3 +461,16 @@ music/deepwell-claim-review-2026-11-02/replacement-v1/Waterworks-Gallery-reworke
 /music/back-before-dawn-animation-v1/Back-Before-Dawn-Street-rain-and-passing-car-detail.mp4 filter=lfs diff=lfs merge=lfs -text
 /music/back-before-dawn-animation-v1/Back-Before-Dawn-Workbench-scope-and-lamp-detail.mp4 filter=lfs diff=lfs merge=lfs -text
 /music/back-before-dawn-animation-v1/Back-Before-Dawn-loop-join-10s.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Accepted Crater Rim audio checkpoint, 2026-11-07.
+/music/crater-rim-production-2026-11-07/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/production-backup-2026-11-07-crater-rim-audio/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/crater-rim-production-2026-11-07/review/Crater-Rim-Basin-to-Survey-Room-join-75s-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/crater-rim-production-2026-11-07/review/Crater-Rim-Survey-Room-to-Basin-join-75s-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/crater-rim-production-2026-11-07/review/Crater-Rim-V5-with-music-and-SFX-2min-v1.mp4 filter=lfs diff=lfs merge=lfs -text
+/music/crater-rim-production-2026-11-07/review/Crater-Rim-full-pair-with-SFX-10min-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/crater-rim-production-2026-11-07/review/Crater-Rim-music-wind-room-air-check-2min-v1.mp3 filter=lfs diff=lfs merge=lfs -text
+/music/crater-rim-production-2026-11-07/sources/First_Light_Basin_2026-11-07T160457.mp4 filter=lfs diff=lfs merge=lfs -text
+/music/crater-rim-production-2026-11-07/sources/Survey_Room_at_First_Light_2026-11-07T160457.mp4 filter=lfs diff=lfs merge=lfs -text
+# Preserve raw FFmpeg console output, including progress carriage returns.
+/music/crater-rim-production-2026-11-07/analysis/*.log -text -whitespace

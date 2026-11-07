@@ -1,5 +1,7 @@
 # 14 — Crater Rim Survey
 
+Current audio — 2026-11-07: both supplied five-minute originals are arranged into a [one-hour music, sheltered wind and room-air audition](../../music/crater-rim-production-2026-11-07/README.md). Full MP3/FLAC, separate stems, two dry joins, a ten-minute pair check and a two-minute V5 scene preview are delivered and technically checked. User accepted the presented audio on November 7 and requested commit/push; the long animation and final video remain pending. Earlier ungenerated statements below describe prior preparation.
+
 Prepared 2026-09-29; motion updated 2026-11-05. The user selected the current v2 concept for release packaging and approved the thumbnail. The complete V5 minute strengthens the distant glints/beacons and traffic readability, with a normal-size before/after comparison; final-round playback review is pending. Publication copy awaits the soundtrack and runtime.
 
 - Clean source: [artwork-v2.png](artwork-v2.png), a byte-identical copy of creative concept 20-crater-rim-survey/concept-v2.png.
