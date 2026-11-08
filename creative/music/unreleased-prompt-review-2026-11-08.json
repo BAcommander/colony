@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-08",
+  "authority": "commit and push this learning, update any previously written prompt sfor uncreleased videos using this.",
+  "branch": "main",
+  "framework": "creative/music/prompt-framework-v4.txt",
+  "learning": "creative/music/expressive-development-learning-2026-11-07.json",
+  "reviewed_release_scope": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "scenes": [
+    {
+      "number": 13,
+      "title": "Below the Snowline",
+      "decision": "Scheduled final video and approved soundtrack retained. Historical prompt text preserved; music README points all future new writing to V4. No regeneration."
+    },
+    {
+      "number": 14,
+      "title": "Crater Rim Survey",
+      "decision": "Versioned room/basin short prompts and long-development V5. Active music README routes to new drafts. Accepted hour sources/approval/recipe unchanged; drafts are prospective, ungenerated and unreviewed."
+    },
+    {
+      "number": 15,
+      "title": "Beneath a Crimson Sky",
+      "decision": "Successful expressive V3 text preserved byte-exact. New duration-free long-development V4; legacy live-music and current release entry points route to current briefs. Two positive sample reports retained; original files/settings/seed selection and long source pending."
+    },
+    {
+      "number": 16,
+      "title": "Cyberpunk Apartment",
+      "decision": "Two expressive V2 drafts and current README/manifest links. Original prompts preserved. Apartment synth identity retained; new drafts ungenerated and unreviewed."
+    },
+    {
+      "number": 17,
+      "title": "The Gate Camp After Sunset",
+      "decision": "No pre-existing standalone music prompt. Revised embedded future-score brief and framework link; preserve SFX design."
+    },
+    {
+      "number": 18,
+      "title": "Back Before Dawn",
+      "decision": "No pre-existing standalone music prompt. Revised active workshop music direction expressly supersedes older generic future-score line. Preserve frozen SOUND_AND_CUES.md and animation cue records unchanged."
+    }
+  ],
+  "other_inventory": {
+    "number19": "Unassigned; concept19 is old concept ID for release13, not release19.",
+    "christmas_x01_x10": "Unselected art studies; no existing music prompts found.",
+    "round03_ids22_31": "Unselected art/concept backlog; no current soundtrack prompts found.",
+    "scene18_alternatives": "Decision history; no active music prompts found.",
+    "released_01_12_and_spirewatch": "Published; outside this unreleased-prompt refresh."
+  },
+  "current_versioned_prompts": [
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-crater-room-v5.txt",
+      "bytes": 1573,
+      "sha256": "b1b52233387cba6651496fab749d7e44f0502afcfe902bbbb834cbd6f3f03ab5"
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-crater-basin-v5.txt",
+      "bytes": 1578,
+      "sha256": "d53087baef8c5e71be52de7f6d01c242b76974ee77f20fc44cc645db5072328e"
+    },
+    {
+      "path": "final/14-crater-rim-survey/music/elevenlabs-long-version-v5.txt",
+      "bytes": 1738,
+      "sha256": "15a81fec6190ea75cd0327c2f9c395f07b813c680112961470d72b8c1eb8de91"
+    },
+    {
+      "path": "final/15-beneath-a-crimson-sky/elevenlabs-skies-of-baal-expressive-v3.txt",
+      "bytes": 1558,
+      "sha256": "457249b74338c9023837860a1508c96aff4bb9a01583cb01bbb48c7e09fa3454"
+    },
+    {
+      "path": "final/15-beneath-a-crimson-sky/elevenlabs-skies-of-baal-expressive-long-v4.txt",
+      "bytes": 1939,
+      "sha256": "03304a4051d6392135c6ef99c3a8b2f7967d427187b56c93540074ce8ee3778e"
+    },
+    {
+      "path": "final/16-cyberpunk-apartment/music/elevenlabs-amber-room-v2.txt",
+      "bytes": 1483,
+      "sha256": "8af451c24df4f4ccfbd98f6d33ac27a6c8bfad309cc43e22a6b356ff29f396ce"
+    },
+    {
+      "path": "final/16-cyberpunk-apartment/music/elevenlabs-city-through-glass-v2.txt",
+      "bytes": 1578,
+      "sha256": "cb3f1da0d835ff701dd001981d408855b457b242147a25ed0de0b4a12abd49e3"
+    }
+  ],
+  "preservation": [
+    "Exact successful Baal short prompt",
+    "Original historical generation texts",
+    "Accepted Hoth/Crater Rim music sources and masters",
+    "Scene18 frozen animation/sound cue package",
+    "Unrelated local auditions and caches"
+  ],
+  "validation_scope": [
+    "Current prompt paths and hashes",
+    "JSON parse and current document links",
+    "Historical text/accepted records preserved",
+    "New prompts checked against V4 for emotional direction, harmonic movement, phrases, expansion/retreat and scene identity"
+  ],
+  "no_new_audio_generation": true,
+  "no_paid_service": true,
+  "remote_verification_receipt": ".local/prompt-learning-2026-11-08-remote-verification.json"
+}

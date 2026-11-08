@@ -1,0 +1,34 @@
+Ambient Colony — current music prompt framework V4
+Adopted 2026-11-07 as TOP PRIORITY by explicit user instruction after both expressive Baal tests were reported "massively better".
+Read creative/MUSIC_WORKFLOW.md and creative/music/expressive-development-learning-2026-11-07.json. This replaces the historical November V3 framework for new prompt writing. Existing accepted assets and exact generation history remain intact.
+
+WRITE IN THIS ORDER
+1. Emotional direction and place: one clear relationship, such as sheltered warmth within an immense world, watchfulness gradually giving way to relief, or loneliness touched by wonder. Choose the relationship for this scene; do not copy Baal's mood into every release.
+2. Musical development: exposed passages open into fuller harmonies and retreat into real space. Let an inner note move, tension soften into another chord colour, and different voices arrive and leave at unequal times. Familiar material returns changed in voicing, register, density or distance. Keep the movement perceptible at a comfortable playback level.
+3. Phrases and breathing: allow occasional connected, expressive melodic phrases with space after them. Longer harmony-led stretches keep the score comfortable. Do not automatically ban melody, development or gradual expansion merely because the piece is ambient. Avoid a persistent foreground hook or predictable pulse when those conflict with the scene.
+4. A selective palette: choose a few timbral families that serve the emotional direction. State their roles and depth. Do not replace composition with a compulsory list of piano, choir, harmonics or layers. Baal's no-choir/no-compulsory-piano test succeeded as part of this package; neither instrument is universally banned. Other scenes can use other palettes.
+5. Expressive comfort: rounded entrances, controlled peaks, natural decays and audible inner detail. Preserve rise and fall instead of flattening everything into permanently soft, static sound. Development should come through harmony, phrasing, density and depth as well as level. Do not substitute a regular swell loop, loudness boost or number of events for musical development.
+6. Continuity: begin within the atmosphere and end open. Keep environmental SFX separate. Use one concise exclusion sentence for real failure modes; do not pile up restrictions that remove character.
+
+REUSABLE SCAFFOLD — ADAPT, DO NOT PASTE UNCHANGED
+Original [instrumental or intentionally voiced] ambient score for [scene and listener viewpoint]. Convey [emotional relationship and sense of place].
+Give the music expressive breathing and emotional direction. Let sparse passages open into fuller harmonies and retreat into space. Allow inner voices to move and chord colours to change; let different layers enter and recede at different times. Return to familiar material with a changed voicing or depth.
+Use [selective scene-specific palette and sonic roles]. Allow occasional connected melodic phrases to linger and dissolve, with long passages carried by harmony alone. Keep the contrast perceptible and the peaks comfortable.
+Begin inside the atmosphere and finish open. [One concise, scene-specific exclusion sentence.] Keep environmental sound effects for the separate SFX pass.
+
+BEFORE HANDING OVER ANY FUTURE MUSIC PROMPT
+- Is the emotional relationship clear and specific to this place?
+- Does the prompt describe an actual musical change, not only an adjective or instrument list?
+- Is there room for harmonic movement, expressive phrasing, sparse/full contrast and retreat?
+- Have repeated requests for soft/subtle/sparse or blanket bans on melody/build removed all meaningful development?
+- Is every required instrument doing something useful? Could the brief work with fewer prescriptions?
+- Are controlled peaks being requested without requiring constant intensity or a numeric LRA/stereo/spectral target?
+- Are timing, variant count and generation controls separate from the musical prose?
+- Is this the correct scope: new/revised proposal, user-preferred samples, or approved source/master?
+
+TEST AND CARRY FORWARD
+For a new direction, start with two short samples of the same prompt; sixty seconds was the proposed Baal test length, not a mandatory duration for every model or every scene. Choose duration deliberately in the actual settings. Compare dry music at comfortable matched playback levels. Listen for an expressive phrase or harmonic change worth returning to, an expansion and retreat that remain comfortable, and a distinct sense of place. Short success is a seed-selection decision; audition longer development, joins and ordinary work-session comfort separately.
+Record exact prompt text/hash, actual settings and supplied source files when available, plus the user's words. The user confirms this combined Baal revision was substantially better; the effect of individual wording changes was not isolated. No numeric measurement explains preference by itself. Use this adopted direction as the default, refine from new feedback, and preserve scene identity.
+
+ALL-CREATION TRANSFER
+For artwork, animation, SFX and other prompt writing, lead with the intended experience and the meaningful action/detail that conveys it; support it with selective constraints. Review whether that intended effect is actually perceptible. This is the user's broader creative priority; the demonstrated feedback here is musical. Do not impose musical swells on static images, apply a blanket instrument ban, or add unrelated activity to every scene.

@@ -474,3 +474,16 @@ music/deepwell-claim-review-2026-11-02/replacement-v1/Waterworks-Gallery-reworke
 /music/crater-rim-production-2026-11-07/sources/Survey_Room_at_First_Light_2026-11-07T160457.mp4 filter=lfs diff=lfs merge=lfs -text
 # Preserve raw FFmpeg console output, including progress carriage returns.
 /music/crater-rim-production-2026-11-07/analysis/*.log -text -whitespace
+
+# Expressive music learning and unreleased prompt refresh, 2026-11-08.
+/final/14-crater-rim-survey/music/elevenlabs-crater-room-v5.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/final/14-crater-rim-survey/music/elevenlabs-crater-basin-v5.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/final/14-crater-rim-survey/music/elevenlabs-long-version-v5.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/final/15-beneath-a-crimson-sky/elevenlabs-skies-of-baal-expressive-v3.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/final/15-beneath-a-crimson-sky/elevenlabs-skies-of-baal-expressive-long-v4.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/final/16-cyberpunk-apartment/music/elevenlabs-amber-room-v2.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/final/16-cyberpunk-apartment/music/elevenlabs-city-through-glass-v2.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/creative/music/prompt-framework-v4.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/creative/music/expressive-development-learning-2026-11-07.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/creative/music/unreleased-prompt-review-2026-11-08.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/final/15-beneath-a-crimson-sky/music-refinement-2026-11-07.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

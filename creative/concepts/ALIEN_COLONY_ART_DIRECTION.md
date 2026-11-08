@@ -1,5 +1,10 @@
 # Ambient Colony — believable life on unfamiliar worlds
 
+## Current cross-discipline prompting priority — November 7, 2026
+
+The user requires the [new creative lesson](../LEARNINGS.md#top-priority-creative-lesson--november-7-2026) to carry into all future creation and prompt writing. Lead with the intended experience and the meaningful, perceptible detail or action that conveys it; use selective constraints to support that purpose. The direct success evidence concerns musical development in Baal, so apply the general principle to visual composition and activity while retaining the established realism, hierarchy and source-protection rules. For soundtrack prompts, use the [adopted V4 framework](../music/prompt-framework-v4.txt).
+
+
 ## Scene-first thumbnail checkpoint — 2026-11-01
 
 Junction and [Deepwell candidates](../../music/deepwell-thumbnail-v2/README.md) try scene-only or one-word treatments, omitting the header, catalogue number, small subtitle and rules. Start from the current clean scene so important cues (such as Deepwell’s planet) match the final video. Check at320×180 or smaller; preserve the approved branded control. This is an artistic hypothesis, not a demonstrated CTR lift. Deepwell’s generated lettering edit changes fine detail/contrast outside text: these are package comparisons, not isolated typography tests. User selection remains pending. Full cross-discipline lessons and prompt review queue: [2026-11-01 checkpoint](../../music/prompt-learnings-2026-11-01/README.md).

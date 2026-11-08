@@ -82,16 +82,16 @@
     }
   },
   "music_prompt": {
-    "path": "elevenlabs-skies-of-baal-angelic-v2.txt",
-    "bytes": 1372,
-    "sha256": "24c334fb2e5d3f22fd7e072103874f04b6edd34574ebd49296f6e1aad184f577",
-    "status": "draft for manual generation and listening review"
+    "path": "elevenlabs-skies-of-baal-expressive-v3.txt",
+    "sha256": "457249b74338c9023837860a1508c96aff4bb9a01583cb01bbb48c7e09fa3454",
+    "bytes": 1558,
+    "status": "User-endorsed direction after two reported much-better samples; original files/settings pending"
   },
   "weather_and_sfx": "weather-and-sfx.md",
   "previous_music_prompt": {
-    "path": "elevenlabs-skies-of-baal.txt",
-    "bytes": 1245,
-    "sha256": "2440dc79e10ac6051a63f26d3c89c410c682fe62a123cf21d1fb1eb8f939cce3",
+    "path": "elevenlabs-skies-of-baal-angelic-v2.txt",
+    "bytes": 1372,
+    "sha256": "24c334fb2e5d3f22fd7e072103874f04b6edd34574ebd49296f6e1aad184f577",
     "status": "draft for manual generation and listening review"
   },
   "dry_gusts_preview": {
@@ -106,5 +106,39 @@
     "audio": false,
     "status": "dry-gust candidate for review",
     "delivery_record": "../../music/beneath-a-crimson-sky-animation-v3/delivery-v3.json"
+  },
+  "music_prompt_history": [
+    {
+      "path": "elevenlabs-skies-of-baal.txt",
+      "bytes": 1245,
+      "sha256": "2440dc79e10ac6051a63f26d3c89c410c682fe62a123cf21d1fb1eb8f939cce3",
+      "status": "draft for manual generation and listening review"
+    },
+    {
+      "path": "elevenlabs-skies-of-baal-angelic-v2.txt",
+      "bytes": 1372,
+      "sha256": "24c334fb2e5d3f22fd7e072103874f04b6edd34574ebd49296f6e1aad184f577",
+      "status": "draft for manual generation and listening review"
+    }
+  ],
+  "music_refinement": "music-refinement-2026-11-07.json",
+  "music_feedback": {
+    "date": "2026-11-07",
+    "verdict": "Both new samples massively better",
+    "source": "music-refinement-2026-11-07.json",
+    "long_track_selected": false
+  },
+  "music_long_prompt": {
+    "path": "elevenlabs-skies-of-baal-expressive-long-v4.txt",
+    "sha256": "03304a4051d6392135c6ef99c3a8b2f7967d427187b56c93540074ce8ee3778e",
+    "bytes": 1939,
+    "prepared_date": "2026-11-08",
+    "framework": "../../creative/music/prompt-framework-v4.txt",
+    "based_on": "elevenlabs-skies-of-baal-expressive-v3.txt",
+    "status": "New duration-free long-development proposal; ungenerated and unapproved",
+    "reference_policy": "User-selected own Baal test only, if supplied and supported by actual interface; text-only fallback documented in music brief",
+    "reference_source_selected": false,
+    "reference_source_received": false,
+    "actual_generation_settings": null
   }
 }

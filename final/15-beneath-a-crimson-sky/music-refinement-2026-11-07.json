@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-07",
+  "user_feedback": "im not sure any of the samples we made here are good enought, i really liked our Hoth One, (13) can we try and refine and improve the baal one, it's like what made the goth one so good?",
+  "scope": "Original entry describes the prompt-revision stage; follow-up records the user generation/listening report and adoption. No new audio creation or editing by the assistant.",
+  "evidence": [
+    {
+      "type": "user_preference",
+      "finding": "User strongly prefers our video13 Below the Snowline soundtrack."
+    },
+    {
+      "type": "measured_own_soundtrack",
+      "source": "music/below-the-snowline-production-2026-11-01/paired-loop-v1/README.md",
+      "finding": "Approved dry pair LRA11.4LU; source interior30-270s LRA10.2/11.8LU. Internal level contrast survives fade exclusion. No compression/EQ applied in pairing. This does not identify melody, harmony or the cause of preference."
+    },
+    {
+      "type": "prompt_text_comparison",
+      "source": "music/hoth-reference-analysis-2026-11-01/below-the-snowline-reference-test-prompt.txt",
+      "finding": "Related Hoth brief prioritizes sparse/full contrast, development, breathing and occasional melodic fragments; its actual use for the approved source generations is unverified."
+    },
+    {
+      "type": "prompt_text_comparison",
+      "source": "final/15-beneath-a-crimson-sky/elevenlabs-skies-of-baal-angelic-v2.txt",
+      "finding": "Baal v2 adds prescribed high harmonics, distant choir and piano, while dropping v1 instructions for inner-note shifts, voices emerging from distance, layers receding at different speeds and enough contrast."
+    }
+  ],
+  "working_hypothesis": "Restore expressive development and clearer sparse/full contrast; audible instrumental identity and emotional direction may matter more than multiplying soft timbre instructions. This is a testable creative proposal, not a diagnosis of unheard Baal samples.",
+  "new_prompt": {
+    "path": "elevenlabs-skies-of-baal-expressive-v3.txt",
+    "sha256": "457249b74338c9023837860a1508c96aff4bb9a01583cb01bbb48c7e09fa3454",
+    "bytes": 1558,
+    "status": "User-endorsed direction after two reported much-better samples; original files/settings pending"
+  },
+  "choices": [
+    "Transfer compositional breathing and spatial scale into Baal rather than copying Hoth musical material.",
+    "Restore inner-voice motion, harmonic tension/release and unequal layer withdrawal.",
+    "Allow a connected, sparse melodic phrase without a regular hook.",
+    "Instrumental first test: angelic colour through string voicings, without compulsory piano or choir. A later choir variant is a separate listening decision.",
+    "Preserve comfortable peaks without demanding flat intensity; no numeric LRA, spectral or stereo target in prompt.",
+    "Keep wind, dust and thunder separate."
+  ],
+  "proposed_manual_test": {
+    "duration_seconds": 60,
+    "samples": 2,
+    "same_prompt_for_both": true,
+    "duration_in_prompt": false,
+    "generation_authorized_or_started": false,
+    "purpose": "Choose a promising musical seed before paying for long versions. A minute cannot establish five-minute development or hour-long comfort.",
+    "listen_for": [
+      "A phrase or harmonic change worth returning to",
+      "Perceptible expansion and retreat while staying comfortable",
+      "Warm shelter against a large, solemn world",
+      "No intrusive pulse, generic choir wash or foreground hook"
+    ],
+    "comparison": "Compare dry music at matched comfortable playback levels with the approved own Snowline dry pair. Exact musical preference still comes from user listening."
+  },
+  "limitations": [
+    "No new assistant audio listening.",
+    "Baal sample files were not supplied in this turn; no sample-specific diagnosis.",
+    "Exact approved Snowline generation prompt/model/30s seed remain unknown.",
+    "SWTOR reference measurements describe a separate recording and are not target settings.",
+    "No paid generation, upload, commit or push for this refinement."
+  ],
+  "current_status": "User reports both new samples massively better; direction adopted as top-priority future default",
+  "user_followup": {
+    "date": "2026-11-07",
+    "exact": "yes both those were massively better, whatever we changed, make sure we now change it in any future prompts and learn and save this for all future creation and prompt writing, this is top priortyi",
+    "reported_samples": 2,
+    "sample_files_received": false,
+    "long_track_selected": false
+  },
+  "shared_learning": "creative/music/expressive-development-learning-2026-11-07.json"
+}

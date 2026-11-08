@@ -1,5 +1,7 @@
 # 17 â€” The Gate Camp After Sunset
 
+**Next soundtrack brief — required default, November 7:** follow the [adopted expressive-development framework](../../creative/music/prompt-framework-v4.txt) before writing or generating music. Prioritize this scene's emotional direction, moving harmony, expansion/retreat and breathing room; use a selective palette and separate SFX. The user strongly preferred both revised Baal tests, but this scene retains its own identity and still needs its own music review.
+
 Current2026-11-05: [V3 complete sixty-second visual draft](../../music/gate-camp-animation-v3/README.md),720p/30fps, silent. [Watch both drafts and detail reviews](../../creative/animation-development/2026-11-05-16-17/review.html). All twelve candidates have a first-pass treatment; user visual review, long event schedule, audio and4K remain pending. Previous art and masters are preserved.
 
 Selected on 2026-11-04 from the Stargate-inspired E1 brainstorm. The working scene is an expedition camp on a quiet alien plateau. From beneath the lantern-lit canopy, the viewer looks across the path to a gate already open. [Original scene and thumbnail studies](../../creative/brainstorm/2026-10-27-three-worlds/e1-gate-camp/README.md)
@@ -11,7 +13,7 @@ The V1 look received positive feedback. The [V2 water and light preview](../../m
 1. **Settle the gate movement.** Review the ripple speed and scale at normal viewing size. The goal is a stable, water-like surface that can hold attention gently. Then build a periodic preview and check it over three repeats.
 2. **Check the production plate.** Review the cup handles, canopy rigging and stair approach at native size. The first motion test uses the existing concept as its source. Recheck the masks if those fixes change its geometry.
 3. **Add camp and distance.** Start with a small pull on the free edge of the canvas and faint haze over the low basin. Let the gate put a soft blue reflection on the nearby landing. The amber lantern supplies the warmer, sheltered foreground.
-4. **Build the sound from the seat under the canopy.** Start with low open-air wind and a separate, distant resonant gate tone. Try a small canvas rustle on selected gusts. Use the same cue for wind and fabric, and leave space for the quiet passages. Review the effects on their own and then under a sparse score at matched playback levels.
+4. **Build the sound from the seat under the canopy.** Start with low open-air wind and a separate, distant resonant gate tone. Try a small canvas rustle on selected gusts. Use the same cue for wind and fabric, and leave space for the quiet passages. Review the effects on their own and then under an expressive score at matched playback levels. The music brief should convey a sheltered expedition camp beside an immense unfamiliar world: allow exposed passages to open into fuller harmony, inner voices to move, a connected phrase to emerge and resolve, and the texture to retreat into breathing room. Keep its palette selective and peaks comfortable; preserve space for the separate gate, wind and canvas effects. This revises the future music direction only; no soundtrack is generated or approved.
 
 The existing **THE WAY HOME** thumbnail remains a candidate for the public package. [Thumbnail JPEG](../../creative/brainstorm/2026-10-27-three-worlds/e1-gate-camp/thumbnail-v1.jpg)
 

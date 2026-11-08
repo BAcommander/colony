@@ -18,5 +18,12 @@
   "join_audition": null,
   "user_feedback": [],
   "join_accepted": false,
-  "extended_listening_accepted": false
+  "extended_listening_accepted": false,
+  "record_scope": "Original October 7 preparation fields retained as history; current routing and reported feedback are recorded separately below",
+  "current_update_date": "2026-11-08",
+  "current_status": "User reports both expressive V3 samples massively better; files, exact settings and selected long-track seed pending",
+  "current_manifest": "../../../../final/15-beneath-a-crimson-sky/manifest.json",
+  "current_prompt": "../../../../final/15-beneath-a-crimson-sky/elevenlabs-skies-of-baal-expressive-v3.txt",
+  "current_long_prompt": "../../../../final/15-beneath-a-crimson-sky/elevenlabs-skies-of-baal-expressive-long-v4.txt",
+  "current_feedback_record": "../../../../final/15-beneath-a-crimson-sky/music-refinement-2026-11-07.json"
 }

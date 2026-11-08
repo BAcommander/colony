@@ -39,5 +39,19 @@
   ],
   "production_package": "music/crater-rim-production-2026-11-07",
   "mix_recipe": "music/crater-rim-production-2026-11-07/mix-recipe.json",
-  "approval_record": "music/crater-rim-production-2026-11-07/user-approval.json"
+  "approval_record": "music/crater-rim-production-2026-11-07/user-approval.json",
+  "prospective_prompt_revision": {
+    "date": "2026-11-08",
+    "version": "v5",
+    "status": "Ungenerated, unreviewed proposals for future new writing",
+    "framework": "creative/music/prompt-framework-v4.txt",
+    "prompts": {
+      "elevenlabs-crater-room-v5.txt": "b1b52233387cba6651496fab749d7e44f0502afcfe902bbbb834cbd6f3f03ab5",
+      "elevenlabs-crater-basin-v5.txt": "d53087baef8c5e71be52de7f6d01c242b76974ee77f20fc44cc645db5072328e",
+      "elevenlabs-long-version-v5.txt": "15a81fec6190ea75cd0327c2f9c395f07b813c680112961470d72b8c1eb8de91"
+    },
+    "scope": "Prospective prompt refresh only; accepted November 7 hour, source provenance, audio approval, gains and arrangement remain unchanged. No regeneration required.",
+    "approved_audio_unchanged": true,
+    "generation_performed": false
+  }
 }

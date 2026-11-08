@@ -223,5 +223,28 @@
     "folder": "../../music/cyberpunk-apartment-animation-v4",
     "video": "Cyberpunk-Apartment-V4-first-draft-60s.mp4",
     "validation": "delivery-validation.json"
+  },
+  "current_music_prompts": {
+    "date": "2026-11-07",
+    "version": "v2",
+    "status": "Ungenerated, unreviewed drafts; no apartment music approval inferred from Baal feedback",
+    "framework": "creative/music/prompt-framework-v4.txt",
+    "priority": "Scene emotion and musical development; expressive sparse-to-full contrast, tension and release, occasional connected phrases; coherent apartment synth palette",
+    "prompts": {
+      "amber_room": "music/elevenlabs-amber-room-v2.txt",
+      "city_through_glass": "music/elevenlabs-city-through-glass-v2.txt"
+    },
+    "historical_prompts_preserved": {
+      "elevenlabs-amber-room.txt": {
+        "path": "music/elevenlabs-amber-room.txt",
+        "sha256": "45b9a0ab5616e0ef29fbc160e61ca37a1989ebecf50fcd20af1a772ea69c590c"
+      },
+      "elevenlabs-city-through-glass.txt": {
+        "path": "music/elevenlabs-city-through-glass.txt",
+        "sha256": "904f656ca25cde5cc4e7bf247fd69d608f61adfdefbfc5b313c129754ebdd5d4"
+      }
+    },
+    "generation_performed": false,
+    "existing_audio_or_visual_media_changed": false
   }
 }

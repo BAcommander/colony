@@ -22,14 +22,16 @@ Prior verification/playback statements in animation-v3 are historical records fr
 
 ## Music drafts
 
-These two prompts use the contrast between exposed and fuller passages from the [Snowline listening proposal for Crater Rim](../14-crater-rim-survey/music/README.md). The apartment's palette is warm analogue tones close to the listener and cooler sustained harmonics out beyond the glass. Give the music its own pacing across many repeats of the ten-second visual loop.
+Current draft refresh, 2026-11-07: use the [shared V4 music prompt framework](../../creative/music/prompt-framework-v4.txt) before writing or generating apartment music. The user's strong preference for both revised Baal samples makes musical development, expressive contrast and a clear emotional relationship the priority. This feedback establishes the approach; it does not approve these ungenerated apartment prompts.
 
-- [Amber Room](music/elevenlabs-amber-room.txt) is the closer passage. Warm, rounded synth voices gather into fuller harmony, then thin out at different speeds.
-- [City Through Glass](music/elevenlabs-city-through-glass.txt) is the wider passage. A cooler sustained layer expands slowly, then gives way to a little warmth from the room.
+The apartment retains its own identity: warm analogue voices close to the listener, a cooler sustained distance beyond the glass, and the feeling of a small inhabited refuge in a vast city. The revised drafts give sparse and fuller passages room to develop, allow tension and release, and connect occasional phrases across changing harmony. Piano is not compulsory, and gradual expansion is allowed. Music keeps its own pacing independently of the repeating picture.
 
-Start with one dry pilot per prompt at the same length and settings. Compare them at matched listening levels for contrast, comfort and how soon a swell or fragment becomes predictable. If both work, try two passages of roughly five minutes using the actual generation settings. Audition both joins and three repeats before the work-session listen. Treat rain heard through the glass as a separate layer and compare the same music with and without it.
+- [Amber Room V2](music/elevenlabs-amber-room-v2.txt) is the closer passage, moving from quiet uncertainty toward warmth before thinning into exposed voices.
+- [City Through Glass V2](music/elevenlabs-city-through-glass-v2.txt) is the wider passage, letting distant harmonies and connected fragments expand, recede and return with a changed colour.
 
-Both prompts are drafts for manual generation and listening review. Record the exact text, settings and source files when testing.
+Both V2 prompts are **ungenerated and unreviewed drafts**. Start with short dry pilots at the same actual length and settings. Compare them at matched listening levels for a distinct emotional direction, meaningful sparse-to-full development, connected phrases and comfort over repeats. Record the exact prompt, settings, files and user feedback before extending a selected direction. Then audition both joins and multiple repeats before the longer work-session listen. Treat rain through the glass as a separate layer and compare the same music with and without it.
+
+The original [Amber Room draft](music/elevenlabs-amber-room.txt) and [City Through Glass draft](music/elevenlabs-city-through-glass.txt) are preserved byte-for-byte as history. Their blanket "no build" wording is superseded in V2 by controlled musical expansion and peaks. The original [Snowline proposal for Crater Rim](../14-crater-rim-survey/music/README.md) remains context, not proof of the apartment's generation provenance or listening success. No new audio or generation is included in this prompt refresh.
 
 ## Reproduction and storage
 

@@ -1,5 +1,10 @@
 # Ambient Colony: next-scene runbook
 
+## Required creative starting point — November 7, 2026
+
+Apply the [top-priority expressive-development lesson](LEARNINGS.md#top-priority-creative-lesson--november-7-2026) before every new scene or prompt. State the intended experience and the concrete audible/visible change that supports it. For all music drafting, use the [current V4 framework and pre-handoff checklist](music/prompt-framework-v4.txt): emotional direction, harmonic movement, expansion/retreat, breathing room and selective instrumentation. Review queued ungenerated briefs against it before generation; preserve exact old prompts and accepted work. User feedback on both Baal tests makes this the adopted default, while each new scene still needs its own listening decision.
+
+
 Read [the consolidated learning guide](LEARNINGS.md) before a new scene, music brief or mix. It connects the detailed knowledge banks, identifies superseded ideas and flags newer production records on other branches. Check the latest accepted scene state before treating an old preparation checkpoint as unfinished work.
 
 ## Plan the thumbnail while choosing the scene

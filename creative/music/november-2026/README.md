@@ -1,5 +1,7 @@
 # November 2026 — four ambient soundtrack briefs
 
+**Current prompting authority — November 7:** the user calls both expressive Baal tests "massively better" and makes the approach top priority for all future creation. Use the [adopted V4 framework](../prompt-framework-v4.txt) and [shared rule](../../MUSIC_WORKFLOW.md#top-priority--expressive-development) for every new/revised music brief. The V3 framework and prepared prompts below are preserved historical records; conflicting instructions do not override this new default.
+
 Snowline final delivery (2026-11-05): [two-hour4K video and verification](../../../music/below-the-snowline-final-two-hours-v1/README.md) now available. Approved V6 visual treatment uses a native120-second periodic production loop; full V6 music/SFX, +0.4dB once, one Colony opening and one 20-second closing fade. Full decode, picture/timestamp and complete AAC comparison passed. Upload and combined user review are not inferred.
 
 
@@ -13,7 +15,7 @@ Current update (2026-11-01): Junction and Deepwell now have supplied music, acce
 
 User-confirmed lineup, 2026-10-30: **11 The Empty Junction, 12 Deepwell Station, 13 Below the Snowline, 14 Crater Rim Survey**. This is the working order, not assigned publication dates or a new automation.
 
-[Research and sources](RESEARCH.md) · [Common V3 framework](prompt-framework-v3.txt) · [Generation/acceptance tracker](month-plan.json)
+[Research and sources](RESEARCH.md) · [Current V4 framework](../prompt-framework-v4.txt) - [Historical V3 framework](prompt-framework-v3.txt) · [Generation/acceptance tracker](month-plan.json)
 
 The goal is a continuous, inhabited listening environment with slow internal life. First-pass user ratings favour Rainline and Shoreless alongside WINTER WATCH. The V3 pack prioritizes that listening evidence over coarse signal resemblance. It retains four different sonic identities instead of turning every scene into the same dark drone.
 

@@ -1,5 +1,7 @@
 # Below the Snowline — approved music
 
+**Prompt audit, November 8:** this scheduled release already has accepted music and a completed final video. Preserve that soundtrack and the exact historical preparation texts. Any later new composition or deliberate revision must use the [adopted expressive-development framework](../../../creative/music/prompt-framework-v4.txt); this audit does not request regeneration of Hoth.
+
 **Current soundtrack,2026-11-03:** [two-hour V6 with both snow takes](../../../music/snowline-snow-2026-11-03/RESUME.md), based on the approved dry pair below, now includes music,47radio calls,80wind passages,24creaks,ventilation and24snow events. Full-session/new-take review remains pending. Use the unity unfaded V6 master for assembly; apply+0.4dB playback gain and the intro/closing once. All SFX are already present. The nine-minute pair below is the preserved dry-music source, not the latest finished sound design.
 
 

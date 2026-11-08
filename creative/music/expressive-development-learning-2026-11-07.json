@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-07",
+  "priority": "TOP PRIORITY â€” user-mandated default for all future Ambient Colony creation and prompt writing",
+  "user_feedback_exact": "yes both those were massively better, whatever we changed, make sure we now change it in any future prompts and learn and save this for all future creation and prompt writing, this is top priortyi",
+  "adoption_status": "User-endorsed direction following two reported much-better Baal samples",
+  "applies_to": "All future new/revised music prompts and soundtrack creation; broader intention-first and perceptible-purpose principle for other creative media",
+  "source_prompt": {
+    "path": "final/15-beneath-a-crimson-sky/elevenlabs-skies-of-baal-expressive-v3.txt",
+    "sha256": "457249b74338c9023837860a1508c96aff4bb9a01583cb01bbb48c7e09fa3454"
+  },
+  "prior_prompt": "final/15-beneath-a-crimson-sky/elevenlabs-skies-of-baal-angelic-v2.txt",
+  "current_framework": "creative/music/prompt-framework-v4.txt",
+  "required_principles": [
+    "Emotional direction and scene relationship first",
+    "Expressive harmonic development, moving inner voices and tension/release",
+    "Perceptible sparse-to-full expansion, retreat and breathing room",
+    "Occasional connected melodic phrases with room around them",
+    "Selective timbral palette serving the composition",
+    "Controlled peaks while preserving dynamic life",
+    "Meaningful audible/visible results judged by user feedback"
+  ],
+  "avoid": [
+    "Static softness as the entire musical idea",
+    "Over-prescribed instrument lists displacing composition",
+    "Blanket bans on melody, gradual builds or expression",
+    "Copying Hoth or Baal instrumentation/mood into every scene",
+    "Universal choir/piano prohibition based on this combined experiment",
+    "Inferring final long-track approval from short preferred samples",
+    "Assigning a causal contribution to each changed prompt sentence"
+  ],
+  "evidence_limits": {
+    "user_reports_two_samples": true,
+    "sample_files_received": false,
+    "actual_duration_model_settings_seed": "Not supplied; sixty seconds was the proposed test",
+    "exact_executed_prompt": "Associated with delivered expressive V3; pasted text unverified",
+    "assistant_listened": false,
+    "individual_changes_isolated": false,
+    "long_source_or_mix_approved": false
+  },
+  "future_workflow": [
+    "Read top-priority MUSIC_WORKFLOW rule and V4 framework before authoring",
+    "Apply pre-handoff checklist, including review of queued ungenerated drafts",
+    "Preserve exact old prompts and accepted media; version revised drafts",
+    "Use short matched-level user listening decisions, then longer-source and join review",
+    "Record feedback and source provenance; keep SFX separate"
+  ],
+  "git_operation": "User explicitly requests commit/push and unreleased-prompt refresh on 2026-11-08",
+  "unreleased_prompt_review": "creative/music/unreleased-prompt-review-2026-11-08.json"
+}

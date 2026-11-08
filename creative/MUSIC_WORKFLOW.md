@@ -1,5 +1,16 @@
 # Ambient Colony music workflow
 
+## Top priority — expressive development
+
+**Adopted November 7, 2026 by explicit user instruction.** Both samples following the revised Baal brief were "massively better". This is the default for every future music prompt and soundtrack decision, including revisions of queued ungenerated drafts. [Unreleased-queue refresh, November 8](music/unreleased-prompt-review-2026-11-08.json) records the current versioned drafts and preserved accepted work. Read the [current V4 framework and pre-handoff checklist](music/prompt-framework-v4.txt); [exact feedback and evidence](music/expressive-development-learning-2026-11-07.json) preserve what changed.
+
+Lead with the scene's emotional direction. Give the composition perceptible harmonic movement, moving inner voices and tension/release; let sparse passages expand into fuller harmony and retreat into breathing room. Allow occasional connected, expressive melodic phrases. Let layers arrive and leave at different times, and familiar material return changed. Choose a few timbres that serve those musical roles. Keep entrances and peaks comfortable while preserving expressive rise and fall.
+
+Do not let repeated soft/subtle/sparse instructions, a compulsory piano/choir/harmonics list or blanket bans on melody and gradual builds erase development. The successful Baal test simplified its palette; this does not prohibit piano or choir in another scene. Likewise, the lesson does not require every scene to sound like Hoth or Baal. Keep music and SFX separate. Use the V4 checklist before handing over a prompt, then judge the actual result through short user listening tests and later longer-form review.
+
+This supersedes conflicting older generic prompt advice below, including putting duration into musical prose or requiring only shallow changes. Historical exact prompts and accepted media remain preserved. The user endorses the combined revision; we have not isolated which sentence caused the improvement. No exact LRA, spectral quota or instrument recipe is a proven target. Sample files, actual settings and final long-track selection remain separate records.
+
+
 ## Design weather and sound together
 
 Start with the listener's position. An enclosed survey room can have steady, quiet room air and a filtered exterior bed; an open terrace can hear the grit directly. Add brief contact details where the picture gives them a believable cause. For Crater Rim, the first sound audition should compare the dry score with sheltered exterior basin wind and low room air. Add grit only if a specific gust warrants it. [Snowline listening and level lessons](music/sound-design/receiver-2026-11-02/REUSE.md)
@@ -127,7 +138,7 @@ Exact files, feedback and backup scope: [session checkpoint](../music/illuminate
 - Full-file low stereo correlation does not prove a particular reverb, good mono compatibility or desirable width. Preserve a stable bass foundation and audition mono on generated work.
 - External downloaded references stay local; preserve filenames/hashes and analysis, not copyrighted MP3s in Git. Create original descriptive prompts. Use a selected user-generated test as the ElevenLabs audio reference for long-form generation.
 
-## Current V3 prompts — November 2026, researched 2026-10-30
+## Historical V3 prompt preparation — superseded for new writing by V4
 
 User explicitly requests ambient research and improved prompts for next month, and confirms 11 The Empty Junction, 12 Deepwell Station, 13 Below the Snowline and 14 Crater Rim Survey. [Month pack](music/november-2026/README.md), [primary-source research and limits](music/november-2026/RESEARCH.md), and per-scene V3 files are current proposals. V1/V2 and earlier generic A/B/C/D tests remain preserved; no V3 generation, listening approval or credit spend.
 

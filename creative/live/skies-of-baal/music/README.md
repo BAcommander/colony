@@ -1,22 +1,26 @@
-# Beneath a Crimson Sky — soundtrack preparation
+# Beneath a Crimson Sky — current soundtrack route
 
-Prepared 2026-10-07; public name updated 2026-10-08. Existing music prompts are generic and remain applicable to the fortress-monastery setting. Prompts only; no audio generated or heard. Follow [MUSIC_WORKFLOW.md](../../../MUSIC_WORKFLOW.md).
+Updated 2026-11-08 for the adopted [V4 expressive-development rule](../../../music/prompt-framework-v4.txt). The user reports that both tests from the expressive Baal V3 prompt were "massively better". Their original audio files, exact generation settings and individual seed selection have not been supplied. This endorses the musical direction; a longer source, joins and final soundtrack remain pending. [Exact feedback and evidence](../../../../final/15-beneath-a-crimson-sky/music-refinement-2026-11-07.json) · [Shared music workflow](../../../MUSIC_WORKFLOW.md)
 
-1. User pastes [short prompt](elevenlabs-prompt-v1.txt) into Music prompt/song-description, uses instrumental mode where offered and chooses 60 seconds/two variants if available. Check actual settings/cost; no current price assumed.
-2. Compare at matched comfortable levels. Prefer changing harmonies, tenderness and spacious rests. Save selected original and feedback in [generation-record.json](generation-record.json). Revise only unresolved characteristics.
-3. Use the selected own test as reference with [long prompt](elevenlabs-long-version-v1.txt). Default trial: about five minutes/one variant. If choosing ten minutes, change both prompt and setting. Reference guides sound, not exact continuation.
-4. Supply the longer original for local duration/fade/level/loop-point inspection. Try track-specific joins; audition a short join and three repetitions. A prompt cannot guarantee seamless audio.
-5. After join acceptance, review a proposed 30-minute repeat for comfort. This is a test length, not livestream runtime. Long exports stay under ignored exports/ with records/hashes here.
+The current prompts live with [release #15](../../../../final/15-beneath-a-crimson-sky/README.md):
 
-User runs paid generations manually with existing credits. Concept preparation does not authorize assistant spending or reference uploads.
+- [Successful expressive V3 test prompt](../../../../final/15-beneath-a-crimson-sky/elevenlabs-skies-of-baal-expressive-v3.txt). Its exact text is preserved. This is the starting direction if another short comparison is needed.
+- [Expressive long-development V4 prompt](../../../../final/15-beneath-a-crimson-sky/elevenlabs-skies-of-baal-expressive-long-v4.txt). New, ungenerated proposal that develops the selected own test's harmonic character, moving inner voices, connected phrases and expansion/retreat. It does not select either existing test or assert that a reference is already available.
 
-## Listening criteria
+Choose duration and variant count deliberately in the generation controls; both current prompt texts are duration-free. Keep exact prompts, actual settings and source exports with their feedback. No fixed duration or current provider capability is assumed by these texts.
 
-- Tender, spacious sadness that remains comfortable over time.
-- Independent audible harmonies without excessive bass.
-- Sparse piano, long rests and varied replies without a repetitive hook.
-- Instrumental bowed colour, no lyrics or vocal-like choir.
-- Join preserves harmony, depth, level and reverb without a recurring opening/closing cadence or doubled attack.
-- Comfortable on headphones, speakers and in mono.
+## Next listening steps
 
-Choose overlap/gain from this recording. Ringfall's cut points, 15-second overlap and gain are track-specific history. Continuous repetition has no opening/closing fade on each pass; stream entrance/exit treatment is separate.
+1. Supply the two original dry test exports and select which musical identity to develop. Record actual duration, prompt, settings and file hashes when available. The positive report alone does not identify a selected seed.
+2. Use the selected own Baal export as the reference for the new long prompt if the actual generation interface supports that use. The reference guides character and does not guarantee an exact continuation. If that input is unavailable, remove the sentence beginning "Use the supplied" and retain the self-contained scene, palette and development brief. No third-party recording is requested.
+3. The user runs any generation manually after checking the displayed controls and cost. Listen at matched comfortable levels for a developing phrase, meaningful harmonic movement, varied expansion and retreat, and the sheltered warmth of this scene. The new long prompt has not been generated or accepted.
+4. Supply the longer original for local duration, fade, level and transition analysis. Choose cut points and crossfades from that recording, then audition both handoffs if pairing two pieces and a repeated listening section. A prompt cannot guarantee a seamless join.
+5. Review sustained work-session comfort before extending to the selected release runtime. Mix wind, grit and thunder separately after the dry music works. Keep one programme entrance/exit treatment; do not add a fade to every repeated passage.
+
+The expressive contrast should remain audible without harsh peaks or a persistent foreground hook. The palette stays focused on bowed orchestral strings and rounded analogue textures, with angelic colour carried by the upper string voicings. Piano or choir are not required for this Baal direction. Judge actual supplied audio by listening; numerical loudness or spectral resemblance does not establish musical preference.
+
+## Preserved earlier preparation
+
+The October 7 [V1 short prompt](elevenlabs-prompt-v1.txt) and [V1 long prompt](elevenlabs-long-version-v1.txt) remain unchanged historical preparation. The [generation record](generation-record.json) retains its original empty generation fields and now points to current evidence separately. Those timed piano instructions, fixed-density ending and historical no-audio status are not the current route. The November 7 feedback record above is the current evidence for the two user-reported samples; do not invent missing settings or populate the original fields from assumptions.
+
+Long exports remain under ignored `exports/` with source fingerprints and reproducible recipes. The current prompt update creates no audio and authorizes no assistant paid generation or reference upload.
