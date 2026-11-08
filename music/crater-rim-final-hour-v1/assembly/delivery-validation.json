@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "completed_date": "2026-11-08",
+  "output": "G:\\AI\\colony\\exports\\14-crater-rim-survey\\Crater-Rim-Survey-1-Hour-4K-v1.mp4",
+  "bytes": 20691244438,
+  "sha256": "15d444792ddb0820081f8d0eabdcf787af9d4b738e1bca7fa35de30c7d0c8af3",
+  "seconds": 3600,
+  "frames": 108000,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "native_artwork_dimensions": [
+    1672,
+    941
+  ],
+  "master": "G:\\AI\\colony\\exports\\14-crater-rim-survey\\production-v1\\Crater-Rim-Survey-clean-600s-4K.mp4",
+  "master_sha256": "3bb88151f697bd2fbb93dde4b70737629d687df8856bef7c9259a23ff1f66ed8",
+  "audio_source_sha256": "333c0fe1b94ac899d0fa6a91ed009c693de312c791913a838662bf7433b5c994",
+  "source_audio_unchanged": true,
+  "colony_full_video_audio_decode": true,
+  "video_validation": "video-validation.json",
+  "audio_validation": "audio-validation.json",
+  "opening": "Actual frozen Colony v3 once within hour; graphics clear22s, silence0-5 and fade5-20",
+  "closing_audio": "Existing approved20s fade retained; none added",
+  "new_audio_gain_db": 0,
+  "extra_sfx": false,
+  "clean_600s_repeats_after_opening_cycle": 5,
+  "full_combined_user_review": "pending",
+  "assistant_listening": "not performed",
+  "publication": "not inferred",
+  "remote_backup": false
+}

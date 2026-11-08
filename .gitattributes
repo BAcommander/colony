@@ -487,3 +487,19 @@ music/deepwell-claim-review-2026-11-02/replacement-v1/Waterworks-Gallery-reworke
 /creative/music/expressive-development-learning-2026-11-07.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /creative/music/unreleased-prompt-review-2026-11-08.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /final/15-beneath-a-crimson-sky/music-refinement-2026-11-07.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Crater Rim final production and accepted thumbnail checkpoint, 2026-11-08.
+/music/crater-rim-final-hour-v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/crater-rim-thumbnail-v2/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/production-backup-2026-11-08-crater-rim/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/final/14-crater-rim-survey/upload-2026-11-08/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/music/crater-rim-final-hour-v1/visual/master-backup/Crater-Rim-Survey-clean-600s-4K.mp4.part001 filter=lfs diff=lfs merge=lfs -text
+/music/crater-rim-final-hour-v1/visual/master-backup/Crater-Rim-Survey-clean-600s-4K.mp4.part002 filter=lfs diff=lfs merge=lfs -text
+/music/crater-rim-final-hour-v1/visual/master-backup/Crater-Rim-Survey-clean-600s-4K.mp4.part003 filter=lfs diff=lfs merge=lfs -text
+/music/crater-rim-final-hour-v1/visual/master-backup/Crater-Rim-Survey-clean-600s-4K.mp4.part004 filter=lfs diff=lfs merge=lfs -text
+/music/crater-rim-final-hour-v1/assembly/Crater-Rim-Survey-final-opening-and-scene-135s-720p.mp4 filter=lfs diff=lfs merge=lfs -text
+/music/crater-rim-final-hour-v1/assembly/evidence/*.log -text -whitespace
+# Preserve exact historical bytes and bundled font licence, including legacy whitespace.
+/music/crater-rim-final-hour-v1/records-finalization/** -text -whitespace
+/music/crater-rim-thumbnail-v2/history/** -text -whitespace
+/music/crater-rim-final-hour-v1/assembly/engine/colony/assets/fonts/OFL.txt -text -whitespace

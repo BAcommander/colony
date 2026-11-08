@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "path": "G:\\AI\\colony\\music\\crater-rim-final-hour-v1\\assembly\\Crater-Rim-Survey-final-opening-and-scene-135s-720p.mp4",
+  "bytes": 11897922,
+  "sha256": "510e3ef8f3fefd3125720c01763f696ec90fdbdc535c499f791999fffb906150",
+  "source": "G:\\AI\\colony\\exports\\14-crater-rim-survey\\Crater-Rim-Survey-1-Hour-4K-v1.mp4",
+  "source_output_stamp": {
+    "bytes": 20691244438,
+    "mtime_ns": 1794159028587824200
+  },
+  "source_seconds": [
+    0,
+    135
+  ],
+  "seconds": 135,
+  "frames": 4050,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "full_video_audio_decode": true,
+  "sample_frames": 6480000,
+  "audio_correlation_with_actual_final": 0.9999939894032314,
+  "audio_gain_difference_db": -0.0017339051616779072,
+  "audio_snr_db": 49.187018308110886,
+  "opening_and_sound": "Actual completed final's first135s; no new fade or graphics added"
+}

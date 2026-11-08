@@ -1,0 +1,18 @@
+Crater Rim Survey — upload pack, 2026-11-08
+
+Video: G:/AI/colony/exports/14-crater-rim-survey/Crater-Rim-Survey-1-Hour-4K-v1.mp4
+Exact 1:00:00; 3840x2160; 30fps; native1672x941 artwork upscaled;20,691,244,438bytes.
+Final SHA256:15d444792ddb0820081f8d0eabdcf787af9d4b738e1bca7fa35de30c7d0c8af3
+
+Title is a new suggested upload title, not a live YouTube change. Description now includes the confirmed runtime, accepted music and SFX, and AI creation disclosure. Prior exact metadata stays in the parent folder.
+
+thumbnail-current.jpg is a byte-exact copy of the previously approved thumbnail-v1.jpg. It is the older large-title/channel-header/subtitle/number design. No newer Crater Rim thumbnail or test has been generated or selected. Current packaging guidance favours a clearer scene-led invitation; no CTR improvement is claimed.
+
+Category: Music (established channel choice).
+Audience: Not made for kids (this release is general-audience ambient music, not child-directed).
+AI use / altered or synthetic content: Yes. AI-generated music is the main focus. Official guidance checked2026-11-08: https://support.google.com/youtube/answer/14328491?hl=en
+Upload unlisted first; review YouTube checks and wait for4K processing before publication. No upload or copyright-check result is inferred.
+Planning slot: Thursday12November2026. Not Studio-confirmed; no release time supplied.
+
+No thumbnail generation, upload, schedule, commit or push performed in preparing this package.
+

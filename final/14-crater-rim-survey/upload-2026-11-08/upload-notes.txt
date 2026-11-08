@@ -1,0 +1,17 @@
+Crater Rim Survey — upload pack, 2026-11-08
+
+Video: G:/AI/colony/exports/14-crater-rim-survey/Crater-Rim-Survey-1-Hour-4K-v1.mp4
+Exact 1:00:00; 3840x2160; 30fps; native1672x941 artwork upscaled;20,691,244,438bytes.
+Final SHA256:15d444792ddb0820081f8d0eabdcf787af9d4b738e1bca7fa35de30c7d0c8af3
+
+Title is a new suggested upload title, not a live YouTube change. Description now includes the confirmed runtime, accepted music and SFX, and AI creation disclosure. Prior exact metadata stays in the parent folder.
+
+Use thumbnail-recommended.jpg for the updated CRATER RIM presentation. thumbnail-scene-only-v2.jpg is the text-free alternative. Both are1280x720, built-in image-generation edits using the clean video artwork and Junction/Deepwell hierarchy references. Reviewed at160px and240px; the assistant recommends the short-title version. User accepted the short-title V2 on November 8. Public tests have not been performed. thumbnail-current.jpg retains the original approved large-text V1. These are generated reframings, not pixel-exact crops; no CTR result is claimed.
+
+Category: Music (established channel choice).
+Audience: Not made for kids (this release is general-audience ambient music, not child-directed).
+AI use / altered or synthetic content: Yes. AI-generated music is the main focus. Official guidance checked2026-11-08: https://support.google.com/youtube/answer/14328491?hl=en
+Upload unlisted first; review YouTube checks and wait for4K processing before publication. No upload or copyright-check result is inferred.
+Planning slot: Thursday12November2026. Not Studio-confirmed; no release time supplied.
+
+Two built-in thumbnail generations completed for this update. User authorized all Crater Rim work for main-branch backup. Exact selection and restore guide: music/production-backup-2026-11-08-crater-rim/. The local remote-backup-verification.json records actual push/restore evidence. No upload or schedule performed.

@@ -1,0 +1,39 @@
+{
+  "status": "encoded_awaiting_decode_controls",
+  "file": "G:\\AI\\colony\\exports\\14-crater-rim-survey\\production-v1\\Crater-Rim-Survey-clean-600s-4K.mp4",
+  "bytes": 3408440080,
+  "sha256": "3bb88151f697bd2fbb93dde4b70737629d687df8856bef7c9259a23ff1f66ed8",
+  "duration_seconds": 600,
+  "frames": 18000,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "fps": 30,
+  "renderer_sha256": "a71b7ea8012ebf73272961d911d40fba90fb449c305d3f063d45b655ab61c3a9",
+  "elapsed_this_run": 211.39000000001397,
+  "resumed_verified_parts": [],
+  "exact_duplicate_units": {
+    "9": 2
+  },
+  "command": [
+    "C:\\Users\\jazzs\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.EXE",
+    "-v",
+    "error",
+    "-n",
+    "-f",
+    "concat",
+    "-safe",
+    "0",
+    "-i",
+    "G:\\AI\\colony\\.local\\crater-rim-final-hour-v1\\clean-master.ffconcat",
+    "-map",
+    "0:v:0",
+    "-c",
+    "copy",
+    "-an",
+    "-movflags",
+    "+faststart",
+    "G:\\AI\\colony\\exports\\14-crater-rim-survey\\production-v1\\Crater-Rim-Survey-clean-600s-4K.mp4"
+  ]
+}

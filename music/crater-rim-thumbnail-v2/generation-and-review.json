@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-08",
+  "request": "lets update the crater rim thumbnail using what we learnt from junction and deepwell",
+  "intent": "A warm, quiet desk above an immense inhabited alien crater",
+  "use_case": "thumbnail_presentation_edit",
+  "inputs": [
+    {
+      "path": "final/14-crater-rim-survey/artwork-v2.png",
+      "bytes": 2303231,
+      "sha256": "ffb509afd49853590d7b01a521288b3d5cca47f7758feaa50136feabc4241734",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "music/empty-junction-visual-revision-v1/thumbnail-revised-junction-v1.jpg",
+      "bytes": 469562,
+      "sha256": "8ca8c1590fbc6abf93f694f8419bc0db80c82173e84cc6c89655b7d0dac37a92",
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "final/12-deepwell-station/upload-2026-11-02/thumbnail-recommended.jpg",
+      "bytes": 292831,
+      "sha256": "3bf37d2e2d3baa91e3b8417338249d7f9c151adba1771bf3f534f26a631d9ddb",
+      "dimensions": [
+        1280,
+        720
+      ]
+    }
+  ],
+  "input_roles": [
+    "sole_scene_edit_target",
+    "typography_and_hierarchy_reference_only",
+    "typography_and_hierarchy_reference_only"
+  ],
+  "old_thumbnail": {
+    "path": "final/14-crater-rim-survey/thumbnail-v1.jpg",
+    "bytes": 333065,
+    "sha256": "3158cf9fffc8cd735ebde64e89210fcff1629e470cf13b1d1791c01045bfe6a0",
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  "generations": [
+    {
+      "variant": "title",
+      "tool": "built-in image_gen.imagegen",
+      "generated_source": {
+        "path": "C:\\Users\\jazzs\\.codex\\generated_images\\01a192a2-705f-7391-80a2-74e52ec3e7ea\\exec-66c83c30-5ce5-4abf-aa42-11212da7f4f4.png",
+        "bytes": 2472615,
+        "sha256": "561ab7ac51b87e57f7cacefdbf5e1471a8f5450e460a3afb8c3e190d4bcbca88",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "workspace_master": {
+        "path": "music/crater-rim-thumbnail-v2/Crater-Rim-title-v2.png",
+        "bytes": 2472615,
+        "sha256": "561ab7ac51b87e57f7cacefdbf5e1471a8f5450e460a3afb8c3e190d4bcbca88",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "prompt": {
+        "path": "music/crater-rim-thumbnail-v2/prompt-title.txt",
+        "bytes": 2491,
+        "sha256": "d27f2fd2e817ff8bb81ab5f78ab04ddd7dd48d03cffe4ecc7f14bc0f67e185d7"
+      },
+      "upload_jpeg": {
+        "path": "music/crater-rim-thumbnail-v2/Crater-Rim-title-v2.jpg",
+        "bytes": 370750,
+        "sha256": "1dbc5669f2ab18e1b6918a0c9bb62a0c0a84e089a8766ac46c0b63f10a4e5e51",
+        "dimensions": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "variant": "scene_only",
+      "tool": "built-in image_gen.imagegen",
+      "generated_source": {
+        "path": "C:\\Users\\jazzs\\.codex\\generated_images\\01a192a2-705f-7391-80a2-74e52ec3e7ea\\exec-f468a440-d3d5-4448-8a61-ca135f4dcaa8.png",
+        "bytes": 2473746,
+        "sha256": "1b7847f78cc379c5b0eca2e8b48359f191d2faf89a6bad7ea4891e6c0ad7a445",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "workspace_master": {
+        "path": "music/crater-rim-thumbnail-v2/Crater-Rim-scene-only-v2.png",
+        "bytes": 2473746,
+        "sha256": "1b7847f78cc379c5b0eca2e8b48359f191d2faf89a6bad7ea4891e6c0ad7a445",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "prompt": {
+        "path": "music/crater-rim-thumbnail-v2/prompt-scene-only.txt",
+        "bytes": 2215,
+        "sha256": "41c3bb8cfa223ebf6fd9db7ab48dfacf3fe6aea09021e5840773d0e479003b24"
+      },
+      "upload_jpeg": {
+        "path": "music/crater-rim-thumbnail-v2/Crater-Rim-scene-only-v2.jpg",
+        "bytes": 359349,
+        "sha256": "02f5a5f5e8fe91db9e480031d975e49173f05e2835ec2ba00a22ca451e2d8310",
+        "dimensions": [
+          1280,
+          720
+        ]
+      }
+    }
+  ],
+  "builtin_generation_calls": 2,
+  "cli_api_fallback_used": false,
+  "export": "FFmpeg9.0, scale1280:720:flags=lanczos,format=yuvj444p; JPEG quality2; only format/size conversion after generation",
+  "phone_comparison": {
+    "path": "music/crater-rim-thumbnail-v2/phone-comparison.png",
+    "bytes": 294636,
+    "sha256": "368150cf5e8dab6e6c4d8cd324d1161460ae50b156f22948e9cee2fe5bdfd6c4",
+    "dimensions": [
+      900,
+      350
+    ]
+  },
+  "assistant_review": {
+    "full_size": true,
+    "phone_widths": [
+      160,
+      240
+    ],
+    "title_exact": "CRATER RIM",
+    "observations": [
+      "Small one-line title legible at bothreviewwidths",
+      "More exterior space and less lowerchair/cabinet foreground than oldthumbnail",
+      "Warm desk/lamp still read against immense palecrater",
+      "Nestedcrater, terrace greenhouse, winding road and existingring retain sceneidentity"
+    ],
+    "fidelity_limit": "Generated presentations reframe and rerender source; crop, cloud/detail arrangement and local light differ. Variants are not a controlled text-only change. No new planet, spacecraft or narrative event introduced."
+  },
+  "source_artwork_unchanged": true,
+  "original_thumbnail_preserved": true,
+  "artistic_user_approval": "CRATER RIM short-title V2 accepted 2026-11-08",
+  "performance_claim": "none; no thumbnail CTR experiment run",
+  "public_upload_or_test": "not performed",
+  "git_commit_push": "Subsequently authorized 2026-11-08; actual evidence is separate in production-backup-2026-11-08-crater-rim/remote-backup-verification.json",
+  "independent_review": {
+    "status": "passed_no_blocking_issue",
+    "phone_widths": [
+      160,
+      240
+    ],
+    "recommendation": "short_title",
+    "notes": "Legible both sizes; warm desk/caldera/colony/road preserved; ring subtler at160px. Fine details/light/crop vary; small wall-chart-like texture at title version left edge. No major new scene feature or event."
+  },
+  "recommendation": "Crater-Rim-title-v2.jpg",
+  "current_exports": [
+    {
+      "path": "final/14-crater-rim-survey/thumbnail-v2.jpg",
+      "bytes": 370750,
+      "sha256": "1dbc5669f2ab18e1b6918a0c9bb62a0c0a84e089a8766ac46c0b63f10a4e5e51"
+    },
+    {
+      "path": "final/14-crater-rim-survey/upload-2026-11-08/thumbnail-recommended.jpg",
+      "bytes": 370750,
+      "sha256": "1dbc5669f2ab18e1b6918a0c9bb62a0c0a84e089a8766ac46c0b63f10a4e5e51"
+    },
+    {
+      "path": "final/14-crater-rim-survey/upload-2026-11-08/thumbnail-scene-only-v2.jpg",
+      "bytes": 359349,
+      "sha256": "02f5a5f5e8fe91db9e480031d975e49173f05e2835ec2ba00a22ca451e2d8310"
+    }
+  ],
+  "protected_input_checks": [
+    {
+      "path": "final/14-crater-rim-survey/artwork-v2.png",
+      "sha256": "ffb509afd49853590d7b01a521288b3d5cca47f7758feaa50136feabc4241734",
+      "unchanged": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/thumbnail-v1.jpg",
+      "sha256": "3158cf9fffc8cd735ebde64e89210fcff1629e470cf13b1d1791c01045bfe6a0",
+      "unchanged": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/thumbnail-v1.png",
+      "sha256": "199c5930155e772af700866e4aa2aafa931ad1478d3a2875522c8943ab124543",
+      "unchanged": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/upload-2026-11-08/description.txt",
+      "sha256": "ca84fc796286dcfe279dee2d1fead69838e316aa8c0852ccaf16d6f2e1068dd8",
+      "unchanged": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/upload-2026-11-08/thumbnail-current.jpg",
+      "sha256": "3158cf9fffc8cd735ebde64e89210fcff1629e470cf13b1d1791c01045bfe6a0",
+      "unchanged": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/upload-2026-11-08/youtube-tags.txt",
+      "sha256": "ab174f0f6c5b129fc5e4ff56f8bcef49bf42f5e4a0e63b14d052df793da7c592",
+      "unchanged": true
+    },
+    {
+      "path": "final/14-crater-rim-survey/upload-2026-11-08/youtube-title.txt",
+      "sha256": "608a229b84c8aceeb4acfc93d1e92bef96543956e69e6b8ad4cf0648ca6c3303",
+      "unchanged": true
+    }
+  ],
+  "current_records_changed": [
+    {
+      "path": "final/14-crater-rim-survey/manifest.json",
+      "before_sha256": "c9438b54932c9ced50bde7c52ef811cda591bc694ec2f185864f20311e1a9bcc",
+      "after_sha256": "88e8fdc5f103e6a53e842de6acee204bfd047084294f2ee5447de7465f3530f1"
+    },
+    {
+      "path": "final/14-crater-rim-survey/README.md",
+      "before_sha256": "7e8538aa32817c967ebac0f610917343c3467544c166942d710cca0b2842f0a3",
+      "after_sha256": "f1c3359a3de7404215f55d3a3230eb9a5d7bcd48e2ef5cd0b90feb7e20082ce1"
+    },
+    {
+      "path": "final/14-crater-rim-survey/upload-2026-11-08/package.json",
+      "before_sha256": "55c8a22a6f8c1c650be7276bc4e0dd470137deb462bc28cd8c58d40265547685",
+      "after_sha256": "db80a2b369bd319101500a48bc9f76c50fbd136982eb69bfed93684ed856f944"
+    },
+    {
+      "path": "final/14-crater-rim-survey/upload-2026-11-08/upload-notes.txt",
+      "before_sha256": "287b1c7488e1369fed45184b3c4f82694d13081eb9dddba4325cf0a2445199e3",
+      "after_sha256": "4fbab8636c40bc5131114b21520bab260c07b02be0a81bc1be49371a625cc38d"
+    },
+    {
+      "path": "final/catalog.json",
+      "before_sha256": "8bd8176efdf37f45568306f0fc9e7d8a959d82e359e779b0459f10cbc1147ab7",
+      "after_sha256": "29e615cee8350cb09de5018807c2a741f1d02f3a046d46e4a5236ad7a68bfc5a"
+    },
+    {
+      "path": "final/README.md",
+      "before_sha256": "92cedc7ee03602b125eb74b52667bafe67d46e6a76ee1a5b1a0851c607191a73",
+      "after_sha256": "441effcd6be274e495db3acf9436fe6f1fe3a44a700f068466c5aece772763ca"
+    },
+    {
+      "path": "AGENTS.md",
+      "before_sha256": "a172785e56889ee35d9802f13801517243012ca79ffcdd4b6ed1c19c08512999",
+      "after_sha256": "c815b0dca1062c987de294dd4a03c68645dd9f3fffec8ea8207f6e69383bdcf3"
+    }
+  ],
+  "agents_prior_bytes_preserved_around_insert": true,
+  "user_approval_record": "music/crater-rim-thumbnail-v2/user-approval.json",
+  "current_records_changed_scope": "Historical generation checkpoint fingerprints, before subsequent user approval and backup updates."
+}

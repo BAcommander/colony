@@ -1,0 +1,25 @@
+{
+  "status": "inspected_no_gross_visual_defect_seen_in_selected_stills",
+  "date": "2026-11-08",
+  "reviewer": "independent flight_review agent",
+  "master": "exports/14-crater-rim-survey/production-v1/Crater-Rim-Survey-clean-600s-4K.mp4",
+  "master_sha256": "3bb88151f697bd2fbb93dde4b70737629d687df8856bef7c9259a23ff1f66ed8",
+  "viewed_artifact": "music/crater-rim-final-hour-v1/audit/decoded-controls-contact-sheet.jpg",
+  "viewed_artifact_sha256": "520c03b25e7e0461bf76acd6b1358f74475f8d6e94fa00c8ea6a8d6fb573b2da",
+  "actual_decoded_frame_indices": [0, 1560, 1800, 2621, 5950, 7220, 10670, 11935, 14320, 15500, 17999],
+  "viewing_method": "Viewed the contact sheet through view_image. Original sheet 1920x3390 was displayed at 1160x2048; each tile was already reduced from an actual 3840x2160 decoded picture.",
+  "observations": [
+    "Window uprights, crater rim, desk, equipment and chair retain consistent silhouettes across the selected pictures.",
+    "Warm interior lighting and cooler daylight remain consistent, without an obvious colour or exposure discontinuity in the sampled pictures.",
+    "The practical lamp is visibly dimmer in the sampled dip states at frames 2621 and 11935; its surrounding warm spill changes coherently.",
+    "Distant greenhouse highlights are visible in the selected glint states and remain localized to the settlement.",
+    "Sky and basin haze vary across the samples without an obvious pasted edge, horizontal cut or terrain tear in this overview.",
+    "First and last sampled compositions align. Temporal seam quality is separately supported by the numerical seam checks; a still comparison alone does not establish motion continuity."
+  ],
+  "technical_cross_reference": "decoded-colour-validation.json records 187 byte-exact actual decoded YUV controls against independently remapped original V5 native frames and the production FFmpeg Lanczos/BT.709/TV conversion.",
+  "limits": [
+    "This was inspection of selected actual decoded stills, not uninterrupted playback of the ten-minute clean master or final hour.",
+    "Small rover occlusion and beacon timing were not judged at full-resolution playback from this reduced contact sheet; separate numerical geometry, event, native-pixel and decoded-control checks cover those implementation properties.",
+    "No audio listening, final-hour artistic approval, publication or user acceptance is inferred."
+  ]
+}

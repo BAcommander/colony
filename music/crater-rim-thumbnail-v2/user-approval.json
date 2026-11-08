@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-08",
+  "user_quote": "looks good, commit and push all the crater rim work",
+  "context": "Response to updated Junction/Deepwell-inspired Crater Rim thumbnail presentation.",
+  "accepted_thumbnail": {
+    "path": "final/14-crater-rim-survey/thumbnail-v2.jpg",
+    "bytes": 370750,
+    "sha256": "1dbc5669f2ab18e1b6918a0c9bb62a0c0a84e089a8766ac46c0b63f10a4e5e51"
+  },
+  "accepted_variant": "CRATER RIM short-title V2",
+  "scene_only_alternative": "retained, not selected as primary",
+  "backup_authority": "All outstanding Crater Rim work on main, following EXPORTS.md. Exact 600-second 4K master, review, sources, code, validation, upload copy and thumbnail variants.",
+  "full_hour_video_artistic_approval_inferred": false,
+  "publication_or_schedule_authorized": false,
+  "backup_scope": "music/production-backup-2026-11-08-crater-rim/selection.json",
+  "remote_evidence": "music/production-backup-2026-11-08-crater-rim/remote-backup-verification.json"
+}

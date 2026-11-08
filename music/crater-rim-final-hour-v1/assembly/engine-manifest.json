@@ -1,0 +1,89 @@
+{
+  "purpose": "Portable byte-exact actual Colony v3 engine and runtime closure",
+  "intro_version": 3,
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.4",
+    "Pillow": "12.2.0"
+  },
+  "ffmpeg_discovery": "FFmpeg and FFprobe on PATH; optional imageio-ffmpeg is not required",
+  "installed_application_modified": false,
+  "files": [
+    {
+      "path": "engine/colony/intro.py",
+      "source": "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\intro.py",
+      "bytes": 8014,
+      "sha256": "a38a64b021730c9878dcb7605c1b9354a18bc943aa77e2b65ea08182bca05440",
+      "source_kind": "verified_intro_v3"
+    },
+    {
+      "path": "engine/colony/render.py",
+      "source": "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\render.py",
+      "bytes": 53849,
+      "sha256": "30250ca1801eccb2ec89da507d277f5028be0dcfed97a1bc8194199e1d5d28e1",
+      "source_kind": "verified_intro_v3"
+    },
+    {
+      "path": "engine/colony/assets/fonts/BarlowCondensed-Regular.ttf",
+      "source": "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\assets\\fonts\\BarlowCondensed-Regular.ttf",
+      "bytes": 102480,
+      "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996",
+      "source_kind": "verified_intro_v3"
+    },
+    {
+      "path": "engine/colony/assets/fonts/BarlowCondensed-SemiBold.ttf",
+      "source": "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\assets\\fonts\\BarlowCondensed-SemiBold.ttf",
+      "bytes": 109428,
+      "sha256": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9",
+      "source_kind": "verified_intro_v3"
+    },
+    {
+      "path": "engine/colony/assets/fonts/OFL.txt",
+      "source": "G:\\AI\\colony\\creative\\brand\\intro-v3\\tool-source-snapshot\\colony\\assets\\fonts\\OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "source_kind": "verified_intro_v3"
+    },
+    {
+      "path": "engine/colony/sfx.py",
+      "source": "C:\\dev\\SpeedySlideShow\\colony\\sfx.py",
+      "bytes": 4342,
+      "sha256": "77b1ef42687d6c61e623de7b33284e140f448f2d280c8285eaa5b66f9dddb025",
+      "source_kind": "installed_runtime_dependency"
+    },
+    {
+      "path": "engine/app/__init__.py",
+      "source": "C:\\dev\\SpeedySlideShow\\app\\__init__.py",
+      "bytes": 141,
+      "sha256": "f64b682ac56a611252123f62efd20756ed2e7fec6791196fe3cc8b5885acf451",
+      "source_kind": "installed_runtime_dependency"
+    },
+    {
+      "path": "engine/app/exporter.py",
+      "source": "C:\\dev\\SpeedySlideShow\\app\\exporter.py",
+      "bytes": 126665,
+      "sha256": "9557dfda9cf92007dc391f518b86c106f9ab0592456751da61a37b000098af8b",
+      "source_kind": "installed_runtime_dependency"
+    },
+    {
+      "path": "engine/app/trims.py",
+      "source": "C:\\dev\\SpeedySlideShow\\app\\trims.py",
+      "bytes": 6765,
+      "sha256": "c6b5eebec3db3346637c66e99c487661e40140bb3b93c9f1d0d1d5cfba050020",
+      "source_kind": "installed_runtime_dependency"
+    },
+    {
+      "path": "engine/app/utils.py",
+      "source": "C:\\dev\\SpeedySlideShow\\app\\utils.py",
+      "bytes": 11883,
+      "sha256": "b2f9ae39df2e97f0e8c09971e88d38788c7c325c4c925df19000425a8d0f2f44",
+      "source_kind": "installed_runtime_dependency"
+    },
+    {
+      "path": "engine/colony/__init__.py",
+      "source_kind": "local_package_marker",
+      "bytes": 63,
+      "sha256": "3fa26767a1a164bbbf26974e1a5c37dab18c41ebb5811e903be0fdbae9797a97"
+    }
+  ]
+}

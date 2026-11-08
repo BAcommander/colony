@@ -1,0 +1,13 @@
+{
+  "python": "3.12.10",
+  "numpy": "2.4.3",
+  "opencv": "5.0.0",
+  "pillow": "12.1.1",
+  "imageio_ffmpeg": "0.6.0",
+  "original_v5_python": "3.13.14",
+  "compatibility": "Python3.12.10 with original package pins reproduces all6 original native V5 hashes exactly",
+  "isolated_runtime": ".local/crater-final-runtime",
+  "ffmpeg": "ffmpeg version 9.0-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "ffmpeg_sha256": "05f4251bce9293c2ab492cb17ca7724a0ffd0d06c881ba2ee83b82a89c2fc740",
+  "free_disk_bytes_at_start": 715895431168
+}

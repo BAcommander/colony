@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-08",
+  "authority": "ok lets do it, make the full 1 hour 4K crater rim video with the longer animation timing and approved audio",
+  "duration_seconds": 3600,
+  "fps": 30,
+  "frames": 108000,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "native_source_dimensions": [
+    1672,
+    941
+  ],
+  "4k_method": "Render original native scene then FFmpeg Lanczos upscale; no enlarged720p source",
+  "visual_weather_seconds": 60,
+  "visual_attention_seconds": 600,
+  "schedule_source": "source-snapshot/music/crater-rim-animation-v5/long-version-plan.json",
+  "audio": {
+    "path": "exports\\14-crater-rim-survey\\audio-1h-v1\\Crater-Rim-Survey-1-Hour-music-and-SFX-v1.flac",
+    "sha256": "333c0fe1b94ac899d0fa6a91ed009c693de312c791913a838662bf7433b5c994",
+    "gain_db": 0,
+    "all_sfx_already_included": true,
+    "opening": "silent0-5s, fade5-20s once during Colony assembly",
+    "closing": "existing20s fade in approved mix retained; no second fade"
+  },
+  "opening": "Actual frozen Colony v3 artwork/timing once inside3600s, graphics clear by22s",
+  "output": "exports/14-crater-rim-survey/Crater-Rim-Survey-1-Hour-4K-v1.mp4",
+  "status": "production_in_progress",
+  "user_authorized_full_build": true,
+  "new_generation_or_paid_service": false,
+  "no_new_commit_or_push_inferred": true
+}

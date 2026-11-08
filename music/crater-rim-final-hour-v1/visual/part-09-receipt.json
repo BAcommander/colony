@@ -1,0 +1,14 @@
+{
+  "minute": 9,
+  "path": "G:\\AI\\colony\\exports\\14-crater-rim-survey\\production-v1\\clean-minute-09.mp4",
+  "copied_exact_from_minute": 2,
+  "frames": 1800,
+  "attention_frames": 0,
+  "absolute_time_window": [
+    540,
+    600
+  ],
+  "bytes": 340527579,
+  "sha256": "03f1ea31846b9a2d364405be8146ecd35a7a5b03ce06f5a978f77f3f901e675a",
+  "reason": "Both units have identical cached weather with all attention layers off; scheduler checked at all3600 relevant frames"
+}

@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "script_sha256": "bed397bc469c82371f9bb33a610dfe5637b5d92c63997cffbf4b6b78ec4abf00",
+  "delivery_sha256": "a201d5c2d25f8e438213b888472172b15d32981803e5f99c0edc4dc7303d3929",
+  "files": [
+    {
+      "path": "final/14-crater-rim-survey/manifest.json",
+      "before_sha256": "21ed36006a73d1d9d9da206be2d0ead87aae14355b4e8e5700d46c815a2364b4",
+      "after_sha256": "53bbf36dcf4b9c283c051ecabb522de0bd7e9e4fd1f93d79d4d1e860150ad9bf",
+      "backup": "music/crater-rim-final-hour-v1/records-finalization/20261108T174013.950069Z/before/final/14-crater-rim-survey/manifest.json"
+    },
+    {
+      "path": "final/catalog.json",
+      "before_sha256": "ae2e439161416a602050225c638d7d13a3dd1ba313f7eefe7dada5a54b362a00",
+      "after_sha256": "8bd8176efdf37f45568306f0fc9e7d8a959d82e359e779b0459f10cbc1147ab7",
+      "backup": "music/crater-rim-final-hour-v1/records-finalization/20261108T174013.950069Z/before/final/catalog.json"
+    },
+    {
+      "path": "final/README.md",
+      "before_sha256": "d82e5166d8e91a5b6f3ae0abb0a07c5897bccac62241a4ac30ee1ae9a1c1e40f",
+      "after_sha256": "92cedc7ee03602b125eb74b52667bafe67d46e6a76ee1a5b1a0851c607191a73",
+      "backup": "music/crater-rim-final-hour-v1/records-finalization/20261108T174013.950069Z/before/final/README.md"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "before_sha256": "437d40eb147ebfa01ec9bf3d8da9698892c24efe954a0c2c984b1ce945448198",
+      "after_sha256": "7162b6162b81495bad7c1fe5a2ff3369291b9ef4e88c4e6f163f046949224a31",
+      "backup": "music/crater-rim-final-hour-v1/records-finalization/20261108T174013.950069Z/before/PRODUCTION_PIPELINE.md"
+    },
+    {
+      "path": "final/14-crater-rim-survey/README.md",
+      "before_sha256": "dfbf52b0cdd0428a346fb6cd14b1df953b47bbce83ad0d60945af10d11094604",
+      "after_sha256": "89e6793a1a6c7195c2538f8d649a7543e0f3981bb63a2063e29d2c9ecfa8939f",
+      "backup": "music/crater-rim-final-hour-v1/records-finalization/20261108T174013.950069Z/before/final/14-crater-rim-survey/README.md"
+    },
+    {
+      "path": "final/14-crater-rim-survey/motion-brief.md",
+      "before_sha256": "6cb4f2871dfc8134fe0bed359e65c4b6541e856aa01b40ec07f69eedda35cdfc",
+      "after_sha256": "a43b695fae5a32b8dde899787344c53ef4f29735d0b1444368675ce76497a8ce",
+      "backup": "music/crater-rim-final-hour-v1/records-finalization/20261108T174013.950069Z/before/final/14-crater-rim-survey/motion-brief.md"
+    },
+    {
+      "path": "AGENTS.md",
+      "before_sha256": "18c854ba389dd90649543a1a0cb858d0a95c43bdb3d0a752965f78788d4e29e9",
+      "after_sha256": "a172785e56889ee35d9802f13801517243012ca79ffcdd4b6ed1c19c08512999",
+      "backup": "music/crater-rim-final-hour-v1/records-finalization/20261108T174013.950069Z/before/AGENTS.md"
+    },
+    {
+      "path": "music/crater-rim-final-hour-v1/README.md",
+      "before_sha256": "735f8139fcfa0504642165a6a103accd623c469d5d3896ed99a0e737c96efd7d",
+      "after_sha256": "c806dadca921b8015519705d58c261ee1cf99316dc7c092e05cd07093607f922",
+      "backup": "music/crater-rim-final-hour-v1/records-finalization/20261108T174013.950069Z/before/music/crater-rim-final-hour-v1/README.md"
+    },
+    {
+      "path": "music/crater-rim-final-hour-v1/production-plan.json",
+      "before_sha256": "8193a3a1f8f034a1f8de9fd9d6d39b3077f8d6c855c36f2ae6024376a4f994be",
+      "after_sha256": "53b52c8ed4580ae65e9b7c46b860b769e26ea4a0e291b11fa1b932dda0499281",
+      "backup": "music/crater-rim-final-hour-v1/records-finalization/20261108T174013.950069Z/before/music/crater-rim-final-hour-v1/production-plan.json"
+    }
+  ]
+}

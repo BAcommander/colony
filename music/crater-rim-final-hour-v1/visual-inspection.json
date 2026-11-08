@@ -1,0 +1,22 @@
+{
+  "status": "selected_decoded_stills_inspected",
+  "date": "2026-11-08",
+  "method": "Assistant visually inspected actual decoded master and final contact sheets through image viewer",
+  "images": [
+    {
+      "path": "audit/decoded-controls-contact-sheet.jpg",
+      "sha256": "520c03b25e7e0461bf76acd6b1358f74475f8d6e94fa00c8ea6a8d6fb573b2da"
+    },
+    {
+      "path": "assembly/final-contact-sheet.jpg",
+      "sha256": "a27d4628807976d8dd0583d8d06f0827ff49abf81eda8a066e34d632c363c1da"
+    }
+  ],
+  "observations": [
+    "Opening correctly reads Ambient Colony presents / Crater Rim Survey / Stay a while and listen; clean scene restored in selected23s frame",
+    "Room frame, desk, terrain and planetary ring remain fixed across selected states",
+    "Scheduled lamp dimming and greenhouse glints are visible in master samples",
+    "Selected600s boundary and later final samples retain consistent framing and colour"
+  ],
+  "limits": "Selected reduced-resolution decoded stills only; no continuous video playback or audio listening. This is not user artistic approval."
+}

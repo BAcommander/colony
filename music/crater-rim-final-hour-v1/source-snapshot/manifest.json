@@ -1,0 +1,72 @@
+{
+  "status": "frozen_byte_exact",
+  "files": [
+    {
+      "sha256": "ffb509afd49853590d7b01a521288b3d5cca47f7758feaa50136feabc4241734",
+      "original_repo_path": "final/14-crater-rim-survey/artwork-v2.png",
+      "bytes": 2303231,
+      "snapshot_path": "source-snapshot/final/14-crater-rim-survey/artwork-v2.png"
+    },
+    {
+      "sha256": "0b0787be1a5ca31580ee52b369cdbb9e7e34b00b90ceb83edd1df90734273bc5",
+      "original_repo_path": "music/crater-rim-animation-v5/scene-plan.json",
+      "bytes": 28080,
+      "snapshot_path": "source-snapshot/music/crater-rim-animation-v5/scene-plan.json"
+    },
+    {
+      "sha256": "0d0484047b807216ad2b3586072833e70fa1ea8d2f3be1382091c611089dba44",
+      "original_repo_path": "music/crater-rim-animation-v5/render_scene.py",
+      "bytes": 11288,
+      "snapshot_path": "source-snapshot/music/crater-rim-animation-v5/render_scene.py"
+    },
+    {
+      "sha256": "23b56c47214b8f0c8ca041c0c99103630bce4322f04efc12e55ea41a29d11a17",
+      "original_repo_path": "music/crater-rim-animation-v5/v3_renderer_snapshot.py",
+      "bytes": 9208,
+      "snapshot_path": "source-snapshot/music/crater-rim-animation-v5/v3_renderer_snapshot.py"
+    },
+    {
+      "sha256": "11133fa904df95ffa274848c67a6978bb9e4caa04b119a3fcaea0753cbf7826b",
+      "original_repo_path": "music/crater-rim-animation-v5/v2_renderer_snapshot.py",
+      "bytes": 13684,
+      "snapshot_path": "source-snapshot/music/crater-rim-animation-v5/v2_renderer_snapshot.py"
+    },
+    {
+      "sha256": "d7e56f6802eef322562f98ef3776ef78fdad2a76bcf7868accace203976a0832",
+      "original_repo_path": "music/crater-rim-animation-v5/dependencies/dust_transport.py",
+      "bytes": 3185,
+      "snapshot_path": "source-snapshot/music/crater-rim-animation-v5/dependencies/dust_transport.py"
+    },
+    {
+      "sha256": "4ec72bb1fd6fd3f14135d7f176c1e78920c3cc1054bffc6bb6c8af534e828379",
+      "original_repo_path": "music/crater-rim-animation-v5/dependencies/periodic_transport.py",
+      "bytes": 1600,
+      "snapshot_path": "source-snapshot/music/crater-rim-animation-v5/dependencies/periodic_transport.py"
+    },
+    {
+      "sha256": "73b2400692cdd14b35d2b003d0c525c1d429785a2159a1dbc7932bb945989148",
+      "original_repo_path": "music/crater-rim-animation-v5/runtime.json",
+      "bytes": 503,
+      "snapshot_path": "source-snapshot/music/crater-rim-animation-v5/runtime.json"
+    },
+    {
+      "sha256": "d3030f14f83776823ba7500c56ee5213e5acb2b931d776ad0bbb56bab9904b93",
+      "original_repo_path": "music/crater-rim-animation-v5/requirements-resume.txt",
+      "bytes": 83,
+      "snapshot_path": "source-snapshot/music/crater-rim-animation-v5/requirements-resume.txt"
+    },
+    {
+      "sha256": "1256dfab9b1c0a1ad65e1a77ea3484035c526d10eec232d1262218c62beaaa98",
+      "original_repo_path": "music/crater-rim-animation-v5/long-version-plan.json",
+      "bytes": 10364,
+      "snapshot_path": "source-snapshot/music/crater-rim-animation-v5/long-version-plan.json"
+    },
+    {
+      "sha256": "ae724d87639d4bf4ad7e717256b78ac91d2e49397b48eef5525e312c0ad4ebb9",
+      "original_repo_path": "music/crater-rim-animation-v5/LONG_VERSION.md",
+      "bytes": 6651,
+      "snapshot_path": "source-snapshot/music/crater-rim-animation-v5/LONG_VERSION.md"
+    }
+  ],
+  "notes": "Original V5 code/config/source/dependencies retained byte-exact. Snapshot mirrors repository layout so original relative source lookup remains valid. Long schedule plan statuses are historical; current user authorized the full one-hour production."
+}

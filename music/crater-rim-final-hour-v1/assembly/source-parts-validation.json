@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "master": "G:\\AI\\colony\\exports\\14-crater-rim-survey\\production-v1\\Crater-Rim-Survey-clean-600s-4K.mp4",
+  "master_sha256": "3bb88151f697bd2fbb93dde4b70737629d687df8856bef7c9259a23ff1f66ed8",
+  "method": "Exact keyframe stream-copy split; no picture encoding",
+  "parts": [
+    {
+      "path": "G:\\AI\\colony\\.local\\crater-rim-final-hour-v1\\assembly\\clean-000-060.mp4",
+      "start_seconds": 0,
+      "seconds": 60,
+      "frames": 1800,
+      "sha256": "da1187450ae85b0a1c3b9cd10e5a0ee917d1cd8b8df4099406c34d13494d8ff0",
+      "every_packet_matches_master": true
+    },
+    {
+      "path": "G:\\AI\\colony\\.local\\crater-rim-final-hour-v1\\assembly\\clean-060-600.mp4",
+      "start_seconds": 60,
+      "seconds": 540,
+      "frames": 16200,
+      "sha256": "d1f1921d23b57b03a208b6fca2d443ff1b04939ba9c5057b5084cee8ba0d0c12",
+      "every_packet_matches_master": true
+    }
+  ]
+}

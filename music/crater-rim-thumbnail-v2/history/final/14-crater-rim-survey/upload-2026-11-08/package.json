@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-08",
+  "status": "upload_copy_prepared_not_published",
+  "video": "exports/14-crater-rim-survey/Crater-Rim-Survey-1-Hour-4K-v1.mp4",
+  "video_sha256": "15d444792ddb0820081f8d0eabdcf787af9d4b738e1bca7fa35de30c7d0c8af3",
+  "title_status": "suggested_experience_led_title_not_user_selected_or_live",
+  "title_characters": 82,
+  "tags_characters": 353,
+  "thumbnail_status": "existing_approved_v1_unchanged_older_large_text_design",
+  "thumbnail_source": {
+    "path": "final/14-crater-rim-survey/thumbnail-v1.jpg",
+    "bytes": 333065,
+    "sha256": "3158cf9fffc8cd735ebde64e89210fcff1629e470cf13b1d1791c01045bfe6a0"
+  },
+  "files": [
+    {
+      "path": "final/14-crater-rim-survey/upload-2026-11-08/description.txt",
+      "bytes": 913,
+      "sha256": "ca84fc796286dcfe279dee2d1fead69838e316aa8c0852ccaf16d6f2e1068dd8"
+    },
+    {
+      "path": "final/14-crater-rim-survey/upload-2026-11-08/thumbnail-current.jpg",
+      "bytes": 333065,
+      "sha256": "3158cf9fffc8cd735ebde64e89210fcff1629e470cf13b1d1791c01045bfe6a0"
+    },
+    {
+      "path": "final/14-crater-rim-survey/upload-2026-11-08/upload-notes.txt",
+      "bytes": 1498,
+      "sha256": "287b1c7488e1369fed45184b3c4f82694d13081eb9dddba4325cf0a2445199e3"
+    },
+    {
+      "path": "final/14-crater-rim-survey/upload-2026-11-08/youtube-tags.txt",
+      "bytes": 355,
+      "sha256": "ab174f0f6c5b129fc5e4ff56f8bcef49bf42f5e4a0e63b14d052df793da7c592"
+    },
+    {
+      "path": "final/14-crater-rim-survey/upload-2026-11-08/youtube-title.txt",
+      "bytes": 86,
+      "sha256": "608a229b84c8aceeb4acfc93d1e92bef96543956e69e6b8ad4cf0648ca6c3303"
+    }
+  ],
+  "release_planning_date": "2026-11-12",
+  "studio_release_confirmed": false,
+  "source_guidance": [
+    "creative/PACKAGING_WORKFLOW.md",
+    "https://support.google.com/youtube/answer/14328491?hl=en"
+  ],
+  "original_metadata_preserved": true,
+  "generation_upload_or_git_backup_performed": false
+}

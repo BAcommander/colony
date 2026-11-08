@@ -1,0 +1,7 @@
+{
+  "native_executed_script": "native-audit-executed-snapshot.py",
+  "sha256": "aef18968f964908481a783075b267dee84acc0ca49424c2747a8cc2e01dd2aa6",
+  "current_script": "audit_long_scene.py",
+  "current_sha256": "c50ebd8c11d8efd512df0ea04b1a5bc1302d65115fb1c846ebc2f2718f429601",
+  "change_after_native_pass": "Only decoded-stage FFmpeg expression balancing and decoder error reporting changed. Native reference and checks are unchanged. The historical exact script is retained for native receipt provenance; use current script for the decoded stage."
+}

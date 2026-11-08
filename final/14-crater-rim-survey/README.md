@@ -1,5 +1,11 @@
 # 14 — Crater Rim Survey
 
+Current upload copy: [November8 upload pack](upload-2026-11-08/upload-notes.txt), now using the [CRATER RIM thumbnail V2](thumbnail-v2.jpg). [Text-free alternative](upload-2026-11-08/thumbnail-scene-only-v2.jpg) and [160px/240px comparison](../../music/crater-rim-thumbnail-v2/phone-comparison.png). User accepted the short-title V2 on November 8; public testing has not been performed. [Production backup and restoration](../../music/production-backup-2026-11-08-crater-rim/README.md). The original approved thumbnail and metadata are preserved as history.
+
+<!-- crater-rim-final-hour-v1-current:begin -->
+Current final delivery — 2026-11-08: [one-hour4K video](../../exports/14-crater-rim-survey/Crater-Rim-Survey-1-Hour-4K-v1.mp4) and [verified production package](../../music/crater-rim-final-hour-v1/README.md). Native1672x941 V5 art is upscaled directly to3840x2160/30fps; the600s attention schedule runs over unchanged60s weather. Accepted music, wind and room air remain at unity, with the existing closing fade and one actual Colony opening. Technical picture/timestamp/decode and complete audio-reference checks passed. Full combined user review and upload checks are pending; continuous playback/listening is not claimed. The preparation notes below are historical and do not override this delivery.
+<!-- crater-rim-final-hour-v1-current:end -->
+
 Current audio — 2026-11-07: both supplied five-minute originals are arranged into a [one-hour music, sheltered wind and room-air audition](../../music/crater-rim-production-2026-11-07/README.md). Full MP3/FLAC, separate stems, two dry joins, a ten-minute pair check and a two-minute V5 scene preview are delivered and technically checked. User accepted the presented audio on November 7 and requested commit/push; the long animation and final video remain pending. Earlier ungenerated statements below describe prior preparation.
 
 Prepared 2026-09-29; motion updated 2026-11-05. The user selected the current v2 concept for release packaging and approved the thumbnail. The complete V5 minute strengthens the distant glints/beacons and traffic readability, with a normal-size before/after comparison; final-round playback review is pending. Publication copy awaits the soundtrack and runtime.
