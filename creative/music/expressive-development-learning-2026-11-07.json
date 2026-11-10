@@ -30,8 +30,8 @@
   ],
   "evidence_limits": {
     "user_reports_two_samples": true,
-    "sample_files_received": false,
-    "actual_duration_model_settings_seed": "Not supplied; sixty seconds was the proposed test",
+    "sample_files_received": true,
+    "actual_duration_model_settings_seed": "Both supplied files contain60s of48kHz stereo audio in64.4s video wrappers. Exact model/settings and selected reference seed remain unknown.",
     "exact_executed_prompt": "Associated with delivered expressive V3; pasted text unverified",
     "assistant_listened": false,
     "individual_changes_isolated": false,
@@ -45,5 +45,31 @@
     "Record feedback and source provenance; keep SFX separate"
   ],
   "git_operation": "User explicitly requests commit/push and unreleased-prompt refresh on 2026-11-08",
-  "unreleased_prompt_review": "creative/music/unreleased-prompt-review-2026-11-08.json"
+  "unreleased_prompt_review": "creative/music/unreleased-prompt-review-2026-11-08.json",
+  "source_intake_2026_11_08": {
+    "identity_confirmation": "music/beneath-a-crimson-sky-test-intake-2026-11-08/identity-confirmation.json",
+    "sources": [
+      {
+        "id": "A",
+        "repo_path": "music/beneath-a-crimson-sky-test-intake-2026-11-08/sources/Crimson_Terrace_Vigil_2026-11-07T165049.mp4",
+        "sha256": "8195b181e06600a0f56998de33f23e422265ddc91a97e4e4b1d15202742b2cf1",
+        "bytes": 1510839,
+        "audio_seconds": 60.0,
+        "sample_rate": 48000,
+        "channels": 2
+      },
+      {
+        "id": "B",
+        "repo_path": "music/beneath-a-crimson-sky-test-intake-2026-11-08/sources/Crimson_Terrace_Vigil_2026-11-07T165049 (1).mp4",
+        "sha256": "b442955621692e4e1fa13a7359251ea7f25b1fe2da5bb7eba9b8a8248efb7fe9",
+        "bytes": 1496458,
+        "audio_seconds": 60.0,
+        "sample_rate": 48000,
+        "channels": 2
+      }
+    ],
+    "user_confirmed_association_to_previous_feedback": true,
+    "both_retained_as_candidates": true,
+    "no_individual_prompt_change_causality_inferred": true
+  }
 }

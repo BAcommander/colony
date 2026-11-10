@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-08",
+  "authority": "User clarification: The two improved music tests",
+  "identity_confirmation": "music/beneath-a-crimson-sky-test-intake-2026-11-08/identity-confirmation.json",
+  "changes": [
+    {
+      "path": "AGENTS.md",
+      "before_sha256": "e75dd377febc28025189578d8b017081e68edd3c050ae67a829ee6eecf930771",
+      "after_sha256": "94b63e217521e8d6a9912b4a3511ea0e6dbf3a2e5a7859ac51280a0f33e67a58"
+    },
+    {
+      "path": "PRODUCTION_PIPELINE.md",
+      "before_sha256": "7162b6162b81495bad7c1fe5a2ff3369291b9ef4e88c4e6f163f046949224a31",
+      "after_sha256": "98c011fa742e471bc961a1976379e914ebb7b26b961ad464cf0f6d4a776d6ecd"
+    },
+    {
+      "path": "final/catalog.json",
+      "before_sha256": "83821a118087d81428006305bdf400bf7ac8743fc4be30967f33f869139da167",
+      "after_sha256": "a237c3568035d5613fc1762bd00647990f4a76dbab8f5ed9d615f5b027af78b4"
+    },
+    {
+      "path": "final/15-beneath-a-crimson-sky/README.md",
+      "before_sha256": "6329dd4bc5b92982e6df9585f137e09c7d6343538304c65e152c83d8d30ac4ab",
+      "after_sha256": "15ca83c8026a97340303621297774743e061cf05813cec4403bf3ca845351c18"
+    },
+    {
+      "path": "final/15-beneath-a-crimson-sky/manifest.json",
+      "before_sha256": "e1396b92f76eaa89ccaf911e4bbebf8254a955315fa7807d7cb05d7804f4a65a",
+      "after_sha256": "eee1418ef9cc371f4054f49d6e5c436b379811e4512e8cb763894fe3d43e1b90"
+    },
+    {
+      "path": "final/15-beneath-a-crimson-sky/music-refinement-2026-11-07.json",
+      "before_sha256": "80357608506dfe27d153678887c7caf6998a11f8274735a73e04b338ab7a1636",
+      "after_sha256": "9f1ed29c4549e4f45982fa7321eb63356c9cb819e7cd23680fdd7c8d0ffc181a"
+    },
+    {
+      "path": "creative/music/expressive-development-learning-2026-11-07.json",
+      "before_sha256": "2257f0adc7798254aa182977524cc4a1e2fedf43a3ea1018d7a6ca487fa8bbf7",
+      "after_sha256": "ca76749241292761f0bdc9cb1687a45e53472659155e034ce87cab2ae307e468"
+    },
+    {
+      "path": "creative/live/skies-of-baal/music/README.md",
+      "before_sha256": "8d5172ee33aed25f1f10409c1d6bac3cf440e736d683fc1b9eb34a8c3629f285",
+      "after_sha256": "2f04497ac37591cb22aca56590b8e9888836669fed267f415da501876fee681f"
+    },
+    {
+      "path": "creative/live/skies-of-baal/music/generation-record.json",
+      "before_sha256": "22eb31d7aebdbe20ca6ae7dc949552bbad492f621fa71a1f21d9597462a152bd",
+      "after_sha256": "b6066e99c904854d841254c34ed1a2601a9ff47b2b1def0cecdf4ba6187df784"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-test-intake-2026-11-08/intake.json",
+      "before_sha256": "9754648778b49891b5c7c28d99095ee5881f3fe49d189f2f7aa85aecf21641de",
+      "after_sha256": "91618ce53f5ec1a5c27c8ca0b52261a70efc4734448c7d404199338ee933a4fd"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-test-intake-2026-11-08/review-recipe.json",
+      "before_sha256": "04e96f551c2b4eedb0fa284ee724db9f41a6e6101852c1e72fe7cb6d67856aeb",
+      "after_sha256": "dc0c77c5a347026d8f925e98cfe6030b96c0afb0de825f1693e1e9ccd05ca2b4"
+    },
+    {
+      "path": "music/beneath-a-crimson-sky-test-intake-2026-11-08/README.md",
+      "before_sha256": "03008515601e1bd592de6a015e34320e10b088281e92b035131a2ed1fdbbf803",
+      "after_sha256": "c6670b67012f37e8f2a6022f096986987566ae590c3dbac4e9786084ba2ba4bf"
+    }
+  ],
+  "historical_bytes_preserved": "history/before-identity-confirmation/",
+  "prompt_and_original_media_edits": false,
+  "git_commit_push_performed": false
+}

@@ -21,9 +21,11 @@
   "extended_listening_accepted": false,
   "record_scope": "Original October 7 preparation fields retained as history; current routing and reported feedback are recorded separately below",
   "current_update_date": "2026-11-08",
-  "current_status": "User reports both expressive V3 samples massively better; files, exact settings and selected long-track seed pending",
+  "current_status": "Both preferred expressive Baal test originals received and user-confirmed2026-11-08; no single seed or long source selected; exact model/settings unknown.",
   "current_manifest": "../../../../final/15-beneath-a-crimson-sky/manifest.json",
   "current_prompt": "../../../../final/15-beneath-a-crimson-sky/elevenlabs-skies-of-baal-expressive-v3.txt",
   "current_long_prompt": "../../../../final/15-beneath-a-crimson-sky/elevenlabs-skies-of-baal-expressive-long-v4.txt",
-  "current_feedback_record": "../../../../final/15-beneath-a-crimson-sky/music-refinement-2026-11-07.json"
+  "current_feedback_record": "../../../../final/15-beneath-a-crimson-sky/music-refinement-2026-11-07.json",
+  "current_intake": "../../../../music/beneath-a-crimson-sky-test-intake-2026-11-08/intake.json",
+  "current_identity_confirmation": "../../../../music/beneath-a-crimson-sky-test-intake-2026-11-08/identity-confirmation.json"
 }

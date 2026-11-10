@@ -28,7 +28,7 @@
     "path": "elevenlabs-skies-of-baal-expressive-v3.txt",
     "sha256": "457249b74338c9023837860a1508c96aff4bb9a01583cb01bbb48c7e09fa3454",
     "bytes": 1558,
-    "status": "User-endorsed direction after two reported much-better samples; original files/settings pending"
+    "status": "User-endorsed direction; both original60s test exports received and identity confirmed2026-11-08. Exact executed prompt/settings and long source selection remain unknown."
   },
   "choices": [
     "Transfer compositional breathing and spatial scale into Baal rather than copying Hoth musical material.",
@@ -55,18 +55,47 @@
   },
   "limitations": [
     "No new assistant audio listening.",
-    "Baal sample files were not supplied in this turn; no sample-specific diagnosis.",
+    "At the November7 refinement checkpoint sample files had not been supplied. Both60s originals are now received/confirmed; signal measurements do not establish musical preference.",
     "Exact approved Snowline generation prompt/model/30s seed remain unknown.",
     "SWTOR reference measurements describe a separate recording and are not target settings.",
     "No paid generation, upload, commit or push for this refinement."
   ],
-  "current_status": "User reports both new samples massively better; direction adopted as top-priority future default",
+  "current_status": "Both preferred music test originals supplied and user-confirmed2026-11-08; both retained as candidates, no long source selected.",
   "user_followup": {
     "date": "2026-11-07",
     "exact": "yes both those were massively better, whatever we changed, make sure we now change it in any future prompts and learn and save this for all future creation and prompt writing, this is top priortyi",
     "reported_samples": 2,
     "sample_files_received": false,
-    "long_track_selected": false
+    "long_track_selected": false,
+    "scope": "Historical November7 feedback state; later source receipt and confirmation are in current_intake."
   },
-  "shared_learning": "creative/music/expressive-development-learning-2026-11-07.json"
+  "shared_learning": "creative/music/expressive-development-learning-2026-11-07.json",
+  "current_intake": {
+    "date": "2026-11-08",
+    "source_files_received": true,
+    "identity_confirmation": "music/beneath-a-crimson-sky-test-intake-2026-11-08/identity-confirmation.json",
+    "intake": "music/beneath-a-crimson-sky-test-intake-2026-11-08/intake.json",
+    "sources": [
+      {
+        "id": "A",
+        "repo_path": "music/beneath-a-crimson-sky-test-intake-2026-11-08/sources/Crimson_Terrace_Vigil_2026-11-07T165049.mp4",
+        "sha256": "8195b181e06600a0f56998de33f23e422265ddc91a97e4e4b1d15202742b2cf1",
+        "bytes": 1510839,
+        "audio_seconds": 60.0,
+        "sample_rate": 48000,
+        "channels": 2
+      },
+      {
+        "id": "B",
+        "repo_path": "music/beneath-a-crimson-sky-test-intake-2026-11-08/sources/Crimson_Terrace_Vigil_2026-11-07T165049 (1).mp4",
+        "sha256": "b442955621692e4e1fa13a7359251ea7f25b1fe2da5bb7eba9b8a8248efb7fe9",
+        "bytes": 1496458,
+        "audio_seconds": 60.0,
+        "sample_rate": 48000,
+        "channels": 2
+      }
+    ],
+    "single_seed_selected": false,
+    "long_track_selected": false
+  }
 }

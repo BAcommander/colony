@@ -257,7 +257,7 @@
     "description": "../../creative/live/skies-of-baal/release-v2/description.txt",
     "search_tags": "../../creative/live/skies-of-baal/release-v2/youtube-tags.txt",
     "suggested_title": "../../creative/live/skies-of-baal/release-v2/youtube-title.txt",
-    "music_prompt": "elevenlabs-skies-of-baal-angelic-v2.txt",
+    "music_prompt": "elevenlabs-skies-of-baal-expressive-v3.txt",
     "weather_and_sfx": "weather-and-sfx.md",
     "animation_preview": {
       "folder": "../../music/beneath-a-crimson-sky-synced-storm",
@@ -267,7 +267,13 @@
       "user_approved": false,
       "audio": true
     },
-    "manifest": "manifest.json"
+    "manifest": "manifest.json",
+    "music_long_prompt": "elevenlabs-skies-of-baal-expressive-long-v4.txt",
+    "music_tests": {
+      "folder": "../../music/beneath-a-crimson-sky-test-intake-2026-11-08",
+      "status": "Two preferred60s music originals received and confirmed; both remain candidates. Long source pending.",
+      "single_seed_selected": false
+    }
   },
   {
     "folder": "16-cyberpunk-apartment",

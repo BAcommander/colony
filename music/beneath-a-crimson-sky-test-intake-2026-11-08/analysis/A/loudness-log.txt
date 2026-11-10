@@ -1,0 +1,43 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'G:\AI\colony\music\beneath-a-crimson-sky-test-intake-2026-11-08\sources\Crimson_Terrace_Vigil_2026-11-07T165049.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf59.27.100
+  Duration: 00:01:04.40, start: 0.000000, bitrate: 187 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 960x540 [SAR 1:1 DAR 16:9], 2 kb/s, 10 fps, 10 tbr, 10240 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc59.37.100 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 194 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.100
+  Stream #0:0(und): Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.100 pcm_s16le
+      handler_name    : SoundHandler
+[Parsed_ebur128_0 @ 0000023f02c6ae40] Summary:
+
+  Integrated loudness:
+    I:         -15.4 LUFS
+    Threshold: -25.8 LUFS
+
+  Loudness range:
+    LRA:         9.0 LU
+    Threshold: -35.6 LUFS
+    LRA low:   -21.7 LUFS
+    LRA high:  -12.7 LUFS
+
+  True peak:
+    Peak:       -2.9 dBFS
+[out#0/null @ 0000023f02c4f9c0] video:0KiB audio:11250KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:01:00.00 bitrate=N/A speed= 413x elapsed=0:00:00.14    

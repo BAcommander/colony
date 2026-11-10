@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-08",
+  "question": "Both files contain 60 seconds of audio. Are these the two improved Baal music tests you liked, or new sound-effect tests?",
+  "user_answer_exact": "The two improved music tests",
+  "classification": "Original exports of the two user-preferred expressive Baal music tests",
+  "prior_feedback_exact": "yes both those were massively better, whatever we changed, make sure we now change it in any future prompts and learn and save this for all future creation and prompt writing, this is top priortyi",
+  "source_files": [
+    {
+      "id": "A",
+      "repo_path": "music/beneath-a-crimson-sky-test-intake-2026-11-08/sources/Crimson_Terrace_Vigil_2026-11-07T165049.mp4",
+      "sha256": "8195b181e06600a0f56998de33f23e422265ddc91a97e4e4b1d15202742b2cf1",
+      "bytes": 1510839,
+      "audio_seconds": 60.0,
+      "sample_rate": 48000,
+      "channels": 2
+    },
+    {
+      "id": "B",
+      "repo_path": "music/beneath-a-crimson-sky-test-intake-2026-11-08/sources/Crimson_Terrace_Vigil_2026-11-07T165049 (1).mp4",
+      "sha256": "b442955621692e4e1fa13a7359251ea7f25b1fe2da5bb7eba9b8a8248efb7fe9",
+      "bytes": 1496458,
+      "audio_seconds": 60.0,
+      "sample_rate": 48000,
+      "channels": 2
+    }
+  ],
+  "both_retained_as_candidates": true,
+  "single_seed_selected": false,
+  "long_track_or_final_soundtrack_approved": false,
+  "exact_executed_prompt_model_settings": "Not supplied; confirmation identifies the tests and feedback, not the pasted prompt or generation controls.",
+  "assistant_listened": false,
+  "shared_learning": "creative/music/expressive-development-learning-2026-11-07.json",
+  "existing_storm_effects_unchanged": true,
+  "git_commit_push_performed": false
+}

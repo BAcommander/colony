@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-08",
+  "user_quote": "heres the sfx tests for 15, the skies of baal",
+  "scene": 15,
+  "public_title": "Beneath a Crimson Sky",
+  "working_title": "Skies of Baal",
+  "sources": [
+    {
+      "id": "A",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Crimson_Terrace_Vigil_2026-11-07T165049.mp4",
+      "repo_path": "music/beneath-a-crimson-sky-test-intake-2026-11-08/sources/Crimson_Terrace_Vigil_2026-11-07T165049.mp4",
+      "bytes": 1510839,
+      "sha256": "8195b181e06600a0f56998de33f23e422265ddc91a97e4e4b1d15202742b2cf1",
+      "original_preserved_byte_exact": true,
+      "audio_seconds": 60.0,
+      "container_seconds": 64.4,
+      "sample_rate": 48000,
+      "channels": 2,
+      "classification": "user-confirmed improved Baal music test"
+    },
+    {
+      "id": "B",
+      "original_path": "C:\\Users\\jazzs\\Downloads\\Crimson_Terrace_Vigil_2026-11-07T165049 (1).mp4",
+      "repo_path": "music/beneath-a-crimson-sky-test-intake-2026-11-08/sources/Crimson_Terrace_Vigil_2026-11-07T165049 (1).mp4",
+      "bytes": 1496458,
+      "sha256": "b442955621692e4e1fa13a7359251ea7f25b1fe2da5bb7eba9b8a8248efb7fe9",
+      "original_preserved_byte_exact": true,
+      "audio_seconds": 60.0,
+      "container_seconds": 64.4,
+      "sample_rate": 48000,
+      "channels": 2,
+      "classification": "user-confirmed improved Baal music test"
+    }
+  ],
+  "identity_clarification": "Confirmed 2026-11-08: the two improved music tests",
+  "exact_prompt_model_settings": "not supplied",
+  "association_with_previous_massively_better_feedback": "User confirmed these are the two preferred Baal music tests",
+  "existing_art_audio_sfx_unchanged": true,
+  "assistant_listened": false,
+  "commit_push_performed": false,
+  "reviews": "review-recipe.json",
+  "technical_status": "Both originals decode fully at60s/48kHz stereo; no full-scale peaks. Independent constant-gain audition copies verified near-23LUFS.",
+  "identity_confirmation": "music/beneath-a-crimson-sky-test-intake-2026-11-08/identity-confirmation.json",
+  "both_retained_as_candidates": true,
+  "single_seed_selected": false
+}

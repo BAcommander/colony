@@ -1,0 +1,37 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'music\beneath-a-crimson-sky-test-intake-2026-11-08\review\Crimson-Terrace-Vigil-B-level-matched-60s.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf63.1.100
+  Duration: 00:01:00.00, start: 0.000000, bitrate: 243 kb/s
+  Stream #0:0[0x1](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 241 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (aac (native) -> pcm_s16le (native))
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf63.1.100
+  Stream #0:0(und): Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.100 pcm_s16le
+      handler_name    : SoundHandler
+size=N/A time=00:00:21.80 bitrate=N/A speed=43.2x elapsed=0:00:00.50    size=N/A time=00:00:42.60 bitrate=N/A speed=41.8x elapsed=0:00:01.02    [Parsed_loudnorm_0 @ 000001d4d49fcf00] 
+{
+	"input_i" : "-23.01",
+	"input_tp" : "-10.13",
+	"input_lra" : "8.20",
+	"input_thresh" : "-33.66",
+	"output_i" : "-22.01",
+	"output_tp" : "-9.82",
+	"output_lra" : "5.60",
+	"output_thresh" : "-32.40",
+	"normalization_type" : "dynamic",
+	"target_offset" : "-0.99"
+}
+[out#0/null @ 000001d4d2df72c0] video:0KiB audio:45000KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:01:00.00 bitrate=N/A speed=43.4x elapsed=0:00:01.38    
