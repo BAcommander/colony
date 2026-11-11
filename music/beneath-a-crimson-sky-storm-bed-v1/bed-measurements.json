@@ -1,0 +1,84 @@
+{
+ "dark": {
+  "seconds": 600.0,
+  "sustained_tonal_pct": 23.64,
+  "noise_residual_pct": 57.45,
+  "transient_pct": 18.9,
+  "flatness_40_160": 0.7045,
+  "flatness_160_500": 0.7354,
+  "flatness_500_2000": 0.5096,
+  "flatness_2000_8000": 0.0541,
+  "hf_2to8k_minus_total_db": -17.53,
+  "hf_2to8k_1s_p5_p95_spread_db": 7.84,
+  "total_1s_median_abs_step_db": 0.388,
+  "total_30s_p5_p95_spread_db": 2.62,
+  "events_per_min_6db": 0.0,
+  "events_per_min_10db": 0.0,
+  "pct_time_6db_above_recent": 0.0,
+  "chroma_cosine_distance_10s": 0.0201,
+  "chroma_cosine_distance_60s": 0.0195,
+  "top_pitch_classes": [
+   [
+    "F",
+    13.9
+   ],
+   [
+    "A#",
+    11.2
+   ],
+   [
+    "D#",
+    10.4
+   ],
+   [
+    "E",
+    9.7
+   ]
+  ],
+  "dominant_pitch_class_changes_per_min": 10.43,
+  "time_share_of_most_common_dominant_pct": 72.2,
+  "harmonic_onset_flux_median": 0.1561,
+  "harmonic_onset_flux_p95": 0.1817
+ },
+ "open": {
+  "seconds": 600.0,
+  "sustained_tonal_pct": 23.5,
+  "noise_residual_pct": 57.45,
+  "transient_pct": 19.04,
+  "flatness_40_160": 0.7045,
+  "flatness_160_500": 0.7354,
+  "flatness_500_2000": 0.5314,
+  "flatness_2000_8000": 0.4637,
+  "hf_2to8k_minus_total_db": -13.86,
+  "hf_2to8k_1s_p5_p95_spread_db": 6.16,
+  "total_1s_median_abs_step_db": 0.385,
+  "total_30s_p5_p95_spread_db": 2.63,
+  "events_per_min_6db": 0.0,
+  "events_per_min_10db": 0.0,
+  "pct_time_6db_above_recent": 0.0,
+  "chroma_cosine_distance_10s": 0.0201,
+  "chroma_cosine_distance_60s": 0.0195,
+  "top_pitch_classes": [
+   [
+    "F",
+    13.9
+   ],
+   [
+    "A#",
+    11.2
+   ],
+   [
+    "D#",
+    10.4
+   ],
+   [
+    "E",
+    9.7
+   ]
+  ],
+  "dominant_pitch_class_changes_per_min": 10.63,
+  "time_share_of_most_common_dominant_pct": 71.5,
+  "harmonic_onset_flux_median": 0.1556,
+  "harmonic_onset_flux_p95": 0.181
+ }
+}

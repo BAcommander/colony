@@ -1,5 +1,11 @@
 # Ambient Colony: lessons to carry into the next video
 
+## Standing rule and current findings — November 11, 2026
+
+The user requires every new video to improve on the last in video, thumbnail/title and music, and to record what was tried and what happened. Use the [improvement log](IMPROVEMENT_LOG.md) at the start of each video: it holds the rule, the current analytics baseline, open findings, the six-step standing plan and the per-video experiment table.
+
+Two new pieces of evidence sit behind it. The [first Studio snapshot](music/channel-research-2026-10-30/studio-export-2026-11-11/README.md) shows viewers watch about a third of any video length, click-through is the weakest number, and playlists give the longest sessions. The [SIGNAL STATION analysis](music/reference-analysis/signal-station-2026-11-11/README.md) shows both of the user's long-session reference streams carry a constant noise-like weather bed with very few stand-out moments, unlike our mostly tonal mixes with intermittent effects. The user reports listening to that stream for about ten hours without difficulty. The constant-bed idea is a hypothesis to test on Beneath a Crimson Sky, not an established cause. It changes where the music sits and how it is chosen; the expressive-development rule below still governs how the music is written.
+
 ## Top-priority creative lesson — November 7, 2026
 
 The user reports both revised Baal samples were **"massively better"** and explicitly requires this lesson for all future creation and prompt writing. Start with the intended experience and the meaningful action or change that communicates it. Support that intent with selective constraints and judge whether it is perceptible in the result.

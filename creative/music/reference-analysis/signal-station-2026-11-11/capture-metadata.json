@@ -1,0 +1,15 @@
+{
+  "id": "xWLPU_Ku3Kw",
+  "title": "THE SIGNAL STATION | Dark Forest Rain Ambience | 24/7 2026-11-11 10:20",
+  "channel": "Ambient Outpost",
+  "webpage_url": "https://www.youtube.com/watch?v=xWLPU_Ku3Kw",
+  "duration": null,
+  "is_live": true,
+  "live_status": "is_live",
+  "format_id": "234",
+  "retrieved_at_utc": "2026-11-11T10:20:56.375011+00:00",
+  "scope": "bounded live DVR excerpt; not the whole stream",
+  "requested_sample_seconds": 1800.0,
+  "approximate_start_seconds_behind_live": 1815.0,
+  "live_start_index": -363
+}

@@ -1,0 +1,330 @@
+{
+ "SIGNAL STATION": {
+  "seconds": 1800.0,
+  "sustained_tonal_pct": 62.9,
+  "noise_residual_pct": 30.57,
+  "transient_pct": 6.52,
+  "flatness_40_160": 0.3844,
+  "flatness_160_500": 0.2484,
+  "flatness_500_2000": 0.4275,
+  "flatness_2000_8000": 0.4004,
+  "hf_2to8k_minus_total_db": -18.45,
+  "hf_2to8k_1s_p5_p95_spread_db": 2.93,
+  "total_1s_median_abs_step_db": 0.737,
+  "total_30s_p5_p95_spread_db": 1.93,
+  "events_per_min_6db": 2.43,
+  "events_per_min_10db": 0.16,
+  "pct_time_6db_above_recent": 0.71,
+  "chroma_cosine_distance_10s": 0.2881,
+  "chroma_cosine_distance_60s": 0.4778,
+  "top_pitch_classes": [
+   [
+    "A",
+    23.3
+   ],
+   [
+    "D",
+    14.9
+   ],
+   [
+    "C#",
+    10.5
+   ],
+   [
+    "E",
+    9.4
+   ]
+  ],
+  "dominant_pitch_class_changes_per_min": 7.62,
+  "time_share_of_most_common_dominant_pct": 48.0,
+  "harmonic_onset_flux_median": 0.1302,
+  "harmonic_onset_flux_p95": 0.1877
+ },
+ "WINTER WATCH": {
+  "seconds": 1800.0,
+  "sustained_tonal_pct": 65.36,
+  "noise_residual_pct": 28.82,
+  "transient_pct": 5.82,
+  "flatness_40_160": 0.4036,
+  "flatness_160_500": 0.3046,
+  "flatness_500_2000": 0.2456,
+  "flatness_2000_8000": 0.038,
+  "hf_2to8k_minus_total_db": -21.47,
+  "hf_2to8k_1s_p5_p95_spread_db": 7.57,
+  "total_1s_median_abs_step_db": 0.731,
+  "total_30s_p5_p95_spread_db": 3.09,
+  "events_per_min_6db": 1.47,
+  "events_per_min_10db": 0.0,
+  "pct_time_6db_above_recent": 0.41,
+  "chroma_cosine_distance_10s": 0.2583,
+  "chroma_cosine_distance_60s": 0.3231,
+  "top_pitch_classes": [
+   [
+    "C#",
+    16.0
+   ],
+   [
+    "C",
+    15.9
+   ],
+   [
+    "G",
+    14.8
+   ],
+   [
+    "G#",
+    11.8
+   ]
+  ],
+  "dominant_pitch_class_changes_per_min": 13.08,
+  "time_share_of_most_common_dominant_pct": 33.0,
+  "harmonic_onset_flux_median": 0.1346,
+  "harmonic_onset_flux_p95": 0.1825
+ },
+ "Snowline V6": {
+  "seconds": 1800.0,
+  "sustained_tonal_pct": 77.69,
+  "noise_residual_pct": 17.34,
+  "transient_pct": 4.96,
+  "flatness_40_160": 0.3402,
+  "flatness_160_500": 0.203,
+  "flatness_500_2000": 0.0683,
+  "flatness_2000_8000": 0.0312,
+  "hf_2to8k_minus_total_db": -34.42,
+  "hf_2to8k_1s_p5_p95_spread_db": 16.84,
+  "total_1s_median_abs_step_db": 1.611,
+  "total_30s_p5_p95_spread_db": 3.95,
+  "events_per_min_6db": 17.06,
+  "events_per_min_10db": 5.25,
+  "pct_time_6db_above_recent": 12.37,
+  "chroma_cosine_distance_10s": 0.2919,
+  "chroma_cosine_distance_60s": 0.3093,
+  "top_pitch_classes": [
+   [
+    "E",
+    29.8
+   ],
+   [
+    "A",
+    19.7
+   ],
+   [
+    "C",
+    14.2
+   ],
+   [
+    "G",
+    9.4
+   ]
+  ],
+  "dominant_pitch_class_changes_per_min": 18.15,
+  "time_share_of_most_common_dominant_pct": 47.7,
+  "harmonic_onset_flux_median": 0.1003,
+  "harmonic_onset_flux_p95": 0.1886
+ },
+ "Rainline": {
+  "seconds": 1800.0,
+  "sustained_tonal_pct": 94.55,
+  "noise_residual_pct": 4.78,
+  "transient_pct": 0.67,
+  "flatness_40_160": 0.034,
+  "flatness_160_500": 0.0525,
+  "flatness_500_2000": 0.0205,
+  "flatness_2000_8000": 0.4183,
+  "hf_2to8k_minus_total_db": -41.86,
+  "hf_2to8k_1s_p5_p95_spread_db": 23.77,
+  "total_1s_median_abs_step_db": 0.21,
+  "total_30s_p5_p95_spread_db": 2.1,
+  "events_per_min_6db": 1.47,
+  "events_per_min_10db": 0.0,
+  "pct_time_6db_above_recent": 0.77,
+  "chroma_cosine_distance_10s": 0.0471,
+  "chroma_cosine_distance_60s": 0.0201,
+  "top_pitch_classes": [
+   [
+    "G#",
+    30.0
+   ],
+   [
+    "F#",
+    27.4
+   ],
+   [
+    "D",
+    12.4
+   ],
+   [
+    "G",
+    11.8
+   ]
+  ],
+  "dominant_pitch_class_changes_per_min": 5.2,
+  "time_share_of_most_common_dominant_pct": 89.4,
+  "harmonic_onset_flux_median": 0.1037,
+  "harmonic_onset_flux_p95": 0.1624
+ },
+ "Shoreless": {
+  "seconds": 1800.0,
+  "sustained_tonal_pct": 81.26,
+  "noise_residual_pct": 16.3,
+  "transient_pct": 2.45,
+  "flatness_40_160": 0.3477,
+  "flatness_160_500": 0.1235,
+  "flatness_500_2000": 0.0283,
+  "flatness_2000_8000": 0.0134,
+  "hf_2to8k_minus_total_db": -39.15,
+  "hf_2to8k_1s_p5_p95_spread_db": 12.49,
+  "total_1s_median_abs_step_db": 0.971,
+  "total_30s_p5_p95_spread_db": 1.36,
+  "events_per_min_6db": 2.75,
+  "events_per_min_10db": 0.0,
+  "pct_time_6db_above_recent": 0.5,
+  "chroma_cosine_distance_10s": 0.19,
+  "chroma_cosine_distance_60s": 0.1547,
+  "top_pitch_classes": [
+   [
+    "E",
+    25.3
+   ],
+   [
+    "F",
+    21.8
+   ],
+   [
+    "A",
+    15.8
+   ],
+   [
+    "C",
+    10.5
+   ]
+  ],
+  "dominant_pitch_class_changes_per_min": 11.49,
+  "time_share_of_most_common_dominant_pct": 48.3,
+  "harmonic_onset_flux_median": 0.1262,
+  "harmonic_onset_flux_p95": 0.1922
+ },
+ "Basalt": {
+  "seconds": 1800.0,
+  "sustained_tonal_pct": 88.97,
+  "noise_residual_pct": 9.46,
+  "transient_pct": 1.56,
+  "flatness_40_160": 0.0323,
+  "flatness_160_500": 0.1224,
+  "flatness_500_2000": 0.015,
+  "flatness_2000_8000": 0.0505,
+  "hf_2to8k_minus_total_db": -47.38,
+  "hf_2to8k_1s_p5_p95_spread_db": 14.24,
+  "total_1s_median_abs_step_db": 0.639,
+  "total_30s_p5_p95_spread_db": 2.46,
+  "events_per_min_6db": 1.89,
+  "events_per_min_10db": 0.0,
+  "pct_time_6db_above_recent": 0.59,
+  "chroma_cosine_distance_10s": 0.2034,
+  "chroma_cosine_distance_60s": 0.1678,
+  "top_pitch_classes": [
+   [
+    "C",
+    41.1
+   ],
+   [
+    "G",
+    22.0
+   ],
+   [
+    "D",
+    8.2
+   ],
+   [
+    "D#",
+    7.4
+   ]
+  ],
+  "dominant_pitch_class_changes_per_min": 6.36,
+  "time_share_of_most_common_dominant_pct": 71.1,
+  "harmonic_onset_flux_median": 0.1115,
+  "harmonic_onset_flux_p95": 0.1839
+ },
+ "Ringfall": {
+  "seconds": 1800.0,
+  "sustained_tonal_pct": 94.67,
+  "noise_residual_pct": 4.53,
+  "transient_pct": 0.8,
+  "flatness_40_160": 0.0431,
+  "flatness_160_500": 0.0842,
+  "flatness_500_2000": 0.0219,
+  "flatness_2000_8000": 0.0385,
+  "hf_2to8k_minus_total_db": -47.38,
+  "hf_2to8k_1s_p5_p95_spread_db": 12.5,
+  "total_1s_median_abs_step_db": 0.706,
+  "total_30s_p5_p95_spread_db": 5.11,
+  "events_per_min_6db": 9.57,
+  "events_per_min_10db": 0.77,
+  "pct_time_6db_above_recent": 8.32,
+  "chroma_cosine_distance_10s": 0.2359,
+  "chroma_cosine_distance_60s": 0.142,
+  "top_pitch_classes": [
+   [
+    "C#",
+    42.7
+   ],
+   [
+    "D#",
+    22.9
+   ],
+   [
+    "D",
+    8.7
+   ],
+   [
+    "A",
+    6.5
+   ]
+  ],
+  "dominant_pitch_class_changes_per_min": 2.91,
+  "time_share_of_most_common_dominant_pct": 81.7,
+  "harmonic_onset_flux_median": 0.1129,
+  "harmonic_onset_flux_p95": 0.1798
+ },
+ "Spirewatch": {
+  "seconds": 1800.0,
+  "sustained_tonal_pct": 80.4,
+  "noise_residual_pct": 14.55,
+  "transient_pct": 5.05,
+  "flatness_40_160": 0.0896,
+  "flatness_160_500": 0.1648,
+  "flatness_500_2000": 0.059,
+  "flatness_2000_8000": 0.0173,
+  "hf_2to8k_minus_total_db": -31.18,
+  "hf_2to8k_1s_p5_p95_spread_db": 19.63,
+  "total_1s_median_abs_step_db": 0.481,
+  "total_30s_p5_p95_spread_db": 1.23,
+  "events_per_min_6db": 5.83,
+  "events_per_min_10db": 0.13,
+  "pct_time_6db_above_recent": 1.2,
+  "chroma_cosine_distance_10s": 0.0547,
+  "chroma_cosine_distance_60s": 0.0636,
+  "top_pitch_classes": [
+   [
+    "A",
+    31.4
+   ],
+   [
+    "E",
+    15.7
+   ],
+   [
+    "D#",
+    8.7
+   ],
+   [
+    "A#",
+    8.3
+   ]
+  ],
+  "dominant_pitch_class_changes_per_min": 5.1,
+  "time_share_of_most_common_dominant_pct": 72.7,
+  "harmonic_onset_flux_median": 0.1274,
+  "harmonic_onset_flux_p95": 0.222
+ }
+}

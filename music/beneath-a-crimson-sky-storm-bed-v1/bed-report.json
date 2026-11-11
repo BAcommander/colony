@@ -1,0 +1,82 @@
+{
+ "seed": 1511,
+ "seconds": 600,
+ "rate": 48000,
+ "listening_gain_db": 3.341,
+ "sources": [
+  "music/sfx-library/assets/wind-soft-exterior-01.mp3 (30 s)",
+  "music/sfx-library/assets/grit-mineral-soft-01.mp3 (12 s)",
+  "synthesized thunder from music/beneath-a-crimson-sky-persistent-storm/design_sound.py"
+ ],
+ "settings": {
+  "grit_below_wind_db": 9.0,
+  "hiss_below_wind_db": 14.0,
+  "gust_db": 2.5,
+  "gust_periods_s": [
+   47,
+   83,
+   131
+  ],
+  "wind_bands_hz": [
+   [
+    70,
+    1810
+   ],
+   [
+    60,
+    700
+   ]
+  ],
+  "grit_band_hz": [
+   165,
+   2360
+  ],
+  "hiss_band_hz": [
+   1500,
+   7000
+  ]
+ },
+ "section_counts": {
+  "wind_a": 86,
+  "wind_b": 66,
+  "grit": 206,
+  "hiss": 184
+ },
+ "rms_dbfs_after_gain": {
+  "dark": -30.0,
+  "open": -29.84,
+  "thunder_stem": -44.54
+ },
+ "peak_dbfs_after_gain": {
+  "dark+thunder": -9.59,
+  "open+thunder": -9.64
+ },
+ "thunder_cues": [
+  {
+   "start_s": 77.6,
+   "length_s": 10.5,
+   "distance": 0.59,
+   "peak_above_bed_db": 1.9
+  },
+  {
+   "start_s": 188.5,
+   "length_s": 10.0,
+   "distance": 0.68,
+   "peak_above_bed_db": 2.5
+  },
+  {
+   "start_s": 335.8,
+   "length_s": 10.9,
+   "distance": 0.69,
+   "peak_above_bed_db": 1.5
+  },
+  {
+   "start_s": 490.4,
+   "length_s": 9.8,
+   "distance": 0.76,
+   "peak_above_bed_db": 2.7
+  }
+ ],
+ "no_music": true,
+ "assistant_listened": false
+}

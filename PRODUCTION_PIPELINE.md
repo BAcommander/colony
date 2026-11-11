@@ -30,6 +30,8 @@ New still candidate, 2026-10-27: [The Brineward Station](creative/concepts/brine
 
 Last updated: 2026-11-05. This is the live work queue for numbered releases through scene 18. Start here each session, then read the relevant scene manifest and specialist workflow. Update current status in place; keep exact feedback and old versions in the scene package.
 
+**Standing rule, 2026-11-11:** every new video must try to improve on the last in video, thumbnail/title and music. Start each video with the [improvement log](creative/IMPROVEMENT_LOG.md): refresh the Studio figures, record due results, add this video's experiments and follow the six-step standing plan. Beneath a Crimson Sky (#15) is the first video built this way.
+
 Before any animation plan or revision, consult the [animation knowledge bank](creative/ANIMATION_KNOWLEDGE_BANK.md). It links lessons from videos 01â€“09 to the source implementations, separates accepted results from candidates, and records what to reuse or avoid. Capture the selected examples in the scene plan and update the bank after meaningful feedback.
 
 ## Release calendar
